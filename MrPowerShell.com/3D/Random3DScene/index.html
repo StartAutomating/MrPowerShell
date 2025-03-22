@@ -1,0 +1,102 @@
+<html lang='en-US'>
+    <head>
+        <meta charset="utf-8">
+        <title>There is no route table</title>
+        <style>body { margin: 0; }</style>
+    </head>
+    <script type="importmap">{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@latest/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/"
+  }
+}</script>
+    </head>
+    <body>
+    <div id="container-3d"></div>
+    <script type="module">import * as THREE from 'three';
+import { CSS3DRenderer, CSS3DObject } from 'three/addons/renderers/CSS3DRenderer.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { TrackballControls } from 'three/addons/controls/TrackballControls.js';
+
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+
+let geometry = null
+let material = null
+let newshape = null
+let shapes = []
+geometry = new THREE.TorusKnotGeometry( 3, 7, 3, 7, 4  );
+material = new THREE.LineBasicMaterial( { color: 0x904b49, linewidth: 1 } );
+newshape = new THREE.Mesh( geometry, material );
+newshape.position.x = -39;
+newshape.position.y = -49;
+newshape.position.z = 35;
+newshape.rotation.x = 11;
+newshape.rotation.y = 20;
+newshape.rotation.z = 159;
+scene.add(newshape);
+shapes.push(newshape);
+geometry = new THREE.BoxGeometry( 8, 23, 3 );
+material = new THREE.LineBasicMaterial( { color: 0x6c84f9, linewidth: 2 } );
+newshape = new THREE.Mesh( geometry, material );
+newshape.position.x = -84;
+newshape.position.y = -6;
+newshape.position.z = 31;
+newshape.rotation.x = 3;
+newshape.rotation.y = 147;
+newshape.rotation.z = 61;
+scene.add(newshape);
+shapes.push(newshape);
+geometry = new THREE.BoxGeometry( 14, 3, 16 );
+material = new THREE.MeshBasicMaterial( { color: 0x5c4537, wireframe: false } );
+newshape = new THREE.Mesh( geometry, material );
+newshape.position.x = -31;
+newshape.position.y = 91;
+newshape.position.z = -80;
+newshape.rotation.x = 156;
+newshape.rotation.y = 154;
+newshape.rotation.z = 152;
+scene.add(newshape);
+shapes.push(newshape);
+
+
+
+const renderer = new THREE.WebGLRenderer({alpha: true});
+renderer.setClearColor( 0xffffff, 0 );
+renderer.setAnimationLoop( animate );
+document.body.appendChild( renderer.domElement );
+
+
+renderer.setSize( window.innerWidth, window.innerHeight );
+
+camera.position.z = 114;
+
+window.addEventListener( 'resize', () => {
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize( window.innerWidth, window.innerHeight );
+    renderer.render( scene, camera );
+} );
+
+
+let controls = new OrbitControls( camera, renderer.domElement );
+controls.minDistance = 5;
+controls.maxDistance = 1;
+controls.autoRotate = true;
+controls.autoRotateSpeed = 0.32;
+controls.listenToKeyEvents( window );
+controls.enableDamping = true;
+controls.addEventListener( 'change', renderer.render( scene, camera ) );
+
+
+function animate() {
+    for (let i = 0; i < shapes.length; i++) {
+    let cube = shapes[i];
+    cube.rotation.x += 0.03;
+    cube.rotation.y += 0.042;
+}
+    
+    renderer.render( scene, camera );
+    
+}</script>
+    </body>
