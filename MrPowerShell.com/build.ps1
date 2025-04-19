@@ -9,16 +9,24 @@ $scriptsToMake =
         $executionContext.InvokeCommand.GetCommand($file.FullName,'ExternalScript')
     }
 
+$PaletteName = 'Konsolas'
 
 function layout {
-    "<html>"
-    "<head>"
-        "<title>$($NameWithoutExtension)</title>"
-    "</head>"
-    "<body>"
-    $input -join [Environment]::NewLine
-    "</body>"
-    "</html>"
+$argsAndinput = @($args) + @($input)
+@"
+<html>
+    <head>
+        <title>$Title</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/2bitdesigns/4bitcss@latest/css/$PaletteName.css'>
+        $OpenGraph
+        $ImportMap
+    </head>
+    <body>
+$($argsAndinput -join [Environment]::NewLine)
+    </body>
+<html>
+"@
 }
 
 
