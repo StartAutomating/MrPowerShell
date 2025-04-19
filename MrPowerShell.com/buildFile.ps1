@@ -28,16 +28,18 @@ $start = [datetime]::Now
     if ($null -eq $Output) {
         continue nextFile
     }
-    
+                
     if ($output -is [xml]) {
         $output.Save($outFile)
         if ($?) {
             Get-Item -Path $outFile
         }
-    } elseif ($output -is [IO.FileInfo] -or (
-        $output -is [Collections.IList] -and $output -as [IO.FileInfo[]]
-    )) {
-        $output
+    } elseif ($outputFiles = foreach ($out in $Output) {
+        if ($out -is [IO.FileInfo]) {
+            $out
+        }
+    }) {
+        $outputFiles
     } else {
         if ($outFile -match '\.html$' -and -not ($output -match '<html>')) {
             $output | layout > $outFile
