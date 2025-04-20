@@ -26,7 +26,7 @@ foreach ($variant in '', 'Animated') {
             ) -join ' ')
         ) -ViewBox 100, 100    
         
-        $ry = 25 * 4/3
+        $ry = 25 * 4.2/3
 
         svg.ellipse -StrokeWidth 1.25 -Fill transparent -Cx 50% -Cy 50% -Stroke '#4488ff' -Ry "$($ry)%" -Rx 25% -Class foreground-stroke -Children @(
             if ($variant -match 'Animated') {
