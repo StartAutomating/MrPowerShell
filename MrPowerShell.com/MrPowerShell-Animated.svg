@@ -7,9 +7,8 @@
   <symbol id="psChevron" viewBox="0 0 100 100">
     <polygon points="40,20 45,20 60,50 35,80 32.5,80 55,50" />
   </symbol>
-  <ellipse stroke-width="1.25" fill="transparent" cx="50%" cy="50%" stroke="#4488ff" ry="35%" rx="25%" class="foreground-stroke">
-    <animate attributeName="rx" values="25%; 42%; 25%" dur="4.2s" repeatCount="indefinite" />
-    <animate attributeName="ry" values="35%; 42%; 35%" dur="4.2s" repeatCount="indefinite" />
+  <ellipse stroke-width="1.25" fill="transparent" cx="50%" cy="50%" stroke="#4488ff" ry="25%" rx="15%" class="foreground-stroke">
+    <animate attributeName="rx" values="15%; 21%; 15%" dur="4.2s" repeatCount="indefinite" />
   </ellipse>
   <use href="#psChevron" fill="#4488ff" transform-origin="50% 50%" width="20%" x="40%" y="0%" class="foreground-fill" />
 </svg>
