@@ -1,4 +1,1 @@
-ConvertTo-Json @{
-    n = Get-Random
-}
-
+ConvertTo-Json -InputObject (Get-Random)
