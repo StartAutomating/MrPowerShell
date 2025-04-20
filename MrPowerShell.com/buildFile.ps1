@@ -9,10 +9,10 @@ Set-Alias layout "$pwd/layout.ps1"
 $start = [datetime]::Now
 
 :nextFile foreach ($file in $input) {
-    $outFile = $file.FullName -replace '\.ps1$'
+    $outFile = $file.FullName -replace '\.ps1$'    
     $Output = switch ($file.Extension) {
         '.md' {
-            $title = $file.Name
+            $title = $file.Name -replace '\.md$' -replace 'index'
             $outFile = $file.FullName -replace '\.md$', '.html'
             (ConvertFrom-Markdown -Path $file.FullName).Html |
                 layout
@@ -21,6 +21,18 @@ $start = [datetime]::Now
             if ($file.Name -notmatch '\..+?\.ps1$') {
                 continue nextFile
             }
+            $scriptCmd = Get-Command -Name $file.FullName
+            foreach ($requirement in $scriptCmd.ScriptBlock.Ast.ScriptRequirements.RequiredModules) {
+                $alreadyLoaded = Import-Module -Name $requirement.Name -PassThru -ErrorAction Ignore
+                if (-not $alreadyLoaded) {
+                    Install-Module -AllowClobber -Force -Name $requirement.Name -Scope CurrentUser
+                    $alreadyLoaded = Import-Module -Name $requirement.Name -PassThru -ErrorAction Ignore
+                    Write-Host "Installed $($alreadyLoaded.Name) for $($file.FullName)"
+                } else {
+                    Write-Host "Already loaded $($alreadyLoaded.Name) for $($file.FullName)"
+                }
+            }
+            $title = $file.Name -replace '\..+?\.ps1$' -replace 'index'
             . $file
         }
     }
