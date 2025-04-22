@@ -20,6 +20,7 @@ $CNAME =
 
 $buildStart = [DateTime]::Now
 Get-ChildItem -Recurse -File | . buildFile
+Get-ChildItem -Recurse -File | Compress-Archive -DestinationPath archive.zip
 $buildEnd = [DateTime]::Now
 
 $newLastBuild = [Ordered]@{
@@ -39,7 +40,7 @@ if ($lastBuild) {
     $newLastBuild.TimeSinceLastBuild = $lastBuildTime - $lastBuild.LastBuildTime            
 }
 
-$newLastBuild | ConvertTo-Json -Depth 3 > lastBuild.json
+$newLastBuild | ConvertTo-Json -Depth 2 > lastBuild.json
 $newLastBuild
 
 
