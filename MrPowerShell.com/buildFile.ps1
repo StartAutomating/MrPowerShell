@@ -6,10 +6,12 @@ $File
 
 Set-Alias layout "$pwd/layout.ps1"
 
+$permalink = 'pretty'
+
 $start = [datetime]::Now
 
 :nextFile foreach ($file in $input) {
-    $outFile = $file.FullName -replace '\.ps1$'    
+    $outFile = $file.FullName -replace '\.ps1$'
     $Output = switch ($file.Extension) {
         '.md' {
             $title = $file.Name -replace '\.md$' -replace 'index'
@@ -40,6 +42,22 @@ $start = [datetime]::Now
     if ($null -eq $Output) {
         continue nextFile
     }
+
+    # If we're outputting to html, let's do a few things:
+    if ($outFile -match '\.html?$') {
+        if (
+            $outFile.Name -notmatch 'index\.html?$' -and 
+            $permalink -eq 'pretty'
+        ) {            
+            $outFile = $outFile.FullName -replace '\.+?\.html$', '/index.html'            
+        }
+
+        # * If the output is does not have an <html> tag,
+        if (-not ($output -match '<html')) {
+            # we'll use the layout script.
+            $output = $output | layout
+        }
+    }
                 
     if ($output -is [xml]) {
         $output.Save($outFile)
@@ -65,3 +83,4 @@ $start = [datetime]::Now
 }
 
 $end = [datetime]::Now
+Write-Host "Build completed in $($end - $start)"
