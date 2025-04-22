@@ -20,7 +20,6 @@ $CNAME =
 
 $buildStart = [DateTime]::Now
 Get-ChildItem -Recurse -File | . buildFile
-Compress-Archive -Path $pwd -DestinationPath archive.zip
 $buildEnd = [DateTime]::Now
 
 $newLastBuild = [Ordered]@{
@@ -43,5 +42,6 @@ if ($lastBuild) {
 $newLastBuild | ConvertTo-Json -Depth 2 > lastBuild.json
 $newLastBuild
 
+Compress-Archive -Path $pwd -DestinationPath "archive.zip" -CompressionLevel Optimal
 
 Pop-Location
