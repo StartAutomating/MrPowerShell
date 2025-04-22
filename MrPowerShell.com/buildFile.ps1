@@ -83,4 +83,4 @@ $start = [datetime]::Now
 }
 
 $end = [datetime]::Now
-Write-Host "Build completed in $($end - $start)"
+Write-Host "File completed in $($end - $start)"
