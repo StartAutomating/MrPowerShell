@@ -44,7 +44,7 @@ foreach ($Sides in $SideCount) {
         CenterY = $CenterY
     }
     
-    SVG -ViewBox (($CenterX * 2), ($CenterY * 2)) @(       
+    (SVG -ViewBox (($CenterX * 2), ($CenterY * 2)) @(       
         0..($RepeatCount -1) |
             & $shapeCommand @Splat -Rotate {
                     $_ * ($totalRotation / $RepeatCount)
@@ -63,7 +63,7 @@ foreach ($Sides in $SideCount) {
                     SVG.animate -AttributeName opacity -Values "$highOpacity;$lowOpacity;$highOpacity" -Dur $dur -RepeatCount 'indefinite'
                 }
             }
-    )
+    )).OuterXml
 }
 
 
