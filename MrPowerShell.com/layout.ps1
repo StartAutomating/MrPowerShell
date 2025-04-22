@@ -10,6 +10,12 @@ $argsAndinput = @($args) + @($input)
         <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/2bitdesigns/4bitcss@latest/css/$PaletteName.css'>
         $OpenGraph
         $ImportMap
+        <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+        </style>
     </head>
     <body>
 $($argsAndinput -join [Environment]::NewLine)
