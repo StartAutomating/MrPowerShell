@@ -1,7 +1,7 @@
 #requires -Module PSSVG
 
 SVG -Content @(
-    SVG.Palette -PaletteName Andromeda
+    # SVG.Palette -PaletteName Andromeda
     SVG.defs -Content @(        
         SVG.pattern -id 'simplePattern' -patternUnits 'userSpaceOnUse' -width '128' -height '128' -TransformOrigin '50% 50%' -Content @(
 
