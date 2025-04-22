@@ -49,7 +49,7 @@ $start = [datetime]::Now
             $outFile.Name -notmatch 'index\.html?$' -and 
             $permalink -eq 'pretty'
         ) {            
-            $outFile = $outFile.FullName -replace '\.+?\.html$', '/index.html'            
+            $outFile = $outFile -replace '\.+?\.html$', '/index.html'            
         }
 
         # * If the output is does not have an <html> tag,
