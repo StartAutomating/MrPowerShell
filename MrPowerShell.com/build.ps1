@@ -23,12 +23,18 @@ $lastBuild =
     } catch {
         Write-Warning ($_ | Out-String)
     }
-    
+
 if ($lastBuild) {
     $newLastBuild.TimeSinceLastBuild = $lastBuildTime - $lastBuild.LastBuildTime            
 }
 
 $newLastBuild | ConvertTo-Json -Depth 3 > lastBuild.json
 $newLastBuild
+
+# If we have an event path,
+if ($env:GITHUB_EVENT_PATH) {
+    # all we need to do to serve it is copy it.
+    Copy-Item $env:GITHUB_EVENT_PATH .\gitHubEvent.json
+}
 
 Pop-Location
