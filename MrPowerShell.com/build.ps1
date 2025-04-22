@@ -20,7 +20,7 @@ $CNAME =
 
 $buildStart = [DateTime]::Now
 Get-ChildItem -Recurse -File | . buildFile
-Get-ChildItem -Recurse -File | Compress-Archive -DestinationPath archive.zip
+Compress-Archive -Path $pwd -DestinationPath archive.zip
 $buildEnd = [DateTime]::Now
 
 $newLastBuild = [Ordered]@{
