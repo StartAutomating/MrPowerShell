@@ -25,7 +25,7 @@ $buildEnd = [DateTime]::Now
 $newLastBuild = [Ordered]@{
     LastBuildTime = $lastBuildTime
     BuildDuration = $buildEnd - $buildStart
-    Message = $gitHubEvent.commits[-1].Message
+    Message = if ($gitHubEvent.commits) { $gitHubEvent.commits[-1].Message } else { 'On Demand' }
 }
    
 $lastBuild = 
