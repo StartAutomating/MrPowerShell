@@ -5,11 +5,28 @@ $File
 )
 
 $permalink = 'pretty'
-
 $start = [datetime]::Now
+$layoutAtPath = [Ordered]@{}
 
 :nextFile foreach ($file in $input) {
     $outFile = $file.FullName -replace '\.ps1$'
+    $fileRoot = $file.FullName | Split-Path
+    
+    if (-not $layoutAtPath[$fileRoot]) {
+        while ($fileRoot) {
+            $layoutPath = Join-Path $fileRoot 'layout.ps1'
+            if (Test-Path $layoutPath) {
+                $layoutAtPath[$fileRoot] = $layoutPath
+                break
+            }
+            $fileRoot = $fileRoot | Split-Path
+        }
+    }
+
+    if ($layoutAtPath[$fileRoot]) {
+        Set-Alias layout $layoutAtPath[$fileRoot]
+    }
+    
     $Output = switch ($file.Extension) {
         '.md' {
             $title = $file.Name -replace '\.md$' -replace 'index'
