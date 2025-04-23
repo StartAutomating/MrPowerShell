@@ -16,7 +16,12 @@ $markdown = @(
 
 "(I write a lot of code)"
 
-"$totalStars ★ across $($myRepos.Count) repos"
+"## Some Stats:"
+
+"  * $totalStars ★"
+"  * $($myRepos.Count) public repos"
+"  * $($($myRepos | Measure-Object -Property forks_count -Sum).Sum) forks of my repos"
+"  * $($($myRepos | Measure-Object -Property open_issues_count -Sum).Sum) open issues in my repos"
 
 "## By Popularity:"
 foreach ($repoInfo in $myReposByPopularity) {
