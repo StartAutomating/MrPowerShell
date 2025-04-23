@@ -72,8 +72,8 @@ $layoutAtPath = [Ordered]@{}
             $outFile = $outFile -replace '\.+?\.html$', '/index.html'            
         }
 
-        # If the output is XML
-        if ($output -is [xml]) {
+        # If the output has outerXML
+        if ($output.OuterXml) {
             # we'll put it in inline, minus the XML declaration.
             $output = $output.OuterXml -replace '<?xml.+?>'
         }
