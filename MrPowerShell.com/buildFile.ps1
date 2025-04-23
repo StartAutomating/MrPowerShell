@@ -74,8 +74,8 @@ $layoutAtPath = [Ordered]@{}
 
         # If the output has outerXML
         if ($output.OuterXml) {
-            # we'll put it in inline, minus the XML declaration.
-            $output = $output.OuterXml -replace '<?xml.+?>'
+            # we'll put it in inline
+            $output = $output.OuterXml
         }
 
         # * If the output is does not have an <html> tag,
