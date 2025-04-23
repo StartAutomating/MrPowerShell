@@ -20,7 +20,9 @@ $markdown = @(
 
 "  * $totalStars ★"
 "  * $($myRepos.Count) public repos"
+"  * $($($myRepos | Where-Object Fork | Measure-Object).Count) of my repos are forks"
 "  * $($($myRepos | Measure-Object -Property forks_count -Sum).Sum) forks of my repos"
+"  * $($($myRepos | Measure-Object -Property watchers_count -Sum).Sum) watchers of my repos"
 "  * $($($myRepos | Measure-Object -Property open_issues_count -Sum).Sum) open issues in my repos"
 
 "## By Popularity:"
