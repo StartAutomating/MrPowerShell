@@ -10,10 +10,13 @@ if (-not $script:CachedRepoList) {
 
 $myRepos = @($script:CachedRepoList.Values) | . { process { $_ } }
 $myReposByPopularity = $myRepos | Sort-Object stargazers_count -Descending 
+$totalStars = ($myRepos | Measure-Object -Property stargazers_count -Sum).Sum
 $markdown = @(
 "# Most of My Repos"
 
 "(I write a lot of code)"
+
+"$totalStars ★ across $($myRepos.Count) repos"
 
 "## By Popularity:"
 foreach ($repoInfo in $myReposByPopularity) {
