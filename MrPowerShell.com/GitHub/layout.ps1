@@ -15,10 +15,15 @@ $argsAndinput = @($args) + @($input)
             width: 100vw;
             height: 100vh;
         }
+        #GitHub {
+            margin: 4em
+        }
         </style>
     </head>
     <body>
+    <div id='GitHub'>
 $($argsAndinput -join [Environment]::NewLine)
+    </div>
     </body>
 </html>
 "@
