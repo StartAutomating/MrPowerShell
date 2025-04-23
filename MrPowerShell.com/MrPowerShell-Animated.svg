@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated with PSSVG 0.2.10 https://github.com/StartAutomating/PSSVG -->
+<svg viewBox="0 0 400 400" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">@import url('https://fonts.googleapis.com/css?family=Abel')</style>
+  </defs>
+  <symbol id="psChevron" viewBox="0 0 100 100">
+    <polygon points="40,20 45,20 60,50 35,80 32.5,80 55,50" />
+  </symbol>
+  <ellipse stroke-width="1.25" fill="transparent" cx="50%" cy="50%" stroke="#4488ff" ry="25%" rx="15%" class="foreground-stroke">
+    <animate attributeName="rx" values="15%; 21%; 15%" dur="4.2s" repeatCount="indefinite" />
+  </ellipse>
+  <use href="#psChevron" fill="#4488ff" transform-origin="50% 50%" width="20%" x="40%" y="0%" class="foreground-fill" />
+</svg>
