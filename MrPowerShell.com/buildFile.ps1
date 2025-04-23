@@ -52,11 +52,17 @@ $start = [datetime]::Now
             $outFile = $outFile -replace '\.+?\.html$', '/index.html'            
         }
 
+        # If the output is XML
+        if ($output -is [xml]) {
+            # we'll put it in inline, minus the XML declaration.
+            $output = $output.OuterXml -replace '<?xml.+?>'
+        }
+
         # * If the output is does not have an <html> tag,
         if (-not ($output -match '<html')) {
             # we'll use the layout script.
             $output = $output | layout
-        }
+        }        
     }
                 
     if ($output -is [xml]) {
@@ -70,12 +76,8 @@ $start = [datetime]::Now
         }
     }) {
         $outputFiles
-    } else {
-        if ($outFile -match '\.html$' -and -not ($output -match '<html>')) {
-            $output | layout > $outFile
-        } else {
-            $output > $outFile
-        }
+    } else {        
+        $output > $outFile
         if ($?) {
             Get-Item -Path $outFile
         }

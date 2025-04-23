@@ -63,7 +63,7 @@ foreach ($Sides in $SideCount) {
                     SVG.animate -AttributeName opacity -Values "$highOpacity;$lowOpacity;$highOpacity" -Dur $dur -RepeatCount 'indefinite'
                 }
             }
-    )).OuterXml
+    ))
 }
 
 
