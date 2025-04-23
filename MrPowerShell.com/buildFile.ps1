@@ -4,8 +4,6 @@ param(
 $File
 )
 
-Set-Alias layout "$pwd/layout.ps1"
-
 $permalink = 'pretty'
 
 $start = [datetime]::Now
@@ -19,8 +17,13 @@ $start = [datetime]::Now
             (ConvertFrom-Markdown -Path $file.FullName).Html |
                 layout
         }
+        '.ts' {
+            $outFile = $file.FullName -replace '\.ts$', '.js'
+            tsc $file.FullName -module es6 -target es6
+        }
         '.ps1' {
-            if ($file.Name -notmatch '\..+?\.ps1$') {
+            # Skip all files that are not *.someExtension.ps1
+            if ($file.Name -notlike '*.*.ps1') {
                 continue nextFile
             }
             $scriptCmd = Get-Command -Name $file.FullName
@@ -35,7 +38,7 @@ $start = [datetime]::Now
                 }
             }
             $title = $file.Name -replace '\..+?\.ps1$' -replace 'index'
-            . $file
+            . $file            
         }
     }
 
@@ -60,8 +63,16 @@ $start = [datetime]::Now
 
         # * If the output is does not have an <html> tag,
         if (-not ($output -match '<html')) {
-            # we'll use the layout script.
-            $output = $output | layout
+            # we'll use a layout script.
+            $fileRoot = $file.FullName | Split-Path
+            while ($fileRoot) {
+                $layoutPath = Join-Path $fileRoot 'layout.ps1'
+                if (Test-Path $layoutPath) {
+                    $output = $output | . $layoutPath
+                    break
+                }
+                $fileRoot = $fileRoot | Split-Path
+            }            
         }        
     }
                 
