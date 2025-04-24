@@ -15,7 +15,7 @@ $WellKnownDid = @{
 },
 
 [TimeSpan]
-$Since = [TimeSpan]::FromDays(1),
+$Since = [TimeSpan]::FromDays(.5),
 
 [TimeSpan]
 $TimeOut = [TimeSpan]::FromMinutes(15),
@@ -45,6 +45,8 @@ $jetstreamUrl = @(
         "cursor=$(([DateTimeOffset]::Now - $Since).ToUnixTimeMilliseconds())" 
     ) -join '&'
 ) -join ''
+
+Write-Host "Listening to $($jetstreamUrl)"
 
 $Jetstream = WebSocket -SocketUrl $jetstreamUrl -TimeOut $TimeOut
 
