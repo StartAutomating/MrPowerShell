@@ -1,3 +1,5 @@
+$Title = "How to Build Static Websites with PowerShell"
+
 "<h1>Building a Static Website with PowerShell</h1>"
 "<h2>Building static sites with PowerShell is easy!</h2>"
 "<h3>Seriously. This site is built with simple PowerShell</h3>"

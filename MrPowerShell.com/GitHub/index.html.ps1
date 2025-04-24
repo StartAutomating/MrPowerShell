@@ -1,4 +1,7 @@
 #requires -Module PSDevOps
+
+$Title = "My GitHub Repos"
+
 if (-not $script:CachedRepoList) {
     $script:CachedRepoList = [Ordered]@{}    
     $connectedToGitHub = Connect-GitHub
