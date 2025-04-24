@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745521686175961,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lnlfrzpczg26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lnlfrzqm3k2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-24T19:08:04.978Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieq62watdqkf74kslsirrw5m2ay7zmowur7c2ag7n4lg7qqbiquua",
+          "uri": "at://did:plc:vn6ch23es67r2vvnsikt5x2r/app.bsky.feed.post/3lnld5hccps2c"
+        },
+        "root": {
+          "cid": "bafyreic4skhwdiltndxr6rn6mzjfs7gcqbpslelhjs4lzb6vw3ulkpkfcu",
+          "uri": "at://did:plc:5hwy5afvfhonj6mrpcxm3rfy/app.bsky.feed.post/3lnkqyylls223"
+        }
+      },
+      "text": "Cool!\n\nThough FYI that's basically how PowerShell filters / functions work.\n\nSo, still not more versatile 😉"
+    },
+    "cid": "bafyreid4fx5l65cgfmxdvweuy432nwlddlvltsf6tsnjbs4upxsvubszzy"
+  }
+}
