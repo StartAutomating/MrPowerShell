@@ -1,0 +1,76 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744305826923258,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lmhzgmi2w324",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmhzgmsho22q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-10T17:23:46.551Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "XKCD on IRC",
+            "aspectRatio": {
+              "height": 598,
+              "width": 1400
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihv2wmuptdsnccqzhtfxmq3nffngxzaozcbwu77z57xet7nayl7fe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 289538
+            }
+          }
+        ]
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://discord.com/invite/powershell"
+            }
+          ],
+          "index": {
+            "byteEnd": 77,
+            "byteStart": 50
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihycb7j42xpiiqjossvbib4hqtdj227isscmaulckys7iaihvsc7e",
+          "uri": "at://did:plc:5lnkvn7e3o4bcdmuu5gyq2fm/app.bsky.feed.post/3lmhyzp23bs2e"
+        },
+        "root": {
+          "cid": "bafyreigwprbz5cudgfxeosh5xprlb6guagqkcqlh7gqchq6edzv36wljli",
+          "uri": "at://did:plc:5lnkvn7e3o4bcdmuu5gyq2fm/app.bsky.feed.post/3lmdst4bvac2h"
+        }
+      },
+      "text": "The #PowerShell discord is a very helpful place.\n\ndiscord.com/invite/power...\n\nIRC brings back memories, and XKCD references."
+    },
+    "cid": "bafyreifkbfvwbqx2x62ciz3e4satci7xn7bgl6dlqc5nowzeoz2m2d3phy"
+  }
+}

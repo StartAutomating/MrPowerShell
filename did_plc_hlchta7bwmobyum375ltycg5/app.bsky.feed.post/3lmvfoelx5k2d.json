@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744765647637631,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lmvfoe44qe24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmvfoelx5k2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-16T01:07:27.909Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidnkjm2syebfslbgdkhoc3nhipgrcrgeuxafnzirf2onujshgheve",
+          "uri": "at://did:plc:rlwd5iajr3btl5e7gyvfwk67/app.bsky.feed.post/3lmvenhwrek2e"
+        },
+        "root": {
+          "cid": "bafyreifoybot3eskrxp4rntxblygjdmbzedlellamugihaxumdts7s3ngi",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3lmv6izws3k2p"
+        }
+      },
+      "text": "Sounds like your brother in law would be almost as much / as little fun to play with as my brother in law.\n\n( They have a number of \"turn 0 win decks\")"
+    },
+    "cid": "bafyreidsg6vfn3xr4nbmnrmxemjoyy4epi2z35vykshssjvvzpnt2menxi"
+  }
+}

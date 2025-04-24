@@ -1,0 +1,75 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744738320622786,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lmum7wndmg25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmum7wioes2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-15T17:31:59.811Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "{{site.description}}",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreih4unjbgcx3fnxzndi5kilmhvmgk7nqhnrl42el3v6gdw6mitpdh4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 761
+          },
+          "title": "",
+          "uri": "https://jsonresume.org/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 22,
+            "byteStart": 14
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://jsonresume.org/"
+            }
+          ],
+          "index": {
+            "byteEnd": 147,
+            "byteStart": 133
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:2uwoih2htodskvgocarwv5eq"
+            }
+          ],
+          "index": {
+            "byteEnd": 167,
+            "byteStart": 149
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Are there any #AtProto people working on jobs posting engines?\n\nRan across this today and it seems like it solves half the problem.\n\njsonresume.org\n\n@lexicon.community your $0.02 are welcome."
+    },
+    "cid": "bafyreiheo3bebwfpoh5pc4gtohd76net7zr6xjdg5muoozp7olhhmybbgy"
+  }
+}

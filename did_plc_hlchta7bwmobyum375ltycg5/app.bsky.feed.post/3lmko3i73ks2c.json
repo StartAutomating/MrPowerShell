@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744396719429895,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lmko3gss7p2v",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmko3i73ks2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-11T18:38:40.704Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidxcyo5z53bhvkqirgum6vszzc2gikm72lpt46h4jguuhjplb6asi",
+          "uri": "at://did:plc:tztzxg26o2rdzyceoejkupnw/app.bsky.feed.post/3lmkmpwkom22a"
+        },
+        "root": {
+          "cid": "bafyreibqlurdg42lh7fvseevzisfzducf7hxuortlerzqwsp2iu53hhzhm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmkm5mdjn22c"
+        }
+      },
+      "text": "Comparisons are good, and should happen naturally by keyword.\n\nA \"partisanship slider\" is less helpful.\n\nA \"bias bar\" just helps people reinforce their own bias.\n\n( Apologies for the strident opinions )"
+    },
+    "cid": "bafyreicn6sps3gjjdacsayrklndqanh42xcogzmwtg7vnwbobghakulf7i"
+  }
+}

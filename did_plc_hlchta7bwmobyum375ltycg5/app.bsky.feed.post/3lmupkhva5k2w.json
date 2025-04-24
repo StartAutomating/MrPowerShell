@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744741895138786,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lmupkhxuzd2v",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmupkhva5k2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-15T18:31:34.822Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiejvamciy6byoshak33tw64whdwgpbdv77hqomo6abny4ixotrfai",
+          "uri": "at://did:plc:qnibvnk2uui4py5gf4hp2xb4/app.bsky.feed.post/3lmul5ifnhc27"
+        },
+        "root": {
+          "cid": "bafyreiejvamciy6byoshak33tw64whdwgpbdv77hqomo6abny4ixotrfai",
+          "uri": "at://did:plc:qnibvnk2uui4py5gf4hp2xb4/app.bsky.feed.post/3lmul5ifnhc27"
+        }
+      },
+      "text": "Kinda fitting switch statements are tip #42"
+    },
+    "cid": "bafyreifjyjvk6orl27gkgusxtvtoc2vtkocadsi4yjvy3hpbtgtnzln57m"
+  }
+}

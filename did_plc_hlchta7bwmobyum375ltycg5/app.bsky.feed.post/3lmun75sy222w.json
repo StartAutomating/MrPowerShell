@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744739367889215,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lmun75uap52b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmun75sy222w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-15T17:49:27.68Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidecqmao3k3poxdrnejuhehc2oh35vzsn3dcihg4dm5t7xhvribxe",
+          "uri": "at://did:plc:xfqcsi7wuwedeqaa5m7aih44/app.bsky.feed.post/3lmujmh2xfs23"
+        },
+        "root": {
+          "cid": "bafyreidecqmao3k3poxdrnejuhehc2oh35vzsn3dcihg4dm5t7xhvribxe",
+          "uri": "at://did:plc:xfqcsi7wuwedeqaa5m7aih44/app.bsky.feed.post/3lmujmh2xfs23"
+        }
+      },
+      "text": "Very cool.  I've been messing with similar stuff most of the last week.\n\nLemme know if you want to collab.\n\nI'm going to be trying to make an open source news aggregator, so that we can track news over time."
+    },
+    "cid": "bafyreiffkj3rxa4emgvawpa3r2hvol3v7dglwafxvj5bnvptpfhuy42oma"
+  }
+}

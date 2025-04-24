@@ -1,0 +1,66 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744390824154774,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lmkilq6put2j",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmkilovors2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-11T17:00:22.1Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "",
+            "aspectRatio": {
+              "height": 2000,
+              "width": 1505
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiep7qbbo24crmjbcszm73qif7sx4g2573qc2z5t7hvw7qj3qgsxly"
+              },
+              "mimeType": "image/jpeg",
+              "size": 454138
+            }
+          }
+        ]
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 33,
+            "byteStart": 22
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PSHSummit"
+            }
+          ],
+          "index": {
+            "byteEnd": 181,
+            "byteStart": 171
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Thanks for an amazing #PowerShell Summit !\n\nIt's always inspiring to see the smartest scripters in the world share their tips and tricks.\n\nHope to see you all next year!\n\n#PSHSummit"
+    },
+    "cid": "bafyreig7fctpt4jbvkbiuhe4ynxswharoppzejawzummgrf5nsga2b752i"
+  }
+}

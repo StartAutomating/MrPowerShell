@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744781372957916,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lmvucyyxq42v",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmvuczxwoc2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-16T05:29:33.798Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidmggbdyr2whldvst7qcrundyf6ficzdtzqkkhvstuk6inp65ifdq",
+          "uri": "at://did:plc:ao5fqiisckexmmgof6vtjckg/app.bsky.feed.post/3lmvpqpggws26"
+        },
+        "root": {
+          "cid": "bafyreidmggbdyr2whldvst7qcrundyf6ficzdtzqkkhvstuk6inp65ifdq",
+          "uri": "at://did:plc:ao5fqiisckexmmgof6vtjckg/app.bsky.feed.post/3lmvpqpggws26"
+        }
+      },
+      "text": "Probably fine.\n\nOccupational hazard of multimedia scripting.  I peg my CPU almost every time I'm doing any bulk media processing.\n\nThat stated, most of the time this is a side effect of running against multiple files at once, which can fragment the file on disk."
+    },
+    "cid": "bafyreiaus3mmwncyaa7i6tvlxahs6atmzl7wu2cajm2wo7ihzvzyuaitae"
+  }
+}

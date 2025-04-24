@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744760105623498,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lmvaj6pw3k2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmvaj76crs2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-15T23:35:05.727Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifoybot3eskrxp4rntxblygjdmbzedlellamugihaxumdts7s3ngi",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3lmv6izws3k2p"
+        },
+        "root": {
+          "cid": "bafyreifoybot3eskrxp4rntxblygjdmbzedlellamugihaxumdts7s3ngi",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3lmv6izws3k2p"
+        }
+      },
+      "text": "Alright, I'll bite... What are some of your favorite MTG decks ?"
+    },
+    "cid": "bafyreifvodtrxft54byxmmqt5mfwljebu2kj4ggcgw6hqdswdw52vz44nm"
+  }
+}

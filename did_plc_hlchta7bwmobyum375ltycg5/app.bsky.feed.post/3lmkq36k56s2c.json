@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744398856972083,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lmkq35dqbt25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmkq36k56s2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-11T19:14:18.063Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibsmgfyxbdbzglqwjzqqm6nd3bdf63rx3ls6xzi5ysg5ig4qnsf74",
+          "uri": "at://did:plc:ticz2qmqh2vqxnehf5zalkpl/app.bsky.feed.post/3lmkp6kwp5s2h"
+        },
+        "root": {
+          "cid": "bafyreibqlurdg42lh7fvseevzisfzducf7hxuortlerzqwsp2iu53hhzhm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmkm5mdjn22c"
+        }
+      },
+      "text": "Nifty on the custom news feeds.\n\nI'm talking about aggregating all the stories posted to BlueSky.\n\nAs far as the Microsoft environment goes:\n\n1. I'm not Microsoft, I'm ex-MSFT.\n2. Am doing this thru PowerShell and GitHub workflows.\n3. Seems like an interesting programming bias."
+    },
+    "cid": "bafyreifshm63je3etmn7rk3ogiyc4g4wiow6mzvjwliakdf66wsc4c5fsq"
+  }
+}

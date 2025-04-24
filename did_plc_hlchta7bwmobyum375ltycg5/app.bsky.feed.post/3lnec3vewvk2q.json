@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745277202443154,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lnec3uuaqc2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lnec3vewvk2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-21T23:13:22.81Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig7zzzdgxcghxdh6dzwvxuien4aftozvom6jymuq6sucsq4adentq",
+          "uri": "at://did:plc:nrxngnjnce74aisq4hiu5zuy/app.bsky.feed.post/3lne3oba4ok2p"
+        },
+        "root": {
+          "cid": "bafyreig2kkgcdfumi3jqahwa5wbguovfnc7bygbbqrn2tk5nff4vwiaxxa",
+          "uri": "at://did:plc:j25ig3ar6gigewdmk47fzwpd/app.bsky.feed.post/3lndfeah7bc2g"
+        }
+      },
+      "text": "Personally I would write a wrapper, not a port.\n\nIt would give us all that sweet tab completion benefit without the \"chasing down the delta\" hell of a complete port."
+    },
+    "cid": "bafyreiciz4zda4bouwetx7memw7ahjlf5j67ir7sctwlknioxhakyfqaee"
+  }
+}

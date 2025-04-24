@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745109605795618,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ln7fz33ug727",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ln7fz2wdis22",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-20T00:40:04.247Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "workers"
+            }
+          ],
+          "index": {
+            "byteEnd": 30,
+            "byteStart": 22
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "lostwages"
+            }
+          ],
+          "index": {
+            "byteEnd": 169,
+            "byteStart": 159
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "How much does it hurt #workers when default tip settings are changed for a major brand?\n\nI genuinely don't know, but I'm guessing at least a couple million in #lostwages.\n\nAnyone know?  Anyone else seeing this drop?"
+    },
+    "cid": "bafyreibvzyonkxvm5xcn6uqurmz3ohdsblmfkbmskunpwsacpfnv5cjd4m"
+  }
+}

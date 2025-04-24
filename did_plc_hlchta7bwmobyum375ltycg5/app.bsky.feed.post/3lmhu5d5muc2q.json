@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744300147432586,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lmhu5bna4a2v",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmhu5d5muc2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-10T15:49:05.757Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih423fcpq3vycyhrimbejyyv37hejbxqsomap6ifjqzraziirmpv4",
+          "uri": "at://did:plc:j25ig3ar6gigewdmk47fzwpd/app.bsky.feed.post/3lmhstq6ksc2t"
+        },
+        "root": {
+          "cid": "bafyreih423fcpq3vycyhrimbejyyv37hejbxqsomap6ifjqzraziirmpv4",
+          "uri": "at://did:plc:j25ig3ar6gigewdmk47fzwpd/app.bsky.feed.post/3lmhstq6ksc2t"
+        }
+      },
+      "text": "Wish I had known.  Espresso martinis are one of the few ways I enjoy some coffee. 😃\n\nRelated: I miss Dilettante on Broadway 😕."
+    },
+    "cid": "bafyreihattds655zwlpjiqzeepp66ddtr3puimqelessohgfasvbivrcr4"
+  }
+}

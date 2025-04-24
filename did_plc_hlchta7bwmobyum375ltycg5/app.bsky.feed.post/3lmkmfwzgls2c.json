@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744394923223743,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lmkmfvoojo2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmkmfwzgls2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-11T18:08:44.307Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiahpa6hz2jx3l77c5jchylqh5qt2zpc55dt7t5rpqr4iddfxovmcq",
+          "uri": "at://did:plc:tztzxg26o2rdzyceoejkupnw/app.bsky.feed.post/3lmkmachovk2a"
+        },
+        "root": {
+          "cid": "bafyreibqlurdg42lh7fvseevzisfzducf7hxuortlerzqwsp2iu53hhzhm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmkm5mdjn22c"
+        }
+      },
+      "text": "Definitely trying for something like ground news, but without the bias rankings and paywall.\n\nI think the bias rankings encourage partisan reading habits, and paywalls prevent people from knowing what's going on."
+    },
+    "cid": "bafyreie5pi54vmofoy5hj4i45vvdi4hzvdqtwglknls3fa5b7azhligdce"
+  }
+}

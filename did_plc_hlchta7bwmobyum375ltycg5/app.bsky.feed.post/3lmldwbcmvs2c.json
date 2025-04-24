@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744420166570588,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lmldw7pjgw27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmldwbcmvs2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-12T01:09:28.027Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 50,
+            "byteStart": 39
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 67,
+            "byteStart": 59
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Spending my Friday trying to make some #PowerShell to turn #AtProto into static sites."
+    },
+    "cid": "bafyreifu5kg3ske43cyccx5z5j4nryumxbool4mxyzapawjqxfkwqx2g4y"
+  }
+}

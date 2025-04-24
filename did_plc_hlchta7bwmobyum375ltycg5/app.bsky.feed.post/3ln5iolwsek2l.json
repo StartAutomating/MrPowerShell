@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745043755438676,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ln5iolntbl27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ln5iolwsek2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-19T06:22:34.723Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Even an Extra Terrestrial knows that tariffs are dumb.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibjnyh7q7hxfayhf6uwxqz2kgvowvrlegvy2qalql6nzc3ksm6p24"
+            },
+            "mimeType": "image/jpeg",
+            "size": 97550
+          },
+          "title": "an alien is holding a lit match in his hand in a dark room .",
+          "uri": "https://media.tenor.com/vcdpSNJJKZEAAAAC/et-the-extra-terrestrial-bt.gif?hh=381&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiep76x2tpamwcysrlrddap6tpfrefkzin5x2uvfrqwllyt3wqk2be",
+          "uri": "at://did:plc:hjx4vtoryubvqa4vy6xuliy7/app.bsky.feed.post/3ln5gqqq2hc2e"
+        },
+        "root": {
+          "cid": "bafyreiep76x2tpamwcysrlrddap6tpfrefkzin5x2uvfrqwllyt3wqk2be",
+          "uri": "at://did:plc:hjx4vtoryubvqa4vy6xuliy7/app.bsky.feed.post/3ln5gqqq2hc2e"
+        }
+      },
+      "text": "\"The Aliens have been calling me begging to make a deal.\""
+    },
+    "cid": "bafyreif5rx4nxnoueov5y2lstpznnrhxn5xwhgzrawnqk3mzdru6ul2uce"
+  }
+}

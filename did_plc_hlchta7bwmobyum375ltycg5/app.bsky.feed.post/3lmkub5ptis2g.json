@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744403378273582,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lmkubv6vmb27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmkub5ptis2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-11T20:29:13.496Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigif5rq5rsnr6qutmmzszuarl2e35puhbrb4qzx4sev4jbyv5cb5e",
+          "uri": "at://did:plc:ticz2qmqh2vqxnehf5zalkpl/app.bsky.feed.post/3lmkshxrff22h"
+        },
+        "root": {
+          "cid": "bafyreibqlurdg42lh7fvseevzisfzducf7hxuortlerzqwsp2iu53hhzhm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmkm5mdjn22c"
+        }
+      },
+      "text": "Yes, like to watch the firehose for news articles.\n\nTo be clear on progress levels: I've been aggregating ~40 news sources throughout the past week.\n\nBeen fine-tuning the JSON format used to store things and the disk space impact."
+    },
+    "cid": "bafyreidyzejtzye5wsk4hypkdx6o4jxzy25f3tnkadusxjyhl5g7bzfzme"
+  }
+}

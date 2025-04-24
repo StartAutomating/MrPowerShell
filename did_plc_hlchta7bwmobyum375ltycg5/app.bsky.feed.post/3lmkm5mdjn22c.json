@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744394645692290,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lmkm5ksmpo25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmkm5mdjn22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-11T18:04:04.668Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "news"
+            }
+          ],
+          "index": {
+            "byteEnd": 30,
+            "byteStart": 25
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 55,
+            "byteStart": 47
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Who wants to help make a #news aggregator atop #AtProto?\n\nI want to make it easy to view all stories, not just the top few.\n\nI also want to be able to see past stories, not just the top stories of the week."
+    },
+    "cid": "bafyreibqlurdg42lh7fvseevzisfzducf7hxuortlerzqwsp2iu53hhzhm"
+  }
+}

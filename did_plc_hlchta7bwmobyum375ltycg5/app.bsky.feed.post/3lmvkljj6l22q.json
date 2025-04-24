@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744770920628810,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lmvklivlzx2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmvkljj6l22q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-16T02:35:21.108Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiba7ls3mabj3qqnhh4rl3gllhovkc3yn2vxdbym5uq4kprig7wz2a",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3lmvj54w6ws2n"
+        },
+        "root": {
+          "cid": "bafyreifoybot3eskrxp4rntxblygjdmbzedlellamugihaxumdts7s3ngi",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3lmv6izws3k2p"
+        }
+      },
+      "text": "Artifact token decks are really fun!  Steel overseer is cool AF and combos well.\n\nI've gotta dig up my cards to find what else is in my artifact deck(s)\n\nI vaguely recall having a \"Mindslaver\" deck that basically let me do infinite turn control."
+    },
+    "cid": "bafyreigkwwm5m3fyw5n6thkur3e3rzf5hxgoemc5xcugqxd5vv4psiskse"
+  }
+}
