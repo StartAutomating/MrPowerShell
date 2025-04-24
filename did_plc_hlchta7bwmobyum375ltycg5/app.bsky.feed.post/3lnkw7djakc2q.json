@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745504952303719,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lnkw7e3ruw2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lnkw7djakc2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-24T14:29:11.563Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Python"
+            }
+          ],
+          "index": {
+            "byteEnd": 29,
+            "byteStart": 22
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 78,
+            "byteStart": 67
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic4skhwdiltndxr6rn6mzjfs7gcqbpslelhjs4lzb6vw3ulkpkfcu",
+          "uri": "at://did:plc:5hwy5afvfhonj6mrpcxm3rfy/app.bsky.feed.post/3lnkqyylls223"
+        },
+        "root": {
+          "cid": "bafyreic4skhwdiltndxr6rn6mzjfs7gcqbpslelhjs4lzb6vw3ulkpkfcu",
+          "uri": "at://did:plc:5hwy5afvfhonj6mrpcxm3rfy/app.bsky.feed.post/3lnkqyylls223"
+        }
+      },
+      "text": "Well how about that?\n\n#Python finally took enough inspiration from #PowerShell to make itself an Object Pipeline.\n\nAs a result, for the first time in a while, I wanna play with python 😉\n\nNow if only they'd also get the extended type system and eventing and we'd really be in business."
+    },
+    "cid": "bafyreiep322cdjn5xlirhjf7syph7wbgpugu6qeyooi6gty2j2aryqe6ji"
+  }
+}
