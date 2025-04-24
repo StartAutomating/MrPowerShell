@@ -4,7 +4,8 @@ name: Deploy Website
 on:
   # Runs on pushes 
   push:
-
+  schedule: 
+    - cron: '0,20,40 0-23 * * *'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
