@@ -24,6 +24,16 @@
     Event = 'PowerShell Summit'
     Year = 2023
 }, @{
+    Name = 'Automating the Real World'
+    YouTubeUrl = 'https://youtu.be/X_0svAGTezo'
+    Event = 'PowerShell Summit'
+    Year = 2022
+}, @{
+    Name = 'Game Breaking PowerShell'
+    YouTubeUrl = 'https://youtu.be/vUIYR744XnQ'
+    Event = 'PowerShell Summit'
+    Year = 2022
+}, @{
     Name = 'Improving the Shell Experience using Posh'
     YouTubeUrl = 'https://youtu.be/iZgcTD_uN-w'
     Event = 'Research Triangle PowerShell User Group'
@@ -33,4 +43,24 @@
     YouTubeUrl = 'https://youtu.be/Ns5vzzca3gE'
     Event = 'Research Triangle PowerShell User Group'
     Year = 2023
+}, @{
+    Name = 'Create a web server on the fly with PowerShell'
+    YouTubeUrl = 'https://youtu.be/wmRPvvYX8No'
+    Event = 'Research Triangle PowerShell User Group'
+    Year = 2025
+}, @{
+    Name = 'PipeScript, Formatting, and Docker'
+    YouTubeUrl = 'https://youtu.be/dVcelFpsAKs'
+    Event = 'PowerShell Podcast'
+    Year = 2024
+}, @{
+    Name = 'Run Anything using PipeScript'
+    YouTubeUrl = 'https://youtu.be/-PuiNAcvalw'
+    Event = 'Research Triangle PowerShell User Group'
+    Year = 2024
+}, @{
+    Name = 'Case Sensitivity Training'
+    YouTubeUrl = 'https://youtu.be/xhJQB6szWFE'
+    Event = 'Pacific PowerShell User Group'
+    Year = 2024
 }
