@@ -18,7 +18,7 @@ $WellKnownDid = @{
 $Since = [TimeSpan]::FromDays(.5),
 
 [TimeSpan]
-$TimeOut = [TimeSpan]::FromMinutes(15),
+$TimeOut = [TimeSpan]::FromMinutes(0.5),
 
 [string]
 $Root = $PSScriptRoot,
@@ -46,9 +46,10 @@ $jetstreamUrl = @(
     ) -join '&'
 ) -join ''
 
-Write-Host "Listening to $($jetstreamUrl)"
+Write-Host "Listening to $($jetstreamUrl) for $Timeout"
 
 $Jetstream = WebSocket -SocketUrl $jetstreamUrl -TimeOut $TimeOut
+$JetStreamStart = [DateTime]::Now
 
 filter toAtUri {
     $in = $_
@@ -92,6 +93,12 @@ do {
     $Jetstream | 
         Receive-Job -ErrorAction SilentlyContinue | 
         savePost "$root/"
+    # Break out if we're past the time
+    # (the job should automatically complete,
+    # but better safe than hanging the action )
+    if (([DateTime]::Now - $JetStreamStart) -gt $TimeOut) {
+        break
+    }
 } while ($Jetstream.JobStateInfo.State -in 'NotStarted','Running') 
 
 $Jetstream | 
