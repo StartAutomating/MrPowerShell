@@ -1,0 +1,108 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745428049406959,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lniolhasx32j",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lniolhjdd22t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-23T17:07:29.01Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreid5v53lmkaxhvj2yksy3nu65g44surrtkgkkz6e7fgdfs55zlfadm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 174906
+          },
+          "title": "ANSI escape code - Wikipedia",
+          "uri": "https://en.m.wikipedia.org/wiki/ANSI_escape_code"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ANSI"
+            }
+          ],
+          "index": {
+            "byteEnd": 133,
+            "byteStart": 128
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 193,
+            "byteStart": 182
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "VSCode"
+            }
+          ],
+          "index": {
+            "byteEnd": 203,
+            "byteStart": 196
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "NodeJs"
+            }
+          ],
+          "index": {
+            "byteEnd": 242,
+            "byteStart": 235
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://en.m.wikipedia.org/wiki/ANSI_escape_code"
+            }
+          ],
+          "index": {
+            "byteEnd": 283,
+            "byteStart": 249
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidfcz64ssnvfdbv6jupn2oehedrxt6fjx5ekfu6uteezbg2kl2hqi",
+          "uri": "at://did:plc:zw6kacxolthrz2sgnybf2ole/app.bsky.feed.post/3lninoeh77k23"
+        },
+        "root": {
+          "cid": "bafyreibdylyqwp7egqw4st4em6ef5xgbhvzr4gnr5pubtwbxasc5d4k3x4",
+          "uri": "at://did:plc:zw6kacxolthrz2sgnybf2ole/app.bsky.feed.post/3lnik3ekp7c2y"
+        }
+      },
+      "text": "Highlight the one on the right.\n\nI expect you'll find your text is there, but hidden ( copy / paste into notepad to confirm ).\n\n#ANSI Escape [ 8 hides text.\n\nSo this is \"working\" in #PowerShell / #VSCode\n\nDunno why it's not working in #NodeJs 🤷\n\nen.m.wikipedia.org/wiki/ANSI_es..."
+    },
+    "cid": "bafyreibvg2nmdo7zjedbq5ur35ffwyogynomyarlm6dmpmt5zm2ooyb2ii"
+  }
+}
