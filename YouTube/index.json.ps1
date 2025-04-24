@@ -13,4 +13,24 @@
     YouTubeUrl = 'https://youtu.be/Xu9WD8tpoCY'
     Event = 'SQL Conf'
     Year = 2025
+}, @{
+    Name = 'Amazing Feats of the Abstract Syntax Tree'
+    YouTubeUrl = 'https://youtu.be/GiRhzj_pLwI'
+    Event = 'PowerShell Summit'
+    Year = 2023
+}, @{
+    Name = 'More Game Breaking PowerShell'
+    YouTubeUrl = 'https://youtu.be/6mgQGpQbDjY'
+    Event = 'PowerShell Summit'
+    Year = 2023
+}, @{
+    Name = 'Improving the Shell Experience using Posh'
+    YouTubeUrl = 'https://youtu.be/iZgcTD_uN-w'
+    Event = 'Research Triangle PowerShell User Group'
+    Year = 2024
+}, @{
+    Name = 'Manage your git data with ugit'
+    YouTubeUrl = 'https://youtu.be/Ns5vzzca3gE'
+    Event = 'Research Triangle PowerShell User Group'
+    Year = 2023
 }
