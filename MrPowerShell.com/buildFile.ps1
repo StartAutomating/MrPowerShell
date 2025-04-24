@@ -92,6 +92,10 @@ $layoutAtPath = [Ordered]@{}
             }            
         }        
     }
+
+    if ($outFile -match '\.json$' -and $output -isnot [string]) {
+        $output = $output | ConvertTo-Json -Depth 10
+    }    
                 
     if ($output -is [xml]) {
         $output.Save($outFile)
