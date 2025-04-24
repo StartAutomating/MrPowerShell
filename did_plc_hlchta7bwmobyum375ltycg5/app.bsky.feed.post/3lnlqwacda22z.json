@@ -1,0 +1,48 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745533636847116,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lnlqw7qckt2r",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lnlqwacda22z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-24T22:27:17.23Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:ewvi7nxzyoun6zhxrhs64oiz"
+            }
+          ],
+          "index": {
+            "byteEnd": 17,
+            "byteStart": 5
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:lehcqqkwzcwvjvw66uthu5oq"
+            }
+          ],
+          "index": {
+            "byteEnd": 35,
+            "byteStart": 20
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Hey, @atproto.com / @atprotocol.dev : does someone have an example using the .well-known/atproto-did verification method out in the wild?\n\nI'm trying to set this up on a static site, and looking for a good reference implementation."
+    },
+    "cid": "bafyreievmxb747ifbs6vb772wtyudk3d4ocsdplvb2hmdn3bntzlrwxkhm"
+  }
+}
