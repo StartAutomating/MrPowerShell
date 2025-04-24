@@ -94,6 +94,8 @@ filter saveMatchingMessages {
     $message | savePost "$root/$($patternName)/"
 }
 
+$filesFound = @()
+
 do {
 
     $batch = $Jetstream |
@@ -130,6 +132,8 @@ $batch = $Jetstream |
 $newFiles = $batch |
     saveMatchingMessages |
     Add-Member NoteProperty CommitMessage "Syncing from at protocol [skip ci]" -Force -PassThru
+
+$filesFound += $newFiles
 
 $newFiles
 
