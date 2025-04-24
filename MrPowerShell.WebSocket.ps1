@@ -18,7 +18,7 @@ $WellKnownDid = @{
 $Since = [TimeSpan]::FromDays(.5),
 
 [TimeSpan]
-$TimeOut = [TimeSpan]::FromMinutes(0.5),
+$TimeOut = [TimeSpan]::FromMinutes(15),
 
 [string]
 $Root = $PSScriptRoot,
@@ -89,18 +89,49 @@ filter savePost {
     }
 }
 
+filter saveMatchingMessages {
+    $message = $_
+    $message | savePost "$root/$($patternName)/"
+}
+
 do {
-    $Jetstream | 
-        Receive-Job -ErrorAction SilentlyContinue | 
-        savePost "$root/"
+
+    $batch = $Jetstream |
+        Receive-Job -ErrorAction Ignore
+
+    $batchStart = [DateTime]::Now 
+    
+    $newFiles = $batch |
+        savePost "$root/" |
+        Add-Member NoteProperty CommitMessage "Syncing from at protocol [skip ci]" -Force -PassThru
+    
+    if ($batch) {
+        Write-Host "Processed batch of $($batch.Length) in $([DateTime]::Now - $batchStart) - Last Post @ $($batch[-1].commit.record.createdAt)" -ForegroundColor Green
+        if ($newFiles) {
+            Write-Host "Found $(@($newFiles).Length) new posts or images!" -ForegroundColor Green
+            $filesFound += $newFiles
+            $newFiles
+        }
+    }
+
     # Break out if we're past the time
     # (the job should automatically complete,
     # but better safe than hanging the action )
     if (([DateTime]::Now - $JetStreamStart) -gt $TimeOut) {
+        Write-Host "Timeout $timeout hit: breaking loop."
         break
     }
 } while ($Jetstream.JobStateInfo.State -in 'NotStarted','Running') 
 
+
+$batch = $Jetstream |
+    Receive-Job -ErrorAction Ignore
+
+$newFiles = $batch |
+    saveMatchingMessages |
+    Add-Member NoteProperty CommitMessage "Syncing from at protocol [skip ci]" -Force -PassThru
+
+$newFiles
+
 $Jetstream | 
-    Receive-Job -ErrorAction SilentlyContinue | 
-    savePost "$root/"
+    Stop-Job
