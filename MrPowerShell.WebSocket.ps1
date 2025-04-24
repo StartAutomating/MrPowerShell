@@ -105,7 +105,7 @@ do {
     
     $newFiles = $batch |
         savePost "$root/" |
-        Add-Member NoteProperty CommitMessage "Syncing from at protocol [skip ci]" -Force -PassThru
+        Add-Member NoteProperty CommitMessage "Syncing from at protocol" -Force -PassThru
     
     if ($batch) {
         Write-Host "Processed batch of $($batch.Length) in $([DateTime]::Now - $batchStart) - Last Post @ $($batch[-1].commit.record.createdAt)" -ForegroundColor Green
@@ -131,7 +131,7 @@ $batch = $Jetstream |
 
 $newFiles = $batch |
     saveMatchingMessages |
-    Add-Member NoteProperty CommitMessage "Syncing from at protocol [skip ci]" -Force -PassThru
+    Add-Member NoteProperty CommitMessage "Syncing from at protocol" -Force -PassThru
 
 $filesFound += $newFiles
 
