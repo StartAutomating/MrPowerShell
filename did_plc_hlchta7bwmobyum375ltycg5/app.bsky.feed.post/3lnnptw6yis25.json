@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745601203647032,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lnnptui7rp25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lnnptw6yis25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-25T17:13:25.271Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "OpenSource"
+            }
+          ],
+          "index": {
+            "byteEnd": 38,
+            "byteStart": 27
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibdaxsal2i5s2b5ipnq625ebc7bijq2bdcyhqitvigpbqj7gporgi",
+          "uri": "at://did:plc:vn6ch23es67r2vvnsikt5x2r/app.bsky.feed.post/3lnnb2nmtfe2l"
+        },
+        "root": {
+          "cid": "bafyreic4skhwdiltndxr6rn6mzjfs7gcqbpslelhjs4lzb6vw3ulkpkfcu",
+          "uri": "at://did:plc:5hwy5afvfhonj6mrpcxm3rfy/app.bsky.feed.post/3lnkqyylls223"
+        }
+      },
+      "text": "IMO, Microsoft's switch to #OpenSource was and is more about lots of its rank and file believing in Open Source and advocating enthusiastically.\n\nIt had a lot more to do about getting over the \"Not Invented Here\" syndrome and helping the world by becoming more welcoming.\n\nHope this makes sense."
+    },
+    "cid": "bafyreiddtzxzrcx6bx3jcvzlfrrqagatt4oolfzdeeekm56sciezseursq"
+  }
+}
