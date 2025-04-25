@@ -47,4 +47,4 @@ $((Get-Content -Path .\BlueSkyRainbow-Animated.svg -Raw) -replace '<\?xml.+>')
 $style,
     $header,    
     $content,
-    $footer -join [Enviroment]::NewLine
+    $footer -join [Environment]::NewLine
