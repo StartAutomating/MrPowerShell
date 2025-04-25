@@ -1,30 +1,34 @@
 $style = @"
 <style type='text/css'>
-
 .header {
     text-align: center;
     margin: 2em;
+    height: 20%;    
 }
+
 .content {        
     margin: 3em;
+    height: 33%
 }
-.footer {
-    text-align: center;
-    margin: 2em;
-    position: fixed;
-    top: 80%;
-    height: 20%;
-    width: 100%;
+
+.corner {    
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 10%;
+    text-align: right;
 }
 </style>
 "@
 
 $header = @"
 <div class='header'>
-<h1><a href='/'>MrPowerShell</a></h1>
-<svg width='75%' height='25%'>
+<h2>MrPowerShell</h2>
+<a href='/'>
+<svg height='200%' y='0%' style='margin-top: -7%'>
 $((Get-Content -Path .\MrPowerShell-Animated.svg -Raw) -replace '<\?xml.+>')
 </svg>
+</a>
 </div>
 "@
 
@@ -36,16 +40,13 @@ $markdown.Html)
 "@
 
 $footer = @"
-<div class='footer'>
+<div class='corner'>
+<svg x='0%' height='66%'>
 <a href='https://bsky.app/profile/mrpowershell.com'>
-Follow me on BlueSky:
-<br/>
-<svg height='66%'>
+<title>Follow me on BlueSky</title>
 $((Get-Content -Path .\BlueSkyRainbow-Animated.svg -Raw) -replace '<\?xml.+>')
-</svg>
 </a>
-<br/>
-<a href='BlueSkyRainbow-Animated.svg'>Download SVG</a>
+</svg>
 </div>
 "@
 
