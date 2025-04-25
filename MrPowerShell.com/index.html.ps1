@@ -25,8 +25,8 @@ $((Get-Content -Path .\MrPowerShell-Animated.svg -Raw) -replace '<\?xml.+>')
 
 $content = @"
 <div class='content'>"
-$markdown = ConvertFrom-Markdown -Path "$psScriptRoot/Greetings.md"
-$markdown.Html
+$($markdown = ConvertFrom-Markdown -Path "$psScriptRoot/Greetings.md"
+$markdown.Html)
 "</div>
 "@
 
