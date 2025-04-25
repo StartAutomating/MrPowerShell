@@ -1,0 +1,135 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745551677350682,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lnmbptkum52a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lnmbpelyjc2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-25T03:27:40.482Z",
+      "embed": {
+        "$type": "app.bsky.embed.video",
+        "alt": "Original music video by OKGo (sponsored by Meta and RayBan)\n\nPolar video crafted using OBS, the OBS-ShaderFilter plugin, and obs-powershell.\n\nEnjoy!",
+        "aspectRatio": {
+          "height": 2048,
+          "width": 1152
+        },
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreigampxnoczz2474xmpdvksz3r6sjyr5fbxlelzeks53diurowildm"
+          },
+          "mimeType": "video/mp4",
+          "size": 20023925
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Love"
+            }
+          ],
+          "index": {
+            "byteEnd": 25,
+            "byteStart": 20
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "OKGo"
+            }
+          ],
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 29
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:g4iyovne2lj5j4dwrlogar4s"
+            }
+          ],
+          "index": {
+            "byteEnd": 112,
+            "byteStart": 100
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PixelShaders"
+            }
+          ],
+          "index": {
+            "byteEnd": 138,
+            "byteStart": 125
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "OBS"
+            }
+          ],
+          "index": {
+            "byteEnd": 147,
+            "byteStart": 143
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 175,
+            "byteStart": 164
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BlueSky"
+            }
+          ],
+          "index": {
+            "byteEnd": 214,
+            "byteStart": 206
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.youtube.com/watch?v=gz9BRl7DVSM"
+            }
+          ],
+          "index": {
+            "byteEnd": 288,
+            "byteStart": 257
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I saw the video for #Love by #OKGo and knew what else it needed:\n\nPolar reflections.\n\nLucky for me, @exeldro.com makes a few #PixelShaders for #OBS, and I've got a #PowerShell module for OBS.\n\nLess lucky:  #BlueSky is picky about video uploads.\n\nOriginal:\n\nwww.youtube.com/watch?v=gz9B...\n\n1/2"
+    },
+    "cid": "bafyreidlh6lkfjbruunygq5aa32td3zlapjdh27lxde262fcqln7qtynjq"
+  }
+}
