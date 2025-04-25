@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745609846401872,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lnnxvgvyjy22",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lnnxvil4s225",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-25T19:37:28.032Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifcvprccsktidw6flv56k3v72cnu3bq6jsy65irqr5xxtjsxlglkm",
+          "uri": "at://did:plc:vn6ch23es67r2vvnsikt5x2r/app.bsky.feed.post/3lnnvtmvynn2l"
+        },
+        "root": {
+          "cid": "bafyreic4skhwdiltndxr6rn6mzjfs7gcqbpslelhjs4lzb6vw3ulkpkfcu",
+          "uri": "at://did:plc:5hwy5afvfhonj6mrpcxm3rfy/app.bsky.feed.post/3lnkqyylls223"
+        }
+      },
+      "text": "Allow me to clarify.\n\nOne great part of Microsoft's company culture is its pragmatic idealism.\n\nAnother is that it is very wary of being anticompetitive.\n\nThese are side effects of scale and history.\n\nI literally can't imagine someone at MSFT talking about \"capturing markets\", past the 90s."
+    },
+    "cid": "bafyreichndu4pgdph4cxnxxljinjiu6d5y5ygnwa3phmkx2iyqfcusoi5m"
+  }
+}
