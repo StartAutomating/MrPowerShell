@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745600646294678,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lnnpdaiek62v",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lnnpdcinjc25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-25T17:04:07.744Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 78,
+            "byteStart": 67
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DotNet"
+            }
+          ],
+          "index": {
+            "byteEnd": 158,
+            "byteStart": 151
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihks2eheo4swt7cw5hgbf2zmu2hbxpnm2rtfhxc66ztfhulrsx7dm",
+          "uri": "at://did:plc:vn6ch23es67r2vvnsikt5x2r/app.bsky.feed.post/3lnnb2nmnjs2l"
+        },
+        "root": {
+          "cid": "bafyreic4skhwdiltndxr6rn6mzjfs7gcqbpslelhjs4lzb6vw3ulkpkfcu",
+          "uri": "at://did:plc:5hwy5afvfhonj6mrpcxm3rfy/app.bsky.feed.post/3lnkqyylls223"
+        }
+      },
+      "text": "What we are actually really comparing is perception, not reality.\n\n#PowerShell is a fully featured programming language.\n\nPeople *think* it's **just**\n#DotNet shell scripting.\n\nAnd I'm replying in the hopes that you can see it's apples to apples, not apples to oranges."
+    },
+    "cid": "bafyreiec52ack3nfnmq5aabiaaskyfgs7ysvn6verib37ohhayslwes5vy"
+  }
+}
