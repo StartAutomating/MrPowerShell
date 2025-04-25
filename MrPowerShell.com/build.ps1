@@ -53,6 +53,6 @@ $newLastBuild | ConvertTo-Json -Depth 2 > lastBuild.json
 #endregion lastBuild.json
 
 # Create an archive of the current deployment.
-Compress-Archive -Path $pwd -DestinationPath "archive.zip" -CompressionLevel Optimal
+Compress-Archive -Path $pwd -DestinationPath "archive.zip" -CompressionLevel Optimal -Force
 
 Pop-Location
