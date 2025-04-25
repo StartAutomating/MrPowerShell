@@ -2,19 +2,24 @@ $paletteName = 'Konsolas'
 
 $argsAndinput = @($args) + @($input)
 
+$style = @'
+body {
+    width: 100vw;
+    height: 100vh;    
+}
+'@
+
 @"
 <html>
     <head>
         <title>$Title</title>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/2bitdesigns/4bitcss@latest/css/$PaletteName.css'>
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/2bitdesigns/4bitcss@latest/css/$PaletteName.css' id='palette' />
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto' id='font' />
         $OpenGraph
         $ImportMap
         <style>
-        body {
-            width: 100vw;
-            height: 100vh;
-        }
+$style        
         </style>
     </head>
     <body>
