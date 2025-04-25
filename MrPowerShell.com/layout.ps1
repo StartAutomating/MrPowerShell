@@ -26,7 +26,7 @@ $style
         $(
             @(
                 '<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/highlight.min.js"></script>'
-                foreach ($language in 'PowerShell') {
+                foreach ($language in 'powershell') {
                     "<script src='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/languages/$language.min.js'></script>"
                 }
             ) -join [Environment]::NewLine            
