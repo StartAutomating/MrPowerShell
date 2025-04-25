@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745601352975765,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lnnpycumt327",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lnnpyee6ps25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-25T17:15:54.337Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia4fb7lbwal4e5f4xm6ky55ioninspt7jxldnikfgyoxf6r7itsry",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3lnnn2eycuk2r"
+        },
+        "root": {
+          "cid": "bafyreia4fb7lbwal4e5f4xm6ky55ioninspt7jxldnikfgyoxf6r7itsry",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3lnnn2eycuk2r"
+        }
+      },
+      "text": "Purely Windows, this isn't so bad.  Find the screen size / window size and divide.\n\nIt might help you to know that monospace fonts are always golden rectangles.\n\nI believe there's some code in PSSVG that does this ( look for SVG.Ansi).\n\nDM or ask if you need more info."
+    },
+    "cid": "bafyreieqcx5f23ceeis3bpjysxai6tath4fk7cll2ek25r5jlg75ktarey"
+  }
+}
