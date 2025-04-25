@@ -1,0 +1,80 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745600978647758,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lnnpn5vd3r26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lnnpna2p2s25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-25T17:09:40.735Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Microsoft"
+            }
+          ],
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 39
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSharp"
+            }
+          ],
+          "index": {
+            "byteEnd": 132,
+            "byteStart": 125
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "FSharp"
+            }
+          ],
+          "index": {
+            "byteEnd": 141,
+            "byteStart": 134
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 158,
+            "byteStart": 147
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicudpsf7ps4wle7qykwahmbc3q244u35r2chustirtfee34iggacm",
+          "uri": "at://did:plc:vn6ch23es67r2vvnsikt5x2r/app.bsky.feed.post/3lnnb2nmtfd2l"
+        },
+        "root": {
+          "cid": "bafyreic4skhwdiltndxr6rn6mzjfs7gcqbpslelhjs4lzb6vw3ulkpkfcu",
+          "uri": "at://did:plc:5hwy5afvfhonj6mrpcxm3rfy/app.bsky.feed.post/3lnkqyylls223"
+        }
+      },
+      "text": "This seems like a smudged lens to me.\n\n#Microsoft is a company made by enthusiastic nerds.\n\nLots of language nerds worked on #CSharp, #FSharp, and #PowerShell.\n\nNever heard any of them say something like \"capture emerging threats\".\n\nOften heard people talk about helping the community / world."
+    },
+    "cid": "bafyreibxbt5zx5u5jz432vrlnj5x3egz46no43yhigoro5ogc7pgfvfwly"
+  }
+}
