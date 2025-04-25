@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745534398513771,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lnlrmw5iw526",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lnlrmwgcyc2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-24T22:39:58.637Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicqqur7vyc53apca2xvkleqcojzva3y2w6bel7qnq22e5i6rnmceq",
+          "uri": "at://did:plc:3ktuyeqq7wqogu23gyeycwku/app.bsky.feed.post/3lnlr634db22q"
+        },
+        "root": {
+          "cid": "bafyreievmxb747ifbs6vb772wtyudk3d4ocsdplvb2hmdn3bntzlrwxkhm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lnlqwacda22z"
+        }
+      },
+      "text": "Thanks!  That did the trick!\n\n( I had been assuming atproto-did was the folder name, and an index file needed to go within there )."
+    },
+    "cid": "bafyreia3f35cbqp7prpri7idxi7bte2yepymyfv6az4ennxx6am52wfzie"
+  }
+}

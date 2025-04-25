@@ -1,0 +1,119 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745552065443396,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lnmc3e55lv2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lnmc2v56e22z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-25T03:34:06.921Z",
+      "embed": {
+        "$type": "app.bsky.embed.video",
+        "aspectRatio": {
+          "height": 2048,
+          "width": 1152
+        },
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreigra65tqpg6gt3dmnh4z2yx2tcdzyi64uppzbimybr4hjvaokvdg4"
+          },
+          "mimeType": "video/mp4",
+          "size": 52645115
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://obsproject.com/"
+            }
+          ],
+          "index": {
+            "byteEnd": 96,
+            "byteStart": 82
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "OBS"
+            }
+          ],
+          "index": {
+            "byteEnd": 101,
+            "byteStart": 97
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://obsproject.com/forum/resources/obs-shaderfilter.1736/"
+            }
+          ],
+          "index": {
+            "byteEnd": 133,
+            "byteStart": 103
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PixelShaders"
+            }
+          ],
+          "index": {
+            "byteEnd": 180,
+            "byteStart": 167
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/obs-powershell"
+            }
+          ],
+          "index": {
+            "byteEnd": 209,
+            "byteStart": 183
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 244,
+            "byteStart": 233
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidlh6lkfjbruunygq5aa32td3zlapjdh27lxde262fcqln7qtynjq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lnmbpelyjc2z"
+        },
+        "root": {
+          "cid": "bafyreidlh6lkfjbruunygq5aa32td3zlapjdh27lxde262fcqln7qtynjq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lnmbpelyjc2z"
+        }
+      },
+      "text": "The second half of the video, and a links to the projects that made it possible:\n\nobsproject.com #OBS\n\nobsproject.com/forum/resour...\nOBS-ShaderFilter plugin (for the #PixelShaders)\n\ngithub.com/StartAutomat... \n\n(to control OBS from #PowerShell and fine-tune the shaders)"
+    },
+    "cid": "bafyreifuhctsavg7nb5wethoxhs2z6nujylvu5zgjsfwl22z74skmgdnpa"
+  }
+}

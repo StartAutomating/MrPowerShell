@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745548220188488,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lnm6iszpyz2r",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lnm6ibsxfc2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-25T02:30:01.458Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Todd Howard yucks it up when talking about how many poor souls bought the first truly useless microtransaction in gaming history.\n\nI wonder how much money they made off of selling a glorified skin for a part of the game nobody ever uses.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicczhvr5ypoine2k6wlgwg6iesgf5emajavc64jwirb2s475foph4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 762485
+          },
+          "title": "a man sitting in front of a computer with the words who 's laughing now below him",
+          "uri": "https://media.tenor.com/7IaHSNHEGGcAAAAC/todd-howard-bethesda.gif?hh=278&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Oblivion"
+            }
+          ],
+          "index": {
+            "byteEnd": 41,
+            "byteStart": 32
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "In an irony of time, apparently #Oblivion remastered gives away Horse Armor.\n\nWhy is this ironic?\n\nHorse Armor was basically one of the first microtransactions in gaming (and an incredible waste of money).\n\nI'll never get those 500 xbox points back.\n\nAnd I'll never actually use horse armor."
+    },
+    "cid": "bafyreigf27xflwqge4nsltmnyolps7rpywhuhj64qz7y2wns265ulnnxz4"
+  }
+}

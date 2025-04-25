@@ -1,0 +1,25 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745534465417531,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lnlroskipp2r",
+    "operation": "update",
+    "collection": "app.bsky.actor.profile",
+    "rkey": "self",
+    "record": {
+      "$type": "app.bsky.actor.profile",
+      "avatar": {
+        "$type": "blob",
+        "ref": {
+          "$link": "bafkreicsg6jxk2m6vg4wnxzj5im4vm757gf5fftcdl5zp5mofcjgtnsqe4"
+        },
+        "mimeType": "image/jpeg",
+        "size": 17686
+      },
+      "description": "Jack of all Trades, Master of PowerShell.\n\nProlific Programmer\n\nMicrosoft MVP in Azure / PowerShell\n\nhttps://mrpowershell.com/\nhttps://github.com/StartAutomating\nhttps://github.com/PowerShellWeb\n\nNB, Neurodivergent, Nerdy, Newsjunkie.\n\nAsk me anything.",
+      "displayName": "James Brundage | MVP"
+    },
+    "cid": "bafyreif7nisfkdxibed2yvtdpvl5id73llgg24avdhp5bsuhms5sllqi4q"
+  }
+}
