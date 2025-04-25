@@ -1,5 +1,6 @@
 $style = @"
 <style type='text/css'>
+
 .header {
     text-align: center;
     margin: 2em;
@@ -10,6 +11,10 @@ $style = @"
 .footer {
     text-align: center;
     margin: 2em;
+    position: fixed;
+    top: 80%;
+    height: 20%;
+    width: 100%;
 }
 </style>
 "@
@@ -35,12 +40,12 @@ $footer = @"
 <a href='https://bsky.app/profile/mrpowershell.com'>
 Follow me on BlueSky:
 <br/>
-<svg width='75%' height='10%'>
+<svg height='66%'>
 $((Get-Content -Path .\BlueSkyRainbow-Animated.svg -Raw) -replace '<\?xml.+>')
 </svg>
 </a>
 <br/>
-<a href='BlueSkyRainbow-Animated.svg'>Download SVG</a>"
+<a href='BlueSkyRainbow-Animated.svg'>Download SVG</a>
 </div>
 "@
 
