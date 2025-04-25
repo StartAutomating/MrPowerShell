@@ -12,11 +12,17 @@ $style = @"
 }
 
 .corner {    
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 10%;
+    position: fixed;
+    display: grid;
+    margin-right: 0.5%;
+    margin-top: 0%; 
+    right: 0.5%;   
     text-align: right;
+    grid-template-columns: 1fr 1fr;
+}
+
+.corner div {
+    padding: 0.5em;
 }
 </style>
 "@
@@ -39,18 +45,22 @@ $markdown.Html)
 </div>
 "@
 
-$footer = @"
+$corner = @"
 <div class='corner'>
-<svg x='0%' height='66%'>
-<a href='https://bsky.app/profile/mrpowershell.com'>
-<title>Follow me on BlueSky</title>
-$((Get-Content -Path .\BlueSkyRainbow-Animated.svg -Raw) -replace '<\?xml.+>')
+<div>
+<a href='https://github.com/StartAutomating/MrPowerShell'>
+$(Get-Content -Path ./Assets/GitHub.svg -Raw)
 </a>
-</svg>
+</div>
+<div>
+<a href='https://bsky.app/profile/mrpowershell.com'>
+$(Get-Content -Path ./Assets/BlueSky.svg -Raw)
+</a>
+</div>
 </div>
 "@
 
 $style,
+    $corner,
     $header,    
-    $content,
-    $footer -join [Environment]::NewLine
+    $content -join [Environment]::NewLine
