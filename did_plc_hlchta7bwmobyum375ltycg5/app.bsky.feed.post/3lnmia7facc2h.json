@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745558684147078,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lnmiaool2z27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lnmia7facc2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-25T05:24:27.894Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihe77ixsr46fmwvsnfc6mmffs45lbkmfrrcc4fr5qricrpdyxemcy",
+          "uri": "at://did:plc:vn6ch23es67r2vvnsikt5x2r/app.bsky.feed.post/3lnmh2qo3562p"
+        },
+        "root": {
+          "cid": "bafyreic4skhwdiltndxr6rn6mzjfs7gcqbpslelhjs4lzb6vw3ulkpkfcu",
+          "uri": "at://did:plc:5hwy5afvfhonj6mrpcxm3rfy/app.bsky.feed.post/3lnkqyylls223"
+        }
+      },
+      "text": "I believe this is one of those \"it's not a bug it's a feature\" things.\n\nPowerShell functions can clearly delineate a begin, process, and end block.  They default to \"end\", or \"greedy\"\n\nPowerShell filters default to process, or \"lazy\"\n\nYou can have it both ways.\n\nMake some sense?"
+    },
+    "cid": "bafyreihh3cfczojxpqu5dncvgogkb2pu7hhqypf5q6dhp7bwa4xgsqh7xm"
+  }
+}
