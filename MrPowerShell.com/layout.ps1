@@ -5,7 +5,8 @@ $argsAndinput = @($args) + @($input)
 $style = @'
 body {
     width: 100vw;
-    height: 100vh;    
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;    
 }
 '@
 
