@@ -12,40 +12,52 @@ $layoutAtPath = [Ordered]@{}
     $outFile = $file.FullName -replace '\.ps1$'
     $fileRoot = $file.FullName | Split-Path
     
+    # If we don't have a layout for this directory
     if (-not $layoutAtPath[$fileRoot]) {
+        # go up until we find one.
         while ($fileRoot) {
             $layoutPath = Join-Path $fileRoot 'layout.ps1'
+            # once we do
             if (Test-Path $layoutPath) {
+                # set it in the hashtable
                 $layoutAtPath[$fileRoot] = $layoutPath
-                break
+                break # and take a break.
             }
             $fileRoot = $fileRoot | Split-Path
         }
     }
 
+    # If we have a layout for this directory, we'll use it.
     if ($layoutAtPath[$fileRoot]) {
+        # all we need to do is set the alias to it.
         Set-Alias layout $layoutAtPath[$fileRoot]
     }
     
     $Output = switch ($file.Extension) {
+        # If it's a markdown file, we'll convert it to HTML.
         '.md' {
             $title = $file.Name -replace '\.md$' -replace 'index'
             $outFile = $file.FullName -replace '\.md$', '.html'
             (ConvertFrom-Markdown -Path $file.FullName).Html |
                 layout
         }
+        # If it's a typescript file, we'll compile it to JS.
         '.ts' {
             $outFile = $file.FullName -replace '\.ts$', '.js'
             tsc $file.FullName -module es6 -target es6
         }
+        # If it's a powershell file, we'll probably run it.
         '.ps1' {
-            # Skip all files that are not *.someExtension.ps1
+            # Unless the name is not like *.someExtension.ps1
             if ($file.Name -notlike '*.*.ps1') {
                 continue nextFile
             }
+            # Get the script command
             $scriptCmd = Get-Command -Name $file.FullName
+            # If the script requries modules, check if they're loaded.
             foreach ($requirement in $scriptCmd.ScriptBlock.Ast.ScriptRequirements.RequiredModules) {
                 $alreadyLoaded = Import-Module -Name $requirement.Name -PassThru -ErrorAction Ignore
+                # If they're not already loaded, we'll install them.
                 if (-not $alreadyLoaded) {
                     Install-Module -AllowClobber -Force -Name $requirement.Name -Scope CurrentUser
                     $alreadyLoaded = Import-Module -Name $requirement.Name -PassThru -ErrorAction Ignore
@@ -54,13 +66,15 @@ $layoutAtPath = [Ordered]@{}
                     Write-Host "Already loaded $($alreadyLoaded.Name) for $($file.FullName)"
                 }
             }
+            # Extract the title from the name of the file.
             $title = $file.Name -replace '\..+?\.ps1$' -replace 'index'
-            . $file            
+            . $file          
         }
     }
 
+    # If we don't have output,
     if ($null -eq $Output) {
-        continue nextFile
+        continue nextFile # continue to the next file.
     }
 
     # If we're outputting to html, let's do a few things:
@@ -80,41 +94,48 @@ $layoutAtPath = [Ordered]@{}
 
         # * If the output is does not have an <html> tag,
         if (-not ($output -match '<html')) {
-            # we'll use a layout script.
-            $fileRoot = $file.FullName | Split-Path
-            while ($fileRoot) {
-                $layoutPath = Join-Path $fileRoot 'layout.ps1'
-                if (Test-Path $layoutPath) {
-                    $output = $output | . $layoutPath
-                    break
-                }
-                $fileRoot = $fileRoot | Split-Path
-            }            
+            # we'll use the layout.            
+            $output = $output | layout            
         }        
     }
 
+    # If the output is json, and it's not yet json
     if ($outFile -match '\.json$' -and $output -isnot [string]) {
+        # make it json
         $output = $output | ConvertTo-Json -Depth 10
     }    
-                
+    
+    # If the the output is XML,
     if ($output -is [xml]) {
+        # save it
         $output.Save($outFile)
+        # and if that worked,
         if ($?) {
+            # output the file.
             Get-Item -Path $outFile
         }
-    } elseif ($outputFiles = foreach ($out in $Output) {
+    }
+    # If the output was a series of fileInfo objects
+    elseif ($outputFiles = foreach ($out in $Output) 
+    {
         if ($out -is [IO.FileInfo]) {
             $out
         }
     }) {
+        # just output them directly.
         $outputFiles
-    } else {        
+    } else {
+        # otherwise, save it to a file.
         $output > $outFile
+        # and if that worked,
         if ($?) {
+            # output the file.
             Get-Item -Path $outFile
         }
     }
 }
 
+# we're done building files.
 $end = [datetime]::Now
+# so let everyone know how long it took.
 Write-Host "File completed in $($end - $start)"

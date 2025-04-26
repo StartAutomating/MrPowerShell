@@ -32,7 +32,14 @@ $buildEnd = [DateTime]::Now
 $newLastBuild = [Ordered]@{
     LastBuildTime = $lastBuildTime
     BuildDuration = $buildEnd - $buildStart
-    Message = if ($gitHubEvent.commits) { $gitHubEvent.commits[-1].Message } else { 'On Demand' }
+    Message = 
+        if ($gitHubEvent.commits) { 
+            $gitHubEvent.commits[-1].Message
+        } elseif ($gitHubEvent.schedule) {
+            $gitHubEvent.schedule
+        } else {
+            'On Demand'
+        }
 }
 
 # If we have a CNAME, we can use it to get the last build time from the server.
