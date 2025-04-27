@@ -1,0 +1,57 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745767573318338,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lnsks2zmd727",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lnsks2fv2c24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-27T15:26:12.551Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 24,
+            "byteStart": 13
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:vveuef2gjhg6lxd6fimfs4nn"
+            }
+          ],
+          "index": {
+            "byteEnd": 83,
+            "byteStart": 67
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigsh7cjtcr3z2gw5whohfoj3sjfd5q633nnh4svqj4tpj4sv2dlru",
+          "uri": "at://did:plc:uc7e6sv2dk26iqxwuh4jw2yt/app.bsky.feed.post/3lns62x65k22e"
+        },
+        "root": {
+          "cid": "bafyreigsh7cjtcr3z2gw5whohfoj3sjfd5q633nnh4svqj4tpj4sv2dlru",
+          "uri": "at://did:plc:uc7e6sv2dk26iqxwuh4jw2yt/app.bsky.feed.post/3lns62x65k22e"
+        }
+      },
+      "text": "I swear some #PowerShell nerd has a metal band named Powers Hell.\n\n@powers-hell.com even made a gnarly logo."
+    },
+    "cid": "bafyreibab7tqukgohkojyr7uqbkyrrpy6zv3ep7fjz2zonm7h5gwzwr5dy"
+  }
+}
