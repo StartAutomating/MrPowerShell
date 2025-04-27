@@ -26,12 +26,12 @@ foreach ($post in $myPosts) {
     $myPostUri = $post.commit.record.embed.external.uri -as [uri]
     $description = $post.commit.record.embed.external.description
     if ($myPostUri.DnsSafeHost -eq 'media.tenor.com') {
-        "<a href='$($post | toUri) aria-label='$([Web.HttpUtility]::HtmlAttributeEncode($description))'><img src='$($myPostUri)' $(if ($description) {
+        "<a href='$($post | toUri)' aria-label='$([Web.HttpUtility]::HtmlAttributeEncode($description))'><img src='$($myPostUri)' $(if ($description) {
             "alt='$([Web.HttpUtility]::htmlAttributeEncode($description))'"
         } else {
             "alt='Tenor GIF'"
         }) /></a>
         <br/>"
-    }    
+    }
 }
 "</div>"
