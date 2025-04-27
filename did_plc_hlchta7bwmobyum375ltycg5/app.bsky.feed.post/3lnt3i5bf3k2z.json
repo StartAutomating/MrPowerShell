@@ -1,0 +1,134 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745785516897336,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lnt3isutlq2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lnt3i5bf3k2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-27T20:24:53.631Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Kenneth contemplates the possibilities of PowerShell static websites built atop of AtProtocol data.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigycq5cx3lj5yufbzwmpj5z32vyxoocud2j7guam7jjqklnb5xjkq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 350663
+          },
+          "title": "a man in a suit and tie says no good will come of this on peacock",
+          "uri": "https://media.tenor.com/excR8JHDnbkAAAAC/no-good-will-come-of-this-kenneth-parcel.gif?hh=498&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 80,
+            "byteStart": 69
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 93,
+            "byteStart": 85
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://mrpowershell.com/Memes"
+            }
+          ],
+          "index": {
+            "byteEnd": 194,
+            "byteStart": 172
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 203,
+            "byteStart": 196
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Pages"
+            }
+          ],
+          "index": {
+            "byteEnd": 210,
+            "byteStart": 204
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 227,
+            "byteStart": 216
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 240,
+            "byteStart": 232
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "OP"
+            }
+          ],
+          "index": {
+            "byteEnd": 248,
+            "byteStart": 245
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just added a /Memes directory to my website, which I'm building with #PowerShell and #AtProto data.\n\nSo, within half an hour of this post, this example should show up at:\n\nmrpowershell.com/Memes\n\n#GitHub #Pages with #PowerShell and #AtProto are #OP !"
+    },
+    "cid": "bafyreih2cympvpnbn7vw3ojprrueyrw7nkl3ebpymfdyenpuweh3cbjr6i"
+  }
+}
