@@ -12,6 +12,7 @@ if (-not $script:CachedRepoList) {
 }
 
 $myRepos = @($script:CachedRepoList.Values) | . { process { $_ } }
+$myRepos | ConvertTo-Json -Depth 10 | Set-Content -Path $PSScriptRoot/Repos.json
 $myReposByPopularity = $myRepos | Sort-Object stargazers_count -Descending 
 $totalStars = ($myRepos | Measure-Object -Property stargazers_count -Sum).Sum
 $markdown = @(
