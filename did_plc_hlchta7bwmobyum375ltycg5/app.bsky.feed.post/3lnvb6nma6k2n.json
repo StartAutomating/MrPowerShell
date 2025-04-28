@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745860335509436,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lnvb6lw5vq2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lnvb6nma6k2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-28T17:12:17.135Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigvuwknybdcevggycjtyrul3knaaf6xdkegfjdd2icbcnsu64mp6e",
+          "uri": "at://did:plc:rlrrzgcyzronxjjnzorjmdeb/app.bsky.feed.post/3lnv6z2wg4c26"
+        },
+        "root": {
+          "cid": "bafyreieomb6ndvmkeazvso3opgzshyoypn53vrp7aw63pyxzyjcepcej6y",
+          "uri": "at://did:plc:rlrrzgcyzronxjjnzorjmdeb/app.bsky.feed.post/3lnnbl4in2s25"
+        }
+      },
+      "text": "So to clarify the ask, you'd like a framework for *internal* web based training of fundamentals?\n\nLike download your own instance and get up and running?  Or like a pure framework that lets you customize the lessons?"
+    },
+    "cid": "bafyreiclqvah6xe6xbkagg77keznqo7v67h2xygahpuj3rrm2zoiyvlc7e"
+  }
+}
