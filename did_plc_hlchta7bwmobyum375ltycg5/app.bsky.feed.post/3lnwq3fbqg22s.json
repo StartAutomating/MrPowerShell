@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1745910694789684,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lnwq3gcfom27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lnwq3fbqg22s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-04-29T07:11:33.614Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibgsfayeiqtnpuvwigems7thfa6uusnqyedepyrafhfrv7lchdata",
+          "uri": "at://did:plc:vehd7isrxfnv2t6xqumobznh/app.bsky.feed.post/3lnwkqpolns2s"
+        },
+        "root": {
+          "cid": "bafyreibgsfayeiqtnpuvwigems7thfa6uusnqyedepyrafhfrv7lchdata",
+          "uri": "at://did:plc:vehd7isrxfnv2t6xqumobznh/app.bsky.feed.post/3lnwkqpolns2s"
+        }
+      },
+      "text": "Two use cases:\n\n1. When you want your WinForms to be more dynamic than purely compiled code would allow\n\n2. When you want to have the Winform talk to PowerShell ( like click this button to run this command )"
+    },
+    "cid": "bafyreiey4yajn7znvdtafflleljriaaccnc26ep6f32esrxgqsigrtle2m"
+  }
+}
