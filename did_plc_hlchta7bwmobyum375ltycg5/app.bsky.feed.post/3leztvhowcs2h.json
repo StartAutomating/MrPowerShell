@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736122264351,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leztvhowcs2h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leztvhowcs2h",
+    "record": {
+      "text": "Hardware cache might be cool, but the juice may not be worth the squeeze (except in rare cases of high performance computing).\n\nGood old memory / disk caching though, that could stand its own mini language.\n\nBasically just chewing on your passing food for thought.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiay6sjahkuvhqrmi7fh5fjhffpmy2mjiirsk56jepgpeaqjrvilhm",
+          "uri": "at://did:plc:i4bfh2tyxihe2ksplmtcoopk/app.bsky.feed.post/3lezodxilu22z"
+        },
+        "parent": {
+          "cid": "bafyreigx2xqg2cz7kqoqkaf3crjiwdu7angep2sftjfssk25leoy2jqnku",
+          "uri": "at://did:plc:i4bfh2tyxihe2ksplmtcoopk/app.bsky.feed.post/3lezt4rdyqk26"
+        }
+      },
+      "createdAt": "2025-01-06T00:11:04.351Z"
+    },
+    "cid": "bafyreihfnppsjwpnhfchsu733f7ftg54ezrnb76k7gmoqvdfdd3v4xr7t4"
+  }
+}

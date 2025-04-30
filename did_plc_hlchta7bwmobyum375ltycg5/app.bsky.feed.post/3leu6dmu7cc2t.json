@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735927318518,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leu6dmu7cc2t",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leu6dmu7cc2t",
+    "record": {
+      "text": "I'd worry about homonyms and connotations.\n\nAs in \"this product can Blu\" me",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/qApf-VHA6RYAAAAC/tobiasfunke-davidcross.gif?hh=280&ww=497",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreid2hfo7shengf45em6o3uf5zsyyhuorxyhd7g7f44ctosbaernpfa"
+            },
+            "mimeType": "image/jpeg",
+            "size": 168553
+          },
+          "title": "a man with blue paint on his body and glasses is talking to another man",
+          "description": "Alt: \"There's gotta be a better way to say that\""
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreid6szfhdnm3x2m2ptt7w2bjnbgv3vz7uv56i2uk3aicdunjixw5gi",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3lett6rcbg22f"
+        },
+        "parent": {
+          "cid": "bafyreih5c35erkdazipzb6sh7sm6yrukljspcffhnzzrlxatnjua2ld6by",
+          "uri": "at://did:plc:rlrrzgcyzronxjjnzorjmdeb/app.bsky.feed.post/3leu67x5ws22l"
+        }
+      },
+      "createdAt": "2025-01-03T18:01:58.518Z"
+    },
+    "cid": "bafyreiczneqrnbacbg7atuy6pswokz4rcpnxf6yipm64gan6dbajy7etfe"
+  }
+}

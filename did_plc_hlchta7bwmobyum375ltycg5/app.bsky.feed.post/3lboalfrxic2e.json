@@ -1,0 +1,71 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732425033710,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lboalfrxic2e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lboalfrxic2e",
+    "record": {
+      "text": "Lol, lots of companies should be paying me for advice.\n\nAlso, check these two issues from over a year ago.\n\ngithub.com/StartAutomat...\n\ngithub.com/StartAutomat...\n\n\"All functions that quack are ducks\" is my fun example.\n\n( Makes all functions with a quack parameter ducktyped as ducks )",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/PipeScript/issues/242",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihhahmxwgqaqmxv22hyrfc2iffh36jawuzh5ec4nl57a5teu6r32a"
+            },
+            "mimeType": "image/jpeg",
+            "size": 95612
+          },
+          "title": "Commands could be read as sentences · Issue #242 · StartAutomating/PipeScript",
+          "description": "Almost any given sentence could be considered valid PowerShell (including this one). What if we could parse a command as a sentence? How? One could map a sentence to a command in a natural language..."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreiftffqawv4dneirtrqfraehekll4f4h2fikxlv5d7fip42mhe7ymy",
+          "uri": "at://did:plc:z23mr6a4ydaga3mqlk6dwdcr/app.bsky.feed.post/3lboa6ondhs2t"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 134,
+            "byteStart": 108
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/PipeScript/issues/242",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 162,
+            "byteStart": 136
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/PipeScript/issues/244",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-24T05:10:33.71Z"
+    },
+    "cid": "bafyreif236fwalkpmafrwij7bej22eipxfehzj4klxa3fa4upga5dnus5a"
+  }
+}

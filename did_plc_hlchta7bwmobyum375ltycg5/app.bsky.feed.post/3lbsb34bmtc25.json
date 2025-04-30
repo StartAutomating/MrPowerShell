@@ -1,0 +1,67 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732562999561,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbsb34bmtc25",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbsb34bmtc25",
+    "record": {
+      "text": "I wonder if it / we would be able to come up with a more efficient version of this embedding?  Relauching #powershell would be slow, and I think #TypeScript and #csharp play nicely.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifgemnsezpjq5mod6zmahaldgy3aygsaeidejeuc3gktmjinljmfm",
+          "uri": "at://did:plc:hrfbbfswdebg5czgnlj6sobm/app.bsky.feed.post/3lbrqmzvva22l"
+        },
+        "parent": {
+          "cid": "bafyreifgemnsezpjq5mod6zmahaldgy3aygsaeidejeuc3gktmjinljmfm",
+          "uri": "at://did:plc:hrfbbfswdebg5czgnlj6sobm/app.bsky.feed.post/3lbrqmzvva22l"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 117,
+            "byteStart": 106
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 156,
+            "byteStart": 145
+          },
+          "features": [
+            {
+              "tag": "TypeScript",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 168,
+            "byteStart": 161
+          },
+          "features": [
+            {
+              "tag": "csharp",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-25T19:29:59.561Z"
+    },
+    "cid": "bafyreigajwq7tfprtxccfnhequistjpidesuewunmfo63bqb74myizl6mi"
+  }
+}

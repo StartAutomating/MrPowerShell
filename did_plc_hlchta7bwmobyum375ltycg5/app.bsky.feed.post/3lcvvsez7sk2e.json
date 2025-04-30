@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733787846154,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcvvsez7sk2e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcvvsez7sk2e",
+    "record": {
+      "text": "What do you mean?",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/E45AIH-RLW8AAAAC/robotgirl-artificial.gif?hh=400&ww=400",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifwduuw2n5oi7u7l7igensw5dw76y37ofv2wvckrmwpxwsdh7edma"
+            },
+            "mimeType": "image/jpeg",
+            "size": 94727
+          },
+          "title": "a close up of a robot 's face with a blue shirt on",
+          "description": "Alt: Uncanny valley head tilt"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigwecv5tfktzqjt3oidke72n6dagsf5fra56n4qdn725fvmxi4wpi",
+          "uri": "at://did:plc:jn2c6bcr5rcwlmfcfn5k37sm/app.bsky.feed.post/3lcvs3ysjtc2q"
+        },
+        "parent": {
+          "cid": "bafyreictjlcer7eyhpwtqbwo2wyt7lzot3h4legkcktsjnyz4h45y5b4ju",
+          "uri": "at://did:plc:b6iizj5wzawc6av3g23kvq4l/app.bsky.feed.post/3lcvsci6djs2j"
+        }
+      },
+      "createdAt": "2024-12-09T23:44:06.154Z"
+    },
+    "cid": "bafyreidg2tzjlgkojbug3wlwegbt45c3rdpdhxsynpodk3wicxyl2676ie"
+  }
+}

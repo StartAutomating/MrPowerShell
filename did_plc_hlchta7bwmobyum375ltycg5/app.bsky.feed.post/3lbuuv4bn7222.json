@@ -1,0 +1,49 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732652992548,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbuuv4bn7222",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbuuv4bn7222",
+    "record": {
+      "text": "Surely I'm serious, Jim Abrahams, creator of Airplane!, has exited this plane of existence.\n\nwww.theguardian.com/film/2024/no...\n\nYour jokes will outlive you.  Enjoy the next BlueSky.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/kR7VHHLrr0MAAAAC/run-away-jump.gif?hh=373&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigbeum2subzbcxhu5ij6lbnxesurbak7aclbuz456iytndu4tydd4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 108850
+          },
+          "title": "a man in a captain 's uniform is holding a microphone in his hand",
+          "description": "Alt: Picked a bad week to quit...."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 128,
+            "byteStart": 93
+          },
+          "features": [
+            {
+              "uri": "https://www.theguardian.com/film/2024/nov/26/jim-abrahams-dead-airplane-naked-gun",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-26T20:29:52.548Z"
+    },
+    "cid": "bafyreibu3jig35ri67m2yvrv7pc6xsh63hratfo7pv25fyxy2vihgipfrm"
+  }
+}

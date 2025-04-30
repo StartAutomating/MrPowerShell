@@ -1,0 +1,51 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742599025962,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lkwdtyvf2k2q",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lkwdtyvf2k2q",
+    "record": {
+      "text": "I'm all for tech workers organizing.\n\nI'm less interested in what people on yCombinator say, because that's Peter Thiel's thing, and I suspect there will be some sampling bias.\n\nI'm more interested to hear what IT workers think.\n\nAlso, is the person who wrote unionize.fyi on BlueSky?",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://unionize.fyi",
+          "title": "Unionize.fyi",
+          "description": "It's time to escape the Burnout Machine."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidhpo4d6fhesle3wcxl5uxuer2q4f2naauqhrpkh2wa42vx4gyqki",
+          "uri": "at://did:plc:ctphcgyhnllfluywokibtrgb/app.bsky.feed.post/3lku4vptuzs2z"
+        },
+        "parent": {
+          "cid": "bafyreidhpo4d6fhesle3wcxl5uxuer2q4f2naauqhrpkh2wa42vx4gyqki",
+          "uri": "at://did:plc:ctphcgyhnllfluywokibtrgb/app.bsky.feed.post/3lku4vptuzs2z"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 272,
+            "byteStart": 260
+          },
+          "features": [
+            {
+              "uri": "https://unionize.fyi",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-21T23:17:05.962Z"
+    },
+    "cid": "bafyreiceysgg2bnfx4szzqaqynd7bzg2i6j3riouz54kqxewejh6msnsqq"
+  }
+}

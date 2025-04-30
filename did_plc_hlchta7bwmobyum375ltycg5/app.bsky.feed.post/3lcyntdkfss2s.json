@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733882367455,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcyntdkfss2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcyntdkfss2s",
+    "record": {
+      "text": "Thank you for bringing that up!  I'll bring it up at the next community call, and thru some back channels.\n\nI've also been unexpectedly hurt by it a few times.\n\nIf any other #powershell people love or hate this, let us know ( I'll include it in the issue )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreid4gikgejqzofqlbdsfeyer2esz6yffbtervgknv2s3vqeyvn2zvm",
+          "uri": "at://did:plc:2pzomphihuifolrf2w2ow67y/app.bsky.feed.post/3lcy3svncic2d"
+        },
+        "parent": {
+          "cid": "bafyreie5xvqekh6y7e4okks7fzb5ap5pv7sdkvr4nxywrufaaai7nbyane",
+          "uri": "at://did:plc:2pzomphihuifolrf2w2ow67y/app.bsky.feed.post/3lcyn6h45js22"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 185,
+            "byteStart": 174
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-11T01:59:27.455Z"
+    },
+    "cid": "bafyreifnfsblcji6pdtt52vbgtoxsbtdqapgpkjhdmrp23gh7dt7csmp4e"
+  }
+}

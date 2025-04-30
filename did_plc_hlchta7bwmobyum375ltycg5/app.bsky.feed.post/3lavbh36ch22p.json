@@ -1,0 +1,34 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1731566968644,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lavbh36ch22p",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lavbh36ch22p",
+    "record": {
+      "text": "@johnhammond.bsky.social ran into your video on the Fake Captcha + PowerShell Attack Vector.  Thanks for making this.\n\nI'm going to be talking about \"Dark Arts of PowerShell\" and \"Defense Against Dark Arts of PowerShell\" next week @ Live360!.  Will give it a shout out.\n\nAlso, we should talk.  HMU.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 24,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "did": "did:plc:stzbsrq3zpqcdouqq4rqkvrb",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-14T06:49:28.644Z"
+    },
+    "cid": "bafyreid6hb6al7gtn6277x3yfgseojiwsnjzh2sml3lvektw2dtwjozjsi"
+  }
+}

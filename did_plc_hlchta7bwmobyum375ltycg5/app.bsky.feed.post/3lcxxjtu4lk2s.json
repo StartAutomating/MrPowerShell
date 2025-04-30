@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733858426687,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcxxjtu4lk2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcxxjtu4lk2s",
+    "record": {
+      "text": "Would you mind if I helped update this a bit?\n\n1. I'd love to aggregate the data as data, not markdown.\n2. It looks like you're missing a bunch of my modules ( I write about 70 modules, not 17)",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicyysrx6nl2gk3uh7g6oxkqbf2zts7rbuiw77aadraqfrkqdefkiu",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3lcxlps527n2m"
+        },
+        "parent": {
+          "cid": "bafyreicyysrx6nl2gk3uh7g6oxkqbf2zts7rbuiw77aadraqfrkqdefkiu",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3lcxlps527n2m"
+        }
+      },
+      "createdAt": "2024-12-10T19:20:26.687Z"
+    },
+    "cid": "bafyreiegqkjnykur2ry2pkicbmqxrr4xpz6aslsiiiimc4ishntlkhndbe"
+  }
+}

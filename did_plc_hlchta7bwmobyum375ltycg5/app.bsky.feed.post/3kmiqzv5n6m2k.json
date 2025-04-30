@@ -1,0 +1,73 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1709146782883,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kmiqzv5n6m2k",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kmiqzv5n6m2k",
+    "record": {
+      "text": "4,000 people have figured out how to make their #PowerShell more #Posh !\n\nWant to spice up your shell experience?\n\ngithub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/Posh",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigwa2ner4jetmjh2dvu2icrs2meomsurntjvm64d5l3rrpw57ygvu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 109056
+          },
+          "title": "GitHub - StartAutomating/Posh: PowerShell made Posh",
+          "description": "PowerShell made Posh. Contribute to StartAutomating/Posh development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 59,
+            "byteStart": 48
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 70,
+            "byteStart": 65
+          },
+          "features": [
+            {
+              "tag": "Posh",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 141,
+            "byteStart": 115
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/Posh",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-02-28T18:59:42.883Z"
+    },
+    "cid": "bafyreihx3ukh5q6gh5yrczhy3smos7k27uzwlj46x3ov6vis7oilalyk44"
+  }
+}

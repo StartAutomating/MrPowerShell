@@ -1,0 +1,49 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1695518896041,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ka453f5ntx26",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ka453f5ntx26",
+    "record": {
+      "text": "Right now I've got exactly 42 followers.\n\nFor some reason that reminds me to mention the PowerShell Guide ;-)\n\npowershellguide.com",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://powershellguide.com/",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihdxlnjgejxc7qffocslubezypnrr5wrvvwrlfukn2okzm32zxuee"
+            },
+            "mimeType": "image/jpeg",
+            "size": 426887
+          },
+          "title": "PowerShell Guide",
+          "description": "Don't Panic!"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 130,
+            "byteStart": 111
+          },
+          "features": [
+            {
+              "uri": "https://powershellguide.com/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-09-24T01:28:16.041Z"
+    },
+    "cid": "bafyreidjoos3nofx4slvhgd5xmurlgmoxaxfkr3at5ykjwdy7jzyauuele"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736118471945,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lezqegxtu225",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lezqegxtu225",
+    "record": {
+      "text": "Oh I was just making a very esoteric joke.\n\nIn this case, implying that someone's experience with bash resembles intestinal problems.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidt3jpz4azd2dtcqgfj7dxvcrguxg24dcmtdp4i4nogg3v3f76m4q",
+          "uri": "at://did:plc:ckaz32jwl6t2cno6fmuw2nhn/app.bsky.feed.post/3leyxxjm6i22l"
+        },
+        "parent": {
+          "cid": "bafyreidlq74x6byb6q6ux7a7jzdz2gt5ghgz3eskx3k2lyeov3ormxqwom",
+          "uri": "at://did:plc:fh3l5o4idrmsjtfuxxgxqowu/app.bsky.feed.post/3lezp67vf6s2y"
+        }
+      },
+      "createdAt": "2025-01-05T23:07:51.945Z"
+    },
+    "cid": "bafyreigydsfmovqplm27z5alpgp2qwvbmpizk55txwrx4542exb3xf3oki"
+  }
+}

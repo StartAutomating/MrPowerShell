@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732734492774,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbxaryx4oc2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbxaryx4oc2u",
+    "record": {
+      "text": "You've always gotta handle kryptonite very carefully.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreie73wbxcivskocjcnehhba33lsod3t27w25lghgnaeqiuvv2f2feu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbxajfj6rk2u",
+          "$type": "com.atproto.repo.strongRef"
+        },
+        "parent": {
+          "cid": "bafyreicm3kurctg2uzdpjhdolksik62tit6zgzg4ejlgxriko4qyh5qhoi",
+          "uri": "at://did:plc:xaux2m6k7qouqrsmzusz6lci/app.bsky.feed.post/3lbxamzx33a2t"
+        }
+      },
+      "createdAt": "2024-11-27T19:08:12.774Z"
+    },
+    "cid": "bafyreihvbddtrgznzd7uvuhbtwdkd3unrfeiitt7hbvjicmqmygxxjezri"
+  }
+}

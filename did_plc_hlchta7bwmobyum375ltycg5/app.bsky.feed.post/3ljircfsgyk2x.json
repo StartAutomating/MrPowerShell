@@ -1,0 +1,62 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741032919930,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ljircfsgyk2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ljircfsgyk2x",
+    "record": {
+      "text": "@winstonrowntree.bsky.social \n\nSo nice to see you on BlueSky!\n\nYour videos have been immensely helpful.\n\nThey have saved more lives than I'd care to count.\n\nPlease produce more.\n\nDon't know what else to say that you haven't already said better.\n\nyoutu.be/UquY2e6QkqI?...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://youtu.be/UquY2e6QkqI?si=38kwlUWfCPSl17ZP",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidzf46idnutsj63bw6z74pebn5ytqob2omdy3sabtm2yg343lhjka"
+            },
+            "mimeType": "image/jpeg",
+            "size": 70487
+          },
+          "title": "The Importance of Reaching Out To Old Teachers - People Watching #8",
+          "description": "YouTube video by Cracked"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 28,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "did": "did:plc:tzeu2noacxbxt3bkim2ao5mq",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 270,
+            "byteStart": 246
+          },
+          "features": [
+            {
+              "uri": "https://youtu.be/UquY2e6QkqI?si=38kwlUWfCPSl17ZP",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-03T20:15:19.93Z"
+    },
+    "cid": "bafyreifcexiqpahhmpnktaljwsox6ytj4ipsxhzphexznegpmzewdp2hky"
+  }
+}

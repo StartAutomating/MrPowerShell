@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732424645736,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lboa7trylc2e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lboa7trylc2e",
+    "record": {
+      "text": "Sorta / not really.\n\nIf I can write C / rust / go in #powershell, and they produce binaries, tell me where the difference lies.\n\nNothing complex is made with just one language.\n\nPowershell is the glue language that ties things together.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreia4zkbbroombboyzc5iwq7nmmltlskxw5rtszepn4hztmxrukv3pm",
+          "uri": "at://did:plc:z23mr6a4ydaga3mqlk6dwdcr/app.bsky.feed.post/3lboa45ens22t"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 64,
+            "byteStart": 53
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-24T05:04:05.736Z"
+    },
+    "cid": "bafyreigbcsh3iemuxctkxen7fxthaqplwmgqfpwpvrgau5malyjdxtwhaa"
+  }
+}

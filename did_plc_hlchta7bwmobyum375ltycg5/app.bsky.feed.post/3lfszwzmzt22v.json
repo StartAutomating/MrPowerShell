@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736987752627,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfszwzmzt22v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfszwzmzt22v",
+    "record": {
+      "text": "Want to learn about to automate #bluesky ?\n\nJoin us tonight, and hear  @jdhitsolutions.com talk about PSBlueSky, a #PowerShell module for BlueSky.\n\nwww.meetup.com/pacific-powe...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/events/305394632/?eventOrigin=group_upcoming_events",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiga5eqo5n6ujq2atfzzkdatunqqsmb6lafulfokoluzpizxl7ndvu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 36724
+          },
+          "title": "Reaching for the (Blue)sky (with Jeff Hicks), Wed, Jan 15, 2025, 6:00 PM   | Meetup",
+          "description": "**[Moving to the Wednesday 1/15 so we can all enjoy the Research Triangle PowerShell User Group.](https://rtpsug.com/)**\n\nOne of the great features of PowerShell is that it"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 40,
+            "byteStart": 32
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 90,
+            "byteStart": 71
+          },
+          "features": [
+            {
+              "did": "did:plc:ohgsqpfsbocaaxusxqlgfvd7",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 126,
+            "byteStart": 115
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 178,
+            "byteStart": 148
+          },
+          "features": [
+            {
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/305394632/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-16T00:35:52.627Z"
+    },
+    "cid": "bafyreiha4jhb6kojyhyqxyzpqijxhgyk5ss3u2lqrccoqqjzr3674znfxq"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1696472260563,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kaxuxgvjt22x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kaxuxgvjt22x",
+    "record": {
+      "text": "Very cool!  Thanks for the context (and for ipfs, now that I know it's a thing, looking forward to working with it!).\n\nFor my part:\n\nI'm ex MSFT, helped build PowerShell, and see the whole web world as basically decorations on property bags.\n\nSo IPFS and AtProto are _very_ interesting :->)",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieorm7537jnahfbhaqzu5zyltsavnkden5ih4wqubhv22kndvi3xm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kaxgfkkrkb2o"
+        },
+        "parent": {
+          "cid": "bafyreicnle62f5m65gatwhm3hcjugw3nqcturvljlzvqn3sohjyog3g4eq",
+          "uri": "at://did:plc:vpkhqolt662uhesyj6nxm7ys/app.bsky.feed.post/3kaxgrdurvp24"
+        }
+      },
+      "createdAt": "2023-10-05T02:17:40.563Z"
+    },
+    "cid": "bafyreigepbmcwxyfle4vpugwgx3zhcnwumn72ao43mshfsz3uadeqlariu"
+  }
+}

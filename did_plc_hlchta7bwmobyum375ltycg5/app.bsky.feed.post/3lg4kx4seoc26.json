@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737315247204,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lg4kx4seoc26",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lg4kx4seoc26",
+    "record": {
+      "text": "Quite the thread...\n\nJust wondering if you've considered \"washing\" the file with #PowerShell.  If you `ConvertFrom-Json | ConvertTo-Json` it should fix the quoting and you could use it from #Python.\n\nMy 🌶️ take : language communities should be welcoming and not fight each other.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieqcjf2czzlat3iagmbxr6qimjpuahocvtdl5774qeg3klwrubv6u",
+          "uri": "at://did:plc:te235k5t6h4hp3awy5tuajxx/app.bsky.feed.post/3lg35z5ixk22l"
+        },
+        "parent": {
+          "cid": "bafyreic47hvz6qriq3cy4jtfvurlyakflnkufjecnjslysoyjyyrherryu",
+          "uri": "at://did:plc:iwexbfropluuqqtexla4qmfl/app.bsky.feed.post/3lg4dp4rvbc2j"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 92,
+            "byteStart": 81
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 197,
+            "byteStart": 190
+          },
+          "features": [
+            {
+              "tag": "Python",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-19T19:34:07.204Z"
+    },
+    "cid": "bafyreihkkd35q3hutyjebqyrzoyfmw76ribs56tsyoqmvgxstou34ox7c4"
+  }
+}

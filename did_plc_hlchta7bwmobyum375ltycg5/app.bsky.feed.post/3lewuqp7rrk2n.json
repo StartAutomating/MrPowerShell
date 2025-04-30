@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736020098998,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lewuqp7rrk2n",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lewuqp7rrk2n",
+    "record": {
+      "text": "Very cool!\n\nShould work outside of IIS, too 🤞.\n\nI think we still need a cooler name / more distilled essence.\n\nBtw / also / and....\n\nYou might want to look at either providing a websocket data pump or allowing cors....\n\nThen the site can be _mostly_ static, with a PowerShell backend.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreialwhczhbdi3ap4lvtchkoljcvwblpgyqjwogucwgtk7banxihpii",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3leupnpjbn22f"
+        },
+        "parent": {
+          "cid": "bafyreialwhczhbdi3ap4lvtchkoljcvwblpgyqjwogucwgtk7banxihpii",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3leupnpjbn22f"
+        }
+      },
+      "createdAt": "2025-01-04T19:48:18.998Z"
+    },
+    "cid": "bafyreib5kbh2irquojapfg5mvye7mtpuftlb3v6c6d2rlsh557i2ubdoey"
+  }
+}

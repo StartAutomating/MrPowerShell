@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737090124674,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfvzbx7yx22i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfvzbx7yx22i",
+    "record": {
+      "text": "It's a language with some interesting performance characteristics 😉.\n\nAre you using a lot of pipelines in a function/script?\n\nRelooping over content? Loops within loops?\n\nSomething most people miss is that #powershell pipelines aren't O(1), they're O(N).",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidac2nbjsvstz2dvlmpp32kqi35k4yi4m4bqnjwcee73j4kui6gtu",
+          "uri": "at://did:plc:cupacm3nx4xoy5iciu6va6xc/app.bsky.feed.post/3lfvuv4cjzs23"
+        },
+        "parent": {
+          "cid": "bafyreidac2nbjsvstz2dvlmpp32kqi35k4yi4m4bqnjwcee73j4kui6gtu",
+          "uri": "at://did:plc:cupacm3nx4xoy5iciu6va6xc/app.bsky.feed.post/3lfvuv4cjzs23"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 220,
+            "byteStart": 209
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-17T05:02:04.674Z"
+    },
+    "cid": "bafyreia7t2ohmmslckifambod2slkgtsx3n666crvanlib2kyy34r4gqjy"
+  }
+}

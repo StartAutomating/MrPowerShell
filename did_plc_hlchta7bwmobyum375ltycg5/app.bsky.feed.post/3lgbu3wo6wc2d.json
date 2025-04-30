@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737496870917,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgbu3wo6wc2d",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgbu3wo6wc2d",
+    "record": {
+      "text": "Also / FYI, I might start using the term #PoShaKucha, especially if I make more #PowerShell demos using this technique.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidot7oetnxj7gkbbsvpfb73tmrgi66r4mwsctfax3s532j3kp2sby",
+          "uri": "at://did:plc:zfubrgofk23trzj7bapmym2d/app.bsky.feed.post/3lgbpnh5bvc2d"
+        },
+        "parent": {
+          "cid": "bafyreidot7oetnxj7gkbbsvpfb73tmrgi66r4mwsctfax3s532j3kp2sby",
+          "uri": "at://did:plc:zfubrgofk23trzj7bapmym2d/app.bsky.feed.post/3lgbpnh5bvc2d"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 52,
+            "byteStart": 41
+          },
+          "features": [
+            {
+              "tag": "PoShaKucha",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 91,
+            "byteStart": 80
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-21T22:01:10.917Z"
+    },
+    "cid": "bafyreigzdwbz5btqe7txp7yzdqg5t3lkizkkxwakyb3ijfsl3o34bupeni"
+  }
+}

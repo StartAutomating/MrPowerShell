@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738896789107,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhkluqowds25",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhkluqowds25",
+    "record": {
+      "text": "Short version:\n\nModules are packages of joy\nFunctions/Scripts define a single thing you can do in many ways \nParameters let you describe the ways you work with something\n\nFrom there on in, it's kinda like if JavaScript / PHP / DotNet had a baby.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiefnv4u4hduwrsl4myl7rzfefcrpltwlpatpch3r5anket4e67dha",
+          "uri": "at://did:plc:54nwdriyufyknmzmwcshvmpl/app.bsky.feed.post/3lhkaxbki622s"
+        },
+        "parent": {
+          "cid": "bafyreihalwijhmdbceqmy634la7ikrdsvvvfa5sfmnpqrvse22dd5tix6e",
+          "uri": "at://did:plc:54nwdriyufyknmzmwcshvmpl/app.bsky.feed.post/3lhkliqdyw22c"
+        }
+      },
+      "createdAt": "2025-02-07T02:53:09.107Z"
+    },
+    "cid": "bafyreige2s75h2fztgtjkg2qssltu2kyllaztasckcqpnq2k7thdidhiky"
+  }
+}

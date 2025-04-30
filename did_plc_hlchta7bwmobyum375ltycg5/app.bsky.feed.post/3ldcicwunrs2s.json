@@ -1,0 +1,80 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734220045964,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldcicwunrs2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldcicwunrs2s",
+    "record": {
+      "text": "This also contains a number of binaries, named to look like system processes.  The bulk of the code seems to be designed to set these processes up to run, buried inside of a crapload of what looks like #VBScript ported poorly into #PowerShell.\n\nDo not import an #exploit module on @atproto.com .",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihud2pa2w3zrkohp4sir5xbsvrdopdq477qmbzk7l5frxqiatbs6q",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldci5jghdk2s"
+        },
+        "parent": {
+          "cid": "bafyreihud2pa2w3zrkohp4sir5xbsvrdopdq477qmbzk7l5frxqiatbs6q",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldci5jghdk2s"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 211,
+            "byteStart": 202
+          },
+          "features": [
+            {
+              "tag": "VBScript",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 242,
+            "byteStart": 231
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 270,
+            "byteStart": 262
+          },
+          "features": [
+            {
+              "tag": "exploit",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 293,
+            "byteStart": 281
+          },
+          "features": [
+            {
+              "did": "did:plc:ewvi7nxzyoun6zhxrhs64oiz",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-14T23:47:25.964Z"
+    },
+    "cid": "bafyreiezdci3bzhgt2epyaq6awocadh5reez3s6ktgfotxx4kmvkwigzba"
+  }
+}

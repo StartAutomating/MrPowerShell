@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733764300840,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcv7uohc3c2y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcv7uohc3c2y",
+    "record": {
+      "text": "Thanks!\n\nIt was a good hypothesis.\n\nI'm only slightly bummed out that we never highlighted the alternative, especially when freeform prompting is all the rage.\n\n#powershell has been able to freeform prompt since v1... Just most people never know it.\n\n#powershell is a language model.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibl3xlzqr7q5qk2iafpypj4eurgnloxdsknuutklftr3ujsinm3yu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lctko2hugc2q"
+        },
+        "parent": {
+          "cid": "bafyreieq3yeuydr4i3l5t5o5eh2nbn7yruvxgibylrwiny4jhxkjdzixs4",
+          "uri": "at://did:plc:inbagvkt2ildrbxdhmexmkjl/app.bsky.feed.post/3lcus3cll7k2t"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 172,
+            "byteStart": 161
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 262,
+            "byteStart": 251
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-09T17:11:40.84Z"
+    },
+    "cid": "bafyreihk2b2ypsearo337b7ih6je7byanr3fnojzx2o3xpu577ktxwspiq"
+  }
+}

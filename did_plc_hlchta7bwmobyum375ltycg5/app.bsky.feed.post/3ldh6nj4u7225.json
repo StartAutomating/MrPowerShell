@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734381461924,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldh6nj4u7225",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldh6nj4u7225",
+    "record": {
+      "text": "Ah, but that's the thing.... A registar will park the domain by default.\n\nIf it's not registered, no such host will be found.\n\nIf it is registered, it's probably pointing somewhere.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic3eiaxnsxaavr5p3i3fo5qvc4npkcw6yuao73qvrq3544iho3m24",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldethmsp3k2m"
+        },
+        "parent": {
+          "cid": "bafyreif476haqdf7ue32dhtz4lt6clufpwd5qf2lps7rj7swwpbnt5oaom",
+          "uri": "at://did:plc:42dvgua7xqqbzkp2gfxhqnt5/app.bsky.feed.post/3ldh3iv7nrc2y"
+        }
+      },
+      "createdAt": "2024-12-16T20:37:41.924Z"
+    },
+    "cid": "bafyreibjnysgzah3ny2v6dkqxsagxraoznwv6oasueyff7xfvcpcpdwohq"
+  }
+}

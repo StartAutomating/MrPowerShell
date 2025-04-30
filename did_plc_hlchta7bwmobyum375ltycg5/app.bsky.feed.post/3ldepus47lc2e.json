@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734296880615,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldepus47lc2e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldepus47lc2e",
+    "record": {
+      "text": "Now we have a #powershell animation that looks like a 60s #batman transition.\n\nHoly rusted metal! \n\n( Hat tip to @stevenjudd.bsky.social for giving me the idea )",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/CGnOmkhIMU0AAAAC/powershell-icon.gif?hh=281&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreie2edh7i46qfyyz5e6nfk3b5czpigbxwbdz6d7ezjnwpvvbgu2eoy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 3875
+          },
+          "title": "a blue arrow pointing to the right is against a black background",
+          "description": "ALT: a blue arrow pointing to the right is against a black background"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 25,
+            "byteStart": 14
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 65,
+            "byteStart": 58
+          },
+          "features": [
+            {
+              "tag": "batman",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 136,
+            "byteStart": 113
+          },
+          "features": [
+            {
+              "did": "did:plc:gwzlu5twwpnddrdx74se7ddn",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-15T21:08:00.615Z"
+    },
+    "cid": "bafyreig3ai2h5hrav4722smf6mnldvnhwt4gne7vaz6aehog43drme5v6q"
+  }
+}

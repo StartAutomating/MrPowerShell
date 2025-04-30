@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733438774826,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lclqpanp2k25",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lclqpanp2k25",
+    "record": {
+      "text": "I literally gave a talk on this two weeks ago.  Even brought up restarts and profile poisoning as examples of what can happen if someone is able to inject code.\n\nI'm just saying that it's not a \"security hole\", it's one of thousands of harmful things people can do if an attacker gets in the door.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihq2e6hyghzngjr2zu76v7lnkwg567arffmo7og2z73xfwc67nc4q",
+          "uri": "at://did:plc:bwoqjse5wogg2776yhhl5and/app.bsky.feed.post/3lcl5wk2ioc2a"
+        },
+        "parent": {
+          "cid": "bafyreiejt6xkkovwkp2qkshyguttqldvjbhfgzr6gaytmjgkgmv375xn4m",
+          "uri": "at://did:plc:bwoqjse5wogg2776yhhl5and/app.bsky.feed.post/3lclovntswc2r"
+        }
+      },
+      "createdAt": "2024-12-05T22:46:14.826Z"
+    },
+    "cid": "bafyreihcwpblzgdhakwrgqceumwb5dj6unr2v3pxbvi7gfxnad6sxgzfqq"
+  }
+}

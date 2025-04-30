@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735449774443,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3legblpdlkk2m",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3legblpdlkk2m",
+    "record": {
+      "text": "That's one view of things.  Might also have had _something_ to do with the fact that OpenGL wasn't widely supported by hardware until the late 90s/ early 2000s.\n\nThat and a \"directly drawn surface\" was much faster than anything else in a windowed operating system.\n\nSpeaking from painful experience.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibagzp5slkeladvwxv62gx4chp2dn6ysma7k4wpla5jcv2bi6cbqm",
+          "uri": "at://did:plc:3p7m65ikus2al6tiizhbmwqq/app.bsky.feed.post/3ledv3onjzk22"
+        },
+        "parent": {
+          "cid": "bafyreid5njrrup2egktc3jwl2b6f3efld2amjhwl32fglzp53duadj4e4u",
+          "uri": "at://did:plc:3p7m65ikus2al6tiizhbmwqq/app.bsky.feed.post/3legbcsqpn22k"
+        }
+      },
+      "createdAt": "2024-12-29T05:22:54.443Z"
+    },
+    "cid": "bafyreib3csoqyzsdq2ky4wo4gdkzjby6brmho5dpf422yikxiwbdgvbhl4"
+  }
+}

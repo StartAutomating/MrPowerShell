@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735961612774,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lev6boftoc2k",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lev6boftoc2k",
+    "record": {
+      "text": "I have no notes.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/BYckoFU8ZXAAAAAC/poet-jodie-foster.gif?hh=280&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifhape5unwr637hemfxx6j2qb5ck2gh6eawkf5c2qfcorw5wn3tzq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 159187
+          },
+          "title": "Poet Jodie Foster GIF",
+          "description": "Alt: Jodie Foster makes contact with the alien life form known as musk.  She watches with awe as a Zoomer takes him down 10 pegs."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigu2m6vkqubpkre7jxg53qreyrpnxvfs7bdtp3j4kqmqx52geiwfi",
+          "uri": "at://did:plc:yn75hmwkitdshnylue6d3grk/app.bsky.feed.post/3leusrph53c2i"
+        },
+        "parent": {
+          "cid": "bafyreigu2m6vkqubpkre7jxg53qreyrpnxvfs7bdtp3j4kqmqx52geiwfi",
+          "uri": "at://did:plc:yn75hmwkitdshnylue6d3grk/app.bsky.feed.post/3leusrph53c2i"
+        }
+      },
+      "createdAt": "2025-01-04T03:33:32.774Z"
+    },
+    "cid": "bafyreianufj3drxdzat33uqaln4wq42afbkzbjwav2p5c35u73tenoghdi"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1704071088515,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3khuzvzxiwj2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3khuzvzxiwj2v",
+    "record": {
+      "text": "I Did It!\n\n2300 #GitHub Contributions in 2023!\n(after 2200 Contributions in 2022)\n\ngithub.com/StartAutomat...\n\nThis year's highlight came at the end:  being able to interpret any language within #PipeScript #PowerShell.\n\n#100DaysOfCode is a good start.\n \nNext year, try #366DaysOfCode !",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibqav32fd735wzdmluu3n5pn52prciechxb4pinwwmxjey6iphew4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 111171
+          },
+          "title": "StartAutomating - Overview",
+          "description": "StartAutomating has 62 repositories available. Follow their code on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 23,
+            "byteStart": 16
+          },
+          "features": [
+            {
+              "tag": "GitHub",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 83
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 206,
+            "byteStart": 195
+          },
+          "features": [
+            {
+              "tag": "PipeScript",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 218,
+            "byteStart": 207
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-01-01T01:04:48.515Z"
+    },
+    "cid": "bafyreif5uhcwehur2djdu5okflsurfwngufugvsssw4ugmro2oaago7zmi"
+  }
+}

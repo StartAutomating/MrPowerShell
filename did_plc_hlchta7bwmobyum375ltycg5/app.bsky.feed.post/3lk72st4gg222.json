@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741799048688,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lk72st4gg222",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lk72st4gg222",
+    "record": {
+      "text": "Hey #PowerShell people:\n\nWhat are you doing tonight?\n\nJoin us at the Pacific PowerShell User Group to hear @clemmesserli.bsky.social talk about Practical #Cryptography with PowerShell\n\nJoin us @ 6pm Pacific.\n\nwww.meetup.com/pacific-powe...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/events/306406562/?eventOrigin=group_upcoming_events",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiga5eqo5n6ujq2atfzzkdatunqqsmb6lafulfokoluzpizxl7ndvu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 36724
+          },
+          "title": "Practical Cryptography in PowerShell (with Clem Messerili), Wed, Mar 12, 2025, 6:00 PM   | Meetup",
+          "description": "Join us at the Pacific PowerShell user group as Clem Messerili talks about Practical Cryptography with PowerShell (Encryption, Decryption, and Key Management)\n\nThis session"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 132,
+            "byteStart": 107
+          },
+          "features": [
+            {
+              "did": "did:plc:xuqi3gnzoc6nyuz3h7kf4ajy",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 167,
+            "byteStart": 154
+          },
+          "features": [
+            {
+              "tag": "Cryptography",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 239,
+            "byteStart": 209
+          },
+          "features": [
+            {
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/306406562/?eventOrigin=group_upcoming_events",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-12T17:04:08.688Z"
+    },
+    "cid": "bafyreihoo7xzp6c3uqcrzbgvynubk6c7qjreihvjlb35mjcsempma4lchy"
+  }
+}

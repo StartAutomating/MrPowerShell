@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1743301536214,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3llks4guu2c2p",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3llks4guu2c2p",
+    "record": {
+      "text": "You might not even have to.\n\nThere's a lot of sites that expose information for SEO over Urls.\n\nA couple of weekends ago, I made some repos to wade thru it.\n\nI'd try JSON-LD:  works for most media sites, including IMDb.\n\ngithub.com/powerShellWe...\n\nHope this helps!",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/powerShellWeb/json-ld",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifiqljlc6av3puoivng3eks7h3nfzimesqbgn25w367zaiakmyaxa"
+            },
+            "mimeType": "image/jpeg",
+            "size": 108405
+          },
+          "title": "GitHub - PowerShellWeb/JSON-LD: Get JSON Linked Data with PowerShell",
+          "description": "Get JSON Linked Data with PowerShell. Contribute to PowerShellWeb/JSON-LD development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihkr57ntxa5nluphaadmin2wqu55l5cb26kfuirvattqp6koa5llu",
+          "uri": "at://did:plc:5pczeahw5sgryk6lawg3cz7e/app.bsky.feed.post/3llkpyqiyrc22"
+        },
+        "parent": {
+          "cid": "bafyreihkr57ntxa5nluphaadmin2wqu55l5cb26kfuirvattqp6koa5llu",
+          "uri": "at://did:plc:5pczeahw5sgryk6lawg3cz7e/app.bsky.feed.post/3llkpyqiyrc22"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 247,
+            "byteStart": 221
+          },
+          "features": [
+            {
+              "uri": "https://github.com/powerShellWeb/json-ld",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-30T02:25:36.214Z"
+    },
+    "cid": "bafyreid7dd7q455metaeaqrb4s7fptr64yazs6k23zeer6kxcw5l4nghz4"
+  }
+}

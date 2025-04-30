@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740542621243,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lj2ioejpns2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lj2ioejpns2w",
+    "record": {
+      "text": "The #PowerShell #CommandOverload is real.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibe3aq5errndb5hiw4u3z24ddk4mew5eslpalser6l3s67ll6voqa",
+          "uri": "at://did:plc:jnojxkxptb32knzz2lhxatci/app.bsky.feed.post/3lj2adxhgsk2c"
+        },
+        "parent": {
+          "cid": "bafyreibbr7nzwhiq5enahhpaafcm4rralizclrdy73q5odvir4fpmjb54e",
+          "uri": "at://did:plc:um3xd6s37d6mqlfexcawt2tu/app.bsky.feed.post/3lj2f63mcak2t"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 16
+          },
+          "features": [
+            {
+              "tag": "CommandOverload",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-26T04:03:41.243Z"
+    },
+    "cid": "bafyreidm52hehpfnwyal3dwla7g3dc54tffezvi7x7y5g7oqdipzsvf2hm"
+  }
+}

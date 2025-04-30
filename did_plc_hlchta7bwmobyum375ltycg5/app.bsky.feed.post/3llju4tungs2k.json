@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1743269337583,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3llju4tungs2k",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3llju4tungs2k",
+    "record": {
+      "text": "Something like that...\n\nFierce philosophical debates raged about that one in the early days.\n\nAt this point it's learned behavior.\n\nIf you need it to be an array in #PowerShell, use @().",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiculotj55hnepybhd7esmwej33xtbxspjoildx2q2rultt3fsrtlu",
+          "uri": "at://did:plc:gewtobo7uqj7kumoi53ammi6/app.bsky.feed.post/3llj6h4flms2y"
+        },
+        "parent": {
+          "cid": "bafyreiculotj55hnepybhd7esmwej33xtbxspjoildx2q2rultt3fsrtlu",
+          "uri": "at://did:plc:gewtobo7uqj7kumoi53ammi6/app.bsky.feed.post/3llj6h4flms2y"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 176,
+            "byteStart": 165
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-29T17:28:57.583Z"
+    },
+    "cid": "bafyreib5zhbns4pxmeddntna53n5achomcjgp5omy5aubsb5uheqnjyrk4"
+  }
+}

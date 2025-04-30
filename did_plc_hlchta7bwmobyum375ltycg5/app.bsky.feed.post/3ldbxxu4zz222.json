@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734202494124,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldbxxu4zz222",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldbxxu4zz222",
+    "record": {
+      "text": "In #Bash you're a victim.\n\nIn Batch you're a bigger victim.\n\nIn #PowerShell, you're a victor.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreid7qlohinu6caalfzqruk22rkqlhhjd7i7nres55hvntzsvuyzyii",
+          "uri": "at://did:plc:o4bmjce4vsskhtpfcpvqz5f7/app.bsky.feed.post/3lda223ighc23"
+        },
+        "parent": {
+          "cid": "bafyreid7qlohinu6caalfzqruk22rkqlhhjd7i7nres55hvntzsvuyzyii",
+          "uri": "at://did:plc:o4bmjce4vsskhtpfcpvqz5f7/app.bsky.feed.post/3lda223ighc23"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 8,
+            "byteStart": 3
+          },
+          "features": [
+            {
+              "tag": "Bash",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 75,
+            "byteStart": 64
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-14T18:54:54.124Z"
+    },
+    "cid": "bafyreiaarzi3miyt2havcteiaflbb47mmcegtk7mfjrsvthd4577sbvthy"
+  }
+}

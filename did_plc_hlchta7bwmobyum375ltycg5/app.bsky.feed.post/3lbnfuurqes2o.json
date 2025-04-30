@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732396360392,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbnfuurqes2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbnfuurqes2o",
+    "record": {
+      "text": "I did that for years when I was writing realtime video apps.\n\nI don't recommend it.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreiew4scbybawlrwyzmfzywzyvgyiwo33soi2qlpekguibbl6lkdqq4",
+          "uri": "at://did:plc:ozubpylmwapjzfz52ggpitlu/app.bsky.feed.post/3lbmnoiw4cc2y"
+        }
+      },
+      "createdAt": "2024-11-23T21:12:40.392Z"
+    },
+    "cid": "bafyreie7futdhwjzuu742cbsdgbr2j4tm3j62otaumb5e5ih3keoxub47u"
+  }
+}

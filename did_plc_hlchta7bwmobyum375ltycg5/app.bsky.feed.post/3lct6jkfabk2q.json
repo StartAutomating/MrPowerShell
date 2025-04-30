@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733694134262,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lct6jkfabk2q",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lct6jkfabk2q",
+    "record": {
+      "text": "I have about this exact experience every time I try to read my phone in the rain.\n\n#seattle gets decently drizzly.\n\nAFAIK, anything conductive gets counted as a touch press.\n\nThis means constantly having to wipe my phone ( literally ).",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieevkrthibc4evjqv2loadsys5xangiumcfxnnv6eioede6hm22gi",
+          "uri": "at://did:plc:izoup72s54ql2mmgwj4f3sed/app.bsky.feed.post/3lct4djspqc2n"
+        },
+        "parent": {
+          "cid": "bafyreiguxfjxmwzocfgyxqv72jvpxip3ppklw3hp7ewwyawxug77j36e2m",
+          "uri": "at://did:plc:izoup72s54ql2mmgwj4f3sed/app.bsky.feed.post/3lct4dmsl4k2n"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 91,
+            "byteStart": 83
+          },
+          "features": [
+            {
+              "tag": "seattle",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-08T21:42:14.262Z"
+    },
+    "cid": "bafyreifcjc5nrtvq57czogdvqz6nlk4bal7u547jhrothi24tqixde3m3u"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736671036054,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfjsy56bis2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfjsy56bis2v",
+    "record": {
+      "text": "Or, hear me out....\n\nYou can run R from PowerShell ( in background job for bonus points )\n\n#rstats #powershell\n\nThen you can do pretty much anything on any OS with the output from your R script.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidtcqf5rx26hz5p7fltrtbsjudpngo35bqjvx7pr7uytp5p3iv6qy",
+          "uri": "at://did:plc:2uyqgeladdpdn7ycc47hn7y3/app.bsky.feed.post/3lfjkeifbz22q"
+        },
+        "parent": {
+          "cid": "bafyreidtcqf5rx26hz5p7fltrtbsjudpngo35bqjvx7pr7uytp5p3iv6qy",
+          "uri": "at://did:plc:2uyqgeladdpdn7ycc47hn7y3/app.bsky.feed.post/3lfjkeifbz22q"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 98,
+            "byteStart": 91
+          },
+          "features": [
+            {
+              "tag": "rstats",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 110,
+            "byteStart": 99
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-12T08:37:16.054Z"
+    },
+    "cid": "bafyreiftsl3qorkz5mchnjm3zoq36o4pbzzip5cca6jiinnm6odot4dbzu"
+  }
+}

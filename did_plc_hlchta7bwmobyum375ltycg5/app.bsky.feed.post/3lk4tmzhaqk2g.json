@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741722618338,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lk4tmzhaqk2g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lk4tmzhaqk2g",
+    "record": {
+      "text": "PowerShell has a bunch of very cool language features.  Give it some time and ask for some help and you'll probably fall in love with it.\n\nMore context incoming soon.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiaocvaw6wrauwrrkl5bprgx3nszqtb2bz4xytlpqegjbpftmd6kyu",
+          "uri": "at://did:plc:tkm2lt4yscjio6gcfjzi4fmx/app.bsky.feed.post/3lk455nmrz22y"
+        },
+        "parent": {
+          "cid": "bafyreidt7uwztm4fsc6g7mdvbtujf5xo446zl4uj6iushkq6gtmmdvekfi",
+          "uri": "at://did:plc:tkm2lt4yscjio6gcfjzi4fmx/app.bsky.feed.post/3lk4sfs3ink2g"
+        }
+      },
+      "createdAt": "2025-03-11T19:50:18.338Z"
+    },
+    "cid": "bafyreibtbz6elmfq6txrsgdhjejdhrzqiazz74g2onpsitppevrgg7m5ai"
+  }
+}

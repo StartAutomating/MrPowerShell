@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738978450232,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhmxwgsnqs2g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhmxwgsnqs2g",
+    "record": {
+      "text": "All seriousness...\n\nOne of the things I find helps #depression is keeping an eye on the trajectory.\n\nIt makes one less likely to be unpleasantly surprised.\n\nThese will be tough times, and we all need to help each other for as long as it takes.\n\nFind #support\nBuild support\nBe supportive",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreielpiutxczn4k4ugqi6ne2ipa7bthpufzzjhjaxuafq6rbim5ejbu",
+          "uri": "at://did:plc:o35s22kyvagdwg3r4ppkdkpk/app.bsky.feed.post/3lhmankhfwc2u"
+        },
+        "parent": {
+          "cid": "bafyreiap5k7vpzabw4eq3yglsfuf7jhvanosgc2m7kn3eqcy55ujskwtaa",
+          "uri": "at://did:plc:o35s22kyvagdwg3r4ppkdkpk/app.bsky.feed.post/3lhmxncp5n22o"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 62,
+            "byteStart": 51
+          },
+          "features": [
+            {
+              "tag": "depression",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 258,
+            "byteStart": 250
+          },
+          "features": [
+            {
+              "tag": "support",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-08T01:34:10.232Z"
+    },
+    "cid": "bafyreigtcx7vtwtp7ekpf5pohvbheq4xynlncyrxk5l3jsl6ethwdgtorm"
+  }
+}

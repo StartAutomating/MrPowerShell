@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1694543845065,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k77qy7gewu2f",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k77qy7gewu2f",
+    "record": {
+      "text": "@atProto I think I'm getting the hang of the API (hopefully this actually mentions you)",
+      "$type": "app.bsky.feed.post",
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 8,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "did": "did:plc:hrln33aoqxc5kdnwknaq3aki",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-09-12T11:37:25.0652065-07:00"
+    },
+    "cid": "bafyreiaznvo4mbtz4zliz7pu4y7f4vch5hueykfqov6k4fs3qpljx44dri"
+  }
+}

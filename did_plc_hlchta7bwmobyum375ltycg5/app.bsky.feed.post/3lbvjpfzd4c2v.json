@@ -1,0 +1,109 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732675350013,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbvjpfzd4c2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbvjpfzd4c2v",
+    "record": {
+      "text": "Once more, with #video:\n\nRealtime #bluesky is hypnotizing to watch.\n\n#powershell #websocket #bluesky #visuals\n\nFollow for more fun.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "alt": "A few seconds of Realtime BlueSky",
+        "$type": "app.bsky.embed.video",
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreicqetrbfilhlck2zfkigiw6ye4w4vzypww4fxqiuh52l3jvoqjyxm"
+          },
+          "mimeType": "video/mp4",
+          "size": 1111685
+        },
+        "aspectRatio": {
+          "width": 2634,
+          "height": 800
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 22,
+            "byteStart": 16
+          },
+          "features": [
+            {
+              "tag": "video",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 42,
+            "byteStart": 34
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 80,
+            "byteStart": 69
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 91,
+            "byteStart": 81
+          },
+          "features": [
+            {
+              "tag": "websocket",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 100,
+            "byteStart": 92
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 101
+          },
+          "features": [
+            {
+              "tag": "visuals",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-27T02:42:30.013Z"
+    },
+    "cid": "bafyreigrd5pq7dzooyvmxhw6b6bpjl6xesf2xhvl5h4s65twgfnoegr3di"
+  }
+}

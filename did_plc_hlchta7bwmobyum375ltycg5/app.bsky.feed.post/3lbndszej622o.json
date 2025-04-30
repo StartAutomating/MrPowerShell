@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732394150607,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbndszej622o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbndszej622o",
+    "record": {
+      "text": "So true.  So very painfully true.  Every time I am forced to mangle input and output I wish I could just pipe or use splatting.\n\nAnd I really hate the lack of reflection / help / command metadata in most languages.\n\nGet-Help is probably the most useful #powershell command there is.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreiacwy2o5gfp2bpk6n5o7z3rawnnczrtyzonfr47uo6woualg2c2yy",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3lbndl5ud6d2j"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 264,
+            "byteStart": 253
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-23T20:35:50.607Z"
+    },
+    "cid": "bafyreigek3zmdmkv5tahwvvm6yomqq72kofa2lhkx2b267xi5tudcz4m24"
+  }
+}

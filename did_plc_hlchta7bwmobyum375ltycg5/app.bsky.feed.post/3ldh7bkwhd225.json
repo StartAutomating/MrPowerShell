@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734382134900,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldh7bkwhd225",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldh7bkwhd225",
+    "record": {
+      "text": "Yeah, though obviously not something I'm trying to encourage.\n\n( Also, moderately sure most reputable registrars would kick you for hosting a Honeypot, but maybe I'm hopefully naive )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic3eiaxnsxaavr5p3i3fo5qvc4npkcw6yuao73qvrq3544iho3m24",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldethmsp3k2m"
+        },
+        "parent": {
+          "cid": "bafyreie4bi7hgvjglqr7kz6va653wew4kch2jn5ikfvz2xr5ab7a3m3txy",
+          "uri": "at://did:plc:6hzkmut7lvvtbb42w2cj5spw/app.bsky.feed.post/3ldh76eyrcc2b"
+        }
+      },
+      "createdAt": "2024-12-16T20:48:54.9Z"
+    },
+    "cid": "bafyreicc7vnsuzx2cz2u5iv6du3mearvjg3xiga7oavt5mwhhdaeabthea"
+  }
+}

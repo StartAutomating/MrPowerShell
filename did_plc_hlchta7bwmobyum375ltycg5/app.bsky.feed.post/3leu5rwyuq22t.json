@@ -1,0 +1,79 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735926725177,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leu5rwyuq22t",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leu5rwyuq22t",
+    "record": {
+      "text": "The rationale that got them included was something along the lines of:\n\n\"Shouldn't #powershell, a language #microsoft builds, be compatible with #office / #word ?  Or do we want to frustrate people for a reason they'll struggle to understand?\"",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieanmfbvdmkcms345ip45sonhdlvjhhqbamtlq6o2jmehx2ld3l7i",
+          "uri": "at://did:plc:ppic7yb3uyrg6fslczrzmqan/app.bsky.feed.post/3letjyow4vk2f"
+        },
+        "parent": {
+          "cid": "bafyreifr7j6pcrwcw454vxovk73biuhe6r34suwyy6mxppqceninjzxaga",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leu5atiyyc2t"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 94,
+            "byteStart": 83
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 117,
+            "byteStart": 107
+          },
+          "features": [
+            {
+              "tag": "microsoft",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 152,
+            "byteStart": 145
+          },
+          "features": [
+            {
+              "tag": "office",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 160,
+            "byteStart": 155
+          },
+          "features": [
+            {
+              "tag": "word",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-03T17:52:05.177Z"
+    },
+    "cid": "bafyreibxnl3j6jm5t37nsq2vifg6kdxuufeny5ifq3iffgddrwioepqhua"
+  }
+}

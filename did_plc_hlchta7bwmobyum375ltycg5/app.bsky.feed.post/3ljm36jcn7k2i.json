@@ -1,0 +1,152 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741146606018,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ljm36jcn7k2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ljm36jcn7k2i",
+    "record": {
+      "text": "#TakeItDownAct is a horrifying criminalization of #FreeSpeech.\n\nwww.congress.gov/bill/119th-c...\n\n#News #Tech #SOTU #SCOTUS \n\nFYI \n\n@legaleagle.bsky.social \n@thebulwark.bsky.social \n@gtconway.bsky.social",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.congress.gov/bill/119th-congress/senate-bill/146/text",
+          "title": "",
+          "description": ""
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "TakeItDownAct",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 61,
+            "byteStart": 50
+          },
+          "features": [
+            {
+              "tag": "FreeSpeech",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 96,
+            "byteStart": 64
+          },
+          "features": [
+            {
+              "uri": "https://www.congress.gov/bill/119th-congress/senate-bill/146/text",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 103,
+            "byteStart": 98
+          },
+          "features": [
+            {
+              "tag": "News",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 104
+          },
+          "features": [
+            {
+              "tag": "Tech",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 115,
+            "byteStart": 110
+          },
+          "features": [
+            {
+              "tag": "SOTU",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 123,
+            "byteStart": 116
+          },
+          "features": [
+            {
+              "tag": "SCOTUS",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 155,
+            "byteStart": 132
+          },
+          "features": [
+            {
+              "did": "did:plc:7wpxcp6wyndg7ecvdunigbbz",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 180,
+            "byteStart": 157
+          },
+          "features": [
+            {
+              "did": "did:plc:aunpu65mdrhwfie7ynymlzeh",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 203,
+            "byteStart": 182
+          },
+          "features": [
+            {
+              "did": "did:plc:4lx6nur5wstwoc4wtgj56kyu",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-05T03:50:06.018Z"
+    },
+    "cid": "bafyreiduprtkydepnes3qh6wsqoirnkvvbkgujpcduqmfarwiw3pctoywy"
+  }
+}

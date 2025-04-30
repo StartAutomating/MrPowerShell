@@ -1,0 +1,71 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734478918983,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldjzfxgce22e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldjzfxgce22e",
+    "record": {
+      "text": "Not sure how that works, but to get similar formatting in #powershell, you'd write a formatter ( probably using ezout), and probably using $psstyle.\n\ngithub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/ezout",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihjmyzbvvyffo43b4mnqawjhtu2bd3i2ofg34j3i433jzvnvf65fy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 27664
+          },
+          "title": "GitHub - StartAutomating/EZOut: EZOut is a PowerShell module to help take the pain out of writing format and types XML",
+          "description": "EZOut is a PowerShell module to help take the pain out of writing format and types XML - StartAutomating/EZOut"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreie6zfvipgnjcllfkuo3xh66gn6mgrivigkog2xd5xnrqd73h4xbfa",
+          "uri": "at://did:plc:5scdazxckg6kso3s3j6psrjs/app.bsky.feed.post/3ldjy77f5i225"
+        },
+        "parent": {
+          "cid": "bafyreie6zfvipgnjcllfkuo3xh66gn6mgrivigkog2xd5xnrqd73h4xbfa",
+          "uri": "at://did:plc:5scdazxckg6kso3s3j6psrjs/app.bsky.feed.post/3ldjy77f5i225"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 58
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 176,
+            "byteStart": 150
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/ezout",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-17T23:41:58.983Z"
+    },
+    "cid": "bafyreig2sqqjz5dyixiqyzza5ptzmknqcy7kgoaedoycw6fjcoohwarm34"
+  }
+}

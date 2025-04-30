@@ -1,0 +1,57 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733687301595,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcsy5warvs2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcsy5warvs2o",
+    "record": {
+      "text": "Did you know that #powershell #pwsh variables could be symbols?  \n\n$φ = (1.0 + [Math]::Sqrt(5))/2\n\nDo you think that this sort of technique will make your #math easier to read, in code?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 29,
+            "byteStart": 18
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 35,
+            "byteStart": 30
+          },
+          "features": [
+            {
+              "tag": "pwsh",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 161,
+            "byteStart": 156
+          },
+          "features": [
+            {
+              "tag": "math",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-08T19:48:21.595Z"
+    },
+    "cid": "bafyreiajcjtmhqfkhcxs24xgrcptm3lk5s4cjodwff4jxwqb3ymfgt7u3e"
+  }
+}

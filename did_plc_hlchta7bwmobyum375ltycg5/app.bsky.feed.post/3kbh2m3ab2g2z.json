@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1696993705722,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kbh2m3ab2g2z",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kbh2m3ab2g2z",
+    "record": {
+      "text": "Yeah, me neither.\n\nIt's a weird facet of software copyright in practice.\n\n1. Nowhere near all binaries are registered with, say, the Library of Congress.\n2. Even if they were, they'd still be binaries.\n\nSo.... 😩.\n\nThis is why I do everything on #GitHub / a part of the nerd world I want to change.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiawb6layiq5fx6uzlzhvw3nusxpezlhmdx4z7x74ubccsqik7vtqm",
+          "uri": "at://did:plc:w2zqiyqjt3e344gdpvplnohp/app.bsky.feed.post/3kbgiqu2h332z"
+        },
+        "parent": {
+          "cid": "bafyreibgq42r6va4gsqgfq42ajhnpgpmoj7hsx4snvjbopjtncjtyo27hm",
+          "uri": "at://did:plc:w2zqiyqjt3e344gdpvplnohp/app.bsky.feed.post/3kbgxbs2qae2i"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 255,
+            "byteStart": 248
+          },
+          "features": [
+            {
+              "tag": "GitHub",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-10-11T03:08:25.722Z"
+    },
+    "cid": "bafyreidvejibkhkpxzlfmjetp6qjjxwgq4n663tl4jkcu5x3cnx5z3zox4"
+  }
+}

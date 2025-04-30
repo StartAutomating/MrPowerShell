@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734482795004,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldk4zhv2522e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldk4zhv2522e",
+    "record": {
+      "text": "Ah, yeah, that tracks.\n\nLuckily / unluckily for me, a fair number of my gigs have been \"make us an IT department\" / \"grow our #DevOps practice\" / \"build a framework and find us people to run it\".\n\nSo, that job exists.\n\nIt's a living ( often enough ).\n\nCross-disciplinary knowledge is valuable.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiengzypngqqnvoxc64jxw4xnb7cpkpafczzumjmkfpbluvpp3lhke",
+          "uri": "at://did:plc:gvuqy7xwxuvd2mg5xrtjhn2c/app.bsky.feed.post/3ldjm6k4pwk2t"
+        },
+        "parent": {
+          "cid": "bafyreiekx54y2s6yv6sdaytpcnnxqyor5bhcq6ryhhq2v2momp57ucnp2q",
+          "uri": "at://did:plc:gvuqy7xwxuvd2mg5xrtjhn2c/app.bsky.feed.post/3ldk46hpjzk2t"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 133,
+            "byteStart": 126
+          },
+          "features": [
+            {
+              "tag": "DevOps",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-18T00:46:35.004Z"
+    },
+    "cid": "bafyreibvsvh5bc7q6znyb55nprdzoy355fkbxdckqfx26xre2drzraburi"
+  }
+}

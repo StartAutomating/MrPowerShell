@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1697321288207,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kbqlozick32y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kbqlozick32y",
+    "record": {
+      "text": "As for the major language difference:  most shells can't really talk directly to APIs at all.\n\nBecause PowerShell can, it's often most efficient to use APIs.\n\nPowerShell is a scripting language and a shell\n(though there is vigorous debate about the order)",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidyy2622bgewrfvsksdbyxrg6jin4drqdubfh2a76xvrjs5i2yhxy",
+          "uri": "at://did:plc:tbjm46ucgokpc3i4r2yuqkd7/app.bsky.feed.post/3kbgubjnpbb2d"
+        },
+        "parent": {
+          "cid": "bafyreie4rrko6mxn2gwnc5drmnghebmfeogg3vwkdytdym7hurkm5ebc3e",
+          "uri": "at://did:plc:tbjm46ucgokpc3i4r2yuqkd7/app.bsky.feed.post/3kbqgaw2h2s2e"
+        }
+      },
+      "createdAt": "2023-10-14T22:08:08.207Z"
+    },
+    "cid": "bafyreidfgqfatfyirxzvot473yr7mokivi3osw7wo37dxxmrp37dliksfm"
+  }
+}

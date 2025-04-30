@@ -1,0 +1,71 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734110506177,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld7ccflpik27",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ld7ccflpik27",
+    "record": {
+      "text": "This post brings me back.\n\nWay back.\n\nHere's a post I wrote when I was on the #powershell team.  Wrote this in January 2008.\n\ndevblogs.microsoft.com/powershell/l...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://devblogs.microsoft.com/powershell/lightweight-performance-testing-with-powershell/",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreih2wxwtf6kh5pf67qm5vrjkk6hf4ogvjftpxoisc7mnw5izmyul3q"
+            },
+            "mimeType": "image/jpeg",
+            "size": 20874
+          },
+          "title": "Lightweight Performance Testing with PowerShell - PowerShell Team",
+          "description": "When you write a script, a few possible concerns may be going through your mind:   ·         Does my Script do what I want it to? ·         Can the script be read and understood by other people? ·    ..."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic7sh2cxuxvbo2t5fjnqlknr3iytomobh72rksjzbhblar4hkqyki",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3ld6vjj6i2223"
+        },
+        "parent": {
+          "cid": "bafyreic7sh2cxuxvbo2t5fjnqlknr3iytomobh72rksjzbhblar4hkqyki",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3ld6vjj6i2223"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 89,
+            "byteStart": 78
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 164,
+            "byteStart": 126
+          },
+          "features": [
+            {
+              "uri": "https://devblogs.microsoft.com/powershell/lightweight-performance-testing-with-powershell/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-13T17:21:46.177Z"
+    },
+    "cid": "bafyreibuk7szxbxqjr7fneaguzpe4nacptmlkispdjf5q5ub4gostkuftm"
+  }
+}

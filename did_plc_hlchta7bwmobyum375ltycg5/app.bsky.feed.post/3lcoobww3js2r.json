@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733539260139,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcoobww3js2r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcoobww3js2r",
+    "record": {
+      "text": "I think I do, but no where as much as the major author of atproto that already replied to you, @pfrazze.com .\n\nHad been meaning to reach out about how to directly tap into the BlueSky JetStream, and what it can tell you.\n\nIf this is of interest, lmk.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibzogj6253mynne5aehnd2n7oyittro4hifegyrbz7hyyt57k2hra",
+          "uri": "at://did:plc:kqbyr4gqt6p2l57htlsa4nha/app.bsky.feed.post/3lcoikqqcic2n"
+        },
+        "parent": {
+          "cid": "bafyreibzogj6253mynne5aehnd2n7oyittro4hifegyrbz7hyyt57k2hra",
+          "uri": "at://did:plc:kqbyr4gqt6p2l57htlsa4nha/app.bsky.feed.post/3lcoikqqcic2n"
+        }
+      },
+      "facets": [],
+      "createdAt": "2024-12-07T02:41:00.139Z"
+    },
+    "cid": "bafyreida5ireixsiitb4tsytcnqlildzu5x2t5gzykoo3nz75cva5nds6q"
+  }
+}

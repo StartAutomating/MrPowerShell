@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1743549111592,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3llryor5t422h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3llryor5t422h",
+    "record": {
+      "text": "Ugit lets you use git in the object pipeline:\n\ngithub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/ugit",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibbfpi3pqexpkpgumv5iob5sulruyl7gajeperiyw74mrnf7u5ww4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 36955
+          },
+          "title": "GitHub - StartAutomating/ugit: Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects.",
+          "description": "Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects. - StartAutomating/ugit"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicmpcx5myieqbss2wkgfqclrkzpopnsso5xow4e6esxtomkt5ay7i",
+          "uri": "at://did:plc:xrspiwserax6shgskcj7grgg/app.bsky.feed.post/3llr7pthbqx2c"
+        },
+        "parent": {
+          "cid": "bafyreiatkloy72zpw4ufc7so3a5jxoellxi7au2pgaboyc5xpcph467a6q",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3llryn7s2ek2h"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 73,
+            "byteStart": 47
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/ugit",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-01T23:11:51.592Z"
+    },
+    "cid": "bafyreict4d76s3fvpbiroh5cvvtj25guohm5fzxaanwowjqxjkrs3vrjji"
+  }
+}

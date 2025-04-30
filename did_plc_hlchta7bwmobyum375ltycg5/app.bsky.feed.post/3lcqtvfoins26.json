@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733614001339,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcqtvfoins26",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcqtvfoins26",
+    "record": {
+      "text": "This is why I use aliases.\n\nThat, and Get-Help ( mostly ) works.\n\nI love the shorter / more free syntax.\n\nI hate the lookup times.\n\n#powershell #pwsh aliases are fast and overpowered.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifitewawnthjel6ckd7woc2oohce4ayyntm4sx4sg3ucm4vdrjrvm",
+          "uri": "at://did:plc:oqmead6vafy6py7otaam7whk/app.bsky.feed.post/3lcqpal5ass2r"
+        },
+        "parent": {
+          "cid": "bafyreibmegyc3ldhpmjh66mv6maxtuj4dba36i252koohepkb3qfv4zwv4",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3lcqqlz2q4c2r"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 143,
+            "byteStart": 132
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 149,
+            "byteStart": 144
+          },
+          "features": [
+            {
+              "tag": "pwsh",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-07T23:26:41.339Z"
+    },
+    "cid": "bafyreifzbhdzkahnhlehr37xk7y3uwb2oqcylvxg4iao7wtz3d2th254ri"
+  }
+}

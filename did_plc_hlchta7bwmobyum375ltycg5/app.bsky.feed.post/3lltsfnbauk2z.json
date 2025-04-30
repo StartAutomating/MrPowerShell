@@ -1,0 +1,62 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1743611082546,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lltsfnbauk2z",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lltsfnbauk2z",
+    "record": {
+      "text": "@mdgrs.bsky.social cool UI work!  \n\nIf time zones allow, you might enjoy stopping by the Research Triangle PowerShell User Group.\n\nwww.meetup.com/research-tri...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.meetup.com/research-triangle-powershell-users-group/events/307054772/",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibrivkkl7kgizy65ut7abg6ykpg4szmjxodiywkdasc4rvmqi5wjq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 629701
+          },
+          "title": "Create a Web Server on the fly with PowerShell, Wed, Apr 2, 2025, 8:00 PM   | Meetup",
+          "description": "Join Microsoft MVP James Brundage for a look at how you can create a fully functional web server in just 50 lines of PowerShell code! 🚀 Come see the potential of transform"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 18,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "did": "did:plc:5gung3kb6wkzptdxh2riyc6c",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 161,
+            "byteStart": 131
+          },
+          "features": [
+            {
+              "uri": "https://www.meetup.com/research-triangle-powershell-users-group/events/307054772/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-02T16:24:42.546Z"
+    },
+    "cid": "bafyreihxh5nwiyyvqpjgou4up25z4wujwgzglspnobdtjxm5sk4jbbzq34"
+  }
+}

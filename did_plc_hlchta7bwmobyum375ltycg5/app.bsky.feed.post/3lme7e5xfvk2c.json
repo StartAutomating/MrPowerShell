@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744174747398,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lme7e5xfvk2c",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lme7e5xfvk2c",
+    "record": {
+      "text": "Congrats on the new gig!\n\nSorry the abstracts weren't accepted.\n\nWould love to collab on a few potential submissions for next year's #PowerShell Summit.\n\nPlease send a DM and let's set up a time.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiaxeps4nk5ilqy26xdc3zfm6vikfxokq52xbdn3j23d3qhdttrwrm",
+          "uri": "at://did:plc:7ymkhxmjf3qq64hxa5fvtlsp/app.bsky.feed.post/3lmdmsdll5c2u"
+        },
+        "parent": {
+          "cid": "bafyreihns2ddcjoza2m4n6inn5wkhz2oc6tcfdl5cebdi4r6udxhn5pyaa",
+          "uri": "at://did:plc:7ymkhxmjf3qq64hxa5fvtlsp/app.bsky.feed.post/3lmdvcbrq2s2c"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 144,
+            "byteStart": 133
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-09T04:59:07.398Z"
+    },
+    "cid": "bafyreic4dc4lj54r44uxv5t4p7vywia7mw4cjmunuqcexpmeka5y6tdpfq"
+  }
+}

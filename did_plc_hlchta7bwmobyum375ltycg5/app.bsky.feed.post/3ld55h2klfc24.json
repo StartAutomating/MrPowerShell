@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734036574193,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld55h2klfc24",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ld55h2klfc24",
+    "record": {
+      "text": "Thanks for the kind words!  Glad you had a good time!\n\nHope to see you again in the future.  We've got cool #powershell presentations most months.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreif3cwrtqnppjph53nltjlunkmpcmukagqmcmx24dh27yuo3rwozzi",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3ld3ipfscds2p"
+        },
+        "parent": {
+          "cid": "bafyreif3cwrtqnppjph53nltjlunkmpcmukagqmcmx24dh27yuo3rwozzi",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3ld3ipfscds2p"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 119,
+            "byteStart": 108
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-12T20:49:34.193Z"
+    },
+    "cid": "bafyreigd4zlb2pr5joapidwxooby4moiafeuwkoiwkqf6d5hy5kvgf5rcy"
+  }
+}

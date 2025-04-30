@@ -1,0 +1,89 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734895406087,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldw5caimfs2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldw5caimfs2v",
+    "record": {
+      "text": "Looking at my #git streak really puts me in a festive mood.\n\nDoes anyone know if whoever made git-wrapped is on #bluesky ?\n\ngit-wrapped.com/profiles/Sta...\n\nThe #opensource community owes them some thanks.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "",
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibjxbznk5afahmstx3xxqh3nfwhldivbeu3hbdmlxm7rdvetfduxy"
+              },
+              "mimeType": "image/jpeg",
+              "size": 230032
+            },
+            "aspectRatio": {
+              "width": 760,
+              "height": 1234
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 18,
+            "byteStart": 14
+          },
+          "features": [
+            {
+              "tag": "git",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 120,
+            "byteStart": 112
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 155,
+            "byteStart": 124
+          },
+          "features": [
+            {
+              "uri": "https://git-wrapped.com/profiles/StartAutomating",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 172,
+            "byteStart": 161
+          },
+          "features": [
+            {
+              "tag": "opensource",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-22T19:23:26.087Z"
+    },
+    "cid": "bafyreib346coulfpltxwigomgxgdgpwyqyfouh7rbxc3rhq34ehala7sda"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735013473809,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldzlawmwnc2q",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldzlawmwnc2q",
+    "record": {
+      "text": "Honestly, if we do our jobs right, no.  Just making it \"easier\".\n\nUsing git / GitHub gives a bit of basic forensic traceability in case of bad actors.\n\nPutting it in an isolated container makes it safer.\n\nDefinitely feasible, just tricky.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicya3adzaaxlmbzpuhzoy7xw4k6xp7kysf4qggrxcypjeyqx5d7eq",
+          "uri": "at://did:plc:dq6jaefxy6vc6vvthg57kwvs/app.bsky.feed.post/3ldzdhep4vc2y"
+        },
+        "parent": {
+          "cid": "bafyreihw2o4lh4ryhy47zwxxavt62nmnebcm5i6butz5prs7nyr4uovwkq",
+          "uri": "at://did:plc:dq6jaefxy6vc6vvthg57kwvs/app.bsky.feed.post/3ldzkrwr7tc2w"
+        }
+      },
+      "createdAt": "2024-12-24T04:11:13.809Z"
+    },
+    "cid": "bafyreidkexwkyacgbwdk3iroobdagipitt3rzrvzfp6yhwbtdpx7qdhiu4"
+  }
+}

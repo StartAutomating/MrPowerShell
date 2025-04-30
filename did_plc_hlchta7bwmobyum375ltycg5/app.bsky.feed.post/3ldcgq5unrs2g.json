@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734218342027,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldcgq5unrs2g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldcgq5unrs2g",
+    "record": {
+      "text": "Not cool!\n\nThis link is a booby trap for a .zip.\n\n@support.bsky.team #cybersecurity #threat.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic4xms6ogm73bz757ryuwpbrdwt65oxbyp6u4ql3535xb3mhbkyne",
+          "uri": "at://did:plc:7c67jbty3jszjqxygo5lkbao/app.bsky.feed.post/3ldcewdf7as2e"
+        },
+        "parent": {
+          "cid": "bafyreic4xms6ogm73bz757ryuwpbrdwt65oxbyp6u4ql3535xb3mhbkyne",
+          "uri": "at://did:plc:7c67jbty3jszjqxygo5lkbao/app.bsky.feed.post/3ldcewdf7as2e"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 68,
+            "byteStart": 50
+          },
+          "features": [
+            {
+              "did": "did:plc:oc6vwdlmk2kqyida5i74d3p5",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 83,
+            "byteStart": 69
+          },
+          "features": [
+            {
+              "tag": "cybersecurity",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 91,
+            "byteStart": 84
+          },
+          "features": [
+            {
+              "tag": "threat",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-14T23:19:02.027Z"
+    },
+    "cid": "bafyreid3f22745ahzh2vhvbmqbgcgohcrawa77eyps6x3scmxccevstuy4"
+  }
+}

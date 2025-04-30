@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735951259142,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leuun4g2wc2l",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leuun4g2wc2l",
+    "record": {
+      "text": "You're right on a couple of these.  Looking for those extraordinarily gifted devs.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreia4dtefa2yz6ms572ihrrcjk37gb6xa7kzoxhwo46eorp2htuxnou",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leumauhuw22l"
+        },
+        "parent": {
+          "cid": "bafyreiaym45cu44zlx3geabnlcbyo2vb372wvoj4n3wxcqjqd7jco5o2cu",
+          "uri": "at://did:plc:k54achhksfhvlp5jd3rzv32h/app.bsky.feed.post/3leuufxjm4c2a"
+        }
+      },
+      "createdAt": "2025-01-04T00:40:59.142Z"
+    },
+    "cid": "bafyreid2qeos2kasqtn2rqycey2lkzwghtya6cn2yrlhtamfqta5lcdtwi"
+  }
+}

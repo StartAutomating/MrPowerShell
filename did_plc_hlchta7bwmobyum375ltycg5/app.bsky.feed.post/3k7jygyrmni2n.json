@@ -1,0 +1,34 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1694895453886,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k7jygyrmni2n",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k7jygyrmni2n",
+    "record": {
+      "text": "@AtProto.com whenever BlueSky/AtProtocol finally gets to some rich text likes, _please_ make them obey the markdown standard (_please_ for italics ; __pretty please__ for bold)",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 12,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "did": "did:plc:ewvi7nxzyoun6zhxrhs64oiz",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-09-16T20:17:33.886Z"
+    },
+    "cid": "bafyreib2hsieoefz5jk77dpt43btrn7xp3tbtmgj3anpjmtlvc7tz2wb5y"
+  }
+}

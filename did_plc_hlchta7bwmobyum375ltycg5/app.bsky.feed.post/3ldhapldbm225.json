@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734383678825,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldhapldbm225",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldhapldbm225",
+    "record": {
+      "text": "Yep, it lets me know.\n\nBonus points.... Ran this from #PowerShell on #linux on my phone ( using UserLAND).",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic3eiaxnsxaavr5p3i3fo5qvc4npkcw6yuao73qvrq3544iho3m24",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldethmsp3k2m"
+        },
+        "parent": {
+          "cid": "bafyreibwoarhf5xcgku2wfekaodnopr2tbctn225cwgw5p6r3xukt5qi4q",
+          "uri": "at://did:plc:42dvgua7xqqbzkp2gfxhqnt5/app.bsky.feed.post/3ldhahr53ec2y"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 65,
+            "byteStart": 54
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 75,
+            "byteStart": 69
+          },
+          "features": [
+            {
+              "tag": "linux",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-16T21:14:38.825Z"
+    },
+    "cid": "bafyreibkpplhyr2aejnp4ieqz5ng75zb7b4ehxljuwigupvsoelu76fdqe"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734662880237,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldpeqgk7ic2j",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldpeqgk7ic2j",
+    "record": {
+      "text": "Sounds like you need more practice with the more efficient tool.\n\nOne old #powershell PM put it well:\n\n\"PowerShell isn't exactly a hammer.  It's more like a nail gun.\"",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieuuduunm5objose67r7zmspgz5gdb2urgmyzlwyiwjnfhakcs2k4",
+          "uri": "at://did:plc:hvdxmfgep4kijqwrootzjlj3/app.bsky.feed.post/3ldp4alnres2y"
+        },
+        "parent": {
+          "cid": "bafyreidu7rsn5b7qzorugdutqhaq342c4fx5ecqnsjgunccypa2si3sdfe",
+          "uri": "at://did:plc:esijghv7g7cig7n5cu3oorqg/app.bsky.feed.post/3ldpd6p2zks2i"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 85,
+            "byteStart": 74
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-20T02:48:00.237Z"
+    },
+    "cid": "bafyreicolhjk7465bir4vule4mjoib27t42zkavpfk23ttmqesn6dhpgp4"
+  }
+}

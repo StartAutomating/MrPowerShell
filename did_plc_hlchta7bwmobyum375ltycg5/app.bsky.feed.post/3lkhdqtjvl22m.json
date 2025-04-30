@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742083523605,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lkhdqtjvl22m",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lkhdqtjvl22m",
+    "record": {
+      "text": "Yet another reason to hate #elon and #twitter\n\nThey block browsers they don't like, like #PowerShell .\n\nIt's like this dude doesn't understand the Internet at all.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.video",
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreidkqexq2yzdquaglwbo7pfbjmhwrfkh3js7dchmqy6rsu7ltp72cq"
+          },
+          "mimeType": "video/mp4",
+          "size": 326323
+        },
+        "aspectRatio": {
+          "width": 3000,
+          "height": 904
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 27
+          },
+          "features": [
+            {
+              "tag": "elon",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 37
+          },
+          "features": [
+            {
+              "tag": "twitter",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 100,
+            "byteStart": 89
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-16T00:05:23.605Z"
+    },
+    "cid": "bafyreidzikzebd2xtuflcdc7m4imeu6xgediowlfdxtx5llm6wfxfqrznu"
+  }
+}

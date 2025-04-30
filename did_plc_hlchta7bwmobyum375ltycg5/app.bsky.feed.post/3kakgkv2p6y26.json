@@ -1,0 +1,35 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1696010106405,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kakgkv2p6y26",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kakgkv2p6y26",
+    "record": {
+      "text": "Just wondering, am I the only one who uses #obs as a music visualizer?\n\n( I expect I won't be, after the next build of obs-powershell makes setting up waveform sources a snap )",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "We've got puppies in our playlists!",
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigofaxnpj5j5qy4xdsgyyhkyafa7g5z3tevpquqwdssdaws55hacm"
+              },
+              "mimeType": "image/jpeg",
+              "size": 764089
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "createdAt": "2023-09-29T17:55:06.405Z"
+    },
+    "cid": "bafyreie7fqz3sbujapb3k6jcemms6aaosltxkcqr7cjez5rihtvpf4xwxe"
+  }
+}

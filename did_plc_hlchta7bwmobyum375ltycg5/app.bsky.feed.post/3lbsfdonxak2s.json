@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732567582242,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbsfdonxak2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbsfdonxak2s",
+    "record": {
+      "text": "Yeah I had already seen that one, but it deserves all the love it gets.\n\nThose who know me know that I might actually swear at that rate in person.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiankf4psrda2h62rlxruwfprleitcjhdhprf4w72hqlizbodvgyce",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbsf4pz44s2s"
+        },
+        "parent": {
+          "cid": "bafyreifhculjqji3ci7a7dc3fa7hh2symiahcdo3u4so5lhipq5ihmuzcq",
+          "uri": "at://did:plc:wepubn5jiq74vznap2ia2osh/app.bsky.feed.post/3lbsfasmhf22z"
+        }
+      },
+      "createdAt": "2024-11-25T20:46:22.242Z"
+    },
+    "cid": "bafyreiedvder4phlmjbjv65eshaifu6pnyp22w7dng3up6qmxjnxbj3qwm"
+  }
+}

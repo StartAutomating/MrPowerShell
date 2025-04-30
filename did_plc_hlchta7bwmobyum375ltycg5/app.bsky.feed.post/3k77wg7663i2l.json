@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1694549676334,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k77wg7663i2l",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k77wg7663i2l",
+    "record": {
+      "text": "Trying to figure out if AtProtocol supports link facets at arbitrary locations",
+      "$type": "app.bsky.feed.post",
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 24
+          },
+          "features": [
+            {
+              "uri": "https://atproto.com/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-09-12T13:14:36.33472-07:00"
+    },
+    "cid": "bafyreiax3gei357s5okesliy6gw3iwfr52gelnsifdtptzpj6yfo46hg34"
+  }
+}

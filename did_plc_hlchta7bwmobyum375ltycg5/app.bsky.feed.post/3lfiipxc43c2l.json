@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736625664293,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfiipxc43c2l",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfiipxc43c2l",
+    "record": {
+      "text": "Not sure.\n\n99% sure this little script will let you build #fullstack #powershell on a #raspberrypi\n\n( Not PowerShell Universal, no dependencies )\n\nEnjoy!\n\nbsky.app/profile/mrpo...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreie5yykqafhrynhjtkneiky47ymuvnvpvel6l7rzza7pco7r6rfcfq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lesrsx74qs2x"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreian7edqdmxlk6tb3l4pa7f2rgckuorgwucccpcqse6mfbjgh4yy6a",
+          "uri": "at://did:plc:wcmkwqj5yb6wqydqjv35ucoc/app.bsky.feed.post/3ldyswuupvv26"
+        },
+        "parent": {
+          "cid": "bafyreian7edqdmxlk6tb3l4pa7f2rgckuorgwucccpcqse6mfbjgh4yy6a",
+          "uri": "at://did:plc:wcmkwqj5yb6wqydqjv35ucoc/app.bsky.feed.post/3ldyswuupvv26"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 68,
+            "byteStart": 58
+          },
+          "features": [
+            {
+              "tag": "fullstack",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 80,
+            "byteStart": 69
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 98,
+            "byteStart": 86
+          },
+          "features": [
+            {
+              "tag": "raspberrypi",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 179,
+            "byteStart": 155
+          },
+          "features": [
+            {
+              "uri": "https://bsky.app/profile/mrpowershell.bsky.social/post/3lesrsx74qs2x",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-11T20:01:04.293Z"
+    },
+    "cid": "bafyreibsnqi7elo3dydbndnw3wpnxzpj5a6u7e6d5fouu2sa7kryaxj3ve"
+  }
+}

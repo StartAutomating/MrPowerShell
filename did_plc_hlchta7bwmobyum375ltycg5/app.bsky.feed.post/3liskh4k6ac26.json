@@ -1,0 +1,67 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740269647565,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3liskh4k6ac26",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3liskh4k6ac26",
+    "record": {
+      "text": "Sure.\n\n#Tip #Trick\n\n#PowerShell Functions can be named anything.\n\n( If it's trouble, set it with the function provider and curly brackets )\n\n${function:oh my word} = \"wow\"\n\n# Then call it with .\n\n. \"Oh my word\"\n\nHave fun!",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigsbgf4nxvztugu7cajo3f2hnlq2gftal5d4nf3in6neuuejec6mu",
+          "uri": "at://did:plc:l6onwg7gcump7yvubnmddvmo/app.bsky.feed.post/3liscftacz22i"
+        },
+        "parent": {
+          "cid": "bafyreigsbgf4nxvztugu7cajo3f2hnlq2gftal5d4nf3in6neuuejec6mu",
+          "uri": "at://did:plc:l6onwg7gcump7yvubnmddvmo/app.bsky.feed.post/3liscftacz22i"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 7
+          },
+          "features": [
+            {
+              "tag": "Tip",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 18,
+            "byteStart": 12
+          },
+          "features": [
+            {
+              "tag": "Trick",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 31,
+            "byteStart": 20
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-23T00:14:07.565Z"
+    },
+    "cid": "bafyreid5nakdibjowxvtlwqpfcjlvy7evnmsd3a2vt3z3meckj6qxp5emu"
+  }
+}

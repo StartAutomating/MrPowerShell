@@ -1,0 +1,34 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735854171977,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3les27ouxdc24",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3les27ouxdc24",
+    "record": {
+      "text": "@robsewell.com hey, the PowerShell feed seems a bit funky at the moment.  Everything alright on your end?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "did": "did:plc:esbc722g7bm4ly7b2mg7ba6m",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-02T21:42:51.977Z"
+    },
+    "cid": "bafyreif37wl4bf3s5453ubze6vxopvnq3f6w32rlg2yj7r3qhkob3pq4ce"
+  }
+}

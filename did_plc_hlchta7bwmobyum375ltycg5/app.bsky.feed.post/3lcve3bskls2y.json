@@ -1,0 +1,83 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733768817427,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcve3bskls2y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcve3bskls2y",
+    "record": {
+      "text": "No problem.\n\nBtw, there's also a #GitHub Action.\n\nThe idea is.... Set up recurring cron jobs in GitHub to drink directly from the #bluesky #jetstream firehose, pick out useful bigs to aggregate ( like links ), and do cool things.\n\nOr, put visually...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/0bIiqTAsue8AAAAC/phase1-collect-underpants.gif?hh=373&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreie6c6m5v5wsx4uxoayns6athvi3vgdajrtoc5g2btmkiphh422gmq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 62837
+          },
+          "title": "a sign that says collect underpants phase 1 phase 2 phase 3 and collect underpants profit",
+          "description": "Alt: Figuring out how to collect valuable Intel from the BlueSky Jetstream"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreie67mlhnd5vjnv4get75okvg7tq4sn2zhipattlynszpzx2z2f37a",
+          "uri": "at://did:plc:65o63iwl4t4bikknghwiyimk/app.bsky.feed.post/3lct3ihuj6c2s"
+        },
+        "parent": {
+          "cid": "bafyreifaxqmc46hbew7mezz6mcjp2ojfxpczfm5hjc2rc4eu27wjxgsbbi",
+          "uri": "at://did:plc:65o63iwl4t4bikknghwiyimk/app.bsky.feed.post/3lcvdcmpblc2d"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 40,
+            "byteStart": 33
+          },
+          "features": [
+            {
+              "tag": "GitHub",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 138,
+            "byteStart": 130
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 149,
+            "byteStart": 139
+          },
+          "features": [
+            {
+              "tag": "jetstream",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-09T18:26:57.427Z"
+    },
+    "cid": "bafyreiedacavqbstuubnemuiipzv4w2l477ufhqyv7qv5fax3bdjsqnw64"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734556690602,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldmbtq7q2k2r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldmbtq7q2k2r",
+    "record": {
+      "text": "Fair.\n\nI'm still torn on if I like this default.\n\nOn the one hand, can't double click a powershell script.\n\nOn the other hand, this makes social engineering attacks of PowerShell an order of magnitude or two less likely to succeed.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiepxrjrudk6mymrhhulztcthp4bos3ahjj724xre2kvmrr6xlqv6m",
+          "uri": "at://did:plc:emvn7fbj2plrm44p53dekons/app.bsky.feed.post/3ldm6nt6g5s2h",
+          "$type": "com.atproto.repo.strongRef"
+        },
+        "parent": {
+          "cid": "bafyreihdh22bu5gtdlknyqj6b2dzotmltjo7csksrfnqrsuydpe5mmtkdu",
+          "uri": "at://did:plc:emvn7fbj2plrm44p53dekons/app.bsky.feed.post/3ldmbragzku2y"
+        }
+      },
+      "createdAt": "2024-12-18T21:18:10.602Z"
+    },
+    "cid": "bafyreifq7km54sn6pvhfqvjevifnjwhcpkj33qqrngsqtmzwqu4745hhbu"
+  }
+}

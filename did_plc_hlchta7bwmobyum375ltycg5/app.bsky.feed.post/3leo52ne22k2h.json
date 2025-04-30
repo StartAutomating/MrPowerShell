@@ -1,0 +1,82 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735719784875,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leo52ne22k2h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leo52ne22k2h",
+    "record": {
+      "text": "The #Seattle #NYE #Traffic standoff continues...\n\n10 minutes.\n\n2 honks.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.video",
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreih6nv3tvd6heumxi2mxsy6jeli6zqzruzilvbyruu4s7wq6mcxmii"
+          },
+          "mimeType": "video/mp4",
+          "size": 8704600
+        },
+        "aspectRatio": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigtpiviqw65se52564dopnodtbnh4uetvq7eae3qulfjhgeokv45q",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leo4lct6as2h"
+        },
+        "parent": {
+          "cid": "bafyreigtpiviqw65se52564dopnodtbnh4uetvq7eae3qulfjhgeokv45q",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leo4lct6as2h"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 12,
+            "byteStart": 4
+          },
+          "features": [
+            {
+              "tag": "Seattle",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 17,
+            "byteStart": 13
+          },
+          "features": [
+            {
+              "tag": "NYE",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 26,
+            "byteStart": 18
+          },
+          "features": [
+            {
+              "tag": "Traffic",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-01T08:23:04.875Z"
+    },
+    "cid": "bafyreid4y4jmickfkjoc4gylzvacin4mdbqzmsvqlalfaaly3nzs4tud3u"
+  }
+}

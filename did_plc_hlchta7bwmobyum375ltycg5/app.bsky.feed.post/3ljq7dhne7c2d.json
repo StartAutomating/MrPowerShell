@@ -1,0 +1,69 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741288505977,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ljq7dhne7c2d",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ljq7dhne7c2d",
+    "record": {
+      "text": "Hey #PowerShell people!\n\nDid you know you can import modules from the current directory ?\n\n~~~PowerShell\nImport-Module .\\ -Force -Passthru\n~~~\n\nWill import a module in the current directory.\n\nI use this all the time during development.\n\n#FYI #Tip #Trick",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 241,
+            "byteStart": 237
+          },
+          "features": [
+            {
+              "tag": "FYI",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 246,
+            "byteStart": 242
+          },
+          "features": [
+            {
+              "tag": "Tip",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 253,
+            "byteStart": 247
+          },
+          "features": [
+            {
+              "tag": "Trick",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-06T19:15:05.977Z"
+    },
+    "cid": "bafyreicagq4kbgv3zefjuvpmgwszoaatz74wqq3qihyowfi34w34pltz5y"
+  }
+}

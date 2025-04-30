@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736531060749,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lffqmkcwqc2d",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lffqmkcwqc2d",
+    "record": {
+      "text": "This reminds me of an old joke:\n\n#Apple is a marketing company with a software problem\n#Microsoft is a software company with a marketing problem.\n\nExample / case in point.\n\nPowerShell added so many language features that change programming\n\nAnd yet almost nobody \"gets\" it.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigr6h2gbqq5tgsu7mapf7wdn5t2m2lokgnnznx2ogaleuoqgw6k5y",
+          "uri": "at://did:plc:vezcucirxz76j3c5q6quowda/app.bsky.feed.post/3lfeyfbksoc22"
+        },
+        "parent": {
+          "cid": "bafyreidngnewfu3bw7nsn7yd5bo6tuto6zz664qoyzipxh7dsg4so4ou2u",
+          "uri": "at://did:plc:d3h2ensifm7urthpri3zxfdx/app.bsky.feed.post/3lffivkh66s2z"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 39,
+            "byteStart": 33
+          },
+          "features": [
+            {
+              "tag": "Apple",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 97,
+            "byteStart": 87
+          },
+          "features": [
+            {
+              "tag": "Microsoft",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-10T17:44:20.749Z"
+    },
+    "cid": "bafyreibdabpobr2ln7yo7rmyjjiyu6mhbk74xlp5yysesojijsny5twwrm"
+  }
+}

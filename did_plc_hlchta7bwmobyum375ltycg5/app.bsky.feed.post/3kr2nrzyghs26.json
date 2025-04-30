@@ -1,0 +1,57 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1714159780253,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kr2nrzyghs26",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kr2nrzyghs26",
+    "record": {
+      "text": "How to Find a #docker #containers Read/Write Mounts with #PowerShell ...\n\n(Select-String \"\\S+\\s(?<p>\\S+).+rw,.+symlinkroot=/mnt/host\" \"/proc/mounts\").Matches.Groups |\n? Name -eq p |\nGet-Item -path { $_.Value }\nHave fun!",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 21,
+            "byteStart": 14
+          },
+          "features": [
+            {
+              "tag": "docker",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 33,
+            "byteStart": 22
+          },
+          "features": [
+            {
+              "tag": "containers",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 68,
+            "byteStart": 57
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-04-26T19:29:40.253Z"
+    },
+    "cid": "bafyreib5rmqcykhlqwveefafdl42ydsde6m7rtspoequs64cyzmwqrirwe"
+  }
+}

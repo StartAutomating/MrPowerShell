@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733870078329,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcycf3q27c2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcycf3q27c2s",
+    "record": {
+      "text": "Ah, but what if someone who has written millions of lines of #powershell over the years wants to help -you- do cool things?\n\n( Asking on my own behalf, I'm big on getting capabilities out there, and less inclined towards glory )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigzpmfa3eu4xwhaqtjirpwsobakvheavc2hmd6zg5rzfxf5kkqx5a",
+          "uri": "at://did:plc:46dtzqjv7n4gbnz6dkwlsinr/app.bsky.feed.post/3lbf6mzr73cjs"
+        },
+        "parent": {
+          "cid": "bafyreigzpmfa3eu4xwhaqtjirpwsobakvheavc2hmd6zg5rzfxf5kkqx5a",
+          "uri": "at://did:plc:46dtzqjv7n4gbnz6dkwlsinr/app.bsky.feed.post/3lbf6mzr73cjs"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 72,
+            "byteStart": 61
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-10T22:34:38.329Z"
+    },
+    "cid": "bafyreiff5znx4eswxbnqm5e2nudevfdc2org475zamubphvnvkqib7wbw4"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732405401551,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbnocd426s2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbnocd426s2o",
+    "record": {
+      "text": "You're half right.  Bash integration into Windows dates from the \"Windows Subsystem for Linux\" / \"POSIX compatibility\" era.\n\nIt's actually older than #PowerShell (by a few years ).\n\n#PowerShell exists partially because that wasn't enough to do things elegantly.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreiaa74mlyrs55mp23us35atq2joaziqs2lhssmcejcmr3lj3ydurwe",
+          "uri": "at://did:plc:gnson6myp4rcbm3noqlz7fz5/app.bsky.feed.post/3lbnl4v2nx227"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 161,
+            "byteStart": 150
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 193,
+            "byteStart": 182
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-23T23:43:21.551Z"
+    },
+    "cid": "bafyreienzaursifrff76m4pflvxpquzk3ldzz4optch3y3o5vmwy3dsy64"
+  }
+}

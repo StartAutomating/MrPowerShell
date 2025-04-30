@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733344547700,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lciyx2o2cc2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lciyx2o2cc2u",
+    "record": {
+      "text": "Short answer....\n\nIf it's a [string], [datetime], [timespan], enum, or it's .GetType().Is primitive, it should be passed by value.\n\nIncidentally, these are the same set of types that are \"safe\" to use in PowerShell + Web contexts.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieb325p66mti2ixrjumk3ekmir2giaj6cnt7jzk3z3hczjvwmsuta",
+          "uri": "at://did:plc:fcfadn5scrcvbwz7peyxaytq/app.bsky.feed.post/3k4ket46sau25"
+        },
+        "parent": {
+          "cid": "bafyreigf5c4an4fg5ptqzx37syt6qjtthipl2iy2izpuljf676x7vxgmzm",
+          "uri": "at://did:plc:idi75z5g5lmqrtyswrnhfubo/app.bsky.feed.post/3lcimfhlocc2w"
+        }
+      },
+      "createdAt": "2024-12-04T20:35:47.7Z"
+    },
+    "cid": "bafyreifiayb3ofb2ryn5figjk6kq7qaf2czi6zqoze3cwmn5hn4wf7ly6q"
+  }
+}

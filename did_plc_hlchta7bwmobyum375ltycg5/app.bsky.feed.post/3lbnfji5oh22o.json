@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732395978053,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbnfji5oh22o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbnfji5oh22o",
+    "record": {
+      "text": "The joke for decades has been:  #perl is a write-only language.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreidlzjew3nsddywjufvvznwp6g4h3fojayk4s3bznodrm4tgqnroai",
+          "uri": "at://did:plc:f7jx6lezas5fh2pnwh4w7mah/app.bsky.feed.post/3lbltpar2rk24"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 37,
+            "byteStart": 32
+          },
+          "features": [
+            {
+              "tag": "perl",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-23T21:06:18.053Z"
+    },
+    "cid": "bafyreibii6gm4mgvgaxuryd5on6v5iug3quzh2c3xxuqchgveczaxtbwfu"
+  }
+}

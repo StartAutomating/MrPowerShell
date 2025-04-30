@@ -1,0 +1,168 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737234175876,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lg27gz5pxt2c",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lg27gz5pxt2c",
+    "record": {
+      "text": "Getting there 😉😎\n\nFeedback welcome!\n\nMaking something based off of #bluesky and #atproto to fill that #tiktok sized hole in our hearts.\n\nWhat are you looking at?  Just a bit of #realtime #bluesky\n\n#javascript #css #websocket #powershell #omg #video\n\nWhat sites should I special case?",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.video",
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreigiqbj6djldutj3vwilb77jucqw2p27hmriuykusufpufdwvhnc5y"
+          },
+          "mimeType": "video/mp4",
+          "size": 1792203
+        },
+        "aspectRatio": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 81,
+            "byteStart": 73
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 94,
+            "byteStart": 86
+          },
+          "features": [
+            {
+              "tag": "atproto",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 115,
+            "byteStart": 108
+          },
+          "features": [
+            {
+              "tag": "tiktok",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 192,
+            "byteStart": 183
+          },
+          "features": [
+            {
+              "tag": "realtime",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 201,
+            "byteStart": 193
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 214,
+            "byteStart": 203
+          },
+          "features": [
+            {
+              "tag": "javascript",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 219,
+            "byteStart": 215
+          },
+          "features": [
+            {
+              "tag": "css",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 230,
+            "byteStart": 220
+          },
+          "features": [
+            {
+              "tag": "websocket",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 242,
+            "byteStart": 231
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 247,
+            "byteStart": 243
+          },
+          "features": [
+            {
+              "tag": "omg",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 254,
+            "byteStart": 248
+          },
+          "features": [
+            {
+              "tag": "video",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-18T21:02:55.876Z"
+    },
+    "cid": "bafyreigwlmgbxgydcze2gudjxska3mr3pgbrz36lgiyxzdxcnueudpggdq"
+  }
+}

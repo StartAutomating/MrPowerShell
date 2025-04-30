@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738029181249,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgrdtzeeik2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgrdtzeeik2w",
+    "record": {
+      "text": "Get-WindowsFeature / Install-WindowsFeature may be your friend here.\n\nlearn.microsoft.com/en-us/powers...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://learn.microsoft.com/en-us/powershell/module/servermanager/install-windowsfeature?view=windowsserver2025-ps",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifqrnlyrit4s4blba7mcw66cvxzpgzyypdhf7czgltiya4d7zovde"
+            },
+            "mimeType": "image/jpeg",
+            "size": 271943
+          },
+          "title": "Install-WindowsFeature (ServerManager)",
+          "description": "Installs one or more roles, role services, or features on either the local or a specified remote server that is running Windows Server."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreih7za6xubqehwbokxrnxwxcuenzqognj57jrojmcqzryjdslgtwiy",
+          "uri": "at://did:plc:t6bt2ybyxykvov2gxkyi5i5f/app.bsky.feed.post/3lgrayxz3zs2u"
+        },
+        "parent": {
+          "cid": "bafyreid5degmmfn567zxvzculoofcp7ngoqmhrfhdwoaeqsqyvtihztcva",
+          "uri": "at://did:plc:t6bt2ybyxykvov2gxkyi5i5f/app.bsky.feed.post/3lgrdi5dh3c2u"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 105,
+            "byteStart": 70
+          },
+          "features": [
+            {
+              "uri": "https://learn.microsoft.com/en-us/powershell/module/servermanager/install-windowsfeature?view=windowsserver2025-ps",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-28T01:53:01.249Z"
+    },
+    "cid": "bafyreifb5ya4cxpwch2be4rjrty4pmvumq6vgtq47axzeqqlpnxawiw3em"
+  }
+}

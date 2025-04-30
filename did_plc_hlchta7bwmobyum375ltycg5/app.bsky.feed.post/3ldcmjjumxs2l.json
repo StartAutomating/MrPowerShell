@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734224562180,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldcmjjumxs2l",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldcmjjumxs2l",
+    "record": {
+      "text": "I think that .zips are they way people embed payloads in public.\n\nMake it _look_ like a copy of X/Y/Z, but have an exploit loaded within the code.\n\nI also think the post is also suggesting that it can be used as a way to break in.\n\nThank you for putting my mind at ease.\n\nHappy to be wrong.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihzhlaouumdgbvc25ywa4mbnshbv7ewdkmqpii4ypahzc52vbsuia",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldcjomyvbs2s"
+        },
+        "parent": {
+          "cid": "bafyreiehxucfue4tpqbvznitfs36xdq7g53mwkxjj6q46qygzwpdq7wzau",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3ldcmbs3ngk2h"
+        }
+      },
+      "createdAt": "2024-12-15T01:02:42.18Z"
+    },
+    "cid": "bafyreienvqmsry2aslivemswm2uf3252i3ebkjrgnrzjglw7tqbipk5k44"
+  }
+}

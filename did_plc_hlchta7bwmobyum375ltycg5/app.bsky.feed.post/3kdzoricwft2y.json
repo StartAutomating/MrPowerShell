@@ -1,0 +1,33 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1699832866631,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kdzoricwft2y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kdzoricwft2y",
+    "record": {
+      "text": "Proof that #PowerShell is the answer to life, the universe, and everything:\n\n{$a=$b}.Ast.EndBlock.Statements[0].Operator -as [int]",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 22,
+            "byteStart": 11
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-11-12T23:47:46.631Z"
+    },
+    "cid": "bafyreifohzmbsevsxbcueqx6gwuhnijz6cizmjoohy2cgfx2mzfbgdyara"
+  }
+}

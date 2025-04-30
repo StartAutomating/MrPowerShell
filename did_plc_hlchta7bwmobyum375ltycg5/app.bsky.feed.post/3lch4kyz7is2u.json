@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733279718808,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lch4kyz7is2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lch4kyz7is2u",
+    "record": {
+      "text": "FYI, they changed that years ago.  Part of the joy of it being open source and all.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicwkaqyjcrmyxwdttvzlg3wvrtairvggfebwxtvwbh7jcchhy33qy",
+          "uri": "at://did:plc:cx5odfv73l27dro4h3erypbd/app.bsky.feed.post/3lcewy6wj6k2r"
+        },
+        "parent": {
+          "cid": "bafyreihar6amyd2napgjwnxbalwppxojivzof5emzo22upwymnwjdcwyce",
+          "uri": "at://did:plc:szawk3er44q2uis54i2ebsge/app.bsky.feed.post/3lcgzcztvwe2x"
+        }
+      },
+      "createdAt": "2024-12-04T02:35:18.808Z"
+    },
+    "cid": "bafyreid6o2mxikkigrx3oav7mfwsxbjcldnaht2iosjimum762m7ys775y"
+  }
+}

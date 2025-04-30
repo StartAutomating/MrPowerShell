@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737237059923,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lg2c4xlu4k2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lg2c4xlu4k2v",
+    "record": {
+      "text": "A - Did you use PowerShell for all that, or do it by hand?\n\nB - Please don't blame the language, blame the attackers.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigoqdxyw3r6esrvmlc5gb5vy7kf5gasy7cuw6wsepcder3b2j6w7q",
+          "uri": "at://did:plc:xraomsuf6pvh7r2cqtdwhkvm/app.bsky.feed.post/3lfxwrv3yyk2n"
+        },
+        "parent": {
+          "cid": "bafyreift42rtgvpfqkswlce6dmblawxswotcazgwdkcgtskne3eurw76bm",
+          "uri": "at://did:plc:chxqj3jv7wh7yimfwmd3thlm/app.bsky.feed.post/3lg2byavmls2o"
+        }
+      },
+      "createdAt": "2025-01-18T21:50:59.923Z"
+    },
+    "cid": "bafyreieglu5btsfowhv5qapqiscpqe23pwc6l34ksrjc7gkncg42bx2gni"
+  }
+}

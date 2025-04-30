@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732686282560,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbvtva45ks2r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbvtva45ks2r",
+    "record": {
+      "text": "Please let me know how I might join such a conversation.\n\nBeen making some #powershell #websocket experiments with the site, and want to ensure that any user can easily ban ai training / scraping.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifteemnq74vosv2n7pp63vcaagecqhafkrvfv52kjujbcmc66qm3m",
+          "uri": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.feed.post/3lbvgvbvcf22c"
+        },
+        "parent": {
+          "cid": "bafyreid43ptd6w3xeyb3u722hxrwa5owibq53kyu5gfarsslh6bvavqc3i",
+          "uri": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.feed.post/3lbvgvbvl6d2c"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 86,
+            "byteStart": 75
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 97,
+            "byteStart": 87
+          },
+          "features": [
+            {
+              "tag": "websocket",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-27T05:44:42.56Z"
+    },
+    "cid": "bafyreihkha3mbsrza57qb337jwrydybahyqd6nkad46ohwccswkldymcmu"
+  }
+}

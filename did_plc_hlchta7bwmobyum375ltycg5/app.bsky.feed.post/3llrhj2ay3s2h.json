@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1743530666194,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3llrhj2ay3s2h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3llrhj2ay3s2h",
+    "record": {
+      "text": "Always nice to see some love for the language!\n\n( So many people knock PowerShell and never learn to rock PowerShell )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihrpioawqjwc2pouiovwxo5rdtmc2a5ucdx247p5qra2ncu3wff5m",
+          "uri": "at://did:web:hotsocket.fyi/app.bsky.feed.post/3llrevf2d5s2v"
+        },
+        "parent": {
+          "cid": "bafyreihrpioawqjwc2pouiovwxo5rdtmc2a5ucdx247p5qra2ncu3wff5m",
+          "uri": "at://did:web:hotsocket.fyi/app.bsky.feed.post/3llrevf2d5s2v"
+        }
+      },
+      "createdAt": "2025-04-01T18:04:26.194Z"
+    },
+    "cid": "bafyreidukghkc3uo7lks4dr27p7hjswr3iuq43q42spqj6smtjoqijvwpy"
+  }
+}

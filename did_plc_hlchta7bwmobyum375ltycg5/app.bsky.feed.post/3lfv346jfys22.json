@@ -1,0 +1,79 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737057718743,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfv346jfys22",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfv346jfys22",
+    "record": {
+      "text": "I'd add that there's too much confusion around #Fabric as a banner brand, and how PowerBI fits into it.\n\nAnd I'd also argue that #PowerBI / #PowerPlatform should work well with #PowerShell ( if only to avoid brand confusion )\n\nFixing either branding problem does not seem like it's on the roadmap.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihsgil2z4xz4jx54t5t6qchi5nndxxpit3iikfshgxbtpaoas5cpi",
+          "uri": "at://did:plc:qgxrhtavp4haeysnbcfsgbpd/app.bsky.feed.post/3lfukesyndk2b"
+        },
+        "parent": {
+          "cid": "bafyreihsgil2z4xz4jx54t5t6qchi5nndxxpit3iikfshgxbtpaoas5cpi",
+          "uri": "at://did:plc:qgxrhtavp4haeysnbcfsgbpd/app.bsky.feed.post/3lfukesyndk2b"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 54,
+            "byteStart": 47
+          },
+          "features": [
+            {
+              "tag": "Fabric",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 137,
+            "byteStart": 129
+          },
+          "features": [
+            {
+              "tag": "PowerBI",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 154,
+            "byteStart": 140
+          },
+          "features": [
+            {
+              "tag": "PowerPlatform",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 188,
+            "byteStart": 177
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-16T20:01:58.743Z"
+    },
+    "cid": "bafyreiepb2j4wrequ36e7lejcu77ctiftu43w5nkp2vilfxtkx2u25ahlm"
+  }
+}

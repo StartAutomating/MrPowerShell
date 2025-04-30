@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737395538671,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lg6vpypig224",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lg6vpypig224",
+    "record": {
+      "text": "I believe things are better in PowerShell Core.\n\n@seeminglyscience.com: does this sort of scenario work fine in core now?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreid4vzemjyzwxj4tdcfmncsimzw4f5lozijd6yefzwjwwkc5h2bdri",
+          "uri": "at://did:plc:g7yizixx5ii2nvia7p43aprb/app.bsky.feed.post/3lg6mj5osis2u"
+        },
+        "parent": {
+          "cid": "bafyreid4vzemjyzwxj4tdcfmncsimzw4f5lozijd6yefzwjwwkc5h2bdri",
+          "uri": "at://did:plc:g7yizixx5ii2nvia7p43aprb/app.bsky.feed.post/3lg6mj5osis2u"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 70,
+            "byteStart": 49
+          },
+          "features": [
+            {
+              "did": "did:plc:33jh6d5q5cxbifd6vqpncvgb",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-20T17:52:18.671Z"
+    },
+    "cid": "bafyreif7vkt2we3pdwtzwyzwfl4t3ypyp2obji3logcehwrunvagkl6iai"
+  }
+}

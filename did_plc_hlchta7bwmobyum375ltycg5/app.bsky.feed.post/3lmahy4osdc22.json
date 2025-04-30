@@ -1,0 +1,85 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744046568135,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmahy4osdc22",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmahy4osdc22",
+    "record": {
+      "text": "This is some real #doublethink #bs #news.\n\nwww.theguardian.com/us-news/2025...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.theguardian.com/us-news/2025/apr/07/park-service-harriet-tubman-underground-railroad",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiblvbjtizuyubmpmjhie2zmrvm45ssdi3bxeynfdswjes2t3igeve"
+            },
+            "mimeType": "image/jpeg",
+            "size": 224635
+          },
+          "title": "Harriet Tubman webpage targeted amid Trump-led anti-DEI efforts",
+          "description": "US park service deletes quote and image of abolitionist from webpage, instead emphasizing ‘Black/White cooperation’"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 30,
+            "byteStart": 18
+          },
+          "features": [
+            {
+              "tag": "doublethink",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 31
+          },
+          "features": [
+            {
+              "tag": "bs",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 40,
+            "byteStart": 35
+          },
+          "features": [
+            {
+              "tag": "news",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 78,
+            "byteStart": 43
+          },
+          "features": [
+            {
+              "uri": "https://www.theguardian.com/us-news/2025/apr/07/park-service-harriet-tubman-underground-railroad",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-07T17:22:48.135Z"
+    },
+    "cid": "bafyreibnsn6zm7teh7lhnyagke5kxcjpx2aqwhth2u3w3tj7xx26pkqt3a"
+  }
+}

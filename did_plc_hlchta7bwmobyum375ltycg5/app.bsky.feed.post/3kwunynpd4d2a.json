@@ -1,0 +1,85 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1720550944413,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kwunynpd4d2a",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kwunynpd4d2a",
+    "record": {
+      "text": "Hey #PowerShell people:  Want #GitHub #CodeQL to support PowerShell?\n\nLet your voices be heard:\n\ngithub.com/github/codeq...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/github/codeql-action/issues/2366",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiaqsuwzysqekn4g4i2b3hm4i2ppzacne5v2asdmj2moy5k2luzj4y"
+            },
+            "mimeType": "image/jpeg",
+            "size": 202225
+          },
+          "title": "CodeQL PowerShell Support · Issue #2366 · github/codeql-action",
+          "description": "CodeQL does not currently support PowerShell. Given that PowerShell is quite a potent language that has been used to great effect by red team and blue team alike, this lack of functionality hurts b..."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 37,
+            "byteStart": 30
+          },
+          "features": [
+            {
+              "tag": "GitHub",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 38
+          },
+          "features": [
+            {
+              "tag": "CodeQL",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 123,
+            "byteStart": 97
+          },
+          "features": [
+            {
+              "uri": "https://github.com/github/codeql-action/issues/2366",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-07-09T18:49:04.413Z"
+    },
+    "cid": "bafyreif2sjxbstuiw6f7fnn6ktcv3vmhq7zf6wj7fdpigpnwginnf7x53e"
+  }
+}

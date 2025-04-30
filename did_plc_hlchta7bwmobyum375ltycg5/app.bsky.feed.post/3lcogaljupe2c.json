@@ -1,0 +1,49 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733530623125,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcogaljupe2c",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcogaljupe2c",
+    "record": {
+      "text": "I promise you, git gets better\n\nugit 0.4.5.1",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/ugit",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihijfesrdc7nkuy7fdttarpj6i5zytjvlxschfubascisuvk73ou4"
+            },
+            "mimeType": "image/png",
+            "size": 21356
+          },
+          "title": "GitHub - StartAutomating/ugit: Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects.",
+          "description": "Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects. - StartAutomating/ugit"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 32
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/ugit",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-06T16:17:03.1250433-08:00"
+    },
+    "cid": "bafyreiepxboijftcmjzlcw72hz354fdbtcsru2pjzsuyxef6xakuzrmcxq"
+  }
+}

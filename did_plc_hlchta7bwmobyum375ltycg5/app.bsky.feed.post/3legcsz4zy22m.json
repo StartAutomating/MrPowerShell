@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735451093337,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3legcsz4zy22m",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3legcsz4zy22m",
+    "record": {
+      "text": "Here me out, and please don't pelt me with rocks:\n\nHave you considered OpenSCAD?\n\nopenscad.org\n\nOr, even more crazy talk, considered using 3JS to output STL?",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://openscad.org/",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreid46ebza4ufhqquxyctynvpqsmbwiktqreaj5x7z6zashpchnklvq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 776810
+          },
+          "title": "OpenSCAD",
+          "description": ""
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibagzp5slkeladvwxv62gx4chp2dn6ysma7k4wpla5jcv2bi6cbqm",
+          "uri": "at://did:plc:3p7m65ikus2al6tiizhbmwqq/app.bsky.feed.post/3ledv3onjzk22"
+        },
+        "parent": {
+          "cid": "bafyreihfvip7qmzqzrwnjmz3nccx2rrb5s3rr7v5ppmjvkllbifnqu7rre",
+          "uri": "at://did:plc:szawk3er44q2uis54i2ebsge/app.bsky.feed.post/3lefwshs4zs2v"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 94,
+            "byteStart": 82
+          },
+          "features": [
+            {
+              "uri": "https://openscad.org/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-29T05:44:53.337Z"
+    },
+    "cid": "bafyreia3xn3v3jtwevoweuhrpmyjpmjrlycid3w5fnmm5tmosjg4jdpyr4"
+  }
+}

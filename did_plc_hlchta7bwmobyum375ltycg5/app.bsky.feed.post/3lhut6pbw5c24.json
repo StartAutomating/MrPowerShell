@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1739248236753,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhut6pbw5c24",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhut6pbw5c24",
+    "record": {
+      "text": "True, but saying \"dub dub dub\" is faster and ( IMO ) more fun.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiebeow7qduxpfxgb43kcetfskz6ektd4hnbgynoqdhpauqaelf2pa",
+          "uri": "at://did:plc:3hklcgosgfihcyvqzqqiggyg/app.bsky.feed.post/3lhuq5h7khs25"
+        },
+        "parent": {
+          "cid": "bafyreiebeow7qduxpfxgb43kcetfskz6ektd4hnbgynoqdhpauqaelf2pa",
+          "uri": "at://did:plc:3hklcgosgfihcyvqzqqiggyg/app.bsky.feed.post/3lhuq5h7khs25"
+        }
+      },
+      "createdAt": "2025-02-11T04:30:36.753Z"
+    },
+    "cid": "bafyreiccoiruvpnxvg72oy7fbgknbowbuyy5o47ylsusqqxn6b6qfyqqvi"
+  }
+}

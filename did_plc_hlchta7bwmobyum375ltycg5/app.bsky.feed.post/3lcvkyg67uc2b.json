@@ -1,0 +1,67 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733776237533,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcvkyg67uc2b",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcvkyg67uc2b",
+    "record": {
+      "text": "Nah, #powershell has rich tradition of playing #code #golf.\n\nOf course I don't like golf...",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihu7klreoaltqaz5t5lramgcz4arx2nibethhxjt7ie5bxbqdte5y",
+          "uri": "at://did:plc:ep6lal34tprx4l5rv74ea45s/app.bsky.feed.post/3lcvao4rlcs2m"
+        },
+        "parent": {
+          "cid": "bafyreicosgbeeusrroz5idgwsotkdhntm5azloq2intfxr34es6vl3f6ri",
+          "uri": "at://did:plc:eo5ymtvy3jw5jio5qmbofaaq/app.bsky.feed.post/3lcvj7cghhk2k"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 16,
+            "byteStart": 5
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 52,
+            "byteStart": 47
+          },
+          "features": [
+            {
+              "tag": "code",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 58,
+            "byteStart": 53
+          },
+          "features": [
+            {
+              "tag": "golf",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-09T20:30:37.533Z"
+    },
+    "cid": "bafyreick2o7zxfid263xhejn3zze5tnbsk7moldwbomskp7ipfztqu4d3e"
+  }
+}

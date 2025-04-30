@@ -1,0 +1,49 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734308373076,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldf2lc6b2c2e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldf2lc6b2c2e",
+    "record": {
+      "text": "I've only got a couple of days left at 42 and feel like I haven't made enough #HitchhikersGuide jokes yet.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/J1dzs1TwOmwAAAAC/dont-panic-hitchhikers-guide-to-the-galaxy.gif?hh=280&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidcb7nobojkwzh4ch7vd4qf2ia65dlxls7ivh6srmgu67ayygqnea"
+            },
+            "mimeType": "image/jpeg",
+            "size": 45983
+          },
+          "title": "a poster that says do n't panic in red letters",
+          "description": "Alt: a poster that says do n't panic in red letters"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 95,
+            "byteStart": 78
+          },
+          "features": [
+            {
+              "tag": "HitchhikersGuide",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-16T00:19:33.076Z"
+    },
+    "cid": "bafyreicihgdxg4ndk2uybeapssm4c367lx3oudd5pa2zzu5wxqdes4aooe"
+  }
+}

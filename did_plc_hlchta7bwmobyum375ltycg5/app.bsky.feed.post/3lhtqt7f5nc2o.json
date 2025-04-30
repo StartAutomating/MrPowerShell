@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1739211343755,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhtqt7f5nc2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhtqt7f5nc2o",
+    "record": {
+      "text": "This Wednesday night the great @adamdriscoll.bsky.social will talk about extending #PowerShell Universal:\n\nDrop by at 6pm pacific time to learn more.\n\nwww.meetup.com/pacific-powe...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/events/305911793/?eventOrigin=group_upcoming_events",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiga5eqo5n6ujq2atfzzkdatunqqsmb6lafulfokoluzpizxl7ndvu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 36724
+          },
+          "title": "Building PowerShell Universal Extension Modules (with Adam Driscoll), Wed, Feb 12, 2025, 6:00 PM   | Meetup",
+          "description": "In this session, we'll look at how to build extension modules that integrate directly into PowerShell Universal features like APIs, scripts and apps. We'll talk about the s"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 56,
+            "byteStart": 31
+          },
+          "features": [
+            {
+              "did": "did:plc:sqraalz5tsmoy3upwcjtpepl",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 94,
+            "byteStart": 83
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 181,
+            "byteStart": 151
+          },
+          "features": [
+            {
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/305911793/?eventOrigin=group_upcoming_events",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-10T18:15:43.755Z"
+    },
+    "cid": "bafyreiaykpuaxtt5qqchvtxhpl2njuiw4vce6ke2sjgrrusi3vhefm4l7m"
+  }
+}

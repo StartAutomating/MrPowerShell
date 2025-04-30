@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1696542914233,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kazwr4zu4v24",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kazwr4zu4v24",
+    "record": {
+      "text": "It's rare.\n\nI haven't had that many clients that used or, or found much direct use for it (despite having helped build language modes backwhen).\n\nIt causes a lot of compatibility issues/rewrites, and the jury is out on how much malice it has prevented. (more to come)",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihmi5r73rbnbuezlacqv2nfx3clp6uc5dwolf7yhi5ugwquuxl3be",
+          "uri": "at://did:plc:53k4pafoelmtgot4dglv3dxm/app.bsky.feed.post/3katrztbz5n22"
+        },
+        "parent": {
+          "cid": "bafyreihmi5r73rbnbuezlacqv2nfx3clp6uc5dwolf7yhi5ugwquuxl3be",
+          "uri": "at://did:plc:53k4pafoelmtgot4dglv3dxm/app.bsky.feed.post/3katrztbz5n22"
+        }
+      },
+      "createdAt": "2023-10-05T21:55:14.233Z"
+    },
+    "cid": "bafyreihgm5bz23dy4gwklmsb6a2hrav6j22srclgjmfqnyxbjdw2s6axpq"
+  }
+}

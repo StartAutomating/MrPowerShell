@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733175456222,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lce3hqhmtk2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lce3hqhmtk2w",
+    "record": {
+      "text": "I generally only have a GitHub workflow for Linux testing, and develop on Windows.\n\nSince MacOS is Unix, this gives me a simple sanity check for if a PowerShell module works across platforms.\n\nI don't see why the same approach wouldn't work for Rust, but I'm not a rust expert.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreib5l7o4vvuomc77iybddqijrjmqtvmo5thcwyz2q67usbj64k2dg4",
+          "uri": "at://did:plc:j4y2jxdgtmildwjlwsmk67fy/app.bsky.feed.post/3lcddvmgqkc2r"
+        },
+        "parent": {
+          "cid": "bafyreigjccvriitj65xvne7rdpr4qv5ybrserq6xcnok26acsmzhhjedf4",
+          "uri": "at://did:plc:j4y2jxdgtmildwjlwsmk67fy/app.bsky.feed.post/3lcdwmnkvys2m"
+        }
+      },
+      "createdAt": "2024-12-02T21:37:36.222Z"
+    },
+    "cid": "bafyreidi6mvgu53lmm33kze6lnswfxltuc3zkim5qqcnal7c3kfudf277y"
+  }
+}

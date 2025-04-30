@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733004326743,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lc743oodzk2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lc743oodzk2o",
+    "record": {
+      "text": "Vaguely working on it ( or, at the least, synchronizing at proto into repositories )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicdaq45gn3jtp56z2k4qgqnspgej5srybru5tm36am463juqdhwzu",
+          "uri": "at://did:plc:bnqkww7bjxaacajzvu5gswdf/app.bsky.feed.post/3lc4fynahgl25"
+        },
+        "parent": {
+          "cid": "bafyreigehvabzeuledww2gtrx7bpyrr3qglpu5miudepudagjy3kmxaiau",
+          "uri": "at://did:plc:2wco2e2ybeg2lwpfx3kqjsuv/app.bsky.feed.post/3lc5z7dj2k22h"
+        }
+      },
+      "createdAt": "2024-11-30T22:05:26.743Z"
+    },
+    "cid": "bafyreifayj7hzo66zepnuombdk6ntzp7yyjhdgwsfqcfd45tdgcipcr3dm"
+  }
+}

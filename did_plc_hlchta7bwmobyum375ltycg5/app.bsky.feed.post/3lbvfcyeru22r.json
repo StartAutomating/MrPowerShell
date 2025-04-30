@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732670638087,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbvfcyeru22r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbvfcyeru22r",
+    "record": {
+      "text": "Know a useful public #websocket ?\n\nPlease, share.\n\n( Looking for tests beyond #bluesky )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 31,
+            "byteStart": 21
+          },
+          "features": [
+            {
+              "tag": "websocket",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 86,
+            "byteStart": 78
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-27T01:23:58.087Z"
+    },
+    "cid": "bafyreifjs64i3gdaohtop5vqkcsvonzwibaa3dzgy5l36kysasafjc2plq"
+  }
+}

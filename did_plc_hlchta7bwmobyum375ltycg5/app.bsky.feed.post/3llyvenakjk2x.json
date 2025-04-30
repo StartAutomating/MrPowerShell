@@ -1,0 +1,91 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1743786068882,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3llyvenakjk2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3llyvenakjk2x",
+    "record": {
+      "text": "Feel free to try #PowerShell\n\nIt's a fun language that cares a lot less about whitespace than #Python.\n\n( And it's supported in #AWS Lambda, #Azure functions, and #docker )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigxl6w46cbprwys2bj4g3j6e3bhoh6yhe2s7jm2sbdcjovkgzskyi",
+          "uri": "at://did:plc:qo75yx4gnvkdd4clbwz7njax/app.bsky.feed.post/3llysmc3mo22z"
+        },
+        "parent": {
+          "cid": "bafyreidt435oyyrxqsxqwj7ywwosprln6s76wskytjswnl445duhwuiiae",
+          "uri": "at://did:plc:qo75yx4gnvkdd4clbwz7njax/app.bsky.feed.post/3llyuzrixjc2g"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 28,
+            "byteStart": 17
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 101,
+            "byteStart": 94
+          },
+          "features": [
+            {
+              "tag": "Python",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 132,
+            "byteStart": 128
+          },
+          "features": [
+            {
+              "tag": "AWS",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 147,
+            "byteStart": 141
+          },
+          "features": [
+            {
+              "tag": "Azure",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 170,
+            "byteStart": 163
+          },
+          "features": [
+            {
+              "tag": "docker",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-04T17:01:08.882Z"
+    },
+    "cid": "bafyreibm2532kdkseecrm2qn5kllfea26wdga3ttlhmfw43wfsgry2cebe"
+  }
+}

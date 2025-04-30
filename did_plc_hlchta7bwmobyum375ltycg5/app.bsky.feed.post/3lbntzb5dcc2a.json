@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732411539957,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbntzb5dcc2a",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbntzb5dcc2a",
+    "record": {
+      "text": "Features #PowerShell has in a better form than most other languages ( built in )\n\n1. Splatting\n2. Remoting\n3. Background jobs\n4. Parallelization\n5. Eventing\n6. Delegates\n7. Runspaces\n8. Constraints\n9. Language modes\n10. Abstract Syntax Tree\n\nAsk for more info.\n\nDon't knock it till you rock it.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreihsq2viv2khjzfohache6afvilcgdqvcvb6b2a6fi5dmznxzynux4",
+          "uri": "at://did:plc:xpnah7xsi3nbbq4wqww7jued/app.bsky.feed.post/3lbnsrs6a3s2f"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 20,
+            "byteStart": 9
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-24T01:25:39.957Z"
+    },
+    "cid": "bafyreichju43pgybwktxwb4f4hhbcgciimzg22elzz5uo2pr5sk66gz2jm"
+  }
+}

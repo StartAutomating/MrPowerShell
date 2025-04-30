@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737050120600,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfutzqeii222",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfutzqeii222",
+    "record": {
+      "text": "Yes, and I'm happy to hop on a screencast sometime and talk PowerShell pointers.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiduxiqpkiopinv2f3tzvmabxuqelrxfoorjhlx2ajk7nqlqftyhdu",
+          "uri": "at://did:plc:bbpkevhgtbnl6wlkv7kf62tc/app.bsky.feed.post/3lfurpizez22j"
+        },
+        "parent": {
+          "cid": "bafyreid772upqh54pj6fnna35lasajkjgk55f2zrpajjcuh5f3y6r2yfzm",
+          "uri": "at://did:plc:bbpkevhgtbnl6wlkv7kf62tc/app.bsky.feed.post/3lfuruidnk22j"
+        }
+      },
+      "createdAt": "2025-01-16T17:55:20.6Z"
+    },
+    "cid": "bafyreib23vkztrpxcxds2hosc52uaifqxkttbj6gc5vgtryj6xgiqyjpd4"
+  }
+}

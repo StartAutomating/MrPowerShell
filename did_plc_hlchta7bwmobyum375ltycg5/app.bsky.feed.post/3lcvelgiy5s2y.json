@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733769359227,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcvelgiy5s2y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcvelgiy5s2y",
+    "record": {
+      "text": "Right, and, also, almost nobody uses other providers.\n\nWhereas everyone uses \"dir\"\n\nI'll go further....\n\nHow many of us use a provider other than the filesystem on a daily basis?\n\nHow many of us even know what #powershell providers are ?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibl3xlzqr7q5qk2iafpypj4eurgnloxdsknuutklftr3ujsinm3yu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lctko2hugc2q"
+        },
+        "parent": {
+          "cid": "bafyreib2i2nbazyy2vv45v4dfybgnpvwhl4i5yewfildyehv5yfk6ckf6m",
+          "uri": "at://did:plc:jmmxz6ojqc32u4ycuo4xqo75/app.bsky.feed.post/3lcvegmxnls2s"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 221,
+            "byteStart": 210
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-09T18:35:59.227Z"
+    },
+    "cid": "bafyreifhjvazlxsrmgqgfadoy2ikzgqfkqe24euvo6bsq57v4syv4rvu3m"
+  }
+}

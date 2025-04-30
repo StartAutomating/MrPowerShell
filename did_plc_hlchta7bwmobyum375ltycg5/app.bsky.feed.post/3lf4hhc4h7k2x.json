@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736211983054,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lf4hhc4h7k2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lf4hhc4h7k2x",
+    "record": {
+      "text": "No problem!  Ask any question and we will try to help.\n\nAlso, there are no dumb questions ( especially in PowerShell ).\n\nIt's a very cool language and it does things differently enough to confound us all from time to time.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibw4duuuzb6rnjzybztvzqtkfwz42axkdvhfrrazfxj2dn6bz5sey",
+          "uri": "at://did:plc:mkaprimsfovbnkkqauxr2uyv/app.bsky.feed.post/3lf46a5xgsk2d"
+        },
+        "parent": {
+          "cid": "bafyreifpzg6lgmbkvryd3btxvacv6x3govho7m536uulyiqgru6nbdn7iu",
+          "uri": "at://did:plc:mkaprimsfovbnkkqauxr2uyv/app.bsky.feed.post/3lf4doqmzos2d"
+        }
+      },
+      "createdAt": "2025-01-07T01:06:23.054Z"
+    },
+    "cid": "bafyreigwlr3jn56hti5cvim2xtqbr2lckubxrlqszv6kga2uwucyjkktgm"
+  }
+}

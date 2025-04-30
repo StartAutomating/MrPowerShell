@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741112744622,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ljl3nekiws2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ljl3nekiws2i",
+    "record": {
+      "text": "It may also be that you have a PowerShell profile with many things in it.\n\nI try to keep my $profile as clean as I can, and only load modules that load quickly.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiew4fuc6upjh2pgbhezmc7auduy6v3vtxcogh2g5g3p7pakm4hvd4",
+          "uri": "at://did:plc:3ezyph3rwsv423umnyue5wfi/app.bsky.feed.post/3ljkn356khk25"
+        },
+        "parent": {
+          "cid": "bafyreiew4fuc6upjh2pgbhezmc7auduy6v3vtxcogh2g5g3p7pakm4hvd4",
+          "uri": "at://did:plc:3ezyph3rwsv423umnyue5wfi/app.bsky.feed.post/3ljkn356khk25"
+        }
+      },
+      "createdAt": "2025-03-04T18:25:44.622Z"
+    },
+    "cid": "bafyreif3rakdpkncu7ir3wkblvuuvqqjy5qkwxso36navrlwv5djremmge"
+  }
+}

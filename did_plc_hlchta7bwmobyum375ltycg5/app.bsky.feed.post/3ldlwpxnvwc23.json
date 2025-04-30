@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734544753029,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldlwpxnvwc23",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldlwpxnvwc23",
+    "record": {
+      "text": "Yeah, I believe you could do the pipeline in about half the steps, but I don't know what you were trying to match and sort by.\n\nIf you have objects, you don't need to grep ( though you can still use #regex in #powershell if you want to )\n\nCan you describe the problem, and we'll try to powershell it?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiffbsu6uplppdhptvd4zom6c3gmzpg4vsbjjfowsqwpdrlrvpj4dm",
+          "uri": "at://did:plc:4i4ps52vc4hh4ydn6mwrtiox/app.bsky.feed.post/3ldk5yp3ze22z"
+        },
+        "parent": {
+          "cid": "bafyreibmhgazbcgnoijdgbqozoj44ds5crkaw5pdxic3udehykiy6kqc5e",
+          "uri": "at://did:plc:4i4ps52vc4hh4ydn6mwrtiox/app.bsky.feed.post/3ldlvkwfzk222"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 205,
+            "byteStart": 199
+          },
+          "features": [
+            {
+              "tag": "regex",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 220,
+            "byteStart": 209
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-18T17:59:13.029Z"
+    },
+    "cid": "bafyreihqhn44yzm3y7uxq33h6ibd3dmphdsnqeo7jhsnzjjfgkqjqgoeom"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736899356596,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfqhmmmohs2g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfqhmmmohs2g",
+    "record": {
+      "text": "I don't think I've ever felt so honored by getting a new follower!\n\nThanks @hankgreen.bsky.social !\n\nYou make amazing content!\n\nHopefully I can help you navigate the \"joy\" of #ffmpeg and #powershell, and show you what an object pipeline can do.\n\n( Repo link below )\n\ngithub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "Hank Green followed me!   I feel honored.  I feel goosebumps!  I feel like watching some Bizarre Beasts!\n\n(This is definitely the coolest nerd to follow me on BlueSky so far).",
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreieatyp6g2yn5kd4zb733fdv2rbxydkbbp2n64aosapo475v4fvyoq"
+              },
+              "mimeType": "image/jpeg",
+              "size": 399938
+            },
+            "aspectRatio": {
+              "width": 900,
+              "height": 2000
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 97,
+            "byteStart": 75
+          },
+          "features": [
+            {
+              "did": "did:plc:kqbyr4gqt6p2l57htlsa4nha",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 182,
+            "byteStart": 175
+          },
+          "features": [
+            {
+              "tag": "ffmpeg",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 198,
+            "byteStart": 187
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 293,
+            "byteStart": 267
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/RoughDraft",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-15T00:02:36.596Z"
+    },
+    "cid": "bafyreiaaapsijtoprer5ttyyylmpe2ecu6sqnxuqm57nbfwjp6g76klsdu"
+  }
+}

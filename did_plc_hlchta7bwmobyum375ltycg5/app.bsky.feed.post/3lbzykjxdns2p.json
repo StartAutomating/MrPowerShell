@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732828731451,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbzykjxdns2p",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbzykjxdns2p",
+    "record": {
+      "text": "More verbose sure.  Intuitive is a matter of opinion and debate ( they don't have get-command / get-help).\n\nLess functional makes me laugh...  The fact that there are like 4 ways to do what you ask kinda proves that point.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifnanvxut7fnyzpft6wy2fhoksksr4qaaf42o2s357efibf5pb7wm",
+          "uri": "at://did:plc:nixnqhi6u3mgdaaxxny5jpvt/app.bsky.feed.post/3lbzqgew2tk2b"
+        },
+        "parent": {
+          "cid": "bafyreiddf74mpyn3u4ddmqtks3thcqytikp5lvqrjgka65vqo2fxzjepi4",
+          "uri": "at://did:plc:nixnqhi6u3mgdaaxxny5jpvt/app.bsky.feed.post/3lbzyga7nr22e"
+        }
+      },
+      "createdAt": "2024-11-28T21:18:51.451Z"
+    },
+    "cid": "bafyreigcprk42gaog3vo4tgff3y5rutvyhc7ilbpcnubed65gyp7ikjftm"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737061619233,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfv6qgcwbc2z",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfv6qgcwbc2z",
+    "record": {
+      "text": "I've got a #PowerShell module to help you out with #jekyllrb.\n\nAnd I would absolutely love it if we could make one for #hugo, too.\n\ngithub.com/Powershellwe...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/Powershellweb/PSJekyll",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreia4rzbvokwpi4mzjarj6q4lygf7o3r4yhkhgrj76ij6p3pgmchvba"
+            },
+            "mimeType": "image/jpeg",
+            "size": 109582
+          },
+          "title": "GitHub - PowerShellWeb/PSJekyll: PowerShell Tools for Jekyll",
+          "description": "PowerShell Tools for Jekyll. Contribute to PowerShellWeb/PSJekyll development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiauvkshbe5rfvkdxftrwivj4bwkvpvjuhhb2qxrxxtidarj6plh6u",
+          "uri": "at://did:plc:bbpkevhgtbnl6wlkv7kf62tc/app.bsky.feed.post/3lfur2s6fzs2j"
+        },
+        "parent": {
+          "cid": "bafyreibhhms6556mkq5ap2xiscpjhvfojjinhkmdzwr6eo52rplyxnbpjm",
+          "uri": "at://did:plc:bbpkevhgtbnl6wlkv7kf62tc/app.bsky.feed.post/3lfuraebrw22j"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 22,
+            "byteStart": 11
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 51
+          },
+          "features": [
+            {
+              "tag": "jekyllrb",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 124,
+            "byteStart": 119
+          },
+          "features": [
+            {
+              "tag": "hugo",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 158,
+            "byteStart": 132
+          },
+          "features": [
+            {
+              "uri": "https://github.com/Powershellweb/PSJekyll",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-16T21:06:59.233Z"
+    },
+    "cid": "bafyreia43k233xm3vsan2njgrqofazp6p3d3vyjxtn7m7z7ch26kinopxe"
+  }
+}

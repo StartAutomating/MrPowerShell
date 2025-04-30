@@ -1,0 +1,69 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733515864123,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcnyioqen22r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcnyioqen22r",
+    "record": {
+      "text": "Trying out some #AIShell , and having a bit of a blast after I got past setup pains.\n\nIt's gonna be really nice to have an #AI assistant sidecar right next to where I script #powrshell.\n\nIf only it could run in #VSCode, too.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 24,
+            "byteStart": 16
+          },
+          "features": [
+            {
+              "tag": "AIShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 126,
+            "byteStart": 123
+          },
+          "features": [
+            {
+              "tag": "AI",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 184,
+            "byteStart": 174
+          },
+          "features": [
+            {
+              "tag": "powrshell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 218,
+            "byteStart": 211
+          },
+          "features": [
+            {
+              "tag": "VSCode",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-06T20:11:04.123Z"
+    },
+    "cid": "bafyreiceut6cra444u67ynogyrui5krdsn7v2n522mrtcttbzfvp64owym"
+  }
+}

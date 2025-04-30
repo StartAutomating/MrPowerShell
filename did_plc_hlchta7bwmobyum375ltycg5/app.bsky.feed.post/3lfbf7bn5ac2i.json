@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736381365324,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfbf7bn5ac2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfbf7bn5ac2i",
+    "record": {
+      "text": "I'd get you.\n\nAnd I still prefer #PowerShell to #VB any day of the week.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihlwezwy4ylk37viq4ytql353u6wngb2ume4ejhh5wr2o64fqyc44",
+          "uri": "at://did:plc:r44htesoaciiqfqbt2esglhs/app.bsky.feed.post/3lfbe5eb5fs2e"
+        },
+        "parent": {
+          "cid": "bafyreihlwezwy4ylk37viq4ytql353u6wngb2ume4ejhh5wr2o64fqyc44",
+          "uri": "at://did:plc:r44htesoaciiqfqbt2esglhs/app.bsky.feed.post/3lfbe5eb5fs2e"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 44,
+            "byteStart": 33
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 51,
+            "byteStart": 48
+          },
+          "features": [
+            {
+              "tag": "VB",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-09T00:09:25.324Z"
+    },
+    "cid": "bafyreibgl4mrrsh3zcmkgqpr63uh6pobbgtwiaijaowr54owd6khrflaeu"
+  }
+}

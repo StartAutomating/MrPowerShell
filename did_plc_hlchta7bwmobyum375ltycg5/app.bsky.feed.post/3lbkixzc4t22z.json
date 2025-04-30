@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732296607797,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbkixzc4t22z",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbkixzc4t22z",
+    "record": {
+      "text": "Long story made short, yes.\n\nModules can exist in any directory, and be imported by absolute or relative path.  $PSScriptRoot will contain modules root.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiccrqhzdvhnv5nvs3ajsivnmcqj2rxcwzckijtqkygft4dzcbtdpe",
+          "uri": "at://did:plc:4fxzgy7nrx3ncl4pqmnhnt3a/app.bsky.feed.post/3lbkhogf2ac2o"
+        },
+        "parent": {
+          "cid": "bafyreiccrqhzdvhnv5nvs3ajsivnmcqj2rxcwzckijtqkygft4dzcbtdpe",
+          "uri": "at://did:plc:4fxzgy7nrx3ncl4pqmnhnt3a/app.bsky.feed.post/3lbkhogf2ac2o"
+        }
+      },
+      "createdAt": "2024-11-22T17:30:07.797Z"
+    },
+    "cid": "bafyreig2fmcswyazh5wyal5mrfefyllk7cyiq4jqyijavgen3ccywe6sze"
+  }
+}

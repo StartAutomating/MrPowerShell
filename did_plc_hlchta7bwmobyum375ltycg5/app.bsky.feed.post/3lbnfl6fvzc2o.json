@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732396034945,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbnfl6fvzc2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbnfl6fvzc2o",
+    "record": {
+      "text": "We are probably further off from the singularity than you might think.\n\nBut plumbing is always good to know.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreia4w3jsnkzlvshsvjnvkyabo5i73ez42eyd3kh2mbtffoawhplp7u",
+          "uri": "at://did:plc:g7xx7hdtwcj3pygvamntb5bx/app.bsky.feed.post/3lbmaqfkuj22i"
+        }
+      },
+      "createdAt": "2024-11-23T21:07:14.945Z"
+    },
+    "cid": "bafyreicss7f76o67oskxadhz5bttvkjg73gbq47i3iqf7dlxyxu2zjgklu"
+  }
+}

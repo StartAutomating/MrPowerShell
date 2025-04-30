@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1696574728797,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kb2ufchxbb2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kb2ufchxbb2x",
+    "record": {
+      "text": "I was pleasantly surprised to find out that you could make the round trip.\n\nIf I remember correctly, just download the blob's bytes.  It is text encoded as UTF8.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihyyot4qeo7icdxj3dmkebo5s2zzoa6efiyhigvgns4otulg6quxa",
+          "uri": "at://did:plc:bnqkww7bjxaacajzvu5gswdf/app.bsky.feed.post/3kb2o25pcrg2e"
+        },
+        "parent": {
+          "cid": "bafyreiejm5dc4oi3netpd6okjmywag4i2xfssh5kbtavno7jnnlmgkegmy",
+          "uri": "at://did:plc:gwd5r7dbg3zv6dhv75hboa3f/app.bsky.feed.post/3kb2rwxk3f32h"
+        }
+      },
+      "createdAt": "2023-10-06T06:45:28.797Z"
+    },
+    "cid": "bafyreicvgt4gr2el2x625l3iokhw7dwpsxc6rix7j5qr5lneqwfxfq7ami"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735325720407,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leco2m6vy223",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leco2m6vy223",
+    "record": {
+      "text": "Well, I followed you for the #powershell ( so keep it coming 😉 )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiad2ew756bhi2kfkgi4nzscmgtwmqtidnpuc4zry3bi2mha3ndxni",
+          "uri": "at://did:plc:x65qiclspsfypgkbajqeujsq/app.bsky.feed.post/3lebtitias527"
+        },
+        "parent": {
+          "cid": "bafyreiad2ew756bhi2kfkgi4nzscmgtwmqtidnpuc4zry3bi2mha3ndxni",
+          "uri": "at://did:plc:x65qiclspsfypgkbajqeujsq/app.bsky.feed.post/3lebtitias527"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 40,
+            "byteStart": 29
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-27T18:55:20.407Z"
+    },
+    "cid": "bafyreie4huvnbhr3pvlz5oqmrve5pyiulprrmmaytlt2zlj4llxihfzpre"
+  }
+}

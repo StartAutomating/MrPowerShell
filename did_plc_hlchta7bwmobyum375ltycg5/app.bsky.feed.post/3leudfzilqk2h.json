@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735932767587,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leudfzilqk2h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leudfzilqk2h",
+    "record": {
+      "text": "Lol @ \"mostly thermal reasons\"\n\nAs far as the noise not bothering you, you might want to get that checked.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/DjMYsuEaBtYAAAAC/what-was-that-kamala-harris.gif?hh=496&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifsb43ebfbtbb22hbpyjxnj5yufcs2zcxsw4bhqhkxcd2cn5insyy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 176976
+          },
+          "title": "a woman says what was that in front of a snl logo",
+          "description": "Alt: Maya Rudolph can't hear you over the sound of your rackmounted server."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihjcioabraumy2an3rtxfbeg3pkohrrpn4hl3ngodjb2bdercyjni",
+          "uri": "at://did:plc:g7nywl63frmuddq274whiwr6/app.bsky.feed.post/3leu2fwv4bk2d"
+        },
+        "parent": {
+          "cid": "bafyreicesrvlj3ibi7sricwy73bl7ddywiy3hq7f5vrxzg542ny54z7afa",
+          "uri": "at://did:plc:iga7ipxo6jy26wv6bevcmdem/app.bsky.feed.post/3leud4znnqk2n"
+        }
+      },
+      "createdAt": "2025-01-03T19:32:47.587Z"
+    },
+    "cid": "bafyreiajjzl5ejbdxl5d2bp346l62mpzvvtd5ogbugz4us5sd6uszzhflq"
+  }
+}

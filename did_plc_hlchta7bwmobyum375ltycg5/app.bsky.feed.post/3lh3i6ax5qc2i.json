@@ -1,0 +1,181 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738377417100,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lh3i6ax5qc2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lh3i6ax5qc2i",
+    "record": {
+      "text": "This is an open call for help to everyone who wants an #opengovernment.\n\nI'm trying to archive as much public domain #government #data as I can, before it is #purged.\n\nLooking for #powershell, #python, #git, #azure, #aws nerds to help save us from the #BonfireOfTheVanities\n\n#2025Is1984\n\n#PleaseHelp",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/ffrEeVYvuxcAAAAC/1984.gif?hh=236&ww=320",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreia2sdsou52joolcoinesh6q7sei6giwsxoc5wcnpz4sbbogxzekp4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 43023
+          },
+          "title": "a close up of a man 's face with the words with their own on the bottom right",
+          "description": "Alt: If you're experienced with automation, journalism, or law, please help us save as much public domain content as we can.\n\nGovernment data is published in the public domain.  It's ours to save.  No single person can do enough to stop this on their own.\n\nAnyone who can help save our data from the bonfire, please help.\n\nAnyone who can help spread the word, please do so.\n\nEveryone should care about the government removing data from the public domain.\n\nIf you don't want 2025 to be 1984, please, help me save the data.\n\nLooking for scripters to help automate scraping, servers to host it, web designers to make it accessible, journalists to help spread the word, and lawyers to help safeguard us from the backlash.\n\nPlease help!"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 70,
+            "byteStart": 55
+          },
+          "features": [
+            {
+              "tag": "opengovernment",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 128,
+            "byteStart": 117
+          },
+          "features": [
+            {
+              "tag": "government",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 134,
+            "byteStart": 129
+          },
+          "features": [
+            {
+              "tag": "data",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 165,
+            "byteStart": 158
+          },
+          "features": [
+            {
+              "tag": "purged",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 191,
+            "byteStart": 180
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 200,
+            "byteStart": 193
+          },
+          "features": [
+            {
+              "tag": "python",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 206,
+            "byteStart": 202
+          },
+          "features": [
+            {
+              "tag": "git",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 214,
+            "byteStart": 208
+          },
+          "features": [
+            {
+              "tag": "azure",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 220,
+            "byteStart": 216
+          },
+          "features": [
+            {
+              "tag": "aws",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 273,
+            "byteStart": 252
+          },
+          "features": [
+            {
+              "tag": "BonfireOfTheVanities",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 286,
+            "byteStart": 275
+          },
+          "features": [
+            {
+              "tag": "2025Is1984",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 299,
+            "byteStart": 288
+          },
+          "features": [
+            {
+              "tag": "PleaseHelp",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-01T02:36:57.1Z"
+    },
+    "cid": "bafyreiccnx6q44ukjspfdxck2mgc3pphhk5uob44x67xpggxdnw2wjjuie"
+  }
+}

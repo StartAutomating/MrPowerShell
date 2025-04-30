@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737920111291,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgo6bi5fn22u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgo6bi5fn22u",
+    "record": {
+      "text": "I'd actually love it if #atproto was the protocol for information exchange.\n\nIt's fast and scalable, and the data transparency that would come from having a feed of stats and facts would be a game changer!\n\nImagine all IDX, RETS, and science data, all flowing thru in real time.\n\nSeems valuable.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiftqhlmtptvxivowrdaxixlufp27dvk6drw6ppgyewjimrvg6pkai",
+          "uri": "at://did:plc:y5xyloyy7s4a2bwfeimj7r3b/app.bsky.feed.post/3lgli7rruhk2u"
+        },
+        "parent": {
+          "cid": "bafyreiftqhlmtptvxivowrdaxixlufp27dvk6drw6ppgyewjimrvg6pkai",
+          "uri": "at://did:plc:y5xyloyy7s4a2bwfeimj7r3b/app.bsky.feed.post/3lgli7rruhk2u"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 24
+          },
+          "features": [
+            {
+              "tag": "atproto",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-26T19:35:11.291Z"
+    },
+    "cid": "bafyreibzd7vu4utgemwxn3sf7tycw7ws5yzorykotrbz2ijlovou545rle"
+  }
+}

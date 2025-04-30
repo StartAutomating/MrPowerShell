@@ -1,0 +1,133 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738907838923,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhkw62mlb223",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhkw62mlb223",
+    "record": {
+      "text": "I love how #political / #cultural / #social #critique on #youtube takes very interesting forms.\n\nyoutu.be/bmjB2VeTzb8?...\n\nThis #satire is dripping in layers of #sarcasm.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://youtu.be/bmjB2VeTzb8?si=DcFN6D_zeYutOl7K",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreih3bxuvpe4hzqm4tehclj7ngwnihfkqu3cme4taybmeydyrfz4uue"
+            },
+            "mimeType": "image/jpeg",
+            "size": 81157
+          },
+          "title": "I don't think the system works - Anakin's Critique of Democracy",
+          "description": "YouTube video by Seals are Good"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 21,
+            "byteStart": 11
+          },
+          "features": [
+            {
+              "tag": "political",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 33,
+            "byteStart": 24
+          },
+          "features": [
+            {
+              "tag": "cultural",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 43,
+            "byteStart": 36
+          },
+          "features": [
+            {
+              "tag": "social",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 53,
+            "byteStart": 44
+          },
+          "features": [
+            {
+              "tag": "critique",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 65,
+            "byteStart": 57
+          },
+          "features": [
+            {
+              "tag": "youtube",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 121,
+            "byteStart": 97
+          },
+          "features": [
+            {
+              "uri": "https://youtu.be/bmjB2VeTzb8?si=DcFN6D_zeYutOl7K",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 135,
+            "byteStart": 128
+          },
+          "features": [
+            {
+              "tag": "satire",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 169,
+            "byteStart": 161
+          },
+          "features": [
+            {
+              "tag": "sarcasm",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-07T05:57:18.923Z"
+    },
+    "cid": "bafyreig4c2zzppfxvfxyvxxql3jgel2qpflrunmwjwsslgw4lprgj3s62q"
+  }
+}

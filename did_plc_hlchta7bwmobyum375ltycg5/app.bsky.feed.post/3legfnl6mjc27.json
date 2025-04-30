@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735454132162,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3legfnl6mjc27",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3legfnl6mjc27",
+    "record": {
+      "text": "Cool beans.\n\nHopefully now that you've gone thru the looking glass, using some PowerShell, you can start to see At Protocol the way I'm seeing it:\n\nAs an object pipeline of human thought, and a schema for property bags.\n\nMake sense?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihszea6vu37mbqpf55ghyqzc5zovls7kkzmnizvpgwuewjx2i4bza",
+          "uri": "at://did:web:threddyrex.org/app.bsky.feed.post/3lefrilyai22s"
+        },
+        "parent": {
+          "cid": "bafyreibtc4xlnp5ja3h4ldijcextij4kksdvishpunow5nmlubxlezs3hm",
+          "uri": "at://did:web:threddyrex.org/app.bsky.feed.post/3legfhxw73k2l"
+        }
+      },
+      "createdAt": "2024-12-29T06:35:32.162Z"
+    },
+    "cid": "bafyreibxi6i4my26gjfuvcpygymbke5ita322hkw655cydd747ppo3neoy"
+  }
+}

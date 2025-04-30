@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1696543303533,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kazx4qcrij2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kazx4qcrij2o",
+    "record": {
+      "text": "The language mode isn't anywhere near as important as the good old \"Little Bobby Tables\" guidance:\n\nSanitize your inputs (granted, this is a bit tricker in PowerShell)\n\nSee this transpiler for an example  github.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "",
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreic4kak4qp4jb3iqrmetm352ku6csae6mwptbcyr6thxooflxzl6su"
+              },
+              "mimeType": "image/jpeg",
+              "size": 74017
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihmi5r73rbnbuezlacqv2nfx3clp6uc5dwolf7yhi5ugwquuxl3be",
+          "uri": "at://did:plc:53k4pafoelmtgot4dglv3dxm/app.bsky.feed.post/3katrztbz5n22"
+        },
+        "parent": {
+          "cid": "bafyreid4r4hzemp23nkb6tatg54gtvh3mtzxsktl2r6i2j7pg55u3xzd5m",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kazwvgtbke2x"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 231,
+            "byteStart": 205
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/PipeScript/blob/main/Transpilers/Parameters/ValidateScriptBlock.psx.ps1",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-10-05T22:01:43.533Z"
+    },
+    "cid": "bafyreiansha5lhmdhnnzlrh464m6bhk563tiqa2lmhki3c4lixgqyyco2e"
+  }
+}

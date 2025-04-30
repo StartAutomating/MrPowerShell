@@ -1,0 +1,85 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732654456175,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbuwaq3zg222",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbuwaq3zg222",
+    "record": {
+      "text": "Just sharing the #bluesky #websocket JetStream docs for anyone else who might want them.\n\ngithub.com/bluesky-soci...\n\nThen back to making a better #powershell function to handle the firehose.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/bluesky-social/jetstream",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiboqn3nlutoayctd46bl4wmns6uudc5c2xpeea4q3xvhpihg6qdze"
+            },
+            "mimeType": "image/jpeg",
+            "size": 106465
+          },
+          "title": "GitHub - bluesky-social/jetstream: A simplified JSON event stream for AT Proto",
+          "description": "A simplified JSON event stream for AT Proto. Contribute to bluesky-social/jetstream development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 25,
+            "byteStart": 17
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 26
+          },
+          "features": [
+            {
+              "tag": "websocket",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 116,
+            "byteStart": 90
+          },
+          "features": [
+            {
+              "uri": "https://github.com/bluesky-social/jetstream",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 158,
+            "byteStart": 147
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-26T20:54:16.175Z"
+    },
+    "cid": "bafyreifu3wqf3p2ue3vzdudqurmgfxpu2tbkyw762qqr6rfj3wybngbrmu"
+  }
+}

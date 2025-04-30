@@ -1,0 +1,71 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744232333277,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmfuye4ytk2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmfuye4ytk2i",
+    "record": {
+      "text": "Thanks!\n\nWhen you're ready, check this out:\n\ngist.github.com/StartAutomat...\n\nIt's a *very* fun little server in about 500 lines. Dynamic css, SVG, and ThreeJS.\n\nGoing to be talking about it in about another hour at the #PowerShellSummit\n\nWill be putting a repo of demos out soon.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://gist.github.com/StartAutomating/b13e986966d9751bcce4a671bd02c4bb",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicttwvjarhwmeugnkj5fau6knzll3g6sa36wyd2uorg5ocaql46eu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 62850
+          },
+          "title": "Gist a web server without a route table",
+          "description": "Gist a web server without a route table. GitHub Gist: instantly share code, notes, and snippets."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiazinbhzi5tzsya4gux5cn6o2vnkbpsncdsi5lbmpmtvck7giiprm",
+          "uri": "at://did:plc:zw6kacxolthrz2sgnybf2ole/app.bsky.feed.post/3lmero3ddd22b"
+        },
+        "parent": {
+          "cid": "bafyreid7hg4mxhfaygj7wg74gbrrgwxepmfdbi3vnpluwvnb2w5srdy2we",
+          "uri": "at://did:plc:zw6kacxolthrz2sgnybf2ole/app.bsky.feed.post/3lmfpn5qoms2j"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 76,
+            "byteStart": 45
+          },
+          "features": [
+            {
+              "uri": "https://gist.github.com/StartAutomating/b13e986966d9751bcce4a671bd02c4bb",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 237,
+            "byteStart": 220
+          },
+          "features": [
+            {
+              "tag": "PowerShellSummit",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-09T20:58:53.277Z"
+    },
+    "cid": "bafyreibeh7xjgzmaovopzirn7ofy2cycx3rihblvm434t6o3fl7w2afbra"
+  }
+}

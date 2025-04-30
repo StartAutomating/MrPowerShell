@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733862744150,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcy3kjcnzk2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcy3kjcnzk2s",
+    "record": {
+      "text": "I feel the same way.\n\nOf course, I don't actually run anything from the firehose....\n\nBut Everytime a big json object is to large for my buffer and I see an error some part of me clenches up.\n\nThen I remind myself:\n\n\"Non-Terminating errors are fine\" ( at least in #powershell 😉 )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiev22hjlimom3mpqtd77uocuhldjnfyfog5ytghpwn4imotbuo6sm",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lcxsu6e2v327"
+        },
+        "parent": {
+          "cid": "bafyreicyozr7dbtkmugluuwtylbobhjtwa5d4ewlocwgbncst5kawxiy3i",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lcxswx6ldc2n"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 275,
+            "byteStart": 264
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-10T20:32:24.15Z"
+    },
+    "cid": "bafyreidc2lbwbwiqfjmodkt77c6ldvv3gy365hwddhdmosh3ljvoj4ogxm"
+  }
+}

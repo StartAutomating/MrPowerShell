@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735676830351,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lemv2ipypk2m",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lemv2ipypk2m",
+    "record": {
+      "text": "TIL to appreciate the subtle differences between #powershell `Stop-Process` and  #linux `pkill`.\n\nNamely, that in PowerShell, you've gotta give a wildcard for that sort of stuff to happen\n\n`Stop-Process h` (complains about no process named h)\n\nvs\n\n`pkill h` ( kills any process with h in the name )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidu5dm4z365nmwnshludflwhd3tuly6cugfpzre4at3o327xzez5m",
+          "uri": "at://did:plc:oisofpd7lj26yvgiivf3lxsi/app.bsky.feed.post/3lemt2iazu22a"
+        },
+        "parent": {
+          "cid": "bafyreidu5dm4z365nmwnshludflwhd3tuly6cugfpzre4at3o327xzez5m",
+          "uri": "at://did:plc:oisofpd7lj26yvgiivf3lxsi/app.bsky.feed.post/3lemt2iazu22a"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 49
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 87,
+            "byteStart": 81
+          },
+          "features": [
+            {
+              "tag": "linux",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-31T20:27:10.351Z"
+    },
+    "cid": "bafyreidjgvpch5fpbad5ocapxba62alykficldahwcxuzfh6cmge32pjri"
+  }
+}

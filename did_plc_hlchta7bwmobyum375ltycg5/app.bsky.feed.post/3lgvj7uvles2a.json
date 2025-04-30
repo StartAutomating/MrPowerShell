@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738172386886,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgvj7uvles2a",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgvj7uvles2a",
+    "record": {
+      "text": "Yep.  #PowerShell and #sapi are friends.\n\nHave been since before the days of Cortana ( speech has a COM api).\n\nBonus points: if you install language packs, PowerShell can generate speech in multiple languages.\n\nExtra bonus points: you can also map speech to PowerShell.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicgb2wumm7hx3ytoy43bgrtlrdb4ybehxqsddiiezg2ylroq5sraa",
+          "uri": "at://did:plc:ijqmir7p6bit674pxgwwfejs/app.bsky.feed.post/3lgvdt6zt3s27"
+        },
+        "parent": {
+          "cid": "bafyreicgb2wumm7hx3ytoy43bgrtlrdb4ybehxqsddiiezg2ylroq5sraa",
+          "uri": "at://did:plc:ijqmir7p6bit674pxgwwfejs/app.bsky.feed.post/3lgvdt6zt3s27"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 17,
+            "byteStart": 6
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 27,
+            "byteStart": 22
+          },
+          "features": [
+            {
+              "tag": "sapi",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-29T17:39:46.886Z"
+    },
+    "cid": "bafyreieogg4coz7kqsxagnaxrnh64mbqjjvfeh7kng2yxt53la7qheebmm"
+  }
+}

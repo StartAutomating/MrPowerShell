@@ -1,0 +1,67 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733863408347,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcy46cqdvs2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcy46cqdvs2s",
+    "record": {
+      "text": "At this risk of inviting trouble....\n\nI think I'm safe because I #threatmodel, and have been building #powershell and #web solutions for over a decade without getting hacked so far.\n\n*Knocks on wood* / *gently reminds hackers that I'll stop releasing dual use tools if hacked*",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiev22hjlimom3mpqtd77uocuhldjnfyfog5ytghpwn4imotbuo6sm",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lcxsu6e2v327"
+        },
+        "parent": {
+          "cid": "bafyreicqjcvcjdxzm4qzjzai7hclrmwcmyhbc5msfp3nzleqlla22dt5se",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lcy3wtkurk2f"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 77,
+            "byteStart": 65
+          },
+          "features": [
+            {
+              "tag": "threatmodel",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 113,
+            "byteStart": 102
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 122,
+            "byteStart": 118
+          },
+          "features": [
+            {
+              "tag": "web",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-10T20:43:28.347Z"
+    },
+    "cid": "bafyreieneslrnezcybaevzshf6dvecs4y5czx3mzkgggauacfolmecma2a"
+  }
+}

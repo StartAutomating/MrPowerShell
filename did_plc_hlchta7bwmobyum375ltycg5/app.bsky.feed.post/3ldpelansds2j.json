@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734662706290,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldpelansds2j",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldpelansds2j",
+    "record": {
+      "text": "Looking forward to a follow up \n\n😂😉\n\n80% serious, 20% sarcastic on this next bit:\n\nEvery #shell is great, and some shells are greater than others.\n\nBonus points given if you get the reference.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieuuduunm5objose67r7zmspgz5gdb2urgmyzlwyiwjnfhakcs2k4",
+          "uri": "at://did:plc:hvdxmfgep4kijqwrootzjlj3/app.bsky.feed.post/3ldp4alnres2y"
+        },
+        "parent": {
+          "cid": "bafyreier2sz2uo4bm7z26jzwsxb5rhlzjl4of2qkl4tiwvpregyhdb3uti",
+          "uri": "at://did:plc:hvdxmfgep4kijqwrootzjlj3/app.bsky.feed.post/3ldpdyowkr22e"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 101,
+            "byteStart": 95
+          },
+          "features": [
+            {
+              "tag": "shell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-20T02:45:06.29Z"
+    },
+    "cid": "bafyreicfvgric2afmskmxytu7l2fvkzsafq6ls4yaldnv66ewo5rul35ca"
+  }
+}

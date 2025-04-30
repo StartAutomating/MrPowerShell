@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736624560642,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfihp2r7yk2l",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfihp2r7yk2l",
+    "record": {
+      "text": "Great list of ways to shorten the shell experience!",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreie67p4d5glv3lnqfdlt24een6yn25hwn32swnsarspaqrqeciem4i",
+          "uri": "at://did:plc:cowjjhkjun4umm27ojgi75kd/app.bsky.feed.post/3lfhuzruar22k"
+        },
+        "parent": {
+          "cid": "bafyreiaiqbdev27d3o5m5575t2lldc7sdgblh3h76ropdp7abffvmjq3sy",
+          "uri": "at://did:plc:fh3l5o4idrmsjtfuxxgxqowu/app.bsky.feed.post/3lfhyiw3nss2p"
+        }
+      },
+      "createdAt": "2025-01-11T19:42:40.642Z"
+    },
+    "cid": "bafyreiacz2gcbhjzz6uevmjmmx3dcplf4lt4iyl6mljs746kkzbokqp7oe"
+  }
+}

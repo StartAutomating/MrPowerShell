@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733614253181,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcqu4vu44c26",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcqu4vu44c26",
+    "record": {
+      "text": "Did you know, you can have a #powershell #pwsh function that acts differently based off its name?\n\n$function:f = $function:f2 = {\n$myInvocation.InvocationName\n};f;f2\n\nReply with how many new things did you learn from this post?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 40,
+            "byteStart": 29
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 46,
+            "byteStart": 41
+          },
+          "features": [
+            {
+              "tag": "pwsh",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-07T23:30:53.181Z"
+    },
+    "cid": "bafyreib6ukwl2sfaoifphsfsipeohcivm2l3a6lbhdlxqinit7nv5axjke"
+  }
+}

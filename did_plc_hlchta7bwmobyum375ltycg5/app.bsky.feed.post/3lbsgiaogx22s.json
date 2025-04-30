@@ -1,0 +1,57 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732568809091,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbsgiaogx22s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbsgiaogx22s",
+    "record": {
+      "text": "2,901,060 interactions in just under 40 minutes.\n\n#bluesky is beautiful!\n\n#powershell + #bluesky is overpowered\n\nFeels like the old internet made new again, in the best of all possible ways.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 58,
+            "byteStart": 50
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 85,
+            "byteStart": 74
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 96,
+            "byteStart": 88
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-25T21:06:49.091Z"
+    },
+    "cid": "bafyreicl7xhqcnlf6fltsy3vcvzke5nzunfwjvntupwgxugpj2ysgfsvsm"
+  }
+}

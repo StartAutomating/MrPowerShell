@@ -1,0 +1,61 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738010304454,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgqsbh2de22h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgqsbh2de22h",
+    "record": {
+      "text": "Some days the Internet's immune system is a pleasant surprise.\n\nSeems like deitruth@opm.gov could find itself subscribed to a few more newsletters.\n\nwww.thebulwark.com/p/trump-dei-...\n\nThe real truth about #DEI:\n\nIt helps.\n\nEspecially when compared to keeping your head in the sand.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.thebulwark.com/p/trump-dei-snitch-email-spam-campaign",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidqro5gg7twtviib4b62emypmtpqhzrd4p2l6eidff3ode2d6mmrm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 281982
+          },
+          "title": "Trump’s DEI Snitch Email Is Being Targeted by Spammers",
+          "description": "Various NGOs reported seeing the address added to their email lists. But they don’t think it’s Orwellian. They think it’s a prank."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 183,
+            "byteStart": 149
+          },
+          "features": [
+            {
+              "uri": "https://www.thebulwark.com/p/trump-dei-snitch-email-spam-campaign",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 210,
+            "byteStart": 206
+          },
+          "features": [
+            {
+              "tag": "DEI",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-27T20:38:24.454Z"
+    },
+    "cid": "bafyreigvaevutwqzm5w2kto7uoujnngk6osihinzb5kmftbjmooz7wyun4"
+  }
+}

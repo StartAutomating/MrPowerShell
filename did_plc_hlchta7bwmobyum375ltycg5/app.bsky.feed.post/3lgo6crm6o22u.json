@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737920154768,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgo6crm6o22u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgo6crm6o22u",
+    "record": {
+      "text": "They'll regret their decision soon enough.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigg2xzc67mfmyerrfl5em2eand3fymo7j72g4ic3hzpnsaa2bcpey",
+          "uri": "at://did:plc:g7nywl63frmuddq274whiwr6/app.bsky.feed.post/3lgnnargjus2g"
+        },
+        "parent": {
+          "cid": "bafyreigg2xzc67mfmyerrfl5em2eand3fymo7j72g4ic3hzpnsaa2bcpey",
+          "uri": "at://did:plc:g7nywl63frmuddq274whiwr6/app.bsky.feed.post/3lgnnargjus2g"
+        }
+      },
+      "createdAt": "2025-01-26T19:35:54.768Z"
+    },
+    "cid": "bafyreibvd3dvjp573so23anrwnih7xhbivjwougfv6sji3o34n5hbzfaea"
+  }
+}

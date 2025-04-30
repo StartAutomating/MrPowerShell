@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733863084342,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcy3unqirk2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcy3unqirk2s",
+    "record": {
+      "text": "Lol yeah that'd be a possible \"vector\" if you were outputting text directly and it allowed escape sequences in the messages.\n\nI don't think any of the escape sequences are dangerous per se, but, I'm just waiting for someone to figure out they can play music with them.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiev22hjlimom3mpqtd77uocuhldjnfyfog5ytghpwn4imotbuo6sm",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lcxsu6e2v327"
+        },
+        "parent": {
+          "cid": "bafyreicsaoih7dtklm2jkzupeee7w2c3mpg2fixjmfd3x2lbb6igfd3y5m",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lcy3p2rbc22d"
+        }
+      },
+      "createdAt": "2024-12-10T20:38:04.342Z"
+    },
+    "cid": "bafyreifxwvsauiqy6rkmefdwbmw235t7welgmxhxbnnjoymvfnzmn7zism"
+  }
+}

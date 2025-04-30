@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741143389255,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ljly6nkhes2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ljly6nkhes2i",
+    "record": {
+      "text": "For my money, the way that the #sotu is being used to scapegoat the #dems is the creepiest part of this weird night.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 31
+          },
+          "features": [
+            {
+              "tag": "sotu",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 73,
+            "byteStart": 68
+          },
+          "features": [
+            {
+              "tag": "dems",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-05T02:56:29.255Z"
+    },
+    "cid": "bafyreigocde2l2vannhzt6cwacfivek26qnndsckbmsxlxgfnc7phe3wza"
+  }
+}

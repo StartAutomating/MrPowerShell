@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735152560672,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3le5ms274cs2b",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3le5ms274cs2b",
+    "record": {
+      "text": "Just to clarify, #PowerShell core is made by #Microsoft.  It runs on Ubuntu but isn't made by Ubuntu.  ZDNet has nothing to do with it at all.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicxxklj36yy3wdvhanyaied5x7re6u3c7saks7v5joqwpv54awrca",
+          "uri": "at://did:plc:oirl2wfqqce5vx6jnkzkfbzf/app.bsky.feed.post/3le4qrzgfb52k"
+        },
+        "parent": {
+          "cid": "bafyreicxxklj36yy3wdvhanyaied5x7re6u3c7saks7v5joqwpv54awrca",
+          "uri": "at://did:plc:oirl2wfqqce5vx6jnkzkfbzf/app.bsky.feed.post/3le4qrzgfb52k"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 28,
+            "byteStart": 17
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 55,
+            "byteStart": 45
+          },
+          "features": [
+            {
+              "tag": "Microsoft",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-25T18:49:20.672Z"
+    },
+    "cid": "bafyreicfm6ombsrjiy5zg4g3benjlevsebau4wane6dctj5kbwkfiwaija"
+  }
+}

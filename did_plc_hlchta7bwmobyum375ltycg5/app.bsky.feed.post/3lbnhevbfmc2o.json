@@ -1,0 +1,67 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732397971517,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbnhevbfmc2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbnhevbfmc2o",
+    "record": {
+      "text": "I'd try telling them that #cybersecurity people can spot known threats, but only people who understand #programming and #cybersecurity can find new threats and fix them.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreia4l6vlxlkazi5gyou6tm7mlptyxi7aki6ytrg22wo5fgdwqxhhwa",
+          "uri": "at://did:plc:bpa5fx2ws3h2y4ciulksjvko/app.bsky.feed.post/3lbmyxyrlm22j"
+        },
+        "parent": {
+          "cid": "bafyreia4l6vlxlkazi5gyou6tm7mlptyxi7aki6ytrg22wo5fgdwqxhhwa",
+          "uri": "at://did:plc:bpa5fx2ws3h2y4ciulksjvko/app.bsky.feed.post/3lbmyxyrlm22j"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 40,
+            "byteStart": 26
+          },
+          "features": [
+            {
+              "tag": "cybersecurity",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 115,
+            "byteStart": 103
+          },
+          "features": [
+            {
+              "tag": "programming",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 134,
+            "byteStart": 120
+          },
+          "features": [
+            {
+              "tag": "cybersecurity",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-23T21:39:31.517Z"
+    },
+    "cid": "bafyreideyz5rdhghiec7lwasnegp6i3fnshow7nuwbah3z2qgqazi3p4j4"
+  }
+}

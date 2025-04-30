@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737050248258,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfuu5k4cik22",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfuu5k4cik22",
+    "record": {
+      "text": "Seems like a distinct possibility.\n\nIf anyone missed it / any highlights are still online, scroll up in the thread for an epic Elon meltdown.\n\nbsky.app/profile/mrpo...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreianufj3drxdzat33uqaln4wq42afbkzbjwav2p5c35u73tenoghdi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lev6boftoc2k"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihocohtx7qpz4eq446s23bi47jvngdu2eo2avtn5xo5ojglq2xcfu",
+          "uri": "at://did:plc:fwqrfwdkyrw6qjvandyhcgeq/app.bsky.feed.post/3lfuoo7sfq6h2"
+        },
+        "parent": {
+          "cid": "bafyreie3z5us3hmncnndvsorgkztqhhhpkpjftmj77ph5gtgu7lj4ffuxi",
+          "uri": "at://did:plc:fwqrfwdkyrw6qjvandyhcgeq/app.bsky.feed.post/3lfuqmxckznh2"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 167,
+            "byteStart": 143
+          },
+          "features": [
+            {
+              "uri": "https://bsky.app/profile/mrpowershell.bsky.social/post/3lev6boftoc2k",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-16T17:57:28.258Z"
+    },
+    "cid": "bafyreie2fok2yyduhxqbjo4jubsmnsfdrfo3nnhy2ewac3x63p5wybjopm"
+  }
+}

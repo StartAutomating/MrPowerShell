@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736563798563,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfgp47jr722c",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfgp47jr722c",
+    "record": {
+      "text": "To be fair, that's the packager / installer ( and NodeJS's choices of how to use it ).\n\nSo it's not that Windows has those aesthetics.\n\nIt's that crappy installers do.\n\nI'd be more frustrated at this if I didn't know how annoying making MSIs can be.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/yT5D2v3Z9j0AAAAC/to-be-fair-letterkenny.gif?hh=184&ww=250",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifaevbkz4ucb4iqopbkx25kdxqa6ttqjsj7evsr4o3ymnvwexeezm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 36205
+          },
+          "title": "a man in a plaid shirt is holding a german shepherd and saying to be fair",
+          "description": "Alt: Dwayne believes we should consider if the OS is to blame for an App Installer's awful aesthetics."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihoi27rh6pxsg3nxfvtrqazpiylhpaccl7aeesy5cduhwhycjki2i",
+          "uri": "at://did:plc:tqyrs5zpxrp27ksol4tkkxht/app.bsky.feed.post/3lf3w66tsi22u"
+        },
+        "parent": {
+          "cid": "bafyreihoi27rh6pxsg3nxfvtrqazpiylhpaccl7aeesy5cduhwhycjki2i",
+          "uri": "at://did:plc:tqyrs5zpxrp27ksol4tkkxht/app.bsky.feed.post/3lf3w66tsi22u"
+        }
+      },
+      "createdAt": "2025-01-11T02:49:58.563Z"
+    },
+    "cid": "bafyreicf4o35647iga5dvmiek6xcvskw42recrtfseasufysfybjbcnuaq"
+  }
+}

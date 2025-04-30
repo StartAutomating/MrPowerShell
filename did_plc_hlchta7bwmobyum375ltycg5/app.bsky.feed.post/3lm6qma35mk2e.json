@@ -1,0 +1,69 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1743987113233,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lm6qma35mk2e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lm6qma35mk2e",
+    "record": {
+      "text": "Gonna have my camera ready for the next #PowerShell summit post.\n\nLast time was pretty fast.\n\n#AtProto #GitHub #GithubWorkflowFTW\n\nHere we go!",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 51,
+            "byteStart": 40
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 102,
+            "byteStart": 94
+          },
+          "features": [
+            {
+              "tag": "AtProto",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 110,
+            "byteStart": 103
+          },
+          "features": [
+            {
+              "tag": "GitHub",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 129,
+            "byteStart": 111
+          },
+          "features": [
+            {
+              "tag": "GithubWorkflowFTW",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-07T00:51:53.233Z"
+    },
+    "cid": "bafyreibdro3lahd6tvpvx5d7nak6tblrszdb5pjyd2zyku5ktkqy76sive"
+  }
+}

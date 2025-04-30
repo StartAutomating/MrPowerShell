@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735933108907,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leudq6yuzs2h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leudq6yuzs2h",
+    "record": {
+      "text": "Ah, I thought you were doing the \"Python user comes in to troll PowerShell\" thing that's apparently en vogue these days.\n\nFor cybersecurity, I'd definitely focus more on PowerShell than Python.\n\nIt's used by both red and blue teams, and it's a part of a lot of major vectors these days.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic25yombkiuy24bhclat3gidtallszqhfdn6fapgdo5fwxnwpnvs4",
+          "uri": "at://did:plc:oplu4fotqo4spcltuiznhyxq/app.bsky.feed.post/3letuy6dkd22m",
+          "$type": "com.atproto.repo.strongRef"
+        },
+        "parent": {
+          "cid": "bafyreiezdpzhcqta4qu44ivkjqacqsapzzohnii5tvpstmjcrrteog3uam",
+          "uri": "at://did:plc:oplu4fotqo4spcltuiznhyxq/app.bsky.feed.post/3leuae7nxis2g"
+        }
+      },
+      "createdAt": "2025-01-03T19:38:28.907Z"
+    },
+    "cid": "bafyreifesxqm77naa6spvmyqtc32wec32io5ist2xjp75meizvxow6keuq"
+  }
+}

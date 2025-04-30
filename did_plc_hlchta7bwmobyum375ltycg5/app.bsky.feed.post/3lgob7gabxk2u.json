@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737923263406,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgob7gabxk2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgob7gabxk2u",
+    "record": {
+      "text": "Truly and seriously valuable.\n\nIDX files are basically tab separated values ( with a separate header file ).\n\nIf they were accessible in atproto, we'd basically be able to automate responses to price shifts and find the best wholesale deal in the world.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiftqhlmtptvxivowrdaxixlufp27dvk6drw6ppgyewjimrvg6pkai",
+          "uri": "at://did:plc:y5xyloyy7s4a2bwfeimj7r3b/app.bsky.feed.post/3lgli7rruhk2u"
+        },
+        "parent": {
+          "cid": "bafyreibzd7vu4utgemwxn3sf7tycw7ws5yzorykotrbz2ijlovou545rle",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgo6bi5fn22u"
+        }
+      },
+      "createdAt": "2025-01-26T20:27:43.406Z"
+    },
+    "cid": "bafyreigctsxyegybooqchz3ldjtzmd653zgqxt74jecslxxrauep3oe26e"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734660690539,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldpcp6bwjs2j",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldpcp6bwjs2j",
+    "record": {
+      "text": "You ever find yourself rewriting a #powershell script in frustration just to add -AsJob and progress bar support?\n\n( Just wondering if that's just me )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 46,
+            "byteStart": 35
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-20T02:11:30.539Z"
+    },
+    "cid": "bafyreid3tiunqucbcpajvc4xcxmb3ggbsyjp4vn5hxdp4d2lkj56ir2x7a"
+  }
+}

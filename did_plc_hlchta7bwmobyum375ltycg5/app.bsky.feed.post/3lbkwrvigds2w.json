@@ -1,0 +1,71 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732311434866,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbkwrvigds2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbkwrvigds2w",
+    "record": {
+      "text": "Not as such, but I'm open to making such a thing work in either PipeScript or Posh\n\nGitHub.com/StartAutomat...\n\nGitHub.com/StartAutomat...\n\nFile an issue and describe the want.\n\n( Sounds like you're looking for a devDependencies in the manifest )",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "http://GitHub.com/StartAutomating",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibxle436akc3po4cn3fewkadhmu442pz6z5a6s2nza55iy2lze7e4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 13706
+          },
+          "title": "StartAutomating - Overview",
+          "description": "Microsoft MVP in Azure / PowerShell. StartAutomating has 72 repositories available. Follow their code on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiccrqhzdvhnv5nvs3ajsivnmcqj2rxcwzckijtqkygft4dzcbtdpe",
+          "uri": "at://did:plc:4fxzgy7nrx3ncl4pqmnhnt3a/app.bsky.feed.post/3lbkhogf2ac2o"
+        },
+        "parent": {
+          "cid": "bafyreib2fr53lw3rxxe4tivo5bisfaugywhn6zfxet4t33colwl3rfrnzu",
+          "uri": "at://did:plc:4fxzgy7nrx3ncl4pqmnhnt3a/app.bsky.feed.post/3lbkjk3e2g22l"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 110,
+            "byteStart": 84
+          },
+          "features": [
+            {
+              "uri": "https://GitHub.com/StartAutomating/PipeScript",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 138,
+            "byteStart": 112
+          },
+          "features": [
+            {
+              "uri": "https://GitHub.com/StartAutomating/Posh",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-22T21:37:14.866Z"
+    },
+    "cid": "bafyreigaqsgza7vtu4k55mxc7w2bgawa6fdu3wdzcqgu4wlzjpyt44vryy"
+  }
+}

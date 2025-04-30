@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734973052242,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldyfmbml5c2m",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldyfmbml5c2m",
+    "record": {
+      "text": "Haven't tested to confirm, but I suspect the first one will be faster ( since we aren't having to enumerate all of history just to pick the last one )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreids3hwk4pppgs44x3vnugqxxi3cqmchqtfowotwa3t4scjje2pohu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldwbhsd3t22m"
+        },
+        "parent": {
+          "cid": "bafyreigp4nfe7jivxaew4hiewumnuhnz6munzfhmymmftx7hfj7wjbymzy",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3ldx2wqehtk2a"
+        }
+      },
+      "createdAt": "2024-12-23T16:57:32.242Z"
+    },
+    "cid": "bafyreihhhbdbkx2qsnl7udsmmjbzeo2gmdxvnws7iyqyjfdaxutkoqeuh4"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1743609961688,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lltreadey22m",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lltreadey22m",
+    "record": {
+      "text": "Yesterday I figured out a little #lifehack I wish I knew years ago:\n\nReading glasses *can* go in the dishwasher.\n\nThey even came out a lot cleaner than scrubbing by hand.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 42,
+            "byteStart": 33
+          },
+          "features": [
+            {
+              "tag": "lifehack",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-02T16:06:01.688Z"
+    },
+    "cid": "bafyreidd6rqaybvzs5f57k32bebqtzkwlpj62q5ytv4aafldfy5gcrcyre"
+  }
+}

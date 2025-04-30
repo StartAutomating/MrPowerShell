@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737684359928,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lghcpk4pas2z",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lghcpk4pas2z",
+    "record": {
+      "text": "Core is definitely more sparse.  It's also a lot faster on Linux / MacOS.  Might even run on the tumbleweed laptop.\n\nDisplay stuff does sound like a PITA though.  Always happy to see new cross platform modules / scripts ( if you end up writing one )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihotnagksj3iyes4ttis7vsl4jfsklf6xo6qipyj5mjt22twsjz6i",
+          "uri": "at://did:plc:ocqrclujxlgbdke6v67aqe2c/app.bsky.feed.post/3lggwndz75k2z"
+        },
+        "parent": {
+          "cid": "bafyreid5nu5t6hpg4kfmg5q2jrlwupojkvzst4iqlp67azbpolcfha4dgi",
+          "uri": "at://did:plc:ocqrclujxlgbdke6v67aqe2c/app.bsky.feed.post/3lghbmqekus2z"
+        }
+      },
+      "createdAt": "2025-01-24T02:05:59.928Z"
+    },
+    "cid": "bafyreiajrkyv73p2agalzsmeq2r2kan4qd6ajsklxyrgb4owmtyakbrvfy"
+  }
+}

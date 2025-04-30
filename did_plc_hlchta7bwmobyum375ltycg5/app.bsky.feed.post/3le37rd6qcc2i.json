@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735069858421,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3le37rd6qcc2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3le37rd6qcc2i",
+    "record": {
+      "text": "That's a really good callout.  It's also a fairly secure default... If the script block can't access, say, $httplistener, it can't modify the object.\n\nThe more isolated context you can run your script in, the safer it will be.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiaimy244wt2cneoscwaavzuj4l5fwwdn7dvzukbklaiirtef3koxy",
+          "uri": "at://did:plc:rlrrzgcyzronxjjnzorjmdeb/app.bsky.feed.post/3le2nhxhddc2l"
+        },
+        "parent": {
+          "cid": "bafyreigmquhqqfsvkos5droabpx6d6y4lx376lejv67fdudgesvqflx3m4",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3le35z7jva226"
+        }
+      },
+      "createdAt": "2024-12-24T19:50:58.421Z"
+    },
+    "cid": "bafyreic5argab37mlzqk6gngek3hkbs6opz3bg33wbbz4oxquhmf3wqb6y"
+  }
+}

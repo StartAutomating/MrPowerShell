@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732392196060,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbnbyregv22o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbnbyregv22o",
+    "record": {
+      "text": "Please submit this as a PR to GitHub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieycg6pslrn7zydzithmrtuv63lcqaza7r3yummihn3gn6f3ajpia",
+          "uri": "at://did:plc:zfubrgofk23trzj7bapmym2d/app.bsky.feed.post/3lbmsswysd22d"
+        },
+        "parent": {
+          "cid": "bafyreigmivf24barshrnrctsnxaw6bsh3mupvjx67dxidqq5fehnmufqv4",
+          "uri": "at://did:plc:zfubrgofk23trzj7bapmym2d/app.bsky.feed.post/3lbmsswz6242d"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 56,
+            "byteStart": 30
+          },
+          "features": [
+            {
+              "uri": "https://GitHub.com/StartAutomating/Benchpress",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-23T20:03:16.06Z"
+    },
+    "cid": "bafyreia7vqicimm7skty73fmzbou5boj3jyywrhqd3ucmtfqcnxisfzjxa"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737226046421,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfzxuqcizk2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfzxuqcizk2o",
+    "record": {
+      "text": "You keep posting this, and I'll keep reminding the rest of the Internet to check out the likely inspiration.\n\n( And I'll remind you to take the sleeps out of your code and to use thread jobs )\n\nWhy are so many alt news accounts reposting your repo?\n\nbsky.app/profile/mrpo...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreie5yykqafhrynhjtkneiky47ymuvnvpvel6l7rzza7pco7r6rfcfq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lesrsx74qs2x"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiafkg4226raqjvtyh6wiu7fzixkn7e52suddvewqmjqnw65cosssm",
+          "uri": "at://did:plc:yjue7pzw7dgwojy3vnk7rbvs/app.bsky.feed.post/3lfzv27lvic2b"
+        },
+        "parent": {
+          "cid": "bafyreiafkg4226raqjvtyh6wiu7fzixkn7e52suddvewqmjqnw65cosssm",
+          "uri": "at://did:plc:yjue7pzw7dgwojy3vnk7rbvs/app.bsky.feed.post/3lfzv27lvic2b"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 274,
+            "byteStart": 250
+          },
+          "features": [
+            {
+              "uri": "https://bsky.app/profile/mrpowershell.bsky.social/post/3lesrsx74qs2x",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-18T18:47:26.421Z"
+    },
+    "cid": "bafyreihvsqhmf7xkwiw23pfl6a737qo3tf5l2k6t2sfzhmqax7fyheqfca"
+  }
+}

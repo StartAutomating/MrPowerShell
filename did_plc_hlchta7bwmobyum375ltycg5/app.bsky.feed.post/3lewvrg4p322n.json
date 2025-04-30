@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736021196756,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lewvrg4p322n",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lewvrg4p322n",
+    "record": {
+      "text": "So were we.\n\nThat dirt was called geocities.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicvcnrkfjh2bxqnsgbsaayzbflbr6bqmuqcgvlh4dpeh7rqmjbv4i",
+          "uri": "at://did:plc:b5zqbglkkao24znnakkp6fym/app.bsky.feed.post/3letuihdsts2g"
+        },
+        "parent": {
+          "cid": "bafyreie2q5rf543q2asywysmb4wcoqwirxoofc3ww23uuneckxmfy73leu",
+          "uri": "at://did:plc:ahh3x4oicszf6isam4wmp2ca/app.bsky.feed.post/3leukwkunys22"
+        }
+      },
+      "createdAt": "2025-01-04T20:06:36.756Z"
+    },
+    "cid": "bafyreial2v66fcfpcg4zzvg4ualm5qyczccvubpyjwe5ampe77yxykmnou"
+  }
+}

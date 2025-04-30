@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735854053777,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3les2465rnc25",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3les2465rnc25",
+    "record": {
+      "text": "It's almost as if the network effect is a real thing, and #elonmusk doesn't get how these internets work.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreih36vjp37hlt3avhhpwu3uyxemx7fim32ke3qz7as34pybof7cmau",
+          "uri": "at://did:plc:3n5xhy6vl7smssmwxq5wgqa6/app.bsky.feed.post/3leraqbkc3k2d"
+        },
+        "parent": {
+          "cid": "bafyreih36vjp37hlt3avhhpwu3uyxemx7fim32ke3qz7as34pybof7cmau",
+          "uri": "at://did:plc:3n5xhy6vl7smssmwxq5wgqa6/app.bsky.feed.post/3leraqbkc3k2d"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 67,
+            "byteStart": 58
+          },
+          "features": [
+            {
+              "tag": "elonmusk",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-02T21:40:53.777Z"
+    },
+    "cid": "bafyreifpjzedfrcufgzj4vcqnfzhy476blxnlphxsolqnzis3rifkbgjce"
+  }
+}

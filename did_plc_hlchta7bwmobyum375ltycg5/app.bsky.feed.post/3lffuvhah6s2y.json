@@ -1,0 +1,57 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736535654478,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lffuvhah6s2y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lffuvhah6s2y",
+    "record": {
+      "text": "Today's modern living #PSA\n\nFriends don't let friends #autoplay #youtube\n\n(or anything else )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 26,
+            "byteStart": 22
+          },
+          "features": [
+            {
+              "tag": "PSA",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 63,
+            "byteStart": 54
+          },
+          "features": [
+            {
+              "tag": "autoplay",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 72,
+            "byteStart": 64
+          },
+          "features": [
+            {
+              "tag": "youtube",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-10T19:00:54.478Z"
+    },
+    "cid": "bafyreigroztkw2olfhg4b4yphqmwsuserrutlbncs5bpmdj5ihiwtf2nme"
+  }
+}

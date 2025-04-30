@@ -1,0 +1,84 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732740066513,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbxfy4i65c27",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbxfy4i65c27",
+    "record": {
+      "text": "#realtime #bluesky but it's just the links.\n\nA few seconds of realtime bluesky, but just the links (courtesy of #powershell)\n\nEnjoy!  Follow for more nerdy #fun.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.video",
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreidwdsuu3uahzakv3fz5jentqxil3ttgfxmq37iyxpu6xmn23e6xum"
+          },
+          "mimeType": "video/mp4",
+          "size": 3906766
+        },
+        "aspectRatio": {
+          "width": 1914,
+          "height": 1020
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 9,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "realtime",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 18,
+            "byteStart": 10
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 123,
+            "byteStart": 112
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 160,
+            "byteStart": 156
+          },
+          "features": [
+            {
+              "tag": "fun",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-27T20:41:06.513Z"
+    },
+    "cid": "bafyreia6vrrbrfs3w7zqieisc76lpanypf5zi4gn2kcefvswnhyzenrsfu"
+  }
+}

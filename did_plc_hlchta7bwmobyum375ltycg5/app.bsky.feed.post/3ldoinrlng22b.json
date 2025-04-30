@@ -1,0 +1,83 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734632726383,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldoinrlng22b",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldoinrlng22b",
+    "record": {
+      "text": "I feel like now is the time to remind you of that little #websocket #powershell module that's great for drinking from the firehose.\n\ngithub.com/PowerShellWe...\n\nJust use where-object to filter what you don't want.\n\nAsk for more deets if you want em.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/PowerShellWeb/WebSocket",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreig7qbkifxmqasdkxucznnzapdxhzi2mn7llvvlblcbwocr3vrfeca"
+            },
+            "mimeType": "image/jpeg",
+            "size": 161339
+          },
+          "title": "GitHub - PowerShellWeb/WebSocket: Work with WebSockets in PowerShell",
+          "description": "Work with WebSockets in PowerShell. Contribute to PowerShellWeb/WebSocket development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifjrme73gxvsaj5xkxfs2an5gd2avsboixum4fdjdesra5cyzk3pq",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3ldnwt3rzgk2y"
+        },
+        "parent": {
+          "cid": "bafyreifjrme73gxvsaj5xkxfs2an5gd2avsboixum4fdjdesra5cyzk3pq",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3ldnwt3rzgk2y"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 67,
+            "byteStart": 57
+          },
+          "features": [
+            {
+              "tag": "websocket",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 79,
+            "byteStart": 68
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 159,
+            "byteStart": 133
+          },
+          "features": [
+            {
+              "uri": "https://github.com/PowerShellWeb/WebSocket",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-19T18:25:26.383Z"
+    },
+    "cid": "bafyreierszc42xu6v5oxfy6pib7mcgvyhlkbwvaq6p6fm2gdkwrt6f5vyu"
+  }
+}

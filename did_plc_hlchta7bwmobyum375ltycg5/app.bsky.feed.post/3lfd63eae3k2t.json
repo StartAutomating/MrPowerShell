@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736442437118,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfd63eae3k2t",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfd63eae3k2t",
+    "record": {
+      "text": "Oh this is a known and logical light PITA.\n\nPiping \"unrolls\" objects.\n\nConvertTo-Json tries to be smart, but ends up being unexpected.\n\nPipe 1 in, get a single object\n\nPipe more than 1, get an array.\n\nWant an array?\n\nPass it positionally\n\n~~~PowerShell\nConvertTo-Json -InputObject @(1)\n~~~\n\nYW",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiglftqvlyp6rkchaaufxcmpt5qx7ypm35xcw7ni7ydb2numibumfi",
+          "uri": "at://did:plc:pwas4qd5wumj6vg55qmfrvyn/app.bsky.feed.post/3lfcz7gkdns2r"
+        },
+        "parent": {
+          "cid": "bafyreiglftqvlyp6rkchaaufxcmpt5qx7ypm35xcw7ni7ydb2numibumfi",
+          "uri": "at://did:plc:pwas4qd5wumj6vg55qmfrvyn/app.bsky.feed.post/3lfcz7gkdns2r"
+        }
+      },
+      "createdAt": "2025-01-09T17:07:17.118Z"
+    },
+    "cid": "bafyreifux5terhi527qlljk4u5jpuilasyfdfx2r77pn7rl2vbhykgs4ea"
+  }
+}

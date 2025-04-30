@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732396187812,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbnfpq6z7s2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbnfpq6z7s2o",
+    "record": {
+      "text": "Fun fact- #PowerShell commands are already English.\n\nAnd you can write freeform functions to make it act like a natural language.\n\nMore fun: you can also write functions named -any- language.  Program in Portuguese with PowerShell if you want... It's all possible ;-)",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreibaqoc6nizx6kc7f27yx5dnyehppcgbqtlhbvkqywpcwsdw4pdhv4",
+          "uri": "at://did:plc:yq2hmvxexcyugkhp6gl445tc/app.bsky.feed.post/3lbmdvehkyc2w"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 21,
+            "byteStart": 10
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-23T21:09:47.812Z"
+    },
+    "cid": "bafyreicfay2ewausxys2guvy4upgi4q3puiwbpfxtbfsbepid7bzgliug4"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733731162002,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcuaz2s6mk22",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcuaz2s6mk22",
+    "record": {
+      "text": "Honestly, this might be a very 🌶️ take...\n\nI'm kinda over verb-noun conformity in #powershell / #pwsh\n\n\"good command name\" -gt \"approve-verb\"\n\nPowerShell commands can be named almost anything, and it's high time we started using that capability more often.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibl3xlzqr7q5qk2iafpypj4eurgnloxdsknuutklftr3ujsinm3yu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lctko2hugc2q"
+        },
+        "parent": {
+          "cid": "bafyreid4te5cr5khvumlxis7mv2tdhcydxjxtgek3ur2ve52en2ruzevbi",
+          "uri": "at://did:plc:nrxngnjnce74aisq4hiu5zuy/app.bsky.feed.post/3lctuv54n2k2c"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 98,
+            "byteStart": 87
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 106,
+            "byteStart": 101
+          },
+          "features": [
+            {
+              "tag": "pwsh",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-09T07:59:22.002Z"
+    },
+    "cid": "bafyreiezajzwukjlkq2mtczqaa4zfdlc7oked7vaonf7iqcepwlq4yns3y"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738541885220,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhabdrxt7222",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhabdrxt7222",
+    "record": {
+      "text": "What was the email?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiecieh6lrwfsbxpnskadpis4ojjtr2mc24eskpmnxnycsy6tgk7ry",
+          "uri": "at://did:plc:uvv3qxs7bvplsmilb7ije6cu/app.bsky.feed.post/3lhaawpamrs2z"
+        },
+        "parent": {
+          "cid": "bafyreiecieh6lrwfsbxpnskadpis4ojjtr2mc24eskpmnxnycsy6tgk7ry",
+          "uri": "at://did:plc:uvv3qxs7bvplsmilb7ije6cu/app.bsky.feed.post/3lhaawpamrs2z"
+        }
+      },
+      "createdAt": "2025-02-03T00:18:05.22Z"
+    },
+    "cid": "bafyreidwl5nkkmpq3hw75pcaittyy7dxmimuij5lypchi3clt4wlkc324e"
+  }
+}

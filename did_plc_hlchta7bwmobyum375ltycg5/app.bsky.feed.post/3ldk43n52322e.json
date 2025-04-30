@@ -1,0 +1,69 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734481793875,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldk43n52322e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldk43n52322e",
+    "record": {
+      "text": "Of all of the #birthday messages I've gotten today, the one that cracks me up the most is a floundered sales attempt by a mortgage broker:\n\nIt's amazing how a few letters can make an #epic #typo #fail:\n\n\"... I didn't your mortgage a few years ago\".\n\nNo followup sent, presumably out of shame.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 23,
+            "byteStart": 14
+          },
+          "features": [
+            {
+              "tag": "birthday",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 188,
+            "byteStart": 183
+          },
+          "features": [
+            {
+              "tag": "epic",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 194,
+            "byteStart": 189
+          },
+          "features": [
+            {
+              "tag": "typo",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 200,
+            "byteStart": 195
+          },
+          "features": [
+            {
+              "tag": "fail",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-18T00:29:53.875Z"
+    },
+    "cid": "bafyreiggmu2drh6se4mri4svtob3lptwa7fxprb3uvg6d6s7hs3rd5intu"
+  }
+}

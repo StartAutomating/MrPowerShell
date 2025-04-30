@@ -1,0 +1,79 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732392863841,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbncmo7irc2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbncmo7irc2o",
+    "record": {
+      "text": "Lol you have the bad luck to say this to someone who both built #powershell and can code #assembly.  Trust me, there is such a thing as being too low-level.  ASM is a nightmare because it's too baremetal.  #python isn't meant to be easy.  #powershell is.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreid6rqhdibnopl76bbnohdrar5okhzg4yoqvy4qe6uqxozngfdm3li",
+          "uri": "at://did:plc:z23mr6a4ydaga3mqlk6dwdcr/app.bsky.feed.post/3lbncdp74es2q"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 75,
+            "byteStart": 64
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 98,
+            "byteStart": 89
+          },
+          "features": [
+            {
+              "tag": "assembly",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 213,
+            "byteStart": 206
+          },
+          "features": [
+            {
+              "tag": "python",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 250,
+            "byteStart": 239
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-23T20:14:23.841Z"
+    },
+    "cid": "bafyreiekvn3czbawl4u7mybzksdx3cbkdqdehapofmrp76jxoiyqdk5zcy"
+  }
+}

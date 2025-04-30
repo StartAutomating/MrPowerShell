@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737065634118,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfvci37jes2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfvci37jes2v",
+    "record": {
+      "text": "Short version of the likely pita / culprit:\n\nOn #Linux environment variables are case sensitive ( `$ENV:PATH` not `$env:Path`)\n\nAlso, Linux paths are separated by `:`, not `;`\n\nHope this helps!",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifreadttuqqf5emdtw3ndngzzkxvjbwu7wxaltrqet72iex22lth4",
+          "uri": "at://did:plc:lojyogpbq3jloajn5ieqyaih/app.bsky.feed.post/3lfvbfesih2v2"
+        },
+        "parent": {
+          "cid": "bafyreifreadttuqqf5emdtw3ndngzzkxvjbwu7wxaltrqet72iex22lth4",
+          "uri": "at://did:plc:lojyogpbq3jloajn5ieqyaih/app.bsky.feed.post/3lfvbfesih2v2"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 54,
+            "byteStart": 48
+          },
+          "features": [
+            {
+              "tag": "Linux",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-16T22:13:54.118Z"
+    },
+    "cid": "bafyreigehtpf56ak44iicvmdkcankw3wrgu23kbculiwbwoiq6qvlvyylu"
+  }
+}

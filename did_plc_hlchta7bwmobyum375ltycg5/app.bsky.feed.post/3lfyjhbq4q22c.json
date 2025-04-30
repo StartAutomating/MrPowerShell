@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737176202808,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfyjhbq4q22c",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfyjhbq4q22c",
+    "record": {
+      "text": "Make that two, actually.\n\nbsky.app/profile/did:...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreighkasmmznivlveh4oihl2saiwgib5iuaj2fksxly5yobv3qjctey",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfy5wvscwk25"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreictn45z2m3az37odfvc557iapfyxob3fhmxqazqgbojvjnp66egd4",
+          "uri": "at://did:plc:ragtjsm2j2vknwkz3zp4oxrd/app.bsky.feed.post/3lfyilsypgs2f"
+        },
+        "parent": {
+          "cid": "bafyreictn45z2m3az37odfvc557iapfyxob3fhmxqazqgbojvjnp66egd4",
+          "uri": "at://did:plc:ragtjsm2j2vknwkz3zp4oxrd/app.bsky.feed.post/3lfyilsypgs2f"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 50,
+            "byteStart": 26
+          },
+          "features": [
+            {
+              "uri": "https://bsky.app/profile/did:plc:hlchta7bwmobyum375ltycg5/post/3lfy5wvscwk25",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-18T04:56:42.808Z"
+    },
+    "cid": "bafyreierobrzvv5zcij5mdlxdz6sdepynvfro67c7nkplemqhr4tsku35a"
+  }
+}

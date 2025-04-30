@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1693081055385,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k5v6nq22se2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k5v6nq22se2w",
+    "record": {
+      "text": "Or are you F9?  Cause I just can't debug you.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifqteyjnvi4sa5uffcuuw4ahuy7dedknxk4ygzmbkuqhf7fayu5gq",
+          "uri": "at://did:plc:g7nywl63frmuddq274whiwr6/app.bsky.feed.post/3k5uxlgzurk2v"
+        },
+        "parent": {
+          "cid": "bafyreifqteyjnvi4sa5uffcuuw4ahuy7dedknxk4ygzmbkuqhf7fayu5gq",
+          "uri": "at://did:plc:g7nywl63frmuddq274whiwr6/app.bsky.feed.post/3k5uxlgzurk2v"
+        }
+      },
+      "createdAt": "2023-08-26T20:17:35.385Z"
+    },
+    "cid": "bafyreibjmbx3pmrazio4j4d5snmh2fwjgtpv2aid2vufy273jqlau5evhy"
+  }
+}

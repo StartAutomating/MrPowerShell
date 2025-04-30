@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737236964520,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lg2c24mg422v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lg2c24mg422v",
+    "record": {
+      "text": "Friends don't let friends use NTLM.\n\nAlso / FYI, you can disable it.\n\nAs the name implies, NTLM is old and there have been far better ways to authenticate for some time.\n\ntechcommunity.microsoft.com/blog/coreinf...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/active-directory-hardening-series---part-1-%E2%80%93-disabling-ntlmv1/3934787",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiacdcwjaqxo5rrbwe4ujlomtyfp3b3dntypwcdxokflkedaqb6swy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 39640
+          },
+          "title": "Active Directory Hardening Series - Part 1 – Disabling NTLMv1 | Microsoft Community Hub",
+          "description": "In this series my goal is to help you understand how to move forward with confidence by better understanding the changes along with how to perform proper due..."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigoqdxyw3r6esrvmlc5gb5vy7kf5gasy7cuw6wsepcder3b2j6w7q",
+          "uri": "at://did:plc:xraomsuf6pvh7r2cqtdwhkvm/app.bsky.feed.post/3lfxwrv3yyk2n"
+        },
+        "parent": {
+          "cid": "bafyreictosd3atijew7wgwqky4x72pnfhqganl2nz3e647wxu3voulupv4",
+          "uri": "at://did:plc:chxqj3jv7wh7yimfwmd3thlm/app.bsky.feed.post/3lg2bqzhlgm23"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 214,
+            "byteStart": 171
+          },
+          "features": [
+            {
+              "uri": "https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/active-directory-hardening-series---part-1-%E2%80%93-disabling-ntlmv1/3934787",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-18T21:49:24.52Z"
+    },
+    "cid": "bafyreigeighrtyczjfauo3y26qeiczq6ccwjhc4w4fnaw3cru7tn2sreja"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1691602646789,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k4k5rtfmcp2a",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k4k5rtfmcp2a",
+    "record": {
+      "text": "I used to hate #regex and the #regexlife.\n\nThen I made a #PowerShell module to help create and use Regular Expressions.\nhttps://github.com/StartAutomating/Irregular\nNow #regexlife is beautiful.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/Irregular",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifcnee3jh7dmzdn5f75qwngnjxsnzyswglujzgu2ihrzwjgvebd4a"
+            },
+            "mimeType": "image/jpeg",
+            "size": 171875
+          },
+          "title": "GitHub - StartAutomating/Irregular: Regular Expressions made Strangely Simple",
+          "description": "Regular Expressions made Strangely Simple. Contribute to StartAutomating/Irregular development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 164,
+            "byteStart": 120
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/Irregular",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-08-09T17:37:26.789Z"
+    },
+    "cid": "bafyreie2jldwj4ajlbxtqezapftxq7b3zyhyg5tiudjlrz3r3ecsrvxmra"
+  }
+}

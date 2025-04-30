@@ -1,0 +1,98 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736809166885,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfntmqyp5k2b",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfntmqyp5k2b",
+    "record": {
+      "text": "This Wednesday, drop by the Pacific PowerShell User Group to hear @jdhitsolutions.com talk about PSBlueSky\n\n@ 6 PM Pacific time\n\nwww.meetup.com/pacific-powe...\n\n#PowerShell #bluesky #atproto",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/events/305394632/?eventOrigin=group_upcoming_events&_gl=1*n03ylx*_up*MQ..*_ga*MTQ5NTc2Mjk4LjE3MzY4MDkxMTg.*_ga_NP82XMKW0P*MTczNjgwOTExNy4xLjAuMTczNjgwOTExNy4wLjAuMA.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiga5eqo5n6ujq2atfzzkdatunqqsmb6lafulfokoluzpizxl7ndvu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 36724
+          },
+          "title": "Reaching for the (Blue)sky (with Jeff Hicks), Wed, Jan 15, 2025, 6:00 PM   | Meetup",
+          "description": "**[Moving to the Wednesday 1/15 so we can all enjoy the Research Triangle PowerShell User Group.](https://rtpsug.com/)**\n\nOne of the great features of PowerShell is that it"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 85,
+            "byteStart": 66
+          },
+          "features": [
+            {
+              "did": "did:plc:ohgsqpfsbocaaxusxqlgfvd7",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 159,
+            "byteStart": 129
+          },
+          "features": [
+            {
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/305394632",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 172,
+            "byteStart": 161
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 181,
+            "byteStart": 173
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 190,
+            "byteStart": 182
+          },
+          "features": [
+            {
+              "tag": "atproto",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-13T22:59:26.885Z"
+    },
+    "cid": "bafyreihdsokg4gfsf2gxt6yc3hcazwnjcdzxdodtbijzijz2dis7fzydhq"
+  }
+}

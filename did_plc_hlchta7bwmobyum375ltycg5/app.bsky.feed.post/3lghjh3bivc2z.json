@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737691592114,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lghjh3bivc2z",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lghjh3bivc2z",
+    "record": {
+      "text": "A - Hard Relate\nB - #ImpostorSyndrome haunts us all.\nC - Which \"this\"?\nD - You ok?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiaynnqnapvujqcgrh4v3sd23t72i3fhd32qyvz47ym4i4fonxcwfq",
+          "uri": "at://did:plc:kqbyr4gqt6p2l57htlsa4nha/app.bsky.feed.post/3lghbsyt3jk2q"
+        },
+        "parent": {
+          "cid": "bafyreiaynnqnapvujqcgrh4v3sd23t72i3fhd32qyvz47ym4i4fonxcwfq",
+          "uri": "at://did:plc:kqbyr4gqt6p2l57htlsa4nha/app.bsky.feed.post/3lghbsyt3jk2q"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 37,
+            "byteStart": 20
+          },
+          "features": [
+            {
+              "tag": "ImpostorSyndrome",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-24T04:06:32.114Z"
+    },
+    "cid": "bafyreiajhx3df4adchcw7bwoheh2gminbxpmraq4kgrjyau2afrmnx64wy"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734419099992,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldibp7liys2q",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldibp7liys2q",
+    "record": {
+      "text": "Clever detection query!\n\nWhy filter out users in a role?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifqg5mbjh2ttzr5ixkq7isx2l5yfr32kgdlsc7npoehhbuqvzr5um",
+          "uri": "at://did:plc:6ldydf4au7qmo7hpsuvctklf/app.bsky.feed.post/3ldi5t32qqk2e"
+        },
+        "parent": {
+          "cid": "bafyreifqg5mbjh2ttzr5ixkq7isx2l5yfr32kgdlsc7npoehhbuqvzr5um",
+          "uri": "at://did:plc:6ldydf4au7qmo7hpsuvctklf/app.bsky.feed.post/3ldi5t32qqk2e"
+        }
+      },
+      "createdAt": "2024-12-17T07:04:59.992Z"
+    },
+    "cid": "bafyreiddemun36tis2qcelhg6xmgg2rgdt6bqfg26l2dtyz6xjo5ubxn54"
+  }
+}

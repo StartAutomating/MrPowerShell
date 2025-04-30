@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732116509123,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbfbansshs2c",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbfbansshs2c",
+    "record": {
+      "text": "And this one automatically wraps the entire BlueSky API :-)\n\nGitHub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://GitHub.com/StartAutomating/PSA",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifwkzvokcjhj2nbojjcqcvnyibztv4uvyzpmzxgkgczeufe3olmlu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 33737
+          },
+          "title": "GitHub - StartAutomating/PSA: PowerShell Announcements (with AtProtocol)",
+          "description": "PowerShell Announcements (with AtProtocol). Contribute to StartAutomating/PSA development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic3enb3kllurdn45gwzrztog54mey3dlqnqdekisvmlbevunmnbk4",
+          "uri": "at://did:plc:ogxc6m7gs53sr3v3udkpo3gc/app.bsky.feed.post/3lb65mavsds2o",
+          "$type": "com.atproto.repo.strongRef"
+        },
+        "parent": {
+          "cid": "bafyreig3aptj73ac2dcfgdvkshenyokb6of2dif343omb2rrgpgv5xcadu",
+          "uri": "at://did:plc:b4wi5dqywlknrgg7ofmczq2z/app.bsky.feed.post/3lbbqd5htw22c"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 87,
+            "byteStart": 61
+          },
+          "features": [
+            {
+              "uri": "https://GitHub.com/StartAutomating/PSA",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-20T15:28:29.123Z"
+    },
+    "cid": "bafyreicl55siv23gdtxvksfq3j4ozuhy4y3ggoqbu7gq4gnecdqq3ifek4"
+  }
+}

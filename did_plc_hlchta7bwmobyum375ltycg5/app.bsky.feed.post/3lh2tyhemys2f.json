@@ -1,0 +1,73 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738355747672,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lh2tyhemys2f",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lh2tyhemys2f",
+    "record": {
+      "text": "This is dumb\n\nLet me count a few ways.\n\n1. It's Friday, nobody is enforcing an EOD Friday memo ( given at 3 eastern )\n2. Personal pronoun choice is personal.\n3. #powershell and #office365 can add disclaimers\n4. People can always type a signature\n\nwww.theguardian.com/us-news/2025...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.theguardian.com/us-news/2025/jan/31/us-workers-pronouns-emails-deadline-trump-order",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreib7dvz7hwkhtlj32pi3pufogtsp46et24lbqjgn4xqr2ipuh2dfea"
+            },
+            "mimeType": "image/jpeg",
+            "size": 185038
+          },
+          "title": "US state department workers ordered to remove pronouns from email signatures by end of day",
+          "description": "Internal email says agency is ‘reviewing’ programs and contracts that ‘promote or incubate gender ideology’"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 172,
+            "byteStart": 161
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 187,
+            "byteStart": 177
+          },
+          "features": [
+            {
+              "tag": "office365",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 282,
+            "byteStart": 247
+          },
+          "features": [
+            {
+              "uri": "https://www.theguardian.com/us-news/2025/jan/31/us-workers-pronouns-emails-deadline-trump-order",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-31T20:35:47.672Z"
+    },
+    "cid": "bafyreif76tdvbybiuoknoggaput3fkzfzcx2wr5veoa6xyh4bhdfogcj4e"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732425936489,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbobgcqnkk2e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbobgcqnkk2e",
+    "record": {
+      "text": "To be clear.... You shouldn't write an OS only in one language... It'd be inherently limited.\n\nLLMs in pure powershell are both a good idea and potential security nightmare.\n\nLLMs are also highly inefficient.  A pure #powershell one is lighter than llama, but less inherently safe.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreida2tjyuasvp5ihayp6ma5e3xkigrbsgv7etokylkcec7k7nojvxm",
+          "uri": "at://did:plc:z23mr6a4ydaga3mqlk6dwdcr/app.bsky.feed.post/3lboawzuwwc2t"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 228,
+            "byteStart": 217
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-24T05:25:36.489Z"
+    },
+    "cid": "bafyreicix2dwq6wsgqgk2mq6o7vqnom5dby6cj7birtgymeawwh2yoew7u"
+  }
+}

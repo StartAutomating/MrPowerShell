@@ -1,0 +1,48 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735719270520,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leo4lct6as2h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leo4lct6as2h",
+    "record": {
+      "text": "Happy New Year 2025!\n\nThe year begins in what I'd like to call a #seattle stand off:\n\nSeven cars cannot move because they are looking at each other.\n\nNo honking yet.\n\nIt's been at least 5 mins.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.video",
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreigbdp7sh245e6duroqshkoqdjn346aynaj3kbwdki24mxoxbuo6pa"
+          },
+          "mimeType": "video/mp4",
+          "size": 3147407
+        },
+        "aspectRatio": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 73,
+            "byteStart": 65
+          },
+          "features": [
+            {
+              "tag": "seattle",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-01T08:14:30.52Z"
+    },
+    "cid": "bafyreigtpiviqw65se52564dopnodtbnh4uetvq7eae3qulfjhgeokv45q"
+  }
+}

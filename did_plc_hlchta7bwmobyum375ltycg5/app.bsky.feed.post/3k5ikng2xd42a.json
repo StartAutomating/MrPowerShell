@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1692647260357,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k5ikng2xd42a",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k5ikng2xd42a",
+    "record": {
+      "text": "Yeah, I also love PowerShell's emphasis on logical naming (though I don't limit myself to purely verb-noun)\n\n#PowerShell is great for building DSLs, too.\n\nsee github.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/Irregular",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifcnee3jh7dmzdn5f75qwngnjxsnzyswglujzgu2ihrzwjgvebd4a"
+            },
+            "mimeType": "image/jpeg",
+            "size": 171875
+          },
+          "title": "GitHub - StartAutomating/Irregular: Regular Expressions made Strangely Simple",
+          "description": "Regular Expressions made Strangely Simple. Contribute to StartAutomating/Irregular development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibqplplz6qyhvdfaoyxzqesneqva4i2monrd7icxow3haro2fz2u4",
+          "uri": "at://did:plc:vtcm54bmbkuaj32aiqtbvrwu/app.bsky.feed.post/3k5h4r2rfnz2w"
+        },
+        "parent": {
+          "cid": "bafyreifzjhqxc43jeeuoqspqv62hgm5yqc3xojswkfncaw6vdes5ufyghe",
+          "uri": "at://did:plc:xyvso73khrotj7fzj23athgs/app.bsky.feed.post/3k5ikgj7pus2v"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 185,
+            "byteStart": 159
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/Irregular",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-08-21T19:47:40.357Z"
+    },
+    "cid": "bafyreigkerbzbuzrtezddoww4myjrtnwreaum5an5uhedmqlfs7vdfsd6u"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744221114924,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmfkjzhzyc2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmfkjzhzyc2i",
+    "record": {
+      "text": "Maybe someone should show the admin how to multiply strings.\n\nSurely that would make the math work.\n\n#PowerShell Megabucks below\n\n~~~PowerShell\n'$' * .5mb | Write-Host -ForegroundColor Green\n~~~",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifu27yc7ltdxjovbjywxjjtarleoxuod4qwmlegcbgktprtu5ewb4",
+          "uri": "at://did:plc:nca5rj7nbxegjj37ltdyt5x3/app.bsky.feed.post/3lmezpw6dlc2h"
+        },
+        "parent": {
+          "cid": "bafyreifu27yc7ltdxjovbjywxjjtarleoxuod4qwmlegcbgktprtu5ewb4",
+          "uri": "at://did:plc:nca5rj7nbxegjj37ltdyt5x3/app.bsky.feed.post/3lmezpw6dlc2h"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 112,
+            "byteStart": 101
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-09T17:51:54.924Z"
+    },
+    "cid": "bafyreig5ejp4siyvg64lhcej4qh2sdmgzvrgjm5vbmtyo6nuykved3ejyu"
+  }
+}

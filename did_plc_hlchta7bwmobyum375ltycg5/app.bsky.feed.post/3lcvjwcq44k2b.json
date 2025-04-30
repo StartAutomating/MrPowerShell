@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733775093074,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcvjwcq44k2b",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcvjwcq44k2b",
+    "record": {
+      "text": "Lol, so, how ya doing?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibl4jcnjwmia2mm4gktsxubd34do7pvygcbhphtoy7sts26nho7jm",
+          "uri": "at://did:plc:g7nywl63frmuddq274whiwr6/app.bsky.feed.post/3lcvidmirz22r"
+        },
+        "parent": {
+          "cid": "bafyreid6hlw775xet5fm47jngwi76rmwzjrvg4j6hjkwl2ogzm47k2nk6a",
+          "uri": "at://did:plc:znnwvvpvrmu2nttomhzb5c4n/app.bsky.feed.post/3lcvixmsgxc2s"
+        }
+      },
+      "createdAt": "2024-12-09T20:11:33.074Z"
+    },
+    "cid": "bafyreiatd4rvaw7mptso7fl4ipglsfzobirx5guyzckwklruoqhxisllmu"
+  }
+}

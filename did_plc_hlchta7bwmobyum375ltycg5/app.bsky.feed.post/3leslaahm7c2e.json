@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735872444026,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leslaahm7c2e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leslaahm7c2e",
+    "record": {
+      "text": "Yep.\n\nPeople are like \"this sucks\" but don't clarify what they don't like, and are like \"this is a problem\", but when you try to solve it, they're like \"I'm used to my workaround\".\n\nThat and the whole hater / troll dynamic is annoying AF.\n\nI'm good call this behavior #NIMBYtech",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifac2oo34jzq4uatlpurp44lgaxrxpwovaorbstoi6zlnzrnpwkgq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lesjgrzjpc24"
+        },
+        "parent": {
+          "cid": "bafyreidr6wilcoc6yymhfko6j5kjymv6xn57l6afcq3nyph3dxjggu6iku",
+          "uri": "at://did:plc:a5sh4otd2y3nnuqx2r7hy5dp/app.bsky.feed.post/3leskyjlsb222"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 278,
+            "byteStart": 268
+          },
+          "features": [
+            {
+              "tag": "NIMBYtech",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-03T02:47:24.026Z"
+    },
+    "cid": "bafyreidybs4hmczvjtrfovzrmt6o4u5xki3nqqlb7dyrtmlglf2jmigbdq"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737740727614,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgix7gki7k2d",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgix7gki7k2d",
+    "record": {
+      "text": "If that's \"old school\" I don't know what \"new school\" would be.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiekdszwvyctacs45ibglchycpgwffnlxrvoi2b6usot3hmakxccya",
+          "uri": "at://did:plc:wwvefq6zzoc2fy4pzo2tzjw4/app.bsky.feed.post/3lgivoejlzp2l"
+        },
+        "parent": {
+          "cid": "bafyreiekdszwvyctacs45ibglchycpgwffnlxrvoi2b6usot3hmakxccya",
+          "uri": "at://did:plc:wwvefq6zzoc2fy4pzo2tzjw4/app.bsky.feed.post/3lgivoejlzp2l"
+        }
+      },
+      "createdAt": "2025-01-24T17:45:27.614Z"
+    },
+    "cid": "bafyreieutpfpadtxkj7gb24hvhyhbfqv73vi4vaof7ccaqpmhe3gh43hye"
+  }
+}

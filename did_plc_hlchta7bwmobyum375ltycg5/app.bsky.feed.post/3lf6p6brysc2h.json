@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736288990134,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lf6p6brysc2h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lf6p6brysc2h",
+    "record": {
+      "text": "Welcome to the party, pal.\n\nIt's a cool language.\n\nLet us know if you need any help.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiao34jhi3vh6x4lut3rfxq3uk7gjcfoop3uibcwibol243vv4om24",
+          "uri": "at://did:plc:3owd5vwsfstbbn742uxylrh4/app.bsky.feed.post/3lf6ondmtx22i"
+        },
+        "parent": {
+          "cid": "bafyreiao34jhi3vh6x4lut3rfxq3uk7gjcfoop3uibcwibol243vv4om24",
+          "uri": "at://did:plc:3owd5vwsfstbbn742uxylrh4/app.bsky.feed.post/3lf6ondmtx22i"
+        }
+      },
+      "createdAt": "2025-01-07T22:29:50.134Z"
+    },
+    "cid": "bafyreiaevdo6ucjtvtp44imsmpbfaemn2jv3jwicku4cpw7apqrm4t5sxe"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736210881265,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lf4ggheig22x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lf4ggheig22x",
+    "record": {
+      "text": "Also / and / wait a second....\n\nIsn't there some UD component for direct HTML injection?\n\ndocs.powershelluniversal.com/v1/dashboard...\n\nMaybe you could fall back to that, if they don't output a hashtable.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://docs.powershelluniversal.com/v1/dashboard/components/html",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieq74zvwpy6yn75tfvxfn4oelnwezcj5oe4utmcw2izsvdbue6xuq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 129827
+          },
+          "title": "HTML | PowerShell Universal",
+          "description": "Define static HTML using Universal Dashboard."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigmawl7haruovwdi67prv5725t52byuyvkivdbfmgsk7zegq6m4ze",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3lf4b7ihycc2k"
+        },
+        "parent": {
+          "cid": "bafyreidwa6teqxyd4dcpuoxzaj76g6yfcjar6z6b6j36hpeiqiovwjtzyi",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3lf4g6p4djk2k"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 134,
+            "byteStart": 90
+          },
+          "features": [
+            {
+              "uri": "https://docs.powershelluniversal.com/v1/dashboard/components/html",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-07T00:48:01.265Z"
+    },
+    "cid": "bafyreidahmmmod4mhx2a5q4jidymmyc4z46lny3aibwg2nadf4wmzpxusa"
+  }
+}

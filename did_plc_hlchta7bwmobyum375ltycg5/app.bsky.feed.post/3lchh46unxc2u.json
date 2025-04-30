@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733291032793,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lchh46unxc2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lchh46unxc2u",
+    "record": {
+      "text": "I'm just making sure you know that it exists.  PowerShell Core is being actively developed.  Windows PowerShell is not.\n\nAnd it's hardly limited, considering it has every command on each box and the .NET core framework to work with.\n\nOh, yeah, it also ships with a compiler for CSharp.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicwkaqyjcrmyxwdttvzlg3wvrtairvggfebwxtvwbh7jcchhy33qy",
+          "uri": "at://did:plc:cx5odfv73l27dro4h3erypbd/app.bsky.feed.post/3lcewy6wj6k2r"
+        },
+        "parent": {
+          "cid": "bafyreiahdzmhtvxw4idwopgwdx3ha7mm2tncmx3osgi5icv6bcbqexzor4",
+          "uri": "at://did:plc:szawk3er44q2uis54i2ebsge/app.bsky.feed.post/3lchggu2snc2f"
+        }
+      },
+      "createdAt": "2024-12-04T05:43:52.793Z"
+    },
+    "cid": "bafyreicy7inzjhlozk37q6ofx2xwbe5l7erv6n7ipqvzsi77d6xqb6g244"
+  }
+}

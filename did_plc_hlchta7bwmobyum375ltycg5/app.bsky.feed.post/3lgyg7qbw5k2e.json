@@ -1,0 +1,49 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738272240038,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgyg7qbw5k2e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgyg7qbw5k2e",
+    "record": {
+      "text": "They say time flies when you're having fun.\n\nThe opposite is also true.\n\nWhen the world is in this stressful of a state, days can feel like weeks.\n\nWhy?\n\nBecause our brains respond to stress by paying more attention.\n\nIt's gonna be a long 4 years.\n\nIt may feel like 40.\n\nHelp everyone #cope.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/pimbLK-swlAAAAAC/stuck-in-time-clock.gif?hh=270&ww=480",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifzjvoxy2caylz422blvf3546mbtf2xhxp6phz5ldab5upefmclwm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 92316
+          },
+          "title": "a close up of a clock face with roman numerals including xii",
+          "description": "Alt: It's going to be a long four years of feeling like we are all stuck in the same moment.\n\nHelp your friends and family stay as sane as they can."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 290,
+            "byteStart": 285
+          },
+          "features": [
+            {
+              "tag": "cope",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-30T21:24:00.038Z"
+    },
+    "cid": "bafyreif5vdmu6uan4pfgnudwe6ok4zwlvwfms4pzvf457hmtqu2rvtaffu"
+  }
+}

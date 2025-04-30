@@ -1,0 +1,79 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737091526520,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfw2lq4uas2r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfw2lq4uas2r",
+    "record": {
+      "text": "Welcome to #windowsterminal (and to #windows)\n\n#powershell is your friend, and things are a bit different than on #linux.  On the bright side, there's lots of docs 😂.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibe5pzv33n7touwh7463fktcv4tpqmh2x5sxvpijp73c3vvbmav3u",
+          "uri": "at://did:plc:aa73kvdsi6teh7qj5k23rduh/app.bsky.feed.post/3lfuvzj7dss2h"
+        },
+        "parent": {
+          "cid": "bafyreihmly4mgahcq7qrlkyclrdgu7deex72txfrvvby2ep365gs4zriya",
+          "uri": "at://did:plc:aa73kvdsi6teh7qj5k23rduh/app.bsky.feed.post/3lfvmsfiwt22b"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 27,
+            "byteStart": 11
+          },
+          "features": [
+            {
+              "tag": "windowsterminal",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 44,
+            "byteStart": 36
+          },
+          "features": [
+            {
+              "tag": "windows",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 58,
+            "byteStart": 47
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 120,
+            "byteStart": 114
+          },
+          "features": [
+            {
+              "tag": "linux",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-17T05:25:26.52Z"
+    },
+    "cid": "bafyreidipnirvvuz37q4wnndm533kfftv6ofdi3d3vgqyafvewt7lzztey"
+  }
+}

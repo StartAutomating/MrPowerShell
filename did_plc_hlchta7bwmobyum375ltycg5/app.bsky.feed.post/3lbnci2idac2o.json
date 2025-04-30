@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732392708942,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbnci2idac2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbnci2idac2o",
+    "record": {
+      "text": "Well, most nix people could stand to branch out a bit.\n\nThe object pipeline is basically unique to #powershell , and changes the whole way you program.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreiackxuva3nvc4pxaw7vhmmodafcln6y2nr56abzrnlyh7b32oin2i",
+          "uri": "at://did:plc:z23mr6a4ydaga3mqlk6dwdcr/app.bsky.feed.post/3lbncfxwosc2q"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 110,
+            "byteStart": 99
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-23T20:11:48.942Z"
+    },
+    "cid": "bafyreich44f532h5keqxjrqc2jomfcub5p64hami62xyd77a5lnxu2a7y4"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733343544543,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcixz5y4s22u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcixz5y4s22u",
+    "record": {
+      "text": "Made a small starter pack for #powershell user groups.\n\nRunning a user group and not yet on the list?\n\nReply and get added.\n\ngo.bsky.app/NFNRdph",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreigtwhusfqi756utqmlnxhcc5cprigf7powkxol253hixamvvbhwce",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.graph.starterpack/3lcixwkiihh24"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 41,
+            "byteStart": 30
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 144,
+            "byteStart": 125
+          },
+          "features": [
+            {
+              "uri": "https://go.bsky.app/NFNRdph",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-04T20:19:04.543Z"
+    },
+    "cid": "bafyreifo72mn65hi6pi7timydl3zmza5o3bukb4cozp4ftq7wnc6ojx6gq"
+  }
+}

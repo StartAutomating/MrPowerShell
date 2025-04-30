@@ -1,0 +1,91 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732410335845,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbnsvesqoc2a",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbnsvesqoc2a",
+    "record": {
+      "text": "#powershell core is about the same on #linux, #macos, or #raspberrypi .  You won't have the #windows specific modules, but the code is there.\n\nMost modules don't lock themselves down to an OS and should run just fine.\n\nMy only Mac devices are virtual nowadays.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreihpqdt4aywgojlhroep2uzuqv5kxqcybvmxdznuzzxaycwotn3m3y",
+          "uri": "at://did:plc:u6t752qp5rapom7v5eqfganz/app.bsky.feed.post/3lbnsfzzhdk2o"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 44,
+            "byteStart": 38
+          },
+          "features": [
+            {
+              "tag": "linux",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 52,
+            "byteStart": 46
+          },
+          "features": [
+            {
+              "tag": "macos",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 57
+          },
+          "features": [
+            {
+              "tag": "raspberrypi",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 100,
+            "byteStart": 92
+          },
+          "features": [
+            {
+              "tag": "windows",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-24T01:05:35.845Z"
+    },
+    "cid": "bafyreifozhgj5rghyvyjlxiljljrnkylt4cgy6hsjjhivemwnwbiu6oq4u"
+  }
+}

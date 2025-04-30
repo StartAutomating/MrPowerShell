@@ -1,0 +1,77 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1743610459874,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lltrt3gwnk2m",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lltrt3gwnk2m",
+    "record": {
+      "text": "Hey #PowerShell people and #ItPros :\n\nI'm loving this \"HelpDesk\" feed I setup with @graze.social \n\nbsky.app/profile/did:...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreid4xraaz4m3galbezh7y5dtzcd7pgaaxurvur3ca4h27e7cxy3vni",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.generator/helpdesk"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 27
+          },
+          "features": [
+            {
+              "tag": "ItPros",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 96,
+            "byteStart": 83
+          },
+          "features": [
+            {
+              "did": "did:plc:i6y3jdklpvkjvynvsrnqfdoq",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 123,
+            "byteStart": 99
+          },
+          "features": [
+            {
+              "uri": "https://bsky.app/profile/did:plc:hlchta7bwmobyum375ltycg5/feed/helpdesk",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-02T16:14:19.874Z"
+    },
+    "cid": "bafyreigep4g6uuttwdv647uxk7zhx6qatgakkqrf7kkchgqre3oivmemra"
+  }
+}

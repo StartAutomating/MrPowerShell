@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732116437071,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbfb6j3z5c2c",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbfb6j3z5c2c",
+    "record": {
+      "text": "Very cool!  I'd love a PR to GitHub.com/StartAutomat... ( the more slicing support the merrier )",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://GitHub.com/StartAutomating",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibxle436akc3po4cn3fewkadhmu442pz6z5a6s2nza55iy2lze7e4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 13706
+          },
+          "title": "StartAutomating - Overview",
+          "description": "Microsoft MVP in Azure / PowerShell. StartAutomating has 72 repositories available. Follow their code on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieibnzdej33ozlqwchxtjpfrlnietsgwcs7k2vsuvugtdeoxmtizi",
+          "uri": "at://did:plc:iljkklhesqtbtpawv7yf64xw/app.bsky.feed.post/3lbc5q7rd5s2m"
+        },
+        "parent": {
+          "cid": "bafyreieibnzdej33ozlqwchxtjpfrlnietsgwcs7k2vsuvugtdeoxmtizi",
+          "uri": "at://did:plc:iljkklhesqtbtpawv7yf64xw/app.bsky.feed.post/3lbc5q7rd5s2m"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 55,
+            "byteStart": 29
+          },
+          "features": [
+            {
+              "uri": "https://GitHub.com/StartAutomating/PS3D",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-20T15:27:17.071Z"
+    },
+    "cid": "bafyreiaugch7mvsnc3gxgzh3dsyku3pwedzrxtie6ciiafejcplnun6bgi"
+  }
+}

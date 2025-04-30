@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735870595120,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lesjj57iw224",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lesjj57iw224",
+    "record": {
+      "text": "Cool beans! If I can vouch for product, I'll let you all know.\n\n Hat tip to @bsky.ethicalthreat.com for the provider recommendation.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreib22ecjsze4z3vwwhevxrh5pc6gugueb7lxgljbvipnnuckyrp4ce",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lesdjberj224"
+        },
+        "parent": {
+          "cid": "bafyreib22ecjsze4z3vwwhevxrh5pc6gugueb7lxgljbvipnnuckyrp4ce",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lesdjberj224"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 99,
+            "byteStart": 76
+          },
+          "features": [
+            {
+              "did": "did:plc:wwvefq6zzoc2fy4pzo2tzjw4",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-03T02:16:35.12Z"
+    },
+    "cid": "bafyreigbk2opbvahinwy5fatebbdafv3qdppckx5c52bd26jkjt2oke4qq"
+  }
+}

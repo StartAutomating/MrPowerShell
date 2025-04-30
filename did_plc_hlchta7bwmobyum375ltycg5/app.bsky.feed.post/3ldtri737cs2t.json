@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734814001568,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldtri737cs2t",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldtri737cs2t",
+    "record": {
+      "text": "Got it.  I was actually suggesting that you put the whole step in a single background job, but in this case, you might have a bit if a trick to pull off because the script needs to be run as admin.\n\nStart-Process -Verb RunAs is your friend for this.\n\nIt has -PassThru :-)",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic4jtvmf76ckbeax44lzyuykmplrkn5d6mwflfrc32jrorno4ak4y",
+          "uri": "at://did:plc:tsunxhhri5rhz7nupfuzfwso/app.bsky.feed.post/3ldtk2ewgds2h"
+        },
+        "parent": {
+          "cid": "bafyreiba3t5efznnxvnri66foib75i3okjfjfz7gkrbeh2haugtsn6vvkq",
+          "uri": "at://did:plc:tsunxhhri5rhz7nupfuzfwso/app.bsky.feed.post/3ldtr7kccg22p"
+        }
+      },
+      "createdAt": "2024-12-21T20:46:41.568Z"
+    },
+    "cid": "bafyreidup5dnosanmfreksi2skdx7lnaukkwpdozk4mlcft5ssgsdbpoxi"
+  }
+}

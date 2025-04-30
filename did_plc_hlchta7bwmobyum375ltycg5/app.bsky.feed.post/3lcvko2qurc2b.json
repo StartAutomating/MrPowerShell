@@ -1,0 +1,79 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733775890017,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcvko2qurc2b",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcvko2qurc2b",
+    "record": {
+      "text": "1. #powershell core ( #pwsh) is much faster than windows powershell, period.\n\n2. #linux has less overhead than #windows, period.\n\n3. Because Powershell ( on windows ) checks for signatures on Windows, but not on Linux, every file loads faster.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiettvmcksnq2eckfmwvwsh2s2zlcuj74ykzhzxxsthrviuk74imim",
+          "uri": "at://did:plc:cupacm3nx4xoy5iciu6va6xc/app.bsky.feed.post/3lcsdm6kj3k2k"
+        },
+        "parent": {
+          "cid": "bafyreifdusjf2pf3idnjrjsmpb5vch2denwbmxla6zt7f4l6gqakb426za",
+          "uri": "at://did:plc:mlum75qxcuhljhxsosnvc62u/app.bsky.feed.post/3lcvk34gyg22a"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 3
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 27,
+            "byteStart": 22
+          },
+          "features": [
+            {
+              "tag": "pwsh",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 87,
+            "byteStart": 81
+          },
+          "features": [
+            {
+              "tag": "linux",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 119,
+            "byteStart": 111
+          },
+          "features": [
+            {
+              "tag": "windows",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-09T20:24:50.017Z"
+    },
+    "cid": "bafyreib4jibjz6bloache7gl5k6o7c4hkumb5dkpbcfnpqpib7qnnfe4je"
+  }
+}

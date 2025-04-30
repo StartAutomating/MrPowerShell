@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741205328758,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ljnrulo3bk26",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ljnrulo3bk26",
+    "record": {
+      "text": "That does sound pretty boring.\n\nIt's also a shame because #PowerShell is such an overpowered language and that is real \"tip of the iceberg\" stuff.\n\nLemme know if you have questions that class won't cover.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifp7aomf2wmhksnlmpsdpitjyudn72aulgxdrixnhccyusfcastfy",
+          "uri": "at://did:plc:sacjrgjwdocgmjgv3jddb45f/app.bsky.feed.post/3ljmozmlfgs2m"
+        },
+        "parent": {
+          "cid": "bafyreidmyou6udlp6etebcoy25gvvnq7xbjqvenrflkpl463igxolwglri",
+          "uri": "at://did:plc:sacjrgjwdocgmjgv3jddb45f/app.bsky.feed.post/3ljnn5zsf522w"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 58
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-05T20:08:48.758Z"
+    },
+    "cid": "bafyreihf37bn6yydzeznuatbegxa5j6zc7g67virku5x3cvuvtupnwzmaq"
+  }
+}

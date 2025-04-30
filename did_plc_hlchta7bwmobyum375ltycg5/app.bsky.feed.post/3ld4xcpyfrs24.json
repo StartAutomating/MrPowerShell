@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734029986443,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld4xcpyfrs24",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ld4xcpyfrs24",
+    "record": {
+      "text": "Yes, those types of functions work with PowerShell 1.\n\nIn fact, those sorts of functions were the only kind available in PowerShell 1.\n\nI call them \"freeform\" functions, and they can be fast and useful.\n\nScript Cmdlets / Advanced Functions are a v2 thing.\n\n( We're on PowerShell 7.4\n.6 now 😉 )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieixvnnnqwlx6mdkiizu2v3y7k2dkq5rzawxjq3vphgqmv45tj7gq",
+          "uri": "at://did:plc:nrxngnjnce74aisq4hiu5zuy/app.bsky.feed.post/3ld4pan77qc2n"
+        },
+        "parent": {
+          "cid": "bafyreid6c52tg2qvftypnuu2g6qo36eotd7rflnebir7uhp55bnwcrtdva",
+          "uri": "at://did:plc:nrxngnjnce74aisq4hiu5zuy/app.bsky.feed.post/3ld4sookotc2n"
+        }
+      },
+      "createdAt": "2024-12-12T18:59:46.443Z"
+    },
+    "cid": "bafyreihsmv7fgfbqsf3fwcnck2diavg6faqrun34mbjmu4ivaoakodr62i"
+  }
+}

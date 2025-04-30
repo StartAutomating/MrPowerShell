@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734574147166,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldms3y3sss2r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldms3y3sss2r",
+    "record": {
+      "text": "Yeah, modifiers can be very handy.  Like, for example, making parts of a match case insensitive or case sensitive.\n\n`New-Regex -Modifier Multiline`\n\nis much longer than\n\n`(?m)`\n\nBut 🤷 tab completion 😉.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibq4b5frpmrlrfapqlhtpev6gh772wlcigkfwb3ypzt6fgn64zwxq",
+          "uri": "at://did:plc:re4hy2aynaii3jfcgl2s5gmp/app.bsky.feed.post/3ldm73jttns2s"
+        },
+        "parent": {
+          "cid": "bafyreigsv5vo6wk2if5fjjg6x27g4pxoihtlglb355blukxirob2avumyy",
+          "uri": "at://did:plc:fh3l5o4idrmsjtfuxxgxqowu/app.bsky.feed.post/3ldmjkgllyk2f"
+        }
+      },
+      "createdAt": "2024-12-19T02:09:07.166Z"
+    },
+    "cid": "bafyreihvr4n4ruh7nfy5wo2okx45ri25eyhvzty3qnxvgtajwxruffjnu4"
+  }
+}

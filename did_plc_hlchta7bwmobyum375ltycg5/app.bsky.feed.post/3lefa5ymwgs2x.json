@@ -1,0 +1,67 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735413880943,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lefa5ymwgs2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lefa5ymwgs2x",
+    "record": {
+      "text": "Got it.\n\nI normally use #powershell in a container, in #github workflows, or on a windows dev box.\n\nDefinitely runs a lot faster on #linux.\n\nSo I'm here by choice 😉.\n\nAre all the pwsh people you meet pushy about trying it on Linux or something ?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiggxfuosyuusdslta4bz6wzz73g2ptvzcin2ipvuptawl4wknricy",
+          "uri": "at://did:plc:bpmtx4nv56gasrya66xwxigw/app.bsky.feed.post/3leewjn7pxs2e"
+        },
+        "parent": {
+          "cid": "bafyreig7t6xrpfuhga2lrkz6qvwxa3mi6dqzrlo2lhqdodydxm4e3v4rh4",
+          "uri": "at://did:plc:bpmtx4nv56gasrya66xwxigw/app.bsky.feed.post/3lef7lkune22a"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 35,
+            "byteStart": 24
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 62,
+            "byteStart": 55
+          },
+          "features": [
+            {
+              "tag": "github",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 138,
+            "byteStart": 132
+          },
+          "features": [
+            {
+              "tag": "linux",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-28T19:24:40.943Z"
+    },
+    "cid": "bafyreigz7q6ykpag23jev6wn2mf4tkwmuucdovoaqnlbov65bn53z7lgzm"
+  }
+}

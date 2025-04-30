@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1692558341643,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k5fxuens762m",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k5fxuens762m",
+    "record": {
+      "text": "\"Norwegian Wood\" is like an ordinary Beatles song, until you read the lyrics.\n\nThen it's about a crazed fan that got their house burned down.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiccftaifzomvkz6vngjx4mcb4zm2w3ppj7afpkvhxig7zxb725f3i",
+          "uri": "at://did:plc:swpu47w34vqoj6ugf5fa3osp/app.bsky.feed.post/3k5f4kzlx2z2h"
+        },
+        "parent": {
+          "cid": "bafyreiccftaifzomvkz6vngjx4mcb4zm2w3ppj7afpkvhxig7zxb725f3i",
+          "uri": "at://did:plc:swpu47w34vqoj6ugf5fa3osp/app.bsky.feed.post/3k5f4kzlx2z2h"
+        }
+      },
+      "createdAt": "2023-08-20T19:05:41.643Z"
+    },
+    "cid": "bafyreig4niaiqn7fj6q4qbsuaygmrn34ovubab7zwwrxzla5n5lg5mjg6y"
+  }
+}

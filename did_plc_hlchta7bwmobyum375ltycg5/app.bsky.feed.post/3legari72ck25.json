@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735448894538,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3legari72ck25",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3legari72ck25",
+    "record": {
+      "text": "DirectX and OpenGL are both a bit hellish.\n\nThe reason DirectX \"won\" has nothing to do with OpenGL though.\n\nIt has everything to do with how bad Mac game development was in the 80s/90s.  And being the only consistently workable answer in console wars.\n\nKinda thank Unreal for that one.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibagzp5slkeladvwxv62gx4chp2dn6ysma7k4wpla5jcv2bi6cbqm",
+          "uri": "at://did:plc:3p7m65ikus2al6tiizhbmwqq/app.bsky.feed.post/3ledv3onjzk22"
+        },
+        "parent": {
+          "cid": "bafyreig5ngz5kysoa7e2ssdhpa2v3avfpun7xuluslfxozbrrqz2vot4re",
+          "uri": "at://did:plc:3p7m65ikus2al6tiizhbmwqq/app.bsky.feed.post/3ledwccp4uk22"
+        }
+      },
+      "createdAt": "2024-12-29T05:08:14.538Z"
+    },
+    "cid": "bafyreiezkvjywutxonoddksireoqais4aj3hpsn4mwk2klqywlxowvwvgu"
+  }
+}

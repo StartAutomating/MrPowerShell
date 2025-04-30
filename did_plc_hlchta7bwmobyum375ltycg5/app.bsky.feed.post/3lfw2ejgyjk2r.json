@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737091284631,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfw2ejgyjk2r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfw2ejgyjk2r",
+    "record": {
+      "text": "Oh yeah that makes some bizarro sense.\n\nWhen you use tab completion, it either has to enumerate all the commands, enumerate all the parameter names to a command, and enumerate any completable arguments for the current parameter.\n\n(That's a lot of little loops you don't see, just feel).",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidac2nbjsvstz2dvlmpp32kqi35k4yi4m4bqnjwcee73j4kui6gtu",
+          "uri": "at://did:plc:cupacm3nx4xoy5iciu6va6xc/app.bsky.feed.post/3lfvuv4cjzs23"
+        },
+        "parent": {
+          "cid": "bafyreia5dekwuhqgqfyjevsxtipsr4oglsh6y5udngyjmx4selqmgwmt4e",
+          "uri": "at://did:plc:cupacm3nx4xoy5iciu6va6xc/app.bsky.feed.post/3lfvzrnsrf22l"
+        }
+      },
+      "createdAt": "2025-01-17T05:21:24.631Z"
+    },
+    "cid": "bafyreiblebqpfqsum6sih4ymcjoigamsuihv5xx7jr7i4gdpwqlna6gjum"
+  }
+}

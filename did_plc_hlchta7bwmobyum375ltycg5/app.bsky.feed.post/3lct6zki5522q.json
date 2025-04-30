@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733694671227,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lct6zki5522q",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lct6zki5522q",
+    "record": {
+      "text": "Congratulations!\n\nHow'd you end up getting there so quickly?\n\n( I swear I suck at these algorithms, as I spend too much time making other algorithms).\n\nAlso, what cool new .NET features would you love to be able to script in #powershell ?\n\n( Always looking for inspiration )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiaevhctejmlivb53ru4eplbkfeamz7623hicylzqjerbtknjjkrji",
+          "uri": "at://did:plc:dyidtvrczrdyracol7td4qtf/app.bsky.feed.post/3lcqbxepocc27"
+        },
+        "parent": {
+          "cid": "bafyreiaevhctejmlivb53ru4eplbkfeamz7623hicylzqjerbtknjjkrji",
+          "uri": "at://did:plc:dyidtvrczrdyracol7td4qtf/app.bsky.feed.post/3lcqbxepocc27"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 236,
+            "byteStart": 225
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-08T21:51:11.227Z"
+    },
+    "cid": "bafyreiatfhpgpev255nisv7m32ghxb5ua2mwg6d65apxjhidjzbk5xcsdq"
+  }
+}

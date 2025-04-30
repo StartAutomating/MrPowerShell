@@ -1,0 +1,107 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744046828483,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmai7uxxh222",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmai7uxxh222",
+    "record": {
+      "text": "Can confirm the #PowerShell is case insensitive.\n\nExcept for:\n\n* Files on #Linux and #MacOS\n* #json and #xml files that are case sensitive by design\n* ParameterSetNames ( beward of curveball )",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/lM33woqkIHoAAAAC/letterkenny-katie.gif?hh=280&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibungfjsxtflauu2uddnujezgzzdh7za4ltzlp2e75okkj5zwalea"
+            },
+            "mimeType": "image/jpeg",
+            "size": 120129
+          },
+          "title": "a woman wearing overalls sits in a chair with her legs crossed",
+          "description": "Alt: Katie from Letterkenny knows that PowerShell is mostly case insensitive."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreif7sgbupgsvy7d6fjpyiosunkafovfsk4j6ia5ppdtfgaljibgj3m",
+          "uri": "at://did:plc:x47ddi454a4x2j4mu5pmtuyc/app.bsky.feed.post/3lm7mzvr7v22m"
+        },
+        "parent": {
+          "cid": "bafyreiccd5h5htk4wwlk2jhyhdaeglpbieirhv453gdoxmtj4ktsaybmwm",
+          "uri": "at://did:plc:gd47asv777zh4scn4lm5d3mr/app.bsky.feed.post/3lm7vpgzwqc2x"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 27,
+            "byteStart": 16
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 80,
+            "byteStart": 74
+          },
+          "features": [
+            {
+              "tag": "Linux",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 91,
+            "byteStart": 85
+          },
+          "features": [
+            {
+              "tag": "MacOS",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 99,
+            "byteStart": 94
+          },
+          "features": [
+            {
+              "tag": "json",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 108,
+            "byteStart": 104
+          },
+          "features": [
+            {
+              "tag": "xml",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-07T17:27:08.483Z"
+    },
+    "cid": "bafyreifxqqskowx2ev7uioe52f75nzyk4t5upvs72dezthn6jk3u55bjtm"
+  }
+}

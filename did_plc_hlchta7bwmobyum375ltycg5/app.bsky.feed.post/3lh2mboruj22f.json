@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738347467499,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lh2mboruj22f",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lh2mboruj22f",
+    "record": {
+      "text": "It's been a somewhat slow month for me.\n\nProbably the biggest win of the month is @gruvity.com \n\nWorking on improvements to the WebSocket module ( for realtime response and fast IPC )\n\nWorking on some RoughDraft and obs-powershell (for content production)\n\nAlso ran a user group.\n\nRan a user group.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiamfwsquiqiubwduzypcpahxi6o433i5bqcnev2cbnzl74atggztu",
+          "uri": "at://did:plc:munmkmorl6d57hkragyydlyh/app.bsky.feed.post/3lgzzq3kpc42w"
+        },
+        "parent": {
+          "cid": "bafyreiamfwsquiqiubwduzypcpahxi6o433i5bqcnev2cbnzl74atggztu",
+          "uri": "at://did:plc:munmkmorl6d57hkragyydlyh/app.bsky.feed.post/3lgzzq3kpc42w"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 94,
+            "byteStart": 82
+          },
+          "features": [
+            {
+              "did": "did:plc:pftp3t57tdp5ts4q63ku5vwt",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-31T18:17:47.499Z"
+    },
+    "cid": "bafyreigihnff35gt4a2lankisqhxnlq7jzx2eczsdujfu7dqeutr2otr5a"
+  }
+}

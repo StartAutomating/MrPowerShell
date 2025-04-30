@@ -1,0 +1,83 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741387204984,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ljt3awe36k2d",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ljt3awe36k2d",
+    "record": {
+      "text": "Alright this little directory should be a goldmine of #PowerShell #Color scripts\n\ngithub.com/StartAutomat...\n\nThat module controls smart lighting btw.\n\nI'll try to make something that's just for colors soon.\n\nYou might also want to check out Pansies.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/LightScript/tree/main/Types/LightScript.Color",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiduxw3ohjnk2p6ypl26detscrmubixahkg6lybd7syakszesc6ebu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 33703
+          },
+          "title": "LightScript/Types/LightScript.Color at main · StartAutomating/LightScript",
+          "description": "Smarter Lighting with PowerShell. Contribute to StartAutomating/LightScript development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicrru3zwfu2vjxytzdflvkvtez4fhwakx3f2xr37ulwheubiqurjm",
+          "uri": "at://did:plc:cmyrib2ubhwg7aokqnze76n6/app.bsky.feed.post/3ljsnh3h4vk25"
+        },
+        "parent": {
+          "cid": "bafyreibti4cowhrmvffwnnezma3u7xk6mjld2bujxrboe7alf3mcbpbws4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ljsv3hte6s2d"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 65,
+            "byteStart": 54
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 72,
+            "byteStart": 66
+          },
+          "features": [
+            {
+              "tag": "Color",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 108,
+            "byteStart": 82
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/LightScript/tree/main/Types/LightScript.Color",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-07T22:40:04.984Z"
+    },
+    "cid": "bafyreif6gmzmhq5uyfcuwk5w27noflkx7a5pipvywq47gp2xrdzx3ckadq"
+  }
+}

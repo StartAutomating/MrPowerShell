@@ -1,0 +1,121 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742150527244,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lkjc5p6rpk26",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lkjc5p6rpk26",
+    "record": {
+      "text": "For this weekend's light #PowerShell #Web fun, I've made some modules for #oEmbed and #OpenGraph.\n\nLet's start with oEmbed:\n\nIt's used to embed social media into other pages.\n\ngithub.com/PowerShellWe...\n\nWant to get embedding code for #YouTube, #TikTok, and more?\n\nJust ask oEmbed.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/PowerShellWeb/oEmbed",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifkvnzmzq3rnnfvgtllwnzz74nj46gqbeg2othxnmvn2zph6b4z44"
+            },
+            "mimeType": "image/jpeg",
+            "size": 106083
+          },
+          "title": "GitHub - PowerShellWeb/oEmbed: Open Embedding with PowerShell",
+          "description": "Open Embedding with PowerShell. Contribute to PowerShellWeb/oEmbed development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 25
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 41,
+            "byteStart": 37
+          },
+          "features": [
+            {
+              "tag": "Web",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 81,
+            "byteStart": 74
+          },
+          "features": [
+            {
+              "tag": "oEmbed",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 96,
+            "byteStart": 86
+          },
+          "features": [
+            {
+              "tag": "OpenGraph",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 202,
+            "byteStart": 176
+          },
+          "features": [
+            {
+              "uri": "https://github.com/PowerShellWeb/oEmbed",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 243,
+            "byteStart": 235
+          },
+          "features": [
+            {
+              "tag": "YouTube",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 252,
+            "byteStart": 245
+          },
+          "features": [
+            {
+              "tag": "TikTok",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-16T18:42:07.244Z"
+    },
+    "cid": "bafyreig6ducy7ettcrminbsompu73wdmacwe2fwvwsvg4vyfnqf3fjhpvu"
+  }
+}

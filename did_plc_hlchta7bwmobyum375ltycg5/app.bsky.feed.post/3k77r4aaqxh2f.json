@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1694543979694,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k77r4aaqxh2f",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k77r4aaqxh2f",
+    "record": {
+      "text": "@AtProto.com : Definitely getting the hang of this API ( correcting your mention ).  Posting from PowerShell is fun!",
+      "$type": "app.bsky.feed.post",
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 12,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "did": "did:plc:ewvi7nxzyoun6zhxrhs64oiz",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-09-12T11:39:39.6948674-07:00"
+    },
+    "cid": "bafyreidabudhxh654hb7fknnxfrcau22pnqpsndpfaxm6kkvvelr7d6elq"
+  }
+}

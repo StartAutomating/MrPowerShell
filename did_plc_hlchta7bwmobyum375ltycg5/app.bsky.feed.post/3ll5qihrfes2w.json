@@ -1,0 +1,57 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742853115719,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ll5qihrfes2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ll5qihrfes2w",
+    "record": {
+      "text": "Who was the #AtmosphereConf speaker who was running #AtProto aggrgation on a #RaspberryPi ?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 27,
+            "byteStart": 12
+          },
+          "features": [
+            {
+              "tag": "AtmosphereConf",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 52
+          },
+          "features": [
+            {
+              "tag": "AtProto",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 89,
+            "byteStart": 77
+          },
+          "features": [
+            {
+              "tag": "RaspberryPi",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-24T21:51:55.719Z"
+    },
+    "cid": "bafyreia4f7ye4xqwgzrnkhwveejzmap5kqbx5v4mm5iurdzxlcgnyfov74"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734734874418,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldrhrzkauk2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldrhrzkauk2s",
+    "record": {
+      "text": "This is compared to when people are not watching me code....",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/NSd9TkCUsh0AAAAC/laughing-farnsworth.gif?hh=399&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidqll5dkgmyg53iuxzimlhozj5ouxxfbax7owl3mbvgy7voepeke4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 96414
+          },
+          "title": "a cartoon character with futurama written on the top",
+          "description": "Alt: It's alive! ( Farnsworth from Futurama exclaims while lighting crashes )"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigj65sb4na3eco4uq3sp5kpclhdtifer7gidsshg4hi7qcqwivuey",
+          "uri": "at://did:plc:z24nao2xh43csg2fn4v4eggh/app.bsky.feed.post/3ldr4t6vgzk2n"
+        },
+        "parent": {
+          "cid": "bafyreigj65sb4na3eco4uq3sp5kpclhdtifer7gidsshg4hi7qcqwivuey",
+          "uri": "at://did:plc:z24nao2xh43csg2fn4v4eggh/app.bsky.feed.post/3ldr4t6vgzk2n"
+        }
+      },
+      "createdAt": "2024-12-20T22:47:54.418Z"
+    },
+    "cid": "bafyreickchnqvxfjedmeprshmhwychkgobq6lids7tzdmpvhms3bqnfpdi"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732741549402,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbxhecodwk2g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbxhecodwk2g",
+    "record": {
+      "text": "Just made a \"Nerds worth Knowing\" starter pack:\n\ngo.bsky.app/4b3Vrvy\n\nWant to be on the list?  At me.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreifn2tfq7pwkcv7kugkrbqktcu6avw6lsrrwrlof4rllhxahfpivia",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.graph.starterpack/3lbxhep53bw2b"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 68,
+            "byteStart": 49
+          },
+          "features": [
+            {
+              "uri": "https://go.bsky.app/4b3Vrvy",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-27T21:05:49.402Z"
+    },
+    "cid": "bafyreidlepei42uy5g2pnb6ol4wqbkzlxdums2dnvlj4y2n7nybptxeq2a"
+  }
+}

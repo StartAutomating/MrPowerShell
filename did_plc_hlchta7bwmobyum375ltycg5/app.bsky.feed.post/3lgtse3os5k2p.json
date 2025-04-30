@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738113472422,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgtse3os5k2p",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgtse3os5k2p",
+    "record": {
+      "text": "There was a Dominos Tracker API that you could automate from PowerShell.\n\n( Having a bit of trouble finding the old scripts )\n\nOrdering the pizza would be another story.  You'd probably be able to do this by automating the browser, but it would get a little ugly.\n\nI'd pick a tastier starting point.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihtrntrj344l4hnnbjrehzw757z4uiatblktivon6zeokfu66ivku",
+          "uri": "at://did:plc:r77curjn55q4jpuvy3t6hjoy/app.bsky.feed.post/3lgtmtmjpps23"
+        },
+        "parent": {
+          "cid": "bafyreihtrntrj344l4hnnbjrehzw757z4uiatblktivon6zeokfu66ivku",
+          "uri": "at://did:plc:r77curjn55q4jpuvy3t6hjoy/app.bsky.feed.post/3lgtmtmjpps23"
+        }
+      },
+      "createdAt": "2025-01-29T01:17:52.422Z"
+    },
+    "cid": "bafyreido5bkclztjp2ksgiv5uamaqkelc63vnqszhkqpiygntc7s2sh2yy"
+  }
+}

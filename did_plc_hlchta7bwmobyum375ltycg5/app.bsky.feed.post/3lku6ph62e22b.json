@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742524784968,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lku6ph62e22b",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lku6ph62e22b",
+    "record": {
+      "text": "Ah, cool.\n\nWell, I'd gladly take a PR or issue for any plugins you've got.\n\nThe module works over the WebSocket, so it's mainly an exercise in taking whatever configuration options you allow and turning them into PowerShell parameters.\n\nHappy to help you thru it.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreictselvfn3eoehkgr4xroamtx7h7acmuovqp3orok75ej6r7nun24",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lku2eb6flk23"
+        },
+        "parent": {
+          "cid": "bafyreigupl7vdnufpjxrgohxsymfqtl3nhskrdrrmcvyq2ispyiqazo2mm",
+          "uri": "at://did:plc:fzi6kgkbfdja3itxm7xijepq/app.bsky.feed.post/3lku5b4prws2b"
+        }
+      },
+      "createdAt": "2025-03-21T02:39:44.968Z"
+    },
+    "cid": "bafyreic24xmyhstmfursacllc6be5ywoyslfxq3y7vxiiv4ap3wrmlqgwu"
+  }
+}

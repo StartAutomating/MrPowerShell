@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733003945493,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lc73qd3kkc2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lc73qd3kkc2o",
+    "record": {
+      "text": "Good role models are hard to find, and important.\n\nThis video brings me hope and breaks my heart, especially its closing line.\n\n\"He can't know love if he's never been told\"\n\nwww.instagram.com/share/reel/B...",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieusqsyioboqk2sd66ookyn77exrigiva32p5luxy5zpeh4nutvx4",
+          "uri": "at://did:plc:ywbm3iywnhzep3ckt6efhoh7/app.bsky.feed.post/3lc72o6gavk2f"
+        },
+        "parent": {
+          "cid": "bafyreieusqsyioboqk2sd66ookyn77exrigiva32p5luxy5zpeh4nutvx4",
+          "uri": "at://did:plc:ywbm3iywnhzep3ckt6efhoh7/app.bsky.feed.post/3lc72o6gavk2f"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 207,
+            "byteStart": 174
+          },
+          "features": [
+            {
+              "uri": "https://www.instagram.com/share/reel/BAByxxqLCv",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-30T21:59:05.493Z"
+    },
+    "cid": "bafyreigvu45t3o6666isictumz3x6hqcvjucirgsvvdpyenpj5jptf2wvm"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733257185110,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcghlh7dzk2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcghlh7dzk2u",
+    "record": {
+      "text": "Do you make #powershell videos, either on #youtube or #tiktok?  Do you occasionally stream your scripting on #twitch?\n\nLet me know with a reply, and I'll make a starter park for powershell content creators.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 23,
+            "byteStart": 12
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 50,
+            "byteStart": 42
+          },
+          "features": [
+            {
+              "tag": "youtube",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 61,
+            "byteStart": 54
+          },
+          "features": [
+            {
+              "tag": "tiktok",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 116,
+            "byteStart": 109
+          },
+          "features": [
+            {
+              "tag": "twitch",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-03T20:19:45.11Z"
+    },
+    "cid": "bafyreicbgw76fesga2tzyrobvl3h3unnncgc3ox5suhzs63hhxg6lclubm"
+  }
+}

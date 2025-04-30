@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734111464422,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld7d6xgynk27",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ld7d6xgynk27",
+    "record": {
+      "text": "a - I do, and did for years before #PowerShell was even a thing\n\nb - I suspect it tracks with os adoption, aka, around 80-90% of devs.\n\nc - believe it or not, you can write front ends in PowerShell, too.  This is overpowered for web dev.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihujjumpz6f4jqeibdtru2epkqfxdklvogqlv3xcrffsdpttixc7y",
+          "uri": "at://did:plc:rkm6m4dsc4da2yzdlvxorhf3/app.bsky.feed.post/3ld6rbcm2fk2c"
+        },
+        "parent": {
+          "cid": "bafyreihujjumpz6f4jqeibdtru2epkqfxdklvogqlv3xcrffsdpttixc7y",
+          "uri": "at://did:plc:rkm6m4dsc4da2yzdlvxorhf3/app.bsky.feed.post/3ld6rbcm2fk2c"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 46,
+            "byteStart": 35
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-13T17:37:44.422Z"
+    },
+    "cid": "bafyreidh4pyuhjv3asegj4iy7puelnpfh37u34mnkcw3m2w3nqndpsosr4"
+  }
+}

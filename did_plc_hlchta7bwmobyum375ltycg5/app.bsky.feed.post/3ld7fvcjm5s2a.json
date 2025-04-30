@@ -1,0 +1,85 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734114361724,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld7fvcjm5s2a",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ld7fvcjm5s2a",
+    "record": {
+      "text": "#Friday13th #PowerShell #fun\n\nfunction f13($n=13) {    \n    $day, $f13 = (Get-Date).Date, @()\n    do {\n        if ($day.DayOfWeek * $day.Day -eq 65) {\n            $f13 += $day\n        }\n        $day = $day.AddDays(1)    \n    } while ($f13.Count -lt $n)\n    $f13\n}\nf13\n\ngist.github.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://gist.github.com/StartAutomating/b4877182d79c4e22514fed8f98a8ebbe",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreialjfbvjmblgykiooldgd2f3gmv2hki2sjiofn7hm7imj53ituydi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 121763
+          },
+          "title": "Gist gotta know when Friday the 13th is",
+          "description": "Gist gotta know when Friday the 13th is. GitHub Gist: instantly share code, notes, and snippets."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "Friday13th",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 23,
+            "byteStart": 12
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 28,
+            "byteStart": 24
+          },
+          "features": [
+            {
+              "tag": "fun",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 300,
+            "byteStart": 269
+          },
+          "features": [
+            {
+              "uri": "https://gist.github.com/StartAutomating/b4877182d79c4e22514fed8f98a8ebbe",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-13T18:26:01.724Z"
+    },
+    "cid": "bafyreicx7st4c6ys6d7aeat3v55f7btgygnwp36bwh5jy666ek43gqonde"
+  }
+}

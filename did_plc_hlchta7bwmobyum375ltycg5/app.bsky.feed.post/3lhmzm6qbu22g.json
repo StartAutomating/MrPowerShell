@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738980253704,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhmzm6qbu22g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhmzm6qbu22g",
+    "record": {
+      "text": "\"It's not a bug, it's a feature\"\n\n- lies we tell ourselves about code that are also sadly true about the news.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidcgfvullelj4ima73fad3iaocbsdmgesd4pb4dep7u4zb4k4yyh4",
+          "uri": "at://did:plc:g7nywl63frmuddq274whiwr6/app.bsky.feed.post/3lhmniahf5k2l"
+        },
+        "parent": {
+          "cid": "bafyreidcgfvullelj4ima73fad3iaocbsdmgesd4pb4dep7u4zb4k4yyh4",
+          "uri": "at://did:plc:g7nywl63frmuddq274whiwr6/app.bsky.feed.post/3lhmniahf5k2l"
+        }
+      },
+      "createdAt": "2025-02-08T02:04:13.704Z"
+    },
+    "cid": "bafyreicdjmnv22uode3gn76ndqxnuqwy6a7gmvd45qgr2iyabwpweg2wqq"
+  }
+}

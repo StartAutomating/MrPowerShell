@@ -1,0 +1,57 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1696488962547,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kayej7n2aq2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kayej7n2aq2v",
+    "record": {
+      "text": "Today I completed a 3 release hat trick! First PSA (which is sending this message), then HelpOut, then ugit).  Woot!  Today was a good day!",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 50,
+            "byteStart": 47
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/PSA",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 96,
+            "byteStart": 89
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/HelpOut",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 107,
+            "byteStart": 103
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/ugit",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-10-04T23:56:02.5474007-07:00"
+    },
+    "cid": "bafyreie7glm3xejejo3be4ome77lrcykf7ibbm7usewcuwlmljadmuqla4"
+  }
+}

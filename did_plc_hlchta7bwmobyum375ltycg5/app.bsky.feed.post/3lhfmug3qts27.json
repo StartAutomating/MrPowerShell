@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738726053043,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhfmug3qts27",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhfmug3qts27",
+    "record": {
+      "text": "Please make my day and tell me this will use some web sockets.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiapmv5pwlkfaophqjbm6lag4wvotrtobpvxcly47rpqq7cqknqc2u",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3lhf4xazr5c26"
+        },
+        "parent": {
+          "cid": "bafyreiapmv5pwlkfaophqjbm6lag4wvotrtobpvxcly47rpqq7cqknqc2u",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3lhf4xazr5c26"
+        }
+      },
+      "createdAt": "2025-02-05T03:27:33.043Z"
+    },
+    "cid": "bafyreidslm3xlekzyksmkhcfxchslm46jw3lkvlzltonqeo3obzi7xuy3y"
+  }
+}

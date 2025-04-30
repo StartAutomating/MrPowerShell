@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732732433248,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbx6umtfs22u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbx6umtfs22u",
+    "record": {
+      "text": "It's always #PowerShell script time 😉🤪😂😭😂🤪😉🥳",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigfljwntcbaus5tkyji4ifhvupdmvdydy4jdcvcsmpogibzyggu6m",
+          "uri": "at://did:plc:l7cy3kursniytxtu24y5ajag/app.bsky.feed.post/3lbwdtojkus2a"
+        },
+        "parent": {
+          "cid": "bafyreifk6adjg7rz64x2fnjw757dmrhscsk6pq6f3wwouwuo4vnq456hii",
+          "uri": "at://did:plc:mt63cybjejfxe3eye5xcky7e/app.bsky.feed.post/3lbx4j6iin22x"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 23,
+            "byteStart": 12
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-27T18:33:53.248Z"
+    },
+    "cid": "bafyreieitoesmcxfu6h5ajyhvx47xdmqa34z45jetg2bocpzzsbhqktq6i"
+  }
+}

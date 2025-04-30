@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742923331224,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ll7rv2iki22d",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ll7rv2iki22d",
+    "record": {
+      "text": "Cool!\n\nFirst off, I would name my module the same as the repo.\n\nSecond up, I would use New-ModuleManifest to make a manifest.\n\nThird, I'd make sure all commands use Inflector in their noun.\n\nFourth, I'd use more verbs than just Invoke.\n\nMake sense ?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiemdtravp76mzqvw45gnqmlfxm4dvjy7atdu5jnlarhf2rdvkz7am",
+          "uri": "at://did:plc:q4r2rosbojocbskzd3aamxxx/app.bsky.feed.post/3ll6fbt65xc25"
+        },
+        "parent": {
+          "cid": "bafyreifelwoqmelxyd5d5ehh7gvllrt7a4un3z5ccfz4w5llvbrjx6wls4",
+          "uri": "at://did:plc:q4r2rosbojocbskzd3aamxxx/app.bsky.feed.post/3ll7ewnofdc2i"
+        }
+      },
+      "createdAt": "2025-03-25T17:22:11.224Z"
+    },
+    "cid": "bafyreigrarzk4ng6tzkfkv3dvvsomskgslee3f7chml7nflwvnuesl2zuu"
+  }
+}

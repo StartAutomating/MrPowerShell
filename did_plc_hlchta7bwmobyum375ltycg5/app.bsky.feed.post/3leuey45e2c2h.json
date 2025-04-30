@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735934448084,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leuey45e2c2h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leuey45e2c2h",
+    "record": {
+      "text": "Lol, I worked too many shows without plugs.\n\nLighting and video was a fun job, but had some permanent hearing damage as a side effect.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/T75g_Hp0pg8AAAAC/laser-rave.gif?hh=498&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieqngj52wgkd5ssyxbfi2fo2eqpyyt7sixfqzjinovhiugopx776y"
+            },
+            "mimeType": "image/jpeg",
+            "size": 245952
+          },
+          "title": "a crowd of people watching a show with blue lights",
+          "description": "Alt: Not my show, but I appreciate the laser work."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihjcioabraumy2an3rtxfbeg3pkohrrpn4hl3ngodjb2bdercyjni",
+          "uri": "at://did:plc:g7nywl63frmuddq274whiwr6/app.bsky.feed.post/3leu2fwv4bk2d"
+        },
+        "parent": {
+          "cid": "bafyreibs3ml5ljisgvc4wxksgwixo5sl24i4lyzkvsrwmi4tiefmk6soxe",
+          "uri": "at://did:plc:iga7ipxo6jy26wv6bevcmdem/app.bsky.feed.post/3leue3u6zhs2n"
+        }
+      },
+      "createdAt": "2025-01-03T20:00:48.084Z"
+    },
+    "cid": "bafyreieq5342s2am4mnrmwldjpnqpycbkbpo4tbahos5dlx6p5ij4h7b2i"
+  }
+}

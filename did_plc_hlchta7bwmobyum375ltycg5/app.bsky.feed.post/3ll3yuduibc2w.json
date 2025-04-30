@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742793384737,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ll3yuduibc2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ll3yuduibc2w",
+    "record": {
+      "text": "#AtmosphereConf was amazing!\n\nIt's been a very long time since I've met so many great people trying to build so many great things!\n\nLiterally can't wait until next year.\n\nWho wants to help run some #AtProto monthly meetups, to tide us all over until next year?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "AtmosphereConf",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 206,
+            "byteStart": 198
+          },
+          "features": [
+            {
+              "tag": "AtProto",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-24T05:16:24.737Z"
+    },
+    "cid": "bafyreicyl3yi4x45uha2fuzipm3o7ekkqah7xxd4rqgpp4pdzymkeahmtm"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738979573618,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhmyxw5pek2g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhmyxw5pek2g",
+    "record": {
+      "text": "I set up #powrshell in #userland  a couple of years ago on #Kali #Linux\n\nDon't recall exactly what light hell #Ubuntu was but what you're going thru sounds familiar.\n\nIf I recall correctly, it was basically \"follow the distro instructions but replace amd64 with arm\"\n\n( Same as #RaspberryPI )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiemwp5pu4olcf3y4f3netwcswl4ubgmgmwzc6rshmoxhjux3hskfa",
+          "uri": "at://did:plc:cpb3pyhd3wd2nswsbcavvsdz/app.bsky.feed.post/3lhmhubrnhc2g"
+        },
+        "parent": {
+          "cid": "bafyreiemwp5pu4olcf3y4f3netwcswl4ubgmgmwzc6rshmoxhjux3hskfa",
+          "uri": "at://did:plc:cpb3pyhd3wd2nswsbcavvsdz/app.bsky.feed.post/3lhmhubrnhc2g"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 19,
+            "byteStart": 9
+          },
+          "features": [
+            {
+              "tag": "powrshell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 23
+          },
+          "features": [
+            {
+              "tag": "userland",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 64,
+            "byteStart": 59
+          },
+          "features": [
+            {
+              "tag": "Kali",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 71,
+            "byteStart": 65
+          },
+          "features": [
+            {
+              "tag": "Linux",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 117,
+            "byteStart": 110
+          },
+          "features": [
+            {
+              "tag": "Ubuntu",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 290,
+            "byteStart": 278
+          },
+          "features": [
+            {
+              "tag": "RaspberryPI",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-08T01:52:53.618Z"
+    },
+    "cid": "bafyreib34vklthnvg4ru66qbpcmhjkm7ypdgsnzjzpte45b2y4lrxt7sxa"
+  }
+}

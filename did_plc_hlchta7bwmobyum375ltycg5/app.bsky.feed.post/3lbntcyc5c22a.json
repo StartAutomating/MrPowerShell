@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732410792480,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbntcyc5c22a",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbntcyc5c22a",
+    "record": {
+      "text": "Features only #powershell has ( built in )\n\n1. Object pipeline\n2. Extended types system\n3. Formatting engine\n4. Command adapters\n5. Rich command metadata\n6. Command discovery / help\n7. Argument completion\n8. Type decoration\n9. Open objects\n10. Multiword commands\n\nAsk me about any of these.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreihsq2viv2khjzfohache6afvilcgdqvcvb6b2a6fi5dmznxzynux4",
+          "uri": "at://did:plc:xpnah7xsi3nbbq4wqww7jued/app.bsky.feed.post/3lbnsrs6a3s2f"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 25,
+            "byteStart": 14
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-24T01:13:12.48Z"
+    },
+    "cid": "bafyreiahy6buaa56x4vdnoovtqllhnpncd3kikbnv6oaojjs3bpk3f3nr4"
+  }
+}

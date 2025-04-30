@@ -1,0 +1,133 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1731200241821,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3laklvr7tec2e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3laklvr7tec2e",
+    "record": {
+      "text": "Want a #CSS #Color #Palette for your website?\n\nWant it to match your #PowerShell, #xterm, #WindowsTerminal, or #VSCode?\n\nWe've got 336 of them and counting :-)\n\n4bitcss.com/Galaxy/",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://4bitcss.com/Galaxy/",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicgnu7aku4pemape2ofxjznhgbdlsp6lfx7zskdlnloaqqjxnff6u"
+            },
+            "mimeType": "image/jpeg",
+            "size": 69769
+          },
+          "title": "/Galaxy/Galaxy.css",
+          "description": "Galaxy color scheme"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 7
+          },
+          "features": [
+            {
+              "tag": "CSS",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 18,
+            "byteStart": 12
+          },
+          "features": [
+            {
+              "tag": "Color",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 27,
+            "byteStart": 19
+          },
+          "features": [
+            {
+              "tag": "Palette",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 80,
+            "byteStart": 69
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 88,
+            "byteStart": 82
+          },
+          "features": [
+            {
+              "tag": "xterm",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 106,
+            "byteStart": 90
+          },
+          "features": [
+            {
+              "tag": "WindowsTerminal",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 118,
+            "byteStart": 111
+          },
+          "features": [
+            {
+              "tag": "VSCode",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 180,
+            "byteStart": 161
+          },
+          "features": [
+            {
+              "uri": "https://4bitcss.com/Galaxy/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-10T00:57:21.821Z"
+    },
+    "cid": "bafyreicnylwr6rw4ls4jvw2zj734v2uhmslalekdphlvfr4cgfsmmhhsxi"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737319824033,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lg4p7jm3bc26",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lg4p7jm3bc26",
+    "record": {
+      "text": "Oh something along the lines of \"things deviate from standards all the time\"\n\nOr \"standards change\"\n\nOr, more controversially, \"Give Peace a Chance\" ( between languages, at least )",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/KpPR-ZCtj-kAAAAC/give-peace-a-chance-peace.gif?hh=498&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibsce467no4enbxerwz5kb5cwyflz6wyg27x425umedo5n5oumux4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 204893
+          },
+          "title": "a sign that says give peace a chance with a peace sign",
+          "description": "Alt: 🎶All We Are Saying / Is Give Peace A Chance🎶"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieqcjf2czzlat3iagmbxr6qimjpuahocvtdl5774qeg3klwrubv6u",
+          "uri": "at://did:plc:te235k5t6h4hp3awy5tuajxx/app.bsky.feed.post/3lg35z5ixk22l"
+        },
+        "parent": {
+          "cid": "bafyreig75btffqldaeuy5t5gviyj3yihuqzkov5drcariwqzoir6qrbvr4",
+          "uri": "at://did:plc:iwexbfropluuqqtexla4qmfl/app.bsky.feed.post/3lg4nzn44n22n"
+        }
+      },
+      "createdAt": "2025-01-19T20:50:24.033Z"
+    },
+    "cid": "bafyreicine3dzjhy5yafvi4wjhiz2rnbviwnlgadwufe2rn7vnprczufiu"
+  }
+}

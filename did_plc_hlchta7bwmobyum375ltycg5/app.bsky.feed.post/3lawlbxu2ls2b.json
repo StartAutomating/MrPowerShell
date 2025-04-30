@@ -1,0 +1,61 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1731611894548,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lawlbxu2ls2b",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lawlbxu2ls2b",
+    "record": {
+      "text": "Celebrate #PowerShell 's 18th Birthday!\n\nSubmit a talk for PowerShell Summit:\nsessionize.com/pshsummit25\n\n(CFP closes tomorrow at midnight)",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://sessionize.com/pshsummit25",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigshwpquudjiab52a35cgo3pjnfb37pop6sqixu4k3meiebrgvg3e"
+            },
+            "mimeType": "image/jpeg",
+            "size": 326984
+          },
+          "title": "PowerShell + DevOps Global Summit 2025: Call for Papers",
+          "description": "The PowerShell + DevOps Global Summit is a highly anticipated annual conference that brings together professionals from the PowerShell and DevOps comm..."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 21,
+            "byteStart": 10
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 104,
+            "byteStart": 78
+          },
+          "features": [
+            {
+              "uri": "https://sessionize.com/pshsummit25",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-14T19:18:14.548Z"
+    },
+    "cid": "bafyreigdzavie3mqtmn3wvif6rbvszbb4iyxcmfnvrydrhnotgmu7gaisi"
+  }
+}

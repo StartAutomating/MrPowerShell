@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736535279027,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lffukb6kts2d",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lffukb6kts2d",
+    "record": {
+      "text": "I'm normally like: \"export as CSV, it's easier for everyone\"",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiebmnsl5cem2iyw3rd7rrebc6gvxq5leyhmtjfjtoponjfaoiqxfy",
+          "uri": "at://did:plc:yfrae62vopyax7pixtnecwyh/app.bsky.feed.post/3lffrylfgak2e"
+        },
+        "parent": {
+          "cid": "bafyreiebmnsl5cem2iyw3rd7rrebc6gvxq5leyhmtjfjtoponjfaoiqxfy",
+          "uri": "at://did:plc:yfrae62vopyax7pixtnecwyh/app.bsky.feed.post/3lffrylfgak2e"
+        }
+      },
+      "createdAt": "2025-01-10T18:54:39.027Z"
+    },
+    "cid": "bafyreie24g3r33lifsdcu64qjtzbdvrkijswyjhkdczt5tsd4xecwmgpri"
+  }
+}

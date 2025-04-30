@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735449011604,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3legauxtml225",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3legauxtml225",
+    "record": {
+      "text": "A - consumers shouldn't have to edit the registry any more than they should have to edit a conf file.  It's a usability gap.\n\nB - IT departments are consumers, too, and they vastly prefer something they can \"holistically manage\".\n\n( This is why Group Policy is still a thing )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibagzp5slkeladvwxv62gx4chp2dn6ysma7k4wpla5jcv2bi6cbqm",
+          "uri": "at://did:plc:3p7m65ikus2al6tiizhbmwqq/app.bsky.feed.post/3ledv3onjzk22"
+        },
+        "parent": {
+          "cid": "bafyreihahi72z76czq3aotx4zs4patfhua75pzvhgxie7cthoowk2cec3m",
+          "uri": "at://did:plc:3p7m65ikus2al6tiizhbmwqq/app.bsky.feed.post/3legals6bq22k"
+        }
+      },
+      "createdAt": "2024-12-29T05:10:11.604Z"
+    },
+    "cid": "bafyreidlz6y7oaqw3gzihvf7ao5pjomsjstbsx3su6pbsxfiycjq2u3wb4"
+  }
+}

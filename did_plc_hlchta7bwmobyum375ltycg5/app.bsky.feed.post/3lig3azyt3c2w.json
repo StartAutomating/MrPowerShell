@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1739841020584,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lig3azyt3c2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lig3azyt3c2w",
+    "record": {
+      "text": "Or, the idea that the government can make you change your email signature, without passing a law to that effect.\n\nCongress didn't make a law... The executive made a policy.\n\nThis is the problem with the #loophole.\n\nCongressional inaction is used to justify action.\n\nHelluva #exploit.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibxpwwetqoi57bvhripyfiolkyhnqh55ko5eegch2fqnp6lm4ha2q",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lifie6lcwk2w"
+        },
+        "parent": {
+          "cid": "bafyreieljyxznajchi7mdwnnsckpleqf2myna5dftxuruocvjqkwj3e3he",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lig2zhxy4k2w"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 212,
+            "byteStart": 203
+          },
+          "features": [
+            {
+              "tag": "loophole",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 282,
+            "byteStart": 274
+          },
+          "features": [
+            {
+              "tag": "exploit",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-18T01:10:20.584Z"
+    },
+    "cid": "bafyreidztt3t3tsig67cx3jqkzvkojxpgmfpvt7u6ycweuxezbxbkknss4"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742754078194,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ll2uaw7yek22",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ll2uaw7yek22",
+    "record": {
+      "text": "Yep!\n\nNow you're really getting the unlimited power of PowerShell.\n\nIt's a high level language that can go as low as you need it.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/iVNXJisqtQ4AAAAC/power-starwars.gif?hh=214&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicofuzbov4exgc5xh2btbppbatv6mgvtob56slpib2ivktm5gbl7a"
+            },
+            "mimeType": "image/jpeg",
+            "size": 65289
+          },
+          "title": "a man is screaming with the words \" unlimited power \" behind him",
+          "description": "Alt: Even Palpatine knows PowerShell is overpowered."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiap3qhbniy7tkshfvfd57oqxrasagaoobwrolrhmthsf4pb4hobje",
+          "uri": "at://did:plc:p5kizefvq5vhz4o56za7laxu/app.bsky.feed.post/3ll2sb3vjls2g"
+        },
+        "parent": {
+          "cid": "bafyreiap3qhbniy7tkshfvfd57oqxrasagaoobwrolrhmthsf4pb4hobje",
+          "uri": "at://did:plc:p5kizefvq5vhz4o56za7laxu/app.bsky.feed.post/3ll2sb3vjls2g"
+        }
+      },
+      "createdAt": "2025-03-23T18:21:18.194Z"
+    },
+    "cid": "bafyreiguodiuklvwsvvlsfblgtduij2dfnttknyajjizct3lbbcpfwiyvu"
+  }
+}

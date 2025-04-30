@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732475322068,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbppg4iu3s2j",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbppg4iu3s2j",
+    "record": {
+      "text": "Oh yeah, never said you couldn't.  And honestly, for the most core parts, you'll want something close to baremetal.\n\nFor everything else \"in the box\" though, language doesn't matter too much.\n\nFunctionality does.  Cohesiveness does.\nCoherence does.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreifctr63t7hzzztx7thbctraj4bkefaw7n67aekf54bvatkyru77ey",
+          "uri": "at://did:plc:z23mr6a4ydaga3mqlk6dwdcr/app.bsky.feed.post/3lbpoy6pczk2q"
+        }
+      },
+      "createdAt": "2024-11-24T19:08:42.068Z"
+    },
+    "cid": "bafyreid4kfqsuqhqu46lnhvhxydjv2fvylzvawf3to5qtuedcw6jl7ogom"
+  }
+}

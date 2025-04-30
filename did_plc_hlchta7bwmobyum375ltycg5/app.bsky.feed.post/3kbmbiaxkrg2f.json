@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1697172888230,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kbmbiaxkrg2f",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kbmbiaxkrg2f",
+    "record": {
+      "text": "That Start-Process kinda sucks?  _mostly_ agreed?\n\nThat you can do it inline in .NET?  _way better than building a C++ app from scratch_.\n\nPlease restate the exact scenario and I'll see if I can one-liner it.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidyy2622bgewrfvsksdbyxrg6jin4drqdubfh2a76xvrjs5i2yhxy",
+          "uri": "at://did:plc:tbjm46ucgokpc3i4r2yuqkd7/app.bsky.feed.post/3kbgubjnpbb2d"
+        },
+        "parent": {
+          "cid": "bafyreie6myygucw3z74inruce73polxejhyyx6ohhgzffohcz7spb6liqu",
+          "uri": "at://did:plc:tbjm46ucgokpc3i4r2yuqkd7/app.bsky.feed.post/3kbmajybp7427"
+        }
+      },
+      "createdAt": "2023-10-13T04:54:48.23Z"
+    },
+    "cid": "bafyreicm5kjowpzrfdcl37zyourklsnwz4rzyeactp5n45bigl4gofsxmq"
+  }
+}

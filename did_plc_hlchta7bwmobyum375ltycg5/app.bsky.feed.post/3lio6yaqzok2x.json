@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740119898553,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lio6yaqzok2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lio6yaqzok2x",
+    "record": {
+      "text": "You might be able to trick this into existence by importing two xml files into datasets and then getting an xmlpatchdiff of that.\n\nBut yeah, recursive comparison is a non-trivial and expensive algorithm.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreid4uw3xg5qhwisxaaree7reprcm5qgoqd4x5m54fpyrksjgqfd24a",
+          "uri": "at://did:plc:tzhrwvnocrxyntumxmomcehb/app.bsky.feed.post/3limona5gzk2t"
+        },
+        "parent": {
+          "cid": "bafyreid4uw3xg5qhwisxaaree7reprcm5qgoqd4x5m54fpyrksjgqfd24a",
+          "uri": "at://did:plc:tzhrwvnocrxyntumxmomcehb/app.bsky.feed.post/3limona5gzk2t"
+        }
+      },
+      "createdAt": "2025-02-21T06:38:18.553Z"
+    },
+    "cid": "bafyreie47wts5em2rgryu667kmsu62qjen5nkhg4xpvkxvhvdb3rqzaxhe"
+  }
+}

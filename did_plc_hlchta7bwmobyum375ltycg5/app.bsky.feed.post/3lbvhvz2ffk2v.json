@@ -1,0 +1,101 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732673423652,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbvhvz2ffk2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbvhvz2ffk2v",
+    "record": {
+      "text": "Realtime #BlueSky is hypnotizing.\n\n#powershell #websocket #fun #visuals\n\nFollow for more.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "A brief few seconds of realtime bluesky",
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigojvj5samez7lmdd2nv252lrklufz4neboenh7pk6dx4ljpz3lji"
+              },
+              "mimeType": "image/jpeg",
+              "size": 502186
+            },
+            "aspectRatio": {
+              "width": 2000,
+              "height": 607
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 17,
+            "byteStart": 9
+          },
+          "features": [
+            {
+              "tag": "BlueSky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 46,
+            "byteStart": 35
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 57,
+            "byteStart": 47
+          },
+          "features": [
+            {
+              "tag": "websocket",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 62,
+            "byteStart": 58
+          },
+          "features": [
+            {
+              "tag": "fun",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 71,
+            "byteStart": 63
+          },
+          "features": [
+            {
+              "tag": "visuals",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-27T02:10:23.652Z"
+    },
+    "cid": "bafyreigwl2sptpbnmmuuy2apzbv6yondeet7dkkov77osfvjvf67s52tea"
+  }
+}

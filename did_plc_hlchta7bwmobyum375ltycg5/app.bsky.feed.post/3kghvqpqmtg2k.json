@@ -1,0 +1,61 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1702520352493,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kghvqpqmtg2k",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kghvqpqmtg2k",
+    "record": {
+      "text": "About to go live talking about Compiling PowerShell and Interpreting Everything else:\n\nwww.twitch.tv/MrPowerShell\n\nwww.meetup.com/pacific-powe...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.twitch.tv/MrPowerShell",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifzck7m5vom6jwcyikb63vxnz6haududthet5a55ikazh67wjbdpa"
+            },
+            "mimeType": "image/jpeg",
+            "size": 211088
+          },
+          "title": "MrPowershell - Twitch",
+          "description": "PowerShell Enthusiast and former PowerShell team member.Here to do some occasional live scripting."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 113,
+            "byteStart": 87
+          },
+          "features": [
+            {
+              "uri": "https://www.twitch.tv/MrPowerShell",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 145,
+            "byteStart": 115
+          },
+          "features": [
+            {
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/297683752/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-12-14T02:19:12.493Z"
+    },
+    "cid": "bafyreicmobfs2onct5jmsxowauwtyd2cwomfbnug425zxwafbwoaoo3lcm"
+  }
+}

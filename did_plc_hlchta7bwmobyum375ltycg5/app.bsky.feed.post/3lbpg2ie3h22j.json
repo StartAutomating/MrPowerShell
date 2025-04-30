@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732465268165,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbpg2ie3h22j",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbpg2ie3h22j",
+    "record": {
+      "text": "I'd argue that powershell runspaces are effectively a kernel, and that the libraries it ships with cross platform are \"some system libraries\".\n\nAnd yeah, you could make more in PowerShell ( inline c# if needed ).\n\nIs \" #Powershell is an os inside of an os. \" Making more sense now?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreihh4k4c4rrck7nhgqqtotuoco4w4izgjmyno4y66s7ebftscark3m",
+          "uri": "at://did:plc:z23mr6a4ydaga3mqlk6dwdcr/app.bsky.feed.post/3lbokhsi2422j"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 230,
+            "byteStart": 219
+          },
+          "features": [
+            {
+              "tag": "Powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-24T16:21:08.165Z"
+    },
+    "cid": "bafyreicx3xnwk3ne6mgbaw2k6ktkw5rh7g63ty5gddoyqzp4suyvdrll5i"
+  }
+}

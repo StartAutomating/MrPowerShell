@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732425517335,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lboazsyzjk2e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lboazsyzjk2e",
+    "record": {
+      "text": "Beyond that I have been doing this for longer than LLMs have been popular things.\n\nUsed similar techniques to make it so I could \"call\" a cmdlet with Twilio + PowerShell.\n\nOthers have made speech server / cortona bots.\n\nOthers have made Alexa bots.\n\nAnd so on.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreigugz7ax22bacypkfbj2e4rzq7f4vbsx6se5j3kz74cspvbxyg4pu",
+          "uri": "at://did:plc:z23mr6a4ydaga3mqlk6dwdcr/app.bsky.feed.post/3lboark6sps2t"
+        }
+      },
+      "createdAt": "2024-11-24T05:18:37.335Z"
+    },
+    "cid": "bafyreidkv4wkvi3jzcwljqxzvtsh2srpmolrkhqhi7ksorulrew5zgwsfi"
+  }
+}

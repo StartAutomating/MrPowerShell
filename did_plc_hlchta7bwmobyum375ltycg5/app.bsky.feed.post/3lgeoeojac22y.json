@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737593801121,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgeoeojac22y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgeoeojac22y",
+    "record": {
+      "text": "Exactly.\n\nHence I think it's easy to just add an \"undashed\" alias.\n\nWas thinking of all the times I needed to talk someone thru this for the first time, and how much they stumble on this exact step.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibwewqs47men6jhfzg632dlze3l6fbpi36644aauxulcjdal45hba",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lge6hnhcak2v"
+        },
+        "parent": {
+          "cid": "bafyreifjmaauuw3qtjbaygs3pterqf6edkzmxoi7ah3lf5tvzvr3tomxri",
+          "uri": "at://did:plc:6x4qais5trgxd4wh2qngjvxn/app.bsky.feed.post/3lgemolulms2f"
+        }
+      },
+      "createdAt": "2025-01-23T00:56:41.121Z"
+    },
+    "cid": "bafyreidtc2g4fgdt4hcmki3wyjntczj53unbrektyj7i2asf7rf3ldyrqm"
+  }
+}

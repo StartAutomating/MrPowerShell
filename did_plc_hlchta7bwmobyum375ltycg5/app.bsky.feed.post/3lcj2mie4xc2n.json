@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733346340441,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcj2mie4xc2n",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcj2mie4xc2n",
+    "record": {
+      "text": "When you're using PowerShell to run a website.\n\nBasically, if you limit parameters to just those types ( and don't do invoke-expression or .expandstring ), you can safely map the parameters from a query string, form data, or json.\n\nEasy peasy, and safe.\n\n( For psobjects you can use a data block )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieb325p66mti2ixrjumk3ekmir2giaj6cnt7jzk3z3hczjvwmsuta",
+          "uri": "at://did:plc:fcfadn5scrcvbwz7peyxaytq/app.bsky.feed.post/3k4ket46sau25"
+        },
+        "parent": {
+          "cid": "bafyreiakctx6cpfy347m5u7nobynpbgny7vw33b5ib3nhidhn7ydig44oq",
+          "uri": "at://did:plc:idi75z5g5lmqrtyswrnhfubo/app.bsky.feed.post/3lcj2blj73k2w"
+        }
+      },
+      "createdAt": "2024-12-04T21:05:40.441Z"
+    },
+    "cid": "bafyreiceba5rrqsylbp6rh7wxof2wxw3gsak5p3v5csbpqnxqyemp72kwy"
+  }
+}

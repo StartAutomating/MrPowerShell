@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737923400667,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgobdj55vs2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgobdj55vs2u",
+    "record": {
+      "text": "If we automated RETS data, we'd get real estate transactions as they occur, giving us a realtime sense of the market and it's movements.\n\nWe'd also be able see the modern day #redlining as clear as day ( spoiler alert: the more \"IST\" and area is, the more MLS it has )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiftqhlmtptvxivowrdaxixlufp27dvk6drw6ppgyewjimrvg6pkai",
+          "uri": "at://did:plc:y5xyloyy7s4a2bwfeimj7r3b/app.bsky.feed.post/3lgli7rruhk2u"
+        },
+        "parent": {
+          "cid": "bafyreigctsxyegybooqchz3ldjtzmd653zgqxt74jecslxxrauep3oe26e",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgob7gabxk2u"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 185,
+            "byteStart": 175
+          },
+          "features": [
+            {
+              "tag": "redlining",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-26T20:30:00.667Z"
+    },
+    "cid": "bafyreiejmyogki2x6zbegmkz3ushbxwnr5yr5awyy2qxpjzkgpykqskewu"
+  }
+}

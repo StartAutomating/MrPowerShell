@@ -1,0 +1,83 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732996339065,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lc6unmzt6k2k",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lc6unmzt6k2k",
+    "record": {
+      "text": "I must be a bit broken, because I actually decided to #powershell my way to never having to relearn #regex a few years ago...\n\nNew-RegEx is all I need 😉🥰\n\ngithub.com/StartAutomat...\n\n(Monthly cost, $0 )",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/Irregular",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreih5cdp45inw5urjw6wohnmfkspq55pt2yyx6ekbhyg2zbpv43ieby"
+            },
+            "mimeType": "image/jpeg",
+            "size": 62385
+          },
+          "title": "GitHub - StartAutomating/Irregular: Regular Expressions made Strangely Simple",
+          "description": "Regular Expressions made Strangely Simple. Contribute to StartAutomating/Irregular development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigyvemfx2vxpvr6qybly4phvhmxvrarabepunvugmoly2ieyrznuq",
+          "uri": "at://did:plc:baglxmt2hfmzfaddt7a2xj27/app.bsky.feed.post/3lc6o5vch4g2x"
+        },
+        "parent": {
+          "cid": "bafyreigyvemfx2vxpvr6qybly4phvhmxvrarabepunvugmoly2ieyrznuq",
+          "uri": "at://did:plc:baglxmt2hfmzfaddt7a2xj27/app.bsky.feed.post/3lc6o5vch4g2x"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 65,
+            "byteStart": 54
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 106,
+            "byteStart": 100
+          },
+          "features": [
+            {
+              "tag": "regex",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 187,
+            "byteStart": 161
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/Irregular",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-30T19:52:19.065Z"
+    },
+    "cid": "bafyreidbb7fzdxdqxuhnd62k6vz3dgddzxhlg2blxkuezq6jmzpobg2e5i"
+  }
+}

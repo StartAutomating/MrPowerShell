@@ -1,0 +1,71 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737496773544,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgbtyzsn3c2d",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgbtyzsn3c2d",
+    "record": {
+      "text": "I'll be doing a recording and might start to do more videos with this technique in the future.\n\nI'd say about 75/25 on the gruel factor.  I have a lot of SVG examples around but getting them in the right form was annoying.\n\nKeeping it condensed was, too.\n\n#svg examples:\n\ngithub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/PSSVG/tree/main/Examples",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihl4eb4anamsz73juebshahbe3lwhwdzhsonq2rl36kmbtlebxw4q"
+            },
+            "mimeType": "image/jpeg",
+            "size": 87439
+          },
+          "title": "PSSVG/Examples at main · StartAutomating/PSSVG",
+          "description": "Script SVGs with PowerShell. Contribute to StartAutomating/PSSVG development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidot7oetnxj7gkbbsvpfb73tmrgi66r4mwsctfax3s532j3kp2sby",
+          "uri": "at://did:plc:zfubrgofk23trzj7bapmym2d/app.bsky.feed.post/3lgbpnh5bvc2d"
+        },
+        "parent": {
+          "cid": "bafyreidot7oetnxj7gkbbsvpfb73tmrgi66r4mwsctfax3s532j3kp2sby",
+          "uri": "at://did:plc:zfubrgofk23trzj7bapmym2d/app.bsky.feed.post/3lgbpnh5bvc2d"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 260,
+            "byteStart": 256
+          },
+          "features": [
+            {
+              "tag": "svg",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 298,
+            "byteStart": 272
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/PSSVG/tree/main/Examples",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-21T21:59:33.544Z"
+    },
+    "cid": "bafyreig6kxcsbxwwkogxkxdhsgttpdlpswsuzizqb2uoqdg6egl75olvju"
+  }
+}

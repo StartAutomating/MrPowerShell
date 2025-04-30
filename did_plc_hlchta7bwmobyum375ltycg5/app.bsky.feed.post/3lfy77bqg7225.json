@@ -1,0 +1,157 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737165196965,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfy77bqg7225",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfy77bqg7225",
+    "record": {
+      "text": "256 concurrent gifs may be too much.\n\nOpinions ?\n\nLooking for a good default.\n\n#websocket #javascript #bluesky #atproto #css #powershell #experiment #friday #fun #video",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "alt": "Is 256 concurrent gifs too much?\n\nFeedback welcome! I'm thinking I'll let this be customized, but looking for a good default.",
+        "$type": "app.bsky.embed.video",
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreibnjayculb6hew5v67oaxbqlkpahbnlbnsod4mfehyev3xccbxzwe"
+          },
+          "mimeType": "video/mp4",
+          "size": 1687471
+        },
+        "aspectRatio": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 89,
+            "byteStart": 79
+          },
+          "features": [
+            {
+              "tag": "websocket",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 101,
+            "byteStart": 90
+          },
+          "features": [
+            {
+              "tag": "javascript",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 110,
+            "byteStart": 102
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 119,
+            "byteStart": 111
+          },
+          "features": [
+            {
+              "tag": "atproto",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 124,
+            "byteStart": 120
+          },
+          "features": [
+            {
+              "tag": "css",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 136,
+            "byteStart": 125
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 148,
+            "byteStart": 137
+          },
+          "features": [
+            {
+              "tag": "experiment",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 156,
+            "byteStart": 149
+          },
+          "features": [
+            {
+              "tag": "friday",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 161,
+            "byteStart": 157
+          },
+          "features": [
+            {
+              "tag": "fun",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 168,
+            "byteStart": 162
+          },
+          "features": [
+            {
+              "tag": "video",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-18T01:53:16.965Z"
+    },
+    "cid": "bafyreigoxewjbo7cjcxquzwvhqfmy7cj2swhc3xnvcahiknnfuyf6k7w3m"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735591205335,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lekfcoduzk2h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lekfcoduzk2h",
+    "record": {
+      "text": "Yeah, exactly.  I'd like any module to basically be able to \"just fit\" in Universal, with minor metadata adjustments or decorations.  Bonus points given for a licensed price tag.\n\nIn my ideal world, anyone using modules in a commercial stack will pay back to the authors.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreics737uqbxtoniltzqx4p52wh4m47r4qxghmjce5wayrtaavdwoue",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3lekebqrgps2x"
+        },
+        "parent": {
+          "cid": "bafyreicdnrlvrgfcj6ao7shookv5vf3pusarktqw3jmrd24oobvib2etr4",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3lekf4g7dpk2p"
+        }
+      },
+      "createdAt": "2024-12-30T20:40:05.335Z"
+    },
+    "cid": "bafyreidvkspr2u7ollpupyeesdhysrqmpetzkn3s3hqoncbbsramr5xaou"
+  }
+}

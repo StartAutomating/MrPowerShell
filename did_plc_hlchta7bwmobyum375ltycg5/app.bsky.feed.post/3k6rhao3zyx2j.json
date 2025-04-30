@@ -1,0 +1,62 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1694052332584,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k6rhao3zyx2j",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k6rhao3zyx2j",
+    "record": {
+      "text": "#PowerShell gets a little bit cooler every time new bits of #Posh drop.\n\nNew in 0.1.7:\n* Formatting for PSMemberInfo\n* Improved Get-Member formatting\n* Better stackable functions (thanks @mdgrs.bsky.social !)\n* Cursor Control\n\ngithub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/Posh",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreic46eurffckiri25byqeeo7gaztoqrwtb6n65gxfppmsal64zhca4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 130483
+          },
+          "title": "GitHub - StartAutomating/Posh: PowerShell made Posh",
+          "description": "PowerShell made Posh. Contribute to StartAutomating/Posh development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 205,
+            "byteStart": 187
+          },
+          "features": [
+            {
+              "did": "did:plc:5gung3kb6wkzptdxh2riyc6c",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 253,
+            "byteStart": 227
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/Posh",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-09-07T02:05:32.584Z"
+    },
+    "cid": "bafyreigz5bfjvtcbezsgp7yosi7xf6zpiw23zh2ryirangxzkymj5xzniu"
+  }
+}

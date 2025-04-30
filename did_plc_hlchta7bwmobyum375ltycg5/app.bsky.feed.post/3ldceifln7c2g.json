@@ -1,0 +1,71 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734215934201,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldceifln7c2g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldceifln7c2g",
+    "record": {
+      "text": "Lol, I was thinking of making something to print out ( shiptimes etc ).\n\nBut now that you mention it, I should really make some #powershell #merch.\n\nAnyone know some good white label providers?",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/33EzbxFZQnEAAAAC/yogurt-spaceballs.gif?hh=280&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiburrhmcph7n62cunllkdqwgpqwyaakmbyddbtwysizvxe3hxtr24"
+            },
+            "mimeType": "image/jpeg",
+            "size": 94305
+          },
+          "title": "a man with gray hair and a green cloak is talking about merchandising",
+          "description": "Alt: Yogurt talks about the importance of PowerShell merchandising."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihgrxpeonqxvxcvkz4em4j4mf4fac54s2vjmkvjnjynexnxyrmr2y",
+          "uri": "at://did:plc:wwvefq6zzoc2fy4pzo2tzjw4/app.bsky.feed.post/3ld7c3prnmn2j"
+        },
+        "parent": {
+          "cid": "bafyreigfanm7xg64kv7wiesjzhqpmy3pa4cassme6uiqsy6ojva53l5fpi",
+          "uri": "at://did:plc:wwvefq6zzoc2fy4pzo2tzjw4/app.bsky.feed.post/3ldce2gl43k2s"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 139,
+            "byteStart": 128
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 146,
+            "byteStart": 140
+          },
+          "features": [
+            {
+              "tag": "merch",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-14T22:38:54.201Z"
+    },
+    "cid": "bafyreibgpu5lajkqwektate7lk625nenynm6fungtzd5auaybm5rhjdgc4"
+  }
+}

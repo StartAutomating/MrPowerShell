@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742752379285,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ll2sobzel22y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ll2sobzel22y",
+    "record": {
+      "text": "#AtmosphereConf inspired me to make some #SVG animations of the #BlueSky logo.\n\nWhat do you think?\n\nNerdy FYIs:\n\nSize of MP4: ~763kb\nSize of SVG: 3.2kb\nSVG Without animation: 2.17kb\n\nWho wants some source code?\n\n@pfrazee.com could BlueSky support SVGs directly?",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "alt": "A BlueSky Logo rainbow.  The BlueSky butterfly repeated in various colors and ebbing in size.",
+        "$type": "app.bsky.embed.video",
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreihriwxj33b3km2zvpurtllsbl4gsl5tl7evi4serd7cjgojeksm7a"
+          },
+          "mimeType": "video/mp4",
+          "size": 479593
+        },
+        "aspectRatio": {
+          "width": 1080,
+          "height": 1920
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "AtmosphereConf",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 41
+          },
+          "features": [
+            {
+              "tag": "SVG",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 72,
+            "byteStart": 64
+          },
+          "features": [
+            {
+              "tag": "BlueSky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 224,
+            "byteStart": 212
+          },
+          "features": [
+            {
+              "did": "did:plc:ragtjsm2j2vknwkz3zp4oxrd",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-23T17:52:59.285Z"
+    },
+    "cid": "bafyreifgs5xtd7kj5u7zerwv3tjkpdfv3nnuly32dee43bzq6zwpzwthiq"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733697442555,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lctbm5gd5s2q",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lctbm5gd5s2q",
+    "record": {
+      "text": "RIP indeed.\n\nNow does anyone have a used one they want to be free of?  Bonus points if it's already in #seattle or #redmond.\n\nHuge bonus points if you have an excess surface table ( anyone else remember those ?)",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibmtk7swmwwo5jkbgdfc3lirulpu77b4tv3lqkmdt7bf5ma6uo26y",
+          "uri": "at://did:plc:jlhwy6ypsnydk3v7tigq5gqq/app.bsky.feed.post/3lcsrtadkpk2g"
+        },
+        "parent": {
+          "cid": "bafyreibmtk7swmwwo5jkbgdfc3lirulpu77b4tv3lqkmdt7bf5ma6uo26y",
+          "uri": "at://did:plc:jlhwy6ypsnydk3v7tigq5gqq/app.bsky.feed.post/3lcsrtadkpk2g"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 111,
+            "byteStart": 103
+          },
+          "features": [
+            {
+              "tag": "seattle",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 123,
+            "byteStart": 115
+          },
+          "features": [
+            {
+              "tag": "redmond",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-08T22:37:22.555Z"
+    },
+    "cid": "bafyreihcblazoukrj32dgbkhpt5i32vtwggqrk4245za3j7c4i6qes4wve"
+  }
+}

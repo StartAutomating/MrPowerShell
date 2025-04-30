@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732912960224,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lc4gyqris22e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lc4gyqris22e",
+    "record": {
+      "text": "Cool, and also, I put that out about a year ago in the PSA module.\n\ngithub.com/StartAutomat...\n\nGreat minds, amiright ?",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/psa",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifwkzvokcjhj2nbojjcqcvnyibztv4uvyzpmzxgkgczeufe3olmlu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 33737
+          },
+          "title": "GitHub - StartAutomating/PSA: PowerShell Announcements (with AtProtocol)",
+          "description": "PowerShell Announcements (with AtProtocol). Contribute to StartAutomating/PSA development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibu6wq43o2hxnffnd7ib566itozdd5znpi4iwmknkcpq5pgcnwd3m",
+          "uri": "at://did:plc:nr55rexy4s2we22j56d4n46b/app.bsky.feed.post/3lc45jlt6bs2n"
+        },
+        "parent": {
+          "cid": "bafyreibu6wq43o2hxnffnd7ib566itozdd5znpi4iwmknkcpq5pgcnwd3m",
+          "uri": "at://did:plc:nr55rexy4s2we22j56d4n46b/app.bsky.feed.post/3lc45jlt6bs2n"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 94,
+            "byteStart": 68
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/psa",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-29T20:42:40.224Z"
+    },
+    "cid": "bafyreicj7lylc6o3ok4pcs6g5zz5pr45s7ywko42oey25sq2wenmtb6bau"
+  }
+}

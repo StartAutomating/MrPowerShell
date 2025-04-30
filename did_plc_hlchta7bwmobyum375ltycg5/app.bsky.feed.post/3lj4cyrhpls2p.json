@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740605247366,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lj4cyrhpls2p",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lj4cyrhpls2p",
+    "record": {
+      "text": "I'm realizing #PromptEngineering is really just \"being so pedantic even a dumb #AI will understand my directions\".",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 14
+          },
+          "features": [
+            {
+              "tag": "PromptEngineering",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 82,
+            "byteStart": 79
+          },
+          "features": [
+            {
+              "tag": "AI",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-26T21:27:27.366Z"
+    },
+    "cid": "bafyreifvbcoebkqcqc4d3rshjxjfams73tuehtqhpn3aovcxdanraqkppy"
+  }
+}

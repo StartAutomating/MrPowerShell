@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1696543058698,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kazwvgtbke2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kazwvgtbke2x",
+    "record": {
+      "text": "Essentially, language modes can stop one form of p0wnage fairly well: arbitrary code injection.\n\nI say \"fairly well\" because if the commands you surface are insecure, it basically means nothing (see more than a few Office365 hacks).\n\nSo it's a bit of a false sense of security. (one more...)",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihmi5r73rbnbuezlacqv2nfx3clp6uc5dwolf7yhi5ugwquuxl3be",
+          "uri": "at://did:plc:53k4pafoelmtgot4dglv3dxm/app.bsky.feed.post/3katrztbz5n22"
+        },
+        "parent": {
+          "cid": "bafyreihgm5bz23dy4gwklmsb6a2hrav6j22srclgjmfqnyxbjdw2s6axpq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kazwr4zu4v24"
+        }
+      },
+      "createdAt": "2023-10-05T21:57:38.698Z"
+    },
+    "cid": "bafyreid4r4hzemp23nkb6tatg54gtvh3mtzxsktl2r6i2j7pg55u3xzd5m"
+  }
+}

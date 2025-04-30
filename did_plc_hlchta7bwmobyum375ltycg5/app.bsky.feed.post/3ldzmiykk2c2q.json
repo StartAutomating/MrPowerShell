@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735014818002,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldzmiykk2c2q",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldzmiykk2c2q",
+    "record": {
+      "text": "A Linux \"vm\" that's short lived.\n\nWhitelisted modules only? ( Various fiddle / pens take this approach )\n\nLimits to syntax would basically be using the AST to precheck scripts to avoid common nuisances ( e.g. ban `while ($true) {}` )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicya3adzaaxlmbzpuhzoy7xw4k6xp7kysf4qggrxcypjeyqx5d7eq",
+          "uri": "at://did:plc:dq6jaefxy6vc6vvthg57kwvs/app.bsky.feed.post/3ldzdhep4vc2y"
+        },
+        "parent": {
+          "cid": "bafyreibfaub3igh33dqqmty5s4dwn2ckv3neondfaeql46tteex6b52ei4",
+          "uri": "at://did:plc:dq6jaefxy6vc6vvthg57kwvs/app.bsky.feed.post/3ldzlia4ods2r"
+        }
+      },
+      "createdAt": "2024-12-24T04:33:38.002Z"
+    },
+    "cid": "bafyreib4tdbn4vaeizqpsddptd2tkx7c3e3xeytmbmfyv5boiki7x45dhm"
+  }
+}

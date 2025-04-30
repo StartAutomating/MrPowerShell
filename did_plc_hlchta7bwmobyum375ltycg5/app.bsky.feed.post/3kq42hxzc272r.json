@@ -1,0 +1,49 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1713108301884,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kq42hxzc272r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kq42hxzc272r",
+    "record": {
+      "text": "Show off your scripts\nShowDemo",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/ShowDemo",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreig3dw63lrss7ogl6467bzmnk36oskhcnvbwfzpxwhc3txwo7i4noi"
+            },
+            "mimeType": "image/png",
+            "size": 60717
+          },
+          "title": "GitHub - StartAutomating/ShowDemo: A simple tool to showcase your scripts.",
+          "description": "A simple tool to showcase your scripts. Contribute to StartAutomating/ShowDemo development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 30,
+            "byteStart": 22
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/ShowDemo",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-04-14T08:25:01.8846851-07:00"
+    },
+    "cid": "bafyreie6irjlkexmxzrhxnbr4lzyhqqzqtqrgrfru52xj53fi2xhcr4vtq"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1739814946380,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lifcxxpab22p",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lifcxxpab22p",
+    "record": {
+      "text": "Good keep posting this until people start learning.\n\nbsky.app/profile/mrpo...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreig5h4tudwrv6rkczdnerz23dmsoy7uoiny5juhu3orhvhikbs3jfy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3li45g6d4qc2u"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihgpgjis6yst25uub3bjxrxefo6b3g7mbu3epep2p4pu7w2mdohtm",
+          "uri": "at://did:plc:ys7v4hnzbd6un77f2olsx2q3/app.bsky.feed.post/3lielvwel6l26"
+        },
+        "parent": {
+          "cid": "bafyreihgpgjis6yst25uub3bjxrxefo6b3g7mbu3epep2p4pu7w2mdohtm",
+          "uri": "at://did:plc:ys7v4hnzbd6un77f2olsx2q3/app.bsky.feed.post/3lielvwel6l26"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 77,
+            "byteStart": 53
+          },
+          "features": [
+            {
+              "uri": "https://bsky.app/profile/mrpowershell.bsky.social/post/3li45g6d4qc2u",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-17T17:55:46.38Z"
+    },
+    "cid": "bafyreidirpqcya3r5sr5cg5ard6qcgt7dpyquvdrjggnp3e32nwrldni3i"
+  }
+}

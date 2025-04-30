@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736710361741,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfkxm52wr224",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfkxm52wr224",
+    "record": {
+      "text": "This thread is deeply appreciated! ( may DM later )\n\nAlso appreciated:\n\nThe Egg Prime Directive seems to be as hotly debated as the #StarTrek Prime Directive.\n\nI'm guessing some captains interpret it creatively.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/Nc4FX3iFr5YAAAAC/spock-star-trek.gif?hh=280&ww=497",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihhhmhl7j2djfz6wwa27aijs3ly3jn2urm4putbaaavl52wm4foie"
+            },
+            "mimeType": "image/jpeg",
+            "size": 153221
+          },
+          "title": "a group of people are sitting at a table with the word ign on the bottom right",
+          "description": "Alt: Spock thinks it's only logical you should question your gender roles."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibj5u3rmwm3plz7t22edyrk6oyypsreootyy4iz5tqtsehdkjbkly",
+          "uri": "at://did:plc:ywbm3iywnhzep3ckt6efhoh7/app.bsky.feed.post/3lfil7bjbok2f"
+        },
+        "parent": {
+          "cid": "bafyreigaoeklbb7eibbb6f3g3gd3ac7sz2x7ok25ilww6s7au3vughj5f4",
+          "uri": "at://did:plc:ywbm3iywnhzep3ckt6efhoh7/app.bsky.feed.post/3lfincl3jk22o"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 141,
+            "byteStart": 132
+          },
+          "features": [
+            {
+              "tag": "StarTrek",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-12T19:32:41.741Z"
+    },
+    "cid": "bafyreiaqe3ekb5r7tiu4cd7znjmkyxdkgvwcs7nslt2yyzkklvvfo2znaq"
+  }
+}

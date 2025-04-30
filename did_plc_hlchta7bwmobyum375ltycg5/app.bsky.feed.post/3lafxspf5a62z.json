@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1731041204438,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lafxspf5a62z",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lafxspf5a62z",
+    "record": {
+      "text": "Background jobs are background runspaces, and won't have the same functions defined.  That's the bad news, and also the good news.  Trying to bring in everything magically hurts performance and leads to even more unexpected side effects (especially when you start thinking of remoting)",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidem4onp4jxcut736rdw5lppvr6djmsnwe2fs4nmipywjpwiyv3bi",
+          "uri": "at://did:plc:fkbhyw265nzrvn2v63uwvhjn/app.bsky.feed.post/3laezhejhqy2h"
+        },
+        "parent": {
+          "cid": "bafyreidem4onp4jxcut736rdw5lppvr6djmsnwe2fs4nmipywjpwiyv3bi",
+          "uri": "at://did:plc:fkbhyw265nzrvn2v63uwvhjn/app.bsky.feed.post/3laezhejhqy2h"
+        }
+      },
+      "createdAt": "2024-11-08T04:46:44.438Z"
+    },
+    "cid": "bafyreibhgugd43permkbldq7eiqfv5zyvoorphrx2z7t2wqjhxlhs2t4mu"
+  }
+}

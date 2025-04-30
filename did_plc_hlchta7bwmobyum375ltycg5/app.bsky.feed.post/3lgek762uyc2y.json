@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737589321132,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgek762uyc2y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgek762uyc2y",
+    "record": {
+      "text": "For the purposes of this mental exercise, I'm merely asking about dropping the dash.\n\nI see two reasons to alias this way:\n\n1. Mobile Friendly ( dashes are buried on phones )\n2. Verbally friendly ( talking a command out to a new colleague that doesn't know PowerShell )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibwewqs47men6jhfzg632dlze3l6fbpi36644aauxulcjdal45hba",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lge6hnhcak2v"
+        },
+        "parent": {
+          "cid": "bafyreiakgt5xnwlgtp2wfzvogs6jagarbadbbsuqla67niucrnp72n37ny",
+          "uri": "at://did:plc:6x4qais5trgxd4wh2qngjvxn/app.bsky.feed.post/3lgehuymyis2f"
+        }
+      },
+      "createdAt": "2025-01-22T23:42:01.132Z"
+    },
+    "cid": "bafyreihzvo5ze3ycrjwl4s4rlu364jthy4ewtmfhm44nhrtaz5z3qdmat4"
+  }
+}

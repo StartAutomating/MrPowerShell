@@ -1,0 +1,34 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1692653529898,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k5iqibccpo2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k5iqibccpo2v",
+    "record": {
+      "text": "@bsky.app Quick question, for the XPRC, what does the authorization header look like when using an app password?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 9,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "did": "did:plc:z72i7hdynmk6r22z27h6tvur",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-08-21T21:32:09.898Z"
+    },
+    "cid": "bafyreicxqzfhmzh2x3nebb6j6v4ql7cz27oaqogo4i5thheefmmlvmszci"
+  }
+}

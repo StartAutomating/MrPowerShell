@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733686466001,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcsxezej4k2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcsxezej4k2v",
+    "record": {
+      "text": "Friendly reminder to use a #limerick to cure your #earworm.\n\nbsky.app/profile/mrpo...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreiha4tcw4cqnw3vfoxufog2nzbmivyjw7pg3pp5srleahsfp7tvqyu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcgus2d5u22u"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieqqcazjlar2qogmkofi2avulacwd76k7ie3qzwhskyctjvcrrnvu",
+          "uri": "at://did:plc:g7nywl63frmuddq274whiwr6/app.bsky.feed.post/3lcsj243pgs2e"
+        },
+        "parent": {
+          "cid": "bafyreidthbfyxvdr3e7rvzwaxlqk3ued7qsk2k4nu77msdntyff3g5gk5u",
+          "uri": "at://did:plc:g7nywl63frmuddq274whiwr6/app.bsky.feed.post/3lcsj6fwa5s2e"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 27
+          },
+          "features": [
+            {
+              "tag": "limerick",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 58,
+            "byteStart": 50
+          },
+          "features": [
+            {
+              "tag": "earworm",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 85,
+            "byteStart": 61
+          },
+          "features": [
+            {
+              "uri": "https://bsky.app/profile/mrpowershell.bsky.social/post/3lcgus2d5u22u",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-08T19:34:26.001Z"
+    },
+    "cid": "bafyreicoxqishsnod5ovqpwsxlpz2ynhl6izhlhrhwcycn7g2n54u6t6se"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735932974676,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leudm6yh3s2h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leudm6yh3s2h",
+    "record": {
+      "text": "This reminds me I need to make a little module to just expose data {} blocks in a server.\n\n( Slightly off topic, I know, but a reminder all the same )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic25yombkiuy24bhclat3gidtallszqhfdn6fapgdo5fwxnwpnvs4",
+          "uri": "at://did:plc:oplu4fotqo4spcltuiznhyxq/app.bsky.feed.post/3letuy6dkd22m",
+          "$type": "com.atproto.repo.strongRef"
+        },
+        "parent": {
+          "cid": "bafyreicda5shauahpj4wkc6qfw5ijlyh4y3cxjqihbdcquvlsviabfz43e",
+          "uri": "at://did:plc:fh3l5o4idrmsjtfuxxgxqowu/app.bsky.feed.post/3leucmsiatk2n"
+        }
+      },
+      "createdAt": "2025-01-03T19:36:14.676Z"
+    },
+    "cid": "bafyreid4iync3hpqdypnn6v26572x6qkcoiph7dx3incacqmdzuhufgqyu"
+  }
+}

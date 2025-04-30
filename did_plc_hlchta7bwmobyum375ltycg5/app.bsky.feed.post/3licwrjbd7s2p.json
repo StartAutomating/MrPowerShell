@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1739733125539,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3licwrjbd7s2p",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3licwrjbd7s2p",
+    "record": {
+      "text": "And people wonder why I've never liked #nascar...\n\n( Or #ESPN )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifsrcmkfiswud6mwzvdbh3m4nj3mxcwqwmnpknfxgzxfvtiqfebpe",
+          "uri": "at://did:plc:wtsercul64odhwht7z5g54et/app.bsky.feed.post/3licwonmklk2w"
+        },
+        "parent": {
+          "cid": "bafyreifsrcmkfiswud6mwzvdbh3m4nj3mxcwqwmnpknfxgzxfvtiqfebpe",
+          "uri": "at://did:plc:wtsercul64odhwht7z5g54et/app.bsky.feed.post/3licwonmklk2w"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 46,
+            "byteStart": 39
+          },
+          "features": [
+            {
+              "tag": "nascar",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 61,
+            "byteStart": 56
+          },
+          "features": [
+            {
+              "tag": "ESPN",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-16T19:12:05.539Z"
+    },
+    "cid": "bafyreigu5ztdwalr6vhn62arrvtcltioxzhscwwwhkfwtzjow7tsajcvly"
+  }
+}

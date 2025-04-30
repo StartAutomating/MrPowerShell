@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733776640422,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcvlegfg5k2b",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcvlegfg5k2b",
+    "record": {
+      "text": "Alas, modern security isn't something you could have on Windows 3.1.\n\nThe two major changes that make you secure are both from the windows vista era ( crazy, I know )\n\n1. Split elevation ( if everyone is always admin, you're p0wnd)\n2. Address space randomization ( crashes are harder to exploit )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiaj2nftq4kb77kkakqz3uytrgrknpgb3baasg6fv34t5fac6rt5fu",
+          "uri": "at://did:plc:stsrie2quiv3hrbz4sm23qr3/app.bsky.feed.post/3lcv53xclx22l"
+        },
+        "parent": {
+          "cid": "bafyreiaj2nftq4kb77kkakqz3uytrgrknpgb3baasg6fv34t5fac6rt5fu",
+          "uri": "at://did:plc:stsrie2quiv3hrbz4sm23qr3/app.bsky.feed.post/3lcv53xclx22l"
+        }
+      },
+      "createdAt": "2024-12-09T20:37:20.422Z"
+    },
+    "cid": "bafyreihk5x4gougqittkk6valohayugqac23qqsl3xztl3rrk7cflfqipe"
+  }
+}

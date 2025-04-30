@@ -1,0 +1,91 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737005679473,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lftknc2ec22v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lftknc2ec22v",
+    "record": {
+      "text": "I'm just gonna go out and say it:\n\n🌶️ Take :  PowerShell Core is way better than Windows PowerShell.\n\nIt can do quite a few things that Windows PowerShell simply can't do.\n\n& Its #OpenSource\n& It runs on #Linux #MacOS, #Windows, and #RaspberryPi",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihoda343nh7dx7qhuw4iqdeootk4lc7cuboojp3jpmaveu4r6mhay",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3lftin5i3bs2e"
+        },
+        "parent": {
+          "cid": "bafyreihoda343nh7dx7qhuw4iqdeootk4lc7cuboojp3jpmaveu4r6mhay",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3lftin5i3bs2e"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 195,
+            "byteStart": 184
+          },
+          "features": [
+            {
+              "tag": "OpenSource",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 215,
+            "byteStart": 209
+          },
+          "features": [
+            {
+              "tag": "Linux",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 222,
+            "byteStart": 216
+          },
+          "features": [
+            {
+              "tag": "MacOS",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 232,
+            "byteStart": 224
+          },
+          "features": [
+            {
+              "tag": "Windows",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 250,
+            "byteStart": 238
+          },
+          "features": [
+            {
+              "tag": "RaspberryPi",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-16T05:34:39.473Z"
+    },
+    "cid": "bafyreica6fgpwjvsngq6cmjlbt73a5m62pvh352iwatdupqs5r6j24pmwe"
+  }
+}

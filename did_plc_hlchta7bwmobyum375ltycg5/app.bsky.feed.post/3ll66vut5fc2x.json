@@ -1,0 +1,57 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742868598001,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ll66vut5fc2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ll66vut5fc2x",
+    "record": {
+      "text": "Hey #AtProto people:\n\nAnyone want to help make some #BlueSky #Games ?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 12,
+            "byteStart": 4
+          },
+          "features": [
+            {
+              "tag": "AtProto",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 52
+          },
+          "features": [
+            {
+              "tag": "BlueSky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 67,
+            "byteStart": 61
+          },
+          "features": [
+            {
+              "tag": "Games",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-25T02:09:58.001Z"
+    },
+    "cid": "bafyreid2tj2rfkdqti734r7lczdwhvwbwphhiapegs2cymtkzbrqne6gd4"
+  }
+}

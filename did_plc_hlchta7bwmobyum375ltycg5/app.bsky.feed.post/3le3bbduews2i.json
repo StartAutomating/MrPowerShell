@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735071469743,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3le3bbduews2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3le3bbduews2i",
+    "record": {
+      "text": "One thing I keep realizing, year after year, is just how human the tech world is.\n\nIt's nowhere near objective.\n\nIt tries to act rational, but it's not.\n\n( What could be more human than that ?)",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicqngstjeymb5acj36kud5z5oqxuyk5vh5gpqjflkhh6jlu3hlyii",
+          "uri": "at://did:plc:ybtyn5l4nljys46ijqtpldaw/app.bsky.feed.post/3ldzbdwcsek2c"
+        },
+        "parent": {
+          "cid": "bafyreigefey4iayhtafahqeeqra5nrg2rfg3oqfpmzbasmvtshtip5hgs4",
+          "uri": "at://did:plc:ybtyn5l4nljys46ijqtpldaw/app.bsky.feed.post/3ldzbmf2pic2c"
+        }
+      },
+      "createdAt": "2024-12-24T20:17:49.743Z"
+    },
+    "cid": "bafyreig33uk5czv4q6zzqsifj6c3wyrqzkdrvqhwg6pldupywnmwhuzjxe"
+  }
+}

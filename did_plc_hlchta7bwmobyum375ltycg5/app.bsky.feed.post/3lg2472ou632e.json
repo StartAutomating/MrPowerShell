@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737230687824,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lg2472ou632e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lg2472ou632e",
+    "record": {
+      "text": "Quite a lot of it is.\n\nSince Windows Vista:\n\n1. Address spaces are randomized, making exploits _much_ harder\n2. You're running as a low rights user until you elevate to admin\n3. IPV6 is supported, allowing for more network level security\n\nSince Windows 7:\n\n#PowerShell is here to help",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigoqdxyw3r6esrvmlc5gb5vy7kf5gasy7cuw6wsepcder3b2j6w7q",
+          "uri": "at://did:plc:xraomsuf6pvh7r2cqtdwhkvm/app.bsky.feed.post/3lfxwrv3yyk2n"
+        },
+        "parent": {
+          "cid": "bafyreiclvpvgoqrba7w3kg7yfr2injuglydirklfcsec5unfdy6zf6wbdu",
+          "uri": "at://did:plc:kzxpz2ftj4op2wt6ovrqshmy/app.bsky.feed.post/3lg23trntus2y"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 268,
+            "byteStart": 257
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-18T20:04:47.824Z"
+    },
+    "cid": "bafyreieajcvxsv3ufpjahuo2yprprg3nwzmwi3tednmhwiyflxacd7e33y"
+  }
+}

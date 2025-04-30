@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741913827279,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lkcfpij7322n",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lkcfpij7322n",
+    "record": {
+      "text": "Very nice!\n\nUI in PowerShell is a very fun rabbit hole.\n\n@jaykul.powershell.social \n\nReminds me of ShowUI (in a good way)",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreids3m5rwl74ty3hfb6h6tkhl7j4ohw5oopnwiczvvpea7jsdgqkvi",
+          "uri": "at://did:plc:5gung3kb6wkzptdxh2riyc6c/app.bsky.feed.post/3lkbaydfjes2m"
+        },
+        "parent": {
+          "cid": "bafyreids3m5rwl74ty3hfb6h6tkhl7j4ohw5oopnwiczvvpea7jsdgqkvi",
+          "uri": "at://did:plc:5gung3kb6wkzptdxh2riyc6c/app.bsky.feed.post/3lkbaydfjes2m"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 82,
+            "byteStart": 57
+          },
+          "features": [
+            {
+              "did": "did:plc:cqtnputlv4lkdpwerfn6msjs",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-14T00:57:07.279Z"
+    },
+    "cid": "bafyreiafvpo5ne3ramve25lyl2xc4i4j75wugz32qsgrigkyv7tdhn3lda"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1739414339927,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhznuxmhzk24",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhznuxmhzk24",
+    "record": {
+      "text": "Hello from the Pacific PowerShell User Group!\n\nwww.meetup.com/pacific-powe...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/CGnOmkhIMU0AAAAC/powershell-icon.gif?hh=281&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreib7lgz2yqux2nfkw2x3nid4ktnezqtfqsio2hxraaxcj6yznq2t4q"
+            },
+            "mimeType": "image/jpeg",
+            "size": 41885
+          },
+          "title": "a blue arrow pointing to the right is against a black background",
+          "description": "ALT: a blue arrow pointing to the right is against a black background"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreias6edizvwivc4iotyvwkvbvyskxlomvlpdwzfu5taetaexxrn4xy",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3lhznsbdni425"
+        },
+        "parent": {
+          "cid": "bafyreias6edizvwivc4iotyvwkvbvyskxlomvlpdwzfu5taetaexxrn4xy",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3lhznsbdni425"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 77,
+            "byteStart": 47
+          },
+          "features": [
+            {
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/305911793/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-13T02:38:59.927Z"
+    },
+    "cid": "bafyreiat2kcbseuuwngv3jiemo2koo3bpw5uzt4uzjyby2y5w3isno5msa"
+  }
+}

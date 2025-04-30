@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736120842223,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lezsl3h2g225",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lezsl3h2g225",
+    "record": {
+      "text": "This would somewhat work, but not as well as having a different state for issues and updating the default to that state.\n\nBasically, I want the list of issues to only display ones without a checkin timeline ( by default ).\n\nAnd I want to easily be able to find / show active issues.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic6xvzybfnhwjznpr7zz5mv5kcnevzwc5rnc5nbtqd32wwfztpowy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lezn5yo7f22h"
+        },
+        "parent": {
+          "cid": "bafyreia2ledisdd7fv55fdqantcgnzf7656wbrxaa6jjfzhd7pxvu3bf5m",
+          "uri": "at://did:plc:munmkmorl6d57hkragyydlyh/app.bsky.feed.post/3lezscseyn22a"
+        }
+      },
+      "createdAt": "2025-01-05T23:47:22.223Z"
+    },
+    "cid": "bafyreia7utrsmvenasuxhuxqo3mgayaoh67etpxurzrgdn6sowgm6q5rzq"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740350301375,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3liuvkrz5k226",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3liuvkrz5k226",
+    "record": {
+      "text": "A lot of businesses auto elevate by default.\n\nThis is a mistake and a risk.\n\nIt's not that people can't run as admin occasionally.\n\nIt's that it should be the exception, not the rule.\n\n#cybersecurity #advice",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifnbrvuyzbsp7bvfnyk6tzuwm2ehplk5dvjipqsdq4qj2h2vf7cpi",
+          "uri": "at://did:plc:fsfhhyasd5h7754i4zat5q4f/app.bsky.feed.post/3liudkqypc22n"
+        },
+        "parent": {
+          "cid": "bafyreia223kjkyjngp3jgegyhbff2v4vzs67w4su7nugeut4vd6uykcwqy",
+          "uri": "at://did:plc:fsfhhyasd5h7754i4zat5q4f/app.bsky.feed.post/3liutk665uc2l"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 199,
+            "byteStart": 185
+          },
+          "features": [
+            {
+              "tag": "cybersecurity",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 207,
+            "byteStart": 200
+          },
+          "features": [
+            {
+              "tag": "advice",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-23T22:38:21.375Z"
+    },
+    "cid": "bafyreidmukvh7yqtetbie4x322qzvkadlirofcx5qhduzlrmnfs5wir4yi"
+  }
+}

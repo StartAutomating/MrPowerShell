@@ -1,0 +1,61 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736832693649,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfojjvujnc2g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfojjvujnc2g",
+    "record": {
+      "text": "That moment when you get your little #powershell #websocket server up to 10,000 requests a second.\n\nNew bits coming soon.\n\nFollow for more nerdy fun.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/TAyLV2jVnbYAAAAC/d-arcy-carden-janet.gif?hh=460&ww=460",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifw5heqtzey3veutqfhu6iqqifao7tg4oocace24jwjuc5oajiqam"
+            },
+            "mimeType": "image/jpeg",
+            "size": 136064
+          },
+          "title": "a woman wearing a purple vest and a blue and white blouse is smiling .",
+          "description": "Alt: Janet from The Good Place is impressed by the ungodly performance levels of a WebSocket object pipeline."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 48,
+            "byteStart": 37
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 59,
+            "byteStart": 49
+          },
+          "features": [
+            {
+              "tag": "websocket",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-14T05:31:33.649Z"
+    },
+    "cid": "bafyreiefhgoynvcpm2efp5e4xcxq66o63nk4ohsc5kauidayypmcceruxu"
+  }
+}

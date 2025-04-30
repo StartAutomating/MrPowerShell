@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740799249697,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ljbxoiiyxk2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ljbxoiiyxk2s",
+    "record": {
+      "text": "#PowerShell is very cool ( in many ways that most people don't realize ).\n\nGreat #RegEx support is one of the sweet spots.\n\nGlad you're having fun!",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreif4mkjgas3vheyarlyucfzu6spmhmmbpe3uneveuflypeql3ab4m4",
+          "uri": "at://did:plc:xfjf7fkhv6rwsx5e6p2ar37o/app.bsky.feed.post/3ljbgslwzqk2u"
+        },
+        "parent": {
+          "cid": "bafyreif4mkjgas3vheyarlyucfzu6spmhmmbpe3uneveuflypeql3ab4m4",
+          "uri": "at://did:plc:xfjf7fkhv6rwsx5e6p2ar37o/app.bsky.feed.post/3ljbgslwzqk2u"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 87,
+            "byteStart": 81
+          },
+          "features": [
+            {
+              "tag": "RegEx",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-01T03:20:49.697Z"
+    },
+    "cid": "bafyreih6hmyte4foyy6uetxj27mltxd665n3fi7ryd2szxqpkqsfeifieq"
+  }
+}

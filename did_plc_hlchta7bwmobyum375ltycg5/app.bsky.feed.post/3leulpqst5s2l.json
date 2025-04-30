@@ -1,0 +1,67 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735941683964,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leulpqst5s2l",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leulpqst5s2l",
+    "record": {
+      "text": "Some significant bonus points to this approach:\n\n1. Resilience ( anything goes wrong it's just a non terminating error )\n2. Scalability ( can be massively multitenant )\n3. Caching ( just make a hashtable and return stuff from it )\n4. Statefulness ( just use variables )\n\n#Fullstack #powershell #ftw",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreie5yykqafhrynhjtkneiky47ymuvnvpvel6l7rzza7pco7r6rfcfq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lesrsx74qs2x"
+        },
+        "parent": {
+          "cid": "bafyreie5yykqafhrynhjtkneiky47ymuvnvpvel6l7rzza7pco7r6rfcfq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lesrsx74qs2x"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 281,
+            "byteStart": 271
+          },
+          "features": [
+            {
+              "tag": "Fullstack",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 293,
+            "byteStart": 282
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 298,
+            "byteStart": 294
+          },
+          "features": [
+            {
+              "tag": "ftw",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-03T22:01:23.964Z"
+    },
+    "cid": "bafyreifbwwshwgs7aidgreosgsw46f3cf65c44n35kehvjvqtwy5ud6ko4"
+  }
+}

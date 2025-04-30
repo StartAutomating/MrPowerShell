@@ -1,0 +1,33 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1739657006544,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3liapuyksj22p",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3liapuyksj22p",
+    "record": {
+      "text": "Today's techy nightmare:\n\nJust finished writing a slide deck and went to save it.\n\nIt complained about some animation issue on a slide, then deleted *the whole talk*\n\n😭🤮😠😤\n\nReally hating #PowerPoint about now.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 210,
+            "byteStart": 199
+          },
+          "features": [
+            {
+              "tag": "PowerPoint",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-15T22:03:26.544Z"
+    },
+    "cid": "bafyreiav32r24xt3idzzv27mz4e7lhy2rw7vtc6haxrrs7woyowniur4vu"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737917361236,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgo3pjihy222",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgo3pjihy222",
+    "record": {
+      "text": "Next:\n\nApparently \"This Year\" has a music video.\n\nThanks \n@themountaingoats.bsky.social (For years of great music, for the many years this song has helped me survive, and for the accidentally prescient video)\n\nyoutu.be/H7fBFtif9H4?...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://youtu.be/H7fBFtif9H4?si=iQ1VFyl6eSV8l1ER",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidvlojrdufyfdsedsh2a4wn6kiim66fhyyq3a26fykdgpr4ysvnma"
+            },
+            "mimeType": "image/jpeg",
+            "size": 64243
+          },
+          "title": "The Mountain Goats - This Year (Official Video)",
+          "description": "YouTube video by the Mountain Goats"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiceydfdonzvht4q7viflvi7fqcqs53k54timblzppxr2eufkv65vu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgo3jj5vos22"
+        },
+        "parent": {
+          "cid": "bafyreiceydfdonzvht4q7viflvi7fqcqs53k54timblzppxr2eufkv65vu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgo3jj5vos22"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 87,
+            "byteStart": 58
+          },
+          "features": [
+            {
+              "did": "did:plc:3pv3xjtaidyjlovzknuztffc",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 234,
+            "byteStart": 210
+          },
+          "features": [
+            {
+              "uri": "https://youtu.be/H7fBFtif9H4?si=iQ1VFyl6eSV8l1ER",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-26T18:49:21.236Z"
+    },
+    "cid": "bafyreieg4mtkttn6saxbtgqumlahrlaxkolzqcz75qnmf3ftkouwfd7iiy"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736288345388,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lf6ol2vwz22h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lf6ol2vwz22h",
+    "record": {
+      "text": "You make great content, and are worth supporting even in months you're not making videos.\n\nAlso, this thread reminded me to finally join Patreon and start putting my money where my mouth is.\n\n+1 paid subscriber.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/eGC3J1iIPfEAAAAC/saving-private-ryan-earn-this.gif?hh=367&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiaf5svexiyecfdtblbhax4433bd6ixs4463h6274wgobnbywri7qq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 116733
+          },
+          "title": "a close up of a man 's face with the words `` earn this '' written next to him .",
+          "description": "Alt: Tom Hanks urges people to support Cypher, The Cynical Historian."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicalvyjqssbzfytsrfaerbgdlizx27zcdomznlq2whn7rmrd7xo24",
+          "uri": "at://did:plc:yptwvwiddmunycf2cnit7xeo/app.bsky.feed.post/3lf6nq4dr5v2w"
+        },
+        "parent": {
+          "cid": "bafyreicalvyjqssbzfytsrfaerbgdlizx27zcdomznlq2whn7rmrd7xo24",
+          "uri": "at://did:plc:yptwvwiddmunycf2cnit7xeo/app.bsky.feed.post/3lf6nq4dr5v2w"
+        }
+      },
+      "createdAt": "2025-01-07T22:19:05.388Z"
+    },
+    "cid": "bafyreie3emxlsabq35ugvfiohfpacv4rdmp4o2zvjh6yy4l5fbitlokpcm"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736819391286,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfo55hqoq22o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfo55hqoq22o",
+    "record": {
+      "text": "@robsewell.com \n\nHate to be the bearer of bad news, but the PowerShell feed is reporting \"not enough resources\".\n\nAlso / and, noticed a few random wrestling and YouTube links in the feed.\n\nYou may want to adjust the `pwsh` regex to only match after a space or #.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "did": "did:plc:esbc722g7bm4ly7b2mg7ba6m",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-14T01:49:51.286Z"
+    },
+    "cid": "bafyreihiutacb4zwlomho47evhplwf6slybdlokv2xq226qsyrh3tvn6my"
+  }
+}

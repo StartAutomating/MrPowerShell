@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734549519900,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldm35zpbf22q",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldm35zpbf22q",
+    "record": {
+      "text": "I think \"The Big Short\" is a comedy.  Just a very dark one.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreib7nh5okbmtjfkdb33mepbrctm77r3xeueurcqg4kubpecmx2mt3u",
+          "uri": "at://did:plc:igaby4nr77lndu3d3ws2muo3/app.bsky.feed.post/3ld7wjf2ecs2a"
+        },
+        "parent": {
+          "cid": "bafyreib7nh5okbmtjfkdb33mepbrctm77r3xeueurcqg4kubpecmx2mt3u",
+          "uri": "at://did:plc:igaby4nr77lndu3d3ws2muo3/app.bsky.feed.post/3ld7wjf2ecs2a"
+        }
+      },
+      "createdAt": "2024-12-18T19:18:39.9Z"
+    },
+    "cid": "bafyreic67x5z4iawl7o2m5y644bvcbn3ndj3gp3xvqjwlbzydcveqx3mde"
+  }
+}

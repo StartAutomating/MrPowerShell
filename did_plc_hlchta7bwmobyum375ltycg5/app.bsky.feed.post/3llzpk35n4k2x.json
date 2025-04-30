@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1743814168530,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3llzpk35n4k2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3llzpk35n4k2x",
+    "record": {
+      "text": "I wholeheartedly agree that you have to carefully review whatever code #AI gives you.\n\nI vehemently disagree that #PowerShell is a relatively simple language 😉",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihoemyj4jvy3x4vndtgcfwmn262u5ib3nyzih6vhlg5hpttpsktk4",
+          "uri": "at://did:plc:tonz7b7u2dmd7n2udiucjthb/app.bsky.feed.post/3llze7m722s2t"
+        },
+        "parent": {
+          "cid": "bafyreihmnmf3dzjld2oaqgccnuzdxekhwsbowlk7efozg4hrwraw2v2mq4",
+          "uri": "at://did:plc:qahhm7vo5wd37xxqepnghtof/app.bsky.feed.post/3llzegqmobc2z"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 74,
+            "byteStart": 71
+          },
+          "features": [
+            {
+              "tag": "AI",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 125,
+            "byteStart": 114
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-05T00:49:28.53Z"
+    },
+    "cid": "bafyreic5sps3jzqqwyxai4ci27hon7njw5rjdanqsztwagchxzmcegtxya"
+  }
+}

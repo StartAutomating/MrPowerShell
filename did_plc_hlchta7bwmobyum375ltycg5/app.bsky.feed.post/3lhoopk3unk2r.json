@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1739037274595,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhoopk3unk2r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhoopk3unk2r",
+    "record": {
+      "text": "Thank you!\n\nGitHub is probably preferable, as one can't follow or star a personal page.\n\nFor the analog clock:\n\nI think you'll be able to improve performance with ansi escape sequences and multiple \"pixels\" per console write.\n\nTry erasing the old one and draw the new one at the same time.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiftk6t3l6zrzbiczkasay7iiu7bt4gugpzmmnqbcvsumrbabh4qhe",
+          "uri": "at://did:plc:2glwd6mn3qwidcsxfonqcmsv/app.bsky.feed.post/3lhj3dmfno22m"
+        },
+        "parent": {
+          "cid": "bafyreiaryqe5rydczkgf4mf3qu6pkn6spii7ugazhng7yechyg7nefm6sq",
+          "uri": "at://did:plc:2glwd6mn3qwidcsxfonqcmsv/app.bsky.feed.post/3lhoka5odq22p"
+        }
+      },
+      "createdAt": "2025-02-08T17:54:34.595Z"
+    },
+    "cid": "bafyreihruskosr4qgy3eufu67uqbbkiq2zehqj46jjfq2rpulry2z7zjua"
+  }
+}

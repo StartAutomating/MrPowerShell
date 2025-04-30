@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733281858391,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lch6kri3zk2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lch6kri3zk2u",
+    "record": {
+      "text": "I'm generally happy that Microsoft is willing to change and embrace open source.\n\nAnd personally, I think it's one of the coolest languages in existence.\n\nDon't knock it until you know how to rock it.\n\nThe object pipeline is overpowered.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicwkaqyjcrmyxwdttvzlg3wvrtairvggfebwxtvwbh7jcchhy33qy",
+          "uri": "at://did:plc:cx5odfv73l27dro4h3erypbd/app.bsky.feed.post/3lcewy6wj6k2r"
+        },
+        "parent": {
+          "cid": "bafyreidbgiilkvnsogpttgpekhq3wawvo62un2uomib64jsdpwkgq7i4ma",
+          "uri": "at://did:plc:szawk3er44q2uis54i2ebsge/app.bsky.feed.post/3lch5yg7nms2f"
+        }
+      },
+      "createdAt": "2024-12-04T03:10:58.391Z"
+    },
+    "cid": "bafyreihf2mxrtdqwnocczk746r7qk5unjtz4zovf3urbqcm4bvbpq64xsq"
+  }
+}

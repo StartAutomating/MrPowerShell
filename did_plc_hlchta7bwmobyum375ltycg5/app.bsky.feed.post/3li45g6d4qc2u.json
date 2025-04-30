@@ -1,0 +1,109 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1739499742987,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3li45g6d4qc2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3li45g6d4qc2u",
+    "record": {
+      "text": "🌶️ take:\n\nMaybe, just maybe, the number of nation states and #hacker groups using #PowerShell is a good reason to get around to learning a bit more about the language.\n\n#cybersecurity #infosec #justsaying #hottake",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/CGnOmkhIMU0AAAAC/powershell-icon.gif?hh=281&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreie2edh7i46qfyyz5e6nfk3b5czpigbxwbdz6d7ezjnwpvvbgu2eoy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 3875
+          },
+          "title": "a blue arrow pointing to the right is against a black background",
+          "description": "Alt: A big flashing PowerShell Chevron, pointing you to why you should learn powershell.\n\n\n( This graphic was also made and recorded using PowerShell )"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 73,
+            "byteStart": 66
+          },
+          "features": [
+            {
+              "tag": "hacker",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 98,
+            "byteStart": 87
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 188,
+            "byteStart": 174
+          },
+          "features": [
+            {
+              "tag": "cybersecurity",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 197,
+            "byteStart": 189
+          },
+          "features": [
+            {
+              "tag": "infosec",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 209,
+            "byteStart": 198
+          },
+          "features": [
+            {
+              "tag": "justsaying",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 218,
+            "byteStart": 210
+          },
+          "features": [
+            {
+              "tag": "hottake",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-14T02:22:22.987Z"
+    },
+    "cid": "bafyreig5h4tudwrv6rkczdnerz23dmsoy7uoiny5juhu3orhvhikbs3jfy"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1693599790101,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k6ebrkjhil2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k6ebrkjhil2u",
+    "record": {
+      "text": "Hey Left Coast #PowerShell people:\n\nThere's now a #PowerShell meetup for our time zone!\n\nwww.meetup.com/pacific-powe...\n\nPlease join us for our first meeting on September 13th, where Jeremy Watkins will talk about modules.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiejdf44gzo3pqzx3ly4ncy3o2zeb6he7hvuw4twazn6mfmdmv3yqy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 426024
+          },
+          "title": "Pacific PowerShell User Group | Meetup",
+          "description": "Welcome West Coast PowerShell Users!The Pacific PowerShell User Group is here to help PowerShell people on/near the West Coast meet, talk about our scripting problems, and discuss cool PowerShell proj..."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 119,
+            "byteStart": 89
+          },
+          "features": [
+            {
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-09-01T20:23:10.101Z"
+    },
+    "cid": "bafyreicpirv2yim5jsswz2c6g3jyw5loplc6xskjghhyafnii52gjwsbpi"
+  }
+}

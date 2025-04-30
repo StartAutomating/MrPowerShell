@@ -1,0 +1,49 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1696296005435,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kasqt4q3yw2r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kasqt4q3yw2r",
+    "record": {
+      "text": "Don't mind me, I'm just testing parts of PSA https://github.com/StartAutomating/PSA . (testing web cards)",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/PSA",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiaiea5ceqs7ufvtptm47bcbmagitpedbfpola47hgcb4fv657qmfi"
+            },
+            "mimeType": "image/png",
+            "size": 23555
+          },
+          "title": "GitHub - StartAutomating/PSA: PowerShell Announcements (with AtProtocol)",
+          "description": "PowerShell Announcements (with AtProtocol). Contribute to StartAutomating/PSA development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 83,
+            "byteStart": 45
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/PSA",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-10-02T18:20:05.4355773-07:00"
+    },
+    "cid": "bafyreigd53vmpsiwbg3bejkedovqbqiw47o4cvlcstwl73remwvo3oqmfu"
+  }
+}

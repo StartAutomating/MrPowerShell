@@ -1,0 +1,145 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737163842265,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfy5wvscwk25",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfy5wvscwk25",
+    "record": {
+      "text": "Dear God, What Have I Done?\n\n#bluesky #websocket #atproto #javascript #css #svg #fun #friday #video \n\nFollow and find out what I'm up to.\n\nMore fun stuff coming soon.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "alt": "Making it rain down memes for BlueSky.",
+        "$type": "app.bsky.embed.video",
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreias5c3mgc735sfh6fx66m2kn7jnj7xdc2jc5adeaukl2d5b7jzp4i"
+          },
+          "mimeType": "video/mp4",
+          "size": 3391010
+        },
+        "aspectRatio": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 37,
+            "byteStart": 29
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 48,
+            "byteStart": 38
+          },
+          "features": [
+            {
+              "tag": "websocket",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 57,
+            "byteStart": 49
+          },
+          "features": [
+            {
+              "tag": "atproto",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 58
+          },
+          "features": [
+            {
+              "tag": "javascript",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 74,
+            "byteStart": 70
+          },
+          "features": [
+            {
+              "tag": "css",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 79,
+            "byteStart": 75
+          },
+          "features": [
+            {
+              "tag": "svg",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 84,
+            "byteStart": 80
+          },
+          "features": [
+            {
+              "tag": "fun",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 92,
+            "byteStart": 85
+          },
+          "features": [
+            {
+              "tag": "friday",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 99,
+            "byteStart": 93
+          },
+          "features": [
+            {
+              "tag": "video",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-18T01:30:42.265Z"
+    },
+    "cid": "bafyreighkasmmznivlveh4oihl2saiwgib5iuaj2fksxly5yobv3qjctey"
+  }
+}

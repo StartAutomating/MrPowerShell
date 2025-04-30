@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732411748324,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbnu7hu6p22a",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbnu7hu6p22a",
+    "record": {
+      "text": "Lol you asked, I answered.\n\nThere are hundreds of incentives to use #powershell, and if you're calling it \"cuspy\" you're ceding that point.\n\nAnd / also / ftw..... #powershell can run any language.\n\nIt's not an either / or.  It's an \"all of the above\".",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreibjyhk2y57icye7r25ihnjrnirslz6bpzz2dlbtfiifoqdk2rqeom",
+          "uri": "at://did:plc:xpnah7xsi3nbbq4wqww7jued/app.bsky.feed.post/3lbntr4aeck2m"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 79,
+            "byteStart": 68
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 174,
+            "byteStart": 163
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-24T01:29:08.324Z"
+    },
+    "cid": "bafyreibo73rci2bebpfabpgdjxzuiclmdx6zby24newindlferh4heqd5q"
+  }
+}

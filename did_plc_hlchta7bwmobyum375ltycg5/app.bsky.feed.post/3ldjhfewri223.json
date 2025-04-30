@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734459572248,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldjhfewri223",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldjhfewri223",
+    "record": {
+      "text": "I've been trying to make more modules with fewer cmdlets.\n\nYou may wish to consider the same.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihpdilqptr4ixausizi3ngh2gi66npcs5qgnoi7wy5btfgbsqdsmy",
+          "uri": "at://did:plc:iljkklhesqtbtpawv7yf64xw/app.bsky.feed.post/3ldiwvkhews2o"
+        },
+        "parent": {
+          "cid": "bafyreihpdilqptr4ixausizi3ngh2gi66npcs5qgnoi7wy5btfgbsqdsmy",
+          "uri": "at://did:plc:iljkklhesqtbtpawv7yf64xw/app.bsky.feed.post/3ldiwvkhews2o"
+        }
+      },
+      "createdAt": "2024-12-17T18:19:32.248Z"
+    },
+    "cid": "bafyreibf5zcchickhfpdnjyoxbsh52y5w44dljpayn6egcsu2vnvdsv7v4"
+  }
+}

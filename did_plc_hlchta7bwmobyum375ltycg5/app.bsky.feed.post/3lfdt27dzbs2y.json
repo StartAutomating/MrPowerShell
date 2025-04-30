@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736464947019,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfdt27dzbs2y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfdt27dzbs2y",
+    "record": {
+      "text": "Also, insert obligatory Star Wars meme.\n\nIt's -not true.\n\nIt's impossible.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/FgLNyZsRUxIAAAAC/thats-not-true-nope.gif?hh=188&ww=430",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreialq3eygkmj6viadhoghk5qkenjcneeduakhmnzdi2wmvtzwdzhmu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 52690
+          },
+          "title": "a man is holding onto a pole and says `` that 's impossible '' .",
+          "description": "Alt: Luke Skywalker learns the Sith power of PowerShell aliasing."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibl3xlzqr7q5qk2iafpypj4eurgnloxdsknuutklftr3ujsinm3yu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lctko2hugc2q"
+        },
+        "parent": {
+          "cid": "bafyreifh7bar2fxaiwiermtjq5mfwxrjlybjjljewfj3nmpxwb5oohohrq",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3lfds5ri7a223"
+        }
+      },
+      "createdAt": "2025-01-09T23:22:27.019Z"
+    },
+    "cid": "bafyreigwbv4ew7e4sgfiintuu5wpejccrteks3hyprdutftmmyrckthuum"
+  }
+}

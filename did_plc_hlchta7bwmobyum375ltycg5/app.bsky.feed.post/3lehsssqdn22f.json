@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735502626235,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lehsssqdn22f",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lehsssqdn22f",
+    "record": {
+      "text": "Sounds about right.\n\nHave you considered writing a PowerShell script to generate your generators that generate generator code?\n\n#metaprogramming is fun, right ?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicgucniiodscsvp2wol4fv7oemcuqqh3xocdsp6r2y3k4azwl6r5e",
+          "uri": "at://did:plc:qdgvaz44myqcvi7fungk4rab/app.bsky.feed.post/3lehnoam34s2f"
+        },
+        "parent": {
+          "cid": "bafyreicgucniiodscsvp2wol4fv7oemcuqqh3xocdsp6r2y3k4azwl6r5e",
+          "uri": "at://did:plc:qdgvaz44myqcvi7fungk4rab/app.bsky.feed.post/3lehnoam34s2f"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 144,
+            "byteStart": 128
+          },
+          "features": [
+            {
+              "tag": "metaprogramming",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-29T20:03:46.235Z"
+    },
+    "cid": "bafyreiaodfdotcjpvhu36sxks76xslueg3mlvszdhdqftcew3cha4ac5ue"
+  }
+}

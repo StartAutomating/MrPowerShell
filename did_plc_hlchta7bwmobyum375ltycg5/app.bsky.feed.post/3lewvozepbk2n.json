@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736021116278,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lewvozepbk2n",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lewvozepbk2n",
+    "record": {
+      "text": "I'm just glad Herzog has fully entered his \"meme\" phase.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/LP07YXKlu08AAAAC/mandalorian-baby.gif?hh=203&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreices6r2bjguk32supoekd7wdal33wm7iy6fkmkb3vuysybpsadbh4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 41785
+          },
+          "title": "an elderly man is sitting in a dark room and saying i would like to see the egg .",
+          "description": "Alt: Werner Herzog wants to see the egg"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiba5gybfxflqw3iht4vzmr5ufbyfchdnacqkjbgj7kisbij6dtg5m",
+          "uri": "at://did:plc:dyidtvrczrdyracol7td4qtf/app.bsky.feed.post/3leuzhweza225"
+        },
+        "parent": {
+          "cid": "bafyreihau4pjcedx45wa5o7xil4jai7axrjuketgo6athakmeenq2wv3ee",
+          "uri": "at://did:plc:dyidtvrczrdyracol7td4qtf/app.bsky.feed.post/3lewvkj2wps2n"
+        }
+      },
+      "createdAt": "2025-01-04T20:05:16.278Z"
+    },
+    "cid": "bafyreieog6i33hz37iowhw4iput74ezx37jdpcy647ddqkwlywouu3sf6q"
+  }
+}

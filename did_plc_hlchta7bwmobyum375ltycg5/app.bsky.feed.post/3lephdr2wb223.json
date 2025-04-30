@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735765187917,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lephdr2wb223",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lephdr2wb223",
+    "record": {
+      "text": "This is a great question.  I'm thinking it's an independent probability of at least 2 events:\n\n1. Number of Cyber trucks sold ( as % of cars on road )\n2. The capacity of that hotel ( as % of LV inventory )\n\nSo, that's roughly....\n\n27500/283M * 1282/154662\n\nOr...\n\n~0.0000008%\n\n8 in a million.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreie5h4x3l5qflf4nkakhojgw3d53ep6p7zucnbpciszoqhix4p6kpa",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lepfcfojep25"
+        },
+        "parent": {
+          "cid": "bafyreie5h4x3l5qflf4nkakhojgw3d53ep6p7zucnbpciszoqhix4p6kpa",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lepfcfojep25"
+        }
+      },
+      "createdAt": "2025-01-01T20:59:47.917Z"
+    },
+    "cid": "bafyreigpvk7qskes6do5tbbwev5jmjty5b62qc2esicshwxdo3divuf6sa"
+  }
+}

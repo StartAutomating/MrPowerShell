@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738950743368,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhm64pice22g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhm64pice22g",
+    "record": {
+      "text": "I keep reminding myself and others:\n\nIt's ok to not be ok.\n\nJust a small attempt to normalize #empathy.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifwc2cghcqw3ulyqxmh2p4kiphgrxnhcjz7boo4gxofmfonniih6q",
+          "uri": "at://did:plc:hjx4vtoryubvqa4vy6xuliy7/app.bsky.feed.post/3lhkwsxkjik26"
+        },
+        "parent": {
+          "cid": "bafyreifwc2cghcqw3ulyqxmh2p4kiphgrxnhcjz7boo4gxofmfonniih6q",
+          "uri": "at://did:plc:hjx4vtoryubvqa4vy6xuliy7/app.bsky.feed.post/3lhkwsxkjik26"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 102,
+            "byteStart": 94
+          },
+          "features": [
+            {
+              "tag": "empathy",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-07T17:52:23.368Z"
+    },
+    "cid": "bafyreiayr5cwggsj5qxrpsvpcger3rsitn3jeelozl4eopmgqsu7l7xpji"
+  }
+}

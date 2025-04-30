@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733285834716,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lchcbblwv22u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lchcbblwv22u",
+    "record": {
+      "text": "To say that unix has jobs is not to say that bash invented job control.  Multiproc io is older than you think.\n\nAnd not being able to work with objects in a uniform way makes people AWKardly retrace the same steps over and over again, parsing and praying as they go.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicwkaqyjcrmyxwdttvzlg3wvrtairvggfebwxtvwbh7jcchhy33qy",
+          "uri": "at://did:plc:cx5odfv73l27dro4h3erypbd/app.bsky.feed.post/3lcewy6wj6k2r"
+        },
+        "parent": {
+          "cid": "bafyreicvgyy6tacgniqqubequ3ijggmkgv3e2rovt2fpoxidaxmwjezm2i",
+          "uri": "at://did:plc:szawk3er44q2uis54i2ebsge/app.bsky.feed.post/3lchbalusl22f"
+        }
+      },
+      "createdAt": "2024-12-04T04:17:14.716Z"
+    },
+    "cid": "bafyreickta6yijvphfxedck5j6cquamecqfkubzbu6kqrqskztcys5t43m"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735417237271,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lefdbzhvjk2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lefdbzhvjk2x",
+    "record": {
+      "text": "This reminds me to get a SteamDeck one of these days, if only to put PowerShell on it.\n\n( PSA, Steam decks run arch Linux )\n\nFWIW / AFAIK #perl does not have events.\n\nNeither does #c, but it does have function pointers.\n\nDitto for object pipelines.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiggxfuosyuusdslta4bz6wzz73g2ptvzcin2ipvuptawl4wknricy",
+          "uri": "at://did:plc:bpmtx4nv56gasrya66xwxigw/app.bsky.feed.post/3leewjn7pxs2e"
+        },
+        "parent": {
+          "cid": "bafyreiarjxymfl6ytuuh33nk6cykm2dz4ipuh4dv55poeedvrw7shsjhfu",
+          "uri": "at://did:plc:bpmtx4nv56gasrya66xwxigw/app.bsky.feed.post/3lefcuu66ic2a"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 143,
+            "byteStart": 138
+          },
+          "features": [
+            {
+              "tag": "perl",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 182,
+            "byteStart": 180
+          },
+          "features": [
+            {
+              "tag": "c",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-28T20:20:37.271Z"
+    },
+    "cid": "bafyreighx73zf3gktky4mu3csatx56eticrh5taxrx2avn7g6svayrjh4a"
+  }
+}

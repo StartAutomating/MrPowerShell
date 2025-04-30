@@ -1,0 +1,71 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741369637990,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ljskvf5vnk2d",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ljskvf5vnk2d",
+    "record": {
+      "text": "This is actually the right way to do it ( from a perf perspective )\n\nSee this #PowerShell project, PowerArcade, for more examples.\n\ngithub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/PowerArcade",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieubmicgg5ydtjoix6isz65hgwlnwubkm6zgy6fqvb455li5y2qn4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 84695
+          },
+          "title": "GitHub - StartAutomating/PowerArcade: A Retro Arcade Game Console in PowerShell",
+          "description": "A Retro Arcade Game Console in PowerShell. Contribute to StartAutomating/PowerArcade development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihiitowi2qozufb4wcmoyf4ztehwqlxcihl2awdcg32wkimygb4hm",
+          "uri": "at://did:plc:cmyrib2ubhwg7aokqnze76n6/app.bsky.feed.post/3ljsclhuurc2t"
+        },
+        "parent": {
+          "cid": "bafyreihiitowi2qozufb4wcmoyf4ztehwqlxcihl2awdcg32wkimygb4hm",
+          "uri": "at://did:plc:cmyrib2ubhwg7aokqnze76n6/app.bsky.feed.post/3ljsclhuurc2t"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 89,
+            "byteStart": 78
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 158,
+            "byteStart": 132
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/PowerArcade",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-07T17:47:17.99Z"
+    },
+    "cid": "bafyreig3ynb3f334yn55am6yaczhkc57cm5kjttj74vspcfzbbjiakdwdu"
+  }
+}

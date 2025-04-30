@@ -1,0 +1,67 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738722002404,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhfj3p45ms27",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhfj3p45ms27",
+    "record": {
+      "text": "Hmm that is lower than I thought it might be.\n\n#TIL some #JavaScript #CSS perf lessons.\n\nNow I'm gonna feel much more happy using \"complex\" selectors liberally.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieh4cnd6why6qp6gdovwr3q6i2xyxcfu6ihna3d5z6hvhae35jk3i",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3lhewypixvs2b"
+        },
+        "parent": {
+          "cid": "bafyreicrxc3ftt52ekd5nmyfjzvenijyohco5yel5jhgjdsqusro6lhlre",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3lhf6zk7d6c2b"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 51,
+            "byteStart": 47
+          },
+          "features": [
+            {
+              "tag": "TIL",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 68,
+            "byteStart": 57
+          },
+          "features": [
+            {
+              "tag": "JavaScript",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 73,
+            "byteStart": 69
+          },
+          "features": [
+            {
+              "tag": "CSS",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-05T02:20:02.404Z"
+    },
+    "cid": "bafyreih4q3rrkcbscsjuqxkkw7px6tnox46lhbti6xo76i5yjrcmmw25wm"
+  }
+}

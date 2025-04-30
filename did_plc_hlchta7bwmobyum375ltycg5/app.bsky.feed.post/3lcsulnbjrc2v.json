@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733683466978,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcsulnbjrc2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcsulnbjrc2v",
+    "record": {
+      "text": "I'm currently preferring #PowerShell.  #nushell looks interesting, but still seems a bit new, and like it will have a ways to go to match powershell's ecosystem.\n\nIt's an up and comer, and it's nice to see the object pipeline exist outside of pwsh.\n\nAlso nice they give credit where it's due.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibt6dzoo4s2fi62tqym6m34gs4xegurkcqrx3whi6k7p7hjlgzlyi",
+          "uri": "at://did:plc:jgxnqiipfabu3rcubex7aubd/app.bsky.feed.post/3lcrvactqg22o"
+        },
+        "parent": {
+          "cid": "bafyreibt6dzoo4s2fi62tqym6m34gs4xegurkcqrx3whi6k7p7hjlgzlyi",
+          "uri": "at://did:plc:jgxnqiipfabu3rcubex7aubd/app.bsky.feed.post/3lcrvactqg22o"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 25
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 47,
+            "byteStart": 39
+          },
+          "features": [
+            {
+              "tag": "nushell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-08T18:44:26.978Z"
+    },
+    "cid": "bafyreieqpalh4hzrd3jhuv7xt5in6di6kmdombwa2j4w3wls32vdz6jdla"
+  }
+}

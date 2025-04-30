@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735013559439,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldzldic4pk2q",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldzldic4pk2q",
+    "record": {
+      "text": "Following up on it, the existing free way to do this is to literally set up a public repo and write a workflow that runs PowerShell.\n\nIf you want something you can use today, that works.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicya3adzaaxlmbzpuhzoy7xw4k6xp7kysf4qggrxcypjeyqx5d7eq",
+          "uri": "at://did:plc:dq6jaefxy6vc6vvthg57kwvs/app.bsky.feed.post/3ldzdhep4vc2y"
+        },
+        "parent": {
+          "cid": "bafyreihw2o4lh4ryhy47zwxxavt62nmnebcm5i6butz5prs7nyr4uovwkq",
+          "uri": "at://did:plc:dq6jaefxy6vc6vvthg57kwvs/app.bsky.feed.post/3ldzkrwr7tc2w"
+        }
+      },
+      "createdAt": "2024-12-24T04:12:39.439Z"
+    },
+    "cid": "bafyreifjiiji5zrfw335pq7qjld5iqig3zzrgbcppvkf2ldqv2dir6xdka"
+  }
+}

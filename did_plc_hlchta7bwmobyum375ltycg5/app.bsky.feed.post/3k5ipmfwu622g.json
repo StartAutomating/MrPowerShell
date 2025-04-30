@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1692652595238,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k5ipmfwu622g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k5ipmfwu622g",
+    "record": {
+      "text": "Forgive the ignorance, but... what show?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibs645sn6zkpjd2y6j3afe5hnwampjxe3qtw527ya4gpqukyqa734",
+          "uri": "at://did:plc:5zylmat6q7rnj2fdysxv52cj/app.bsky.feed.post/3k5ii7truum2m"
+        },
+        "parent": {
+          "cid": "bafyreibuv343vtiouxnf7s4l6cnjka3xfcxi77a64eyi5e2hqhbz75vdoq",
+          "uri": "at://did:plc:j76trmiofvaxxpvx2vnb2vwf/app.bsky.feed.post/3k5ins6zdml2e"
+        }
+      },
+      "createdAt": "2023-08-21T21:16:35.238Z"
+    },
+    "cid": "bafyreifm732ejwgcvxepluxb24ib4uqe2b5fi7x6juuvt6beqmfm344kj4"
+  }
+}

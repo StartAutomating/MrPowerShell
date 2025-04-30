@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1692647556157,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k5ikwa6bqu2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k5ikwa6bqu2o",
+    "record": {
+      "text": "You might also be able to sidestep BurntToast by using the .NET apis directly.\n\nFound an ScriptDeck/WindowsPowerShell.StreamDeckPluginTemplate.ps1 at b33ce2b69f1b2fb42387291a6ac05b21e9ee37c9 · StartAutomating/ScriptDeck (github.com)\n\n(to long to skeet/tweet/whatever we're calling it)",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/ScriptDeck/blob/b33ce2b69f1b2fb42387291a6ac05b21e9ee37c9/WindowsPowerShell.StreamDeckPluginTemplate.ps1#L118-L132",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifbguotbblff4iugmhkrspnyzalhyun545y6u2f4oivs66dgudrhy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 234734
+          },
+          "title": "ScriptDeck/WindowsPowerShell.StreamDeckPluginTemplate.ps1 at b33ce2b69f1b2fb42387291a6ac05b21e9ee37c...",
+          "description": "PowerShell Tools for Elgato StreamDeck. Contribute to StartAutomating/ScriptDeck development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibqplplz6qyhvdfaoyxzqesneqva4i2monrd7icxow3haro2fz2u4",
+          "uri": "at://did:plc:vtcm54bmbkuaj32aiqtbvrwu/app.bsky.feed.post/3k5h4r2rfnz2w"
+        },
+        "parent": {
+          "cid": "bafyreiaa373fsir7n2yevb7rtglv3acaabyjxxmpqegfd7mwwpe2co733u",
+          "uri": "at://did:plc:5hm6gmnwxrtuam33otszl6bf/app.bsky.feed.post/3k5ikb6fb5o2m"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 232,
+            "byteStart": 222
+          },
+          "features": [
+            {
+              "uri": "https://github.com",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-08-21T19:52:36.157Z"
+    },
+    "cid": "bafyreiher66mj5hy3uxrh77amkhgs5dbxhmswwtxf7zonsfjrijdgkzeza"
+  }
+}

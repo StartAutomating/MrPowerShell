@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737656366741,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgginbqgl22v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgginbqgl22v",
+    "record": {
+      "text": "Speaking as someone who helped build it and has been writing #PowerShell for 18 years....\n\nIt *is* a strange scripting language.  It's a bit weird and wonderful.\n\nIt has lots of concepts that don't exist in other languages, and its syntax is a hybrid of like 10 languages.\n\nGot questions?  AMA.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicgiqagozdk7ek2qindps6jdn3n4p5qa34pieumbmagolbxj6lmai",
+          "uri": "at://did:plc:ypz6ivejfaklxujmss7pi5xt/app.bsky.feed.post/3lgezbsqbsk2a"
+        },
+        "parent": {
+          "cid": "bafyreicgiqagozdk7ek2qindps6jdn3n4p5qa34pieumbmagolbxj6lmai",
+          "uri": "at://did:plc:ypz6ivejfaklxujmss7pi5xt/app.bsky.feed.post/3lgezbsqbsk2a"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 72,
+            "byteStart": 61
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-23T18:19:26.741Z"
+    },
+    "cid": "bafyreihsrmcjpllgnhztr5xoqfrkkedjqc3ari3vexjmmq5dsl26bfxnkq"
+  }
+}

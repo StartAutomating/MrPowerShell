@@ -1,0 +1,33 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1697220814648,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kbno4m7dls2k",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kbno4m7dls2k",
+    "record": {
+      "text": "#PowerShell Friday13th\n& {\n    param([int]$Total = 2)\n    $day, $friday13ths = (Get-Date).Date, @()\n    do {\n        if ($day.DayOfWeek * $day.Day -eq 65) {\n            $friday13ths += $day\n        }\n        $day = $day.AddDays(1)    \n    } while ($friday13ths.Count -lt $Total)\n    $friday13ths\n}",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-10-13T18:13:34.648Z"
+    },
+    "cid": "bafyreicbzcoydlpkthkokf3l2vibssn2ou6vdusdnehlf46mx37tywquqi"
+  }
+}

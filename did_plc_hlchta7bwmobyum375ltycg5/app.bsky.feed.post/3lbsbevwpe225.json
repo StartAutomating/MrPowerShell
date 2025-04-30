@@ -1,0 +1,95 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732563328456,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbsbevwpe225",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbsbevwpe225",
+    "record": {
+      "text": "Hit me up and I shall help. If we can put this in a simple #powershell script, I'll be able to tie it into #obs / #obs-powershell and we could stream poll results live.\n\ngithub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/obs-powershell",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihlsqheqzatbjxtxn7gjfnebxtmdanyet5fc733scz2rbe7wpfsie"
+            },
+            "mimeType": "image/jpeg",
+            "size": 85146
+          },
+          "title": "GitHub - StartAutomating/obs-powershell: Script OBS with PowerShell",
+          "description": "Script OBS with PowerShell. Contribute to StartAutomating/obs-powershell development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihtybflhk2yuydhq74c2mq7smaocpsjubcytf3sgfbdglzgdggzl4",
+          "uri": "at://did:plc:oj5ww3bm34ntqeybdnh2lrm2/app.bsky.feed.post/3lbqflmsj6c2d"
+        },
+        "parent": {
+          "cid": "bafyreihtybflhk2yuydhq74c2mq7smaocpsjubcytf3sgfbdglzgdggzl4",
+          "uri": "at://did:plc:oj5ww3bm34ntqeybdnh2lrm2/app.bsky.feed.post/3lbqflmsj6c2d"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 70,
+            "byteStart": 59
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 111,
+            "byteStart": 107
+          },
+          "features": [
+            {
+              "tag": "obs",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 129,
+            "byteStart": 114
+          },
+          "features": [
+            {
+              "tag": "obs-powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 196,
+            "byteStart": 170
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/obs-powershell",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-25T19:35:28.456Z"
+    },
+    "cid": "bafyreig472f5uo774ycqod5pfhwijdvykar655rf3hpbqgb2xbl43kynme"
+  }
+}

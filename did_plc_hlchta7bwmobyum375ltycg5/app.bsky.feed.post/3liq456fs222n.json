@@ -1,0 +1,71 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740185562099,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3liq456fs222n",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3liq456fs222n",
+    "record": {
+      "text": "Glad you've discovered this.\n\nBeen making almost every module into an action for years.\n\nUsing my helpful #PowerShell module PSDevOps:\n\ngithub.com/StartAutomat...\n\nIt's a really handy trick that exposes your scripts to a whole new set of users.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/PSDevOps",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigaharbp7j4hznlvkvtjngppinz6zbftj3vrh62uiygjffrvrkzcu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 98262
+          },
+          "title": "GitHub - StartAutomating/PSDevOps: PowerShell Tools for DevOps",
+          "description": "PowerShell Tools for DevOps. Contribute to StartAutomating/PSDevOps development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieyufd4mkqlwsi272wazvfwdeznv3hmrm46nrmzcof3vr3na2h7o4",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3lip55kym7s2c"
+        },
+        "parent": {
+          "cid": "bafyreieyufd4mkqlwsi272wazvfwdeznv3hmrm46nrmzcof3vr3na2h7o4",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3lip55kym7s2c"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 117,
+            "byteStart": 106
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 162,
+            "byteStart": 136
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/PSDevOps",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-22T00:52:42.099Z"
+    },
+    "cid": "bafyreibj2lwraiey43qyvqogvycocvs63hhsazkf6lbwpqijl4hkotfcca"
+  }
+}

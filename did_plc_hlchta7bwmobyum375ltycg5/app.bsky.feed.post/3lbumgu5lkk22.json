@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732643924330,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbumgu5lkk22",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbumgu5lkk22",
+    "record": {
+      "text": "Try #PowerShell in #VSCode ... I think it's a much nicer editor, and it will let you learn powershell core.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreif5xzh2edhn5ektjyxiwrrnzvawtkf4ibjcywsrgn2enmovtjdn7y",
+          "uri": "at://did:plc:3ypbbacsd6ikaay45cixxskt/app.bsky.feed.post/3lb3etyu35s2a"
+        },
+        "parent": {
+          "cid": "bafyreifgq5xje3ldqbiwsttnrf3bexpdgjpnnsw6qr3s6klfzyosrmuiki",
+          "uri": "at://did:plc:fjqttd2xxvfuqrrcammehexx/app.bsky.feed.post/3lbtib3ywrp2a"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 26,
+            "byteStart": 19
+          },
+          "features": [
+            {
+              "tag": "VSCode",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-26T17:58:44.33Z"
+    },
+    "cid": "bafyreidk3azbf3q3xh6u5kglpqc4ygmw5avthaomeunaplwptvistg5h4y"
+  }
+}

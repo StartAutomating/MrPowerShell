@@ -1,0 +1,49 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1692577832050,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k5gjzakipc2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k5gjzakipc2w",
+    "record": {
+      "text": "Another build of EZOut is, um, Out:\n\nhttps://github.com/StartAutomating/EZOut\nIn this batch:\n* Formatting can live in the 'Types' directory.\n* -Style parameters get even better\n* Out-Alternate shows you different views\n#PowerShell #Formatting #posh",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/EZOut",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiafvmrcnwpyultjoehf2a45fzka5mc7ow5j5oar7zug5ui45fonxy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 95752
+          },
+          "title": "GitHub - StartAutomating/EZOut: EZOut is a PowerShell module to help take the pain out of writing fo...",
+          "description": "EZOut is a PowerShell module to help take the pain out of writing format and types XML - GitHub - StartAutomating/EZOut: EZOut is a PowerShell module to help take the pain out of writing format and..."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 77,
+            "byteStart": 37
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/EZOut",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-08-21T00:30:32.05Z"
+    },
+    "cid": "bafyreiamyq7yvjptsy6bssme52uhmis6jahzusjf6mv4zm6o3dsm5qiteu"
+  }
+}

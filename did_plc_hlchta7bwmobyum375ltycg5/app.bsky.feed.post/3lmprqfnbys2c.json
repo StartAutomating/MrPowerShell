@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744572442573,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmprqfnbys2c",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmprqfnbys2c",
+    "record": {
+      "text": "I used to think this was just some beef Mr Finke had with me, and cannot express how sad I am to hear the same thing from multiple people.\n\nIt's sad to see people become more toxic.\n\nI wish he would listen to his peers, instead of dismissing us with \"sparky\".\n\nDo better, indeed.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/qSk8cXwntt0AAAAC/toxic-britney-spears.gif?hh=491&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigtac62jcrs2bod6xgc6cfpkwm2nm6imsjlkoogdfxcmtawm2awtu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 176415
+          },
+          "title": "a blurry picture of a woman with the words \" do n't you know that you 're toxic \" on the bottom",
+          "description": "Alt: Brittney knows Toxic when they see it.\n\nResponding to criticism with dismissiveness and anger is, well, toxic."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreign24wrq5t6cztf6vvncrwsbefy6gi5auuuqoo6qnbt7awnbhnrka",
+          "uri": "at://did:plc:yfrae62vopyax7pixtnecwyh/app.bsky.feed.post/3lmf3mh3trs2g"
+        },
+        "parent": {
+          "cid": "bafyreiajkbj3shsb7zytvzzzewquwsmpo7reiz2yvcrz6kbi232a6vg2se",
+          "uri": "at://did:plc:3awie5uyavd7c6ot3dkrcqps/app.bsky.feed.post/3lmpqy2bdus2z"
+        }
+      },
+      "createdAt": "2025-04-13T19:27:22.573Z"
+    },
+    "cid": "bafyreifcromnu24jyyndreq4gf6w3gfgndg6kifs7qqplabiwrbegvdcjq"
+  }
+}

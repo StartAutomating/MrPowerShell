@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1697312224516,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kbqdavhxtw2f",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kbqdavhxtw2f",
+    "record": {
+      "text": "I'm all for helping, but this is a lot \"antiranting\".\n\nPowerShell prefers types and real objects, because they'll generally be faster than .exes.\n\nCRC is fairly old. Your exe is internal.\n\nWant to hash a big file?  Get-FileHash.\n\nYou seem to be barking up the wrong tree and mad at the lang.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidyy2622bgewrfvsksdbyxrg6jin4drqdubfh2a76xvrjs5i2yhxy",
+          "uri": "at://did:plc:tbjm46ucgokpc3i4r2yuqkd7/app.bsky.feed.post/3kbgubjnpbb2d"
+        },
+        "parent": {
+          "cid": "bafyreieoqfi6kx6pwbrc4ofatvwnrkecv6quud4cm6zkrg6gor7v5wkoey",
+          "uri": "at://did:plc:tbjm46ucgokpc3i4r2yuqkd7/app.bsky.feed.post/3kbpc2uxyqs2c"
+        }
+      },
+      "createdAt": "2023-10-14T19:37:04.516Z"
+    },
+    "cid": "bafyreifykl2ythxwgzmtdjfub2q5zyfwtlzluccxp6xekledzf2bdsdkfy"
+  }
+}

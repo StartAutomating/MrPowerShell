@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742856320767,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ll5thydq222w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ll5thydq222w",
+    "record": {
+      "text": "Not sure.  Could you share the event calendar site?\n\nI was told in no uncertain terms this weekend that the preference is to use some atproto event calendar solution ( instead of Meetup).\n\n@ngerakines.me also makes a event calendar thing.... You two may want to sync up.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicyl3yi4x45uha2fuzipm3o7ekkqah7xxd4rqgpp4pdzymkeahmtm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ll3yuduibc2w"
+        },
+        "parent": {
+          "cid": "bafyreib5cc2in4rr7bfgem563bu7glmkryfx6gsvwl6ldhehpwfk4rfu2i",
+          "uri": "at://did:plc:3eqjax2z27n62clmbuub7a3v/app.bsky.feed.post/3ll5swplas22g"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 203,
+            "byteStart": 189
+          },
+          "features": [
+            {
+              "did": "did:plc:cbkjy5n7bk3ax2wplmtjofq2",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-24T22:45:20.767Z"
+    },
+    "cid": "bafyreihdwyykcbir2snyujlrscgd7vb53ranensjmi5zrein7v3q5za5w4"
+  }
+}

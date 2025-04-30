@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738694688611,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhepnonglc2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhepnonglc2u",
+    "record": {
+      "text": "If you mark a parameter as mandatory it will prompt for you and convert the input to the type.\n\nIf you want to make that pipe in from an object, use ValueFromPipelineByPropertyName\n\nI.e.\n\n~~~PowerShell\nparam(\n[Parameter(Mandatory,ValueFromPipelineByPropertyName)]\n[Int]\n$Number\n)\n\n$Number\n~~~",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiar5yi7r77aabw3al4d5mtfn5op7ar6nis3svacb3zqciy3jby4oy",
+          "uri": "at://did:plc:uw2tn5iz4r4v2xiatak4ri6t/app.bsky.feed.post/3lhemm3bvc22c"
+        },
+        "parent": {
+          "cid": "bafyreibxugqmahg5k35prtlydppvvitsjxgpovruvzthcr3bltzrphbzlm",
+          "uri": "at://did:plc:uw2tn5iz4r4v2xiatak4ri6t/app.bsky.feed.post/3lhephohzdc2j"
+        }
+      },
+      "createdAt": "2025-02-04T18:44:48.611Z"
+    },
+    "cid": "bafyreihiw4i73ksdtgjdl3cgxys6ydndr6xoe56sbgjkuu2jwlo7iqvvqm"
+  }
+}

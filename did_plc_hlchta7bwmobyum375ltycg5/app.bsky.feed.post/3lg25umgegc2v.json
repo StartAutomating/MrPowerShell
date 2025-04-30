@@ -1,0 +1,71 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737232484805,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lg25umgegc2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lg25umgegc2v",
+    "record": {
+      "text": "Yep / Can Confirm.\n\nWorked in the management division back in the day.\n\n#DOD demanded #IPV6 support.  I helped make sure the stack supported it.\n\nThey actually know what they're doing, too.\n\nGood modern networks are pretty locked down.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/8zs_qRxrXjcAAAAC/can-confirm-katy.gif?hh=270&ww=480",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifvw4vldesu73vbiv6qxr26i6c6jhjw2njwgdlupqg6ftxnguegl4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 74822
+          },
+          "title": "a woman sitting in a kitchen with a box of treats in the background",
+          "description": "Alt: Katy Can Confirm that Windows IPV6 Support is actually a matter of national security."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigoqdxyw3r6esrvmlc5gb5vy7kf5gasy7cuw6wsepcder3b2j6w7q",
+          "uri": "at://did:plc:xraomsuf6pvh7r2cqtdwhkvm/app.bsky.feed.post/3lfxwrv3yyk2n"
+        },
+        "parent": {
+          "cid": "bafyreihtbh75jkxwr7xgz7intnuai3kgrlehcviq2znfg3oelbuizxdpqi",
+          "uri": "at://did:plc:adgodmx5hrrdiz4bvgcbfas3/app.bsky.feed.post/3lg25karrv22l"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 76,
+            "byteStart": 72
+          },
+          "features": [
+            {
+              "tag": "DOD",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 91,
+            "byteStart": 86
+          },
+          "features": [
+            {
+              "tag": "IPV6",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-18T20:34:44.805Z"
+    },
+    "cid": "bafyreihif5tfjrulo3ggaoza6lliujkjbbcv6ochlerb2ecfn62x3wsaoe"
+  }
+}

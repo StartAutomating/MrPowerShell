@@ -1,0 +1,67 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732424457080,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lboa27uo7c2e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lboa27uo7c2e",
+    "record": {
+      "text": "Well, #windows uses #powershell to build itself, and so do many complex projects.  So yes, oses are made with powershell.\n\nIt's not \"only\" powershell, anymore than an OS is written in only C.\n\n#powershell is basically a great metalanguage / bridge between techs.\n\nMaking more sense now?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreib6hs4yz62eo6hsxwg6gbxypkn2unmb3nkhvvwh6cvjndyxdb4v64",
+          "uri": "at://did:plc:z23mr6a4ydaga3mqlk6dwdcr/app.bsky.feed.post/3lbo7smsqnk2t"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 6
+          },
+          "features": [
+            {
+              "tag": "windows",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 31,
+            "byteStart": 20
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 204,
+            "byteStart": 193
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-24T05:00:57.08Z"
+    },
+    "cid": "bafyreiefmdes246adjnqbl2nejliyhr6qrh4rby7lwg2kogmwo2wky4sqq"
+  }
+}

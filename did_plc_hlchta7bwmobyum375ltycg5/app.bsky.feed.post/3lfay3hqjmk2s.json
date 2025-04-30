@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736367278866,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfay3hqjmk2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfay3hqjmk2s",
+    "record": {
+      "text": "Cool idea!\n\nLemme know if you'd like to collaborate in order to solve some of the issues you've highlighted in your feed, or if you want to add capabilities to your app.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig6rd4curkfm3jtpclru26z3lkrgawam6xiyohigt7kjjmujda6fq",
+          "uri": "at://did:plc:am2efcds23p2jgkx3g3ugbjd/app.bsky.feed.post/3lezlx4pd322p"
+        },
+        "parent": {
+          "cid": "bafyreiesl2hzdxlo74yqqps5y7kkh4reet4gn6skgciajgwxxybp4vflhy",
+          "uri": "at://did:plc:tv5pjlliefcorn6opfp6kjxy/app.bsky.feed.post/3lfaeddkmic23"
+        }
+      },
+      "createdAt": "2025-01-08T20:14:38.866Z"
+    },
+    "cid": "bafyreiedzh6kumikdhlor3ejrc3tv5cpxz3w4gnkixoxcx3ekud7eywcz4"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734814286046,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldtrqoestk2t",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldtrqoestk2t",
+    "record": {
+      "text": "#tech #tip\n\n#powershell can constrain a variable by type and/or attribute:\n\n~~~PowerShell\n[ValidateScript({$_ -eq 42})][int]$answerAsNumber = 42\n~~~\n\nThis stops the variable from being another type or being invalid, unless it is redeclared.\n\n#PowerShell Parameters can always be constrained.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 5,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "tech",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 10,
+            "byteStart": 6
+          },
+          "features": [
+            {
+              "tag": "tip",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 23,
+            "byteStart": 12
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 253,
+            "byteStart": 242
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-21T20:51:26.046Z"
+    },
+    "cid": "bafyreicsydozo36l3p2j433u5heeotpyp3t64qs2rcrmg4kbb4rcpbuwia"
+  }
+}

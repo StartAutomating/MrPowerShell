@@ -1,0 +1,61 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1726103314717,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3l3wb3txmc326",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3l3wb3txmc326",
+    "record": {
+      "text": "Drop by the Pacific #PowerShell UserGroup to learn about PwshSpectreConsole (with Shaun Lawrie)\n\nwww.meetup.com/pacific-powe...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/events/303345693/",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibtg2panpruthshrwrlwbyq4u6rpngbuwpfm4wm24dmyc3ow2ohma"
+            },
+            "mimeType": "image/jpeg",
+            "size": 386868
+          },
+          "title": "Shaun Lawrie speaks about PwshSpectreConsole, Wed, Sep 11, 2024, 6:00 PM   | Meetup",
+          "description": "*Shaun Lawrie, a developer from Wellington, New Zealand, will demonstrate how to use the .NET Spectre Console Library in PowerShell to create visually appealing console app"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 31,
+            "byteStart": 20
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 127,
+            "byteStart": 97
+          },
+          "features": [
+            {
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/303345693/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-09-12T01:08:34.717Z"
+    },
+    "cid": "bafyreih35luagrxrehxqk6mhgg7gqrfiv6av63zlcdtbqqrvmq2ubhjo6i"
+  }
+}

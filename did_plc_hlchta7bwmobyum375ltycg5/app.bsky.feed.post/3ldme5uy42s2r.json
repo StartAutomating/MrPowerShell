@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734559178624,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldme5uy42s2r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldme5uy42s2r",
+    "record": {
+      "text": "This might be because you, too, are a certified bada$$ of #powershell.\n\nYou make almost as many modules as I do! ( Maybe more, haven't checked in a bit )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreianjiv4iiys2ypm73fnvin7y76lv64o2kiz6lz4mmut7unqq5mvry",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldktukofpk2l"
+        },
+        "parent": {
+          "cid": "bafyreidx424cnpsj4munk44onskzrqvlnoclhn7lhlmi4aj5dsjb5bgwba",
+          "uri": "at://did:plc:lnefdayxtxt4tk47ejcvccey/app.bsky.feed.post/3ldl5hcomjs2n"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 58
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-18T21:59:38.624Z"
+    },
+    "cid": "bafyreiaeslqwyhwsyrmwp3ihkcub7d4ooemxzru37nt2inzbw5ztl7dkiu"
+  }
+}

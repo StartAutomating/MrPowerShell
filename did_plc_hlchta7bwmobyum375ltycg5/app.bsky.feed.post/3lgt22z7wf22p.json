@@ -1,0 +1,51 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738087398031,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgt22z7wf22p",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgt22z7wf22p",
+    "record": {
+      "text": "Great breakdown!\n\nMaybe I should issue another update to Hanlon's Razor\n\nI normally make it \"never assume malice where humanity could be the answer\"\n\nMaybe it should be \"never assume malice where legalese could be the answer\".\n\nen.m.wikipedia.org/wiki/Hanlon%...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://en.m.wikipedia.org/wiki/Hanlon%27s_razor",
+          "title": "Hanlon's razor - Wikipedia",
+          "description": ""
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibnomdovlx6micz3253ak5obehz5nxkqpg7mhfmurcrh7yffwqpda",
+          "uri": "at://did:plc:hjx4vtoryubvqa4vy6xuliy7/app.bsky.feed.post/3lgsbwedp3k2j"
+        },
+        "parent": {
+          "cid": "bafyreibnomdovlx6micz3253ak5obehz5nxkqpg7mhfmurcrh7yffwqpda",
+          "uri": "at://did:plc:hjx4vtoryubvqa4vy6xuliy7/app.bsky.feed.post/3lgsbwedp3k2j"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 262,
+            "byteStart": 228
+          },
+          "features": [
+            {
+              "uri": "https://en.m.wikipedia.org/wiki/Hanlon%27s_razor",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-28T18:03:18.031Z"
+    },
+    "cid": "bafyreigu2gry5ph4anjjabwtxsknltte4zk4q6dv7oxlx67s3rqdk6hr3a"
+  }
+}

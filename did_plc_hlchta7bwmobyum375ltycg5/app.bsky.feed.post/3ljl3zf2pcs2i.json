@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741113147806,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ljl3zf2pcs2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ljl3zf2pcs2i",
+    "record": {
+      "text": "I primarily use PowerShell core.\n\n5.1 is reserved for \"legacy\" scenarios ( stuff that will only run in 5.1 ).\n\nMost of that stuff can be seamlessly proxied into core, but you'll get deserialized objects.\n\nSo mainly I only use 5.1 for .net stuff that's not supported in .net core.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieg2xiizyfc4wsxc4vedtlb2opa7ua5scyp3iq62ukjgsyw6qsgye",
+          "uri": "at://did:plc:nqz2jwzj6r2dxjoupv33rtej/app.bsky.feed.post/3lis57wijos2g"
+        },
+        "parent": {
+          "cid": "bafyreifvnjkofvscwjlslpilsuimbpy5t7n2xiozw7252ha2uutkcwpjja",
+          "uri": "at://did:plc:nqz2jwzj6r2dxjoupv33rtej/app.bsky.feed.post/3ljl3thvys22p"
+        }
+      },
+      "createdAt": "2025-03-04T18:32:27.806Z"
+    },
+    "cid": "bafyreiba6k4u7v5uw6dnnj63lqzbehk3lzlrik34dh2t6w4efu3tuwkmxm"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737655677861,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgghyqrm422v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgghyqrm422v",
+    "record": {
+      "text": "Another cool drop from @mdgrs.bsky.social !",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicwzllhjhbqqhvvpvkcoywny3xonqo2osfqdo5nojogcznzx552hu",
+          "uri": "at://did:plc:5gung3kb6wkzptdxh2riyc6c/app.bsky.feed.post/3lgfwj5wjqs23"
+        },
+        "parent": {
+          "cid": "bafyreicwzllhjhbqqhvvpvkcoywny3xonqo2osfqdo5nojogcznzx552hu",
+          "uri": "at://did:plc:5gung3kb6wkzptdxh2riyc6c/app.bsky.feed.post/3lgfwj5wjqs23"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 41,
+            "byteStart": 23
+          },
+          "features": [
+            {
+              "did": "did:plc:5gung3kb6wkzptdxh2riyc6c",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-23T18:07:57.861Z"
+    },
+    "cid": "bafyreicehwkth7i6kofgnjbnfuo74zbdt4v6khqkkde4faklgojkkfzm54"
+  }
+}

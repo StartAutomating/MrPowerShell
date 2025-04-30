@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1743018778599,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3llckrm7bms27",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3llckrm7bms27",
+    "record": {
+      "text": "Yeah.  It also violates a lot of well defined practices of the Internet.\n\nLike \"UserAgent is informative, not prescriptive\"\n\nMedia queries exist for a reason.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifkyam72t7rsy6go7bk53wl3a764xpuvchghftyg2t7e3p5irefxq",
+          "uri": "at://did:plc:tzhrwvnocrxyntumxmomcehb/app.bsky.feed.post/3llc4r2giy22j"
+        },
+        "parent": {
+          "cid": "bafyreicpimaue2wwloarxnxrjpij7nxn2zbo4si3y2otibamz6unhnyziq",
+          "uri": "at://did:plc:k54achhksfhvlp5jd3rzv32h/app.bsky.feed.post/3llcknwpvt22r"
+        }
+      },
+      "createdAt": "2025-03-26T19:52:58.599Z"
+    },
+    "cid": "bafyreiaudtyy2h6zwi5lrft6wj6yg7vcxl2vwz46ckijywbg3n5sqhj3hi"
+  }
+}

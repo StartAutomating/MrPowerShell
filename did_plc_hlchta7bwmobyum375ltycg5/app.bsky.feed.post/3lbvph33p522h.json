@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732681512572,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbvph33p522h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbvph33p522h",
+    "record": {
+      "text": "For \"posterity\", here's the shortest form I've got of a #regex in #powershell to match emoji:\n\n~~~PowerShell\n$text -match '[\\p{IsHighSurrogates}\\p{IsLowSurrogates}]+'\n$matches.0\n~~~",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 62,
+            "byteStart": 56
+          },
+          "features": [
+            {
+              "tag": "regex",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 77,
+            "byteStart": 66
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-27T04:25:12.572Z"
+    },
+    "cid": "bafyreic336bvm47cbxv7dmlvgxwnfsurb4dbn4er3ig2qjo4phpxs2mfyi"
+  }
+}

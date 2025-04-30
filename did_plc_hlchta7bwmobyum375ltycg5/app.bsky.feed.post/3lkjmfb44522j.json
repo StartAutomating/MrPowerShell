@@ -1,0 +1,97 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742161518333,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lkjmfb44522j",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lkjmfb44522j",
+    "record": {
+      "text": "One more little #PowerShell #Web tool for the weekend.\n\nGet #JSON-LD  with PowerShell\n\n~~~PowerShell\nInstall-Module JSON-LD\nImport-Module JSON-LD\nGet-JSONLD schema.org/Movie\n~~~\n\ngithub.com/PowerShellWe...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/PowerShellWeb/JSON-LD",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibqbyikfdhzvckjft6sq3g4w3njfs5e2wbhix5qxlu2xcog76cqz4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 275993
+          },
+          "title": "GitHub - PowerShellWeb/JSON-LD: Get JSON Linked Data with PowerShell",
+          "description": "Get JSON Linked Data with PowerShell. Contribute to PowerShellWeb/JSON-LD development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 27,
+            "byteStart": 16
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 28
+          },
+          "features": [
+            {
+              "tag": "Web",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 68,
+            "byteStart": 60
+          },
+          "features": [
+            {
+              "tag": "JSON-LD",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 173,
+            "byteStart": 157
+          },
+          "features": [
+            {
+              "uri": "https://schema.org/Movie",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 205,
+            "byteStart": 179
+          },
+          "features": [
+            {
+              "uri": "https://github.com/PowerShellWeb/JSON-LD",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-16T21:45:18.333Z"
+    },
+    "cid": "bafyreifwd2zc4aybj67xaz4fvoome6wucioyswmomxnpuro4pehnxoedi4"
+  }
+}

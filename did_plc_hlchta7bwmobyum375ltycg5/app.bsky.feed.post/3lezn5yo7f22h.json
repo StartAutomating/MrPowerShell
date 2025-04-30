@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736115034397,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lezn5yo7f22h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lezn5yo7f22h",
+    "record": {
+      "text": "I wish there was a #github issue status for \"It's done but not merged\".\n\nSeems like this could clear up a lot of our backlogs as we work. \n\n@github.com , what do you think?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 26,
+            "byteStart": 19
+          },
+          "features": [
+            {
+              "tag": "github",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 151,
+            "byteStart": 140
+          },
+          "features": [
+            {
+              "did": "did:plc:sydgpvanh46u766n536r33oa",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-05T22:10:34.397Z"
+    },
+    "cid": "bafyreic6xvzybfnhwjznpr7zz5mv5kcnevzwc5rnc5nbtqd32wwfztpowy"
+  }
+}

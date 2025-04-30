@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735067665737,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3le35py3ddc2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3le35py3ddc2i",
+    "record": {
+      "text": "Agreed for this scenario.\n\nWas mainly saying:\n\n1. I wish more ScriptBlock parameters were validated.\n2. A good collection of AST scripts to check for unsafe content would be nice.\n\nHope this clarifies.  Does it?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiaimy244wt2cneoscwaavzuj4l5fwwdn7dvzukbklaiirtef3koxy",
+          "uri": "at://did:plc:rlrrzgcyzronxjjnzorjmdeb/app.bsky.feed.post/3le2nhxhddc2l"
+        },
+        "parent": {
+          "cid": "bafyreih6uyblld4yhttvjekouqsyh32mpsjs5p2nw6t663f2puwed45jqm",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3le35kfjbps26"
+        }
+      },
+      "createdAt": "2024-12-24T19:14:25.737Z"
+    },
+    "cid": "bafyreifsyvskf7vqskdfijdovgsxpzludkuyxtohm56putumidk2xmc55u"
+  }
+}

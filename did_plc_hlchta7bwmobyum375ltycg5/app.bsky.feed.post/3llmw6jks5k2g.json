@@ -1,0 +1,89 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1743374620576,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3llmw6jks5k2g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3llmw6jks5k2g",
+    "record": {
+      "text": "Hey #PowerShell and #DevOps people, I've made a feed for keeping track of a lot of IT topics called HelpDesk.\n\nbsky.app/profile/did:...\n\nThanks @graze.social for making it easy to make #atproto feeds.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreid4xraaz4m3galbezh7y5dtzcd7pgaaxurvur3ca4h27e7cxy3vni",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.generator/helpdesk"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 27,
+            "byteStart": 20
+          },
+          "features": [
+            {
+              "tag": "DevOps",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 135,
+            "byteStart": 111
+          },
+          "features": [
+            {
+              "uri": "https://bsky.app/profile/did:plc:hlchta7bwmobyum375ltycg5/feed/helpdesk",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 157,
+            "byteStart": 144
+          },
+          "features": [
+            {
+              "did": "did:plc:i6y3jdklpvkjvynvsrnqfdoq",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 193,
+            "byteStart": 185
+          },
+          "features": [
+            {
+              "tag": "atproto",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-30T22:43:40.576Z"
+    },
+    "cid": "bafyreiax42eum3jngdjjtdibiin6svpy2nm3cwm5lm4s63l4elwdwcu2du"
+  }
+}

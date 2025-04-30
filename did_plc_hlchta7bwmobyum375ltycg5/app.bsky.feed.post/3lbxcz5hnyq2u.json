@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732736879874,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbxcz5hnyq2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbxcz5hnyq2u",
+    "record": {
+      "text": "Did you try using a DataTable ?  They can be pretty useful for stuff like \"turn csv into xml\".",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihsaj4brnnc2icvrjfe4uf6e7kfgt2rdqdkf4nv2fsxkb2wxsr2sm",
+          "uri": "at://did:plc:xehlvfkrzauq2jfm2atacezc/app.bsky.feed.post/3lbx3cvqnxk27"
+        },
+        "parent": {
+          "cid": "bafyreihsaj4brnnc2icvrjfe4uf6e7kfgt2rdqdkf4nv2fsxkb2wxsr2sm",
+          "uri": "at://did:plc:xehlvfkrzauq2jfm2atacezc/app.bsky.feed.post/3lbx3cvqnxk27"
+        }
+      },
+      "createdAt": "2024-11-27T19:47:59.874Z"
+    },
+    "cid": "bafyreiay2oqri4cpdnnyr3skelromptcmpwlnebg2pnhycgbbhd2fy65pa"
+  }
+}

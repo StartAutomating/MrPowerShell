@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740715928566,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lj7k3dbibk2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lj7k3dbibk2s",
+    "record": {
+      "text": "Playing with facets 😉?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicgihc7yld72rq4ojhv4svus4pgpf5dwbp7tk4vprmepbmssij4k4",
+          "uri": "at://did:plc:k54achhksfhvlp5jd3rzv32h/app.bsky.feed.post/3lj6vlhevqc2u"
+        },
+        "parent": {
+          "cid": "bafyreicgihc7yld72rq4ojhv4svus4pgpf5dwbp7tk4vprmepbmssij4k4",
+          "uri": "at://did:plc:k54achhksfhvlp5jd3rzv32h/app.bsky.feed.post/3lj6vlhevqc2u"
+        }
+      },
+      "createdAt": "2025-02-28T04:12:08.566Z"
+    },
+    "cid": "bafyreicuujvv54xqciwktwgvepy6cw2so5gd22xk3rjtrffto5z7qgvpgy"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738622833409,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhcmqa6i222p",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhcmqa6i222p",
+    "record": {
+      "text": "#Resist #COBOL / #ResistWithCOBOL\n\nA shrinking handful of programmers are competent in this language.\n\nI don't think anyone under 30 is in that few ( unhappy ) few.\n\nTo be a fly on the wall as the whippersnappers try to ask for help.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreichjwgndn5vo2hoczug2klskilhn765vnkmlabofzlzo2hzjjyvwy",
+          "uri": "at://did:plc:t7tk63shvleyrudpf7va6akf/app.bsky.feed.post/3lhbfrnqfik2j"
+        },
+        "parent": {
+          "cid": "bafyreih5lgzrpfdgiih7ycuwbqbnyozkunjpmpqmhuvm634ja764dlvp2e",
+          "uri": "at://did:plc:t7tk63shvleyrudpf7va6akf/app.bsky.feed.post/3lhblzegnr22w"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 7,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "Resist",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 8
+          },
+          "features": [
+            {
+              "tag": "COBOL",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 33,
+            "byteStart": 17
+          },
+          "features": [
+            {
+              "tag": "ResistWithCOBOL",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-03T22:47:13.409Z"
+    },
+    "cid": "bafyreih52rn2oqu6b4734rfoij4pwvgczzqznrads6agpjqyjciedw6baq"
+  }
+}

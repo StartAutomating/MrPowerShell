@@ -1,0 +1,71 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734396751423,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldhmv6dek225",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldhmv6dek225",
+    "record": {
+      "text": "Thanks!  It's a fun and useful module that has changed the ways you can use #git\n\nI still love:\n\n~~~PowerShell\ngit log | group { $_.commitdate.dayofweek }\n~~~\n\n#powershell makes git so much more fun.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/CGnOmkhIMU0AAAAC/powershell-icon.gif?hh=281&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreie2edh7i46qfyyz5e6nfk3b5czpigbxwbdz6d7ezjnwpvvbgu2eoy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 3875
+          },
+          "title": "a blue arrow pointing to the right is against a black background",
+          "description": "ALT: a blue arrow pointing to the right is against a black background"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreih7v6me3eubck6t7cflqr7pdb7fcutvbs5nw23ncznn23h7enefhe",
+          "uri": "at://did:plc:v7k7uiff7f5jwpexaopw7uei/app.bsky.feed.post/3ldh75pt3qs2i"
+        },
+        "parent": {
+          "cid": "bafyreih22vdg74oa7uqxtiuzm4lpwmp5zbreadowcvqlnjtdon7764k4iq",
+          "uri": "at://did:plc:v7k7uiff7f5jwpexaopw7uei/app.bsky.feed.post/3ldhmb6k2zs2i"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 80,
+            "byteStart": 76
+          },
+          "features": [
+            {
+              "tag": "git",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 171,
+            "byteStart": 160
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-17T00:52:31.423Z"
+    },
+    "cid": "bafyreiboewun44j5kmc7q5wksxte4fexx7berjtw6hg47n5cdy53r52xgm"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734506731718,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldktctplfk2l",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldktctplfk2l",
+    "record": {
+      "text": "Nifty use of HttpListener.\n\nMight I suggest putting it into a #docker #container ?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifjc7mvrgy6sko22kypl5r67fgm5ytzasumnk5a4yhos7bhoqhtwq",
+          "uri": "at://did:plc:7j5y3yojbqzrzavzx4fgfw5u/app.bsky.feed.post/3ldj3vwuzgk2w"
+        },
+        "parent": {
+          "cid": "bafyreidv3gv6qsvv3p44jrkejuqxf2zs5o26xcmo2y3tiyohj2quzmpnu4",
+          "uri": "at://did:plc:igaby4nr77lndu3d3ws2muo3/app.bsky.feed.post/3ldk43rwbfc2b"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 62
+          },
+          "features": [
+            {
+              "tag": "docker",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 80,
+            "byteStart": 70
+          },
+          "features": [
+            {
+              "tag": "container",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-18T07:25:31.718Z"
+    },
+    "cid": "bafyreid67dhkcpgqixut4s7w32qfh7zyhf3nfj5x526ahrb3coehlexewm"
+  }
+}

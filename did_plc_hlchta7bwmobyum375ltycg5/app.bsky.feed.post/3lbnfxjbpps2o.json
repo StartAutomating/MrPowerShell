@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732396448996,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbnfxjbpps2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbnfxjbpps2o",
+    "record": {
+      "text": "Saw some shirt that had various languages as swords, but no powershell.\n\nNow I keep thinking that most other languages are like bringing a knife to a gunfight.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreignjp2xpe4rq4reqgxbntmzovnlix5pkubjtcg7pdw4vhlzbumtmi",
+          "uri": "at://did:plc:2mkxcnrhv3djckmuitigyolq/app.bsky.feed.post/3lbn4sem37s2i"
+        }
+      },
+      "createdAt": "2024-11-23T21:14:08.996Z"
+    },
+    "cid": "bafyreig4yt7jrnzhjdoiixxv3r6fquy65g5aoufyvjrlg44hg35aadqpzy"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1694457570788,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k75amukslj2b",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k75amukslj2b",
+    "record": {
+      "text": "@atproto.com Quick Question:\n\nWhat do the headers look for an AT Protocol request, given an app password?\n\nA curl example would be fine ( a PowerShell one would be better).",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 12,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "did": "did:plc:ewvi7nxzyoun6zhxrhs64oiz",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-09-11T18:39:30.788Z"
+    },
+    "cid": "bafyreicef6q4uugut6t5j5ya6njcnk4vrlovx5ja2fx3qx47jio6z3mmqu"
+  }
+}

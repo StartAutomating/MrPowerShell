@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733966808250,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld34hukwpc2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ld34hukwpc2o",
+    "record": {
+      "text": "Alright internets, who has a #powershell script to work with a moisture detector?  Surely, someone's already got one, right?\n\nIf so, that's one half of `Watch-Leak | Stop-Leak`.\n\nThe other half?  Who knows how to control a servo?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiapu3mvbwdhvohpu4ud566ng7llxonex4vsplurcvulrjiub5jld4",
+          "uri": "at://did:plc:munmkmorl6d57hkragyydlyh/app.bsky.feed.post/3lczqrciju227"
+        },
+        "parent": {
+          "cid": "bafyreies5z5j5uv4hakd4ng7qxxbaz33f4m2yefd54nqxb3bom35dm4g4a",
+          "uri": "at://did:plc:munmkmorl6d57hkragyydlyh/app.bsky.feed.post/3ld2wo5mbtk2u"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 40,
+            "byteStart": 29
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-12T01:26:48.25Z"
+    },
+    "cid": "bafyreihuaerncztocsji766ntxk5qayxzjtmop2pbvtp2tsz7oc6eys5ge"
+  }
+}

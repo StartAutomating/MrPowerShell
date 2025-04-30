@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732476139100,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbpq6hoovs2j",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbpq6hoovs2j",
+    "record": {
+      "text": "Oh yeah. The only reason I'm giving it any thought at all is the fact I'm on something like vacation.  Otherwise I never have time for #powershell #golf 😉🤪😂",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieycg6pslrn7zydzithmrtuv63lcqaza7r3yummihn3gn6f3ajpia",
+          "uri": "at://did:plc:zfubrgofk23trzj7bapmym2d/app.bsky.feed.post/3lbmsswysd22d"
+        },
+        "parent": {
+          "cid": "bafyreibpvzul3orujbmbugqt3ig7ggam6k34bizio4opd4toc5ltfbnwcu",
+          "uri": "at://did:plc:zfubrgofk23trzj7bapmym2d/app.bsky.feed.post/3lbplshe5ic2k"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 146,
+            "byteStart": 135
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 152,
+            "byteStart": 147
+          },
+          "features": [
+            {
+              "tag": "golf",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-24T19:22:19.1Z"
+    },
+    "cid": "bafyreigmexua44somwuyre44wos5ecusi4j3c4vrj4gwk3ppzwtydh7xpq"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736530846333,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lffqg5ti4c2d",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lffqg5ti4c2d",
+    "record": {
+      "text": "You don't *need* another command prompt.\n\nYou need the right CL to be loaded into whatever shell.\n\nIn PowerShell, you can either change `$env:Path` or set an alias to the *right* cl\n\n( The one that matches your processor architecture )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiecqm7ir3mszedk4dqmjtlnkrly3touqa7tbmwq6u3e7licpjxnke",
+          "uri": "at://did:plc:tqyrs5zpxrp27ksol4tkkxht/app.bsky.feed.post/3lffm4gnxrk2d"
+        },
+        "parent": {
+          "cid": "bafyreiecqm7ir3mszedk4dqmjtlnkrly3touqa7tbmwq6u3e7licpjxnke",
+          "uri": "at://did:plc:tqyrs5zpxrp27ksol4tkkxht/app.bsky.feed.post/3lffm4gnxrk2d"
+        }
+      },
+      "createdAt": "2025-01-10T17:40:46.333Z"
+    },
+    "cid": "bafyreiaaeppmbwrm7xmxvfwztw4iqewhmiulgamlz2o7gzqttmidorrwue"
+  }
+}

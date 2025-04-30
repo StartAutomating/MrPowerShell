@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732464805365,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbpfmoylcc2j",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbpfmoylcc2j",
+    "record": {
+      "text": "Please let me know a less public channel.  It's not a vulnerability per se, more a vector for abuse that could be fairly easily mitigated.\n\nDon't want to put it into the wild, as similar vectors are popular now and this works around their key weaknesses.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreielyaymnyaxpfxso4u7daenw2bzex6rswntqtbyfkylr6kijxuoji",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbofy5mvas2e"
+        },
+        "parent": {
+          "cid": "bafyreiel7fo4prnnukgdbbw7t6gvcmff2eojdklqeqauehwtfngkdiwanq",
+          "uri": "at://did:plc:ddzpdhzm6gjgynboc7wzvnpk/app.bsky.feed.post/3lbouawdmxs2j"
+        }
+      },
+      "createdAt": "2024-11-24T16:13:25.365Z"
+    },
+    "cid": "bafyreieshjrdbyvrjsex5vu2y4hsheb62sqsklp2rkoh2udwcczavilv3y"
+  }
+}

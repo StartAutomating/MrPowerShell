@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736210780238,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lf4gdgzfac2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lf4gdgzfac2x",
+    "record": {
+      "text": "Cool / good to know.\n\nI'd always gotten that impression.\n\nI suppose what I'm after is a way to take the input / output of any function / script and make it into a page in UD ( with as few modifications as possible ).\n\nLink me to docs and I could play around.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigmawl7haruovwdi67prv5725t52byuyvkivdbfmgsk7zegq6m4ze",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3lf4b7ihycc2k"
+        },
+        "parent": {
+          "cid": "bafyreidwa6teqxyd4dcpuoxzaj76g6yfcjar6z6b6j36hpeiqiovwjtzyi",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3lf4g6p4djk2k"
+        }
+      },
+      "createdAt": "2025-01-07T00:46:20.238Z"
+    },
+    "cid": "bafyreib6b6wecpve6kyzlz2i4rabzdpifrak4rrsy3u4qmnlfjqa3zr7e4"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744186128137,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmejxdhytc2c",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmejxdhytc2c",
+    "record": {
+      "text": "Re this recent #svgWish\n\nbsky.app/profile/anat...\n\nI think you could customize the feComponentTransfer step behavior by a careful animation of the tableValues attribute, and a little light #JavaScript\n\ndeveloper.mozilla.org/en-US/docs/W...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/tableValues",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigrvx36fztfbess2xhmd4rqwsytds4256hyrnptfrcehuknseyctm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 112448
+          },
+          "title": "tableValues - SVG: Scalable Vector Graphics | MDN",
+          "description": "The tableValues attribute defines a list of numbers defining a lookup table of values for a color component transfer function."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 23,
+            "byteStart": 15
+          },
+          "features": [
+            {
+              "tag": "svgWish",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 25
+          },
+          "features": [
+            {
+              "uri": "https://bsky.app/profile/anatudor.bsky.social/post/3lmejdkbams2h",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 200,
+            "byteStart": 189
+          },
+          "features": [
+            {
+              "tag": "JavaScript",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 239,
+            "byteStart": 202
+          },
+          "features": [
+            {
+              "uri": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/tableValues",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-09T08:08:48.137Z"
+    },
+    "cid": "bafyreidnnsjqukv3hywnf565zfzbmg5hk2u42uolopnzvemutbx3qdkife"
+  }
+}

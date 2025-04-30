@@ -1,0 +1,145 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737790408256,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgkfhzouk22s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgkfhzouk22s",
+    "record": {
+      "text": "Opening up a #PowerShell  / #AtProto #PandorasBox \n\nIf we treat #http or #websocket messages as #PowerShell events, we can automatically respond.\n\nIf we treat #atproto as one big #objectpipeline, we can do #realtime data analysis and response.\n\nFor example, dispatching emergency services.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/k4IBXz-PFx0AAAAC/macabre.gif?hh=498&ww=332",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreih4rrnpqv2x57evggsflrozn3wp5jsglriqd2mub5ney4egloam6i"
+            },
+            "mimeType": "image/jpeg",
+            "size": 137723
+          },
+          "title": "a poster for pandora does not go back into the box features a doll",
+          "description": "Alt: If we take http and websocket messages and treat them as PowerShell events, we can respond in real time as anything is posted.\n\nThis opens Pandora's box a bit, because this is definitely something that is good for both the blue team and the red team.  It allows for a very light and globally available realtime response. This could be used for nearly instant scalable servers, and also allows for nearly instant sh*posting and lightweight command and control.\n\nPlease Program Responsibly"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 24,
+            "byteStart": 13
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 28
+          },
+          "features": [
+            {
+              "tag": "AtProto",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 37
+          },
+          "features": [
+            {
+              "tag": "PandorasBox",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 64
+          },
+          "features": [
+            {
+              "tag": "http",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 83,
+            "byteStart": 73
+          },
+          "features": [
+            {
+              "tag": "websocket",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 107,
+            "byteStart": 96
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 167,
+            "byteStart": 159
+          },
+          "features": [
+            {
+              "tag": "atproto",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 194,
+            "byteStart": 179
+          },
+          "features": [
+            {
+              "tag": "objectpipeline",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 215,
+            "byteStart": 206
+          },
+          "features": [
+            {
+              "tag": "realtime",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-25T07:33:28.256Z"
+    },
+    "cid": "bafyreifs22sijk3ge5a34we335au3nj42vsfuwlpea2yx5fwf32a6xtrce"
+  }
+}

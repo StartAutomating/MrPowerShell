@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1693096130487,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k5vmoz3pji2k",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k5vmoz3pji2k",
+    "record": {
+      "text": "github.com/charmbracelet/ makes some pretty nifty tools.\n\nI'm slowly but surely integrating the ones I can into the PowerShell ecosystem.\n\n(VHS is on the horizon)",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreictjtuqmueulkqoukn245bu4pd4hjnu7xbxofyenhsu5bhhskwvbq",
+          "uri": "at://did:plc:oqmead6vafy6py7otaam7whk/app.bsky.feed.post/3k5nzjojxyx2r"
+        },
+        "parent": {
+          "cid": "bafyreigb34sib25fin7qkq53zj42d5v2xfqxsodn6mtb2ofwkjudz6imry",
+          "uri": "at://did:plc:oqmead6vafy6py7otaam7whk/app.bsky.feed.post/3k5ujgkrfkm2b"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 25,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "uri": "https://github.com/charmbracelet/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-08-27T00:28:50.487Z"
+    },
+    "cid": "bafyreiarwq42ncvjz5zrf3yqjjwlewa4j5kp3e3h2i6jzj5jcwz6t36twi"
+  }
+}

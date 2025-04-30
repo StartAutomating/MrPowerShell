@@ -1,0 +1,69 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1739753608254,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lidjtx46lk2j",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lidjtx46lk2j",
+    "record": {
+      "text": "Spending part of my Sunday writing some #ollama wrappers and asking #AI to \"Write me a #PowerShell #haiku\"\n\nSome of them are tolerable:\n\nCode flows like a river\nPowerShell's mighty voice sings\nAutomation reigns",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 47,
+            "byteStart": 40
+          },
+          "features": [
+            {
+              "tag": "ollama",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 71,
+            "byteStart": 68
+          },
+          "features": [
+            {
+              "tag": "AI",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 98,
+            "byteStart": 87
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 105,
+            "byteStart": 99
+          },
+          "features": [
+            {
+              "tag": "haiku",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-17T00:53:28.254Z"
+    },
+    "cid": "bafyreigjr4htp54ca7fwt236u573edugv2tauiollpapemmziufp2pweiq"
+  }
+}

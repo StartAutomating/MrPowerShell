@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733427368617,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lclg3cts4225",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lclg3cts4225",
+    "record": {
+      "text": "Ignoring the mess ( God knows I've got my own)...\n\nI spy a StreamDeck, and feel obligated to mention that I make a PowerShell Plugin for those :-)\n\ngithub.com/StartAutomat...\n\n( And I swear someday I'll release an update with StreamDeck+ support and new coolness )",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/ScriptDeck",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigypcmtb53d5e3trbnlt7bykrgadl5b35n3yzw6onvlkgckeaimz4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 83458
+          },
+          "title": "GitHub - StartAutomating/ScriptDeck: PowerShell Tools for Elgato StreamDeck",
+          "description": "PowerShell Tools for Elgato StreamDeck. Contribute to StartAutomating/ScriptDeck development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicpboxojpam75furnsbq4qcztkxdhdvyobt7f4xhpz4xexiozjwbi",
+          "uri": "at://did:plc:izoup72s54ql2mmgwj4f3sed/app.bsky.feed.post/3lcawtvv6lk2r"
+        },
+        "parent": {
+          "cid": "bafyreicpboxojpam75furnsbq4qcztkxdhdvyobt7f4xhpz4xexiozjwbi",
+          "uri": "at://did:plc:izoup72s54ql2mmgwj4f3sed/app.bsky.feed.post/3lcawtvv6lk2r"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 174,
+            "byteStart": 148
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/ScriptDeck",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-05T19:36:08.617Z"
+    },
+    "cid": "bafyreiayvid2j7sgnru3zvqz6b4xiz4srnl36agz5mfcsaqz2jfdirgnfm"
+  }
+}

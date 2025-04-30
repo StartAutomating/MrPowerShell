@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737698470798,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lghpu3ccpk2z",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lghpu3ccpk2z",
+    "record": {
+      "text": "Short answer is yes.\n\nMedium answer is \"you don't have to\"\n\nLong answer is \"ScriptMethods and functions are  interchangable\"\n\nA script can be a function can be a method.\n\nSometimes called \"transitive property of commands\"",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicgiqagozdk7ek2qindps6jdn3n4p5qa34pieumbmagolbxj6lmai",
+          "uri": "at://did:plc:ypz6ivejfaklxujmss7pi5xt/app.bsky.feed.post/3lgezbsqbsk2a"
+        },
+        "parent": {
+          "cid": "bafyreifz4dqjtubvgegetj57zpfymy3gegsyfsgag4ujzimdlyowsvajyq",
+          "uri": "at://did:plc:ypz6ivejfaklxujmss7pi5xt/app.bsky.feed.post/3lghkuv3sts2i"
+        }
+      },
+      "createdAt": "2025-01-24T06:01:10.798Z"
+    },
+    "cid": "bafyreicj65xxnsqeog6s3gnk6xfigjc4booudpyjhci2v6lf35bif76woq"
+  }
+}

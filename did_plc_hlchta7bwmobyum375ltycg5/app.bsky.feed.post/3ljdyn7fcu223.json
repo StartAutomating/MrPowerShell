@@ -1,0 +1,110 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740868999810,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ljdyn7fcu223",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ljdyn7fcu223",
+    "record": {
+      "text": "Some days, I really love #atproto #bluesky.\n\nSo much innovation is happening on here because of a commitment to #opensource and #openprotocols\n\nLike, for instance\n\n@theblue.report \n\ntheblue.report",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://theblue.report/",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreice54stnqc462nxejxdm3bsu42mpkuv4jgwexmztogujrefxcg7tq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 56069
+          },
+          "title": "The Blue Report",
+          "description": "The top links on Bluesky, updated hourly"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 33,
+            "byteStart": 25
+          },
+          "features": [
+            {
+              "tag": "atproto",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 42,
+            "byteStart": 34
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 123,
+            "byteStart": 112
+          },
+          "features": [
+            {
+              "tag": "opensource",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 142,
+            "byteStart": 128
+          },
+          "features": [
+            {
+              "tag": "openprotocols",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 179,
+            "byteStart": 164
+          },
+          "features": [
+            {
+              "did": "did:plc:zrcqicmkxum6tir6ahthppif",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 196,
+            "byteStart": 182
+          },
+          "features": [
+            {
+              "uri": "https://theblue.report/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-01T22:43:19.81Z"
+    },
+    "cid": "bafyreibciwadtpfcgvv3kkrjsdufhw5sa364cldhsu4tsho5e2r5sljdki"
+  }
+}

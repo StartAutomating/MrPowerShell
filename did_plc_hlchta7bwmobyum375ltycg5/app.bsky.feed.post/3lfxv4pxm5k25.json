@@ -1,0 +1,67 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737154373797,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfxv4pxm5k25",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfxv4pxm5k25",
+    "record": {
+      "text": "Script scope _is_ module scope.\n\nBonus #PowerShell #tip / #trick, you can peek into module scope.\n\n~~~PowerShell\n& (Get-Module MyModule) { $script:MyScriptVariable }\n~~~\n\nOne more bonus pwsh trick\n\n( To change things, use `.` instead of `&` )\n\nEnjoy!",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigsmhwbozbel6rofivtbmy2s4ozd2pp262ver2zhmgj3ttzdriy4m",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfxheyyehk2n"
+        },
+        "parent": {
+          "cid": "bafyreih2ysla2yats3twzixo6cz5ezbsmjpp6rfup4l3q67qttj7rqr35y",
+          "uri": "at://did:plc:iga7ipxo6jy26wv6bevcmdem/app.bsky.feed.post/3lfxswn2czs2y"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 50,
+            "byteStart": 39
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 55,
+            "byteStart": 51
+          },
+          "features": [
+            {
+              "tag": "tip",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 64,
+            "byteStart": 58
+          },
+          "features": [
+            {
+              "tag": "trick",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-17T22:52:53.797Z"
+    },
+    "cid": "bafyreiczbc4yrtli2oxbtnzk5ugpwmo3mye4ya5zjx5aa7grs7u2cdelsq"
+  }
+}

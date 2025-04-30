@@ -1,0 +1,97 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1708371524643,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kls6zpk6xf2h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kls6zpk6xf2h",
+    "record": {
+      "text": "Hey Internets: Want to learn how you can run anything from #PowerShell?\n\nNew bits of #PipeScript are out!\ngithub.com/StartAutomat...\n\nThis #RTPSUG video shows off the magic:\nwww.youtube.com/watch?v=-Pui...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.youtube.com/watch?v=-PuiNAcvalw",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiedrpwjd2rgxhgkqtr5pxed5rgtn2z4tni2oqbadjtxc5scahlrxi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 260884
+          },
+          "title": "Run anything using PipeScript (James Brundage)",
+          "description": "Join James Brundage and discover how to unleash the full potential of PowerShell with PipeScript!In this video, we'll explore how PipeScript revolutionizes P..."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 70,
+            "byteStart": 59
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 96,
+            "byteStart": 85
+          },
+          "features": [
+            {
+              "tag": "PipeScript",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 132,
+            "byteStart": 106
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/PipeScript",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 146,
+            "byteStart": 139
+          },
+          "features": [
+            {
+              "tag": "RTPSUG",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 205,
+            "byteStart": 174
+          },
+          "features": [
+            {
+              "uri": "https://www.youtube.com/watch?v=-PuiNAcvalw",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-02-19T19:38:44.643Z"
+    },
+    "cid": "bafyreig3toa4ah5gwvnnb4l7elo24zyouehnlikpbeprgxxcn4i5iwejum"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734137167292,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lda34xmdn22e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lda34xmdn22e",
+    "record": {
+      "text": "Thanks for sending this along!  Lots of interesting info in there!\n\nPersonally loving the \"admired\" stat for #powershell.\n\nGonna have to remember to fill this survey out this next year.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihujjumpz6f4jqeibdtru2epkqfxdklvogqlv3xcrffsdpttixc7y",
+          "uri": "at://did:plc:rkm6m4dsc4da2yzdlvxorhf3/app.bsky.feed.post/3ld6rbcm2fk2c"
+        },
+        "parent": {
+          "cid": "bafyreihkmt6kxjikqpyp7n4dt7mibxoey7ckd33lwukymoi3sotwdhvizu",
+          "uri": "at://did:plc:rkm6m4dsc4da2yzdlvxorhf3/app.bsky.feed.post/3ld7xsnizq22c"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 120,
+            "byteStart": 109
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-14T00:46:07.292Z"
+    },
+    "cid": "bafyreicym3lrx7lwe5wncjk45f3qjq7rfwfpxp7mppq7npjc2zuch5f3yu"
+  }
+}

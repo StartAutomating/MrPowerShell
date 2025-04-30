@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734212479478,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldcbbgvubk2g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldcbbgvubk2g",
+    "record": {
+      "text": "Thanks!  You're actually already included.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifcojc3taceu6quoutczgm2sfbojurddp7bugo5qcsgmoqvnif4gi",
+          "uri": "at://did:plc:3dpjfpv7mnnotc7cdvvdijrc/app.bsky.feed.post/3ldc3cnsmas2j"
+        },
+        "parent": {
+          "cid": "bafyreifdlfyvpsy3l3dfa73mtgduyjvgaxzducuq6ayljd557juh2dted4",
+          "uri": "at://did:plc:a3yierchgwp2lvyontsragui/app.bsky.feed.post/3ldcb46vmac2x"
+        }
+      },
+      "createdAt": "2024-12-14T21:41:19.478Z"
+    },
+    "cid": "bafyreicgpexpqdvhqo37usjmw6nbv3wmmec2o3pknezuo6tqfp5mx73p4a"
+  }
+}

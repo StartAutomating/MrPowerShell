@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733288340575,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lchelxeoss2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lchelxeoss2u",
+    "record": {
+      "text": "PowerShell core runs on Linux, MacOS, and Windows.\n\nSo it's not limited by the OS.\n\nJust give powershell core a try with an open mind, and then share what you've learned.\n\nStarting simple with a couple of things Linux doesn't have in as easy form...\n\nGet-Command\nGet-Help\nGet-Member\n\nEnjoy!",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicwkaqyjcrmyxwdttvzlg3wvrtairvggfebwxtvwbh7jcchhy33qy",
+          "uri": "at://did:plc:cx5odfv73l27dro4h3erypbd/app.bsky.feed.post/3lcewy6wj6k2r"
+        },
+        "parent": {
+          "cid": "bafyreiaapbc7focqlheo2glaui2e6daiytggcrp4ph7fs5f4yxumwpnlha",
+          "uri": "at://did:plc:szawk3er44q2uis54i2ebsge/app.bsky.feed.post/3lchddga3gc2f"
+        }
+      },
+      "createdAt": "2024-12-04T04:59:00.575Z"
+    },
+    "cid": "bafyreie6txe3j4c44ajnbm7x7xsch5eup2z3dvisgaf7nkkmmprulbs7b4"
+  }
+}

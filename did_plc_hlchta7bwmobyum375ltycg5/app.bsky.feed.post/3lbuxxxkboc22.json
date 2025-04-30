@@ -1,0 +1,81 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732656309478,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbuxxxkboc22",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbuxxxkboc22",
+    "record": {
+      "text": "Trigger warning : this news story will make you mad and break your heart. #news #survivors \n\nwww.motherjones.com/criminal-jus...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.motherjones.com/criminal-justice/2024/11/taylor-cadle-polk-county-false-reporting-investigation/",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihfdqjahkb7t6xgn5bw5dtoobkooa6f2cdutq5ajm3za6lf644vpm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 385906
+          },
+          "title": "Police didn’t believe a 12-year-old who said she'd been raped. Then she hit record.",
+          "description": "“If I didn’t find the evidence for them, I wasn’t too sure they would find it.”"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 79,
+            "byteStart": 74
+          },
+          "features": [
+            {
+              "tag": "news",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 90,
+            "byteStart": 80
+          },
+          "features": [
+            {
+              "tag": "survivors",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 128,
+            "byteStart": 93
+          },
+          "features": [
+            {
+              "uri": "https://www.motherjones.com/criminal-justice/2024/11/taylor-cadle-polk-county-false-reporting-investigation/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "labels": {
+        "$type": "com.atproto.label.defs#selfLabels",
+        "values": [
+          {
+            "val": "graphic-media"
+          }
+        ]
+      },
+      "createdAt": "2024-11-26T21:25:09.478Z"
+    },
+    "cid": "bafyreifed44j2hyxyacx4u6k57jjcr2vhqre7arosephgewwxw4scpxrcu"
+  }
+}

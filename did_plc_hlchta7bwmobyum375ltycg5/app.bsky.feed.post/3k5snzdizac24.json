@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1692994473637,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k5snzdizac24",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k5snzdizac24",
+    "record": {
+      "text": "Yeah, this seems like just the sort of thing that might be a booble/drop between to major tech companies.\n\nI wonder if Google Drive can be set up to run a little earlier in the boot process (you might be able to adjust the service start, if they have one)",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifl2zzbjhai3csq7zpglp2r5vf7gjsbfatro3ryqnpnahum5wn2uu",
+          "uri": "at://did:plc:5hm6gmnwxrtuam33otszl6bf/app.bsky.feed.post/3k5sltq7r4o2e"
+        },
+        "parent": {
+          "cid": "bafyreidqvi7vkpfqzrrtwu5iy276apqzg7ogn5oilktax5piyzlrmwkzaq",
+          "uri": "at://did:plc:5hm6gmnwxrtuam33otszl6bf/app.bsky.feed.post/3k5sn46ij2z2f"
+        }
+      },
+      "createdAt": "2023-08-25T20:14:33.637Z"
+    },
+    "cid": "bafyreiduqurfblqaaknvyblarvimm37ieukdufuie5teyqtftqcclgbedy"
+  }
+}

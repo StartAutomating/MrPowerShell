@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737916658847,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgo32lnnw222",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgo32lnnw222",
+    "record": {
+      "text": "I've said it before and I'll say it again: WMI events are OP",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiaz5gytzoec5nceywvsyq3y7t4gw4i7djcyjat2mokbwgbiemlxrq",
+          "uri": "at://did:plc:667ou7bkyc2hzvdujqu4tn24/app.bsky.feed.post/3lgnkzzi4ps2z"
+        },
+        "parent": {
+          "cid": "bafyreiheil3u7smespc42cg2etsieduf5g5re4orstwwpd6qgumwt4ibnu",
+          "uri": "at://did:plc:667ou7bkyc2hzvdujqu4tn24/app.bsky.feed.post/3lgnunk36as2w"
+        }
+      },
+      "createdAt": "2025-01-26T18:37:38.847Z"
+    },
+    "cid": "bafyreidr5aetkim6fgllqzrwdzxh447tzb57lsvmc5wpx435yzcabh4o4i"
+  }
+}

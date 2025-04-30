@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733863229662,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcy3yydctk2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcy3yydctk2s",
+    "record": {
+      "text": "#PowerShell commands also include inline help and strong parameters ( it doesn't appear #bash has either feature )\n\nSo, for example\n\nInstall-Module WebSocket\nImport-Module WebSocket\nGet-Command Get-WebSocket -Syntax\nGet-Help Get-WebSocket",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihmvxticcheftl7amirj4vaten2mdgknusp4ko7d3g6rwihcyooki",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lcuvxlh3vk2o"
+        },
+        "parent": {
+          "cid": "bafyreiczvjvztugzztoaglcdbhuxc2a7o4nghjoxu7mi4ocfvvwnbf2ave",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lcy3h2rpfs2f"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 93,
+            "byteStart": 88
+          },
+          "features": [
+            {
+              "tag": "bash",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-10T20:40:29.662Z"
+    },
+    "cid": "bafyreicpz4ylyyr6yzoxaaix62ejiobm353h26anpggixihm7p73wpvxei"
+  }
+}

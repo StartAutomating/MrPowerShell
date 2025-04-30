@@ -1,0 +1,141 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733196173781,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lceor6bezk2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lceor6bezk2w",
+    "record": {
+      "text": "I think we should treat #GitHub like #BlueSky or #YouTube.\n\n#like #share and #subscribe.\n\nStar what you like.\n\nShare cool projects.\n\nFollow #coders.\n\n(Maybe) #sponsor some\n\nLots of #opensource nerds are trying to make our world better.\n\nLet's help them get a #boost.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 31,
+            "byteStart": 24
+          },
+          "features": [
+            {
+              "tag": "GitHub",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 37
+          },
+          "features": [
+            {
+              "tag": "BlueSky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 57,
+            "byteStart": 49
+          },
+          "features": [
+            {
+              "tag": "YouTube",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 65,
+            "byteStart": 60
+          },
+          "features": [
+            {
+              "tag": "like",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 72,
+            "byteStart": 66
+          },
+          "features": [
+            {
+              "tag": "share",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 87,
+            "byteStart": 77
+          },
+          "features": [
+            {
+              "tag": "subscribe",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 147,
+            "byteStart": 140
+          },
+          "features": [
+            {
+              "tag": "coders",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 166,
+            "byteStart": 158
+          },
+          "features": [
+            {
+              "tag": "sponsor",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 192,
+            "byteStart": 181
+          },
+          "features": [
+            {
+              "tag": "opensource",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 265,
+            "byteStart": 259
+          },
+          "features": [
+            {
+              "tag": "boost",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-03T03:22:53.781Z"
+    },
+    "cid": "bafyreia7534ogpgr5kx4zqygdpkhgihtwscmbnlfeye2z4cau4bjwai2my"
+  }
+}

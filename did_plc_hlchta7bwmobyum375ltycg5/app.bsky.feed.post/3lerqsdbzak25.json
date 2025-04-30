@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735844059939,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lerqsdbzak25",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lerqsdbzak25",
+    "record": {
+      "text": "Ok, updated attempt.\n\nBetter?\n\nbsky.app/profile/mrpo...\n\nLess energy / more clarity ?",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreigigrn4iz2himx4vqd5issdxi4sfeimlovoa6bexjcfitpqy2zmum",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lerqneg7m225"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiejzg6fwv2wqh2em3arse6bgufvp5qgegusb7vpweu4nyfwwm2gfa",
+          "uri": "at://did:plc:lgh2jogcu5diqn2etzcaehvi/app.bsky.feed.post/3leqxqssig22n"
+        },
+        "parent": {
+          "cid": "bafyreiagmvv3gwoaqqbzri2r5ktblstw7emahjmqdk6qsy635j3dq67wza",
+          "uri": "at://did:plc:6ormzxhxfqwklajocwhc5run/app.bsky.feed.post/3lerpdo647k2p"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 55,
+            "byteStart": 31
+          },
+          "features": [
+            {
+              "uri": "https://bsky.app/profile/mrpowershell.bsky.social/post/3lerqneg7m225",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-02T18:54:19.939Z"
+    },
+    "cid": "bafyreig377l2ymlq6zyshais5nqnkerhtbdyc4ovakosevczg5cticqnzm"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1694560956565,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k7aawxaxyf2j",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k7aawxaxyf2j",
+    "record": {
+      "text": "Yeah, it's pretty beautiful so far.  If this #PowerShell script to send replies work, it's getting downright hot.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidxahnbuz26vbnhi4bmn3pfk33vmkpralwmwyvjoftcbwxj2d6ty4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k7a34whjwi2r"
+        },
+        "parent": {
+          "cid": "bafyreih6xs7nzgg5odgof6tpobw5dw7gthjpylsumonkqxdpsuldvssuce",
+          "uri": "at://did:plc:oqmead6vafy6py7otaam7whk/app.bsky.feed.post/3k7a3qofzyi2s"
+        }
+      },
+      "createdAt": "2023-09-12T16:22:36.5651459-07:00"
+    },
+    "cid": "bafyreidst3dlwscvqueqiexwtbc2n3kbhegn3aisqfhlij7ov46wxs5kba"
+  }
+}

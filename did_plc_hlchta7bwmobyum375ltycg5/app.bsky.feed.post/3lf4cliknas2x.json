@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736206755319,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lf4cliknas2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lf4cliknas2x",
+    "record": {
+      "text": "Getting cooler!\n\nI think I would prefer it if the functions simply could return HTML or SVG.\n\nThat is to say, what I like about this is that it's getting closer to pure function binding.\n\nWhat I dislike is strong coupling to UD.\n\nHave you considered letting `[OutputType]` do the work for you?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigmawl7haruovwdi67prv5725t52byuyvkivdbfmgsk7zegq6m4ze",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3lf4b7ihycc2k"
+        },
+        "parent": {
+          "cid": "bafyreigmawl7haruovwdi67prv5725t52byuyvkivdbfmgsk7zegq6m4ze",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3lf4b7ihycc2k"
+        }
+      },
+      "createdAt": "2025-01-06T23:39:15.319Z"
+    },
+    "cid": "bafyreifubuxgsciays6r7vqt4tgwose5437zlbrjn7cqysam4i3iypvjoy"
+  }
+}

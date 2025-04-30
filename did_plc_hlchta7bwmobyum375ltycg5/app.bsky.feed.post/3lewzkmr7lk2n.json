@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736025263806,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lewzkmr7lk2n",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lewzkmr7lk2n",
+    "record": {
+      "text": "I'd actually go for \"PowerShell in Action\" by Bruce Payette.\n\nTruly a mind blowing book, filled with lots of humor and insight into #powershell.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifsonkkpdk32e4rnt7hpotlkcxh4w6zdudghloh2pywbg62upuo6i",
+          "uri": "at://did:plc:mmtba3j4pesqdaifj2mfk3lr/app.bsky.feed.post/3lewxuv3ej22k"
+        },
+        "parent": {
+          "cid": "bafyreid66nhpam4r4k7n5ettu3iw5k3zlwe2zaek65d25emwmyxqer37ii",
+          "uri": "at://did:plc:mmtba3j4pesqdaifj2mfk3lr/app.bsky.feed.post/3lewxwbp7w22k"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 143,
+            "byteStart": 132
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-04T21:14:23.806Z"
+    },
+    "cid": "bafyreib4lolcse6d662ii7gi7gnt7yiqbad42hlxznkihakxmr3gso23pa"
+  }
+}

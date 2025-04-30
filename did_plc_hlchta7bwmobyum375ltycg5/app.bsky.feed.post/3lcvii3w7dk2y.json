@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733773542430,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcvii3w7dk2y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcvii3w7dk2y",
+    "record": {
+      "text": "That I can help you with.\n\nYou can assign any script block to a delegate, and it will magically coerce it.\n\nProvided the delegate is running on the same thread, that's it.\n\n$executionContext and it's subproperties have quite a few useful delegates you can hook ( like change in location )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreielnhmlufxtiz232abcidn3mldbb44qhchct4fooixsqv53h3tqoi",
+          "uri": "at://did:plc:y5xzgpc7cc6mnh7obetjh5jr/app.bsky.feed.post/3lcv25vvwu22e"
+        },
+        "parent": {
+          "cid": "bafyreibe2phdiwi2p3uynwhvdlxaczsgelobsejgcshrbn4mq42z3ccnfu",
+          "uri": "at://did:plc:y5xzgpc7cc6mnh7obetjh5jr/app.bsky.feed.post/3lcvgw7hrpk2v"
+        }
+      },
+      "createdAt": "2024-12-09T19:45:42.43Z"
+    },
+    "cid": "bafyreihuztnx5g47hxndyag3vchfvwwzcl6xpkhcepeuicfcktbej6rfbi"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733945554337,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld2iohayc22x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ld2iohayc22x",
+    "record": {
+      "text": "Great!\n\nI'll let you know as new projects pop up.\n\nShould be building a few atprotocol servers soon.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihmvxticcheftl7amirj4vaten2mdgknusp4ko7d3g6rwihcyooki",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lcuvxlh3vk2o"
+        },
+        "parent": {
+          "cid": "bafyreid7jpunbznn6z6636pdzkva5fsrtajdhjk6xkryczevu5yrssjd3e",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3ld2i7bwesc2h"
+        }
+      },
+      "createdAt": "2024-12-11T19:32:34.337Z"
+    },
+    "cid": "bafyreidejtrh3ons5zqbvk6tw5oo7ckexpkfxbyvwo6ll53sedavqjlgr4"
+  }
+}

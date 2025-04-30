@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735070443135,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3le3acqss2s2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3le3acqss2s2i",
+    "record": {
+      "text": "Heartily agreed.\n\nThis is why my favorite secure mechanism to run scripts is to run them in disposable containers ( without exposing secrets ).\n\nThis way, even if you hack into the container, you've p0wnd next to nothing, and the box is gone before you can use it.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiaimy244wt2cneoscwaavzuj4l5fwwdn7dvzukbklaiirtef3koxy",
+          "uri": "at://did:plc:rlrrzgcyzronxjjnzorjmdeb/app.bsky.feed.post/3le2nhxhddc2l"
+        },
+        "parent": {
+          "cid": "bafyreidzcxzbnhkd4ml32wjg7bvd5c3ur7opeswsowirqz6r7wm7zlyawq",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3le37ykwvok26"
+        }
+      },
+      "createdAt": "2024-12-24T20:00:43.135Z"
+    },
+    "cid": "bafyreidexhpvio6napgje6xnxkabmnkpkws6pghinrvo6wdevdzqac77ba"
+  }
+}

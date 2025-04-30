@@ -1,0 +1,49 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1730917699767,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lacervaghq2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lacervaghq2w",
+    "record": {
+      "text": "Join us at the Pacific #PowerShell user group next week, where Stephen Valdinger will help us learn how to Extend AutomatedLab.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/events/304301183/",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreietdiopkji2kubtwrrvcl2xbn56mvzzsllxtnh5lzhef4bell3fvm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 372269
+          },
+          "title": "Extending AutomatedLab: An Adventure in Custom Roles (by Stephen Valdinger), Wed, Nov 13, 2024, 6:00 PM   | Meetup",
+          "description": "AutomatedLab is a fantastic PowerShell module that allows you to very quickly spin up a variety of\npre-built Roles in either Hyper-V or Azure. Great for quickly trying some"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 23
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-06T18:28:19.767Z"
+    },
+    "cid": "bafyreidi4pulh5a2ajjzyarujtmhi5rwzcll7zsqqxnbelgu7vau5hg6ri"
+  }
+}

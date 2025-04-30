@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734223594663,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldclmp6e5k2t",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldclmp6e5k2t",
+    "record": {
+      "text": "I certainly hope so.  Finding my way back to the parts that ran suspect code is tricky.  Did you download from the link in the post?\n\nAnd it's more that @seheyah.bsky.social  looks like a suspicious profile, based of the feed description and timeline.\n\n(the hackers meme was the next post).",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihzhlaouumdgbvc25ywa4mbnshbv7ewdkmqpii4ypahzc52vbsuia",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldcjomyvbs2s"
+        },
+        "parent": {
+          "cid": "bafyreihbqcvy7bnifkarubplkxdt4g2uv2nagiaotye2q73ic4t5koma54",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3ldcldzus2c2m"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 173,
+            "byteStart": 153
+          },
+          "features": [
+            {
+              "did": "did:plc:7c67jbty3jszjqxygo5lkbao",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-15T00:46:34.663Z"
+    },
+    "cid": "bafyreiglpopjsumn6o3k5fwvzgk4a25nwkibholo4u3nmwxvxckzbbgq4e"
+  }
+}

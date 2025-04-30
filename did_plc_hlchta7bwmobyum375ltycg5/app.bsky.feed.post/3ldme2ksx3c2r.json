@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734559067306,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldme2ksx3c2r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldme2ksx3c2r",
+    "record": {
+      "text": "Why thank you!\n\nIt was one my first \"break the syntax rules of #powershell for the better\" module, but it's still one of my favorites.\n\nI'm always using it to make regexes, or stealing old patterns from myself.\n\nPlease, spread the joy.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibq4b5frpmrlrfapqlhtpev6gh772wlcigkfwb3ypzt6fgn64zwxq",
+          "uri": "at://did:plc:re4hy2aynaii3jfcgl2s5gmp/app.bsky.feed.post/3ldm73jttns2s"
+        },
+        "parent": {
+          "cid": "bafyreifhfhdkd24syu6ohfm6mchdduxstbyimnblbw2a2va73a7k43vd6i",
+          "uri": "at://did:plc:re4hy2aynaii3jfcgl2s5gmp/app.bsky.feed.post/3ldmd6zhkc225"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 74,
+            "byteStart": 63
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-18T21:57:47.306Z"
+    },
+    "cid": "bafyreibliv7ntcbnypptxrmoigkxo2vfcgd5rsgwi6ihsrez6ruoytqelm"
+  }
+}

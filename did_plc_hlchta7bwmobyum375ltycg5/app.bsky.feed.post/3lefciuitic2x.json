@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735416393197,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lefciuitic2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lefciuitic2x",
+    "record": {
+      "text": "The real beautiful irony here is that #powershell was basically made by language nerds and Linux nerds who ended up working at #microsoft.\n\n( FWIW, I think we were a big part of what won the long battle to make Microsoft care about open source )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiggxfuosyuusdslta4bz6wzz73g2ptvzcin2ipvuptawl4wknricy",
+          "uri": "at://did:plc:bpmtx4nv56gasrya66xwxigw/app.bsky.feed.post/3leewjn7pxs2e"
+        },
+        "parent": {
+          "cid": "bafyreifa25kectsvlahkbpiyixervyz6gvjtbfkrpcqyyvjttyc2whc2gq",
+          "uri": "at://did:plc:c55v7wz2usurdig7y3awgcqn/app.bsky.feed.post/3lefc7ph4l22l"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 38
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 137,
+            "byteStart": 127
+          },
+          "features": [
+            {
+              "tag": "microsoft",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-28T20:06:33.197Z"
+    },
+    "cid": "bafyreidxsrmuk3cvg4t3k3pktkycdelffai7e5lt4xka3ef3ben3lrgrju"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738975788662,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhmvh4jzbk2g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhmvh4jzbk2g",
+    "record": {
+      "text": "If it's any consolation, I've been *exactly* there.\n\nThat was life before someone pointed out to me and I felt like an idiot.\n\nBtw, #PowerShell casting is overpowered.\n\nIt works for `[TimeSpan]` too.\n\nOr any #dotnet type that's loaded 😉.\n\n`-is` checks if it is a type\n`-as` tried to cast.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicgqsdhdkd2l35sevf7atyrgmaftuvy7v7dvu3vrbyi6pueusy52m",
+          "uri": "at://did:plc:r3ucvvywwaj33ymjbm6ziuzb/app.bsky.feed.post/3lhmt2er7u362"
+        },
+        "parent": {
+          "cid": "bafyreicgqsdhdkd2l35sevf7atyrgmaftuvy7v7dvu3vrbyi6pueusy52m",
+          "uri": "at://did:plc:r3ucvvywwaj33ymjbm6ziuzb/app.bsky.feed.post/3lhmt2er7u362"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 143,
+            "byteStart": 132
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 215,
+            "byteStart": 208
+          },
+          "features": [
+            {
+              "tag": "dotnet",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-08T00:49:48.662Z"
+    },
+    "cid": "bafyreia3pxrqje43orde67tzotzldxjjxnojptjr4yquxxjeqm557wqiwq"
+  }
+}

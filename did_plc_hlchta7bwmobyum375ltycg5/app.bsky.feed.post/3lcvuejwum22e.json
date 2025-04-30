@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733786307814,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcvuejwum22e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcvuejwum22e",
+    "record": {
+      "text": "That is sad.\n\nAs a longtime viewer, I'm very annoyed with how much YouTube has demonetized some of your good content.\n\nAdd this to the list of grievances.\n\nHere's hoping the BlueSky can help these great videos find more viewers, instead of indulging in more moral panics.\n\nyoutu.be/7pyiLdRWdy0?...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://youtu.be/7pyiLdRWdy0?si=pJtTqULpZf7CiwId",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiexhm6r7gfsqww77bum3o7kh7iw5ee5dezbbfcxhch64ztrqc4gve"
+            },
+            "mimeType": "image/jpeg",
+            "size": 122565
+          },
+          "title": "Moral Panics : A History of Insidious Fear-Mongering",
+          "description": "YouTube video by The Cynical Historian"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifd2mloi75jayix2jk4l4blzathdu4562uuyg3qdqhxo7pyzczaca",
+          "uri": "at://did:plc:yptwvwiddmunycf2cnit7xeo/app.bsky.feed.post/3lcvkq6h4po26"
+        },
+        "parent": {
+          "cid": "bafyreib6jv36ugbutndqj3bmtkjo5xyhofr27y7avfsn72j6slamwxkkhu",
+          "uri": "at://did:plc:yptwvwiddmunycf2cnit7xeo/app.bsky.feed.post/3lcvtzwjsvc2l"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 297,
+            "byteStart": 273
+          },
+          "features": [
+            {
+              "uri": "https://youtu.be/7pyiLdRWdy0?si=pJtTqULpZf7CiwId",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-09T23:18:27.814Z"
+    },
+    "cid": "bafyreif34tkhjkgypxdyaztr2h4uw5glvhcyv7xnbaqquo7mzvukfsbqxq"
+  }
+}

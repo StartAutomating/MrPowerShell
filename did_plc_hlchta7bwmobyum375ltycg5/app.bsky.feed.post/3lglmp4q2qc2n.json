@@ -1,0 +1,67 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737832522251,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lglmp4q2qc2n",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lglmp4q2qc2n",
+    "record": {
+      "text": "Yeah, that's basically my reaction to realizing that this is not only possible, it's simple.\n\nOn the one hand it shows how PowerShell is an even better server side language than I'd realized.\n\nOn the other hand, it could definitely be used for nefarious ends.\n\n#infosec #cybersecurity #fyi",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifs22sijk3ge5a34we335au3nj42vsfuwlpea2yx5fwf32a6xtrce",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgkfhzouk22s"
+        },
+        "parent": {
+          "cid": "bafyreif6x4rrhul4djgkfdvnjmkn43cqtcbacvkjowzkylqg6az24a5ncu",
+          "uri": "at://did:plc:dcsvtevdr3mrn3er7gbta5wm/app.bsky.feed.post/3lgkrgzzjvc23"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 269,
+            "byteStart": 261
+          },
+          "features": [
+            {
+              "tag": "infosec",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 284,
+            "byteStart": 270
+          },
+          "features": [
+            {
+              "tag": "cybersecurity",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 289,
+            "byteStart": 285
+          },
+          "features": [
+            {
+              "tag": "fyi",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-25T19:15:22.251Z"
+    },
+    "cid": "bafyreiepnzcseg3vankh32ocyj6qfhitantsvxtvktfumjnv7prmefu5hq"
+  }
+}

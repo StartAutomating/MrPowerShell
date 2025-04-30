@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735963844855,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3levae73ma22k",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3levae73ma22k",
+    "record": {
+      "text": "1. I really need to merge the current branch ( it has a bunch of metadata improvements )\n2. Now, obviously, I need to check .MKVs first 😂\n3. Set-Media -Metadata should do you for now.\n4. Can confirm #ffmpeg is annoying with metadata, and newer bits are better.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibwdt2gietxq62wj6p2nhjpi53jxghaxziouyoyywfiolwk6euzpm",
+          "uri": "at://did:plc:jgxx3vfijywmfyf4uvnkffsd/app.bsky.feed.post/3leuhddz5bk23"
+        },
+        "parent": {
+          "cid": "bafyreiez36l2pgbmoteyzkb5ap6fwf3dssllrwqbphcpiqcb4m7mcy3yia",
+          "uri": "at://did:plc:jgxx3vfijywmfyf4uvnkffsd/app.bsky.feed.post/3leva4mrhg22g"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 209,
+            "byteStart": 202
+          },
+          "features": [
+            {
+              "tag": "ffmpeg",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-04T04:10:44.855Z"
+    },
+    "cid": "bafyreibgpkegl4jdjqoyouzzrtg3zutia46c2d43xflkd6zzpqlp2o77lq"
+  }
+}

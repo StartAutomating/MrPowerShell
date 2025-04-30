@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1743022068436,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3llcntnn53227",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3llcntnn53227",
+    "record": {
+      "text": "Sounds like mainly wanting the object pipeline to exist in typescript.\n\nWhat else?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihpqu73fkxtwmpv4wvtbtb3t23jw2usflksauvapkhhn742oslb6e",
+          "uri": "at://did:plc:wpmplhlouijlbo2c6kykh2fz/app.bsky.feed.post/3llbzmx7gds2k"
+        },
+        "parent": {
+          "cid": "bafyreihckct3xw5jcq4qkiizbhogl5s6zuev4inemcnha5fk46davuz3cq",
+          "uri": "at://did:plc:wpmplhlouijlbo2c6kykh2fz/app.bsky.feed.post/3llclwfdfj22b"
+        }
+      },
+      "createdAt": "2025-03-26T20:47:48.436Z"
+    },
+    "cid": "bafyreidxk6vwef677gehevw2smrzza6emse2uuggnhye3chnm4pw4xihhi"
+  }
+}

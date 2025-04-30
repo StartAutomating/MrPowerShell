@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733178647134,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lce6gtkkss2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lce6gtkkss2w",
+    "record": {
+      "text": "That PSDevOps module lets you define your steps in isolated script files....\n\nBonus points of this approach include debugging and syntax highlighting.\n\nBash and PowerShell are both supported.\n\ngithub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/PSDevOps",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibx3zicjikgyu3s4wcrkevao66vpkrq2xd5zdvtggns36mswxcnwe"
+            },
+            "mimeType": "image/jpeg",
+            "size": 97884
+          },
+          "title": "GitHub - StartAutomating/PSDevOps: PowerShell Tools for DevOps",
+          "description": "PowerShell Tools for DevOps. Contribute to StartAutomating/PSDevOps development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigxfqyfxfu7p55hr6szhkoa54ocqbyelj5u4mjhdh33j42rlm76eu",
+          "uri": "at://did:plc:pmwj4rtm2osjxcaluhktsp2r/app.bsky.feed.post/3lcdmlopvbk2d"
+        },
+        "parent": {
+          "cid": "bafyreibyl4yinfgekdqpem5rnyzbwjbrjn5ephxi447chv77rzy6ehk4pq",
+          "uri": "at://did:plc:p4o2hcct3trcq6jslhpzd3yw/app.bsky.feed.post/3lcdpukb2mc2w"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 219,
+            "byteStart": 193
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/PSDevOps",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-02T22:30:47.134Z"
+    },
+    "cid": "bafyreiav62llzgql4abjqmx3eas7hakrlzi45vbbazcjy3ur4zjkycc6uq"
+  }
+}

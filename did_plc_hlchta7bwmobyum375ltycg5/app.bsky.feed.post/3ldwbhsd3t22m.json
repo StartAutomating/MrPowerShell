@@ -1,0 +1,93 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734899887541,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldwbhsd3t22m",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldwbhsd3t22m",
+    "record": {
+      "text": "#powershell #coding #quicktip #trick #hattrick #trifecta\n\n1. PowerShell keeps a history:\n\n`Get-History`\n`history`\n\n2. Get the current history ID with:\n\n`$MyInvocation.HistoryID`\n\n3. To get the last command, just subtract:\n\n`Get-History -Id ($myInvocation.HistoryID - 1)`",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 19,
+            "byteStart": 12
+          },
+          "features": [
+            {
+              "tag": "coding",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 29,
+            "byteStart": 20
+          },
+          "features": [
+            {
+              "tag": "quicktip",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 30
+          },
+          "features": [
+            {
+              "tag": "trick",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 46,
+            "byteStart": 37
+          },
+          "features": [
+            {
+              "tag": "hattrick",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 56,
+            "byteStart": 47
+          },
+          "features": [
+            {
+              "tag": "trifecta",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-22T20:38:07.541Z"
+    },
+    "cid": "bafyreids3hwk4pppgs44x3vnugqxxi3cqmchqtfowotwa3t4scjje2pohu"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733507159670,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcnqfbjjbk2r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcnqfbjjbk2r",
+    "record": {
+      "text": "This tracks with both the fable and the relative value of testing versus profiling.\n\nProfiling may make you faster, but improving performance can be a slow and painful process.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidp37eh5j3sdfu2flmv35irnkycdordyxov2o3hqitcxcxzi7lf44",
+          "uri": "at://did:plc:n5rdclpbyxbzemdl5wbvlatd/app.bsky.feed.post/3lckw6d7nus23"
+        },
+        "parent": {
+          "cid": "bafyreihpms6hs5rcrhzuvl4hy4xd4abfkuertctknkcxkbkwrbkdqufsqm",
+          "uri": "at://did:plc:phcuuddubu7rcz47eer2alnq/app.bsky.feed.post/3lcnjjhesi222"
+        }
+      },
+      "createdAt": "2024-12-06T17:45:59.67Z"
+    },
+    "cid": "bafyreibfxiiyanlfahdhdaureae2ylrldqyf6ultvln2dnr6e23lfjpoxm"
+  }
+}

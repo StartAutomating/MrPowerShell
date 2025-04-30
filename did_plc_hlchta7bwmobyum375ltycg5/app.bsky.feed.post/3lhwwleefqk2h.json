@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1739320602210,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhwwleefqk2h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhwwleefqk2h",
+    "record": {
+      "text": "FYI, it can do both ( or freeform sentences, if you prefer ).\n\nBeen a big fan of making more \"noun-oriented\" modules for some time now.\n\nThis is probably one of the biggest stumbling blocks to PowerShell ( it's just also one that's loved by its community )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreignk4nu5si5lha7vfk4yoppqqdktoyi2aljhu4e5kn2c7kh57f2wu",
+          "uri": "at://did:plc:khtzyve7ooocpvnezzyjwuue/app.bsky.feed.post/3lhwol774bs2g"
+        },
+        "parent": {
+          "cid": "bafyreignk4nu5si5lha7vfk4yoppqqdktoyi2aljhu4e5kn2c7kh57f2wu",
+          "uri": "at://did:plc:khtzyve7ooocpvnezzyjwuue/app.bsky.feed.post/3lhwol774bs2g"
+        }
+      },
+      "createdAt": "2025-02-12T00:36:42.21Z"
+    },
+    "cid": "bafyreiehknckttenb5o4vfrw3q7wub6xz6va6nrzq7mrnmeh22iq2tgyfy"
+  }
+}

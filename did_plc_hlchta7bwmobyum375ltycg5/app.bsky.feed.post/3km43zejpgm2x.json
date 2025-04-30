@@ -1,0 +1,77 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1708711910502,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3km43zejpgm2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3km43zejpgm2x",
+    "record": {
+      "text": "Hey #PowerShell people and other #unicode lovers:\nSome Friday Fun:\n\nI made an Emoji module for PowerShell:\n\ngithub.com/StartAutomat...\n\nApparently, we've all been using the wrong name for \"Slash\" our whole lives.\n\nWho else thinks \"Solidus\" is cooler?",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "It's not a Slash, it's a Solidus!",
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreifupndkmyc3algofu73gfawge2scgtazuvy4vsdmvgkpnmpu4n2fe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 368036
+            },
+            "aspectRatio": {
+              "width": 1075,
+              "height": 1236
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 41,
+            "byteStart": 33
+          },
+          "features": [
+            {
+              "tag": "unicode",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 134,
+            "byteStart": 108
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/Emoji",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-02-23T18:11:50.502Z"
+    },
+    "cid": "bafyreiajicrc5spkjn776ctmj3v2yusarc4jban3qaqheysj54xqufp3uq"
+  }
+}

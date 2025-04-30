@@ -1,0 +1,61 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736632878779,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfipgxknn22l",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfipgxknn22l",
+    "record": {
+      "text": "Today my adorably mischievous #pug figured out how to open the front car windows.\n\nThis is fine.\n\nI swear black pugs are an incarnation of #loki",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/MYZgsN2TDJAAAAAC/this-is.gif?hh=280&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihsytdhu7wcc323yq2m3m23rabyaios5nxgsaypcgw4lyittemhya"
+            },
+            "mimeType": "image/jpeg",
+            "size": 187990
+          },
+          "title": "a cartoon dog is sitting at a table with a cup of coffee in front of a fire with the words this is fine .",
+          "description": "Alt: a cartoon dog is sitting at a table with a cup of coffee in front of a fire with the words \"this is fine\" ."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 30
+          },
+          "features": [
+            {
+              "tag": "pug",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 144,
+            "byteStart": 139
+          },
+          "features": [
+            {
+              "tag": "loki",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-11T22:01:18.779Z"
+    },
+    "cid": "bafyreibt5gi2q4l4vvwv56im67b5uilnmium2rvjgenzjjl3u4qho3mkki"
+  }
+}

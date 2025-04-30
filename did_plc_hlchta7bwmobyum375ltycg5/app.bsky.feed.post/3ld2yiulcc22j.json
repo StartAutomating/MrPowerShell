@@ -1,0 +1,75 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733962546848,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld2yiulcc22j",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ld2yiulcc22j",
+    "record": {
+      "text": "An update of the still running experiment with some counts:\n\nSo far 10364 links collected from the #bluesky #websocket firehose.\n\nMemes from tenor taking the top spot, followed by YouTube.  TikTok is less shared than I expected.  Not sure why GitHub is so low (though I am sure it missed a few links)",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "A table of how many links seen so far in this round of watching blue sky.\n\n6456 gifs from Tenor\n3184 YouTube videos\n174 TikToks\n441 Spotify links\n45 SoundCloud Links\n64 GitHub links",
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiad7a4lc3jziydzmdg7clxhallb6rsui44vvq5jloo22utrxqh7fe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 64147
+            },
+            "aspectRatio": {
+              "width": 371,
+              "height": 253
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicekzgtnjzqm5nw6qenrdog6mpiiblvvwmsunrou7dzke7fdu3ro4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld2h2k3l6k2x"
+        },
+        "parent": {
+          "cid": "bafyreicekzgtnjzqm5nw6qenrdog6mpiiblvvwmsunrou7dzke7fdu3ro4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld2h2k3l6k2x"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 107,
+            "byteStart": 99
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 118,
+            "byteStart": 108
+          },
+          "features": [
+            {
+              "tag": "websocket",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-12T00:15:46.848Z"
+    },
+    "cid": "bafyreib4zn2yqzdflm75h4yqcpho42vf6ccqq7jq3fvuehq4e4jrprzfsm"
+  }
+}

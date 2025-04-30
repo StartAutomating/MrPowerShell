@@ -1,0 +1,95 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735852424795,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lerylmn7v225",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lerylmn7v225",
+    "record": {
+      "text": "Seriously wondering why that is.\n\nIt's a flexible language that challenges a lot of conventions.\n\nIt was built by a lot of weirdos of all varieties ( basically an international team of #linux nerds working at #microsoft)\n\nAnd you can #shapeshift / #genderbend objects!\n\nBut why not love it?",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/KjJTBQ9lftsAAAAC/why-huh.gif?hh=279&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidr5g7q2uft3lvdboahpv2admv4urbyif56gfdp2duuz4bjvrhqiq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 57079
+          },
+          "title": "a man wearing a surgical gown and a mask says but why",
+          "description": "Alt: Ryan Reynolds asks \"but why not use PowerShell?\""
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiejzg6fwv2wqh2em3arse6bgufvp5qgegusb7vpweu4nyfwwm2gfa",
+          "uri": "at://did:plc:lgh2jogcu5diqn2etzcaehvi/app.bsky.feed.post/3leqxqssig22n"
+        },
+        "parent": {
+          "cid": "bafyreiai4rajol47cead6qdkypr5h42mm6qsgyof6mhcfcvc7nyveck7km",
+          "uri": "at://did:plc:lgh2jogcu5diqn2etzcaehvi/app.bsky.feed.post/3lerxpj3u2c2a"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 191,
+            "byteStart": 185
+          },
+          "features": [
+            {
+              "tag": "linux",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 219,
+            "byteStart": 209
+          },
+          "features": [
+            {
+              "tag": "microsoft",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 245,
+            "byteStart": 234
+          },
+          "features": [
+            {
+              "tag": "shapeshift",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 259,
+            "byteStart": 248
+          },
+          "features": [
+            {
+              "tag": "genderbend",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-02T21:13:44.795Z"
+    },
+    "cid": "bafyreidpbcveeufuehgijawh6x6ndql73k3ean2v4whvcaq55fjn2fci7q"
+  }
+}

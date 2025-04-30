@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734028507787,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld4vwntesk24",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ld4vwntesk24",
+    "record": {
+      "text": "Are you all thinking like a REPL loop or are you hoping for some tabs ?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicekzgtnjzqm5nw6qenrdog6mpiiblvvwmsunrou7dzke7fdu3ro4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld2h2k3l6k2x"
+        },
+        "parent": {
+          "cid": "bafyreiceinsgjsgkrnyolmib7o5tgw6er5yrmbcdjgldseojltycrzkmrq",
+          "uri": "at://did:plc:oqmead6vafy6py7otaam7whk/app.bsky.feed.post/3ld3ltwqyec2k"
+        }
+      },
+      "createdAt": "2024-12-12T18:35:07.787Z"
+    },
+    "cid": "bafyreic6jvbge75mbegt3nrd7f3y6u5htp3wq2qwlk2fu6hzpozgoex6du"
+  }
+}

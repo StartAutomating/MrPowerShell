@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741722810152,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lk4tsqez2k2g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lk4tsqez2k2g",
+    "record": {
+      "text": "As for the GUI stuff....\n\nBasically Windows was built around GUIs *until PowerShell*.\n\n@jsnover.com used to call this the \"30 year hole\".\n\nIt was also a nasty game of telephone.\n\nThe API would expose a bunch.\n\nThe GUI would expose a lot less.\n\nPowerShell is meant to be a more cohesive logical layer.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiaocvaw6wrauwrrkl5bprgx3nszqtb2bz4xytlpqegjbpftmd6kyu",
+          "uri": "at://did:plc:tkm2lt4yscjio6gcfjzi4fmx/app.bsky.feed.post/3lk455nmrz22y"
+        },
+        "parent": {
+          "cid": "bafyreibtbz6elmfq6txrsgdhjejdhrzqiazz74g2onpsitppevrgg7m5ai",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lk4tmzhaqk2g"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 99,
+            "byteStart": 87
+          },
+          "features": [
+            {
+              "did": "did:plc:inbagvkt2ildrbxdhmexmkjl",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-11T19:53:30.152Z"
+    },
+    "cid": "bafyreia3dgt66mtkghf7gf5wry5icnamyb5ib7ktcd45eds5gxbcwtthmi"
+  }
+}

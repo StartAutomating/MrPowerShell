@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1739337408798,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhxgaaerdk2m",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhxgaaerdk2m",
+    "record": {
+      "text": "Actually you can use the magic variable $input to handle #PowerShell pipeline input in end.\n\nTwo more notes:\n\n1. This is faster\n2. You can only read $input once ( make sure to capture it in another variable )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig26tcnoes3hegexxakde2y3kljig7spahzgt6sf3bv6dp5optv6e",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3lhw4qf2i2k26"
+        },
+        "parent": {
+          "cid": "bafyreibsz4z6wmacnxvl5lfyn5ikjx2o7h7g2vfbbcqrpolfj7wcteyii4",
+          "uri": "at://did:plc:z24nao2xh43csg2fn4v4eggh/app.bsky.feed.post/3lhx4xdmsqc2l"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 68,
+            "byteStart": 57
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-12T05:16:48.798Z"
+    },
+    "cid": "bafyreiempdmt2pwuel44zq6ux2rrv2n65g2gprltfxvkz3dwz5buqzkrve"
+  }
+}

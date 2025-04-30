@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735328486670,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lecqn2ciqc2m",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lecqn2ciqc2m",
+    "record": {
+      "text": "This is why I like turning complicated code into more simple scripts.\n\nBecause I know most people won't care about how the sausage is made, and don't want to wade thru the tech docs.\n\nTech is great for democratizing, but only if it's easy enough to use.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidbjrlefc47dosx6nd7f4kwtfgcxdoac77wcaqjurdwi7msba3hlu",
+          "uri": "at://did:plc:oc27rjm5tbfjuresfooj6xpv/app.bsky.feed.post/3lecmwm5z7s2k"
+        },
+        "parent": {
+          "cid": "bafyreia3scnwig5ovsrkgqomqm3xwm2rycbadn2r2nskwnjvb7bbqgbygm",
+          "uri": "at://did:plc:oc27rjm5tbfjuresfooj6xpv/app.bsky.feed.post/3lecn73x4tk2k"
+        }
+      },
+      "createdAt": "2024-12-27T19:41:26.67Z"
+    },
+    "cid": "bafyreicojloksjzeujcjeq7im36fhixa2p2vkp7mfajdn6r4ewayj7pfau"
+  }
+}

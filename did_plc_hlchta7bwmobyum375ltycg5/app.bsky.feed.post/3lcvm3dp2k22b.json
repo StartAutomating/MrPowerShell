@@ -1,0 +1,61 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733777409344,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcvm3dp2k22b",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcvm3dp2k22b",
+    "record": {
+      "text": "Reposting my little weekend #powershell project....\n\nEver want to run multiple object pipelines ( conditionally )?\n\nI give you WhereFor.\n\ngithub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/WhereFor",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreih3wmzt43bvg5bgq7rbijjrazfxspebi3pc4lggja3cxrrp2wfnqq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 46906
+          },
+          "title": "GitHub - StartAutomating/WhereFor: Wherefore Art Thou PowerShell? Multiple Object Pipelines",
+          "description": "Wherefore Art Thou PowerShell? Multiple Object Pipelines - StartAutomating/WhereFor"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 39,
+            "byteStart": 28
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 164,
+            "byteStart": 138
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/WhereFor",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-09T20:50:09.344Z"
+    },
+    "cid": "bafyreieah6dzsec7rve3kzdo7ptyrnxgr4simhsgwz3ezhiibwp5rwzqqq"
+  }
+}

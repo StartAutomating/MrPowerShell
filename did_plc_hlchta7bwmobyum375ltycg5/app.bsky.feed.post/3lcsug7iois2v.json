@@ -1,0 +1,83 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733683284759,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcsug7iois2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcsug7iois2v",
+    "record": {
+      "text": "#AIShell is an interesting module that might just change the way we #PowerShell.\n\nNext week, Steven Bucher from Microsoft will be talking to us about it.\n\nJoin us if you've got the time....\n\nwww.meetup.com/pacific-powe...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/events/304927824/?eventOrigin=group_upcoming_events",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiga5eqo5n6ujq2atfzzkdatunqqsmb6lafulfokoluzpizxl7ndvu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 36724
+          },
+          "title": "AIShell (with Steven Bucher from Microsoft), Wed, Dec 11, 2024, 6:00 PM   | Meetup",
+          "description": "At this month's Pacific PowerShell User Group, Steven Bucher from Microsoft will talk about AIShell:\n\n**AIShell:**\n\nHow often do you get an error in the CLI or leave your t"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigfpan45v35w5ta3ucdcxofsxg3qxd3ncpyzq3jor63p3cin52w3i",
+          "uri": "at://did:plc:lgkumzpuk3hcwnelyfpifzyh/app.bsky.feed.post/3lcsiupjvjv2f"
+        },
+        "parent": {
+          "cid": "bafyreigfpan45v35w5ta3ucdcxofsxg3qxd3ncpyzq3jor63p3cin52w3i",
+          "uri": "at://did:plc:lgkumzpuk3hcwnelyfpifzyh/app.bsky.feed.post/3lcsiupjvjv2f"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 8,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "AIShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 79,
+            "byteStart": 68
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 221,
+            "byteStart": 191
+          },
+          "features": [
+            {
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/304927824/?eventOrigin=group_upcoming_events",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-08T18:41:24.759Z"
+    },
+    "cid": "bafyreihi2svo47qzdckcekd2ascovaymgjufltmwjwmpampxbxin4h2zee"
+  }
+}

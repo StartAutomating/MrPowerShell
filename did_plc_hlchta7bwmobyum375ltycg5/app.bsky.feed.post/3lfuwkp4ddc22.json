@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737052837193,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfuwkp4ddc22",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfuwkp4ddc22",
+    "record": {
+      "text": "Such sad news.\n\nDavid Lynch gave us decades of wonderfully weird movies.\n\nEverybody, try to remember the song from Eraserhead (1977)\n\n\"In Heaven / Everything is Fine\"",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/4vpP0JI8lPMAAAAC/eraser-head.gif?hh=295&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicbvsaquxng7zdq6jxevbqtsxadisg5yq4qunbkxrgc37fz7akoru"
+            },
+            "mimeType": "image/jpeg",
+            "size": 151436
+          },
+          "title": "a black and white photo of a man in a suit and tie with white hair",
+          "description": "Alt: David Lynch finally got to find out what happens after we die."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic5lgildf4jdb4zwtwxonbfw5uuppnpxyma7uk2cykzqztwsboa3u",
+          "uri": "at://did:plc:qpqyay6mqatzyyet3jdgxiwi/app.bsky.feed.post/3lfuvehjias2x"
+        },
+        "parent": {
+          "cid": "bafyreic5lgildf4jdb4zwtwxonbfw5uuppnpxyma7uk2cykzqztwsboa3u",
+          "uri": "at://did:plc:qpqyay6mqatzyyet3jdgxiwi/app.bsky.feed.post/3lfuvehjias2x"
+        }
+      },
+      "createdAt": "2025-01-16T18:40:37.193Z"
+    },
+    "cid": "bafyreid6gps5abls6sp4scpzysk4dgahvlkjyq6pc7iqaw3ralm27hokjy"
+  }
+}

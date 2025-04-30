@@ -1,0 +1,97 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735590981821,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lekf3z6tlk2h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lekf3z6tlk2h",
+    "record": {
+      "text": "After years of tinkering, developers at the Match group have finally found a new an innovative way to make modern #dating even worse: #AI\n\n#dystopia #news\n\nwww.theguardian.com/technology/2...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.theguardian.com/technology/2024/dec/30/dating-apps-prepare-to-launch-ai-features-to-help-users-find-love",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreic6ivsrh2pzyfzqf7xt3exfb5ru54bmupd7twywrdalup5dfnxypy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 193765
+          },
+          "title": "Dating apps prepare to launch AI features to help users find love",
+          "description": "Match Group’s digital assistant will tailor profiles and search for dates – but critics fear genuine connections are at risk"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 121,
+            "byteStart": 114
+          },
+          "features": [
+            {
+              "tag": "dating",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 137,
+            "byteStart": 134
+          },
+          "features": [
+            {
+              "tag": "AI",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 148,
+            "byteStart": 139
+          },
+          "features": [
+            {
+              "tag": "dystopia",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 154,
+            "byteStart": 149
+          },
+          "features": [
+            {
+              "tag": "news",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 191,
+            "byteStart": 156
+          },
+          "features": [
+            {
+              "uri": "https://www.theguardian.com/technology/2024/dec/30/dating-apps-prepare-to-launch-ai-features-to-help-users-find-love",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-30T20:36:21.821Z"
+    },
+    "cid": "bafyreict3hae5cknmjpnyysxhl2lzctmkkeeevetui3cmakoa4tbcj6sp4"
+  }
+}

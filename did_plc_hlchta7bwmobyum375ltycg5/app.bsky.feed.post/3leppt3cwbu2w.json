@@ -1,0 +1,57 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735774291915,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leppt3cwbu2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leppt3cwbu2w",
+    "record": {
+      "text": "#ThingsOnlyNerdsSay\n\n\"Now where did I put my fresnel lenses?\"\n\nIf you're a #geek or #nerd, share something you've actually said, with no other context.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 19,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "ThingsOnlyNerdsSay",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 80,
+            "byteStart": 75
+          },
+          "features": [
+            {
+              "tag": "geek",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 89,
+            "byteStart": 84
+          },
+          "features": [
+            {
+              "tag": "nerd",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-01T23:31:31.915Z"
+    },
+    "cid": "bafyreign5myiv7v6gatkqisrcxqofayvdjqajhlyisjxtig2fmr6t37td4"
+  }
+}

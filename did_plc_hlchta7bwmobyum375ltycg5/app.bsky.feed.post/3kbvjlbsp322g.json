@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1697490809983,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kbvjlbsp322g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kbvjlbsp322g",
+    "record": {
+      "text": "Yeah, you won't be able to make their commands pipe cleanly without work.\n\nBut for just playing the \"which is it\" whack-a-mole, looking at the type will answer that question and help you whack the mole.\n\nUpdate-TypeData is the command that does it interactively.\n\nOr you can use EZOut",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/EZOut",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiafvmrcnwpyultjoehf2a45fzka5mc7ow5j5oar7zug5ui45fonxy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 95752
+          },
+          "title": "GitHub - StartAutomating/EZOut: EZOut is a PowerShell module to help take the pain out of writing fo...",
+          "description": "EZOut is a PowerShell module to help take the pain out of writing format and types XML - GitHub - StartAutomating/EZOut: EZOut is a PowerShell module to help take the pain out of writing format and..."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig54cfangbi6g74pv5ymkyqr43ghuxlta5dvdets3knuuy3cl27pm",
+          "uri": "at://did:plc:zxta5pxqrqbz57z534dpgjp2/app.bsky.feed.post/3kbvdwr2t4r2t"
+        },
+        "parent": {
+          "cid": "bafyreid2twfsgl3rio3bfsj5cga3jmp4v7hzg4gm35w4mfsysbpzf4i6hm",
+          "uri": "at://did:plc:zxta5pxqrqbz57z534dpgjp2/app.bsky.feed.post/3kbvjgi4fku2b"
+        }
+      },
+      "createdAt": "2023-10-16T21:13:29.983Z"
+    },
+    "cid": "bafyreiesv3ndebfm6f3gear2qcnyhnmrewxdsfwjrnorg3lavrwnnt3kry"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734386300042,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldhd5p4jrs25",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldhd5p4jrs25",
+    "record": {
+      "text": "Here'a an #android / #linux / #powershell #lifehack...\n\nYou can run Linux on your phone ( including installing PowerShell core ).\n\nJust use UserLAnd\n\nplay.google.com/store/apps/d...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://play.google.com/store/apps/details?id=tech.ula&pcampaignid=web_share",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigczhbdpf2jf4p4qptil63zvwt4svb5j4sxb6ivjh33c47de2nypi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 30407
+          },
+          "title": "UserLAnd - Linux on Android - Apps on Google Play",
+          "description": "Run Linux on Android. No root required."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 18,
+            "byteStart": 10
+          },
+          "features": [
+            {
+              "tag": "android",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 27,
+            "byteStart": 21
+          },
+          "features": [
+            {
+              "tag": "linux",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 41,
+            "byteStart": 30
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 51,
+            "byteStart": 42
+          },
+          "features": [
+            {
+              "tag": "lifehack",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 181,
+            "byteStart": 150
+          },
+          "features": [
+            {
+              "uri": "https://play.google.com/store/apps/details?id=tech.ula&pcampaignid=web_share",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-16T21:58:20.042Z"
+    },
+    "cid": "bafyreiaiq4qpy2b3nv56bjqbrtgu43mf2y5xxgwn4yl6v5nv4u4chqidcu"
+  }
+}

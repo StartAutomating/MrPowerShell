@@ -1,0 +1,65 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733439250594,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lclr5gez7s25",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lclr5gez7s25",
+    "record": {
+      "text": "I've had this on my wall for years, and feel like it's a perfect retort to trolls of all varieties.\n\n#Orwell #IgnoranceIsBliss\n\nSharing so we can all get mileage out of it.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "A poster with a burning book, saying \"ignorance is bliss\"",
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvhclbxuv6ox52wcp574mgskhbe2j2alnl55jesueddktpgwq7qq"
+              },
+              "mimeType": "image/jpeg",
+              "size": 779127
+            },
+            "aspectRatio": {
+              "width": 1505,
+              "height": 2000
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 108,
+            "byteStart": 101
+          },
+          "features": [
+            {
+              "tag": "Orwell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 126,
+            "byteStart": 109
+          },
+          "features": [
+            {
+              "tag": "IgnoranceIsBliss",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-05T22:54:10.594Z"
+    },
+    "cid": "bafyreibyf3tadkgalknw2lmgiloxg7qdwiibun4yxi7agteru2olvck7ny"
+  }
+}

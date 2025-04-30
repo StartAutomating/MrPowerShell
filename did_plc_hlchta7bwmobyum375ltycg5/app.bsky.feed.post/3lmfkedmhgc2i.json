@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744220924228,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmfkedmhgc2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmfkedmhgc2i",
+    "record": {
+      "text": "Love that you're doing this!\n\nTwo notes:\n\n1. \"File based programs\" feels like the wrong term.  Maybe, slightly inaccurate as it may be, \"interpreted c#\" would be a better fit.\n\n2. Please be mindful of cannibalization potentials with #PowerShell ( maybe include a demo of calling the pwsh API )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicyxn7omyazfelxeztul3toke6ud5ay3f5fcarjshe2yi2yashiwm",
+          "uri": "at://did:plc:2pzomphihuifolrf2w2ow67y/app.bsky.feed.post/3lmdvaiz66k2k"
+        },
+        "parent": {
+          "cid": "bafyreicyxn7omyazfelxeztul3toke6ud5ay3f5fcarjshe2yi2yashiwm",
+          "uri": "at://did:plc:2pzomphihuifolrf2w2ow67y/app.bsky.feed.post/3lmdvaiz66k2k"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 244,
+            "byteStart": 233
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-09T17:48:44.228Z"
+    },
+    "cid": "bafyreigx7nqqkegg3auitjtzlzych47q7z37mmegeoky6rcr7hvjmdxv3y"
+  }
+}

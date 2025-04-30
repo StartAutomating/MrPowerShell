@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737150602722,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfxrmdlmnk26",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfxrmdlmnk26",
+    "record": {
+      "text": "Could you try to send this to your GitHub Sponsors, too?\n\nAsking for a friend.\n\nAsking everyone else.... Consider sponsoring @jdhitsolutions.com on GitHub.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigjbkiq2sk5b4oxv5rkfwyzj36t2aareen3w52oaj4f3zguevfvim",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3lfxqlyvkdd2g"
+        },
+        "parent": {
+          "cid": "bafyreigjbkiq2sk5b4oxv5rkfwyzj36t2aareen3w52oaj4f3zguevfvim",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3lfxqlyvkdd2g"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 144,
+            "byteStart": 125
+          },
+          "features": [
+            {
+              "did": "did:plc:ohgsqpfsbocaaxusxqlgfvd7",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-17T21:50:02.722Z"
+    },
+    "cid": "bafyreiawgnsi3gj6oj4j7n4gndb6agmjv6euysykw36f6sstezysrhnoca"
+  }
+}

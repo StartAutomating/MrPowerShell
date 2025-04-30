@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736105718780,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lezeiem6522z",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lezeiem6522z",
+    "record": {
+      "text": "Now you've \"met\" two.\n\nPretty sure a few others released some product today ( scroll up the feed ).\n\nAside from providing more anecdotal data, how can we help you today?\n\nSurely you're not just trying to get a rise.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/muwuzGjmpfoAAAAC/im-serious-dont-call-me-shirley.gif?hh=278&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreia6kvbwbtsxilovjgjfshtmcokjnxnson775dg4hplgkeiqzxiufe"
+            },
+            "mimeType": "image/jpeg",
+            "size": 68263
+          },
+          "title": "a man in a suit and tie says i am serious and don t call me shirley",
+          "description": "ALT: a man in a suit and tie says i am serious and don t call me shirley"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidt3jpz4azd2dtcqgfj7dxvcrguxg24dcmtdp4i4nogg3v3f76m4q",
+          "uri": "at://did:plc:ckaz32jwl6t2cno6fmuw2nhn/app.bsky.feed.post/3leyxxjm6i22l"
+        },
+        "parent": {
+          "cid": "bafyreiabiwmoxetifvw66qm7lg66wc5qloyx4wvca454dt3heayoyk5wx4",
+          "uri": "at://did:plc:jwf3xzo7djgo537yqwjxk67g/app.bsky.feed.post/3leyyrrrrds2q"
+        }
+      },
+      "createdAt": "2025-01-05T19:35:18.78Z"
+    },
+    "cid": "bafyreifqnesvis4mw6xubjz3jbr6hnt5b7k4t3ota5bjjs5eel7smpjp6q"
+  }
+}

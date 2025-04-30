@@ -1,0 +1,67 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733769502708,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcveppdod22y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcveppdod22y",
+    "record": {
+      "text": "Btw, you can run #Python in #PowerShell.  #nodejs, too.\n\nIn fact, you can run any language with PowerShell.\n\n(Cause it's both a scripting language and a shell).",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihu7klreoaltqaz5t5lramgcz4arx2nibethhxjt7ie5bxbqdte5y",
+          "uri": "at://did:plc:ep6lal34tprx4l5rv74ea45s/app.bsky.feed.post/3lcvao4rlcs2m"
+        },
+        "parent": {
+          "cid": "bafyreifeoiuts7vet7qik7krshzfjaseimhhbrqgcotp7bj3j7wdh6ap2a",
+          "uri": "at://did:plc:dgg2trj5sxbp6sxkjypjhra2/app.bsky.feed.post/3lcvbsej6m22w"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 24,
+            "byteStart": 17
+          },
+          "features": [
+            {
+              "tag": "Python",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 39,
+            "byteStart": 28
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 42
+          },
+          "features": [
+            {
+              "tag": "nodejs",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-09T18:38:22.708Z"
+    },
+    "cid": "bafyreigqy53s6yr22n6mfqd7m55hel74hwi3nb2hq3jsfqgz4ndqcdgz34"
+  }
+}

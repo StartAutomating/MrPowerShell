@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735958626784,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lev3ioqos22k",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lev3ioqos22k",
+    "record": {
+      "text": "I'm personally a fan of any language that lets me do fun and interesting things with memory allocation.\n\n( Of course I did C++/C/Assembly graphics stuff before I became a PowerShell nerd).\n\nJust saying:\n\nYour bad joke has a good point 😉",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidrxfpuxhgtcoczibnooynjdiwfdjvnjo7z56j2zjo64h6qhto5bq",
+          "uri": "at://did:plc:oisofpd7lj26yvgiivf3lxsi/app.bsky.feed.post/3leuhd5z2s222"
+        },
+        "parent": {
+          "cid": "bafyreiguvhqn5aytlcup2ok5x2ox6kykffe3rxpgkyukghwkurhrezgy6u",
+          "uri": "at://did:plc:esyyysvopsxyg3vlfaiyftmd/app.bsky.feed.post/3leuxacsxpc2a"
+        }
+      },
+      "createdAt": "2025-01-04T02:43:46.784Z"
+    },
+    "cid": "bafyreibgfjkbxkltrleylfajwvcmqmb4kqra3vtxonbcx32ixru3g5eqju"
+  }
+}

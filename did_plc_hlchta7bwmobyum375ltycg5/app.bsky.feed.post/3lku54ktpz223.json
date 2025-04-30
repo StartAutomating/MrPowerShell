@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742523077548,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lku54ktpz223",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lku54ktpz223",
+    "record": {
+      "text": "Got a link to any repos for @f15y.com shaders?\n\nAs long as they're in the same format as shader-filter's, I should be able to add the repo to the project and let the code generator do its work.\n\n(the wrapper functions are automatically generated)",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreictselvfn3eoehkgr4xroamtx7h7acmuovqp3orok75ej6r7nun24",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lku2eb6flk23"
+        },
+        "parent": {
+          "cid": "bafyreicojhttafi43ipwbquhlrkpsllaopoe7fogotrqtqhe32bsamhitm",
+          "uri": "at://did:plc:tquex5jebhrhngiufeei7qmf/app.bsky.feed.post/3lku4szaz2s24"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 37,
+            "byteStart": 28
+          },
+          "features": [
+            {
+              "did": "did:plc:fzi6kgkbfdja3itxm7xijepq",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-21T02:11:17.548Z"
+    },
+    "cid": "bafyreib27nh3hkc47ea2jynn4hzricnfapoy3v6monypkztd3s3v24ibva"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732572744871,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbsk5k4u5k2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbsk5k4u5k2s",
+    "record": {
+      "text": "Lol just wait until you see what I'm cooking up atop this capability.\n\nIt's gonna be a blast.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicl7xhqcnlf6fltsy3vcvzke5nzunfwjvntupwgxugpj2ysgfsvsm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbsgiaogx22s"
+        },
+        "parent": {
+          "cid": "bafyreif7s4yo5qscki6k2crl4rndbgki3daf57p6llptshi7i2jl5i4fqm",
+          "uri": "at://did:plc:5scdazxckg6kso3s3j6psrjs/app.bsky.feed.post/3lbsjpkv2mc27"
+        }
+      },
+      "createdAt": "2024-11-25T22:12:24.871Z"
+    },
+    "cid": "bafyreibuy5jzzenpays4wz35uxvjdkxiqzp757klusrohapbg6p6jwofy4"
+  }
+}

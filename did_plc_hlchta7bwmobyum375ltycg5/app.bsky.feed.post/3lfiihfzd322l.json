@@ -1,0 +1,47 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736625377745,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfiihfzd322l",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfiihfzd322l",
+    "record": {
+      "text": "@bsky.app \n\nBug report for ya:\n\nIt appears that if you're scrolling thru a feed and start a video, then rotate your phone to play it widescreen, it jumps to the top of the feed and stops the video\n\nNow I'll never know what the cool new @themountaingoats.bsky.social song sounds like 😭",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 9,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "did": "did:plc:z72i7hdynmk6r22z27h6tvur",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 265,
+            "byteStart": 236
+          },
+          "features": [
+            {
+              "did": "did:plc:3pv3xjtaidyjlovzknuztffc",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-11T19:56:17.745Z"
+    },
+    "cid": "bafyreieyeo5niooqlmbosllundthggliakfzq5kigloukvegqk4zopgr5y"
+  }
+}

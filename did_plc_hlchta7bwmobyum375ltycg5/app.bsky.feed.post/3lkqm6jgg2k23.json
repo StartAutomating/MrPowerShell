@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742401810346,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lkqm6jgg2k23",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lkqm6jgg2k23",
+    "record": {
+      "text": "Mainly joking here, but shame on those who use batch before PowerShell.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/5t7dwIkeSioAAAAC/shame-bell.gif?hh=498&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiaibfwm6wwxmlqi3klxpp3chokxque6mynjc4cij4ntb6gdoag3j4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 160002
+          },
+          "title": "a woman in a hijab says shame in front of a crowd of people",
+          "description": "Alt: Shame on those who use Batch over PowerShell."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreickrbaz5x7ee4fpuwtekxydi5elmszreusems6ir6tcjbkvk7rile",
+          "uri": "at://did:plc:tzhrwvnocrxyntumxmomcehb/app.bsky.feed.post/3lkolxtctsc27"
+        },
+        "parent": {
+          "cid": "bafyreickrbaz5x7ee4fpuwtekxydi5elmszreusems6ir6tcjbkvk7rile",
+          "uri": "at://did:plc:tzhrwvnocrxyntumxmomcehb/app.bsky.feed.post/3lkolxtctsc27"
+        }
+      },
+      "createdAt": "2025-03-19T16:30:10.346Z"
+    },
+    "cid": "bafyreid2hn37roldn6clztkkbmmhs5kjxuovwya3s3z5sws562mfauecka"
+  }
+}

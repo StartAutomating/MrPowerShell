@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734117567807,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld7iuu3jks2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ld7iuu3jks2u",
+    "record": {
+      "text": "Thank you!  I give most of the credit to the way #powershell happily coerces types in an expression.\n\nFun fact, you can also multiply strings.\n\nForeach ($n in 1..13) { \"All work and no play make Jack a dull boy\" * ( get-random -max 13) }",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihndccvlvug526cabpizng5vjxehxwdeos6m2me5mvwd4yccdlsiu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld7grncdcs27"
+        },
+        "parent": {
+          "cid": "bafyreibxqvf5hlfsdvzxciegsgydpc4zjgoqmthbyf3cizpbhcq2rd3ahu",
+          "uri": "at://did:plc:2pzomphihuifolrf2w2ow67y/app.bsky.feed.post/3ld7h4inmrc2u"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 49
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-13T19:19:27.807Z"
+    },
+    "cid": "bafyreigcrm2wvxvfga2jrkatfd7agklfbdk2nsju4utmmna3h5jj56xuia"
+  }
+}

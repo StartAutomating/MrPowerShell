@@ -1,0 +1,67 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733682976251,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcsu4zbzx22v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcsu4zbzx22v",
+    "record": {
+      "text": "There are a few major reasons I'm a #linux #powershell #pwsh person....\n\n1. The Object Pipeline is OP.\n2. So is the Linux ecosystem.\n3. PowerShell runs a lot faster on Linux.\n\nIt's the best of both worlds.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiettvmcksnq2eckfmwvwsh2s2zlcuj74ykzhzxxsthrviuk74imim",
+          "uri": "at://did:plc:cupacm3nx4xoy5iciu6va6xc/app.bsky.feed.post/3lcsdm6kj3k2k"
+        },
+        "parent": {
+          "cid": "bafyreiettvmcksnq2eckfmwvwsh2s2zlcuj74ykzhzxxsthrviuk74imim",
+          "uri": "at://did:plc:cupacm3nx4xoy5iciu6va6xc/app.bsky.feed.post/3lcsdm6kj3k2k"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 42,
+            "byteStart": 36
+          },
+          "features": [
+            {
+              "tag": "linux",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 54,
+            "byteStart": 43
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 55
+          },
+          "features": [
+            {
+              "tag": "pwsh",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-08T18:36:16.251Z"
+    },
+    "cid": "bafyreifx2wos2zo65xp3xrj4x5aoas24d3dchqtwokz2zzgofzvryrcztq"
+  }
+}

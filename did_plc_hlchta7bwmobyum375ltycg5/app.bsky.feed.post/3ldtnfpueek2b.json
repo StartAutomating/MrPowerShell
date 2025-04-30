@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734809623538,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldtnfpueek2b",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldtnfpueek2b",
+    "record": {
+      "text": "FYI: if you do that step in a background job, you can display a progress message while people wait.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic4jtvmf76ckbeax44lzyuykmplrkn5d6mwflfrc32jrorno4ak4y",
+          "uri": "at://did:plc:tsunxhhri5rhz7nupfuzfwso/app.bsky.feed.post/3ldtk2ewgds2h"
+        },
+        "parent": {
+          "cid": "bafyreihj3rcacjenrpbweyw266jug3efn7uxyfk25jnzco6dsu7imffbbe",
+          "uri": "at://did:plc:tsunxhhri5rhz7nupfuzfwso/app.bsky.feed.post/3ldtk2ewla22h"
+        }
+      },
+      "createdAt": "2024-12-21T19:33:43.538Z"
+    },
+    "cid": "bafyreid7liypu5z2qs5lizoeyx5znipv7eigqwzyhkeotzuk6afl22hi6m"
+  }
+}

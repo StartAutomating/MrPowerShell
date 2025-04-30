@@ -1,0 +1,33 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740689152522,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lj6r5dntjk2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lj6r5dntjk2s",
+    "record": {
+      "text": "I truly cannot stand paywalled #news, especially in this day and age.\n\nWhenever I see a paywall, I wonder how many people don't read the news because they're too poor to pay.\n\nArchives should be free and public.\n\nMajor stories should always be free.\n\nPut the paywall on sports, if you need to.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 31
+          },
+          "features": [
+            {
+              "tag": "news",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-27T20:45:52.522Z"
+    },
+    "cid": "bafyreiabrkdkcu3gpubfzld2xiv7ajg6eqtygmzieo3o5jwcdtdfwe6mpi"
+  }
+}

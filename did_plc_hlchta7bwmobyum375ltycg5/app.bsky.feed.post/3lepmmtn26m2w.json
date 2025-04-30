@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735770861306,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lepmmtn26m2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lepmmtn26m2w",
+    "record": {
+      "text": "So happy to hear the retraction!\n\nAnd yeah, #python can be very annoying.\n\nMy 🌶️ take : Hunting for spaces is actually worse than hunting for unbalanced brackets.\n\n( There are good reasons why whitespace should be irrelevant )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifzsjrwsvddzebcetf77es4fz5tzayqmfzoy7ubia2sdsfslf3stu",
+          "uri": "at://did:plc:iup5z7oeto4wtuztj7ud2rol/app.bsky.feed.post/3lepluhdwhk25"
+        },
+        "parent": {
+          "cid": "bafyreifzsjrwsvddzebcetf77es4fz5tzayqmfzoy7ubia2sdsfslf3stu",
+          "uri": "at://did:plc:iup5z7oeto4wtuztj7ud2rol/app.bsky.feed.post/3lepluhdwhk25"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 51,
+            "byteStart": 44
+          },
+          "features": [
+            {
+              "tag": "python",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-01T22:34:21.306Z"
+    },
+    "cid": "bafyreifhu4m7pfqs6pq37m7z7zbz44ksf2qhryuq3limsw5jwsxbbbpdui"
+  }
+}

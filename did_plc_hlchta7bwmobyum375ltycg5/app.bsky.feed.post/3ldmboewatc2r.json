@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734556510986,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldmboewatc2r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldmboewatc2r",
+    "record": {
+      "text": "Of course, you could write a PowerShell script to change that instead.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiepxrjrudk6mymrhhulztcthp4bos3ahjj724xre2kvmrr6xlqv6m",
+          "uri": "at://did:plc:emvn7fbj2plrm44p53dekons/app.bsky.feed.post/3ldm6nt6g5s2h"
+        },
+        "parent": {
+          "cid": "bafyreiepxrjrudk6mymrhhulztcthp4bos3ahjj724xre2kvmrr6xlqv6m",
+          "uri": "at://did:plc:emvn7fbj2plrm44p53dekons/app.bsky.feed.post/3ldm6nt6g5s2h"
+        }
+      },
+      "createdAt": "2024-12-18T21:15:10.986Z"
+    },
+    "cid": "bafyreih2xkbalbesq33a77xpk2xqbztobsmnbvsxhs6pxovuq25ckvdavm"
+  }
+}

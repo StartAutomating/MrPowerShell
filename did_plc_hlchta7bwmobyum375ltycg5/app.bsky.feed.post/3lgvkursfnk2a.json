@@ -1,0 +1,111 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738174162009,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgvkursfnk2a",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgvkursfnk2a",
+    "record": {
+      "text": "The real irony of this phrase becoming popular is that it was always meant as satire.\n\nIt's not meant to advocate pulling yourself up.  It's meant to advocate for #collectiveaction #labor #unions\n\n#FYI / #TIL\n\nSee this 19th century comic:",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "The origin of the phrase \"Pull Yourself Up By Your Bootstraps\" demonstrates its impossibility.  It shows a single unorganized farmer trying to pull themselves up, and an organization of farmers using a pulley to lift one of their own up.\n\nThe phrase isn't meant to advocate you pull yourself up by your bootstraps.\n\nIt's meant to advocate for workers to organize.",
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreica43hydz4ea4xsuj5p2zfj5brbgbdj76hr5d3ajcrcqt3rtfx2ya"
+              },
+              "mimeType": "image/jpeg",
+              "size": 664118
+            },
+            "aspectRatio": {
+              "width": 818,
+              "height": 1023
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiaj4r2lciplzvcev3qad4mmf7dpjejpm3lpanbwn4ietbsit4cq7q",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3lgv47vnly725"
+        },
+        "parent": {
+          "cid": "bafyreichx75oh2pfigskqolom2vbabilyo3q6wy64utdyjag7ig2cbonyu",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3lgvd3x4z6s2a"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 180,
+            "byteStart": 163
+          },
+          "features": [
+            {
+              "tag": "collectiveaction",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 187,
+            "byteStart": 181
+          },
+          "features": [
+            {
+              "tag": "labor",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 195,
+            "byteStart": 188
+          },
+          "features": [
+            {
+              "tag": "unions",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 201,
+            "byteStart": 197
+          },
+          "features": [
+            {
+              "tag": "FYI",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 208,
+            "byteStart": 204
+          },
+          "features": [
+            {
+              "tag": "TIL",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-29T18:09:22.009Z"
+    },
+    "cid": "bafyreigjomzgbaws3cnmatespdmj7baglo54lzhrckoplipogucidu54ii"
+  }
+}

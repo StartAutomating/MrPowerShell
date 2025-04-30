@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733697585272,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lctbqfjoas2q",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lctbqfjoas2q",
+    "record": {
+      "text": "Lol this is why I'm neurotic about taking dependencies.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigsse7vnlsikgwsq4wqy3vo3jdm6f5rgdnibdsio4lpohf3oktzfy",
+          "uri": "at://did:plc:yn3uf622dcyj4udhd7voxlbo/app.bsky.feed.post/3lcrl26bvb22l"
+        },
+        "parent": {
+          "cid": "bafyreigsse7vnlsikgwsq4wqy3vo3jdm6f5rgdnibdsio4lpohf3oktzfy",
+          "uri": "at://did:plc:yn3uf622dcyj4udhd7voxlbo/app.bsky.feed.post/3lcrl26bvb22l"
+        }
+      },
+      "createdAt": "2024-12-08T22:39:45.272Z"
+    },
+    "cid": "bafyreihab2zxcpaxhfykvolcth3z32aw42kjvywkda7d6xgexpyhw4qbvy"
+  }
+}

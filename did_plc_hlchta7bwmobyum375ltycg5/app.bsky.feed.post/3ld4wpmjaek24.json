@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734029345265,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld4wpmjaek24",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ld4wpmjaek24",
+    "record": {
+      "text": "I did not.  Thanks for sharing!\n\nOpen to hearing about more attributes I haven't yet heard of.\n\nDid you know that #powershell attributes are malleable?\n\nThat is, you can put arbitrary attributes on almost anything, and change them?\n\n( Any .net attribute will do )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiezm3tyllnjhrnfm3wudaqaipx5juglbzu2qccbc4zk3hlte7laxi",
+          "uri": "at://did:plc:2pzomphihuifolrf2w2ow67y/app.bsky.feed.post/3lczacfy7qk2l"
+        },
+        "parent": {
+          "cid": "bafyreiezm3tyllnjhrnfm3wudaqaipx5juglbzu2qccbc4zk3hlte7laxi",
+          "uri": "at://did:plc:2pzomphihuifolrf2w2ow67y/app.bsky.feed.post/3lczacfy7qk2l"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 125,
+            "byteStart": 114
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-12T18:49:05.265Z"
+    },
+    "cid": "bafyreiflcycx4zlj4ued7da3v5mwu23wjltj2illrdgmxpe55qbqdmc6cm"
+  }
+}

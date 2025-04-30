@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732425421208,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lboawxdii22e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lboawxdii22e",
+    "record": {
+      "text": "Go look at its implementation.  It doesn't need to be trained, because command metadata is sufficient for natural syntax.\n\nAlso, LLMs are the models for the language, training is what you do -with- an LLM.\n\n#powershell is a language model.\n\nNot my fault people don't get it.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreigugz7ax22bacypkfbj2e4rzq7f4vbsx6se5j3kz74cspvbxyg4pu",
+          "uri": "at://did:plc:z23mr6a4ydaga3mqlk6dwdcr/app.bsky.feed.post/3lboark6sps2t"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 218,
+            "byteStart": 207
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-24T05:17:01.208Z"
+    },
+    "cid": "bafyreibberouwx3li4aps2xrmsstuhoubem6lta2woile7gxmwgpo7qcn4"
+  }
+}

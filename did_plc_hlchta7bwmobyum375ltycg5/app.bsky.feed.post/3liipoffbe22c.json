@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1739931663049,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3liipoffbe22c",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3liipoffbe22c",
+    "record": {
+      "text": "I think that we should get in the habit of asking for our own sponsor links to be on their videos for posterity.\n\n( Or just create more content ourselves )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidleizdnupvxw6j4ef3opz7bfhucfnwgrzbsarhxpitltxct2p5xy",
+          "uri": "at://did:plc:2zzpkvoegaautni7cct2nw52/app.bsky.feed.post/3liik5mwhzl2w",
+          "$type": "com.atproto.repo.strongRef"
+        },
+        "parent": {
+          "cid": "bafyreiej4gwdpwl6clw56ooxzyibwmp2z243hlycmsxnk57dnvhqdrrnjy",
+          "uri": "at://did:plc:2zzpkvoegaautni7cct2nw52/app.bsky.feed.post/3liilrtinjv2b"
+        }
+      },
+      "createdAt": "2025-02-19T02:21:03.049Z"
+    },
+    "cid": "bafyreiave6d23cbos7mbtdzb3rjbpgmjwtcmnzeuygfet2ae5aev5fngjq"
+  }
+}

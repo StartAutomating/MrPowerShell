@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732392443308,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbnca55tz22o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbnca55tz22o",
+    "record": {
+      "text": "Learn how to use #PowerShell to write all of the languages you've listed and more 😉😁\n\n#metaprogramming is a very useful life skill.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreievwbwd2ysilxwrbdqs32lopdoehsm3zn4cukecfdo4t5d3jvni7q",
+          "uri": "at://did:plc:27hculg6bmdbi47xcarxczbf/app.bsky.feed.post/3lbhy3zea7s2b"
+        },
+        "parent": {
+          "cid": "bafyreievwbwd2ysilxwrbdqs32lopdoehsm3zn4cukecfdo4t5d3jvni7q",
+          "uri": "at://did:plc:27hculg6bmdbi47xcarxczbf/app.bsky.feed.post/3lbhy3zea7s2b"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 28,
+            "byteStart": 17
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 108,
+            "byteStart": 92
+          },
+          "features": [
+            {
+              "tag": "metaprogramming",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-23T20:07:23.308Z"
+    },
+    "cid": "bafyreiax4vyxe3fbxks4qmokxrhsr3t7pivpbhvy5uw7wyjnttp3rchdi4"
+  }
+}

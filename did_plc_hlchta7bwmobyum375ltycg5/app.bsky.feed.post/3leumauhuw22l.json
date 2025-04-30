@@ -1,0 +1,110 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735942258218,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leumauhuw22l",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leumauhuw22l",
+    "record": {
+      "text": "Working on making a starter pack of amazing PowerShell developers.\n\nA few names short at the moment.\n\nGot suggestions?\n\n#powershell #mvpbuzz\n\nSo far, I'd include:\n\n@psfred.bsky.social \n@adamdriscoll.bsky.social\n@jaykul.powershell.social \n@jborean.bsky.social \n@badgerati.bsky.social \n( and myself )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 131,
+            "byteStart": 120
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 140,
+            "byteStart": 132
+          },
+          "features": [
+            {
+              "tag": "mvpbuzz",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 183,
+            "byteStart": 164
+          },
+          "features": [
+            {
+              "did": "did:plc:fh3l5o4idrmsjtfuxxgxqowu",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 210,
+            "byteStart": 185
+          },
+          "features": [
+            {
+              "did": "did:plc:sqraalz5tsmoy3upwcjtpepl",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 236,
+            "byteStart": 211
+          },
+          "features": [
+            {
+              "did": "did:plc:cqtnputlv4lkdpwerfn6msjs",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 258,
+            "byteStart": 238
+          },
+          "features": [
+            {
+              "did": "did:plc:waaktpm6r63m5frsf7itvkjn",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 282,
+            "byteStart": 260
+          },
+          "features": [
+            {
+              "did": "did:plc:dzsggruemobq6bllmzbhlo5d",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-03T22:10:58.218Z"
+    },
+    "cid": "bafyreia4dtefa2yz6ms572ihrrcjk37gb6xa7kzoxhwo46eorp2htuxnou"
+  }
+}

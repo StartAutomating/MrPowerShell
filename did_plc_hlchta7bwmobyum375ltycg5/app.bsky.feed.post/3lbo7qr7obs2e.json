@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732424139723,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbo7qr7obs2e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbo7qr7obs2e",
+    "record": {
+      "text": "Nope, not hyperbole.\n\nAlso, it's a programming language with lots of useful features most people don't know.\n\nBasically, #powershell is stereotyped by people into ( ironically ) a much weaker language than it is.\n\n( See my earlier replies of unique features )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreie7mb6phhi7uhaffhwtgkrgqlncffvvxvaal2w3cyul3gsih3hp3e",
+          "uri": "at://did:plc:z23mr6a4ydaga3mqlk6dwdcr/app.bsky.feed.post/3lbo76wqww22t"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 132,
+            "byteStart": 121
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-24T04:55:39.723Z"
+    },
+    "cid": "bafyreieswgxtfs6php52f5kktdhcdyj5fcjx5uplmiyctp7mp7pqzjhqai"
+  }
+}

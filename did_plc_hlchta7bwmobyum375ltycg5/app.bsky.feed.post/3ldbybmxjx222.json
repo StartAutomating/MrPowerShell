@@ -1,0 +1,67 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734202822148,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldbybmxjx222",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldbybmxjx222",
+    "record": {
+      "text": "Did you know that the same amazing developer, Jason Shirk, helped make #cplusplus, #powershell, and #rust ?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreih2uudx7mtgnbonkpdnm3mgxzpfix3pzncm7ra5zn46ifdvad3bjq",
+          "uri": "at://did:plc:iup5z7oeto4wtuztj7ud2rol/app.bsky.feed.post/3ldbfvkb5cs2i"
+        },
+        "parent": {
+          "cid": "bafyreih2uudx7mtgnbonkpdnm3mgxzpfix3pzncm7ra5zn46ifdvad3bjq",
+          "uri": "at://did:plc:iup5z7oeto4wtuztj7ud2rol/app.bsky.feed.post/3ldbfvkb5cs2i"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 81,
+            "byteStart": 71
+          },
+          "features": [
+            {
+              "tag": "cplusplus",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 94,
+            "byteStart": 83
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 105,
+            "byteStart": 100
+          },
+          "features": [
+            {
+              "tag": "rust",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-14T19:00:22.148Z"
+    },
+    "cid": "bafyreiaewmz5tg664wpelnll4hp7jhb37kfvj55wnnwnzhgm5qzow7ar5m"
+  }
+}

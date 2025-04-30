@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1743116086573,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3llfffmcxyc2r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3llfffmcxyc2r",
+    "record": {
+      "text": "Yeah I had about that initial reaction, until I realized what security horrors lurked within the BinaryFormatter.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibtxr6vybfng7xg62hrmjejhjf5yfpxa66ttczkqhomp7lcncfm4a",
+          "uri": "at://did:plc:wpmplhlouijlbo2c6kykh2fz/app.bsky.feed.post/3llerlwe3bc2u"
+        },
+        "parent": {
+          "cid": "bafyreibtxr6vybfng7xg62hrmjejhjf5yfpxa66ttczkqhomp7lcncfm4a",
+          "uri": "at://did:plc:wpmplhlouijlbo2c6kykh2fz/app.bsky.feed.post/3llerlwe3bc2u"
+        }
+      },
+      "createdAt": "2025-03-27T22:54:46.573Z"
+    },
+    "cid": "bafyreidv34pozr42dm4qycxg5zya26cvvi5z5ncskceiszirjps4of5sp4"
+  }
+}

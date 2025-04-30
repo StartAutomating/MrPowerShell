@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740618645939,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lj4pi3ddt22p",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lj4pi3ddt22p",
+    "record": {
+      "text": "I'm still dipping my toes in past the #copilot I've already been using in #vscode.\n\nTLDR : models trained for code produce better code.\n\nUsing it to get half decent first drafts of well known but obscure algorithms.\n\nFinding it much easier when it's purpose driven.\n\nModule coming soon",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifvbcoebkqcqc4d3rshjxjfams73tuehtqhpn3aovcxdanraqkppy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lj4cyrhpls2p"
+        },
+        "parent": {
+          "cid": "bafyreihkplvx54g46s5vn3lojjvqa27iecfk6r7hweteuajet6nudxeu64",
+          "uri": "at://did:plc:a3yierchgwp2lvyontsragui/app.bsky.feed.post/3lj4ey4adpc2p"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 46,
+            "byteStart": 38
+          },
+          "features": [
+            {
+              "tag": "copilot",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 81,
+            "byteStart": 74
+          },
+          "features": [
+            {
+              "tag": "vscode",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-27T01:10:45.939Z"
+    },
+    "cid": "bafyreidsidgxtwxjco63xsrcwsupv7cgawv6j2ada3tp7h3islgojd2yty"
+  }
+}

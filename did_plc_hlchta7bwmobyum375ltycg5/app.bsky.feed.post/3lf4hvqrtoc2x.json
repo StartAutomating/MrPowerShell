@@ -1,0 +1,121 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736212468197,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lf4hvqrtoc2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lf4hvqrtoc2x",
+    "record": {
+      "text": "Friendly reminder:\n\nNever\nExecute\nResult\nData\n\nThis is something every #nerd should remember, especially if they work with\n\n#cybersecurity #infosec\n#powershell #nodejs #python #sql\n\nRepost / reply with your own creative acronyms or memes.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/FOaQdoYY9t0AAAAC/nerd-zone-colbert.gif?hh=280&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicuq4akkqlsgqyhndnk5ftzyujtk4rrlq4nwb7qj52yf3gtpumxie"
+            },
+            "mimeType": "image/jpeg",
+            "size": 154441
+          },
+          "title": "a man in a suit and tie says welcome to the nerd zone",
+          "description": "Alt: Stephen Colbert welcomes us to the nerd zone.  He reminds us:  Never Execute Result Data."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 76,
+            "byteStart": 71
+          },
+          "features": [
+            {
+              "tag": "nerd",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 138,
+            "byteStart": 124
+          },
+          "features": [
+            {
+              "tag": "cybersecurity",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 147,
+            "byteStart": 139
+          },
+          "features": [
+            {
+              "tag": "infosec",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 159,
+            "byteStart": 148
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 167,
+            "byteStart": 160
+          },
+          "features": [
+            {
+              "tag": "nodejs",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 175,
+            "byteStart": 168
+          },
+          "features": [
+            {
+              "tag": "python",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 180,
+            "byteStart": 176
+          },
+          "features": [
+            {
+              "tag": "sql",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-07T01:14:28.197Z"
+    },
+    "cid": "bafyreig3z757kd73o4ap6cws43btxxhaltjyatzlqp7k3nwrgoob6kun7m"
+  }
+}

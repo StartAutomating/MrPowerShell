@@ -1,0 +1,57 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734029580466,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld4wwmsxuk24",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ld4wwmsxuk24",
+    "record": {
+      "text": "#powershell #pwsh #tip :\n\nDid you know you can apply Validation attributes to a variable\n\n$odd = [ValidateScript({return ($_ % 2)})]3\n\nThis is as overpowered as it looks.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 17,
+            "byteStart": 12
+          },
+          "features": [
+            {
+              "tag": "pwsh",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 22,
+            "byteStart": 18
+          },
+          "features": [
+            {
+              "tag": "tip",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-12T18:53:00.466Z"
+    },
+    "cid": "bafyreidx24omcjf25o7a26rbaabz5s5zyalorva3aumx24thnv4gabecvu"
+  }
+}

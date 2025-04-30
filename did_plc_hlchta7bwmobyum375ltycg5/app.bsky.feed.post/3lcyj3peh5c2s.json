@@ -1,0 +1,79 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733877279569,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcyj3peh5c2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcyj3peh5c2s",
+    "record": {
+      "text": "I use PSDevOps to make me a workflow, and then stick a GalleryKey into my GitHub repo secrets.\n\nThen, I bump the version in my #powershell module manifest and merge my pull request.\n\nThen, it releases ;-).\n\nNormally also include a #container, #github action, and logo in #svg.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidbkixe4arrirhlrkaq74wdagh7jmcanvqtv76wqswnjq2aqxyahy",
+          "uri": "at://did:plc:iga7ipxo6jy26wv6bevcmdem/app.bsky.feed.post/3lcyhhqvxlc2b"
+        },
+        "parent": {
+          "cid": "bafyreidbkixe4arrirhlrkaq74wdagh7jmcanvqtv76wqswnjq2aqxyahy",
+          "uri": "at://did:plc:iga7ipxo6jy26wv6bevcmdem/app.bsky.feed.post/3lcyhhqvxlc2b"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 138,
+            "byteStart": 127
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 241,
+            "byteStart": 231
+          },
+          "features": [
+            {
+              "tag": "container",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 250,
+            "byteStart": 243
+          },
+          "features": [
+            {
+              "tag": "github",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 275,
+            "byteStart": 271
+          },
+          "features": [
+            {
+              "tag": "svg",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-11T00:34:39.569Z"
+    },
+    "cid": "bafyreieagrfyami5fcqtnn4sh62md7lnc3dmp3sldpmsy4iz5yruxd4hue"
+  }
+}

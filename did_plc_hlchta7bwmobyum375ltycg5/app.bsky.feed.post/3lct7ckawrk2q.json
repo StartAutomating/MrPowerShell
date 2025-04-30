@@ -1,0 +1,67 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733694972981,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lct7ckawrk2q",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lct7ckawrk2q",
+    "record": {
+      "text": "I figured it was some gen-xer or millennial.\n\nCan confirm \"convo\" is used in conversation.\n\nCan also confirm that people from #linux seem to love short names.\n\nCan confirm the #microsoft view of naming is:\n\n\"Better Explicit than Terse\".\n\n( This is why I love #powershell aliases )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihntiud5suudjbypgf5bli7vscoa4bapkabzfkvy4s6t3mdrv3mzy",
+          "uri": "at://did:plc:hfgp6pj3akhqxntgqwramlbg/app.bsky.feed.post/3lcstf3gxf22q"
+        },
+        "parent": {
+          "cid": "bafyreihntiud5suudjbypgf5bli7vscoa4bapkabzfkvy4s6t3mdrv3mzy",
+          "uri": "at://did:plc:hfgp6pj3akhqxntgqwramlbg/app.bsky.feed.post/3lcstf3gxf22q"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 132,
+            "byteStart": 126
+          },
+          "features": [
+            {
+              "tag": "linux",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 186,
+            "byteStart": 176
+          },
+          "features": [
+            {
+              "tag": "microsoft",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 270,
+            "byteStart": 259
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-08T21:56:12.981Z"
+    },
+    "cid": "bafyreibvfvhlzkx4pjtq7ylfojispzyfmhsnjafcpn5x27va6szb34mpme"
+  }
+}

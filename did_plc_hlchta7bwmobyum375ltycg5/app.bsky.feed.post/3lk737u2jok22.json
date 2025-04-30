@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741799485881,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lk737u2jok22",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lk737u2jok22",
+    "record": {
+      "text": "A few things here\n\n1. This is why #PowerShell on #Linux is great.  They are two living ecosystems that play well together.\n2. All tech worth it's salt is constantly evolving.\n3. PowerShell has a number of very unique traits, and continues to evolve and grow.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiaocvaw6wrauwrrkl5bprgx3nszqtb2bz4xytlpqegjbpftmd6kyu",
+          "uri": "at://did:plc:tkm2lt4yscjio6gcfjzi4fmx/app.bsky.feed.post/3lk455nmrz22y"
+        },
+        "parent": {
+          "cid": "bafyreiaboxw7leyr2uabskyvpbf7tndlowmvace5kdxijg7l3qufpvkyei",
+          "uri": "at://did:plc:tkm2lt4yscjio6gcfjzi4fmx/app.bsky.feed.post/3lk6vigwlb22y"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 34
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 55,
+            "byteStart": 49
+          },
+          "features": [
+            {
+              "tag": "Linux",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-12T17:11:25.881Z"
+    },
+    "cid": "bafyreihqgdwmzb3gh3hkc26johcuxlmpdqeoc3iyfs3pjkqqykcfcrcj6y"
+  }
+}

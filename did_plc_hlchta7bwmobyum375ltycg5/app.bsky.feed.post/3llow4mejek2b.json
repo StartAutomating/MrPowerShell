@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1743443275889,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3llow4mejek2b",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3llow4mejek2b",
+    "record": {
+      "text": "And a few cool gists.\n\nStaring really simple: Moving Averages...\n\ngist.github.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://gist.github.com/StartAutomating/fc51a3476e8bbda4a1ab117f07d41abe",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicttwvjarhwmeugnkj5fau6knzll3g6sa36wyd2uorg5ocaql46eu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 62850
+          },
+          "title": "Gist using the object pipeline to calculate a moving average",
+          "description": "Gist using the object pipeline to calculate a moving average - MovingAverage.ps1"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifv24gcpfzeklgyszjyajgvwme6ucoemxdnqe4tw2t5m372izbjai",
+          "uri": "at://did:plc:munmkmorl6d57hkragyydlyh/app.bsky.feed.post/3llo4s7xn3s2m"
+        },
+        "parent": {
+          "cid": "bafyreicqghtgmvh3nebpcdv4727oeocnm4fvkkpbdeerahzkxcnq4zziue",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3llovzxcmrs2b"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 97,
+            "byteStart": 66
+          },
+          "features": [
+            {
+              "uri": "https://gist.github.com/StartAutomating/fc51a3476e8bbda4a1ab117f07d41abe",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-31T17:47:55.889Z"
+    },
+    "cid": "bafyreib22umaan4na7vpmvkkg6mmiglz24olpdp6gcy6otflv5f6tyqikq"
+  }
+}

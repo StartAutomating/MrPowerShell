@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1697490306042,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kbvj4b7fkm2y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kbvj4b7fkm2y",
+    "record": {
+      "text": "Yeah, this is more a note to developers.\n\nDo you want a good PowerShell trick that works around it?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig54cfangbi6g74pv5ymkyqr43ghuxlta5dvdets3knuuy3cl27pm",
+          "uri": "at://did:plc:zxta5pxqrqbz57z534dpgjp2/app.bsky.feed.post/3kbvdwr2t4r2t"
+        },
+        "parent": {
+          "cid": "bafyreidgt4oapw5smzscykpo7uwabj6k4tinwcfouh726w7f7dxmlfbufe",
+          "uri": "at://did:plc:zxta5pxqrqbz57z534dpgjp2/app.bsky.feed.post/3kbvize2qp42y"
+        }
+      },
+      "createdAt": "2023-10-16T21:05:06.042Z"
+    },
+    "cid": "bafyreiat2ltz55r6mvokesk7xm2kdlvvynh3msdwoeng6dvfcmc5b6vv4i"
+  }
+}

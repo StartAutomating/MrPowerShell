@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738607762789,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhc6p3q4ds2a",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhc6p3q4ds2a",
+    "record": {
+      "text": "Why -split?\n\n1. Because #powershell #regex is useful. ( -split supports patterns)\n2. Because I can easily provide a number of items (i.e. -split '=',2 )\n3. It will coerce the left into a strong\n\nWhy not -split?\n\n1. .Split() is faster\n2. Exclude empty entires.\n\nI would also look at [regex]::split",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiaeg7jq34lgn5ibj4mf5djy7y6w76qsq3iskbfisuqjgpq7ltgl54",
+          "uri": "at://did:plc:7ymkhxmjf3qq64hxa5fvtlsp/app.bsky.feed.post/3lhc3eokfys2f"
+        },
+        "parent": {
+          "cid": "bafyreiaeg7jq34lgn5ibj4mf5djy7y6w76qsq3iskbfisuqjgpq7ltgl54",
+          "uri": "at://did:plc:7ymkhxmjf3qq64hxa5fvtlsp/app.bsky.feed.post/3lhc3eokfys2f"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 35,
+            "byteStart": 24
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 42,
+            "byteStart": 36
+          },
+          "features": [
+            {
+              "tag": "regex",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-03T18:36:02.789Z"
+    },
+    "cid": "bafyreictjqnyjo2evagilinvcjgazaksxvwgq7bmgow2vggqv43o7ezc5a"
+  }
+}

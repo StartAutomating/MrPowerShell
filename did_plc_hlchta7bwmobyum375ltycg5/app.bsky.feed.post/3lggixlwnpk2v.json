@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737656712974,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lggixlwnpk2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lggixlwnpk2v",
+    "record": {
+      "text": "Love this trick!  It's great for linking to docs, or any relevant pages.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidor5a5mlqgoels43uo3k2cuvyskfsnffhfteayqhuok2cckcfsaq",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3lge5rauda22m"
+        },
+        "parent": {
+          "cid": "bafyreidor5a5mlqgoels43uo3k2cuvyskfsnffhfteayqhuok2cckcfsaq",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3lge5rauda22m"
+        }
+      },
+      "createdAt": "2025-01-23T18:25:12.974Z"
+    },
+    "cid": "bafyreie2376g4cxkbvvkdisl2cbwchr7wovvmbzsn33ighzsckuxr2alnm"
+  }
+}

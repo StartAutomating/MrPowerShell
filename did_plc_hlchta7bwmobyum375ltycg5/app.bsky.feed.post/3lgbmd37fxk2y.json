@@ -1,0 +1,81 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737488520621,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgbmd37fxk2y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgbmd37fxk2y",
+    "record": {
+      "text": "Making a #PechaKucha presentation in pure #SVG and #PowerShell was quite the grueling exercise.\n\nOn the bright side, it has taught me some cool presentation techniques and, as usual, led to some nifty scripts.\n\nMost visually dynamic talk I've ever made, and it's less than a megabyte.\n\n#svg #ftw",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 20,
+            "byteStart": 9
+          },
+          "features": [
+            {
+              "tag": "PechaKucha",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 46,
+            "byteStart": 42
+          },
+          "features": [
+            {
+              "tag": "SVG",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 62,
+            "byteStart": 51
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 290,
+            "byteStart": 286
+          },
+          "features": [
+            {
+              "tag": "svg",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 295,
+            "byteStart": 291
+          },
+          "features": [
+            {
+              "tag": "ftw",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-21T19:42:00.621Z"
+    },
+    "cid": "bafyreiar7flti3wjjwvw2cu4b3e7y67fdwo3ufhcas5ui2yvbttdukzrlm"
+  }
+}

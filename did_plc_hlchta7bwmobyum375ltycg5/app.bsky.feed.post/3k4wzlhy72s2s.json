@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1692044805612,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k4wzlhy72s2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k4wzlhy72s2s",
+    "record": {
+      "text": "The Streisand effect at work.\n\nStreisand effect - Wikipedia",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://en.wikipedia.org/wiki/Streisand_effect",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigvoc7q34mq2ojzrkro5mmlyljhqofq2z5reoo4wmigarh3f564pm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 597220
+          },
+          "title": "Streisand effect - Wikipedia",
+          "description": ""
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifbmhdutftpctjhtwtxdxuffcujmkecrz2yr3ro4u5ihmjyo44wzu",
+          "uri": "at://did:plc:ul5n745uxwymqppvpiwtpoa5/app.bsky.feed.post/3k4wwj4ohze2w"
+        },
+        "parent": {
+          "cid": "bafyreifbmhdutftpctjhtwtxdxuffcujmkecrz2yr3ro4u5ihmjyo44wzu",
+          "uri": "at://did:plc:ul5n745uxwymqppvpiwtpoa5/app.bsky.feed.post/3k4wwj4ohze2w"
+        }
+      },
+      "createdAt": "2023-08-14T20:26:45.612Z"
+    },
+    "cid": "bafyreih44lctj4epbuikkvbgzq2eepidrvylufx3khp63qzhsghwuuv55u"
+  }
+}

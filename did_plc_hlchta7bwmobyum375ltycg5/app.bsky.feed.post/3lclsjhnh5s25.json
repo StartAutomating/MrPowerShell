@@ -1,0 +1,70 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733440728312,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lclsjhnh5s25",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lclsjhnh5s25",
+    "record": {
+      "text": "Looking for some new #history #youtube #contentcreators so I can create a starter pack.\n\nSadly, some of my favorites don't allow chat, so @iammrbeat.bsky.social , as a maker of many great videos, can you help me fill out the list ?\n\n( Tentatively already including you, TigerStar, Cypher, and OSP)",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 29,
+            "byteStart": 21
+          },
+          "features": [
+            {
+              "tag": "history",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 38,
+            "byteStart": 30
+          },
+          "features": [
+            {
+              "tag": "youtube",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 55,
+            "byteStart": 39
+          },
+          "features": [
+            {
+              "tag": "contentcreators",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 160,
+            "byteStart": 138
+          },
+          "features": [
+            {
+              "did": "did:plc:brqifdxbr6zgdb6b22fngoie",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-05T23:18:48.312Z"
+    },
+    "cid": "bafyreibs35py6wqnrdfl54u2vynosj4cvwywriq5yrjwdlkpiby3viw2cy"
+  }
+}

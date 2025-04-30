@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736466233264,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfduajz3w22y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfduajz3w22y",
+    "record": {
+      "text": "I just wish we could use this syntax format more like an actual operator.\n\nOf course we can always pipe to it.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibl3xlzqr7q5qk2iafpypj4eurgnloxdsknuutklftr3ujsinm3yu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lctko2hugc2q"
+        },
+        "parent": {
+          "cid": "bafyreifufzi6sh3pmv2fda7qch7q4tt6fty7i7inm5idzfxq4jlc524za4",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3lfdtbdt3f223"
+        }
+      },
+      "createdAt": "2025-01-09T23:43:53.264Z"
+    },
+    "cid": "bafyreiegk4hendfav7b4k3gxbog5lcw432qi4md5d5lp2xl56n7qbbmt24"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1692652076222,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k5ip4wwlfc2y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k5ip4wwlfc2y",
+    "record": {
+      "text": "Sort of ;-)\n\nI helped build the lang back when, so I'm partial.\n\nThere was some team event where one of the PMs took that joke and ran with it.\n\nThe punchline:\n\nPowerShell isn't a hammer, it's a nail gun.\n\nI love the language because it's flexible and it has democratized development.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibqplplz6qyhvdfaoyxzqesneqva4i2monrd7icxow3haro2fz2u4",
+          "uri": "at://did:plc:vtcm54bmbkuaj32aiqtbvrwu/app.bsky.feed.post/3k5h4r2rfnz2w"
+        },
+        "parent": {
+          "cid": "bafyreihpk54cpftlquyb22susfq6wyaqyeq5e4pil7y7a5hy377igsmdrm",
+          "uri": "at://did:plc:5hm6gmnwxrtuam33otszl6bf/app.bsky.feed.post/3k5iohylsdi2a"
+        }
+      },
+      "createdAt": "2023-08-21T21:07:56.222Z"
+    },
+    "cid": "bafyreifa4ftmkvcq4y5gkav3p6wpjjp4qbhcpmz7ajp662vubdl6u5wmcm"
+  }
+}

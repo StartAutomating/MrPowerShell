@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735282194683,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lebfjgt75s2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lebfjgt75s2w",
+    "record": {
+      "text": "Anytime.\n\nIt might also be that most operators work differently on lists than single items.\n\n~~~PowerShell\n1,2,3 -eq 2\n# -or\n1,2,3 -match 2\n~~~\n\nWill both return the items found in a list ( but not the index 😕 )\n\nPowerShell operators are great, but also a little funky compared to most other langs.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreia7ipixq23exd5evmen5t7p2b6towujlw62thwcgifjk627cooaxi",
+          "uri": "at://did:plc:detidykrtmhixb3mqnqnuxk2/app.bsky.feed.post/3leb63ao3ec2s"
+        },
+        "parent": {
+          "cid": "bafyreicqynwaao2q4622tqakahnivjen2counrsx2jf53fcussxtovbowe",
+          "uri": "at://did:plc:detidykrtmhixb3mqnqnuxk2/app.bsky.feed.post/3lebf3oqcss2w"
+        }
+      },
+      "createdAt": "2024-12-27T06:49:54.683Z"
+    },
+    "cid": "bafyreicospxcjaok7r5fe5lmijwe425qlozy2vivsa6eamsdh3nalsaaqu"
+  }
+}

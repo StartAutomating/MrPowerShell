@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736876030881,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfprvhhvbc24",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfprvhhvbc24",
+    "record": {
+      "text": "Five fun bonus points:\n\n1. You can use a variable instead of a script block or string.\n2. That variable can also contain a [regex], and this works better when doing a switch -regex \n3. The variable need not exist ( yet )\n4. Switches process clauses in order.\n5. Multiple clauses can match.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicygxfpgihyjnzyxbnrrfja5ostiyavm5jcf7ynakchefx6p33xnm",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3lfpe6exnk224"
+        },
+        "parent": {
+          "cid": "bafyreicygxfpgihyjnzyxbnrrfja5ostiyavm5jcf7ynakchefx6p33xnm",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3lfpe6exnk224"
+        }
+      },
+      "createdAt": "2025-01-14T17:33:50.881Z"
+    },
+    "cid": "bafyreidzrbonkh7ywfa2d46vrkh77o35ghweiu7mzbz6nzf6yncalvkuxy"
+  }
+}

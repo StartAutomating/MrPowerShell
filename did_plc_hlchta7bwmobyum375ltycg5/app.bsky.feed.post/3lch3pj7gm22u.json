@@ -1,0 +1,79 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733278796263,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lch3pj7gm22u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lch3pj7gm22u",
+    "record": {
+      "text": "Looks like we need 10 to get a starter pack started.\n\n#share and help us find the #powershell / #infosec #contentcreators.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicbgw76fesga2tzyrobvl3h3unnncgc3ox5suhzs63hhxg6lclubm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcghlh7dzk2u"
+        },
+        "parent": {
+          "cid": "bafyreicbgw76fesga2tzyrobvl3h3unnncgc3ox5suhzs63hhxg6lclubm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcghlh7dzk2u"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 54
+          },
+          "features": [
+            {
+              "tag": "share",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 93,
+            "byteStart": 82
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 104,
+            "byteStart": 96
+          },
+          "features": [
+            {
+              "tag": "infosec",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 121,
+            "byteStart": 105
+          },
+          "features": [
+            {
+              "tag": "contentcreators",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-04T02:19:56.263Z"
+    },
+    "cid": "bafyreib6cghp42xtzp53borlijaarzckxp4nzlt4vesbi4nh2thqiwioli"
+  }
+}

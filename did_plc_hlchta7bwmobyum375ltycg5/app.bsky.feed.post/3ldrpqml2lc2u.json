@@ -1,0 +1,95 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734743417193,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldrpqml2lc2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldrpqml2lc2u",
+    "record": {
+      "text": "I built a wrapper using some metaprogramming last year...\n\nShould do another build of it.\n\ngithub.com/StartAutomat...\n\nI'd also be down to Collab / help.   Playing with #powershell / #atproto / #bluesky if fun!",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/psa",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifwkzvokcjhj2nbojjcqcvnyibztv4uvyzpmzxgkgczeufe3olmlu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 33737
+          },
+          "title": "GitHub - StartAutomating/PSA: PowerShell Announcements (with AtProtocol)",
+          "description": "PowerShell Announcements (with AtProtocol). Contribute to StartAutomating/PSA development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicg6rxszr57jamtik7bb36qrsbxhpj3r7vw77hbnd6r56xfhnkiue",
+          "uri": "at://did:plc:5iasteyttnfjalqkrflctzpy/app.bsky.feed.post/3ldr7cbjgfk22"
+        },
+        "parent": {
+          "cid": "bafyreidufbcfqzmw7g3f3gik7jqru3lgb3wx73l6ln3wrld5d67gtiy3ym",
+          "uri": "at://did:plc:5iasteyttnfjalqkrflctzpy/app.bsky.feed.post/3ldrokr6kpk2c"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 117,
+            "byteStart": 91
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/psa",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 180,
+            "byteStart": 169
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 191,
+            "byteStart": 183
+          },
+          "features": [
+            {
+              "tag": "atproto",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 202,
+            "byteStart": 194
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-21T01:10:17.193Z"
+    },
+    "cid": "bafyreid3fkkurtqsgx35wxdubq262rsqqjntta7lzyjcmv44e5mvjwizw4"
+  }
+}

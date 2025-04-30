@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1694932853279,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k7l3bmcrbb2r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k7l3bmcrbb2r",
+    "record": {
+      "text": "It gets even better!\n\nYou can actually put [ValidateScript] on any variable, too.\n\n[ValidateScript({ return ($_ % 2) })]$odd = 1\n$odd = 2 # errors\n$odd = 3 # ok\n$odd = 4 # errors\n\n#PowerShell is such a beautifully overpowered language.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic277rmzqcwd2r4m3h3l224ungwhxexutrwfw7cnkenvesacwy4mq",
+          "uri": "at://did:plc:hqfdgh6gi625wkmaeprh434k/app.bsky.feed.post/3k7hve4cj7o2d"
+        },
+        "parent": {
+          "cid": "bafyreig2rq7hzkvwr2r2kf3khw5bquctfoeim6xsktvh756xjzw2m7auei",
+          "uri": "at://did:plc:hqfdgh6gi625wkmaeprh434k/app.bsky.feed.post/3k7ksn6apu42f"
+        }
+      },
+      "createdAt": "2023-09-17T06:40:53.279Z"
+    },
+    "cid": "bafyreib54oaidp2xtjgapjgmd7q6lfg3j7jxaihn7liyscvwsv5gypiyfq"
+  }
+}

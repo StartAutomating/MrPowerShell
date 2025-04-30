@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736531634873,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lffr5ntspc2d",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lffr5ntspc2d",
+    "record": {
+      "text": "Friendly reminder that EZOut is basically just a compiler / builder of types and format files.\n\nYou're still making .ps1xml, just with less pain.\n\ngithub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/ezout",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihjmyzbvvyffo43b4mnqawjhtu2bd3i2ofg34j3i433jzvnvf65fy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 27664
+          },
+          "title": "GitHub - StartAutomating/EZOut: EZOut is a PowerShell module to help take the pain out of writing format and types XML",
+          "description": "EZOut is a PowerShell module to help take the pain out of writing format and types XML - StartAutomating/EZOut"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreib7ab6izunjshgwksz257uab5zw3rda75uwil23yl2wc2biu6mrfe",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3lffoguxiau2k"
+        },
+        "parent": {
+          "cid": "bafyreifcfg5on4q7iiokubuh6nlkebelrt5h6fm3leygjwvl742mjdtgze",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3lffqu2citc2k"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 173,
+            "byteStart": 147
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/ezout",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-10T17:53:54.873Z"
+    },
+    "cid": "bafyreieehryex3lk4sn22vaa5a6l2tyarhjphsbvmsoc24w2qwa6dhiflu"
+  }
+}

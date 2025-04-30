@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735940643341,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leukqqflpk2l",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leukqqflpk2l",
+    "record": {
+      "text": "A - Thanks!\n\nB - really not the best person to ask \"how I learned X, Y, Z\"\n\nIn this case, it's ~18 years of PowerShell + ~24 years of some web dev.\n\nBasically I see the whole world as object pipelines of data and try to break / redefine the game.\n\nApologies for the momentary lack of humility.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/KBe_nw4IL2QAAAAC/matrix-code.gif?hh=298&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifjpn2qwsl3njbmo3ijlliq6ju54obzwkdrzie636tvistkkekium"
+            },
+            "mimeType": "image/jpeg",
+            "size": 196570
+          },
+          "title": "a computer screen with a lot of green numbers",
+          "description": "Alt: Vaguely the way I see the world around me.  As streams of data representing life."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic25yombkiuy24bhclat3gidtallszqhfdn6fapgdo5fwxnwpnvs4",
+          "uri": "at://did:plc:oplu4fotqo4spcltuiznhyxq/app.bsky.feed.post/3letuy6dkd22m"
+        },
+        "parent": {
+          "cid": "bafyreiglqol5nfuvpacu5feowh2gqvjib4nyre7mchk2x3qfruhxjhvaju",
+          "uri": "at://did:plc:oplu4fotqo4spcltuiznhyxq/app.bsky.feed.post/3leuhofxue22g"
+        }
+      },
+      "createdAt": "2025-01-03T21:44:03.341Z"
+    },
+    "cid": "bafyreibreje7bpqvr4uovbm36fuyrghrzxbf6qnzodrbwcgje36c5ecyty"
+  }
+}

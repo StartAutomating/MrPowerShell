@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734429873014,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldilqbk2cc2q",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldilqbk2cc2q",
+    "record": {
+      "text": "It's been around way longer than that ;-)\n\n#powershell turned 18 just last month.\n\nIt's been in the box since Windows7 / Server2008R2.\n\nIt's been cross platform since 2016.\n\nHappy scripting / welcome to the party !",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigo72pyyctwap2h53linm7l5oa5zhbnlgou2vob3llob67mnuafoa",
+          "uri": "at://did:plc:qvpibbljpnwpnc4ms5p2y4le/app.bsky.feed.post/3ldijvs3bds25"
+        },
+        "parent": {
+          "cid": "bafyreigo72pyyctwap2h53linm7l5oa5zhbnlgou2vob3llob67mnuafoa",
+          "uri": "at://did:plc:qvpibbljpnwpnc4ms5p2y4le/app.bsky.feed.post/3ldijvs3bds25"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 54,
+            "byteStart": 43
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-17T10:04:33.014Z"
+    },
+    "cid": "bafyreicuqwgcjmrb7bfd4t45trg2q5rckaeni4vndmrc3oeqkxjx7om6vm"
+  }
+}

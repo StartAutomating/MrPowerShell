@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737014280186,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lftsnmbv5s2y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lftsnmbv5s2y",
+    "record": {
+      "text": "Great concept!  Great name!\n\nPlease tell me you've included / leveraged / tested using this with ShowDemo.\n\n( Looks like this would be better for VSCode integrations )\n\ngithub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/ShowDemo",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieh5exhyu4qpmd6h4abgz6wnab3h625cdwwg2ybo2mif3ky6ahi4y"
+            },
+            "mimeType": "image/jpeg",
+            "size": 132508
+          },
+          "title": "GitHub - StartAutomating/ShowDemo: A simple tool to showcase your scripts.",
+          "description": "A simple tool to showcase your scripts. Contribute to StartAutomating/ShowDemo development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihr2ail65klldycojacaopzo3tbf3e2ety5xk2psjcan23s3xg3yq",
+          "uri": "at://did:plc:2s7bigqb4exnpcpx6slu4vvs/app.bsky.feed.post/3lfck5qd3os2h"
+        },
+        "parent": {
+          "cid": "bafyreihr2ail65klldycojacaopzo3tbf3e2ety5xk2psjcan23s3xg3yq",
+          "uri": "at://did:plc:2s7bigqb4exnpcpx6slu4vvs/app.bsky.feed.post/3lfck5qd3os2h"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 195,
+            "byteStart": 169
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/ShowDemo",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-16T07:58:00.186Z"
+    },
+    "cid": "bafyreig2slgazmzhro6txpbfhnsl2atpjbpv5743p5h5krlsll5slxu5bq"
+  }
+}

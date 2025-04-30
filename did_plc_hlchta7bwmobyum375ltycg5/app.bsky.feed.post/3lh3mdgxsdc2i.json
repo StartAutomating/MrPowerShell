@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738381886153,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lh3mdgxsdc2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lh3mdgxsdc2i",
+    "record": {
+      "text": "That will certainly help!\n\nI mean we need to preserve as much data as we can, in as close to #realtime as we can.\n\nA lot of the world relies on government data to function and make decisions.\n\nThe open Internet depends on open access to data.\n\nTo remove that breaks the social contract, and the bank.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifdjpxsffs72dtipuh4bi4gq6xpih3gxlmtcnkpfqar7xcm6fdsn4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lh3iv3lbsc2i"
+        },
+        "parent": {
+          "cid": "bafyreihq5a6gneedohbswvjozvduvhusjt6fdx4fbsvceuhakgflxi3fmy",
+          "uri": "at://did:plc:phcuuddubu7rcz47eer2alnq/app.bsky.feed.post/3lh3lh7at4224"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 102,
+            "byteStart": 93
+          },
+          "features": [
+            {
+              "tag": "realtime",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-01T03:51:26.153Z"
+    },
+    "cid": "bafyreiae37srehck75jufoyadzatz7lhpoeiw26zdkzzdgl5j3lfsnlttq"
+  }
+}

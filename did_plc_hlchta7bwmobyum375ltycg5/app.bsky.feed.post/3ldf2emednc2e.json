@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734308148881,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldf2emednc2e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldf2emednc2e",
+    "record": {
+      "text": "Honestly, I see two big areas of change.  There may be more.\n\n1. Functional techniques finding their way into many languages ( aka many langs becoming more #powershell like )\n2. #containerization of code, running smaller stacks of less stuff in isolation.\n\nThese are both good, IMO.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiahrl2apohj7nehj4jj24lcvmwgdoymn64kret252q3dtrbgeijme",
+          "uri": "at://did:plc:z24nao2xh43csg2fn4v4eggh/app.bsky.feed.post/3ldevdnjnk22r"
+        },
+        "parent": {
+          "cid": "bafyreiahrl2apohj7nehj4jj24lcvmwgdoymn64kret252q3dtrbgeijme",
+          "uri": "at://did:plc:z24nao2xh43csg2fn4v4eggh/app.bsky.feed.post/3ldevdnjnk22r"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 167,
+            "byteStart": 156
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 195,
+            "byteStart": 178
+          },
+          "features": [
+            {
+              "tag": "containerization",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-16T00:15:48.881Z"
+    },
+    "cid": "bafyreidkjpksn7bqgb4i5g4rbrkpmlborn76fpe5sfp6y73vzqjfslq2mi"
+  }
+}

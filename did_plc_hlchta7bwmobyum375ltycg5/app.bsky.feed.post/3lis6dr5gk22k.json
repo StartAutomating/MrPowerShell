@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740256650047,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lis6dr5gk22k",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lis6dr5gk22k",
+    "record": {
+      "text": "Please expand on that a bit... \n\n#PowerShell loves rest.\n\nInvoke-RestMethod works pretty well for almost every curl scenario.\n\nThere are two that are a little tricky:\n\n1. Multipart mime content ( file uploads )\n2. Streaming responses\n\nBoth of these are but a few lines of additional script.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieg2xiizyfc4wsxc4vedtlb2opa7ua5scyp3iq62ukjgsyw6qsgye",
+          "uri": "at://did:plc:nqz2jwzj6r2dxjoupv33rtej/app.bsky.feed.post/3lis57wijos2g"
+        },
+        "parent": {
+          "cid": "bafyreieg2xiizyfc4wsxc4vedtlb2opa7ua5scyp3iq62ukjgsyw6qsgye",
+          "uri": "at://did:plc:nqz2jwzj6r2dxjoupv33rtej/app.bsky.feed.post/3lis57wijos2g"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 44,
+            "byteStart": 33
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-22T20:37:30.047Z"
+    },
+    "cid": "bafyreigfpwrokocjrfdk6nigvwwo5uksseb6uz3xvqx5z65x3hxq5pacva"
+  }
+}

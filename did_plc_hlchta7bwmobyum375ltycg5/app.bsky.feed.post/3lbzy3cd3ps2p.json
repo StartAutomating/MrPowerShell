@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732828220128,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbzy3cd3ps2p",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbzy3cd3ps2p",
+    "record": {
+      "text": "A- PowerShell is awesome, actually\nB - to avoid command line parsing, use an array splat.\n\n$gitargs = @(\"status\", \"filename\")\n\nGit @gitargs\n\nHappy Turkey Day!",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifnanvxut7fnyzpft6wy2fhoksksr4qaaf42o2s357efibf5pb7wm",
+          "uri": "at://did:plc:nixnqhi6u3mgdaaxxny5jpvt/app.bsky.feed.post/3lbzqgew2tk2b"
+        },
+        "parent": {
+          "cid": "bafyreifnanvxut7fnyzpft6wy2fhoksksr4qaaf42o2s357efibf5pb7wm",
+          "uri": "at://did:plc:nixnqhi6u3mgdaaxxny5jpvt/app.bsky.feed.post/3lbzqgew2tk2b"
+        }
+      },
+      "createdAt": "2024-11-28T21:10:20.128Z"
+    },
+    "cid": "bafyreiafq74e7jeddb7rbdtuzlcnuw37lwveiai5dzb7ngpmzlhxtw27ai"
+  }
+}

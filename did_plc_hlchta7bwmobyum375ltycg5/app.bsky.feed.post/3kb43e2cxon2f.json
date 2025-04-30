@@ -1,0 +1,41 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1696616561617,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kb43e2cxon2f",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kb43e2cxon2f",
+    "record": {
+      "text": "How did I miss out Strike Force Five for the whole writer's strike?\n\nstrikeforcefive.com",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://strikeforcefive.com",
+          "title": "Strike Force Five | Podcast",
+          "description": ""
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 88,
+            "byteStart": 69
+          },
+          "features": [
+            {
+              "uri": "https://strikeforcefive.com",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-10-06T18:22:41.617Z"
+    },
+    "cid": "bafyreie2yg3dzmut33nnflym3bq54poneevwpbegm6bgonbftos3my4umm"
+  }
+}

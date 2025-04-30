@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738375239914,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lh3g5empjs2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lh3g5empjs2i",
+    "record": {
+      "text": "Anyone at @github.com able to help support some efforts to archive #gov data before it is scrubbed this weekend?\n\nI've currently set up a repo to synchronize data from the #CDC, and am finding a lot of the files are just a smidge past the 100mb limit.\n\nPlease help if you can.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 21,
+            "byteStart": 10
+          },
+          "features": [
+            {
+              "did": "did:plc:sydgpvanh46u766n536r33oa",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 71,
+            "byteStart": 67
+          },
+          "features": [
+            {
+              "tag": "gov",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 176,
+            "byteStart": 172
+          },
+          "features": [
+            {
+              "tag": "CDC",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-01T02:00:39.914Z"
+    },
+    "cid": "bafyreidektmkntssgzhq5t22ehfxv6qcgl2il7oiobfgoj4e3xnrytxo2q"
+  }
+}

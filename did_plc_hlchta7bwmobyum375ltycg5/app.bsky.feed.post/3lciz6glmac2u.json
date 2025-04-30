@@ -1,0 +1,87 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733344795085,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lciz6glmac2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lciz6glmac2u",
+    "record": {
+      "text": "Cool work!\n\n#svg is amazing, right ?\n\nBtw, I'm sure you might have fun with this #powershell module if you give it a try.\n\ngithub.com/StartAutomat...\n\n( I personally find it fun AF and liberating to write designs in code, and build them in #github workflows )",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/pssvg",
+          "title": "GitHub - StartAutomating/PSSVG: Script SVGs with PowerShell",
+          "description": "Script SVGs with PowerShell. Contribute to StartAutomating/PSSVG development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihugjrckwoilg267kt2nu2rg37f6o3z72zfrtfm47swbi3uee2l7e",
+          "uri": "at://did:plc:3qj7ximphneqeowp2l2fd7gt/app.bsky.feed.post/3lcgpj7m44c2w"
+        },
+        "parent": {
+          "cid": "bafyreihugjrckwoilg267kt2nu2rg37f6o3z72zfrtfm47swbi3uee2l7e",
+          "uri": "at://did:plc:3qj7ximphneqeowp2l2fd7gt/app.bsky.feed.post/3lcgpj7m44c2w"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 16,
+            "byteStart": 12
+          },
+          "features": [
+            {
+              "tag": "svg",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 92,
+            "byteStart": 81
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 149,
+            "byteStart": 123
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/pssvg",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 247,
+            "byteStart": 240
+          },
+          "features": [
+            {
+              "tag": "github",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-04T20:39:55.085Z"
+    },
+    "cid": "bafyreihdjprp2gohsvtbc2zbzuzq56fsgxlfrffjq7v7rshojrxqh2zem4"
+  }
+}

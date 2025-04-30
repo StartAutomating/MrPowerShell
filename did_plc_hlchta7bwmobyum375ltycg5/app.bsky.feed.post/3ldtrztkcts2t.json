@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734814593459,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldtrztkcts2t",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldtrztkcts2t",
+    "record": {
+      "text": "I agree and see different catalysts:\n\n#linux was / is cheap (often free) to license, and to customize down to the baremetal.\n\nThis creates a structural incentive for manufacturers to use it.\n\n#opensource will always have a space, because it's cheaper.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiedctb4lw33sg235ctjdcun5tgcebmllzrugtw5kzxzgt4dsaxs7i",
+          "uri": "at://did:plc:qg4tr7ro4opzbfu72tmamztg/app.bsky.feed.post/3ldtk3am7322m"
+        },
+        "parent": {
+          "cid": "bafyreihf5tlgwbpl7onsbeisnbmu23l7jts5wszbih2y623bfptychdo44",
+          "uri": "at://did:plc:qg4tr7ro4opzbfu72tmamztg/app.bsky.feed.post/3ldtroo4d7s2v"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 44,
+            "byteStart": 38
+          },
+          "features": [
+            {
+              "tag": "linux",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 203,
+            "byteStart": 192
+          },
+          "features": [
+            {
+              "tag": "opensource",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-21T20:56:33.459Z"
+    },
+    "cid": "bafyreifbbeqdcqwufpkttoihoafpmvhi2rs7rfkbdsbo6yo6bhdmxz46sq"
+  }
+}

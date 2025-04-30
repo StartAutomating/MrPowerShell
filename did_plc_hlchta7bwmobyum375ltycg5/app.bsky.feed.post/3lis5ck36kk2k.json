@@ -1,0 +1,61 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740255535334,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lis5ck36kk2k",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lis5ck36kk2k",
+    "record": {
+      "text": "Why you'd never want to join the #xmen ( and should feel really sorry for Jubilee )\n\nyoutu.be/9OEtqI75lEQ?...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://youtu.be/9OEtqI75lEQ?si=pY_SmKt_mbsq2xB4",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidp4moac2hsy3i6g2tjuyvhgu3yhnxopuqiciotmtr3tpomoustmm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 60262
+          },
+          "title": "X-Men But It's Realistic",
+          "description": "YouTube video by UndeadHumor"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 38,
+            "byteStart": 33
+          },
+          "features": [
+            {
+              "tag": "xmen",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 85
+          },
+          "features": [
+            {
+              "uri": "https://youtu.be/9OEtqI75lEQ?si=pY_SmKt_mbsq2xB4",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-22T20:18:55.334Z"
+    },
+    "cid": "bafyreieacutt346tl3n7fix7xpahjdspoeisxpmza7ff6aynpnendmm63a"
+  }
+}

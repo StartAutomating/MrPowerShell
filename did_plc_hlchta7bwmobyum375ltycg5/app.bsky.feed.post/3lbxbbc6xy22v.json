@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732735005785,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbxbbc6xy22v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbxbbc6xy22v",
+    "record": {
+      "text": "And that's how you end up with a new boss.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihrpvxxbamxoymoc32fcugq25qmiutyffj3m272ysny2rltp62bim",
+          "uri": "at://did:plc:emvn7fbj2plrm44p53dekons/app.bsky.feed.post/3lbx5jpzqsp2a"
+        },
+        "parent": {
+          "cid": "bafyreibqsojephxomk7a2e6qsi4fek3il5knpjirfxgjdi4ivn4ddls5ee",
+          "uri": "at://did:plc:iinbm4zvku5ilo5chvul5ojy/app.bsky.feed.post/3lbxavpyzo22x"
+        }
+      },
+      "createdAt": "2024-11-27T19:16:45.785Z"
+    },
+    "cid": "bafyreiadtrbheygiqrmqgbdduxxhcz6huz6s5f5vxp76okcgjwhnlkc3ai"
+  }
+}

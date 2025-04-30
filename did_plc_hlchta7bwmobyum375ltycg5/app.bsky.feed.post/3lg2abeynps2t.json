@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737235060707,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lg2abeynps2t",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lg2abeynps2t",
+    "record": {
+      "text": "aww yeah!\n\nLexicon / RESTful discovery over DNS txt records should be super-fast\n\n(of course, many of us will have to learn some DNS)",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/f8_x0XMUHJUAAAAC/kronk-disney.gif?hh=294&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreig2dwupiw3yvjfvsmsfyxxb7fruspqn65rr6xbeyctwg5xxya2zey"
+            },
+            "mimeType": "image/jpeg",
+            "size": 481795
+          },
+          "title": "a cartoon man is smiling and says `` it 's all coming together . ''",
+          "description": "Alt: Even Kronk gets how much faster it would be to look up Lexicons as DNS records."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigalv5xagzbc7uoogdfhzsm4kyy24q6fwo43zqpo2sw675yutpmt4",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lfzyppqafc2n"
+        },
+        "parent": {
+          "cid": "bafyreigalv5xagzbc7uoogdfhzsm4kyy24q6fwo43zqpo2sw675yutpmt4",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lfzyppqafc2n"
+        }
+      },
+      "createdAt": "2025-01-18T21:17:40.707Z"
+    },
+    "cid": "bafyreifnaaiwn6vluilp24fdkfvgxnulfs7crgi2svo3bcj3viyca2cq6e"
+  }
+}

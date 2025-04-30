@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736538936622,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lffxxbdixk2c",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lffxxbdixk2c",
+    "record": {
+      "text": "Alas no, because so far #Twitch doesn't have an account on #BlueSky\n\nIf anyone you know works for Twitch, please have them fix this.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigroztkw2olfhg4b4yphqmwsuserrutlbncs5bpmdj5ihiwtf2nme",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lffuvhah6s2y"
+        },
+        "parent": {
+          "cid": "bafyreictiphyql6irz7oqc3iflegnypg7dj25yaz2gqmedeb2giq37u5ky",
+          "uri": "at://did:plc:phcuuddubu7rcz47eer2alnq/app.bsky.feed.post/3lffw6zf3kc2p"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 31,
+            "byteStart": 24
+          },
+          "features": [
+            {
+              "tag": "Twitch",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 67,
+            "byteStart": 59
+          },
+          "features": [
+            {
+              "tag": "BlueSky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-10T19:55:36.622Z"
+    },
+    "cid": "bafyreida7sfyxchn7nkjnc6lwdbb2e4nzwjiezb2rsvfvfs5shgn7ewzkm"
+  }
+}

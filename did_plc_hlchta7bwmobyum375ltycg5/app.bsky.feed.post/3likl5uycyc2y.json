@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1739995533480,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3likl5uycyc2y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3likl5uycyc2y",
+    "record": {
+      "text": "I'm trying to set the community feed as an upstream source in an AzureDevOps artifact feed.\n\nAnd, if I used the raw API, I'm getting \"the upstream source is not allowed\"\n\nIt might be Microsoft's problem.\n\nKnow anyone left on Azure DevOps?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidtpms63mmklcffax2ipuhltuzxuhfdzpfnnuht4cujtul2pvy6uu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3likkdwbdpk2y"
+        },
+        "parent": {
+          "cid": "bafyreidc7a73mytipi64pwaad7rha4hdctk34prqaimgedmbfwq3x6jy24",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3likkqtjsdc2m"
+        }
+      },
+      "createdAt": "2025-02-19T20:05:33.48Z"
+    },
+    "cid": "bafyreic6ebnhn2upd6j2okb537bq7yqqq237eraapcyul2325473t562ee"
+  }
+}

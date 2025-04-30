@@ -1,0 +1,83 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744683761990,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmszfy3yfk2m",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmszfy3yfk2m",
+    "record": {
+      "text": "There's also a #terminal palette, and it's available in #CSS.\n\n4bitcss.com/Konsolas/",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://4bitcss.com/Konsolas/",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiehpssae7kulbooyujfbhlwwwjjrfcgf7sxliiqfkb6bjbqlsqtvy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 11733
+          },
+          "title": "/Konsolas/Konsolas.css",
+          "description": "Konsolas color scheme"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ks3kayvo34vwbp44syznxlnkdp5n5vzz27yueix7folz7a73u4",
+          "uri": "at://did:plc:k4snhh6sfpeuqdaxlpstu5mc/app.bsky.feed.post/3lmswy5pdec27"
+        },
+        "parent": {
+          "cid": "bafyreig2ks3kayvo34vwbp44syznxlnkdp5n5vzz27yueix7folz7a73u4",
+          "uri": "at://did:plc:k4snhh6sfpeuqdaxlpstu5mc/app.bsky.feed.post/3lmswy5pdec27"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 24,
+            "byteStart": 15
+          },
+          "features": [
+            {
+              "tag": "terminal",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 56
+          },
+          "features": [
+            {
+              "tag": "CSS",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 84,
+            "byteStart": 63
+          },
+          "features": [
+            {
+              "uri": "https://4bitcss.com/Konsolas/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-15T02:22:41.99Z"
+    },
+    "cid": "bafyreibnxqqbkrtrgdubf7fhijukux6z75cr7tm2cq2wpiq4j34v3o5che"
+  }
+}

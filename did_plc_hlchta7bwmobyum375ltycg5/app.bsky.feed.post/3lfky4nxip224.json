@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736710916325,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfky4nxip224",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfky4nxip224",
+    "record": {
+      "text": "It's cool, I love me a long read.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibj5u3rmwm3plz7t22edyrk6oyypsreootyy4iz5tqtsehdkjbkly",
+          "uri": "at://did:plc:ywbm3iywnhzep3ckt6efhoh7/app.bsky.feed.post/3lfil7bjbok2f"
+        },
+        "parent": {
+          "cid": "bafyreigt5ukztglx34s3uiwpo5q4rw2djvaojiiatwjaf3ezj4jsr6fz3q",
+          "uri": "at://did:plc:kun6w63jltrlu6kycajdn2gx/app.bsky.feed.post/3lfkxyul2ws2d"
+        }
+      },
+      "createdAt": "2025-01-12T19:41:56.325Z"
+    },
+    "cid": "bafyreigmna7iux73kcf6dh4znodyoo2jwlnt6srd4vu55dw4i3fa5zrvse"
+  }
+}

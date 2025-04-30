@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735507946369,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lehxrefvzc2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lehxrefvzc2s",
+    "record": {
+      "text": "Thanks.  This will be helpful in scripting the whole thing.\n\nWas jokingly serious.  Being able to script this out offers a lot of community value.\n\n( Speaking as a language nerd looking for more ways to integrate C#/PowerShell with other langs)",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicgucniiodscsvp2wol4fv7oemcuqqh3xocdsp6r2y3k4azwl6r5e",
+          "uri": "at://did:plc:qdgvaz44myqcvi7fungk4rab/app.bsky.feed.post/3lehnoam34s2f"
+        },
+        "parent": {
+          "cid": "bafyreietggzkdmyua32wmqhvwp6ngi3rfugt7btfvwvkn6jaxl5mvfip7q",
+          "uri": "at://did:plc:qdgvaz44myqcvi7fungk4rab/app.bsky.feed.post/3lehusmygac2z"
+        }
+      },
+      "createdAt": "2024-12-29T21:32:26.369Z"
+    },
+    "cid": "bafyreibre474nd3hjfg6dfur3pjnzuymxsfrv4e23yu5eqeu7ibt6ojuku"
+  }
+}

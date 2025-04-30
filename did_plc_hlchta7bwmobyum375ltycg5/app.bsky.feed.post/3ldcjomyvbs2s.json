@@ -1,0 +1,127 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734221512011,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldcjomyvbs2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldcjomyvbs2s",
+    "record": {
+      "text": "@microsoft.com @support.bsky.team \n\nA bit more digging.\n\nIt appears that the attacker is actually posting an aka.ms link.\n\nNot sure how, but it certainly seems that someone is hosting an exploit on aka.ms\n\nDo not import the .zip file in this link in #powershell.  \n\nIt will #hack you.  \n\n#infosec",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "",
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigf6oe5jciimycdtawray6i77kpnajljpkyejtvxernodc54z6q3i"
+              },
+              "mimeType": "image/jpeg",
+              "size": 504084
+            },
+            "aspectRatio": {
+              "width": 1235,
+              "height": 998
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "did": "did:plc:fivojrvylkim4nuo3pfqcf3k",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 33,
+            "byteStart": 15
+          },
+          "features": [
+            {
+              "did": "did:plc:oc6vwdlmk2kqyida5i74d3p5",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 115,
+            "byteStart": 109
+          },
+          "features": [
+            {
+              "uri": "https://aka.ms",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 204,
+            "byteStart": 198
+          },
+          "features": [
+            {
+              "uri": "https://aka.ms",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 261,
+            "byteStart": 250
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 279,
+            "byteStart": 274
+          },
+          "features": [
+            {
+              "tag": "hack",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 296,
+            "byteStart": 288
+          },
+          "features": [
+            {
+              "tag": "infosec",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-15T00:11:52.011Z"
+    },
+    "cid": "bafyreihzhlaouumdgbvc25ywa4mbnshbv7ewdkmqpii4ypahzc52vbsuia"
+  }
+}

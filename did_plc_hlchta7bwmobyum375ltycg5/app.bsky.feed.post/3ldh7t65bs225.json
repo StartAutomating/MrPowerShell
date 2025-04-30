@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734382725473,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldh7t65bs225",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldh7t65bs225",
+    "record": {
+      "text": "Yeah, blue team could use it for this purpose.\n\nRed team can always make a fake DNS server ( though getting the computer to use it is another problem )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic3eiaxnsxaavr5p3i3fo5qvc4npkcw6yuao73qvrq3544iho3m24",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldethmsp3k2m"
+        },
+        "parent": {
+          "cid": "bafyreiagyymc6yirnjlccuvzzxiursjtsxijemtnz5fhkg3s76e5dmxm7e",
+          "uri": "at://did:plc:6hzkmut7lvvtbb42w2cj5spw/app.bsky.feed.post/3ldh7k2llyc2b"
+        }
+      },
+      "createdAt": "2024-12-16T20:58:45.473Z"
+    },
+    "cid": "bafyreidasktsxzrttrqo5ueeczcdecwvwcwmj6ojr6dvewn4kacxrcnjoy"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734675056334,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldpq3cl77k2f",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldpq3cl77k2f",
+    "record": {
+      "text": "Another new version of the #PowerShelll #WebSocket module is out!\n\nNow with decoration!\n\nAdd properties and methods to any object returned from a websocket!\n\ngithub.com/PowerShellWe...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/PowerShellWeb/WebSocket",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihpjhzzhxe5u6n4ged267rgf2bqilfedo2uy2ijljt2yqmwzdbkru"
+            },
+            "mimeType": "image/jpeg",
+            "size": 255943
+          },
+          "title": "GitHub - PowerShellWeb/WebSocket: Work with WebSockets in PowerShell",
+          "description": "Work with WebSockets in PowerShell. Contribute to PowerShellWeb/WebSocket development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 39,
+            "byteStart": 27
+          },
+          "features": [
+            {
+              "tag": "PowerShelll",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 50,
+            "byteStart": 40
+          },
+          "features": [
+            {
+              "tag": "WebSocket",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 184,
+            "byteStart": 158
+          },
+          "features": [
+            {
+              "uri": "https://github.com/PowerShellWeb/WebSocket",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-20T06:10:56.334Z"
+    },
+    "cid": "bafyreibhb4nyfvubvtr6pkn4eklhtgdxm2tnzandl3zgmpx4eg4mxasdkq"
+  }
+}

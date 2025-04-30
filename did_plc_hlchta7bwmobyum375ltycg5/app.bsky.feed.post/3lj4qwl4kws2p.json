@@ -1,0 +1,67 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740620205999,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lj4qwl4kws2p",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lj4qwl4kws2p",
+    "record": {
+      "text": "Install #PowerShell Core and #VSCode.\n\nGet comfy scripting as you prepare to make #MacOS variations of commands you'll miss.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreideb56rnudgyqfcblrg56wq4npxhu64zuah66izuezwu2szd5wk7e",
+          "uri": "at://did:plc:62ojh4udmufbgizyabx24ypy/app.bsky.feed.post/3lj4p654gck2t"
+        },
+        "parent": {
+          "cid": "bafyreideb56rnudgyqfcblrg56wq4npxhu64zuah66izuezwu2szd5wk7e",
+          "uri": "at://did:plc:62ojh4udmufbgizyabx24ypy/app.bsky.feed.post/3lj4p654gck2t"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 19,
+            "byteStart": 8
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 29
+          },
+          "features": [
+            {
+              "tag": "VSCode",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 88,
+            "byteStart": 82
+          },
+          "features": [
+            {
+              "tag": "MacOS",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-27T01:36:45.999Z"
+    },
+    "cid": "bafyreihv4ynykueobuxwam5xwlrxy6jtgabwztvzq2sbym6hz2wxg6lyim"
+  }
+}

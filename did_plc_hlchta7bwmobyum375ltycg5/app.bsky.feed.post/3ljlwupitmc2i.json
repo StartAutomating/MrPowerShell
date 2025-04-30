@@ -1,0 +1,65 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741141981971,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ljlwupitmc2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ljlwupitmc2i",
+    "record": {
+      "text": "This is getting real weird real fast.\n\n#sotu\n\nWhat did #Green say?\n\nWhat signs have you all seen?",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "",
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiaohsn4a3lqi2omgwgh2qmhbhofj5fyeq4ikku7csqqtr5y7sajgy"
+              },
+              "mimeType": "image/jpeg",
+              "size": 703914
+            },
+            "aspectRatio": {
+              "width": 2000,
+              "height": 1505
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 44,
+            "byteStart": 39
+          },
+          "features": [
+            {
+              "tag": "sotu",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 61,
+            "byteStart": 55
+          },
+          "features": [
+            {
+              "tag": "Green",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-05T02:33:01.971Z"
+    },
+    "cid": "bafyreibr6bp5xyivrne4skyaanlaluzfmdnfbu6mc25xw74fh6fx4srh44"
+  }
+}

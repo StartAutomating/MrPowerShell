@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738708864797,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhf4u643f22p",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhf4u643f22p",
+    "record": {
+      "text": "Yep, css selectors can be case insensitive.\n\nProbably several orders of magnitude slower than GetElementById though.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieh4cnd6why6qp6gdovwr3q6i2xyxcfu6ihna3d5z6hvhae35jk3i",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3lhewypixvs2b"
+        },
+        "parent": {
+          "cid": "bafyreibmgpywdskmnym2anpbtpmcjkcm2rpemnfdkgoytcgz3oabjxdnoq",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3lheyoqyd7k2b"
+        }
+      },
+      "createdAt": "2025-02-04T22:41:04.797Z"
+    },
+    "cid": "bafyreif5ykfs5zk6ccl5l6327qpmpfzrcl7grfuq6m5oyk4y2oktx6vtdu"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1730345518962,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3l7rpv5pojc2a",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3l7rpv5pojc2a",
+    "record": {
+      "text": "Drop by in two weeks for the Pacific #PowerShell User Group:\n\nThis time Stephen Valdinger will be talking about AutomatedLab!  \n\nwww.meetup.com/pacific-powe...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/events/304301183/",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreietdiopkji2kubtwrrvcl2xbn56mvzzsllxtnh5lzhef4bell3fvm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 372269
+          },
+          "title": "Extending AutomatedLab: An Adventure in Custom Roles (by Stephen Valdinger), Wed, Nov 13, 2024, 6:00 PM   | Meetup",
+          "description": "AutomatedLab is a fantastic PowerShell module that allows you to very quickly spin up a variety of\npre-built Roles in either Hyper-V or Azure. Great for quickly trying some"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 48,
+            "byteStart": 37
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 159,
+            "byteStart": 129
+          },
+          "features": [
+            {
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/304301183/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-10-31T03:31:58.962Z"
+    },
+    "cid": "bafyreifk3pa7v6z6xezwm4grjhqqazuov2fbnselthij63zxl5uynceaw4"
+  }
+}

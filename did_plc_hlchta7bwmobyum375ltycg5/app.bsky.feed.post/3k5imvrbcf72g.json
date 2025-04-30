@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1692649687971,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k5imvrbcf72g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k5imvrbcf72g",
+    "record": {
+      "text": "That sounds terrible!\n\nAlso, I feel like this should be a posted side effect of overly complex / poorly written docs:\n\n\"Warning! May cause existential angst.\"\n\"Warning! May cause an epistemological downward spiral.\"",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibqplplz6qyhvdfaoyxzqesneqva4i2monrd7icxow3haro2fz2u4",
+          "uri": "at://did:plc:vtcm54bmbkuaj32aiqtbvrwu/app.bsky.feed.post/3k5h4r2rfnz2w"
+        },
+        "parent": {
+          "cid": "bafyreic4h4qqld5vzif3cuqpjmtipx4d5j6jlekpllklxjulyayoivaiei",
+          "uri": "at://did:plc:5hm6gmnwxrtuam33otszl6bf/app.bsky.feed.post/3k5imlzm3fu2m"
+        }
+      },
+      "createdAt": "2023-08-21T20:28:07.971Z"
+    },
+    "cid": "bafyreihtozpu2xzzkaxdefubpmy2zr3cnculbxqmqg24wqznp6pwl2xwke"
+  }
+}

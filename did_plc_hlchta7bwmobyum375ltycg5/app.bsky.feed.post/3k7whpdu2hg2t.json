@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1695324148585,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k7whpdu2hg2t",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k7whpdu2hg2t",
+    "record": {
+      "text": "Congrats!\n\nWhat are you hoping to do, now that you've hit the c-suite?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicqpbuc7vwujld2x4nmlvabrjemzsiogg4w2c5qrinhvt4a3x2g5i",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3k7whbb6lzq2g"
+        },
+        "parent": {
+          "cid": "bafyreicqpbuc7vwujld2x4nmlvabrjemzsiogg4w2c5qrinhvt4a3x2g5i",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3k7whbb6lzq2g"
+        }
+      },
+      "createdAt": "2023-09-21T19:22:28.585Z"
+    },
+    "cid": "bafyreihpcm4xgwk254ep5bmu2bj7b3ddxi62jka26fmyyl6z7x2lvte4f4"
+  }
+}

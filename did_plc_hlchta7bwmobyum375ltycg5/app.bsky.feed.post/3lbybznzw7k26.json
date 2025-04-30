@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732770183246,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbybznzw7k26",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbybznzw7k26",
+    "record": {
+      "text": "I'm sure someone did, and could you also consider adding #svg ?  100x cooler for 1/1000th of the bandwidth.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibpebzlr2tqf7tvhxpbzcb46id4z4qoloh2gxrysyifhcjdukevs4",
+          "uri": "at://did:plc:p2cp5gopk7mgjegy6wadk3ep/app.bsky.feed.post/3lbxqyj6hzs2g"
+        },
+        "parent": {
+          "cid": "bafyreibpebzlr2tqf7tvhxpbzcb46id4z4qoloh2gxrysyifhcjdukevs4",
+          "uri": "at://did:plc:p2cp5gopk7mgjegy6wadk3ep/app.bsky.feed.post/3lbxqyj6hzs2g"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 61,
+            "byteStart": 57
+          },
+          "features": [
+            {
+              "tag": "svg",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-28T05:03:03.246Z"
+    },
+    "cid": "bafyreidkp4menwfwzke6rqtgbkcd426lm5pdr3c2bvy43nelzkwzncuauu"
+  }
+}

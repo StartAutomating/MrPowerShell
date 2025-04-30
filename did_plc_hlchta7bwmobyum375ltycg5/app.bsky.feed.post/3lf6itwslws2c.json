@@ -1,0 +1,61 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736282200621,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lf6itwslws2c",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lf6itwslws2c",
+    "record": {
+      "text": "If you're new here today, welcome to #bluesky:\n\nThe only site left in social media that won't #bendtheknee",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/ZK0zArGEcq4AAAAC/kneel-bend-the-knee.gif?hh=250&ww=444",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreib2zgmofcm6e3savfkweu2gx37u6msjq4lenyuk7fgqapsc5trnci"
+            },
+            "mimeType": "image/jpeg",
+            "size": 79160
+          },
+          "title": "a man in a fur coat is kneeling down in the dark .",
+          "description": "Alt: The Wildlings of BlueSky will not bend the knee."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 37
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 106,
+            "byteStart": 94
+          },
+          "features": [
+            {
+              "tag": "bendtheknee",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-07T20:36:40.621Z"
+    },
+    "cid": "bafyreig6sj5fovttk7yhra7nosi23ultprygwulak7tc7i3mbzaklf6hqi"
+  }
+}

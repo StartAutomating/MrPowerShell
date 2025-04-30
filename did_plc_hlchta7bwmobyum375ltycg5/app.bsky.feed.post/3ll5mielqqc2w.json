@@ -1,0 +1,89 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742848817420,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ll5mielqqc2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ll5mielqqc2w",
+    "record": {
+      "text": "It's #MVPSummit week, hot on the heels of #AtmosphereConf\n\nWhat better way to celebrate and maximize our FOMO than making yet another @graze.social feed!\n\nNever miss another #MVPBuzz post again!\n\nbsky.app/profile/did:...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreibpzqxquhdhkexpx4spipinvmgp5vtil4fwg5u5suby4fxijmopfq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.generator/msmvpfeed"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 5
+          },
+          "features": [
+            {
+              "tag": "MVPSummit",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 57,
+            "byteStart": 42
+          },
+          "features": [
+            {
+              "tag": "AtmosphereConf",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 147,
+            "byteStart": 134
+          },
+          "features": [
+            {
+              "did": "did:plc:i6y3jdklpvkjvynvsrnqfdoq",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 182,
+            "byteStart": 174
+          },
+          "features": [
+            {
+              "tag": "MVPBuzz",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 220,
+            "byteStart": 196
+          },
+          "features": [
+            {
+              "uri": "https://bsky.app/profile/did:plc:hlchta7bwmobyum375ltycg5/feed/msmvpfeed",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-24T20:40:17.42Z"
+    },
+    "cid": "bafyreia5r7yh27fz3ui4ahpddhxlleb766gz276ltlnwgkhkwiq2caaqpu"
+  }
+}

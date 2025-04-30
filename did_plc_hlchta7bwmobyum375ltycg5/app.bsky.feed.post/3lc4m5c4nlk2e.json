@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732918481342,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lc4m5c4nlk2e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lc4m5c4nlk2e",
+    "record": {
+      "text": "We honor you, Rebecca Black.  We honor you, autotune.\n\nyoutu.be/kfVsfOSbJY0?...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://youtu.be/kfVsfOSbJY0?si=aFssbTuqvXK8hIik",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieys3m7xdmtsg3vtpxq7bpx4rfk6cxv6zns5426gwtdgjxukjnff4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 45852
+          },
+          "title": "Rebecca Black - Friday",
+          "description": "YouTube video by rebecca"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifa5dggly2uzwrvcyisfzja6h44kvtyp6j27ljlxy7lu3ay5aqzqi",
+          "uri": "at://did:plc:cuowqu3bimpxo4plxd4pg3eh/app.bsky.feed.post/3lc3sauo6us2i"
+        },
+        "parent": {
+          "cid": "bafyreifa5dggly2uzwrvcyisfzja6h44kvtyp6j27ljlxy7lu3ay5aqzqi",
+          "uri": "at://did:plc:cuowqu3bimpxo4plxd4pg3eh/app.bsky.feed.post/3lc3sauo6us2i"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 79,
+            "byteStart": 55
+          },
+          "features": [
+            {
+              "uri": "https://youtu.be/kfVsfOSbJY0?si=aFssbTuqvXK8hIik",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-29T22:14:41.342Z"
+    },
+    "cid": "bafyreiaigzz4knv7k75fuybhnuv34hg2qwocsbtiwmth7vergvi4yswnb4"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734423345266,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldifnq6yfc2q",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldifnq6yfc2q",
+    "record": {
+      "text": "Fair.\n\nMy two cents is that anyone doing those two steps with an encoded command is worth checking in on.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifqg5mbjh2ttzr5ixkq7isx2l5yfr32kgdlsc7npoehhbuqvzr5um",
+          "uri": "at://did:plc:6ldydf4au7qmo7hpsuvctklf/app.bsky.feed.post/3ldi5t32qqk2e"
+        },
+        "parent": {
+          "cid": "bafyreih7lmadhthcwvwj3rdxcvb2kxu2ztdhj7mjmaf6opgwttjdkhcniq",
+          "uri": "at://did:plc:6ldydf4au7qmo7hpsuvctklf/app.bsky.feed.post/3ldicziw6i22c"
+        }
+      },
+      "createdAt": "2024-12-17T08:15:45.266Z"
+    },
+    "cid": "bafyreiarxhlekk5vkrotpnqqs2m4hzmdqtyrgmpkf5nilglrkbqtvgxbxi"
+  }
+}

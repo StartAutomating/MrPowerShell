@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735941889992,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leulvvcces2l",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leulvvcces2l",
+    "record": {
+      "text": "Said it before and will say it again.\n\nThere's a reason #powershell had a patent on non-terminating errors.\n\nThey're very useful.\n\n( And very alien )\n\nLuckily, I'm 99% sure that patent has expired.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic25yombkiuy24bhclat3gidtallszqhfdn6fapgdo5fwxnwpnvs4",
+          "uri": "at://did:plc:oplu4fotqo4spcltuiznhyxq/app.bsky.feed.post/3letuy6dkd22m"
+        },
+        "parent": {
+          "cid": "bafyreigknpgqdn3a5nsmwvcoas4mel36htxgbyvodgmz5tlof6umki6m7e",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3leujosnzrc2c"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 67,
+            "byteStart": 56
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-03T22:04:49.992Z"
+    },
+    "cid": "bafyreickag6bsm5t3s6xmfu3rxnrlsxxv5n3aj26hsdw2frsn7nevdakti"
+  }
+}

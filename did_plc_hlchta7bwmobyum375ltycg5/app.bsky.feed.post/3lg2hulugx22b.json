@@ -1,0 +1,79 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737243221637,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lg2hulugx22b",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lg2hulugx22b",
+    "record": {
+      "text": "#SVG is more #OP than people realize.\n\nWait until I get to #SVG / #CSS features 😉.  Filters are truly 🌶️ 🔥.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigwlmgbxgydcze2gudjxska3mr3pgbrz36lgiyxzdxcnueudpggdq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lg27gz5pxt2c"
+        },
+        "parent": {
+          "cid": "bafyreibgi6jijucjiaec2cvvv7e43rqgksj6b6evi4gdefipzvooysttly",
+          "uri": "at://did:plc:wbhlpje6zzrwycqhq2itvcvk/app.bsky.feed.post/3lg2hmyft5c2q"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 4,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "SVG",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 16,
+            "byteStart": 13
+          },
+          "features": [
+            {
+              "tag": "OP",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 63,
+            "byteStart": 59
+          },
+          "features": [
+            {
+              "tag": "SVG",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 70,
+            "byteStart": 66
+          },
+          "features": [
+            {
+              "tag": "CSS",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-18T23:33:41.637Z"
+    },
+    "cid": "bafyreih6fgbepjrgvadjp3fb7y6bvictkhn3bov6vsbywh2u4kkv4nihle"
+  }
+}

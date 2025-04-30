@@ -1,0 +1,98 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740266106973,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lish5ly3p226",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lish5ly3p226",
+    "record": {
+      "text": "Just saying:\n\n@adamconover.net has some good points about #musk #zuck  and #masculinity.\n\nyoutu.be/ol4X6oc-tz8?...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://youtu.be/ol4X6oc-tz8?si=4GmjlI3HSJtYgcHi",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreic5t6g555uufzomdp4qwpiu4zxscfptak5jqemogrwai2fc73kzi4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 53246
+          },
+          "title": "Elon and Zuck are INSECURE Men",
+          "description": "YouTube video by Adam Conover"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 30,
+            "byteStart": 14
+          },
+          "features": [
+            {
+              "did": "did:plc:xqjezhgnh4ettmmcmbrbhdur",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 63,
+            "byteStart": 58
+          },
+          "features": [
+            {
+              "tag": "musk",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 64
+          },
+          "features": [
+            {
+              "tag": "zuck",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 87,
+            "byteStart": 75
+          },
+          "features": [
+            {
+              "tag": "masculinity",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 114,
+            "byteStart": 90
+          },
+          "features": [
+            {
+              "uri": "https://youtu.be/ol4X6oc-tz8?si=4GmjlI3HSJtYgcHi",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-22T23:15:06.973Z"
+    },
+    "cid": "bafyreielzz5op4hgjjswha5r4rpymxztpr3irhp5tdgt4fimn7eqpbnfhe"
+  }
+}

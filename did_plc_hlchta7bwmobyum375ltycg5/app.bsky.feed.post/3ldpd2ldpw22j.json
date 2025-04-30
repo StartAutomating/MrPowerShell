@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734661073328,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldpd2ldpw22j",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldpd2ldpw22j",
+    "record": {
+      "text": "Lol sometimes I do that.\n\nThis time I wanted the results to maintain order, too, I just wanted it all to run faster end to end.\n\nSide note, #GMSA migrations are annoying.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreid3tiunqucbcpajvc4xcxmb3ggbsyjp4vn5hxdp4d2lkj56ir2x7a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldpcp6bwjs2j"
+        },
+        "parent": {
+          "cid": "bafyreibdwyybh4avsehk2fy4m4syedwg23xfhkppsphpr2q3vu4k3bjl2y",
+          "uri": "at://did:plc:6keq43p6to4navzaxwkt3mtl/app.bsky.feed.post/3ldpcyjsres2t"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 145,
+            "byteStart": 140
+          },
+          "features": [
+            {
+              "tag": "GMSA",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-20T02:17:53.328Z"
+    },
+    "cid": "bafyreid73kmbug3bmiyrstsmmhw32b5htdpdyqglt7342jujx6ava5mcva"
+  }
+}

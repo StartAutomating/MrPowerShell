@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734300733822,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldethmsp3k2m",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldethmsp3k2m",
+    "record": {
+      "text": "I don't know why I didn't realize this #powershell #lifehack sooner:\n\n[Net.Dns]::Resolve(\"HasAnyonePurchasedThisDomainYet.com\")\n\nis _way_ quicker than asking a domain registration service.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 50,
+            "byteStart": 39
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 51
+          },
+          "features": [
+            {
+              "tag": "lifehack",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-15T22:12:13.822Z"
+    },
+    "cid": "bafyreic3eiaxnsxaavr5p3i3fo5qvc4npkcw6yuao73qvrq3544iho3m24"
+  }
+}

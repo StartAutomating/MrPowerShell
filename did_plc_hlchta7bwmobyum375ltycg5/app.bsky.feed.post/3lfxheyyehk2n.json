@@ -1,0 +1,69 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737139619310,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfxheyyehk2n",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfxheyyehk2n",
+    "record": {
+      "text": "#powershell / #pwsh quick #tip / #trick :\n\nNeed to cache a variable?\n\nJust use `$script:` scope\n\nIf you set a variable in the script scope, it will be available in subsequent runs of the command.\n\nBonus points: in a module, the script scope is shared.\n\nThis is great for say, caching connections.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 19,
+            "byteStart": 14
+          },
+          "features": [
+            {
+              "tag": "pwsh",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 30,
+            "byteStart": 26
+          },
+          "features": [
+            {
+              "tag": "tip",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 39,
+            "byteStart": 33
+          },
+          "features": [
+            {
+              "tag": "trick",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-17T18:46:59.31Z"
+    },
+    "cid": "bafyreigsmhwbozbel6rofivtbmy2s4ozd2pp262ver2zhmgj3ttzdriy4m"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1739591070314,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3li6shwuda22b",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3li6shwuda22b",
+    "record": {
+      "text": "Lol #PowerShell is a programming language.\n\n( No worries, it's a common misconception )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihoezpz4dvokvrodhd33y6s424dtdwzcycs4snpao2f43dpfia7uq",
+          "uri": "at://did:plc:yb5ttsw5gztn5mmkaezut6d2/app.bsky.feed.post/3li6fm6t6nne2"
+        },
+        "parent": {
+          "cid": "bafyreig2a5btu4235d3hxuhoqdgga7cuw2k5lmhvz7fuwcv5awlge3jaeu",
+          "uri": "at://did:plc:yb5ttsw5gztn5mmkaezut6d2/app.bsky.feed.post/3li6fmvsjuih2"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-15T03:44:30.314Z"
+    },
+    "cid": "bafyreie4ot2rmz2dym2wrzhtvv7bdyu2sjn7bxdh7ey73n4hhmsktpig4y"
+  }
+}

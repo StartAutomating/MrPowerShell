@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732392315462,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbnc4dacfk2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbnc4dacfk2o",
+    "record": {
+      "text": "2 out of 3 ain't bad:\n\nGitHub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://GitHub.com/StartAutomating/PowerArcade",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicxy6w3xds5knme5huufpeflcmrvpj7rp4xa3wm2j6ee3h6q7tnfq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 84707
+          },
+          "title": "GitHub - StartAutomating/PowerArcade: A Retro Arcade Game Console in PowerShell",
+          "description": "A Retro Arcade Game Console in PowerShell. Contribute to StartAutomating/PowerArcade development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig5ropk7skf7l6xgbforrx5yipxha6erz5injzv6whgiebiu63rcy",
+          "uri": "at://did:plc:myafcsodwmvjutvzacurio27/app.bsky.feed.post/3lbmr6fkogc2c"
+        },
+        "parent": {
+          "cid": "bafyreig5ropk7skf7l6xgbforrx5yipxha6erz5injzv6whgiebiu63rcy",
+          "uri": "at://did:plc:myafcsodwmvjutvzacurio27/app.bsky.feed.post/3lbmr6fkogc2c"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 23
+          },
+          "features": [
+            {
+              "uri": "https://GitHub.com/StartAutomating/PowerArcade",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-23T20:05:15.462Z"
+    },
+    "cid": "bafyreiacc7hqckg262s6uzfbv34qpv7varkbipik76mloumpc4ll5x4bs4"
+  }
+}

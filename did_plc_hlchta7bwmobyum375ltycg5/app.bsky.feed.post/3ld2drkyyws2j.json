@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733940290224,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld2drkyyws2j",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ld2drkyyws2j",
+    "record": {
+      "text": "Very interested.\n\nI know a few colleagues that would love this as well.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiabrrxbtbnkoj7evjjjyz7m3iujtiku44klez4soxahdjf45i37f4",
+          "uri": "at://did:plc:rlrrzgcyzronxjjnzorjmdeb/app.bsky.feed.post/3lciy2n4kd22p"
+        },
+        "parent": {
+          "cid": "bafyreiabrrxbtbnkoj7evjjjyz7m3iujtiku44klez4soxahdjf45i37f4",
+          "uri": "at://did:plc:rlrrzgcyzronxjjnzorjmdeb/app.bsky.feed.post/3lciy2n4kd22p"
+        }
+      },
+      "createdAt": "2024-12-11T18:04:50.224Z"
+    },
+    "cid": "bafyreihugrz4xawwf26q2yjvrzkwdprf7qt7jn372tx2x2xupbfmawoypi"
+  }
+}

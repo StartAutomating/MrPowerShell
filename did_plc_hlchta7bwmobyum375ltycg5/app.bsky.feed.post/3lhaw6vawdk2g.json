@@ -1,0 +1,61 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738564269449,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhaw6vawdk2g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhaw6vawdk2g",
+    "record": {
+      "text": "Somehow made time for a #movie this weekend. Finally watched Glass Onion.\n\nI recommend it to everyone, as a small dose of satisfaction and sanity.\n\nIt's on #netflix",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/8HkXaPy048oAAAAC/%D0%BD%D0%BE%D1%80%D1%82%D0%BE%D0%BD-%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D1%8F%D0%BD%D0%BD%D0%B0%D1%8F.gif?hh=264&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreietgogd4t4fnfeblqj6tb6wbyij46s4gfc4bc4zlqbbbfyqytvf6a"
+            },
+            "mimeType": "image/jpeg",
+            "size": 147404
+          },
+          "title": "a man is holding his head in front of a burning building",
+          "description": "Alt: Glass Onion makes a mockery of Elon Musk in a million amazing ways."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 30,
+            "byteStart": 24
+          },
+          "features": [
+            {
+              "tag": "movie",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 164,
+            "byteStart": 156
+          },
+          "features": [
+            {
+              "tag": "netflix",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-03T06:31:09.449Z"
+    },
+    "cid": "bafyreihaapozzqmqwjajjbnwdr2p35vubtbhno3xbya7kyezy7eru6j27m"
+  }
+}

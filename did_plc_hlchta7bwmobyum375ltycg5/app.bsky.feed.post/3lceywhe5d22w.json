@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733207088500,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lceywhe5d22w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lceywhe5d22w",
+    "record": {
+      "text": "FYI it's an alias to InvokeItem.\n\nFYI to #linux people, PowerShell can have as short and awkward command names and aliases as you'd like.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreid4swi3s6qudjg3sd46atnwvpqndhmeqnnwqodz47p2xhmrkhdceq",
+          "uri": "at://did:plc:rkjxbatkiros6f7pwtgsir54/app.bsky.feed.post/3lcefopkmts2s"
+        },
+        "parent": {
+          "cid": "bafyreid4swi3s6qudjg3sd46atnwvpqndhmeqnnwqodz47p2xhmrkhdceq",
+          "uri": "at://did:plc:rkjxbatkiros6f7pwtgsir54/app.bsky.feed.post/3lcefopkmts2s"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 47,
+            "byteStart": 41
+          },
+          "features": [
+            {
+              "tag": "linux",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-03T06:24:48.5Z"
+    },
+    "cid": "bafyreiackm4hmv6aqzwd4rnenlnwnks3lwf5ajuicrl23d7u6iqv72z64u"
+  }
+}

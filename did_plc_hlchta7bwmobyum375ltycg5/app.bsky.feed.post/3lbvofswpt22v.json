@@ -1,0 +1,120 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732680396724,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbvofswpt22v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbvofswpt22v",
+    "record": {
+      "text": "#realtime #bluesky but only the #emoji #video\n\nMade with #powershell and the bluesky #websocket\n\nPlease repost and share the #fun !",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.video",
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreibwpz32zl6xsksqmt7yn3kv6lx2i5ys4zidbcpnmyfn6hgzxzutn4"
+          },
+          "mimeType": "video/mp4",
+          "size": 7658230
+        },
+        "aspectRatio": {
+          "width": 1920,
+          "height": 1032
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 9,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "realtime",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 18,
+            "byteStart": 10
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 38,
+            "byteStart": 32
+          },
+          "features": [
+            {
+              "tag": "emoji",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 39
+          },
+          "features": [
+            {
+              "tag": "video",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 68,
+            "byteStart": 57
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 95,
+            "byteStart": 85
+          },
+          "features": [
+            {
+              "tag": "websocket",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 129,
+            "byteStart": 125
+          },
+          "features": [
+            {
+              "tag": "fun",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-27T04:06:36.724Z"
+    },
+    "cid": "bafyreigza5iqwkvz4yr64jqowuqr2cjwylq6dnx4fu3c3mbvptvnomxs4a"
+  }
+}

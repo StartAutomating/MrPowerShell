@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1696543445522,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kazxaxqvus2h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kazxaxqvus2h",
+    "record": {
+      "text": "Yeah that's hilarious 😂!\n\nAnd more ironic than my \"Trust Me, I Know PowerShell\" shirt.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic5ygwy27i6diqiuenw6gnnx5bkq56zzwukpi76eohd645osqb6qq",
+          "uri": "at://did:plc:r46fx3u4by4osi3fd2ddcurh/app.bsky.feed.post/3kasftc7e4p2f"
+        },
+        "parent": {
+          "cid": "bafyreic5ygwy27i6diqiuenw6gnnx5bkq56zzwukpi76eohd645osqb6qq",
+          "uri": "at://did:plc:r46fx3u4by4osi3fd2ddcurh/app.bsky.feed.post/3kasftc7e4p2f"
+        }
+      },
+      "createdAt": "2023-10-05T22:04:05.522Z"
+    },
+    "cid": "bafyreibfah2uohd775y6blzcz6x3kku7bes5qvu4cphrqvnle4bk4xckvq"
+  }
+}

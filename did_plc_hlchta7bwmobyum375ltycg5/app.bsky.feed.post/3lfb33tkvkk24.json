@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736370512490,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfb33tkvkk24",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfb33tkvkk24",
+    "record": {
+      "text": "💯 please yes",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/LrtiVywAR9EAAAAC/schitts-creek-talking.gif?hh=494&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreig33lcig2dban6vi6zkhfd76malwxo3e67bljpuyea2azckxz67xe"
+            },
+            "mimeType": "image/jpeg",
+            "size": 122676
+          },
+          "title": "Schitts Creek Talking GIF",
+          "description": "Alt: David Rose would very much like you to stop insulting people who ask for information."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiaave2bgbqqnekgtssu3ayqxacwg2rdtfbur5gu3ie4xy5f3c5mpu",
+          "uri": "at://did:plc:b5zqbglkkao24znnakkp6fym/app.bsky.feed.post/3lfazvtjh3k2c"
+        },
+        "parent": {
+          "cid": "bafyreiaave2bgbqqnekgtssu3ayqxacwg2rdtfbur5gu3ie4xy5f3c5mpu",
+          "uri": "at://did:plc:b5zqbglkkao24znnakkp6fym/app.bsky.feed.post/3lfazvtjh3k2c"
+        }
+      },
+      "createdAt": "2025-01-08T21:08:32.49Z"
+    },
+    "cid": "bafyreig6oh7yhrnxpribfpjzd6xfe7cdcw3qjwwsx65w4nzhujrlfq6fp4"
+  }
+}

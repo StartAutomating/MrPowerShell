@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736381863682,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfbfo4vryk2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfbfo4vryk2i",
+    "record": {
+      "text": "Mainly by reminding myself that I don't like the closed ecosystem of #apple .\n\nAlso, reminding myself: Better than a #WindowsPhone.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigkc772ve5a2fdlegdfttyfswsuqdma2fxcojovy7akn7pemtq4au",
+          "uri": "at://did:plc:p2cp5gopk7mgjegy6wadk3ep/app.bsky.feed.post/3lfawfcuuik2i"
+        },
+        "parent": {
+          "cid": "bafyreigkc772ve5a2fdlegdfttyfswsuqdma2fxcojovy7akn7pemtq4au",
+          "uri": "at://did:plc:p2cp5gopk7mgjegy6wadk3ep/app.bsky.feed.post/3lfawfcuuik2i"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 75,
+            "byteStart": 69
+          },
+          "features": [
+            {
+              "tag": "apple",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 130,
+            "byteStart": 117
+          },
+          "features": [
+            {
+              "tag": "WindowsPhone",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-09T00:17:43.682Z"
+    },
+    "cid": "bafyreihi4levav6iff7mfnm3x4eampekvibuapjtl5djh65wxyvc3zt53e"
+  }
+}

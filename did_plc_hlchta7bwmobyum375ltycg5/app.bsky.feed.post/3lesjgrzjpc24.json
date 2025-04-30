@@ -1,0 +1,97 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735870516281,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lesjgrzjpc24",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lesjgrzjpc24",
+    "record": {
+      "text": "Sometimes I feel like trying to share #powershell or #svg or #dotnet content gets this sort of reaction.\n\nAnyone else feel this way trying to share #nerd #knowledge ?",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/BWLUfObDa_kAAAAC/regina-george-mean-girls.gif?hh=281&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifv6csuywfgszllzww4xecbj5izewzzseygcktqvr4wzpxzzka5ii"
+            },
+            "mimeType": "image/jpeg",
+            "size": 83111
+          },
+          "title": "a woman wearing a santa hat has the words stop trying to make \" fetch \" happen below her",
+          "description": "Alt: A Mean Girl tells her \"friend\" that \"fetch\" is never going to catch on."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 38
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 57,
+            "byteStart": 53
+          },
+          "features": [
+            {
+              "tag": "svg",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 68,
+            "byteStart": 61
+          },
+          "features": [
+            {
+              "tag": "dotnet",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 153,
+            "byteStart": 148
+          },
+          "features": [
+            {
+              "tag": "nerd",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 164,
+            "byteStart": 154
+          },
+          "features": [
+            {
+              "tag": "knowledge",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-03T02:15:16.281Z"
+    },
+    "cid": "bafyreifac2oo34jzq4uatlpurp44lgaxrxpwovaorbstoi6zlnzrnpwkgq"
+  }
+}

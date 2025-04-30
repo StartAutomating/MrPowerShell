@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732395002032,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbnemfdvw22o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbnemfdvw22o",
+    "record": {
+      "text": "I call the first three the \"Trinity of discoverability\"\n\nBtw, Posh has custom formatters for reflection that make .GetType() overpowered\n\nHttps://GitHub.com/StartAutomating/Posh",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreig4ag2j3ejwnprvsszomwemq3by366yfyq3rbcwo2wrhajci6z7qi",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3lbndvdfcwd2j"
+        }
+      },
+      "createdAt": "2024-11-23T20:50:02.032Z"
+    },
+    "cid": "bafyreid4qg3bqniszjehz4uv6zcpawnv7jytm5xs2if2knxwg744v5jzxu"
+  }
+}

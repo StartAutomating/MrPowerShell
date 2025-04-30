@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735415050509,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lefbatzcos2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lefbatzcos2x",
+    "record": {
+      "text": "The intro was an officemate who was using #powershell to make the build process for #windows more sane/ performant.\n\nI got \"PowerShell in Action\", got hooked, and joined the team as V1 came out.\n\nFirst *big* project was wrapping all of WPF at @jsnover.com's request.\n\nAnd writing the resource kit.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifd5zaad5dhupni7ug6so3wvv3i63ai247zqednnlvfdfoxs4dst4",
+          "uri": "at://did:plc:rlwd5iajr3btl5e7gyvfwk67/app.bsky.feed.post/3laoi4psotc2n"
+        },
+        "parent": {
+          "cid": "bafyreifd5zaad5dhupni7ug6so3wvv3i63ai247zqednnlvfdfoxs4dst4",
+          "uri": "at://did:plc:rlwd5iajr3btl5e7gyvfwk67/app.bsky.feed.post/3laoi4psotc2n"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 53,
+            "byteStart": 42
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 92,
+            "byteStart": 84
+          },
+          "features": [
+            {
+              "tag": "windows",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 255,
+            "byteStart": 243
+          },
+          "features": [
+            {
+              "did": "did:plc:inbagvkt2ildrbxdhmexmkjl",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-28T19:44:10.509Z"
+    },
+    "cid": "bafyreia3yz43vhpn2wpvpyrv2r3gntcha7uit4djwc4qgqkallsitewalm"
+  }
+}

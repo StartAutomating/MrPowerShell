@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735419226320,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leff5cev622x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leff5cev622x",
+    "record": {
+      "text": "Two notes here:\n\n1. Events aren't interrupts ( though they can be implemented this way )\n\n2. Saying \"it does not add any value\" is an overly broad statement, especially when one does not deeply know the language.\n\n#powershell has more language features that most people know.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiggxfuosyuusdslta4bz6wzz73g2ptvzcin2ipvuptawl4wknricy",
+          "uri": "at://did:plc:bpmtx4nv56gasrya66xwxigw/app.bsky.feed.post/3leewjn7pxs2e"
+        },
+        "parent": {
+          "cid": "bafyreicqngwk3ok7gp55ugehn3xmnct7kazs5vxlvj7rvziwbimxqljtcm",
+          "uri": "at://did:plc:bpmtx4nv56gasrya66xwxigw/app.bsky.feed.post/3lefe4vxdcs2a"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 225,
+            "byteStart": 214
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-28T20:53:46.32Z"
+    },
+    "cid": "bafyreibgys47biobe7pqgbrrlf3rvhrol2euzlxard5sm3o72ahgrh5ymq"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733250163738,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcgb2744fs2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcgb2744fs2u",
+    "record": {
+      "text": "This reminds me to ask / offer...\n\nI've been playing with #powershell and #bluesky for a bit now.\n\nIt seems you're also playing with bluesky.\n\nWant to make some cool stuff?\n\nDM me and let's talk.\n\n( Offer stands open for all )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidigiowv3gacrkm7vdb5kq4jk4w4jmrz456viogra3u3ei4xbqsoq",
+          "uri": "at://did:plc:t3bmctdc2rutnfarqt2zipt6/app.bsky.feed.post/3lcf2cty5zk2c"
+        },
+        "parent": {
+          "cid": "bafyreicjo3mwlfcai62bj6nldrdumelxx7cgohbrzumqvflf4hsoxqkrcy",
+          "uri": "at://did:plc:m3p5j3o66yghzlkbwnbgmcsi/app.bsky.feed.post/3lcfa7ga7bc26"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 58
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 82,
+            "byteStart": 74
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-03T18:22:43.738Z"
+    },
+    "cid": "bafyreifu34yanpf3dfd3izv6nhb76h35jivdvk2vnkpwmuvfeqta3wg2gm"
+  }
+}

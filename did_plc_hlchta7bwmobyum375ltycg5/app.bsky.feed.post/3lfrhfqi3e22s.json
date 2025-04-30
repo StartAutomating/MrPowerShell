@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736933485512,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfrhfqi3e22s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfrhfqi3e22s",
+    "record": {
+      "text": "Btw the gotcha here is that we do want to match some non boundary characters, like, #.  Hopefully that's as easy as a character set [] 🤞.\n\nAnd yeah, Regex and PowerShell hurt my brain at times, too.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihiutacb4zwlomho47evhplwf6slybdlokv2xq226qsyrh3tvn6my",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfo55hqoq22o"
+        },
+        "parent": {
+          "cid": "bafyreibqasg2imcwzpyhnnprfkyt2dav6guqogbljkknkbp563l6kt3vxe",
+          "uri": "at://did:plc:f3n4qddslsxatj3c4r26dbw3/app.bsky.feed.post/3lfrgho24722o"
+        }
+      },
+      "createdAt": "2025-01-15T09:31:25.512Z"
+    },
+    "cid": "bafyreib2zpqzzg3xmvdkdx4mygwo6fseo6p4w6egqe2f7gywfbfeufoqre"
+  }
+}

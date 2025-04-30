@@ -1,0 +1,61 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738951184514,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhm6ju6yyk2g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhm6ju6yyk2g",
+    "record": {
+      "text": "Share what #StarTrek episode / meme best describes the #news.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/wMOhF-0rJ1oAAAAC/picard-four-lights.gif?hh=240&ww=320",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreic6a2nn2yjlxzfr7zr3ks7nusdme2lptohu6ru4qanxb3enelbhcy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 36716
+          },
+          "title": "a close up of a bald man 's face with three light bulbs around his neck .",
+          "description": "Alt: Picard tells a fascist Cardassian torturer that there are four lights.  The torturer gaslights Picard by saying that there are five lights.\n\nFrom \"Chain of Command\" ( Season 6 )"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 20,
+            "byteStart": 11
+          },
+          "features": [
+            {
+              "tag": "StarTrek",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 55
+          },
+          "features": [
+            {
+              "tag": "news",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-07T17:59:44.514Z"
+    },
+    "cid": "bafyreibsw7lggvgnpztaaemq4defr7eb5vn63unjitg2iwxkbkarkfhdqq"
+  }
+}

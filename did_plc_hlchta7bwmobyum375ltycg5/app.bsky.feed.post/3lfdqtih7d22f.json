@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736462574197,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfdqtih7d22f",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfdqtih7d22f",
+    "record": {
+      "text": "Just putting my mantra on this out there:\n\n\"Don't worry: Be Alias Happy\"",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/XkZsGQq4sw0AAAAC/happy-nodepression.gif?hh=301&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifg5ypdzkxfrwwbo7oohpjpntrlxhkl4chrv3j6skp7pollltxb4a"
+            },
+            "mimeType": "image/jpeg",
+            "size": 133386
+          },
+          "title": "a man and woman are dancing in front of a fireplace with the words \" do n't worry be happy \" behind them",
+          "description": "Alt: Don't Worry: Be Alias Happy."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibl3xlzqr7q5qk2iafpypj4eurgnloxdsknuutklftr3ujsinm3yu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lctko2hugc2q"
+        },
+        "parent": {
+          "cid": "bafyreibs6e7limufylf67artkppajaz5ncnrfjfcs7tcglqabenvqszrz4",
+          "uri": "at://did:plc:inbagvkt2ildrbxdhmexmkjl/app.bsky.feed.post/3lcus3coxmc2t"
+        }
+      },
+      "createdAt": "2025-01-09T22:42:54.197Z"
+    },
+    "cid": "bafyreibm2ppmgwtzpo3u7oxkfnq2odyoxn4sydrcsnwycurbmokwudoha4"
+  }
+}

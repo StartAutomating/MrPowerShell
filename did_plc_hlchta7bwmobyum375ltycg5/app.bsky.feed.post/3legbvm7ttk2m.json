@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735450106718,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3legbvm7ttk2m",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3legbvm7ttk2m",
+    "record": {
+      "text": "Further context here:\n\nI used to write realtime video mixing applications (~2000-2006).\n\n\"Back in my day\", even with DirectX or OpenGL, performance was _really_ hard.\n\nHardware support was harder.\n\nWhen your app is putting on a show for thousands, it can't _ever_ crash.\n\nDirectX _was_ the only way.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibagzp5slkeladvwxv62gx4chp2dn6ysma7k4wpla5jcv2bi6cbqm",
+          "uri": "at://did:plc:3p7m65ikus2al6tiizhbmwqq/app.bsky.feed.post/3ledv3onjzk22"
+        },
+        "parent": {
+          "cid": "bafyreid5njrrup2egktc3jwl2b6f3efld2amjhwl32fglzp53duadj4e4u",
+          "uri": "at://did:plc:3p7m65ikus2al6tiizhbmwqq/app.bsky.feed.post/3legbcsqpn22k"
+        }
+      },
+      "createdAt": "2024-12-29T05:28:26.718Z"
+    },
+    "cid": "bafyreift4xs3bzihllwlcvfyeqdpjvhwfckyz6nc3zqmve2rizfu7xdgvm"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737654883317,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgghb2zxcc2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgghb2zxcc2v",
+    "record": {
+      "text": "twitch.tv/MrPowerShell\n\nI stream user groups once a month, and really want to do more pair programming / Q&A streams.\n\n( Basically never stream games )",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://twitch.tv/MrPowerShell",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicbikqjq3edrcxkk7dqkgiffagz6aerbh2gipmjyx7f74cghsuz4e"
+            },
+            "mimeType": "image/jpeg",
+            "size": 11235
+          },
+          "title": "Twitch",
+          "description": "Twitch is the world"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreievfeeusgytyskmgnp5oodwuck5wh4gfxjay7a6hpyz2kj4sy5inq",
+          "uri": "at://did:plc:ybtyn5l4nljys46ijqtpldaw/app.bsky.feed.post/3lgg4ywvwfc2l"
+        },
+        "parent": {
+          "cid": "bafyreievfeeusgytyskmgnp5oodwuck5wh4gfxjay7a6hpyz2kj4sy5inq",
+          "uri": "at://did:plc:ybtyn5l4nljys46ijqtpldaw/app.bsky.feed.post/3lgg4ywvwfc2l"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 22,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "uri": "https://twitch.tv/MrPowerShell",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-23T17:54:43.317Z"
+    },
+    "cid": "bafyreieb2r4w7tw4hliobpy54v4fcdc6afrem7m7na4fc3yync3vrucz6a"
+  }
+}

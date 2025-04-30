@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735450698455,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3legchak7ys2m",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3legchak7ys2m",
+    "record": {
+      "text": "\"The Road Not Taken?\"\n\nMostly kidding.  Love pointing out that that particular Robert Frost poem is literally a sarcastic rebuttal to a friend.\n\nen.wikipedia.org/wiki/The_Roa...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://en.wikipedia.org/wiki/The_Road_Not_Taken#Background",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibfr2liekfh2t5degl6go3v52t66z6m5fellmbk7lqsp47bgjcfv4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 534044
+          },
+          "title": "The Road Not Taken - Wikipedia",
+          "description": ""
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifeb2ueb62eicpx4dxaqefjqo33oqzh5tzl7i5fmljbw6y6u3lct4",
+          "uri": "at://did:plc:3p7m65ikus2al6tiizhbmwqq/app.bsky.feed.post/3lee2avaaw222"
+        },
+        "parent": {
+          "cid": "bafyreifeb2ueb62eicpx4dxaqefjqo33oqzh5tzl7i5fmljbw6y6u3lct4",
+          "uri": "at://did:plc:3p7m65ikus2al6tiizhbmwqq/app.bsky.feed.post/3lee2avaaw222"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 177,
+            "byteStart": 145
+          },
+          "features": [
+            {
+              "uri": "https://en.wikipedia.org/wiki/The_Road_Not_Taken#Background",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-29T05:38:18.455Z"
+    },
+    "cid": "bafyreie2vjdamjozsa3pdmgr6w2vyy3aqnwkkyzbp4yblqccbiiclkajwy"
+  }
+}

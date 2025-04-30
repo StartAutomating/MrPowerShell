@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735262598636,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leatbglbjs2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leatbglbjs2w",
+    "record": {
+      "text": "Another cool one is 4bitcss ( may rebrand this )\n\n4bitcss.com",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://4bitcss.com/",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiehpssae7kulbooyujfbhlwwwjjrfcgf7sxliiqfkb6bjbqlsqtvy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 11733
+          },
+          "title": "/Konsolas/Konsolas.css",
+          "description": "Konsolas color scheme"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihiv6hlqsbd4filvgxcicrlr3c3gl4l52zcaosbfxoizf4dyalkga",
+          "uri": "at://did:plc:phlblenkhkaapezf2d6urvlg/app.bsky.feed.post/3leap4vzcl227"
+        },
+        "parent": {
+          "cid": "bafyreie4vn7462d3xlhpt3eohlwiaozkzj4cg62y7zfoqpfwcbfenscj6y",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leasqe4al22w"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 61,
+            "byteStart": 50
+          },
+          "features": [
+            {
+              "uri": "https://4bitcss.com/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-27T01:23:18.636Z"
+    },
+    "cid": "bafyreigh4254fknsuanyxundxue5dbndn4aopyfydyrufmkgzfuoogvgmi"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738000009534,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgqion2bks2h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgqion2bks2h",
+    "record": {
+      "text": "Enjoy it!\n\n#PowerShell is a tasty language made by a bunch of wonderful weirdos.\n\nAnd it's #opensouce and #crossplatform.\n\nEat up!",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/ewXY2TQ2AZ0AAAAC/lord-of-the-rings-looks-like.gif?hh=205&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiel3e7xf2a7n6pffstmspjwkcu4xmdujubvzfpya6te6gf42fhiui"
+            },
+            "mimeType": "image/jpeg",
+            "size": 98457
+          },
+          "title": "a picture of a monster with the words looks like meat 's back on the menu boys below it",
+          "description": "Alt: Even Uruk-Hai know that PowerShell can be a tasty treat."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiarualvpqlg2cem42xj7vob2ndjk3k7aowbcrclwsggezuolnyz7e",
+          "uri": "at://did:plc:n5iha2xo75on2ro5qjddzuwp/app.bsky.feed.post/3lgq3r3y6f224"
+        },
+        "parent": {
+          "cid": "bafyreidjak3nbc4tvqaaur7v5uge6weiqn2jylewsnvqa5fvtr2ozpzada",
+          "uri": "at://did:plc:oplu4fotqo4spcltuiznhyxq/app.bsky.feed.post/3lgqb3rb3yk2v"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 22,
+            "byteStart": 11
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 101,
+            "byteStart": 91
+          },
+          "features": [
+            {
+              "tag": "opensouce",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 120,
+            "byteStart": 106
+          },
+          "features": [
+            {
+              "tag": "crossplatform",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-27T17:46:49.534Z"
+    },
+    "cid": "bafyreiayljttxfk7p37hb7owlgkmd5s5dz77vkjstuiyngmik7wd7i5lmm"
+  }
+}

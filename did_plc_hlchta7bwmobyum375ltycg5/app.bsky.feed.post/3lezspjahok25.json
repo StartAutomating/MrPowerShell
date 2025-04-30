@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736120990906,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lezspjahok25",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lezspjahok25",
+    "record": {
+      "text": "I could take a quick crack at a DSL.\n\nAre you hoping for a little language that just caches objects ?\n\nDo those objects need to be safe ?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiay6sjahkuvhqrmi7fh5fjhffpmy2mjiirsk56jepgpeaqjrvilhm",
+          "uri": "at://did:plc:i4bfh2tyxihe2ksplmtcoopk/app.bsky.feed.post/3lezodxilu22z"
+        },
+        "parent": {
+          "cid": "bafyreiay6sjahkuvhqrmi7fh5fjhffpmy2mjiirsk56jepgpeaqjrvilhm",
+          "uri": "at://did:plc:i4bfh2tyxihe2ksplmtcoopk/app.bsky.feed.post/3lezodxilu22z"
+        }
+      },
+      "createdAt": "2025-01-05T23:49:50.906Z"
+    },
+    "cid": "bafyreifwqxdhexbfmjw3edcqzustepg3uc6t2mfpniyw56wmybfxb76aai"
+  }
+}

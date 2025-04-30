@@ -1,0 +1,108 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732690506188,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbvxt433b22v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbvxt433b22v",
+    "record": {
+      "text": "More #realtime #bluesky #websocket #emoji #video update:\n\nBeen running this for a couple of hours, and #powershell is humming along using almost no memory.\n\n😉😇🥳\n\nReply with an emoji and add it to the pile !",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.video",
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreibeu57eqoyy34enxn374ro3w5mk5uionekemrhw4fnkxb3gfutlzm"
+          },
+          "mimeType": "video/mp4",
+          "size": 4446286
+        },
+        "aspectRatio": {
+          "width": 1914,
+          "height": 1028
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 5
+          },
+          "features": [
+            {
+              "tag": "realtime",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 23,
+            "byteStart": 15
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 24
+          },
+          "features": [
+            {
+              "tag": "websocket",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 41,
+            "byteStart": 35
+          },
+          "features": [
+            {
+              "tag": "emoji",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 48,
+            "byteStart": 42
+          },
+          "features": [
+            {
+              "tag": "video",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 114,
+            "byteStart": 103
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-27T06:55:06.188Z"
+    },
+    "cid": "bafyreiczyh6mnmpivmfnkd4s4f355lkr65x225kfmok2fs75f5ys5aaoom"
+  }
+}

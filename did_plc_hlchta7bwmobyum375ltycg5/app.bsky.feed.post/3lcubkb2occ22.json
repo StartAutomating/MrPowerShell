@@ -1,0 +1,73 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733731738997,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcubkb2occ22",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcubkb2occ22",
+    "record": {
+      "text": "#StarWars #SkeletonCrew is wants to be #Goonies so hard it's somewhere between sweet and silly.\n\nLike there's shot-for-shot homages everywhere.  I'm good with that.\n\nMusic echoing 80s adventure, cool, cool.\n\nMaking Chunk an actual Elephant, not cool.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/L7LYL84hNO0AAAAC/skeleton-crew-neel.gif?hh=498&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiaivbitcafhu34au2e3pydu5ahjubm4ogrrgn53ockgingqjglumm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 170430
+          },
+          "title": "a person wearing an elephant mask and a kepler patch",
+          "description": "Alt: Skeleton Crew Goonies so hard"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 9,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "StarWars",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 23,
+            "byteStart": 10
+          },
+          "features": [
+            {
+              "tag": "SkeletonCrew",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 47,
+            "byteStart": 39
+          },
+          "features": [
+            {
+              "tag": "Goonies",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-09T08:08:58.997Z"
+    },
+    "cid": "bafyreihnpwlep4nkostmswclpoorzc6kxuoczuebr242pc6xky4oo47cr4"
+  }
+}

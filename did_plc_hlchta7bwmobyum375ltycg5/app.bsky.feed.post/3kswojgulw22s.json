@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1716222178951,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kswojgulw22s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kswojgulw22s",
+    "record": {
+      "text": "I could barely sleep last night... too much anticipation for #MSBuild #MVPBuzz",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 61
+          },
+          "features": [
+            {
+              "tag": "MSBuild",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 78,
+            "byteStart": 70
+          },
+          "features": [
+            {
+              "tag": "MVPBuzz",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-05-20T16:22:58.951Z"
+    },
+    "cid": "bafyreibewvbribqmve6uvlu6piphpwqekiwaqe3ghy6ecnsnz2ot4ogy64"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732419785848,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbo3oyzwas2a",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbo3oyzwas2a",
+    "record": {
+      "text": "Yeah, me too.\n\nPowerShell providers are cool, but not naturally quick.\n\nShoulda listed them on the \"unique to PowerShell\" post I put out earlier though... \n\nI or someone else should try to write a faster filesystem provider ( and more providers overall ).\n\nSo much to do, so little time.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreigvjqnv5q4bnq7hbr4hsnq3iguhqfon7mcw5nxp62vxuqjq64dtqa",
+          "uri": "at://did:plc:slgcx4a5qjmg5tlin2gmpalg/app.bsky.feed.post/3lbnwh6e66d2y"
+        }
+      },
+      "createdAt": "2024-11-24T03:43:05.848Z"
+    },
+    "cid": "bafyreiasdveingvv5o26zmkxfe6wor53ldxx7acxlikwqalvgfk27ytmdq"
+  }
+}

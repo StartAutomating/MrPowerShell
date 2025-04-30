@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742522663753,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lku4qa7oe223",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lku4qa7oe223",
+    "record": {
+      "text": "Nifty!  Didn't know @exeldro.com had joined us on BlueSky!\n\nThey make some amazing OBS plugins, including obs-shaderfilter: github.com/exeldro/obs-...\n\nobs-powershell writes a function for each of the shaders included in this project that will automatically wire up the shader on an input.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/exeldro/obs-shaderfilter",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicn4i3ewclsa6igsvfc3r5z7l2vs7zvbavxn3bpptiq2kywmx4yje"
+            },
+            "mimeType": "image/jpeg",
+            "size": 300454
+          },
+          "title": "GitHub - exeldro/obs-shaderfilter: OBS Studio filter for applying an arbitrary shader to a source.",
+          "description": "OBS Studio filter for applying an arbitrary shader to a source. - exeldro/obs-shaderfilter"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreictselvfn3eoehkgr4xroamtx7h7acmuovqp3orok75ej6r7nun24",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lku2eb6flk23"
+        },
+        "parent": {
+          "cid": "bafyreia5xaeczjkxcnbjln7iksxjamlaa7aor6qgasn6agej6yerzvvzra",
+          "uri": "at://did:plc:tquex5jebhrhngiufeei7qmf/app.bsky.feed.post/3lku4k5a7bc2f"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 20
+          },
+          "features": [
+            {
+              "did": "did:plc:g4iyovne2lj5j4dwrlogar4s",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 150,
+            "byteStart": 124
+          },
+          "features": [
+            {
+              "uri": "https://github.com/exeldro/obs-shaderfilter",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-21T02:04:23.753Z"
+    },
+    "cid": "bafyreieipskuqccir5taxrwt5x52nxoo3indjdl2isbwbac6ptolloyvm4"
+  }
+}

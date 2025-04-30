@@ -1,0 +1,49 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1743117729435,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3llfgwl35fs2r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3llfgwl35fs2r",
+    "record": {
+      "text": "Almost all #tech stacks would make Rube Goldberg turn over in his grave.\n\nReply with examples if you want to help prove the point.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/guBMzJ6IK9AAAAAC/funpic.gif?hh=498&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidrxzc6y5npixuhetwaoeteeg3ovzshli3p2n6hbnvyg7ufrmecba"
+            },
+            "mimeType": "image/jpeg",
+            "size": 187604
+          },
+          "title": "a bunch of drawings on a white background one of which says ' a ' on it",
+          "description": "Alt: An overcomplicated gif for overcomplicated technology."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 16,
+            "byteStart": 11
+          },
+          "features": [
+            {
+              "tag": "tech",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-27T23:22:09.435Z"
+    },
+    "cid": "bafyreiasnaxxi2wrfayl5wqiqt7wuuehlxw7itp54wstu5m2b2pb4jqoz4"
+  }
+}

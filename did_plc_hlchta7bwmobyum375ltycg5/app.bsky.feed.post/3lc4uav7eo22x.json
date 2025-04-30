@@ -1,0 +1,132 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732927191941,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lc4uav7eo22x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lc4uav7eo22x",
+    "record": {
+      "text": "More #realtime #bluesky #powershell #websocket fun!\n\nThis time, with a little help from #obs #obs-powershell and the excellent ShaderFilter plugin.\n\nI give you: #BlueSky in #FishEye\n\nWho wants to watch a stream of BlueSky?",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.video",
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreifrn56qmnwlzzjxgie2a4oi7omonfeu5wovikitiif7ycbcmkwxba"
+          },
+          "mimeType": "video/mp4",
+          "size": 1491700
+        },
+        "aspectRatio": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 5
+          },
+          "features": [
+            {
+              "tag": "realtime",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 23,
+            "byteStart": 15
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 35,
+            "byteStart": 24
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 46,
+            "byteStart": 36
+          },
+          "features": [
+            {
+              "tag": "websocket",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 92,
+            "byteStart": 88
+          },
+          "features": [
+            {
+              "tag": "obs",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 108,
+            "byteStart": 93
+          },
+          "features": [
+            {
+              "tag": "obs-powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 169,
+            "byteStart": 161
+          },
+          "features": [
+            {
+              "tag": "BlueSky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 181,
+            "byteStart": 173
+          },
+          "features": [
+            {
+              "tag": "FishEye",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-30T00:39:51.941Z"
+    },
+    "cid": "bafyreidpamolu7qu5x7o4vvokx3zgrdtnn4i33py2xu7hlhv67saylawzy"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1692653689235,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k5iqmzattx2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k5iqmzattx2v",
+    "record": {
+      "text": "@bsky.app If you really want to make posts pop, please consider allowing inline SVG (after stripping out JavaScript handlers).\n\n(tiny image size means low bandwidth, animations are client-side and slick, and CSS opens up endless fonts and integration possibilities)\n\nPretty please support SVG!",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 9,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "did": "did:plc:z72i7hdynmk6r22z27h6tvur",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-08-21T21:34:49.235Z"
+    },
+    "cid": "bafyreiblbcajisii355jrb2whzaxjqkksthqlchuwtyq3lntle42bu3vky"
+  }
+}

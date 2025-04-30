@@ -1,0 +1,61 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1731096554301,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lahldn3tmc2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lahldn3tmc2o",
+    "record": {
+      "text": "Want to know who checks in on a Friday?\n1. Install ugit\n\ngithub.com/StartAutomat...\n\n2. cd into your repo\n\n3. git log | ? { $_.CommitDate.DayOfWeek -eq 'Friday' }\n\ngit is much more useful when it returns #powershell objects!",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/ugit",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidie4rayhwwzekfewprztus334xcna4ldm5ppkvpqecggkzotwpna"
+            },
+            "mimeType": "image/jpeg",
+            "size": 88942
+          },
+          "title": "GitHub - StartAutomating/ugit: Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects.",
+          "description": "Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects. - StartAutomating/ugit"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 83,
+            "byteStart": 57
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/ugit",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 215,
+            "byteStart": 204
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-08T20:09:14.301Z"
+    },
+    "cid": "bafyreidoejumx6pkyt3vl266fvzbvunbkbfp4ppeaqlggn3jwpwhucjuqi"
+  }
+}

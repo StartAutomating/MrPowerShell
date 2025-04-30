@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732869167522,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lc367mscak2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lc367mscak2s",
+    "record": {
+      "text": "One other ray of hope for you:\n\nThese battles have been ranging throughout my long life.\n\nIt never feels like we're winning, moment to moment.\n\nBut we've made a lot of progress in 42 years.\n\nAnd we are not going back.\n\n( This video says it far better than I can )\n\nyoutu.be/4uFum9oXnAg?...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://youtu.be/4uFum9oXnAg?si=TPZNGQQqTREQf9nG",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihvjn6hofwsd4ltj3sokluvpkdl6ssrp2ozmb2nnlvlnqm6mp6a6q"
+            },
+            "mimeType": "image/jpeg",
+            "size": 88351
+          },
+          "title": "2017 - People Watching Season 2, Episode 1",
+          "description": "YouTube video by Cracked"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiec2dblsdzons2efhmwjmqrnlbbrybpkxs3l4jl4ifgylkoo7syya",
+          "uri": "at://did:plc:ywbm3iywnhzep3ckt6efhoh7/app.bsky.feed.post/3lc2cqvoqjc2a"
+        },
+        "parent": {
+          "cid": "bafyreiec2dblsdzons2efhmwjmqrnlbbrybpkxs3l4jl4ifgylkoo7syya",
+          "uri": "at://did:plc:ywbm3iywnhzep3ckt6efhoh7/app.bsky.feed.post/3lc2cqvoqjc2a"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 289,
+            "byteStart": 265
+          },
+          "features": [
+            {
+              "uri": "https://youtu.be/4uFum9oXnAg?si=TPZNGQQqTREQf9nG",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-29T08:32:47.522Z"
+    },
+    "cid": "bafyreifkizrtewbjxrdxxutfvwak4qrhnyg7quotklua4ggwqln76a3wf4"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738044659523,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgrsbcltgc2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgrsbcltgc2w",
+    "record": {
+      "text": "I am Jack's complete lack of surprise.\n\n#deepseek #ai #china #censorship\n\nwww.theguardian.com/technology/2...\n\n( Also, it looks like their meta prompt isn't terribly secure )",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.theguardian.com/technology/2025/jan/28/we-tried-out-deepseek-it-works-well-until-we-asked-it-about-tiananmen-square-and-taiwan",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreia7e7bzff3yueiybhzy2yu43zw65w5nzba5mjlagj5cwih6bfjfea"
+            },
+            "mimeType": "image/jpeg",
+            "size": 373111
+          },
+          "title": "We tried out DeepSeek. It works well, until we asked it about Tiananmen Square and Taiwan",
+          "description": "The AI app soared up the Apple charts and rocked US stocks, but Chinese chatbot was reluctant to discuss sensitive questions about China and its government"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 40
+          },
+          "features": [
+            {
+              "tag": "deepseek",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 53,
+            "byteStart": 50
+          },
+          "features": [
+            {
+              "tag": "ai",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 54
+          },
+          "features": [
+            {
+              "tag": "china",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 72,
+            "byteStart": 61
+          },
+          "features": [
+            {
+              "tag": "censorship",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 74
+          },
+          "features": [
+            {
+              "uri": "https://www.theguardian.com/technology/2025/jan/28/we-tried-out-deepseek-it-works-well-until-we-asked-it-about-tiananmen-square-and-taiwan",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-28T06:10:59.523Z"
+    },
+    "cid": "bafyreia27c6dfngcsxduzne6m35dnmh5uhdbzsj5vfo2bfbo7kwfqeegea"
+  }
+}

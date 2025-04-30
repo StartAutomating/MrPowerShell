@@ -1,0 +1,57 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732581226114,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbss2chuyk2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbss2chuyk2x",
+    "record": {
+      "text": "Round 1 of my #bluesky #powershell #websocket experiment is done.\n\n13,929,145 interactions stored in on powershell core Start-ThreadJob before the job politely stopped collecting.\n\n1. BlueSky is busy AF, love it.\n2. Should add filters and cleanups and optimize output.\n\nCode coming soon.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 22,
+            "byteStart": 14
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 23
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 35
+          },
+          "features": [
+            {
+              "tag": "websocket",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-26T00:33:46.114Z"
+    },
+    "cid": "bafyreigap7gvt3pni5x5kfm47ycdyy37elln74kciqsfxr3ncfxtc7bzba"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733870247116,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcyck4ozb22s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcyck4ozb22s",
+    "record": {
+      "text": "a) looks pretty cool!\nb) pretty sure #powershell ain't going anywhere anytime soon ;-)\nc) this posted anywhere as code?\nd) gonna do anything other than registry keys ?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihf2pr4ehsof7wnj3q6w4uqwwrmvn2ojvutesk2pyswwfvlvi3vfu",
+          "uri": "at://did:plc:46dtzqjv7n4gbnz6dkwlsinr/app.bsky.feed.post/3lcyb7gohis2c"
+        },
+        "parent": {
+          "cid": "bafyreihf2pr4ehsof7wnj3q6w4uqwwrmvn2ojvutesk2pyswwfvlvi3vfu",
+          "uri": "at://did:plc:46dtzqjv7n4gbnz6dkwlsinr/app.bsky.feed.post/3lcyb7gohis2c"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 48,
+            "byteStart": 37
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-10T22:37:27.116Z"
+    },
+    "cid": "bafyreibgsvcuvwa2j7kpvkle42akggxzetj3oepyaalxaasa55grni5gea"
+  }
+}

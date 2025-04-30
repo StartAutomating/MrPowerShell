@@ -1,0 +1,33 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733816651199,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcwqmtnhk22n",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcwqmtnhk22n",
+    "record": {
+      "text": "Only another 334 #github contributions this year for me to hit 2400.\n\nTrying to keep the streak I've had running for a couple of years now.\n\n2022 - 2200 contributions\n2023 - 2300 contributions\n2024 - 🤷 🧐😉😥😭\n\nEven if I hit the mark this year, I don't think I'm doing this next year.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 24,
+            "byteStart": 17
+          },
+          "features": [
+            {
+              "tag": "github",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-10T07:44:11.199Z"
+    },
+    "cid": "bafyreihingc3o7l7h3klidbelr4eywiwpojvlu3jlwempnozmbebrwgmei"
+  }
+}

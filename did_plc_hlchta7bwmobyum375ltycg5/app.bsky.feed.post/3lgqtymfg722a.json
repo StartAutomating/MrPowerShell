@@ -1,0 +1,97 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738012155555,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgqtymfg722a",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgqtymfg722a",
+    "record": {
+      "text": "#workingfromhome is good for society.\n\nWhy?\n\nIt opens the talent pool to everyone.\n\nIt #sharesthewealth across regions.\n\nIt helps #lowerhomeprices because people don't have to cluster near work.\n\nIt helps #SaveThePlanet from transit emissions.\n\nAnd you never get #stuckintraffic ever again.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/zPKcKMtmsQ0AAAAC/earth-day.gif?hh=373&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieuv2iaqpehbpvry233gnzypdyp7b3zqxtv64r322kcwpla47nc6u"
+            },
+            "mimeType": "image/jpeg",
+            "size": 35285
+          },
+          "title": "a cartoon globe with a plant growing out of it",
+          "description": "Alt: If we mostly all worked from home, our planet would get significantly better."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 16,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "workingfromhome",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 103,
+            "byteStart": 87
+          },
+          "features": [
+            {
+              "tag": "sharesthewealth",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 146,
+            "byteStart": 130
+          },
+          "features": [
+            {
+              "tag": "lowerhomeprices",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 219,
+            "byteStart": 205
+          },
+          "features": [
+            {
+              "tag": "SaveThePlanet",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 278,
+            "byteStart": 263
+          },
+          "features": [
+            {
+              "tag": "stuckintraffic",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-27T21:09:15.555Z"
+    },
+    "cid": "bafyreihbw3qyqrxm7hm24zvkgt5jbhm5b4owamjsob4lfdu4oyrhzwrnle"
+  }
+}

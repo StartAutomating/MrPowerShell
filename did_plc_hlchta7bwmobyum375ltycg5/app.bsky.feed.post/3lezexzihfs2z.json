@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736106243993,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lezexzihfs2z",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lezexzihfs2z",
+    "record": {
+      "text": "Thanks, I guess.  Proves humanity.\n\nOn the other hand, I'm not entirely sure what you two are trying to do, aside from troll.\n\nSee this post and answer the question if you want to.\n\nbsky.app/profile/mrpo...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreie6gwmmziuh4tqjdr4qvbtmdsulw7ddj25ohb5avlfeppepd2gxu4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lesbfhqqak24"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidt3jpz4azd2dtcqgfj7dxvcrguxg24dcmtdp4i4nogg3v3f76m4q",
+          "uri": "at://did:plc:ckaz32jwl6t2cno6fmuw2nhn/app.bsky.feed.post/3leyxxjm6i22l"
+        },
+        "parent": {
+          "cid": "bafyreifepkxk4yixtsli7fwiuqg7ep4r63f3faqfdt2l7nkb2cnn4befnm",
+          "uri": "at://did:plc:jwf3xzo7djgo537yqwjxk67g/app.bsky.feed.post/3lezepxuirc25"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 206,
+            "byteStart": 182
+          },
+          "features": [
+            {
+              "uri": "https://bsky.app/profile/mrpowershell.bsky.social/post/3lesbfhqqak24",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-05T19:44:03.993Z"
+    },
+    "cid": "bafyreid6amwjtno4hiwos5gw26yehepdrnm7jdu4wrdjunuas7qrdopski"
+  }
+}

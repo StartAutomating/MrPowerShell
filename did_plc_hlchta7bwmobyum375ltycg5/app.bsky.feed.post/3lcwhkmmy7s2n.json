@@ -1,0 +1,83 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733806913058,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcwhkmmy7s2n",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcwhkmmy7s2n",
+    "record": {
+      "text": "This is like asking my to pick a favorite child 😂.\n\nI've got way too many repos of my own to choose from, but they almost all involve one I've done a bit with....\n\n#PowerShell #pwsh\n\ngithub.com/powershell/p...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/powershell/powershell",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihswy6sex42eozfykq32t4ad6qoeddcqpmu3mfvmozn4ggtgg7iq4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 93116
+          },
+          "title": "GitHub - PowerShell/PowerShell: PowerShell for every system!",
+          "description": "PowerShell for every system! Contribute to PowerShell/PowerShell development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidtsaosfzsfs2o37srzbiiwvzq7n2nu4uxltktlctzjqmly74g4q4",
+          "uri": "at://did:plc:sydgpvanh46u766n536r33oa/app.bsky.feed.post/3lcvu4pyv2k2l"
+        },
+        "parent": {
+          "cid": "bafyreidtsaosfzsfs2o37srzbiiwvzq7n2nu4uxltktlctzjqmly74g4q4",
+          "uri": "at://did:plc:sydgpvanh46u766n536r33oa/app.bsky.feed.post/3lcvu4pyv2k2l"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 178,
+            "byteStart": 167
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 184,
+            "byteStart": 179
+          },
+          "features": [
+            {
+              "tag": "pwsh",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 212,
+            "byteStart": 186
+          },
+          "features": [
+            {
+              "uri": "https://github.com/powershell/powershell",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-10T05:01:53.058Z"
+    },
+    "cid": "bafyreifjl5iijaapnh6ok5x25cem7adddxnfqx5di534awqbhjfwwlzkhm"
+  }
+}

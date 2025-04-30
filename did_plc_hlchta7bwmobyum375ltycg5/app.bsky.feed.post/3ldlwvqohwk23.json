@@ -1,0 +1,119 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734544947033,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldlwvqohwk23",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldlwvqohwk23",
+    "record": {
+      "text": "I use #powershell ( mostly in #vscode, sometimes in #terminal )\n\nFor #git in #powershell, I made ugit ( and damn does it make git better by returning objects )\n\ngithub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/ugit",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibbfpi3pqexpkpgumv5iob5sulruyl7gajeperiyw74mrnf7u5ww4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 36955
+          },
+          "title": "GitHub - StartAutomating/ugit: Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects.",
+          "description": "Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects. - StartAutomating/ugit"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihtyvatl54vxnmi2y2hvruqzkleqzbw4u7xuh7gmy6byffrbacyju",
+          "uri": "at://did:plc:mef47wuuofnmxlrw4gkbcldm/app.bsky.feed.post/3ldlattpdjs2z"
+        },
+        "parent": {
+          "cid": "bafyreihtyvatl54vxnmi2y2hvruqzkleqzbw4u7xuh7gmy6byffrbacyju",
+          "uri": "at://did:plc:mef47wuuofnmxlrw4gkbcldm/app.bsky.feed.post/3ldlattpdjs2z"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 17,
+            "byteStart": 6
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 37,
+            "byteStart": 30
+          },
+          "features": [
+            {
+              "tag": "vscode",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 61,
+            "byteStart": 52
+          },
+          "features": [
+            {
+              "tag": "terminal",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 73,
+            "byteStart": 69
+          },
+          "features": [
+            {
+              "tag": "git",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 88,
+            "byteStart": 77
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 187,
+            "byteStart": 161
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/ugit",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-18T18:02:27.033Z"
+    },
+    "cid": "bafyreig3uztpxxo633ayq4n2rpqn4e3t7mdyziicdtql4igkysyi4c3ghq"
+  }
+}

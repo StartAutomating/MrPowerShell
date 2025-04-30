@@ -1,0 +1,33 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738199962312,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgwcvousdc2p",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgwcvousdc2p",
+    "record": {
+      "text": "Anyone know if #Chime is currently compromised by cyberattack, or otherwise insecure?\n\nGot a text asking for confirmation of details, despite never interacting with chime.\n\nGot off a long call with their support line where they refused to notify impacted customers of a breech.\n\nThis a known issue?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 21,
+            "byteStart": 15
+          },
+          "features": [
+            {
+              "tag": "Chime",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-30T01:19:22.312Z"
+    },
+    "cid": "bafyreifnkzqjsnnwuka6swlyc47ancgzltwkgl3m3uv3r2ssoq6dbjpcn4"
+  }
+}

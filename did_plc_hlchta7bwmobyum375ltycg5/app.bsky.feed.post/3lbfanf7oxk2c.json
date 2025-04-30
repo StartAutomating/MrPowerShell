@@ -1,0 +1,71 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732115862573,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbfanf7oxk2c",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbfanf7oxk2c",
+    "record": {
+      "text": "You may want to check out a handy dandy #PowerShell module I make for working with ffmpeg\n\nGitHub.com/StartAutomat... \n\nIt can do about anything ffmpeg can do, with tab completion and help :-)",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://GitHub.com/StartAutomating/RoughDraft",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieqcvtmgciut4dby37gne6u262x43d53c4xs3x3fnstvyxh6pexni"
+            },
+            "mimeType": "image/jpeg",
+            "size": 65379
+          },
+          "title": "GitHub - StartAutomating/RoughDraft: A Fun PowerShell Module for Multimedia (using FFMpeg)",
+          "description": "A Fun PowerShell Module for Multimedia (using FFMpeg) - StartAutomating/RoughDraft"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiasq3mbzwit2bjzufr7dyfodkst4lhe7x2bdvnruovhauk6zo5l2e",
+          "uri": "at://did:plc:6kq6eeqy47sw4lydg6wcixyb/app.bsky.feed.post/3lbcynvlrs22t"
+        },
+        "parent": {
+          "cid": "bafyreid3nlsua2o3jvziaxxmryfrwmjfsu45bb7wqsxkvrfr3djtkmnl2u",
+          "uri": "at://did:plc:cefwnw2hc3ljtrnrneup5nvt/app.bsky.feed.post/3lbeogrfqbc2l"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 51,
+            "byteStart": 40
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 117,
+            "byteStart": 91
+          },
+          "features": [
+            {
+              "uri": "https://GitHub.com/StartAutomating/RoughDraft",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-20T15:17:42.573Z"
+    },
+    "cid": "bafyreigxhp7marzxkuqtaqlliryltx5pyikh4ravtaoiz24jyvn2qn64me"
+  }
+}

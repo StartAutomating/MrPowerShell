@@ -1,0 +1,97 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1739930811095,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3liiouyvrxc2c",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3liiouyvrxc2c",
+    "record": {
+      "text": "It's not every day one politely tells people \"let's not build #SkyNet, mmmk?\"\n\n#ResponsibleAI #AI #Ethics #Tech",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/HQnsUe-_ig4AAAAC/robot-tech.gif?hh=409&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicpnsl4l2l5lf2rkoxqlkej5illezavjm4zfcmgra63bbjwnjrhd4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 67936
+          },
+          "title": "a red and white logo for skynet neural net based artificial intelligence",
+          "description": "Alt: Do not let AI run the code it writes directly.  Do not give AI arms and legs.  That is the path to SkyNet."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 62
+          },
+          "features": [
+            {
+              "tag": "SkyNet",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 93,
+            "byteStart": 79
+          },
+          "features": [
+            {
+              "tag": "ResponsibleAI",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 97,
+            "byteStart": 94
+          },
+          "features": [
+            {
+              "tag": "AI",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 105,
+            "byteStart": 98
+          },
+          "features": [
+            {
+              "tag": "Ethics",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 111,
+            "byteStart": 106
+          },
+          "features": [
+            {
+              "tag": "Tech",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-19T02:06:51.095Z"
+    },
+    "cid": "bafyreihdsirnixerftm53lu2ftv4wz4ic2eakv7ttzgcfbyln4ugruiusi"
+  }
+}

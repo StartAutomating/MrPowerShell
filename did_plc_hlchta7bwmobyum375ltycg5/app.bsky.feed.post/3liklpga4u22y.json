@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1739996121992,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3liklpga4u22y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3liklpga4u22y",
+    "record": {
+      "text": "Gotta love @mapquest.com for surviving all these years and still having a bit of impish charm.\n\n#GulfOfMadness\n\ngulfof.mapquest.com?name=Madness",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://gulfof.mapquest.com/?name=Madness",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicnayqtdrqsy5jojy27cmkkwyjqlpmjb27xd5tfe7cwz7xqinoinm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 237337
+          },
+          "title": "Gulf of Madness",
+          "description": "Check out my custom Gulf of Madness map created with MapQuest!"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 24,
+            "byteStart": 11
+          },
+          "features": [
+            {
+              "did": "did:plc:rcbtnmlk2la67bm4po65oe23",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 110,
+            "byteStart": 96
+          },
+          "features": [
+            {
+              "tag": "GulfOfMadness",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 144,
+            "byteStart": 112
+          },
+          "features": [
+            {
+              "uri": "https://gulfof.mapquest.com/?name=Madness",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-19T20:15:21.992Z"
+    },
+    "cid": "bafyreidrosstaqj4t4rrttpdftj2z7cxooy2jb66wm6hy5j5p5madz6aii"
+  }
+}

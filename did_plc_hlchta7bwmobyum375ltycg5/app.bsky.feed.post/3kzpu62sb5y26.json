@@ -1,0 +1,85 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1723684299580,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kzpu62sb5y26",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kzpu62sb5y26",
+    "record": {
+      "text": "Drop in now and learn about making #microservices in #docker and #PowerShell.\n\nwww.meetup.com/pacific-powe...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/events/302705530/",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibtg2panpruthshrwrlwbyq4u6rpngbuwpfm4wm24dmyc3ow2ohma"
+            },
+            "mimeType": "image/jpeg",
+            "size": 386868
+          },
+          "title": "Making Microservices with Docker and PowerShell, Wed, Aug 14, 2024, 6:00 PM   | Meetup",
+          "description": "Have you ever wanted to turn your scripts into services?\n\nIt's simpler than you might think.\n\nJoin us this month at the Pacific PowerShell User Group, where we'll discuss b"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 35
+          },
+          "features": [
+            {
+              "tag": "microservices",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 53
+          },
+          "features": [
+            {
+              "tag": "docker",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 76,
+            "byteStart": 65
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 79
+          },
+          "features": [
+            {
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/302705530/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-08-15T01:11:39.58Z"
+    },
+    "cid": "bafyreigzvfqeeb5mjsu2viq35ok5awa5jl4aciuvlsbnbsckw6maewoq5u"
+  }
+}

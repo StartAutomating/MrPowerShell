@@ -1,0 +1,49 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1696953343658,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kbfuz76l3c2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kbfuz76l3c2u",
+    "record": {
+      "text": "Hey #PowerShell People, did you hear?  #VBScript is dead. Long live #PowerShell.  https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features#deprecated-features",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features#deprecated-features",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiceefq5bke53uqcuwcjaawmddk3k66vn3u2zgnf7npjfbvsh5gscy"
+            },
+            "mimeType": "image/png",
+            "size": 93141
+          },
+          "title": "Deprecated features in the Windows client - What's new in Windows",
+          "description": "Review the list of features that Microsoft is no longer actively developing in Windows 10 and Windows 11."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 173,
+            "byteStart": 82
+          },
+          "features": [
+            {
+              "uri": "https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features#deprecated-features",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-10-10T08:55:43.6584317-07:00"
+    },
+    "cid": "bafyreicmygsmytpbs6iwuve7puq2iptlhczcybpktha7ttfbp5uwz3cr4a"
+  }
+}

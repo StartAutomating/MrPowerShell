@@ -1,0 +1,97 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740443896530,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lixmq5cl4k2t",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lixmq5cl4k2t",
+    "record": {
+      "text": "#PowerShell #Windows #Tip / #Trick\n\nYou can use the Speech API to do text to speech.\n\nThis will block the terminal until the speech completes.\n\nStart-ThreadJob -ScriptBlock { $sapi = New-Object -ComObject Sapi.SpVoice; $sapi.Speak(\"$args\") } -ArgumentList \"Hello\" \n\ngist.github.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://gist.github.com/StartAutomating/3e0d1e069cf06606ab9295fdef7d30d8",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreialjfbvjmblgykiooldgd2f3gmv2hki2sjiofn7hm7imj53ituydi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 121763
+          },
+          "title": "Gist a bit of Text to Speech in PowerShell",
+          "description": "Gist a bit of Text to Speech in PowerShell. GitHub Gist: instantly share code, notes, and snippets."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 20,
+            "byteStart": 12
+          },
+          "features": [
+            {
+              "tag": "Windows",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 25,
+            "byteStart": 21
+          },
+          "features": [
+            {
+              "tag": "Tip",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 28
+          },
+          "features": [
+            {
+              "tag": "Trick",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 297,
+            "byteStart": 266
+          },
+          "features": [
+            {
+              "uri": "https://gist.github.com/StartAutomating/3e0d1e069cf06606ab9295fdef7d30d8",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-25T00:38:16.53Z"
+    },
+    "cid": "bafyreibyzj452jpg6vv37l6sjlvz6sp7qzqfglklcaetfxcscbysxyzmuy"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732430683445,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lboftrs7sc2e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lboftrs7sc2e",
+    "record": {
+      "text": "Hmmm... I now have more followers on #bluesky than I do on #github.  Please help me even that out by following on GitHub.\n\nLike / share / subscribe.\n\nLike it? star it.  Love it?  Support it.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 37
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 66,
+            "byteStart": 59
+          },
+          "features": [
+            {
+              "tag": "github",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-24T06:44:43.445Z"
+    },
+    "cid": "bafyreidorzavbco6auxkvt43kqagda4ea6vui7mcfehcjxzfzmv6hfucvy"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736530700303,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lffqbsluz22d",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lffqbsluz22d",
+    "record": {
+      "text": "Why stop there?\n\nJust use EZOut and yank some formatters for posts from PSA.\n\nThen you'll have full color formatting for every post, with links to the post and profile.\n\ngithub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "A brief BlueSky conversation in the terminal",
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihhfdywj53xmybfqm3yupgf4c3lhlqtfy4thxnyqmihde2v7uzaby"
+              },
+              "mimeType": "image/jpeg",
+              "size": 290950
+            },
+            "aspectRatio": {
+              "width": 1777,
+              "height": 470
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreib7ab6izunjshgwksz257uab5zw3rda75uwil23yl2wc2biu6mrfe",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3lffoguxiau2k"
+        },
+        "parent": {
+          "cid": "bafyreib7ab6izunjshgwksz257uab5zw3rda75uwil23yl2wc2biu6mrfe",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3lffoguxiau2k"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 196,
+            "byteStart": 170
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/psa",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-10T17:38:20.303Z"
+    },
+    "cid": "bafyreigazhdffvuaymnlw46srvy5jepjz6k2svveuidcob3d3v735dot44"
+  }
+}

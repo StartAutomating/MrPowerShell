@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1743355230817,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3llme4o25qk2g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3llme4o25qk2g",
+    "record": {
+      "text": "Cool, thanks for explaining.\n\nPipeline performance is tricky, but there are many circumstances that call for a continuous stream of objects.\n\nI sometimes put this as:\n\n\"don't knock the object pipeline until you can rock the object pipeline\".\n\n#PowerShell advice",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihalpojxsgrxdtepfutn3l3uhxkhm7qpyanbx4thmqzrhzbwk6ur4",
+          "uri": "at://did:plc:vn6ch23es67r2vvnsikt5x2r/app.bsky.feed.post/3llbxfbybm226"
+        },
+        "parent": {
+          "cid": "bafyreibsztqy37bz6pwmid6yjqw5fweixro3liwq5c566at33e7xzodivm",
+          "uri": "at://did:plc:vn6ch23es67r2vvnsikt5x2r/app.bsky.feed.post/3llkudj7vqc2q"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 254,
+            "byteStart": 243
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-30T17:20:30.817Z"
+    },
+    "cid": "bafyreig2qfmnyarcd62qksn5mprlf2t4gotgbu2msk7wxp24vwh2oilpvu"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744585613032,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmq5yvxjlc2c",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmq5yvxjlc2c",
+    "record": {
+      "text": "Sunlight truly is the best disinfectant.\n\nTruly a novel use of @clearsky.app !",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/4IkfSV_2jxQAAAAC/sky-sun.gif?hh=498&ww=298",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifolrgv3lqzsd4hj5xr3dehqgtbff7xoocead2annly477ofkjr7a"
+            },
+            "mimeType": "image/jpeg",
+            "size": 148269
+          },
+          "title": "the sun shines brightly through the clouds in the blue sky",
+          "description": "Alt: Clearsky shows how one person is systemically blocking the best of the PowerShell community."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicytkasent2tto3bvosakpgnaqqzirmqln47t465s4v3i5nfl5pqm",
+          "uri": "at://did:plc:h5pvxjfzoyhvlvyohlqytjkp/app.bsky.feed.post/3lmq3gk46ds2u"
+        },
+        "parent": {
+          "cid": "bafyreicytkasent2tto3bvosakpgnaqqzirmqln47t465s4v3i5nfl5pqm",
+          "uri": "at://did:plc:h5pvxjfzoyhvlvyohlqytjkp/app.bsky.feed.post/3lmq3gk46ds2u"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 76,
+            "byteStart": 63
+          },
+          "features": [
+            {
+              "did": "did:plc:kpacusij2hw6qjxjukvapmo6",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-13T23:06:53.032Z"
+    },
+    "cid": "bafyreif3kziidnlv74ycdj7cuzmw7kldmcaoo67vijxh2fjv2ixhxwgo6y"
+  }
+}

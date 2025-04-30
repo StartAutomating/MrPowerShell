@@ -1,0 +1,71 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737232197707,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lg25m2mtbs2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lg25m2mtbs2v",
+    "record": {
+      "text": "So beautifully true!\n\nThere's always more options in an #API than in a #GUI.\n\nIIRC Windows Firewall lets you lock down what protocols / ports each application and service can talk to, and where that traffic can come from.\n\nMy 🌶️ take:\n\nBest software firewall there is.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/MF7edIrkQzUAAAAC/firewall-benrob0329.gif?hh=278&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihse6wrdisyz3haneqkvdqu52ccgu4csfexoszefu56deakgkys64"
+            },
+            "mimeType": "image/jpeg",
+            "size": 105381
+          },
+          "title": "a man with glasses is looking at a computer screen with the words so many firewalls below him",
+          "description": "Alt: There are so many firewalls, but Windows Firewall might be the best software firewall in the world."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreielu4mztgtve7piw7itrl4htyvrj6mlvdtkmxcdfnw67f7knxl4qm",
+          "uri": "at://did:plc:xraomsuf6pvh7r2cqtdwhkvm/app.bsky.feed.post/3lg24nvvz322x"
+        },
+        "parent": {
+          "cid": "bafyreielu4mztgtve7piw7itrl4htyvrj6mlvdtkmxcdfnw67f7knxl4qm",
+          "uri": "at://did:plc:xraomsuf6pvh7r2cqtdwhkvm/app.bsky.feed.post/3lg24nvvz322x"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 56
+          },
+          "features": [
+            {
+              "tag": "API",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 75,
+            "byteStart": 71
+          },
+          "features": [
+            {
+              "tag": "GUI",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-18T20:29:57.707Z"
+    },
+    "cid": "bafyreiemvtxeovgzdbfv4qzp7r4bucfcmj3sdsoj7dynohh7ccowp4zoxm"
+  }
+}

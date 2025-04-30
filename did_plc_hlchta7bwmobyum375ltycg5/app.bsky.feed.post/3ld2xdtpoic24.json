@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733961304429,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld2xdtpoic24",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ld2xdtpoic24",
+    "record": {
+      "text": "Understood.  My condolences.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigcwnypb2d2zrshmj3sx7cambirdpwyctj4synf6kheddmbrvl2uu",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3ld2sbiggvk2k"
+        },
+        "parent": {
+          "cid": "bafyreifalqqxxg7ud4bunw2awt5mrzz55lqjskfefaqrut2ggzl3jyyqfa",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3ld2x5jelec25"
+        }
+      },
+      "createdAt": "2024-12-11T23:55:04.429Z"
+    },
+    "cid": "bafyreic4zob4u72lxjlrjo34adqnhewdyyoynvgpwuneqhy2ynnjypnifi"
+  }
+}

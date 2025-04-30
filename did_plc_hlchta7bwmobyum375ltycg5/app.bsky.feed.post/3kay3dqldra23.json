@@ -1,0 +1,73 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1696479120854,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kay3dqldra23",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kay3dqldra23",
+    "record": {
+      "text": "#PowerShell people, help yourself to new bits: \n\nHelpOut 0.5 is out!\n\nhttps://github.com/StartAutomating/HelpOut",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/HelpOut",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicwkluj5kgaqfpr2mqsmaqh6mzni62lcxqo2pwmtxqvlk7zdu6eli"
+            },
+            "mimeType": "image/png",
+            "size": 13004
+          },
+          "title": "GitHub - StartAutomating/HelpOut: A Helpful Toolkit for Managing PowerShell Help",
+          "description": "A Helpful Toolkit for Managing PowerShell Help. Contribute to StartAutomating/HelpOut development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 112,
+            "byteStart": 70
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/HelpOut",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 56,
+            "byteStart": 49
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/HelpOut",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 112,
+            "byteStart": 105
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/HelpOut",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-10-04T21:12:00.8540596-07:00"
+    },
+    "cid": "bafyreiaik3opnz2mttvy7wcxoiynnarpo4jutwi2vvub3njhumot5ktbai"
+  }
+}

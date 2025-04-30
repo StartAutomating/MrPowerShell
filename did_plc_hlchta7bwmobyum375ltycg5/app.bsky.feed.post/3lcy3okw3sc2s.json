@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733862880053,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcy3okw3sc2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcy3okw3sc2s",
+    "record": {
+      "text": "I don't think #bash has the same robustness in functions/modules as #powershell.\n\nThe Internet may disagree.\n\nAll 3 of the things I linked were modules.  You install them from the gallery, import them, and you're good to go.\n\nYou can discover commands like so:\n\nGet-Command -Module PSBlueSky",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihmvxticcheftl7amirj4vaten2mdgknusp4ko7d3g6rwihcyooki",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lcuvxlh3vk2o"
+        },
+        "parent": {
+          "cid": "bafyreiczvjvztugzztoaglcdbhuxc2a7o4nghjoxu7mi4ocfvvwnbf2ave",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lcy3h2rpfs2f"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 19,
+            "byteStart": 14
+          },
+          "features": [
+            {
+              "tag": "bash",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 79,
+            "byteStart": 68
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-10T20:34:40.053Z"
+    },
+    "cid": "bafyreiaygp7tcljgnh3powpvldc4y4gyjkryiyl6gfyefqh5uwvp7zd2bu"
+  }
+}

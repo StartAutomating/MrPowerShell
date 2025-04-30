@@ -1,0 +1,61 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738897664485,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhkmotjdoc25",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhkmotjdoc25",
+    "record": {
+      "text": "Seriously asking the internets:\n\n1. Do you know about #PowerShell?\n2. If you do, what do you love / hate?\n\n#MVPBuzz",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/QTzKXB8k6MIAAAAC/curiosity-killed-the-cat-inquisitive.gif?hh=498&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreic55mwirf4wdmue5t7upjw23mjk5nlr3vot5vfanxbr5my2pu5kre"
+            },
+            "mimeType": "image/jpeg",
+            "size": 302648
+          },
+          "title": "Curiosity Killed The Cat Inquisitive GIF",
+          "description": "Alt: Curiosity killed the cat.\n\nLet's see how the Internet responds to two open ended questions."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 65,
+            "byteStart": 54
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 115,
+            "byteStart": 107
+          },
+          "features": [
+            {
+              "tag": "MVPBuzz",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-07T03:07:44.485Z"
+    },
+    "cid": "bafyreie2x6t2bzobc6vyeulci7bxtyl5vp53xunez4qsfbnvyuuyvnbs7u"
+  }
+}

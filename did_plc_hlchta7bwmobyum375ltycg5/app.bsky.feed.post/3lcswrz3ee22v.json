@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733685828168,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcswrz3ee22v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcswrz3ee22v",
+    "record": {
+      "text": "Sounds like a great topic!\n\nStart-ThreadJob is very overpowered ( especially for writing servers and asynchronous clients ).\n\nWhat's been useful about Foreach-Object -Parallel?\n\n( I admit I use that less often )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidvsgkaamk6ctpceeujheiuxy5hkr63y5dhgvo37wr7gdqiwd2btq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcqjncgzss26"
+        },
+        "parent": {
+          "cid": "bafyreiaktzqjknaejv2sjwnqzqtvvj7icw4s6ncqxzzptay4pegelzw3k4",
+          "uri": "at://did:plc:wepubn5jiq74vznap2ia2osh/app.bsky.feed.post/3lcswkcw7yk2e"
+        }
+      },
+      "createdAt": "2024-12-08T19:23:48.168Z"
+    },
+    "cid": "bafyreia5jodd2q5s25kswwjtqotesdzcdlnqrv2fddv5mjgys6y3henz2a"
+  }
+}

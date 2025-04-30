@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732116042221,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbfasqk3ic2c",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbfasqk3ic2c",
+    "record": {
+      "text": "Lol which progenitor?  #PowerShell was made by many people, and avoiding one of the most interesting and potent languages in decades because of a conversation with a person seems, well, yeah, kinda petty.\n\nAsking as one of the other progenitors ;-)",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiaba6uvlfwd7hp4afkx2cd5yivpuqs7stlkvmzeyu4kzifghlllbe",
+          "uri": "at://did:plc:3la4hhaon456xbzr3q6yd7i4/app.bsky.feed.post/3lbdmujujic25"
+        },
+        "parent": {
+          "cid": "bafyreicpt4sevt5cgtryubf5h3ygvj7kq2h7v3tt34ihcp22azbhqyertm",
+          "uri": "at://did:plc:3la4hhaon456xbzr3q6yd7i4/app.bsky.feed.post/3lbdnbpjsnc25"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 23
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-20T15:20:42.221Z"
+    },
+    "cid": "bafyreic3vrp3d5ze5srwzur2zwoikk5mnfx3vynnz3pc4tekbfrxjodoke"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1692389462195,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k5b2lbdtdy2r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k5b2lbdtdy2r",
+    "record": {
+      "text": "Elon Musk may be a joke, but he's hardly ever joking.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidazobyfreu5k63tf4b2ooba3p7hosd35jldazzu4fozmv34c6nhq",
+          "uri": "at://did:plc:m7w6mfn35d53chutrzjzgkng/app.bsky.feed.post/3k5asc65z352f"
+        },
+        "parent": {
+          "cid": "bafyreidazobyfreu5k63tf4b2ooba3p7hosd35jldazzu4fozmv34c6nhq",
+          "uri": "at://did:plc:m7w6mfn35d53chutrzjzgkng/app.bsky.feed.post/3k5asc65z352f"
+        }
+      },
+      "createdAt": "2023-08-18T20:11:02.195Z"
+    },
+    "cid": "bafyreib77sfirfyb7n5aqqzulukwnmuo5sjcpi52fq5yxznl5n3pdop5wq"
+  }
+}

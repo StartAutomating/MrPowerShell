@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741820458864,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lk7oqvh6fc2g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lk7oqvh6fc2g",
+    "record": {
+      "text": "You could always try out some PipeScript 😉 ( and maybe help improve it ).\n\ngithub.com/StartAutomat...\n\nI'm sure I can figure out a few more mini languages -like \"P*\" 😉",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/PipeScript",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihdtld3vyafterf56prxqwtqt2w7tgglnflw24hq7crwtecji5w5i"
+            },
+            "mimeType": "image/jpeg",
+            "size": 122109
+          },
+          "title": "GitHub - StartAutomating/PipeScript: A Metaprogramming Language for PowerShell (and anything else)",
+          "description": "A Metaprogramming Language for PowerShell (and anything else) - StartAutomating/PipeScript"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigg4oiuyqj5ahpn6hctzn4sl5674m6vlufjftdkxr43bfaxoqy6uy",
+          "uri": "at://did:plc:lgkumzpuk3hcwnelyfpifzyh/app.bsky.feed.post/3lk7epy37js26"
+        },
+        "parent": {
+          "cid": "bafyreigg4oiuyqj5ahpn6hctzn4sl5674m6vlufjftdkxr43bfaxoqy6uy",
+          "uri": "at://did:plc:lgkumzpuk3hcwnelyfpifzyh/app.bsky.feed.post/3lk7epy37js26"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 104,
+            "byteStart": 78
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/PipeScript",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-12T23:00:58.864Z"
+    },
+    "cid": "bafyreibqwmnturh5ld2fygoed3t2pzedqjaws46hyubms52edssfmmbkbe"
+  }
+}

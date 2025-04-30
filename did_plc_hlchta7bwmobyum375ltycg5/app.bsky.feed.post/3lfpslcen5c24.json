@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736876763729,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfpslcen5c24",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfpslcen5c24",
+    "record": {
+      "text": "vtables are glorious!\n\nAll hail IUnknown!\n\nAll hail IDispatch!\n\nI believe we can also make some similar PowerShell conventions without COM.\n\nRealized last week we *could* do Event Dispatch.\n\n( Call a command that matches an event's Source identifier )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreie7g35ypq6f5tpuhh6naqstpmhpx4zr2htyr76qyjfi7oga3dgzm4",
+          "uri": "at://did:plc:esbc722g7bm4ly7b2mg7ba6m/app.bsky.feed.post/3lfnsgwpebs2j"
+        },
+        "parent": {
+          "cid": "bafyreieppopuk2n75unczntk3b3fzz6pvprja3kxbvai4tdc3jjejsbvfq",
+          "uri": "at://did:plc:33jh6d5q5cxbifd6vqpncvgb/app.bsky.feed.post/3lfpo2t4r222d"
+        }
+      },
+      "createdAt": "2025-01-14T17:46:03.729Z"
+    },
+    "cid": "bafyreiclazexn4owormbzank675n6nonlr5fpdzospnhjtrvubckiei3bi"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741536690044,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ljxghwfy5s2d",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ljxghwfy5s2d",
+    "record": {
+      "text": "Nushell isn't exactly an object pipeline ( it just looks vaguely like one ).\n\nAlso, nushell autocorrects weirdly.  Keeps adding a \"t\".",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifjzobevmdke6ckc6mtwhsqhb47rthxib6kobom2hirftoqnc433a",
+          "uri": "at://did:plc:vvjwbmkczlhhh75viwusdquv/app.bsky.feed.post/3ljqrm4wzfk2f"
+        },
+        "parent": {
+          "cid": "bafyreigsvjcvlqmsynnpyni6f25ep2csu4lasbgb6dqvzc2frzg4gean3y",
+          "uri": "at://did:plc:oko4aupssykr5ic6s47o2xy7/app.bsky.feed.post/3ljvdjayuo22y"
+        }
+      },
+      "createdAt": "2025-03-09T16:11:30.044Z"
+    },
+    "cid": "bafyreih2zwj7qsjb42uunjjqwnvebvtcbsklnabftweox7n672cowyhnrm"
+  }
+}

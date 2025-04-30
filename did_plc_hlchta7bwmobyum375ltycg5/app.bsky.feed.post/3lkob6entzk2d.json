@@ -1,0 +1,85 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742321274710,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lkob6entzk2d",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lkob6entzk2d",
+    "record": {
+      "text": "Just messing around with #PowerShell, #SVG, #Sine waves, and Moiré patterns.\n\nen.wikipedia.org/wiki/Moir%C3... \n\nPlease let me know how cool this looks:",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "alt": "An animation of a few copies of a Helix grid, in a Moire pattern.",
+        "$type": "app.bsky.embed.video",
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreibnuukth2i6w2wcchbjauphfs5tw63tvmyzztqnge73usqgs5etwm"
+          },
+          "mimeType": "video/mp4",
+          "size": 5983031
+        },
+        "aspectRatio": {
+          "width": 1080,
+          "height": 1920
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 25
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 42,
+            "byteStart": 38
+          },
+          "features": [
+            {
+              "tag": "SVG",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 44
+          },
+          "features": [
+            {
+              "tag": "Sine",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 111,
+            "byteStart": 79
+          },
+          "features": [
+            {
+              "uri": "https://en.wikipedia.org/wiki/Moir%C3%A9_pattern",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-18T18:07:54.71Z"
+    },
+    "cid": "bafyreibs7xugc4sfuerzzbom3d6mdv6ofpuswufq66nwyxwdh2wncn6sqm"
+  }
+}

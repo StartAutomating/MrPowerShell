@@ -1,0 +1,57 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741144362610,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ljlz3nswds2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ljlz3nswds2i",
+    "record": {
+      "text": "The \"Take it Down Act\" sounds vaguely worded and worrisome.\n\n#sotu #news #btw",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 66,
+            "byteStart": 61
+          },
+          "features": [
+            {
+              "tag": "sotu",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 72,
+            "byteStart": 67
+          },
+          "features": [
+            {
+              "tag": "news",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 77,
+            "byteStart": 73
+          },
+          "features": [
+            {
+              "tag": "btw",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-05T03:12:42.61Z"
+    },
+    "cid": "bafyreicotjyioql3ofl23bzt37id766kcnad2merlgiitqzwlbf3aqpqda"
+  }
+}

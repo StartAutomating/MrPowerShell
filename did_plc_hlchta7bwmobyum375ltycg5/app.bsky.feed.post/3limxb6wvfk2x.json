@@ -1,0 +1,33 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740077248964,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3limxb6wvfk2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3limxb6wvfk2x",
+    "record": {
+      "text": "Hey #PowerShell user group organizers:\n\nIn order to help the team triage, can we all start spending 10-15 minutes looking thru issues and PRs on the PowerShell repo?\n\nHopefully at the pre party / after party for any presentation.\n\nSeems like this little big thing would help the backlog.\n\nThoughts?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-20T18:47:28.964Z"
+    },
+    "cid": "bafyreiehyfzphkmkj2xsjbi2xmzne3bsqp3tlzhebe77aswsjuodpx5yom"
+  }
+}

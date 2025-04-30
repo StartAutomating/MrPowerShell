@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736107210913,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lezfutmhbc2z",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lezfutmhbc2z",
+    "record": {
+      "text": "You tell me.\n\nTrolling Bash and trolling PowerShell seem equally problematic.\n\nShell languages should call each other, not fight.\n\nAnd neither should provoke a gastrointestinal issue.\n\nIf using a scripting language makes you vomit, talk to your doctor ( not the Internet )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidt3jpz4azd2dtcqgfj7dxvcrguxg24dcmtdp4i4nogg3v3f76m4q",
+          "uri": "at://did:plc:ckaz32jwl6t2cno6fmuw2nhn/app.bsky.feed.post/3leyxxjm6i22l"
+        },
+        "parent": {
+          "cid": "bafyreia3pshkjgugqd6w2qpsmyyzbspbx4nydgeyzvj2soz73bvvjfymiu",
+          "uri": "at://did:plc:ckaz32jwl6t2cno6fmuw2nhn/app.bsky.feed.post/3lezfmv6r3k2d"
+        }
+      },
+      "createdAt": "2025-01-05T20:00:10.913Z"
+    },
+    "cid": "bafyreigmmyvnr23hsrtabuumwimme2gec4ugraiow5ed6htts5hd5z4ije"
+  }
+}

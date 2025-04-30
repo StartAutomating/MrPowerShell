@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735454888282,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3legge4bkxc27",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3legge4bkxc27",
+    "record": {
+      "text": "Yeah, I don't automate clapback.\n\nToo much downside and too little upside.\n\nI'm more looking at the ability to basically filter and refine what I can get from the firehose (aka, picking out all YouTube recommendations from a given day).\n\nThat and I can't ignore a good big data challenge.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihszea6vu37mbqpf55ghyqzc5zovls7kkzmnizvpgwuewjx2i4bza",
+          "uri": "at://did:web:threddyrex.org/app.bsky.feed.post/3lefrilyai22s"
+        },
+        "parent": {
+          "cid": "bafyreiam5cphfc74cae2ixq2p6kbno3u5syicpobv3tjepcadceybsgygi",
+          "uri": "at://did:web:threddyrex.org/app.bsky.feed.post/3leggaje76c2a"
+        }
+      },
+      "createdAt": "2024-12-29T06:48:08.282Z"
+    },
+    "cid": "bafyreidlhdx77vwj6amsg2ivfgzgy6yepactuikoishvaibnsmyyvdji7y"
+  }
+}

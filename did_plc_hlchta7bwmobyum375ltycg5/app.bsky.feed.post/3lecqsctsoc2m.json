@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735328663397,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lecqsctsoc2m",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lecqsctsoc2m",
+    "record": {
+      "text": "Even as a heavy PowerShell user, I wouldn't configure everything with GPOs ( or want someone to).\n\nThere be monsters at that end of the map.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/klPxlp9vwHYAAAAC/mutiny-pirates.gif?hh=362&ww=480",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifjy425p2v2n52nj7bdgb64shwxjsvvotvqod7f2knjtnggkaz7cu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 119184
+          },
+          "title": "a cartoon character says push this crew too far and there will be mutiny",
+          "description": "ALT: a cartoon character says push this crew too far and there will be mutiny"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidbjrlefc47dosx6nd7f4kwtfgcxdoac77wcaqjurdwi7msba3hlu",
+          "uri": "at://did:plc:oc27rjm5tbfjuresfooj6xpv/app.bsky.feed.post/3lecmwm5z7s2k"
+        },
+        "parent": {
+          "cid": "bafyreibagishygfvr3cjqo6op24lojrzbznk2fmfpe5qyrqvlbjnprlpfa",
+          "uri": "at://did:plc:kl7hempqschnxsspnkydz3y4/app.bsky.feed.post/3lecpd2hlxk2r"
+        }
+      },
+      "createdAt": "2024-12-27T19:44:23.397Z"
+    },
+    "cid": "bafyreibjymdsk4a267qtxyn5cpjls5vr2u2fosndghnitpmdva2w5yr44y"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1709872086420,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kn5ujdrwss2k",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kn5ujdrwss2k",
+    "record": {
+      "text": "Just a call from someone with a Russian voice urging me to vote uncommitted in the primary.\n\n#2024 is going to be a long year filled with too much #election #disinformation :-(",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 156,
+            "byteStart": 147
+          },
+          "features": [
+            {
+              "tag": "election",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 172,
+            "byteStart": 157
+          },
+          "features": [
+            {
+              "tag": "disinformation",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-03-08T04:28:06.42Z"
+    },
+    "cid": "bafyreifjjxhtpjtbyprnvffa7dmmmv36dudvt3o4dbbouzdtgweukgwisi"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742235585720,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lklrenbfq22o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lklrenbfq22o",
+    "record": {
+      "text": "You ever get #PowerShell inspiration from a typo?\n\nI just realized it would be really trivial to make a command named \"SomeComputerName\", which would be a light proxy to Invoke-Command.\n\nThen we could do:\n\n~~~PowerShell\nSomeComputerName -ScriptBlock { \"hello world\" }\n~~~\n\nThoughts ?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 24,
+            "byteStart": 13
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-17T18:19:45.72Z"
+    },
+    "cid": "bafyreibyeo5fpb343kzzsepotrz2kkz4yhasu4fhbnjyvn7hlsmrac466e"
+  }
+}

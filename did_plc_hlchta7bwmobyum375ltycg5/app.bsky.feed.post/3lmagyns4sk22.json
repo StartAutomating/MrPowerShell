@@ -1,0 +1,69 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744045512329,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmagyns4sk22",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmagyns4sk22",
+    "record": {
+      "text": "I love the smell of #AtProto #PowerShell in the morning!\n\nMy #GitHubWorkflow has been calmly checking in any #PowerShellSummit posts all night long!",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 28,
+            "byteStart": 20
+          },
+          "features": [
+            {
+              "tag": "AtProto",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 40,
+            "byteStart": 29
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 76,
+            "byteStart": 61
+          },
+          "features": [
+            {
+              "tag": "GitHubWorkflow",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 126,
+            "byteStart": 109
+          },
+          "features": [
+            {
+              "tag": "PowerShellSummit",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-07T17:05:12.329Z"
+    },
+    "cid": "bafyreicyjkp3gzpa6qppruwxc7zadtrbqqstijryvywa5kvpncrhtmhqyq"
+  }
+}

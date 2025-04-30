@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736797714563,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfnixh7vos2q",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfnixh7vos2q",
+    "record": {
+      "text": "That's the second random news account posting this randomly named individuals' server.\n\nIt has unnecessary sleeps and might be doing a bit of light plagiarism of my post here.\n\n bsky.app/profile/mrpo...\n\nEnjoy the OG post that may have inspired it.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreie5yykqafhrynhjtkneiky47ymuvnvpvel6l7rzza7pco7r6rfcfq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lesrsx74qs2x"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiek3ffysmghmfyq4ladozh62wpjrve5mlkpcxmpf5bfe46tkrv4fa",
+          "uri": "at://did:plc:xzuft553qhoydkusngwh5ppj/app.bsky.feed.post/3lfmnijrm2g2c"
+        },
+        "parent": {
+          "cid": "bafyreiek3ffysmghmfyq4ladozh62wpjrve5mlkpcxmpf5bfe46tkrv4fa",
+          "uri": "at://did:plc:xzuft553qhoydkusngwh5ppj/app.bsky.feed.post/3lfmnijrm2g2c"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 202,
+            "byteStart": 178
+          },
+          "features": [
+            {
+              "uri": "https://bsky.app/profile/mrpowershell.bsky.social/post/3lesrsx74qs2x",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-13T19:48:34.563Z"
+    },
+    "cid": "bafyreia3ei742f3j5zm4huce6pojgtrm4ea5cdwr4be2wppw5zeww5zqyq"
+  }
+}

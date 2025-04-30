@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735419046249,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lefexwnklc2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lefexwnklc2x",
+    "record": {
+      "text": "I'll grant you this....\n\n`Select-String` is slower than `grep`.\n\n`[regex]::matches` is much faster.\n\nPlus, #dotnet #regex has a few tricks up its sleeve that PCRE does not ( like balancing groups )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiggxfuosyuusdslta4bz6wzz73g2ptvzcin2ipvuptawl4wknricy",
+          "uri": "at://did:plc:bpmtx4nv56gasrya66xwxigw/app.bsky.feed.post/3leewjn7pxs2e"
+        },
+        "parent": {
+          "cid": "bafyreig25guf6bwkftdyiix3qiqkhcndz5zwf37ey6p74ycwtmrjwo3gpm",
+          "uri": "at://did:plc:mmtba3j4pesqdaifj2mfk3lr/app.bsky.feed.post/3lefdlxhnkc2o"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 114,
+            "byteStart": 107
+          },
+          "features": [
+            {
+              "tag": "dotnet",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 121,
+            "byteStart": 115
+          },
+          "features": [
+            {
+              "tag": "regex",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-28T20:50:46.249Z"
+    },
+    "cid": "bafyreiepeq6xjhmlgt6tvkin5esx6mkmj52czeabauhnrjgr7v33yspoyu"
+  }
+}

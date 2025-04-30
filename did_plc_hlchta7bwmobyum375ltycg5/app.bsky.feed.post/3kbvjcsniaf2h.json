@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1697490525650,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kbvjcsniaf2h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kbvjcsniaf2h",
+    "record": {
+      "text": "You can use the extended type system to make an object have an alias property to ID that says \"I'm this kind of ID\".\n\nAssuming, of course, that the commands already return a strong type.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig54cfangbi6g74pv5ymkyqr43ghuxlta5dvdets3knuuy3cl27pm",
+          "uri": "at://did:plc:zxta5pxqrqbz57z534dpgjp2/app.bsky.feed.post/3kbvdwr2t4r2t"
+        },
+        "parent": {
+          "cid": "bafyreiaqdzbi3hcpctyjpzbdqbusorblwv6c4tbjmnyhj4s5d7bu45cipy",
+          "uri": "at://did:plc:zxta5pxqrqbz57z534dpgjp2/app.bsky.feed.post/3kbvj5wetjj2v"
+        }
+      },
+      "createdAt": "2023-10-16T21:08:45.65Z"
+    },
+    "cid": "bafyreifc5odi42yuk36nmit2qmf7zaqveyxllvce5sqkz7bllzxnm2l5hq"
+  }
+}

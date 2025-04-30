@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741718137313,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lk4phhzaqk2g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lk4phhzaqk2g",
+    "record": {
+      "text": "You would be incorrect.\n\nPowerShell was an intentional attempt at making a terminal that had more power and logical consistency than a GUI.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiaocvaw6wrauwrrkl5bprgx3nszqtb2bz4xytlpqegjbpftmd6kyu",
+          "uri": "at://did:plc:tkm2lt4yscjio6gcfjzi4fmx/app.bsky.feed.post/3lk455nmrz22y"
+        },
+        "parent": {
+          "cid": "bafyreihb35rrzpkie5oalepmfqbg5pt6cfituggcgj5plof3tkn7ytnpum",
+          "uri": "at://did:plc:tkm2lt4yscjio6gcfjzi4fmx/app.bsky.feed.post/3lk45pxbsvk2y"
+        }
+      },
+      "createdAt": "2025-03-11T18:35:37.313Z"
+    },
+    "cid": "bafyreiewfxsee6v6kgrbe2plgup5o2liqhivxxu6qihdxbkadn5cxt22ae"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736367775887,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfaykbqgo22s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfaykbqgo22s",
+    "record": {
+      "text": "Even as someone who tries to be neurotic about their coding styles, you'll find this a lot.\n\nThere is no \"right\" way to PowerShell, but there are several ways that feel wrong and look ugly.\n\nIt's pretty subjective.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/iBy1lw4OZ_wAAAAC/big-lebowski-the-dude.gif?hh=300&ww=400",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreif3jdikotofkstymwknje3bmfcvjokzqtha7crhr4ot6twb3djzxy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 106009
+          },
+          "title": "a man in a bowling alley says \" yeah well that 's just like your opinion man . \"",
+          "description": "Alt: Lebowski does not know the right or wrong way to PowerShell."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigxy3go54dj3xewwgvmhwrftw4j53vx5cqgjoh2s3doyebija5dvi",
+          "uri": "at://did:plc:sli5nlsofwli3qspf7ethpgz/app.bsky.feed.post/3lfacoutvhk2y"
+        },
+        "parent": {
+          "cid": "bafyreihwlrjqx5axdmjla3njy67a2mwl2h7uhsjqx44odhnexeq4hsdmkq",
+          "uri": "at://did:plc:sli5nlsofwli3qspf7ethpgz/app.bsky.feed.post/3lfaxmugaj22y"
+        }
+      },
+      "createdAt": "2025-01-08T20:22:55.887Z"
+    },
+    "cid": "bafyreihtwwsx3vmul4xkcg4ggqzbrojaxyma4k57dxs3hczrko7aizul7a"
+  }
+}

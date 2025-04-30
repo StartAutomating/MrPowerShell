@@ -1,0 +1,42 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1694549995428,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k77wpjvubv2e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k77wpjvubv2e",
+    "record": {
+      "text": "Tomorrow Marks the first meeting of the Pacific PowerShell User Group.  We'll be talking about 'Intro to Modules' with Jeremy Watkins.",
+      "$type": "app.bsky.feed.post",
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 112,
+            "byteStart": 96
+          },
+          "features": [
+            {
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/295808366/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 58,
+            "byteStart": 40
+          },
+          "features": [
+            {
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-09-12T13:19:55.428364-07:00"
+    },
+    "cid": "bafyreico34v6bpee5zrrb577cfxivm3alxxmc7wcqxujf24xtvvklemu5e"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735769822425,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leplnuuuy42w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leplnuuuy42w",
+    "record": {
+      "text": "I argue that statistically speaking, they effectively are.\n\nBasically, it's:\n\nodds of it being a cybertruck * odds of it being there *\nodds of it blowing up\n\nThe odds of them being MAGA are irrelevant ( though I'd put them close to 💯 )\n\n#statistics are fun.\n\nThe driver's #NewYear, not so much.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreie5h4x3l5qflf4nkakhojgw3d53ep6p7zucnbpciszoqhix4p6kpa",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lepfcfojep25"
+        },
+        "parent": {
+          "cid": "bafyreidji64m2s63pwcnskvurhbcxbvljq5yh2p5ohtnbhzmojdk23fwwq",
+          "uri": "at://did:plc:vwzwgnygau7ed7b7wt5ux7y2/app.bsky.feed.post/3lepimophis2i"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 251,
+            "byteStart": 240
+          },
+          "features": [
+            {
+              "tag": "statistics",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 283,
+            "byteStart": 275
+          },
+          "features": [
+            {
+              "tag": "NewYear",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-01T22:17:02.425Z"
+    },
+    "cid": "bafyreif2lavovxy4t5i7yu5xsth4rdyusnourt22h36vs56hkx56gi2e44"
+  }
+}

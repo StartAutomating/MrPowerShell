@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733769234195,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcvehpbcls2y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcvehpbcls2y",
+    "record": {
+      "text": "You bet right.\n\nAnd this isn't as much of an insult as you think.\n\n#vscode is the bees knees once you get used to it.\n\n#powershell is overpowered and beautiful.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihu7klreoaltqaz5t5lramgcz4arx2nibethhxjt7ie5bxbqdte5y",
+          "uri": "at://did:plc:ep6lal34tprx4l5rv74ea45s/app.bsky.feed.post/3lcvao4rlcs2m"
+        },
+        "parent": {
+          "cid": "bafyreievakb7nhrqlr4lxeqg5vawew3wfm542d7qy6iaxzgh6idvucelme",
+          "uri": "at://did:plc:ep6lal34tprx4l5rv74ea45s/app.bsky.feed.post/3lcvb5xtoo22m"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 74,
+            "byteStart": 67
+          },
+          "features": [
+            {
+              "tag": "vscode",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 130,
+            "byteStart": 119
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-09T18:33:54.195Z"
+    },
+    "cid": "bafyreigmbjjpwhjcru7prmbos5sxhert6i3dspnlbqdwqvhmxplpv3eyj4"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741371299658,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ljsmgvtyck2d",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ljsmgvtyck2d",
+    "record": {
+      "text": "If you want to get a little faster, you can also use ansi escape sequences to move the cursor around during the console write.\n\nThis way, you can only draw / redraw the parts of the screen that change.\n\nThat's how PowerArcade sprites work.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihiitowi2qozufb4wcmoyf4ztehwqlxcihl2awdcg32wkimygb4hm",
+          "uri": "at://did:plc:cmyrib2ubhwg7aokqnze76n6/app.bsky.feed.post/3ljsclhuurc2t"
+        },
+        "parent": {
+          "cid": "bafyreihiitowi2qozufb4wcmoyf4ztehwqlxcihl2awdcg32wkimygb4hm",
+          "uri": "at://did:plc:cmyrib2ubhwg7aokqnze76n6/app.bsky.feed.post/3ljsclhuurc2t"
+        }
+      },
+      "createdAt": "2025-03-07T18:14:59.658Z"
+    },
+    "cid": "bafyreifdf3kv6w3t3cuzubusonyk3q3cwcfseddowy3ao2hyjzdxh4yzge"
+  }
+}

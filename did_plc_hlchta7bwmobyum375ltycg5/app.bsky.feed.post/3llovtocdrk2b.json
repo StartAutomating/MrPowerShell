@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1743442975926,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3llovtocdrk2b",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3llovtocdrk2b",
+    "record": {
+      "text": "Got some module updates out.\n\nNew bits of obs-powershell!\n\ngithub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/obs-powershell",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihlsqheqzatbjxtxn7gjfnebxtmdanyet5fc733scz2rbe7wpfsie"
+            },
+            "mimeType": "image/jpeg",
+            "size": 85146
+          },
+          "title": "GitHub - StartAutomating/obs-powershell: Script OBS with PowerShell",
+          "description": "Script OBS with PowerShell. Contribute to StartAutomating/obs-powershell development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifv24gcpfzeklgyszjyajgvwme6ucoemxdnqe4tw2t5m372izbjai",
+          "uri": "at://did:plc:munmkmorl6d57hkragyydlyh/app.bsky.feed.post/3llo4s7xn3s2m"
+        },
+        "parent": {
+          "cid": "bafyreifv24gcpfzeklgyszjyajgvwme6ucoemxdnqe4tw2t5m372izbjai",
+          "uri": "at://did:plc:munmkmorl6d57hkragyydlyh/app.bsky.feed.post/3llo4s7xn3s2m"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 85,
+            "byteStart": 59
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/obs-powershell",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-31T17:42:55.926Z"
+    },
+    "cid": "bafyreiadvnlcfwsey7jw2tfjiufgfs6tavpmyp3kopk5ucwc2wgc2uspru"
+  }
+}

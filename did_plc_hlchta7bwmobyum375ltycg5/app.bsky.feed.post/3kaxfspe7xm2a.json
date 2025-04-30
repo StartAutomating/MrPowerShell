@@ -1,0 +1,35 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1696456000290,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kaxfspe7xm2a",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kaxfspe7xm2a",
+    "record": {
+      "text": "PSA : PSA version 0.1.5 is out. Automate the At Protocol with PowerShell",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/PSA",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiaiea5ceqs7ufvtptm47bcbmagitpedbfpola47hgcb4fv657qmfi"
+            },
+            "mimeType": "image/png",
+            "size": 23555
+          },
+          "title": "GitHub - StartAutomating/PSA: PowerShell Announcements (with AtProtocol)",
+          "description": "PowerShell Announcements (with AtProtocol). Contribute to StartAutomating/PSA development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "createdAt": "2023-10-04T14:46:40.2900649-07:00"
+    },
+    "cid": "bafyreihe7pz7whzepqqaxgu4te54cv7m4qwyygrhoihre4kcrkyjktq4vu"
+  }
+}

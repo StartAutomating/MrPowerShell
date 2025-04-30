@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737756396913,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgjfsfx3ek2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgjfsfx3ek2s",
+    "record": {
+      "text": "Well, PowerShell might be built into Windows, but it's not \"Windows\".\n\nPowerShell Core is cross platform.\n\nIt's kinda an object-pipeline oriented OS within an OS.\n\nOr, in your metaphor, it's an emulsion layer that let oil and water mix.\n\nUse em both together and you can really get cooking.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreid2ahfmqss5moldvjao4wgblyghabqtibsm5edvqv4pzx5nutcj4u",
+          "uri": "at://did:plc:cupacm3nx4xoy5iciu6va6xc/app.bsky.feed.post/3lghyr236nc2z"
+        },
+        "parent": {
+          "cid": "bafyreihlwb54otez6glbkqle5j4lowbpnisatjagzldgsz7uozzi4feyda",
+          "uri": "at://did:plc:wlcscrzgvkm25oxbdjll5sbh/app.bsky.feed.post/3lgjek4vc7c2f"
+        }
+      },
+      "createdAt": "2025-01-24T22:06:36.913Z"
+    },
+    "cid": "bafyreigcrti3vdcefwkhjbxn7pgbfbuwvy5dxisk7rbwov37umkui4yt6q"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1709938430024,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kn7schfqsl2l",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kn7schfqsl2l",
+    "record": {
+      "text": "Flexibly Format with PowerShell\nhttps://github.com/StartAutomating/EZOut",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/EZOut",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicmzxfnz3uxopu5nwlc36f7jzgpz6iy2bu3pjjkaocgykltutmki4"
+            },
+            "mimeType": "image/png",
+            "size": 12282
+          },
+          "title": "GitHub - StartAutomating/EZOut: EZOut is a PowerShell module to help take the pain out of writing format and types XML",
+          "description": "EZOut is a PowerShell module to help take the pain out of writing format and types XML - StartAutomating/EZOut"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 72,
+            "byteStart": 32
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/EZOut",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 72,
+            "byteStart": 67
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/EZOut",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-03-08T14:53:50.0247243-08:00"
+    },
+    "cid": "bafyreiegofruvzej63qy2d3xcgc3bpjcg5djr43qce7vrxpklaiahtx4he"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736293408331,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lf6tbxcqb22h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lf6tbxcqb22h",
+    "record": {
+      "text": "This is actually a well known \"feature\" of client operating systems.\n\nFocused threads / apps get higher performance.\n\nIt's called \"The Gift of User Focus\"\n\nAnd you might not like it if it's gone.\n\n( Long story made short, that's part of what happened to Vista )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreih6huolmkgloiyw2rg2xck45ywhzzf7lbpgjw4kkqmlsflziibfjm",
+          "uri": "at://did:plc:yqhwoqprtrv7gnznpend6kvz/app.bsky.feed.post/3lf6ldcx3hc22"
+        },
+        "parent": {
+          "cid": "bafyreih6huolmkgloiyw2rg2xck45ywhzzf7lbpgjw4kkqmlsflziibfjm",
+          "uri": "at://did:plc:yqhwoqprtrv7gnznpend6kvz/app.bsky.feed.post/3lf6ldcx3hc22"
+        }
+      },
+      "createdAt": "2025-01-07T23:43:28.331Z"
+    },
+    "cid": "bafyreiawr33yrblobn5ojgyarnj6ujlktj6auf6dxug7s7zaje3prd7owi"
+  }
+}

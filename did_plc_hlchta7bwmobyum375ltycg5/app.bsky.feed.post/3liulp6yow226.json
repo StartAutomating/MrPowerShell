@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740339711791,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3liulp6yow226",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3liulp6yow226",
+    "record": {
+      "text": "Keep your secrets in a vault and use Get-Secret to get them only when needed.  Never hardcore then in a script. Never run as admin.\n\nThis will make anything that's potentially dangerous less likely to succeed.\n\nHave more thoughts, but that's the big one.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifnbrvuyzbsp7bvfnyk6tzuwm2ehplk5dvjipqsdq4qj2h2vf7cpi",
+          "uri": "at://did:plc:fsfhhyasd5h7754i4zat5q4f/app.bsky.feed.post/3liudkqypc22n"
+        },
+        "parent": {
+          "cid": "bafyreifnbrvuyzbsp7bvfnyk6tzuwm2ehplk5dvjipqsdq4qj2h2vf7cpi",
+          "uri": "at://did:plc:fsfhhyasd5h7754i4zat5q4f/app.bsky.feed.post/3liudkqypc22n"
+        }
+      },
+      "createdAt": "2025-02-23T19:41:51.791Z"
+    },
+    "cid": "bafyreid5eweptzfcpbf45nd3qti3sp7epxribun4uh7dpjvvqx6b5pibiq"
+  }
+}

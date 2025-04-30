@@ -1,0 +1,83 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740619161872,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lj4pxhecos2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lj4pxhecos2i",
+    "record": {
+      "text": "Yep.\n\nRelated side note:\n\n#Ollama is fun and free #AI\n\nollama.com",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://ollama.com/",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreib35uhpzzqjmuedcqe7znk7yscuxd7arz2b2jocpbxx3rda6g4tmq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 83184
+          },
+          "title": "Ollama",
+          "description": "Get up and running with large language models."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifvbcoebkqcqc4d3rshjxjfams73tuehtqhpn3aovcxdanraqkppy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lj4cyrhpls2p"
+        },
+        "parent": {
+          "cid": "bafyreiclquvzgg6oowboey3cw7yz2tn7tfdtwkhsyvznkon6myiu4u6veu",
+          "uri": "at://did:plc:a3yierchgwp2lvyontsragui/app.bsky.feed.post/3lj4ppn3hic2p"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 33,
+            "byteStart": 26
+          },
+          "features": [
+            {
+              "tag": "Ollama",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 53,
+            "byteStart": 50
+          },
+          "features": [
+            {
+              "tag": "AI",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 65,
+            "byteStart": 55
+          },
+          "features": [
+            {
+              "uri": "https://ollama.com/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-27T01:19:21.872Z"
+    },
+    "cid": "bafyreigg7jc62ws3u4mqzxqvo3c6gorrrnjvwazvhlnfu6zlhkv2lbksdi"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744084278940,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmbl3yj6f22m",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmbl3yj6f22m",
+    "record": {
+      "text": "Short answer : yes.\n\nThis social engineering vector is all the rage right now (and a big way supply chain attacks occur ).",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihxop4m7daizhu4q2qkwd6og7pjim75eaoxosqfmbmbzki7ndyuoi",
+          "uri": "at://did:plc:wgsnxwz2f6kwo6szjvgbpzda/app.bsky.feed.post/3lmbkiiihec2g"
+        },
+        "parent": {
+          "cid": "bafyreihxop4m7daizhu4q2qkwd6og7pjim75eaoxosqfmbmbzki7ndyuoi",
+          "uri": "at://did:plc:wgsnxwz2f6kwo6szjvgbpzda/app.bsky.feed.post/3lmbkiiihec2g"
+        }
+      },
+      "createdAt": "2025-04-08T03:51:18.94Z"
+    },
+    "cid": "bafyreichwrwyuh364a2vzyivknqxgihmzlcubpx4uistaslb5bd45ennca"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742840176625,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ll5egu3ras2j",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ll5egu3ras2j",
+    "record": {
+      "text": "Want to keep up on all things #AtProto?\n\nAlready missing #AtmosphereConf?\n\nI made a feed for AtProto content:\n\nbsky.app/profile/did:...\n\nThanks @graze.social !",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreie3v3o6x4vouetln7o3xygrjoholkimhxpvgbnme5hlqkaeych3e4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.generator/everything-atpr"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 38,
+            "byteStart": 30
+          },
+          "features": [
+            {
+              "tag": "AtProto",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 72,
+            "byteStart": 57
+          },
+          "features": [
+            {
+              "tag": "AtmosphereConf",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 135,
+            "byteStart": 111
+          },
+          "features": [
+            {
+              "uri": "https://bsky.app/profile/did:plc:hlchta7bwmobyum375ltycg5/feed/everything-atpr",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 157,
+            "byteStart": 144
+          },
+          "features": [
+            {
+              "did": "did:plc:i6y3jdklpvkjvynvsrnqfdoq",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-24T18:16:16.625Z"
+    },
+    "cid": "bafyreibt5jpvptuj3qhnwnysndvvmje6uhzfwdlord25j6iifetzjqmmve"
+  }
+}

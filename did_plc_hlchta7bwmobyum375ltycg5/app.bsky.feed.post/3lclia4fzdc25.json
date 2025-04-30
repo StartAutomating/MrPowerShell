@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733429677129,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lclia4fzdc25",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lclia4fzdc25",
+    "record": {
+      "text": "I go to Meta to find out what happened years ago, because that's how often I log into Meta.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidjys5glqn3cmei7foqs6akks556y3om3c7ioanyu7i6me3h3tjca",
+          "uri": "at://did:plc:3qptukurts456t6ug7me4o62/app.bsky.feed.post/3lckzbzmvbk2p"
+        },
+        "parent": {
+          "cid": "bafyreidjys5glqn3cmei7foqs6akks556y3om3c7ioanyu7i6me3h3tjca",
+          "uri": "at://did:plc:3qptukurts456t6ug7me4o62/app.bsky.feed.post/3lckzbzmvbk2p"
+        }
+      },
+      "createdAt": "2024-12-05T20:14:37.129Z"
+    },
+    "cid": "bafyreifslx6wzcm3edhs3izkajxhna4cejsqc3ubjc6w5vtfl5a35m77fq"
+  }
+}

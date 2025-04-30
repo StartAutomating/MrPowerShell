@@ -1,0 +1,57 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742716021547,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lkzqsqlbzs22",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lkzqsqlbzs22",
+    "record": {
+      "text": "The most amazing things about #AtmosphereConf so far:\n\n1. So many people making so much cool stuff on #AtProto\n2. How cool and kind the #BlueSky team has been with the community.\n3. How the talks have been so damn good almost nobody is on their laptop.\n\nCan't wait for day 2!",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 30
+          },
+          "features": [
+            {
+              "tag": "AtmosphereConf",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 110,
+            "byteStart": 102
+          },
+          "features": [
+            {
+              "tag": "AtProto",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 144,
+            "byteStart": 136
+          },
+          "features": [
+            {
+              "tag": "BlueSky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-23T07:47:01.547Z"
+    },
+    "cid": "bafyreieps4nchblvudd7wm7ekw57hcbke2ilacq4oo3d2eie27mmyaejdq"
+  }
+}

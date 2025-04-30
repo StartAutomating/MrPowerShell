@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734376453503,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldgzyapy2s25",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldgzyapy2s25",
+    "record": {
+      "text": "All different ways to get the same results.\n\nAfaik, the .net classes and  #powershell commands will always be there.  Whois is an optional download on windows.\n\nSo, lower footprint on windows.\n\nAlso, objects back instead of having to parse and pray.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic3eiaxnsxaavr5p3i3fo5qvc4npkcw6yuao73qvrq3544iho3m24",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldethmsp3k2m"
+        },
+        "parent": {
+          "cid": "bafyreibijq5x5r4di6o5waykjwauygxk2ulwsk7qaujhxvr5gmcvn2ltuq",
+          "uri": "at://did:plc:42dvgua7xqqbzkp2gfxhqnt5/app.bsky.feed.post/3ldgzsichgk2y"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 85,
+            "byteStart": 74
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-16T19:14:13.503Z"
+    },
+    "cid": "bafyreicqomytopom7y3exmh6epsro7eas2w5qku4hsroxpaxdbnug4cs4y"
+  }
+}

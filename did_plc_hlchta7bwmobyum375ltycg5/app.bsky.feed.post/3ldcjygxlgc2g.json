@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734221841215,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldcjygxlgc2g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldcjygxlgc2g",
+    "record": {
+      "text": "He worked on the c++ compiler at Microsoft back in the day.\n\n@lzybkr.bsky.social wanna toot your own horn a bit here ?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreih2uudx7mtgnbonkpdnm3mgxzpfix3pzncm7ra5zn46ifdvad3bjq",
+          "uri": "at://did:plc:iup5z7oeto4wtuztj7ud2rol/app.bsky.feed.post/3ldbfvkb5cs2i"
+        },
+        "parent": {
+          "cid": "bafyreie7eaho2kbwxokrdhervmmadwuy2qnbfo2gw7olwzn72a3xqhzhe4",
+          "uri": "at://did:plc:iup5z7oeto4wtuztj7ud2rol/app.bsky.feed.post/3ldcjv5lbec2n"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 80,
+            "byteStart": 61
+          },
+          "features": [
+            {
+              "did": "did:plc:nnxk7dbbefdmuywghhspu35y",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-15T00:17:21.215Z"
+    },
+    "cid": "bafyreihepoa5ntcn27j3ss3jnmkjlsjci3shpflgldlpqeffxvthrd57ta"
+  }
+}

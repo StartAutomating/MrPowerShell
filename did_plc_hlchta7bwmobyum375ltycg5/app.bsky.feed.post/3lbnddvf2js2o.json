@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732393643113,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbnddvf2js2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbnddvf2js2o",
+    "record": {
+      "text": "The Object Pipeline is so much more than that.  Don't knock it till you rock it.\n\nYou can also have objects without types... Few languages can be both strongly and weakly typed objects.\n\nThis lets you build more reusable code, that works cohesively across projects.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreigc6q46b5biouo4vo5kewidjs6gb52pmpl3h4qcswpdi755vx6w64",
+          "uri": "at://did:plc:z23mr6a4ydaga3mqlk6dwdcr/app.bsky.feed.post/3lbncpi3tqc2q"
+        }
+      },
+      "createdAt": "2024-11-23T20:27:23.113Z"
+    },
+    "cid": "bafyreidypgnhwbidxlz2n4a2gdhjcd2hy6a7qgnn7b6iytenn7qr66bdae"
+  }
+}

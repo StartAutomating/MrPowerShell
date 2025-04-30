@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735595367099,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lekj6pctok2h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lekj6pctok2h",
+    "record": {
+      "text": "This reminds me.... Anyone wanna help #hack the #rfid refill regulators used to cap refills at resorts?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibdu65fsovgqmrxwvs2ep7efmveoqibhtfpuhkslnpamkztrfdyoi",
+          "uri": "at://did:plc:xraomsuf6pvh7r2cqtdwhkvm/app.bsky.feed.post/3lekeffcek223"
+        },
+        "parent": {
+          "cid": "bafyreibdu65fsovgqmrxwvs2ep7efmveoqibhtfpuhkslnpamkztrfdyoi",
+          "uri": "at://did:plc:xraomsuf6pvh7r2cqtdwhkvm/app.bsky.feed.post/3lekeffcek223"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 43,
+            "byteStart": 38
+          },
+          "features": [
+            {
+              "tag": "hack",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 53,
+            "byteStart": 48
+          },
+          "features": [
+            {
+              "tag": "rfid",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-30T21:49:27.099Z"
+    },
+    "cid": "bafyreigkxwmktlt4shrwacnx6ip22a3ufnycfeks4m75wafkhjblgozf6u"
+  }
+}

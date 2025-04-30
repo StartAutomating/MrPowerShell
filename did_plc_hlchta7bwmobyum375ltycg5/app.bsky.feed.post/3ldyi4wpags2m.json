@@ -1,0 +1,79 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734975758702,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldyi4wpags2m",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldyi4wpags2m",
+    "record": {
+      "text": "Definitely both.\n\nBetter still if you're an expert in a few languages.\n\nI'm expert / master level #powershell, possibly expert level #csharp, maybe expert level #javascript, rusty ex-expert of #cplusplus\n\nAnd I dabble with too many languages to count.\n\nCross pollination helps understanding.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreib7742iqerdczwek6grkmpkogvgjoelcsefjeckiaibi5nont774i",
+          "uri": "at://did:plc:uawh2h2422ptnitympfhiiht/app.bsky.feed.post/3ldgf3wuse22g"
+        },
+        "parent": {
+          "cid": "bafyreib7742iqerdczwek6grkmpkogvgjoelcsefjeckiaibi5nont774i",
+          "uri": "at://did:plc:uawh2h2422ptnitympfhiiht/app.bsky.feed.post/3ldgf3wuse22g"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 98
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 140,
+            "byteStart": 133
+          },
+          "features": [
+            {
+              "tag": "csharp",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 172,
+            "byteStart": 161
+          },
+          "features": [
+            {
+              "tag": "javascript",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 203,
+            "byteStart": 193
+          },
+          "features": [
+            {
+              "tag": "cplusplus",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-23T17:42:38.702Z"
+    },
+    "cid": "bafyreidzffjicduovmcuichpxoy6ptf3gw2oxzqrfbb7kwppf6g3aixuaa"
+  }
+}

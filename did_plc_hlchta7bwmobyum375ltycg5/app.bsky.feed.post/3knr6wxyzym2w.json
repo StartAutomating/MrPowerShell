@@ -1,0 +1,61 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1710536101981,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3knr6wxyzym2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3knr6wxyzym2w",
+    "record": {
+      "text": "I'm trying for 2400 #GitHub contributions this year and am loving how easy the mental math is.\n\nAlso loving being a bit ahead of schedule (for now)\n\ngithub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating?tab=overview&from=2024-03-01&to=2024-03-15",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibqav32fd735wzdmluu3n5pn52prciechxb4pinwwmxjey6iphew4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 111171
+          },
+          "title": "StartAutomating - Overview",
+          "description": "Microsoft MVP in Azure / PowerShell. StartAutomating has 65 repositories available. Follow their code on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 27,
+            "byteStart": 20
+          },
+          "features": [
+            {
+              "tag": "GitHub",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 175,
+            "byteStart": 149
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating?tab=overview&from=2024-03-01&to=2024-03-15",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-03-15T20:55:01.981Z"
+    },
+    "cid": "bafyreifftdmoswtsc63s4s3xixfbkvauqcivde3em5q5m6ybrg73ncbmvi"
+  }
+}

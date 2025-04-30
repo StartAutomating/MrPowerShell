@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738008643413,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgqqpwxc322h",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgqqpwxc322h",
+    "record": {
+      "text": "I say we go fully geek and begin using kb/mb to list follower counts.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibj5lmtzbz5pkfn5d4o5ihzdb4a5gqryy4zcv4cdij63fsh6tcfce",
+          "uri": "at://did:plc:bpotnohnlgcj3fbmp7ugx4en/app.bsky.feed.post/3lgpcsi5sd22r"
+        },
+        "parent": {
+          "cid": "bafyreibj5lmtzbz5pkfn5d4o5ihzdb4a5gqryy4zcv4cdij63fsh6tcfce",
+          "uri": "at://did:plc:bpotnohnlgcj3fbmp7ugx4en/app.bsky.feed.post/3lgpcsi5sd22r"
+        }
+      },
+      "createdAt": "2025-01-27T20:10:43.413Z"
+    },
+    "cid": "bafyreictch4zydzcjwyrptod6dzg3nrxb3v5dlmid2riesj6zobqfn6u3m"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737226242159,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfzy2kxvhk2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfzy2kxvhk2o",
+    "record": {
+      "text": "I suppose I'm suggesting we needn't limit them all to one character.\n\nYou can use `[]@$+-!` as long as they're not the first character.\n\nAnd you can technically use them all if you use backticks (that feels more wrong though )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibl3xlzqr7q5qk2iafpypj4eurgnloxdsknuutklftr3ujsinm3yu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lctko2hugc2q"
+        },
+        "parent": {
+          "cid": "bafyreidmvuztnap44fkordv6jmxu3jri4trwlfx236qtzhwy45f4rqczia",
+          "uri": "at://did:plc:r44htesoaciiqfqbt2esglhs/app.bsky.feed.post/3lfzxucyfbs2s"
+        }
+      },
+      "createdAt": "2025-01-18T18:50:42.159Z"
+    },
+    "cid": "bafyreihbbczkl7wstehdwd6iiveyt5ojw6hjj3o734z7sy6edmq5i65m34"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734220387993,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldcin52lhc2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldcin52lhc2s",
+    "record": {
+      "text": "It's actually a very interesting attempt at #phishing and #hacking using #socialengineering.  \n\nMake so much bad code that it's hard to spot you're going to be #p0wnd.\n\nPublic Service Announcement: @seheyah.bsky.social is trying to #hack you.  Please do not let them.\n\n@support.bsky.team",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihud2pa2w3zrkohp4sir5xbsvrdopdq477qmbzk7l5frxqiatbs6q",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldci5jghdk2s"
+        },
+        "parent": {
+          "cid": "bafyreihud2pa2w3zrkohp4sir5xbsvrdopdq477qmbzk7l5frxqiatbs6q",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldci5jghdk2s"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 53,
+            "byteStart": 44
+          },
+          "features": [
+            {
+              "tag": "phishing",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 66,
+            "byteStart": 58
+          },
+          "features": [
+            {
+              "tag": "hacking",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 91,
+            "byteStart": 73
+          },
+          "features": [
+            {
+              "tag": "socialengineering",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 166,
+            "byteStart": 160
+          },
+          "features": [
+            {
+              "tag": "p0wnd",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 218,
+            "byteStart": 198
+          },
+          "features": [
+            {
+              "did": "did:plc:7c67jbty3jszjqxygo5lkbao",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 237,
+            "byteStart": 232
+          },
+          "features": [
+            {
+              "tag": "hack",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 287,
+            "byteStart": 269
+          },
+          "features": [
+            {
+              "did": "did:plc:oc6vwdlmk2kqyida5i74d3p5",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-14T23:53:07.993Z"
+    },
+    "cid": "bafyreiekcep4rw7njubv7uyj7kv3m2slxnby4dej6ye6i3yjv4pqyzxvdi"
+  }
+}

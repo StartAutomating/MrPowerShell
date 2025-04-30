@@ -1,0 +1,67 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737926107760,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgodu6t3g22u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgodu6t3g22u",
+    "record": {
+      "text": "This would be possible to do in #realtime with #atproto and replies.  Basically let them tag any number of accounts and match the question / answer.\n\nAfter it airs: same deal for scoring the quiz, just without a time limit.\n\nShould be a simple enough #powershell script.\n\nWill write one up and try.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiffixwamfwdnycdchht25coyt7qzw2jml2cirxof4i7ojs4juulda",
+          "uri": "at://did:plc:kqbyr4gqt6p2l57htlsa4nha/app.bsky.feed.post/3lgobj573qk2o"
+        },
+        "parent": {
+          "cid": "bafyreiffixwamfwdnycdchht25coyt7qzw2jml2cirxof4i7ojs4juulda",
+          "uri": "at://did:plc:kqbyr4gqt6p2l57htlsa4nha/app.bsky.feed.post/3lgobj573qk2o"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 41,
+            "byteStart": 32
+          },
+          "features": [
+            {
+              "tag": "realtime",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 55,
+            "byteStart": 47
+          },
+          "features": [
+            {
+              "tag": "atproto",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 262,
+            "byteStart": 251
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-26T21:15:07.76Z"
+    },
+    "cid": "bafyreibe7fpbp6jqb4i2drw3spssqiud5eqbvxvb5hl75rab22sqjiq7xq"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734026240694,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld4tt3r6sc24",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ld4tt3r6sc24",
+    "record": {
+      "text": "Because it's easier for most users.\n\nCase sensitivity is one of the most painful parts of coding ( especially for beginners ).\n\n#PowerShell was designed to be easier than other shells.\n\nCase insensitivity is part of this.\n\nBe warned: PowerShell may not care about case, but other things will.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiejjw4m6tznyfh3w3vkffnwj2k425wvy7dwvrosw577auabalblxq",
+          "uri": "at://did:plc:7ac2co53xccezu4fpkfvsfwp/app.bsky.feed.post/3ld4tc3wrts2l"
+        },
+        "parent": {
+          "cid": "bafyreiejjw4m6tznyfh3w3vkffnwj2k425wvy7dwvrosw577auabalblxq",
+          "uri": "at://did:plc:7ac2co53xccezu4fpkfvsfwp/app.bsky.feed.post/3ld4tc3wrts2l"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 139,
+            "byteStart": 128
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-12T17:57:20.694Z"
+    },
+    "cid": "bafyreiax5izynbjsaied3vjcouuimzxxtkwumky7xgnu5h4usvrmwkojni"
+  }
+}

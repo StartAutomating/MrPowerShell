@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734734915635,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldrhtau3ts2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldrhtau3ts2s",
+    "record": {
+      "text": "As so you should.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiezwn6gyehgmt7y7wlfwhjrskwj25lbcgxqrkwshwjm2o3pqawjey",
+          "uri": "at://did:plc:3s4tsao4iantqn5rmk42lkl4/app.bsky.feed.post/3ldr4blvszk2v"
+        },
+        "parent": {
+          "cid": "bafyreiezwn6gyehgmt7y7wlfwhjrskwj25lbcgxqrkwshwjm2o3pqawjey",
+          "uri": "at://did:plc:3s4tsao4iantqn5rmk42lkl4/app.bsky.feed.post/3ldr4blvszk2v"
+        }
+      },
+      "createdAt": "2024-12-20T22:48:35.635Z"
+    },
+    "cid": "bafyreigc6hqg75zw7hje2ofbuskxbm4ajhy7ivmy2jsqmjvanhjswy735y"
+  }
+}

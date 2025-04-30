@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1695082034483,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k7pg7nf35k2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k7pg7nf35k2u",
+    "record": {
+      "text": "What's _really_ wild about this, IMO, is that ChatGPT adds img alt metadata with the lyrics.\n\nI'm just sitting here at my terminal, trying out using PSA github.com/StartAutomat...\nto view my feed and I start seeing full song lyrics and am like \"wtf / this is great!\"\n\nHappy side-effect!",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "As for crazy bonus points, it obviously appears that alt text can hold much more data than a post on the at protocol.\n\nThis can only lead to fun trouble ;->)",
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiakirvgyopce45ls5ad7ofraywhc7twwgiydvqm2bdwqcsbutzjpi"
+              },
+              "mimeType": "image/jpeg",
+              "size": 282729
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibke4fulfumspiwomregjcdz5xht3k2jaghfohafyd5ubnjvzcasq",
+          "uri": "at://did:plc:oqmead6vafy6py7otaam7whk/app.bsky.feed.post/3k7o4yy7uih26"
+        },
+        "parent": {
+          "cid": "bafyreiavhtfn4jxfncaibizpjonj4wfivqbgoioc5bav2n5gted5klseiy",
+          "uri": "at://did:plc:oqmead6vafy6py7otaam7whk/app.bsky.feed.post/3k7o5nyqenk2c"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 179,
+            "byteStart": 153
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/PSA",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-09-19T00:07:14.483Z"
+    },
+    "cid": "bafyreiagvelld7ztf2sa6q7ptj4x4kmz42teh3cj3wh22ecj7pshznl7py"
+  }
+}

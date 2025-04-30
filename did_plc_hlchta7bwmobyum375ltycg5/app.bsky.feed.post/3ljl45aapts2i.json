@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741113276979,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ljl45aapts2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ljl45aapts2i",
+    "record": {
+      "text": "AV will scan scripts as they try to load ( on Windows)\n\nIf a module touches multiple files, it will load slower.\n\nCan't speak to the icon pack or fzf, but, I'd try running -noprofile to get a sense of how much this is slowing stuff down.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiew4fuc6upjh2pgbhezmc7auduy6v3vtxcogh2g5g3p7pakm4hvd4",
+          "uri": "at://did:plc:3ezyph3rwsv423umnyue5wfi/app.bsky.feed.post/3ljkn356khk25"
+        },
+        "parent": {
+          "cid": "bafyreidygkwmsdp653ekfzkzaeipf6bsbrn33thokpucqrsgankzetptuu",
+          "uri": "at://did:plc:3ezyph3rwsv423umnyue5wfi/app.bsky.feed.post/3ljl3ursp522t"
+        }
+      },
+      "createdAt": "2025-03-04T18:34:36.979Z"
+    },
+    "cid": "bafyreigp2phwwvcsdj5j3j5fkkqzsypzoepcu66nc26choadfeiskcho4e"
+  }
+}

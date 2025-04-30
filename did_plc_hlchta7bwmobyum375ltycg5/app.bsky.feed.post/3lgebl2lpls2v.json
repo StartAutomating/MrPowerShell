@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737580056468,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgebl2lpls2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgebl2lpls2v",
+    "record": {
+      "text": "I was thinking of starting to do this with aliases. ( Feedback welcome )\n\nDon't think I'm gonna overly concern myself with all the private modules out there that may have a conflict.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibwewqs47men6jhfzg632dlze3l6fbpi36644aauxulcjdal45hba",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lge6hnhcak2v"
+        },
+        "parent": {
+          "cid": "bafyreicfz4n2hvzhp4o4ob37z66wjaxetgv6n35uy3ddqpgpdgjldkfk7u",
+          "uri": "at://did:plc:5iasteyttnfjalqkrflctzpy/app.bsky.feed.post/3lge73cvg3s2q"
+        }
+      },
+      "createdAt": "2025-01-22T21:07:36.468Z"
+    },
+    "cid": "bafyreie5tc2ik4m2lhoxupulicfza52tjlhbl4uxqlzxes5nruyugysjb4"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740536427272,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lj2cvrirsk2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lj2cvrirsk2w",
+    "record": {
+      "text": "Lol I guess you could open up an issue / PR for the WebSocket module.\n\nReally didn't think of this scenario, but happy to help cover it.\n\ngithub.com/PowerShellWe...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/PowerShellWeb/WebSocket",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreig7qbkifxmqasdkxucznnzapdxhzi2mn7llvvlblcbwocr3vrfeca"
+            },
+            "mimeType": "image/jpeg",
+            "size": 161339
+          },
+          "title": "GitHub - PowerShellWeb/WebSocket: Work with WebSockets in PowerShell",
+          "description": "Work with WebSockets in PowerShell. Contribute to PowerShellWeb/WebSocket development by creating an account on GitHub."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreib4azkxvtlmknd3ukm3xkl6buerxqofe6htp6zluj3qo2olnqb62y",
+          "uri": "at://did:plc:a3yierchgwp2lvyontsragui/app.bsky.feed.post/3lj2abnexdk26"
+        },
+        "parent": {
+          "cid": "bafyreib4azkxvtlmknd3ukm3xkl6buerxqofe6htp6zluj3qo2olnqb62y",
+          "uri": "at://did:plc:a3yierchgwp2lvyontsragui/app.bsky.feed.post/3lj2abnexdk26"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 164,
+            "byteStart": 138
+          },
+          "features": [
+            {
+              "uri": "https://github.com/PowerShellWeb/WebSocket",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-26T02:20:27.272Z"
+    },
+    "cid": "bafyreiaqmn2uajjjl3lnffamwp3qq5azyod4uqs7itnt7mxw5ix7k35yo4"
+  }
+}

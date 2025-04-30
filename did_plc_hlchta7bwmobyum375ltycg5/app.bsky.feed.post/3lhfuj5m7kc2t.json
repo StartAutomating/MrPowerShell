@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738734264979,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhfuj5m7kc2t",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lhfuj5m7kc2t",
+    "record": {
+      "text": "You know, until recently I didn't know LinkedIn even had blocks.\n\nSeems like they deserved it.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieu6kxnhffhcjtdr5iy2zw4hl7agqpvcnxcudjn426t4oxfd7n3xq",
+          "uri": "at://did:plc:hjx4vtoryubvqa4vy6xuliy7/app.bsky.feed.post/3lhftmcaj6k2h"
+        },
+        "parent": {
+          "cid": "bafyreieu6kxnhffhcjtdr5iy2zw4hl7agqpvcnxcudjn426t4oxfd7n3xq",
+          "uri": "at://did:plc:hjx4vtoryubvqa4vy6xuliy7/app.bsky.feed.post/3lhftmcaj6k2h"
+        }
+      },
+      "createdAt": "2025-02-05T05:44:24.979Z"
+    },
+    "cid": "bafyreigcslkgtpvztl3wls56e7ngmjdcq3brx35mgxtpml2uea4txgscyi"
+  }
+}

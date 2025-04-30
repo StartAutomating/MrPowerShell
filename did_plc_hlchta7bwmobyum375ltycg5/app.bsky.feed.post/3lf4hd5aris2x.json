@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736211843735,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lf4hd5aris2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lf4hd5aris2x",
+    "record": {
+      "text": "Good to know!\n\nA couple of quick suggestions both perf related.\n\n1. `Foreach ()` is faster than `Foreach-Object`\n2. `$executionContext.sessionstate.psvariable.get('var').value` is much faster than `Get-Variable`\n\nGreat work!",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifg346tu7gfwawpulpnbpkx2k4q7smzcycchas4flj6agy5atcbw4",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3lf3y6jt32k2u"
+        },
+        "parent": {
+          "cid": "bafyreifg346tu7gfwawpulpnbpkx2k4q7smzcycchas4flj6agy5atcbw4",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3lf3y6jt32k2u"
+        }
+      },
+      "createdAt": "2025-01-07T01:04:03.735Z"
+    },
+    "cid": "bafyreibo6e3znstvxbzrndwgl3dmde3e54vx7e74uaa2zuwzg7cv63xzhu"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744047476619,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmait73gsk24",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmait73gsk24",
+    "record": {
+      "text": "Btw @stevenjudd.bsky.social  and I did a presentation on the topic earlier this year.\n\nCheck it out on YouTube if you'd like.\n\nyoutu.be/xhJQB6szWFE?...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://youtu.be/xhJQB6szWFE?si=nf2u4-Yww6lmAGa7",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreia2z6lmljxsqixdfpykattdjkf42mp5ilnkryniyebcl6pax2mxyy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 42569
+          },
+          "title": "PowerShell Case Sensitivity Training",
+          "description": "YouTube video by StartAutomating"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreif7sgbupgsvy7d6fjpyiosunkafovfsk4j6ia5ppdtfgaljibgj3m",
+          "uri": "at://did:plc:x47ddi454a4x2j4mu5pmtuyc/app.bsky.feed.post/3lm7mzvr7v22m"
+        },
+        "parent": {
+          "cid": "bafyreifxqqskowx2ev7uioe52f75nzyk4t5upvs72dezthn6jk3u55bjtm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmai7uxxh222"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 27,
+            "byteStart": 4
+          },
+          "features": [
+            {
+              "did": "did:plc:gwzlu5twwpnddrdx74se7ddn",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 151,
+            "byteStart": 127
+          },
+          "features": [
+            {
+              "uri": "https://youtu.be/xhJQB6szWFE?si=nf2u4-Yww6lmAGa7",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-07T17:37:56.619Z"
+    },
+    "cid": "bafyreibaura4ubfjziu67i2nkbe6gztnptp5aybccoysz7mggauvaa6fcq"
+  }
+}

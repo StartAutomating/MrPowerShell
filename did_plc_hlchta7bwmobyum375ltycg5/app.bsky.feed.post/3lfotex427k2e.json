@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736843264587,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfotex427k2e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfotex427k2e",
+    "record": {
+      "text": "@seeminglyscience.com is truly a legend.\n\nAnd I don't see anything wrong with being a COM proponent 😁",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreie7g35ypq6f5tpuhh6naqstpmhpx4zr2htyr76qyjfi7oga3dgzm4",
+          "uri": "at://did:plc:esbc722g7bm4ly7b2mg7ba6m/app.bsky.feed.post/3lfnsgwpebs2j"
+        },
+        "parent": {
+          "cid": "bafyreihilw4a25eagu23l4fc2ghkbgp2q4kal5srpdumijfufwcuh3mn6a",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3lfot47cy622l"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 21,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "did": "did:plc:33jh6d5q5cxbifd6vqpncvgb",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-14T08:27:44.587Z"
+    },
+    "cid": "bafyreihspsvh5yftkgaen7h3spg25tpal72jmbij2mw77fqxuke2q4tfsm"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735259668859,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leaqk4jl6k2t",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leaqk4jl6k2t",
+    "record": {
+      "text": "Just a little random #color generator in #powershell:\n\n~~~PowerShell\n\"#$('{0:x6}' -f (Get-Random -Maximum 0xFFFFFF))\"\n~~~\n\ngist.github.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://gist.github.com/StartAutomating/121a2685c919915e4b96a82e5817a3f3",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreialjfbvjmblgykiooldgd2f3gmv2hki2sjiofn7hm7imj53ituydi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 121763
+          },
+          "title": "Gist a little random color generator in PowerShell",
+          "description": "Gist a little random color generator in PowerShell - GetRandomColor.ps1"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 27,
+            "byteStart": 21
+          },
+          "features": [
+            {
+              "tag": "color",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 52,
+            "byteStart": 41
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 154,
+            "byteStart": 123
+          },
+          "features": [
+            {
+              "uri": "https://gist.github.com/StartAutomating/121a2685c919915e4b96a82e5817a3f3",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-27T00:34:28.859Z"
+    },
+    "cid": "bafyreidhmjeoyk3l7w2jpgvia7baquulkdtgd2epe2jfghb5h6wiqzlbna"
+  }
+}

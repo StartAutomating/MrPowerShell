@@ -1,0 +1,53 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736112785456,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lezl2xwqe225",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lezl2xwqe225",
+    "record": {
+      "text": "At least one bit of the #powershell merchandising experiment has arrived!\n\nI think it came out nicely.  What do you think?\n\nNow the owner of a PowerShell Little Black Book.\n\nAm I the only one who thinks that the PowerShell Chevron works way better without an underbar in the front?",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "My PowerShell little black book.",
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreic2tew6bhg7kpc27nsbdxlrsgaq23fozo5ri4rhltpomoaozmlsyq"
+              },
+              "mimeType": "image/jpeg",
+              "size": 818021
+            },
+            "aspectRatio": {
+              "width": 1505,
+              "height": 2000
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 35,
+            "byteStart": 24
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-05T21:33:05.456Z"
+    },
+    "cid": "bafyreigumknvcl5q6g76yfhjtxkoy5i4pdpb6bsqhfv26yi5jrncivgnxu"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733420470665,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcl7nqgyu225",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcl7nqgyu225",
+    "record": {
+      "text": "*peeks out from under a pile of NDAs*",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihhemfrmeuqecxxz3ktlm7ebqdx3rkiswsll3futcbptrwafwjn6q",
+          "uri": "at://did:plc:z2rokxrttw5254hogmucux2x/app.bsky.feed.post/3lckb4qd2ws2d"
+        },
+        "parent": {
+          "cid": "bafyreihhemfrmeuqecxxz3ktlm7ebqdx3rkiswsll3futcbptrwafwjn6q",
+          "uri": "at://did:plc:z2rokxrttw5254hogmucux2x/app.bsky.feed.post/3lckb4qd2ws2d"
+        }
+      },
+      "createdAt": "2024-12-05T17:41:10.665Z"
+    },
+    "cid": "bafyreieq5an6e3ztyuzp4cb5q5yknbtzumrbbzhcq37kuj3wggk6miu7qe"
+  }
+}

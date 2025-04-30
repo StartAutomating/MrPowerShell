@@ -1,0 +1,65 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732785220530,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbypzspkqs2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbypzspkqs2v",
+    "record": {
+      "text": "Just wondering where else on earth it gets more #foggy than #seattle.\n\nSide by side comparisons welcome.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "Foggy Thanksgiving",
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreietbqnskji337bfvmrqq7owew3qtd54ype3ekyj4cpceguovx4dbi"
+              },
+              "mimeType": "image/jpeg",
+              "size": 550377
+            },
+            "aspectRatio": {
+              "width": 2000,
+              "height": 1505
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 54,
+            "byteStart": 48
+          },
+          "features": [
+            {
+              "tag": "foggy",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 68,
+            "byteStart": 60
+          },
+          "features": [
+            {
+              "tag": "seattle",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-28T09:13:40.53Z"
+    },
+    "cid": "bafyreidoab7qh4z2gmdobpdgtbwoztl3e3lzywhn2xtfe7p32q3vki5da4"
+  }
+}

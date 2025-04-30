@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733515488147,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcny5i6hls2r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcny5i6hls2r",
+    "record": {
+      "text": "👍🥰\n\nLove the rationale.... Might need to start rotating some languages like #python and #javascript into my \"at least once a week\" rotation.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidsiekpxn23zwvu42thmrgfgwmva4ofupd42ult4b36vwtd7cmmmy",
+          "uri": "at://did:plc:fbtvg6jxtdroidfvq5z635xu/app.bsky.feed.post/3lcm6sn2jat2m"
+        },
+        "parent": {
+          "cid": "bafyreibsnbn47nmheslkx2gc3mkhv6jdby4myomce5gl23t4qieudbu63i",
+          "uri": "at://did:plc:hjx4vtoryubvqa4vy6xuliy7/app.bsky.feed.post/3lcnxqw77l22t"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 89,
+            "byteStart": 82
+          },
+          "features": [
+            {
+              "tag": "python",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 105,
+            "byteStart": 94
+          },
+          "features": [
+            {
+              "tag": "javascript",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-06T20:04:48.147Z"
+    },
+    "cid": "bafyreid5nhww5w7ihvif5ksvfbwwq4bwyiho3h6cb7hvrqdjefxstvnhmm"
+  }
+}

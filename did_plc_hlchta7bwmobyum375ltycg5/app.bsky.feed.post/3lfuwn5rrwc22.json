@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737052919685,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfuwn5rrwc22",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfuwn5rrwc22",
+    "record": {
+      "text": "Exactly!  Better to just take a ScriptBlock and call it a day.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreicmucv3cf4g5hp42v2c2npdfuknpi6alvjmrdudcxbln6pxw56cny",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfutxa5c3k22"
+        },
+        "parent": {
+          "cid": "bafyreifeqt7ahjndzqzzkuegl4safntsiwhhbq6bvh5uyeuuubqpw5ilxa",
+          "uri": "at://did:plc:r44htesoaciiqfqbt2esglhs/app.bsky.feed.post/3lfuwhdwock25"
+        }
+      },
+      "createdAt": "2025-01-16T18:41:59.685Z"
+    },
+    "cid": "bafyreieys457xi7fjci2uo5k6um5cug7fmitov654fneegi72hbettp5jm"
+  }
+}

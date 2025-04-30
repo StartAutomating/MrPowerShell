@@ -1,0 +1,107 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736232133578,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lf527t5nck2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lf527t5nck2i",
+    "record": {
+      "text": "If you want to spend some time / effort to make it into a module, that would be cool.\n\nI'd also take an issue / PR into this project that does some similar #powershell #media #ffmpeg #video manipulation things.\n\ngithub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/RoughDraft",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieqcvtmgciut4dby37gne6u262x43d53c4xs3x3fnstvyxh6pexni"
+            },
+            "mimeType": "image/jpeg",
+            "size": 65379
+          },
+          "title": "GitHub - StartAutomating/RoughDraft: A Fun PowerShell Module for Multimedia (using FFMpeg)",
+          "description": "A Fun PowerShell Module for Multimedia (using FFMpeg) - StartAutomating/RoughDraft"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigedkul2c43rykpai4qhnyziyknhdqfrvvashrul75ht2qj4jwlwy",
+          "uri": "at://did:plc:usne5y6dquo3ur4dqrkvezed/app.bsky.feed.post/3lf4yxqxkg226"
+        },
+        "parent": {
+          "cid": "bafyreichtbbs5tq6rxjergdzq32lcgbvmgrl4l5ukuv4qvleey52amnruq",
+          "uri": "at://did:plc:usne5y6dquo3ur4dqrkvezed/app.bsky.feed.post/3lf522yswak2k"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 167,
+            "byteStart": 156
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 174,
+            "byteStart": 168
+          },
+          "features": [
+            {
+              "tag": "media",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 182,
+            "byteStart": 175
+          },
+          "features": [
+            {
+              "tag": "ffmpeg",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 189,
+            "byteStart": 183
+          },
+          "features": [
+            {
+              "tag": "video",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 238,
+            "byteStart": 212
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/RoughDraft",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-07T06:42:13.578Z"
+    },
+    "cid": "bafyreibouwlxsk5rkz2zi7okkkcmuenk34a3sw2vzxn4jm5xwgclbnaugi"
+  }
+}

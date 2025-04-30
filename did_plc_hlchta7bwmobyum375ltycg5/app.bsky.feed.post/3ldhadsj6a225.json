@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734383283705,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldhadsj6a225",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldhadsj6a225",
+    "record": {
+      "text": "Yep, and, if you wanted to do this 10-100 times, and produce a report of all of the IP addresses it was mapped to, it would be faster to already have objects.\n\nIf you wanted to produce WhoIs data for the URL, like official owner, you'd have to parse that tool's outputs.\n\nObjects -gt txt.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic3eiaxnsxaavr5p3i3fo5qvc4npkcw6yuao73qvrq3544iho3m24",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldethmsp3k2m"
+        },
+        "parent": {
+          "cid": "bafyreih7bq5bbiwrzd5nizmjel6mp7x4toufhbr3jc5rt24eggx3nu54qy",
+          "uri": "at://did:plc:42dvgua7xqqbzkp2gfxhqnt5/app.bsky.feed.post/3ldha4emgsk2y"
+        }
+      },
+      "createdAt": "2024-12-16T21:08:03.705Z"
+    },
+    "cid": "bafyreibkm4ypvtltfukqlrkk44gemqpgjxmd6muwl74kmoyqajjjbvu44e"
+  }
+}

@@ -18,11 +18,21 @@ $myPosts = $myPostFiles |
 filter toUri {
     $data = $_
     $recordType = @($data.commit.record.'$type' -split '\.')[-1]
-    "https://bsky.app/profile/$($data.did)/$recordType/$($data.commit.rkey)/"
+    "https://bsky.app/profile/$($data.did)/$recordType/$($data.commit.rkey)"
 }    
 
-"<div style='text-align: center'>"
-foreach ($post in $myPosts) {         
+@"
+<style>
+.imageGrid {
+    display: grid;    
+    text-align: center;    
+}
+</style>
+"@
+
+"<div class='imageGrid'>"
+foreach ($post in $myPosts) {
+    "<div>"
     $myPostUri = $post.commit.record.embed.external.uri -as [uri]
     $description = $post.commit.record.embed.external.description
     if ($myPostUri.DnsSafeHost -eq 'media.tenor.com') {
@@ -33,5 +43,6 @@ foreach ($post in $myPosts) {
         }) /></a>
         <br/>"
     }
+    "</div>"
 }
 "</div>"

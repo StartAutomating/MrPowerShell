@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1738172218806,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lgvj2um4sc2a",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lgvj2um4sc2a",
+    "record": {
+      "text": "Yep.\n\nVerbs are pseudo standards, and it would be very unwise to treat them as actual contracts.\n\nEspecially Format-Volume.\n\nLuckily it doesn't support `-InputObject` 😉",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidhxxiskbrkki3pnszow6gobhbbf6s2gbmebdq42q4hzvcnatyu44",
+          "uri": "at://did:plc:kuibdodm3gsr23cesx6q52ph/app.bsky.feed.post/3lgvfjprcjc25"
+        },
+        "parent": {
+          "cid": "bafyreidhxxiskbrkki3pnszow6gobhbbf6s2gbmebdq42q4hzvcnatyu44",
+          "uri": "at://did:plc:kuibdodm3gsr23cesx6q52ph/app.bsky.feed.post/3lgvfjprcjc25"
+        }
+      },
+      "createdAt": "2025-01-29T17:36:58.806Z"
+    },
+    "cid": "bafyreihcc46cqtjkganfzp32asyxjdazc6wi563nyhvm2z2ui6eylyleye"
+  }
+}

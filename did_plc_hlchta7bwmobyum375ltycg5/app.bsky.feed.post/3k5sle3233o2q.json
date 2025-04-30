@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1692991612704,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k5sle3233o2q",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k5sle3233o2q",
+    "record": {
+      "text": "Honestly, stuff as low level as \"links in the Taskbar\" is probably something no engineer at Microsoft touches on a daily basis.\n\nSpeaking as an ex-Windows team member, there are many mysterious places, deep in the stack, that only get updated if something breaks.\n\nSo I don't think it's intentional.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreielwf5qheaucmo44d7vvhzhezbyaszlfbrd2ga5bonrffxsfnpkv4",
+          "uri": "at://did:plc:5hm6gmnwxrtuam33otszl6bf/app.bsky.feed.post/3k5skthnmi222"
+        },
+        "parent": {
+          "cid": "bafyreicg66mof6svtlogf3nmjs45pmmtu2luitt5t2ftpycdr2vfsnbvza",
+          "uri": "at://did:plc:5hm6gmnwxrtuam33otszl6bf/app.bsky.feed.post/3k5sl4hhidf2q"
+        }
+      },
+      "createdAt": "2023-08-25T19:26:52.704Z"
+    },
+    "cid": "bafyreigsuiqiwlnvw3dutcc7a2mke5zwfh3xu6nxi7knz5igppf7bonqxm"
+  }
+}

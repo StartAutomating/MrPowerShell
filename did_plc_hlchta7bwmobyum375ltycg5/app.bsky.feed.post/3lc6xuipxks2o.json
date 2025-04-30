@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732999790654,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lc6xuipxks2o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lc6xuipxks2o",
+    "record": {
+      "text": "#PowerShell is pretty great on #Linux, too.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreia2uo2f4nigw2yhfngpy4eaasov4vrwhts3qu4pqfvdagku5tphmu",
+          "uri": "at://did:plc:27ugapg47qeo4kdijpk4y4zl/app.bsky.feed.post/3lc6tfcu7js23"
+        },
+        "parent": {
+          "cid": "bafyreibrxbro4ncl5a75yy7j3z7ba24wyu66k7dwdfb3rrk5ywvrtirotq",
+          "uri": "at://did:plc:27ugapg47qeo4kdijpk4y4zl/app.bsky.feed.post/3lc6tgii5vk23"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 37,
+            "byteStart": 31
+          },
+          "features": [
+            {
+              "tag": "Linux",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-30T20:49:50.654Z"
+    },
+    "cid": "bafyreihsu6engihwgeqa7n55n2jevufosppsa3rik7bkoti2dhlyda7xie"
+  }
+}

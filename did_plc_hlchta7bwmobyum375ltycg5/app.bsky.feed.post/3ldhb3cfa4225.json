@@ -1,0 +1,63 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734384072101,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldhb3cfa4225",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldhb3cfa4225",
+    "record": {
+      "text": "Nope, dropped the www.\n\n( Also need to update the #powershell version inside the VM on my phone )\n\nWhy would I be trying to check the www?\n\nWhat are you trying to \"prove\" here ?",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "",
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreicitrtum2hq5sur43o36mcqevben4undptupej2m7luhqm7jsm7nu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 306343
+            },
+            "aspectRatio": {
+              "width": 900,
+              "height": 2000
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic3eiaxnsxaavr5p3i3fo5qvc4npkcw6yuao73qvrq3544iho3m24",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldethmsp3k2m"
+        },
+        "parent": {
+          "cid": "bafyreicnti32nmeeq7ipcytkdhe5leujbx5pbs76i6kfvhb6rxq5pxqrya",
+          "uri": "at://did:plc:42dvgua7xqqbzkp2gfxhqnt5/app.bsky.feed.post/3ldhatqbwzc2y"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 61,
+            "byteStart": 50
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-16T21:21:12.101Z"
+    },
+    "cid": "bafyreibufxcbpqt3ih2dk4lfswismm3dye557rrbnebasozkoraq4a3zhi"
+  }
+}

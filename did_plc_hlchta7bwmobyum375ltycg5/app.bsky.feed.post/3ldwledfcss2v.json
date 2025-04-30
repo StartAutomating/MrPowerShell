@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734910508639,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldwledfcss2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldwledfcss2v",
+    "record": {
+      "text": "Tl;Dr, I wrote a script that wraps a script, and yet still have to publish the final version of the thing.\n\nIt wraps yt-dlp, and a tool for editing media called ffmpeg.\n\nIt makes both of these things a bit less daunting, but it is still daunting.\n\nIt's a RoughDraft :-)\n\ngithub.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/RoughDraft",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieqcvtmgciut4dby37gne6u262x43d53c4xs3x3fnstvyxh6pexni"
+            },
+            "mimeType": "image/jpeg",
+            "size": 65379
+          },
+          "title": "GitHub - StartAutomating/RoughDraft: A Fun PowerShell Module for Multimedia (using FFMpeg)",
+          "description": "A Fun PowerShell Module for Multimedia (using FFMpeg) - StartAutomating/RoughDraft"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigcqg7ijtkhrififyf25ni34nkpfgj67ybjbgu5tg37o76tacqojy",
+          "uri": "at://did:plc:7p7g2rae47jmgxg3ncwslczi/app.bsky.feed.post/3ldwflli2z22c"
+        },
+        "parent": {
+          "cid": "bafyreigcqg7ijtkhrififyf25ni34nkpfgj67ybjbgu5tg37o76tacqojy",
+          "uri": "at://did:plc:7p7g2rae47jmgxg3ncwslczi/app.bsky.feed.post/3ldwflli2z22c"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 297,
+            "byteStart": 271
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/RoughDraft",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-22T23:35:08.639Z"
+    },
+    "cid": "bafyreiaxdp2wgxaxw65w7po5wkno2hp42rgruvfuxxfpdgjxksy6eqbtae"
+  }
+}

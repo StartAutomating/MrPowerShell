@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735879994035,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lessbapluk2e",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lessbapluk2e",
+    "record": {
+      "text": "Good article!\n\nIt's a well-written easy intro to the language.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifnehvya4tkol5efg2qt27rbgkowyp65zv2seepbudm7ua2t24llq",
+          "uri": "at://did:plc:kowsjguoxhqdfe5weooai6zr/app.bsky.feed.post/3lespbjyajc2m"
+        },
+        "parent": {
+          "cid": "bafyreifnehvya4tkol5efg2qt27rbgkowyp65zv2seepbudm7ua2t24llq",
+          "uri": "at://did:plc:kowsjguoxhqdfe5weooai6zr/app.bsky.feed.post/3lespbjyajc2m"
+        }
+      },
+      "createdAt": "2025-01-03T04:53:14.035Z"
+    },
+    "cid": "bafyreibqezgc6s5hjkfoq5dtvkhuy6pyn5hf33n6xmyhryffmmracai6jm"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736323404546,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lf7p7vwizc2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lf7p7vwizc2i",
+    "record": {
+      "text": "My main goal for the year is to do more end to end #fullstack #powershell.\n\nHoping to build a few sites that leverage the #bluesky #jetstream #websocket and make the web fun again.\n\nThat and a lot more little modules for you all to use.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigzw5zbetjokxgpyqx2vu3e5pyeguf26koj5iuouqba4gplvcgnsq",
+          "uri": "at://did:plc:xrspiwserax6shgskcj7grgg/app.bsky.feed.post/3lf65szhdec2f"
+        },
+        "parent": {
+          "cid": "bafyreigzw5zbetjokxgpyqx2vu3e5pyeguf26koj5iuouqba4gplvcgnsq",
+          "uri": "at://did:plc:xrspiwserax6shgskcj7grgg/app.bsky.feed.post/3lf65szhdec2f"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 61,
+            "byteStart": 51
+          },
+          "features": [
+            {
+              "tag": "fullstack",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 73,
+            "byteStart": 62
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 130,
+            "byteStart": 122
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 141,
+            "byteStart": 131
+          },
+          "features": [
+            {
+              "tag": "jetstream",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 152,
+            "byteStart": 142
+          },
+          "features": [
+            {
+              "tag": "websocket",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-08T08:03:24.546Z"
+    },
+    "cid": "bafyreiadcrd6idaf3t5ncmnl4ieoldsxh3535bosiir5zzthwlnuo3gqxe"
+  }
+}

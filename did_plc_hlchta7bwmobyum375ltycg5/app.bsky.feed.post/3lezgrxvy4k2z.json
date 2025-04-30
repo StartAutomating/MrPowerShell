@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736108188497,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lezgrxvy4k2z",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lezgrxvy4k2z",
+    "record": {
+      "text": "Nice!\n\nBtw, not sure if you saw this....\n\nBut finally figured out how to make a fast and debuggable pure web server in PowerShell\n\nEvents FTW\n\nbsky.app/profile/mrpo...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreie5yykqafhrynhjtkneiky47ymuvnvpvel6l7rzza7pco7r6rfcfq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lesrsx74qs2x"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreia3soo7ooqjzdkdwwpx4zi5mxgsd66qhou4mag4t4h4aalapyvkiu",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3lez2cavk322k"
+        },
+        "parent": {
+          "cid": "bafyreia3soo7ooqjzdkdwwpx4zi5mxgsd66qhou4mag4t4h4aalapyvkiu",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3lez2cavk322k"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 167,
+            "byteStart": 143
+          },
+          "features": [
+            {
+              "uri": "https://bsky.app/profile/mrpowershell.bsky.social/post/3lesrsx74qs2x",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-05T20:16:28.497Z"
+    },
+    "cid": "bafyreibbvdhf5ninyac3ln7ahv4pb5bsrqxj4wxloxbgduxlcrlsitlvga"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735152467696,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3le5mpbjpgs2b",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3le5mpbjpgs2b",
+    "record": {
+      "text": "FYI, this only works on PowerShell core.\n\nOf course on non-core, you can simply strip the comments before converting from json.\n\nGot a regex for that around here somewhere ( I believe I did this trick for arm-ttk )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiftcov2vcwsd4bwmpsvvtn6stomlhvle7gi67frshe4n2prie2ohe",
+          "uri": "at://did:plc:dq6jaefxy6vc6vvthg57kwvs/app.bsky.feed.post/3le4pmhlpn227"
+        },
+        "parent": {
+          "cid": "bafyreiftcov2vcwsd4bwmpsvvtn6stomlhvle7gi67frshe4n2prie2ohe",
+          "uri": "at://did:plc:dq6jaefxy6vc6vvthg57kwvs/app.bsky.feed.post/3le4pmhlpn227"
+        }
+      },
+      "createdAt": "2024-12-25T18:47:47.696Z"
+    },
+    "cid": "bafyreielq4bfi2vas7k2rqg7o6if5tmkoiejdnugjolcqy3ygx4p5fx574"
+  }
+}

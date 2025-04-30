@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732395471588,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbnf2f5mp22o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbnf2f5mp22o",
+    "record": {
+      "text": "I aim to please ( especially when it comes to building cool #powershell tools ).\n\nProblem is I make too many of them to keep up.\n\nYou should probably also look at ugit.\n\nHttps://GitHub.com/StartAutomating/ugit",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreig2ypoz4mr6xusne34udueiqj4ixwbppv2oyraiixa2erpw7ihtey",
+          "uri": "at://did:plc:lmuflauez6nvcvshbl2dvisr/app.bsky.feed.post/3lbljetvdk22e"
+        },
+        "parent": {
+          "cid": "bafyreiebeiomsuooynsyzhl7bbpuz4hh5fgafahlamfzbxauhaecmpctvm",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3lbneonwswd2j"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 71,
+            "byteStart": 60
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-23T20:57:51.588Z"
+    },
+    "cid": "bafyreia6yjmyurxzkhnxxspxj2vnkxq44pz2hmsoxqodxhh4reajsnp5a4"
+  }
+}

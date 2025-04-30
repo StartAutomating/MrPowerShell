@@ -1,0 +1,95 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732179289214,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbh3pnl7222v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbh3pnl7222v",
+    "record": {
+      "text": "youtu.be/zGEYkTZ96LA\n\nIn case anyone else wants to learn about #github pages, #jekyll, and #powershell ;-)",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://youtu.be/zGEYkTZ96LA",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihskhs4nk36mhvgsk3vxev4q3sh7zp2abjb6xeu6u3qjkd2mmdwsi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 455271
+          },
+          "title": "GitHub Pages with PowerShell",
+          "description": "YouTube video by StartAutomating"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreievggk66jxdcti4uugby6bzmsrzowqjcfbnhjbzmnwuzexvwbs3h4",
+          "uri": "at://did:plc:7xe3hhnutgnp65dkefc4tk4m/app.bsky.feed.post/3lbfhvvczxc25"
+        },
+        "parent": {
+          "cid": "bafyreihb65tn6itcsxar363r2u242l5fhiqapsvjql4gb4qssdjznpzztq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbg4qdkmec2c"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 20,
+            "byteStart": 0
+          },
+          "features": [
+            {
+              "uri": "https://youtu.be/zGEYkTZ96LA",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 70,
+            "byteStart": 63
+          },
+          "features": [
+            {
+              "tag": "github",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 85,
+            "byteStart": 78
+          },
+          "features": [
+            {
+              "tag": "jekyll",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 102,
+            "byteStart": 91
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-21T08:54:49.214Z"
+    },
+    "cid": "bafyreicp2qhrvafcixlbe2jhzivvf2xrrgorbteykdmuwztqtinqu65v5i"
+  }
+}

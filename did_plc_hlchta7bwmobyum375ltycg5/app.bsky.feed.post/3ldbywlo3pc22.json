@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734203525433,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldbywlo3pc22",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldbywlo3pc22",
+    "record": {
+      "text": "Fail often means \"do not only have one place the code can fail\".\n\nIf everything is in a single try/catch block, errors are harder to track down.\n\nIt also means \"fail with relevant information\".  If you fail, try to tell me why.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihpgy2juk6setixoqixz2p24dr6tdx6qmndcw5dlf4rbfhlyu6sqm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldbynvcbvk22"
+        },
+        "parent": {
+          "cid": "bafyreihpgy2juk6setixoqixz2p24dr6tdx6qmndcw5dlf4rbfhlyu6sqm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldbynvcbvk22"
+        }
+      },
+      "createdAt": "2024-12-14T19:12:05.433Z"
+    },
+    "cid": "bafyreigiewxy4ujmbyatr55cnejf4pw4llrwtrppkb44kpu5eanrz2n3fi"
+  }
+}

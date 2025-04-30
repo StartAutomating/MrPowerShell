@@ -1,0 +1,79 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734660932433,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldpcwexy4k2j",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldpcwexy4k2j",
+    "record": {
+      "text": "It's so nice to see a message like this, compared to the average #unix / #linux groupie talking smack about #powershell.  Surprisingly pleasant 😉.\n\nI've said it before and I'll say it a thousand times again: PowerShell is cool & object pipelines are really useful.\n\n#ObjectPipelineFTW",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreieuuduunm5objose67r7zmspgz5gdb2urgmyzlwyiwjnfhakcs2k4",
+          "uri": "at://did:plc:hvdxmfgep4kijqwrootzjlj3/app.bsky.feed.post/3ldp4alnres2y"
+        },
+        "parent": {
+          "cid": "bafyreieuuduunm5objose67r7zmspgz5gdb2urgmyzlwyiwjnfhakcs2k4",
+          "uri": "at://did:plc:hvdxmfgep4kijqwrootzjlj3/app.bsky.feed.post/3ldp4alnres2y"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 70,
+            "byteStart": 65
+          },
+          "features": [
+            {
+              "tag": "unix",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 79,
+            "byteStart": 73
+          },
+          "features": [
+            {
+              "tag": "linux",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 119,
+            "byteStart": 108
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 287,
+            "byteStart": 269
+          },
+          "features": [
+            {
+              "tag": "ObjectPipelineFTW",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-20T02:15:32.433Z"
+    },
+    "cid": "bafyreif2u34jpr3v57co7nmskt7igo7mx2hmyj4rxns5h4ukg4fvlt4ina"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737236741529,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lg2bthxbhc2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lg2bthxbhc2v",
+    "record": {
+      "text": "I do not.\n\nIf you've ever wanted to fix a problem automatically, PowerShell is your friend.\n\nIf you want to fix a problem automatically on 1000 computers, PowerShell is your best friend.\n\nIf your infra was insecure, that's another story.\n\nAll languages are dual use technology.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigoqdxyw3r6esrvmlc5gb5vy7kf5gasy7cuw6wsepcder3b2j6w7q",
+          "uri": "at://did:plc:xraomsuf6pvh7r2cqtdwhkvm/app.bsky.feed.post/3lfxwrv3yyk2n"
+        },
+        "parent": {
+          "cid": "bafyreia7bunqt3iiwzc355xi3kivin5em3pnnixtl6rr7z7ycqeeiz7hje",
+          "uri": "at://did:plc:chxqj3jv7wh7yimfwmd3thlm/app.bsky.feed.post/3lg2bnngfke23"
+        }
+      },
+      "createdAt": "2025-01-18T21:45:41.529Z"
+    },
+    "cid": "bafyreieknfxn4igzpr7gyrbpf2snfbx7byouhcw4rysjynrsdmxtwwiygu"
+  }
+}

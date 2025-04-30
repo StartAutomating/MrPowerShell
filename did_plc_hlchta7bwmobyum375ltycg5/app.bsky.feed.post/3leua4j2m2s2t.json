@@ -1,0 +1,69 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735929227136,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3leua4j2m2s2t",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3leua4j2m2s2t",
+    "record": {
+      "text": "Asking the internets:\n\nHow do you judge other's code?\n\nI prefer to try to think of how other people would read / react to it, not myself.\n\nJust wondering what techniques everyone else uses for #code #review.\n\n( Not a #powershell specific question, open to all languages )\n\n#mvpbuzz",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 198,
+            "byteStart": 193
+          },
+          "features": [
+            {
+              "tag": "code",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 206,
+            "byteStart": 199
+          },
+          "features": [
+            {
+              "tag": "review",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 228,
+            "byteStart": 217
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 281,
+            "byteStart": 273
+          },
+          "features": [
+            {
+              "tag": "mvpbuzz",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-03T18:33:47.136Z"
+    },
+    "cid": "bafyreibvuwk2pd3gokpphtpu4jzn7emojgfjb62e2t23l7dycyxs5yelhy"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742070310436,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lkgxh2i26c2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lkgxh2i26c2u",
+    "record": {
+      "text": "I'm just now realizing I've been doing #Web #Development almost as long as there's been an internet.\n\nWhat do you miss most about the #OldInternet ?\n\nShare your stories, memes, and links.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 43,
+            "byteStart": 39
+          },
+          "features": [
+            {
+              "tag": "Web",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 56,
+            "byteStart": 44
+          },
+          "features": [
+            {
+              "tag": "Development",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 146,
+            "byteStart": 134
+          },
+          "features": [
+            {
+              "tag": "OldInternet",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-15T20:25:10.436Z"
+    },
+    "cid": "bafyreict6z5lwzlfumflfps4c5rclrzyn3dwsn7batphyni2w7jo6ucw5i"
+  }
+}

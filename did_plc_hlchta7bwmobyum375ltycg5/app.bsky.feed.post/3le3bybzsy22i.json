@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735072239576,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3le3bybzsy22i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3le3bybzsy22i",
+    "record": {
+      "text": "Hmm I think this might be because the environment variable format is different in PowerShell\n\n$env:Computer name\n\nAlso you can do this with Get-WmiObject or Get-CimInstance instead.\n\n( Might be longer, but WMIC is ancient )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifiq4y56xijsiesu2ivokmjodf5pugfg6wz3s2cs3vw2xkidzdnda",
+          "uri": "at://did:plc:27hculg6bmdbi47xcarxczbf/app.bsky.feed.post/3le32lnxj7s2d"
+        },
+        "parent": {
+          "cid": "bafyreiddu4c3ia22dfqvzdz4bk6jioy37wro7mqz6mn6hsy5com2olaxsm",
+          "uri": "at://did:plc:27hculg6bmdbi47xcarxczbf/app.bsky.feed.post/3le3bljgbyc2s"
+        }
+      },
+      "createdAt": "2024-12-24T20:30:39.576Z"
+    },
+    "cid": "bafyreiaupnzw3hyrl63kh5zlmvxzlr5l4x5xbrkwwpnjzsvodmutdx3g6y"
+  }
+}

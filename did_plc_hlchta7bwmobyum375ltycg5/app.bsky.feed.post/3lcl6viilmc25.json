@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733419657021,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcl6viilmc25",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcl6viilmc25",
+    "record": {
+      "text": "At the risk of making it better ( or making it worse ).... Were you using PowerShell core, and were you using it on Windows?\n\nIf I recall correctly,\n\nWindows PowerShell (5.1) ConvertTo-Json has most of the problems you've mentioned, and powershell core fixes them.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidynfsjzdmteanzi4xy56xetuwlwnpmrhjscuytp43yirwhx66pje",
+          "uri": "at://did:plc:yi3bqg5tlictolbnpdhnciep/app.bsky.feed.post/3lckvbpwvnc26"
+        },
+        "parent": {
+          "cid": "bafyreic7l54luku6jwcfc7akomnutmdfmrgzuxpjxbxq556oo6nczw7mai",
+          "uri": "at://did:plc:yi3bqg5tlictolbnpdhnciep/app.bsky.feed.post/3lcl5ltpmz22j"
+        }
+      },
+      "createdAt": "2024-12-05T17:27:37.021Z"
+    },
+    "cid": "bafyreie6fbvc4oubywcqt76l3jz4ee2dk5pywnoefuplxtikl3rh6vllqa"
+  }
+}

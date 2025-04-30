@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733959964472,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld2w3vtfqs24",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ld2w3vtfqs24",
+    "record": {
+      "text": "So sorry to hear that.\n\nIf you can share who passed, I'm sure there are other #powershell people who will mourn them.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreigcwnypb2d2zrshmj3sx7cambirdpwyctj4synf6kheddmbrvl2uu",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3ld2sbiggvk2k"
+        },
+        "parent": {
+          "cid": "bafyreigcwnypb2d2zrshmj3sx7cambirdpwyctj4synf6kheddmbrvl2uu",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3ld2sbiggvk2k"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 89,
+            "byteStart": 78
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-11T23:32:44.472Z"
+    },
+    "cid": "bafyreihpuuwevpbew4qaqsnuxqzzktzdl4s3gsdb2stjalqjo2hkjiwloq"
+  }
+}

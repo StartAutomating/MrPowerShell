@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1692993317446,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k5smwutuah2f",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k5smwutuah2f",
+    "record": {
+      "text": "Sounds like a potential winner!\n\nThe other thing you could try to do is to map the network drive persistently / globally.\n\nIIRC, the default way of network drives is \"per user\", and these only get reconnected after the user session starts up (aka, around when the taskbar shows).",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifl2zzbjhai3csq7zpglp2r5vf7gjsbfatro3ryqnpnahum5wn2uu",
+          "uri": "at://did:plc:5hm6gmnwxrtuam33otszl6bf/app.bsky.feed.post/3k5sltq7r4o2e"
+        },
+        "parent": {
+          "cid": "bafyreietswc5ec4sub3fiq3vp477xk6margk5wcqxmp2q5l7qto744riiu",
+          "uri": "at://did:plc:5hm6gmnwxrtuam33otszl6bf/app.bsky.feed.post/3k5sluvx5tl2v"
+        }
+      },
+      "createdAt": "2023-08-25T19:55:17.446Z"
+    },
+    "cid": "bafyreigqtogitn7dadnuyuymzquistknsx5qvwownuwjd6gdo7nogxwgoy"
+  }
+}

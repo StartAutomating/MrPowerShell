@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733516392219,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcnyygejgk2r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcnyygejgk2r",
+    "record": {
+      "text": "Btw, one of the really cool things about #PowerShell most people don't get is that you can assign the results of any control flow or subexpression.  With nesting!\n\n$odd = foreach ($n in 1..100) {if ($n % 2) {$n}}",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiadzm4fqtj6u433652xo4ehvscokbxiyvfh43et4awsilpjju27dm",
+          "uri": "at://did:plc:fweewqgjchr3ontjop7jnskm/app.bsky.feed.post/3lcnxbchtws2d"
+        },
+        "parent": {
+          "cid": "bafyreiadzm4fqtj6u433652xo4ehvscokbxiyvfh43et4awsilpjju27dm",
+          "uri": "at://did:plc:fweewqgjchr3ontjop7jnskm/app.bsky.feed.post/3lcnxbchtws2d"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 52,
+            "byteStart": 41
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-06T20:19:52.219Z"
+    },
+    "cid": "bafyreigcy4ecdzqdaenqbmpgf6lvtp6k467ix4m3ilrtqeay4pcmf2jkme"
+  }
+}

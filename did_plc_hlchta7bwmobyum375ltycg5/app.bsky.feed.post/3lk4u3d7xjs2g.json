@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1741723098347,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lk4u3d7xjs2g",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lk4u3d7xjs2g",
+    "record": {
+      "text": "Comparing and contrasting, Linux has always been a bit messy, because it's generally not had any cohesive direction or powerful stakeholders to help force consistency.  It's a grab bag of CLIs and GUIs written atop opaque APIs.\n\nOne might say Linux has a \"50 year hole\", just of CLI instead of GUI.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiaocvaw6wrauwrrkl5bprgx3nszqtb2bz4xytlpqegjbpftmd6kyu",
+          "uri": "at://did:plc:tkm2lt4yscjio6gcfjzi4fmx/app.bsky.feed.post/3lk455nmrz22y"
+        },
+        "parent": {
+          "cid": "bafyreigx5v7pwqsafkqtxir45yf3icnvg2ptn7xgglk6zxmw42b7cwt2ee",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lk4tvqdmt22g"
+        }
+      },
+      "createdAt": "2025-03-11T19:58:18.347Z"
+    },
+    "cid": "bafyreie26wuawowpkuzgjaakrisvo4pb4hzjaqohtbn5pab5gzkw25v6yu"
+  }
+}

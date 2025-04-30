@@ -1,0 +1,85 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1722041285776,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ky7zxzjnee2n",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ky7zxzjnee2n",
+    "record": {
+      "text": "Some #PowerShell  #Software #Advice :\n\n[ValidateScript({\n  if ([DateTime]::Now.DayOfWeek -eq 'Friday') {\n      throw \"Not on a Friday!\"\n  }\n  return $true\n})][switch]$ShipIt = $true\n\ngist.github.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://gist.github.com/StartAutomating/df91898a847d7d0470cf80bc4db3f02c",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreialjfbvjmblgykiooldgd2f3gmv2hki2sjiofn7hm7imj53ituydi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 121763
+          },
+          "title": "Gist a little friendly advice about Shipping Software",
+          "description": "Gist a little friendly advice about Shipping Software - NotOnAFriday.ps1"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 16,
+            "byteStart": 5
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 27,
+            "byteStart": 18
+          },
+          "features": [
+            {
+              "tag": "Software",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 35,
+            "byteStart": 28
+          },
+          "features": [
+            {
+              "tag": "Advice",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 214,
+            "byteStart": 183
+          },
+          "features": [
+            {
+              "uri": "https://gist.github.com/StartAutomating/df91898a847d7d0470cf80bc4db3f02c",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-07-27T00:48:05.776Z"
+    },
+    "cid": "bafyreiathtjnja2jjuzqf7fxrhunh4cgwgvouf76hr6dk3bacav6ao3aie"
+  }
+}

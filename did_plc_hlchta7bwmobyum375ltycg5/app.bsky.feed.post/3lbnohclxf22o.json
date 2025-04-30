@@ -1,0 +1,95 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732405568796,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbnohclxf22o",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbnohclxf22o",
+    "record": {
+      "text": "Not until you've made the #PowerShell icon with #PowerShell, and then used another module to create the avi.\n\nGitHub.com/StartAutomat... this will help you make and manipulate media files.\n\nBtw, tab completion and logical parameter naming makes #ffmpeg borderline easy.  Shocking, I know.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://GitHub.com/StartAutomating/RoughDraft",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieqcvtmgciut4dby37gne6u262x43d53c4xs3x3fnstvyxh6pexni"
+            },
+            "mimeType": "image/jpeg",
+            "size": 65379
+          },
+          "title": "GitHub - StartAutomating/RoughDraft: A Fun PowerShell Module for Multimedia (using FFMpeg)",
+          "description": "A Fun PowerShell Module for Multimedia (using FFMpeg) - StartAutomating/RoughDraft"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiadzrgmkiox47gm2b45bilihvsj3ksxuqq22njszfca2azd5umb3y",
+          "uri": "at://did:plc:rlwd5iajr3btl5e7gyvfwk67/app.bsky.feed.post/3lb5uyvifrc2k"
+        },
+        "parent": {
+          "cid": "bafyreifwqil4gjx3vba5fw7nri6voa6mr6ty7i37nbgbcteo3c57424r4a",
+          "uri": "at://did:plc:dcsvtevdr3mrn3er7gbta5wm/app.bsky.feed.post/3lbni2hady22m"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 37,
+            "byteStart": 26
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 59,
+            "byteStart": 48
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 136,
+            "byteStart": 110
+          },
+          "features": [
+            {
+              "uri": "https://GitHub.com/StartAutomating/RoughDraft",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 252,
+            "byteStart": 245
+          },
+          "features": [
+            {
+              "tag": "ffmpeg",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-23T23:46:08.796Z"
+    },
+    "cid": "bafyreiguhzfuunsws3zu3dc4xsthf77k5besh6ilaa5ipgkvbjfcmelt2m"
+  }
+}

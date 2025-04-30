@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744576212186,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmpvaqmjuc2c",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmpvaqmjuc2c",
+    "record": {
+      "text": "You're not nobody, you're anyone.\n\nThe PowerShell Community should accept anyone and everyone.\n\nThe painful irony here is that I've heard Doug rant a lot about cancel culture over the years.\n\nIt's very sad and hypocritical that he is so quick to cancel.\n\n🤷\n\nDamn shame.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/ckCbGEQbSZoAAAAC/community-i-now-pronounce-you-cancelled.gif?hh=227&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreia2z4vfilam3otjfhqvopzvquzpffsbbazdcdfn7qzxtg3yu4wtgy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 88861
+          },
+          "title": "a man in a tuxedo is standing in front of a window and says i now pronounce you canceled .",
+          "description": "Alt: Abed knows the difference between the real world and tv.\n\nOn TV we have heroes, we have good people.\n\nIn the real world, we have MVPs who shun anyone who questions them.  We have people who should be helping but instead hurt.\n\nWe have Doug."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreign24wrq5t6cztf6vvncrwsbefy6gi5auuuqoo6qnbt7awnbhnrka",
+          "uri": "at://did:plc:yfrae62vopyax7pixtnecwyh/app.bsky.feed.post/3lmf3mh3trs2g"
+        },
+        "parent": {
+          "cid": "bafyreidkanf4egtgfqfywgli346bpq2gtj2gxsq6hahglfzht3vj2pxx2u",
+          "uri": "at://did:plc:3awie5uyavd7c6ot3dkrcqps/app.bsky.feed.post/3lmpu7ctoos2o"
+        }
+      },
+      "createdAt": "2025-04-13T20:30:12.186Z"
+    },
+    "cid": "bafyreickpnigrbf7vpszz3yh5ebols7k7e6oki7aybykgrt44qvchg6o5q"
+  }
+}

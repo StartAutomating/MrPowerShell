@@ -1,0 +1,97 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1739991067537,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3likgyrwgmk2y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3likgyrwgmk2y",
+    "record": {
+      "text": "32 conflicts of interest so far, and no watchdogs left to stop #corruption\n\n#MuskIsCorrupt\n\n#TrumpIsCorrupt\n\n#ResistFacism\n\nwww.motherjones.com/politics/202...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/IFjqEFoFdYAAAAAC/crying-jessie.gif?hh=244&ww=244",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicf3ttyzgegdr4q6lxrklla4uv25s4zv2gdg6jxiodzbgawepotka"
+            },
+            "mimeType": "image/jpeg",
+            "size": 49749
+          },
+          "title": "a man with a beard is saying he can 't keep getting away with it !",
+          "description": "Alt: Jesse Pinkman was abused by Walter White.\n\nWe are all being abused by Musk and Trump.\n\nWe need to organize, hold the line, and vote these chumps out as soon as we can."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 74,
+            "byteStart": 63
+          },
+          "features": [
+            {
+              "tag": "corruption",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 90,
+            "byteStart": 76
+          },
+          "features": [
+            {
+              "tag": "MuskIsCorrupt",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 107,
+            "byteStart": 92
+          },
+          "features": [
+            {
+              "tag": "TrumpIsCorrupt",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 122,
+            "byteStart": 109
+          },
+          "features": [
+            {
+              "tag": "ResistFacism",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 159,
+            "byteStart": 124
+          },
+          "features": [
+            {
+              "uri": "https://www.motherjones.com/politics/2025/02/elon-musk-doge-special-government-employee/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-19T18:51:07.537Z"
+    },
+    "cid": "bafyreig242cbsdu4w7sc3qa4w57qmhrpr35jo4xqekmjg7yowvsrpgu2re"
+  }
+}

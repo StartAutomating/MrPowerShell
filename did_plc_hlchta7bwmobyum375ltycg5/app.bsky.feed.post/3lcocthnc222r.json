@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733526963201,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcocthnc222r",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcocthnc222r",
+    "record": {
+      "text": "Start-Process -Verb RunAs generally does the trick.  You can pack in the script you're currently running into an encoded command and launch it ( or just use -command or -file )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibinri7ee7v6vmhpqapryczxvaqgk6fxujvcpyqx4xhfybo6aakma",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3lco2326wjc2c"
+        },
+        "parent": {
+          "cid": "bafyreibinri7ee7v6vmhpqapryczxvaqgk6fxujvcpyqx4xhfybo6aakma",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3lco2326wjc2c"
+        }
+      },
+      "createdAt": "2024-12-06T23:16:03.201Z"
+    },
+    "cid": "bafyreie4tmkqgmpdoaahfxoi5cbgrzm5xl4agq2dii26eenobkrpgddw5q"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735411075293,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lef5kexbuc2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lef5kexbuc2x",
+    "record": {
+      "text": "The only thing more fragile than Elon Musk's ego are tires on a #tesla.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 70,
+            "byteStart": 64
+          },
+          "features": [
+            {
+              "tag": "tesla",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-28T18:37:55.293Z"
+    },
+    "cid": "bafyreicmrnadar6wwymtawmxl3qg3etfmrhmhau7qr6iojkgnsrjqbilqa"
+  }
+}

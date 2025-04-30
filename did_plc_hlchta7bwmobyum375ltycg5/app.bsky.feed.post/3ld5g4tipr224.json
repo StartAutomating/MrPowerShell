@@ -1,0 +1,55 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734045894924,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld5g4tipr224",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ld5g4tipr224",
+    "record": {
+      "text": "Just make sure to let me know the next time you're feeling like handing out small payments for scripts that already exist.\n\nEither that or just sponsor me on #GitHub and take as much #powershell as you'd like ;-)",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreic5ganz4xfgvncrhjamgntq5io3h62jo6cazvasyqptwtxzo5hcz4",
+          "uri": "at://did:plc:io44r3ibjzhrezao5nhpkzq4/app.bsky.feed.post/3ld55u23wzc2h"
+        },
+        "parent": {
+          "cid": "bafyreic5ganz4xfgvncrhjamgntq5io3h62jo6cazvasyqptwtxzo5hcz4",
+          "uri": "at://did:plc:io44r3ibjzhrezao5nhpkzq4/app.bsky.feed.post/3ld55u23wzc2h"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 165,
+            "byteStart": 158
+          },
+          "features": [
+            {
+              "tag": "GitHub",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 194,
+            "byteStart": 183
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-12T23:24:54.924Z"
+    },
+    "cid": "bafyreihnmyjzgsusptc2d7bohui77gwx6xpmm3rzs2lqncvmmkwewbr2qa"
+  }
+}

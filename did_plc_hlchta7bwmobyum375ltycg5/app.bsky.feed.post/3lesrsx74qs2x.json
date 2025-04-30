@@ -1,0 +1,109 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735879514295,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lesrsx74qs2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lesrsx74qs2x",
+    "record": {
+      "text": "Here's about the smallest #event driven #http #server I've written in #powershell (yet)\n\nIt's just 42 lines 😉 \n\nBonus points: you can #debug each request!\n\ngist.github.com/StartAutomat...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://gist.github.com/StartAutomating/fb229d462f2b8bbeda67220c2b5740d5",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreialjfbvjmblgykiooldgd2f3gmv2hki2sjiofn7hm7imj53ituydi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 121763
+          },
+          "title": "Gist a small event-based HTTP server in PowerShell",
+          "description": "Gist a small event-based HTTP server in PowerShell - EventBasedServer.ps1"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 26
+          },
+          "features": [
+            {
+              "tag": "event",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 40
+          },
+          "features": [
+            {
+              "tag": "http",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 53,
+            "byteStart": 46
+          },
+          "features": [
+            {
+              "tag": "server",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 81,
+            "byteStart": 70
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 143,
+            "byteStart": 137
+          },
+          "features": [
+            {
+              "tag": "debug",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 190,
+            "byteStart": 159
+          },
+          "features": [
+            {
+              "uri": "https://gist.github.com/StartAutomating/fb229d462f2b8bbeda67220c2b5740d5",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-03T04:45:14.295Z"
+    },
+    "cid": "bafyreie5yykqafhrynhjtkneiky47ymuvnvpvel6l7rzza7pco7r6rfcfq"
+  }
+}

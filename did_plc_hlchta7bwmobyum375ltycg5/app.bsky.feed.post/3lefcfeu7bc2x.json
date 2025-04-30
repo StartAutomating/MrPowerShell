@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735416276129,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lefcfeu7bc2x",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lefcfeu7bc2x",
+    "record": {
+      "text": "You're welcome!\n\nI see the viewpoint.  I wish more distros would actually ship PowerShell on them.\n\nI just want to bring the good features of PowerShell over into Linux land more effectively.\n\nLike, for example, the object pipeline and events.\n\nHow useful would an eventful head / tail be? ( to you)",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiggxfuosyuusdslta4bz6wzz73g2ptvzcin2ipvuptawl4wknricy",
+          "uri": "at://did:plc:bpmtx4nv56gasrya66xwxigw/app.bsky.feed.post/3leewjn7pxs2e"
+        },
+        "parent": {
+          "cid": "bafyreifjb6sgyofiubidmsadi3a4pppclitqvnj56iuy4z6itqjhefl5d4",
+          "uri": "at://did:plc:bpmtx4nv56gasrya66xwxigw/app.bsky.feed.post/3lefbxt7hm22a"
+        }
+      },
+      "createdAt": "2024-12-28T20:04:36.129Z"
+    },
+    "cid": "bafyreifh522lyfcb7dc533kt2gdkuj2hxya7s6kaiyhbhrys7jlgl5ejpi"
+  }
+}

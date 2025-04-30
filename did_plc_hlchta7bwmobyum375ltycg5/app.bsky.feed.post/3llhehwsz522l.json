@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1743183810428,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3llhehwsz522l",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3llhehwsz522l",
+    "record": {
+      "text": "Me too!  Not too long ago, had something like 150 CNames served up on a single classic instance.\n\n( Finally took it down after the deprecated it )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifqqzfnrhzkwtmtgkwsicglrjjnaow6kmyr7vphf24b2wiunqdxhm",
+          "uri": "at://did:plc:mn2c5flid2x3jnlry35pmhj5/app.bsky.feed.post/3llfcshbopk2x"
+        },
+        "parent": {
+          "cid": "bafyreibotqafllarfwlfcld2c3wmlbhtnwjrda66im3mu4lpy6blhlzuym",
+          "uri": "at://did:plc:uv7utf6lnr267yiz7gw4lr42/app.bsky.feed.post/3llfwvi6fus27"
+        }
+      },
+      "createdAt": "2025-03-28T17:43:30.428Z"
+    },
+    "cid": "bafyreihik4vaowfzsaphl4a2ftctnklophjjc573gk5idvruu3zmuym5ey"
+  }
+}

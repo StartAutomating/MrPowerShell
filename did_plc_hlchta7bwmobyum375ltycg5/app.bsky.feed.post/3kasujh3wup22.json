@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1696299996298,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kasujh3wup22",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kasujh3wup22",
+    "record": {
+      "text": "Anyone who wants to manage all the major platforms, for one.\n\nAlso, there's a lot of features PowerShell has that Bash does not (like the object pipeline, formatting, and extended types).\n\nThis opens a lot of doors.\n\nfor example:\n\ngit log | Group-Object { $_.CommitDate.DayOfWeek }",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibhqjgl3mq3qlte3mensj7haocsu33za5askszxpb364rk6xgj7z4",
+          "uri": "at://did:plc:mbdv5fpty2wlssfwwpys2boh/app.bsky.feed.post/3kasnwlxcr22u"
+        },
+        "parent": {
+          "cid": "bafyreignv4bnhjrdtuwm5jlqlriutrhqx6rzs7f2qfhrsbqs2oclfsb4zi",
+          "uri": "at://did:plc:cupacm3nx4xoy5iciu6va6xc/app.bsky.feed.post/3kaso76y6k32a"
+        }
+      },
+      "createdAt": "2023-10-03T02:26:36.298Z"
+    },
+    "cid": "bafyreihh4ydz3o43covmuvx7y7gyhtwdsds2axz4w5vrp2jv3zkaqfullm"
+  }
+}

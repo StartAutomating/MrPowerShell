@@ -1,0 +1,83 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1744186489406,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmekc3z3ks2c",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lmekc3z3ks2c",
+    "record": {
+      "text": "Looks like the stop offset and color can also be animated.\n\n#svg rocks! 🤞 #svgWish granted.\n\ndeveloper.mozilla.org/en-US/docs/W...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/stop",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigrvx36fztfbess2xhmd4rqwsytds4256hyrnptfrcehuknseyctm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 112448
+          },
+          "title": "<stop> - SVG: Scalable Vector Graphics | MDN",
+          "description": "The <stop> SVG element defines a color and its position to use on a gradient. This element is always a child of a <linearGradient> or <radialGradient> element."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidnnsjqukv3hywnf565zfzbmg5hk2u42uolopnzvemutbx3qdkife",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmejxdhytc2c"
+        },
+        "parent": {
+          "cid": "bafyreidnnsjqukv3hywnf565zfzbmg5hk2u42uolopnzvemutbx3qdkife",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lmejxdhytc2c"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 64,
+            "byteStart": 60
+          },
+          "features": [
+            {
+              "tag": "svg",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 85,
+            "byteStart": 77
+          },
+          "features": [
+            {
+              "tag": "svgWish",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 133,
+            "byteStart": 96
+          },
+          "features": [
+            {
+              "uri": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/stop",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-09T08:14:49.406Z"
+    },
+    "cid": "bafyreibl7knryfhvgbcqlqhaxyw6te6c4w64drzusdti6y7oxxwcjbjsxu"
+  }
+}

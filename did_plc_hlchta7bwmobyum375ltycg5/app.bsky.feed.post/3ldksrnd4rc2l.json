@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734506154594,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldksrnd4rc2l",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldksrnd4rc2l",
+    "record": {
+      "text": "You mean having the first letter of the first word expand further to the right ?\n\nI suspect because it would keep bouncing lengths when you hit \"tab\".\n\nOr, in a word: \"usability\".\n\nI think.\n\nPlease share more details about your lamentation.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifieihugzg5duxwe5xrrry2d4afrrwa5f4zjzpkeul5mpc57eswqq",
+          "uri": "at://did:plc:yb5ttsw5gztn5mmkaezut6d2/app.bsky.feed.post/3ldkjbwioao22"
+        },
+        "parent": {
+          "cid": "bafyreifieihugzg5duxwe5xrrry2d4afrrwa5f4zjzpkeul5mpc57eswqq",
+          "uri": "at://did:plc:yb5ttsw5gztn5mmkaezut6d2/app.bsky.feed.post/3ldkjbwioao22"
+        }
+      },
+      "createdAt": "2024-12-18T07:15:54.594Z"
+    },
+    "cid": "bafyreidjm7pyvsoisfhjoyv3p3n3smy6cnxdgfcsmeoocgbuodeyhd3e7q"
+  }
+}

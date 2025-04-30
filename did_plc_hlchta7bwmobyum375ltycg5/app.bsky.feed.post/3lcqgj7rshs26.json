@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733599633859,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcqgj7rshs26",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcqgj7rshs26",
+    "record": {
+      "text": "I think it's one of the undersung features of PowerShell, and could be more natural.\n\nAbout 1.5-2 years ago I made a \"sentence parser\" with PowerShell.\n\nIt lets you have multi-word aliases and detects parameters with any ( or no ) punctuation.\n\nBasically turns PowerShell into a language model.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreictbh6sld6d4sdzfyuzmee2oqoepis3e5cm2mzih5gbma47sprswi",
+          "uri": "at://did:plc:ndldeomkrth3jpwtnz55wz3i/app.bsky.feed.post/3lcpvxf7qtk2b"
+        },
+        "parent": {
+          "cid": "bafyreidfsdkwnvg2wamdt7b64bc4xip5azrh4jtslyyr7t2twxehhjr5bu",
+          "uri": "at://did:plc:hw4urcc5buphsvt2jv22iwvd/app.bsky.feed.post/3lcpxhaqbcc2l"
+        }
+      },
+      "createdAt": "2024-12-07T19:27:13.859Z"
+    },
+    "cid": "bafyreig5ton5dwiedghnemv5ihnvupzkuapyvajruwl5el7arnbaz7pove"
+  }
+}

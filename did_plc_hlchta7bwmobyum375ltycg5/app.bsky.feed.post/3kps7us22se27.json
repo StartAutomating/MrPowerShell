@@ -1,0 +1,77 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1712770481222,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3kps7us22se27",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3kps7us22se27",
+    "record": {
+      "text": "It's true what they say.  \n\nBeing a #Microsoft #MVP really does change the way you see the world.\n\n#MVPBuzz",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "Seattle viewed thru the lens of the Microsoft MVP award",
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreif54ekwevpcbcrqj2lq3pxti3pvwskqfndpqzvo2ow7dueg6iwste"
+              },
+              "mimeType": "image/jpeg",
+              "size": 652998
+            },
+            "aspectRatio": {
+              "width": 993,
+              "height": 1318
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 46,
+            "byteStart": 36
+          },
+          "features": [
+            {
+              "tag": "Microsoft",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 51,
+            "byteStart": 47
+          },
+          "features": [
+            {
+              "tag": "MVP",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 107,
+            "byteStart": 99
+          },
+          "features": [
+            {
+              "tag": "MVPBuzz",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-04-10T17:34:41.222Z"
+    },
+    "cid": "bafyreiaao3tlaxwkyvvbrqtbkbybn6zrzlen3ffoiu62gdmklnmycyqv7i"
+  }
+}

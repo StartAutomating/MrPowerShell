@@ -1,0 +1,73 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1728494253118,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3l63tr2ajfr27",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3l63tr2ajfr27",
+    "record": {
+      "text": "Drop by the Pacific #PowerShell User Group this evening and learn how to Generate #GitHub Pages with PowerShell:\n\nwww.meetup.com/pacific-powe...\n\nLearn how to script your static site with the dynamic language you know and love.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/events/303922409/",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihg4ljmegmeyft2llgkez2gb5h3gfwcnqrzlnnhf7slzgeueatojm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 586090
+          },
+          "title": "Generating GitHub Pages with PowerShell, Wed, Oct 9, 2024, 6:00 PM   | Meetup",
+          "description": "Join us this month for the Pacific PowerShell User Group, and we’ll get into Generating GitHub Pages in PowerShell.\nWe’ll learn what GitHub Pages are and show off how simpl"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 31,
+            "byteStart": 20
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 89,
+            "byteStart": 82
+          },
+          "features": [
+            {
+              "tag": "GitHub",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 144,
+            "byteStart": 114
+          },
+          "features": [
+            {
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/303922409/",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-10-09T17:17:33.118Z"
+    },
+    "cid": "bafyreigurikogyu5szmq645gzbukx62vdjscwl5tfwquik7z2j3irq5oey"
+  }
+}

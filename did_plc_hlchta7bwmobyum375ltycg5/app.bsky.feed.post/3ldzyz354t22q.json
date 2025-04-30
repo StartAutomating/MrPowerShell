@@ -1,0 +1,33 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735028242483,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldzyz354t22q",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldzyz354t22q",
+    "record": {
+      "text": "It's the little things that bring nerdy holiday cheer.\n\nLike finally figuring out how to make a #powershell microservice that's fast enough -and lets me actually debug-.\n\nHow?\n\nRun a listener in a thread job and post events to the main runspace.\n\nThen walk thru the queue.\n\nMerry Christmas!",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 107,
+            "byteStart": 96
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-24T08:17:22.483Z"
+    },
+    "cid": "bafyreieqakxxloysvbgqnavk6i2y2slqxpnm44sp5vl7izfjbej2qefq7e"
+  }
+}

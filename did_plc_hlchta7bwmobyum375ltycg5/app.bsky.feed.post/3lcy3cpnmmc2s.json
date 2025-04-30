@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733862482365,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcy3cpnmmc2s",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcy3cpnmmc2s",
+    "record": {
+      "text": "Both.\n\nFor the uninitiated...\n\n#PowerShell is a scripting language and a shell.\n\nIt lets you script objects in a pipeline.\n\nA function can take inputs from any object, and output any number of objects.\n\nIn most languages, people build programs.\n\nIn PowerShell, people build reusable blocks.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihmvxticcheftl7amirj4vaten2mdgknusp4ko7d3g6rwihcyooki",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lcuvxlh3vk2o"
+        },
+        "parent": {
+          "cid": "bafyreiextyzdoj335nnzjqgoyl5ak3v4uqy6iksmbv7htx7ocyhsz7kvm4",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lcy2xmbals2f"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 42,
+            "byteStart": 31
+          },
+          "features": [
+            {
+              "tag": "PowerShell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-10T20:28:02.365Z"
+    },
+    "cid": "bafyreidjixwhl4ly66txahzp5hfhuakzdjjewr5b2ajsdem5gjx4rgteji"
+  }
+}

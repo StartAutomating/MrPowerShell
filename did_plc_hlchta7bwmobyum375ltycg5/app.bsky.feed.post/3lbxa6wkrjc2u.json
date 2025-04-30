@@ -1,0 +1,79 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732733852738,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbxa6wkrjc2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbxa6wkrjc2u",
+    "record": {
+      "text": "Isn't it fun to drink from the #bluesky #websocket #firehose ?\n\nI've been running some tests all night long, and it's still giving me a steady diet of all the emoji on bluesky, via #powershell\n\n( See my recent posts on the topic )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreie6v4bmyelo4kf7e4ebmoa76smfbn3my2mn7mirxc4b4dtex4prqq",
+          "uri": "at://did:plc:fp5zf7du5zntbwwcxkk3dppd/app.bsky.feed.post/3lbwnx2rxxs2o"
+        },
+        "parent": {
+          "cid": "bafyreie6v4bmyelo4kf7e4ebmoa76smfbn3my2mn7mirxc4b4dtex4prqq",
+          "uri": "at://did:plc:fp5zf7du5zntbwwcxkk3dppd/app.bsky.feed.post/3lbwnx2rxxs2o"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 39,
+            "byteStart": 31
+          },
+          "features": [
+            {
+              "tag": "bluesky",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 50,
+            "byteStart": 40
+          },
+          "features": [
+            {
+              "tag": "websocket",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 51
+          },
+          "features": [
+            {
+              "tag": "firehose",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 192,
+            "byteStart": 181
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-27T18:57:32.738Z"
+    },
+    "cid": "bafyreidgqpvmfu7hmn2icx53y6winje4mhns6zkj7xfvqwyhgjuwbezxui"
+  }
+}

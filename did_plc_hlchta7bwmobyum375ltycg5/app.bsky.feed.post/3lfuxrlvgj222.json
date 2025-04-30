@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1737054142443,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfuxrlvgj222",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfuxrlvgj222",
+    "record": {
+      "text": "Have you tried this in #WindowsTerminal or #VSCode.\n\nI can confirm that #powershell supports emoji ( and should support CJK).\n\nI can also confirm that conhost ( the old command shell) does not.\n\nbsky.app/profile/mrpo...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreibl3xlzqr7q5qk2iafpypj4eurgnloxdsknuutklftr3ujsinm3yu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lctko2hugc2q"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibe5pzv33n7touwh7463fktcv4tpqmh2x5sxvpijp73c3vvbmav3u",
+          "uri": "at://did:plc:aa73kvdsi6teh7qj5k23rduh/app.bsky.feed.post/3lfuvzj7dss2h"
+        },
+        "parent": {
+          "cid": "bafyreibe5pzv33n7touwh7463fktcv4tpqmh2x5sxvpijp73c3vvbmav3u",
+          "uri": "at://did:plc:aa73kvdsi6teh7qj5k23rduh/app.bsky.feed.post/3lfuvzj7dss2h"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 39,
+            "byteStart": 23
+          },
+          "features": [
+            {
+              "tag": "WindowsTerminal",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 50,
+            "byteStart": 43
+          },
+          "features": [
+            {
+              "tag": "VSCode",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 83,
+            "byteStart": 72
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 219,
+            "byteStart": 195
+          },
+          "features": [
+            {
+              "uri": "https://bsky.app/profile/mrpowershell.bsky.social/post/3lctko2hugc2q",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-16T19:02:22.443Z"
+    },
+    "cid": "bafyreiecmm634nz6i6fah745hkucqlsvfnk45lkzn5qjvecnjlhgcv6tgm"
+  }
+}

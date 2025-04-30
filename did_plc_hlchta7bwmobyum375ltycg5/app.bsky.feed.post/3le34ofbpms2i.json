@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1735066538727,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3le34ofbpms2i",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3le34ofbpms2i",
+    "record": {
+      "text": "I mean to help protect against malfeasant scripts.\n\nFor example, using a ValidateScript to determine if the command \"invoke-expression\" is used.\n\nUtility may vary based on the scenario.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiaimy244wt2cneoscwaavzuj4l5fwwdn7dvzukbklaiirtef3koxy",
+          "uri": "at://did:plc:rlrrzgcyzronxjjnzorjmdeb/app.bsky.feed.post/3le2nhxhddc2l"
+        },
+        "parent": {
+          "cid": "bafyreihjjlvmthiubkd5vdo5hz4rbwzjt4wozx5r45kney4jmuhoop4tju",
+          "uri": "at://did:plc:rlrrzgcyzronxjjnzorjmdeb/app.bsky.feed.post/3le34fit6es2l"
+        }
+      },
+      "createdAt": "2024-12-24T18:55:38.727Z"
+    },
+    "cid": "bafyreietig5zthg52ahwahikldmyc3wfpwrvocmsdbiyj4zp3psxql6rxe"
+  }
+}

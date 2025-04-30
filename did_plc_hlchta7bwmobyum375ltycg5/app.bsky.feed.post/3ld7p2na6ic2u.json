@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734124204397,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ld7p2na6ic2u",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ld7p2na6ic2u",
+    "record": {
+      "text": "That's cool and good to know.\n\nIt's also a bit \"glass 1/3rd full\"\n\nMy point is that #windows developers are very common, because windows is very common.\n\nWhat did that survey say made up the rest?",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreihujjumpz6f4jqeibdtru2epkqfxdklvogqlv3xcrffsdpttixc7y",
+          "uri": "at://did:plc:rkm6m4dsc4da2yzdlvxorhf3/app.bsky.feed.post/3ld6rbcm2fk2c"
+        },
+        "parent": {
+          "cid": "bafyreietwd3sc2pojwqunqrp6qz74zv45bkkl27i3i2fhuhbmnfucv32fi",
+          "uri": "at://did:plc:rkm6m4dsc4da2yzdlvxorhf3/app.bsky.feed.post/3ld7lrs3ogc2p"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 92,
+            "byteStart": 84
+          },
+          "features": [
+            {
+              "tag": "windows",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-13T21:10:04.397Z"
+    },
+    "cid": "bafyreieb3zucgrlii5z46upzl3vzvxhycnubii5a4r5b4ccmxxzanphvte"
+  }
+}

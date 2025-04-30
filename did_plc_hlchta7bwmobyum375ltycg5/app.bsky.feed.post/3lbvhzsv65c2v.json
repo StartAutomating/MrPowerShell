@@ -1,0 +1,43 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1732673551570,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lbvhzsv65c2v",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lbvhzsv65c2v",
+    "record": {
+      "text": "Oh, plenty of VBScript over the years.  Even some Visual Basic and VB .Net .  \n\nI just shudder to think of any years spent with the basic language.\n\nWhy?\n\nCause I've never been #basic 😉.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiau7lthgm2asihnse4aut4btzsw3eiqc6zr5d4r2i36oenziq7qny",
+          "uri": "at://did:plc:oqnes3sbpqrkcs2su7qil3wk/app.bsky.feed.post/3lbshazsbak2q"
+        },
+        "parent": {
+          "cid": "bafyreiakwnscvov5rdxyejyfhwzgduz43thokn7f4ch2ncdxetayq5g2h4",
+          "uri": "at://did:plc:nrxngnjnce74aisq4hiu5zuy/app.bsky.feed.post/3lbvh4tphi225"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 183,
+            "byteStart": 177
+          },
+          "features": [
+            {
+              "tag": "basic",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-27T02:12:31.57Z"
+    },
+    "cid": "bafyreihjitlxkt7r5yu5kvptcyrekasdb2ithdadwlfdawgbj353lrnlkq"
+  }
+}

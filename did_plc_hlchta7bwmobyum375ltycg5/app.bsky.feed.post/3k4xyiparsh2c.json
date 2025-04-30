@@ -1,0 +1,33 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1692077997853,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3k4xyiparsh2c",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3k4xyiparsh2c",
+    "record": {
+      "text": "Just learned something new about #PowerShell!\n\nInvoke-RestMethod treats RSS differently.\n\nIt doesn't return the RSS channel information; it returns each feed item:\n\nExample:\n\n(irm https://pipescript.start-automating.com/rss.xml).Count",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 234,
+            "byteStart": 180
+          },
+          "features": [
+            {
+              "uri": "https://pipescript.start-automating.com/rss.xml).Count",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-08-15T05:39:57.853Z"
+    },
+    "cid": "bafyreicjrepc6atqwz2r72v3mc5pkqyc755frfglu3m62s7kdsyxwdieby"
+  }
+}

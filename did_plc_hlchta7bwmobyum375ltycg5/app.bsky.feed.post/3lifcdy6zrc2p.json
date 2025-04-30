@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1739814275808,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lifcdy6zrc2p",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lifcdy6zrc2p",
+    "record": {
+      "text": "I think he just wants to upend #NATO, and that the rare earth minerals are a red herring.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/jscshsxAst8AAAAC/clue.gif?hh=276&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidpjdxq2wixspoktiufbyeuuzk5ud27zhhukujzpttta4m4fsbnti"
+            },
+            "mimeType": "image/jpeg",
+            "size": 37968
+          },
+          "title": "a close up of a man 's face with a mustache in the dark",
+          "description": "Alt: Clue knew it:\n\n\"Communism was just a red herring\"\n\n( So are the rare earths )"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreidtvn3x7fajvptljlwqi57ho3dnjhbdb64rj3xcwum4hpguvavwae",
+          "uri": "at://did:plc:ybtyn5l4nljys46ijqtpldaw/app.bsky.feed.post/3liczcjs4dk2y"
+        },
+        "parent": {
+          "cid": "bafyreidtvn3x7fajvptljlwqi57ho3dnjhbdb64rj3xcwum4hpguvavwae",
+          "uri": "at://did:plc:ybtyn5l4nljys46ijqtpldaw/app.bsky.feed.post/3liczcjs4dk2y"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 31
+          },
+          "features": [
+            {
+              "tag": "NATO",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-17T17:44:35.808Z"
+    },
+    "cid": "bafyreidd3xwhpemkfgha3f7nd2ilenc6j5ngknrxuvdxdsmch2ces2g3ge"
+  }
+}

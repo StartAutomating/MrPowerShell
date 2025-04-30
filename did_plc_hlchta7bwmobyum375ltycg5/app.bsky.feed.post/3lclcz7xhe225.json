@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733424077256,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lclcz7xhe225",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lclcz7xhe225",
+    "record": {
+      "text": "I, too, have a PowerShell addiction.\n\nYou should join one of the support groups.\n\ngo.bsky.app/NFNRdph",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreicx74othwym7uodohzkutipd2dvp6hg3afsgrrynn35ytqrdaa2qy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.graph.starterpack/3lcixwkiihh24"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreifndks7hs7rzzilmoe3jgocif2ss26vygzfczgcupcz6ckohifmii",
+          "uri": "at://did:plc:g6kpznflvxd22rttquryjmar/app.bsky.feed.post/3lclcmg5lsc2i"
+        },
+        "parent": {
+          "cid": "bafyreifndks7hs7rzzilmoe3jgocif2ss26vygzfczgcupcz6ckohifmii",
+          "uri": "at://did:plc:g6kpznflvxd22rttquryjmar/app.bsky.feed.post/3lclcmg5lsc2i"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 101,
+            "byteStart": 82
+          },
+          "features": [
+            {
+              "uri": "https://go.bsky.app/NFNRdph",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-05T18:41:17.256Z"
+    },
+    "cid": "bafyreiclnd72pkt6ifffe6k54vl2g3gwpupr2iktxs7uugmkxcb5hkqyyy"
+  }
+}

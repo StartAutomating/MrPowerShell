@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1742848147477,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ll5lufotgk2w",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ll5lufotgk2w",
+    "record": {
+      "text": "Great meeting so @graze.social people at #AtmosphereConf !\n\nPlease have someone reach out to me about feed crawler optimization.\n\nI have some observations and ideas of ways to improve the performance characteristics of feed generation.",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "index": {
+            "byteEnd": 30,
+            "byteStart": 17
+          },
+          "features": [
+            {
+              "did": "did:plc:i6y3jdklpvkjvynvsrnqfdoq",
+              "$type": "app.bsky.richtext.facet#mention"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 56,
+            "byteStart": 41
+          },
+          "features": [
+            {
+              "tag": "AtmosphereConf",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-03-24T20:29:07.477Z"
+    },
+    "cid": "bafyreicbvfyysdv7mu4zzxvwkar4anmkr2iglmmry23ox5cwm5rqwbp5cy"
+  }
+}

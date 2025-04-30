@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1733769671925,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lcveuqprcc2y",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lcveuqprcc2y",
+    "record": {
+      "text": "It's funny cause people don't mind typing out to an LLM but if you ask some people to open up an actual terminal and type commands that are mostly English, they'll react like this.",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://media.tenor.com/NvK18owrthcAAAAC/having-a-nightmare-eric-cartman.gif?hh=280&ww=498",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiamkf52ovgs3ajhedchnxxmfoyqbhukoqab5cd7g7jf3vxjgvole4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 51993
+          },
+          "title": "a cartoon character laying in bed with his eyes crossed",
+          "description": "Alt: Too many people's reaction to pulling up a terminal."
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreiaj2nftq4kb77kkakqz3uytrgrknpgb3baasg6fv34t5fac6rt5fu",
+          "uri": "at://did:plc:stsrie2quiv3hrbz4sm23qr3/app.bsky.feed.post/3lcv53xclx22l"
+        },
+        "parent": {
+          "cid": "bafyreid4w27o2ltofmahik55xw2wpjuksk76wdtgujzcxvbqlakliqxjey",
+          "uri": "at://did:plc:g5veggughutkxda6cnkrfrgc/app.bsky.feed.post/3lcvacn2jg22p"
+        }
+      },
+      "createdAt": "2024-12-09T18:41:11.925Z"
+    },
+    "cid": "bafyreif72acrg4ibw4oysyrsr7s34palecqmt2vv4n4dabqan25jlxgeki"
+  }
+}

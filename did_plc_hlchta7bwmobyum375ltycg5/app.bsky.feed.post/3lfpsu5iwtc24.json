@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736877060618,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfpsu5iwtc24",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfpsu5iwtc24",
+    "record": {
+      "text": "A - I'm sorry, that's a crappy way to spend a half hour\n\nB - This is why I prefer to only override commands in modules.\n\nC - This is why I don't personalize a profile too much ( just load a module or two )",
+      "$type": "app.bsky.feed.post",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreibwhup4rce32otbzjwee6xrcjd6m33dfq7u5ly2cyrptxoqnain7i",
+          "uri": "at://did:plc:4ie2vd7vv6frbzs6qocpxjnl/app.bsky.feed.post/3lfpgvodlm22w"
+        },
+        "parent": {
+          "cid": "bafyreibwhup4rce32otbzjwee6xrcjd6m33dfq7u5ly2cyrptxoqnain7i",
+          "uri": "at://did:plc:4ie2vd7vv6frbzs6qocpxjnl/app.bsky.feed.post/3lfpgvodlm22w"
+        }
+      },
+      "createdAt": "2025-01-14T17:51:00.618Z"
+    },
+    "cid": "bafyreiai7lmvlqiewtfljj7qllfodbr57kll3qjzsgzxr3d3toex6pv5cq"
+  }
+}

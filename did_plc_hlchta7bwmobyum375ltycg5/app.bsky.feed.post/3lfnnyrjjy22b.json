@@ -1,0 +1,53 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1736803127634,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lfnnyrjjy22b",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lfnnyrjjy22b",
+    "record": {
+      "text": "Good news #powershell people.\n\nI believe I can now say that embroidered PowerShell Chevron t-shirt came out about perfectly.\n\nBonus points... It's comfy!\n\nThe more people who like this post or reply \"I want one\", the quicker I'll put the store up.\n\n( Zippered hoodie also came out nicely )",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "",
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiax3db3la36hggskjafp5azxrx6okih6gr5xgporwsd5664nzezmi"
+              },
+              "mimeType": "image/jpeg",
+              "size": 452600
+            },
+            "aspectRatio": {
+              "width": 1502,
+              "height": 2000
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 21,
+            "byteStart": 10
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-01-13T21:18:47.634Z"
+    },
+    "cid": "bafyreiaxrb42zrj66ol7mpdvbxl5illwghnislsxvo472jf3tssfbvtc2i"
+  }
+}

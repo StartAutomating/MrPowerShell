@@ -1,0 +1,109 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1740169347581,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lipmzwzyrs22",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lipmzwzyrs22",
+    "record": {
+      "text": "I am Jack's lack of surprise.\n\n#news #corruption #dei #musk\n\nNote that this was dismissed with prejudice, where as the #doj is asking to dismiss the Adams charges without prejudice.\n\n🤷😡\n\nwww.theguardian.com/science/2025...",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://www.theguardian.com/science/2025/feb/21/space-x-elon-musk-discrimination-case",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigiofocf3ovltolrkpggpuychxu75nmyvbhzay4x7pelvopwyoji4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 302134
+          },
+          "title": "Justice department drops discrimination case against Elon Musk’s SpaceX",
+          "description": "Case brought during Biden presidency accused space company of refusing, unlawfully, to hire certain immigrants"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 31
+          },
+          "features": [
+            {
+              "tag": "news",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 48,
+            "byteStart": 37
+          },
+          "features": [
+            {
+              "tag": "corruption",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 53,
+            "byteStart": 49
+          },
+          "features": [
+            {
+              "tag": "dei",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 59,
+            "byteStart": 54
+          },
+          "features": [
+            {
+              "tag": "musk",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 123,
+            "byteStart": 119
+          },
+          "features": [
+            {
+              "tag": "doj",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 228,
+            "byteStart": 193
+          },
+          "features": [
+            {
+              "uri": "https://www.theguardian.com/science/2025/feb/21/space-x-elon-musk-discrimination-case",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-02-21T20:22:27.581Z"
+    },
+    "cid": "bafyreiccyb6gzzohizjywo3zkp2tzgbilsyf5sotapn7st4ma5jhpcway4"
+  }
+}

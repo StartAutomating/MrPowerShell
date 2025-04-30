@@ -1,0 +1,71 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1734393910164,
+  "kind": "commit",
+  "commit": {
+    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ldhkaioyl225",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ldhkaioyl225",
+    "record": {
+      "text": "Lucky for you, I make a great #powershell module for using git.\n\ngithub.com/StartAutomat...\n\n( Unlucky for me, it is more than 1000 lines of powershell )",
+      "$type": "app.bsky.feed.post",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "uri": "https://github.com/StartAutomating/ugit",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibbfpi3pqexpkpgumv5iob5sulruyl7gajeperiyw74mrnf7u5ww4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 36955
+          },
+          "title": "GitHub - StartAutomating/ugit: Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects.",
+          "description": "Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects. - StartAutomating/ugit"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "root": {
+          "cid": "bafyreih7v6me3eubck6t7cflqr7pdb7fcutvbs5nw23ncznn23h7enefhe",
+          "uri": "at://did:plc:v7k7uiff7f5jwpexaopw7uei/app.bsky.feed.post/3ldh75pt3qs2i"
+        },
+        "parent": {
+          "cid": "bafyreih7v6me3eubck6t7cflqr7pdb7fcutvbs5nw23ncznn23h7enefhe",
+          "uri": "at://did:plc:v7k7uiff7f5jwpexaopw7uei/app.bsky.feed.post/3ldh75pt3qs2i"
+        }
+      },
+      "facets": [
+        {
+          "index": {
+            "byteEnd": 41,
+            "byteStart": 30
+          },
+          "features": [
+            {
+              "tag": "powershell",
+              "$type": "app.bsky.richtext.facet#tag"
+            }
+          ]
+        },
+        {
+          "index": {
+            "byteEnd": 91,
+            "byteStart": 65
+          },
+          "features": [
+            {
+              "uri": "https://github.com/StartAutomating/ugit",
+              "$type": "app.bsky.richtext.facet#link"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-12-17T00:05:10.164Z"
+    },
+    "cid": "bafyreialxwryrobo47djr44pjfn2l3nbmfyg5daynuczcr6zxs2rnxclk4"
+  }
+}
