@@ -55,10 +55,17 @@ foreach ($post in $myPosts) {
         "<br/>"
         "<a href='$($post | toUri)'>"
         "<p class='largeParagraph'>"
+        foreach ($line in $postText -split '(?>\r\n|\n)') {
+            [Web.HttpUtility]::HtmlEncode($line)
+            '<br/>'
+        }
         [Web.HttpUtility]::HtmlEncode($postText)
         "</p>"
         "<p class='smallParagraph'>"
-        [Web.HttpUtility]::HtmlEncode($description)
+        foreach ($line in $description -split '(?>\r\n|\n)') {
+            [Web.HttpUtility]::HtmlEncode($line)
+            '<br/>'
+        }
         "</p>"
         "</a>"
         "</div>"
