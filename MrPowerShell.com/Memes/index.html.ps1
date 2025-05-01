@@ -33,7 +33,7 @@ filter toUri {
 "<div class='imageGrid'>"
 foreach ($post in $myPosts) {    
     $myPostUri = $post.commit.record.embed.external.uri -as [uri]
-    $description = $post.commit.record.embed.external.description
+    $description = $post.commit.record.embed.external.description -replace '^alt:\s{0,}'    
     if ($myPostUri.DnsSafeHost -eq 'media.tenor.com') {
         "<div>"
         "<a href='$($post | toUri)' aria-label='$([Web.HttpUtility]::HtmlAttributeEncode($description))'><img src='$($myPostUri)' $(if ($description) {
