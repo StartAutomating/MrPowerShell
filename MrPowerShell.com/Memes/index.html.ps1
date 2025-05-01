@@ -58,8 +58,7 @@ foreach ($post in $myPosts) {
         foreach ($line in $postText -split '(?>\r\n|\n)') {
             [Web.HttpUtility]::HtmlEncode($line)
             '<br/>'
-        }
-        [Web.HttpUtility]::HtmlEncode($postText)
+        }        
         "</p>"
         "<p class='smallParagraph'>"
         foreach ($line in $description -split '(?>\r\n|\n)') {
