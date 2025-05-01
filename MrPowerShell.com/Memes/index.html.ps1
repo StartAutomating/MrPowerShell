@@ -31,18 +31,23 @@ filter toUri {
 "@
 
 "<div class='imageGrid'>"
-foreach ($post in $myPosts) {
-    "<div>"
+foreach ($post in $myPosts) {    
     $myPostUri = $post.commit.record.embed.external.uri -as [uri]
     $description = $post.commit.record.embed.external.description
     if ($myPostUri.DnsSafeHost -eq 'media.tenor.com') {
+        "<div>"
         "<a href='$($post | toUri)' aria-label='$([Web.HttpUtility]::HtmlAttributeEncode($description))'><img src='$($myPostUri)' $(if ($description) {
             "alt='$([Web.HttpUtility]::htmlAttributeEncode($description))'"
         } else {
             "alt='Tenor GIF'"
-        }) /></a>
-        <br/>"
-    }
-    "</div>"
+        }) /></a>"
+        "<br/>"
+        "<p>"
+        "<a href='$($post | toUri)'>"
+        [Web.HttpUtility]::HtmlEncode($description)
+        "</a>"
+        "</p>"
+        "</div>"
+    }    
 }
 "</div>"
