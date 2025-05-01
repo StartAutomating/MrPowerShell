@@ -1,0 +1,132 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1746138017800881,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lo5ds66mzi2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lo5ds7beec2s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-01T22:20:18.587Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Work with WebSockets in PowerShell. Contribute to PowerShellWeb/WebSocket development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreig7qbkifxmqasdkxucznnzapdxhzi2mn7llvvlblcbwocr3vrfeca"
+            },
+            "mimeType": "image/jpeg",
+            "size": 161339
+          },
+          "title": "GitHub - PowerShellWeb/WebSocket: Work with WebSockets in PowerShell",
+          "uri": "https://github.com/PowerShellWeb/WebSocket"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://MrPowerShell.com"
+            }
+          ],
+          "index": {
+            "byteEnd": 76,
+            "byteStart": 60
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 113,
+            "byteStart": 106
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebSocket"
+            }
+          ],
+          "index": {
+            "byteEnd": 139,
+            "byteStart": 129
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 170,
+            "byteStart": 162
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Jetstream"
+            }
+          ],
+          "index": {
+            "byteEnd": 181,
+            "byteStart": 171
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 238,
+            "byteStart": 227
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShellWeb/WebSocket"
+            }
+          ],
+          "index": {
+            "byteEnd": 289,
+            "byteStart": 263
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif2m32vyof7hdkmzrrkkzel274istgh5dnkgvvjhj4mpftgrqhduy",
+          "uri": "at://did:plc:kzsyuofr6oxycym3hqtesbxm/app.bsky.feed.post/3lo57lzpfw22w"
+        },
+        "root": {
+          "cid": "bafyreiedxdjltxeno6fxkwhwhdn3boee64jiljhoau5hutmotdibiyg3by",
+          "uri": "at://did:plc:34ptrjixbtadnlzdi2oqo4fh/app.bsky.feed.post/3lo42lecx3226"
+        }
+      },
+      "text": "You're welcome to grab an example of me doing this from the MrPowerShell.com repo.\n\nCurrently I'm using a #GitHub action for the #WebSocket module to capture the #AtProto #Jetstream and save it to the repo, then using a purely #PowerShell static site generator.\n\ngithub.com/PowerShellWe..."
+    },
+    "cid": "bafyreiejoam7j7batho5fnwajhciyctqeeuncemg4umdfylrxici55emnq"
+  }
+}
