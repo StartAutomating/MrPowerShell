@@ -2,6 +2,9 @@ param(
     $did = 'did_plc_hlchta7bwmobyum375ltycg5'
 )
 
+# Set a title, so that it shows up in metadata
+$Title = "My Memes"
+
 $myPostFiles = $PSScriptRoot | 
     Split-Path | 
         Split-Path | 
@@ -27,11 +30,19 @@ filter toUri {
     display: grid;    
     text-align: center;    
 }
+
+.largeParagraph {
+    font-size: 1.1em;
+}
+.smallParagraph {
+    font-size: 0.9em;    
+}
 </style>
 "@
 
 "<div class='imageGrid'>"
 foreach ($post in $myPosts) {    
+    $postText = $post.commit.record.text
     $myPostUri = $post.commit.record.embed.external.uri -as [uri]
     $description = $post.commit.record.embed.external.description -replace '^alt:\s{0,}'    
     if ($myPostUri.DnsSafeHost -eq 'media.tenor.com') {
@@ -42,11 +53,14 @@ foreach ($post in $myPosts) {
             "alt='Tenor GIF'"
         }) /></a>"
         "<br/>"
-        "<p>"
         "<a href='$($post | toUri)'>"
-        [Web.HttpUtility]::HtmlEncode($description)
-        "</a>"
+        "<p class='largeParagraph'>"
+        [Web.HttpUtility]::HtmlEncode($postText)
         "</p>"
+        "<p class='smallParagraph'>"
+        [Web.HttpUtility]::HtmlEncode($description)
+        "</p>"
+        "</a>"
         "</div>"
     }    
 }
