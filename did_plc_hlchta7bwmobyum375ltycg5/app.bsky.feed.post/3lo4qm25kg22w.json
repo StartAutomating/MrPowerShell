@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1746117410907238,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lo4qm25qws2x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lo4qm25kg22w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-01T16:36:50.8Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "doge"
+            }
+          ],
+          "index": {
+            "byteEnd": 17,
+            "byteStart": 12
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 58,
+            "byteStart": 47
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibrryj7nyf7fzgvdlec3cbvlf7swlwzqlq3bhmj2xbtn3dsvgc3ia",
+          "uri": "at://did:plc:3hklcgosgfihcyvqzqqiggyg/app.bsky.feed.post/3lo4o4wdcgk2j"
+        },
+        "root": {
+          "cid": "bafyreibim3wmptlf5isze4owgrpiq4dbd63e47p5lmcuwwly4thafetlxi",
+          "uri": "at://did:plc:qj7bfzf4fwek5qgg5f6f7tbp/app.bsky.feed.post/3lo4n2xqkek2k"
+        }
+      },
+      "text": "If only the #doge douches had implemented that #PowerShell function instead of trying to implement ConvertTo-Facism.\n\nMaybe their successors will finally implement Out-Stupid."
+    },
+    "cid": "bafyreibll5moogex6r2rdllkuz7slg2gm6t4u3hcvcez7pi4jyzgmzluti"
+  }
+}
