@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1746125407897482,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lo4y2eltou23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lo4y2fycpk2s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-01T18:50:09.165Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 110,
+            "byteStart": 99
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifmhaxl2u4fmeufjl6q37wofkrwxjhq76wobwpqb6uo7g4dntvj5u",
+          "uri": "at://did:plc:xask7r2j7245gadpbfd6zmja/app.bsky.feed.post/3lo4urp6svc2e"
+        },
+        "root": {
+          "cid": "bafyreibim3wmptlf5isze4owgrpiq4dbd63e47p5lmcuwwly4thafetlxi",
+          "uri": "at://did:plc:qj7bfzf4fwek5qgg5f6f7tbp/app.bsky.feed.post/3lo4n2xqkek2k"
+        }
+      },
+      "text": "Yeah.  At the very least they should have been using ConfirmImpact='High'.\n\nMaybe the lack of this #PowerShell understanding explains those \"whoopsie\" firings, like the Ebola prevention team and the nuclear watchdogs."
+    },
+    "cid": "bafyreifmmb3ksm4t2uicwre4zmw3wp6zi6k23jtdq267mvexgpuaecvcvy"
+  }
+}
