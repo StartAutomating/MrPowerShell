@@ -26,10 +26,14 @@ filter toUri {
 
 @"
 <style>
+a {
+    text-decoration: none;    
+}
+    
 .imageGrid {
     display: grid;    
     text-align: center;    
-}
+}    
 
 .largeParagraph {
     font-size: 1.1em;
