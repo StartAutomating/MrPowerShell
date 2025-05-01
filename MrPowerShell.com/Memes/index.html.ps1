@@ -66,8 +66,8 @@ foreach ($post in $myPosts) {
         }
         "</p>"
         "</a>"
-        "</div>"
         "<hr/>"
+        "</div>"        
     }    
 }
 "</div>"
