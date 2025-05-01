@@ -46,21 +46,19 @@ foreach ($post in $myPosts) {
     $myPostUri = $post.commit.record.embed.external.uri -as [uri]
     $description = $post.commit.record.embed.external.description -replace '^alt:\s{0,}'    
     if ($myPostUri.DnsSafeHost -eq 'media.tenor.com') {
-        "<div>"
-        "<a href='$($post | toUri)' aria-label='$([Web.HttpUtility]::HtmlAttributeEncode($description))'><img src='$($myPostUri)' $(if ($description) {
-            "alt='$([Web.HttpUtility]::htmlAttributeEncode($description))'"
-        } else {
-            "alt='Tenor GIF'"
-        }) /></a>"
-        "<br/>"
-        "<a href='$($post | toUri)'>"
+        "<div>"                
+        "<a href='$($post | toUri)' aria-label='$([Web.HttpUtility]::HtmlAttributeEncode($description))'>"
         "<p class='largeParagraph'>"
         foreach ($line in $postText -split '(?>\r\n|\n)') {
             [Web.HttpUtility]::HtmlEncode($line)
             '<br/>'
-        }
-        [Web.HttpUtility]::HtmlEncode($postText)
+        }        
         "</p>"
+        "<img src='$($myPostUri)' $(if ($description) {
+            "alt='$([Web.HttpUtility]::htmlAttributeEncode($description))'"
+        } else {
+            "alt='Tenor GIF'"
+        }) />"
         "<p class='smallParagraph'>"
         foreach ($line in $description -split '(?>\r\n|\n)') {
             [Web.HttpUtility]::HtmlEncode($line)
@@ -69,6 +67,7 @@ foreach ($post in $myPosts) {
         "</p>"
         "</a>"
         "</div>"
+        "<hr/>"
     }    
 }
 "</div>"
