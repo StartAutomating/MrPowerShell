@@ -4,6 +4,7 @@ Set-Alias BuildFile ./buildFile.ps1
 # Start the clock
 $lastBuildTime = [DateTime]::Now
 
+# Push into the script root directory
 Push-Location $PSScriptRoot
 
 # If we have an event path,
@@ -19,12 +20,14 @@ $CNAME =
         (Get-Content -Path 'CNAME' -Raw).Trim()
     }
 
+#region Build Files
 # Start the clock on the build process
 $buildStart = [DateTime]::Now
 # pipe every file we find to buildFile
 Get-ChildItem -Recurse -File | . buildFile
 # and stop the clock
 $buildEnd = [DateTime]::Now
+#endregion Build Files
 
 #region lastBuild.json
 
@@ -36,7 +39,7 @@ $newLastBuild = [Ordered]@{
         if ($gitHubEvent.commits) { 
             $gitHubEvent.commits[-1].Message
         } elseif ($gitHubEvent.schedule) {
-            $gitHubEvent.schedule
+            "Ran at $([DateTime]::Now.ToString('o')) on $($gitHubEvent.schedule)"
         } else {
             'On Demand'
         }
