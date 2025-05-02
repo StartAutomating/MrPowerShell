@@ -1,0 +1,90 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1746153431691279,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lo5s5jrfb32e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lo5s4lkqfc2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-02T02:36:39.409Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "",
+            "aspectRatio": {
+              "height": 489,
+              "width": 649
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreicjrphs52dvkx6niwcarfwrkxf2ecm7ktrh5el5agtoelppbdsu2a"
+              },
+              "mimeType": "image/jpeg",
+              "size": 119067
+            }
+          }
+        ]
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "USD"
+            }
+          ],
+          "index": {
+            "byteEnd": 20,
+            "byteStart": 16
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "economics"
+            }
+          ],
+          "index": {
+            "byteEnd": 183,
+            "byteStart": 173
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "tarrifs"
+            }
+          ],
+          "index": {
+            "byteEnd": 192,
+            "byteStart": 184
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "uhoh"
+            }
+          ],
+          "index": {
+            "byteEnd": 198,
+            "byteStart": 193
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Holy crap:\n\nThe #USD is down €0.07  / ~7% since January.\n\nYou can see the economic decline from space.\n\nAlso, just saying, previous four years seem pretty good / stable.\n\n#economics #tarrifs #uhoh"
+    },
+    "cid": "bafyreiaz3gt536wauyqkkq3ctr4ktaoq6442ch2n5lwp7adt5plv456n6e"
+  }
+}
