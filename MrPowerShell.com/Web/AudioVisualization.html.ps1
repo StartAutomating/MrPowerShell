@@ -16,31 +16,92 @@ $setPalette = "
 </script>
 "
 
+$randomPalette = @"
+<script>
+function SetRandomPalette() {
+    var SelectPalette = document.getElementById('SelectPalette')
+    var randomNumber = Math.floor(Math.random() * SelectPalette.length);
+    SelectPalette.selectedIndex = randomNumber
+    SetPalette()
+}
+</script>
+"@
+
+$OnResize = '
+<script>
+function Resize() {    
+    var oscilloscope = document.getElementById("oscilloscope")
+    var audiobars = document.getElementById("audiobars")
+    if (window.innerWidth) {        
+        oscilloscope.width = window.innerWidth
+        oscilloscope.height = window.innerHeight * 0.3    
+        audiobars.width = window.innerWidth
+        audiobars.height = window.innerHeight * 0.3
+    } else {
+        oscilloscope.width = screen.width
+        oscilloscope.height = screen.height * 0.3    
+        audiobars.width = screen.width
+        audiobars.height = screen.height * 0.3
+    }    
+    console.log(`Resized ${screen.width}x${screen.height}`)
+}
+window.addEventListener("resize", function() {
+    Resize()
+})
+Resize()
+</script>
+'
+
 $paletteSelector = @"
 <select id='SelectPalette' onchange='SetPalette()'>
 $(foreach ($paletteName in (Invoke-RestMethod https://4bitcss.com/Palette-List.json)) {
-    "<option value='$([Web.HttpUtility]::HtmlAttributeEncode($paletteName))'>$([Web.HttpUtility]::HtmlEncode($paletteName))</option>"
+    "<option value='$([Web.HttpUtility]::HtmlAttributeEncode($paletteName))'>$([Web.HttpUtility]::HtmlEncode($paletteName))</option>"    
 })
 </select>
 "@
 
 
 $setPalette
+$randomPalette
+$OnResize
 
 $html = @"
-<div style="text-align:center;width:100%;height:100%">
-    <input type="file" id="audioFile" multiple="true" />
-    <br/>
-    $paletteSelector
-    <br/>
-    <audio controls="true" autoplay="true" id="audio"></audio>
-    <br/>    
-    <canvas id="oscilloscope" width='1920' height='320' ></canvas>
-    <br/>
-    <canvas id="audiobars" width="1920" height="320"></canvas>
+<style>
+.controlsGrid {
+    display: grid; 
+    gap: .42%;
+    text-align: center;
+    text-align:center
+    width:100%
+    height:100%
+}
+#oscilloscope {
+    width: 100%;    
+}
+#audiobars {
+    width: 100%;        
+}
+</style>
+<div class='controlsGrid'>
+    <div>
+        <input type="file" id="audioFile" multiple="true" />
+    </div>
+    <div>
+        $paletteSelector
+    </div>
+    <div>
+        <button id="SetRandomPalette" onclick="SetRandomPalette()">Random Palette</button>
+    </div>
+    <div>
+        <audio controls="true" autoplay="true" id="audio"></audio>
+    </div>
+    <div>
+        <canvas id="oscilloscope" width='1920' height='320'></canvas>
+    </div>
+    <canvas id="audiobars" width='1920' height='320'></canvas>
 </div>
 
-<script>    
+<script>
 var audio = document.getElementById('audio');
 var audioLoader = document.getElementById('audioFile');
 var playlistFiles = []
@@ -125,8 +186,8 @@ async function ShowOscilliscope() {
         oscilloscopeCanvas2d.fillStyle = backgroundColor
         oscilloscopeCanvas2d.fillRect(0, 0, scopeWidth, scopeHeight)
 
-        oscilloscopeCanvas2d.lineWidth = 2;
-        oscilloscopeCanvas2d.strokeStyle = foregroundColor;
+        oscilloscopeCanvas2d.lineWidth = Math.random() * 5 + 1;
+        oscilloscopeCanvas2d.strokeStyle = foregroundColor;        
 
         oscilloscopeCanvas2d.beginPath();
 
