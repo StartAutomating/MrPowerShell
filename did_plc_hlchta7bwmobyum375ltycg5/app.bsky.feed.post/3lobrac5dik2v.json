@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1746289889421909,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lobracdui32r",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lobrac5dik2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-03T16:31:28.962Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiamwmwnnrnrtt3bw24mccdwslhb3ol2maejvfyyt4brcvpv6azmqy",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3lo7wjkfddm2l"
+        },
+        "root": {
+          "cid": "bafyreiamwmwnnrnrtt3bw24mccdwslhb3ol2maejvfyyt4brcvpv6azmqy",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3lo7wjkfddm2l"
+        }
+      },
+      "text": "Actually wrote this a number of years ago, and should probably give it more air.\n\nGiven how much it helped me deduct, it's probably the most valuable bit of scripting I've ever done.\n\nThat is to say:\n\n1. Do it!\n2. Want help?\n3. I should really publish this module."
+    },
+    "cid": "bafyreicd4sn6xhirml6nyf4kvukndkdf2ssba5ylr5qemvlankd6vnmgoe"
+  }
+}
