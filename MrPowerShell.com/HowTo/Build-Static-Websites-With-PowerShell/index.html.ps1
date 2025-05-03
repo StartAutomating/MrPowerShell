@@ -38,3 +38,25 @@ $({
 })
 ~~~
 ").Html
+
+"<p>Since GitHub Workflows allow us to run PowerShell scripts, this is all we need to do to build a static site.</p>"
+
+"<p>Now, let's get a little meta.  We're going to include the source for this page in this page</p>"
+
+"<p>To to this, we can use the <code>MyInvocation</code> automatic variable to get the script block for this page, like so:</p>"
+
+(ConvertFrom-Markdown -InputObject '
+~~~PowerShell
+$($myInvocation.MyCommand.ScriptBlock)
+~~~
+')
+
+"<p>The full code is below:</p>"
+
+"<hr/>"
+
+(ConvertFrom-Markdown -InputObject "
+~~~PowerShell
+$($MyInvocation.MyCommand.ScriptBlock)
+~~~
+").Html
