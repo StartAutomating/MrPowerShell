@@ -24,8 +24,12 @@ $Title = "How to Build Static Websites with PowerShell"
 "<p>Markdown is a simple markup language that can be used to format text.</p>"
 $LearnLink = 'https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-markdown?wt.mc_id=MVP_321542'
 "<p>Here's an example of how to use <a href='$LearnLink'>ConvertFrom-Markdown</a> to generate HTML:</p>"
-ConvertFrom-Markdown -InputObject "# Hello From Markdown!" |
-    Select-Object -ExpandProperty HTML
+$markdownDemo = { ConvertFrom-Markdown -InputObject "### Hello From Markdown!" |
+    Select-Object -ExpandProperty HTML } 
+"<pre><code class='language-PowerShell'>"
+$([Web.HttpUtility]::HtmlEncode($markdownDemo))
+"</code></pre>"
+. $markdownDemo
 
 "<p>Since GitHub Workflows allow us to run PowerShell scripts, this is all we need to do to build a static site.</p>"
 "<p>Now, let's get a little meta.  We're going to include the source for this page in this page</p>"
@@ -34,5 +38,5 @@ ConvertFrom-Markdown -InputObject "# Hello From Markdown!" |
 "<hr/>"
 
 "<pre><code class='language-PowerShell'>"
-[Web.HttpUtility]::HtmlEncode({$MyInvocation.MyCommand.ScriptBlock})
+[Web.HttpUtility]::HtmlEncode($MyInvocation.MyCommand.ScriptBlock)
 "</code></pre>"
