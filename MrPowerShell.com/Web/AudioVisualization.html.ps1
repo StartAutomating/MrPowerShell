@@ -1,3 +1,5 @@
+$title = "Audio Visualizer"
+
 $html = @"
 <div style="text-align:center;width:100%;height:100%">
     <input type="file" id="audioFile" multiple="true" />
@@ -124,6 +126,7 @@ async function ShowOscilliscope() {
     }
     draw();
 }
+</script>
 "@
 $html
 "<pre><code class='language-PowerShell'>"
