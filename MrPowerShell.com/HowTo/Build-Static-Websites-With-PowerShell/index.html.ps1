@@ -15,7 +15,7 @@ $Title = "How to Build Static Websites with PowerShell"
     # use Invoke-Item to open the file in the default browser
     Invoke-Item ./MyFirstPowerShellPage.html
 })
-"</pre></code>"
+"</code></pre>"
 
 "<p>When you run this code, it will create a file called MyFirstPowerShellPage.html in the current directory.</p>"
 "<p>When you open that file in a browser, you'll see the text 'Hello World!' displayed.</p>"
@@ -33,8 +33,6 @@ ConvertFrom-Markdown -InputObject "# Hello From Markdown!" |
 "<p>The full code is below:</p>"
 "<hr/>"
 
-(ConvertFrom-Markdown -InputObject "
-~~~PowerShell
-$($MyInvocation.MyCommand.ScriptBlock)
-~~~
-").Html
+"<pre><code class='language-PowerShell'>"
+[Web.HttpUtility]::HtmlEncode({$MyInvocation.MyCommand.ScriptBlock})
+"</code></pre>"
