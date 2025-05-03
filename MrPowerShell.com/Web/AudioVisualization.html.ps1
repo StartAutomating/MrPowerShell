@@ -1,8 +1,37 @@
 $title = "Audio Visualizer"
 
+$setPalette = "
+<script>
+    function SetPalette() {
+        var palette = document.getElementById('palette')
+        if (! palette) {
+            palette = document.createElement('link')
+            palette.rel = 'stylesheet'
+            palette.id = 'palette'
+            document.head.appendChild(palette)
+        }
+        var selectedPalette = document.getElementById('SelectPalette').value
+        palette.href = 'https://cdn.jsdelivr.net/gh/2bitdesigns/4bitcss@latest/css/' + selectedPalette + '.css'
+    }
+</script>
+"
+
+$paletteSelector = @"
+<select id='SelectPalette' onchange='SetPalette()'>
+$(foreach ($paletteName in (Invoke-RestMethod https://4bitcss.com/Palette-List.json)) {
+    "<option value='$([Web.HttpUtility]::HtmlAttributeEncode($paletteName))'>$([Web.HttpUtility]::HtmlEncode($paletteName))</option>"
+})
+</select>
+"@
+
+
+$setPalette
+
 $html = @"
 <div style="text-align:center;width:100%;height:100%">
     <input type="file" id="audioFile" multiple="true" />
+    <br/>
+    $paletteSelector
     <br/>
     <audio controls="true" autoplay="true" id="audio"></audio>
     <br/>    
@@ -66,7 +95,6 @@ async function ShowOscilliscope() {
     // Connect the source to be analysed
     source.connect(analyser);
     analyser.connect(audioCtx.destination);
-
     
 
     // draw an oscilloscope of the current audio source
@@ -76,19 +104,29 @@ async function ShowOscilliscope() {
         analyser.getByteTimeDomainData(dataArray);
         analyser.getByteFrequencyData(frequencyArray);
 
+        let backgroundColor = getComputedStyle(audiobarsCanvas).getPropertyValue('--background')
+        if (backgroundColor == '') {
+            backgroundColor = '#FFFFFF'
+        }
+
+        let foregroundColor = getComputedStyle(audiobarsCanvas).getPropertyValue('--foreground')
+        if (foregroundColor == '') {
+            foregroundColor = '#000000'
+        }
+
         const barsWidth = audiobarsCanvas.scrollWidth
         const barsHeight = audiobarsCanvas.scrollHeight
         const scopeWidth = oscilloscopeCanvas.scrollWidth
         const scopeHeight = oscilloscopeCanvas.scrollHeight
         
-        audiobarsCanvas2d.fillStyle = getComputedStyle(audiobarsCanvas).getPropertyValue('--background')
+        audiobarsCanvas2d.fillStyle = backgroundColor
         audiobarsCanvas2d.fillRect(0, 0, barsWidth, barsHeight)
 
-        oscilloscopeCanvas2d.fillStyle = getComputedStyle(audiobarsCanvas).getPropertyValue('--background')
+        oscilloscopeCanvas2d.fillStyle = backgroundColor
         oscilloscopeCanvas2d.fillRect(0, 0, scopeWidth, scopeHeight)
 
         oscilloscopeCanvas2d.lineWidth = 2;
-        oscilloscopeCanvas2d.strokeStyle = getComputedStyle(audiobarsCanvas).getPropertyValue('--foreground');
+        oscilloscopeCanvas2d.strokeStyle = foregroundColor;
 
         oscilloscopeCanvas2d.beginPath();
 
@@ -117,10 +155,8 @@ async function ShowOscilliscope() {
 
         for (let i = 0; i < bufferLength; i++) {
             barHeight = frequencyArray[i] / 2;
-
-            audiobarsCanvas2d.fillStyle = getComputedStyle(audiobarsCanvas).getPropertyValue('--foreground');
+            audiobarsCanvas2d.fillStyle = foregroundColor;
             audiobarsCanvas2d.fillRect(x, barsHeight - barHeight / 2, barWidth, barHeight);
-
             x += barWidth + 1;
         }
     }
