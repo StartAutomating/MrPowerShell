@@ -49,7 +49,7 @@ $({
 ~~~PowerShell
 $($myInvocation.MyCommand.ScriptBlock)
 ~~~
-')
+').Html
 
 "<p>The full code is below:</p>"
 
