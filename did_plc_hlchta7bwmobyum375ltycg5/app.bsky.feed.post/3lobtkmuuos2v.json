@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1746292385323478,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lobtkn3pgy2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lobtkmuuos2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-03T17:13:03.247Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihz4rkwziouy5j7oz54xpimv7rhn62uaaf5gzlulxtcbku3bqgfci",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3lobrvihccs22"
+        },
+        "root": {
+          "cid": "bafyreiamwmwnnrnrtt3bw24mccdwslhb3ol2maejvfyyt4brcvpv6azmqy",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3lo7wjkfddm2l"
+        }
+      },
+      "text": "Cool.\n\nMost banks will give you up to 7 years of records as CSVs ( sometimes without a header ).\n\nThat's pretty easy to ingest into PowerShell.\n\nCategorizing / deducting is basically a where object / an additional property.\n\nThe \"hard\" part is tax bracket calculations."
+    },
+    "cid": "bafyreih4r22wzx2b7iggl7pmlnn3jrln7iuulaqiqcrqqntnj436ivop7y"
+  }
+}
