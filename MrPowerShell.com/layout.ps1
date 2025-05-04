@@ -20,7 +20,7 @@ pre, code {
     <head>
         $(
             if ($site.analyticsID) {
-                @"
+@"
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=$($site.AnalyticsID)"></script>
 <script>
@@ -32,7 +32,7 @@ pre, code {
 "@
             }
         )
-        <title>$Title</title>
+        <title>$(if ($page['Title']) { $page['Title'] } else { $Title})</title>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/2bitdesigns/4bitcss@latest/css/$PaletteName.css' id='palette' />
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=$Font' id='font' />
@@ -45,8 +45,7 @@ pre, code {
                     "<meta name='$([Web.HttpUtility]::HtmlAttributeEncode($keyValue.Key))' content='$([Web.HttpUtility]::HtmlAttributeEncode($keyValue.Value))' />"
                 }
             }
-        )
-        
+        )        
         
         $ImportMap
         
