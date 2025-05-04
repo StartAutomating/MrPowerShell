@@ -16,6 +16,9 @@ filter InstallRequirement {
             InstallRequirement
         return
     }
+    if (! $requirementName) {
+        return
+    }
     $alreadyLoaded = Import-Module -Name $requirementName -PassThru -ErrorAction Ignore -Global
     # If they're not already loaded, we'll install them.
     if (-not $alreadyLoaded) {
