@@ -1,15 +1,15 @@
 # Push into the script root directory
 Push-Location $PSScriptRoot
 
-#region Common Filters
+#region Common Functions and Filters
 $functionFileNames = 'function', 'functions', 'filter', 'filters'
-foreach ($file in Get-ChildItem -Path $psScriptRoot -Filter *.ps1 | 
-    Where-Object { $_.Name -replace '\.ps1$' -eq $functionFileNames }
- ) {
-    # If we have a file with the name function or functions, we'll use it to set the site configuration.
+$functionFiles = Get-ChildItem -Path $psScriptRoot -Filter *.ps1 | 
+    Where-Object { $_.Name -replace '\.ps1$' -in $functionFileNames }
+foreach ($file in $functionFiles) {
+    # If we have a file with the name function or functions, we'll use it to set the site configuration.    
     . $file.FullName
 }
-#endregion Common Filters
+#endregion Common Functions and Filters
 
 # Creation of a sitewide object to hold configuration information.
 $Site = [Ordered]@{}
