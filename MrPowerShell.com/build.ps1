@@ -6,7 +6,7 @@ $functionFileNames = 'function', 'functions', 'filter', 'filters'
 foreach ($fileName in $functionFileNames) {
     # If we have a file with the name function or functions, we'll use it to set the site configuration.
     if (Test-Path "$fileName.ps1") {
-        . $fileName
+        . "$fileName.ps1"
     }
 }
 #endregion Common Filters
