@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1746391239434724,
+  "kind": "commit",
+  "commit": {
+    "rev": "3loepmrc23o2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3loepmsttec2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-04T20:40:40.86Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiejunfylnuuzsuh3iuvy3f5f5hncl3o2yz2bdqbsgpcpphnlpi4rm",
+          "uri": "at://did:plc:lwkpklhx6pgm52ea4txm2nf2/app.bsky.feed.post/3loepdl6jnc2j"
+        },
+        "root": {
+          "cid": "bafyreifwxwvardjbnr3wk3yym3td5ckmob4y5nuwcymu2p5qo27wuyu5cq",
+          "uri": "at://did:plc:lwkpklhx6pgm52ea4txm2nf2/app.bsky.feed.post/3loegzl4lzs25"
+        }
+      },
+      "text": "I'd say it's much more comfortable / fully featured than DOS, and I'd agree that it's very familiar these days.\n\nYet it always finds new ways to surprise me.\n\nLike, recently, finding out how easy and overpowered PowerShell is when it comes to Static Site generation."
+    },
+    "cid": "bafyreigmlkaodcmbzegj47ef5tbwm2xyujsrbnuyhkz4cqgeoqtsnb57ga"
+  }
+}
