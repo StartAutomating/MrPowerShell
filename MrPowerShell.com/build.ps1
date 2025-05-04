@@ -1,36 +1,75 @@
-# Set an alias to buildFile.ps1
-Set-Alias BuildFile ./buildFile.ps1
-
-# Start the clock
-$lastBuildTime = [DateTime]::Now
-
 # Push into the script root directory
 Push-Location $PSScriptRoot
 
-# If we have an event path,
-$gitHubEvent = if ($env:GITHUB_EVENT_PATH) {
-    # all we need to do to serve it is copy it.
-    Copy-Item $env:GITHUB_EVENT_PATH .\gitHubEvent.json
-    Get-Content -Path .\gitHubEvent.json -Raw | ConvertFrom-Json
-}
+# Creation of a sitewide object to hold configuration information.
+$Site = [Ordered]@{}
+$Site.Files = Get-ChildItem -Recurse -File
 
-# If we have a CNAME, read it and trim it.
-$CNAME = 
-    if (Test-Path 'CNAME') {
-        (Get-Content -Path 'CNAME' -Raw).Trim()
+# Set an alias to buildFile.ps1
+Set-Alias BuildFile ./buildFile.ps1
+
+# If we have an event path,
+$gitHubEvent =
+    if ($env:GITHUB_EVENT_PATH) {
+        # all we need to do to serve it is copy it.
+        Copy-Item $env:GITHUB_EVENT_PATH .\gitHubEvent.json
+
+        # and we can assign it to a variable, so you we can use it in any files we build.
+        Get-Content -Path .\gitHubEvent.json -Raw | ConvertFrom-Json
     }
 
+# If we have a CNAME, read it, trim it, and update the site object.
+if (Test-Path 'CNAME') {
+    $Site.CNAME = $CNAME = (Get-Content -Path 'CNAME' -Raw).Trim()    
+    $Site.RootUrl = "https://$CNAME/"
+}
+
+# If we have a config.json file, it can be used to set the site configuration.
+if (Test-Path 'config.json') {
+    $siteConfig = Get-Content -Path 'config.json' -Raw | ConvertFrom-Json
+    foreach ($property in $siteConfig.psobject.properties) {
+        $Site[$property.Name] = $property.Value
+    }
+}
+
+# If we have a config.psd1 file, we'll use it to set the site configuration.
+if (Test-Path 'config.psd1') {
+    $siteConfig = Import-LocalizedData -FileName 'config.psd1' -BaseDirectory $PSScriptRoot
+    foreach ($property in $siteConfig.GetEnumerator()) {
+        $Site[$property.Key] = $property.Value
+    }
+}
+
+# If we have a config.ps1 file,
+if (Test-Path 'config.ps1') {
+    # run it, and let it configure anything it chooses to.
+    . config.ps1
+}
+
+#region Common Filters
+$functionFileNames = 'function', 'functions', 'filter', 'filters'
+foreach ($fileName in $functionFileNames) {
+    # If we have a file with the name function or functions, we'll use it to set the site configuration.
+    if (Test-Path "$fileName.ps1") {
+        . $fileName
+    }
+}
+#endregion Common Filters
+
+# Start the clock
+$lastBuildTime = [DateTime]::Now
 #region Build Files
+
 # Start the clock on the build process
 $buildStart = [DateTime]::Now
 # pipe every file we find to buildFile
-Get-ChildItem -Recurse -File | . buildFile
+$Site.Files | . buildFile
 # and stop the clock
 $buildEnd = [DateTime]::Now
+
 #endregion Build Files
 
 #region lastBuild.json
-
 # We create a new object each time, so we can use it to compare to the last build.
 $newLastBuild = [Ordered]@{
     LastBuildTime = $lastBuildTime
@@ -62,7 +101,9 @@ if ($lastBuild) {
 $newLastBuild | ConvertTo-Json -Depth 2 > lastBuild.json
 #endregion lastBuild.json
 
-# Create an archive of the current deployment.
+#region archive.zip
+#Create an archive of the current deployment.
 Compress-Archive -Path $pwd -DestinationPath "archive.zip" -CompressionLevel Optimal -Force
+#endregion archive.zip
 
 Pop-Location
