@@ -3,11 +3,11 @@ Push-Location $PSScriptRoot
 
 #region Common Filters
 $functionFileNames = 'function', 'functions', 'filter', 'filters'
-foreach ($fileName in $functionFileNames) {
+foreach ($file in Get-ChildItem -Path $psScriptRoot -Filter *.ps1 | 
+    Where-Object { $_.Name -replace '\.ps1$' -eq $functionFileNames }
+ ) {
     # If we have a file with the name function or functions, we'll use it to set the site configuration.
-    if (Test-Path "$fileName.ps1") {
-        . "$fileName.ps1"
-    }
+    . $file.FullName
 }
 #endregion Common Filters
 
