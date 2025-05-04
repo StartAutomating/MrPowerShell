@@ -1,6 +1,16 @@
 # Push into the script root directory
 Push-Location $PSScriptRoot
 
+#region Common Filters
+$functionFileNames = 'function', 'functions', 'filter', 'filters'
+foreach ($fileName in $functionFileNames) {
+    # If we have a file with the name function or functions, we'll use it to set the site configuration.
+    if (Test-Path "$fileName.ps1") {
+        . $fileName
+    }
+}
+#endregion Common Filters
+
 # Creation of a sitewide object to hold configuration information.
 $Site = [Ordered]@{}
 $Site.Files = Get-ChildItem -Recurse -File
@@ -40,21 +50,18 @@ if (Test-Path 'config.psd1') {
     }
 }
 
+if (Test-Path 'config.yaml') {
+    $siteConfig = Get-Item 'config.yaml' | from_yaml
+    foreach ($property in $siteConfig.GetEnumerator()) {
+        $Site[$property.Name] = $property.Value
+    }
+}
+
 # If we have a config.ps1 file,
 if (Test-Path 'config.ps1') {
     # run it, and let it configure anything it chooses to.
     . config.ps1
 }
-
-#region Common Filters
-$functionFileNames = 'function', 'functions', 'filter', 'filters'
-foreach ($fileName in $functionFileNames) {
-    # If we have a file with the name function or functions, we'll use it to set the site configuration.
-    if (Test-Path "$fileName.ps1") {
-        . $fileName
-    }
-}
-#endregion Common Filters
 
 # Start the clock
 $lastBuildTime = [DateTime]::Now

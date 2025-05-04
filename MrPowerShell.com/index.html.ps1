@@ -29,8 +29,8 @@ $style = @"
 
 $header = @"
 <div class='header'>
-<h2>MrPowerShell</h2>
 <a href='/'>
+<h2>MrPowerShell</h2>
 <svg height='200%' y='0%' style='margin-top: -7%'>
 $((Get-Content -Path .\MrPowerShell-Animated.svg -Raw) -replace '<\?xml.+>')
 </svg>
@@ -40,8 +40,7 @@ $((Get-Content -Path .\MrPowerShell-Animated.svg -Raw) -replace '<\?xml.+>')
 
 $content = @"
 <div class='content'>
-$($markdown = ConvertFrom-Markdown -Path "$psScriptRoot/Greetings.md"
-$markdown.Html)
+$(Get-Item "$psScriptRoot/Greetings.md" | from_markdown)
 </div>
 "@
 
@@ -62,5 +61,5 @@ $(Get-Content -Path ./Assets/BlueSky.svg -Raw)
 
 $style,
     $corner,
-    $header,    
-    $content -join [Environment]::NewLine
+        $header,    
+            $content -join [Environment]::NewLine
