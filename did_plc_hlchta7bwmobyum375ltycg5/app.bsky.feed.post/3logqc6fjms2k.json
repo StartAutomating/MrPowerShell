@@ -1,0 +1,52 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1746460676572085,
+  "kind": "commit",
+  "commit": {
+    "rev": "3logqc5qxgq27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3logqc6fjms2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-05T15:57:57.066Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Every once in a while, we look to the PowerShell community for feedback on possible design directions on PowerShell. We’ve been exploring the integration of PowerShell and HTML5, and would love to get...",
+          "title": "PowerShell and HTML5 Prototype",
+          "uri": "https://www.leeholmes.com/powershell-and-html5/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.leeholmes.com/powershell-and-html5/"
+            }
+          ],
+          "index": {
+            "byteEnd": 102,
+            "byteStart": 69
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih4ij5xvuubb7dmxahs2msysq34xdq3vchoihwietsgm6aicgyxna",
+          "uri": "at://did:plc:mkt5russcqntm4q5avc2sezy/app.bsky.feed.post/3lofqe5zt4k2f"
+        },
+        "root": {
+          "cid": "bafyreictpxgexcjz3iceyedaf6fkm3btsxm2rghu24foly7kcoaz4xlb2y",
+          "uri": "at://did:plc:6c2yvybq3zpkot4giyumbpxq/app.bsky.feed.post/3lofp3oemdc2u"
+        }
+      },
+      "text": "Hate to break it to you, but someone wrote that script 14 years ago\n\nwww.leeholmes.com/powershell-a...\n\nStill a classic though."
+    },
+    "cid": "bafyreibnvzfxnngu2ltwoygvcw53hlt2ov33ms6krgemi7baxnvkz6ftba"
+  }
+}
