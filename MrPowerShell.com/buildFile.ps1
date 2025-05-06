@@ -63,7 +63,7 @@ $layoutAtPath = [Ordered]@{}
             # Get the script command
             $scriptCmd = Get-Command -Name $file.FullName
             # and install any requirements it has.
-            $scriptCmd | InstallRequirement
+            $scriptCmd | RequireModule
             # Extract the title from the name of the file.
             $title = $Page['title'] = $file.Name -replace '\..+?\.ps1$' -replace 'index'
             . $file
