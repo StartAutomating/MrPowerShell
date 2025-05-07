@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1746640915057894,
+  "kind": "commit",
+  "commit": {
+    "rev": "3loly5o3zim23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3loly5oyqf22e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-07T18:01:55.342Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Cassian Andor knows the empire cannot win.  Do you?",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibpjhodtc6diuahx4epp4eyn5jca7i45nfh6k544uouw4zdvuhvme"
+            },
+            "mimeType": "image/jpeg",
+            "size": 148972
+          },
+          "title": "a man says the empire cannot win in a disney + star wars advertisement",
+          "uri": "https://media.tenor.com/TN-DY_FLYN0AAAAC/the-empire-cannot-win-cassian-andor.gif?hh=498&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Andor"
+            }
+          ],
+          "index": {
+            "byteEnd": 6,
+            "byteStart": 0
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#Andor should be required viewing in these trying times.\n\nSeason 2 is so friggin good, even when compared to Season 1."
+    },
+    "cid": "bafyreigmqmlf72fqdqa2spqpltld6fmzdpreviics2dwfrmg626pj4yifq"
+  }
+}
