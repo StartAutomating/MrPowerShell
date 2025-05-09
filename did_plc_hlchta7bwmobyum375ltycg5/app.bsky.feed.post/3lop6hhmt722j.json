@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1746750763601568,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lop6hgbs7q24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lop6hhmt722j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-09T00:32:44.836Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibxawmimxushbk7uad5wzncupsn44ulqj762aj5j2mo5hs6bqbbre",
+          "uri": "at://did:plc:n4yrsuupoqltkqscs5j6wa6i/app.bsky.feed.post/3looncf5xu62t"
+        },
+        "root": {
+          "cid": "bafyreibxawmimxushbk7uad5wzncupsn44ulqj762aj5j2mo5hs6bqbbre",
+          "uri": "at://did:plc:n4yrsuupoqltkqscs5j6wa6i/app.bsky.feed.post/3looncf5xu62t"
+        }
+      },
+      "text": "Thanks!  Been wishing I had a good short form of this for years.\n\nI would also check for AzureDevOps pipelines.\n\nWish I knew how I would check if I'm in a container ( I normally just set an environment variable InContainer)"
+    },
+    "cid": "bafyreidbyhuqp6loe7k627jfsknrtfi4rmwuaytgl4jtjikor3lbshui2e"
+  }
+}
