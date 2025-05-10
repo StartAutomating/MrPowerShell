@@ -21,5 +21,5 @@ if (-not $chromium) {
 }
 #endregion Set up chromium alias
 
-$chromiumOutput = chromium --headless --dump-dom --disable-gpu ("$pwd/index.html" -as [uri]) *>&1 | Out-String
+$chromiumOutput = chromium --headless --dump-dom --no-sandbox --disable-gpu ("$pwd/index.html" -as [uri]) *>&1 | Out-String
 "<pre><code class='language-html'>$([Web.HttpUtility]::HtmlEncode("$chromiumOutput"))</code></pre>"
