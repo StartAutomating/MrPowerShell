@@ -137,6 +137,42 @@ $layoutAtPath = [Ordered]@{}
             # we'll use the layout.            
             $output = $output | layout            
         }        
+    }    
+    
+    if ($output -is [Data.DataSet]) {
+        switch -regex ($outFile) {
+            '\.json$' {
+                $jsonObject = [Ordered]@{}
+                foreach ($table in $output.Tables) {
+                    if (-not $table.TableName) { continue }
+                    $jsonObject[$table.TableName] = $table | 
+                        Select-Object -Property $($table.Columns.ColumnName) 
+                }
+                $jsonObject | 
+                    ConvertTo-Json -Depth ($FormatEnumerationLimit * 2) |
+                    Set-Content -Path $outFile
+                
+                if ($?) {
+                    Get-Item -Path $outFile
+                    continue nextFile
+                }
+                
+            }
+            '\.xml$' {
+                $output.WriteXml("$outFile")
+                if ($?) {
+                    Get-Item -Path $outFile
+                    continue nextFile
+                }
+            }
+            '\.xsd$' {
+                $output.WriteXmlSchema("$outFile")
+                if ($?) {
+                    Get-Item -Path $outFile
+                    continue nextFile
+                }
+            }
+        }
     }
 
     # If the output is json, and it's not yet json
