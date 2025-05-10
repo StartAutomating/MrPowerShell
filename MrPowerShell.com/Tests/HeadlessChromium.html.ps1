@@ -1,3 +1,8 @@
+param(
+    [uri]
+    $ShowUri = 'https://mrpowershell.com/'
+)
+
 "<p> We can run chromium in headless mode inside of a GitHub action.</p>"
 
 #region Set up chromium alias
@@ -23,5 +28,5 @@ if (-not $chromium) {
 }
 #endregion Set up chromium alias
 
-$chromiumOutput = & $chromium --headless --dump-dom --no-sandbox --disable-gpu ("$psScriptRoot/index.html" -as [uri]) | Out-String
+$chromiumOutput = & $chromium --headless --dump-dom --no-sandbox --disable-gpu "$ShowUri" | Out-String
 "<pre><code class='language-html'>$([Web.HttpUtility]::HtmlEncode("$chromiumOutput"))</code></pre>"
