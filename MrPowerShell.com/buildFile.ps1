@@ -11,6 +11,12 @@ $layoutAtPath = [Ordered]@{}
 :nextFile foreach ($file in $input) {
     $outFile = $file.FullName -replace '\.ps1$'
     $fileRoot = $file.FullName | Split-Path
+
+    # Initialize the page object
+    $Page = [Ordered]@{
+        # anything in MetaData should be rendered as <meta> tags in the <head> section.
+        MetaData = [Ordered]@{}
+    }
     
     # If we don't have a layout for this directory
     if (-not $layoutAtPath[$fileRoot]) {
@@ -33,7 +39,40 @@ $layoutAtPath = [Ordered]@{}
         Set-Alias layout $layoutAtPath[$fileRoot]
     }
 
-    $Page = [Ordered]@{}
+    # We want to support data files for each potential page
+    $dataFilePattern =
+        # They are named the same as the file, but with an additional extension.
+        # The extension is either json, psd1, or yaml.
+        "^$([Regex]::Escape($file.Name))\.(?>json|psd1|ya?ml)$"
+
+    # Find any data files
+    $dataFiles =
+        Get-ChildItem -Path $file.Directory.FullName |
+        Where-Object Name -match $dataFilePattern
+
+    # If we have a data file, we'll use it to set the page configuration.
+    foreach ($dataFile in $dataFiles) {
+        switch ($dataFile.Extension) {
+            '.json' {
+                $pageConfig = Get-Content -Path $dataFile.FullName -Raw | ConvertFrom-Json
+                foreach ($property in $pageConfig.psobject.properties) {
+                    $Page[$property.Name] = $property.Value
+                }
+            }
+            '.psd1' {
+                $pageConfig = Import-LocalizedData -FileName $dataFile.Name -BaseDirectory $file.Directory.FullName                
+                foreach ($property in $pageConfig.GetEnumerator()) {
+                    $Page[$property.Key] = $property.Value
+                }
+            }
+            '.yaml' {
+                $pageConfig = Get-Item $dataFile.FullName | from_yaml
+                foreach ($property in $pageConfig.GetEnumerator()) {
+                    $Page[$property.Key] = $property.Value
+                }
+            }
+        }
+    }
 
     $Output = $Content = switch ($file.Extension) {
         # If it's a markdown file, we'll convert it to HTML.
