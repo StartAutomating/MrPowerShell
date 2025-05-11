@@ -87,7 +87,7 @@ pre, code {
                 $Page.MetaData.Count
             ) {
                 foreach ($og in $Page.MetaData.GetEnumerator()) {
-                    "<meta name='$([Web.HttpUtility]::HtmlAttributeEncode($keyValue.Key))' content='$([Web.HttpUtility]::HtmlAttributeEncode($keyValue.Value))' />"
+                    "<meta name='$([Web.HttpUtility]::HtmlAttributeEncode($og.Key))' content='$([Web.HttpUtility]::HtmlAttributeEncode($og.Value))' />"
                 }
             }
         )
