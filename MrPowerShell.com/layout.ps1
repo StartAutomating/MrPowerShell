@@ -1,8 +1,50 @@
-$paletteName = 'Konsolas'
-$Font = 'Roboto'
-$CodeFont = 'Inconsolata'
+$paletteName =
+    if ($config -and $config['PaletteName']) { $config['PaletteName'] }
+    else { 'Konsolas' }
+$Font        =
+    if ($config -and $config['FontName']) { $config['FontName'] }
+    else { 'Roboto' }
+    
+$CodeFont    =
+    if ($config -and $config['CodeFontName']) { $config['CodeFontName'] }
+    else { 'Inconsolata' }
 
 $argsAndinput = @($args) + @($input)
+
+if (-not $page.MetaData) {
+    $page.MetaData = [Ordered]@{}
+}
+
+$page.MetaData['og:title'] = 
+    if ($title) {
+        $title
+    } elseif ($Page.title) {
+        $Page.title
+    } elseif ($site.title) {
+        $site.title
+    }
+
+$page.MetaData['og:description'] =
+    if ($description) {
+        $description
+    } elseif ($page.description) {
+        $page.description
+    } elseif ($site.description) {
+        $site.description
+    }
+
+$page.MetaData['og:image'] =
+    if ($image) {
+        $image
+    } elseif ($page.image) {
+        $page.image
+    } elseif ($site.image) {
+        $site.image
+    }
+
+if ($page.MetaData['og:image']) {
+    $page.MetaData['og:image'] = $page.MetaData['og:image'] -replace '^/', '' -replace '^[^h]', '/'
+}
 
 $style = @"
 body {
@@ -40,13 +82,15 @@ pre, code {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/styles/default.min.css" id='highlight' />
         <script src='https://unpkg.com/htmx.org@latest'></script>
         $(
-            if ($MetaData -is [Collections.IDictionary] -and $metadata.Count) {
-                foreach ($og in $MetaData.GetEnumerator()) {
+            if (
+                $Page.MetaData -is [Collections.IDictionary] -and 
+                $Page.MetaData.Count
+            ) {
+                foreach ($og in $Page.MetaData.GetEnumerator()) {
                     "<meta name='$([Web.HttpUtility]::HtmlAttributeEncode($keyValue.Key))' content='$([Web.HttpUtility]::HtmlAttributeEncode($keyValue.Value))' />"
                 }
             }
-        )        
-        
+        )
         $ImportMap
         
         <style>
