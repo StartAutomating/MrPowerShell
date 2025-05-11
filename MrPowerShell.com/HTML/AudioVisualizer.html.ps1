@@ -110,6 +110,7 @@ $html = @"
     text-align:center
     width:100vw;
     height:100vh;
+    vertical-align: middle;
 }
 .innerGrid {
     display: grid;
