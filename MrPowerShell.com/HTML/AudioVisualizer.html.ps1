@@ -111,11 +111,8 @@ $html = @"
     display: grid;
     grid-template-columns: repeat(3, auto);
 }
-#oscilloscope {
-    width: 100%;    
-}
-#audiobars {
-    width: 100%;        
+#visuals {
+    width: 100vh;    
 }
 #PowerShellCode {
     top: 100%;
