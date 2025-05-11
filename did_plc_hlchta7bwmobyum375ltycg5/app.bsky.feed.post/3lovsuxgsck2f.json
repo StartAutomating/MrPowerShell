@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1746978851223189,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lovsuxgbqj26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lovsuxgsck2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-11T15:54:10.878Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib6xnkgtdlhrr25s3dl6ypfzjr7wkz2mjia4nowxtnkt5tjqeyosa",
+          "uri": "at://did:plc:iga7ipxo6jy26wv6bevcmdem/app.bsky.feed.post/3lovrrfhbgk2o"
+        },
+        "root": {
+          "cid": "bafyreiapvyytp42rdjvso5vvbhaiopbsr6nzj5milrf4uedwh5pwoblkce",
+          "uri": "at://did:plc:iga7ipxo6jy26wv6bevcmdem/app.bsky.feed.post/3lovrrfh2ls2o"
+        }
+      },
+      "text": "If it's a simple enough XSD, you might be able to automatically work with it as a DataSet\n\n$dataset = [Data.DataSet]::new()\n$dataset.ReadXmlSchema($MyXsd)"
+    },
+    "cid": "bafyreic452vdzd2zsfg6duqrev72p5nkbms5deccdnrhh3q7geopnzdmy4"
+  }
+}
