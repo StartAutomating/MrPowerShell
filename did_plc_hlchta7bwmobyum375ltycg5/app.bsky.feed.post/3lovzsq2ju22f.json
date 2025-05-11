@@ -1,0 +1,104 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1746986292565848,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lovzsq644t24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lovzsq2ju22f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-11T17:58:12.232Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 100,
+            "byteStart": 89
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "VSCode"
+            }
+          ],
+          "index": {
+            "byteEnd": 124,
+            "byteStart": 117
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 138,
+            "byteStart": 127
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Windows"
+            }
+          ],
+          "index": {
+            "byteEnd": 192,
+            "byteStart": 184
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 200,
+            "byteStart": 194
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MacOS"
+            }
+          ],
+          "index": {
+            "byteEnd": 212,
+            "byteStart": 206
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicerkol57lgiittwivdag33l5k2trot7uenaxz4umlpctiig4h3fu",
+          "uri": "at://did:plc:m5tn3fl3c7psxcningsdy2t7/app.bsky.feed.post/3lovy4a7wb22f"
+        },
+        "root": {
+          "cid": "bafyreicerkol57lgiittwivdag33l5k2trot7uenaxz4umlpctiig4h3fu",
+          "uri": "at://did:plc:m5tn3fl3c7psxcningsdy2t7/app.bsky.feed.post/3lovy4a7wb22f"
+        }
+      },
+      "text": "I hate to break it to you, but ISE is basically abandoned, and has been since ~2016 when #PowerShell Core came out.\n\n#VSCode + #PowerShell core is the way to go. Works consistently on #Windows, #Linux, and #MacOS."
+    },
+    "cid": "bafyreid2pl43zbxhl7iiaznbam72mfe6onko4gm46h2suxlbyi3aajvl6e"
+  }
+}
