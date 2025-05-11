@@ -115,7 +115,8 @@ $html = @"
     width: 100vh;    
 }
 #PowerShellCode {
-    top: 100%;
+    top: 100vh;
+    width: 100vw;
 }
 </style>
 <div class='controlsGrid'>
