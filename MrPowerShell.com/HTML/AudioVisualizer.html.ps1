@@ -61,12 +61,12 @@ function Resize() {
     var visuals = document.getElementById("visuals")    
     var powerShellCode = document.getElementById("PowerShellCode")
     if (window.innerWidth) {        
-        visuals.width = window.innerWidth
-        visuals.height = window.innerHeight * 0.7
+        //visuals.width = window.innerWidth
+        //visuals.height = window.innerHeight * 0.7
         powerShellCode.style.top = window.innerHeight
     } else {
-        visuals.width = screen.width
-        visuals.height = screen.height * 0.7
+        //visuals.width = screen.width
+        //visuals.height = screen.height * 0.7
         powerShellCode.style.top = screen.height            
     }
         
@@ -110,7 +110,18 @@ $html = @"
     width:100vw;
     height:100vh;
     vertical-align: middle;
+    grid-template-columns: repeat(6, auto);
 }
+.visualsGrid {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+}
+
 
 .innerGrid {
     display: grid;
@@ -125,6 +136,9 @@ $html = @"
     width: 100vw;
 }
 </style>
+<div class='visualsGrid'>
+    <canvas id='visuals'></canvas>
+</div>
 <div class='controlsGrid'>
     <div>
         <input type="file" id="audioFile" multiple="true" />
@@ -160,10 +174,7 @@ $html = @"
         <label for="showScope">Show Oscilloscope</label>        
         <input type="checkbox" id="showBars" checked="true" />
         <label for="showBars">Show Bars</label>        
-    </div>    
-    <div>
-        <canvas id="visuals" width='1080' height='1080'></canvas>
-    </div>    
+    </div>
 </div>
 
 <script>
@@ -234,8 +245,12 @@ async function ShowVisualizer() {
             foregroundColor = '#000000'
         }
         
-        const visualsWidth = visualsCanvas.scrollWidth
-        const visualsHeight = visualsCanvas.scrollHeight
+        visualsCanvas.width = window.innerWidth * .9
+        visualsCanvas.height = window.innerHeight
+        visualsCanvas.style.width = "90%"
+        visualsCanvas.style['margin-left'] = "5%"
+        const visualsWidth = window.innerWidth * .9
+        const visualsHeight = window.innerHeight * .9        
     
         visualsCanvas2d.fillStyle = backgroundColor
         visualsCanvas2d.fillRect(0, 0, visualsWidth, visualsHeight)
