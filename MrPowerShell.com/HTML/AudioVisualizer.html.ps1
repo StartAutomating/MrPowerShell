@@ -162,7 +162,7 @@ $html = @"
         <label for="showBars">Show Bars</label>        
     </div>    
     <div>
-        <canvas id="visuals" width='1920' height='320'></canvas>
+        <canvas id="visuals" width='1080' height='1080'></canvas>
     </div>    
 </div>
 
@@ -173,10 +173,7 @@ var playlistFiles = []
 var playlistIndex = 0;
 audioLoader.addEventListener('change', (e) => {
     var reader = new FileReader();
-    reader.onload = (event) => {
-        audio.src = event.target.result;
-    }
-    
+    reader.onload = (event) => { audio.src = event.target.result }
     for (var i = 0; i < e.target.files.length; i++) {
         playlistFiles.push(e.target.files[i])
     }
@@ -184,9 +181,7 @@ audioLoader.addEventListener('change', (e) => {
     reader.readAsDataURL(e.target.files[playlistIndex])
 }, false);
 
-audio.addEventListener('playing', (e) => {
-    ShowOscilliscope();
-}, false);
+audio.addEventListener('playing', (e) => {ShowVisualizer();}, false);
 audio.addEventListener('ended', (e) => {
     if (playlistIndex < playlistFiles.length - 1) {
         var reader = new FileReader();
@@ -195,18 +190,17 @@ audio.addEventListener('ended', (e) => {
             audio.play();
         }
         playlistIndex++;
-        reader.readAsDataURL(playlistFiles[playlistIndex])
-        
+        reader.readAsDataURL(playlistFiles[playlistIndex])        
     }        
 }, false);
 
 
-// Get a canvas defined with ID "oscilloscope"
+// Get a canvas defined with ID "visuals"
 const visualsCanvas = document.getElementById("visuals");
 const visualsCanvas2d = visualsCanvas.getContext("2d");
 
 
-async function ShowOscilliscope() {
+async function ShowVisualizer() {
     const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
     const analyser = audioCtx.createAnalyser();
     analyser.fftSize = 2048;
@@ -246,7 +240,7 @@ async function ShowOscilliscope() {
         visualsCanvas2d.fillStyle = backgroundColor
         visualsCanvas2d.fillRect(0, 0, visualsWidth, visualsHeight)
 
-        visualsCanvas2d.lineWidth = Math.random() + 1;
+        visualsCanvas2d.lineWidth = 2;
         visualsCanvas2d.strokeStyle = foregroundColor;        
         let x = 0;
         if (document.getElementById('showScope').checked) {
