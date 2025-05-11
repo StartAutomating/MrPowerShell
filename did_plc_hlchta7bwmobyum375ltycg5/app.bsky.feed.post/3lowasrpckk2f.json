@@ -1,0 +1,122 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1746993810368449,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lowasrbuvy23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lowasrpckk2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-11T20:03:30.154Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A simple audio visualizer using the Web Audio API, made with PowerShell.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreia7hmm3eq2itorzsbd7is7dv7lczh5qs5kuci67ealpd6ujs6z4bq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 61789
+          },
+          "title": "Audio Visualizer",
+          "uri": "https://mrpowershell.com/HTML/AudioVisualizer"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "HTML"
+            }
+          ],
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 64
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Audio"
+            }
+          ],
+          "index": {
+            "byteEnd": 76,
+            "byteStart": 70
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Visualizer"
+            }
+          ],
+          "index": {
+            "byteEnd": 88,
+            "byteStart": 77
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 111,
+            "byteStart": 100
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JavaScript"
+            }
+          ],
+          "index": {
+            "byteEnd": 124,
+            "byteStart": 113
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 134,
+            "byteStart": 130
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://mrpowershell.com/HTML/AudioVisualizer"
+            }
+          ],
+          "index": {
+            "byteEnd": 270,
+            "byteStart": 238
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Some weekends I have fun.\n\nThis weekend, check out a multicolor #HTML #Audio #Visualizer built with #PowerShell, #JavaScript, and #CSS\n\n( Notes: works better horizontal than vertical / still tweaking to see how responsive I can get it )\n\nmrpowershell.com/HTML/AudioVi..."
+    },
+    "cid": "bafyreicsbqtz3dansgfwdq7sxdljy3o4ynacc54s42kzfvbj2ikx6udzt4"
+  }
+}
