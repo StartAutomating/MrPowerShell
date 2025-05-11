@@ -109,7 +109,7 @@ $html = @"
 }
 .innerGrid {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(4, auto);
 }
 #visuals {
     width: 100vh;    
@@ -126,23 +126,22 @@ $html = @"
     <div>
         <div class='innerGrid'>
             <div>
-            Palette
-            <br/>
-            $paletteSelector
+                Palette
+                <br/>
+                $paletteSelector
             </div>
             <div>
+                <button id="SetRandomPalette" onclick="SetRandomPalette()">Random Palette</button>
             </div>
             <div>
-            Primary Color
-            <br/>
-            $colorSelector
+                <button id="SetRandomColor" onclick="SetRandomColor()">Random Color</button>
             </div>
-        </div>
-        
-    </div>
-    <div>
-        <button id="SetRandomPalette" onclick="SetRandomPalette()">Random Palette</button>
-        <button id="SetRandomColor" onclick="SetRandomColor()">Random Color</button>
+            <div>
+                Primary Color
+                <br/>
+                $colorSelector
+            </div>
+        </div>        
     </div>    
     <div>
         <audio controls="true" autoplay="true" id="audio"></audio>
