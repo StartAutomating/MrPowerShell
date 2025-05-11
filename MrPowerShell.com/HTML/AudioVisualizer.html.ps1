@@ -106,15 +106,16 @@ $html = @"
 .controlsGrid {
     display: grid; 
     gap: .42%;
-    text-align: center;
-    text-align:center
+    text-align: center;    
     width:100vw;
     height:100vh;
     vertical-align: middle;
 }
+
 .innerGrid {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    vertical-align: middle;
+    grid-template-columns: repeat(5, auto);
 }
 #visuals {
     width: 100vh;    
@@ -139,6 +140,9 @@ $html = @"
                 <button id="SetRandomPalette" onclick="SetRandomPalette()">Random Palette</button>
             </div>
             <div>
+                <button id="SavePNG" onclick="SavePNG('visuals')">Save PNG</button>
+            </div>
+            <div>
                 <button id="SetRandomColor" onclick="SetRandomColor()">Random Color</button>
             </div>
             <div>
@@ -156,10 +160,7 @@ $html = @"
         <label for="showScope">Show Oscilloscope</label>        
         <input type="checkbox" id="showBars" checked="true" />
         <label for="showBars">Show Bars</label>        
-    </div>
-    <div>
-        <button id="SavePNG" onclick="SavePNG('visuals')">Save PNG</button>
-    </div>
+    </div>    
     <div>
         <canvas id="visuals" width='1920' height='320'></canvas>
     </div>    
@@ -286,9 +287,9 @@ async function ShowOscilliscope() {
 </script>
 "@
 $html
-$OnResize
 "<div id='PowerShellCode'>"
 "<pre><code class='language-PowerShell'>"
 [Web.HttpUtility]::HtmlEncode($MyInvocation.MyCommand.ScriptBlock)
 "</code></pre>"
 "</div>"
+$OnResize
