@@ -59,13 +59,17 @@ $OnResize = '
 <script>
 function Resize() {    
     var visuals = document.getElementById("visuals")    
+    var powerShellCode = document.getElementById("PowerShellCode")
     if (window.innerWidth) {        
         visuals.width = window.innerWidth
-        visuals.height = window.innerHeight * 0.7            
+        visuals.height = window.innerHeight * 0.7
+        powerShellCode.style.top = window.innerHeight
     } else {
         visuals.width = screen.width
-        visuals.height = screen.height * 0.7            
-    }    
+        visuals.height = screen.height * 0.7
+        powerShellCode.style.top = screen.height            
+    }
+        
     console.log(`Resized ${screen.width}x${screen.height}`)
 }
 window.addEventListener("resize", function() {
