@@ -4,8 +4,10 @@ name: Deploy Website
 on:
   # Runs on pushes 
   push:
+  # and run on a schedule
   schedule: 
-    - cron: '0,20,40 0-23 * * *'
+    # for those that don't speak cron, this runs 42 minutes past the hour, every hour
+    - cron: '42 0-23 * * *'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -15,11 +17,10 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Allow only one concurrent deployment, and cancel any in-progress deployments if a new one is triggered
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   # Single deploy job since we're just deploying
@@ -31,6 +32,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@main
+        with:
+          # Using fetch-depth: 0 to ensure we get the full history of the repository
+          fetch-depth: 0
       - name: Setup Pages
         uses: actions/configure-pages@main
       - name: Build Pages
@@ -39,7 +43,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@main
         with:
-          # Upload entire repository
+          # Upload the contents of the ./MrPowerShell.com directory to the GitHub Pages artifact
           path: './MrPowerShell.com/'
       - name: Deploy to GitHub Pages
         id: deployment
