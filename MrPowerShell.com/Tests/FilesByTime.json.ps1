@@ -1,3 +1,8 @@
-Get-ChildItem -Path ($PSScriptRoot | Split-Path) -Recurse | 
-    Sort-Object CreationTime -Descending | 
-    Select-Object FullName, CreationTime, LastWriteTime, Length
+#requires -Module ugit
+$gitLog = git log -Statistics
+foreach ($entry in $gitLog) {
+    foreach ($change in $entry.Changes) {
+        $change | 
+            Add-Member -MemberType NoteProperty -Name 'CommitDate' -Value $entry.CommitDate -Force -PassThru
+    }
+}
