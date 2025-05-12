@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1747086746883271,
+  "kind": "commit",
+  "commit": {
+    "rev": "3loyxeiwo5g2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3loyxcue6ls2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-12T21:51:31.604Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Want to seamlessly integrate social media presence into your website?\nNeed to build a personal page or a page for your organization?\nWant to automatically update content fr",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreietdiopkji2kubtwrrvcl2xbn56mvzzsllxtnh5lzhef4bell3fvm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 372269
+          },
+          "title": "Social Sites with At Protocol and PowerShell, Wed, May 14, 2025, 6:00 PM   | Meetup",
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/events/307792572/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 28,
+            "byteStart": 20
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 167,
+            "byteStart": 160
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/307792572/"
+            }
+          ],
+          "index": {
+            "byteEnd": 271,
+            "byteStart": 241
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Hey #PowerShell and #AtProto people!\n\nJoin us this Wednesday as we discuss how to make Social Sites with At Protocol and PowerShell.\n\nLearn how a bit of clever #GitHub workflows let you build websites that automatically update as you post.\n\nwww.meetup.com/pacific-powe..."
+    },
+    "cid": "bafyreiaa37y22w4efzyookz4eoys72f4bwygngdglieu5qluvl6di5nzoy"
+  }
+}
