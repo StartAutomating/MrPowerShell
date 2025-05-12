@@ -1,3 +1,3 @@
 Get-ChildItem -Path ($PSScriptRoot | Split-Path) -Recurse | 
-    Sort-Object LastWriteTime -Descending | 
+    Sort-Object CreationTime -Descending | 
     Select-Object FullName, CreationTime, LastWriteTime, Length
