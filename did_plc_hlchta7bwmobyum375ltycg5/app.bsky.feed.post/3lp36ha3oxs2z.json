@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1747163072370277,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lp36h6ld3l22",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lp36ha3oxs2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-13T19:04:33.785Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibl3kz6h7vrnin2yx4grmsel7jgn32sxdie7reti72grmokwpxsne",
+          "uri": "at://did:plc:cbkjy5n7bk3ax2wplmtjofq2/app.bsky.feed.post/3lp35jut5fk2m"
+        },
+        "root": {
+          "cid": "bafyreicklayou2xyctr44omzfd6vjqbkuai2xfgjwyzc6h4gsumx5kemay",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lp35hbhbdc2s"
+        }
+      },
+      "text": "Thanks for the transparency.\n\nI feel like I would prefer for most apps to accept either.\n\nNot sure what you mean by \"my PDS\", since I'm using BlueSky's PDS.\n\nIt is possible I would need to log in with a did, other than a handle?"
+    },
+    "cid": "bafyreiceg5ehs6unocael4xetvujgfowgxhgz4ysv6ldmopacydcpd4gqa"
+  }
+}
