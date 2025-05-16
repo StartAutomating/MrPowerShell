@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1747428573919390,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lpcvppyzju2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lpcvpr7r322l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-16T20:49:34.407Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Dave Chapelle thinks PowerShell is addictive.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiakgqra4bg4lhwpg44a3exsu4uplkamihkq3x3vmxgjazscaj3ccu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 123714
+          },
+          "title": "a man wearing a red hat and a brown jacket is smiling",
+          "uri": "https://media.tenor.com/GByzrBYTxEkAAAAC/mean-tweets.gif?hh=314&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiglelqwocnuv3g53nivaiw4mkulmgg2xtwh5khaajr6ytekzuj7ie",
+          "uri": "at://did:plc:63m5ixsy2chcss7ka42wyrb4/app.bsky.feed.post/3lpc4d4usrs2z"
+        },
+        "root": {
+          "cid": "bafyreicwgxxqe7szrfzdcqc2sdrheezl3pjzve7qm3vhcnchwlo64zuieq",
+          "uri": "at://did:plc:k54achhksfhvlp5jd3rzv32h/app.bsky.feed.post/3lpbkorcyhc2x"
+        }
+      },
+      "text": "You got any more of that PowerShell?"
+    },
+    "cid": "bafyreihiqxytiec2ino4auluiszr6ax2imtcdnohfiupcvs4ncm6rykelm"
+  }
+}
