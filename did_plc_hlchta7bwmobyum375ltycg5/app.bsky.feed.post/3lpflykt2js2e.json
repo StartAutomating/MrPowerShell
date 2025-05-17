@@ -1,0 +1,103 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1747521212760379,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lpflylk5lf25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lpflykt2js2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-17T22:33:31.419Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "ArtsTechica complains about too many ads on Facebook while showing too many ads.",
+            "aspectRatio": {
+              "height": 2000,
+              "width": 891
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreidhh7bjflibumqckwlqhekpxaksfjjd33w2etx7u6muhydjshvika"
+              },
+              "mimeType": "image/jpeg",
+              "size": 561796
+            }
+          }
+        ]
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Screenshot"
+            }
+          ],
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Irony"
+            }
+          ],
+          "index": {
+            "byteEnd": 18,
+            "byteStart": 12
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:wld6fad6xsm4tz4kfkoikun2"
+            }
+          ],
+          "index": {
+            "byteEnd": 38,
+            "byteStart": 22
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Meta"
+            }
+          ],
+          "index": {
+            "byteEnd": 58,
+            "byteStart": 53
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "FTC"
+            }
+          ],
+          "index": {
+            "byteEnd": 75,
+            "byteStart": 71
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#Screenshot #Irony :\n\n@arstechnica.com  writes about #Meta telling the #FTC \"users like ads\", while sandwiching the paragraph in between two ads.\n\nIf companies don't want us to use ad blockers, how about showing us fewer and more relevant ads?"
+    },
+    "cid": "bafyreid7f652v4fqkjwc7up52x55lnbts2pidlnulhlok7oibecak26pqy"
+  }
+}
