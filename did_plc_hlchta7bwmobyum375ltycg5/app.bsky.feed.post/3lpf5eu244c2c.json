@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1747505518774402,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lpf5euohwz27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lpf5eu244c2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-17T18:11:57.692Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 0
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifh5ktzwsv7tx2boeen64llloteb24jg4g547eaml3dpgfwaww7he",
+          "uri": "at://did:plc:gpbbesmdenpirf6snn7jhnyz/app.bsky.feed.post/3lpbzzbehgk2l"
+        },
+        "root": {
+          "cid": "bafyreifh5ktzwsv7tx2boeen64llloteb24jg4g547eaml3dpgfwaww7he",
+          "uri": "at://did:plc:gpbbesmdenpirf6snn7jhnyz/app.bsky.feed.post/3lpbzzbehgk2l"
+        }
+      },
+      "text": "#PowerShell is magic!\n\nHappy to help you learn some spells! ( so are many people on here, or on the PowerShell discord )\n\nThere are user groups most Wednesdays.  You might want to check them out."
+    },
+    "cid": "bafyreia3b2kuxnn6tv7pscynn4zoh7otokvret77ujxnet4fnf3p6l74ci"
+  }
+}
