@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1747535193411275,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lpfyzaohnq26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lpfyzbj2b22s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-18T02:26:33.921Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidaavx3u4hi3nwb6y22m6orc5ba3ypremp2x2ceamtwkoasablv6i",
+          "uri": "at://did:plc:kx2mxhedzbeuqethywrzdexz/app.bsky.feed.post/3lpfn3mjqg22s"
+        },
+        "root": {
+          "cid": "bafyreid7f652v4fqkjwc7up52x55lnbts2pidlnulhlok7oibecak26pqy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lpflykt2js2e"
+        }
+      },
+      "text": "To be balanced, most people don't pay for paywalled stories, and the mere existence of paywalls significantly helps narratives of a \"media elite\".\n\nIf we want the world to read more news, it has to be less of a cesspool of bad advertising."
+    },
+    "cid": "bafyreia4iw46p5bfkfrbfgikobyk47qamiasodyef6ak2pwbj6y6s7egty"
+  }
+}
