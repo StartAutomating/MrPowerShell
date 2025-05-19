@@ -29,8 +29,7 @@ $atJsonFiles = $parentPath |
     Get-ChildItem -Filter *.json # and get any json files in them.    
 foreach ($jsonFile in $atJsonFiles) {
     $jsonText = Get-Content -Path $jsonFile.FullName -Raw
-    $jsonObject = $jsonText | 
-        ConvertFrom-Json
+    $jsonObject = ConvertFrom-Json -InputObject $jsonText
     $recordType = $jsonObject.commit.record.'$type'
     if (-not $recordType) { continue }
     
@@ -45,6 +44,7 @@ foreach ($jsonFile in $atJsonFiles) {
             [Data.DataColumn]::new('message', [object], '', 'Hidden')
         ))
         $dataTable.PrimaryKey = $dataTable.Columns['did', 'rkey']
+        $dataTable.DefaultView.Sort = 'createdAt DESC'
     } else {
         $dataTable = $atProtocolData.Tables[$recordType]
     }
@@ -57,9 +57,9 @@ foreach ($jsonFile in $atJsonFiles) {
         else { [DBNull]::Value }
     $dataRow['message'] = $jsonObject
     $dataRow['json'] = $jsonText
-    $dataRow.pstypenames.insert(0, $recordType)
+    $dataRow.pstypenames.insert(0, $recordType)    
     $dataTable.Rows.Add($dataRow)
-}   
+}
 
 if ($site -is [Collections.IDictionary]) {
     $site.AtData = $atProtocolData
