@@ -5,18 +5,25 @@ param(
 # Set a title, so that it shows up in metadata
 $Title = "My Memes"
 
-$myPostFiles = $PSScriptRoot | 
-    Split-Path | 
-        Split-Path | 
-            Get-ChildItem -Filter $did |
-                Get-ChildItem -Filter app.bsky.feed.post | 
-                    Get-ChildItem -Filter *.json
 
-$myPosts = $myPostFiles | 
-    Foreach-Object {
-        Get-content -Raw $_.FullName | ConvertFrom-Json
-    } | 
-    Sort-Object { $_.commit.record.createdAt } -Descending
+if ($site.AtData) {
+    Write-Host "Getting posts from cache"
+    $myPosts = $site.AtData.Tables['app.bsky.feed.post'].message
+} else {
+    $myPostFiles = $PSScriptRoot | 
+        Split-Path | 
+            Split-Path | 
+                Get-ChildItem -Filter $did |
+                    Get-ChildItem -Filter app.bsky.feed.post | 
+                        Get-ChildItem -Filter *.json
+
+    $myPosts = $site | 
+        Foreach-Object {
+            Get-content -Raw $_.FullName | ConvertFrom-Json
+        } | 
+        Sort-Object { $_.commit.record.createdAt } -Descending
+                    
+}
 
 filter toUri {
     $data = $_
@@ -29,7 +36,7 @@ filter toUri {
 a {
     text-decoration: none;    
 }
-    
+
 .imageGrid {
     display: grid;    
     text-align: center;    
@@ -45,12 +52,12 @@ a {
 "@
 
 "<div class='imageGrid'>"
-foreach ($post in $myPosts) {    
+foreach ($post in $myPosts) {
     $postText = $post.commit.record.text
     $myPostUri = $post.commit.record.embed.external.uri -as [uri]
     $description = $post.commit.record.embed.external.description -replace '^alt:\s{0,}'    
     if ($myPostUri.DnsSafeHost -eq 'media.tenor.com') {
-        "<div>"                
+        "<div>"
         "<a href='$($post | toUri)' aria-label='$([Web.HttpUtility]::HtmlAttributeEncode($description))'>"
         "<p class='largeParagraph'>"
         foreach ($line in $postText -split '(?>\r\n|\n)') {
@@ -71,7 +78,7 @@ foreach ($post in $myPosts) {
         "</p>"
         "</a>"
         "<hr/>"
-        "</div>"        
+        "</div>"
     }    
 }
 "</div>"
