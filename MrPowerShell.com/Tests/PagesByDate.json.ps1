@@ -5,7 +5,7 @@ foreach ($entry in $gitLog) {
     foreach ($change in $entry.Changes) {
         if ($change.FilePath -match '^\.') { continue }
         if ($change.FilePath -notmatch '\.(?>html|md)') { continue }
-        if ($htmlOverTime.ContainsKey($change.FilePath)) {
+        if ($htmlOverTime[$change.FilePath]) {
             continue
         }
         $htmlOverTime[$change.FilePath] = [Ordered]@{
