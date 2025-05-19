@@ -4,7 +4,8 @@ Push-Location $PSScriptRoot
 #region Common Functions and Filters
 $functionFileNames = 'functions', 'function', 'filters', 'filter'
 $functionPattern   = "(?>$($functionFileNames -join '|'))\.ps1$"
-$functionFiles     = Get-ChildItem -Path $psScriptRoot | Where-Object Name -Match $functionPattern
+$functionFiles     = Get-ChildItem -Path $psScriptRoot |
+    Where-Object Name -Match $functionPattern
 
 foreach ($file in $functionFiles) {
     # If we have a file with the name function or functions, we'll use it to set the site configuration.
@@ -31,7 +32,7 @@ $gitHubEvent =
 
 # If we have a CNAME, read it, trim it, and update the site object.
 if (Test-Path 'CNAME') {
-    $Site.CNAME = $CNAME = (Get-Content -Path 'CNAME' -Raw).Trim()    
+    $Site.CNAME = $CNAME = (Get-Content -Path 'CNAME' -Raw).Trim()
     $Site.RootUrl = "https://$CNAME/"
 }
 
@@ -61,7 +62,7 @@ if (Test-Path 'config.yaml') {
 # If we have a config.ps1 file,
 if (Test-Path 'config.ps1') {
     # run it, and let it configure anything it chooses to.
-    . config.ps1
+    . ./config.ps1
 }
 
 # Start the clock
