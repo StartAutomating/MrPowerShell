@@ -8,8 +8,7 @@ $Title = "My Memes"
 
 if ($site.AtData) {
     Write-Host "Getting posts from cache"
-    $myPosts = $site.AtData.Tables['app.bsky.feed.post'].Select("did = '$($did -replace '_', ':')'", "createdAt DESC") | 
-        Sort-Object { $_.commit.record.createdAt } -Descending
+    $myPosts = @($site.AtData.Tables['app.bsky.feed.post'].Select("did = '$($did -replace '_', ':')'", "createdAt DESC")).message
 } else {
     $myPostFiles = $PSScriptRoot | 
         Split-Path | 
