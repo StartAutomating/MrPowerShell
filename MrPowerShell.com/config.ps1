@@ -44,7 +44,7 @@ foreach ($jsonFile in $atJsonFiles) {
             [Data.DataColumn]::new('message', [object], '', 'Hidden')
         ))
         $dataTable.PrimaryKey = $dataTable.Columns['did', 'rkey']
-        $dataTable.DefaultView.Sort = 'createdAt'
+        $dataTable.DefaultView.Sort = 'createdAt ASC'
     } else {
         $dataTable = $atProtocolData.Tables[$recordType]
     }
