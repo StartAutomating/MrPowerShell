@@ -55,9 +55,9 @@ foreach ($jsonFile in $atJsonFiles) {
     $dataRow['createdAt'] = 
         if ($jsonObject.commit.record.createdAt) { $jsonObject.commit.record.createdAt }
         else { [DBNull]::Value }
+    $jsonObject.pstypenames.insert(0, $recordType)
     $dataRow['message'] = $jsonObject
-    $dataRow['json'] = $jsonText
-    $dataRow.pstypenames.insert(0, $recordType)    
+    $dataRow['json'] = $jsonText    
     $dataTable.Rows.Add($dataRow)
 }
 
