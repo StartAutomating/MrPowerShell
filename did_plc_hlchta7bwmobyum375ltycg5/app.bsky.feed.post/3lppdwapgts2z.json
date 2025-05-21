@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1747856141473424,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lppdwasp3523",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lppdwapgts2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-21T19:35:41.228Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 63,
+            "byteStart": 52
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 75,
+            "byteStart": 68
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiewldioo63yiasjyvzx7huqw7qx7bc3r2e6ss7sdvjozw5nfc6y2u",
+          "uri": "at://did:plc:tzhrwvnocrxyntumxmomcehb/app.bsky.feed.post/3lppcyrghvk2n"
+        },
+        "root": {
+          "cid": "bafyreihhie65gs7mpnphbvlcyh7evw3scxx7yhd7x5r74p4nhsa3b6tf6y",
+          "uri": "at://did:plc:tzhrwvnocrxyntumxmomcehb/app.bsky.feed.post/3lpoz5c43ls2o"
+        }
+      },
+      "text": "Me neither.\n\nAll these years I've been messing with #PowerShell and #WebDev and I'm finally seeing that the simple approach is the right one.\n\nFor server side code:\n\n1. Listen for Requests\n2. Respond to them 😉\n\nFor static sites:\n\n./Index.html.ps1 > index.html\n\nSo simple both can be put in a post."
+    },
+    "cid": "bafyreiaqi6pemwlxbsehur7z6vgwwiocgeja6tcaocqunkgqishbc6em74"
+  }
+}
