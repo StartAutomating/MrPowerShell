@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1747803267324461,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lpnsohfo3q27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lpnsogwevc2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-21T04:54:25.965Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Taku Etō’s remarks drew fury as cost of rice has nearly doubled in a year amid soaring food prices",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigyhwj2f3rcv7nagocnksdl2s4sroiclll3esjft56h7yzsunxzgi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 303731
+          },
+          "title": "Japanese minister resigns after saying he doesn’t buy rice because he gets it free",
+          "uri": "https://www.theguardian.com/world/2025/may/21/japan-farm-minister-resigns-rice-price"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.theguardian.com/world/2025/may/21/japan-farm-minister-resigns-rice-price"
+            }
+          ],
+          "index": {
+            "byteEnd": 186,
+            "byteStart": 151
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "honor"
+            }
+          ],
+          "index": {
+            "byteEnd": 263,
+            "byteStart": 257
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "news"
+            }
+          ],
+          "index": {
+            "byteEnd": 271,
+            "byteStart": 266
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "irony"
+            }
+          ],
+          "index": {
+            "byteEnd": 278,
+            "byteStart": 272
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Today Kristi Noem showed she didn't know what Habeas Corpus meant, and still has a job.\n\nMeanwhile, on the other side of the Pacific, this happened:\n\n www.theguardian.com/world/2025/m...\n\nFunny how different politics is when people actually have a sense of #honor.\n\n#news #irony"
+    },
+    "cid": "bafyreifmyjlvccscc5zviqn35bc4rel2w5cb3ls3kozjx7rruyzsym4sxq"
+  }
+}
