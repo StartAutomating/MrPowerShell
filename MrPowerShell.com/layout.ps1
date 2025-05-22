@@ -11,6 +11,14 @@ $CodeFont    =
 
 $argsAndinput = @($args) + @($input)
 
+if (-not $Site) {
+    $Site = [Ordered]@{}
+}
+
+if (-not $page) {
+    $page = [Ordered]@{}
+}
+
 if (-not $page.MetaData) {
     $page.MetaData = [Ordered]@{}
 }
