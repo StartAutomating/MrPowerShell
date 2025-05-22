@@ -4,6 +4,8 @@ param(
     [int]$Height = 1080
 )
 
+if ($PSScriptRoot) { Push-Location $PSScriptRoot}
+
 $rasterizer = @'
 <script>
     const dataHeader = 'data:image/svg+xml;charset=utf-8'
@@ -132,3 +134,5 @@ if ($VectorImage) {
 $style
 $content
 $rasterizer
+
+if ($PSScriptRoot) { Pop-Location }
