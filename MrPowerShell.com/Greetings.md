@@ -1,7 +1,3 @@
----
-title: "Hey PowerShell People!"
----
-
 # Hey PowerShell People!
 
 Welcome to a personal page from a PowerShell enthusiast.
