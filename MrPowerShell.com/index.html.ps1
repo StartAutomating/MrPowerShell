@@ -117,7 +117,7 @@ $(Get-Content -Path ./Assets/BlueSky.svg -Raw)
 </div>
 "@
 
-$TopLevelLinks = 'GitHub','Gist', 'Memes'
+$TopLevelLinks = 'GitHub','Gists', 'Memes'
 
 $navigation = @($TopLevelLinks |
     ForEach-Object -Begin {
