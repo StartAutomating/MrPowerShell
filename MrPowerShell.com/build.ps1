@@ -69,11 +69,6 @@ if (Test-Path 'config.ps1') {
     . $configScript
 }
 
-# If we have changed directories, we need to push back into the script root directory.
-if ($PSScriptRoot -and "$PSScriptRoot" -ne "$pwd") {
-    Push-Location $psScriptRoot
-}
-
 # Start the clock
 $lastBuildTime = [DateTime]::Now
 #region Build Files
@@ -86,6 +81,11 @@ $Site.Files | . buildFile
 $buildEnd = [DateTime]::Now
 
 #endregion Build Files
+
+# If we have changed directories, we need to push back into the script root directory.
+if ($PSScriptRoot -and "$PSScriptRoot" -ne "$pwd") {
+    Push-Location $psScriptRoot
+}
 
 #region lastBuild.json
 # We create a new object each time, so we can use it to compare to the last build.
