@@ -63,7 +63,7 @@ Get-ChildItem -Path $atProtoPath, $lexiconCommunityPath -Recurse -Filter *.json 
 
 "<ul>"
 "<li><a href='https://github.com/bluesky-social/atproto/'>bluesky-social/atproto</a></li>"
-"<li><a href='https://github.com/lexicon-community/lexicon'>lexicon-community</a></li>"
+"<li><a href='https://github.com/lexicon-community/lexicon'>lexicon-community/lexicon</a></li>"
 "</ul>"
 
 "<hr/>"
