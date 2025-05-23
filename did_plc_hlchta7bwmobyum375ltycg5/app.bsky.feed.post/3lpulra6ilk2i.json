@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748036360855915,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lpulr7fbu422",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lpulra6ilk2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-23T21:39:21.534Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "bash"
+            }
+          ],
+          "index": {
+            "byteEnd": 17,
+            "byteStart": 12
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 96,
+            "byteStart": 85
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSharp"
+            }
+          ],
+          "index": {
+            "byteEnd": 161,
+            "byteStart": 154
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia4nneaaka3qfth6zvcjtchzonppkqt6zwgsraxbu2zrb3lbwkssq",
+          "uri": "at://did:plc:kw2motsnzebn6j5iaooq6inv/app.bsky.feed.post/3lpukn5l2a224"
+        },
+        "root": {
+          "cid": "bafyreiag4vrdnpv3ywe5lrdn2r33ivxthtb2fohphoedorigb7hui6jxbq",
+          "uri": "at://did:plc:d47qj4iye2tgorzu3os4ayss/app.bsky.feed.post/3lptylchftk2y"
+        }
+      },
+      "text": "Plumbing in #bash certainly sucks ( text pipelines are inherently prone to clogs ).\n\n#PowerShell has an object pipeline that's a lot more fluid.\n\nRunning #CSharp dynamically is fine, it just doesn't make plumbing between processes any easier."
+    },
+    "cid": "bafyreibulwwvw5gr6jlqbtxtujyyfwwesbr4ritcg6p5rxmvjoyd2mqppe"
+  }
+}
