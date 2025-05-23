@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1747967298327972,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lpslgy7ogj2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lpslh23kec25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-23T02:28:20.125Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "codegolf"
+            }
+          ],
+          "index": {
+            "byteEnd": 61,
+            "byteStart": 52
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiem7uamdvgwtqmqrb56fghwn6j2q3wwawpos7jhjrmbqywzyybwym",
+          "uri": "at://did:plc:dq6jaefxy6vc6vvthg57kwvs/app.bsky.feed.post/3lpsishsa6c2g"
+        },
+        "root": {
+          "cid": "bafyreiao767n24whi52ggx6xdzuf4zeednugxvcgawcvrdmckqvphy7ebq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lpsibt7jxk2f"
+        }
+      },
+      "text": "I could have used those aliases if I wanted to play #codegolf\n\nWould love to see shorter versions of sparse clone."
+    },
+    "cid": "bafyreif2u5lyd4j5ymuijyrgrcpyr2mjsnqtmwqbmh6gkggjvwiubk6qqa"
+  }
+}
