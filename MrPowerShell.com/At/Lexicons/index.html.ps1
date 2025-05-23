@@ -55,6 +55,19 @@ Get-ChildItem -Path $atProtoPath, $lexiconCommunityPath -Recurse -Filter *.json 
         $lexiconsById[$jsonObject.id] = $jsonObject
     }
 
+"<h1>At Protocol Lexicons</h1>"
+
+"<h2>At Protocol uses Lexicons to describe objects and operations</h2>"
+
+"<p>This site contains all at protocol lexicons defined in the following repositories</p>"
+
+"<ul>"
+"<li><a href='https://github.com/bluesky-social/atproto/'>bluesky-social/atproto</a></li>"
+"<li><a href='https://github.com/lexicon-community/lexicon'>lexicon-community</a></li>"
+"</ul>"
+
+"<hr/>"
+
 $AllLexicons | 
     ForEach-Object -Begin {
         "<ul class='atLexicons'>"
