@@ -1,5 +1,5 @@
 # Push into the script root directory
-Push-Location $PSScriptRoot
+if ($PSScriptRoot) { Push-Location $PSScriptRoot }
 
 #region Common Functions and Filters
 $functionFileNames = 'functions', 'function', 'filters', 'filter'
@@ -61,8 +61,17 @@ if (Test-Path 'config.yaml') {
 
 # If we have a config.ps1 file,
 if (Test-Path 'config.ps1') {
+    # Get the script command
+    $configScript = Get-Command -Name './config.ps1'
+    # and install any requirements it has.
+    $configScript | RequireModule
     # run it, and let it configure anything it chooses to.
-    . ./config.ps1
+    . $configScript
+}
+
+# If we have changed directories, we need to push back into the script root directory.
+if ($PSScriptRoot -and "$PSScriptRoot" -ne "$pwd") {
+    Push-Location $psScriptRoot
 }
 
 # Start the clock
@@ -114,5 +123,4 @@ $newLastBuild | ConvertTo-Json -Depth 2 > lastBuild.json
 #Create an archive of the current deployment.
 Compress-Archive -Path $pwd -DestinationPath "archive.zip" -CompressionLevel Optimal -Force
 #endregion archive.zip
-
-Pop-Location
+if ($PSScriptRoot) { Pop-Location }
