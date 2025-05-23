@@ -2,6 +2,7 @@
 
 # We'll be populating a subdirectory with a sparse checkout of a repository.
 if (-not $psScriptRoot) { return }
+Push-Location $PSScriptRoot
 
 $greatGreatGrandParent = $PSScriptRoot | Split-Path | Split-Path | Split-Path
 
