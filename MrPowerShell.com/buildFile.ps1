@@ -7,11 +7,15 @@ $File
 $permalink = 'pretty'
 $start = [datetime]::Now
 $layoutAtPath = [Ordered]@{}
+$allFiles = @($input)
 
-:nextFile foreach ($file in $input) {
-    $outFile = $file.FullName -replace '\.ps1$'
+$FileNumber = 0
+$TotalFiles = $allFiles.Length
+$progressId = Get-Random
+:nextFile foreach ($file in $allFiles) {
+    $outFile  = $file.FullName -replace '\.ps1$'
     $fileRoot = $file.FullName | Split-Path
-
+    Write-Progress -Id $progressId -Status "Building Pages" "$($file.Name) " -PercentComplete ((++$FileNumber / $TotalFiles) * 100)
     # Initialize the page object
     $Page = [Ordered]@{
         # anything in MetaData should be rendered as <meta> tags in the <head> section.
@@ -72,7 +76,7 @@ $layoutAtPath = [Ordered]@{}
                 }
             }
         }
-    }
+    }    
 
     $Output = $Content = switch ($file.Extension) {
         # If it's a markdown file, we'll convert it to HTML.
@@ -85,8 +89,7 @@ $layoutAtPath = [Ordered]@{}
                     $page[$keyValue.Key] = $keyValue.Value
                 }
             }
-            $file | from_markdown |
-                layout
+            $file | from_markdown | layout
         }
         # If it's a typescript file, we'll compile it to JS.
         '.ts' {
@@ -105,7 +108,25 @@ $layoutAtPath = [Ordered]@{}
             $scriptCmd | RequireModule
             # Extract the title from the name of the file.
             $title = $Page['title'] = $file.Name -replace '\..+?\.ps1$' -replace 'index'
-            . $file
+            
+            #region Map File Parameters to Page and Site configuration
+            $FileParameters = [Ordered]@{}
+            :nextParameter foreach ($parameter in $scriptCmd.Parameters.GetEnumerator()) {
+                $potentialType = $parameter.Value.ParameterType
+                foreach ($PotentialName in 
+                    @($parameter.Value.Name;$parameter.Value.Aliases) -ne ''
+                ) {
+                    if ($page[$potentialName] -and $page[$potentialName] -as $potentialType) {
+                        $FileParameters[$potentialName] = $page[$potentialName]
+                        continue nextParameter
+                    }
+                    elseif ($site[$potentialName] -and $site[$potentialName] -as $potentialType) {
+                        $FileParameters[$potentialName] = $site[$potentialName]
+                        continue nextParameter
+                    }
+                }
+            }
+            . $file @FileParameters
         }
     }
 
@@ -211,6 +232,7 @@ $layoutAtPath = [Ordered]@{}
     }
 }
 
+Write-Progress -Id $progressId -Completed -Status "Building Pages" "$($file.Name) " 
 # we're done building files.
 $end = [datetime]::Now
 # so let everyone know how long it took.
