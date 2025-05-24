@@ -1,13 +1,17 @@
-$paletteName =
-    if ($config -and $config['PaletteName']) { $config['PaletteName'] }
-    else { 'Konsolas' }
-$Font        =
-    if ($config -and $config['FontName']) { $config['FontName'] }
-    else { 'Roboto' }
-    
-$CodeFont    =
-    if ($config -and $config['CodeFontName']) { $config['CodeFontName'] }
-    else { 'Inconsolata' }
+param(
+    $PaletteName = $(
+        if ($config -and $config['PaletteName']) { $config['PaletteName'] }
+        else { 'Konsolas' }    
+    ),
+    $Font        = $(
+        if ($config -and $config['FontName']) { $config['FontName'] }
+        else { 'Roboto' }
+    ),
+    $CodeFont   = $(
+        if ($config -and $config['CodeFontName']) { $config['CodeFontName'] }
+        else { 'Inconsolata' }
+    )        
+)
 
 $argsAndinput = @($args) + @($input)
 
