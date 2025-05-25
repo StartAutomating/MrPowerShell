@@ -70,7 +70,7 @@ $style = @"
 body {
     width: 100vw;
     height: 100vh;
-    font-family: '$GoogleFont', sans-serif;
+    font-family: '$Font', sans-serif;
 }
 pre, code {
     font-family: '$CodeFont', monospace;
