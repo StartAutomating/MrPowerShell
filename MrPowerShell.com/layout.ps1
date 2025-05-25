@@ -1,9 +1,11 @@
 param(
+    [Alias('Palette')]
     [string]
     $PaletteName = $(
         if ($config -and $config['PaletteName']) { $config['PaletteName'] }
         else { 'Konsolas' }    
     ),
+    [Alias('FontName')]
     [string]
     $Font        = $(
         if ($config -and $config['FontName']) { $config['FontName'] }
