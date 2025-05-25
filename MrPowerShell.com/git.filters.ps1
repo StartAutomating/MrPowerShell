@@ -77,7 +77,6 @@ function Get-GitSparse
     }
 }
 
-
 <#
 
 git clone --depth 1 --no-checkout --sparse --filter=tree:0 https://github.com/bluesky-social/atproto/
