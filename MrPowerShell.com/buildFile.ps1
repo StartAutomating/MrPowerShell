@@ -7,6 +7,7 @@ $File
 $permalink = 'pretty'
 $start = [datetime]::Now
 $layoutAtPath = [Ordered]@{}
+$layoutAtPathParameters = [Ordered]@{}
 $allFiles = @($input)
 if (-not $allFiles) { return}
 
@@ -46,17 +47,37 @@ $progressId = Get-Random
             # once we do
             if (Test-Path $layoutPath) {
                 # set it in the hashtable
-                $layoutAtPath[$fileRoot] = $layoutPath
+                $layoutAtPath[$fileRoot] = $ExecutionContext.SessionState.InvokeCommand.GetCommand($layoutPath, 'ExternalScript')
+                
                 break # and take a break.
             }
             $fileRoot = $fileRoot | Split-Path
         }
     }
 
+    $layoutParameters = [Ordered]@{}
     # If we have a layout for this directory, we'll use it.
     if ($layoutAtPath[$fileRoot]) {
         # all we need to do is set the alias to it.
         Set-Alias layout $layoutAtPath[$fileRoot]
+
+        # check for any parameters from the layout script, in the page and site configuration.
+        $layoutParameters = $layoutAtPathParameters[$fileRoot] = [Ordered]@{}
+        :nextParameter foreach ($parameter in $layoutAtPath[$fileRoot].Parameters.GetEnumerator()) {
+            $potentialType = $parameter.Value.ParameterType
+            foreach ($PotentialName in 
+                @($parameter.Value.Name;$parameter.Value.Aliases) -ne ''
+            ) {
+                if ($page[$potentialName] -and $page[$potentialName] -as $potentialType) {
+                    $layoutParameters[$potentialName] = $page[$potentialName]
+                    continue nextParameter
+                }
+                elseif ($site[$potentialName] -and $site[$potentialName] -as $potentialType) {
+                    $layoutParameters[$potentialName] = $site[$potentialName]
+                    continue nextParameter
+                }
+            }
+        }
     }
 
     # We want to support data files for each potential page
@@ -105,7 +126,7 @@ $progressId = Get-Random
                     $page[$keyValue.Key] = $keyValue.Value
                 }
             }
-            $file | from_markdown | layout
+            $file | from_markdown | layout @layoutParameters
         }
         # If it's a typescript file, we'll compile it to JS.
         '.ts' {
@@ -154,7 +175,7 @@ $progressId = Get-Random
     # If we're outputting markdown, and it's not yet HTML
     if ($outFile -match '\.md$' -and $output -notmatch '<html') {
         $outputAsMarkdown = @($output) -join [Environment]::NewLine
-        $Output = $outputAsMarkdown | from_markdown | layout
+        $Output = $outputAsMarkdown | from_markdown | layout @layoutParameters
     }
 
     # If we're outputting to html, let's do a few things:
@@ -172,8 +193,8 @@ $progressId = Get-Random
         # * If the output is does not have an <html> tag,
         if (-not ($output -match '<html')) {
             # we'll use the layout.            
-            $output = $output | layout            
-        }        
+            $output = $output | layout @layoutParameters
+        }
     }    
     
     if ($output -is [Data.DataSet]) {
