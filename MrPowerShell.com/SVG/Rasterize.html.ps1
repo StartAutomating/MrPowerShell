@@ -111,7 +111,7 @@ if ($VectorImage) {
         $VectorImage
     }
 } else {
-    $((Get-Content .\Butterfly.svg -Raw)) 
+    $((Get-Content .\..\MrPowerShell.svg -Raw))
 }
 )
 </svg>
