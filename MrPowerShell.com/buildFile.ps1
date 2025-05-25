@@ -8,18 +8,34 @@ $permalink = 'pretty'
 $start = [datetime]::Now
 $layoutAtPath = [Ordered]@{}
 $allFiles = @($input)
+if (-not $allFiles) { return}
 
 $FileNumber = 0
 $TotalFiles = $allFiles.Length
 $progressId = Get-Random
 :nextFile foreach ($file in $allFiles) {
     $outFile  = $file.FullName -replace '\.ps1$'
-    $fileRoot = $file.FullName | Split-Path
+    $fileRoot = $file.Directory.FullName
+    # Get the file name by removing the extension.
+    $fileName = $file.Name.Substring(0, $file.Name.Length - $file.Extension.Length)
+    # Generate a file date by:
+    $fileDate = $fileName -replace 
+            # * Remove any non-digit (except colon, dash, and underscore, and Z)
+            '[^\d:-_Z]' -replace
+                 # * Trim leading punctuation, and trailing punctuation (and Z), 
+                '^\p{P}+' -replace '[-Z]+$' -replace 
+                # * replace underscores with colons, and try to cast to `[DateTime]`
+                '_',':' -as [DateTime]
+
     Write-Progress -Id $progressId -Status "Building Pages" "$($file.Name) " -PercentComplete ((++$FileNumber / $TotalFiles) * 100)
     # Initialize the page object
     $Page = [Ordered]@{
         # anything in MetaData should be rendered as <meta> tags in the <head> section.
         MetaData = [Ordered]@{}
+    }
+
+    if ($fileDate) {
+        $page.Date = $fileDate
     }
     
     # If we don't have a layout for this directory
@@ -64,7 +80,7 @@ $progressId = Get-Random
                 }
             }
             '.psd1' {
-                $pageConfig = Import-LocalizedData -FileName $dataFile.Name -BaseDirectory $file.Directory.FullName                
+                $pageConfig = Import-LocalizedData -FileName $dataFile.Name -BaseDirectory $file.Directory.FullName
                 foreach ($property in $pageConfig.GetEnumerator()) {
                     $Page[$property.Key] = $property.Value
                 }
@@ -76,7 +92,7 @@ $progressId = Get-Random
                 }
             }
         }
-    }    
+    }
 
     $Output = $Content = switch ($file.Extension) {
         # If it's a markdown file, we'll convert it to HTML.
