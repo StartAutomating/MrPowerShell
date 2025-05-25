@@ -1,16 +1,22 @@
+$TopLevelLinks = 'GitHub','Gists', 'Memes'
+
+$navigation = @($TopLevelLinks |
+    ForEach-Object -Begin {
+        "<nav class='navigation'>"
+    } -Process {
+        "<a href='$($_)'><button>$($_)</button></a>"
+    } -End {
+        "</nav>"
+    }) -join [Environment]::NewLine
+
+
 $style = @"
 <style type='text/css'>
-@media (min-width: 30em) {
-}
-@media (min-width: 60em) {
-}
-
 .grid9x9 {
   display: grid;
   height: 100vh;
   grid:
     "$( @('header') * 9)" minmax(100px, auto)
-    "$( @('navigation') * 9)" minmax(100px, auto)
     "$( @('main') * 9)" minmax(100px, auto)
     "$( @('footer') * 9)" minmax(100px, auto)
     / $( @('1fr') * 9);
@@ -65,6 +71,7 @@ $((Get-Content -Path .\MrPowerShell-Animated.svg -Raw) -replace '<\?.+>')
 MrPowerShell
 </h1>
 </a>
+$navigation
 </div>
 "@
 
@@ -117,23 +124,12 @@ $(Get-Content -Path ./Assets/BlueSky.svg -Raw)
 </div>
 "@
 
-$TopLevelLinks = 'GitHub','Gists', 'Memes'
-
-$navigation = @($TopLevelLinks |
-    ForEach-Object -Begin {
-        "<nav class='navigation'>"    
-    } -Process {
-        "<a href='$($_)'><button>$($_)</button></a>"
-    } -End {
-        "</nav>"
-    }) -join [Environment]::NewLine
-    
+   
 "<div class='grid9x9'>"
 
 $style,
     $corner,
-        $header,    
-            $navigation,
-                $content -join [Environment]::NewLine
+        $header,
+            $content -join [Environment]::NewLine
 
 "</div>"
