@@ -17,6 +17,8 @@ $rasterizer = @'
     const widthParameters = ["width", "Width", "W", "w"]
     const heightParameters = ["height", "Height", "H", "h"]
     const sourceParameters = ["Source", "source", "Src", "src", "S", "s"]
+    const strokeParameters = ["Stroke", "stroke"]
+    const fillParameters = ["Fill", "fill"]
     
     for (const widthParameter of widthParameters) {
         if (searchParameters.has(widthParameter)) {
@@ -38,6 +40,28 @@ $rasterizer = @'
                 throw new TypeError `Expected SVG content, but got: ${contentType}`
             }
             defaultSvg.innerHTML = await response.text()
+        }
+    }
+
+    for (const strokeParameter of strokeParameters) {
+        if (searchParameters.has(strokeParameter)) {
+            const strokeColor = searchParameters.get(strokeParameter)
+            defaultSvg.querySelectorAll('*[stroke]').forEach(svgElement => {
+                if (svgElement.getAttribute('stroke') != "transparent") {
+                    svgElement.setAttribute('stroke', strokeColor)
+                }
+            })
+        }
+    }
+
+    for (const fillParameter of fillParameters) {
+        if (searchParameters.has(fillParameter)) {
+            const fillColor = searchParameters.get(fillParameter)
+            defaultSvg.querySelectorAll('*[fill]').forEach(svgElement => {
+                if (svgElement.getAttribute('fill') != "transparent") {
+                    svgElement.setAttribute('fill', fillColor)
+                }                
+            })
         }
     }
 
