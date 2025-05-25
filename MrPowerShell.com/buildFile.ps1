@@ -59,7 +59,7 @@ $progressId = Get-Random
     # If we have a layout for this directory, we'll use it.
     if ($layoutAtPath[$fileRoot]) {
         # all we need to do is set the alias to it.
-        Set-Alias layout $layoutAtPath[$fileRoot]
+        Set-Alias layout $layoutAtPath[$fileRoot].Source
 
         # check for any parameters from the layout script, in the page and site configuration.
         $layoutParameters = $layoutAtPathParameters[$fileRoot] = [Ordered]@{}
