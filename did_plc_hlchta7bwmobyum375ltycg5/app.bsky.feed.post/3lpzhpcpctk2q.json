@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748203799127518,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lpzhpaxzfz27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lpzhpcpctk2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-25T20:10:00.798Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 30,
+            "byteStart": 22
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibchfe2sju2aqxo7iosneoxupka5m5gskdk2dfl7qgprmwq7h7pkm",
+          "uri": "at://did:plc:rmplvmo2uq2mlth23rqhgcvx/app.bsky.feed.post/3lpzbltf5jk2v"
+        },
+        "root": {
+          "cid": "bafyreibchfe2sju2aqxo7iosneoxupka5m5gskdk2dfl7qgprmwq7h7pkm",
+          "uri": "at://did:plc:rmplvmo2uq2mlth23rqhgcvx/app.bsky.feed.post/3lpzbltf5jk2v"
+        }
+      },
+      "text": "It's even more cool:\n\n#AtProto is like an API for any object, not subject to the mercurial whims of any person or company."
+    },
+    "cid": "bafyreif6rxubvuearco2ozcyceqjlkre7ntke5xt5hyw2dzqgtxllmjkwu"
+  }
+}
