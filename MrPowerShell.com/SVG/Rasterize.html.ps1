@@ -1,17 +1,45 @@
 param(
     $VectorImage,
-    [int]$Width = 1080,
-    [int]$Height = 1080
+    [int]$Width = 512,
+    [int]$Height = 512
 )
 
 if ($PSScriptRoot) { Push-Location $PSScriptRoot}
 
 $rasterizer = @'
-<script>
+<script type='module'>
     const dataHeader = 'data:image/svg+xml;charset=utf-8'
-    const $svg = document.getElementById('svg-container').querySelector('svg')
+    const defaultSvg = document.getElementById('svg-container').querySelector('svg')
     const imageContainer = document.getElementById('img-container')
     const imageFormatLabel = document.getElementById('img-format')
+    const searchParameters = new URLSearchParams(window.location.search)
+
+    const widthParameters = ["width", "Width", "W", "w"]
+    const heightParameters = ["height", "Height", "H", "h"]
+    const sourceParameters = ["Source", "source", "Src", "src", "S", "s"]
+    
+    for (const widthParameter of widthParameters) {
+        if (searchParameters.has(widthParameter)) {
+            defaultSvg.setAttribute('width', searchParameters.get(widthParameter))
+        }
+    }
+
+    for (const heightParameter of heightParameters) {
+        if (searchParameters.has(heightParameter)) {
+            defaultSvg.setAttribute('height', searchParameters.get(heightParameter))
+        }
+    }
+
+    for (const sourceParameter of sourceParameters) {
+        if (searchParameters.has(sourceParameter)) {
+            const response = await fetch(searchParameters.get(sourceParameter));
+            const contentType = response.headers.get('content-type')
+            if (!contentType || !contentType.includes('image/svg+xml')) {
+                throw new TypeError `Expected SVG content, but got: ${contentType}`
+            }
+            defaultSvg.innerHTML = await response.text()
+        }
+    }
 
     const destroyChildren = svgElement => {
         while (svgElement.firstChild) {
@@ -41,14 +69,14 @@ const ConvertFromSVG = async e => {
   
   destroyChildren(imageContainer)
 
-  const svgData = encodeAsUTF8(serializeAsXML($svg))
+  const svgData = encodeAsUTF8(serializeAsXML(defaultSvg))
 
   const img = await loadImage(svgData)
   
   const rasterizeCanvas = document.createElement('canvas')
-  rasterizeCanvas.width = $svg.clientWidth
-  rasterizeCanvas.height = $svg.clientHeight
-  rasterizeCanvas.getContext('2d').drawImage(img, 0, 0, $svg.clientWidth, $svg.clientHeight)
+  rasterizeCanvas.width = defaultSvg.clientWidth
+  rasterizeCanvas.height = defaultSvg.clientHeight
+  rasterizeCanvas.getContext('2d').drawImage(img, 0, 0, defaultSvg.clientWidth, defaultSvg.clientHeight)
   
   const dataURL = await rasterizeCanvas.toDataURL(`image/${format}`, 1.0)
   console.log(dataURL)
@@ -75,16 +103,17 @@ $style = @'
 }
 
 .images {
-  display: flex;
-  flex-flow: row nowrap;
-  width: 70%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
 }
 
-.image {
-  width: 50%;
+.buttons {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  gap: 1em
 }
 
 .label {
@@ -100,7 +129,7 @@ $content = @"
     <div class="image left">
       <div class="label">svg</div>
       <div id="svg-container">
-        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="$Width" height="$Height">
+        <svg xmlns="http://www.w3.org/2000/svg" id='svg' xml:space="preserve" width="$Width" height="$Height">
 $(
 if ($VectorImage) {
     if ($VectorImage -is [xml]) {
@@ -117,17 +146,17 @@ if ($VectorImage) {
 </svg>
       </div>
     </div>
+    <div class="item buttons">
+      <button id="btn-bmp" data-format="bmp">bmp</button>
+      <button id="btn-png" data-format="png">png</button>
+      <button id="btn-jpg" data-format="jpeg">jpg</button>
+      <button id="btn-webp" data-format="webp">webp</button>
+    </div>
     <div class="image right">
       <div id="img-format" class="label"></div>
       <div id="img-container"></div>
     </div>
-  </div>
-  <div class="item buttons">
-    <button id="btn-bmp" data-format="bmp">bmp</button>
-    <button id="btn-png" data-format="png">png</button>
-    <button id="btn-jpg" data-format="jpeg">jpg</button>
-    <button id="btn-webp" data-format="webp">webp</button>
-  </div>
+  </div>  
 </div>
 "@
 
