@@ -62,6 +62,8 @@ function Get-GitSparse
                 Push-Location $path
                 AsDictionary
                 Pop-Location
+            } else {
+                Get-ChildItem -Recurse -File -Path $Path
             }
                         
             return 
@@ -72,8 +74,10 @@ function Get-GitSparse
         $null = git checkout
         if ($AsDictionary) {
             AsDictionary
+        } else {
+            Get-ChildItem -Recurse -File -Path $Path
         }
-        Pop-Location
+        Pop-Location        
     }
 }
 
