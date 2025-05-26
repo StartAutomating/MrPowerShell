@@ -1,5 +1,5 @@
 $3jsFiles = 
-    git.sparse -Repository https://github.com/mrdoob/three.js/ -Pattern "/build/**.js", "/examples/**/**.js", "/examples/**/**.html"
+    git.sparse -Repository https://github.com/mrdoob/three.js/ -Pattern "/build/**.js", "/examples/**/**.**"
 
 $htmlFiles = $3jsFiles | Where-Object Extension -eq '.html' | Sort-Object { $_.FullName.Length }
 $pageDepth = 0
@@ -12,8 +12,9 @@ foreach ($file in $htmlFiles) {
         "<ul>"
     }
 
-    if ($fileSegments.Length -lt $pageDepth) {
+    if ($fileSegments.Length -lt $pageDepth) {        
         "</ul>"
+        $pageDepth = $fileSegments.Count
     }
     "<li>"
     "<a href='$($file.FullName.Substring($root.Length))'>$($file.Name)</a>"
