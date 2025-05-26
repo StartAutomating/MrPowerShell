@@ -18,7 +18,7 @@ $root = "$pwd"
 "</details>"
 
 foreach ($file in $htmlFiles) {
-    $fileSegments = @($file.Name -split '/')
+    $fileSegments = @($file.Name -split '[/_]')
     if ($fileSegments.Length -gt $pageDepth) {
         $pageDepth = $fileSegments.Count
         "<ul>"
