@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748296116399870,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lq45ojmgep22",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lq45ok3b722b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-26T21:48:36.771Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 165,
+            "byteStart": 154
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "bash"
+            }
+          ],
+          "index": {
+            "byteEnd": 172,
+            "byteStart": 167
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "nushell"
+            }
+          ],
+          "index": {
+            "byteEnd": 185,
+            "byteStart": 177
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiemnr3ffaezuabqqa7axt4fi2hwatsz5bwfwudv6n5x46jq3fmswe",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lq3zfwukzs2s"
+        },
+        "root": {
+          "cid": "bafyreiemnr3ffaezuabqqa7axt4fi2hwatsz5bwfwudv6n5x46jq3fmswe",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lq3zfwukzs2s"
+        }
+      },
+      "text": "Don't worry guys, Bluesky can be perfect so long as we all get along.\n\nFirst things first, we just need to agree about which shell language is superior:\n\n#PowerShell, #bash, or #nushell ?"
+    },
+    "cid": "bafyreifslaofxszb7tes6e3kfsvmascc5g7h7t6z3gcgrysm7vtapndbvy"
+  }
+}
