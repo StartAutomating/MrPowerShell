@@ -29,6 +29,6 @@ foreach ($file in $htmlFiles) {
         $pageDepth = $fileSegments.Count
     }
     "<li>"
-    "<a href='$($file.FullName.Substring($root.Length))'>$($file.Name -replace '.\html')</a>"
+    "<a href='$($file.FullName.Substring($root.Length))'>$($file.Name -replace '\.html$')</a>"
     "</li>"
 }
