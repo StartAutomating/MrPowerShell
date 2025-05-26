@@ -57,6 +57,11 @@ function Get-GitSparse
         if (-not $PSBoundParameters['Path']) {
             $Path = $PSBoundParameters['Path'] = $Repository.Segments[-1] -replace '\.git$'
         }
+        if ($env:GITHUB_STEP_SUMMARY) {
+            "Sparse Cloning $Repository to $Path with patterns: $($Pattern -join ', ')`n" | 
+                Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Append
+        }
+        
         if (Test-Path $path) { 
             if ($AsDictionary) {
                 Push-Location $path
@@ -64,8 +69,7 @@ function Get-GitSparse
                 Pop-Location
             } else {
                 Get-ChildItem -Recurse -File -Path $Path
-            }
-                        
+            }                        
             return 
         }
         $null = git clone --depth 1 --no-checkout --sparse --filter=tree:0 $Repository $Path
