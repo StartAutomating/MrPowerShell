@@ -58,7 +58,7 @@ function Get-GitSparse
             $Path = $PSBoundParameters['Path'] = $Repository.Segments[-1] -replace '\.git$'
         }
         if ($env:GITHUB_STEP_SUMMARY) {
-            "Sparse Cloning $Repository to $Path with patterns: $($Pattern -join ', ')`n" | 
+            "Sparse Cloning $Repository to $Path with patterns: $($Pattern -join ', ')`n" |
                 Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Append
         }
         
@@ -79,7 +79,7 @@ function Get-GitSparse
         if ($AsDictionary) {
             AsDictionary
         } else {
-            Get-ChildItem -Recurse -File -Path $Path
+            Get-ChildItem -Recurse -File
         }
         Pop-Location        
     }
