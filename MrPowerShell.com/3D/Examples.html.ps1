@@ -2,8 +2,7 @@ $3jsFiles =
     git.sparse -Repository https://github.com/mrdoob/three.js/ -Pattern "/build/**.js", "/examples/**/**.**"
 
 $htmlFiles = $3jsFiles | 
-    Where-Object Extension -eq '.html' | 
-    Sort-Object { $_.FullName.Length } -Descending
+    Where-Object Extension -eq '.html'
     
 $pageDepth = 0
 $root = "$pwd"
