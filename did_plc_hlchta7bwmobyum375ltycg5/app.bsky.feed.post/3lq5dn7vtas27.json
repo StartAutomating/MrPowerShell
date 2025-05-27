@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748336873702706,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lq5dn6nwi32i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lq5dn7vtas27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-27T09:07:54.744Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidtwneurj57gvyboz26dkyzz2qk7dvrqla6ap4p3gsbccasserqfi",
+          "uri": "at://did:plc:mlcl5fqk7v5p3mkq44adm7qx/app.bsky.feed.post/3lq5bqidlgk23"
+        },
+        "root": {
+          "cid": "bafyreicjiyaippqbicyb5hpay3tn72akmr777hzvepvfnqi3uypmolgixu",
+          "uri": "at://did:plc:mlcl5fqk7v5p3mkq44adm7qx/app.bsky.feed.post/3lq57eqddtk2s"
+        }
+      },
+      "text": "Thanks.  It's been a hobby project for a while now, and I'm pretty darn happy with how it turned out.\n\nIf you did figure out scheduling, I would love a PR or issue detailing the approach.\n\nIf you didn't, might I suggest simply scheduling it on your box and letting PowerShell control the lights."
+    },
+    "cid": "bafyreicfzk46qig25egha5j3m4zpftmoqkcqmorik5ckc4j7vesjthsjpm"
+  }
+}
