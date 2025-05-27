@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748333578596739,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lq5aky4fci25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lq5akzkzds2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-27T08:12:59.762Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Smarter Lighting with PowerShell. Contribute to StartAutomating/LightScript development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiduxw3ohjnk2p6ypl26detscrmubixahkg6lybd7syakszesc6ebu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 33703
+          },
+          "title": "GitHub - StartAutomating/LightScript: Smarter Lighting with PowerShell",
+          "uri": "https://GitHub.com/StartAutomating/LightScript"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/StartAutomating/LightScript"
+            }
+          ],
+          "index": {
+            "byteEnd": 254,
+            "byteStart": 228
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicjiyaippqbicyb5hpay3tn72akmr777hzvepvfnqi3uypmolgixu",
+          "uri": "at://did:plc:mlcl5fqk7v5p3mkq44adm7qx/app.bsky.feed.post/3lq57eqddtk2s"
+        },
+        "root": {
+          "cid": "bafyreicjiyaippqbicyb5hpay3tn72akmr777hzvepvfnqi3uypmolgixu",
+          "uri": "at://did:plc:mlcl5fqk7v5p3mkq44adm7qx/app.bsky.feed.post/3lq57eqddtk2s"
+        }
+      },
+      "text": "Lol yeah the NanoLeaf API was a rough one.\n\nI don't recall if I ever got to adding support for their schedules.\n\nFor about everything else, including touch event support and super fast UDP control, there's this gem of a module\n\nGitHub.com/StartAutomat...\n\nAlso supports Hue and Twinkly"
+    },
+    "cid": "bafyreifsyetdxh4rbsqela3u2ry4lan6jzvuypt5vlregbwyqj7glfebam"
+  }
+}
