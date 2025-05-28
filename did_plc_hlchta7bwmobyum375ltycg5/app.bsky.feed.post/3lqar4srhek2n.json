@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748454434701581,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqar4rnucp2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqar4srhek2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-28T17:47:15.698Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 38
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Metal"
+            }
+          ],
+          "index": {
+            "byteEnd": 78,
+            "byteStart": 72
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig4idr6hctxzaeyflbuuk2zaaccnwgnd4zcmbl7tgrx5idyoo22ye",
+          "uri": "at://did:plc:vveuef2gjhg6lxd6fimfs4nn/app.bsky.feed.post/3lgxce6yauk2j"
+        },
+        "root": {
+          "cid": "bafyreig4idr6hctxzaeyflbuuk2zaaccnwgnd4zcmbl7tgrx5idyoo22ye",
+          "uri": "at://did:plc:vveuef2gjhg6lxd6fimfs4nn/app.bsky.feed.post/3lgxce6yauk2j"
+        }
+      },
+      "text": "I need t shirts of all of these so my #PowerShell wardrobe is 💯 more #Metal."
+    },
+    "cid": "bafyreieay4zijpbprss2clry32yudbo2nuugd3tkwgyuiil42mcdwgryai"
+  }
+}
