@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748395501490124,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lq72agkl5i25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lq72afdfas2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-28T01:25:00.021Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Work with WebSockets in PowerShell. Contribute to PowerShellWeb/WebSocket development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreig7qbkifxmqasdkxucznnzapdxhzi2mn7llvvlblcbwocr3vrfeca"
+            },
+            "mimeType": "image/jpeg",
+            "size": 161339
+          },
+          "title": "GitHub - PowerShellWeb/WebSocket: Work with WebSockets in PowerShell",
+          "uri": "https://github.com/PowerShellWeb/WebSocket"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 85,
+            "byteStart": 74
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 93,
+            "byteStart": 86
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShellWeb/WebSocket"
+            }
+          ],
+          "index": {
+            "byteEnd": 233,
+            "byteStart": 207
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebSocket"
+            }
+          ],
+          "index": {
+            "byteEnd": 254,
+            "byteStart": 244
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I really need to post more.\n\nSpecifically, I need to post about many cool #PowerShell #GitHub repositories.\n\nRoutinely.  Not just when I need to run a test of something new I'm making.\n\nApropos of nothing:\n\ngithub.com/PowerShellWe...\n\nHere's a #WebSocket module that I'm using right now."
+    },
+    "cid": "bafyreifq227ypa645kz67tea7lb5hboudwihcdd4kuxuuz3xjhnptdjtli"
+  }
+}
