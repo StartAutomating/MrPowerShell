@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748454251728961,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqaqxd6q5o2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqaqxearfs2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-28T17:44:12.698Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Regex"
+            }
+          ],
+          "index": {
+            "byteEnd": 43,
+            "byteStart": 37
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 58,
+            "byteStart": 47
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 78,
+            "byteStart": 75
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih3cyltiocov7benpwqmzpsgt2groltgaqhp2zd2ujriqj7zqlphy",
+          "uri": "at://did:plc:gh6h3lc7yzi4yyhzmoruor6i/app.bsky.feed.post/3lqaqb64vds2n"
+        },
+        "root": {
+          "cid": "bafyreicmtc6fu5azkmtdscortmjt4qpqfsojchcxzb3uadrnahvhahxpxa",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lqann4odfc2n"
+        }
+      },
+      "text": "I personally prefer to build complex #Regex in #PowerShell instead of with #AI.\n\nWhy?\n\nBecause I've got a much better chance of understanding it later, and far fewer hallucinations.\n\nRemember: AI is trained on all of the bad regexes out there."
+    },
+    "cid": "bafyreihhdkokzirluz7kwlbdx22zcmbe7z4oo4bdeggopim5apy5e4jegm"
+  }
+}
