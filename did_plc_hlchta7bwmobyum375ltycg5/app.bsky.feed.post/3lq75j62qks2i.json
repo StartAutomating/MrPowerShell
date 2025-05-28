@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748399015283046,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lq75j5nyll2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lq75j62qks2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-28T02:23:35.615Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 74,
+            "byteStart": 67
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibvxfhzu7o2pqej6bahox77lr2ledn5fwogadbjchb2ji7avqxbbe",
+          "uri": "at://did:plc:44ybard66vv44zksje25o7dz/app.bsky.feed.post/3lq753eukdk2a"
+        },
+        "root": {
+          "cid": "bafyreig6hhu5gleexpkgsyi2an6ekiakw6zyurutgiohypq2nzeqt6ydya",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lq74wfmny22i"
+        }
+      },
+      "text": "I'm riding the jet stream directly, backfilling posts that link to #GitHub.\n\nKeep getting disconnected before it gets to the repos I just posted.\n\nThe message is \"remote party closed the websocket connection without completing the close handshake\".\n\nException is unexpected EOF.\n\nJust happened again."
+    },
+    "cid": "bafyreib766f4o2miunyhfmztwbxrbio6u2dh5u4necahp3gggvzbvd5hve"
+  }
+}
