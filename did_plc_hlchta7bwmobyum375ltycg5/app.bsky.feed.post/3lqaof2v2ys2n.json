@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748451491063571,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqaoezzgnc25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqaof2v2ys2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-28T16:58:11.414Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: I love waking up to see that the GitHub workflow I set up to watch everything posted to BlueSky / AtProto about GitHub has been humming along all night, drinking from the firehose.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiaflcb42uw3utooq2zfxkgvwfvrh4y7557a4fwga5y6rlums3zska"
+            },
+            "mimeType": "image/jpeg",
+            "size": 91419
+          },
+          "title": "a group of helicopters flying over a body of water at sunset",
+          "uri": "https://media.tenor.com/BJmsiPtX00QAAAAC/huey-vietnam-ride-of-the-valkyries.gif?hh=305&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 33,
+            "byteStart": 26
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 74,
+            "byteStart": 66
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BlueSky"
+            }
+          ],
+          "index": {
+            "byteEnd": 83,
+            "byteStart": 75
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 95,
+            "byteStart": 84
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I love the smell of fresh #GitHub workflows in the morning. 😎\n\n#AtProto #BlueSky #PowerShell"
+    },
+    "cid": "bafyreidwpc4lesrxqvmhh6gfhzbieh3vxyvyb6e7jhptt3733m3xhak624"
+  }
+}
