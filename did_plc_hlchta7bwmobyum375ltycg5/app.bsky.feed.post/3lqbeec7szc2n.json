@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748475086419534,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqbeeaogqu25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqbeec7szc2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-28T23:31:27.874Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifucsl6gtulxzoizs7lmir3vq5x27rgr6t3ezova54tg5rom6cvii",
+          "uri": "at://did:plc:vwzwgnygau7ed7b7wt5ux7y2/app.bsky.feed.post/3lqbcal26k22n"
+        },
+        "root": {
+          "cid": "bafyreifucsl6gtulxzoizs7lmir3vq5x27rgr6t3ezova54tg5rom6cvii",
+          "uri": "at://did:plc:vwzwgnygau7ed7b7wt5ux7y2/app.bsky.feed.post/3lqbcal26k22n"
+        }
+      },
+      "text": "No I can't.\n\nBut I can automate making sure someone else gives a damn ( or at least check the boxes indicating that they care )."
+    },
+    "cid": "bafyreiccugs3g2xjppmopsk6wftneex2csaxpahovgfe5h6t474ck64ibe"
+  }
+}
