@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748475759474001,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqbeycj4on2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqbeye7w5k2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-28T23:42:41.061Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "EZOut is a PowerShell module to help take the pain out of writing format and types XML - StartAutomating/EZOut",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihjmyzbvvyffo43b4mnqawjhtu2bd3i2ofg34j3i433jzvnvf65fy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 27664
+          },
+          "title": "GitHub - StartAutomating/EZOut: EZOut is a PowerShell module to help take the pain out of writing format and types XML",
+          "uri": "https://github.com/StartAutomating/EZOut"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 52,
+            "byteStart": 41
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ps1xml"
+            }
+          ],
+          "index": {
+            "byteEnd": 80,
+            "byteStart": 73
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/EZOut"
+            }
+          ],
+          "index": {
+            "byteEnd": 135,
+            "byteStart": 109
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Ever wanted to write great formatting in #PowerShell without the pain of #ps1xml?\n\nThere's an easy way out:\n\ngithub.com/StartAutomat..."
+    },
+    "cid": "bafyreiehaqnmkfybt6k5xjvcng7uwgfkaf63fmiwx4idaz5nfhviuihaa4"
+  }
+}
