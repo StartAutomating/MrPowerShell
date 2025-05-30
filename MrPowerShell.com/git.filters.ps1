@@ -72,8 +72,8 @@ function Get-GitSparse
             }                        
             return 
         }
-        $null = git clone --depth 1 --no-checkout --sparse --filter=tree:0 $Repository $Path
-        Push-Location "./$Path"
+        $null = git clone --depth 1 --no-checkout --sparse --filter=tree:0 $Repository "$Path"
+        Push-Location (Resolve-Path $Path)
         $null = git sparse-checkout set --no-cone @Pattern
         $null = git checkout
         if ($AsDictionary) {
