@@ -11,12 +11,15 @@
     Additional secret names can be defined in the $site
 #>
 param(
+[Alias('ShowEnvironmentVariable','ShowEnvironmentVariables')]
+[switch]
+$DebugEnvironment,
 [string[]]
 $SecretName,
 [string]$SecretPattern = '^(?password|secret|key|token|passphrase|credential|auth)'
 )
 
-if (-not $site.Debug -or -not $site.ShowEnvironmentVariables) {
+if (-not $DebugEnvironment) {
     Write-Warning "Environment variables are not shared for this site.  Skipping."
     return
 }
