@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748571923963872,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqe6ka5atg2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqe6kan47k2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-30T02:25:24.301Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Get JSON Linked Data with PowerShell. Contribute to PowerShellWeb/JSON-LD development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifiqljlc6av3puoivng3eks7h3nfzimesqbgn25w367zaiakmyaxa"
+            },
+            "mimeType": "image/jpeg",
+            "size": 108405
+          },
+          "title": "GitHub - PowerShellWeb/JSON-LD: Get JSON Linked Data with PowerShell",
+          "uri": "https://github.com/PowerShellWeb/JSON-LD"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 134,
+            "byteStart": 123
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "metadata"
+            }
+          ],
+          "index": {
+            "byteEnd": 167,
+            "byteStart": 158
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShellWeb/JSON-LD"
+            }
+          ],
+          "index": {
+            "byteEnd": 197,
+            "byteStart": 171
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Want to get metadata about your favorite movie?\n\nMany sites expose this as JSON-LD ( json linked data )\n\nEnjoy this little #PowerShell module to help you get #metadata :\n\ngithub.com/PowerShellWe..."
+    },
+    "cid": "bafyreib53k7uvvj4jq5hqcrvjrnpdo3cnnkzrwmoskj3xmtr44bmmzacry"
+  }
+}
