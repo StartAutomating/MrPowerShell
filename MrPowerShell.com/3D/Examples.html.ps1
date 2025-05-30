@@ -1,5 +1,9 @@
+
+$greatGreatGrandParent = $PSScriptRoot | Split-Path | Split-Path | Split-Path
+$threeJsPath = $greatGreatGrandParent | Join-Path 'three.js'
+
 $3jsFiles = 
-    git.sparse -Repository https://github.com/mrdoob/three.js/ -Pattern "/examples/**/**.html"
+    git.sparse -Repository https://github.com/mrdoob/three.js/ -Pattern "/examples/**/**.html" -Path $threeJsPath
 
 $htmlFiles = $3jsFiles | 
     Where-Object Extension -eq '.html'
