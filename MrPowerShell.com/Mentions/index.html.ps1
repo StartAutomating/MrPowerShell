@@ -2,7 +2,7 @@ param(
     $did = 'did_plc_hlchta7bwmobyum375ltycg5',
     
     [double]
-    $MinimumMentionPopularity = 0.05,
+    $MinimumMentionPopularity = 0.01,
 
     [double]
     $BaseEmphasis = 1.5,
