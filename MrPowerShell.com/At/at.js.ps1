@@ -3,12 +3,11 @@ if (-not $Site.AtData) {
 }
 @"
 
-export default function AtData() {
-    $(
-    @(foreach ($tableName in $site.AtData.Tables.TableName) {
-        "this['$tableName'] = $($site.AtData.Tables[$TableName].message | ConvertTo-Json)"
-    }) -join ";$([Environment]::NewLine)$(' ' * 4)"
-    )
-    return this
-}
+const atData = {}
+$(
+@(foreach ($tableName in $site.AtData.Tables.TableName) {
+    "atData['$tableName'] = $($site.AtData.Tables[$TableName].message | ConvertTo-Json)"
+}) -join ";$([Environment]::NewLine)$(' ' * 4)"
+)
+export default atData
 "@
