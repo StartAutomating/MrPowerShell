@@ -2,7 +2,7 @@ param(
     $did = 'did_plc_hlchta7bwmobyum375ltycg5',
     
     [double]
-    $MinimumMentionPopularity = 0.1,
+    $MinimumMentionPopularity = 0.05,
 
     [double]
     $BaseEmphasis = 1.5,
@@ -59,7 +59,7 @@ a {
 "<div class='header'>"
 "<h1>$title</h1>"
 "<h3>$Description</h3>"
-"<h4>Top $("{0:P0}" -f $MinimumMentionPopularity)</h4>"
+"<h4>Top $("{0:P0}" -f (1 - $MinimumMentionPopularity))</h4>"
 "</div>"
 
 "<div class='hashtagGrid'>"
