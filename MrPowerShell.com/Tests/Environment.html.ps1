@@ -29,22 +29,19 @@ $Description = "Environment variables for this site.  This is a list of all envi
 
 "<table class='buildVariables'>"
 foreach ($environmentVariable in (Get-ChildItem -Path env:)) {    
-    "<tr>"
-    "<td class='variableName'>"
-    [Web.HttpUtility]::HtmlEncode($environmentVariable.Name)
-    "</td>"
-    "<td class='variableValue'>"
     if ($environmentVariable.Name -match $SecretPattern) {
         continue
         # [Web.HttpUtility]::HtmlEncode('*' * (Get-Random -Minimum ($environmentVariable.Value.Length * 2) -Maximum ($environmentVariable.Value.Length * 3)))
     } 
     elseif ($secretName -and $environmentVariable.Name -in $secretName) {
         continue
-    } else {
-        [Web.HttpUtility]::HtmlEncode($environmentVariable.Value)    
-        continue
-    }
-    
+    } 
+    "<tr>"
+    "<td class='variableName'>"
+    [Web.HttpUtility]::HtmlEncode($environmentVariable.Name)
+    "</td>"
+    "<td class='variableValue'>"
+    [Web.HttpUtility]::HtmlEncode($environmentVariable.Value)        
     "</td>"
     "</tr>"
 }
