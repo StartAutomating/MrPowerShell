@@ -2,10 +2,10 @@ param(
     $did = 'did_plc_hlchta7bwmobyum375ltycg5',
     
     [double]
-    $MinimumTagPopularity = 0.02,
+    $MinimumTagPopularity = 0.01,
 
     [double]
-    $BaseEmphasis = 2.0,
+    $BaseEmphasis = 1.5,
 
     [double]
     $ExtraWeight = 5.0 
@@ -86,8 +86,9 @@ foreach ($tag in $postsByTag.GetEnumerator() | Sort-Object { $_.Value.Count } -D
 '
 .wordCloud {
     list-style: none;
-    padding: 5%;
+    margin: 10%;
     display: flex;
+    text-align: center;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -108,7 +109,7 @@ $popularEnoughTags = $postsByPopularity.GetEnumerator() |
 
 foreach ($popularTag in ($popularEnoughTags | Get-Random -Count $popularEnoughTags.Count)) {
     "<li>"
-    "<a href='https://bsky.app/hashtag/$($popularTag.Key)' style='font-size: $([Math]::Round($BaseEmphasis + ($popularTag.Value * $ExtraWeight), 4))em'>"
+    "<a href='https://bsky.app/hashtag/$($popularTag.Key)' style='font-size: $([Math]::Round($BaseEmphasis + ($popularTag.Value * $ExtraWeight), 4))rem'>"
     '#' + $popularTag.Key
     "</a>"
     "</li>"
