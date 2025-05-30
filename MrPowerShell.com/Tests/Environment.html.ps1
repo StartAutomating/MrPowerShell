@@ -16,7 +16,7 @@ param(
 $DebugEnvironment,
 [string[]]
 $SecretName,
-[string]$SecretPattern = '^(?:password|secret|key|token|passphrase|credential|auth)'
+[string]$SecretPattern = '(password|secret|key|token|passphrase|credential|auth)'
 )
 
 if (-not $DebugEnvironment) {
