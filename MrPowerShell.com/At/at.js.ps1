@@ -6,7 +6,7 @@ if (-not $Site.AtData) {
 export default function AtData() {
     $(
     @(foreach ($tableName in $site.AtData.Tables.TableName) {
-        "this['$tableName'] = $($site.AtData.Tables[$TableName] | Select $site.AtData.Tables[$TableName].Columns.ColumnName | ConvertTo-Json)"
+        "this['$tableName'] = $($site.AtData.Tables[$TableName].message | ConvertTo-Json)"
     }) -join ";$([Environment]::NewLine)$(' ' * 4)"
     )
     return this
