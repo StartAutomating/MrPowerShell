@@ -1,5 +1,5 @@
 $3jsFiles = 
-    git.sparse -Repository https://github.com/mrdoob/three.js/ -Pattern "/build/**.js", "/examples/**/**.**"
+    git.sparse -Repository https://github.com/mrdoob/three.js/ -Pattern "/examples/**/**.html"
 
 $htmlFiles = $3jsFiles | 
     Where-Object Extension -eq '.html'
@@ -33,6 +33,6 @@ foreach ($file in $htmlFiles) {
         "<ul>"
     }
     "<li>"
-    "<a href='$($file.FullName.Substring($root.Length))'>$($file.Name -replace '\.html$')</a>"
+    "<a href='https://threejs.org/examples/#$($file.FullName.Substring($root.Length) -replace '\.html$')'>$($file.Name -replace '\.html$')</a>"
     "</li>"
 }
