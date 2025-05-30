@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748629166276522,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqftu63kvz2x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqftu54zck25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-30T18:19:24.489Z",
+      "embed": {
+        "$type": "app.bsky.embed.recordWithMedia",
+        "media": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Doge head was at times dosing himself daily, along with ecstasy and psychedelic mushroom use, according to NYT",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiduapiterv4mxaxqg2p647uvsmecudzvsv4gb6htdo4jl2mjkc4ni"
+              },
+              "mimeType": "image/jpeg",
+              "size": 224485
+            },
+            "title": "Elon Musk allegedly took large amounts of drugs including ketamine while advising Trump – report",
+            "uri": "https://www.theguardian.com/us-news/2025/may/30/elon-musk-trump-drug-use"
+          }
+        },
+        "record": {
+          "$type": "app.bsky.embed.record",
+          "record": {
+            "cid": "bafyreihihv36csb7gvsxqtg6sjnkvlmybaisgd5x4bxtvtxnzafqiupxmi",
+            "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lhum4nxkcs24"
+          }
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/mrpowershell.com/post/3lhum4nxkcs24"
+            }
+          ],
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 12
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.theguardian.com/us-news/2025/may/30/elon-musk-trump-drug-use"
+            }
+          ],
+          "index": {
+            "byteEnd": 73,
+            "byteStart": 38
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Called it!\n\nbsky.app/profile/mrpo...\n\nwww.theguardian.com/us-news/2025..."
+    },
+    "cid": "bafyreictxjdngqbofumudfm4ortinml7z62rep4neblaemnyxymiuudyh4"
+  }
+}
