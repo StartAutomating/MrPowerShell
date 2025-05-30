@@ -9,42 +9,19 @@ $greatGreatGrandParent = $PSScriptRoot | Split-Path | Split-Path | Split-Path
 $atProtoPath = Join-Path $greatGreatGrandParent atproto
 $lexiconCommunityPath = Join-Path $greatGreatGrandParent lexicons.community
 
-# If we don't have the content, get it.
-if (-not (Test-Path $lexiconCommunityPath)) {
-    $gitOutput = @(
-        # use ugit to clone -Nothing
-        # git clone https://github.com/bluesky-social/atproto/ -Nothing
-        git clone --depth 1 --no-checkout --sparse --filter=tree:0 https://github.com/lexicon-community/lexicon $lexiconCommunityPath
-        Push-Location $lexiconCommunityPath
-        # and then use a sparse-checkout to get only the CSS-related content.
-        git sparse-checkout set --no-cone /community/lexicon/**/**.json
-        # checkout the content, and we're set.
-        git checkout
-        
-        Pop-Location
-    )
-}
 
-# If we don't have the content, get it.
-if (-not (Test-Path $atProtoPath)) {
-    $gitOutput = @(
-        # use ugit to clone -Nothing
-        # git clone https://github.com/bluesky-social/atproto/ -Nothing
-        git clone --depth 1 --no-checkout --sparse --filter=tree:0 https://github.com/bluesky-social/atproto/ $atProtoPath
-        Push-Location $atProtoPath
-        # and then use a sparse-checkout to get only the CSS-related content.        
-        git sparse-checkout set --no-cone /lexicons/**/**.json
-        # checkout the content, and we're set.
-        git checkout
-        
-        Pop-Location
-    )
-}
+$lexiconFiles = @(
+    # Sparse clone community lexicons
+    git.sparse -Repository https://github.com/lexicon-community/lexicon -Path $lexiconCommunityPath -Pattern '/community/lexicon/**/**.json'
+
+    # Sparse clone at proto lexicons
+    git.sparse -Repository https://github.com/bluesky-social/atproto/ -Path $atProtoPath -Pattern '/lexicons/**/**.json'    
+)
 
 $AllLexicons = @()
 $lexiconsById = [Ordered]@{}
 
-Get-ChildItem -Path $atProtoPath, $lexiconCommunityPath -Recurse -Filter *.json |
+$lexiconFiles |
     ForEach-Object {
         $json = Get-Content -Path $_.FullName -Raw 
         $jsonObject = ConvertFrom-Json -InputObject $json
