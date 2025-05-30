@@ -37,6 +37,7 @@ foreach ($file in $htmlFiles) {
         "<ul>"
     }
     "<li>"
-    "<a href='https://threejs.org/examples/#$($file.FullName.Substring($root.Length) -replace '\.html$')'>$($file.Name -replace '\.html$')</a>"
+    $exampleFileName = $file.Name -replace '\.html$'
+    "<a href='https://threejs.org/examples/#$exampleFileName)'>$($exampleFileName)</a>"
     "</li>"
 }
