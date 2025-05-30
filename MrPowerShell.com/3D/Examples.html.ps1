@@ -38,6 +38,6 @@ foreach ($file in $htmlFiles) {
     }
     "<li>"
     $exampleFileName = $file.Name -replace '\.html$'
-    "<a href='https://threejs.org/examples/#$exampleFileName)'>$($exampleFileName)</a>"
+    "<a href='https://threejs.org/examples/#$exampleFileName'>$($exampleFileName)</a>"
     "</li>"
 }
