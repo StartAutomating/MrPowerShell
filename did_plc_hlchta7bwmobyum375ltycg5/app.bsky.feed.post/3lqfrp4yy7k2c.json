@@ -1,0 +1,84 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748626849819821,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqfrp5jpnt2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqfrp4yy7k2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-05-30T17:40:49.1Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:f4lboh5wyd4vvztvi2usnyjc"
+            }
+          ],
+          "index": {
+            "byteEnd": 27,
+            "byteStart": 7
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:n4yrsuupoqltkqscs5j6wa6i"
+            }
+          ],
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 28
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:munmkmorl6d57hkragyydlyh"
+            }
+          ],
+          "index": {
+            "byteEnd": 71,
+            "byteStart": 50
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:nrxngnjnce74aisq4hiu5zuy"
+            }
+          ],
+          "index": {
+            "byteEnd": 89,
+            "byteStart": 72
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiat643az2f3i3iyps6nmghvepbzrz3lgqfczkvj7lqv4ktch7jl2i",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lqeeytz5222t"
+        },
+        "root": {
+          "cid": "bafyreiat643az2f3i3iyps6nmghvepbzrz3lgqfczkvj7lqv4ktch7jl2i",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lqeeytz5222t"
+        }
+      },
+      "text": "Thanks @alt.psingletary.com @samerde.day3bits.com @devclate.bsky.social @franklesniak.com !"
+    },
+    "cid": "bafyreifqxk6dqhsz6gdeirs37ccls2pstom4j2dep4d4gcip62tm6ovdgq"
+  }
+}
