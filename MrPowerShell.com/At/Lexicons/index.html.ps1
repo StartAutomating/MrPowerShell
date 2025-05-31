@@ -7,12 +7,15 @@ $greatGreatGrandParent = $PSScriptRoot | Split-Path | Split-Path | Split-Path
 $atProtoPath = Join-Path $greatGreatGrandParent atproto
 $lexiconCommunityPath = Join-Path $greatGreatGrandParent lexicons.community
 
+$title = 'At Protocol Lexicons'
+$Description = 'List of all At Protocol Lexicons defined in the lexicon-community and atproto repositories.'
+
 $lexiconFiles = @(
     # Sparse clone community lexicons
     git.sparse -Repository https://github.com/lexicon-community/lexicon -Path $lexiconCommunityPath -Pattern '/community/lexicon/**/**.json'
 
     # Sparse clone at proto lexicons
-    git.sparse -Repository https://github.com/bluesky-social/atproto/ -Path $atProtoPath -Pattern '/lexicons/**/**.json'    
+    git.sparse -Repository https://github.com/bluesky-social/atproto/ -Path $atProtoPath -Pattern '/lexicons/**/**.json'
 )
 
 $AllLexicons = @()
@@ -59,6 +62,6 @@ $AllLexicons |
         "</ul>"
     }
 
+ConvertTo-Json -Depth 10 $AllLexicons > .\All.json
 ($lexiconsById | ConvertTo-Json -Depth 10) > .\ById.json
-
 Pop-Location
