@@ -1,21 +1,49 @@
+param(
+    [Collections.IDictionary]    
+    $LexiconRepository = [Ordered]@{
+        'At Protocol' = 'https://github.com/bluesky-social/atproto/'
+        'Community Lexicons' = 'https://github.com/lexicon-community/lexicon'
+        'FujoWebDev.LexiconGuestbook' = 'https://github.com/FujoWebDev/lexicon-guestbook/'
+    },
 
+    [Collections.IDictionary]
+    $LexiconPatterns = [Ordered]@{
+        'At Protocol' = '/lexicons/**/**.json'
+        'Community Lexicons' = '/community/lexicon/**/**.json'
+        'FujoWebDev.LexiconGuestbook' = '/lexicons/com/fujocoded/**.json'
+    },
+
+    [Collections.IDictionary]
+    $LexiconPath
+)
 
 # We'll be populating a subdirectory with a sparse checkout of a repository.
 if (-not $psScriptRoot) { return }
+
 Push-Location $PSScriptRoot
+
 $greatGreatGrandParent = $PSScriptRoot | Split-Path | Split-Path | Split-Path
-$atProtoPath = Join-Path $greatGreatGrandParent atproto
-$lexiconCommunityPath = Join-Path $greatGreatGrandParent lexicons.community
+
+if (-not $lexiconPath) {
+    $lexiconPath = [Ordered]@{}
+}
+
+foreach ($key in $LexiconRepository.Keys) {
+    if (-not $lexiconPath[$key]) {
+        $lexiconPath[$key] = Join-Path $greatGreatGrandParent ($key -replace '[\s\p{P}]+', '.')
+    }        
+}
 
 $title = 'At Protocol Lexicons'
 $Description = 'List of all At Protocol Lexicons defined in the lexicon-community and atproto repositories.'
 
 $lexiconFiles = @(
-    # Sparse clone community lexicons
-    git.sparse -Repository https://github.com/lexicon-community/lexicon -Path $lexiconCommunityPath -Pattern '/community/lexicon/**/**.json'
-
-    # Sparse clone at proto lexicons
-    git.sparse -Repository https://github.com/bluesky-social/atproto/ -Path $atProtoPath -Pattern '/lexicons/**/**.json'
+    # Sparse clone each lexicon
+    foreach ($key in $LexiconRepository.Keys) {
+        git.sparse -Repository $LexiconRepository[$key] -Path $lexiconPath[$key] -Pattern $LexiconPatterns[$key] |
+            Add-Member NoteProperty -Name 'Repository' -Value $LexiconRepository[$key] -Force -PassThru |
+            Add-Member NoteProperty -Name 'Pattern' -Value $LexiconPatterns[$key] -Force -PassThru
+    }
 )
 
 $AllLexicons = @()
@@ -39,18 +67,16 @@ $lexiconFiles |
 "<p>This site contains all at protocol lexicons defined in the following repositories</p>"
 
 "<ul>"
-"<li><a href='https://github.com/bluesky-social/atproto/'>bluesky-social/atproto</a></li>"
-"<li><a href='https://github.com/lexicon-community/lexicon'>lexicon-community/lexicon</a></li>"
+$(
+    foreach ($value in $LexiconRepository.Values) {
+        "<li><a href='$value'>$value</a></li>"
+    }
+)
 "</ul>"
 
 "<hr/>"
-
-"<details>"
-"<summary>View Source</summary>"
-"<pre><code class='language-PowerShell'>$([Web.HttpUtility]::HtmlEncode($MyInvocation.MyCommand.ScriptBlock))</code></pre>"
-"</details>"
-
-"<hr/>"
+$treeDepth = 0
+$currentTreeBranch = ''
 $AllLexicons | 
     ForEach-Object -Begin {
         "<ul class='atLexicons'>"
@@ -62,6 +88,13 @@ $AllLexicons |
         "</ul>"
     }
 
+"<hr/>"
+"<details>"
+"<summary>View Source</summary>"
+"<pre><code class='language-PowerShell'>$([Web.HttpUtility]::HtmlEncode($MyInvocation.MyCommand.ScriptBlock))</code></pre>"
+"</details>"
+
 ConvertTo-Json -Depth 10 $AllLexicons > .\All.json
 ($lexiconsById | ConvertTo-Json -Depth 10) > .\ById.json
+
 Pop-Location
