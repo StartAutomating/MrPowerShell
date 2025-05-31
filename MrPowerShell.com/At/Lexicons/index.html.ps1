@@ -61,6 +61,4 @@ $AllLexicons |
 
 ($lexiconsById | ConvertTo-Json -Depth 10) > .\ById.json
 
-$lexiconsById.GetEnumerator() | Sort-Object -Property Key
-
 Pop-Location
