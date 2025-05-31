@@ -10,7 +10,7 @@ param(
     $LexiconPatterns = [Ordered]@{
         'At Protocol' = '/lexicons/**/**.json'
         'Community Lexicons' = '/community/lexicon/**/**.json'
-        'FujoWebDev.LexiconGuestbook' = '/lexicons/com/fujocoded/**.json'
+        'FujoWebDev.LexiconGuestbook' = '/lexicons/com/fujocoded/'
     },
 
     [Collections.IDictionary]
