@@ -3,12 +3,9 @@
 # We'll be populating a subdirectory with a sparse checkout of a repository.
 if (-not $psScriptRoot) { return }
 Push-Location $PSScriptRoot
-
 $greatGreatGrandParent = $PSScriptRoot | Split-Path | Split-Path | Split-Path
-
 $atProtoPath = Join-Path $greatGreatGrandParent atproto
 $lexiconCommunityPath = Join-Path $greatGreatGrandParent lexicons.community
-
 
 $lexiconFiles = @(
     # Sparse clone community lexicons
@@ -45,6 +42,12 @@ $lexiconFiles |
 
 "<hr/>"
 
+"<details>"
+"<summary>View Source</summary>"
+"<pre><code class='language-PowerShell'>$([Web.HttpUtility]::HtmlEncode($MyInvocation.MyCommand.ScriptBlock))</code></pre>"
+"</details>"
+
+"<hr/>"
 $AllLexicons | 
     ForEach-Object -Begin {
         "<ul class='atLexicons'>"
@@ -57,5 +60,7 @@ $AllLexicons |
     }
 
 ($lexiconsById | ConvertTo-Json -Depth 10) > .\ById.json
+
+$lexiconsById.GetEnumerator() | Sort-Object -Property Key
 
 Pop-Location
