@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748802198065892,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqkuyw25on2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqkuywaxic2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-01T18:23:17.485Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Doctor Who's finale was really weird, and not in a good way.\n\nIn a \"What are you trying to do?\" sort of way.\n\nIn a \"Is Disney gonna keep funding this?\" sort of way.\n\n🤷",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihjmldoqhhrgtksedehqvy3sut7vpblssrm4afvcbpakyy5ih3je4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 71198
+          },
+          "title": "a woman is screaming with the words what 's happening in the background",
+          "uri": "https://media.tenor.com/3xnITchCMrsAAAAC/kaewynn-whats-happening.gif?hh=205&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DoctorWho"
+            }
+          ],
+          "index": {
+            "byteEnd": 54,
+            "byteStart": 44
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "My general reaction to the season finale of #DoctorWho.\n\nThis episode had like 8 turns, and I think most of them were for the worse."
+    },
+    "cid": "bafyreiek2h2m6ajbgnnc3vomzfkv2hd4gkgh24ug37rud2jvcuz66t5k4e"
+  }
+}
