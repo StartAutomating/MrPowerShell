@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748836315071593,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqlurpantk2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqlurqb4i22l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-02T03:51:56.056Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibl6ocr4wgzt4xpgbqz263l3gxs4gpdd7b7a4rbnhk2kfvjzg4s6i",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3lqljonq6yc2b"
+        },
+        "root": {
+          "cid": "bafyreibl6ocr4wgzt4xpgbqz263l3gxs4gpdd7b7a4rbnhk2kfvjzg4s6i",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3lqljonq6yc2b"
+        }
+      },
+      "text": "Wish I had seen this sooner.  I have one of those modules hanging out on the shelf.  Last played with it slightly less recently than I got around to playing MTG."
+    },
+    "cid": "bafyreiedgmmhkk3uwvsx4b3l22md6ouxu3h43e6c6zu3qj7gswrpotr3oa"
+  }
+}
