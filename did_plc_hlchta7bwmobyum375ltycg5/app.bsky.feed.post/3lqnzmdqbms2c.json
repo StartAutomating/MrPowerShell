@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748910223163396,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqnzmdglba2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqnzmdqbms2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-03T00:23:43.329Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidwrvy32vkgejswn73734rzd6k3rrj4effy3ggu4tck4yhbrqslry",
+          "uri": "at://did:plc:m3tct2ppfmrcekigpdbxpu5j/app.bsky.feed.post/3lqnu43fwjbt2"
+        },
+        "root": {
+          "cid": "bafyreidwrvy32vkgejswn73734rzd6k3rrj4effy3ggu4tck4yhbrqslry",
+          "uri": "at://did:plc:m3tct2ppfmrcekigpdbxpu5j/app.bsky.feed.post/3lqnu43fwjbt2"
+        }
+      },
+      "text": "I think it means someone who wrote that script has a bug 😂\n\nIf I had to guess, they're getting files twice, once to count the list and another to delete files.\n\nThe second time they're probably using -Force, which would display a hidden file.\n\nThen it tells you how many files it actually removed."
+    },
+    "cid": "bafyreibskc5gbfqqtppbxgo4xmbcqwhmahwhqshr4rhlqjfa4gzmwxkjdy"
+  }
+}
