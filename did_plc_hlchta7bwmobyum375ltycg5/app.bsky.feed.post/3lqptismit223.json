@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748972382387842,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqptit2h6f2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqptismit223",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-03T17:39:41.745Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Get GraphQL in PowerShell. Contribute to PowerShellWeb/GQL development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiai76hi55lwwpafazuoikuaa4zgxxmlpxu3cwvja7zp5wcdtb6hxq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 97651
+          },
+          "title": "GitHub - PowerShellWeb/GQL: Get GraphQL in PowerShell",
+          "uri": "https://github.com/PowerShellWeb/GQL"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GraphQL"
+            }
+          ],
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 6
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 38,
+            "byteStart": 27
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShellWeb/GQL"
+            }
+          ],
+          "index": {
+            "byteEnd": 86,
+            "byteStart": 60
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 119,
+            "byteStart": 112
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Query #GraphQL directly in #PowerShell with the GQL module\n\ngithub.com/PowerShellWe...\n\n( Includes examples for #GitHub sponsorship )"
+    },
+    "cid": "bafyreig7brhfu7nptqlg3jcqtxwsnhhhvlvo4r6w4p657fd3b6ddzfz2d4"
+  }
+}
