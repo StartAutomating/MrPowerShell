@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748993383480936,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqqh2pc4jq2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqqh2pt3322c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-03T23:29:43.893Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicscilevjhwgm4bzp3twrfailgpreveuq2a5hw5qyhwj7ttfk7ucm",
+          "uri": "at://did:plc:iga7ipxo6jy26wv6bevcmdem/app.bsky.feed.post/3lqqfwxr5ik2l"
+        },
+        "root": {
+          "cid": "bafyreidr6jq5ldguk6ocqweblowlaqxi2gx2d56f67fbleeqzlqdstyho4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lqpxshhxzc23"
+        }
+      },
+      "text": "Looks cool ( and expensive )"
+    },
+    "cid": "bafyreibkgromtif36iwshlwocsq2kwl26amulmb42ctiyq3f2pp3hpnxni"
+  }
+}
