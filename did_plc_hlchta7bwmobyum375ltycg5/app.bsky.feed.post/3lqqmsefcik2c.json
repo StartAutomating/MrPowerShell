@@ -1,0 +1,108 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748999545396293,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqqmsds2t32o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqqmsefcik2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-04T01:12:25.922Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Gist a small event-based HTTP server in PowerShell - EventBasedServer.ps1",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicttwvjarhwmeugnkj5fau6knzll3g6sa36wyd2uorg5ocaql46eu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 62850
+          },
+          "title": "Gist a small event-based HTTP server in PowerShell",
+          "uri": "https://gist.github.com/StartAutomating/fb229d462f2b8bbeda67220c2b5740d5"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "web"
+            }
+          ],
+          "index": {
+            "byteEnd": 17,
+            "byteStart": 13
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "servers"
+            }
+          ],
+          "index": {
+            "byteEnd": 26,
+            "byteStart": 18
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 41,
+            "byteStart": 30
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "gist"
+            }
+          ],
+          "index": {
+            "byteEnd": 175,
+            "byteStart": 170
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://gist.github.com/StartAutomating/fb229d462f2b8bbeda67220c2b5740d5"
+            }
+          ],
+          "index": {
+            "byteEnd": 208,
+            "byteStart": 177
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihvo7p6ze26kq7nm5yi4l633ymyoxkplxi7ht46q7tn2bssvv6x5m",
+          "uri": "at://did:plc:f4lboh5wyd4vvztvi2usnyjc/app.bsky.feed.post/3lqqm6mow5c2i"
+        },
+        "root": {
+          "cid": "bafyreieauqg4fdjzdwjomovkpgx5mjqxfz2lvl4hz5npu6cekh2s22y3mq",
+          "uri": "at://did:plc:f4lboh5wyd4vvztvi2usnyjc/app.bsky.feed.post/3lqqhq5ruu22y"
+        }
+      },
+      "text": "Nah, writing #web #servers in #PowerShell are pretty easy, especially in Core.\n\nBasically, you create a HttpListener, Listen for requests, and respond to them.\n\nSee this #gist\n\ngist.github.com/StartAutomat..."
+    },
+    "cid": "bafyreidjjwhmoylqhryg45q4nrjwqhu4bczxqj54ou4znfissf3lxdeje4"
+  }
+}
