@@ -1,0 +1,98 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749058002268222,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqsdaiknk62m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqsdahr45s2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-04T17:26:41.275Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "GitHub Users",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidx3qtbadpekpdv2pzbcd6dvrq5cho2zxeueiguwjsahmkqbzt2au"
+            },
+            "mimeType": "image/jpeg",
+            "size": 91209
+          },
+          "title": "Users",
+          "uri": "https://atgithub.com/Users/#dotnet"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DotNet"
+            }
+          ],
+          "index": {
+            "byteEnd": 20,
+            "byteStart": 13
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 28,
+            "byteStart": 21
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 120,
+            "byteStart": 112
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://atgithub.com/Users/#dotnet"
+            }
+          ],
+          "index": {
+            "byteEnd": 211,
+            "byteStart": 185
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MVPBuzz"
+            }
+          ],
+          "index": {
+            "byteEnd": 221,
+            "byteStart": 213
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Got any cool #DotNet #GitHub projects to share?\n\nDotNet is currently the 15th most popular user talked about on #AtProto.\n\nShare a repo and see if we can't move it up the leaderboard:\n\natgithub.com/Users/#dotnet\n\n#MVPBuzz"
+    },
+    "cid": "bafyreifkjismefw22xinilkwubaqdnzqwrncbatbc5cjojl5575x3slb6q"
+  }
+}
