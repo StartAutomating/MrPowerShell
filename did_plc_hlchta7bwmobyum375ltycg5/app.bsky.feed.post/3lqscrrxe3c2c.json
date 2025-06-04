@@ -1,0 +1,78 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749057508995752,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqscrs6hbv2x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqscrrxe3c2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-04T17:18:28.648Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Get GraphQL in PowerShell. Contribute to PowerShellWeb/GQL development by creating an account on GitHub.",
+          "title": "GQL/Examples/GitSponsorshipTiers.gql at main · PowerShellWeb/GQL",
+          "uri": "https://github.com/PowerShellWeb/GQL/blob/main/Examples/GitSponsorshipTiers.gql"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 16,
+            "byteStart": 9
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GraphQL"
+            }
+          ],
+          "index": {
+            "byteEnd": 46,
+            "byteStart": 38
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 96,
+            "byteStart": 85
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShellWeb/GQL/blob/main/Examples/GitSponsorshipTiers.gql"
+            }
+          ],
+          "index": {
+            "byteEnd": 137,
+            "byteStart": 111
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Get your #GitHub sponsorship tiers in #GraphQL\n\n( One of many useful examples in the #PowerShell GQL module )\n\ngithub.com/PowerShellWe..."
+    },
+    "cid": "bafyreic4ayitzkt5jzmjjkiio5lfysvuajnrvnmr2cprpuvaa7tz6pmli4"
+  }
+}
