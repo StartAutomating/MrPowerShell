@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748994522924618,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqqi4nwjhm2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqqi4ox3uk2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-03T23:48:43.827Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidorg3qojxzuuowrfas2atfseebnzl4u56ewcmi6gxfhgjrtei5fy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lqqi2pet6s2c"
+        },
+        "root": {
+          "cid": "bafyreieauqg4fdjzdwjomovkpgx5mjqxfz2lvl4hz5npu6cekh2s22y3mq",
+          "uri": "at://did:plc:f4lboh5wyd4vvztvi2usnyjc/app.bsky.feed.post/3lqqhq5ruu22y"
+        }
+      },
+      "text": "Lol give or take a missing closing quote\n\n[Adsi]\"(CN=$env:ComputerName)\""
+    },
+    "cid": "bafyreiagqxxkof7utsxz4dizahjrnjgffbhb5tkgsvnr3xlg7dbwem67cu"
+  }
+}
