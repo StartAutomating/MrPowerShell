@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749064194564026,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqsiyzza7v2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqsiyzogec2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-04T19:09:54.077Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A Fun PowerShell Module for Multimedia (using FFMpeg) - StartAutomating/RoughDraft",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieqcvtmgciut4dby37gne6u262x43d53c4xs3x3fnstvyxh6pexni"
+            },
+            "mimeType": "image/jpeg",
+            "size": 65379
+          },
+          "title": "GitHub - StartAutomating/RoughDraft: A Fun PowerShell Module for Multimedia (using FFMpeg)",
+          "uri": "https://github.com/StartAutomating/RoughDraft"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ffmpeg"
+            }
+          ],
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 7
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 31,
+            "byteStart": 20
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/RoughDraft"
+            }
+          ],
+          "index": {
+            "byteEnd": 59,
+            "byteStart": 33
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Script #ffmpeg with #PowerShell\n\ngithub.com/StartAutomat..."
+    },
+    "cid": "bafyreibysoxl4wijpzs5lpdlr6kk54xbixsgdzpqe7cylweppphqrr7zji"
+  }
+}
