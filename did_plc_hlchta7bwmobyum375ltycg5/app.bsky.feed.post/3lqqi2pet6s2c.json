@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1748994457633358,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqqi2po6i72i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqqi2pet6s2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-03T23:47:37.166Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Performs queries against Active Directory Domain Services.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifqrnlyrit4s4blba7mcw66cvxzpgzyypdhf7czgltiya4d7zovde"
+            },
+            "mimeType": "image/jpeg",
+            "size": 271943
+          },
+          "title": "DirectorySearcher Class (System.DirectoryServices)",
+          "uri": "https://learn.microsoft.com/en-us/dotnet/api/system.directoryservices.directorysearcher?view=windowsdesktop-9.0"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 44,
+            "byteStart": 33
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://learn.microsoft.com/en-us/dotnet/api/system.directoryservices.directorysearcher?view=windowsdesktop-9.0"
+            }
+          ],
+          "index": {
+            "byteEnd": 183,
+            "byteStart": 148
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieauqg4fdjzdwjomovkpgx5mjqxfz2lvl4hz5npu6cekh2s22y3mq",
+          "uri": "at://did:plc:f4lboh5wyd4vvztvi2usnyjc/app.bsky.feed.post/3lqqhq5ruu22y"
+        },
+        "root": {
+          "cid": "bafyreieauqg4fdjzdwjomovkpgx5mjqxfz2lvl4hz5npu6cekh2s22y3mq",
+          "uri": "at://did:plc:f4lboh5wyd4vvztvi2usnyjc/app.bsky.feed.post/3lqqhq5ruu22y"
+        }
+      },
+      "text": "ADSI adapter should work fine on #PowerShell Core on Windows [adsi]\"(cn=$env:ComputerName)\n\nDirectorySearcher class will also work OOTB on Windows\n\nlearn.microsoft.com/en-us/dotnet..."
+    },
+    "cid": "bafyreidorg3qojxzuuowrfas2atfseebnzl4u56ewcmi6gxfhgjrtei5fy"
+  }
+}
