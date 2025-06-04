@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749017180366808,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqr57vpyz42w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqr57wwvsk2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-04T06:06:21.449Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DevOps"
+            }
+          ],
+          "index": {
+            "byteEnd": 56,
+            "byteStart": 49
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 70,
+            "byteStart": 59
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Thunderbolts"
+            }
+          ],
+          "index": {
+            "byteEnd": 160,
+            "byteStart": 147
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just asking the internet: \n\nDoes anyone know any #DevOps / #PowerShell nerds who work for movie studios?\n\nI saw some called out in the credits for #Thunderbolts and am wondering if this is an advertised \"perk\" of the job or an unexpected surprise."
+    },
+    "cid": "bafyreifyhqfjfnfaofoxb6w6gf3urv2thiazo6gutoatnh7nmsgxd7fdrq"
+  }
+}
