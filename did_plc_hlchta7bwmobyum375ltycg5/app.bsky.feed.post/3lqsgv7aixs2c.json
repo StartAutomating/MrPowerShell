@@ -1,0 +1,34 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749061918598683,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqsgv7grcl2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqsgv7aixs2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-04T18:31:58.211Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BlueSky"
+            }
+          ],
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 37
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Why oh why do people ask for help on #BlueSky and have replies turned off?"
+    },
+    "cid": "bafyreiddmrqogc6ey4vefgel4equ77mznbphzxtzxxniddgofji4auzewi"
+  }
+}
