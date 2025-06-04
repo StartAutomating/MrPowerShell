@@ -1,0 +1,66 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749060786446222,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqsfthokgk2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqsfthulms2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-04T18:13:06.405Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "",
+          "title": "",
+          "uri": "https://github.com/StartAutomating/PSSVG/blob/main/Examples/RepeatedShapes6.svg"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 25,
+            "byteStart": 21
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 96,
+            "byteStart": 85
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/PSSVG/blob/main/Examples/RepeatedShapes6.svg"
+            }
+          ],
+          "index": {
+            "byteEnd": 126,
+            "byteStart": 100
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Here's a hypnotizing #SVG animation of repeated hexagons ( made with a bit of clever #PowerShell )\n\ngithub.com/StartAutomat..."
+    },
+    "cid": "bafyreicqq2yglgdmpudjcdkdh5raumeea4hzf3llfbojwifakx7q4vfcrm"
+  }
+}
