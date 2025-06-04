@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749062047893637,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqsgz2pve42e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqsgz2gfls2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-04T18:34:07.38Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig4vcksq2dloq4w5g7gmae46vzqslopfeexnwzopteknlm7oulz4y",
+          "uri": "at://did:plc:rlrrzgcyzronxjjnzorjmdeb/app.bsky.feed.post/3lqsghxf7lc2b"
+        },
+        "root": {
+          "cid": "bafyreig4vcksq2dloq4w5g7gmae46vzqslopfeexnwzopteknlm7oulz4y",
+          "uri": "at://did:plc:rlrrzgcyzronxjjnzorjmdeb/app.bsky.feed.post/3lqsghxf7lc2b"
+        }
+      },
+      "text": "No, but we should make one.\n\nIt should be pretty easy to throw together one using the Tokenizer or the AST.\n\nI know, because I've done it a few times as part of a module ( but haven't isolated the code out into its own project )\n\nMaybe later today I'll get to this..."
+    },
+    "cid": "bafyreifrda3vdkeixre4mjyc5o2ghcoyocj7nue5vp2gpjgsofsidmvwti"
+  }
+}
