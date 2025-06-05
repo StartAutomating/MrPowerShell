@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749096845750349,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqthfyri2v25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqthfzj62s26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-05T04:14:02.367Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiebhshvyqai4v23zugoxxvrjdck37tbydjmsbaujsime2cvc6cmaa",
+          "uri": "at://did:plc:jpkjnmydclkafjyicv3s6hcx/app.bsky.feed.post/3lqth4klrlk2n"
+        },
+        "root": {
+          "cid": "bafyreifyhqfjfnfaofoxb6w6gf3urv2thiazo6gutoatnh7nmsgxd7fdrq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lqr57wwvsk2c"
+        }
+      },
+      "text": "That tracks.  I've seen that kind of security posture for a few clients over the years, and seen them struggle with security implications of cloud services.\n\nThank God for multifactor authentication and near invisible watermarks, right ?"
+    },
+    "cid": "bafyreifzfhbrv3tawyecnxrfq3vv2ax364zgj26pvfr7g5fa5qrzwiddfi"
+  }
+}
