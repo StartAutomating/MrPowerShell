@@ -1,0 +1,84 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749165828653035,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqvhnwyj2g2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqvhnupey22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-05T23:23:45.24Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Tom Hanks realizes just how much performance you save when you reduce the total number of server side calls you make.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiban6wbht7dpqwdgphy3zosd44zypt6ou3lokgrojnjeip2q2ikoe"
+            },
+            "mimeType": "image/jpeg",
+            "size": 851632
+          },
+          "title": "a man wearing glasses and a suit holds a piece of paper",
+          "uri": "https://media.tenor.com/Ykm8NpiZe8gAAAAC/raise-hand-catch-me-if-you-can.gif?hh=360&ww=402"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 24,
+            "byteStart": 13
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Performance"
+            }
+          ],
+          "index": {
+            "byteEnd": 37,
+            "byteStart": 25
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "perf"
+            }
+          ],
+          "index": {
+            "byteEnd": 43,
+            "byteStart": 38
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia7aklpeuygt6glygiilyce3r654slznaeb5ibvruu6hgcly435ee",
+          "uri": "at://did:plc:a3yierchgwp2lvyontsragui/app.bsky.feed.post/3lqvhe7okls22"
+        },
+        "root": {
+          "cid": "bafyreiakqmynykbg6rrhtcnxpdsts7yny723rdzqndkpfvrmqpkxhkllji",
+          "uri": "at://did:plc:z466rq34mzo5lvdv64jfxyct/app.bsky.feed.post/3lqunbexwak2e"
+        }
+      },
+      "text": "On a related #PowerShell #Performance #perf note, try to make as few trips as possible.\n\nAny call is going to cost you, and you want to avoid overhead where you can.\n\nAsk for a resource once, and don't keep asking for it.\n\nOr, in a more meme friendly form:\n\nCache me if you can."
+    },
+    "cid": "bafyreigd2jezujh4d5lmtgpy63u376cun4qugyzhouxxp5gdv4hpqebrhm"
+  }
+}
