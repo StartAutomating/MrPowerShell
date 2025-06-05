@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749096268912293,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqtguwa7mw2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqtguwaonk26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-05T04:04:28.518Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigcojjfr6ouv5o27zrjeqqr4b7n7bsgak3gglu7tcid5m3fpcrkwm",
+          "uri": "at://did:plc:jpkjnmydclkafjyicv3s6hcx/app.bsky.feed.post/3lqtgn3y7622n"
+        },
+        "root": {
+          "cid": "bafyreifyhqfjfnfaofoxb6w6gf3urv2thiazo6gutoatnh7nmsgxd7fdrq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lqr57wwvsk2c"
+        }
+      },
+      "text": "Thanks for the insight!\n\nAlso seems like it tracks.\n\nI feel like DevOps jobs for production companies would be fairly quiet, with a dash of weird cybersecurity as you do your best to programmatically prevent and detect leaks.\n\nSound accurate ? What do you know about those roles ?"
+    },
+    "cid": "bafyreian35pwbwgpgarqfz4eg427ouoiyaaw65hbmlnbw5lazqdlp62r6u"
+  }
+}
