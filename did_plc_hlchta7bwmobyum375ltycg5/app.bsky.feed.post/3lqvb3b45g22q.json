@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749158756675378,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqvb37idpu26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqvb3b45g22q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-05T21:25:58.255Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 0
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiakqmynykbg6rrhtcnxpdsts7yny723rdzqndkpfvrmqpkxhkllji",
+          "uri": "at://did:plc:z466rq34mzo5lvdv64jfxyct/app.bsky.feed.post/3lqunbexwak2e"
+        },
+        "root": {
+          "cid": "bafyreiakqmynykbg6rrhtcnxpdsts7yny723rdzqndkpfvrmqpkxhkllji",
+          "uri": "at://did:plc:z466rq34mzo5lvdv64jfxyct/app.bsky.feed.post/3lqunbexwak2e"
+        }
+      },
+      "text": "#PowerShell 5.1 is relatively slow.\n\nPowerShell core is pretty quick.\n\nInefficient scripts are easy to write in any language\n\nThere are a few cases unique to PowerShell that can be uniquely slow ( like overuse of multiple Where-Objects, or misunderstanding pipeline performance characteristics )"
+    },
+    "cid": "bafyreiezv7pk6cxh2jlcmjuev3i7xtahq5f7mnnbj6r7bxbxvyd67wkmdy"
+  }
+}
