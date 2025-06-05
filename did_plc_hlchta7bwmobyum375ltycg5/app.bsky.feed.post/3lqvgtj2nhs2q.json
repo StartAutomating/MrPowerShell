@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749164946525924,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqvgtjz4yh2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqvgtj2nhs2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-05T23:09:00.611Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic24r2oq2jhvzwf3xy4u4r7vhmfmtoayt4v42kcbmocgom6my7ia4",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3lqvgcir54k24"
+        },
+        "root": {
+          "cid": "bafyreiakqmynykbg6rrhtcnxpdsts7yny723rdzqndkpfvrmqpkxhkllji",
+          "uri": "at://did:plc:z466rq34mzo5lvdv64jfxyct/app.bsky.feed.post/3lqunbexwak2e"
+        }
+      },
+      "text": "💯 I'm generally seeing people use Where-Object multiple times against the same collection.  \n\nPipelines can be really fast when used properly, and scanning the same data again and again is not using it properly.\n\nRegardless of language, try to do things in one pass."
+    },
+    "cid": "bafyreia3qarxvu6candwlekbzdralfsbnmodfs5zoktxu5vg26dvhomquq"
+  }
+}
