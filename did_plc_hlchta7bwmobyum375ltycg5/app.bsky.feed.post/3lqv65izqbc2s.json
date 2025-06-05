@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749155612287234,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqv65hxuhb2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqv65izqbc2s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-05T20:33:32.448Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Jack is not surprised to see Domain Admins who should not be Domain Admins.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreift5u2bbohsvmq7kv742v6n52tpddzsvpddkk77daz54iydvoor4q"
+            },
+            "mimeType": "image/jpeg",
+            "size": 66571
+          },
+          "title": "a close up of a man 's face with the year 2019 fox all rights reserved",
+          "uri": "https://media.tenor.com/Azkco9iXdL0AAAAC/fight-club.gif?hh=300&ww=300"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig7rnlo64dyb7c7omcb3vryibpjdbv6mp3tawemcpydk6abb7ozvi",
+          "uri": "at://did:plc:jbkp7rfrvzhhup3x7kaeiobt/app.bsky.feed.post/3lquohtofis23"
+        },
+        "root": {
+          "cid": "bafyreigejrx5tgouoga4kv3rdcgjb2xln5nz7gun6kbdt2hknff6g35boi",
+          "uri": "at://did:plc:jbkp7rfrvzhhup3x7kaeiobt/app.bsky.feed.post/3lquohnilgc23"
+        }
+      },
+      "text": "I am Jack's lack of surprise.\n\nThere are sadly too many people with domain admin rights that do not realize how insecure their behaviors can be."
+    },
+    "cid": "bafyreihjdtqdgqbwvd43pyxvgmlidy7qfibj5uodmstj4w5ee5ghjt7juu"
+  }
+}
