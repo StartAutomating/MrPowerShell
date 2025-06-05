@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749096944797037,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqthj2xwj62m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqthj34gfk26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-05T04:15:44.71Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigawrohnhnzcmmyrrwltj72ymgae3kkhjtufhbr5glef4rid4hcl4",
+          "uri": "at://did:plc:jpkjnmydclkafjyicv3s6hcx/app.bsky.feed.post/3lqth4kgrgk2n"
+        },
+        "root": {
+          "cid": "bafyreifyhqfjfnfaofoxb6w6gf3urv2thiazo6gutoatnh7nmsgxd7fdrq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lqr57wwvsk2c"
+        }
+      },
+      "text": "Yeah, the nerdy side of me really wants to try to help optimize and automate away some of the crunch pressure in VFX.\n\nThe elder in me worries that the stress of trying to do that would literally kill me.\n\nHow long have you been doing VFX?"
+    },
+    "cid": "bafyreid3ixrfy3lq2pefgn4di22fps53nlyvtivjk2jxqa3y7cw2k3byh4"
+  }
+}
