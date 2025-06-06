@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749168343313892,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqvjyvxj7r2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqvjyvas7c2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-06T00:05:42.394Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MuskVTrump"
+            }
+          ],
+          "index": {
+            "byteEnd": 31,
+            "byteStart": 20
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BlueSky"
+            }
+          ],
+          "index": {
+            "byteEnd": 96,
+            "byteStart": 88
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 107,
+            "byteStart": 99
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I wonder if today's #MuskVTrump feud is going to lead to another surge of new people on #BlueSky / #AtProto.\n\nAny know of a counter that shows daily user differences?"
+    },
+    "cid": "bafyreicnkepawarnwtrfow7ebny3447qmbolcmoipcmwyagnygko5up4ce"
+  }
+}
