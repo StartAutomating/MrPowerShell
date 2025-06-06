@@ -1,0 +1,62 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749168673013276,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqvkcpmlcs2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqvkcnphac2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-06T00:11:10.03Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Icarus thinks he knows better and flies too close to the sun.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifi37wdun2vfu4xra5j3muvxyeo4qscwx6xa3lwpeoas5r5dcyvry"
+            },
+            "mimeType": "image/jpeg",
+            "size": 487731
+          },
+          "title": "a close up of a man 's face in a superhero costume",
+          "uri": "https://media.tenor.com/mJ50znXvY68AAAAC/richard-madden-ikaris.gif?hh=373&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MuskVTrump"
+            }
+          ],
+          "index": {
+            "byteEnd": 51,
+            "byteStart": 40
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Icarus"
+            }
+          ],
+          "index": {
+            "byteEnd": 93,
+            "byteStart": 86
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I saw this one coming back in October.\n\n#MuskVTrump\n\nI think they're both as smart as #Icarus."
+    },
+    "cid": "bafyreicdel7yrnilrgoxehkj6gbbo3gwl2z4cwxhzkihy3rmpp6l6zwe7a"
+  }
+}
