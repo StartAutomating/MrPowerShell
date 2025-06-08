@@ -178,9 +178,9 @@ $style
         )
     </head>
     <body>
+        $breadcrumbBar
         $($argsAndinput -join [Environment]::NewLine)
         <script>hljs.highlightAll();</script>
-        $breadcrumbBar
     </body>
 </html>
 "@
