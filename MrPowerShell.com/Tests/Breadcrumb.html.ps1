@@ -3,7 +3,11 @@ $navData = foreach ($file in Get-ChildItem | Where-Object Name -match '\.html\.p
     $file.Name -replace '\.html\.ps1$'
 }
 "<nav>"
-"<span id='breadcrumbs'></span>"
+
+@'
+<span id='breadcrumbs'><button onclick='window.location.href="/"'>/</button></span>
+'@
+
 @'
 
 <script>
