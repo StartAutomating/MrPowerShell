@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749402900955302,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lr4ehazfod2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lr4ehcfejk2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-08T17:15:01.654Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Omega deserved better than this Doctor Who finale.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieo76u542amd2omck26ljgmyjwaqoj37bypvlxhdm6gkqchb5423m"
+            },
+            "mimeType": "image/jpeg",
+            "size": 64466
+          },
+          "title": "a statue of a man with a beard and a mask on his face",
+          "uri": "https://media.tenor.com/vgglPWV9hTgAAAAC/doctor-who-omega.gif?hh=218&ww=288"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DoctorWho"
+            }
+          ],
+          "index": {
+            "byteEnd": 66,
+            "byteStart": 56
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihqbp3fxt3qmodi75oys3didcsu2mxh7m24urid3pofwrbs76dmom",
+          "uri": "at://did:plc:5pn7khc52ialv7bf3qfhpgpz/app.bsky.feed.post/3lr3xjpwvgc26"
+        },
+        "root": {
+          "cid": "bafyreicfz3pxdfj5isa22csg6ytvondf5vj3lg3etqi7xlbadijar4q7oi",
+          "uri": "at://did:plc:5pn7khc52ialv7bf3qfhpgpz/app.bsky.feed.post/3lr3trcczys2j"
+        }
+      },
+      "text": "As I try to warn friends and family about the finale of #DoctorWho, I keep coming back to this point of comparison:\n\nIt makes \"The Wedding of River Song\" seem downright sane."
+    },
+    "cid": "bafyreieekdpl6hir3obsxna53wzntkkwzogi7vrhtgndo2hxk4beyppb7y"
+  }
+}
