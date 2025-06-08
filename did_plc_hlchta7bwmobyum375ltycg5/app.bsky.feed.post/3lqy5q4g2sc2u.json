@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749258246521602,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lqy5q5a4hh2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lqy5q4g2sc2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-07T01:04:02.23Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 64,
+            "byteStart": 57
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "json"
+            }
+          ],
+          "index": {
+            "byteEnd": 119,
+            "byteStart": 114
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia2lqougdlypwilnsmoimxwwnl2jzbju7p4lgqbj7g3frbdsvbzum",
+          "uri": "at://did:plc:hdhoaan3xa3jiuq4fg4mefid/app.bsky.feed.post/3lqy5iofdh22g"
+        },
+        "root": {
+          "cid": "bafyreibpmpwfajgpjsxhox5agemf7r4qjlfely6zrutfgulceiqkgk72ra",
+          "uri": "at://did:plc:hdhoaan3xa3jiuq4fg4mefid/app.bsky.feed.post/3lqy3sd3kmk2h"
+        }
+      },
+      "text": "It would be amazing if you could upload some of those to #GitHub as you go (bonus points for simple formats, like #json)\n\nPlus, with it being open source, it'd be free to you."
+    },
+    "cid": "bafyreidpwc6diukko4nmrvgobxifp2tr6neoobk7n67mxmpsvwoiypmoia"
+  }
+}
