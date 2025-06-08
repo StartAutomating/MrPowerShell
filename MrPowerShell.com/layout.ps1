@@ -71,6 +71,41 @@ if ($page.MetaData['og:image']) {
     $page.MetaData['og:image'] = $page.MetaData['og:image'] -replace '^/', '' -replace '^[^h]', '/'
 }
 
+$breadcrumbBar = @(
+'<style>'
+@'
+.breadcrumBar {
+    position: fixed;
+    top: 0;
+    left: 0;    
+    padding: 2em;
+}
+'@
+
+"</style>"
+
+"<nav id='breadcrumbBar'>"
+
+@'
+<span id='breadcrumbs'><a href='/'><button>/</button></a></span>
+'@
+
+@'
+<script>
+
+var urlSegments = window.location.pathname.split('/')
+var breadcrumbs = document.getElementById('breadcrumbs');
+for (var i = 1; i < (urlSegments.length - 1); i++) {
+    breadcrumbs.innerHTML += 
+        `<a href='${urlSegments.slice(0, i + 1).join('/')}' id='breadcrumb-${i}' class='breadcrumb'><button>${urlSegments[i]}</button></a>`
+}
+
+</script>
+'@
+
+"</nav>"
+)
+
 $style = @"
 body {
     width: 100vw;
@@ -145,43 +180,7 @@ $style
     <body>
         $($argsAndinput -join [Environment]::NewLine)
         <script>hljs.highlightAll();</script>
-        $(
-            if ($site.PSScriptRoot) {
-if ($page.File.Name -and $page.File.Directory.FullName -ne $site.PSScriptRoot) {
-"<style>"
-@'
-.breadcrumBar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 50%; 
-    padding: 2em;
-}
-'@
-
-"</style>"
-
-"<nav id='breadcrumbBar'>"
-
-@'
-<span id='breadcrumbs'><a href='/'><button>/</button></a></span>
-'@
-
-@'
-<script>
-var urlSegments = window.location.pathname.split('/')
-var breadcrumbs = document.getElementById('breadcrumbs');
-for (var i = 1; i < (urlSegments.length - 1); i++) {
-    breadcrumbs.innerHTML += `<a href='${urlSegments.slice(0, i + 1).join('/')}' id='breadcrumb-${i}' class='breadcrumb'><button>${urlSegments[i]}</button></a>`;
-}
-</script>
-'@
-
-"</nav>"
-
-                }
-            }
-        )
+        $breadcrumbBar
     </body>
 </html>
 "@
