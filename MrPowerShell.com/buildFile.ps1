@@ -33,6 +33,7 @@ $progressId = Get-Random
     $Page = [Ordered]@{
         # anything in MetaData should be rendered as <meta> tags in the <head> section.
         MetaData = [Ordered]@{}
+        File = $file
     }
 
     if ($fileDate) {
@@ -126,7 +127,7 @@ $progressId = Get-Random
                     $page[$keyValue.Key] = $keyValue.Value
                 }
             }
-            $file | from_markdown | layout @layoutParameters
+            $file | from_markdown
         }
         # If it's a typescript file, we'll compile it to JS.
         '.ts' {
@@ -163,7 +164,14 @@ $progressId = Get-Random
                     }
                 }
             }
-            . $file @FileParameters
+            try {
+                . $file @FileParameters
+            } catch {
+                $errorInfo = $_
+                "##[error]$($errorInfo | Out-String)"
+                throw $errorInfo
+            }
+            
         }
     }
 
@@ -213,8 +221,7 @@ $progressId = Get-Random
                 if ($?) {
                     Get-Item -Path $outFile
                     continue nextFile
-                }
-                
+                }                
             }
             '\.xml$' {
                 $output.WriteXml("$outFile")
