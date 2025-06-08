@@ -18,7 +18,10 @@ param(
     ),
     
     [string[]]
-    $FavIcon
+    $FavIcon,
+
+    [Collections.IDictionary]
+    $Menu
 )
 
 $argsAndinput = @($args) + @($input)
@@ -94,7 +97,12 @@ pre, code {
 "@
             }
         )
-        <title>$(if ($page['Title']) { $page['Title'] } else { $Title})</title>
+        <title>$(if ($page['Title']) { $page['Title'] } else { $Title})</title>        
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/2bitdesigns/4bitcss@latest/css/$PaletteName.css' id='palette' />
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=$Font' id='font' />
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=$CodeFont' id='codeFont' />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/styles/default.min.css" id='highlight' />
         $(
             if ($FavIcon) { 
                 switch -regex ($FavIcon) {
@@ -107,11 +115,6 @@ pre, code {
                 }
             }
         )
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/2bitdesigns/4bitcss@latest/css/$PaletteName.css' id='palette' />
-        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=$Font' id='font' />
-        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=$CodeFont' id='codeFont' />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/styles/default.min.css" id='highlight' />
         <script src='https://unpkg.com/htmx.org@latest'></script>
         $(
             if (
@@ -127,19 +130,56 @@ pre, code {
         
         <style>
 $style
-        </style>
+        </style>        
         $(
             @(
                 '<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/highlight.min.js"></script>'
                 foreach ($language in 'powershell') {
                     "<script src='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/languages/$language.min.js'></script>"
                 }
-            ) -join [Environment]::NewLine            
+            ) -join [Environment]::NewLine
         )
     </head>
     <body>
-$($argsAndinput -join [Environment]::NewLine)
-<script>hljs.highlightAll();</script>
+        $($argsAndinput -join [Environment]::NewLine)
+        <script>hljs.highlightAll();</script>
+        $(
+            if ($site.PSScriptRoot) {
+                if ($file.Name -ne 'index.html.ps1' -and $file.Directory.FullName -ne $site.PSScriptRoot) {
+"<style>"
+@'
+.breadcrumBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%; 
+    padding: 2em;
+}
+'@
+
+"</style>"
+
+"<nav id='breadcrumbBar'>"
+
+@'
+<span id='breadcrumbs'><a href='/'><button>/</button></a></span>
+'@
+
+@'
+<script>
+var urlSegments = window.location.pathname.split('/')
+var breadcrumbs = document.getElementById('breadcrumbs');
+for (var i = 1; i < (urlSegments.length - 1); i++) {
+    breadcrumbs.innerHTML += `<a href='${urlSegments.slice(0, i + 1).join('/')}' id='breadcrumb-${i}' class='breadcrumb'><button>${urlSegments[i]}</button></a>`;
+}
+</script>
+'@
+
+"</nav>"
+
+                }
+            }
+        )
     </body>
 </html>
 "@
