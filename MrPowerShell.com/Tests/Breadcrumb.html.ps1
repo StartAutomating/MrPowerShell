@@ -16,7 +16,7 @@ var breadcrumbs = document.getElementById('breadcrumbs');
 for (var i = 1; i < (urlSegments.length - 1); i++) {
     breadcrumbs.innerHTML += `<button onclick="window.location.href='${urlSegments.slice(0, i + 1).join('/')}';">${urlSegments[i]}</button>`;
     if (i < (urlSegments.length - 2)) {
-        breadcrumbs.innerHTML += ' / ';
+        breadcrumbs.innerHTML += ' > ';
     }
 }
 </script>
