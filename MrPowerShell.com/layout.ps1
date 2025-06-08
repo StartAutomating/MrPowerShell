@@ -5,18 +5,20 @@ param(
         if ($config -and $config['PaletteName']) { $config['PaletteName'] }
         else { 'Konsolas' }    
     ),
+
     [Alias('FontName')]
     [string]
     $Font        = $(
         if ($config -and $config['FontName']) { $config['FontName'] }
         else { 'Roboto' }
     ),
+
     [string]
     $CodeFont   = $(
         if ($config -and $config['CodeFontName']) { $config['CodeFontName'] }
         else { 'Inconsolata' }
     ),
-    
+        
     [string[]]
     $FavIcon,
 
@@ -145,7 +147,7 @@ $style
         <script>hljs.highlightAll();</script>
         $(
             if ($site.PSScriptRoot) {
-                if ($file.Name -ne 'index.html.ps1' -and $file.Directory.FullName -ne $site.PSScriptRoot) {
+if ($page.File.Name -and $page.File.Directory.FullName -ne $site.PSScriptRoot) {
 "<style>"
 @'
 .breadcrumBar {
