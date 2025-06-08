@@ -5,7 +5,7 @@ $navData = foreach ($file in Get-ChildItem | Where-Object Name -match '\.html\.p
 "<nav id='breadcrumbBar'>"
 
 @'
-<span id='breadcrumbBar'><a href='/'><button>/</button></a></span>
+<span id='breadcrumbs'><a href='/'><button>/</button></a></span>
 '@
 
 @'
@@ -13,10 +13,7 @@ $navData = foreach ($file in Get-ChildItem | Where-Object Name -match '\.html\.p
 var urlSegments = window.location.pathname.split('/')
 var breadcrumbs = document.getElementById('breadcrumbs');
 for (var i = 1; i < (urlSegments.length - 1); i++) {
-    breadcrumbs.innerHTML += `<a href='${urlSegments.slice(0, i + 1).join('/')}' id='breadcrumb-${i}'><button>${urlSegments[i]}</button></a>`;
-    if (i < (urlSegments.length - 2)) {
-        breadcrumbs.innerHTML += ' > ';
-    }
+    breadcrumbs.innerHTML += `<a href='${urlSegments.slice(0, i + 1).join('/')}' id='breadcrumb-${i}' class='breadcrumb'><button>${urlSegments[i]}</button></a>`;    
 }
 </script>
 '@
