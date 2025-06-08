@@ -1,6 +1,9 @@
 param(
 [string[]]
-$FilePath
+$FilePath,
+
+[string]
+$Root = $PSScriptRoot
 )
 
 # Push into the script root directory
@@ -20,11 +23,12 @@ foreach ($file in $functionFiles) {
 
 # Creation of a sitewide object to hold configuration information.
 $Site = [Ordered]@{}
-$Site.Files = if ($filePath) {
-    Get-ChildItem -Recurse -File -Path $FilePath
-} else {
-    Get-ChildItem -Recurse -File
-}
+$Site.Files = 
+    if ($filePath) {
+        Get-ChildItem -Recurse -File -Path $FilePath
+    } elseif ($Root) {
+        Get-ChildItem -Recurse -File -Path $Root
+    }
 
 # Set an alias to buildFile.ps1
 Set-Alias BuildFile ./buildFile.ps1
@@ -128,8 +132,10 @@ if ($lastBuild) {
 $newLastBuild | ConvertTo-Json -Depth 2 > lastBuild.json
 #endregion lastBuild.json
 
-#region archive.zip
-#Create an archive of the current deployment.
-Compress-Archive -Path $pwd -DestinationPath "archive.zip" -CompressionLevel Optimal -Force
-#endregion archive.zip
+#region Site Archive
+if ($Site.Archive) {
+    #Create an archive of the current deployment.
+    Compress-Archive -Path $pwd -DestinationPath "archive.zip" -CompressionLevel Optimal -Force
+}
+#endregion Site Archive
 if ($PSScriptRoot) { Pop-Location }
