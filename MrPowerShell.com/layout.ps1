@@ -76,8 +76,10 @@ $breadcrumbBar = @(
 @'
 .breadcrumBar {
     position: fixed;
+    margin-right: 0.5%;
+    margin-top: 0%; 
     top: 0;
-    left: 0;    
+    left: 0.5%;    
     padding: 2em;
 }
 '@
