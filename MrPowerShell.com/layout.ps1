@@ -86,7 +86,7 @@ $breadcrumbBar = @(
     margin: 0 0.3em 0 0;
 }
 
-.breadcrumb > button{
+.breadcrumb > button {
     padding: 0.25em;
 }
 '@
@@ -120,9 +120,14 @@ body {
     width: 100vw;
     height: 100vh;
     font-family: '$Font', sans-serif;
+    margin: 3em;
 }
 pre, code {
     font-family: '$CodeFont', monospace;
+}
+a, a:visited {
+    color: var(--foreground);
+    text-decoration: none;
 }
 "@
 
