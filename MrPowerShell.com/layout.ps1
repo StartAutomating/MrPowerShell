@@ -74,12 +74,22 @@ if ($page.MetaData['og:image']) {
 $breadcrumbBar = @(
 '<style>'
 @'
-.breadcrumBar {
+.upperLeft {
     position: fixed;
-    margin-right: 0.5%;
-    margin-top: 0.5%; 
+    float: left;
     top: 0;
-    left: 0.5%;
+    left: 0;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+}
+
+.upperRight {
+    position: fixed;
+    float: right;
+    top: 0;
+    right: 0;
+    margin-right: 0.5%;
+    margin-top: 0.5%;
 }
 
 .breadcrumb {
@@ -93,22 +103,23 @@ $breadcrumbBar = @(
 
 "</style>"
 
-"<nav id='breadcrumbBar' class='breadcrumBar'>"
+"<nav id='breadcrumbBar' class='breadcrumBar upperLeft'>"
 
 @'
+<details>
+<summary>../</summary>
 <span id='breadcrumbs'><a href='/' class='breadcrumb'><button>/</button></a></span>
+</details>
 '@
 
 @'
 <script>
-
 var urlSegments = window.location.pathname.split('/')
 var breadcrumbs = document.getElementById('breadcrumbs');
 for (var i = 1; i < (urlSegments.length - 1); i++) {
     breadcrumbs.innerHTML += 
         `<a href='${urlSegments.slice(0, i + 1).join('/')}' id='breadcrumb-${i}' class='breadcrumb'><button>${urlSegments[i]}</button></a>`
 }
-
 </script>
 '@
 
@@ -158,10 +169,18 @@ a, a:visited {
             if ($FavIcon) { 
                 switch -regex ($FavIcon) {
                     '\.svg$' {
-                        "<link rel='icon' href='$_' type='image/x-icon' />"
+                        if ($_ -match '\d+x\d+') {
+                            "<link rel='icon' href='$_' type='image/svg+xml' sizes='$($matches.0)' />"
+                        } else {
+                            "<link rel='icon' href='$_' type='image/svg+xml' sizes='any' />"
+                        }                        
                     }
                     '\.png$' {
-                        "<link rel='icon' href='$_' type='image/icon' />"
+                        if ($_ -match '\d+x\d+') {
+                            "<link rel='icon' href='$_' type='image/png' sizes='$($matches.0)' />"
+                        } else {
+                            "<link rel='icon' href='$_' type='image/png' sizes='any' />"
+                        }                        
                     }
                 }
             }
