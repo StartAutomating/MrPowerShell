@@ -1,0 +1,158 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749522228013216,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lr7tliqzoh2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lr7tlb54as2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-10T02:23:39.895Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Microsoft MVP in Azure / PowerShell. StartAutomating has 78 repositories available. Follow their code on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibqav32fd735wzdmluu3n5pn52prciechxb4pinwwmxjey6iphew4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 111171
+          },
+          "title": "StartAutomating - Overview",
+          "uri": "https://github.com/StartAutomating"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 35,
+            "byteStart": 28
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating"
+            }
+          ],
+          "index": {
+            "byteEnd": 65,
+            "byteStart": 39
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BlueSky"
+            }
+          ],
+          "index": {
+            "byteEnd": 122,
+            "byteStart": 114
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 133,
+            "byteStart": 126
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 154,
+            "byteStart": 143
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 166,
+            "byteStart": 158
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "HTML"
+            }
+          ],
+          "index": {
+            "byteEnd": 174,
+            "byteStart": 169
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 181,
+            "byteStart": 177
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 188,
+            "byteStart": 184
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JavaScript"
+            }
+          ],
+          "index": {
+            "byteEnd": 202,
+            "byteStart": 191
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I just hit 500 followers on #GitHub !\n\ngithub.com/StartAutomat...\n\nThanks for all of the support!  \n\nFollow me on #BlueSky or #GitHub for more #PowerShell /  #AtProto / #HTML / #CSS / #SVG / #JavaScript projects!"
+    },
+    "cid": "bafyreiep5vckjnf5fh3rjdjfoyxujmeeue3y4urkevciki5dazwvz4flre"
+  }
+}
