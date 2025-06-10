@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749571269792248,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lrbbb2ltve23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lrbbazvcos26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-10T16:01:08.878Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Streamlining AD Management with PowerShell\n\nIn this demo-heavy presentation, Aaron Merrill will show us how to simplify managing Active Directory with PowerShell.\nWe’ll see",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiga5eqo5n6ujq2atfzzkdatunqqsmb6lafulfokoluzpizxl7ndvu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 36724
+          },
+          "title": "Streamlining AD Management with PowerShell, Wed, Jun 11, 2025, 6:00 PM   | Meetup",
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/events/308408433/?eventOrigin=group_upcoming_events"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 34
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ActiveDirectory"
+            }
+          ],
+          "index": {
+            "byteEnd": 102,
+            "byteStart": 86
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/308408433/?eventOrigin=group_upcoming_events"
+            }
+          ],
+          "index": {
+            "byteEnd": 134,
+            "byteStart": 104
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Tomorrow night @ 6pm, the Pacific #PowerShell user group will talk about Streamlining #ActiveDirectory\n\nwww.meetup.com/pacific-powe...\n\nDrop by to learn how to automate AD with PowerShell."
+    },
+    "cid": "bafyreidxpgd6opry5f2ol3wrb4vajavm3bzoehf46txleqhmvxzl3u4zai"
+  }
+}
