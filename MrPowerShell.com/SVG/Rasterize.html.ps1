@@ -49,6 +49,7 @@ $rasterizer = @'
     for (const strokeParameter of strokeParameters) {
         if (searchParameters.has(strokeParameter)) {
             const strokeColor = searchParameters.get(strokeParameter)
+            document.getElementById('Stroke').value = strokeColor
             defaultSvg.querySelectorAll('*[stroke]').forEach(svgElement => {
                 if (svgElement.getAttribute('stroke') != "transparent") {
                     svgElement.setAttribute('stroke', strokeColor)
@@ -60,6 +61,7 @@ $rasterizer = @'
     for (const fillParameter of fillParameters) {
         if (searchParameters.has(fillParameter)) {
             const fillColor = searchParameters.get(fillParameter)
+            document.getElementById('Fill').value = fillColor
             defaultSvg.querySelectorAll('*[fill]').forEach(svgElement => {
                 if (svgElement.getAttribute('fill') != "transparent") {
                     svgElement.setAttribute('fill', fillColor)
