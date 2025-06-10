@@ -77,19 +77,26 @@ $breadcrumbBar = @(
 .breadcrumBar {
     position: fixed;
     margin-right: 0.5%;
-    margin-top: 0%; 
+    margin-top: 0.5%; 
     top: 0;
-    left: 0.5%;    
-    padding: 2em;
+    left: 0.5%;
+}
+
+.breadcrumb {
+    margin: 0 0.3em 0 0;
+}
+
+.breadcrumb > button{
+    padding: 0.25em;
 }
 '@
 
 "</style>"
 
-"<nav id='breadcrumbBar'>"
+"<nav id='breadcrumbBar' class='breadcrumBar'>"
 
 @'
-<span id='breadcrumbs'><a href='/'><button>/</button></a></span>
+<span id='breadcrumbs'><a href='/' class='breadcrumb'><button>/</button></a></span>
 '@
 
 @'
