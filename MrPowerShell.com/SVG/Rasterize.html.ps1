@@ -42,6 +42,7 @@ $rasterizer = @'
                     throw new TypeError `Expected SVG content, but got: ${contentType}`
                 }
                 defaultSvg.innerHTML = await response.text()
+                document.getElementById('Source').value = sourceValue
             }            
         }
     }
