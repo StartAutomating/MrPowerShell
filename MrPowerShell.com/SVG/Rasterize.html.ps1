@@ -34,15 +34,18 @@ $rasterizer = @'
 
     for (const sourceParameter of sourceParameters) {
         if (searchParameters.has(sourceParameter)) {
-            const response = await fetch(searchParameters.get(sourceParameter));
-            const contentType = response.headers.get('content-type')
-            if (!contentType || !contentType.includes('image/svg+xml')) {
-                throw new TypeError `Expected SVG content, but got: ${contentType}`
-            }
-            defaultSvg.innerHTML = await response.text()
+            var sourceValue = searchParameters.get(sourceParameter)
+            if (sourceValue) {
+                const response = await fetch(searchParameters.get(sourceParameter));
+                const contentType = response.headers.get('content-type')
+                if (!contentType || !contentType.includes('image/svg+xml')) {
+                    throw new TypeError `Expected SVG content, but got: ${contentType}`
+                }
+                defaultSvg.innerHTML = await response.text()
+            }            
         }
     }
-
+        
     for (const strokeParameter of strokeParameters) {
         if (searchParameters.has(strokeParameter)) {
             const strokeColor = searchParameters.get(strokeParameter)
@@ -121,31 +124,60 @@ document.getElementById('btn-png').click()
 $style = @'
 <style>
 .wrapper {
-  display: flex;
-  flex-flow: row nowrap;
-  width: 100vw;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100vw;
 }
 
 .images {
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  width: 90%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
 }
 
 .buttons {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  gap: 1em
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1em;
+    margin: 1em
 }
 
 .label {
-  width: 100%;
-  text-align: center;
+    width: 100%;
+    text-align: center;
 }
 </style>
 '@
+
+$form = @"
+<form id='$(($MyInvocation.MyCommand.ScriptBlock.File | Split-Path -Leaf) -replace '.ps1$' -replace '\p{P}','_')'>
+    <label for="Source">Source:</label>
+    <input type="url" id="Source" name="Source" value="$($VectorImage)" />
+    
+    <label for="Width">Width:</label>
+    <input type="number" id="Width" name="Width" value="$Width" />
+    
+    <label for="Height">Height:</label>
+    <input type="number" id="Height" name="Height" value="$Height" />
+
+    <label for="Stroke">Stroke:</label>
+    <input type="color" id="Stroke" name="Stroke" />
+    <script>
+    var strokeInput = document.getElementById('Stroke')
+    strokeInput.value = getComputedStyle(strokeInput).getPropertyValue('--foreground')
+    </script>
+    
+    <label for="Fill">Fill:</label>
+    <input type="color" id="Fill" name="Fill" />
+    <script>
+    var fillInput = document.getElementById('Fill')
+    fillInput.value = getComputedStyle(strokeInput).getPropertyValue('--foreground')
+    </script>
+    <button type="submit">Update SVG</button>
+</form>
+"@
 
 $content = @"
 <div class="wrapper">
@@ -185,6 +217,7 @@ if ($VectorImage) {
 "@
 
 $style
+$Form
 $content
 $rasterizer
 
