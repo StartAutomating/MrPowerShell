@@ -23,12 +23,22 @@ $rasterizer = @'
     for (const widthParameter of widthParameters) {
         if (searchParameters.has(widthParameter)) {
             defaultSvg.setAttribute('width', searchParameters.get(widthParameter))
+            // Update the form input
+            var formInput = document.getElementById('Width')
+            if (formInput) {
+                formInput.value = searchParameters.get(widthParameter)
+            }
         }
     }
 
     for (const heightParameter of heightParameters) {
         if (searchParameters.has(heightParameter)) {
             defaultSvg.setAttribute('height', searchParameters.get(heightParameter))
+            // Update the form input
+            var formInput = document.getElementById('Height')
+            if (formInput) {
+                formInput.value = searchParameters.get(heightParameter)
+            }            
         }
     }
 
@@ -41,21 +51,33 @@ $rasterizer = @'
                 if (!contentType || !contentType.includes('image/svg+xml')) {
                     throw new TypeError `Expected SVG content, but got: ${contentType}`
                 }
-                defaultSvg.innerHTML = await response.text()
-                document.getElementById('Source').value = sourceValue
+                var responseText = await response.text()
+                if (responseText) {
+                    defaultSvg.innerHTML = responseText
+                    // Update the form input
+                    var formInput = document.getElementById('Source')
+                    if (formInput) {
+                        formInput.value = searchParameters.get(sourceParameter)
+                    }
+                }                                
             }            
         }
     }
         
     for (const strokeParameter of strokeParameters) {
         if (searchParameters.has(strokeParameter)) {
-            const strokeColor = searchParameters.get(strokeParameter)
-            document.getElementById('Stroke').value = strokeColor
+            const strokeColor = searchParameters.get(strokeParameter)            
             defaultSvg.querySelectorAll('*[stroke]').forEach(svgElement => {
                 if (svgElement.getAttribute('stroke') != "transparent") {
                     svgElement.setAttribute('stroke', strokeColor)
                 }
             })
+
+            // Update the form input
+            var formInput = document.getElementById('Stroke')
+            if (formInput) {
+                formInput.value = strokeColor
+            }
         }
     }
 
