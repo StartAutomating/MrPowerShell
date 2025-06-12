@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749692258559647,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lrerwrw7mu2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lrerwfrdhs2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-12T01:37:25.059Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Twitch is the world",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiaufeoj6d6ylvpdj6rto6j5gxnpavk6pvxvd2djtxocozegtebvzu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 214475
+          },
+          "title": "Twitch",
+          "uri": "https://twitch.tv/MrPowerShell"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 50,
+            "byteStart": 39
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ActiveDirectory"
+            }
+          ],
+          "index": {
+            "byteEnd": 95,
+            "byteStart": 79
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://twitch.tv/MrPowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 120,
+            "byteStart": 98
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Aaron Miller is talking to the Pacific #PowerShell User Group about automating #ActiveDirectory:\n\ntwitch.tv/MrPowerShell"
+    },
+    "cid": "bafyreifsijrrodvl2ip7p2kshkfu5iw6gnxqxwgy2dhucqgfld4gnisvhi"
+  }
+}
