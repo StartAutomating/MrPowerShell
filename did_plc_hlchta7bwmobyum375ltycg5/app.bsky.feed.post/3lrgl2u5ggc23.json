@@ -1,0 +1,82 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749753596577351,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lrgl2syx4d2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lrgl2u5ggc23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-12T18:39:57.636Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 70,
+            "byteStart": 63
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AzureDevOps"
+            }
+          ],
+          "index": {
+            "byteEnd": 102,
+            "byteStart": 90
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHubWorkflows"
+            }
+          ],
+          "index": {
+            "byteEnd": 153,
+            "byteStart": 137
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AzureDevOps"
+            }
+          ],
+          "index": {
+            "byteEnd": 198,
+            "byteStart": 186
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHubPages"
+            }
+          ],
+          "index": {
+            "byteEnd": 216,
+            "byteStart": 204
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just saying:\n\nI really would prefer the next shop I work at is #GitHub based, rather than #AzureDevOps\n\nThere's so much functionality in #GitHubWorkflows that I am constantly missing in #AzureDevOps, and #GitHubPages are a much better way to visualize than trying to stuff a report into an artifact."
+    },
+    "cid": "bafyreic66m5cucway3io2cptlg5lggcpvwmus2puap53bfegpdmpb2mb6e"
+  }
+}
