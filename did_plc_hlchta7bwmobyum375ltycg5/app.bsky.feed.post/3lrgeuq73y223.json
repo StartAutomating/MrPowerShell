@@ -1,0 +1,47 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1749746949097702,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lrgeupfcqt2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lrgeuq73y223",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-12T16:49:09.717Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:wwiikm77cjmgpjn7i7iao43p"
+            }
+          ],
+          "index": {
+            "byteEnd": 28,
+            "byteStart": 18
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BlueSky"
+            }
+          ],
+          "index": {
+            "byteEnd": 165,
+            "byteStart": 157
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I've been reading @slate.com less and less, as it's gotten more and more filled with foolish \"🌶️ takes\".\n\nWent there today and saw two hit pieces about #BlueSky 😕.\n\nNot linking to either piece of click bait, and wish I could have those minutes of my life back."
+    },
+    "cid": "bafyreihabcw4zhrefoih5ghag35xi2k2ifk6xqvx4ul3eis2ijqehbmple"
+  }
+}
