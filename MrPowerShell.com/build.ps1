@@ -174,15 +174,24 @@ if (-not $Site.NoIndex) {
             CreatedAt = 
                 if ($gitDates) {
                     $gitDates[-1]
-                } else {
-                    $file.CreationTime
                 }
             LastWriteTime = 
                 if ($gitDates) {
                     $gitDates[0]
-                } else {                
-                    $file.LastWriteTime
                 }
+        }
+    }
+        
+    foreach ($indexKey in $indexObject.Keys) {
+        if (-not $indexObject[$indexKey].CreatedAt) {
+            if ($indexObject["$indexKey.ps1"].CreatedAt) {
+                $indexObject[$indexKey].CreatedAt = $indexObject["$indexKey.ps1"].CreatedAt
+            }
+        }
+        if (-not $indexObject[$indexKey].LastWriteTime) {
+            if ($indexObject["$indexKey.ps1"].LastWriteTime) {
+                $indexObject[$indexKey].LastWriteTime = $indexObject["$indexKey.ps1"].LastWriteTime
+            }            
         }
     }
     
