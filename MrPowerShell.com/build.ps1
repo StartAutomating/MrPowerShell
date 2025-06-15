@@ -1,3 +1,15 @@
+<#
+.SYNOPSIS
+    Builds the website.
+.DESCRIPTION
+    Builds a static site using PowerShell.
+
+    * The site will be configured using any `config.*` files.
+    * Functions and filters will be loaded from any `functions.*` or `filters.*` files.
+    * All files will be processed using `buildFile.ps1` (any `*.*.ps1` file should be run).
+.EXAMPLE
+    ./build.ps1
+#>
 param(
 [string[]]
 $FilePath,
@@ -135,6 +147,33 @@ if ($lastBuild) {
 # Save the build time to a file.
 $newLastBuild | ConvertTo-Json -Depth 2 > lastBuild.json
 #endregion lastBuild.json
+
+#region index.json
+if (-not $Site.NoIndex) {
+    $fileIndex =
+        if ($filePath) { Get-ChildItem -Recurse -File -Path $FilePath }
+        else { Get-ChildItem -Recurse -File }    
+
+    $replacement = 
+        if ($filePath) {
+            "^" + ([regex]::Escape($filePath) -replace '\*','.{0,}?')
+        } else {
+            "^" + [regex]::Escape($filePath)
+        }
+
+    $indexObject = [Ordered]@{}
+    foreach ($file in $fileIndex) {
+        $indexObject[$file.FullName -replace $replacement] = [Ordered]@{
+            Name = $file.Name
+            Url = ($site.RootUrl + ($file.FullName -replace $replacement -replace '[\\/]','/'))
+            Length = $file.Length
+            Extension = $file.Extension
+            CreatedAt = $file.CreationTimeUtc
+        }
+    }
+    $indexObject | ConvertTo-Json -Depth 4 > index.json
+}
+#endregion index.json
 
 #region archive.zip
 if ($site.Archive) {
