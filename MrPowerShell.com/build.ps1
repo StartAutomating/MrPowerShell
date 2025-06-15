@@ -162,16 +162,22 @@ if (-not $Site.NoIndex) {
         }
 
     $indexObject = [Ordered]@{}
+    $gitCommand = $ExecutionContext.SessionState.InvokeCommand.GetCommand('git', 'Application')
     foreach ($file in $fileIndex) {
+        $gitDate = try { & $gitCommand $file.FullName  *>&1 -as [datetime] } catch { $null }        
         $indexObject[$file.FullName -replace $replacement] = [Ordered]@{
             Name = $file.Name
             Url = ($site.RootUrl + ($file.FullName -replace $replacement -replace '[\\/]','/'))
             Length = $file.Length
             Extension = $file.Extension
-            CreatedAt = $file.CreationTimeUtc
+            CreatedAt = if ($gitDate) {
+                $gitDate
+            } else {
+                $file.CreationTimeUtc
+            }
         }
-    }
-    $indexObject | ConvertTo-Json -Depth 4 > index.json
+    }    
+    $indexObject | ConvertTo-Json -Depth 4 > index.json    
 }
 #endregion index.json
 
