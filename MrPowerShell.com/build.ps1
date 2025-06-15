@@ -158,7 +158,7 @@ if (-not $Site.NoIndex) {
         if ($filePath) {
             "^" + ([regex]::Escape($filePath) -replace '\*','.{0,}?')
         } else {
-            "^" + [regex]::Escape($filePath)
+            "^" + [regex]::Escape("$pwd")
         }
 
     $indexObject = [Ordered]@{}
@@ -168,19 +168,21 @@ if (-not $Site.NoIndex) {
         $LASTEXITCODE = 0
         $indexObject[$file.FullName -replace $replacement] = [Ordered]@{
             Name = $file.Name
-            Url = ($site.RootUrl + ($file.FullName -replace $replacement -replace '[\\/]','/'))
+            Url = ($site.RootUrl -replace '/$') + ($file.FullName -replace $replacement -replace '[\\/]','/')
             Length = $file.Length
             Extension = $file.Extension
-            CreatedAt = if ($gitDates) {
-                $gitDates[-1]
-            } else {                
-                $file.CreationTimeUtc
-            }
-            LastWriteTime = if ($gitDates) {
-                $gitDates[0]
-            } else {                
-                $file.LastWriteTimeUtc
-            }
+            CreatedAt = 
+                if ($gitDates) {
+                    $gitDates[-1]
+                } else {
+                    $file.CreationTime
+                }
+            LastWriteTime = 
+                if ($gitDates) {
+                    $gitDates[0]
+                } else {                
+                    $file.LastWriteTime
+                }
         }
     }
     
