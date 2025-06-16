@@ -67,6 +67,10 @@ $page.MetaData['og:image'] =
         $site.image
     }
 
+if ($page.Date -is [DateTime]) {
+    $page.MetaData['article:published_time'] = $page.Date.ToString('o')
+}
+
 if ($page.MetaData['og:image']) {
     $page.MetaData['og:image'] = $page.MetaData['og:image'] -replace '^/', '' -replace '^[^h]', '/'
 }
