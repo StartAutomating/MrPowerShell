@@ -200,7 +200,7 @@ if (-not $site.Pages) {
         continue nextFile # continue to the next file.
     }
 
-    $Site.Pages[$file.FullName] = $page
+    # $Site.Pages[$file.FullName] = $page
 
     # If we're outputting markdown, and it's not yet HTML
     if ($outFile -match '\.md$' -and $output -notmatch '<html') {
