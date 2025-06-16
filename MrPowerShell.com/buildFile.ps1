@@ -10,10 +10,18 @@ $layoutAtPath = [Ordered]@{}
 $layoutAtPathParameters = [Ordered]@{}
 $allFiles = @($input)
 if (-not $allFiles) { return}
-
 $FileNumber = 0
 $TotalFiles = $allFiles.Length
 $progressId = Get-Random
+
+if (-not $site) {
+    $site = [Ordered]@{}
+}
+
+if (-not $site.Pages) {
+    $site.Pages = [Ordered]@{}
+}
+
 :nextFile foreach ($file in $allFiles) {
     $outFile  = $file.FullName -replace '\.ps1$'
     $fileRoot = $file.Directory.FullName
@@ -23,8 +31,8 @@ $progressId = Get-Random
     $fileDate = $fileName -replace 
             # * Remove any non-digit (except colon, dash, and underscore, and Z)
             '[^\d:-_Z]' -replace
-                 # * Trim leading punctuation, and trailing punctuation (and Z), 
-                '^\p{P}+' -replace '[-Z]+$' -replace 
+                # * Trim leading punctuation, and trailing punctuation (and Z), 
+                '^\p{P}+' -replace '[-Z]+$' -replace
                 # * replace underscores with colons, and try to cast to `[DateTime]`
                 '_',':' -as [DateTime]
 
@@ -38,6 +46,18 @@ $progressId = Get-Random
 
     if ($fileDate) {
         $page.Date = $fileDate
+    } else {
+        $gitCommand = $ExecutionContext.SessionState.InvokeCommand.GetCommand('git', 'Application')
+        if ($gitCommand) {
+            $gitDates = 
+                try { 
+                    (& $gitCommand log --follow --format=%ci --date default $file.FullName *>&1) -as [datetime[]]
+                } catch {
+                    $null
+                }
+            $LASTEXITCODE
+            $page.Date = $gitDates[0]
+        }        
     }
     
     # If we don't have a layout for this directory
@@ -116,7 +136,7 @@ $progressId = Get-Random
         }
     }
 
-    $Output = $Content = switch ($file.Extension) {
+    $Output = $Content = $Page['Content'] = switch ($file.Extension) {
         # If it's a markdown file, we'll convert it to HTML.
         '.md' {
             $title = $Page['title'] = $file.Name -replace '\.md$' -replace 'index'
@@ -180,6 +200,8 @@ $progressId = Get-Random
         continue nextFile # continue to the next file.
     }
 
+    $Site.Pages[$file.FullName] = $page
+
     # If we're outputting markdown, and it's not yet HTML
     if ($outFile -match '\.md$' -and $output -notmatch '<html') {
         $outputAsMarkdown = @($output) -join [Environment]::NewLine
@@ -203,7 +225,7 @@ $progressId = Get-Random
             # we'll use the layout.            
             $output = $output | layout @layoutParameters
         }
-    }    
+    }
     
     if ($output -is [Data.DataSet]) {
         switch -regex ($outFile) {
