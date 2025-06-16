@@ -1,0 +1,78 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1750099003309734,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lrqmqqizem2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lrqmqqav2s2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-16T18:36:42.878Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "",
+          "title": "",
+          "uri": "https://github.com/StartAutomating/Irregular/blob/master/RegEx/CNC/GCode.regex.txt"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GCode"
+            }
+          ],
+          "index": {
+            "byteEnd": 12,
+            "byteStart": 6
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Regex"
+            }
+          ],
+          "index": {
+            "byteEnd": 33,
+            "byteStart": 27
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 38
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/Irregular/blob/master/RegEx/CNC/GCode.regex.txt"
+            }
+          ],
+          "index": {
+            "byteEnd": 77,
+            "byteStart": 51
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Parse #GCode with a bit of #Regex and #PowerShell\n\ngithub.com/StartAutomat..."
+    },
+    "cid": "bafyreiepycs7m7r2stuyqhxqv23tthjgegxk76uu4ba3qmrgrry5lygxgu"
+  }
+}
