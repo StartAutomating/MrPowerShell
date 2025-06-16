@@ -38,7 +38,7 @@ if (-not $site.Pages) {
 
     Write-Progress -Id $progressId -Status "Building Pages" "$($file.Name) " -PercentComplete ((++$FileNumber / $TotalFiles) * 100)
     # Initialize the page object
-    $Page = [Ordered]@{
+    $Site.Pages[$file.FullName] = $Page = [Ordered]@{
         # anything in MetaData should be rendered as <meta> tags in the <head> section.
         MetaData = [Ordered]@{}
         File = $file
@@ -55,7 +55,7 @@ if (-not $site.Pages) {
                 } catch {
                     $null
                 }
-            $LASTEXITCODE
+            $LASTEXITCODE = 0
             $page.Date = $gitDates[0]
         }        
     }
