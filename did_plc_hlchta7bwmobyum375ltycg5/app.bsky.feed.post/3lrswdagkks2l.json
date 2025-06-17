@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1750178005999849,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lrswd7b5752z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lrswdagkks2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-17T16:33:26.974Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 0
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih4mzbxirdcq3xcydnfo453kyy5w2xn5fk4razrgp62rsjqbdn2ha",
+          "uri": "at://did:plc:d2vbdnxrv6yb7hrrvusocclq/app.bsky.feed.post/3lrssrwgj6c2y"
+        },
+        "root": {
+          "cid": "bafyreicfib7tk5mczteuf3irplexdfskbbo7huyyicmwckb3ebwyo7jd34",
+          "uri": "at://did:plc:d2vbdnxrv6yb7hrrvusocclq/app.bsky.feed.post/3lrsrwum6n22y"
+        }
+      },
+      "text": "#PowerShell Range indexing 😉\n\nYou can also add aliases to parameters, so it can be -Color or -Colour."
+    },
+    "cid": "bafyreihkudazgy3uc4thxswcd56rh6btzbviomjyvhzcbyj2gn5upfqoy4"
+  }
+}
