@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1750269959504874,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lrvlxn2d722g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lrvlxnuycs2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-18T18:06:00.223Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 62,
+            "byteStart": 51
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidinbnx22au3mmtpmmfmgyc47zuevohycwmomnxul24q6wcscypiq",
+          "uri": "at://did:plc:72bsmc54uyf5fpkqejojtea7/app.bsky.feed.post/3lruxuq3unk2m"
+        },
+        "root": {
+          "cid": "bafyreidinbnx22au3mmtpmmfmgyc47zuevohycwmomnxul24q6wcscypiq",
+          "uri": "at://did:plc:72bsmc54uyf5fpkqejojtea7/app.bsky.feed.post/3lruxuq3unk2m"
+        }
+      },
+      "text": "I feel the same way after 18 years of working with #PowerShell"
+    },
+    "cid": "bafyreihpltwxakwtzgsfspcphuynuzc642yrr2uy3ymod24w4nxdmyzdhi"
+  }
+}
