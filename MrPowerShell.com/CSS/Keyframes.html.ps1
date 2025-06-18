@@ -244,11 +244,11 @@ param(
             }
         }
         'strobe' = [Ordered]@{
-            '0%,10%,20%,30%,40%,50%, 60%, 70%, 80%, 90%, 100%' = [Ordered]@{
+            '0%,20%,40%,60%,80%,100%' = [Ordered]@{
                 opacity = 1
             }
-            '5%,15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95%' = [Ordered]@{
-                opacity = .25
+            '10%,30%, 50%, 70%, 90%' = [Ordered]@{
+                opacity = .5
             }
         }
         'color-to-gray' = [Ordered]@{
@@ -476,6 +476,9 @@ param(
         }
     }
 )
+
+$Title = "CSS Keyframes"
+$Description = "CSS Keyframes are cool (and easy to write in PowerShell)"
 
 function dictionaryToKeyframes {
     param(
