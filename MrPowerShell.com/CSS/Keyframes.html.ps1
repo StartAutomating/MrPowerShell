@@ -87,7 +87,7 @@ param(
             '75%' = [Ordered]@{
                 transform = "rotateY(270deg) rotateX(270deg) rotateZ(270deg)"            
             }        
-        }
+        }        
         bounce = [Ordered]@{
             '0%, 20%, 50%, 80%, 100%' = [Ordered]@{
                 transform = "translateY(0)"
@@ -98,7 +98,7 @@ param(
             '60%' = [Ordered]@{
                 transform = "translateY(-15px)"
             }
-        }
+        }        
         'fade-in' = [Ordered]@{
             from = [Ordered]@{
                 opacity = "0"
@@ -211,6 +211,62 @@ param(
                 transform = "rotate(-3deg)"            
             }
         }
+        'wiggle3d' = [Ordered]@{
+            '0%,100%' = [Ordered]@{
+                transform = "rotateX(-3deg) rotateY(-3deg) rotateZ(-3deg)"            
+            }
+            '50%' = [Ordered]@{
+                transform = "rotateX(3deg) rotateY(3deg) rotateZ(3deg)"
+            }
+        }
+        'glow' = [Ordered]@{
+            '0%,100%' = [Ordered]@{
+                'text-shadow' = "0 0 0em var(--foreground)"
+            }
+            '50%' = [Ordered]@{
+                'text-shadow' = "0 0 1em var(--foreground)"
+            }
+        }
+        'glow-box' = [Ordered]@{
+            '0%,100%' = [Ordered]@{
+                'box-shadow' = "0 0 0em var(--foreground)"
+            }
+            '50%' = [Ordered]@{
+                'box-shadow' = "0 0 1em var(--foreground)"
+            }
+        }
+        'ebb' = [Ordered]@{
+            '0%,100%' = [Ordered]@{
+                opacity = 1
+            }
+            '50%' = [Ordered]@{
+                opacity = .75
+            }
+        }
+        'strobe' = [Ordered]@{
+            '0%,10%,20%,30%,40%,50%, 60%, 70%, 80%, 90%, 100%' = [Ordered]@{
+                opacity = 1
+            }
+            '5%,15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95%' = [Ordered]@{
+                opacity = .25
+            }
+        }
+        'color-to-gray' = [Ordered]@{
+            from = @{filter='grayscale(0%)'}
+            to = @{filter='grayscale(100%)'}
+        }
+        'gray-to-color' = [Ordered]@{
+            from = @{filter='grayscale(100%)'}
+            to = @{filter='grayscale(0%)'}
+        }
+        'blink' = [Ordered]@{
+            '0%,50%,100%' = [Ordered]@{
+                opacity = 1
+            }
+            '25%,75%' = [Ordered]@{
+                opacity = 0
+            }
+        } 
         'pulse' = [Ordered]@{
             '0%,100%' = [Ordered]@{
                 transform = "scale(1)"            
@@ -327,6 +383,96 @@ param(
             to = [Ordered]@{
                 transform = "scale(0.1)"
             }
+        }
+        'swing-in' = [Ordered]@{
+            from = [Ordered]@{
+                # 'transform-origin' = "50% 50%"
+                transform = "rotate(-90deg)"
+            }
+            to = [Ordered]@{
+                # 'transform-origin' = "50% 50%"
+                transform = "rotate(0deg)"
+            }
+        }
+        'spring-up' = [Ordered]@{
+            '0%' = [Ordered]@{
+                transform = "scale(1) translateY(0)"
+            }
+            '20%' = [Ordered]@{
+                transform = "scale(1.25,0.75) translateY(0)"
+            }
+            '40%' = [Ordered]@{
+                transform = "scale(0.75,1.25) translateY(-2em)"
+            }
+            '60%' = [Ordered]@{
+                transform = "scale(1.15,0.85) translateY(0)"
+            }
+            '80%' = [Ordered]@{
+                transform = "scale(0.95,1.05) translateY(-1em)"
+            }
+            '100%' = [Ordered]@{
+                transform = "scale(1) translateY(0)"
+            }        
+        }
+        'spring-down' = [Ordered]@{
+            '0%' = [Ordered]@{
+                transform = "scale(1) translateY(0)"
+            }
+            '20%' = [Ordered]@{
+                transform = "scale(1.25,0.75) translateY(0)"
+            }
+            '40%' = [Ordered]@{
+                transform = "scale(0.75,1.25) translateY(2em)"
+            }
+            '60%' = [Ordered]@{
+                transform = "scale(1.15,0.85) translateY(0)"
+            }
+            '80%' = [Ordered]@{
+                transform = "scale(0.95,1.05) translateY(1em)"
+            }
+            '100%' = [Ordered]@{
+                transform = "scale(1) translateY(0)"
+            }        
+        }
+        'spring-left' = [Ordered]@{
+            '0%' = [Ordered]@{
+                transform = "scale(1) translateX(0)"
+            }
+            '20%' = [Ordered]@{
+                transform = "scale(0.75,1.25) translateX(0)"
+            }
+            '40%' = [Ordered]@{
+                transform = "scale(1.25,0.75) translateX(-2em)"
+            }
+            '60%' = [Ordered]@{
+                transform = "scale(0.85,1.15) translateX(0)"
+            }
+            '80%' = [Ordered]@{
+                transform = "scale(1.05,0.95) translateX(-1em)"
+            }
+            '100%' = [Ordered]@{
+                transform = "scale(1) translateX(0)"
+            }        
+        }
+        'spring-right' = [Ordered]@{
+            '0%' = [Ordered]@{
+                transform = "scale(1) translateX(0)"
+            }
+            '20%' = [Ordered]@{
+                transform = "scale(0.75,1.25) translateX(0)"
+            }
+            '40%' = [Ordered]@{
+                transform = "scale(1.25,0.75) translateX(2em)"
+            }
+            '60%' = [Ordered]@{
+                transform = "scale(0.85,1.15) translateX(0)"
+            }
+            '80%' = [Ordered]@{
+                transform = "scale(1.05,0.95) translateX(1em)"
+            }
+            '100%' = [Ordered]@{
+                transform = "scale(1) translateX(0)"
+            }        
         }
     }
 )
