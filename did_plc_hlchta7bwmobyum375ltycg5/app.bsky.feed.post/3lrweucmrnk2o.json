@@ -1,0 +1,54 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1750296692865529,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lrweudyxmt2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lrweucmrnk2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-19T01:31:31.302Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "",
+          "title": "Unofficial NuGet HTTP Protocol Reference",
+          "uri": "https://joelverhagen.github.io/NuGetUndocs/#endpoint-enumerate-packages"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 71,
+            "byteStart": 60
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://joelverhagen.github.io/NuGetUndocs/#endpoint-enumerate-packages"
+            }
+          ],
+          "index": {
+            "byteEnd": 141,
+            "byteStart": 103
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I cannot overstate how useful this page has been in writing #PowerShell scripts to query the gallery:\n\njoelverhagen.github.io/NuGetUndocs/..."
+    },
+    "cid": "bafyreibksb67cmhdwawyq4q6fza64wrihit3k5czcjhqql2jh73wgj4kty"
+  }
+}
