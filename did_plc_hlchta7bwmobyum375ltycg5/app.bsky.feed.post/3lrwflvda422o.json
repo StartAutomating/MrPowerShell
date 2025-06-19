@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1750297485267354,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lrwflxm4652c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lrwflvda422o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-06-19T01:44:42.665Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Gist get My PowerShell Gallery. GitHub Gist: instantly share code, notes, and snippets.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreialjfbvjmblgykiooldgd2f3gmv2hki2sjiofn7hm7imj53ituydi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 121763
+          },
+          "title": "Gist get My PowerShell Gallery",
+          "uri": "https://gist.github.com/StartAutomating/92c07436a7809ecdcf76bc72077d63a8"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 26,
+            "byteStart": 15
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Nuget"
+            }
+          ],
+          "index": {
+            "byteEnd": 59,
+            "byteStart": 53
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "OData"
+            }
+          ],
+          "index": {
+            "byteEnd": 66,
+            "byteStart": 60
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://gist.github.com/StartAutomating/92c07436a7809ecdcf76bc72077d63a8"
+            }
+          ],
+          "index": {
+            "byteEnd": 104,
+            "byteStart": 73
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "See how to get #PowerShell gallery metadata with the #Nuget #OData API:\n\ngist.github.com/StartAutomat..."
+    },
+    "cid": "bafyreiefaezqvsxbf72lqpmcyg775gpylmr2igare2sakies4u4wprgbxm"
+  }
+}
