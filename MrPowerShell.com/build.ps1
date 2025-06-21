@@ -179,10 +179,14 @@ if (-not $Site.NoIndex) {
             CreatedAt   = 
                 if ($gitDates) {
                     $gitDates[-1]
+                } else {
+                     $file.CreationTime
                 }
             LastWriteTime = 
                 if ($gitDates) {
-                    $gitDates[0]
+                    $gitDates[-1]
+                } else {
+                    $file.LastWriteTime
                 }
         }
     }
