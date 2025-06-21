@@ -161,17 +161,22 @@ if (-not $Site.NoIndex) {
             "^" + [regex]::Escape("$pwd")
         }
 
-    $indexObject = [Ordered]@{}
-    $gitCommand = $ExecutionContext.SessionState.InvokeCommand.GetCommand('git', 'Application')
+    $indexObject    = [Ordered]@{}
+    $gitCommand     = $ExecutionContext.SessionState.InvokeCommand.GetCommand('git', 'Application')
     foreach ($file in $fileIndex) {
-        $gitDates = try { (& $gitCommand log --follow --format=%ci --date default $file.FullName *>&1) -as [datetime[]] } catch { $null }
+        $gitDates = 
+            try { 
+                (& $gitCommand log --follow --format=%ci --date default $file.FullName *>&1) -as [datetime[]]
+            } catch {
+                $null
+            }
         $LASTEXITCODE = 0
+        
         $indexObject[$file.FullName -replace $replacement] = [Ordered]@{
-            Name = $file.Name
-            Url = ($site.RootUrl -replace '/$') + ($file.FullName -replace $replacement -replace '[\\/]','/')
-            Length = $file.Length
-            Extension = $file.Extension
-            CreatedAt = 
+            Name        = $file.Name            
+            Length      = $file.Length
+            Extension   = $file.Extension
+            CreatedAt   = 
                 if ($gitDates) {
                     $gitDates[-1]
                 }
