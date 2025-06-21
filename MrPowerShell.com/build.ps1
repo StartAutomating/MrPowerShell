@@ -184,7 +184,7 @@ if (-not $Site.NoIndex) {
                 }
             LastWriteTime = 
                 if ($gitDates) {
-                    $gitDates[-1]
+                    $gitDates[0]
                 } else {
                     $file.LastWriteTime
                 }
