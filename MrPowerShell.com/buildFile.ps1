@@ -25,6 +25,7 @@ if (-not $site.Pages) {
 :nextFile foreach ($file in $allFiles) {
     $outFile  = $file.FullName -replace '\.ps1$'
     $fileRoot = $file.Directory.FullName
+    Push-Location $fileRoot
     # Get the file name by removing the extension.
     $fileName = $file.Name.Substring(0, $file.Name.Length - $file.Extension.Length)
 
@@ -126,6 +127,7 @@ if (-not $site.Pages) {
         '.ps1' {
             # Unless the name is not like *.someExtension.ps1
             if ($file.Name -notlike '*.*.ps1') {
+                Pop-Location
                 continue nextFile
             }            
             # Get the script command
@@ -166,6 +168,7 @@ if (-not $site.Pages) {
     
     # If we don't have output,
     if ($null -eq $Output) {
+        Pop-Location
         continue nextFile # continue to the next file.
     }
     
@@ -309,6 +312,8 @@ if (-not $site.Pages) {
         }
     }
     #endregion Output
+
+    Pop-Location
 }
 
 Write-Progress -Id $progressId -Completed -Status "Building Pages" "$($file.Name) " 
