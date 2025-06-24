@@ -27,14 +27,6 @@ if (-not $site.Pages) {
     $fileRoot = $file.Directory.FullName
     # Get the file name by removing the extension.
     $fileName = $file.Name.Substring(0, $file.Name.Length - $file.Extension.Length)
-    # Generate a file date by:
-    $fileDate = $fileName -replace 
-            # * Remove any non-digit (except colon, dash, and underscore, and Z)
-            '[^\d:-_Z]' -replace
-                # * Trim leading punctuation, and trailing punctuation (and Z), 
-                '^\p{P}+' -replace '[-Z]+$' -replace
-                # * replace underscores with colons, and try to cast to `[DateTime]`
-                '_',':' -as [DateTime]
 
     Write-Progress -Id $progressId -Status "Building Pages" "$($file.Name) " -PercentComplete ((++$FileNumber / $TotalFiles) * 100)
     # Initialize the page object
@@ -44,63 +36,37 @@ if (-not $site.Pages) {
         File = $file
     }
 
+    # Generate a file date by:
+    $fileDate = $fileName -replace 
+        # * Remove any non-digit (except colon, dash, and underscore, and Z)
+        '[^\d:-_Z]' -replace
+            # * Trim leading punctuation, and trailing punctuation (and Z), 
+            '^\p{P}+' -replace '[-Z]+$' -replace
+            # * replace underscores with colons, and try to cast to `[DateTime]`
+            '_',':' -as [DateTime]
+    
+    # If we have a file date,
     if ($fileDate) {
-        $page.Date = $fileDate
+        $page.Date = $fileDate #  set the `$Page.Date`
     } else {
+        # otherwise, we'll try to get the date from git.
         $gitCommand = $ExecutionContext.SessionState.InvokeCommand.GetCommand('git', 'Application')
         if ($gitCommand) {
             $gitDates = 
-                try { 
+                try {
+                    # we can use `git log --follow --format=%ci` to get the dates in order
                     (& $gitCommand log --follow --format=%ci --date default $file.FullName *>&1) -as [datetime[]]
                 } catch {
                     $null
                 }
+            # Because the file might not be in git, we want to always set the `$LASTEXITCODE` to 0
             $LASTEXITCODE = 0
-            $page.Date = $gitDates[0]
-        }        
-    }
-    
-    # If we don't have a layout for this directory
-    if (-not $layoutAtPath[$fileRoot]) {
-        # go up until we find one.
-        while ($fileRoot) {
-            $layoutPath = Join-Path $fileRoot 'layout.ps1'
-            # once we do
-            if (Test-Path $layoutPath) {
-                # set it in the hashtable
-                $layoutAtPath[$fileRoot] = $ExecutionContext.SessionState.InvokeCommand.GetCommand($layoutPath, 'ExternalScript')
-                
-                break # and take a break.
-            }
-            $fileRoot = $fileRoot | Split-Path
+            # Set the date to the last date we find.
+            $page.Date = $gitDates[-1]
         }
     }
 
-    $layoutParameters = [Ordered]@{}
-    # If we have a layout for this directory, we'll use it.
-    if ($layoutAtPath[$fileRoot]) {
-        # all we need to do is set the alias to it.
-        Set-Alias layout $layoutAtPath[$fileRoot].Source
-
-        # check for any parameters from the layout script, in the page and site configuration.
-        $layoutParameters = $layoutAtPathParameters[$fileRoot] = [Ordered]@{}
-        :nextParameter foreach ($parameter in $layoutAtPath[$fileRoot].Parameters.GetEnumerator()) {
-            $potentialType = $parameter.Value.ParameterType
-            foreach ($PotentialName in 
-                @($parameter.Value.Name;$parameter.Value.Aliases) -ne ''
-            ) {
-                if ($page[$potentialName] -and $page[$potentialName] -as $potentialType) {
-                    $layoutParameters[$potentialName] = $page[$potentialName]
-                    continue nextParameter
-                }
-                elseif ($site[$potentialName] -and $site[$potentialName] -as $potentialType) {
-                    $layoutParameters[$potentialName] = $site[$potentialName]
-                    continue nextParameter
-                }
-            }
-        }
-    }
-
+    #region Data Files
     # We want to support data files for each potential page
     $dataFilePattern =
         # They are named the same as the file, but with an additional extension.
@@ -135,7 +101,9 @@ if (-not $site.Pages) {
             }
         }
     }
+    #endregion Data Files
 
+    #region Get Page Content
     $Output = $Content = $Page['Content'] = switch ($file.Extension) {
         # If it's a markdown file, we'll convert it to HTML.
         '.md' {
@@ -159,7 +127,7 @@ if (-not $site.Pages) {
             # Unless the name is not like *.someExtension.ps1
             if ($file.Name -notlike '*.*.ps1') {
                 continue nextFile
-            }
+            }            
             # Get the script command
             $scriptCmd = Get-Command -Name $file.FullName
             # and install any requirements it has.
@@ -194,14 +162,55 @@ if (-not $site.Pages) {
             
         }
     }
-
+    #endregion Get Page Content
+    
     # If we don't have output,
     if ($null -eq $Output) {
         continue nextFile # continue to the next file.
     }
+    
+    #region Prepare Layout
+    # If we don't have a layout for this directory
+    if (-not $layoutAtPath[$fileRoot]) {
+        # go up until we find one.
+        while ($fileRoot) {
+            $layoutPath = Join-Path $fileRoot 'layout.ps1'
+            # once we do
+            if (Test-Path $layoutPath) {
+                # set it in the hashtable
+                $layoutAtPath[$fileRoot] = 
+                    $ExecutionContext.SessionState.InvokeCommand.GetCommand($layoutPath, 'ExternalScript')
+                break # and take a break.
+            }
+            $fileRoot = $fileRoot | Split-Path
+        }
+    }
 
-    # $Site.Pages[$file.FullName] = $page
+    $layoutParameters = [Ordered]@{}
+    # If we have a layout for this directory, we'll use it.
+    if ($layoutAtPath[$fileRoot] -and -not $page.Layout) {
+        # all we need to do is set the alias to it.
+        Set-Alias layout $layoutAtPath[$fileRoot].Source
 
+        # check for any parameters from the layout script, in the page and site configuration.
+        $layoutParameters = $layoutAtPathParameters[$fileRoot] = [Ordered]@{}
+        :nextParameter foreach ($parameter in $layoutAtPath[$fileRoot].Parameters.GetEnumerator()) {
+            $potentialType = $parameter.Value.ParameterType
+            foreach ($PotentialName in @($parameter.Value.Name;$parameter.Value.Aliases) -ne '') {
+                if ($page[$potentialName] -and $page[$potentialName] -as $potentialType) {
+                    $layoutParameters[$potentialName] = $page[$potentialName]
+                    continue nextParameter
+                }
+                elseif ($site[$potentialName] -and $site[$potentialName] -as $potentialType) {
+                    $layoutParameters[$potentialName] = $site[$potentialName]
+                    continue nextParameter
+                }
+            }
+        }
+    }
+    #endregion Prepare Layout    
+
+    #region Output
     # If we're outputting markdown, and it's not yet HTML
     if ($outFile -match '\.md$' -and $output -notmatch '<html') {
         $outputAsMarkdown = @($output) -join [Environment]::NewLine
@@ -210,7 +219,10 @@ if (-not $site.Pages) {
 
     # If we're outputting to html, let's do a few things:
     if ($outFile -match '\.html?$') {
-        if ($outFile.Name -notmatch 'index\.html?$' -and  $permalink -eq 'pretty') {
+
+        if (
+            $outFile.Name -notmatch 'index\.html?$' -and 
+            $permalink -eq 'pretty') {
             $outFile = $outFile -replace '\.+?\.html$', '/index.html'
         }
 
@@ -296,6 +308,7 @@ if (-not $site.Pages) {
             Get-Item -Path $outFile
         }
     }
+    #endregion Output
 }
 
 Write-Progress -Id $progressId -Completed -Status "Building Pages" "$($file.Name) " 
