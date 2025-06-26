@@ -75,9 +75,30 @@ $(
 "</ul>"
 
 "<hr/>"
+
+#region Build Lexicon Hierarchy
 $treeDepth = 0
 $currentTreeBranch = ''
-$AllLexicons | 
+$lexiconHierarchy = [Ordered]@{}
+
+foreach ($lexicon in $AllLexicons) {
+    $currentLexicon = $lexiconHierarchy
+    foreach ($nameSegment in $lexicon.id.Split('.')) {
+        if (-not $currentLexicon[$nameSegment]) {
+            $currentLexicon[$nameSegment] = [Ordered]@{}
+        }
+        $lexiconParent = $currentLexicon
+        $currentLexicon = $currentLexicon[$nameSegment]
+    }
+    $lastNameSegment = $nameSegment
+    $lexiconParent[$lastNameSegment] = $lexicon.defs
+}
+#endregion Build Lexicon Hierarchy
+
+
+
+
+$AllLexicons |    
     ForEach-Object -Begin {
         "<ul class='atLexicons'>"
     } -Process {
@@ -95,6 +116,7 @@ $AllLexicons |
 "</details>"
 
 ConvertTo-Json -Depth 10 $AllLexicons > .\All.json
+ConvertTo-Json -Depth 10 $lexiconHierarchy > .\Hierarchy.json
 ($lexiconsById | ConvertTo-Json -Depth 10) > .\ById.json
 
 Pop-Location
