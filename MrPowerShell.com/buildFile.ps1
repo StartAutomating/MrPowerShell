@@ -174,7 +174,7 @@ if (-not $site.Pages) {
     
     #region Prepare Layout
     # If we don't have a layout for this directory
-    if (-not $layoutAtPath[$fileRoot]) {
+    if (-not $layoutAtPath[$fileRoot] -and -not $page.Layout) {
         # go up until we find one.
         while ($fileRoot) {
             $layoutPath = Join-Path $fileRoot 'layout.ps1'
@@ -191,13 +191,28 @@ if (-not $site.Pages) {
 
     $layoutParameters = [Ordered]@{}
     # If we have a layout for this directory, we'll use it.
-    if ($layoutAtPath[$fileRoot] -and -not $page.Layout) {
-        # all we need to do is set the alias to it.
+    if ($page.Layout) {
+        if ($page.Layout -is [Management.Automation.CommandInfo]) {
+            if ($page.Layout -is [Management.Automation.ExternalScriptInfo]) {
+                Set-Alias layout $page.Layout.Source
+            } else {
+                Set-Alias layout $page.Layout.Name
+            }
+        } elseif ($page.Layout -is [string]) {
+            Set-Alias layout $page.Layout
+        } elseif ($page.Layout -is [ScriptBlock]) {
+            $function:PageLayout = $page.Layout
+            Set-Alias layout PageLayout
+        }
+    } elseif ($layoutAtPath[$fileRoot]) {
         Set-Alias layout $layoutAtPath[$fileRoot].Source
+    }
 
+    $layoutCommand = $ExecutionContext.SessionState.InvokeCommand.GetCommand('layout', 'Alias')
+    if ($layoutCommand) {
         # check for any parameters from the layout script, in the page and site configuration.
         $layoutParameters = $layoutAtPathParameters[$fileRoot] = [Ordered]@{}
-        :nextParameter foreach ($parameter in $layoutAtPath[$fileRoot].Parameters.GetEnumerator()) {
+        :nextParameter foreach ($parameter in $layoutCommand.Parameters.GetEnumerator()) {
             $potentialType = $parameter.Value.ParameterType
             foreach ($PotentialName in @($parameter.Value.Name;$parameter.Value.Aliases) -ne '') {
                 if ($page[$potentialName] -and $page[$potentialName] -as $potentialType) {
