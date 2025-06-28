@@ -28,8 +28,7 @@ if (-not $site.PagesByUrl) {
 }
 $pagesByUrl = $site.PagesByUrl
 
-:nextFile foreach ($file in $allFiles) {
-    $outFile  = $file.FullName -replace '\.ps1$'
+:nextFile foreach ($file in $allFiles) {    
     $fileRoot = $file.Directory.FullName
     Push-Location $fileRoot
     # Get the file name by removing the extension.
@@ -113,6 +112,8 @@ $pagesByUrl = $site.PagesByUrl
     #endregion Data Files
 
     #region Get Page Content
+    $outFile  = $file.FullName -replace '\.ps1$'
+
     $Output = $Content = $Page['Content'] = switch ($file.Extension) {
         # If it's a markdown file, we'll convert it to HTML.
         '.md' {
@@ -248,8 +249,10 @@ $pagesByUrl = $site.PagesByUrl
 
         if (
             $outFile.Name -notmatch 'index\.html?$' -and 
+            $outFile.Name -notmatch '\d+\.html$' -and
             $permalink -eq 'pretty') {
-            $outFile = $outFile -replace '\.+?\.html$', '/index.html'
+                
+            $outFile = $outFile -replace '\.html$', '/index.html'
         }                
 
         # If the output has outerXML
