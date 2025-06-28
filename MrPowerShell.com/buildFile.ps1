@@ -21,6 +21,12 @@ if (-not $site) {
 if (-not $site.Pages) {
     $site.Pages = [Ordered]@{}
 }
+$pages = $site.Pages
+
+if (-not $site.PagesByUrl) {
+    $site.PagesByUrl = [Ordered]@{}
+}
+$pagesByUrl = $site.PagesByUrl
 
 :nextFile foreach ($file in $allFiles) {
     $outFile  = $file.FullName -replace '\.ps1$'
@@ -63,7 +69,9 @@ if (-not $site.Pages) {
             # Because the file might not be in git, we want to always set the `$LASTEXITCODE` to 0
             $LASTEXITCODE = 0
             # Set the date to the last date we find.
-            $page.Date = $gitDates[-1]
+            if ($gitDates) {
+                $page.Date = $gitDates[-1]                
+            }            
         }
     }
 
@@ -242,7 +250,7 @@ if (-not $site.Pages) {
             $outFile.Name -notmatch 'index\.html?$' -and 
             $permalink -eq 'pretty') {
             $outFile = $outFile -replace '\.+?\.html$', '/index.html'
-        }
+        }                
 
         # If the output has outerXML
         if ($output.OuterXml) {
@@ -255,6 +263,21 @@ if (-not $site.Pages) {
             # we'll use the layout.            
             $output = $output | layout @layoutParameters
         }
+    }    
+
+    # If the site has a root URL and script root,
+    # we can predict the URL of the page, and store it in `$site.PagesByUrl`.
+    if ($site.RootUrl -and $site.PSScriptRoot) {
+        $urlLocalPath = # To determine the local path of the URL,
+            $outFile -replace # replace the script root
+                "^$([Regex]::Escape($site.PSScriptRoot))" -replace
+                # and any remaining leading slashes,
+                '^[\\/]' -replace 
+                # then remove index.html from the end
+                'index.html$'
+        
+        # Store the page in the hashtable
+        $pagesByUrl[$site.RootUrl + $urlLocalPath] = $Page
     }
     
     if ($output -is [Data.DataSet]) {
