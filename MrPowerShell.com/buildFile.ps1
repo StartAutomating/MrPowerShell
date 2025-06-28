@@ -347,7 +347,14 @@ $pagesByUrl = $site.PagesByUrl
         # just output them directly.
         $outputFiles
     } else {
-        # otherwise, save it to a file.
+        # otherwise, we'll save output to a file.
+
+        # If the file does not exists
+        if (-not (Test-Path -Path $outFile)) {
+            # create an empty file.
+            $null = New-Item -Path $outFile -ItemType File -Force
+        }
+
         $output > $outFile
         # and if that worked,
         if ($?) {
