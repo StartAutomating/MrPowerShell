@@ -153,6 +153,9 @@ if (-not $Site.NoSitemap) {
     $siteMapXml = @(
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
         foreach ($key in $site.PagesByUrl.Keys) {
+            if ($site.PagesByUrl[$key].NoIndex) { continue }
+            if ($site.PagesByUrl[$key].NoSitemap) { continue }
+            if ($site.PagesByUrl[$key].OutputFile.Extension -ne '.html') { continue }
             "<url>"
             "<loc>$key</loc>"
             if ($site.PagesByUrl[$key].Date) {
@@ -166,7 +169,7 @@ if (-not $Site.NoSitemap) {
         $siteMapXml.Save((
             Join-Path $site.PSScriptRoot sitemap.xml
         ))
-    }    
+    }
 }
 #endregion sitemap.xml
 
