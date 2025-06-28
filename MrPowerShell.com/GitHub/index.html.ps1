@@ -51,8 +51,8 @@ $markdown = @(
 "## Some Stats:"
 
 "  * $totalStars ★"
-"  * $($myGitHubInfo.followers) followers"
-"  * $($myRepos.Count) public repos"
+"  * [$($myGitHubInfo.followers) followers](https://github.com/$GitHubUserName?tab=followers)"
+"  * [$($myRepos.Count) public repos](https://github.com/$GitHubUserName?tab=repositories)"
 "  * $($($myRepos | Where-Object -Not Fork | Measure-Object).Count) of my repos are original"
 "  * $($($myRepos | Where-Object Fork | Measure-Object).Count) of my repos are forks"
 "  * $($($myRepos | Measure-Object -Property forks_count -Sum).Sum) forks of my repos"
