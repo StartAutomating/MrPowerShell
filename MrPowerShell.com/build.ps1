@@ -148,6 +148,28 @@ if ($lastBuild) {
 $newLastBuild | ConvertTo-Json -Depth 2 > lastBuild.json
 #endregion lastBuild.json
 
+#region sitemap.xml
+if (-not $Site.NoSitemap) {
+    $siteMapXml = @(
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+        foreach ($key in $site.PagesByUrl.Keys) {
+            "<url>"
+            "<loc>$key</loc>"
+            if ($site.PagesByUrl[$key].Date) {
+                "<lastmod>$($site.PagesByUrl[$key].Date.ToString('yyyy-MM-dd'))</lastmod>"
+            }
+            "</url>"
+        }
+        '</urlset>'
+    ) -join ' ' -as [xml]
+    if ($siteMapXml) {
+        $siteMapXml.Save((
+            Join-Path $site.PSScriptRoot sitemap.xml
+        ))
+    }    
+}
+#endregion sitemap.xml
+
 #region index.json
 if (-not $Site.NoIndex) {
     $fileIndex =
