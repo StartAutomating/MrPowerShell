@@ -246,10 +246,9 @@ $pagesByUrl = $site.PagesByUrl
 
     # If we're outputting to html, let's do a few things:
     if ($outFile -match '\.html?$') {
-
         if (
-            $outFile.Name -notmatch 'index\.html?$' -and 
-            $outFile.Name -notmatch '\d+\.html$' -and
+            $outFile -notmatch 'index\.html?$' -and 
+            $outFile -notmatch '\d+\.html$' -and
             $permalink -eq 'pretty') {
                 
             $outFile = $outFile -replace '\.html$', '/index.html'
