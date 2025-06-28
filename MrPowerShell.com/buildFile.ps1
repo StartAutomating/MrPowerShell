@@ -263,7 +263,7 @@ $pagesByUrl = $site.PagesByUrl
             # we'll use the layout.            
             $output = $output | layout @layoutParameters
         }
-    }    
+    }
 
     # If the site has a root URL and script root,
     # we can predict the URL of the page, and store it in `$site.PagesByUrl`.
@@ -294,21 +294,24 @@ $pagesByUrl = $site.PagesByUrl
                     Set-Content -Path $outFile
                 
                 if ($?) {
-                    Get-Item -Path $outFile
+                    $page.OutputFile = Get-Item -Path $outFile
+                    $page.OutputFile
                     continue nextFile
                 }                
             }
             '\.xml$' {
                 $output.WriteXml("$outFile")
                 if ($?) {
-                    Get-Item -Path $outFile
+                    $page.OutputFile = Get-Item -Path $outFile
+                    $page.OutputFile
                     continue nextFile
                 }
             }
             '\.xsd$' {
                 $output.WriteXmlSchema("$outFile")
                 if ($?) {
-                    Get-Item -Path $outFile
+                    $page.OutputFile = Get-Item -Path $outFile
+                    $page.OutputFile
                     continue nextFile
                 }
             }
@@ -328,7 +331,8 @@ $pagesByUrl = $site.PagesByUrl
         # and if that worked,
         if ($?) {
             # output the file.
-            Get-Item -Path $outFile
+            $page.OutputFile = Get-Item -Path $outFile
+            $page.OutputFile
         }
     }
     # If the output was a series of fileInfo objects
@@ -346,7 +350,8 @@ $pagesByUrl = $site.PagesByUrl
         # and if that worked,
         if ($?) {
             # output the file.
-            Get-Item -Path $outFile
+            $page.OutputFile = Get-Item -Path $outFile
+            $page.OutputFile
         }
     }
     #endregion Output
