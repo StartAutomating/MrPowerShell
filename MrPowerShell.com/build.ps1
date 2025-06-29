@@ -223,6 +223,27 @@ if ($rssXml) {
 }
 #endregion index.rss
 
+#region robots.txt
+if (-not $Site.NoRobots) {
+    @(
+        "User-agent: *"
+        if ($site.Disallow) {
+            foreach ($disallow in $site.Disallow) {
+                "Disallow: $disallow"
+            }
+        }
+        if ($site.Allow) {
+            foreach ($allow in $site.Allow) {
+                "Allow: $allow"
+            }
+        }
+        if ($site.CNAME -and -not $site.NoSitemap) {
+            "Sitemap: https://$($site.CNAME)/sitemap.xml"
+        }
+    ) > robots.txt    
+}
+#endregion robots.txt
+
 #region index.json
 if (-not $Site.NoIndex) {
     $fileIndex =
