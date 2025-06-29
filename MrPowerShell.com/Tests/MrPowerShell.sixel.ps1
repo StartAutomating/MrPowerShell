@@ -4,4 +4,4 @@ param(
     $Image = 'https://MrPowerShell.com/MrPowerShell.png'
 )
 
-ConvertTo-Sixel -Url $Image
+ConvertTo-Sixel -Url $Image -Force
