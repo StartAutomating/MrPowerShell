@@ -158,7 +158,7 @@ if (-not $Site.NoSitemap) {
             if ($site.PagesByUrl[$key].OutputFile.Extension -ne '.html') { continue }
             "<url>"
             "<loc>$key</loc>"
-            if ($site.PagesByUrl[$key].Date) {
+            if ($site.PagesByUrl[$key].Date -is [DateTime]) {
                 "<lastmod>$($site.PagesByUrl[$key].Date.ToString('yyyy-MM-dd'))</lastmod>"
             }
             "</url>"
@@ -172,6 +172,56 @@ if (-not $Site.NoSitemap) {
     }
 }
 #endregion sitemap.xml
+
+#region index.rss
+$pagesByDate = $site.PagesByUrl.GetEnumerator() | 
+    Sort-Object { $_.Value.Date } -Descending
+$rssXml = @(
+    '<rss version="2.0">'
+        '<channel>'
+        "<title>$([Security.SecurityElement]::Escape($(
+            if ($site.Title) { $site.Title } else { $site.CNAME }
+        )))</title>"
+        "<link>$($site.RootUrl)</link>"        
+        "<description>$([Security.SecurityElement]::Escape($(
+            if ($site.Description) { $site.Description } else { $site.Title }
+        )))</description>"
+        "<pubDate>$($pagesByDate[0].Value.Date.ToString('R'))</pubDate>"
+        "<lastBuildDate>$($lastBuildTime.ToString('R'))</lastBuildDate>"
+        "<language>$([Security.SecurityElement]::Escape($site.Language))</language>"        
+        foreach ($keyValue in $pagesByDate) {
+            $key = $keyValue.Key
+            $page = $keyValue.Value
+            if ($site.PagesByUrl[$key].NoIndex) { continue }
+            if ($site.PagesByUrl[$key].NoSitemap) { continue }
+            if ($site.PagesByUrl[$key].OutputFile.Extension -ne '.html') { continue }
+            "<item>"
+            "<title>$([Security.SecurityElement]::Escape($(
+                if ($page.Title) { $page.Title } 
+                elseif ($site.Title) { $site.Title }
+                else { $site.CNAME }
+            )))</title>"
+            if ($site.PagesByUrl[$key].Date -is [DateTime]) {
+                "<pubDate>$($site.PagesByUrl[$key].Date.ToString('R'))</pubDate>"
+            }
+            "<description>$([Security.SecurityElement]::Escape($(
+                if ($page.Description) { $page.Description } 
+                elseif ($site.Description) { $site.Description }
+                else { $site.CNAME }
+            )))</description>"
+            "<link>$key</link>"
+            "<guid isPermaLink='true'>$key</guid>"
+            "</item>"
+        }
+        '</channel>'
+    '</rss>'
+) -join ' ' -as [xml]
+if ($rssXml) {
+    $rssXml.Save((
+        Join-Path $site.PSScriptRoot index.rss
+    ))
+}
+#endregion index.rss
 
 #region index.json
 if (-not $Site.NoIndex) {
