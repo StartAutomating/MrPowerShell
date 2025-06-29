@@ -152,7 +152,7 @@ $newLastBuild | ConvertTo-Json -Depth 2 > lastBuild.json
 if (-not $Site.NoSitemap) {
     $siteMapXml = @(
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
-        foreach ($key in $site.PagesByUrl.Keys) {
+        foreach ($key in $site.PagesByUrl.Keys | Sort-Object { "$_".Length}, "$_") {
             if ($site.PagesByUrl[$key].NoIndex) { continue }
             if ($site.PagesByUrl[$key].NoSitemap) { continue }
             if ($site.PagesByUrl[$key].OutputFile.Extension -ne '.html') { continue }
