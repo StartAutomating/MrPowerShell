@@ -93,7 +93,16 @@ Update-TypeData -TypeName PowerShellGallery.Module -Force -MemberType ScriptProp
 
 Update-TypeData -TypeName PowerShellGallery.Module -Force -MemberType ScriptMethod -MemberName ToHtml -Value {
     param()
-    "<div class='powershell-gallery-module'>"    
+    $attributes = [Ordered]@{
+        'class' = 'powershell-gallery-module'
+        'data-module-name'        = $this.Name
+        'data-module-version'     = $this.Version
+        'data-module-downloads'   = $this.Downloads
+        'data-module-created-at'  = $this.CreatedAt.ToString('o')
+        'data-module-last-updated'= $this.LastUpdated.ToString('o')
+    }
+    $attributeString = @($attributes.GetEnumerator() | ForEach-Object { "$($_.Key)='$($_.Value)'" }) -join ' '
+    "<div $attributeString>"    
         "<h2>"
         "<a href='$($this.ProjectUrl)'>$($this.Name)</a>"        
         "</h2>"
@@ -103,6 +112,7 @@ Update-TypeData -TypeName PowerShellGallery.Module -Force -MemberType ScriptMeth
         "<h3>v$($this.Version)</h3>"
         "<h4>$([Web.HttpUtility]::HtmlEncode($this.Description))</h4>"
         "<p>Created: $($this.CreatedAt.ToString('yyyy-MM-dd'))</p>"
+        "<p>Last Updated: $($this.LastUpdated.ToString('yyyy-MM-dd'))</p>"
     "</div>"
 }
 
@@ -119,13 +129,47 @@ $moduleList = @($moduleList | Sort-Object -Property Downloads -Descending)
 "<style>"
 ".powershell-gallery-modules { display: grid; grid-template-columns: repeat(auto-fit, minmax(42em, 1fr)); gap: 2.5em; margin: 5em}"
 ".powershell-gallery-total  { font-size: 2em; text-align: center; }"
+".powershell-gallery-sort   { font-size: 1.5em; text-align: center;}"
 "h1 { text-align: center; }"
 "</style>"
 "<h1>My PowerShell Modules</h1>"
 if ($ShowGalleryTotal) {
     "<div class='powershell-gallery-total'>Total Downloads: $("{0:N0}" -f ($moduleList | Measure-Object -Property Downloads -Sum | Select-Object -ExpandProperty Sum))</div>"
 }
-
+"<div class='powershell-gallery-sort'>"
+"Sort by:"
+"<select id='sort-modules'>"
+"<option value='downloads' selected>Downloads</option>"
+"<option value='created'>Created At</option>"
+"<option value='lastUpdated'>Last Updated</option>"
+"<option value='name'>Name</option>"
+"<option value='version'>Version</option>"
+"</select>"
+"<script>"
+"document.getElementById('sort-modules').addEventListener('change', function(event) {"
+"    const sortBy = event.target.value;"
+"    const container = document.querySelector('.powershell-gallery-modules');"
+"    const modules = Array.from(container.children);"
+"    modules.sort((a, b) => {"
+"        if (sortBy === 'downloads') {"
+"            return parseInt(b.dataset.moduleDownloads) - parseInt(a.dataset.moduleDownloads);"
+"        } else if (sortBy === 'created') {"
+"            return new Date(b.dataset.moduleCreatedAt) - new Date(a.dataset.moduleCreatedAt);"
+"        } else if (sortBy === 'lastUpdated') {"
+"            return new Date(b.dataset.moduleLastUpdated) - new Date(a.dataset.moduleLastUpdated);"
+"        } else if (sortBy === 'name') {"
+"            return a.dataset.moduleName.localeCompare(b.dataset.moduleName);"
+"        } else if (sortBy === 'version') {"
+"            return a.dataset.moduleVersion.localeCompare(b.dataset.moduleVersion, undefined, {numeric: true}) * -1;"
+"        }"
+"        return 0;"
+"    });"
+"    for (let i = 0; i < modules.length; i++) {"
+"        modules[i].style.order = i + 1;"
+"    }"
+"});"
+"</script>"
+"</div>"
 "<div class='powershell-gallery-modules'>"
 foreach ($moduleInfo in $moduleList) {
     $moduleInfo.ToHtml()
