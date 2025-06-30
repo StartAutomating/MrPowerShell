@@ -25,8 +25,8 @@ param(
     $Skip = 0
 )
 
-
-
+$title = "My PowerShell Modules"
+$description = "My PowerShell modules published to the PowerShell Gallery."
 
 $fullUrl = (
     "https://www.powershellgallery.com/api/v2/Packages()?" +
@@ -111,8 +111,7 @@ Update-TypeData -TypeName PowerShellGallery.Module -Force -MemberType ScriptMeth
         "</a>"
         "<h3>v$($this.Version)</h3>"
         "<h4>$([Web.HttpUtility]::HtmlEncode($this.Description))</h4>"
-        "<p>Created: $($this.CreatedAt.ToString('yyyy-MM-dd'))</p>"
-        "<p>Last Updated: $($this.LastUpdated.ToString('yyyy-MM-dd'))</p>"
+        "<p>Created: $($this.CreatedAt.ToString('yyyy-MM-dd'))</p>"        
     "</div>"
 }
 
@@ -127,7 +126,7 @@ $moduleList = @(foreach ($moduleInfo in $moduleList) {
 
 $moduleList = @($moduleList | Sort-Object -Property Downloads -Descending)
 "<style>"
-".powershell-gallery-modules { display: grid; grid-template-columns: repeat(auto-fit, minmax(42em, 1fr)); gap: 2.5em; margin: 5em}"
+".powershell-gallery-modules { display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 2.5em; margin: 2.5em}"
 ".powershell-gallery-total  { font-size: 2em; text-align: center; }"
 ".powershell-gallery-sort   { font-size: 1.5em; text-align: center;}"
 "h1 { text-align: center; }"
@@ -141,7 +140,6 @@ if ($ShowGalleryTotal) {
 "<select id='sort-modules'>"
 "<option value='downloads' selected>Downloads</option>"
 "<option value='created'>Created At</option>"
-"<option value='lastUpdated'>Last Updated</option>"
 "<option value='name'>Name</option>"
 "<option value='version'>Version</option>"
 "</select>"
@@ -155,8 +153,6 @@ if ($ShowGalleryTotal) {
 "            return parseInt(b.dataset.moduleDownloads) - parseInt(a.dataset.moduleDownloads);"
 "        } else if (sortBy === 'created') {"
 "            return new Date(b.dataset.moduleCreatedAt) - new Date(a.dataset.moduleCreatedAt);"
-"        } else if (sortBy === 'lastUpdated') {"
-"            return new Date(b.dataset.moduleLastUpdated) - new Date(a.dataset.moduleLastUpdated);"
 "        } else if (sortBy === 'name') {"
 "            return a.dataset.moduleName.localeCompare(b.dataset.moduleName);"
 "        } else if (sortBy === 'version') {"
