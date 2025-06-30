@@ -142,7 +142,7 @@ foreach ($repoInfo in $myRepos | Where-Object Fork -Not | Sort-Object stargazers
         "<p>★ $($repoInfo.stargazers_count) | Forks: $($repoInfo.forks_count) | Watchers: $($repoInfo.watchers_count) | Open Issues: $($repoInfo.open_issues_count)</p>"
         "<p>Created: $($repoInfo.created_at.ToString('yyyy-MM-dd')) | Updated: $($repoInfo.updated_at.ToString('yyyy-MM-dd'))</p>"
         if ($postsAboutRepos) {
-            $post = $postsAboutRepos | Where-Object { $_.commit.record.embed.external.uri -eq $repoInfo.html_url } | Get-Random
+            $post = $postsAboutRepos | Where-Object { $_.commit.record.embed.external.uri -match "^$([Regex]::Escape($repoInfo.html_url))" } | Get-Random
             if ($post) {
                 $thumbRef = $post.commit.record.embed.external.thumb.ref.'$link'
                 $imageTag =  if ($thumbRef) {
