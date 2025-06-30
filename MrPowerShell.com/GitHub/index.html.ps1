@@ -110,7 +110,7 @@ $markdown = @(
 "            return new Date(b.dataset.repoCreatedAt) - new Date(a.dataset.repoCreatedAt);"
 "        } else if (sortBy === 'repoUpdatedAt') {"
 "            return new Date(b.dataset.repoUpdatedAt) - new Date(a.dataset.repoUpdatedAt);"
-"        } elseif (sortBy === 'repoRandom') {"
+"        } else if (sortBy === 'repoRandom') {"
 "            return Math.random() - 0.5;"
 "        }"
 "        return 0;"
