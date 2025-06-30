@@ -152,10 +152,19 @@ $newLastBuild | ConvertTo-Json -Depth 2 > lastBuild.json
 if (-not $Site.NoSitemap) {
     $siteMapXml = @(
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
-        foreach ($key in $site.PagesByUrl.Keys | Sort-Object { "$_".Length}) {
-            if ($site.PagesByUrl[$key].NoIndex) { continue }
-            if ($site.PagesByUrl[$key].NoSitemap) { continue }
-            if ($site.PagesByUrl[$key].OutputFile.Extension -ne '.html') { continue }
+        :nextPage foreach ($key in $site.PagesByUrl.Keys | Sort-Object { "$_".Length}) {            
+            $key = $keyValue.Key
+            $keyUri = $key -as [Uri]
+            $page = $site.PagesByUrl[$key]
+            if ($site.Disallow) {
+                foreach ($disallow in $site.Disallow) {
+                    if ($keyUri.LocalPath -like "*$disallow*") { continue nextPage }
+                    if ($keyUri.AbsoluteUri -like "*$disallow*") { continue nextPage }
+                }
+            }
+            if ($page.NoIndex) { continue }
+            if ($page.NoSitemap) { continue }
+            if ($page.OutputFile.Extension -ne '.html') { continue }
             "<url>"
             "<loc>$key</loc>"
             if ($site.PagesByUrl[$key].Date -is [DateTime]) {
@@ -189,15 +198,22 @@ $rssXml = @(
         "<pubDate>$($pagesByDate[0].Value.Date.ToString('R'))</pubDate>"
         "<lastBuildDate>$($lastBuildTime.ToString('R'))</lastBuildDate>"
         "<language>$([Security.SecurityElement]::Escape($site.Language))</language>"        
-        foreach ($keyValue in $pagesByDate) {
+        :nextPage foreach ($keyValue in $pagesByDate) {
             $key = $keyValue.Key
+            $keyUri = $key -as [Uri]
             $page = $keyValue.Value
+            if ($site.Disallow) {
+                foreach ($disallow in $site.Disallow) {
+                    if ($keyUri.LocalPath -like "*$disallow*") { continue nextPage }
+                    if ($keyUri.AbsoluteUri -like "*$disallow*") { continue nextPage }
+                }
+            }
             if ($site.PagesByUrl[$key].NoIndex) { continue }
             if ($site.PagesByUrl[$key].NoSitemap) { continue }
             if ($site.PagesByUrl[$key].OutputFile.Extension -ne '.html') { continue }
             "<item>"
             "<title>$([Security.SecurityElement]::Escape($(
-                if ($page.Title) { $page.Title } 
+                if ($page.Title) { $page.Title }
                 elseif ($site.Title) { $site.Title }
                 else { $site.CNAME }
             )))</title>"
@@ -205,9 +221,8 @@ $rssXml = @(
                 "<pubDate>$($site.PagesByUrl[$key].Date.ToString('R'))</pubDate>"
             }
             "<description>$([Security.SecurityElement]::Escape($(
-                if ($page.Description) { $page.Description } 
+                if ($page.Description) { $page.Description }
                 elseif ($site.Description) { $site.Description }
-                else { $site.CNAME }
             )))</description>"
             "<link>$key</link>"
             "<guid isPermaLink='true'>$key</guid>"
@@ -240,7 +255,7 @@ if (-not $Site.NoRobots) {
         if ($site.CNAME -and -not $site.NoSitemap) {
             "Sitemap: https://$($site.CNAME)/sitemap.xml"
         }
-    ) > robots.txt    
+    ) > robots.txt
 }
 #endregion robots.txt
 
@@ -300,7 +315,7 @@ if (-not $Site.NoIndex) {
         }
     }
     
-    $indexObject | ConvertTo-Json -Depth 4 > index.json    
+    $indexObject | ConvertTo-Json -Depth 4 > index.json
 }
 #endregion index.json
 
