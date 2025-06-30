@@ -22,6 +22,7 @@ param(
 )
 
 $Title = "My GitHub Repos"
+$Description = "Most of My GitHub repositories"
 
 if (-not $script:CachedRepoList) {
     $script:CachedRepoList = [Ordered]@{}    
@@ -89,7 +90,6 @@ $markdown = @(
 "<option value='repoForks'>Forks</option>"
 "<option value='repoName'>Name</option>"
 "<option value='repoWatchers'>Watchers</option>"
-
 "</select>"
 "<script>"
 "document.getElementById('sort-repos').addEventListener('change', function(event) {"
