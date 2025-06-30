@@ -126,7 +126,8 @@ $moduleList = @(foreach ($moduleInfo in $moduleList) {
 
 $moduleList = @($moduleList | Sort-Object -Property Downloads -Descending)
 "<style>"
-".powershell-gallery-modules { display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 2.5em; margin: 2.5em}"
+'--grid-item-size: 300px;'
+".powershell-gallery-modules { display: grid; grid-template-columns: repeat(auto-fit, minmax(var(--grid-item-size), 1fr)); gap: 2.5em; margin: 2.5em}"
 ".powershell-gallery-total  { font-size: 2em; text-align: center; }"
 ".powershell-gallery-sort   { font-size: 1.5em; text-align: center;}"
 "h1 { text-align: center; }"
