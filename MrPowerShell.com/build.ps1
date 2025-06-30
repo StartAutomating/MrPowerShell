@@ -152,8 +152,7 @@ $newLastBuild | ConvertTo-Json -Depth 2 > lastBuild.json
 if (-not $Site.NoSitemap) {
     $siteMapXml = @(
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
-        :nextPage foreach ($key in $site.PagesByUrl.Keys | Sort-Object { "$_".Length}) {            
-            $key = $keyValue.Key
+        :nextPage foreach ($key in $site.PagesByUrl.Keys | Sort-Object { "$_".Length}) {
             $keyUri = $key -as [Uri]
             $page = $site.PagesByUrl[$key]
             if ($site.Disallow) {
