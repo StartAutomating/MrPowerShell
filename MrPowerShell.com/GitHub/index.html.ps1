@@ -81,6 +81,7 @@ $markdown = @(
 "<div class='github-repo-sorter'>"
 "Sort by:"
 "<select id='sort-repos'>"
+"<option value='repoRandom'>Random</option>"
 "<option value='repoStars' selected>Stars</option>"
 "<option value='repoUpdatedAt'>Updated At</option>"
 "<option value='repoCreatedAt'>Created At</option>"
@@ -88,7 +89,7 @@ $markdown = @(
 "<option value='repoForks'>Forks</option>"
 "<option value='repoName'>Name</option>"
 "<option value='repoWatchers'>Watchers</option>"
-"<option value='repoRandom'>Random</option>"
+
 "</select>"
 "<script>"
 "document.getElementById('sort-repos').addEventListener('change', function(event) {"
