@@ -164,7 +164,14 @@ $pagesByUrl = $site.PagesByUrl
                 }
             }
             try {
+                $description = ''
                 . $file @FileParameters
+                if ($description -and -not $page.Description) {
+                    $page.Description = $description
+                }
+                if ($title -and -not $page.Title) {
+                    $page.Title = $title
+                }                
             } catch {
                 $errorInfo = $_
                 "##[error]$($errorInfo | Out-String)"
