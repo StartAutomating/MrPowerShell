@@ -1,3 +1,13 @@
+<#
+.SYNOPSIS
+    Gets my GitHub repositories
+.DESCRIPTION
+    Gets my GitHub repositories and displays them as HTML.
+.EXAMPLE
+    ./index.html.ps1
+.LINK
+    https://MrPowerShell.com/GitHub
+#>
 #requires -Module PSDevOps
 param(
     [string]
