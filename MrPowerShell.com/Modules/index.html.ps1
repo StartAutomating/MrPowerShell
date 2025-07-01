@@ -14,8 +14,10 @@ param(
     [Alias('GalleryCondition')]
     [string[]]
     $GalleryConditions = @(
-        "CompanyName eq 'Start-Automating'", 
-        "Authors eq 'James Brundage'"
+        "CompanyName eq 'Start-Automating'",
+        "CompanyName eq 'Start Automating'",         
+        "Authors eq 'James Brundage'",
+        "Authors eq 'JamesBrundage'"
     ),
 
     [switch]
