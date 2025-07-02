@@ -253,11 +253,26 @@ $pagesByUrl = $site.PagesByUrl
 
     # If we're outputting to html, let's do a few things:
     if ($outFile -match '\.html?$') {
-        
+        # If the output file was README, and we don't have an index.html,
+        # we'll make README.html as index.html.
         if ($outFile -match 'README\.html$' -and -not (
             Test-Path ($outFile -replace 'README\.html$', 'index.html')
         )) {
             $outFile = $outFile -replace 'README\.html$', 'index.html'
+        }
+
+        # If the output file is named the same as the directory
+        $directoryNamePattern = "$([Regex]::Escape($file.Directory.Name))\.html$"
+        if (            
+            $outFile -match $directoryNamePattern -and 
+            -not ( # and there is no index.html,
+                Test-Path ($outFile -replace $directoryNamePattern, 'index.html')
+            ) -and -not ( # and there should not be one in the future
+                Test-Path ($outFile -replace $directoryNamePattern, 'index.html.ps1')
+            )
+        ) {            
+            # Then this will become the index.html.
+            $outFile = $outFile -replace $directoryNamePattern, 'index.html'
         }
 
         if (
