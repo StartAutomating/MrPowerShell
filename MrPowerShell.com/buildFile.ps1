@@ -253,6 +253,13 @@ $pagesByUrl = $site.PagesByUrl
 
     # If we're outputting to html, let's do a few things:
     if ($outFile -match '\.html?$') {
+        
+        if ($outFile -match '^README\.html$' -and -not (
+            Test-Path ($outFile -replace '^README\.html$', 'index.html')
+        )) {
+            $outFile = $outFile -replace '^README\.html$', 'index.html'
+        }
+
         if (
             $outFile -notmatch 'index\.html?$' -and 
             $outFile -notmatch '\d+\.html$' -and
