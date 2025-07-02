@@ -1,4 +1,17 @@
+<#
+.SYNOPSIS
+    Layout script
+.DESCRIPTION
+    This script is used to layout a page with a consistent style and structure.
+
+    If a file generates HTML but does not include an `<html>` tag, it's output should be piped to this script.
+
+    Any directories without a layout should use the nearest `layout.ps1` file in a parent directory.
+
+    Layout parameters can be provided by the site or page.
+#>
 param(
+    # The name of the palette to use.
     [Alias('Palette')]
     [string]
     $PaletteName = $(
@@ -6,6 +19,7 @@ param(
         else { 'Konsolas' }    
     ),
 
+    # The Google Font name
     [Alias('FontName')]
     [string]
     $Font        = $(
@@ -13,17 +27,25 @@ param(
         else { 'Roboto' }
     ),
 
+    # The Google Code Font name
     [string]
     $CodeFont   = $(
         if ($config -and $config['CodeFontName']) { $config['CodeFontName'] }
         else { 'Inconsolata' }
     ),
-        
+    
+    # The urls for any icons.
     [string[]]
     $FavIcon,
 
+    # Any CSS keyframes to include.
+    # The keyframes should be a dictionary of dictionaries.
     [Collections.IDictionary]
-    $Menu
+    [Alias('Keyframes')]
+    $Keyframe = $(
+        if ($config -and $config['Keyframe']) { $config['Keyframe'] }
+        else { @{} }
+    )
 )
 
 $argsAndinput = @($args) + @($input)
@@ -104,7 +126,6 @@ $breadcrumbBar = @(
     padding: 0.25em;
 }
 '@
-
 "</style>"
 
 "<nav id='breadcrumbBar' class='breadcrumBar upperLeft'>"
@@ -144,6 +165,21 @@ a, a:visited {
     color: var(--foreground);
     text-decoration: none;
 }
+$(@(foreach ($keyframeName in $keyframe.Keys) {
+    $keyframeKeyframes = $keyframe[$keyframeName]
+    "@keyframes $keyframeName {"
+    foreach ($percent in $keyframeKeyframes.Keys) {
+        "  $percent {"
+        $props = $keyframeKeyframes[$percent]
+        foreach ($prop in $props.Keys) {
+            $value = $props.$prop
+            "    ${prop}: $value;"
+        }
+        "  }"
+    }
+    "}"
+    ".$keyframeName { animation-name: $keyframeName; }"
+}) -join [Environment]::NewLine)
 "@
 
 @"
