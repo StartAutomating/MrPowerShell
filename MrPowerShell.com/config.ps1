@@ -13,8 +13,7 @@
 
 #region At Protocol
 
-#region At Protocol Data
-
+#region At Data
 # If we have a script root, we'll use it to set the working directory.
 if ($psScriptRoot) {Push-Location $psScriptRoot}
 
@@ -30,7 +29,8 @@ $parentPath = $PSScriptRoot | Split-Path -Parent
 $atJsonFiles = $parentPath | 
     Get-ChildItem -Filter did* |
     Get-ChildItem -Directory | 
-    Get-ChildItem -Filter *.json # and get any json files in them.    
+    Get-ChildItem -Filter *.json # and get any json files in them.
+
 foreach ($jsonFile in $atJsonFiles) {
     $jsonText = Get-Content -Path $jsonFile.FullName -Raw
     $jsonObject = ConvertFrom-Json -InputObject $jsonText
@@ -69,14 +69,14 @@ if ($site -is [Collections.IDictionary]) {
     $site.AtData = $atProtocolData
 }
 
-#endregion At Protocol Data
+#endregion At Data
 
 #region at.zip 
 $atPackage = [IO.Packaging.Package]::Open("$pwd/at.zip", "OpenOrCreate", "ReadWrite")
 foreach ($dataTable in $atProtocolData.Tables) {
-    $dataSchemaPart = 
+    $dataSchemaPart =
         if (-not $atPackage.PartExists("/$($dataTable.TableName).xsd")) {
-            $atPackage.CreatePart("/$($dataTable.TableName).xsd", "application/xml", 'Maximum')    
+            $atPackage.CreatePart("/$($dataTable.TableName).xsd", "application/xml", 'Maximum')
         } else {
             $atPackage.GetPart("/$($dataTable.TableName).xsd")
         }
@@ -88,7 +88,7 @@ foreach ($dataTable in $atProtocolData.Tables) {
 
     $dataTablePart =
         if (-not $atPackage.PartExists("/$($dataTable.TableName).xml")) {
-            $atPackage.CreatePart("/$($dataTable.TableName).xml", "application/xml", 'Maximum')    
+            $atPackage.CreatePart("/$($dataTable.TableName).xml", "application/xml", 'Maximum')
         } else {
             $atPackage.GetPart("/$($dataTable.TableName).xml")
         }
@@ -129,6 +129,12 @@ $site.TopRight['https://github.com/StartAutomating/MrPowerShell'] =
         Join-Path $PSScriptRoot Assets | 
             Join-Path -ChildPath 'GitHub.svg'
     ) -Raw
+$site.TopRight['https://MrPowerShell.com/RSS/index.rss'] =
+    Get-Content -Path (
+        Join-Path $PSScriptRoot Assets | 
+            Join-Path -ChildPath 'RSS.svg'
+    ) -Raw
+
     
 <#
 $Site.BottomLeft['https://github.com/StartAutomating/MrPowerShell/actions/workflows/deploy.yml'] =
