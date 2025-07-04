@@ -18,6 +18,10 @@
 # If we have a script root, we'll use it to set the working directory.
 if ($psScriptRoot) {Push-Location $psScriptRoot}
 
+if (-not $Site) {
+    $Site = [Ordered]@{}
+}
+
 # Create a new DataSet to hold the At Protocol data.
 $atProtocolData = [Data.DataSet]::new('AtProtocol')
 # Look up in the path
@@ -101,3 +105,32 @@ if ($psScriptRoot) {Pop-Location}
 #endregion at.zip
 
 #endregion At Protocol
+
+#region Site Iconography
+if (-not $site.TopRight) { 
+    $site.TopRight = [Ordered]@{}
+}
+if (-not $site.TopLeft) { 
+    $site.TopLeft = [Ordered]@{}
+}
+if (-not $site.BottomRight) {
+    $site.BottomRight = [Ordered]@{}
+}
+if (-not $site.BottomLeft) {
+    $site.BottomLeft = [Ordered]@{}
+}
+$Site.TopRight['https://bsky.app/profile/mrpowershell.com'] =
+    Get-Content -Path (
+        Join-Path $PSScriptRoot Assets | 
+            Join-Path -ChildPath 'BlueSky.svg'
+    ) -Raw
+$site.TopRight['https://github.com/StartAutomating/MrPowerShell'] =
+    Get-Content -Path (
+        Join-Path $PSScriptRoot Assets | 
+            Join-Path -ChildPath 'GitHub.svg'
+    ) -Raw
+$Site.BottomLeft['https://github.com/StartAutomating/MrPowerShell/actions/workflows/deploy.yml'] =
+    "<img src='https://github.com/StartAutomating/MrPowerShell/actions/workflows/deploy.yml/badge.svg' alt='Deploy Status' />"
+
+
+#endregion Site Iconography

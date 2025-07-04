@@ -9,7 +9,6 @@ $navigation = @($TopLevelLinks |
         "</nav>"
     }) -join [Environment]::NewLine
 
-
 $style = @"
 <style type='text/css'>
 .grid9x9 {
@@ -24,12 +23,11 @@ $style = @"
   grid-auto-rows: auto
 }
 
-
 .header {
     text-align: center;
     margin: 2em;
     height: 20%;
-    grid-area: header;    
+    grid-area: header;
 }
 
 .navigation {
@@ -118,27 +116,11 @@ It's both a personal page and a proving ground for new ideas.
 </div>
 "@
 
-$corner = @"
-<div class='corner'>
-<div>
-<a href='https://github.com/StartAutomating/MrPowerShell'>
-$(Get-Content -Path ./Assets/GitHub.svg -Raw)
-</a>
-</div>
-<div>
-<a href='https://bsky.app/profile/mrpowershell.com'>
-$(Get-Content -Path ./Assets/BlueSky.svg -Raw)
-</a>
-</div>
-</div>
-"@
-
    
 "<div class='grid9x9'>"
 
 $style,
-    $corner,
-        $header,
-            $content -join [Environment]::NewLine
+    $header,
+        $content -join [Environment]::NewLine
 
 "</div>"
