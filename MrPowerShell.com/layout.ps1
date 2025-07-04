@@ -259,9 +259,9 @@ $headerElements = @(
     # * highlightjs css ( if using highlight )
     if ($Site.HighlightJS -or $page.HighlightJS) {
         "<link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/styles/default.min.css' id='highlight' />"     
-        '<script async src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/highlight.min.js"></script>'
+        '<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/highlight.min.js"></script>'
         foreach ($language in $Site.HighlightJS.Languages) {
-            "<script async src='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/languages/$language.min.js'></script>"
+            "<script src='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/languages/$language.min.js'></script>"
         }
     }
 
