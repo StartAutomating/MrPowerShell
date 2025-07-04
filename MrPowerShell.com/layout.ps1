@@ -235,6 +235,12 @@ $headerElements = @(
             "<meta name='$([Web.HttpUtility]::HtmlAttributeEncode($og.Key))' content='$([Web.HttpUtility]::HtmlAttributeEncode($og.Value))' />"
         }
     }
+
+    # * RSS autodiscovery
+    if (-not $site.NoRss) {
+        "<link rel='alternate' type='application/rss+xml' title='$($site.Title)' href='/RSS/index.rss' />"
+    }
+    
     # * Color palette
     if ($PaletteName) {
         "<link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/2bitdesigns/4bitcss@latest/css/$PaletteName.css' id='palette' />"
@@ -364,8 +370,6 @@ $bodyElements = @(
     </details>
 </nav>
 "
-
-
 )
     
     if ($site.HighlightJS -or $page.HighlightJS) {
@@ -376,7 +380,7 @@ $bodyElements = @(
 @"
 <html>
     <head>
-        <title>$(if ($page['Title']) { $page['Title'] } else { $Title })</title>
+        <title>$(if ($page['Title']) { $page['Title'] } else { $Title })</title>        
         $($headerElements -join [Environment]::NewLine)                                     
     </head>
     <body>                    
