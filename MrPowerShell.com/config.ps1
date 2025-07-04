@@ -129,8 +129,11 @@ $site.TopRight['https://github.com/StartAutomating/MrPowerShell'] =
         Join-Path $PSScriptRoot Assets | 
             Join-Path -ChildPath 'GitHub.svg'
     ) -Raw
+    
+<#
 $Site.BottomLeft['https://github.com/StartAutomating/MrPowerShell/actions/workflows/deploy.yml'] =
     "<img src='https://github.com/StartAutomating/MrPowerShell/actions/workflows/deploy.yml/badge.svg' alt='Deploy Status' />"
+#>
 
 
 #endregion Site Iconography
