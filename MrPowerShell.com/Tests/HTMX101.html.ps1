@@ -6,7 +6,7 @@ $Page.Description = 'Tests that HTMX buttons work as expected with the main area
 $Page.UseHtmx = $true
 
 @"
-<button hx-get="../" hx-select='.main' class="btn primary">
-Click Me To Load Main Area
+<button hx-get="../Gists" hx-select='.main' class="btn primary">
+Load Gists
 </button>
 "@
