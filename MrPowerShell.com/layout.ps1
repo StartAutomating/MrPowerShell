@@ -282,7 +282,7 @@ $headerElements = @(
     }
     
     # * HTMX
-    if ($Site.IsHtmx -or $Site.Htmx -or $site.UseHtmx) {
+    if ($Site.IsHtmx -or $Site.Htmx -or $site.UseHtmx -or $page.UseHtmx -or $page.IsHtmx -or $page.Htmx) {
         "<script src='https://unpkg.com/htmx.org@latest'></script>"
     }
     $ImportMap
@@ -352,25 +352,7 @@ $bodyElements = @(
     }
 </script>
 '@
-     "</div>"   
-
-    # Then we add the breadcrumb bar
-    $breadcrumbBar = @(
-'<style>'
-@'
-.breadcrumb { margin: 0 0.3em 0 0; }
-.breadcrumb > button {padding: 0.25em; }
-'@
-"</style>"
-"
-<nav id='breadcrumbBar' class='breadcrumBar'>
-    <details>
-    <summary>/</summary>
-    <span id='breadcrumbs'><a href='/' class='breadcrumb'><button>/</button></a></span>
-    </details>
-</nav>
-"
-)
+     "</div>"
     
     if ($site.HighlightJS -or $page.HighlightJS) {
         "<script>hljs.highlightAll();</script>"
