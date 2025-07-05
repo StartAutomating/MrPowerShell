@@ -106,7 +106,11 @@ param(
     )
 )
 
-$argsAndinput = @($args) + @($input)
+# The literal first thing we do is to capture the arguments and input.
+# This is important beecause `$input` can only be read once.
+$allInput = @($input)
+$allArguments = @($args)
+$argsAndinput = @($args) + @($allInput)
 
 #region Initialize Site and Page
 if (-not $Site) { $Site = [Ordered]@{} }
@@ -348,6 +352,9 @@ $bodyElements = @(
                 }            
             ) -join [Environment]::NewLine
             "</a>"
+            if ($page.Title -and $page.Title -ne $site.Title) {
+                "<h2>$([Web.HttpUtility]::HtmlEncode($page.Title))</h2>"
+            }            
         }
         
         if ($headerMenu) {
