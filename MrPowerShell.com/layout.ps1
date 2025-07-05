@@ -81,6 +81,28 @@ param(
         } else {
             [Ordered]@{}
         }
+    ),
+
+    [Collections.IDictionary]
+    $HeaderMenu = $(
+        if ($page -and $page.'HeaderMenu' -is [Collections.IDictionary]) {
+            $page.'HeaderMenu'
+        } elseif ($Site -and $site.'HeaderMenu' -is [Collections.IDictionary]) {
+            $site.'HeaderMenu'
+        } else {
+            [Ordered]@{}
+        }
+    ),
+
+    [Collections.IDictionary]
+    $FoooterMenu = $(
+        if ($page -and $page.'FooterMenu' -is [Collections.IDictionary]) {
+            $page.'FooterMenu'
+        } elseif ($Site -and $site.'FooterMenu' -is [Collections.IDictionary]) {
+            $site.'FooterMenu'
+        } else {
+            [Ordered]@{}
+        }
     )
 )
 
@@ -171,6 +193,10 @@ body {
     height: 100vh;
     font-family: '$Font', sans-serif;
     margin: 3em;
+}
+header, footer {
+    text-align: center;
+    margin: 2em;
 }
 pre, code {
     font-family: '$CodeFont', monospace;
@@ -282,7 +308,7 @@ $headerElements = @(
     }
     
     # * HTMX
-    if ($Site.IsHtmx -or $Site.Htmx -or $site.UseHtmx -or $page.UseHtmx -or $page.IsHtmx -or $page.Htmx) {
+    if (-not $Site.NoHtmx -or $page.NoHtmx) {
         "<script src='https://unpkg.com/htmx.org@latest'></script>"
     }
     $ImportMap
@@ -294,7 +320,49 @@ $headerElements = @(
 
 # Now we declare the body elements
 $bodyElements = @(
-    # * The main content 
+    # * The header
+    "<header>"
+        if ($page.Header) {
+            $page.Header -join [Environment]::NewLine
+        } elseif ($site.Header) {
+            $site.Header -join [Environment]::NewLine
+        } else {
+            "<a href='/'>"
+            @(
+                "<svg xmlns='http://www.w3.org/2000/svg' class='logo'>"
+                if ($site.Logo) {
+                    if ($site.Logo -match '<svg') {
+                        $site.Logo -replace '<\?.+>'
+                    } else {
+                        "<image src='$($site.Logo)' class='logo' />"
+                    }
+                }
+                "</svg>"
+                if ($site.Title) {
+                    "<br/>"
+                    "<h1>$([Web.HttpUtility]::HtmlEncode($site.Title))</h1>"
+                }
+                elseif ($site.CNAME) {
+                    "<br/>"
+                    "<h1>$([Web.HttpUtility]::HtmlEncode($site.CNAME))</h1>"
+                }            
+            ) -join [Environment]::NewLine
+            "</a>"
+        }
+        
+        if ($headerMenu) {
+            "<style>"
+            ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1em }"
+            ".header-menu-item button { text-align: center; padding: 1em; }"
+            "</style>"
+            "<nav class='header-menu'>"            
+            foreach ($menuItem in $headerMenu.GetEnumerator()) {
+                "<a href='$($menuItem.Value)' class='header-menu-item'><button>$([Web.HttpUtility]::HtmlEncode($menuItem.Key))</button></a>"
+            }
+            "</nav>"
+        }                
+    "</header>"
+    # * The main content
     "<div class='main'>$($argsAndinput -join [Environment]::NewLine)</div>"
 
     if ($TopLeft) {
@@ -333,7 +401,27 @@ $bodyElements = @(
                 "<a href='$BottomLeftUrl' class='icon-link' target='_blank'>$($BottomLeft[$BottomLeftUrl])</a>"
             }
         "</div>"
-    }    
+    }
+
+    "<footer>"
+    if ($FooterMenu) {
+        "<style>"
+        ".footer-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1em }"
+        ".footer-menu-item button { text-align: center; padding: 1em; }"
+        "</style>"
+        "<nav class='footer-menu'>"            
+        foreach ($menuItem in $FooterMenu.GetEnumerator()) {
+            "<a href='$($menuItem.Value)' class='footer-menu-item'><button>$([Web.HttpUtility]::HtmlEncode($menuItem.Key))</button></a>"
+        }
+        "</nav>"
+    }
+    if ($Page.Footer) {
+        $page.Footer -join [Environment]::NewLine
+    }
+    if ($Site.Footer) {
+        $site.Footer -join [Environment]::NewLine
+    } 
+    "</footer>"
 
     "<div class='bottom-right'>"
     "<nav id='breadcrumbBar' class='breadcrumBar'>
@@ -363,7 +451,7 @@ $bodyElements = @(
 <html>
     <head>
         <title>$(if ($page['Title']) { $page['Title'] } else { $Title })</title>        
-        $($headerElements -join [Environment]::NewLine)                                     
+        $($headerElements -join [Environment]::NewLine)        
     </head>
     <body>                    
         $($bodyElements -join [Environment]::NewLine)

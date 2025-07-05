@@ -1,78 +1,3 @@
-$TopLevelLinks = 'GitHub', 'Gists', 'Memes', 'Mentions', 'Tags'
-
-$navigation = @($TopLevelLinks |
-    ForEach-Object -Begin {
-        "<nav class='navigation'>"
-    } -Process {
-        "<a href='$($_)'><button>$($_)</button></a>"
-    } -End {
-        "</nav>"
-    }) -join [Environment]::NewLine
-
-$style = @"
-<style type='text/css'>
-.grid9x9 {
-  display: grid;
-  height: 100vh;
-  grid:
-    "$( @('header') * 9)" minmax(100px, auto)
-    "$( @('main') * 9)" minmax(100px, auto)
-    "$( @('footer') * 9)" minmax(100px, auto)
-    / $( @('1fr') * 9);
-  align-content: center;
-  grid-auto-rows: auto
-}
-
-.header {
-    text-align: center;
-    margin: 2em;
-    height: 20%;
-    grid-area: header;
-}
-
-.navigation {
-    text-align: center;
-    margin: 1em;
-    height: 5%;
-    grid-area: navigation;
-}
-
-.content {        
-    margin: 3em;
-    height: 33%;
-    grid-area: main;
-}
-
-.corner {    
-    position: fixed;
-    display: grid;
-    margin-right: 0.5%;
-    margin-top: 0%; 
-    right: 0.5%;   
-    text-align: right;
-    grid-template-columns: 1fr 1fr;
-}
-
-.corner div {
-    padding: 0.5em;
-}
-</style>
-"@
-
-$header = @"
-<div class='header'>
-<a href='/'>
-<svg>
-$((Get-Content -Path .\MrPowerShell-Animated.svg -Raw) -replace '<\?.+>')
-</svg>
-<h1>
-MrPowerShell
-</h1>
-</a>
-$navigation
-</div>
-"@
-
 $content = @"
 <div class='content'>
 <h1>
@@ -117,10 +42,6 @@ It's both a personal page and a proving ground for new ideas.
 "@
 
    
-"<div class='grid9x9'>"
 
-$style,
-    $header,
-        $content -join [Environment]::NewLine
+$content
 
-"</div>"

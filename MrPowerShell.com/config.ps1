@@ -135,6 +135,21 @@ $site.TopRight['https://MrPowerShell.com/RSS/index.rss'] =
             Join-Path -ChildPath 'RSS.svg'
     ) -Raw
 
+$Site.Logo = Get-Content -Path (
+    Join-Path $PSScriptRoot 'MrPowerShell-Animated.svg'
+) -Raw
+
+$Site.Title = 'MrPowerShell'
+
+$site.HeaderMenu = [Ordered]@{
+    "Gists"  = "https://MrPowerShell.com/Gists"
+    "GitHub" = "https://MrPowerShell.com/GitHub"    
+    "Memes"  = "https://MrPowerShell.com/Memes"    
+    "Mentions" = "https://MrPowerShell.com/Mentions"
+    "Modules" = "https://MrPowerShell.com/Modules"
+    "Tags" = "https://MrPowerShell.com/Tags"
+}
+
     
 <#
 $Site.BottomLeft['https://github.com/StartAutomating/MrPowerShell/actions/workflows/deploy.yml'] =
