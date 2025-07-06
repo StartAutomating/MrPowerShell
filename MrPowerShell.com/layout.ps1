@@ -48,6 +48,7 @@ param(
     ),
 
     # The top right corner links.
+    # The top right corner links.
     [Collections.IDictionary]
     $TopRight = $(
         if ($Site -and $site['TopRight']) {
@@ -364,7 +365,8 @@ $bodyElements = @(
         }
         
         if ($headerMenu) {
-            "<style>"            
+            "<style>"
+            
             "@media (orientation: landscape) {"
                 ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1em }"
                 ".header-menu-item button { text-align: center; padding: 1em; }"
@@ -372,7 +374,8 @@ $bodyElements = @(
             "@media (orientation: portrait) {"
                 ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 0.5em }"
                 ".header-menu-item button { text-align: center; padding: 0.5em; }"
-            "}"            
+            "}"
+            
             "</style>"
             "<nav class='header-menu'>"            
             foreach ($menuItem in $headerMenu.GetEnumerator()) {
