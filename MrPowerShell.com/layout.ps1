@@ -47,6 +47,7 @@ param(
         else { @{} }
     ),
 
+    # The top right corner links.
     [Collections.IDictionary]
     $TopRight = $(
         if ($Site -and $site['TopRight']) {
@@ -56,6 +57,7 @@ param(
         }        
     ),
     
+    # The bottom right corner links.
     [Collections.IDictionary]
     $BottomRight = $(
         if ($Site -and $site['BottomRight']) {
@@ -65,6 +67,7 @@ param(
         }
     ),
 
+    # The bottom left corner links.
     [Collections.IDictionary]
     $BottomLeft = $(
         if ($Site -and $site['BottomLeft']) {
@@ -74,6 +77,7 @@ param(
         }
     ),
 
+    # The top left corner links.
     [Collections.IDictionary]
     $TopLeft = $(
         if ($Site -and $site['TopLeft']) {
@@ -83,6 +87,7 @@ param(
         }
     ),
 
+    # The header menu.
     [Collections.IDictionary]
     $HeaderMenu = $(
         if ($page -and $page.'HeaderMenu' -is [Collections.IDictionary]) {
@@ -94,6 +99,7 @@ param(
         }
     ),
 
+    # The footer menu.
     [Collections.IDictionary]
     $FoooterMenu = $(
         if ($page -and $page.'FooterMenu' -is [Collections.IDictionary]) {
@@ -359,8 +365,16 @@ $bodyElements = @(
         
         if ($headerMenu) {
             "<style>"
-            ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1em }"
-            ".header-menu-item button { text-align: center; padding: 1em; }"
+            
+            "@media (orientation: landscape) {"
+                ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1em }"
+                ".header-menu-item button { text-align: center; padding: 1em; }"
+            "}"
+            "@media (orientation: portrait) {"
+                ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 0.5em }"
+                ".header-menu-item button { text-align: center; padding: 0.5em; }"
+            "}"
+            
             "</style>"
             "<nav class='header-menu'>"            
             foreach ($menuItem in $headerMenu.GetEnumerator()) {
@@ -370,7 +384,9 @@ $bodyElements = @(
         }                
     "</header>"
     # * The main content
-    "<div class='main'>$($argsAndinput -join [Environment]::NewLine)</div>"
+    "<div class='main'>$(
+        $argsAndinput -join [Environment]::NewLine
+    )</div>"
 
     if ($TopLeft) {
         # * Our top left corner
@@ -457,8 +473,8 @@ $bodyElements = @(
 @"
 <html>
     <head>
-        <title>$(if ($page['Title']) { $page['Title'] } else { $Title })</title>        
-        $($headerElements -join [Environment]::NewLine)        
+        <title>$(if ($page['Title']) { $page['Title'] } else { $Title })</title>
+        $($headerElements -join [Environment]::NewLine)
     </head>
     <body>                    
         $($bodyElements -join [Environment]::NewLine)
