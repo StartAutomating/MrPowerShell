@@ -1,10 +1,25 @@
+<#
+.SYNOPSIS
+    My Gists
+.DESCRIPTION
+    My GitHub Gists.
+.EXAMPLE
+    ./index.html.ps1
+.LINK
+    https://MrPowerShell.com/Gists/
+#>
 param(
     [string]$GitHubUser = 'StartAutomating'
 )
+$myHelp = Get-Help $MyInvocation.MyCommand.ScriptBlock.File
+$title = $myHelp.SYNOPSIS
+$description = $myHelp.description.text -join [Environment]::NewLine
 
 if (-not $script:myGists) {
     $script:myGists = Invoke-RestMethod -Uri "https://api.github.com/users/$GitHubUser/gists"    
 }
+
+$script:myGists | ConvertTo-Json -Depth 10 > MyGists.json
 
 "<ul>"
 $script:myGists | 
