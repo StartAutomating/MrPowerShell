@@ -368,11 +368,11 @@ $bodyElements = @(
             "<style>"
             
             "@media (orientation: landscape) {"
-                ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1em }"
+                ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 1em }"
                 ".header-menu-item button { text-align: center; padding: 1em; }"
             "}"
             "@media (orientation: portrait) {"
-                ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 0.5em }"
+                ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.5em }"
                 ".header-menu-item button { text-align: center; padding: 0.5em; }"
             "}"
             
