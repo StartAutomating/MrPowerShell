@@ -44,7 +44,18 @@ param(
     [Alias('Keyframes')]
     $Keyframe = $(
         if ($Site -and $Site['Keyframe']) { $Site['Keyframe'] }
-        else { @{} }
+        else { 
+            [Ordered]@{
+            'glow-link' = [Ordered]@{
+                '0%,100%' = [Ordered]@{
+                    'text-shadow' = "0 0 0em"
+                }
+                '50%' = [Ordered]@{
+                    'text-shadow' = "0 0 0.5em"
+                }            
+                }
+            }
+        }
     ),
 
     # The top right corner links.
@@ -214,9 +225,15 @@ pre, code {
 }
 a, a:visited {    
     text-decoration: none;
+    $(if (-not $site.NoGlow) {
+        "animation-name: glow-link; animation-duration: 4.2s; animation-iteration-count: infinite;"
+    })
 }
 a:hover, a:focus {
     text-decoration: underline;
+    $(if (-not $site.NoGlow) {
+        "animation-name: glow-link; animation-duration: .42s; animation-iteration-count: infinite;"
+    })
 }
 .main {
     
@@ -364,7 +381,7 @@ $bodyElements = @(
             }            
         }
         
-        if ($headerMenu) {
+       if ($headerMenu) {
             "<style>"
             
             "@media (orientation: landscape) {"
@@ -382,7 +399,7 @@ $bodyElements = @(
                 "<a href='$($menuItem.Value)' class='header-menu-item'>$([Web.HttpUtility]::HtmlEncode($menuItem.Key))</a>"
             }
             "</nav>"
-        }                
+        }
     "</header>"
     # * The main content
     "<div class='main'>$(
