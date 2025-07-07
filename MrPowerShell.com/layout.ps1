@@ -220,6 +220,19 @@ header, footer {
     text-align: center;
     margin: 2em;
 }
+
+@media (orientation: landscape) {
+    .logo {
+        height: 7em;
+    }
+}
+
+@media (orientation: portrait) {
+    .logo {    
+        height: 5em;
+    }
+}
+
 pre, code {
     font-family: '$CodeFont', monospace;
 }
@@ -235,8 +248,8 @@ a:hover, a:focus {
         "animation-name: glow-link; animation-duration: .42s; animation-iteration-count: infinite;"
     })
 }
-.main {
-    
+
+.main {    
 }
 
 $corners
