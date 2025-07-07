@@ -369,17 +369,17 @@ $bodyElements = @(
             
             "@media (orientation: landscape) {"
                 ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 1em }"
-                ".header-menu-item button { text-align: center; padding: 1em; }"
+                ".header-menu-item { text-align: center; padding: 1em; }"
             "}"
             "@media (orientation: portrait) {"
                 ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.5em }"
-                ".header-menu-item button { text-align: center; padding: 0.5em; }"
+                ".header-menu-item { text-align: center; padding: 0.5em; }"
             "}"
             
             "</style>"
             "<nav class='header-menu'>"            
             foreach ($menuItem in $headerMenu.GetEnumerator()) {
-                "<a href='$($menuItem.Value)' class='header-menu-item'><button>$([Web.HttpUtility]::HtmlEncode($menuItem.Key))</button></a>"
+                "<a href='$($menuItem.Value)' class='header-menu-item'>$([Web.HttpUtility]::HtmlEncode($menuItem.Key))</a>"
             }
             "</nav>"
         }                
@@ -430,12 +430,18 @@ $bodyElements = @(
     "<footer>"
     if ($FooterMenu) {
         "<style>"
-        ".footer-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1em }"
-        ".footer-menu-item button { text-align: center; padding: 1em; }"
+        "@media (orientation: landscape) {"
+            ".footer-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 1em }"
+            ".footer-menu-item { text-align: center; padding: 1em; }"
+        "}"
+        "@media (orientation: portrait) {"
+            ".footer-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.5em }"
+            ".footer-menu-item { text-align: center; padding: 0.5em; }"
+        "}"
         "</style>"
         "<nav class='footer-menu'>"            
         foreach ($menuItem in $FooterMenu.GetEnumerator()) {
-            "<a href='$($menuItem.Value)' class='footer-menu-item'><button>$([Web.HttpUtility]::HtmlEncode($menuItem.Key))</button></a>"
+            "<a href='$($menuItem.Value)' class='footer-menu-item'>$([Web.HttpUtility]::HtmlEncode($menuItem.Key))</a>"
         }
         "</nav>"
     }
