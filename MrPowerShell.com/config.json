@@ -4,6 +4,17 @@
   "Image": "https://MrPowerShell.com/MrPowerShell.png",
   "FavIcon": "https://mrpowershell.com/MrPowerShell-Animated.svg",
   "Archive": true,
+  "Exclude": {
+      "wildcards": [
+          "*.functions.ps1",
+          "*.function.ps1",
+          "*.filters.ps1",
+          "*.filter.ps1"
+      ],
+      "patterns": [
+          "build\\.[^\\.]+\\.ps1$"
+      ]
+  },
   "DebugEnvironment": true,
   "Disallow": ["/Tests/","/Drafts/"],
   "HighlightJS": {"Languages":["powershell"]}

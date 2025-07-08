@@ -28,7 +28,29 @@ if (-not $site.PagesByUrl) {
 }
 $pagesByUrl = $site.PagesByUrl
 
-:nextFile foreach ($file in $allFiles) {    
+:nextFile foreach ($file in $allFiles) {
+    if ($Site -and $Site.Exclude) {
+        $included = $false
+        :exclude do {
+            $excludePatterns = @() + $site.Exclude.Pattern + $site.Exclude.Patterns
+            foreach ($excludePattern in $excludePatterns) {
+                if (-not $excludePattern) { continue }
+                if ($file.FullName -match $excludePattern) {
+                    Write-Verbose "Excluding $($file.FullName) because it matches the exclude pattern '$excludePattern'."
+                    break exclude
+                }
+            }
+            $wildcardPatterns = @() + $site.Exclude.Wildcard + $site.Exclude.Wildcards
+            foreach ($wildcardPattern in $wildcardPatterns) {
+                if (-not $wildcardPattern) { continue }
+                if ($file.FullName -like $wildcardPattern) {
+                    Write-Verbose "Excluding $($file.FullName) because it matches the exclude wildcard '$wildcardPattern'."
+                    break exclude
+                }
+            }
+            $included = $true
+        } until ($included)
+    }
     $fileRoot = $file.Directory.FullName
     Push-Location $fileRoot
     # Get the file name by removing the extension.
