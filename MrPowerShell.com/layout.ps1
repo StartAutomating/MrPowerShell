@@ -236,12 +236,14 @@ header, footer {
 pre, code {
     font-family: '$CodeFont', monospace;
 }
+
 a, a:visited {    
     text-decoration: none;
     $(if (-not $site.NoGlow) {
         "animation-name: glow-link; animation-duration: 4.2s; animation-iteration-count: infinite;"
     })
 }
+
 a:hover, a:focus {
     text-decoration: underline;
     $(if (-not $site.NoGlow) {
@@ -249,7 +251,16 @@ a:hover, a:focus {
     })
 }
 
-.main {    
+.main {
+    $(
+        if ($page.FontSize) {
+            "font-size: $($page.FontSize);"
+        } elseif ($site.FontSize) {
+            "font-size: $($site.FontSize);"
+        } else {
+            "font-size: 1.25em;"
+        }
+    )
 }
 
 $corners
