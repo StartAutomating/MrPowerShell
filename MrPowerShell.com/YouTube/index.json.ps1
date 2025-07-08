@@ -1,4 +1,28 @@
 @{
+    Name = 'Full Stack PowerShell'
+    YouTubeUrl = 'https://youtu.be/Ow5oZbCUflc'    
+    Event = 'PowerShell Summit'
+    Description = "
+PowerShell is a perfect language in almost any environment.
+
+You can use PowerShell to make and manage websites, from the simplest static server to a complex containerized application.
+
+In this session, we'll see how you can script your server from start to finish.
+"
+    Year = 2025
+},@{
+    Name = 'The Incredible Extensible PSObject'
+    YouTubeUrl = 'https://youtu.be/3eu6KCeWICY'
+    Description = "
+You might think you understand PowerShell, but do you know all that you can know about PSObjects?
+
+In this talk, we'll cover some of the interesting aspects of PowerShell objects you might not be aware of. We'll show how you can easily extend any object to do anything you need it to and how to make objects you couldn't possibly create in C#.
+
+We'll see why PSObjects are much more powerful than their compiled counterparts, and how that opens doors for us all.    
+"
+    Year = 2025
+},
+@{
     Name = 'Mastering making modules'
     YouTubeUrl = 'https://youtu.be/-5mTb7L44F4'
     Event = 'PowerShell Summit'
@@ -62,5 +86,13 @@
     Name = 'Case Sensitivity Training'
     YouTubeUrl = 'https://youtu.be/xhJQB6szWFE'
     Event = 'Pacific PowerShell User Group'
+    Description = "
+PowerShell doesn't care about case, but many of the systems that it talks to definitely do.
+
+Drop by for a fun investigation of specific cases of case sensitivity in PowerShell.
+
+Learn how they can hurt you, and how you can protect yourself.
+"
     Year = 2024
+    Date = [DateTime]'2024-05-08T18:00:00Z'
 }

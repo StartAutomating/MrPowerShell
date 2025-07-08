@@ -148,13 +148,7 @@ $site.HeaderMenu = [Ordered]@{
     "Mentions" = "https://MrPowerShell.com/Mentions"
     "Modules" = "https://MrPowerShell.com/Modules"
     "Tags" = "https://MrPowerShell.com/Tags"
+    "YouTube" = "https://MrPowerShell.com/YouTube"
 }
-
-    
-<#
-$Site.BottomLeft['https://github.com/StartAutomating/MrPowerShell/actions/workflows/deploy.yml'] =
-    "<img src='https://github.com/StartAutomating/MrPowerShell/actions/workflows/deploy.yml/badge.svg' alt='Deploy Status' />"
-#>
-
 
 #endregion Site Iconography
