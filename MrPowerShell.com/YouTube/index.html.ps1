@@ -32,7 +32,7 @@ Push-Location $PSScriptRoot
 <style>
 .youtube-video-grid { 
     display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
     gap: 2.5em; 
     margin: 2.5em
 }
@@ -51,12 +51,12 @@ Push-Location $PSScriptRoot
         Descending = $false
     } |   
     ForEach-Object { 
-        Get-OEmbed -Url $_.YouTubeUrl -MaxHeight 480 -MaxWidth 360
+        Get-OEmbed -Url $_.YouTubeUrl -MaxHeight 360 -MaxWidth 480
     } | 
     ForEach-Object {
         "<div>"        
-        "<div>$($_.html)</div>"
-        "<h3>$($_.title)</h3>"
+            "<div>$($_.html)</div>"
+            "<h3>$($_.title)</h3>"
         "</div>"
     }
 "</div>"
