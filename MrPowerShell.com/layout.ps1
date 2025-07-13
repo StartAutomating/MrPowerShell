@@ -244,7 +244,7 @@ $corners = @(
 #region Declare global styles
 $style = @"
 body {
-    width: 100vw;
+    max-width: 100vw;
     height: 100vh;
     font-family: '$Font', sans-serif;
     margin: 3em;
