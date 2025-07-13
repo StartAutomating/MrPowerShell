@@ -51,7 +51,7 @@ param(
                     'text-shadow' = "0 0 0em"
                 }
                 '50%' = [Ordered]@{
-                    'text-shadow' = "0 0 0.5em"
+                    'text-shadow' = "0 0 1em"
                 }            
                 }
             }
@@ -172,6 +172,39 @@ if ($page.MetaData['og:image']) {
     $page.MetaData['og:image'] = $page.MetaData['og:image'] -replace '^/', '' -replace '^[^h]', '/'
 }
 #endregion Initialize Metadata
+
+filter outputHtml {
+    $outputItem = $_
+    switch ($outputItem) {
+        {$outputItem -is [string]} { return $outputItem }
+        {$outputItem -is [xml]} { return $outputItem.OuterXml }
+        {$outputItem -is 'Microsoft.PowerShell.MarkdownRender.MarkdownInfo'} {
+            # Someone converted from markdown, but didn't finish.
+            # If the object has HTML, use it.
+            if ($OutputItem.HTML) {
+                return $outputItem.HTML
+            } else {
+                # otherwise, extract the original markdown tokens and convert them to HTML.
+                return (ConvertFrom-Markdown -InputObject "$(
+                    $outputItem.Tokens.Inline.Content.Text | Select-Object -Unique
+                )").HTML
+            }
+        }
+        
+        {$outputItem.HTML} {
+            return $outputItem.HTML
+        }
+        {$outputItem.Markdown} {
+            return (ConvertFrom-Markdown -InputObject $outputItem.Markdown).HTML
+        }
+        
+        default {
+            "$outputItem"
+        }
+    }
+}
+
+$outputHtml = @($argsAndinput | outputHtml) -join [Environment]::NewLine
 
 #region Corners.css
 $corners = @(
@@ -425,10 +458,9 @@ $bodyElements = @(
             "</nav>"
         }
     "</header>"
+
     # * The main content
-    "<div class='main'>$(
-        $argsAndinput -join [Environment]::NewLine
-    )</div>"
+    "<div class='main'>$outputHtml</div>"
 
     if ($TopLeft) {
         # * Our top left corner
