@@ -335,25 +335,20 @@ $(@(foreach ($keyframeName in $keyframe.Keys) {
 $headerElements = @(
     # * Google Analytics
     if ($site.analyticsID) {
-        "
-        <!-- Google tag (gtag.js) -->
+        "<!-- Google tag (gtag.js) -->
         <script async src='https://www.googletagmanager.com/gtag/js?id=$($site.AnalyticsID)'></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', '$($site.AnalyticsID)');
-        </script>
-        "
+        </script>"
     }
     # * Viewport metadata
     "<meta name='viewport' content='width=device-width, initial-scale=1, minimum-scale=1.0' />"
 
     # * Open Graph metadata
-    if (
-        $Page.MetaData -is [Collections.IDictionary] -and 
-        $Page.MetaData.Count
-    ) {
+    if ($Page.MetaData -is [Collections.IDictionary] -and $Page.MetaData.Count) {
         foreach ($og in $Page.MetaData.GetEnumerator()) {
             "<meta name='$([Web.HttpUtility]::HtmlAttributeEncode($og.Key))' content='$([Web.HttpUtility]::HtmlAttributeEncode($og.Value))' />"
         }
@@ -410,9 +405,7 @@ $headerElements = @(
     }
     $ImportMap
     # * Our styles
-    "<style>"
-    $style
-    "</style>"    
+    "<style>$style</style>"
 )
 
 # Now we declare the body elements
@@ -435,15 +428,15 @@ $bodyElements = @(
                     }
                 }
                 "</svg>"
-                if ($site.Title) {
-                    "<br/>"
+                if ($site.Title) {                    
                     "<h1>$([Web.HttpUtility]::HtmlEncode($site.Title))</h1>"
                 }
-                elseif ($site.CNAME) {
-                    "<br/>"
+                elseif ($site.CNAME) {                    
                     "<h1>$([Web.HttpUtility]::HtmlEncode($site.CNAME))</h1>"
                 }
-            ) -join [Environment]::NewLine
+            ) -join (
+                [Environment]::NewLine + "<br/>" + [Environment]::NewLine
+            )            
             "</a>"
             if ($page.Title -and $page.Title -ne $site.Title) {
                 "<h2>$([Web.HttpUtility]::HtmlEncode($page.Title))</h2>"
@@ -476,7 +469,6 @@ $bodyElements = @(
 
     # * The main content
     "<div class='main'>$outputHtml</div>"
-
     if ($TopLeft) {
         # * Our top left corner
         "<div class='top-left'>"
@@ -490,8 +482,8 @@ $bodyElements = @(
     
     if ($TopRight) {
         # * Our upper right corner
-        "<div class='top-right'>"                
-        foreach ($TopRightUrl in $TopRight.Keys) {                
+        "<div class='top-right'>"
+        foreach ($TopRightUrl in $TopRight.Keys) {
             "<a href='$TopRightUrl' class='icon-link' target='_blank'>$($TopRight[$TopRightUrl])</a>"
         }
         "</div>"
@@ -541,28 +533,7 @@ $bodyElements = @(
     } 
     "</footer>"
 
-    "<div class='bottom-right'>"
-    "<nav id='breadcrumbBar' class='breadcrumBar'>
-        <details>
-        <summary>/</summary>
-        <span id='breadcrumbs'><a href='/' class='breadcrumb'><button>/</button></a></span>
-        </details>
-    </nav>"
-        @'
-<script>
-    var urlSegments = window.location.pathname.split('/')
-    var breadcrumbs = document.getElementById('breadcrumbs');
-    for (var i = 1; i < (urlSegments.length - 1); i++) {
-        breadcrumbs.innerHTML += 
-            `<a href='${urlSegments.slice(0, i + 1).join('/')}' id='breadcrumb-${i}' class='breadcrumb'><button>${urlSegments[i]}</button></a>`
-    }
-</script>
-'@
-     "</div>"
-    
-    if ($site.HighlightJS -or $page.HighlightJS) {
-        "<script>hljs.highlightAll();</script>"
-    }
+    if ($site.HighlightJS -or $page.HighlightJS) { "<script>hljs.highlightAll();</script>" }
 )
 
 @"
