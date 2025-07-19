@@ -44,21 +44,20 @@ param(
     [Alias('Keyframes')]
     $Keyframe = $(
         if ($Site -and $Site['Keyframe']) { $Site['Keyframe'] }
-        else { 
+        elseif ($Site.Glow -or $page.Glow) { 
             [Ordered]@{
-            'glow-link' = [Ordered]@{
-                '0%,100%' = [Ordered]@{
-                    'text-shadow' = "0 0 0em"
-                }
-                '50%' = [Ordered]@{
-                    'text-shadow' = "0 0 1em"
-                }            
+                'glow-link' = [Ordered]@{
+                    '0%,100%' = [Ordered]@{
+                        'text-shadow' = "0 0 0em"
+                    }
+                    '50%' = [Ordered]@{
+                        'text-shadow' = "0 0 1em"
+                    }
                 }
             }
         }
     ),
 
-    # The top right corner links.
     # The top right corner links.
     [Collections.IDictionary]
     $TopRight = $(
@@ -272,15 +271,28 @@ pre, code {
 
 a, a:visited {    
     text-decoration: none;
-    $(if (-not $site.NoGlow) {
-        "animation-name: glow-link; animation-duration: 4.2s; animation-iteration-count: infinite;"
+    $(if ($site.Glow) {
+        $glowDuration = if ($site.GlowDuration) {
+            $site.GlowDuration
+        } else {
+            '4.2s'
+        }
+        "animation-name: glow-link; animation-duration: $glowDuration; animation-iteration-count: infinite;"
     })
 }
 
 a:hover, a:focus {
     text-decoration: underline;
-    $(if (-not $site.NoGlow) {
-        "animation-name: glow-link; animation-duration: .42s; animation-iteration-count: infinite;"
+    $(if ($site.Glow) {
+        $glowHoverDuration = 
+            if ($site.GlowHoverDuration) {
+                $site.GlowHoverDuration
+            } elseif ($site.GlowDuration) {
+                $site.GlowDuration
+            } else {
+                '2.4s'
+            }
+        "animation-name: glow-link; animation-duration: $glowHoverDuration; animation-iteration-count: infinite;"
     })
 }
 
@@ -430,7 +442,7 @@ $bodyElements = @(
                 elseif ($site.CNAME) {
                     "<br/>"
                     "<h1>$([Web.HttpUtility]::HtmlEncode($site.CNAME))</h1>"
-                }            
+                }
             ) -join [Environment]::NewLine
             "</a>"
             if ($page.Title -and $page.Title -ne $site.Title) {
@@ -438,20 +450,23 @@ $bodyElements = @(
             }            
         }
         
-       if ($headerMenu) {
+        if ($headerMenu) {
             "<style>"
             
+            # If the device is in landscape mode, use larger padding and gaps
             "@media (orientation: landscape) {"
                 ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 1em }"
                 ".header-menu-item { text-align: center; padding: 1em; }"
             "}"
+
+            # If the device is in portrait mode, use smaller padding and gaps
             "@media (orientation: portrait) {"
                 ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.5em }"
                 ".header-menu-item { text-align: center; padding: 0.5em; }"
             "}"
             
             "</style>"
-            "<nav class='header-menu'>"            
+            "<nav class='header-menu'>"
             foreach ($menuItem in $headerMenu.GetEnumerator()) {
                 "<a href='$($menuItem.Value)' class='header-menu-item'>$([Web.HttpUtility]::HtmlEncode($menuItem.Key))</a>"
             }
