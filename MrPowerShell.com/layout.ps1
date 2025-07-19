@@ -355,28 +355,20 @@ $headerElements = @(
     }
 
     # * RSS autodiscovery
-    if (-not $site.NoRss) {
-        "<link rel='alternate' type='application/rss+xml' title='$($site.Title)' href='/RSS/index.rss' />"
-    }
+    if (-not $site.NoRss) { "<link rel='alternate' type='application/rss+xml' title='$($site.Title)' href='/RSS/index.rss' />" }
     
     # * Color palette
-    if ($PaletteName) {
-        "<link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/2bitdesigns/4bitcss@latest/css/$PaletteName.css' id='palette' />"
-    }
+    if ($PaletteName) { "<link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/2bitdesigns/4bitcss@latest/css/$PaletteName.css' id='palette' />" }
 
     # * Google Font
-    if ($Font) {
-        "<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=$Font' id='font' />"
-    }
+    if ($Font) { "<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=$Font' id='font' />" }
 
     # * Code font
-    if ($CodeFont) {
-        "<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=$CodeFont' id='codeFont' />"
-    }
+    if ($CodeFont) { "<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=$CodeFont' id='codeFont' />" }
 
     # * highlightjs css ( if using highlight )
     if ($Site.HighlightJS -or $page.HighlightJS) {
-        "<link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/styles/default.min.css' id='highlight' />"     
+        "<link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/styles/default.min.css' id='highlight' />"
         '<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/highlight.min.js"></script>'
         foreach ($language in $Site.HighlightJS.Languages) {
             "<script src='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/languages/$language.min.js'></script>"
@@ -419,15 +411,15 @@ $bodyElements = @(
         } else {
             "<a href='/'>"
             @(
-                "<svg xmlns='http://www.w3.org/2000/svg' class='logo'>"
-                if ($site.Logo) {
-                    if ($site.Logo -match '<svg') {
-                        $site.Logo -replace '<\?.+>'
-                    } else {
-                        "<image src='$($site.Logo)' class='logo' />"
+                "<svg xmlns='http://www.w3.org/2000/svg' class='logo'>" + $(
+                    if ($site.Logo) {
+                        if ($site.Logo -match '<svg') {
+                            $site.Logo -replace '<\?.+>'
+                        } else {
+                            "<image src='$($site.Logo)' class='logo' />"
+                        }
                     }
-                }
-                "</svg>"
+                ) + "</svg>"
                 if ($site.Title) {                    
                     "<h1>$([Web.HttpUtility]::HtmlEncode($site.Title))</h1>"
                 }
