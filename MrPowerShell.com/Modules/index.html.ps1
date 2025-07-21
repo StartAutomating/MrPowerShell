@@ -101,13 +101,13 @@ Update-TypeData -TypeName PowerShellGallery.Module -Force -MemberType ScriptProp
 
 Update-TypeData -TypeName PowerShellGallery.Module -Force -MemberType ScriptMethod -MemberName ToHtml -Value {
     param()
+    $publishedAt = $this.properties.Published.'#text' -as [DateTime]
     $attributes = [Ordered]@{
         'class' = 'powershell-gallery-module'
         'data-module-name'        = $this.Name
         'data-module-version'     = $this.Version
         'data-module-downloads'   = $this.Downloads
-        'data-module-created-at'  = ($this.properties.Created.'#text' -as [DateTime]).ToString('o')
-        'data-module-last-updated'= $this.LastUpdated.ToString('o')
+        'data-module-published'  = $publishedAt.ToString('o')
     }
     $attributeString = @($attributes.GetEnumerator() | ForEach-Object { "$($_.Key)='$($_.Value)'" }) -join ' '
     "<div $attributeString>"    
@@ -120,7 +120,7 @@ Update-TypeData -TypeName PowerShellGallery.Module -Force -MemberType ScriptMeth
         "<h3>v$($this.Version)</h3>"        
         "<h4>$([Web.HttpUtility]::HtmlEncode($this.Description))</h4>"
         "<h5>Downloads: $($this.Downloads)</h5>"
-        "<p>Created: $($this.CreatedAt.ToString('yyyy-MM-dd'))</p>"        
+        "<p>Published: $($publishedAt.ToString('yyyy-MM-dd'))</p>"
     "</div>"
 }
 
@@ -158,7 +158,7 @@ if (-not $HideGalleryTotal) {
 "Sort by:"
 "<select id='sort-modules'>"
     "<option value='moduleDownloads' selected>Downloads</option>"
-    "<option value='moduleCreatedAt'>Created At</option>"
+    "<option value='modulePublished'>Published</option>"
     "<option value='moduleName'>Name</option>"
     "<option value='moduleVersion'>Version</option>"
 "</select>"
