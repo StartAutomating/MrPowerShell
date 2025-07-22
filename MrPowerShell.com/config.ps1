@@ -106,40 +106,40 @@ if ($psScriptRoot) {Pop-Location}
 
 #endregion At Protocol
 
-#region Site Iconography
-if (-not $site.TopRight) { 
-    $site.TopRight = [Ordered]@{}
-}
-if (-not $site.TopLeft) { 
-    $site.TopLeft = [Ordered]@{}
-}
-if (-not $site.BottomRight) {
-    $site.BottomRight = [Ordered]@{}
-}
-if (-not $site.BottomLeft) {
-    $site.BottomLeft = [Ordered]@{}
-}
-$Site.TopRight['https://bsky.app/profile/mrpowershell.com'] =
-    Get-Content -Path (
-        Join-Path $PSScriptRoot Assets | 
-            Join-Path -ChildPath 'BlueSky.svg'
-    ) -Raw
-$site.TopRight['https://github.com/StartAutomating/MrPowerShell'] =
-    Get-Content -Path (
-        Join-Path $PSScriptRoot Assets | 
-            Join-Path -ChildPath 'GitHub.svg'
-    ) -Raw
-$site.TopRight['https://MrPowerShell.com/RSS/index.rss'] =
-    Get-Content -Path (
-        Join-Path $PSScriptRoot Assets | 
-            Join-Path -ChildPath 'RSS.svg'
-    ) -Raw
+#region Site Metadata
+$Site.Title = 'MrPowerShell'
+#endregion Site Metadata
 
+#region Site Icons
+$Site.Icon  = [Ordered]@{
+    'BlueSky' = 
+        Get-Content -Path (
+            Join-Path $PSScriptRoot Assets | 
+                Join-Path -ChildPath 'BlueSky.svg'
+        ) -Raw
+    'GitHub' = 
+        Get-Content -Path (
+            Join-Path $PSScriptRoot Assets | 
+                Join-Path -ChildPath 'GitHub.svg'
+        ) -Raw
+    'RSS' = 
+        Get-Content -Path (
+            Join-Path $PSScriptRoot Assets | 
+                Join-Path -ChildPath 'RSS.svg'
+        ) -Raw
+}
+#endregion Site Icons
+
+#region Site Menus
 $Site.Logo = Get-Content -Path (
     Join-Path $PSScriptRoot 'MrPowerShell-Animated.svg'
 ) -Raw
 
-$Site.Title = 'MrPowerShell'
+$site.Taskbar = [Ordered]@{
+    'BlueSky' = 'https://bsky.app/profile/mrpowershell.com'
+    'GitHub' = 'https://github.com/StartAutomating/MrPowerShell'
+    'RSS' = 'https://MrPowerShell.com/RSS/index.rss'
+}
 
 $site.HeaderMenu = [Ordered]@{
     "Gists"  = "https://MrPowerShell.com/Gists"
@@ -150,5 +150,4 @@ $site.HeaderMenu = [Ordered]@{
     "Tags" = "https://MrPowerShell.com/Tags"
     "YouTube" = "https://MrPowerShell.com/YouTube"
 }
-
-#endregion Site Iconography
+#endregion Site Menus
