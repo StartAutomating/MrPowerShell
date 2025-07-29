@@ -88,7 +88,7 @@ foreach ($turtleName in $turtles.Keys) {
     "<div>"
         "<h3 class='turtle-name'>$turtleName</h3>"
         "<div>"
-            $($turtles[$turtleName].SVG)
+            $($turtles[$turtleName].SVG.OuterXml)
         "</div>"                
     "</div>"
 }
