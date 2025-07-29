@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1753749211437454,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lv2ubfrjcd2f",
+    "operation": "update",
+    "collection": "app.bsky.feed.generator",
+    "rkey": "wtfsky",
+    "record": {
+      "$type": "app.bsky.feed.generator",
+      "acceptsInteractions": true,
+      "avatar": {
+        "$type": "blob",
+        "ref": {
+          "$link": "bafkreidpcsk6qj5unj7hbxzanfdcxwsdqkogq6c7o5h3bjbf6q7fmmhnf4"
+        },
+        "mimeType": "image/png",
+        "size": 455397
+      },
+      "createdAt": "2025-07-29T00:33:29.874049+00:00",
+      "description": "The Weird, the Wonderful, the WTF.\r\n\r\nAnything \"weird\" or \"wtf\" on BlueSky.\r\n\r\nMay contain NSFW posts.",
+      "did": "did:web:api.graze.social",
+      "displayName": "WTFSky",
+      "social.graze.feed.order": "new"
+    },
+    "cid": "bafyreificv5244gbtely3ytol5dk5dv4v4xzx7hw5anst7mz4bq7tekyq4"
+  }
+}
