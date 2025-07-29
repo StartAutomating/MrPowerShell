@@ -71,16 +71,17 @@ if ($myNotes) {
 
 $turtles = [Ordered]@{
     "Random Flower" = turtle Flower 50 10 (4..6 | Get-Random) 36
-    "Box Fractal" = turtle BoxFractal 10 4
-    "Koch Curve" = turtle KochCurve 10 4
+    "Box Fractal" = turtle BoxFractal 10 4    
     "Koch Island" = Turtle KochIsland 10 4
     "Koch Snowflake" = Turtle KochSnowflake 10 4    
     "Hilbert Curve" = turtle HilbertCurve 10 4
     "Moore Curve" = Turtle MooreCurve 10 4
     "Peano Curve" = Turtle PeanoCurve 10 4 
     "Sierpinski Arrowhead" = turtle SierpinskiArrowheadCurve 10 4
+    "Sierpinski Square Curve" = turtle SierpinskiSquareCurve 10 4
     "Sierpinski Triangle" = Turtle SierpinskiTriangle 10 4    
     "Terdragon" = turtle TerdragonCurve 10 4
+    "Twin Dragon" = turtle TwinDragonCurve 10 4
 }
 
 "<div class='turtle-grid'>"
