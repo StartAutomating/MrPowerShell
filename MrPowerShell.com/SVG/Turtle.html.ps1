@@ -36,31 +36,37 @@
 
 param()
 
+#region Get Metadata From Help
 $myHelp = Get-Help $myInvocation.MyCommand.ScriptBlock.File
-
 
 if ($page -is [Collections.IDictionary]) {
     $page.Title = $title = $myHelp.Synopsis
     $page.Description = $description = $myHelp.description.text -join [Environment]::NewLine
-
 }
+#endregion Get Metadata From Help
+
+#region Display Notes
 $myNotes = $myHelp.alertSet.alert.text
 if ($myNotes) {
     (ConvertFrom-Markdown -InputObject $myNotes).Html
 }
+#endregion Display Notes
 
+#region View Source
 "<details>"
 "<summary>View Source</summary>"
 "<pre><code class='language-powershell'>"
 [Web.HttpUtility]::HtmlEncode($MyInvocation.MyCommand.ScriptBlock)
 "</code></pre>"
 "</details>"
+#endregion View Source
 
-
+#region Grid Styles
 "<style>"
 ".turtle-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); gap: 2.5em; margin: 2.5em}"
 ".turtle-name { text-align: center; }"
 "</style>"
+#endregion Grid Styles
 
 
 $turtles = [Ordered]@{
@@ -78,7 +84,8 @@ $turtles = [Ordered]@{
 "<div class='turtle-grid'>"
 foreach ($turtleName in $turtles.Keys) {
     "<div>"
-        "<h3 class='turtle-name'>$($turtleName)</h3>"
+        "<h3 class='turtle-name'>$turtleName</h3>"
+        "<br />"
         $($turtles[$turtleName].SVG)
     "</div>"
 }
