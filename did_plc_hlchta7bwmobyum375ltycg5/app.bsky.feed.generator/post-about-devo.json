@@ -1,0 +1,21 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1753749208152706,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lv2ubd5mho2k",
+    "operation": "update",
+    "collection": "app.bsky.feed.generator",
+    "rkey": "post-about-devo",
+    "record": {
+      "$type": "app.bsky.feed.generator",
+      "acceptsInteractions": true,
+      "createdAt": "2025-07-29T00:33:27.950698+00:00",
+      "description": "All things DevOps.\r\n\r\nPosts about PowerShell, Workflows, Azure DevOps, Ansible, Jira, and more.",
+      "did": "did:web:api.graze.social",
+      "displayName": "DevOpsSky",
+      "social.graze.feed.order": "new"
+    },
+    "cid": "bafyreia65tkebadf4f6pmozzvs7wk47lzxddko4gduahahsckrb4bdxb4q"
+  }
+}
