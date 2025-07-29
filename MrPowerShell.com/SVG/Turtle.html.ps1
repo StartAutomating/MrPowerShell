@@ -33,6 +33,7 @@
 #>
 
 #requires -Module Turtle
+
 param()
 
 $myHelp = Get-Help $myInvocation.MyCommand.ScriptBlock.File
@@ -41,11 +42,13 @@ $myHelp = Get-Help $myInvocation.MyCommand.ScriptBlock.File
 if ($page -is [Collections.IDictionary]) {
     $page.Title = $title = $myHelp.Synopsis
     $page.Description = $description = $myHelp.description.text -join [Environment]::NewLine
-    $myNotes = $myHelp.alertSet.alert.text
-    if ($myNotes) {
-        (ConvertFrom-Markdown -InputObject $myNotes).Html
-    }
+
 }
+$myNotes = $myHelp.alertSet.alert.text
+if ($myNotes) {
+    (ConvertFrom-Markdown -InputObject $myNotes).Html
+}
+
 "<details>"
 "<summary>View Source</summary>"
 "<pre><code class='language-powershell'>"
@@ -54,27 +57,29 @@ if ($page -is [Collections.IDictionary]) {
 "</details>"
 
 
-"<h3>Random Flower</h3>"
-
-Turtle Flower 50 10 (4..6 | Get-Random) 36 | 
-    Select-Object -ExpandProperty Symbol | 
-    Select-Object -ExpandProperty OuterXML
-
-"<h3>Koch Snowflake</h3>"
-
-Turtle KochSnowflake 10 4 |
-    Select-Object -ExpandProperty Symbol | 
-    Select-Object -ExpandProperty OuterXML
-
-"<h3>Moore Curve</h3>"
-
-Turtle MooreCurve 10 4 |
-    Select-Object -ExpandProperty Symbol | 
-    Select-Object -ExpandProperty OuterXML
+"<style>"
+".turtle-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); gap: 2.5em; margin: 2.5em}"
+"</style>"
 
 
-"<h3>Sierpinski Triangle</h3>"
+$turtles = [Ordered]@{
+    "Random Flower" = turtle Flower 50 10 (4..6 | Get-Random) 36
+    "Box Fractal" = turtle BoxFractal 10 4
+    "Koch Snowflake" = Turtle KochSnowflake 10 4
+    "Hilbert Curve" = turtle HilbertCurve 10 4
+    "Moore Curve" = Turtle MooreCurve 10 4
+    "Peano Curve" = Turtle PeanoCurve 10 4 
+    "Sierpinski Arrowhead" = turtle SierpinskiArrowheadCurve 10 4
+    "Sierpinski Triangle" = Turtle SierpinskiTriangle 10 4    
+    "Terdragon" = turtle TerdragonCurve 10 4
+}
 
-Turtle SierpinskiTriangle 10 4 |
-    Select-Object -ExpandProperty Symbol | 
-    Select-Object -ExpandProperty OuterXML
+"<div class='turtle-grid'>"
+foreach ($turtleName in $turtles.Keys) {
+    "<div>"
+        "<h3>$($turtleName)"
+        $($turtles[$turtleName].SVG)
+    "</div>"
+}
+"</div>"
+return
