@@ -59,6 +59,7 @@ if ($myNotes) {
 
 "<style>"
 ".turtle-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); gap: 2.5em; margin: 2.5em}"
+".turtle-name { text-align: center; }"
 "</style>"
 
 
@@ -77,7 +78,7 @@ $turtles = [Ordered]@{
 "<div class='turtle-grid'>"
 foreach ($turtleName in $turtles.Keys) {
     "<div>"
-        "<h3>$($turtleName)"
+        "<h3 class='turtle-name'>$($turtleName)</h3>"
         $($turtles[$turtleName].SVG)
     "</div>"
 }
