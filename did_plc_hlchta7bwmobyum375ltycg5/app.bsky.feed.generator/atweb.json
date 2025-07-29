@@ -1,0 +1,21 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1753749208447570,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lv2ubdfbyb27",
+    "operation": "update",
+    "collection": "app.bsky.feed.generator",
+    "rkey": "atweb",
+    "record": {
+      "$type": "app.bsky.feed.generator",
+      "acceptsInteractions": true,
+      "createdAt": "2025-07-29T00:33:28.197105+00:00",
+      "description": "Everything about AtProto",
+      "did": "did:web:api.graze.social",
+      "displayName": "AtWeb",
+      "social.graze.feed.order": "new"
+    },
+    "cid": "bafyreihkvha6yendjzsyeb5dmaqfkfqfd662uzklq4omiicx2qvcvcdrum"
+  }
+}

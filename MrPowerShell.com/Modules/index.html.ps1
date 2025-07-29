@@ -17,11 +17,14 @@ param(
         "CompanyName eq 'Start-Automating'",
         "CompanyName eq 'Start Automating'",         
         "Authors eq 'James Brundage'",
-        "Authors eq 'JamesBrundage'"
+        "Authors eq 'JamesBrundage'",
+        "Authors eq 'Start-Automating'",
+        "Authors eq 'Start Automating'",
+        "Id eq 'ShowUI'"
     ),
 
     [switch]
-    $ShowGalleryTotal,
+    $HideGalleryTotal,
     
     [int]
     $Skip = 0
@@ -44,10 +47,13 @@ if (-not $script:MyModuleGalleryInfoCache) {
 }
 
 if (-not $script:MyModuleGalleryInfoCache[$fullUrl]) {
-    $script:MyModuleGalleryInfoCache[$fullUrl] = Invoke-RestMethod $fullUrl -Verbose
+    $script:MyModuleGalleryInfoCache[$fullUrl] = Invoke-RestMethod $fullUrl
 }
 $moduleList = $script:MyModuleGalleryInfoCache[$fullUrl]
 
+if ($script:MyModuleGalleryInfoCache[$fullUrl] -is [xml]) {
+    $script:MyModuleGalleryInfoCache[$fullUrl].Save("$psScriptRoot/index.xml")
+}
 
 Update-TypeData -TypeName PowerShellGallery.Module -MemberType ScriptProperty -MemberName Name -Value {
     $this.properties.ID
@@ -87,7 +93,7 @@ Update-TypeData -TypeName PowerShellGallery.Module -MemberType ScriptProperty -M
     $this.properties.Authors -split ',\s{0,}'
 } -Force
 
-Update-TypeData -TypeName PowerShellGallery.Module -Force -MemberType ScriptProperty -MemberName CreatedAt -Value {
+Update-TypeData -TypeName PowerShellGallery.Module -Force -MemberType ScriptProperty -MemberName UpdatedAt -Value {
     param()
     
     $this.properties.Created.'#text' -as [DateTime]
@@ -95,13 +101,13 @@ Update-TypeData -TypeName PowerShellGallery.Module -Force -MemberType ScriptProp
 
 Update-TypeData -TypeName PowerShellGallery.Module -Force -MemberType ScriptMethod -MemberName ToHtml -Value {
     param()
+    $publishedAt = $this.properties.Published.'#text' -as [DateTime]
     $attributes = [Ordered]@{
         'class' = 'powershell-gallery-module'
         'data-module-name'        = $this.Name
         'data-module-version'     = $this.Version
         'data-module-downloads'   = $this.Downloads
-        'data-module-created-at'  = $this.CreatedAt.ToString('o')
-        'data-module-last-updated'= $this.LastUpdated.ToString('o')
+        'data-module-published'  = $publishedAt.ToString('o')
     }
     $attributeString = @($attributes.GetEnumerator() | ForEach-Object { "$($_.Key)='$($_.Value)'" }) -join ' '
     "<div $attributeString>"    
@@ -111,9 +117,10 @@ Update-TypeData -TypeName PowerShellGallery.Module -Force -MemberType ScriptMeth
         "<a href='https://www.powershellgallery.com/packages/$($this.Name)/' >"
         "<img src='https://img.shields.io/powershellgallery/dt/$($this.Name)' />"
         "</a>"
-        "<h3>v$($this.Version)</h3>"
+        "<h3>v$($this.Version)</h3>"        
         "<h4>$([Web.HttpUtility]::HtmlEncode($this.Description))</h4>"
-        "<p>Created: $($this.CreatedAt.ToString('yyyy-MM-dd'))</p>"        
+        "<h5>Downloads: $($this.Downloads)</h5>"
+        "<p>Published: $($publishedAt.ToString('yyyy-MM-dd'))</p>"
     "</div>"
 }
 
@@ -127,46 +134,93 @@ $moduleList = @(foreach ($moduleInfo in $moduleList) {
 
 
 $moduleList = @($moduleList | Sort-Object -Property Downloads -Descending)
+
 "<style>"
 ".powershell-gallery-modules { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5em; margin: 2.5em}"
-".powershell-gallery-total  { font-size: 2em; text-align: center; }"
-".powershell-gallery-sort   { font-size: 1.5em; text-align: center;}"
+".powershell-gallery-total { font-size: 1.75em; text-align: center; margin-bottom: 0.5em; }"
+".powershell-gallery-sort { font-size: 1.5em; text-align: center; }"
 "h1 { text-align: center; }"
 "</style>"
+
 "<h1>My PowerShell Modules</h1>"
-if ($ShowGalleryTotal) {
-    "<div class='powershell-gallery-total'>Total Downloads: $("{0:N0}" -f ($moduleList | Measure-Object -Property Downloads -Sum | Select-Object -ExpandProperty Sum))</div>"
+
+if (-not $HideGalleryTotal) {
+    "<div class='powershell-gallery-total'>"
+        "Total Modules: $("{0:N0}" -f ($moduleList.Count))",        
+            "Total Downloads: $("{0:N0}" -f ($moduleList |
+                Measure-Object -Property Downloads -Sum |
+                Select-Object -ExpandProperty Sum
+            ))" -join '<br/>'
+    "</div>"
 }
+
 "<div class='powershell-gallery-sort'>"
 "Sort by:"
 "<select id='sort-modules'>"
-"<option value='downloads' selected>Downloads</option>"
-"<option value='created'>Created At</option>"
-"<option value='name'>Name</option>"
-"<option value='version'>Version</option>"
+    "<option value='moduleDownloads' selected>Downloads</option>"
+    "<option value='modulePublished'>Published</option>"
+    "<option value='moduleName'>Name</option>"
+    "<option value='moduleVersion'>Version</option>"
 "</select>"
+
+$sortContainer = @'
+// We can sort a container of items by:
+// * Sorting on any data-* attributes
+// * Setting the .order style on each child element
+// Grids and flexboxes will automatically re-order the items based on the .order style.
+function sortContainer(event, containerClass) {
+    // The name of the data-* attribute to sort by
+    // please remember that dashes in data-* attributes become camelCase in the dataset object.
+    const sortBy = event.target.value;
+    // The container that holds the modules
+    const container = document.querySelector(containerClass);
+    const children = Array.from(container.children);
+    children.sort((a, b) => {
+
+        // Random sorts are just a 50/50 chance to be sorted
+        if (sortBy === 'random') { return Math.random() - 0.5; }
+        // Anything that looks like a version should be sorted as a version
+        if (sortBy.match(/Version/i)) {
+            // since versions should be sorted descending, we reverse the localeCompare result.
+            return a.dataset[sortBy].localeCompare(b.dataset[sortBy], undefined, {numeric: true}) * -1;
+        }
+
+        // Next, see if they can be parsed as dates
+        var aDate = Date.parse(a.dataset[sortBy]);
+        var bDate = Date.parse(b.dataset[sortBy]);
+        // If both are valid dates, sort by date
+        if (!isNaN(aDate) && !isNaN(bDate)) {
+            return bDate - aDate;
+        }
+
+        // Next, see if they can be parsed as numbers
+        var aNumber = Number(a.dataset[sortBy]);
+        var bNumber = Number(b.dataset[sortBy]);
+        // If both are valid numbers, sort by number
+        if (!isNaN(aNumber) && !isNaN(bNumber)) {
+            return bNumber - aNumber;
+        }
+
+        // Finally, sort as strings
+        return a.dataset[sortBy].localeCompare(b.dataset[sortBy]);
+    })
+
+    for (let i = 0; i < children.length; i++) {
+        children[i].style.order = i + 1
+    }
+}
+'@
+
 "<script>"
-"document.getElementById('sort-modules').addEventListener('change', function(event) {"
-"    const sortBy = event.target.value;"
-"    const container = document.querySelector('.powershell-gallery-modules');"
-"    const modules = Array.from(container.children);"
-"    modules.sort((a, b) => {"
-"        if (sortBy === 'downloads') {"
-"            return parseInt(b.dataset.moduleDownloads) - parseInt(a.dataset.moduleDownloads);"
-"        } else if (sortBy === 'created') {"
-"            return new Date(b.dataset.moduleCreatedAt) - new Date(a.dataset.moduleCreatedAt);"
-"        } else if (sortBy === 'name') {"
-"            return a.dataset.moduleName.localeCompare(b.dataset.moduleName);"
-"        } else if (sortBy === 'version') {"
-"            return a.dataset.moduleVersion.localeCompare(b.dataset.moduleVersion, undefined, {numeric: true}) * -1;"
-"        }"
-"        return 0;"
-"    });"
-"    for (let i = 0; i < modules.length; i++) {"
-"        modules[i].style.order = i + 1;"
-"    }"
-"});"
+
+$sortContainer
+
+"document.getElementById('sort-modules').addEventListener(
+    'change',
+    (event) => sortContainer(event, '.powershell-gallery-modules')
+)"
 "</script>"
+
 "</div>"
 "<div class='powershell-gallery-modules'>"
 foreach ($moduleInfo in $moduleList) {

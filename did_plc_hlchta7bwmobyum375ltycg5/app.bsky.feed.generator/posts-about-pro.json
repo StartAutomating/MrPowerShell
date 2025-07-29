@@ -1,0 +1,21 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1753749208050489,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lv2ubcydjg2k",
+    "operation": "update",
+    "collection": "app.bsky.feed.generator",
+    "rkey": "posts-about-pro",
+    "record": {
+      "$type": "app.bsky.feed.generator",
+      "acceptsInteractions": true,
+      "createdAt": "2025-07-29T00:33:27.774975+00:00",
+      "description": "Posts for devs, by devs.  Most major languages included.",
+      "did": "did:web:api.graze.social",
+      "displayName": "DevSky",
+      "social.graze.feed.order": "new"
+    },
+    "cid": "bafyreigme42nloxgtgmquzybzxt6l63vrugwzkoaprlgb5hckxm3b7gkaa"
+  }
+}
