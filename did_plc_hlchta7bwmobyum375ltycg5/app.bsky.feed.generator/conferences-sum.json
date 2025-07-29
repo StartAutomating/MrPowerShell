@@ -1,0 +1,21 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1753749208275674,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lv2ubdbeql2g",
+    "operation": "update",
+    "collection": "app.bsky.feed.generator",
+    "rkey": "conferences-sum",
+    "record": {
+      "$type": "app.bsky.feed.generator",
+      "acceptsInteractions": true,
+      "createdAt": "2025-07-29T00:33:28.073827+00:00",
+      "description": "Keep up to date with conferences, summits, and calls for proposals",
+      "did": "did:web:api.graze.social",
+      "displayName": "ConfSky",
+      "social.graze.feed.order": "new"
+    },
+    "cid": "bafyreid2bqez25a4tebmf3olf2s5wbcjd6vsmszf4ygoumjsnovu32vdiy"
+  }
+}
