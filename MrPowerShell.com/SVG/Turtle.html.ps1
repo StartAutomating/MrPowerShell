@@ -19,9 +19,13 @@
 
     I though I would have a little fun by implementing a Turtle graphics engine in PowerShell.
 
-    You can check it out on [GitHub](https://github.com/PowerShellWeb/Turtle)
+    You can check it out on [GitHub](https://github.com/PowerShellWeb/Turtle).
 
-    This page shows off a few shapes turtle can make.
+    You can download and install Turtle from the [PowerShell Gallery](https://www.powershellgallery.com/packages/Turtle).
+
+    This implementation of Turtle graphics goes a bit above and beyond by allowing you to create SVGs from any [L-system](https://en.wikipedia.org/wiki/L-system).
+
+    Check out some of the built-in beautiful graphics!
 .LINK
     https://MrPowershell.com/SVG/Turtle
 .LINK
@@ -44,6 +48,10 @@ if ($page -is [Collections.IDictionary]) {
     $page.Description = $description = $myHelp.description.text -join [Environment]::NewLine
 }
 #endregion Get Metadata From Help
+
+if ($page -is [Collections.IDictionary]) {
+    $Page.Image = "https://MrPowerShell.com/SVG/Turtle.png"
+}
 
 #region Display Notes
 $myNotes = $myHelp.alertSet.alert.text
