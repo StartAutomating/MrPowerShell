@@ -79,7 +79,9 @@ if ($myNotes) {
 
 $turtles = [Ordered]@{
     "Random Flower" = turtle Flower 50 10 (4..6 | Get-Random) 36
-    "Box Fractal" = turtle BoxFractal 10 4    
+    "Box Fractal" = turtle BoxFractal 10 4
+    "Binary Tree" = turtle BinaryTree 10 4   
+    "Fractal Plant" = turtle FractalPlant 10 4
     "Koch Island" = Turtle KochIsland 10 4
     "Koch Snowflake" = Turtle KochSnowflake 10 4    
     "Hilbert Curve" = turtle HilbertCurve 10 4
@@ -97,7 +99,7 @@ foreach ($turtleName in $turtles.Keys) {
     "<div>"
         "<h3 class='turtle-name'>$turtleName</h3>"
         "<div>"
-            $($turtles[$turtleName].SVG.OuterXml)
+            "$($turtles[$turtleName])"
         "</div>"                
     "</div>"
 }
