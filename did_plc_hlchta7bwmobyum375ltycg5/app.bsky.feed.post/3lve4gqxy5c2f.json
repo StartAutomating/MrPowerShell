@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1754067217425535,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lve4gqgbua26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lve4gqxy5c2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-01T16:53:37.873Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaiuu7u3rhtz4wx2xzjox3dufzp4sodwg2niccht5cze2srrcwvjq",
+          "uri": "at://did:plc:qqp6oykzjip6b7u7bvhgot7v/app.bsky.feed.post/3lve4bhc3ck2n"
+        },
+        "root": {
+          "cid": "bafyreicikz7niovi7j7uv7g6ta5fdol6mdid2aavq6ltl7gedrkx24czf4",
+          "uri": "at://did:plc:qqp6oykzjip6b7u7bvhgot7v/app.bsky.feed.post/3lvca5ppdok2o"
+        }
+      },
+      "text": "Sorry to hear that.\n\nThough I'm not quite sure what you mean by \"the online package repos\".\n\nThe PowerShell Gallery is populated by both the community and Microsoft ( and is as hit or miss as npm or nuget ).\n\nWhat package repos are you talking about ?"
+    },
+    "cid": "bafyreifsl5kbuf3m7dypf5w4jm7nfcg7n4xvtghouby6mmiu73gsvkd6pi"
+  }
+}
