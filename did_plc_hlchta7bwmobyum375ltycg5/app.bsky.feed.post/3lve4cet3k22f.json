@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1754067070530314,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lve4cedat526",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lve4cet3k22f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-01T16:51:10.911Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Strongly Encouraged Development Guidelines",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiao27prrvxkzcmru4hks65i3isxu3qun6gyksshdghjz2uuptzty4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 12088
+          },
+          "title": "Strongly Encouraged Development Guidelines - PowerShell",
+          "uri": "https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/strongly-encouraged-development-guidelines?view=powershell-7.5#define-objectmembers-to-be-used-as-parameters"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 108,
+            "byteStart": 97
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/strongly-encouraged-development-guidelines?view=powershell-7.5#define-objectmembers-to-be-used-as-parameters"
+            }
+          ],
+          "index": {
+            "byteEnd": 259,
+            "byteStart": 224
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih4p3dj76kuahotiz56e5jqr63hnqfrpirs6vxwrk53pdheotstni",
+          "uri": "at://did:plc:qqp6oykzjip6b7u7bvhgot7v/app.bsky.feed.post/3lve45rvyxs2n"
+        },
+        "root": {
+          "cid": "bafyreicikz7niovi7j7uv7g6ta5fdol6mdid2aavq6ltl7gedrkx24czf4",
+          "uri": "at://did:plc:qqp6oykzjip6b7u7bvhgot7v/app.bsky.feed.post/3lvca5ppdok2o"
+        }
+      },
+      "text": "A number of teams that write cmdlets unfortunately know their c# apis much better than they know #PowerShell, and can create subpar commands.\n\nIt doesn't help that they often don't RTFM.\n\nLink to the rule they're breaking:\n\nlearn.microsoft.com/en-us/powers..."
+    },
+    "cid": "bafyreidxbminil4pvr7t4eignm4hwflovvw3r54h6mqkyloqkqmob4ttey"
+  }
+}
