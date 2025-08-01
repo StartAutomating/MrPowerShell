@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1754065794930287,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lve34dtcht2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lve34esjfc2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-01T16:29:55.825Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicikz7niovi7j7uv7g6ta5fdol6mdid2aavq6ltl7gedrkx24czf4",
+          "uri": "at://did:plc:qqp6oykzjip6b7u7bvhgot7v/app.bsky.feed.post/3lvca5ppdok2o"
+        },
+        "root": {
+          "cid": "bafyreicikz7niovi7j7uv7g6ta5fdol6mdid2aavq6ltl7gedrkx24czf4",
+          "uri": "at://did:plc:qqp6oykzjip6b7u7bvhgot7v/app.bsky.feed.post/3lvca5ppdok2o"
+        }
+      },
+      "text": "Just to be clear, this is a case of badly designed cmdlets.\n\nPowerShell package management has nothing to do with it.\n\nPlease blame the exchange team who built the bad commands, not the language.\n\nAlso, please file an issue on that module so that it gets fixed.\n\nYour code should work."
+    },
+    "cid": "bafyreieiykcsiewr7vmjoc2pfffswcyt3qcibb4u5whito5ww5q27nosee"
+  }
+}
