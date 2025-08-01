@@ -175,6 +175,20 @@ a:hover, a:focus {
 .taskbar * {
     vertical-align: middle;    
 }
+
+.background {
+    position: fixed;
+    top: 0; left: 0;
+    min-width: 100%; height:100%;
+}
+
+.backdrop-svg {
+    z-index: -100;
+}
+
+.backdrop-canvas {
+    z-index: -99;
+}
 "@
 
 # $style = @($StyleTable | outputCss) -join [Environment]::NewLine
@@ -247,6 +261,18 @@ $headerElements = @(
 
 # Now we declare the body elements
 $bodyElements = @(
+    # * The background layers
+
+    
+    
+    "<svg class='background backdrop-svg' id='background-svg' width='100%' height='100%'>"
+    if ($page.Background -is [xml]) {
+        $page.Background.OuterXml
+    }
+    "</svg>"    
+    "<canvas id='background backdrop-canvas' width='0' height='0'></canvas>"
+
+
     # * The header
     "<header>"
         if ($page.Header) {
