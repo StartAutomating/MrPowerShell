@@ -1,0 +1,84 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1754070629541441,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lve7mg2imv26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lve7mg75vk2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-01T17:50:29.126Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "ALT: a man in a suit with two arrows pointing to his face",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidb72h4kvhi6xcbq6r3kukvxzmue25j27f5325q7z5vk4ozwit2ra"
+            },
+            "mimeType": "image/jpeg",
+            "size": 85562
+          },
+          "title": "a man in a suit with two arrows pointing to his face",
+          "uri": "https://media.tenor.com/TZJbFFAOPoAAAAAC/rick-roll-trending.gif?hh=360&ww=240"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 198,
+            "byteStart": 187
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "HTML5"
+            }
+          ],
+          "index": {
+            "byteEnd": 205,
+            "byteStart": 199
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.leeholmes.com/powershell-and-html5/"
+            }
+          ],
+          "index": {
+            "byteEnd": 263,
+            "byteStart": 230
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihidp44ok7vs3oiftgl5gdcmyebcefm5ottbturokzgadmxghigca",
+          "uri": "at://did:plc:jxtkgvs5pvvanhchjvldmtvi/app.bsky.feed.post/3lve5znzzbk2k"
+        },
+        "root": {
+          "cid": "bafyreifrvbh6mbp4yq6vmt3jhawogxjxawdk6eelxvacn63nyrdpl4yf2e",
+          "uri": "at://did:plc:jxtkgvs5pvvanhchjvldmtvi/app.bsky.feed.post/3lvdzcypty22f"
+        }
+      },
+      "text": "It's not much of a reverse card to say \"think that tried to read directly from memory with syntax trickery\" shouldn't be trusted.\n\nIf you think running this script is safe, I have an old #PowerShell #HTML5 prototype to show you.\n\nwww.leeholmes.com/powershell-a..."
+    },
+    "cid": "bafyreibimtusrug52mzqa6ngvcgk5tuuuuexwyrharslfzswlupcdpwsva"
+  }
+}
