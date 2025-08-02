@@ -15,7 +15,7 @@ if ($Page) {
     $page.Background = 
         turtle SierpinskiTriangle 10 4 | 
         Set-Turtle PatternTransform @{
-            scale = 0.66
+            scale = 1
         } | 
         Set-Turtle PatternAnimation ([Ordered]@{
             type = 'scale'    ; values = 0.66,0.33, 0.66 ; repeatCount = 'indefinite' ;dur = "23s"; additive = 'sum';id ='scale-pattern'
