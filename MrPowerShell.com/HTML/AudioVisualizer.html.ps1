@@ -353,11 +353,11 @@ async function ShowVisualizer() {
 
         let backgroundSVG = document.getElementById("background-svg")
         if (backgroundSVG) {
-            backgroundSVG.setAttribute("opacity", .1 + info.average.volume);
+            backgroundSVG.setAttribute("opacity", info.average.volume);
         }
         let scalePattern = document.getElementById("scale-pattern")
         if (scalePattern) {
-            scalePattern.setAttribute("values", .1 + info.average.volume);
+            scalePattern.setAttribute("values", 1 - info.average.volume);
         }
         let rotatePattern = document.getElementById("rotate-pattern")
         if (rotatePattern) {
