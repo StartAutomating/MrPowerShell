@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1754169057549539,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lvh3bscw7524",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lvh3bscje22n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-02T21:10:56.969Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Script SVGs with PowerShell. Contribute to StartAutomating/PSSVG development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicgcne5wv37lobrkgbdgbcusayilzsasunobosv2fmgmvgkrkjil4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 87127
+          },
+          "title": "GitHub - StartAutomating/PSSVG: Script SVGs with PowerShell",
+          "uri": "https://GitHub.com/StartAutomating/PSSVG"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/StartAutomating/PSSVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 296,
+            "byteStart": 270
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib77aacjtrqlnjrkxd3b4nehnx6stdfbaribxlromtyrgfi7zsbha",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3lvgttub7z22i"
+        },
+        "root": {
+          "cid": "bafyreiavzzbfi7fgkhkxt64cwzu2jqopcrpafrjrswwxau5cd5meqfq5ji",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3lvgjxgurl22q"
+        }
+      },
+      "text": "I see.  This would definitely be much easier with SVG ( with or without Turtle ).  Drop into my DMs, hit me up on discord, or look up the SVG Image element on MDN 😉😎.\n\nAlso, there's this other much larger project I have that wraps the SvG standard into commands:\n\nGitHub.com/StartAutomat..."
+    },
+    "cid": "bafyreia3lqm4ilxyyrlsemucyc4dltsyhnhoe3blrbombipx4xp3vcxixq"
+  }
+}
