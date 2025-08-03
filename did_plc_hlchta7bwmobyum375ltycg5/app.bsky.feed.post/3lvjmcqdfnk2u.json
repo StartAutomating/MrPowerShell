@@ -1,0 +1,110 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1754256061230817,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lvjmcpuxge26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lvjmcqdfnk2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-03T21:21:01.541Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Turtles in a PowerShell. Contribute to PowerShellWeb/Turtle development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibhmoifhfnjbabu33i2ke4hqo54ief776htfttqiv7wpla7rxra3a"
+            },
+            "mimeType": "image/jpeg",
+            "size": 877605
+          },
+          "title": "GitHub - PowerShellWeb/Turtle: Turtles in a PowerShell",
+          "uri": "https://GitHub.com/PowerShellWeb/Turtle"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 38,
+            "byteStart": 31
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 50,
+            "byteStart": 39
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Python"
+            }
+          ],
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 102
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "logo"
+            }
+          ],
+          "index": {
+            "byteEnd": 153,
+            "byteStart": 148
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "4488ff"
+            }
+          ],
+          "index": {
+            "byteEnd": 245,
+            "byteStart": 238
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/PowerShellWeb/Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 287,
+            "byteStart": 261
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just dropped a minor update to #Turtle #PowerShell\n\nAdded .Home(), .Towards, and .Distance() for more #Python compatibility.\n\nAdded .lt/.rt for old #logo compatibility.\n\nAlso made turtle capable of setting.\n\n`turtle flower 15 5 36 stroke #4488ff save ./f.svg`\n\nGitHub.com/PowerShellWe..."
+    },
+    "cid": "bafyreieuxyfzufh4esneclvmusjmqsnkynqriqp3uml76ampkhdvehjgli"
+  }
+}
