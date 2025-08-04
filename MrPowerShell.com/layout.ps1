@@ -141,7 +141,10 @@ header, footer {
 }
 
 @media (orientation: portrait) {
-    .logo { height: 5em; }
+    .logo { height: 3em; }
+    .site-title, .page-title {
+        font-size: 0.84em;
+    }
 }
 
 pre, code { font-family: '$CodeFont', monospace; }
@@ -160,7 +163,7 @@ a:hover, a:focus {
     } elseif ($site.FontSize) {
         "font-size: $($site.FontSize);"
     } else {
-        "font-size: 1.25em;"
+        "font-size: 1.21em;"
     })
 }
 
@@ -289,17 +292,17 @@ $bodyElements = @(
                     }
                 ) + "</svg>"
                 if ($site.Title) {
-                    "<h1>$([Web.HttpUtility]::HtmlEncode($site.Title))</h1>"
+                    "<h1 class='site-title'>$([Web.HttpUtility]::HtmlEncode($site.Title))</h1>"
                 }
                 elseif ($site.CNAME) {                    
-                    "<h1>$([Web.HttpUtility]::HtmlEncode($site.CNAME))</h1>"
+                    "<h1 class='site-title'>$([Web.HttpUtility]::HtmlEncode($site.CNAME))</h1>"
                 }
             ) -join (
                 [Environment]::NewLine + "<br/>" + [Environment]::NewLine
             )
             "</a>"
             if ($page.Title -and $page.Title -ne $site.Title) {
-                "<h2>$([Web.HttpUtility]::HtmlEncode($page.Title))</h2>"
+                "<h2 class='page-title'>$([Web.HttpUtility]::HtmlEncode($page.Title))</h2>"
             }            
         }
         
@@ -313,8 +316,8 @@ $bodyElements = @(
 
                 # If the device is in portrait mode, use smaller padding and gaps
                 "@media (orientation: portrait) {"
-                    ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.5em }"
-                    ".header-menu-item { text-align: center; padding: 0.5em; }"
+                    ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.25em }"
+                    ".header-menu-item { text-align: center; padding: 0.25em; }"
                 "}"
             "</style>"
             "<nav class='header-menu'>"
