@@ -100,7 +100,7 @@ window.addEventListener("resize", function() {
 })
 Resize()
 let backgroundSvg = document.getElementById("background-svg")
-// backgroundSvg.setAttribute("opacity", 0.25)
+backgroundSvg.setAttribute("opacity", 0.25)
 </script>
 '
 
@@ -154,7 +154,11 @@ $html = @"
     grid-template-columns: repeat(5, auto);
 }
 #visuals {
-    width: 100vh;    
+    width: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -10;    
 }
 #PowerShellCode {
     top: 100vh;
