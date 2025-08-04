@@ -21,8 +21,8 @@ if ($Page) {
             type = 'scale'    ; values = 0.66,0.33, 0.66 ; repeatCount = 'indefinite' ;dur = "23s"; additive = 'sum';id ='scale-pattern'
         }, [Ordered]@{
             type = 'rotate'   ; values = 0, 360 ;repeatCount = 'indefinite'; dur = "41s"; additive = 'sum'; id ='rotate-pattern'
-        }) |        
-        Set-Turtle StrokeWidth '0.1%' | 
+        }) |
+        Set-Turtle StrokeWidth '0.1%' |
         Select-Object -expand Pattern
 }
 
@@ -427,7 +427,7 @@ async function ShowVisualizer() {
         let foregroundColor = getComputedStyle(visualsCanvas).getPropertyValue(colorSelector.value)
         if (foregroundColor == '') {
             foregroundColor = noteRGB['color']
-        }        
+        }
         
         visualsCanvas.width = window.innerWidth
         visualsCanvas.height = window.innerHeight
@@ -439,7 +439,7 @@ async function ShowVisualizer() {
         visualsCanvas2d.fillStyle = backgroundColor
         visualsCanvas2d.clearRect(0, 0, visualsWidth, visualsHeight)
 
-        visualsCanvas2d.lineWidth = 3;
+        visualsCanvas2d.lineWidth = info.average.volume * 7;
         visualsCanvas2d.strokeStyle = foregroundColor;
         let x = 0;
         if (document.getElementById('showScope').checked) {
@@ -462,7 +462,30 @@ async function ShowVisualizer() {
             visualsCanvas2d.lineTo(visualsWidth, visualsHeight / 2);
             visualsCanvas2d.stroke();    
         }
-                
+
+        /*
+        Radial Oscilloscope
+        */
+        
+            const centerX = visualsWidth / 2;
+            const centerY = visualsHeight / 2;
+            const radius = Math.min(centerX, centerY) * info.average.volume;
+            const angleStep = (Math.PI * 2) / bufferLength;
+
+            for (let i = 0; i < bufferLength; i++) {
+                const v = dataArray[i] / 128.0;
+                const x = centerX + Math.cos(angleStep * i) * radius * v;
+                const y = centerY + Math.sin(angleStep * i) * radius * v;
+                if (i === 0) {
+                    visualsCanvas2d.moveTo(x, y);
+                } else {
+                    visualsCanvas2d.lineTo(x, y);
+                }                
+            }
+
+            visualsCanvas2d.stroke();
+        
+
         if (document.getElementById('showBars').checked) {
             x = 0;
             const barWidth = (visualsWidth * 1.0) / barsBufferLength;
