@@ -481,7 +481,7 @@ async function ShowVisualizer() {
         visualsCanvas2d.fillStyle = backgroundColor
         visualsCanvas2d.clearRect(0, 0, visualsWidth, visualsHeight)
 
-        visualsCanvas2d.lineWidth = info.average.volume * 7;
+        visualsCanvas2d.lineWidth = info.average.volume * 4.2;
         visualsCanvas2d.strokeStyle = foregroundColor;
         let x = 0;
         if (document.getElementById('showScope').checked) {
