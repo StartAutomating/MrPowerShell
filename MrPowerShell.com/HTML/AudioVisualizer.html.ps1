@@ -21,6 +21,8 @@ if ($Page) {
             type = 'scale'    ; values = 0.66,0.33, 0.66 ; repeatCount = 'indefinite' ;dur = "23s"; additive = 'sum';id ='scale-pattern'
         }, [Ordered]@{
             type = 'rotate'   ; values = 0, 360 ;repeatCount = 'indefinite'; dur = "41s"; additive = 'sum'; id ='rotate-pattern'
+        }, [Ordered]@{
+            type = 'translate'   ; values = "0 0;"; dur = "41s"; additive = 'sum'; id ='translate-pattern'
         }) |
         Set-Turtle StrokeWidth '0.1%' |
         Select-Object -expand Pattern
@@ -131,11 +133,13 @@ $html = @"
 .controlsGrid {
     display: grid; 
     gap: .42%;
+    padding: 1em;
     text-align: center;    
     width:100vw;
     height:100vh;
     vertical-align: middle;
-    grid-template-columns: repeat(6, auto);
+    margin: 1em;
+    grid-template-areas: "left-controls . . right-controls";    
 }
 .visualsGrid {
     position: absolute;
@@ -147,11 +151,24 @@ $html = @"
     height: 100vh;
 }
 
+.grid-left {
+    grid-area: left-controls;
+}
+.grid-right { 
+    grid-area: right-controls;
+}
+.grid-right select, options, button, div {
+    width: 100%;    
+}
+.grid-middle {
+    grid-area: middle;
+}
 
 .innerGrid {
     display: grid;
     vertical-align: middle;
-    grid-template-columns: repeat(5, auto);
+    width: 100%;
+    grid-template-columns: 1fr;
 }
 #visuals {
     width: 100vh;
@@ -160,6 +177,7 @@ $html = @"
     left: 0;
     z-index: -10;    
 }
+    
 #PowerShellCode {
     top: 100vh;
     width: 100vw;
@@ -203,12 +221,14 @@ canvas { filter: url('#blur'); }
     <canvas id='visuals'></canvas>
 </div>
 <div class='controlsGrid'>
-    <div>
+    <div class='grid-left'>    
         <input type="file" id="audioFile" multiple="true" />
         <br />
         <audio controls="true" autoplay="true" id="audio"></audio>
     </div>
-    <div>
+    <div class='grid-right'>
+        <details>
+        <summary>Options</summary>
         <div class='innerGrid'>
             <div>
                 Palette:
@@ -220,26 +240,35 @@ canvas { filter: url('#blur'); }
             <div>
                 <button id="SetRandomColor" onclick="SetRandomColor()">Random Color</button>
             </div>
+            <!--
+            <div>                
+                <input type='color' id='customColor' />
+                <label for='customColor'>Custom Color</label>
+            </div>
+            -->
             <div>
                 Color:
                 $colorSelector
             </div>
+            <div>
+                <input type="checkbox" id="showScope" checked="true" />
+                <label for="showScope">Show Oscilloscope</label>
+            </div>
+            <div>
+                <input type="checkbox" id="showRadialScope" checked="true" />
+                <label for="showRadialScope">Show Radial Oscilloscope</label>
+            </div>            
+            <div>
+                <input type="checkbox" id="showBars" checked="true" />
+                <label for="showBars">Show Bars</label>
+            </div>    
         </div>        
-    </div>    
-    <div>
-        
-    </div>
-    <div>
-        <input type="checkbox" id="showScope" checked="true" />
-        <label for="showScope">Show Oscilloscope</label>
-    </div>
-    <div>
-        <input type="checkbox" id="showBars" checked="true" />
-        <label for="showBars">Show Bars</label>        
-    </div>
-    <div>
-        <button id="SavePNG" onclick="SavePNG('visuals')">Save PNG</button>
-    </div>
+        <div>
+            <button id="SavePNG" onclick="SavePNG('visuals')">Save PNG</button>
+        </div>
+        </div>
+        </details>                
+    </div>        
 </div>
 
 <script>
@@ -275,6 +304,7 @@ audio.addEventListener('ended', (e) => {
 const visualsCanvas = document.getElementById("visuals");
 const visualsCanvas2d = visualsCanvas.getContext("2d");
 const volumeHistory = [];
+const translateDistance = {x:0, y:0 };
 
 
 async function ShowVisualizer() {
@@ -361,12 +391,20 @@ async function ShowVisualizer() {
         }
         let scalePattern = document.getElementById("scale-pattern")
         if (scalePattern) {
-            scalePattern.setAttribute("values", 1 - info.average.volume);
+            scalePattern.setAttribute("values", (2.1 - info.average.volume * 4.2));
         }
         let rotatePattern = document.getElementById("rotate-pattern")
         if (rotatePattern) {
-            rotatePattern.setAttribute("values", (info.average.frequency * 360).toString());
+            rotatePattern.setAttribute("values", (90 + (info.average.frequency * 180)).toString());
+        }        
+
+        let translatePattern = document.getElementById("translate-pattern")
+        if (translatePattern) {
+            translateDistance.x += ( (info.average.frequency - 0.5) * 4.2);
+            translateDistance.y += (1 - info.average.volume);
+            translatePattern.setAttribute("values", ```${translateDistance.x * 21} `${translateDistance.y * 4.2}``);
         }
+
         
         /*
         // We are going to turn the frequency array into colors
@@ -467,9 +505,10 @@ async function ShowVisualizer() {
             visualsCanvas2d.stroke();    
         }
 
-        /*
-        Radial Oscilloscope
-        */
+        if (document.getElementById('showRadialScope').checked) {
+            /*
+            Radial Oscilloscope
+            */
         
             const centerX = visualsWidth / 2;
             const centerY = visualsHeight / 2;
@@ -488,6 +527,8 @@ async function ShowVisualizer() {
             }
 
             visualsCanvas2d.stroke();
+        }
+        
         
 
         if (document.getElementById('showBars').checked) {
