@@ -169,9 +169,10 @@ a:hover, a:focus {
 
 .taskbar {
     position: fixed;
-    top: 0; right: 0; z-index: 10;
-    display: flex; flex-direction: row; 
-    align-content: center; align-items: center;
+    top: 0; right: 0; z-index: 10;    
+    text-align: right;
+    display: flex; flex-direction: row-reverse; 
+    align-content: right; align-items: center;
     margin: 1em; gap: 0.5em;
 }
 
