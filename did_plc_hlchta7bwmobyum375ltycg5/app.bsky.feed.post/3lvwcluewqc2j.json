@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1754692307536223,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lvwcluoh5j2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lvwcluewqc2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-08T22:31:46.956Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreialuyfv6djeqpdjqvs7cgjijbybwck7fmnodijdkedpalj6rhyjxu",
+          "uri": "at://did:plc:qju562fsqaygu5z4xpx25p7j/app.bsky.feed.post/3lvw22vtc3225"
+        },
+        "root": {
+          "cid": "bafyreicyj33z3gppyvdyswqjlvmobrc3a3ardthtrl2bqdiktxtmvpmtfm",
+          "uri": "at://did:plc:qju562fsqaygu5z4xpx25p7j/app.bsky.feed.post/3lvqz44mcn22e"
+        }
+      },
+      "text": "I actually did Turtle / Logo graphics in kindergarten, way back in the early 80s ( yes, I'm that old )\n\nAbout a month ago I realized how to build it's most fundamental parts ( movement and rotation ), and then I rapidly produced that module.  Still adding bells and whistles."
+    },
+    "cid": "bafyreigcbryii7366ctgqtljro24sjr6xptpelzlqrcre56xm4pgbw3owu"
+  }
+}
