@@ -1,0 +1,96 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1754676126519164,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lvvtjnfh542a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lvvtjmseb22j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-08T18:02:05.771Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Script OBS with PowerShell. Contribute to StartAutomating/obs-powershell development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihlsqheqzatbjxtxn7gjfnebxtmdanyet5fc733scz2rbe7wpfsie"
+            },
+            "mimeType": "image/jpeg",
+            "size": 85146
+          },
+          "title": "GitHub - StartAutomating/obs-powershell: Script OBS with PowerShell",
+          "uri": "https://GitHub.com/StartAutomating/obs-powershell"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 107,
+            "byteStart": 96
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "OBS"
+            }
+          ],
+          "index": {
+            "byteEnd": 116,
+            "byteStart": 112
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/StartAutomating/obs-powershell"
+            }
+          ],
+          "index": {
+            "byteEnd": 144,
+            "byteStart": 118
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 217,
+            "byteStart": 213
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid4o7mqsvz7iypd3nuarwn7ymhmykmxq3t7nsfm53idv7ptlb6ss4",
+          "uri": "at://did:plc:qju562fsqaygu5z4xpx25p7j/app.bsky.feed.post/3lvvtawwzsc2d"
+        },
+        "root": {
+          "cid": "bafyreicyj33z3gppyvdyswqjlvmobrc3a3ardthtrl2bqdiktxtmvpmtfm",
+          "uri": "at://did:plc:qju562fsqaygu5z4xpx25p7j/app.bsky.feed.post/3lvqz44mcn22e"
+        }
+      },
+      "text": "Lol I was just about to share that one, for posterity.\n\nIt's great for scripting streaming with #PowerShell and #OBS\n\nGitHub.com/StartAutomat...\n\nWhat's less obvious is how useful this can be for rasterization of #SVG and general scene composition."
+    },
+    "cid": "bafyreigr5ismdbq3fxrswvmmgbdl7sp7h3box6tv7pb5qfe6d7wfpoqsmu"
+  }
+}
