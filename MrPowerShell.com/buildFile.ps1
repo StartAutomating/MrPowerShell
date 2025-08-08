@@ -170,10 +170,11 @@ $pagesByUrl = $site.PagesByUrl
             
             #region Map File Parameters to Page and Site configuration
             $FileParameters = [Ordered]@{}
-            :nextParameter foreach ($parameter in $scriptCmd.Parameters.GetEnumerator()) {
-                $potentialType = $parameter.Value.ParameterType
+            :nextParameter foreach ($parameterName in $scriptCmd.Parameters.Keys) {
+                $parameter = $scriptCmd.Parameters[$parameterName]
+                $potentialType = $parameter.ParameterType
                 foreach ($PotentialName in 
-                    @($parameter.Value.Name;$parameter.Value.Aliases) -ne ''
+                    @($parameter.Name;$parameter.Aliases) -ne ''
                 ) {
                     if ($page[$potentialName] -and $page[$potentialName] -as $potentialType) {
                         $FileParameters[$potentialName] = $page[$potentialName]
@@ -237,7 +238,11 @@ $pagesByUrl = $site.PagesByUrl
                 Set-Alias layout $page.Layout.Name
             }
         } elseif ($page.Layout -is [string]) {
-            Set-Alias layout $page.Layout
+            if ($site.layouts.($page.layout) -is [Management.Automation.ExternalScriptInfo]) {
+                Set-Alias layout $site.layouts.($page.layout).Source
+            } else {
+                Set-Alias layout $page.Layout
+            }            
         } elseif ($page.Layout -is [ScriptBlock]) {
             $function:PageLayout = $page.Layout
             Set-Alias layout PageLayout

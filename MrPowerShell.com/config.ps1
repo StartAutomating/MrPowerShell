@@ -10,17 +10,90 @@
 
     Any additional configuration or common initialization should be done here.
 #>
+param()
+
+#region Core
+if ($psScriptRoot) {Push-Location $psScriptRoot}
+
+if (-not $Site) { $Site = [Ordered]@{} }
+if ($psScriptRoot -and -not $site.PSScriptRoot) {
+    $site.PSScriptRoot = $PSScriptRoot
+}
+#endregion Core
+
+#region _
+if ($site.PSScriptRoot) {
+    $underbarItems = 
+        Get-ChildItem -Path $site.PSScriptRoot -Filter '_*' -Recurse
+
+    $underbarFileQueue = [Collections.Queue]::new()
+
+    foreach ($underbarItem in $underbarItems) {
+        $relativePath = $underbarItem.FullName.Substring($site.PSScriptRoot.Length + 1)
+        if ($underbarItem -is [IO.FileInfo]) {
+            $underbarFileQueue.Enqueue($underbarItem)
+        }
+        else {
+            foreach ($childItem in $underbarItem.GetFileSystemInfos()) {
+                if ($childItem -is [IO.FileInfo]) {
+                    $underbarFileQueue.Enqueue($childItem)
+                }
+            }            
+        }
+    }
+
+    foreach ($underbarFile in $underbarFileQueue.ToArray()) {
+        $relativePath = $underbarFile.FullName.Substring($site.PSScriptRoot.Length + 1)
+        $pointer = $site
+        $hierarchy = @($relativePath -split '[\\/]')
+        for ($index = 0; $index -lt ($hierarchy.Length - 1); $index++) {
+            $subdirectory = $hierarchy[$index] -replace '_'
+            if (-not $pointer[$subdirectory]) {
+                $pointer[$subdirectory] = [Ordered]@{}
+            }
+            $pointer = $pointer[$subdirectory]
+        }
+                
+        $propertyName = $hierarchy[-1] -replace '_' -replace "$([Regex]::Escape($underbarFile.Extension))$"
+        
+        $fileData = 
+            switch ($underbarFile.Extension) {
+                '.ps1' {
+                    $ExecutionContext.SessionState.InvokeCommand.GetCommand($underbarFile.FullName, 'Script')
+                }
+                '.txt' {
+                    Get-Content -LiteralPath $underbarFile.FullName
+                }
+                '.json' {
+                    Get-Content -LiteralPath $underbarFile.FullName -Raw | ConvertFrom-Json
+                }
+                '.psd1' {
+                    Get-Content -LiteralPath $underbarFile.FullName -Raw | ConvertFrom-StringData
+                }
+                '.yaml' {
+                    'YaYaml' | RequireModule
+                    Get-Content -LiteralPath $underbarFile.FullName -Raw | ConvertFrom-Yaml                    
+                }
+                '.csv' {
+                    Import-Csv -LiteralPath $underbarFile.FullName
+                }
+                '.tsv' {
+                    Import-Csv -LiteralPath $underbarFile.FullName -Delimiter "`t"
+                }
+                default {
+                    Get-Content -LiteralPath $underbarFile.FullName -Raw
+                }
+            }
+
+        $pointer[$propertyName] = $fileData            
+    }
+}
+#region _
 
 #region At Protocol
 
 #region At Data
 # If we have a script root, we'll use it to set the working directory.
-if ($psScriptRoot) {Push-Location $psScriptRoot}
-
-if (-not $Site) {
-    $Site = [Ordered]@{}
-}
-
 # Create a new DataSet to hold the At Protocol data.
 $atProtocolData = [Data.DataSet]::new('AtProtocol')
 # Look up in the path
