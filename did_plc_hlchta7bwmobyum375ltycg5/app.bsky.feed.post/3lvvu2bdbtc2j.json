@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1754676684540863,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lvvu2blh442a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lvvu2bdbtc2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-08T18:11:24.17Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Work with WebSockets in PowerShell. Contribute to PowerShellWeb/WebSocket development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreig7qbkifxmqasdkxucznnzapdxhzi2mn7llvvlblcbwocr3vrfeca"
+            },
+            "mimeType": "image/jpeg",
+            "size": 161339
+          },
+          "title": "GitHub - PowerShellWeb/WebSocket: Work with WebSockets in PowerShell",
+          "uri": "https://GitHub.com/PowerShellWeb/WebSocket"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 110,
+            "byteStart": 99
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/PowerShellWeb/WebSocket"
+            }
+          ],
+          "index": {
+            "byteEnd": 147,
+            "byteStart": 121
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid4o7mqsvz7iypd3nuarwn7ymhmykmxq3t7nsfm53idv7ptlb6ss4",
+          "uri": "at://did:plc:qju562fsqaygu5z4xpx25p7j/app.bsky.feed.post/3lvvtawwzsc2d"
+        },
+        "root": {
+          "cid": "bafyreicyj33z3gppyvdyswqjlvmobrc3a3ardthtrl2bqdiktxtmvpmtfm",
+          "uri": "at://did:plc:qju562fsqaygu5z4xpx25p7j/app.bsky.feed.post/3lvqz44mcn22e"
+        }
+      },
+      "text": "There's also a WebSocket client / server you can use for fast communication between your app and a #PowerShell backend.\n\nGitHub.com/PowerShellWe...\n\nGreat for taking input from a GUI and moving it to backend processes."
+    },
+    "cid": "bafyreifk3met3mw2ntxqxjy7ep5ehlrhnx6gfwncj22axicm2tzkjgcsja"
+  }
+}
