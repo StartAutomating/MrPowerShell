@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1754676845774297,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lvvu72liup27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lvvu6zzp2s2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-08T18:14:04.285Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Script SVGs with PowerShell. Contribute to StartAutomating/PSSVG development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiabro57sespglg5itdii32ucxgi7ewp46evkwn4a37ipx25ojwary"
+            },
+            "mimeType": "image/jpeg",
+            "size": 87228
+          },
+          "title": "GitHub - StartAutomating/PSSVG: Script SVGs with PowerShell",
+          "uri": "https://GitHub.com/StartAutomating/PSSVG"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 64,
+            "byteStart": 60
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/StartAutomating/PSSVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 93,
+            "byteStart": 67
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid4o7mqsvz7iypd3nuarwn7ymhmykmxq3t7nsfm53idv7ptlb6ss4",
+          "uri": "at://did:plc:qju562fsqaygu5z4xpx25p7j/app.bsky.feed.post/3lvvtawwzsc2d"
+        },
+        "root": {
+          "cid": "bafyreicyj33z3gppyvdyswqjlvmobrc3a3ardthtrl2bqdiktxtmvpmtfm",
+          "uri": "at://did:plc:qju562fsqaygu5z4xpx25p7j/app.bsky.feed.post/3lvqz44mcn22e"
+        }
+      },
+      "text": "There's also a fairly fully featured wrapper to produce any #SVG.\n\nGitHub.com/StartAutomat...\n\nThis would be especially useful in reducing file sizes, as you can craft a grid pattern out of only one copy of a small set of tiles ( no prerendering required )"
+    },
+    "cid": "bafyreibe4sadtt2gcr3ej3i3hwncasi2oubyj4lwi5yr6fcwb35gs6vjmu"
+  }
+}
