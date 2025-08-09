@@ -190,16 +190,8 @@ $Site.Icon  = [Ordered]@{
             Join-Path $PSScriptRoot Assets | 
                 Join-Path -ChildPath 'BlueSky.svg'
         ) -Raw
-    'GitHub' = 
-        Get-Content -Path (
-            Join-Path $PSScriptRoot Assets | 
-                Join-Path -ChildPath 'GitHub.svg'
-        ) -Raw
-    'RSS' = 
-        Get-Content -Path (
-            Join-Path $PSScriptRoot Assets | 
-                Join-Path -ChildPath 'RSS.svg'
-        ) -Raw
+    'GitHub' = . $site.includes.Feather 'GitHub'
+    'RSS' = . $site.includes.Feather 'RSS'
 }
 #endregion Site Icons
 
