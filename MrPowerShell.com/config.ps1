@@ -59,7 +59,7 @@ if ($site.PSScriptRoot) {
         $fileData = 
             switch ($underbarFile.Extension) {
                 '.ps1' {
-                    $ExecutionContext.SessionState.InvokeCommand.GetCommand($underbarFile.FullName, 'Script')
+                    $ExecutionContext.SessionState.InvokeCommand.GetCommand($underbarFile.FullName, 'ExternalScript')
                 }
                 '.txt' {
                     Get-Content -LiteralPath $underbarFile.FullName

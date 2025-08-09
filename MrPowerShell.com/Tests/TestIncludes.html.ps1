@@ -1,0 +1,1 @@
+. $site.includes.SelectPalette
