@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1754763630615331,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lvyezhrpw62b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lvyeziyuvk2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-09T18:20:31.751Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiexofmhd5vuagyj5baxsb3jt4whb2edjlfzg55yvtigisng47z62u",
+          "uri": "at://did:plc:tg3tb5wukiml4xmxml6qm637/app.bsky.feed.post/3lvyebahces2m"
+        },
+        "root": {
+          "cid": "bafyreigff23aknlc7onkswurpl7ke6bhkoxcsgkkv4xzba5j73h7rzc2h4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lvydqcgysc2j"
+        }
+      },
+      "text": "I'm more annoyed that those calls never have any follow up.\n\nName a price.  No call back.  Tell them to name a price.  No call back.\n\nSeriously, what even is the point of that sort of cold call?  What possible value is it to anyone ?"
+    },
+    "cid": "bafyreihre4bclcj4n4wvxfoblrw7maau2b2az5sjisziw3jbagr5a2xmhu"
+  }
+}
