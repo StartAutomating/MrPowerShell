@@ -219,7 +219,34 @@ $site.HeaderMenu = [Ordered]@{
 #endregion Site Menus
 
 #region Site Background
-$site.Background = turtle Flower 30 (360/8) 8 |
+
+# Randomizing site background a bit
+$backgroundPatternAnimations = 
+    [Ordered]@{
+        type = 'scale'    ; values = 0.66,0.33, 0.66 ; repeatCount = 'indefinite' ;dur = "23s"; additive = 'sum';id ='scale-pattern'
+    }, [Ordered]@{
+        type = 'rotate'   ; values = 0, 360 ;repeatCount = 'indefinite'; dur = "41s"; additive = 'sum'; id ='rotate-pattern'
+    }, [Ordered]@{
+        type = 'translate'   ; values = "0 0;"; dur = "41s"; additive = 'sum'; id ='translate-pattern'
+    }
+
+$sitebackgrounds = @(
+
+    turtle Flower 30 60 6
+
+    turtle Flower 30 (360/8) 8
+
+    turtle SierpinskiTriangle 15 4 
+    
+    turtle SierpinskiArrowheadCurve 15 4
+
+    turtle BoxFractal 15 4
+)
+
+$siteBackground = $sitebackgrounds | Get-Random
+
+$site.Background = $siteBackground |
+    Set-Turtle PatternAnimation $backgroundPatternAnimations |
     Set-Turtle PathAttribute @{opacity=.2} |
     Select-Object -ExpandProperty Pattern
 #endregion Site Background
