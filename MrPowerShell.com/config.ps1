@@ -10,6 +10,7 @@
 
     Any additional configuration or common initialization should be done here.
 #>
+#requires -Module Turtle
 param()
 
 #region Core
@@ -216,3 +217,9 @@ $site.HeaderMenu = [Ordered]@{
     "YouTube" = "https://MrPowerShell.com/YouTube"
 }
 #endregion Site Menus
+
+#region Site Background
+$site.Background = turtle Flower 30 (360/8) 8 |
+    Set-Turtle PathAttribute @{opacity=.2} |
+    Select-Object -ExpandProperty Pattern
+#endregion Site Background

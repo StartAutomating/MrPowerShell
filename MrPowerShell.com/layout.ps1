@@ -273,6 +273,9 @@ $bodyElements = @(
     if ($page.Background -is [xml]) {
         $page.Background.OuterXml
     }
+    elseif ($site.Background -is [xml]) {
+        $site.Background.OuterXml
+    }
     "</svg>"    
     "<canvas id='background backdrop-canvas' width='0' height='0'></canvas>"
 
