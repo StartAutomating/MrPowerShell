@@ -232,20 +232,40 @@ $backgroundPatternAnimations =
 
 $sitebackgrounds = @(
 
-    turtle Flower 30 60 6
+    {turtle Flower 30 60 6}
 
-    turtle Flower 30 (360/8) 8
+    {turtle Flower 30 (360/8) 8}
 
-    turtle SierpinskiTriangle 15 4 
+    {turtle SierpinskiTriangle 15 4 }
     
-    turtle SierpinskiArrowheadCurve 15 4
+    {turtle SierpinskiArrowheadCurve 15 4}
 
-    turtle BoxFractal 15 4
+    {turtle KochSnowflake 1.5 4}
+    
+    {turtle BoxFractal 1.5 4}
+
+    {turtle Flower 15 5 40 72}
+
+    {turtle Flower 15 9 40 40}
+
+    {turtle rotate 72 square 42 jump 42}
+
+    {turtle rotate 20 @('circle',15,0.5,'circle',15,-0.5, 'rotate', 90 * 4)}
+
+    {turtle @('rotate', 90, 'circle',42,0.25,'circle',42,-0.25 * 4)}
+
+    {turtle @('rotate', 45, 'circle',21,0.25,'circle',21,-0.25 * 8)}
+
+    {turtle rotate (360/5) @('circle',15,0.5,'circle',15,-0.5, 'rotate', 72 * 5)}
+
+    {turtle @('rotate',90, 'forward',160, @('rotate', 120, 'forward', 160 * 3) * 5)}
+
+    {turtle @('rotate',180, @('rotate', 120, 'forward', 42 * 3) * 6)}
 )
 
 $siteBackground = $sitebackgrounds | Get-Random
 
-$site.Background = $siteBackground |
+$site.Background = . $siteBackground |
     Set-Turtle PatternAnimation $backgroundPatternAnimations |
     Set-Turtle PathAttribute @{opacity=.2} |
     Select-Object -ExpandProperty Pattern
