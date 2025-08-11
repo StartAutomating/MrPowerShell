@@ -12,8 +12,14 @@ if ($Page) {
     $page.Title = $title
     $Page.Description = $description
     $Page.Image = "https://MrPowerShell.com/HTML/AudioVisualizer.png"
-    $page.Background = 
-        turtle SierpinskiTriangle 10 4 | 
+    <#$page.Background = 
+        # turtle SierpinskiArrowheadCurve 15 4 |
+        # turtle KochIsland 5 4 |
+        # turtle Flower 30 (360/12) 18 |
+        # turtle Flower 30 (360/8) 8 |
+        # turtle Flower 30 (360/10) 12 |
+        # turtle Flower 25 8 16 72 |
+        turtle Flower 30 60 6 | 
         Set-Turtle PatternTransform @{
             scale = 1
         } | 
@@ -25,7 +31,7 @@ if ($Page) {
             type = 'translate'   ; values = "0 0;"; dur = "41s"; additive = 'sum'; id ='translate-pattern'
         }) |
         Set-Turtle StrokeWidth '0.1%' |
-        Select-Object -expand Pattern
+        Select-Object -expand Pattern #>
 }
 
 $setPalette = "
@@ -39,7 +45,7 @@ $setPalette = "
             document.head.appendChild(palette)
         }
         var selectedPalette = document.getElementById('SelectPalette').value
-        palette.href = 'https://cdn.jsdelivr.net/gh/2bitdesigns/4bitcss@latest/css/' + selectedPalette + '.css'
+        palette.href = 'https://cdn.jsdelivr.net/gh/2bitdesigns/4bitcss@latest/css/' + selectedPalette + '.css'        
     }
 </script>
 "
@@ -101,8 +107,6 @@ window.addEventListener("resize", function() {
     Resize()
 })
 Resize()
-let backgroundSvg = document.getElementById("background-svg")
-backgroundSvg.setAttribute("opacity", 0.25)
 </script>
 '
 
@@ -121,7 +125,6 @@ $(foreach ($colorName in 'foreground','red','green','blue','yellow','purple','cy
 })
 </select>
 "@
-
 
 $setPalette
 $randomPalette
@@ -175,13 +178,15 @@ $html = @"
     position: fixed;
     top: 0;
     left: 0;
-    z-index: -10;    
+    z-index: -10;
 }
     
 #PowerShellCode {
     top: 100vh;
     width: 100vw;
 }
+
+pre { text-align: left }
 </style>
 <!-- Generated with PSSVG 0.2.10 <https://github.com/StartAutomating/PSSVG> -->
 <svg width='0%' height='0%' xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
@@ -201,21 +206,32 @@ $html = @"
       </feBlend>
       <feBlend mode="exclusion" in2="eroded" in="blendedEroded" />
   </filter>
-  <filter id='erode'>
+  <filter id='erodeFilter'>
     <feMorphology in="SourceGraphic" operator="erode" radius="1" result="eroded">
-        <animate attributeName="radius" values="1;3;1" dur="0.42s" repeatCount="indefinite"/>
+        <animate attributeName="radius" values="0;1;0" dur="4.2s" repeatCount="indefinite"/>
     </feMorphology>
   </filter>
-  <filter id='blur'>
-    <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />    
-        <animate attributeName="stdDeviation" values="1;2;1" dur="0.42s" repeatCount="indefinite"/>
+  <filter id='dilateFilter'>
+    <feMorphology in="SourceGraphic" operator="dilate" radius="1" result="dilated">
+        <animate attributeName="radius" values="1;8;1" dur="4.2s" repeatCount="indefinite"/>
+    </feMorphology>
+  </filter>  
+  <filter id='blurFilter'>
+    <feGaussianBlur in="SourceGraphic" stdDeviation="0.5" result="blur" />    
+        <animate id='blurFilterAnimation' attributeName="stdDeviation" values="0;1;0" dur="0.42s" repeatCount="indefinite"/>
     </feGaussianBlur>
+  </filter>
+  <filter id='hueRotate'>
+    <feColorMatrix in="SourceGraphic" type="hueRotate" values="180">
+        <animate attributeName="values" values="0;360" dur="0.42s" repeatCount="indefinite"/>
+    </feColorMatrix>
   </filter>
   </defs>
 </svg>
 <style>
 // .colorWheel { filter: url('#colorWheel'); }
-canvas { filter: url('#blur'); }
+// canvas { filter: url('#blurFilter'); }
+// #background-svg { filter: url('#blurFilter') }
 </style>
 <div class='visualsGrid'>
     <canvas id='visuals'></canvas>
@@ -223,15 +239,25 @@ canvas { filter: url('#blur'); }
 <div class='controlsGrid'>
     <div class='grid-left'>    
         <input type="file" id="audioFile" multiple="true" />
-        <br />
-        <audio controls="true" autoplay="true" id="audio"></audio>
+        
+        <br/>
+        <!--
+            <input id='audioUrl' type="url" id="audioUrl" />
+            <label for='audioUrl'>Audio Url</label>
+            <br />
+        -->
+        <audio controls="true" autoplay="true" id="audio">
+            <!-- <source src='http://knhc-ice.streamguys1.com/live' type='audio/mpeg' /> -->
+            <!-- <source src='https://kjzz.streamguys1.com/kbaq_mp3_128' type='audio/mpeg' /> -->
+        </audio>
     </div>
     <div class='grid-right'>
+        <div>        
         <details>
         <summary>Options</summary>
         <div class='innerGrid'>
             <div>
-                Palette:
+                Palette: 
                 $paletteSelector
             </div>
             <div>
@@ -240,16 +266,25 @@ canvas { filter: url('#blur'); }
             <div>
                 <button id="SetRandomColor" onclick="SetRandomColor()">Random Color</button>
             </div>
-            <!--
-            <div>                
-                <input type='color' id='customColor' />
-                <label for='customColor'>Custom Color</label>
-            </div>
-            -->
             <div>
-                Color:
+
                 $colorSelector
             </div>
+            <!--
+            -->
+            <div>                
+                <input type="checkbox" id="autoColor" />
+                <label for="autoColor">Auto Color</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="showCustomColor" />
+                <label for="showCustomColor">Custom Color</label>
+            </div>
+            <div>
+                <input type="color" id="customColor" />                
+            </div>
+
             <div>
                 <input type="checkbox" id="showScope" checked="true" />
                 <label for="showScope">Show Oscilloscope</label>
@@ -267,7 +302,18 @@ canvas { filter: url('#blur'); }
             <button id="SavePNG" onclick="SavePNG('visuals')">Save PNG</button>
         </div>
         </div>
-        </details>                
+        </details>
+        <details>
+            <summary>View Source</summary>
+            <div id='PowerShellCode'>
+                <pre>
+                    <code class='language-PowerShell'>
+$([Web.HttpUtility]::HtmlEncode($MyInvocation.MyCommand.ScriptBlock))
+                    </code>
+                </pre>
+            </div>
+        </details>
+        </div>
     </div>        
 </div>
 
@@ -295,8 +341,8 @@ audio.addEventListener('ended', (e) => {
             audio.play();
         }
         playlistIndex++;
-        reader.readAsDataURL(playlistFiles[playlistIndex])        
-    }        
+        reader.readAsDataURL(playlistFiles[playlistIndex])
+    }
 }, false);
 
 
@@ -304,10 +350,10 @@ audio.addEventListener('ended', (e) => {
 const visualsCanvas = document.getElementById("visuals");
 const visualsCanvas2d = visualsCanvas.getContext("2d");
 const volumeHistory = [];
-const translateDistance = {x:0, y:0 };
+const translateDistance = {x:0.0, y:0.0, r: 0.0 };
 
 
-async function ShowVisualizer() {
+async function ShowVisualizer() {    
     const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
     const analyser = audioCtx.createAnalyser();
     analyser.fftSize = 2048;
@@ -338,29 +384,41 @@ async function ShowVisualizer() {
         let totalLow = 0.0
         let totalMid = 0.0
         let totalHigh = 0.0
+        let lowCount = 1
+        let midCount = 1
+        let highCount = 1
+        const nonZero = []
         for (let frequencyIndex = 0; frequencyIndex < frequencyArray.length; frequencyIndex++) {
             const frequencyValue = frequencyArray[frequencyIndex];
+            if (frequencyValue > 0 ) { nonZero.push(frequencyIndex)}
             totalVolume += frequencyValue;
-            if (frequencyIndex < (frequencyArray.length / 3)) {
+            if (frequencyValue > 0 && frequencyIndex < (frequencyArray.length / 3)) {
                 // low frequencies
                 totalLow += frequencyValue;
-            } else if (frequencyIndex < (2 * (frequencyArray.length / 3))) {
+                lowCount++
+            } else if (frequencyValue > 0 && frequencyIndex < (2 * (frequencyArray.length / 3))) {
                 // mid frequencies
                 totalMid += frequencyValue;
-            } else {
+                midCount++
+            } else if (frequencyValue > 0) {
                 // high frequencies
                 totalHigh += frequencyValue;
+                highCount++
             }    
         }
         const averageVolume = (totalVolume / frequencyArray.length) / 255.0;
-        const averageLow = (totalLow / (frequencyArray.length / 3)) / 255.0;
-        const averageMid = (totalMid / (frequencyArray.length / 3)) / 255.0;
-        const averageHigh = (totalHigh / (frequencyArray.length / 3))  / 255.0;
+        const averageLow = (totalLow / lowCount) / 255.0;
+        const averageMid = (totalMid / midCount) / 255.0;
+        const averageHigh = (totalHigh / highCount)  / 255.0;
         
-        for (let sampleIndex = 0; sampleIndex < dataArray.length; sampleIndex++) {
+        
+        
+        
+        for (let sampleIndex = 0; sampleIndex < dataArray.length; sampleIndex++) {            
             const sampleValue = dataArray[sampleIndex];
             totalFrequency += sampleValue;
         }
+        
 
         const averageFrequency = (totalFrequency / dataArray.length) / 255.0;
 
@@ -384,93 +442,79 @@ async function ShowVisualizer() {
         barsAnalyzer.getByteFrequencyData(frequencyArray);
 
         const info = measure();
-
-        let backgroundSVG = document.getElementById("background-svg")
-        if (backgroundSVG) {
-            backgroundSVG.setAttribute("opacity", info.average.volume);
-        }
-        let scalePattern = document.getElementById("scale-pattern")
-        if (scalePattern) {
-            scalePattern.setAttribute("values", (2.1 - info.average.volume * 4.2));
-        }
-        let rotatePattern = document.getElementById("rotate-pattern")
-        if (rotatePattern) {
-            rotatePattern.setAttribute("values", (90 + (info.average.frequency * 180)).toString());
-        }        
-
-        let translatePattern = document.getElementById("translate-pattern")
-        if (translatePattern) {
-            translateDistance.x += ( (info.average.frequency - 0.5) * 4.2);
-            translateDistance.y += (1 - info.average.volume);
-            translatePattern.setAttribute("values", ```${translateDistance.x * 21} `${translateDistance.y * 4.2}``);
-        }
+        
 
         
-        /*
-        // We are going to turn the frequency array into colors
-        // Lower notes become red
-        // Middle notes become green
-        // higher notes become blue    
-        const rgbTotals = {red: 0, green: 0, blue: 0};
-        const rgbCounts = {red: 0, green: 0, blue: 0};
-        const rgbPeaks = {red: 0, green: 0, blue: 0};
-        const nonZeroColor = []
-        for (let colorIndex = 0; colorIndex < frequencyArray.length; colorIndex++) {
-            if (frequencyArray[colorIndex] > 25) {
-                nonZeroColor.push(frequencyArray[colorIndex])
-            }            
-        }
-        for (let colorIndex2 = 0; colorIndex2 < nonZeroColor.length; colorIndex2++) {
-            const colorValue = nonZeroColor[colorIndex2];
-            if (colorIndex2 < (nonZeroColor.length / 3)) {
-                // red
-                rgbTotals.red += nonZeroColor[colorIndex2];
-                rgbCounts.red++;
-                rgbPeaks.red = Math.max(rgbPeaks.red, nonZeroColor[colorIndex2]);
-            } else if (colorIndex2 < (2 * (nonZeroColor.length / 3))) {
-                // green
-                rgbTotals.green += nonZeroColor[colorIndex2];
-                rgbCounts.green++;
-                rgbPeaks.green = Math.max(rgbPeaks.green, nonZeroColor[colorIndex2]);
-            } else {
-                // blue
-                rgbTotals.blue += nonZeroColor[colorIndex2];
-                rgbCounts.blue++;
-                rgbPeaks.blue = Math.max(rgbPeaks.blue, nonZeroColor[colorIndex2]);
+        let turtlePattern = document.getElementById("turtle-pattern")
+        
+
+        if (turtlePattern) {
+            translateDistance.x = 0 // audio.currentTime * 4.2;
+            translateDistance.y -= 0 // (info.average.volume * - 4.2);
+            translateDistance.r = ( (info.average.frequency - 0.5) * 84)
+            if (info.average.volume > 0) {
+                let scaleX = 4.2*info.average.volume - (1 - info.average.volume) + (info.average.frequency * 1.5)
+                let scaleY = 4.2*info.average.volume - (1 - info.average.volume*2) + (info.average.frequency * 1.5)
+                turtlePattern.setAttribute("patternTransform", ``
+                    translate(`${translateDistance.x} `${translateDistance.y})
+                    
+                    scale(`${scaleX} `${scaleY}`)
+                ``);
             }
+            
+        }
+
+        let rotatePattern = document.getElementById("rotate-pattern")
+        if (rotatePattern) {            
+            rotatePattern.setAttribute('values', (audio.currentTime/audio.duration * 360) - (info.average.volume * 360) + translateDistance.r)
         }
        
         const notePercent = {}
-        notePercent['red'] = 1 - (rgbTotals.red / rgbCounts.red);
-        notePercent['green'] = 1 - (rgbTotals.green / rgbCounts.green);
-        notePercent['blue'] = 1 - (rgbTotals.blue / rgbCounts.blue);
+        notePercent['red'] = info.average.low;
+        notePercent['green'] = info.average.mid;
+        notePercent['blue'] = info.average.high;
 
         const noteRGB = {}
-        noteRGB['red'] = Math.floor(rgbPeaks.red * 1.1);
-        noteRGB['green'] = Math.floor(rgbPeaks.green * 1.2);
-        noteRGB['blue'] = Math.floor(rgbPeaks.blue * 1.3);
-        if (noteRGB['red'] > 255) {
-            noteRGB['red'] = 255
-        }
-        if (noteRGB['green'] > 255) {
-            noteRGB['green'] = 255
-        }
-        if (noteRGB['blue'] > 255) {
-            noteRGB['blue'] = 255
-        }
+
+        let baseColor = getComputedStyle(visualsCanvas).getPropertyValue(colorSelector.value);
+
+        noteRGB['red'] = Math.floor(Math.min(info.average.volume + (info.average.low * 1.5) * 255, 255));
+        noteRGB['green'] = Math.floor(Math.min(info.average.volume + (info.average.mid * 2.1) * 255, 255));
+        noteRGB['blue'] = Math.floor(Math.min(info.average.volume + (info.average.high * 1.6) * 255, 255));
         noteRGB['color'] = ``#`${noteRGB.red.toString(16).padStart(2, '0')}`${noteRGB.green.toString(16).padStart(2, '0')}`${noteRGB.blue.toString(16).padStart(2, '0')}``;
-        */
+
 
         let backgroundColor = getComputedStyle(visualsCanvas).getPropertyValue('--background')
         if (backgroundColor == '') {
             backgroundColor = '#FFFFFF'
         }
-
-        let foregroundColor = getComputedStyle(visualsCanvas).getPropertyValue(colorSelector.value)
-        if (foregroundColor == '') {
-            foregroundColor = noteRGB['color']
-        }
         
+        let turtlePath = document.getElementById("turtle-path")
+        if (turtlePath) {
+            turtlePath.setAttribute("opacity", (info.average.volume + info.average.low)/2);
+        }
+
+        // getComputedStyle(document).setPropertyValue('--foreground',noteRGB['color'])
+        let foregroundColor = ''
+        if (document.getElementById('autoColor').checked) {
+            foregroundColor = noteRGB['color']
+            if (turtlePath) {                
+                turtlePath.style.setProperty('--foreground', foregroundColor)
+            }            
+        }
+        else if (document.getElementById('showCustomColor').checked) {
+            foregroundColor = document.getElementById('customColor').value
+            if (turtlePath) {                
+                turtlePath.style.setProperty('--foreground', foregroundColor)
+            }
+        }
+        else {
+            foregroundColor = getComputedStyle(visualsCanvas).getPropertyValue(colorSelector.value)
+            if (turtlePath) {
+                turtlePath.style.setProperty('--foreground', foregroundColor)
+            }
+        }
+       
         visualsCanvas.width = window.innerWidth
         visualsCanvas.height = window.innerHeight
         visualsCanvas.style.width = "100%"
@@ -481,16 +525,17 @@ async function ShowVisualizer() {
         visualsCanvas2d.fillStyle = backgroundColor
         visualsCanvas2d.clearRect(0, 0, visualsWidth, visualsHeight)
 
-        visualsCanvas2d.lineWidth = info.average.volume * 4.2;
+        visualsCanvas2d.lineWidth = info.average.low * 4.2;
         visualsCanvas2d.strokeStyle = foregroundColor;
         let x = 0;
+        
         if (document.getElementById('showScope').checked) {
             visualsCanvas2d.beginPath();
             const sliceWidth = (visualsWidth * 1.0) / bufferLength;                        
             x = 0;
             for (let i = 0; i < bufferLength; i++) {
                 const v = dataArray[i] / 128.0;
-                const y = (v * visualsHeight) / 2;
+                const y = v * (visualsHeight / 2);
 
                 if (i === 0) {
                     visualsCanvas2d.moveTo(x, y);
@@ -502,7 +547,7 @@ async function ShowVisualizer() {
             }
         
             visualsCanvas2d.lineTo(visualsWidth, visualsHeight / 2);
-            visualsCanvas2d.stroke();    
+            visualsCanvas2d.stroke();
         }
 
         if (document.getElementById('showRadialScope').checked) {
@@ -512,25 +557,23 @@ async function ShowVisualizer() {
         
             const centerX = visualsWidth / 2;
             const centerY = visualsHeight / 2;
-            const radius = Math.min(centerX, centerY) * info.average.volume;
-            const angleStep = (Math.PI * 2) / bufferLength;
-
+            const radius = Math.min(centerX, centerY) * 0.66 * info.average.volume;
+            const angleStep = (Math.PI * 2) / (bufferLength - 1);
+            
             for (let i = 0; i < bufferLength; i++) {
                 const v = dataArray[i] / 128.0;
                 const x = centerX + Math.cos(angleStep * i) * radius * v;
-                const y = centerY + Math.sin(angleStep * i) * radius * v;
-                if (i === 0) {
+                const y = centerY + Math.sin(angleStep * i) * radius * v;                
+                if (i === 0) {            
                     visualsCanvas2d.moveTo(x, y);
                 } else {
                     visualsCanvas2d.lineTo(x, y);
-                }                
+                }
             }
 
             visualsCanvas2d.stroke();
         }
-        
-        
-
+                
         if (document.getElementById('showBars').checked) {
             x = 0;
             const barWidth = (visualsWidth * 1.0) / barsBufferLength;
@@ -548,9 +591,14 @@ async function ShowVisualizer() {
 </script>
 "@
 $html
+
+
+"<details>"
+"<summary>View Source</summary>"
 "<div id='PowerShellCode'>"
 "<pre><code class='language-PowerShell'>"
 [Web.HttpUtility]::HtmlEncode($MyInvocation.MyCommand.ScriptBlock)
 "</code></pre>"
 "</div>"
+"</details>"
 $OnResize
