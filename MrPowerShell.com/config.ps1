@@ -240,7 +240,7 @@ $sitebackgrounds = @(
     
     {turtle SierpinskiArrowheadCurve 15 4}
 
-    {turtle KochSnowflake 1.5 4}
+    {turtle KochSnowflake 4.2 4}
     
     {turtle BoxFractal 1.5 4}
 
@@ -248,7 +248,7 @@ $sitebackgrounds = @(
 
     {turtle Flower 15 9 40 40}
 
-    {turtle rotate 72 square 42 jump 42}
+    {turtle rotate 72 square 84 jump 84}
 
     {turtle rotate 20 @('circle',15,0.5,'circle',15,-0.5, 'rotate', 90 * 4)}
 
@@ -261,9 +261,52 @@ $sitebackgrounds = @(
     {turtle @('rotate',90, 'forward',160, @('rotate', 120, 'forward', 160 * 3) * 5)}
 
     {turtle @('rotate',180, @('rotate', 120, 'forward', 42 * 3) * 6)}
+
+    {
+        turtle square 42 @('rotate', -60, 'forward',42, 'rotate', 120, 'forward',42, 'rotate', 30 * 4)
+    }
+
+    { 
+        # Golden triangle/square star
+        $goldenRatio = (1 + [Math]::sqrt(5))/2
+        turtle @('rotate', -60, 'forward',(42*$goldenRatio), 'rotate', 120, 'forward',(42*$goldenRatio), 'rotate', 30 * 4)
+    }
+
+    {
+        # Golden hexagon
+        $goldenRatio = (1 + [Math]::sqrt(5))/2
+        $BaseSideCount = 6
+        turtle @(
+            'rotate', (360/$BaseSideCount/-2)
+            foreach ($n in 1..$BaseSideCount) {
+                'forward'
+                42 * $goldenRatio
+                'rotate'
+                360/$BaseSideCount
+            }
+        ) * 2
+        
+    }
+
+    {
+        # Golden hex flowers
+        $goldenRatio = (1 + [Math]::sqrt(5))/2
+        $BaseSideCount = 6
+        turtle (@(
+            'rotate', (360/$BaseSideCount/-2)
+            foreach ($n in 1..$BaseSideCount) {
+                'forward'
+                42 * $goldenRatio
+                'rotate'
+                360/$BaseSideCount
+            }
+            'rotate', (360/($BaseSideCount)/4)
+        ) * ($BaseSideCount * 4))
+    }
 )
 
 $siteBackground = $sitebackgrounds | Get-Random
+
 
 $site.Background = . $siteBackground |
     Set-Turtle PatternAnimation $backgroundPatternAnimations |
