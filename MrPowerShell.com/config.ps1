@@ -220,6 +220,14 @@ $site.HeaderMenu = [Ordered]@{
 
 #region Site Background
 
+$doodle = @(
+    'forward', 100,'right', 90 * 2
+    'forward', 50,'right', 90 * 2
+    'forward', 100,'right', 90
+    'forward', 25, 'right', 90 * 2
+    'forward', 50
+)
+
 # Randomizing site background a bit
 $backgroundPatternAnimations = 
     [Ordered]@{
@@ -303,11 +311,26 @@ $sitebackgrounds = @(
             'rotate', (360/($BaseSideCount)/4)
         ) * ($BaseSideCount * 4))
     }
+
+    {        
+        turtle @($doodle * 4)
+    }
+
+    {        
+        turtle ($doodle,'right','10', 'forward', '50' * 36)
+    }
+
+    {
+        turtle ($doodle,'left','45', 'forward', '100' * 8)
+    }
+
+    {
+        turtle ($doodle,'left','30', 'forward', '75' * 3)
+    }
 )
 
 $siteBackground = $sitebackgrounds | Get-Random
-
-
+        
 $site.Background = . $siteBackground |
     Set-Turtle PatternAnimation $backgroundPatternAnimations |
     Set-Turtle PathAttribute @{opacity=.2} |
