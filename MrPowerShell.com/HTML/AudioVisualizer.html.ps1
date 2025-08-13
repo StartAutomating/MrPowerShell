@@ -449,12 +449,12 @@ async function ShowVisualizer() {
         
 
         if (turtlePattern) {
-            translateDistance.x = 0 // audio.currentTime * 4.2;
-            translateDistance.y -= 0 // (info.average.volume * - 4.2);
-            translateDistance.r = ( (info.average.frequency - 0.5) * 84)
+            translateDistance.x = (info.average.volume * 23) + (info.average.frequency) * 42; // audio.currentTime/audio.duration * 1024;
+            translateDistance.y = (info.average.volume * 23) + (info.average.frequency - 0.5) * 42; // audio.currentTime/audio.duration * -512; // // (info.average.volume * - 4.2);
+            translateDistance.r = ( (info.average.frequency - 0.5) * 180)
             if (info.average.volume > 0) {
-                let scaleX = 4.2*info.average.volume - (1 - info.average.volume) + (info.average.frequency * 1.5)
-                let scaleY = 4.2*info.average.volume - (1 - info.average.volume*2) + (info.average.frequency * 1.5)
+                let scaleX = info.average.volume + (info.average.low*2.3)/(info.average.frequency)
+                let scaleY = info.average.volume + (info.average.mid*1.5+info.average.high*1.6)/(info.average.frequency)
                 turtlePattern.setAttribute("patternTransform", ``
                     translate(`${translateDistance.x} `${translateDistance.y})
                     
@@ -466,7 +466,7 @@ async function ShowVisualizer() {
 
         let rotatePattern = document.getElementById("rotate-pattern")
         if (rotatePattern) {            
-            rotatePattern.setAttribute('values', (audio.currentTime/audio.duration * 360) - (info.average.volume * 360) + translateDistance.r)
+            rotatePattern.setAttribute('values', (audio.currentTime/60 * 360 * 33) - (info.average.volume * 30) - translateDistance.r)
         }
        
         const notePercent = {}
