@@ -453,8 +453,8 @@ async function ShowVisualizer() {
             translateDistance.y = (info.average.volume * 23) + (info.average.frequency - 0.5) * 42; // audio.currentTime/audio.duration * -512; // // (info.average.volume * - 4.2);
             translateDistance.r = ( (info.average.frequency - 0.5) * 180)
             if (info.average.volume > 0) {
-                let scaleX = info.average.volume + (info.average.low*2.3)/(info.average.frequency)
-                let scaleY = info.average.volume + (info.average.mid*1.5+info.average.high*1.6)/(info.average.frequency)
+                let scaleX = info.average.volume + (info.average.low*1.6)/(info.average.frequency)
+                let scaleY = info.average.volume + (info.average.low*0.4+info.average.mid*0.8+info.average.high*1.5)/(info.average.frequency)
                 turtlePattern.setAttribute("patternTransform", ``
                     translate(`${translateDistance.x} `${translateDistance.y})
                     
