@@ -1,0 +1,87 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1755135032392463,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lwd6w46blp2t",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lwd6vfl4ss2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-14T01:30:08.607Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Add Telemetry to Your Scripts and Modules",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifzck7m5vom6jwcyikb63vxnz6haududthet5a55ikazh67wjbdpa"
+            },
+            "mimeType": "image/jpeg",
+            "size": 211088
+          },
+          "title": "MrPowershell - Twitch",
+          "uri": "https://www.twitch.tv/MrPowershell"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 51,
+            "byteStart": 40
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Telemetry"
+            }
+          ],
+          "index": {
+            "byteEnd": 66,
+            "byteStart": 56
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:a3yierchgwp2lvyontsragui"
+            }
+          ],
+          "index": {
+            "byteEnd": 85,
+            "byteStart": 72
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.twitch.tv/MrPowershell"
+            }
+          ],
+          "index": {
+            "byteEnd": 116,
+            "byteStart": 90
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Join us on now on twitch to learn about #PowerShell and #Telemetry with @joshooaj.com ! \n\nwww.twitch.tv/MrPowershell"
+    },
+    "cid": "bafyreigfv75dxb6odyv3acwaoo7lsvzn35kggijwumfcvelhjkpmzflvpy"
+  }
+}
