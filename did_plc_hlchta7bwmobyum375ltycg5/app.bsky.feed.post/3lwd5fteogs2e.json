@@ -1,0 +1,99 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1755133436606752,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lwd5gkame62t",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lwd5fteogs2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-14T01:03:32.463Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Adding telemetry to your scripts and modules using Application Insights is easier, and more valuable than you think! This talk digs into the value of telemetry in internal",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreietdiopkji2kubtwrrvcl2xbn56mvzzsllxtnh5lzhef4bell3fvm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 372269
+          },
+          "title": "Watch and Learn: Add Telemetry to Your Scripts and Modules, Wed, Aug 13, 2025, 6:00 PM   | Meetup",
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/events/310477940/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:a3yierchgwp2lvyontsragui"
+            }
+          ],
+          "index": {
+            "byteEnd": 52,
+            "byteStart": 39
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "telemetry"
+            }
+          ],
+          "index": {
+            "byteEnd": 75,
+            "byteStart": 65
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 90,
+            "byteStart": 79
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/310477940/"
+            }
+          ],
+          "index": {
+            "byteEnd": 124,
+            "byteStart": 94
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Hey #PowerShell People, join us now as @joshooaj.com talks about #telemetry in #PowerShell !\n\nwww.meetup.com/pacific-powe..."
+    },
+    "cid": "bafyreiguquyi3dfb77qlfh2ijsurti2aijxfyhvmiagdnbtkiaw4ou6huy"
+  }
+}
