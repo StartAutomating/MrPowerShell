@@ -327,11 +327,43 @@ $sitebackgrounds = @(
     {
         turtle ($doodle,'left','30', 'forward', '75' * 3)
     }
+
+    {
+        turtle @('StepSpiral',23, 90, 4, 'rotate',90 * 4)
+    }
+
+    {
+        turtle spirolateral 23 60 8
+    }
+
+    {
+        turtle rotate -30 @('spirolateral',42,60,6,@(1,3),'rotate', 60 * 6 )
+    }
+
+    {
+        turtle spirolateral 23 90 11 @(3,4,5) 
+    }
+
+    {
+        turtle spirolateral 23 120 6 @(1,3)
+    }
+
+    {
+        turtle spirolateral 23 144 8
+    }
+    
+    {
+        turtle @('StepSpiral',23, 60, 4 * 3)
+    }
+
+    {
+        turtle @('StepSpiral',23, 120, 16)
+    }
 )
 
 $siteBackground = $sitebackgrounds | Get-Random
         
-$site.Background = . $siteBackground |
+$site.Background = . $siteBackground|
     Set-Turtle PatternAnimation $backgroundPatternAnimations |
     Set-Turtle PathAttribute @{opacity=.2} |
     Select-Object -ExpandProperty Pattern
