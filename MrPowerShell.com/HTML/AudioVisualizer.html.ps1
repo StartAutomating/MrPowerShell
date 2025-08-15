@@ -34,22 +34,6 @@ if ($Page) {
         Select-Object -expand Pattern #>
 }
 
-$setPalette = "
-<script>
-    function SetPalette() {
-        var palette = document.getElementById('palette')
-        if (! palette) {
-            palette = document.createElement('link')
-            palette.rel = 'stylesheet'
-            palette.id = 'palette'
-            document.head.appendChild(palette)
-        }
-        var selectedPalette = document.getElementById('SelectPalette').value
-        palette.href = 'https://cdn.jsdelivr.net/gh/2bitdesigns/4bitcss@latest/css/' + selectedPalette + '.css'        
-    }
-</script>
-"
-
 $randomPalette = @"
 <script>
 function SetRandomPalette() {
@@ -110,14 +94,6 @@ Resize()
 </script>
 '
 
-$paletteSelector = @"
-<select id='SelectPalette' onchange='SetPalette()'>
-$(foreach ($paletteName in (Invoke-RestMethod https://4bitcss.com/Palette-List.json)) {
-    "<option value='$([Web.HttpUtility]::HtmlAttributeEncode($paletteName))'>$([Web.HttpUtility]::HtmlEncode($paletteName))</option>"
-})
-</select>
-"@
-
 $colorSelector = @"
 <select id='SelectColor' selected='foreground'>
 $(foreach ($colorName in 'foreground','red','green','blue','yellow','purple','cyan','brightBlue','brightRed','brightGreen','brightYellow','brightPurple','brightCyan') {
@@ -126,7 +102,6 @@ $(foreach ($colorName in 'foreground','red','green','blue','yellow','purple','cy
 </select>
 "@
 
-$setPalette
 $randomPalette
 $randomColor
 $savePng
@@ -256,9 +231,12 @@ pre { text-align: left }
         <details>
         <summary>Options</summary>
         <div class='innerGrid'>
-            <div>
-                Palette: 
-                $paletteSelector
+            <div>                
+                $(
+                    if ($site.Includes.SelectPalette) {                        
+                        . $site.Includes.SelectPalette
+                    }                    
+                )
             </div>
             <div>
                 <button id="SetRandomPalette" onclick="SetRandomPalette()">Random Palette</button>
@@ -388,37 +366,50 @@ async function ShowVisualizer() {
         let midCount = 1
         let highCount = 1
         const nonZero = []
-        for (let frequencyIndex = 0; frequencyIndex < frequencyArray.length; frequencyIndex++) {
+        const levels = {
+            all: [],
+            low: [],
+            mid: [],
+            high: [],
+            nonZero: []
+        }
+        
+        const scopeLine = []
+        for (let frequencyIndex = 0; frequencyIndex < frequencyArray.length; frequencyIndex++) {            
             const frequencyValue = frequencyArray[frequencyIndex];
-            if (frequencyValue > 0 ) { nonZero.push(frequencyIndex)}
+            const frequencyRatio = frequencyValue/255.0
+            levels.all.push(frequencyRatio)
+            if (frequencyValue > 0 ) { levels.nonZero.push(frequencyRatio) }
             totalVolume += frequencyValue;
             if (frequencyValue > 0 && frequencyIndex < (frequencyArray.length / 3)) {
                 // low frequencies
+                levels.low.push(frequencyRatio)
                 totalLow += frequencyValue;
                 lowCount++
             } else if (frequencyValue > 0 && frequencyIndex < (2 * (frequencyArray.length / 3))) {
                 // mid frequencies
-                totalMid += frequencyValue;
+                levels.mid.push(frequencyRatio)
+                totalMid += frequencyValue;                
                 midCount++
             } else if (frequencyValue > 0) {
                 // high frequencies
+                levels.mid.push(frequencyRatio)
                 totalHigh += frequencyValue;
                 highCount++
             }    
         }
+        
         const averageVolume = (totalVolume / frequencyArray.length) / 255.0;
         const averageLow = (totalLow / lowCount) / 255.0;
         const averageMid = (totalMid / midCount) / 255.0;
         const averageHigh = (totalHigh / highCount)  / 255.0;
-        
-        
-        
+          
         
         for (let sampleIndex = 0; sampleIndex < dataArray.length; sampleIndex++) {            
-            const sampleValue = dataArray[sampleIndex];
+            const sampleValue = dataArray[sampleIndex];            
+            scopeLine.push(sampleValue/128.0)
             totalFrequency += sampleValue;
-        }
-        
+        }    
 
         const averageFrequency = (totalFrequency / dataArray.length) / 255.0;
 
@@ -429,7 +420,9 @@ async function ShowVisualizer() {
                 low: averageLow,
                 mid: averageMid,
                 high: averageHigh
-            }
+            },
+            levels: levels,
+            scope: scopeLine            
         }
     }
 
@@ -442,8 +435,7 @@ async function ShowVisualizer() {
         barsAnalyzer.getByteFrequencyData(frequencyArray);
 
         const info = measure();
-        
-
+        const levels = info.levels;
         
         let turtlePattern = document.getElementById("turtle-pattern")
         
@@ -531,10 +523,10 @@ async function ShowVisualizer() {
         
         if (document.getElementById('showScope').checked) {
             visualsCanvas2d.beginPath();
-            const sliceWidth = (visualsWidth * 1.0) / bufferLength;                        
+            const sliceWidth = (visualsWidth * 1.0) / info.scope.length;
             x = 0;
-            for (let i = 0; i < bufferLength; i++) {
-                const v = dataArray[i] / 128.0;
+            for (let i = 0; i < info.scope.length; i++) {
+                const v = info.scope[i];
                 const y = v * (visualsHeight / 2);
 
                 if (i === 0) {
@@ -560,8 +552,8 @@ async function ShowVisualizer() {
             const radius = Math.min(centerX, centerY) * 0.66 * info.average.volume;
             const angleStep = (Math.PI * 2) / (bufferLength - 1);
             
-            for (let i = 0; i < bufferLength; i++) {
-                const v = dataArray[i] / 128.0;
+            for (let i = 0; i < info.scope.length; i++) {
+                const v = info.scope[i];
                 const x = centerX + Math.cos(angleStep * i) * radius * v;
                 const y = centerY + Math.sin(angleStep * i) * radius * v;                
                 if (i === 0) {            
@@ -575,15 +567,17 @@ async function ShowVisualizer() {
         }
                 
         if (document.getElementById('showBars').checked) {
-            x = 0;
-            const barWidth = (visualsWidth * 1.0) / barsBufferLength;
+            x = 0;            
+            const gapWidth = 3
+            const barLevels = levels.nonZero
+            let barWidth = ((visualsWidth * 1.0) / barLevels.length) - gapWidth
             let barHeight = 0;
-            for (let i = 0; i < barsBufferLength; i++) {
-                barHeight = frequencyArray[i] / 2;
+            for (let i = 0; i < barLevels.length; i++) {
+                barHeight = barLevels[i] * visualsHeight * 1/8;
                 visualsCanvas2d.fillStyle = foregroundColor;
-                visualsCanvas2d.fillRect(x, visualsHeight - barHeight / 2, barWidth, barHeight);
-                x += barWidth + 1;
-            }    
+                visualsCanvas2d.fillRect(x, visualsHeight - barHeight, barWidth, barHeight);
+                x += barWidth + gapWidth;
+            }                        
         }
     }
     draw();
