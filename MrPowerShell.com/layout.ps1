@@ -133,7 +133,7 @@ body {
 }
 header, footer {
     text-align: center;
-    line-height: .5rem;
+    // line-height: .66rem;    
     // margin: 1em;
 }
 
@@ -155,29 +155,31 @@ $(if ($HeaderMenu) {
 
 # If the device is in portrait mode, use smaller padding and gaps
 "@media (orientation: portrait) {"
-    ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(66px, 1fr)); gap: 0.1em }"
-    ".header-menu-item { text-align: center; padding: 0.1em; }"
+    ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(66px, 1fr)); gap: 0.2em }"
+    ".header-menu-item { text-align: center; padding: 0.2em; }"
 "}"
 })
-
-
-
 
 .logo { 
     display: inline;
     height: 4.2rem;
 }
 
---logoHeight: 3em;
 .expandInline { display: flex; flex-direction: row; }
+
 @media (orientation: landscape) {
     .logo { height: 4.2rem; }
+    .site-title, .page-title {
+        font-size: 1.23rem;
+        line-height: .75rem
+    }
 }
 
 @media (orientation: portrait) {
     .logo { height: 2.3rem; }
     .site-title, .page-title {
         font-size: 0.84em;
+        line-height: .66rem
     }
     .expandInline { display: flex; flex-direction: column; }
 }
@@ -198,7 +200,7 @@ a:hover, a:focus {
     } elseif ($site.FontSize) {
         "font-size: $($site.FontSize);"
     } else {
-        "font-size: 1.021em;"
+        "font-size: 1.23em;"
     })
 }
 
