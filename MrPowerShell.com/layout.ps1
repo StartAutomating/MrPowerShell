@@ -42,7 +42,7 @@ param(
     # The key should be the icon name or content, and the value should be the URL.
     # SVG icons should be included inline so they may be stylized.
     [Collections.IDictionary]
-    $Taskbar = $(
+    $Taskbar = $(        
         if ($page -and $page['Taskbar']) { $page.Taskbar }
         elseif ($Site -and $site['Taskbar']) { $site['Taskbar'] }
         else { [Ordered]@{} }
@@ -129,22 +129,57 @@ body {
     max-width: 100vw;
     height: 100vh;
     font-family: '$Font', sans-serif;
-    margin: 3em;
+    margin: 1em;
 }
 header, footer {
     text-align: center;
-    margin: 2em;
+    line-height: .5rem;
+    // margin: 1em;
 }
 
+/*header > * {
+    display: inline-block
+}*/
+
+header > svg {
+    display: block;
+    text-align: center;
+}
+
+$(if ($HeaderMenu) {
+# If the device is in landscape mode, use larger padding and gaps
+"@media (orientation: landscape) {"
+    ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.5em }"
+    ".header-menu-item { text-align: center; padding: 0.5em; }"
+"}"
+
+# If the device is in portrait mode, use smaller padding and gaps
+"@media (orientation: portrait) {"
+    ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(66px, 1fr)); gap: 0.1em }"
+    ".header-menu-item { text-align: center; padding: 0.1em; }"
+"}"
+})
+
+
+
+
+.logo { 
+    display: inline;
+    height: 4.2rem;
+}
+
+--logoHeight: 3em;
+.expandInline { display: flex; flex-direction: row; }
 @media (orientation: landscape) {
-    .logo { height: 7em; }
+    .logo { height: 4.2rem; }
 }
 
 @media (orientation: portrait) {
-    .logo { height: 3em; }
+    .logo { height: 2.3rem; }
     .site-title, .page-title {
         font-size: 0.84em;
     }
+    .expandInline { display: flex; flex-direction: column; }
 }
 
 pre, code { font-family: '$CodeFont', monospace; }
@@ -163,7 +198,7 @@ a:hover, a:focus {
     } elseif ($site.FontSize) {
         "font-size: $($site.FontSize);"
     } else {
-        "font-size: 1.21em;"
+        "font-size: 1.021em;"
     })
 }
 
@@ -310,20 +345,7 @@ $bodyElements = @(
             }            
         }
         
-        if ($headerMenu) {
-            "<style>"            
-                # If the device is in landscape mode, use larger padding and gaps
-                "@media (orientation: landscape) {"
-                    ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 1em }"
-                    ".header-menu-item { text-align: center; padding: 1em; }"
-                "}"
-
-                # If the device is in portrait mode, use smaller padding and gaps
-                "@media (orientation: portrait) {"
-                    ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.25em }"
-                    ".header-menu-item { text-align: center; padding: 0.25em; }"
-                "}"
-            "</style>"
+        if ($headerMenu) {            
             "<nav class='header-menu'>"
             foreach ($menuItem in $headerMenu.GetEnumerator()) {
                 "<a href='$($menuItem.Value)' class='header-menu-item'>$([Web.HttpUtility]::HtmlEncode($menuItem.Key))</a>"
