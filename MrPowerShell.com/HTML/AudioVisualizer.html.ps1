@@ -12,26 +12,7 @@ if ($Page) {
     $page.Title = $title
     $Page.Description = $description
     $Page.Image = "https://MrPowerShell.com/HTML/AudioVisualizer.png"
-    <#$page.Background = 
-        # turtle SierpinskiArrowheadCurve 15 4 |
-        # turtle KochIsland 5 4 |
-        # turtle Flower 30 (360/12) 18 |
-        # turtle Flower 30 (360/8) 8 |
-        # turtle Flower 30 (360/10) 12 |
-        # turtle Flower 25 8 16 72 |
-        turtle Flower 30 60 6 | 
-        Set-Turtle PatternTransform @{
-            scale = 1
-        } | 
-        Set-Turtle PatternAnimation ([Ordered]@{
-            type = 'scale'    ; values = 0.66,0.33, 0.66 ; repeatCount = 'indefinite' ;dur = "23s"; additive = 'sum';id ='scale-pattern'
-        }, [Ordered]@{
-            type = 'rotate'   ; values = 0, 360 ;repeatCount = 'indefinite'; dur = "41s"; additive = 'sum'; id ='rotate-pattern'
-        }, [Ordered]@{
-            type = 'translate'   ; values = "0 0;"; dur = "41s"; additive = 'sum'; id ='translate-pattern'
-        }) |
-        Set-Turtle StrokeWidth '0.1%' |
-        Select-Object -expand Pattern #>
+    # The page background is randomly selected during site configuration.    
 }
 
 $randomPalette = @"
@@ -106,19 +87,21 @@ $randomPalette
 $randomColor
 $savePng
 
-$html = @"
-<style>
+
+$Style = @"
 .controlsGrid {
-    display: grid; 
-    gap: .42%;
-    padding: 1em;
+    position: fixed;
+    gap: .42%;    
     text-align: center;    
     width:100vw;
-    height:100vh;
-    vertical-align: middle;
-    margin: 1em;
-    grid-template-areas: "left-controls . . right-controls";    
+    top: 80%;
+    height:10vh;    
 }
+
+.controlsGrid button {
+    max-width: 10vw
+}
+
 .visualsGrid {
     position: absolute;
     z-index: -1;
@@ -129,25 +112,6 @@ $html = @"
     height: 100vh;
 }
 
-.grid-left {
-    grid-area: left-controls;
-}
-.grid-right { 
-    grid-area: right-controls;
-}
-.grid-right select, options, button, div {
-    width: 100%;    
-}
-.grid-middle {
-    grid-area: middle;
-}
-
-.innerGrid {
-    display: grid;
-    vertical-align: middle;
-    width: 100%;
-    grid-template-columns: 1fr;
-}
 #visuals {
     width: 100vh;
     position: fixed;
@@ -162,7 +126,14 @@ $html = @"
 }
 
 pre { text-align: left }
-</style>
+
+// .colorWheel { filter: url('#colorWheel'); }
+// canvas { filter: url('#blurFilter'); }
+// #background-svg { filter: url('#blurFilter') }
+.audioControls { text-align: center}
+"@
+
+$svgFilters = @'
 <!-- Generated with PSSVG 0.2.10 <https://github.com/StartAutomating/PSSVG> -->
 <svg width='0%' height='0%' xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
   <defs>
@@ -203,96 +174,112 @@ pre { text-align: left }
   </filter>
   </defs>
 </svg>
+'@
+
+
+$audioPlayer = @"
+<audio controls="true" autoplay="true" id="audio">
+    <!-- <source src='http://knhc-ice.streamguys1.com/live' type='audio/mpeg' /> -->
+    <!-- <source src='https://kjzz.streamguys1.com/kbaq_mp3_128' type='audio/mpeg' /> -->
+</audio>
+<br/>
+<input type="file" id="audioFile" multiple="true" />
+
+"@
+
+$html = @"
 <style>
-// .colorWheel { filter: url('#colorWheel'); }
-// canvas { filter: url('#blurFilter'); }
-// #background-svg { filter: url('#blurFilter') }
+$style
 </style>
+$svgFilters
 <div class='visualsGrid'>
     <canvas id='visuals'></canvas>
 </div>
 <div class='controlsGrid'>
-    <div class='grid-left'>    
-        <input type="file" id="audioFile" multiple="true" />
-        
-        <br/>
-        <!--
-            <input id='audioUrl' type="url" id="audioUrl" />
-            <label for='audioUrl'>Audio Url</label>
-            <br />
-        -->
-        <audio controls="true" autoplay="true" id="audio">
-            <!-- <source src='http://knhc-ice.streamguys1.com/live' type='audio/mpeg' /> -->
-            <!-- <source src='https://kjzz.streamguys1.com/kbaq_mp3_128' type='audio/mpeg' /> -->
-        </audio>
-    </div>
-    <div class='grid-right'>
-        <div>        
-        <details>
-        <summary>Options</summary>
-        <div class='innerGrid'>
-            <div>                
-                $(
-                    if ($site.Includes.SelectPalette) {                        
-                        . $site.Includes.SelectPalette
-                    }                    
-                )
-            </div>
-            <div>
-                <button id="SetRandomPalette" onclick="SetRandomPalette()">Random Palette</button>
-            </div>
-            <div>
-                <button id="SetRandomColor" onclick="SetRandomColor()">Random Color</button>
-            </div>
-            <div>
-
-                $colorSelector
-            </div>
-            <!--
-            -->
-            <div>                
-                <input type="checkbox" id="autoColor" />
-                <label for="autoColor">Auto Color</label>
-            </div>
-
-            <div>
-                <input type="checkbox" id="showCustomColor" />
-                <label for="showCustomColor">Custom Color</label>
-            </div>
-            <div>
-                <input type="color" id="customColor" />                
-            </div>
-
-            <div>
-                <input type="checkbox" id="showScope" checked="true" />
-                <label for="showScope">Show Oscilloscope</label>
-            </div>
-            <div>
-                <input type="checkbox" id="showRadialScope" checked="true" />
-                <label for="showRadialScope">Show Radial Oscilloscope</label>
-            </div>            
-            <div>
-                <input type="checkbox" id="showBars" checked="true" />
-                <label for="showBars">Show Bars</label>
-            </div>    
-        </div>        
-        <div>
-            <button id="SavePNG" onclick="SavePNG('visuals')">Save PNG</button>
-        </div>
-        </div>
-        </details>
-        <details>
-            <summary>View Source</summary>
-            <div id='PowerShellCode'>
-                <pre>
-                    <code class='language-PowerShell'>
+    <!--
+        <input id='audioUrl' type="url" id="audioUrl" />
+        <label for='audioUrl'>Audio Url</label>
+        <br />
+    -->
+    $audioPlayer    
+</div>
+<div>
+    <details>
+        <summary>View Source</summary>
+        <div id='PowerShellCode'>
+            <pre>
+                <code class='language-PowerShell'>
 $([Web.HttpUtility]::HtmlEncode($MyInvocation.MyCommand.ScriptBlock))
-                    </code>
-                </pre>
-            </div>
-        </details>
+                </code>
+            </pre>
         </div>
-    </div>        
+    </details>
+    <details>
+        <summary>Options</summary>
+        <div class='expandInline'>
+            <details open>
+                <summary>Color</summary>
+                <div class='expandInline'>
+                    <div>                
+                        $(if ($site.Includes.SelectPalette) {
+                                . $site.Includes.SelectPalette
+                        })
+                    </div>
+                    <div>
+                        <button id="SetRandomPalette" onclick="SetRandomPalette()">Random Palette</button>
+                    </div>
+                    <div>
+                        <button id="SetRandomColor" onclick="SetRandomColor()">Random Color</button>
+                    </div>
+                    <div>
+                        $colorSelector
+                    </div>
+                    <!--
+                    -->
+                    <div>                
+                        <input type="checkbox" id="autoColor" />
+                        <label for="autoColor">Auto Color</label>
+                    </div>            
+                    <div>
+                        <input type="checkbox" id="showCustomColor" />
+                        <label for="showCustomColor">Custom Color</label>
+                    </div>
+                    <div>
+                        <input type="color" id="customColor" />                
+                    </div>
+                </div>
+            </details>
+            
+            <details open>
+                <summary>Show</summary> 
+                <div class='expandInline'>               
+                    <div>
+                        <input type="checkbox" id="showScope" checked="true" />
+                        <label for="showScope">Oscilloscope</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="showRadialScope" checked="true" />
+                        <label for="showRadialScope">Radial Oscilloscope</label>
+                    </div>            
+                    <div>
+                        <input type="checkbox" id="showBars" checked="true" />
+                        <label for="showBars">Bars</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="showVolumeCurve" checked="true" />
+                        <label for="showVolumeCurve">Volume Curve</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="showPattern" checked="true" />
+                        <label for="showPattern">Pattern</label>
+                    </div>
+                </div>
+            </details>
+            <div>
+                <button id="SavePNG" onclick="SavePNG('visuals')">Save PNG</button>
+            </div>    
+        </div>
+    </details>        
 </div>
 
 <script>
@@ -329,7 +316,8 @@ const visualsCanvas = document.getElementById("visuals");
 const visualsCanvas2d = visualsCanvas.getContext("2d");
 const volumeHistory = [];
 const translateDistance = {x:0.0, y:0.0, r: 0.0 };
-
+const volumeCurves = []
+let frameCount = 0
 
 async function ShowVisualizer() {    
     const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
@@ -377,23 +365,26 @@ async function ShowVisualizer() {
         const scopeLine = []
         for (let frequencyIndex = 0; frequencyIndex < frequencyArray.length; frequencyIndex++) {            
             const frequencyValue = frequencyArray[frequencyIndex];
-            const frequencyRatio = frequencyValue/255.0
-            levels.all.push(frequencyRatio)
-            if (frequencyValue > 0 ) { levels.nonZero.push(frequencyRatio) }
+            const frequencyRatio = frequencyValue/255.0                        
+            let frequencyDelta = frequencyRatio            
+            levels.all.push(frequencyRatio)            
+            if (frequencyValue > 0 ) {            
+                levels.nonZero.push(frequencyRatio)
+            }
             totalVolume += frequencyValue;
-            if (frequencyValue > 0 && frequencyIndex < (frequencyArray.length / 3)) {
-                // low frequencies
+            if (frequencyValue > 0 && frequencyIndex < (frequencyArray.length / 3)) {                    
+                // low frequencies                                
                 levels.low.push(frequencyRatio)
                 totalLow += frequencyValue;
                 lowCount++
             } else if (frequencyValue > 0 && frequencyIndex < (2 * (frequencyArray.length / 3))) {
-                // mid frequencies
+                // mid frequencies                
                 levels.mid.push(frequencyRatio)
-                totalMid += frequencyValue;                
+                totalMid += frequencyValue;
                 midCount++
             } else if (frequencyValue > 0) {
-                // high frequencies
-                levels.mid.push(frequencyRatio)
+                // high frequencies                
+                levels.high.push(frequencyRatio)
                 totalHigh += frequencyValue;
                 highCount++
             }    
@@ -402,14 +393,13 @@ async function ShowVisualizer() {
         const averageVolume = (totalVolume / frequencyArray.length) / 255.0;
         const averageLow = (totalLow / lowCount) / 255.0;
         const averageMid = (totalMid / midCount) / 255.0;
-        const averageHigh = (totalHigh / highCount)  / 255.0;
-          
+        const averageHigh = (totalHigh / highCount)  / 255.0;          
         
-        for (let sampleIndex = 0; sampleIndex < dataArray.length; sampleIndex++) {            
-            const sampleValue = dataArray[sampleIndex];            
+        for (let sampleIndex = 0; sampleIndex < dataArray.length; sampleIndex++) {
+            const sampleValue = dataArray[sampleIndex];
             scopeLine.push(sampleValue/128.0)
             totalFrequency += sampleValue;
-        }    
+        }
 
         const averageFrequency = (totalFrequency / dataArray.length) / 255.0;
 
@@ -421,7 +411,7 @@ async function ShowVisualizer() {
                 mid: averageMid,
                 high: averageHigh
             },
-            levels: levels,
+            levels: levels,            
             scope: scopeLine            
         }
     }
@@ -429,18 +419,36 @@ async function ShowVisualizer() {
 
     // draw an oscilloscope of the current audio source
     function draw() {
+
+        // First, request the next animation frame to call this
         requestAnimationFrame(draw);
 
+        // Then increment our frame count
+        frameCount++
+
+        // Then, get our data from the Analyzers
         analyser.getByteTimeDomainData(dataArray);
         barsAnalyzer.getByteFrequencyData(frequencyArray);
 
+        // and measure it.
         const info = measure();
-        const levels = info.levels;
-        
-        let turtlePattern = document.getElementById("turtle-pattern")
-        
 
-        if (turtlePattern) {
+        // We will often scale based off of levels.
+        const levels = info.levels;
+                
+        // We want to optionally show or hide various parts of the visualization.
+        const show  = {
+            bars: document.getElementById('showBars').checked,
+            volumeCurve: document.getElementById('showVolumeCurve').checked,
+            scope: document.getElementById('showScope').checked,
+            radialScope: document.getElementById('showRadialScope').checked,
+            pattern: document.getElementById('showPattern').checked,            
+        }
+
+        let turtlePattern = document.getElementById("turtle-pattern")
+        let turtlePath = document.getElementById("turtle-path")
+
+        if (turtlePattern && show.pattern) {
             translateDistance.x = (info.average.volume * 23) + (info.average.frequency) * 42; // audio.currentTime/audio.duration * 1024;
             translateDistance.y = (info.average.volume * 23) + (info.average.frequency - 0.5) * 42; // audio.currentTime/audio.duration * -512; // // (info.average.volume * - 4.2);
             translateDistance.r = ( (info.average.frequency - 0.5) * 180)
@@ -452,12 +460,20 @@ async function ShowVisualizer() {
                     
                     scale(`${scaleX} `${scaleY}`)
                 ``);
-            }
+            }                
             
+            if (turtlePath) {
+                turtlePath.setAttribute("opacity", (info.average.volume + info.average.low)/2);
+            }
+        } else if (turtlePattern && ! show.pattern) {
+            let turtlePath = document.getElementById("turtle-path")
+            if (turtlePath) {
+                turtlePath.setAttribute("opacity", 0);
+            }            
         }
 
         let rotatePattern = document.getElementById("rotate-pattern")
-        if (rotatePattern) {            
+        if (rotatePattern && show.pattern) {            
             rotatePattern.setAttribute('values', (audio.currentTime/60 * 360 * 33) - (info.average.volume * 30) - translateDistance.r)
         }
        
@@ -479,12 +495,7 @@ async function ShowVisualizer() {
         let backgroundColor = getComputedStyle(visualsCanvas).getPropertyValue('--background')
         if (backgroundColor == '') {
             backgroundColor = '#FFFFFF'
-        }
-        
-        let turtlePath = document.getElementById("turtle-path")
-        if (turtlePath) {
-            turtlePath.setAttribute("opacity", (info.average.volume + info.average.low)/2);
-        }
+        }            
 
         // getComputedStyle(document).setPropertyValue('--foreground',noteRGB['color'])
         let foregroundColor = ''
@@ -521,13 +532,15 @@ async function ShowVisualizer() {
         visualsCanvas2d.strokeStyle = foregroundColor;
         let x = 0;
         
-        if (document.getElementById('showScope').checked) {
+        if (show.scope) {
             visualsCanvas2d.beginPath();
             const sliceWidth = (visualsWidth * 1.0) / info.scope.length;
             x = 0;
+            
             for (let i = 0; i < info.scope.length; i++) {
                 const v = info.scope[i];
-                const y = v * (visualsHeight / 2);
+                let nonZeroIndex = Math.floor(i/info.scope.length * info.levels.nonZero.length)
+                const y = (visualsHeight / 2) + (v - 1) * info.levels.nonZero[nonZeroIndex] * (visualsHeight/3)
 
                 if (i === 0) {
                     visualsCanvas2d.moveTo(x, y);
@@ -540,9 +553,26 @@ async function ShowVisualizer() {
         
             visualsCanvas2d.lineTo(visualsWidth, visualsHeight / 2);
             visualsCanvas2d.stroke();
+
+            if (show.volumeCurve) {
+                for (let i = 0; i < info.scope.length; i++) {
+                    const v = info.scope[i];
+                    let nonZeroIndex = Math.floor(i/info.scope.length * info.levels.nonZero.length)
+                    const y = (visualsHeight / 2) + (v - 1) * (visualsHeight/3)
+                    if (i === 0) {
+                        visualsCanvas2d.moveTo(x, y);
+                    } else {
+                        visualsCanvas2d.lineTo(x, y);
+                    }
+
+                    x += sliceWidth;
+                }
+                visualsCanvas2d.lineTo(visualsWidth, visualsHeight / 2);
+                visualsCanvas2d.stroke();
+            }            
         }
 
-        if (document.getElementById('showRadialScope').checked) {
+        if (show.radialScope) {
             /*
             Radial Oscilloscope
             */
@@ -552,7 +582,7 @@ async function ShowVisualizer() {
             const radius = Math.min(centerX, centerY) * 0.66 * info.average.volume;
             const angleStep = (Math.PI * 2) / (bufferLength - 1);
             
-            for (let i = 0; i < info.scope.length; i++) {
+            for (let i = 0; i < info.scope.length; i++) {                
                 const v = info.scope[i];
                 const x = centerX + Math.cos(angleStep * i) * radius * v;
                 const y = centerY + Math.sin(angleStep * i) * radius * v;                
@@ -561,23 +591,41 @@ async function ShowVisualizer() {
                 } else {
                     visualsCanvas2d.lineTo(x, y);
                 }
-            }
-
-            visualsCanvas2d.stroke();
+            }            
+            visualsCanvas2d.stroke();            
         }
                 
-        if (document.getElementById('showBars').checked) {
+        
+        if (show.bars || show.volumeCurve) {
             x = 0;            
             const gapWidth = 3
             const barLevels = levels.nonZero
             let barWidth = ((visualsWidth * 1.0) / barLevels.length) - gapWidth
             let barHeight = 0;
+            
+            let path = []
             for (let i = 0; i < barLevels.length; i++) {
-                barHeight = barLevels[i] * visualsHeight * 1/8;
-                visualsCanvas2d.fillStyle = foregroundColor;
-                visualsCanvas2d.fillRect(x, visualsHeight - barHeight, barWidth, barHeight);
+                barHeight = barLevels[i] * visualsHeight * 1/8;                
+                let rectTop = visualsHeight - barHeight
+                if (show.bars) {
+                    visualsCanvas2d.fillStyle = foregroundColor;
+                    visualsCanvas2d.fillRect(x, visualsHeight - barHeight, barWidth, barHeight);
+                }                
+
+                if (i == 0 ) {
+                    path.push(``M `${x} `${rectTop - info.average.low * 4.2}``)
+                } else {                    
+                    path.push(``L `${x + (barWidth + gapWidth ) / 2} `${rectTop - info.average.low * 4.2}``)
+                }
                 x += barWidth + gapWidth;
-            }                        
+            }                            
+
+            if (show.volumeCurve) {
+                let path2d = new Path2D(path.join(' '))
+                //path.strokeWidth = 1
+                visualsCanvas2d.lineWidth = info.average.low * 4.2;
+                visualsCanvas2d.stroke(path2d)                                
+            }            
         }
     }
     draw();
@@ -586,13 +634,4 @@ async function ShowVisualizer() {
 "@
 $html
 
-
-"<details>"
-"<summary>View Source</summary>"
-"<div id='PowerShellCode'>"
-"<pre><code class='language-PowerShell'>"
-[Web.HttpUtility]::HtmlEncode($MyInvocation.MyCommand.ScriptBlock)
-"</code></pre>"
-"</div>"
-"</details>"
 $OnResize
