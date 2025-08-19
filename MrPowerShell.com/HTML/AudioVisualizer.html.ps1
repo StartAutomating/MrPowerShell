@@ -11,7 +11,7 @@ $description = "A simple audio visualizer using the Web Audio API, made with Pow
 if ($Page) {
     $page.Title = $title
     $Page.Description = $description
-    $Page.Image = "https://MrPowerShell.com/HTML/AudioVisualizer.png"
+    $Page.Image = "https://MrPowerShell.com/HTML/AudioVisualizerInColor.png"
     # The page background is randomly selected during site configuration.    
 }
 
