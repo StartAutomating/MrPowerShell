@@ -366,13 +366,17 @@ $([Web.HttpUtility]::HtmlEncode($MyInvocation.MyCommand.ScriptBlock))
                         </fieldset>
                         <fieldset>
                             <div>
-                            <input type="checkbox" id="showBars" checked="true" />
-                            <label for="showBars">Bars</label>
-                            </div>                            
-                        </fieldset>                        
-                        <fieldset>
-                            <input type="checkbox" id="showPattern" checked="true" />
-                            <label for="showPattern">Pattern</label>
+                                <input type="checkbox" id="showBars" checked="true" />
+                                <label for="showBars">Bars</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="showPattern" checked="true" />
+                                <label for="showPattern">Pattern</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="showVolumeCurve" checked="true" />
+                                <label for="showVolumeCurve">Curve</label>
+                            </div>
                         </fieldset>                        
                     </fieldset>
                 </details>
@@ -442,7 +446,7 @@ const playlist = {
     index: 0,
     files: []
 }
-    
+
 audioLoader.addEventListener('change', (e) => {
     var reader = new FileReader();    
     for (var i = e.target.files.length - 1 ; i >= 0; i--) {
@@ -666,7 +670,7 @@ async function ShowVisualizer() {
             scope: document.getElementById('showScope').checked,
             stereo: document.getElementById('showStereo').checked,
             pattern: document.getElementById('showPattern').checked,
-            radialScope: document.getElementById('showRadialScope').checked            
+            radialScope: document.getElementById('showRadialScope').checked
         }
 
         const fill = {
