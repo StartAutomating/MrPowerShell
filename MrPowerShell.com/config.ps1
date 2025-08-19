@@ -366,6 +366,10 @@ $sitebackgrounds = @(
     {
         turtle @('StepSpiral',23, 60, 16, 19 * 6)
     }
+
+    {
+        turtle @('ArcRight', 23, 60, 'ArcLeft', 23, 160 * 24)
+    }
 )
 
 $siteBackground = $sitebackgrounds | Get-Random
