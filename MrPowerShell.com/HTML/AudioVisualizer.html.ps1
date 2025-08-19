@@ -135,14 +135,14 @@ $Style = @"
 
 .audioFieldset {
     display: grid;
-    width: 24ch;
+    width: 29ch;
     grid-template-areas:
         'levelsAndPan'
         'rateAndPitch';
 }
 
 .colorFieldSet {
-    width: 24ch;
+    width: 29ch;
 }
 
 .nowPlaying {
@@ -185,7 +185,7 @@ $Style = @"
 .leftLabel { grid-area: leftLabel; text-align: center; }
 .rightLabel { grid-area: rightLabel; text-align: center; }
 
-.showFieldSet { width: 24ch }
+.showFieldSet { width: 29ch }
 
 .panInput { 
     grid-area: panInput; 
@@ -309,74 +309,110 @@ $([Web.HttpUtility]::HtmlEncode($MyInvocation.MyCommand.ScriptBlock))
     </details>
     <details>
         <summary>Options</summary>
-        <div>
+        <div>            
             <blockquote>
                 <details>
-                    <summary>Color</summary>
-                    <fieldset class='colorFieldSet'>                        
-                        
-                        <legend>Colors</legend> 
+                    <summary>Visuals</summary>                
+                    <fieldset class='showFieldSet'>
                         <fieldset class='PaletteFieldSet'>
                             <legend>Palette</legend>
                             $(if ($site.Includes.SelectPalette) { . $site.Includes.SelectPalette })
                             <button id="SetRandomPalette" onclick="SetRandomPalette()">Random Palette</button>
                         </fieldset>                           
-                        <fieldSet>                                                                                    
-                            <legend>Primary</legend>
-                            $(if ($site.includes.SelectColor) { . $site.Includes.SelectColor })
-                            <button id="SetRandomColor" onclick="SetRandomColor()">Random Color</button>
-                            <br/>
-                            <input type="checkbox" id="autoColor" />
-                            <label for="autoColor">Auto Color</label>
-                            <br/>
-                            <input type="checkbox" id="showCustomColor" />
-                            <label for="showCustomColor">Custom Color</label>
-                            <input type="color" id="customColor" />
+                        <fieldset>
+                            <legend>Mono</legend>
+                            <input type="checkbox" id="showMono" checked="true" />
+                            <label for="showMono">Show</label>
+                            <fieldset>
+                                <legend>Color</legend>                                
+                                $(if ($site.includes.SelectColor) { . $site.Includes.SelectColor -Selected 'brightBlue' })
+                                <button id="SetRandomColor" onclick="SetRandomColor()">Random Color</button>
+                                <br/>
+                                <input type="checkbox" id="autoColor" />
+                                <label for="autoColor">Auto Color</label>
+                                <br/>
+                                <input type="checkbox" id="showCustomColor" />
+                                <label for="showCustomColor">Custom Color</label>
+                                <input type="color" id="customColor" />
+                            </fieldset>                            
                         </fieldset>
                         <fieldset>
-                            <legend>Left</legend>                                
-                            $(if ($site.includes.SelectColor) { . $site.Includes.SelectColor -id SelectLeftColor -Selected 'brightGreen' })
-                        </fieldset>
-                        <fieldset>
-                            <legend>Right</legend>                                
-                            $(if ($site.includes.SelectColor) { . $site.Includes.SelectColor -id SelectRightColor -Selected 'brightRed' })
-                        </fieldset>
-                    </fieldset>
-                </details>
-            </blockquote>
-            <blockquote>
-                <details>
-                    <summary>Show</summary>                
-                    <fieldset class='showFieldSet'>
-                        <fieldset>
+                            <legend>Stereo</legend>
                             <input type="checkbox" id="showStereo" checked="true" />
-                            <label for="showStereo">Stereo</label>
+                            <label for="showStereo">Stereo</label>                            
+                            <fieldset>
+                                <legend>Left</legend>                                
+                                <input type="checkbox" id="showLeft" checked />
+                                <label for="showLeft">Show</label>
+                                <input type="checkbox" id="fillLeft" />
+                                <label for="fillLeft">Fill</label>
+                                $(if ($site.includes.SelectColor) {
+                                        . $site.Includes.SelectColor -id SelectLeftColor -Selected 'brightGreen'
+                                })
+                            </fieldset>
+                            <fieldset>
+                                <legend>Right</legend>
+                                <input type="checkbox" id="showRight" checked />
+                                <label for="showRight">Show</label>
+                                <input type="checkbox" id="fillRight" />
+                                <label for="fillRight">Fill</label>
+                                $(if ($site.includes.SelectColor) {
+                                    . $site.includes.SelectColor -id SelectRightColor -Selected 'brightRed'
+                                })
+                            </fieldset>
                         </fieldset>
                         <fieldset>
+                            <legend>Scope</legend>
                             <input type="checkbox" id="showScope" checked="true" />
-                            <label for="showScope">Scope</label>
+                            <label for="showScope">Show</label>
                             <input type="checkbox" id="fillScope" />
-                            <label for="fillScope">Fill</label>                                                        
+                            <label for="fillScope">Fill</label>
+                            $(if ($site.includes.SelectColor) {
+                                    . $site.includes.SelectColor -id SelectScopeColor -Selected 'brightBlue'
+                            })
                         </fieldset>
-                        <fieldset>                            
+                        <fieldset>
+                            <legend>Radial</legend>
                             <input type="checkbox" id="showRadialScope" checked="true" />
                             <label for="showRadialScope">Radial</label>
                             <input type="checkbox" id="fillRadialScope" />
                             <label for="fillRadialScope">Fill</label>
+                            $(if ($site.includes.SelectColor) {
+                                    . $site.includes.SelectColor -id SelectRadialColor -Selected 'brightBlue'
+                            })
                         </fieldset>
                         <fieldset>
+                            <legend>Pattern</legend>
+                            <input type="checkbox" id="showPattern" checked="true" />
+                            <label for="showPattern">Pattern</label>
+                            <br/>
+                            <input type="checkbox" id="fillPattern" />
+                            <label for="fillPattern">Fill</label>
+                            <br/>
+                            <input type="checkbox" id="evenOddPattern" checked />
+                            <label for="evenOddPattern">Even/Odd</label>
+                            <br/>
+                            $(if ($site.includes.SelectColor) {
+                                    . $site.includes.SelectColor -id SelectPatternColor -Selected 'purple'
+                            })
+                        </fieldset>
+                        <fieldset>
+                            <legend>Bars</legend>                            
                             <div>
                                 <input type="checkbox" id="showBars" checked="true" />
                                 <label for="showBars">Bars</label>
-                            </div>
-                            <div>
-                                <input type="checkbox" id="showPattern" checked="true" />
-                                <label for="showPattern">Pattern</label>
-                            </div>
+                                $(if ($site.includes.SelectColor) {
+                                    . $site.includes.SelectColor -id SelectBarsColor -Selected 'brightCyan'
+                                })
+                            </div>                            
                             <div>
                                 <input type="checkbox" id="showVolumeCurve" checked="true" />
                                 <label for="showVolumeCurve">Curve</label>
+                                $(if ($site.includes.SelectColor) {
+                                    . $site.includes.SelectColor -id SelectCurveColor -Selected 'brightYellow'
+                                })
                             </div>
+                            
                         </fieldset>                        
                     </fieldset>
                 </details>
@@ -493,6 +529,34 @@ const volumeCurves = []
 let frameCount = 0
 let audioSource = null
 
+function isChecked(...ids) {
+    for (const id of ids) {        
+        if (document.getElementById(id)?.checked) { return true }
+    }
+    return false    
+}
+
+
+function valueOf(...ids) {        
+    for (const id of ids) {
+        const element = document.getElementById(id)
+        if (element?.value) { return element.value}
+    }
+    return null    
+}
+
+function valuesOf(...ids) {
+    const output = {}
+    for (const id of ids) {
+        output[id] = document.getElementById(id)?.value
+    }
+    return output
+}
+
+function propertyValueOf(propertyName) {
+    getComputedStyle(visualsCanvas).getPropertyValue(propertyName)
+}
+
 async function ShowVisualizer() {    
     const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
     const analyser = audioCtx.createAnalyser();
@@ -522,7 +586,8 @@ async function ShowVisualizer() {
     const rightFrequencyArray = new Uint8Array(barsBufferLength);
     
     
-    // For the color bar analyzer we want a average of a few frequencies    
+    // For the color bar analyzer we want a average of a few frequencies
+    
     const colorSelector = document.getElementById('SelectColor')
     const leftColorSelector = document.getElementById('SelectLeftColor')
     const rightColorSelector = document.getElementById('SelectRightColor')
@@ -662,20 +727,40 @@ async function ShowVisualizer() {
         // Then increment our frame count
         frameCount++
 
-        // We want to optionally show or hide various parts of the visualization.
-        // Lets gather this first, so we can avoid analyzing channels if we don't need them.
-        const show  = {            
-            bars: document.getElementById('showBars').checked,
-            volumeCurve: document.getElementById('showVolumeCurve').checked,
-            scope: document.getElementById('showScope').checked,
-            stereo: document.getElementById('showStereo').checked,
-            pattern: document.getElementById('showPattern').checked,
-            radialScope: document.getElementById('showRadialScope').checked
-        }
+        const optionNames = ['Bars','Left','Pattern','RadialScope','Right','Scope','Stereo','VolumeCurve']
+        const options = {}        
+        for (const groupName of ['show','fill','evenOdd']) {
+            options[groupName] = {}
+            for (const optionName of optionNames) {
+                options[groupName][optionName.substring(0,1).toLowerCase() + optionName.substring(1)] = isChecked(groupName + optionName)
+            }
+        }        
+        const show = options.show
+        const fill = options.fill
+        const evenOdd = options.evenOdd        
 
-        const fill = {
-            scope: document.getElementById('fillScope').checked,
-            radialScope: document.getElementById('fillRadialScope').checked,
+        const colors = {
+            bars: getComputedStyle(visualsCanvas).getPropertyValue(
+                valueOf('SelectBarsColor')
+            ),                                
+            left: getComputedStyle(visualsCanvas).getPropertyValue(
+                valueOf('SelectLeftColor')
+            ),
+            right: getComputedStyle(visualsCanvas).getPropertyValue(
+                valueOf('SelectRightColor')
+            ),
+            scope: getComputedStyle(visualsCanvas).getPropertyValue(
+                valueOf('SelectScopeColor')
+            ),
+            pattern: getComputedStyle(visualsCanvas).getPropertyValue(
+                valueOf('SelectPatternColor')
+            ),
+            radial: getComputedStyle(visualsCanvas).getPropertyValue(
+                valueOf('SelectRadialColor')
+            ),
+            curve: getComputedStyle(visualsCanvas).getPropertyValue(
+                valueOf('SelectCurveColor')
+            )
         }
 
         // Then, get our data from the Analyzers
@@ -716,6 +801,8 @@ async function ShowVisualizer() {
 
         // Most of what we visualize is based off of levels.
         const levels = info.levels;
+
+        let patternColor = getComputedStyle(visualsCanvas).getPropertyValue(leftColorSelector.value)
     
         let leftColor = getComputedStyle(visualsCanvas).getPropertyValue(leftColorSelector.value)
         if (! leftColor) { leftColor = 'green' }
@@ -746,6 +833,20 @@ async function ShowVisualizer() {
             
             if (turtlePath) {
                 turtlePath.setAttribute("opacity", (info.average.volume + info.average.low)/2);
+                turtlePath.style.setProperty('--foreground', colors.pattern)
+                if (fill.pattern) {
+                    turtlePath.setAttribute("fill", colors.pattern)
+                    if (evenOdd.pattern) {
+                        turtlePath.setAttribute("fill-rule", "evenodd")    
+                    } else {
+                        turtlePath.setAttribute("fill-rule", "nonzero")
+                    }                    
+                    turtlePath.setAttribute("stroke", "transparent")
+                } else {
+                    turtlePath.setAttribute("stroke", colors.pattern)
+                    turtlePath.setAttribute("fill", "transparent")
+                }
+                
             }
         } else if (turtlePattern && ! show.pattern) {
             let turtlePath = document.getElementById("turtle-path")
@@ -801,7 +902,7 @@ async function ShowVisualizer() {
             // Otherwise, use the color CSS variable selected in the dropdown.
             foregroundColor = getComputedStyle(visualsCanvas).getPropertyValue(colorSelector.value)
             if (turtlePath) {
-                turtlePath.style.setProperty('--foreground', foregroundColor)
+                turtlePath.style.setProperty('--foreground', colors.pattern)
             }
         }
        
@@ -833,7 +934,7 @@ async function ShowVisualizer() {
             nonZeros.push(rightInfo.levels.nonZero)
             nonZeros.push(leftInfo.levels.nonZero)
         }
-        channelNames.push("all")
+        channelNames.push("mono")
         scopes.push(info.scope)
         nonZeros.push(info.levels.nonZero)            
         
@@ -878,22 +979,45 @@ async function ShowVisualizer() {
                 const scopePath2D = new Path2D(scopePath.join(' '))
                 // just set the color
                 // just set the color
-                if (channelNames[scopeIndex] == "all") {
+                if (channelNames[scopeIndex] == "mono") {
                     visualsCanvas2d.strokeStyle = foregroundColor
                     visualsCanvas2d.fillStyle = foregroundColor
                 }
                 if (channelNames[scopeIndex] == "right") {
                     visualsCanvas2d.strokeStyle = rightColor
                     visualsCanvas2d.fillStyle = rightColor
+                    if (! show.right) { continue }
+                    if (fill.right) {
+                        if (evenOdd.right) {
+                            visualsCanvas2d.fill(scopePath2D, 'evenodd')
+                        } else {
+                            visualsCanvas2d.fill(scopePath2D)
+                        }                                                                                        
+                        continue
+                    }
                 }
                 if (channelNames[scopeIndex] == "left") {
                     visualsCanvas2d.strokeStyle = leftColor
                     visualsCanvas2d.fillStyle = leftColor
+                    if (! show.left) { continue }
+                    if (fill.left) {
+                        if (evenOdd.left) {
+                            visualsCanvas2d.fill(scopePath2D, 'evenodd')
+                        } else {
+                            visualsCanvas2d.fill(scopePath2D) 
+                        }
+                        
+                        continue
+                    }
                 }
                                 
                 // and stroke or fill the path. 
                 if (fill.scope) {
-                    visualsCanvas2d.fill(scopePath2D)
+                    if (evenOdd.scope) {
+                        visualsCanvas2d.fill(scopePath2D, 'evenodd')
+                    } else {
+                        visualsCanvas2d.fill(scopePath2D)
+                    }                    
                 } else {
                     visualsCanvas2d.stroke(scopePath2D) 
                 }
@@ -931,22 +1055,44 @@ async function ShowVisualizer() {
                 // Congratulations, we now have a radial ossiloscope!
                 const scopePath2D = new Path2D(scopePath.join(' '))
                 // just set the color
-                if (channelNames[scopeIndex] == "all") {
-                    visualsCanvas2d.strokeStyle = foregroundColor
-                    visualsCanvas2d.fillStyle = foregroundColor
+                if (channelNames[scopeIndex] == "mono") {
+                    visualsCanvas2d.strokeStyle = colors.radial
+                    visualsCanvas2d.fillStyle = colors.radial
                 }
                 if (channelNames[scopeIndex] == "right") {
                     visualsCanvas2d.strokeStyle = rightColor
                     visualsCanvas2d.fillStyle = rightColor
+                    if (! show.right) { continue }
+                    if (fill.right) {                        
+                        if (evenOdd.right) {
+                            visualsCanvas2d.fill(scopePath2D, 'evenodd')
+                        } else {
+                            visualsCanvas2d.fill(scopePath2D)
+                        }
+                        continue
+                    }
                 }
                 if (channelNames[scopeIndex] == "left") {
                     visualsCanvas2d.strokeStyle = leftColor
                     visualsCanvas2d.fillStyle = leftColor
+                    if (! show.left) { continue }
+                    if (fill.left) {
+                        if (evenOdd.left) {
+                            visualsCanvas2d.fill(scopePath2D, 'evenodd')
+                        } else {
+                            visualsCanvas2d.fill(scopePath2D)
+                        }
+                        continue
+                    }
                 }
                                 
                 // and stroke the path. 
                 if (fill.radialScope) {
-                    visualsCanvas2d.fill(scopePath2D)
+                    if (evenOdd.radialScope) {
+                        visualsCanvas2d.fill(scopePath2D, 'evenodd')
+                    } else {
+                        visualsCanvas2d.fill(scopePath2D)
+                    }                                       
                 } else {
                     visualsCanvas2d.stroke(scopePath2D) 
                 }
@@ -962,16 +1108,19 @@ async function ShowVisualizer() {
             let barHeight = 0;
             
             let path = []
+            let barsPath = []
             for (let i = 0; i < barLevels.length; i++) {
                 barHeight = barLevels[i] * visualsHeight * 1/8;                
                 let rectTop = visualsHeight - barHeight
                 if (show.bars) {
-                    visualsCanvas2d.fillStyle = foregroundColor;
+                    visualsCanvas2d.fillStyle = colors.bars;
+                    visualsCanvas2d.strokeStyle = colors.curve;
                     visualsCanvas2d.fillRect(x, visualsHeight - barHeight, barWidth, barHeight);
                 }                
 
                 if (i == 0 ) {
-                    path.push(``M `${x} `${rectTop - info.average.low * 4.2}``)
+                    path.push(``M 0 `${visualsHeight}``)
+                    path.push(``L `${x} `${rectTop - info.average.low * 4.2}``)
                 } else {                    
                     path.push(``L `${x + (barWidth + gapWidth ) / 2} `${rectTop - info.average.low * 4.2}``)
                 }
@@ -981,8 +1130,14 @@ async function ShowVisualizer() {
             if (show.volumeCurve) {
                 let path2d = new Path2D(path.join(' '))
                 //path.strokeWidth = 1
-                visualsCanvas2d.strokeStyle = foregroundColor
+                
+                if (! show.bars) {
+                    visualsCanvas2d.fillStyle = colors.bars
+                    visualsCanvas2d.fill(path2d)
+                }
+                    
                 visualsCanvas2d.lineWidth = info.average.volume * 4.2;
+                visualsCanvas2d.strokeStyle = colors.curve
                 visualsCanvas2d.stroke(path2d)
             }            
         }
