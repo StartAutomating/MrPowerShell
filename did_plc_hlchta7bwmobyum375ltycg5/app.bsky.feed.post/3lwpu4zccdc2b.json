@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1755570129529300,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lwpu4z2iv32w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lwpu4zccdc2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-19T02:22:09.61Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihtug6i7echnu6peknmxjmjlqtpm2v372qnl43dqsah3klhifxy4i",
+          "uri": "at://did:plc:np4xrscdguofrrjq5rxazl3d/app.bsky.feed.post/3lwpl32zed22c"
+        },
+        "root": {
+          "cid": "bafyreihfnrdsa6sddnczhuoueji2sgb273ycx6obrd5k55wd3426iki434",
+          "uri": "at://did:plc:wamidydbgu3u6fk3yckaglnz/app.bsky.feed.post/3lwpiiju7ik26"
+        }
+      },
+      "text": "I would actually call that a benefit.\n\nIt means you can find commands and work with them using metadata, so the net power of your shell is basically the factorial of\n\n$NumberOfCommands * $NumberOfParameters\n\nOr, damn near infinity."
+    },
+    "cid": "bafyreif2sdynik42ugx2yuq45ifn3ly62jibmgnjhiyxmbqo3ero3ytp74"
+  }
+}
