@@ -340,27 +340,31 @@ $sitebackgrounds = @(
     }
 
     {
-        turtle rotate -30 @('spirolateral',42,60,6,@(1,3),'rotate', 60 * 6 )
+        turtle rotate -30 @('spirolateral',23,60,6,@(1,3),'rotate', 60 * 6 )
     }
 
     {
-        turtle spirolateral 42 90 11 @(3,4,5) 
+        turtle spirolateral 23 90 11 @(3,4,5) 
     }
 
     {
-        turtle spirolateral 42 120 6 @(1,3)
+        turtle spirolateral 23 120 6 @(1,3)
     }
 
     {
-        turtle spirolateral 42 144 8
+        turtle spirolateral 23 144 8
     }
     
     {
-        turtle @('StepSpiral',42, 60, 4 * 3)
+        turtle @('StepSpiral',23, 60, 4 * 3)
     }
 
     {
-        turtle @('StepSpiral',42, 120, 16)
+        turtle @('StepSpiral',23, 120, 16, 18)
+    }
+
+    {
+        turtle @('StepSpiral',23, 60, 16, 19 * 6)
     }
 )
 
