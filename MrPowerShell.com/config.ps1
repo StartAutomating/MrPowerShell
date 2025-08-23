@@ -268,11 +268,7 @@ $sitebackgrounds = @(
     {turtle @('rotate', 45, 'circle',21,0.25,'circle',21,-0.25 * 8)}
 
     {turtle rotate (360/5) @('circle',15,0.5,'circle',15,-0.5, 'rotate', 72 * 5)}
-
-    {turtle @('rotate',90, 'forward',160, @('rotate', 120, 'forward', 160 * 3) * 5)}
-
-    {turtle @('rotate',180, @('rotate', 120, 'forward', 42 * 3) * 6)}
-
+    
     {
         turtle square 42 @('rotate', -60, 'forward',42, 'rotate', 120, 'forward',42, 'rotate', 30 * 4)
     }
