@@ -1,0 +1,98 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1755660385818151,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lwsi6u3zw42p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lwsi6qzrfs2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-20T03:26:22.362Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A simple audio visualizer using the Web Audio API, made with PowerShell.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreic2u4dkeou3rl25q33xpm2jhyyizxqme7rexolixbkqr4qwt4yjem"
+            },
+            "mimeType": "image/jpeg",
+            "size": 478611
+          },
+          "title": "Audio Visualizer",
+          "uri": "https://mrpowershell.com/HTML/AudioVisualizer"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JavaScript"
+            }
+          ],
+          "index": {
+            "byteEnd": 28,
+            "byteStart": 17
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebAudio"
+            }
+          ],
+          "index": {
+            "byteEnd": 38,
+            "byteStart": 29
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://mrpowershell.com/HTML/AudioVisualizer"
+            }
+          ],
+          "index": {
+            "byteEnd": 228,
+            "byteStart": 196
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "downtempo"
+            }
+          ],
+          "index": {
+            "byteEnd": 288,
+            "byteStart": 278
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "lofi"
+            }
+          ],
+          "index": {
+            "byteEnd": 296,
+            "byteStart": 291
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Did you know the #JavaScript #WebAudio APIs let you change playback rate & pitch bend?\n\nI honestly didn't (until this weekend).\n\nI added it to this AudioVisualizer experiment I've been building:\n\nmrpowershell.com/HTML/AudioVi...\n\nNow I'm low-key obsessed with making everything #downtempo / #lofi"
+    },
+    "cid": "bafyreibebwzz3ngq3gg2mcw3nsnjb2fqnykq2v6ywqiw3byg73zriihlne"
+  }
+}

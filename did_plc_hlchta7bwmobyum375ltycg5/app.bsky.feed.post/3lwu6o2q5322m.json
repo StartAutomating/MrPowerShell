@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1755718878728911,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lwu6o3emef2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lwu6o2q5322m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-20T19:41:17.908Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 194,
+            "byteStart": 183
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif537xiklp3c7ygsylzd7kt6pu6ge4wmud4sxcmkpobpakont5xt4",
+          "uri": "at://did:plc:h4nlizncnhhcq7mwpz3uuvzk/app.bsky.feed.post/3lwrgwai4t227"
+        },
+        "root": {
+          "cid": "bafyreif537xiklp3c7ygsylzd7kt6pu6ge4wmud4sxcmkpobpakont5xt4",
+          "uri": "at://did:plc:h4nlizncnhhcq7mwpz3uuvzk/app.bsky.feed.post/3lwrgwai4t227"
+        }
+      },
+      "text": "If you happen to want some help with Windows, let me know.\n\n(I've been programming in Windows since 3.1, used to build realtime video mixers, worked at MSFT for a while, helped build #PowerShell, and have an unhealthy love for tough problems.)"
+    },
+    "cid": "bafyreiczw3geaigmapq2z32a3eekzaw23uf2rqbcjrwhnln3x7wiepmcn4"
+  }
+}
