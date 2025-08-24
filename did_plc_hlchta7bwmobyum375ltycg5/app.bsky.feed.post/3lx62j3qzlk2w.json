@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756058013854172,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lx62j32hp42y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lx62j3qzlk2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-24T17:53:33.629Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Windows 95 turns 30 today ( August 24th, 2025).  That was a lifetime ago for a person, and ~7 generations ago for an operating system.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiahccpox4u7hsuifj2oh36y57sc2wj24nojtoav75wdxvaifv44di"
+            },
+            "mimeType": "image/jpeg",
+            "size": 183778
+          },
+          "title": "a microsoft windows 95 logo on a tv screen",
+          "uri": "https://media.tenor.com/Fr4WUN6cx-EAAAAC/windows-95-windows.gif?hh=374&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Clippy"
+            }
+          ],
+          "index": {
+            "byteEnd": 94,
+            "byteStart": 87
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Microsoft"
+            }
+          ],
+          "index": {
+            "byteEnd": 133,
+            "byteStart": 123
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Windows95"
+            }
+          ],
+          "index": {
+            "byteEnd": 193,
+            "byteStart": 183
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Apparently it's been 30 years since Windows 95.\n\nWho wants to Start Me Up?\n\nWho misses #Clippy?\n\nDoes anyone else remember #Microsoft Bob?\n\nWhat do you remember loving / hating about #Windows95?"
+    },
+    "cid": "bafyreicm4ofkheu7crm4okezi7l4bxdzznyu4joiexiebhb5zwhx5hyshu"
+  }
+}
