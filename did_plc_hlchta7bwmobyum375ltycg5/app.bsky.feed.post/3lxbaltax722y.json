@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756167627641543,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxbaltpceo23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxbaltax722y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-26T00:20:27.044Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreies5or4e3sdz4rpchp2rpsxjqaymyzhbnqphdaunpw5fp7jhq3lpi",
+          "uri": "at://did:plc:fdnh742vkxb2gv2noo357ffk/app.bsky.feed.post/3lxbafltn2c24"
+        },
+        "root": {
+          "cid": "bafyreie2oifcrolu2u2swaqxsucsegsrijquoirtyw5rkc463cet46kali",
+          "uri": "at://did:plc:fdnh742vkxb2gv2noo357ffk/app.bsky.feed.post/3lx67kyjh5k2r"
+        }
+      },
+      "text": "_very_ slight potential.  PowerShell would still be splitting arguments into an array of pure strings, and expansion of the argument into something more harmful would be tricky enough that I'm not seeing an obvious path.\n\nBut binding to _specific_ parameter names only is safer."
+    },
+    "cid": "bafyreicyjyxvgzwvjl3fh3pvvrrmlsn6y662ad5apsht3jc6g3qigcpjkq"
+  }
+}
