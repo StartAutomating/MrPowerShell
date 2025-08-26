@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756168154515138,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxbb3k5fql2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxbb3hniks2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-26T00:29:11.744Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicyjyxvgzwvjl3fh3pvvrrmlsn6y662ad5apsht3jc6g3qigcpjkq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lxbaltax722y"
+        },
+        "root": {
+          "cid": "bafyreie2oifcrolu2u2swaqxsucsegsrijquoirtyw5rkc463cet46kali",
+          "uri": "at://did:plc:fdnh742vkxb2gv2noo357ffk/app.bsky.feed.post/3lx67kyjh5k2r"
+        }
+      },
+      "text": "Providing a little more detail:\n\n_passing_ strings along is generally fine, provided that the strings are not expanded.  It's when you expand strings or allow unrestricted [ScriptBlock] input that code injections becomes easy.\n\nMake some sense?"
+    },
+    "cid": "bafyreichhslbptxjc5gftyvlltphqzeeyxifjfeidnrpfvbarc3447axxy"
+  }
+}
