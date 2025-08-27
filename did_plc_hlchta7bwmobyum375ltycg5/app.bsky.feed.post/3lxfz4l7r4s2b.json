@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756331398468850,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxfz4lnyaz2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxfz4l7r4s2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-27T21:49:57.799Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifplbvdmbfpptaeudyvpdpft3ptwdfymkc5utsiyobuibkshwraum",
+          "uri": "at://did:plc:ia77hc3mu62d7mufk723etsx/app.bsky.feed.post/3lxfvtvtqf22x"
+        },
+        "root": {
+          "cid": "bafyreifplbvdmbfpptaeudyvpdpft3ptwdfymkc5utsiyobuibkshwraum",
+          "uri": "at://did:plc:ia77hc3mu62d7mufk723etsx/app.bsky.feed.post/3lxfvtvtqf22x"
+        }
+      },
+      "text": "As someone who enjoys working with both in PowerShell (but also can occasionally hate the differences in the way these two objects work), I've got to wonder:\n\nWhat's bugging you the most?"
+    },
+    "cid": "bafyreie6lcvr3m53eqnjlpst33oexqalc2m6eum3qiu7ucbhyit55rgcui"
+  }
+}
