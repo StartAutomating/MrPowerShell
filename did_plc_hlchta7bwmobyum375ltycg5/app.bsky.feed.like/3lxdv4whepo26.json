@@ -1,0 +1,20 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756258395316128,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxdv4whteg26",
+    "operation": "create",
+    "collection": "app.bsky.feed.like",
+    "rkey": "3lxdv4whepo26",
+    "record": {
+      "$type": "app.bsky.feed.like",
+      "createdAt": "2025-08-27T01:33:15.632Z",
+      "subject": {
+        "cid": "bafyreibn7lmpfzx6qh7xgqujau4tdhmrp77owvqh3ijubr2yhqiahcra3e",
+        "uri": "at://did:plc:mdd3hdxwgd5zoj5szfysjgra/app.bsky.feed.post/3lxdraglz722p"
+      }
+    },
+    "cid": "bafyreihx42bzgtaoz6udomfz64u3rhmtrsrvyhuxgxjoobk7cygryectj4"
+  }
+}
