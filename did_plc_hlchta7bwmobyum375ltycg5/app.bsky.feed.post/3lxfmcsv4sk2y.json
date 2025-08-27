@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756317753665004,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxfmct6xxe23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxfmcsv4sk2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-27T18:00:48.522Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DotNet"
+            }
+          ],
+          "index": {
+            "byteEnd": 25,
+            "byteStart": 18
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DataType"
+            }
+          ],
+          "index": {
+            "byteEnd": 35,
+            "byteStart": 26
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 47,
+            "byteStart": 36
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "More mind-blowing #DotNet #DataType #PowerShell math.\n\nHow many milky ways fit into a [double]?\n\n~~~PowerShell\n$milkyway = (87600 + 3600) * $lightYear\n[Math]::Sqrt([double]::MaxValue)/$milkyway\n~~~\n\n1.55395440399026E+133\n\nBottom line: [double] can do galactic math."
+    },
+    "cid": "bafyreiaowmb6ppjejcyhwrfjhyadc6yof6w6ewj2nuryv6u6kc4hwtmqly"
+  }
+}
