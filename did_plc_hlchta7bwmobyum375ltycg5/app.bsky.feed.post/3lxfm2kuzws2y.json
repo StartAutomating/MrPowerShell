@@ -1,0 +1,70 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756317372137275,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxfm2l4ikd2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxfm2kuzws2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-27T17:56:11.695Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 24,
+            "byteStart": 13
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DotNet"
+            }
+          ],
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 25
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Math"
+            }
+          ],
+          "index": {
+            "byteEnd": 47,
+            "byteStart": 42
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Astonomy"
+            }
+          ],
+          "index": {
+            "byteEnd": 57,
+            "byteStart": 48
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Mind blowing #PowerShell #DotNet DataType #Math #Astonomy\n\nHow many LightYears^2 fit into [float] and [double]?\n\n~~~PowerShell\n$Lightyear = 9460730472580.8 * 1000\n[Math]::Sqrt([float]::MaxValue)/$lightYear\n~~~\n\n`[float]` fits 1949.82232898573 \n`[double]` fits 1.41720641643912E+138"
+    },
+    "cid": "bafyreif2z2wxw7s7gnb25dfmz3h4uclqmdm3n2at3ieovpuofv2fjf3llu"
+  }
+}
