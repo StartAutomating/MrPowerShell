@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756338402512655,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxg7kllk7a2v",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxg7izwodk2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-27T23:44:18.334Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifpj5mnrktzk2lflvq7jvqt3tllzawbd4h2rt4iaz3h7hherykhsq",
+          "uri": "at://did:plc:ia77hc3mu62d7mufk723etsx/app.bsky.feed.post/3lxg77pom6k2v"
+        },
+        "root": {
+          "cid": "bafyreifplbvdmbfpptaeudyvpdpft3ptwdfymkc5utsiyobuibkshwraum",
+          "uri": "at://did:plc:ia77hc3mu62d7mufk723etsx/app.bsky.feed.post/3lxfvtvtqf22x"
+        }
+      },
+      "text": "Out of curiosity, are you using Select-Xml?\n\nA long long time ago I was driven nuts trying to get direct xPath namespace queries to work and pretty much demanded the dev making Select-Xml made namespaces easier.\n\n(suddenly having the painful realization that I've been working with XML for decades)"
+    },
+    "cid": "bafyreiehp6u4g72vsqfutgxj2r3j5e4tc5cdaq5azuc3qtifpxij3osxgm"
+  }
+}
