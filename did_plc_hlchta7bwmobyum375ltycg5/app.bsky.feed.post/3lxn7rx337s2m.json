@@ -1,0 +1,96 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756579076413640,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxn7rxqmvm2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxn7rx337s2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-30T18:37:55.491Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "⟩⚡PowerShell Emoji 😎😉😍🥰🤔😟. Contribute to StartAutomating/Emoji development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiheiuaqbyrzgkyafpir47op7stjry2tcm7hpikshxlhbpsaq36ucu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 150321
+          },
+          "title": "GitHub - StartAutomating/Emoji: ⟩⚡PowerShell Emoji 😎😉😍🥰🤔😟",
+          "uri": "https://GitHub.com/StartAutomating/Emoji"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 88,
+            "byteStart": 77
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Emoji"
+            }
+          ],
+          "index": {
+            "byteEnd": 99,
+            "byteStart": 93
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/StartAutomating/Emoji"
+            }
+          ],
+          "index": {
+            "byteEnd": 127,
+            "byteStart": 101
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 178,
+            "byteStart": 167
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiezmc45knhgpss6xueiz73gpuwtqlxo5brqgsx6otnxisk6c6movm",
+          "uri": "at://did:plc:2sd5k3t6333d5ndgozpqmi2e/app.bsky.feed.post/3lxm7tgx7vk2p"
+        },
+        "root": {
+          "cid": "bafyreiclyhdcbcllnwt2m7szkdhkcbrx6vw72czpacubqa6b2tuj632x6i",
+          "uri": "at://did:plc:2sd5k3t6333d5ndgozpqmi2e/app.bsky.feed.post/3lxm7q7wgtc2p"
+        }
+      },
+      "text": "Well, you asked...\n\nHere's how you make computers talking to each other thru #PowerShell and #Emoji\n\nGitHub.com/StartAutomat...\n\nPretty sure this module only works on #PowerShell core though.\n\nAlmost as sure this module is like 5 forms of a bad idea."
+    },
+    "cid": "bafyreigac3b3rgybzkror2ald3nuyxqllalbitgn4hqmnjulyx45jsn4ge"
+  }
+}
