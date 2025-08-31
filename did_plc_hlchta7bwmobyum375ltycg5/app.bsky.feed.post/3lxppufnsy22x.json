@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756665080423781,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxppueplxf2v",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxppufnsy22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-31T18:30:57.241Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreievf7o4iu72pdhfshn4s52rhc6jt4cdrwg7npeh5bzgabcxmdk2nm",
+          "uri": "at://did:plc:lkqxuuqmxt5xbqlbbcushjt6/app.bsky.feed.post/3lxplv4sv522v"
+        },
+        "root": {
+          "cid": "bafyreievf7o4iu72pdhfshn4s52rhc6jt4cdrwg7npeh5bzgabcxmdk2nm",
+          "uri": "at://did:plc:lkqxuuqmxt5xbqlbbcushjt6/app.bsky.feed.post/3lxplv4sv522v"
+        }
+      },
+      "text": "Honestly, both when something goes wrong / takes a while.  When it's short and sweet, just the output is fine."
+    },
+    "cid": "bafyreiepp2oqi265axpjgpn4touswgofbiihml5kwvqq7c5gtnv77xhseu"
+  }
+}
