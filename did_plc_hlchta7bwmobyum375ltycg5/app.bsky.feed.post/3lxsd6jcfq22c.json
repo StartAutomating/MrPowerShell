@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756754518220468,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxsd6k6lam2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxsd6jcfq22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-01T19:21:57.177Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibz73wgrtfbx5htxns5v5tpdifj4vlwfeucq5t5vtkfhjefh2emom",
+          "uri": "at://did:plc:54kh56oq3apqakeseblz4ruq/app.bsky.feed.post/3lxrteqfmnv22"
+        },
+        "root": {
+          "cid": "bafyreibz73wgrtfbx5htxns5v5tpdifj4vlwfeucq5t5vtkfhjefh2emom",
+          "uri": "at://did:plc:54kh56oq3apqakeseblz4ruq/app.bsky.feed.post/3lxrteqfmnv22"
+        }
+      },
+      "text": "I think this may be a great time to use Occam's razor...\n\nWhich is more likely?\n\nThat some individuals in a 220,000+ company care about accessibility?\n\nOr that 220,000+ people think exactly alike and march in lockstep?\n\nIMO, Microsoft is made up of real people, not imaginary villains."
+    },
+    "cid": "bafyreiggqkgdziw56z4csyo4xvo3apwnlyqkb6wklajvxvstsanl6pnbom"
+  }
+}
