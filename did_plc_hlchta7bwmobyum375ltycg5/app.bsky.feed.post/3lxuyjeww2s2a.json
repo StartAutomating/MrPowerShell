@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756846150178751,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxuyjf6wme2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxuyjeww2s2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-02T20:49:09.759Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib7fq4634ximqrdwdlehui2xt6khkpcyw3ygvgatw67yzhjkot3xe",
+          "uri": "at://did:plc:nhyitepp3u4u6fcfboegzcjw/app.bsky.feed.post/3lxu4maglok2z"
+        },
+        "root": {
+          "cid": "bafyreih2bdpqwc3lg2upoawzhnkhu4z5sfd5wlmpbvbed6oitmqwu263ei",
+          "uri": "at://did:plc:4hr6wshflvjydch6xlypl5c4/app.bsky.feed.post/3lxtqcfenis2e"
+        }
+      },
+      "text": "Citation wanted.\n\nPowerShell can be either strongly or weakly typed.  There may be some cmdlets that are too strongly typed, but the language has always supported both.  Most of the scripts I run across are weakly typed.  Sorry if most that you run across are overtyped."
+    },
+    "cid": "bafyreifw7g3ie32ew757y2xlso6cu6mb5qrh3nmblg4g62ofkhay2k6glq"
+  }
+}
