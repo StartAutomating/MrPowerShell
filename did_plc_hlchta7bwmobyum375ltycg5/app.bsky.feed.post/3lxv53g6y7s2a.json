@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756851051919104,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxv53gjp6x2v",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxv53g6y7s2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-02T22:10:50.02Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiebpt3fyforxmlndf5wy5g7xsdkg7kk3iepghqr3ljwxaxul3evdq",
+          "uri": "at://did:plc:nhyitepp3u4u6fcfboegzcjw/app.bsky.feed.post/3lxuzi73nik27"
+        },
+        "root": {
+          "cid": "bafyreih2bdpqwc3lg2upoawzhnkhu4z5sfd5wlmpbvbed6oitmqwu263ei",
+          "uri": "at://did:plc:4hr6wshflvjydch6xlypl5c4/app.bsky.feed.post/3lxtqcfenis2e"
+        }
+      },
+      "text": "Clarifying one more thing.\n\nBecause PowerShell is a cli and a language, you can mix/match PowerShell and, say, Python.\n\nSo it's not \n\n\"PowerShell or other language\"\n\nIt's\n\n\"PowerShell _and_ every other language\"\n\nIs the value proposition more clear now?"
+    },
+    "cid": "bafyreicgogagulejbvlkjcacoh7cii5n6rg5gv5nzfhsvdu5sk4vbpgvwa"
+  }
+}
