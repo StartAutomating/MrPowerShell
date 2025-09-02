@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756845959808050,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxuydpn6xu2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxuydogtas2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-02T20:45:58.391Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 64,
+            "byteStart": 53
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicqujy5tulhi4iygcnprt5jjimty7t3647anfqydmg7kx4vr7ovuu",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lxu3cfz2r227"
+        },
+        "root": {
+          "cid": "bafyreih2bdpqwc3lg2upoawzhnkhu4z5sfd5wlmpbvbed6oitmqwu263ei",
+          "uri": "at://did:plc:4hr6wshflvjydch6xlypl5c4/app.bsky.feed.post/3lxtqcfenis2e"
+        }
+      },
+      "text": "This opportunity was not missed, it was picked up by #PowerShell :-)\n\nGet-ChildItem -Filter *.svg | \n    Select-Xml -XPath //* |\n    Where-Object { $_.Node.Name -eq 'path' } |\n    Foreach-Object { $_.Node.D  }\n\n_Everything_ is an object in PowerShell, and the object pipeline is overpowered."
+    },
+    "cid": "bafyreieikxntimmck5xwkblcvulaqewfxlozuxbzb6cm5exwjja7cf66ze"
+  }
+}
