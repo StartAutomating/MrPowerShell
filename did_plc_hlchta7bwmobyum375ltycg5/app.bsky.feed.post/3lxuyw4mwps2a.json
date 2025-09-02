@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756846577873439,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxuyw53n5j2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxuyw4mwps2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-02T20:56:17.251Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 169,
+            "byteStart": 158
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihxzcjxfq5i2m4rg5knpgwwnwlr6kjsxucqbovwvd7cvjrxerpjpi",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lxu37kqbw227"
+        },
+        "root": {
+          "cid": "bafyreih2bdpqwc3lg2upoawzhnkhu4z5sfd5wlmpbvbed6oitmqwu263ei",
+          "uri": "at://did:plc:4hr6wshflvjydch6xlypl5c4/app.bsky.feed.post/3lxtqcfenis2e"
+        }
+      },
+      "text": "True!\n\nIt would be great if most people building cli apps had a --json and --xml tag (or at least one).  \n\nIt would cross-process communication much easier.\n\n#PowerShell pipelines already handle this, if the app supports it\n\ni.e.\n\ndocker images ls --format '{{json .}}' | ConvertFrom-Json"
+    },
+    "cid": "bafyreibaq4tca33yewbeu35g3d7ehuvsk3xwsmihnqssd32je4iwv6feoy"
+  }
+}
