@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756770836238003,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxsseua5bn2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxssesrupk2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-01T23:53:54.575Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif5aqxh6aoj4htpbif2sz54u3ym23i6wws6lt4mj73zuzmikp5gua",
+          "uri": "at://did:plc:3rgby3uaxkyykull6zax5ozb/app.bsky.feed.post/3lxspmiozwnt2"
+        },
+        "root": {
+          "cid": "bafyreidonq4s2bxr6v64hsqpkbd673mmoaqd4id47jibfs6pfe77yxl2cq",
+          "uri": "at://did:plc:3rgby3uaxkyykull6zax5ozb/app.bsky.feed.post/3lxsp47cp4at2"
+        }
+      },
+      "text": "I think the painful truth here is that complex types were rarely designed to be used interactively.\n\nSome developer thought that everyone would interact with their APIs thru UIs, and so didn't care enough about ease of use.\n\nHappens so often we have a phrase for it:\n\n\"The 30 year hole\""
+    },
+    "cid": "bafyreidm4athcojit7hmts2tiasrasxvx6owqyanfpatp4oyookuv6m3k4"
+  }
+}
