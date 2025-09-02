@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756845756039710,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxuy5ne7co24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxuy5mw76s2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-02T20:42:35.471Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 66,
+            "byteStart": 55
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibfuu6xhfgsrosiz5mdn5klgozpgbbfvkku3y3ztrxwzckqjsz6ga",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lxu6rm3jhk2b"
+        },
+        "root": {
+          "cid": "bafyreih2bdpqwc3lg2upoawzhnkhu4z5sfd5wlmpbvbed6oitmqwu263ei",
+          "uri": "at://did:plc:4hr6wshflvjydch6xlypl5c4/app.bsky.feed.post/3lxtqcfenis2e"
+        }
+      },
+      "text": "There *is* a sweet spot beyond \"stream of characters\"\n\n#PowerShell has an object pipeline - things are as structured as you want them and objects are easy to manipulate.\n\nGet the square root of a range of odd numbers:\n\n1..1kb | ? { $_ % 2 } | % { [Math]::Sqrt($_) }\n\nDon't knock it till you rock it."
+    },
+    "cid": "bafyreifh7tj6bnsrht73juzql5z3pve33cn57ljlxl6ybbpkdtifwf2fqm"
+  }
+}
