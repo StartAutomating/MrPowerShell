@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756938066928134,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxxo4prlfl2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxxo4pegoc2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-03T22:21:06.277Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibjiaj2c5y7spldij32sh6lqh37uwpftqfw64xvfugrx5lbwdnb5i",
+          "uri": "at://did:plc:vhnfl7xl452tli2pzoqsxiu4/app.bsky.feed.post/3lxxloiet422t"
+        },
+        "root": {
+          "cid": "bafyreifjuc4fp5omxmnj73536rxxapxxqawperdpj7ovjrce3dmuhb4odm",
+          "uri": "at://did:plc:y5ziidtxv6yvci7b7tvei3ea/app.bsky.feed.post/3lxwxm5hjpc2s"
+        }
+      },
+      "text": "Thanks for clarifying.  \n\nBottom line is this a very annoying social engineering vector.\n\n\"Run this script to prove you're human\" is basically 2025's \n\"Drop USB sticks outside of a target\"\n\n(except companies can't exactly glue ports shut)"
+    },
+    "cid": "bafyreigt7dxikau5zibhfqya4nmjowzvi2xdrstyzjdzbdsspxutjmkqqe"
+  }
+}
