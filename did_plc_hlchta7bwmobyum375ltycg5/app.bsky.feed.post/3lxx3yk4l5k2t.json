@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756918599491633,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxx3yk6qkv2v",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxx3yk4l5k2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-03T16:56:39.206Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif4s7cx3emmjihtlejbx6mb7cp4aqsvi6cz7byo5pglgunrsc7bie",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lxx3i56f5s2s"
+        },
+        "root": {
+          "cid": "bafyreih2bdpqwc3lg2upoawzhnkhu4z5sfd5wlmpbvbed6oitmqwu263ei",
+          "uri": "at://did:plc:4hr6wshflvjydch6xlypl5c4/app.bsky.feed.post/3lxtqcfenis2e"
+        }
+      },
+      "text": "Hmm.\n\nI suppose one way to think of it would be in terms of a \"automatic\" y-combinator.\n\n& $myinvocation.MyCommand.ScriptBlock # brief anonymous recursion example.\n\nLet's me build a recursive lambda without ever saving it to a variable.\n\n( $myInvocation is an automatic variable )"
+    },
+    "cid": "bafyreiazcfsoyxirgf3j6lvi4ifya2mty2ff7zdeo3yhmmo34moehqk5qu"
+  }
+}
