@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756868611147056,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxvngrmy3424",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxvngr7aqk2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-03T03:03:30.53Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Python"
+            }
+          ],
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 25
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 40,
+            "byteStart": 33
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Graphics"
+            }
+          ],
+          "index": {
+            "byteEnd": 50,
+            "byteStart": 41
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihwcnwgnevd3ka2vhtiuextoxaaq3q6yjmg2m5x7gjqfai5jeowq4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lxvnbhxwpc2w"
+        },
+        "root": {
+          "cid": "bafyreih2bdpqwc3lg2upoawzhnkhu4z5sfd5wlmpbvbed6oitmqwu263ei",
+          "uri": "at://did:plc:4hr6wshflvjydch6xlypl5c4/app.bsky.feed.post/3lxtqcfenis2e"
+        }
+      },
+      "text": "This may be younger than #Python #Turtle #Graphics, but it can already do many things that Python will not do out of the box.\n\nThe syntax will almost always be shorter (and care less about spacing)\n\nWhy?\n\nBecause PowerShell is a highly extensible language with very flexible syntax."
+    },
+    "cid": "bafyreic3mw3eqjverm4g2uh67fi76363p23uc2r4mjjn3srxoxnynwezqm"
+  }
+}
