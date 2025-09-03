@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756917283473482,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxx2rd6s6s26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxx2rd3wjk2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-03T16:34:43.221Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia5n4hfsvnmgabj4maxc74b6vlm5my3sp7h7ghoatby6gkiywij34",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lxx2dplbuk2s"
+        },
+        "root": {
+          "cid": "bafyreih2bdpqwc3lg2upoawzhnkhu4z5sfd5wlmpbvbed6oitmqwu263ei",
+          "uri": "at://did:plc:4hr6wshflvjydch6xlypl5c4/app.bsky.feed.post/3lxtqcfenis2e"
+        }
+      },
+      "text": "Happy to hear them, especially since I basically built this variation of Turtle to teach, inspire, and peel back layers of the universe.\n\n( Also, in case this isn't clear, if you work on a language you end up a language nerd )\n\nPlease share your opinions, I'm eager to hear them."
+    },
+    "cid": "bafyreidi774d6qnia6el3udsv7ueaso2qptavhkkl4txqf2qe4vn57bfuq"
+  }
+}
