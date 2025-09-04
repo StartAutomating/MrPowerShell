@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757009511207056,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxzqnwcsyo2j",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxzqnvyh4k2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-04T18:11:50.611Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidqql7w6wzsnvofhjfc5babtowtazaoqq2qci5z6lhxfylpyclqim",
+          "uri": "at://did:plc:x5yvecq27wcdvf5qxdi4ru25/app.bsky.feed.post/3lxzptgz7fs2o"
+        },
+        "root": {
+          "cid": "bafyreifqa46cok4i5z7ap6xevo5diojahcqs2qy3swf2lk52bkgnvkibpi",
+          "uri": "at://did:plc:x5yvecq27wcdvf5qxdi4ru25/app.bsky.feed.post/3lxy7nza2w22c"
+        }
+      },
+      "text": "Thanks!  It's still a (very fun) work in progress, but the goal is to have a damn good visualizer that's fairly easy to drop in / out of a project.\n\nAlong the way I've realized the Web Audio APIs are good enough to build a sampler.  Might try that next."
+    },
+    "cid": "bafyreidrhaklysh63zmsi7waqpnnenf5wljxkyh24eecauxfkfsxhwxjwi"
+  }
+}
