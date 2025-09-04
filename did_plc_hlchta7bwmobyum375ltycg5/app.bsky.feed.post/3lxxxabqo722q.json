@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756947850517167,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxxxac62xt2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxxxabqo722q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-04T01:04:09.892Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifcd4blxwzvt3dqzarija4u7hordsiebwqqgaef7wehf44z63ekpq",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lxxv2wgi622k"
+        },
+        "root": {
+          "cid": "bafyreih2bdpqwc3lg2upoawzhnkhu4z5sfd5wlmpbvbed6oitmqwu263ei",
+          "uri": "at://did:plc:4hr6wshflvjydch6xlypl5c4/app.bsky.feed.post/3lxtqcfenis2e"
+        }
+      },
+      "text": "I am afraid I'm not familiar with that acronym.  Do you mean \"pure languages\"?  \n\nBecause PowerShell is many things, but pure is not one of them (and I like this about it)"
+    },
+    "cid": "bafyreihpxvk3ycyvomwt7hg72hor2thryuqqhgbyh46smw2q7trlox3yke"
+  }
+}
