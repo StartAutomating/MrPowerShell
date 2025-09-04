@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756945194310730,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxxur4c7gd2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxxur3a3jc2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-04T00:19:52.257Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Gist get me primes. GitHub Gist: instantly share code, notes, and snippets.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieqhtgl35ueb6u4djc2czpaleughc5jms6rfrsnzl2uraxhbjw3za"
+            },
+            "mimeType": "image/jpeg",
+            "size": 121877
+          },
+          "title": "Gist get me primes",
+          "uri": "https://gist.github.com/StartAutomating/8d2bbedbfd371ff70e076d8260a08d4b"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://gist.github.com/StartAutomating/8d2bbedbfd371ff70e076d8260a08d4b"
+            }
+          ],
+          "index": {
+            "byteEnd": 205,
+            "byteStart": 174
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicorvvca5znnmh3azgfwbuczc75koncwhzol36oa5w3qttgmw6gya",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lxxuee2k7c22"
+        },
+        "root": {
+          "cid": "bafyreih2bdpqwc3lg2upoawzhnkhu4z5sfd5wlmpbvbed6oitmqwu263ei",
+          "uri": "at://did:plc:4hr6wshflvjydch6xlypl5c4/app.bsky.feed.post/3lxtqcfenis2e"
+        }
+      },
+      "text": "While on this topic, you might also enjoy this brief Prime Number generator.\n\nThis makes use of different variable scopes in PowerShell to perform the Sieve of Eratosthenes\n\ngist.github.com/StartAutomat..."
+    },
+    "cid": "bafyreiein6lm65h6pkbqpialbxfc3cpydip5dvf2wmr67bvtcs7os7cbku"
+  }
+}
