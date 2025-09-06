@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757123325702505,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ly52nue76e2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ly52nttye227",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-06T01:48:45Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiet4xusc2ndx7m6klmbyio7jb2hqcpgufoyaweif6xenoctyndmoi",
+          "uri": "at://did:plc:a3yierchgwp2lvyontsragui/app.bsky.feed.post/3ly4zmxaxvs2y"
+        },
+        "root": {
+          "cid": "bafyreihmudqvngqvgyvw2yjxllw2c3b5wv63ttefnxfjh44zirhnsxyfa4",
+          "uri": "at://did:plc:a3yierchgwp2lvyontsragui/app.bsky.feed.post/3ly4vglwwtk25"
+        }
+      },
+      "text": "🤷 I know ffmpeg does, and there are a few scenarios it might already handle gracefully.\n\nI also know that some of the powershell core byte stream stuff was geared towards ffmpeg scenarios.\n\nFor anything else, there's always a PR :-)\n\nTell me more..."
+    },
+    "cid": "bafyreicuhmjivwb6trkrzpes4kjdtlvo5mwf3kjddz273nrzfdrfvyg4ly"
+  }
+}
