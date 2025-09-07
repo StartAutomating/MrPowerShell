@@ -1,0 +1,80 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757287287209377,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lybtecaekf2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lybtebyk2227",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-07T23:21:26.785Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Science"
+            }
+          ],
+          "index": {
+            "byteEnd": 135,
+            "byteStart": 127
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Math"
+            }
+          ],
+          "index": {
+            "byteEnd": 144,
+            "byteStart": 139
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Programming"
+            }
+          ],
+          "index": {
+            "byteEnd": 168,
+            "byteStart": 156
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 212,
+            "byteStart": 201
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicdktom3ngwo6muvtqgn3vstkkdbeutdhgh5trlvln44v2m6hf5wq",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lybsij2ep223"
+        },
+        "root": {
+          "cid": "bafyreic6mnswdlpyabsyccnn4adhgy6z5v3ghp4k6zypyrg5d6cvs3ti2a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lybeqnt4hs26"
+        }
+      },
+      "text": "In the spirit of this, please help me correct his misconception in the academic / STEM community.\n\nI'm happy to help anyone in #Science or #Math that hates #Programming.\n\nThey just might have to learn #PowerShell along the way 😀"
+    },
+    "cid": "bafyreifpqm7r3voyutxhzkjd5crv6iourofi7zuvr3rmhqup37364us4pi"
+  }
+}
