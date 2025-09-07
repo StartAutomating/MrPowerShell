@@ -1,0 +1,171 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757283109333397,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lybphqskxd2x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lybphlbxmk27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-07T22:11:42.223Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "Generation 1",
+            "aspectRatio": {
+              "height": 294,
+              "width": 294
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreicbdhvm6vgoe6xgqctkvyq3johyldm6gfvhj7s25lhg5zwah67a2a"
+              },
+              "mimeType": "image/jpeg",
+              "size": 11086
+            }
+          },
+          {
+            "alt": "Generation 2",
+            "aspectRatio": {
+              "height": 462,
+              "width": 462
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihqymfr3r534mtc2pkbaly6jo54bvgnddv7sxw7mt4bipjwvrlrmu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 35917
+            }
+          },
+          {
+            "alt": "Generation 3",
+            "aspectRatio": {
+              "height": 882,
+              "width": 882
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibjhjusobq27htoqctp6c2fkqcr5vxzqkm6jga6i5qkrwfkkbxine"
+              },
+              "mimeType": "image/jpeg",
+              "size": 135183
+            }
+          },
+          {
+            "alt": "Generation 4",
+            "aspectRatio": {
+              "height": 1134,
+              "width": 1134
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreid4q5yamlbysh4lzggg46viznidmcrwoh4gdzert5pzdkwr5fob3m"
+              },
+              "mimeType": "image/jpeg",
+              "size": 254591
+            }
+          }
+        ]
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "LSystem"
+            }
+          ],
+          "index": {
+            "byteEnd": 35,
+            "byteStart": 27
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SpaceInvaders"
+            }
+          ],
+          "index": {
+            "byteEnd": 90,
+            "byteStart": 76
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 99,
+            "byteStart": 92
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Graphics"
+            }
+          ],
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 100
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 161,
+            "byteStart": 150
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 220,
+            "byteStart": 213
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://psturtle.com/"
+            }
+          ],
+          "index": {
+            "byteEnd": 270,
+            "byteStart": 258
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I think I stumbled upon an #LSystem used to create some of the creatures in #SpaceInvaders\n\n#Turtle #Graphics continue to be a beautifully fun use of #PowerShell\n\nShould I add this LSystem to an upcoming build of #Turtle ?\n\nWhat shapes do you want to draw?\n\npsturtle.com"
+    },
+    "cid": "bafyreigywdgsqjidizwggck4ecmzbh2wuda32xujh7lsolt3dfzvs5ok2i"
+  }
+}
