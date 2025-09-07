@@ -1,0 +1,54 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757271596090543,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lybeqnz5wk2t",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lybeqnt4hs26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-07T18:59:55.711Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreiamuuianz33v4m7sl27e34om2xvkbge2m7vz5q6wqhwyz4amxkt2u",
+          "uri": "at://did:plc:kxu57hzs7hkqinozalbd3tma/app.bsky.feed.post/3lya2wn6fqj2y"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:ucjqs5d4mfb2bii7ta7cpur2"
+            }
+          ],
+          "index": {
+            "byteEnd": 20,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/u24usa.bsky.social/post/3lya2wn6fqj2y"
+            }
+          ],
+          "index": {
+            "byteEnd": 122,
+            "byteStart": 98
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "@shriram.bsky.social looks like your little anonymous recursion example is getting aggregated...\n\nbsky.app/profile/u24u...\n\nCongrats ( I think )"
+    },
+    "cid": "bafyreic6mnswdlpyabsyccnn4adhgy6z5v3ghp4k6zypyrg5d6cvs3ti2a"
+  }
+}
