@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757351365907209,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lydozyhdyd2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lydozzxyws2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-08T17:09:27.344Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihpqso5ssysjnqj3afod2seefmdknqrfbc2fphveuk4t3jsbemmza",
+          "uri": "at://did:plc:idi75z5g5lmqrtyswrnhfubo/app.bsky.feed.post/3lydipsfs7s2f"
+        },
+        "root": {
+          "cid": "bafyreifobakntig4whxp7n7xvwqeims3cp24ljp5iigvp654dujnvo3gp4",
+          "uri": "at://did:plc:a3ul5q5rkrk4im4sesowx4b3/app.bsky.feed.post/3lyc7mlwe7i2h"
+        }
+      },
+      "text": "To be fair, one word became \"potato\".  Wasn't really asking for an apology as much as ensuring any uptick linked back to the source.\n\nBots gonna bot."
+    },
+    "cid": "bafyreiccnfw6jx2xg34eisnzluuukrnlkhhjazb4aibmseg2ktjgfae63m"
+  }
+}
