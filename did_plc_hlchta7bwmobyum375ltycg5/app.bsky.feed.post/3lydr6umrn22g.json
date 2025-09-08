@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757353689565915,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lydr6szfqa2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lydr6umrn22g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-08T17:47:56.988Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicnvuqknxwgbvu7mf2gv2ywxnmtuas2vttzskumprye67phgc42qy",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lydqmdck2s2r"
+        },
+        "root": {
+          "cid": "bafyreic6mnswdlpyabsyccnn4adhgy6z5v3ghp4k6zypyrg5d6cvs3ti2a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lybeqnt4hs26"
+        }
+      },
+      "text": "I'll try.\n\nAnd PowerShell does work quite fine as an interactive calculator.\n\nMaybe this bit of its AST will make things clear:\n\n{1+1+2+1}.Ast.FindAll({$true}, $true)\n\nThat's showing you a calculator, an ast, and strongly typed lamba coercion in one line.\n\nHow many other langs can do that ?"
+    },
+    "cid": "bafyreifdck3353eafrfj4i7ntqemh65f5bbqegugiz5fbcpfalwowrvj2m"
+  }
+}
