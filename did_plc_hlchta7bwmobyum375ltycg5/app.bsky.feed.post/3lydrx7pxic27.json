@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757354492461760,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lydrx656ae2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lydrx7pxic27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-08T18:01:33.934Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiby7mmipfmpyhgdsar2fmytrvpefpkbcnheazwt3scq26kn337nqe",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lydrfa3bl22r"
+        },
+        "root": {
+          "cid": "bafyreic6mnswdlpyabsyccnn4adhgy6z5v3ghp4k6zypyrg5d6cvs3ti2a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lybeqnt4hs26"
+        }
+      },
+      "text": "Here's the thing:\n\nIn practice, there are really only about a dozen popular languages in the industry.\n\nNearly everyone in the industry has to learn them on the job, because nearly every university uses a \"teaching\" language that isn't used in industry.\n\nThis mismatch has persisted for decades."
+    },
+    "cid": "bafyreif6rcxwkvrodaey3era3i67qbixt55ujswovwnedyrklucplbjf6a"
+  }
+}
