@@ -1,0 +1,51 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757373307366409,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyedhs3ukp2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyedhrtpd227",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-08T23:15:03.413Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreicdyuh22ni6netbrra25uu4ea3rllevs53u22b7y446kmrwnktzom",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lyedggx6gc25"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/mrpowershell.com/post/3lyedggx6gc25"
+            }
+          ],
+          "index": {
+            "byteEnd": 289,
+            "byteStart": 265
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicloqvcaera2yegvqd6ggz3rqhieiikgvyjbpnzmfelakn5fmb5ue",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lye4j6fvrc2n"
+        },
+        "root": {
+          "cid": "bafyreic6mnswdlpyabsyccnn4adhgy6z5v3ghp4k6zypyrg5d6cvs3ti2a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lybeqnt4hs26"
+        }
+      },
+      "text": "Thanks for the textbook pointers, and please understand that you're using vernacular the professional world does not.\n\nWe don't call any \"Programming Language\" a PL.\n\nAnd we don't say \"type soundness\", we say \"type safety\".\n\nAnd here you go, checking type safety.\n\nbsky.app/profile/mrpo..."
+    },
+    "cid": "bafyreicv3lohhyuoll5mgzclpg3vzndjeznaznbtpi3sx4o3za34u6srzy"
+  }
+}
