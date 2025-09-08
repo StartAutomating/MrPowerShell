@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757374397364298,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyeeievtkn2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyeeidn65k27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-08T23:33:15.815Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibp3m6pfdps3hd7t5lmbdmd3x3fzzvorptbqabuywyzxljfzfpu6q",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lyeebhlyrc2l"
+        },
+        "root": {
+          "cid": "bafyreic6mnswdlpyabsyccnn4adhgy6z5v3ghp4k6zypyrg5d6cvs3ti2a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lybeqnt4hs26"
+        }
+      },
+      "text": "I looked up each of the terms and took a stab at an answer.  If you feel this was an inaccurate stab, refine my understanding.\n\nRespect that you're dealing with someone intelligent enough to walk up to unfamiliar problems and quickly code them out.\n\nThat skill serves any who have it well."
+    },
+    "cid": "bafyreibal5x6tmyifw5m4tuuhio5bvy4uh7wixtewattnzk3253scv7tii"
+  }
+}
