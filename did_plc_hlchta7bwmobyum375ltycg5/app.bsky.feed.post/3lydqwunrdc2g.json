@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757353407812880,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lydqwtpium2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lydqwunrdc2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-08T17:43:28.585Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihsktddsl5qkgpubz674c5f3fxwimvws5jxlirlw4xfir6sc23xni",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lydqjk53jc2r"
+        },
+        "root": {
+          "cid": "bafyreic6mnswdlpyabsyccnn4adhgy6z5v3ghp4k6zypyrg5d6cvs3ti2a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lybeqnt4hs26"
+        }
+      },
+      "text": "Sure, and:\n\n1. It's used in industry and not understood by academia enough to teach, and this is a problem to solve with real world impacts ( especially on cyber security )\n\n2. It is a statement of opinion, not fact.\n\n3. Search Engine Optimization is not in a language's wheelhouse."
+    },
+    "cid": "bafyreicfjkt2xucihnyomjv43jshcjvhnb6xqp4s3m3jckuh6ymqzxi57e"
+  }
+}
