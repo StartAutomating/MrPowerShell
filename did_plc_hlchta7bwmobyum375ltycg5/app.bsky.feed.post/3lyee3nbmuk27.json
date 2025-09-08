@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757373970343123,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyee3npuxt2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyee3nbmuk27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-08T23:26:09.715Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic3tpa7atp6isswwtpinyhalky7drlrz2tc2kywjdqfdcjeyy4opu",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lyedq7ojrk2l"
+        },
+        "root": {
+          "cid": "bafyreic6mnswdlpyabsyccnn4adhgy6z5v3ghp4k6zypyrg5d6cvs3ti2a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lybeqnt4hs26"
+        }
+      },
+      "text": "This once again veers into the personal.\n\nI would ask you to ask any 10 professionals.  Any hundred.  Any thousand.  Pick your sample size.\n\nThe teething issues from academia to industry are well-known, and largely revolve around practical applicability.\n\nPlease help your field do better."
+    },
+    "cid": "bafyreibcv55viipnzrui2u3q3prcp7vewdzzx7ixbvjrh554mlnw2dl6w4"
+  }
+}
