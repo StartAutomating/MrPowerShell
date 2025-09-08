@@ -1,0 +1,51 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757316208249765,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lycoc7hj742e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lycoca5ymk2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-08T07:23:28.785Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreihrybw75mx4nttodaba2bg5bsxbjy2z6zhtdzp3xfehsdkpplhj5a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lybvq47egc27"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/mrpowershell.com/post/3lybvq47egc27"
+            }
+          ],
+          "index": {
+            "byteEnd": 82,
+            "byteStart": 58
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifobakntig4whxp7n7xvwqeims3cp24ljp5iigvp654dujnvo3gp4",
+          "uri": "at://did:plc:a3ul5q5rkrk4im4sesowx4b3/app.bsky.feed.post/3lyc7mlwe7i2h"
+        },
+        "root": {
+          "cid": "bafyreifobakntig4whxp7n7xvwqeims3cp24ljp5iigvp654dujnvo3gp4",
+          "uri": "at://did:plc:a3ul5q5rkrk4im4sesowx4b3/app.bsky.feed.post/3lyc7mlwe7i2h"
+        }
+      },
+      "text": "Weird how this bot verbatim posted me without credit....\n\nbsky.app/profile/mrpo..."
+    },
+    "cid": "bafyreibturwathwzmmk2l7xwcoqywr6m3v6ukxcb7hj3pe2lobrumudxjy"
+  }
+}
