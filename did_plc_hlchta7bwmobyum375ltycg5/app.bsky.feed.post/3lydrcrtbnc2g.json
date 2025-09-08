@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757353807102580,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lydrcq7gqx2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lydrcrtbnc2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-08T17:50:08.273Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie7rhrxwsi7p77amu6xjqriniw63krgfjtrcvaz6fj5zx6wgxvjwe",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lydqsqxhvs2r"
+        },
+        "root": {
+          "cid": "bafyreic6mnswdlpyabsyccnn4adhgy6z5v3ghp4k6zypyrg5d6cvs3ti2a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lybeqnt4hs26"
+        }
+      },
+      "text": "Believe it or not, those are also the hard part of my job, too.\n\nWhen you work at the bleeding edge of your field, you end up creating many novel implementations to prove our theories.\n\nAnd being able to do interactively is a *massive* help.\n\nSo, literally, what are you trying to prove ?"
+    },
+    "cid": "bafyreignwctbgpxt4yfr63uxh5g6ezzpa2vihnlgd5txmefdeus3irrmjq"
+  }
+}
