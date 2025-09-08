@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757352574837851,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lydq5zedaf2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lydq62cu2k2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-08T17:29:35.659Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiba4romrblv4tsisyjitvuzxgozhqsexu4kvbkr5i6ugotnardbo4",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lyc6tiiwhc2h"
+        },
+        "root": {
+          "cid": "bafyreic6mnswdlpyabsyccnn4adhgy6z5v3ghp4k6zypyrg5d6cvs3ti2a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lybeqnt4hs26"
+        }
+      },
+      "text": "Two facets of response here:\n\n1. I feel this is phrased dismissively, as we have both spent more than a half an hour here (and you have been learning).\n\n2. I am not your students.  I am an industry veteran with 20+ of real world experience.  I am trying to help bring that experience to academia."
+    },
+    "cid": "bafyreifxrd7bhnmaly7ntl4vioku2vn7pzhiyfzgetrn7igvgjrhes4f4e"
+  }
+}
