@@ -1,0 +1,146 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757388523861332,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyerndxpup2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyernb26ys2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-09T03:28:39.511Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "The CHANGELOG for Turtle",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiejrp3tc4ahq3ikgs6pkffzzroxpyfj2znv755g2azw2ztpvas2ji"
+            },
+            "mimeType": "image/jpeg",
+            "size": 991965
+          },
+          "title": "CHANGELOG",
+          "uri": "https://psturtle.com/CHANGELOG"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 25
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 44,
+            "byteStart": 33
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TurtlesAllTheWayDown"
+            }
+          ],
+          "index": {
+            "byteEnd": 185,
+            "byteStart": 164
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TurtlePower"
+            }
+          ],
+          "index": {
+            "byteEnd": 208,
+            "byteStart": 196
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 213,
+            "byteStart": 209
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Fractal"
+            }
+          ],
+          "index": {
+            "byteEnd": 259,
+            "byteStart": 251
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Math"
+            }
+          ],
+          "index": {
+            "byteEnd": 265,
+            "byteStart": 260
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Art"
+            }
+          ],
+          "index": {
+            "byteEnd": 270,
+            "byteStart": 266
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://psturtle.com/Commands/Get-Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 302,
+            "byteStart": 274
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Hey there: there's a new #Turtle #PowerShell build for you to try.\n\nIt lets a turtle contain turtles,\nwhich can contain turtles,\nwhich can contain turtles...\n\nIt's #TurtlesAllTheWayDown 😉😎\n\n#TurtlePower #SVG\n\nCheck out all the cool examples and #Fractal #Math #Art :\n\npsturtle.com/Commands/Get..."
+    },
+    "cid": "bafyreiaxb6w2uypcesenmyfncxqbtlcpgf2z2ivdwlskv4cjaswo53hx7q"
+  }
+}
