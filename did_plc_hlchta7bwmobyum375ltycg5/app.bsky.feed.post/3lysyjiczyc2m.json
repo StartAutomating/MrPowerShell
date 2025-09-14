@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757876945197670,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lysyjh65z42l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lysyjiczyc2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-14T19:09:05.453Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibymbbhkt5kg3hvwyh3zrbnmbbnsfn7impu6n4jdmhshlmmumnlvi",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3lysfjuti422l"
+        },
+        "root": {
+          "cid": "bafyreihi5ffoth65jlk7tb3zealysq2qnx3vlalcgxxpzgworevp4dmlhi",
+          "uri": "at://did:plc:qsz5r534rzjzuup63bsmm4sj/app.bsky.feed.post/3lypvtdsyuc27"
+        }
+      },
+      "text": "You can also shorten most .NET types by omitting the system namespace:\n\n~~~PowerShell\n[Math] | Get-Member -Static\n~~~\n\nAnd most commands and parameters have aliases.\n\n~~~PowerShell\n[Math] | gm -sta\n~~~"
+    },
+    "cid": "bafyreifpwztgho2ak56bqj4o7s5xrp7ogabab26orfz2rgh7wo6ixfgtwy"
+  }
+}
