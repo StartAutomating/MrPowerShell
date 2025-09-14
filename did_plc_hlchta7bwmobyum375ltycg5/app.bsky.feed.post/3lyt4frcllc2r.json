@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757881116027739,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyt4frmhjh2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyt4frcllc2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-14T20:18:35.626Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiep6ctx2lpkwoswy4ajjleg3hr7lninfj6urxufphdbermmalnpku",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3lyt3xogmbc2g"
+        },
+        "root": {
+          "cid": "bafyreihi5ffoth65jlk7tb3zealysq2qnx3vlalcgxxpzgworevp4dmlhi",
+          "uri": "at://did:plc:qsz5r534rzjzuup63bsmm4sj/app.bsky.feed.post/3lypvtdsyuc27"
+        }
+      },
+      "text": "Me too!  Question is, how long will I take to pick this low-hanging fruit? \n\nI'll have to regen the module key before I publish and switch out the container stuff; these are the factors increasing laziness."
+    },
+    "cid": "bafyreigds6pjd2uw6ss4vovnzi2fwddhs4tibxks2ksvz7asl3ylxb4oka"
+  }
+}
