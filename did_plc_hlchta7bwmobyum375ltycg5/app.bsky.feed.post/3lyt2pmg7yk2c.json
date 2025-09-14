@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757879300965065,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyt2pnqrts23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyt2pmg7yk2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-14T19:48:18.563Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "⟩⚡PowerShell Emoji 😎😉😍🥰🤔😟. Contribute to StartAutomating/Emoji development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihqm4slc7m4pzhbbgl3kmuos3uelyjy4this6pz3a7gj5hutjr7my"
+            },
+            "mimeType": "image/jpeg",
+            "size": 232549
+          },
+          "title": "GitHub - StartAutomating/Emoji: ⟩⚡PowerShell Emoji 😎😉😍🥰🤔😟",
+          "uri": "https://github.com/StartAutomating/Emoji"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/Emoji"
+            }
+          ],
+          "index": {
+            "byteEnd": 91,
+            "byteStart": 65
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiehzfkou2p6dubjt5ll5apmztpozovgxafsvwxlu2i6qo2f5htrla",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3lyt2kw6yws2g"
+        },
+        "root": {
+          "cid": "bafyreihi5ffoth65jlk7tb3zealysq2qnx3vlalcgxxpzgworevp4dmlhi",
+          "uri": "at://did:plc:qsz5r534rzjzuup63bsmm4sj/app.bsky.feed.post/3lypvtdsyuc27"
+        }
+      },
+      "text": "Lol, didn't drop that gem yet, but now that I've been prompted:\n\ngithub.com/StartAutomat...\n\nIts a little Emoji proof of concept module.  Lets you search and find emoji, get it in various forms, and assign commands to an emoji."
+    },
+    "cid": "bafyreih3jjgr32fuse46swbkac5gyjyxz57kg3drfjueiftdcdud464mv4"
+  }
+}
