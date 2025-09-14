@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757875748759690,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lysxfswepl2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lysxfuncqc2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-14T18:49:10.413Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifbbcwo7mnusp5r4jc4lfmw6mfm64n2l2fqvhyyj2xud5wx2l4nje",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3lyserrfezk23"
+        },
+        "root": {
+          "cid": "bafyreid3fvrtgorrl7v6s65how34i3u7x3zze55ryxojvwior773umxdl4",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3lyqn5jnbjs2c"
+        }
+      },
+      "text": "Fair and good.\n\nI don't think I like \"surprise\" dependencies, even ones as cool as PwshSpectreConsole.\n\nI will admit I am unusually \"anti-hard dependency\" in module design.\n\nWould rather something gets better when combined with another module than not work at all."
+    },
+    "cid": "bafyreihis5vxnfc57pbe7k5g7ptkmtrgadqmpuaq2zstkuxk6fkpd2scze"
+  }
+}
