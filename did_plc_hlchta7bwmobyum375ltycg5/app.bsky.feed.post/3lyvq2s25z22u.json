@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757970941934370,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyvq2rmw3l2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyvq2s25z22u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-15T21:15:41.612Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "YouTube video by EverDownward",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreih7aeeg4jd3puxfei6ztg4sqjli5lxa6bw7fr42wyrqhr2mgzzika"
+            },
+            "mimeType": "image/jpeg",
+            "size": 30305
+          },
+          "title": "The Day The World Went Away (Quiet)",
+          "uri": "https://youtu.be/gWDnbyiMhaU?si=SB1QccgkR3tZuxk5"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://youtu.be/gWDnbyiMhaU?si=SB1QccgkR3tZuxk5"
+            }
+          ],
+          "index": {
+            "byteEnd": 290,
+            "byteStart": 266
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiczc6shctrhctuee5a7vrc5qr6sfvtqujpfrnluysntgwkqovbvha",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lyvpht66kk2u"
+        },
+        "root": {
+          "cid": "bafyreiczc6shctrhctuee5a7vrc5qr6sfvtqujpfrnluysntgwkqovbvha",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lyvpht66kk2u"
+        }
+      },
+      "text": "Went back for a third helping of reproducing this bug.\n\nPlayed some tunes.\n\nOpened up VSCode.\n\nCopied a font into \"$home/.local/share/fonts\"\n\nSee box deadlock.\n\nHear music stop.\n\nShut up and reboot.\n\nThe tune was \"The Day the World Went Away (quiet)\"\n\nThat tracks.\n\nyoutu.be/gWDnbyiMhaU?..."
+    },
+    "cid": "bafyreibqwad6pfpnx6zve55jchq6tbljr64ile7jqactu3farl5f3s46iy"
+  }
+}
