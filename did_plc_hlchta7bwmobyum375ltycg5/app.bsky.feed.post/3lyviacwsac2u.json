@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757962537108512,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyviacptbc2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyviacwsac2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-15T18:55:37.166Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibioyzemfksqjhmsqgeidph6ng5rfsjznkcpvleaeudrq7h47igqa",
+          "uri": "at://did:plc:bgkll6a47vtbmsvjhfkovcr2/app.bsky.feed.post/3lytvf5dygc2z"
+        },
+        "root": {
+          "cid": "bafyreibioyzemfksqjhmsqgeidph6ng5rfsjznkcpvleaeudrq7h47igqa",
+          "uri": "at://did:plc:bgkll6a47vtbmsvjhfkovcr2/app.bsky.feed.post/3lytvf5dygc2z"
+        }
+      },
+      "text": "Honestly, this is a great way to start to find your calling in computers, as long as you don't do anything too harmful.\n\nThis is part of how I ended up doing IT work for my high schools and college.\n\nFind their flaws, report em, don't be a douche, get a gig."
+    },
+    "cid": "bafyreieqe56sowvbwox4mife3jz3ceglthebxdl3aaqylflhx4urgbcsyi"
+  }
+}
