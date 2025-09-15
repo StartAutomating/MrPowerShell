@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757963605220340,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyvja5fqy32t",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyvja5q7e22u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-15T19:13:25.449Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibqbfmil2xmpqnms5pcgdkmvcc4p42o7hgj7hwvgcpsavcyr4ksua",
+          "uri": "at://did:plc:nbhqozlybqqmxax3vdawb4lf/app.bsky.feed.post/3lyviurirps2d"
+        },
+        "root": {
+          "cid": "bafyreiclvflqsky54i453ugtmkifwodyod4pkpbx52ttgc5gt6adlw3bhe",
+          "uri": "at://did:plc:nbhqozlybqqmxax3vdawb4lf/app.bsky.feed.post/3lyvgtyrd7c2e"
+        }
+      },
+      "text": "PowerShell already takes JSON as input ( just ConvertFrom-Json and pipe into a command ).\n\nWriting languages is quite hard, and, honestly, not that commercially viable.\n\nIf you want to learn how, be ready to listen and be ready to get it wrong.\n\nHappy to help ( just not into rabbit hole)"
+    },
+    "cid": "bafyreifvys7k43zfq3mnlhaeydtr76uik4iezoxu7atcv2tlh4bqxq4xri"
+  }
+}
