@@ -29,6 +29,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@main
@@ -45,8 +47,6 @@ jobs:
         with:
           # Upload the contents of the ./MrPowerShell.com directory to the GitHub Pages artifact
           path: './MrPowerShell.com/'          
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@main
