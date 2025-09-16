@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757896551217663,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lytkrrq7o42t",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lytkrtbkis2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-15T00:35:52.728Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 35,
+            "byteStart": 24
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaogd7d3h6sdoj3jqsbgcc5xzrnw6fotwzflqznzczl5rbi2vskea",
+          "uri": "at://did:plc:rdpeo7yy4nw5rog42ciffnab/app.bsky.feed.post/3lyt2w2edrs27"
+        },
+        "root": {
+          "cid": "bafyreiflt46rms77jogovcelm7mm7nxahzpz2hqajd4zgpwqurzx4shekq",
+          "uri": "at://did:plc:qx7in36j344d7qqpebfiqtew/app.bsky.feed.post/3lysvtojxek2v"
+        }
+      },
+      "text": "Yeah, we can do that in #PowerShell, too.\n\n( Almost ) Everything in PowerShell is an expression, and you can put subexpressions and list expressions anywhere.\n\nEven better, we don't generally try to condescend if you can't remember all the magic syntax tricks."
+    },
+    "cid": "bafyreienxhziye3nh5uaftoco66vemkxmsw5tzsu7inxazfu22fe7wjlw4"
+  }
+}

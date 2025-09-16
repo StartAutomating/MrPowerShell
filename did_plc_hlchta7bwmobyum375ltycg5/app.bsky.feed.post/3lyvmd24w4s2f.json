@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757966924131235,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyvmd2g3ic23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyvmd24w4s2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-15T20:08:43.559Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidsuyuduup5d3kt6zljg2gtkrvtrbxm7dmel3clsx2aqhjsyljfue",
+          "uri": "at://did:plc:nbhqozlybqqmxax3vdawb4lf/app.bsky.feed.post/3lyvjojzuxk2b"
+        },
+        "root": {
+          "cid": "bafyreiclvflqsky54i453ugtmkifwodyod4pkpbx52ttgc5gt6adlw3bhe",
+          "uri": "at://did:plc:nbhqozlybqqmxax3vdawb4lf/app.bsky.feed.post/3lyvgtyrd7c2e"
+        }
+      },
+      "text": "The point I'm trying to kindly make here is that one should not reinvent wheels, and should learn from those who had made languages before (happy to help here, I've made a few)\n\nIf you're ready to admit it is hard, be ready to change approaches so that it gets easier.\n\nWhat are your goals?"
+    },
+    "cid": "bafyreih4jgfavzii2gryyur7lb47ogbma4b3uf7tb4yviq6aki26fscusa"
+  }
+}

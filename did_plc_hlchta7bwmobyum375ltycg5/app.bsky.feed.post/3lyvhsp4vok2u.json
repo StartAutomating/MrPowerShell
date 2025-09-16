@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757962079594904,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyvhsof7hi2t",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyvhsp4vok2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-15T18:48:00.186Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiclvflqsky54i453ugtmkifwodyod4pkpbx52ttgc5gt6adlw3bhe",
+          "uri": "at://did:plc:nbhqozlybqqmxax3vdawb4lf/app.bsky.feed.post/3lyvgtyrd7c2e"
+        },
+        "root": {
+          "cid": "bafyreiclvflqsky54i453ugtmkifwodyod4pkpbx52ttgc5gt6adlw3bhe",
+          "uri": "at://did:plc:nbhqozlybqqmxax3vdawb4lf/app.bsky.feed.post/3lyvgtyrd7c2e"
+        }
+      },
+      "text": "It doesn't crash, it errors out ( cause var is null )\n\nSince you're running PowerShell in a separate process it just errors and returns to your main process.\n\nAnd I wholeheartedly repeat my earlier advice:  call down to the PowerShell language, please don't try to reinvent it in json."
+    },
+    "cid": "bafyreie7nbwpllutrfje7dhzko7tgnsbtuocjwu7drji6q6dtcjlddkwpi"
+  }
+}
