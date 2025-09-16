@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757991338057917,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lywd2nekac2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lywd2n3xts2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-16T02:55:37.523Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TIL"
+            }
+          ],
+          "index": {
+            "byteEnd": 4,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "font"
+            }
+          ],
+          "index": {
+            "byteEnd": 42,
+            "byteStart": 37
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 139,
+            "byteStart": 128
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#TIL Today I Learned\n\nThe backtick's #font glyph name is actually \"grave\".\n\nGiven people's opinions of the backtick (especially #PowerShell people), that tracks.\n\n~~~svg\n<glyph glyph-name=\"grave\" unicode=\"`\" d=\"M477 1638l281 -376h-154l-325 376h198z\"/>\n~~~"
+    },
+    "cid": "bafyreig7dflojsvohhylavnzpkg4qgn754z7yrfwsmzpfjbai7vemdbboi"
+  }
+}
