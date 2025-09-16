@@ -16,14 +16,13 @@ $title = $myHelp.SYNOPSIS
 $description = $myHelp.description.text -join [Environment]::NewLine
 
 if (-not $script:myGists) {
-    $script:myGists = if ($env:GH_TOKEN) {
-        Invoke-RestMethod -Uri "https://api.github.com/users/$GitHubUser/gists" -Headers @{
-            authorization = "Bearer $($env:GH_TOKEN)"
-        }
-    } else {
-        Invoke-RestMethod -Uri "https://api.github.com/users/$GitHubUser/gists"    
-    }
-    
+    $script:myGists = 
+        Invoke-RestMethod -Uri "https://api.github.com/users/$GitHubUser/gists" -ErrorAction Ignore    
+}
+
+# If we could not get gists, try getting previous gists
+if (-not $script:myGists) {
+    $script:myGists = Invoke-RestMethod "https://MrPowerShell.com/Gists/MyGists.json"
 }
 
 $script:myGists | ConvertTo-Json -Depth 10 > MyGists.json

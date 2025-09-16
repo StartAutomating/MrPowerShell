@@ -211,13 +211,13 @@ $site.Taskbar = [Ordered]@{
 }
 
 $site.HeaderMenu = [Ordered]@{
-    "Gists"  = "https://MrPowerShell.com/Gists"
-    "GitHub" = "https://MrPowerShell.com/GitHub"    
-    "Memes"  = "https://MrPowerShell.com/Memes"    
-    "Mentions" = "https://MrPowerShell.com/Mentions"
-    "Modules" = "https://MrPowerShell.com/Modules"
-    "Tags" = "https://MrPowerShell.com/Tags"
-    "YouTube" = "https://MrPowerShell.com/YouTube"
+    # "Gists"  = "https://MrPowerShell.com/Gists"
+    "GitHub" = "/GitHub"    
+    "Memes"  = "/Memes"    
+    "Mentions" = "/Mentions"
+    "Modules" = "/Modules"
+    "Tags" = "/Tags"
+    "YouTube" = "/YouTube"
 }
 #endregion Site Menus
 
@@ -366,6 +366,18 @@ $sitebackgrounds = @(
     {
         turtle @('ArcRight', 23, 60, 'ArcLeft', 23, 160 * 24)
     }
+
+    {
+        turtle Pentaplexity 23 4
+    }
+
+    {
+        turtle BoardFractal 23 4
+    }
+
+    {
+        turtle CrystalFractal 23 4
+    }    
 )
 
 $siteBackground = $sitebackgrounds | Get-Random
