@@ -46,7 +46,7 @@ jobs:
           # Upload the contents of the ./MrPowerShell.com directory to the GitHub Pages artifact
           path: './MrPowerShell.com/'          
         env:
-          GitHubToken: ${{secrets.GITHUB_TOKEN}}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@main

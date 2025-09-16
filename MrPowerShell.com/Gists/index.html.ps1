@@ -16,9 +16,9 @@ $title = $myHelp.SYNOPSIS
 $description = $myHelp.description.text -join [Environment]::NewLine
 
 if (-not $script:myGists) {
-    $script:myGists = if ($env:GitHubToken) {
+    $script:myGists = if ($env:GH_TOKEN) {
         Invoke-RestMethod -Uri "https://api.github.com/users/$GitHubUser/gists" -Headers @{
-            authorization = "Bearer $($env:GitHubToken)"
+            authorization = "Bearer $($env:GH_TOKEN)"
         }
     } else {
         Invoke-RestMethod -Uri "https://api.github.com/users/$GitHubUser/gists"    
