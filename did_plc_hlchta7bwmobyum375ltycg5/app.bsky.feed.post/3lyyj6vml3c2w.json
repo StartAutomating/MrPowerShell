@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758066647229245,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyyj6zlivl2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyyj6vml3c2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-16T23:50:42.601Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "⟩⚡PowerShell Emoji 😎😉😍🥰🤔😟. Contribute to StartAutomating/Emoji development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihqm4slc7m4pzhbbgl3kmuos3uelyjy4this6pz3a7gj5hutjr7my"
+            },
+            "mimeType": "image/jpeg",
+            "size": 232549
+          },
+          "title": "GitHub - StartAutomating/Emoji: ⟩⚡PowerShell Emoji 😎😉😍🥰🤔😟",
+          "uri": "https://github.com/StartAutomating/Emoji"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/Emoji"
+            }
+          ],
+          "index": {
+            "byteEnd": 153,
+            "byteStart": 127
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigds6pjd2uw6ss4vovnzi2fwddhs4tibxks2ksvz7asl3ylxb4oka",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lyt4frcllc2r"
+        },
+        "root": {
+          "cid": "bafyreihi5ffoth65jlk7tb3zealysq2qnx3vlalcgxxpzgworevp4dmlhi",
+          "uri": "at://did:plc:qsz5r534rzjzuup63bsmm4sj/app.bsky.feed.post/3lypvtdsyuc27"
+        }
+      },
+      "text": "Actually got this out the door fairly quickly (but only because I was doing a sanity check on other Gallery release attempts)\n\ngithub.com/StartAutomat..."
+    },
+    "cid": "bafyreih7fyorntzzwdgl4df2ovccsh3jhwf3mwhsoc5ge5t3zdfrr5jrmy"
+  }
+}
