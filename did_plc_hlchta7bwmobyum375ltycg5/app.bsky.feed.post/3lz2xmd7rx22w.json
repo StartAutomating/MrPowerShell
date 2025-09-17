@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758150847028512,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz2xmdyl5w2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz2xmd7rx22w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-17T23:14:04.933Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidymggkqnd7cqt3vicj574mjhaltvm3t5mwudmpmvfk3jglqludna",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lz2wom6ydk2o"
+        },
+        "root": {
+          "cid": "bafyreih7lobfvjdfs45u235azj2kljgyki6juywddpcffl7r3ecvqdjumy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lz2wf2y6as2w"
+        }
+      },
+      "text": "Thanks!\n\nGiven that the shapes are just a series of points, almost everything but the most massive animations would fit into a repo record.\n\nFor reference, a shape with 1458 points currently takes ~12kb."
+    },
+    "cid": "bafyreihss5jex2phlfvznpprqnuwzlwdq52pacxwbue3znnxhrm2meuqi4"
+  }
+}
