@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758066978133463,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyyjivc57w2t",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyyjiudr422w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-16T23:56:16.809Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Gist gotta calculate Friday the 13th. GitHub Gist: instantly share code, notes, and snippets.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieqhtgl35ueb6u4djc2czpaleughc5jms6rfrsnzl2uraxhbjw3za"
+            },
+            "mimeType": "image/jpeg",
+            "size": 121877
+          },
+          "title": "Gist gotta calculate Friday the 13th",
+          "uri": "https://gist.github.com/StartAutomating/b4877182d79c4e22514fed8f98a8ebbe"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://gist.github.com/StartAutomating/b4877182d79c4e22514fed8f98a8ebbe"
+            }
+          ],
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 78
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreighgnbsa6wzyxgaxx6vwbsmxqxmnfau5qrodmiub4zcufy3ujfzgy",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3lyxllnv2bs26"
+        },
+        "root": {
+          "cid": "bafyreighgnbsa6wzyxgaxx6vwbsmxqxmnfau5qrodmiub4zcufy3ujfzgy",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3lyxllnv2bs26"
+        }
+      },
+      "text": "Test-Friday is good, as long as it's not Friday the 13th.\n\nFor that we have:\n\ngist.github.com/StartAutomat...\n\n(looks like we are good until February 13th, 2026, then have another in March, and one more in November)"
+    },
+    "cid": "bafyreihyys4pr3vup4ntchbx5ld3weqmmy6nbt25ywo5ix3xu7hyujxv5u"
+  }
+}
