@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757880019932650,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyt3f3esav2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyt3f27nvk2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-14T20:00:17.67Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "This will make some embedding scenarios easier.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihknq6nkhmq4i4lvne73dqauzbny3y4izglzleuduovtdahjx4r44"
+            },
+            "mimeType": "image/jpeg",
+            "size": 244906
+          },
+          "title": "`Emoji.ToString()` should get the emoji as a string · Issue #93 · StartAutomating/Emoji",
+          "uri": "https://github.com/StartAutomating/Emoji/issues/93"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/Emoji/issues/93"
+            }
+          ],
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 83
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihaygf2yvcug4pb7hx3eizvgcjhvgn6cfrvd754a7zsl5hqhog5hu",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3lyt2xyjoxk2g"
+        },
+        "root": {
+          "cid": "bafyreihi5ffoth65jlk7tb3zealysq2qnx3vlalcgxxpzgworevp4dmlhi",
+          "uri": "at://did:plc:qsz5r534rzjzuup63bsmm4sj/app.bsky.feed.post/3lypvtdsyuc27"
+        }
+      },
+      "text": "Aww thanks\n\nFind-Emoji -Pattern \"Hugging Face\" 🤗 \n\n(brief related side-note...  github.com/StartAutomat...)"
+    },
+    "cid": "bafyreigp2wjneqs2uallo4bp7o3mpc5e7sqftxpb3kwz7no3hq2tzr2gmi"
+  }
+}

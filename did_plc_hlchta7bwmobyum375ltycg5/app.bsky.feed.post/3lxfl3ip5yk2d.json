@@ -1,0 +1,98 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756316332599588,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxfl3ksmks2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxfl3ip5yk2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-27T17:38:49.218Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Apparently SVG can store data on of an astronomical size, but Chromium cannot display it.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidm7vaaceqh4kejnsinsujvczzxoxxiqlkatrn4jmccmdrcsc3mby"
+            },
+            "mimeType": "image/jpeg",
+            "size": 801715
+          },
+          "title": "a colorful background with the words \" the more you know \" and a star",
+          "uri": "https://media.tenor.com/jW0s11pfmoAAAAAC/the-more-you-know.gif?hh=371&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 80,
+            "byteStart": 73
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 95,
+            "byteStart": 84
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 104,
+            "byteStart": 100
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 140,
+            "byteStart": 136
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Chromium"
+            }
+          ],
+          "index": {
+            "byteEnd": 155,
+            "byteStart": 146
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Yesterday I ran a little big experiment:\n\nCan I make a lightyear squared #Turtle in #PowerShell and #SVG?\n\nYes and No.\n\nYes, it's valid #SVG.\n\nNo #Chromium won't render it (all of it, at least).  It shows about 1/3rd of the square."
+    },
+    "cid": "bafyreia43pwvmljv4hc5fnkr642tfjvkgisldauqsmhxexurlkoufqevaq"
+  }
+}

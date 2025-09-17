@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757878699648050,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyt25r4tmh23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyt25sa3zc2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-14T19:38:20.673Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif6rcwv7v26hao3qux3pndiecalcn4arjmig4rsdf2au7tlqt43z4",
+          "uri": "at://did:plc:mdd3hdxwgd5zoj5szfysjgra/app.bsky.feed.post/3lyszso5yos2w"
+        },
+        "root": {
+          "cid": "bafyreigwrz54ox35mdjloo4npleo3oryxszymbyuclnlnyf4zbphyvearm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lyszan7hvs2m"
+        }
+      },
+      "text": "Thanks for the $.02!\n\nI was thinking some legal protections might make it at least a little harder for people to get rich off of it and not compensate, and, maybe, just maybe, slow bad actor adoption \n\n( J/k : If Cozy Bear uses one more of my tools, I get a free sub )"
+    },
+    "cid": "bafyreieewbo7wrsah737hvu7pnshtm5ujxfphem2ffkhoj6igha5i2l6lq"
+  }
+}

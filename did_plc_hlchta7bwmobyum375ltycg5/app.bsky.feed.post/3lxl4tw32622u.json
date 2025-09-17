@@ -1,0 +1,84 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756507201335139,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxl4twcbuy24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxl4tw32622u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-29T22:40:00.849Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A Fun PowerShell Module for Multimedia (using FFMpeg) - StartAutomating/RoughDraft",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieqcvtmgciut4dby37gne6u262x43d53c4xs3x3fnstvyxh6pexni"
+            },
+            "mimeType": "image/jpeg",
+            "size": 65379
+          },
+          "title": "GitHub - StartAutomating/RoughDraft: A Fun PowerShell Module for Multimedia (using FFMpeg)",
+          "uri": "https://GitHub.com/StartAutomating/RoughDraft"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 25
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ffmpeg"
+            }
+          ],
+          "index": {
+            "byteEnd": 48,
+            "byteStart": 41
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/StartAutomating/RoughDraft"
+            }
+          ],
+          "index": {
+            "byteEnd": 190,
+            "byteStart": 164
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihymprgwcgmilkk4vube2fhvjbxnasilhblewfyi4o6ilkztfi5wi",
+          "uri": "at://did:plc:5cijcn2monlpjyy2callgpft/app.bsky.feed.post/3lxl3gt4dds2u"
+        },
+        "root": {
+          "cid": "bafyreigdjmxftgzq3fwagem3j5wcnqxwmos6se22dsnxwyp4gxqhnibuee",
+          "uri": "at://did:plc:5cijcn2monlpjyy2callgpft/app.bsky.feed.post/3lxkykcm6pc2i"
+        }
+      },
+      "text": "I'm always curious about #PowerShell and #ffmpeg rabbit holes.\n\nWhat did you end up doing ?\n\nIf you want, feel free to file an issue / open a PR and I'll add it to GitHub.com/StartAutomat..."
+    },
+    "cid": "bafyreicfgex6kybynsplns6dwh7jxm7y334gdofqvklrhh67bardi3x7gu"
+  }
+}

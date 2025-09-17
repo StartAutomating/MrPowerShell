@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757821181816868,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyrelloid52m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyrell4zu22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-14T03:39:40.936Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid3fvrtgorrl7v6s65how34i3u7x3zze55ryxojvwior773umxdl4",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3lyqn5jnbjs2c"
+        },
+        "root": {
+          "cid": "bafyreid3fvrtgorrl7v6s65how34i3u7x3zze55ryxojvwior773umxdl4",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3lyqn5jnbjs2c"
+        }
+      },
+      "text": "You might want to add a .Recommends section to your manifest, and turn on nicer functionality if the module is loaded.\n\nYou could switch out the .DefaultDisplay property if the module is found, and keep all of the special spectre stuff in script properties."
+    },
+    "cid": "bafyreifwmtsurhttbrdn32amrojf26j2cu6zwxfcbnjmtuy4ccgu7j56pa"
+  }
+}

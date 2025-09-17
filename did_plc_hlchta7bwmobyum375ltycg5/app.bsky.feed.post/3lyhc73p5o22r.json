@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757475015932179,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyhc72ehaz2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyhc73p5o22r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-10T03:30:17.232Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiec4yttpa7ojvdwl4kfxrlmcdgxq34j5ypde6d6cn3lo5eluje5g4",
+          "uri": "at://did:plc:nruh7alrrvehnqb3p3euwagn/app.bsky.feed.post/3lygrbbxxlk2d"
+        },
+        "root": {
+          "cid": "bafyreiec4yttpa7ojvdwl4kfxrlmcdgxq34j5ypde6d6cn3lo5eluje5g4",
+          "uri": "at://did:plc:nruh7alrrvehnqb3p3euwagn/app.bsky.feed.post/3lygrbbxxlk2d"
+        }
+      },
+      "text": "Don't know that person so can't personally judge too much.\n\nI find a lot of senior engineers to be pretty solid, though occasionally you meet someone who makes you wonder how they got this far without learning X, Y, Z.\n\nThe answer is usually social skills."
+    },
+    "cid": "bafyreiep2ck6nk2bm4usb3a7j3afawhjkh6yil3k26lceyo7h4r4xmewvm"
+  }
+}

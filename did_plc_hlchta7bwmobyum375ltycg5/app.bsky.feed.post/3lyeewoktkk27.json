@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757374878031078,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyeewovt3h2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyeewoktkk27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-08T23:41:17.035Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibp3m6pfdps3hd7t5lmbdmd3x3fzzvorptbqabuywyzxljfzfpu6q",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lyeebhlyrc2l"
+        },
+        "root": {
+          "cid": "bafyreic6mnswdlpyabsyccnn4adhgy6z5v3ghp4k6zypyrg5d6cvs3ti2a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lybeqnt4hs26"
+        }
+      },
+      "text": "I'm also saying that \"academic vocabulary\" and \"working professional vocabulary\" are often very different.\n\nNot that you don't know those terms.\n\nThat you should not look down at others for not knowing them immediately.\n\nI don't believe this should be revolutionary, just common decency."
+    },
+    "cid": "bafyreifs74gsv7jr5ljeqikehaukup5fiuuzaqyidmjcjhwjebjr4mlvgy"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757194032868714,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ly74j3mvrj2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ly74j3bxek2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-06T21:27:11.986Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 131,
+            "byteStart": 120
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidpnkfuq4yn35qbvqjnr4tt3jwe3pv2kja6om6ndp5gamj5gjvk5u",
+          "uri": "at://did:plc:nbhqozlybqqmxax3vdawb4lf/app.bsky.feed.post/3ly6ypvywhc2d"
+        },
+        "root": {
+          "cid": "bafyreidpnkfuq4yn35qbvqjnr4tt3jwe3pv2kja6om6ndp5gamj5gjvk5u",
+          "uri": "at://did:plc:nbhqozlybqqmxax3vdawb4lf/app.bsky.feed.post/3ly6ypvywhc2d"
+        }
+      },
+      "text": "The idea of declaring code in JSON is OK (IMO)\n\nHaving taken a brief look at your code, you might want to try using the #PowerShell AST instead of parsing it by hand.\n\nThis little snip it will help you get started:\n\n~~~PowerShell\n{$x -gt 1}.Ast.FindAll({$true}, $true)\n~~~"
+    },
+    "cid": "bafyreiepsxfoc6oflq7uhaxinhoi74ddguh6zr76kotdlrz25lcaqxwvsi"
+  }
+}

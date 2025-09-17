@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757289979011515,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lybvujep2m2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lybvuiwxns27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-08T00:06:18.427Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 61,
+            "byteStart": 50
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih2yv5etdgig4ne4j4nmaxclzpjd4yjeqgtpbzbyjervjgc5wea7y",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lybu2k2qak2a"
+        },
+        "root": {
+          "cid": "bafyreic6mnswdlpyabsyccnn4adhgy6z5v3ghp4k6zypyrg5d6cvs3ti2a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lybeqnt4hs26"
+        }
+      },
+      "text": "In the spirit of this, I ask you:  have you given #PowerShell a try since we have begun this conversation?\n\nIt's a very interactive language, and the dots tend to start to connect fairly quickly.\n\nGo ahead and try the basics:\n\n~~~PowerShell\nGet-Command\nGet-Help\nGet-Command | Get-Member\n~~~"
+    },
+    "cid": "bafyreibpilgbnnep346mutjnjd64bclu5ofmz2ix24pet2qxabhstgx2la"
+  }
+}

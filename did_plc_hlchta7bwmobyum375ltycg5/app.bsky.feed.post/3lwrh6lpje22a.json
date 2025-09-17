@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1755624941822422,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lwrh6k6id42s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lwrh6lpje22a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-19T17:35:43.304Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigdepbl6gw6bl53f2muhfkqoousqij677blsiujnn2wieewojydbe",
+          "uri": "at://did:plc:7sxzlbs5r7nw7enwa7xv6xw5/app.bsky.feed.post/3lwqwmf3m2s25"
+        },
+        "root": {
+          "cid": "bafyreigdepbl6gw6bl53f2muhfkqoousqij677blsiujnn2wieewojydbe",
+          "uri": "at://did:plc:7sxzlbs5r7nw7enwa7xv6xw5/app.bsky.feed.post/3lwqwmf3m2s25"
+        }
+      },
+      "text": "There's always the good old fashioned trick of trying to make it xml via some replacement magic, or using refer to pull out a tag first to scope it down.\n\nBasically: the whole page might not be close enough to xml, but a lot of it will be good enough to work with."
+    },
+    "cid": "bafyreiebhtuk2tcbx3l4vhqyppqmrdpjd7i2wc3dvszzejw6diwd6o2xcq"
+  }
+}

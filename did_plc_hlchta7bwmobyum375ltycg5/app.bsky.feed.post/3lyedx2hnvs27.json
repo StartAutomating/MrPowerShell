@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757373816166076,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyedx2pwks2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyedx2hnvs27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-08T23:23:35.772Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieuwy5wqmvfidzm6rsejbrgl32vehdwx25chjhk4gmofdiztxnr4m",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lyednpttrk2l"
+        },
+        "root": {
+          "cid": "bafyreic6mnswdlpyabsyccnn4adhgy6z5v3ghp4k6zypyrg5d6cvs3ti2a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lybeqnt4hs26"
+        }
+      },
+      "text": "I tend to be more interested in practical problems, though I seem some of where this area of math would be helpful in other endeavours. \n\nI may burn time on it, but my time is not available to burn at your request."
+    },
+    "cid": "bafyreibzsqqelu2mfqkzmuicq2dndjggo6uwhlbmi4ogpdoe5xfr5t7olm"
+  }
+}

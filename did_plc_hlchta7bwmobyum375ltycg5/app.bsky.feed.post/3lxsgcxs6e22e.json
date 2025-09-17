@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756757888714999,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxsgcyk2cw2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxsgcxs6e22e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-01T20:18:07.816Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:oqmead6vafy6py7otaam7whk"
+            }
+          ],
+          "index": {
+            "byteEnd": 76,
+            "byteStart": 62
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifltq54loz6si6omyxhva6k76vw3dtndzt53qjomeywlkuhcv2l6y",
+          "uri": "at://did:plc:jbujft4gz3dvwligtapcxxtp/app.bsky.feed.post/3lxschviurs2i"
+        },
+        "root": {
+          "cid": "bafyreied66eqjvrrt5cnlsyhac5cdvuj6snfn6gxc7z7fgpkcnbhy4a7rm",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3lxrn4fpkgf2n"
+        }
+      },
+      "text": "I believe DBATools has some cmdlets for failover clustering.\n\n@funbucket.dev would know\n\n(also, not sure Jeff calls himself Mr PowerShell [though he has every right to; he's been at it a long while])"
+    },
+    "cid": "bafyreibreifw5akq46rewt55rmiuuztu53bxxalhum6zvrgejao7ilhzc4"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756868436843708,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxvnbkl5x62d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxvnbhxwpc2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-03T03:00:33.081Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Turtles in a PowerShell",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiberxd6f6yyy2erauemvpdqahj6ljmyl5amchunxamulvi62jnkji"
+            },
+            "mimeType": "image/jpeg",
+            "size": 971474
+          },
+          "title": "Turtle",
+          "uri": "https://psturtle.com/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 128,
+            "byteStart": 121
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Graphics"
+            }
+          ],
+          "index": {
+            "byteEnd": 138,
+            "byteStart": 129
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 160,
+            "byteStart": 149
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://psturtle.com/"
+            }
+          ],
+          "index": {
+            "byteEnd": 288,
+            "byteStart": 276
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigsxbgqm7ah4ffxcysa2vv3mbjddozg7xrbetcyfaeiacnubxp2za",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lxvddlimk22w"
+        },
+        "root": {
+          "cid": "bafyreih2bdpqwc3lg2upoawzhnkhu4z5sfd5wlmpbvbed6oitmqwu263ei",
+          "uri": "at://did:plc:4hr6wshflvjydch6xlypl5c4/app.bsky.feed.post/3lxtqcfenis2e"
+        }
+      },
+      "text": "Adding a bit more context and a tool you might like:\n\nPowerShell is meant to be as easy as possible.\n\nI recently built a #Turtle #Graphics engine in #PowerShell\n\ni.e.\n\nturtle SierpinskiTriangle 42 4 # makes a fractal. \n\nI can | Select Width, Height \nor | Select -Expand SVG \n\npsturtle.com"
+    },
+    "cid": "bafyreihwcnwgnevd3ka2vhtiuextoxaaq3q6yjmg2m5x7gjqfai5jeowq4"
+  }
+}

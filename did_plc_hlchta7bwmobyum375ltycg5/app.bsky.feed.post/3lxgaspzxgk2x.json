@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756339657419387,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxgasozqcw2v",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxgaspzxgk2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-28T00:07:37.241Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "YouTube video by StartAutomating",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiewaorbxpnxmzhdwvfnlc2zvs7hlbi6rkj2iakgjokjbwn3hlgvaa"
+            },
+            "mimeType": "image/jpeg",
+            "size": 42388
+          },
+          "title": "PowerShell, Select-Xml and XPath Namespaces",
+          "uri": "https://youtu.be/CJKWPOkIr0U?si=swzWP974HJIIoutP"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://youtu.be/CJKWPOkIr0U?si=swzWP974HJIIoutP"
+            }
+          ],
+          "index": {
+            "byteEnd": 112,
+            "byteStart": 88
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiftfmslutk42dozl373bovc6irezucmml66awss5xe5gcj2atpjny",
+          "uri": "at://did:plc:ia77hc3mu62d7mufk723etsx/app.bsky.feed.post/3lxg7ugqukk2e"
+        },
+        "root": {
+          "cid": "bafyreifplbvdmbfpptaeudyvpdpft3ptwdfymkc5utsiyobuibkshwraum",
+          "uri": "at://did:plc:ia77hc3mu62d7mufk723etsx/app.bsky.feed.post/3lxfvtvtqf22x"
+        }
+      },
+      "text": "Lol, cool.\n\nIn case you were curious, here is very old advice I recorded on the topic.\n\nyoutu.be/CJKWPOkIr0U?..."
+    },
+    "cid": "bafyreibngea2ymk5noti6tq3u4nmsc2kd7mff4yd2l6fwpqfqpumxbfc64"
+  }
+}

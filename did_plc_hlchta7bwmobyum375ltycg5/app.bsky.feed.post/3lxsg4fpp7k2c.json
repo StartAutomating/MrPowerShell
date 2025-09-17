@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756757668663712,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxsg4gnicw2v",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxsg4fpp7k2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-01T20:14:27.535Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig34wsggb2h6x55zzznw6zsnrgfzxjprzkyn76bjz57dphemdpgaq",
+          "uri": "at://did:plc:54kh56oq3apqakeseblz4ruq/app.bsky.feed.post/3lxsdrro7ay2r"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreibz73wgrtfbx5htxns5v5tpdifj4vlwfeucq5t5vtkfhjefh2emom",
+          "uri": "at://did:plc:54kh56oq3apqakeseblz4ruq/app.bsky.feed.post/3lxrteqfmnv22"
+        }
+      },
+      "text": "Really kinda proving my point here.\n\nI'm just an ex Microsoftie and current MVP for Microsoft.\n\nThat is to say, I was one of those people, and I know quite a few of them.\n\nDenying the autonomy of 200,000+ people seems like a pretty significant delusion.\n\nAMA, but do so respectfully."
+    },
+    "cid": "bafyreiau6ufukys47gdxfolpjehbi7vhiacpjjgvb26l6j2fja7igmz6dq"
+  }
+}

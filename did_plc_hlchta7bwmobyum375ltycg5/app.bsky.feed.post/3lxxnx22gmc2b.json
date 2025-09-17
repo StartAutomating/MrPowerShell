@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756937877735085,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxxnx3fehj2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxxnx22gmc2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-03T22:17:56.157Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidwhkynu6eyzbq6basfzys7hoby2gml5jg4qhbxvdpfmaflxc6hji",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lxxikn4vj22u"
+        },
+        "root": {
+          "cid": "bafyreih2bdpqwc3lg2upoawzhnkhu4z5sfd5wlmpbvbed6oitmqwu263ei",
+          "uri": "at://did:plc:4hr6wshflvjydch6xlypl5c4/app.bsky.feed.post/3lxtqcfenis2e"
+        }
+      },
+      "text": "Looks like it.  What language is that?  (looks vaguely functional, but I don't think it's scheme)"
+    },
+    "cid": "bafyreidfmvlpzjiebbse7cwvi44mjittlzkh7azvfe4aqjp6zsbg4rlkhm"
+  }
+}

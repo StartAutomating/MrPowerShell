@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757964009029297,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyvjm4xn732m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyvjm4m7sk2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-15T19:20:06.923Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "fonts"
+            }
+          ],
+          "index": {
+            "byteEnd": 72,
+            "byteStart": 66
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "svg"
+            }
+          ],
+          "index": {
+            "byteEnd": 80,
+            "byteStart": 76
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 124,
+            "byteStart": 113
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Unexpectedly spent part of my weekend figuring out how to convert #fonts to #svg and create fonts from glyphs in #PowerShell.\n\nShould be dropping some code soon.\n\nIf you could create / edit fonts easily, what would you do with this power?\n\nWhat do you want from a font?"
+    },
+    "cid": "bafyreidy5yhghj4zwi2y7sjgh2w5euegjpyb6dhzzzjek64luazme54cge"
+  }
+}

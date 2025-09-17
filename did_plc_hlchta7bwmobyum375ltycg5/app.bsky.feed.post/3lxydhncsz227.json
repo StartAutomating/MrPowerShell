@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756960981058701,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxydhmgb3l2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxydhncsz227",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-04T04:43:01.804Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 62,
+            "byteStart": 51
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiebmaaqlgyf7rkuml6s3ayvl52eduzeprng3f7cbdyqvbtsgqsl5q",
+          "uri": "at://did:plc:cdgrfboghw7qijnegwnjxqxl/app.bsky.feed.post/3lxxn7wkdn225"
+        },
+        "root": {
+          "cid": "bafyreiebmaaqlgyf7rkuml6s3ayvl52eduzeprng3f7cbdyqvbtsgqsl5q",
+          "uri": "at://did:plc:cdgrfboghw7qijnegwnjxqxl/app.bsky.feed.post/3lxxn7wkdn225"
+        }
+      },
+      "text": "Go on....\n\nI personally sometimes refer to various #PowerShell scripts I write as incantations, so I'm curious what you might have in mind here. 🤔"
+    },
+    "cid": "bafyreihysor7qpvyohzh26bg5nvg5alsyplwollcjt2kmjpksy33i3cna4"
+  }
+}

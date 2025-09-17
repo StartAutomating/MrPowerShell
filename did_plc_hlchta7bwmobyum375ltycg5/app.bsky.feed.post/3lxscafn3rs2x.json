@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756753508013870,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxscagr4dk2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxscafn3rs2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-01T19:05:06.7Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid5eb6w3e2ifxxhgurusbb6toiltyxs43oxokykucqu3kbs4qqjwq",
+          "uri": "at://did:plc:iga7ipxo6jy26wv6bevcmdem/app.bsky.feed.post/3lxsamj7khe22"
+        },
+        "root": {
+          "cid": "bafyreid5eb6w3e2ifxxhgurusbb6toiltyxs43oxokykucqu3kbs4qqjwq",
+          "uri": "at://did:plc:iga7ipxo6jy26wv6bevcmdem/app.bsky.feed.post/3lxsamj7khe22"
+        }
+      },
+      "text": "I keep meaning to start a project to internationalize common verbs / nouns / parameters, so that people can script in their native language.\n\nWanna help?"
+    },
+    "cid": "bafyreigjxyd5d344cdx5cjs4netmzzly4ptmdd7jakzdsxl7va3cnqqn4e"
+  }
+}

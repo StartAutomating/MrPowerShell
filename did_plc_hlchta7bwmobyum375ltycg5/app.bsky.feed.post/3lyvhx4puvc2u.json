@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757962230624616,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyvhx5kj5b24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyvhx4puvc2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-15T18:50:28.657Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: indiana jones faces down a snake while programmers face down bugs.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreif24fvtw5dce5dccwstatxrrsintuzdbzdwbmver4em57w55ehuki"
+            },
+            "mimeType": "image/jpeg",
+            "size": 138819
+          },
+          "title": "indiana jones and the last crusade poster with a man in a hat",
+          "uri": "https://media.tenor.com/ArwbXwrL_8UAAAAC/scared-indiana-jones.gif?hh=280&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibm3ozxa2gito3g5s655g22qyqi3li7uhylemxz7n65bq7n3gtpsq",
+          "uri": "at://did:plc:zuamg2fds6ccr6cy2d3jsrz3/app.bsky.feed.post/3lyv73uremc2z"
+        },
+        "root": {
+          "cid": "bafyreibm3ozxa2gito3g5s655g22qyqi3li7uhylemxz7n65bq7n3gtpsq",
+          "uri": "at://did:plc:zuamg2fds6ccr6cy2d3jsrz3/app.bsky.feed.post/3lyv73uremc2z"
+        }
+      },
+      "text": "Not sure what it says about me, but whenever I discover an obvious mistake of mine in PowerShell, I'm like:\n\n\"Why did it have to be snakes?\""
+    },
+    "cid": "bafyreiajgq4fpga4sd2i4y2akl6wbhtupeijcujcj65g4dqbo37hw6r4ri"
+  }
+}

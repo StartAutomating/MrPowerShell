@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756846786178496,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxuz4dp6an2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxuz4daoj22a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-02T20:59:45.517Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 25,
+            "byteStart": 14
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaubctanef7lpvaouk6fcni7cducwq4znk3zffbzo4yz45ytwspwq",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lxuyvxfbic2f"
+        },
+        "root": {
+          "cid": "bafyreih2bdpqwc3lg2upoawzhnkhu4z5sfd5wlmpbvbed6oitmqwu263ei",
+          "uri": "at://did:plc:4hr6wshflvjydch6xlypl5c4/app.bsky.feed.post/3lxtqcfenis2e"
+        }
+      },
+      "text": "Those are all #PowerShell\n\nAnnotated:\n\n1..1kb  | # Give me a range of numbers between 1 and 1024\n    ?  { $_ % 2 } | # Where-Object the is a modulo remainder\n    % { [Math]::Sqrt($_) } # Foreach-Object, call the static method Sqrt on the Math class"
+    },
+    "cid": "bafyreiglnqx5kotof7grpqj6h43byk477exe4ry5ehzxpgcl6jjzi3ujfq"
+  }
+}

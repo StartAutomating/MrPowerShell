@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757879207141744,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyt2mv3zkc23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyt2muqgtk2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-14T19:46:46.623Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifivznao622quqpqflvh7sqbss6kzmj7oghvy5kdqz3koqqrakdi4",
+          "uri": "at://did:plc:mdd3hdxwgd5zoj5szfysjgra/app.bsky.feed.post/3lyt2co7jm22q"
+        },
+        "root": {
+          "cid": "bafyreigwrz54ox35mdjloo4npleo3oryxszymbyuclnlnyf4zbphyvearm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lyszan7hvs2m"
+        }
+      },
+      "text": "Cool!\n\nMy major ethical conundrum is basically: \"should it be easier to keep secrets?\"\n\nIf my math is right, this would increase the difficulty of deciphering a message without it's key by several orders of magnitude and avoid transmitting even a hint of the key."
+    },
+    "cid": "bafyreidrv5e7nbhwxjkb3gvo5hv4wfk34kunh6i3omp6mpi65v57ru4ysy"
+  }
+}

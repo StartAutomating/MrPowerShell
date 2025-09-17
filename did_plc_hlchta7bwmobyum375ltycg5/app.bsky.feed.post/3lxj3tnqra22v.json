@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756437403322893,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxj3tr2uyl2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxj3tnqra22v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-29T03:16:38.903Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: PowerShell has a lot of ideas that are a bit weird and not commonly found in many languages.  That's part of the secret to it's power.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidu3etgwt4cnhtdcztby6wffj5n7l47h2piwiejc2nopwjbebzj2m"
+            },
+            "mimeType": "image/jpeg",
+            "size": 909068
+          },
+          "title": "a man in a vest and tie is holding a cup of coffee .",
+          "uri": "https://media.tenor.com/QiTlK__m-Z8AAAAC/victor-frankenstein-drink.gif?hh=259&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "REST"
+            }
+          ],
+          "index": {
+            "byteEnd": 238,
+            "byteStart": 233
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DotNet"
+            }
+          ],
+          "index": {
+            "byteEnd": 265,
+            "byteStart": 258
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidkf5kbwmxvpzzao3hqj3lzm7mnmnbyo3bwrwtyrqq7uuccedno2i",
+          "uri": "at://did:plc:hpmftisceoy4runolfcwadkr/app.bsky.feed.post/3lxiqbpptx22p"
+        },
+        "root": {
+          "cid": "bafyreidkf5kbwmxvpzzao3hqj3lzm7mnmnbyo3bwrwtyrqq7uuccedno2i",
+          "uri": "at://did:plc:hpmftisceoy4runolfcwadkr/app.bsky.feed.post/3lxiqbpptx22p"
+        }
+      },
+      "text": "Yes, we did.  \n\nSome called us mad.\n\nIs it mad to have a an object pipeline instead of parsing and praying?\n\nTo think all objects should be dynamic and extensible?\n\nTo think pipelines should be easy and fluent?\n\nTo want to work with #REST, console apps, and #DotNet?\n\nThen call us mad 😉😜😎."
+    },
+    "cid": "bafyreihvafr4i66btsqhfahfke3mlgtzer25bo25mc2e57jpnaksbyzn5a"
+  }
+}

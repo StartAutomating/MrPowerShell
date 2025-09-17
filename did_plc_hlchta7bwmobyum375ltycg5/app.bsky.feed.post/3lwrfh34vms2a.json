@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1755623080172786,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lwrfh2rh4d2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lwrfh34vms2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-19T17:04:40.422Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreic6gmwt3jhr752vvr2tfhhqbx5lzp6vxsybqlwsht4crjbr6ckrsq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 38749
+          },
+          "title": "MrPowerShell",
+          "uri": "https://mrpowershell.com"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "regex"
+            }
+          ],
+          "index": {
+            "byteEnd": 73,
+            "byteStart": 67
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://mrpowershell.com"
+            }
+          ],
+          "index": {
+            "byteEnd": 131,
+            "byteStart": 115
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicel7vcg633hszdckjif6ofzab5kot4m536yahp3tndpgv2fg2mvy",
+          "uri": "at://did:plc:c2swjkkci7dljjizpgye45kv/app.bsky.feed.post/3lwougp563c23"
+        },
+        "root": {
+          "cid": "bafyreicel7vcg633hszdckjif6ofzab5kot4m536yahp3tndpgv2fg2mvy",
+          "uri": "at://did:plc:c2swjkkci7dljjizpgye45kv/app.bsky.feed.post/3lwougp563c23"
+        }
+      },
+      "text": "In my defense....\n\nA ) it wasn't me\nB ) Invoke-RestMethod and some #regex to remove tags is all I need 😉.\n\n(irm mrpowershell.com) -replace '\\<(?<t>script|style|svg)(?:.|\\n)+?\\<\\k<t>>' -replace \"\\<[^\\>]+?\\>\" )\n\n(Yes, this works)"
+    },
+    "cid": "bafyreiarjqzitequp5isued5bi4eovb3puxs7b2fxoasozpjmvn773na6y"
+  }
+}

@@ -11,44 +11,9 @@ $description = "A simple audio visualizer using the Web Audio API, made with Pow
 if ($Page) {
     $page.Title = $title
     $Page.Description = $description
-    $Page.Image = "https://MrPowerShell.com/HTML/AudioVisualizer.png"
-    <#$page.Background = 
-        # turtle SierpinskiArrowheadCurve 15 4 |
-        # turtle KochIsland 5 4 |
-        # turtle Flower 30 (360/12) 18 |
-        # turtle Flower 30 (360/8) 8 |
-        # turtle Flower 30 (360/10) 12 |
-        # turtle Flower 25 8 16 72 |
-        turtle Flower 30 60 6 | 
-        Set-Turtle PatternTransform @{
-            scale = 1
-        } | 
-        Set-Turtle PatternAnimation ([Ordered]@{
-            type = 'scale'    ; values = 0.66,0.33, 0.66 ; repeatCount = 'indefinite' ;dur = "23s"; additive = 'sum';id ='scale-pattern'
-        }, [Ordered]@{
-            type = 'rotate'   ; values = 0, 360 ;repeatCount = 'indefinite'; dur = "41s"; additive = 'sum'; id ='rotate-pattern'
-        }, [Ordered]@{
-            type = 'translate'   ; values = "0 0;"; dur = "41s"; additive = 'sum'; id ='translate-pattern'
-        }) |
-        Set-Turtle StrokeWidth '0.1%' |
-        Select-Object -expand Pattern #>
+    $Page.Image = "https://MrPowerShell.com/HTML/AudioVisualizerInColor.png"
+    # The page background is randomly selected during site configuration.    
 }
-
-$setPalette = "
-<script>
-    function SetPalette() {
-        var palette = document.getElementById('palette')
-        if (! palette) {
-            palette = document.createElement('link')
-            palette.rel = 'stylesheet'
-            palette.id = 'palette'
-            document.head.appendChild(palette)
-        }
-        var selectedPalette = document.getElementById('SelectPalette').value
-        palette.href = 'https://cdn.jsdelivr.net/gh/2bitdesigns/4bitcss@latest/css/' + selectedPalette + '.css'        
-    }
-</script>
-"
 
 $randomPalette = @"
 <script>
@@ -110,14 +75,6 @@ Resize()
 </script>
 '
 
-$paletteSelector = @"
-<select id='SelectPalette' onchange='SetPalette()'>
-$(foreach ($paletteName in (Invoke-RestMethod https://4bitcss.com/Palette-List.json)) {
-    "<option value='$([Web.HttpUtility]::HtmlAttributeEncode($paletteName))'>$([Web.HttpUtility]::HtmlEncode($paletteName))</option>"
-})
-</select>
-"@
-
 $colorSelector = @"
 <select id='SelectColor' selected='foreground'>
 $(foreach ($colorName in 'foreground','red','green','blue','yellow','purple','cyan','brightBlue','brightRed','brightGreen','brightYellow','brightPurple','brightCyan') {
@@ -126,24 +83,46 @@ $(foreach ($colorName in 'foreground','red','green','blue','yellow','purple','cy
 </select>
 "@
 
-$setPalette
 $randomPalette
 $randomColor
 $savePng
 
-$html = @"
-<style>
+
+$Style = @"
 .controlsGrid {
-    display: grid; 
+    position: fixed;
     gap: .42%;
-    padding: 1em;
-    text-align: center;    
+    display: grid;
+    text-align: center;
+    align-items: center;    
     width:100vw;
-    height:100vh;
-    vertical-align: middle;
-    margin: 1em;
-    grid-template-areas: "left-controls . . right-controls";    
+    margin-left:auto;
+    margin-right:auto;
+    top: 75%;
+    height:10vh;
+
 }
+
+.audioPlayer {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (orientation: portrait) {
+    .controlsGrid { 
+        top: 66%
+    }
+}
+
+.overlay {
+    z-index: 50
+}
+
+.controlsGrid button {
+    max-width: 10vw
+}
+
 .visualsGrid {
     position: absolute;
     z-index: -1;
@@ -154,25 +133,69 @@ $html = @"
     height: 100vh;
 }
 
-.grid-left {
-    grid-area: left-controls;
-}
-.grid-right { 
-    grid-area: right-controls;
-}
-.grid-right select, options, button, div {
-    width: 100%;    
-}
-.grid-middle {
-    grid-area: middle;
+.audioFieldset {
+    display: grid;
+    width: 29ch;
+    grid-template-areas:
+        'levelsAndPan'
+        'rateAndPitch';
 }
 
-.innerGrid {
-    display: grid;
-    vertical-align: middle;
-    width: 100%;
-    grid-template-columns: 1fr;
+.colorFieldSet {
+    width: 29ch;
 }
+
+.nowPlaying {
+    display: grid;
+    align-items: center
+    grid-template-rows: 4;
+    grid-template-areas:
+        'playProgress'
+        'playFile'
+        'playControls';        
+}
+
+.playerProgress {
+    grid-area: playProgress
+}
+.nowPlayingInput {
+    grid-area: playFile
+}
+
+
+.rateAndPitch { grid-area: rateAndPitch; display: grid; }
+
+.levelsAndPanGrid {
+    display: grid;
+    grid-area: 'levelsAndPan'
+    text-align: center;
+    width: 12ch;
+    margin-left:auto;
+    margin-right: auto;
+    grid-template-areas: 
+        'leftGain rightGain'
+        'leftLabel rightLabel'
+        'panInput panInput'
+        'panLabel panLabel'
+    ;
+}
+
+.leftGainInput { grid-area: leftGain }
+.rightGainInput { grid-area: rightGain }
+.leftLabel { grid-area: leftLabel; text-align: center; }
+.rightLabel { grid-area: rightLabel; text-align: center; }
+
+.showFieldSet { width: 29ch }
+
+.panInput { 
+    grid-area: panInput; 
+    align-items: center;
+    align-self: center;
+    text-align: center; 
+    width: 100%;
+}
+.panLabel { grid-area: panLabel; text-align: center; }
+
 #visuals {
     width: 100vh;
     position: fixed;
@@ -187,7 +210,16 @@ $html = @"
 }
 
 pre { text-align: left }
-</style>
+
+.verticalSlider{ writing-mode: vertical-rl;direction: rtl }
+
+// .colorWheel { filter: url('#colorWheel'); }
+// canvas { filter: url('#blurFilter'); }
+// #background-svg { filter: url('#blurFilter') }
+.audioControls { text-align: center}
+"@
+
+$svgFilters = @'
 <!-- Generated with PSSVG 0.2.10 <https://github.com/StartAutomating/PSSVG> -->
 <svg width='0%' height='0%' xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
   <defs>
@@ -228,93 +260,217 @@ pre { text-align: left }
   </filter>
   </defs>
 </svg>
-<style>
-// .colorWheel { filter: url('#colorWheel'); }
-// canvas { filter: url('#blurFilter'); }
-// #background-svg { filter: url('#blurFilter') }
-</style>
-<div class='visualsGrid'>
-    <canvas id='visuals'></canvas>
-</div>
-<div class='controlsGrid'>
-    <div class='grid-left'>    
-        <input type="file" id="audioFile" multiple="true" />
-        
-        <br/>
-        <!--
-            <input id='audioUrl' type="url" id="audioUrl" />
-            <label for='audioUrl'>Audio Url</label>
-            <br />
-        -->
+'@
+
+
+$audioPlayer = @"
+<div class='audioPlayer'>
+    <div class='playerProgress'>
         <audio controls="true" autoplay="true" id="audio">
             <!-- <source src='http://knhc-ice.streamguys1.com/live' type='audio/mpeg' /> -->
             <!-- <source src='https://kjzz.streamguys1.com/kbaq_mp3_128' type='audio/mpeg' /> -->
         </audio>
     </div>
-    <div class='grid-right'>
-        <div>        
-        <details>
-        <summary>Options</summary>
-        <div class='innerGrid'>
-            <div>
-                Palette: 
-                $paletteSelector
-            </div>
-            <div>
-                <button id="SetRandomPalette" onclick="SetRandomPalette()">Random Palette</button>
-            </div>
-            <div>
-                <button id="SetRandomColor" onclick="SetRandomColor()">Random Color</button>
-            </div>
-            <div>
 
-                $colorSelector
-            </div>
-            <!--
-            -->
-            <div>                
-                <input type="checkbox" id="autoColor" />
-                <label for="autoColor">Auto Color</label>
-            </div>
+    <div class='nowPlayingInput'>
+        <input type="file" id="audioFile" multiple="true" />
+    </div>
+    <div id='currentlyPlaying'>
+    </div>
+</div>
+"@
 
-            <div>
-                <input type="checkbox" id="showCustomColor" />
-                <label for="showCustomColor">Custom Color</label>
-            </div>
-            <div>
-                <input type="color" id="customColor" />                
-            </div>
-
-            <div>
-                <input type="checkbox" id="showScope" checked="true" />
-                <label for="showScope">Show Oscilloscope</label>
-            </div>
-            <div>
-                <input type="checkbox" id="showRadialScope" checked="true" />
-                <label for="showRadialScope">Show Radial Oscilloscope</label>
-            </div>            
-            <div>
-                <input type="checkbox" id="showBars" checked="true" />
-                <label for="showBars">Show Bars</label>
-            </div>    
-        </div>        
-        <div>
-            <button id="SavePNG" onclick="SavePNG('visuals')">Save PNG</button>
-        </div>
-        </div>
-        </details>
-        <details>
-            <summary>View Source</summary>
-            <div id='PowerShellCode'>
-                <pre>
-                    <code class='language-PowerShell'>
+$html = @"
+<style>
+$style
+</style>
+$svgFilters
+<div class='visualsGrid'>
+    <canvas id='visuals'></canvas>
+</div>
+<div class='controlsGrid nowPlaying'>
+    <!--
+        <input id='audioUrl' type="url" id="audioUrl" />
+        <label for='audioUrl'>Audio Url</label>
+        <br />
+    -->
+    $audioPlayer    
+</div>
+<div class='overlay'>
+    <details>
+        <summary>View Source</summary>
+        <div id='PowerShellCode'>
+            <pre>
+                <code class='language-PowerShell'>
 $([Web.HttpUtility]::HtmlEncode($MyInvocation.MyCommand.ScriptBlock))
-                    </code>
-                </pre>
-            </div>
-        </details>
+                </code>
+            </pre>
         </div>
-    </div>        
+    </details>
+    <details>
+        <summary>Options</summary>
+        <div>            
+            <blockquote>
+                <details>
+                    <summary>Visuals</summary>                
+                    <fieldset class='showFieldSet'>
+                        <fieldset class='PaletteFieldSet'>
+                            <legend>Palette</legend>
+                            $(if ($site.Includes.SelectPalette) { . $site.Includes.SelectPalette })
+                            <button id="SetRandomPalette" onclick="SetRandomPalette()">Random Palette</button>
+                        </fieldset>                           
+                        <fieldset>
+                            <legend>Mono</legend>
+                            <input type="checkbox" id="showMono" checked="true" />
+                            <label for="showMono">Show</label>
+                            <fieldset>
+                                <legend>Color</legend>                                
+                                $(if ($site.includes.SelectColor) { . $site.Includes.SelectColor -Selected 'brightBlue' })
+                                <button id="SetRandomColor" onclick="SetRandomColor()">Random Color</button>
+                                <br/>
+                                <input type="checkbox" id="autoColor" />
+                                <label for="autoColor">Auto Color</label>
+                                <br/>
+                                <input type="checkbox" id="showCustomColor" />
+                                <label for="showCustomColor">Custom Color</label>
+                                <input type="color" id="customColor" />
+                            </fieldset>                            
+                        </fieldset>
+                        <fieldset>
+                            <legend>Stereo</legend>
+                            <input type="checkbox" id="showStereo" checked="true" />
+                            <label for="showStereo">Stereo</label>                            
+                            <fieldset>
+                                <legend>Left</legend>                                
+                                <input type="checkbox" id="showLeft" checked />
+                                <label for="showLeft">Show</label>
+                                <input type="checkbox" id="fillLeft" />
+                                <label for="fillLeft">Fill</label>
+                                $(if ($site.includes.SelectColor) {
+                                        . $site.Includes.SelectColor -id SelectLeftColor -Selected 'brightGreen'
+                                })
+                            </fieldset>
+                            <fieldset>
+                                <legend>Right</legend>
+                                <input type="checkbox" id="showRight" checked />
+                                <label for="showRight">Show</label>
+                                <input type="checkbox" id="fillRight" />
+                                <label for="fillRight">Fill</label>
+                                $(if ($site.includes.SelectColor) {
+                                    . $site.includes.SelectColor -id SelectRightColor -Selected 'brightRed'
+                                })
+                            </fieldset>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Scope</legend>
+                            <input type="checkbox" id="showScope" checked="true" />
+                            <label for="showScope">Show</label>
+                            <input type="checkbox" id="fillScope" />
+                            <label for="fillScope">Fill</label>
+                            $(if ($site.includes.SelectColor) {
+                                    . $site.includes.SelectColor -id SelectScopeColor -Selected 'brightBlue'
+                            })
+                        </fieldset>
+                        <fieldset>
+                            <legend>Radial</legend>
+                            <input type="checkbox" id="showRadialScope" checked="true" />
+                            <label for="showRadialScope">Radial</label>
+                            <input type="checkbox" id="fillRadialScope" />
+                            <label for="fillRadialScope">Fill</label>
+                            $(if ($site.includes.SelectColor) {
+                                    . $site.includes.SelectColor -id SelectRadialColor -Selected 'brightBlue'
+                            })
+                        </fieldset>
+                        <fieldset>
+                            <legend>Pattern</legend>
+                            <input type="checkbox" id="showPattern" checked="true" />
+                            <label for="showPattern">Pattern</label>
+                            <br/>
+                            <input type="checkbox" id="fillPattern" />
+                            <label for="fillPattern">Fill</label>
+                            <br/>
+                            <input type="checkbox" id="evenOddPattern" checked />
+                            <label for="evenOddPattern">Even/Odd</label>
+                            <br/>
+                            $(if ($site.includes.SelectColor) {
+                                    . $site.includes.SelectColor -id SelectPatternColor -Selected 'purple'
+                            })
+                        </fieldset>
+                        <fieldset>
+                            <legend>Bars</legend>                            
+                            <div>
+                                <input type="checkbox" id="showBars" checked="true" />
+                                <label for="showBars">Bars</label>
+                                $(if ($site.includes.SelectColor) {
+                                    . $site.includes.SelectColor -id SelectBarsColor -Selected 'brightCyan'
+                                })
+                            </div>                            
+                            <div>
+                                <input type="checkbox" id="showVolumeCurve" checked="true" />
+                                <label for="showVolumeCurve">Curve</label>
+                                $(if ($site.includes.SelectColor) {
+                                    . $site.includes.SelectColor -id SelectCurveColor -Selected 'brightYellow'
+                                })
+                            </div>
+                            
+                        </fieldset>                        
+                    </fieldset>
+                </details>
+            </blockquote>
+            <blockquote>
+                <details>
+                    <summary>Audio</summary>
+                    <div class='expandInline'>
+                        <fieldset class='audioFieldSet'>                            
+                            <fieldset class='levelsAndPanGrid'>                                
+                                <input type='range' id='leftGain' min='0' max='100' value='50' class='verticalSlider' />
+                                <label class='leftLabel' for="leftGain">L</label>                            
+                                <input type='range' id='rightGain' min='0' max='100' value='50' class='verticalSlider' />
+                                <label class='rightLabel' for="rightGain">R</label>
+                                <input type='range' id='stereoPanner' min='-100' max='100' value='0' class='panInput' />
+                                <label class='panLabel' for="stereoPanner">Pan</label>
+                            </fieldset>                            
+                            <fieldset class='rateAndPitch'>
+                            <script>
+                            function syncPlaybackRate(event) {
+                                
+                                document.getElementById('audio').playbackRate = event.target.value
+                                document.getElementById('playbackRate').value = event.target.value
+                                document.getElementById('playbackRateExact').value = event.target.value
+                                event.preventDefault()
+                            }                            
+                            </script>
+                            <div>
+                                <label for="playbackRate">Playback Rate</label>                            
+                                <input type='range' id='playbackRate' min='0.1' max='4' step='0.05' value='1' onchange='syncPlaybackRate(event)' />
+                                <input type='number' id='playbackRateExact' max='8' step='0.01' value='1' maxlength='6' onchange='syncPlaybackRate(event)' />
+                            </div>
+                            <div>
+                                <input type='checkbox' id='keepPitch' checked onchange="document.getElementById('audio').preservesPitch = event.target.checked"/>
+                                <label for="keepPitch">Keep Pitch</label>
+                            </div>
+                            <div>
+                                <!--
+                                <script>
+                                function syncNormalRate(event) {
+                                    document.getElementById('audio').playbackRate = 1
+                                    event.preventDefault()
+                                }
+                                </script>
+                                <button id='normalRate' onClick="document.getElementById('audio').playbackRate = 1">Normal</button>
+                                -->
+                            </div>
+                            
+                            </fieldset>                        
+                        </fieldset>                
+                    </div>
+                </details>
+            </blockquote>
+            <div>
+                <button id="SavePNG" onclick="SavePNG('visuals')">Save PNG</button>
+            </div>    
+        
+    </details>        
 </div>
 
 <script>
@@ -322,28 +478,46 @@ var audio = document.getElementById('audio');
 var audioLoader = document.getElementById('audioFile');
 var playlistFiles = []
 var playlistIndex = 0;
+const playlist = {
+    index: 0,
+    files: []
+}
+
 audioLoader.addEventListener('change', (e) => {
-    var reader = new FileReader();
-    reader.onload = (event) => { audio.src = event.target.result }
-    for (var i = 0; i < e.target.files.length; i++) {
-        playlistFiles.push(e.target.files[i])
+    var reader = new FileReader();    
+    for (var i = e.target.files.length - 1 ; i >= 0; i--) {
+        playlist.files.unshift(e.target.files[i])
     }
-    playlistIndex = 0;
-    reader.readAsDataURL(e.target.files[playlistIndex])
+    playlist.index = 0
+    reader.readAsDataURL(playlist.files[playlist.index])
+    document.getElementById('currentlyPlaying').innerText = playlist.files[playlist.index].name
+    reader.onload = (event) => { audio.src = event.target.result }
 }, false);
 
-audio.addEventListener('playing', (e) => {ShowVisualizer();}, false);
-audio.addEventListener('ended', (e) => {
-    if (playlistIndex < playlistFiles.length - 1) {
-        var reader = new FileReader();
-        reader.onload = (event) => {
-            audio.src = event.target.result;
-            audio.play();
-        }
-        playlistIndex++;
-        reader.readAsDataURL(playlistFiles[playlistIndex])
+audio.addEventListener('playing', (e) => {
+    if (! audioSource) {
+        ShowVisualizer();
+    }    
+    if (document.getElementById('playbackRate')) {
+        audio.playbackRate = document.getElementById('playbackRate').value
     }
-}, false);
+    if (document.getElementById('keepPitch')) {
+        audio.preservePitch = document.getElementById('keepPitch').value
+    }
+}, false)
+
+audio.addEventListener('ended', (e) => {
+    if (playlist.index < (playlist.files.length - 1)) {        
+        playlist.index++;
+        var reader = new FileReader();
+        reader.readAsDataURL(playlist.files[playlist.index])
+        reader.onload = (event) => {
+            audio.src = event.target.result;            
+            audio.play();
+            document.getElementById('currentlyPlaying').innerText = playlist.files[playlist.index].name
+        }
+    }
+}, false)
 
 
 // Get a canvas defined with ID "visuals"
@@ -351,76 +525,183 @@ const visualsCanvas = document.getElementById("visuals");
 const visualsCanvas2d = visualsCanvas.getContext("2d");
 const volumeHistory = [];
 const translateDistance = {x:0.0, y:0.0, r: 0.0 };
+const volumeCurves = []
+let frameCount = 0
+let audioSource = null
 
+function isChecked(...ids) {
+    for (const id of ids) {        
+        if (document.getElementById(id)?.checked) { return true }
+    }
+    return false    
+}
+
+
+function valueOf(...ids) {        
+    for (const id of ids) {
+        const element = document.getElementById(id)
+        if (element?.value) { return element.value}
+    }
+    return null    
+}
+
+function valuesOf(...ids) {
+    const output = {}
+    for (const id of ids) {
+        output[id] = document.getElementById(id)?.value
+    }
+    return output
+}
+
+function propertyValueOf(propertyName) {
+    getComputedStyle(visualsCanvas).getPropertyValue(propertyName)
+}
 
 async function ShowVisualizer() {    
     const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
     const analyser = audioCtx.createAnalyser();
     analyser.fftSize = 2048;
-    const barsAnalyzer = audioCtx.createAnalyser();
-    barsAnalyzer.fftSize = 512;
+    const barsAnalyser = audioCtx.createAnalyser();
+    barsAnalyser.fftSize = 512;
+
     const bufferLength = analyser.frequencyBinCount;
-    const barsBufferLength = barsAnalyzer.frequencyBinCount;
+    const barsBufferLength = barsAnalyser.frequencyBinCount;
     const dataArray = new Uint8Array(bufferLength);
     const frequencyArray = new Uint8Array(barsBufferLength);
+
+    const leftFrequencyAnalyser = audioCtx.createAnalyser()
+    leftFrequencyAnalyser.fftSize = 2048;
+    const leftDataArray = new Uint8Array(bufferLength);
+
+    const rightFrequencyAnalyser = audioCtx.createAnalyser()
+    rightFrequencyAnalyser.fftSize = 2048;    
+    const rightDataArray = new Uint8Array(bufferLength);
+
+    const leftBarsAnalyser = audioCtx.createAnalyser();    
+    leftBarsAnalyser.fftSize = 512;
+    const leftFrequencyArray = new Uint8Array(barsBufferLength);
     
-    // For the color bar analyzer we want a average of a few frequencies    
+    const rightBarsAnalyser = audioCtx.createAnalyser();    
+    rightBarsAnalyser.fftSize = 512;
+    const rightFrequencyArray = new Uint8Array(barsBufferLength);
+    
+    
+    // For the color bar analyzer we want a average of a few frequencies
+    
     const colorSelector = document.getElementById('SelectColor')
+    const leftColorSelector = document.getElementById('SelectLeftColor')
+    const rightColorSelector = document.getElementById('SelectRightColor')
     const colorBarAnalyzer = audioCtx.createAnalyser();
     // so we want use a smaller fftSize
     colorBarAnalyzer.fftSize = 32;
-    const colorArray = new Uint8Array(colorBarAnalyzer.frequencyBinCount);     
+    const colorArray = new Uint8Array(colorBarAnalyzer.frequencyBinCount);
+    if (! audioSource) {
+        audioSource = audioCtx.createMediaElementSource(document.getElementById("audio"));
+    }    
+    const splitter = audioCtx.createChannelSplitter(2);    
+    const panner = audioCtx.createStereoPanner()
+    const compressor = audioCtx.createDynamicsCompressor();
+    const biquadFilter = audioCtx.createBiquadFilter()
+    const merger = audioCtx.createChannelMerger(2);
+    
+    audioSource.connect(panner)
+    panner.connect(splitter)
 
-    source = audioCtx.createMediaElementSource(document.getElementById("audio"));
+    // compressor.connect(splitter)
+    // biquadFilter.connect(splitter)
+    
+    
+
+    const leftGain = audioCtx.createGain();
+    leftGain.gain.setValueAtTime(1, audioCtx.currentTime);
+    splitter.connect(leftGain, 0);
+
+    const rightGain = audioCtx.createGain()
+    rightGain.gain.setValueAtTime(1, audioCtx.currentTime);
+    splitter.connect(rightGain, 1)    
+
+    // Connect the splitter back to the second input of the merger: we
+    // effectively swap the channels, here, reversing the stereo image.
+    // leftGain.connect(merger, 0, 1);
+    leftGain.connect(leftFrequencyAnalyser)
+    leftGain.connect(leftBarsAnalyser)
+    leftGain.connect(merger, 0, 0);
+    rightGain.connect(rightFrequencyAnalyser)
+    rightGain.connect(rightBarsAnalyser)
+    rightGain.connect(merger, 0, 1);        
+    
     // Connect the source to be analysed
-    source.connect(analyser);
-    source.connect(barsAnalyzer);
-    analyser.connect(audioCtx.destination);
+    audioSource.connect(analyser);
+    audioSource.connect(barsAnalyser);
+
+    merger.connect(audioCtx.destination);
 
 
-    function measure() {
+    function measure(levelsArray, freqArray) {
         let totalVolume = 0.0
         let totalFrequency = 0.0
         let totalLow = 0.0
         let totalMid = 0.0
         let totalHigh = 0.0
+        let totalNonZero = 0.0
         let lowCount = 1
         let midCount = 1
         let highCount = 1
+        let nonZeroCount = 1
+        
         const nonZero = []
-        for (let frequencyIndex = 0; frequencyIndex < frequencyArray.length; frequencyIndex++) {
-            const frequencyValue = frequencyArray[frequencyIndex];
-            if (frequencyValue > 0 ) { nonZero.push(frequencyIndex)}
+        const levels = {
+            all: [],
+            low: [],
+            mid: [],
+            high: [],
+            nonZero: []
+        }
+        
+        const scopeLine = []
+        for (let frequencyIndex = 0; frequencyIndex < levelsArray.length; frequencyIndex++) {            
+            const frequencyValue = levelsArray[frequencyIndex];
+            const frequencyRatio = frequencyValue/255.0                        
+            let frequencyDelta = frequencyRatio            
+            levels.all.push(frequencyRatio)            
+            if (frequencyValue > 0 ) {
+                
+                levels.nonZero.push(frequencyRatio)
+                totalNonZero += frequencyValue
+                nonZeroCount++
+            }
             totalVolume += frequencyValue;
-            if (frequencyValue > 0 && frequencyIndex < (frequencyArray.length / 3)) {
-                // low frequencies
+            if (frequencyValue > 0 && frequencyIndex < (levelsArray.length / 3)) {                    
+                // low frequencies                                
+                levels.low.push(frequencyRatio)
                 totalLow += frequencyValue;
                 lowCount++
-            } else if (frequencyValue > 0 && frequencyIndex < (2 * (frequencyArray.length / 3))) {
-                // mid frequencies
+            } else if (frequencyValue > 0 && frequencyIndex < (2 * (levelsArray.length / 3))) {
+                // mid frequencies                
+                levels.mid.push(frequencyRatio)
                 totalMid += frequencyValue;
                 midCount++
             } else if (frequencyValue > 0) {
-                // high frequencies
+                // high frequencies                
+                levels.high.push(frequencyRatio)
                 totalHigh += frequencyValue;
                 highCount++
             }    
         }
-        const averageVolume = (totalVolume / frequencyArray.length) / 255.0;
+        
+        const averageVolume = (totalVolume / levelsArray.length) / 255.0;
         const averageLow = (totalLow / lowCount) / 255.0;
         const averageMid = (totalMid / midCount) / 255.0;
         const averageHigh = (totalHigh / highCount)  / 255.0;
+        const averageNonZero = (totalNonZero / nonZeroCount)  / 255.0;
         
-        
-        
-        
-        for (let sampleIndex = 0; sampleIndex < dataArray.length; sampleIndex++) {            
-            const sampleValue = dataArray[sampleIndex];
+        for (let sampleIndex = 0; sampleIndex < freqArray.length; sampleIndex++) {
+            const sampleValue = freqArray[sampleIndex];
+            scopeLine.push(sampleValue/128.0)
             totalFrequency += sampleValue;
         }
-        
 
-        const averageFrequency = (totalFrequency / dataArray.length) / 255.0;
+        const averageFrequency = (totalFrequency / freqArray.length) / 255.0;
 
         return {
             average: {
@@ -428,52 +709,166 @@ async function ShowVisualizer() {
                 frequency: averageFrequency,
                 low: averageLow,
                 mid: averageMid,
-                high: averageHigh
-            }
+                high: averageHigh,
+                nonZero: averageNonZero
+            },
+            levels: levels,            
+            scope: scopeLine
         }
     }
 
 
     // draw an oscilloscope of the current audio source
     function draw() {
-        requestAnimationFrame(draw);
 
+        // First, request the next animation frame to call this
+        requestAnimationFrame(draw);        
+
+        // Then increment our frame count
+        frameCount++
+
+        const optionNames = ['Bars','Left','Pattern','RadialScope','Right','Scope','Stereo','VolumeCurve']
+        const options = {}        
+        for (const groupName of ['show','fill','evenOdd']) {
+            options[groupName] = {}
+            for (const optionName of optionNames) {
+                options[groupName][optionName.substring(0,1).toLowerCase() + optionName.substring(1)] = isChecked(groupName + optionName)
+            }
+        }        
+        const show = options.show
+        const fill = options.fill
+        const evenOdd = options.evenOdd        
+
+        const colors = {
+            bars: getComputedStyle(visualsCanvas).getPropertyValue(
+                valueOf('SelectBarsColor')
+            ),                                
+            left: getComputedStyle(visualsCanvas).getPropertyValue(
+                valueOf('SelectLeftColor')
+            ),
+            right: getComputedStyle(visualsCanvas).getPropertyValue(
+                valueOf('SelectRightColor')
+            ),
+            scope: getComputedStyle(visualsCanvas).getPropertyValue(
+                valueOf('SelectScopeColor')
+            ),
+            pattern: getComputedStyle(visualsCanvas).getPropertyValue(
+                valueOf('SelectPatternColor')
+            ),
+            radial: getComputedStyle(visualsCanvas).getPropertyValue(
+                valueOf('SelectRadialColor')
+            ),
+            curve: getComputedStyle(visualsCanvas).getPropertyValue(
+                valueOf('SelectCurveColor')
+            )
+        }
+
+        // Then, get our data from the Analyzers
         analyser.getByteTimeDomainData(dataArray);
-        barsAnalyzer.getByteFrequencyData(frequencyArray);
 
-        const info = measure();
+        if (show.stereo) {
+            leftFrequencyAnalyser.getByteTimeDomainData(leftDataArray)
+            rightFrequencyAnalyser.getByteTimeDomainData(rightDataArray)
+            barsAnalyser.getByteFrequencyData(frequencyArray);
+            leftBarsAnalyser.getByteTimeDomainData(leftFrequencyArray)
+            rightBarsAnalyser.getByteTimeDomainData(rightFrequencyArray)
+        }
         
+        // Adjust the panner
+        let pannerValue = document.getElementById('stereoPanner').value
+        if (pannerValue) { panner.pan.value = pannerValue / 100; }        
 
-        
+        // Set the channel gains
+        let leftGainValue = document.getElementById('leftGain').value
+        if (leftGainValue) { leftGain.gain.value = leftGainValue / 50 }            
+        let rightGainValue = document.getElementById('rightGain').value
+        if (rightGainValue) { rightGain.gain.value = rightGainValue / 50 }
+
+        // And measure the audio
+        const info = measure(frequencyArray, dataArray);
+        let leftInfo = null
+        let rightInfo = null
+        let channelDelta = 0
+        let measurements = []
+        if (show.stereo) {
+            leftInfo = measure(leftFrequencyArray, leftDataArray)     
+            rightInfo = measure(rightFrequencyArray, rightDataArray)
+            channelDelta = leftInfo.average.volume - rightInfo.average.volume
+            measurements.push(rightInfo)
+            measurements.push(leftInfo)
+        }
+        measurements.push(info)
+
+        // Most of what we visualize is based off of levels.
+        const levels = info.levels;
+
+        let patternColor = getComputedStyle(visualsCanvas).getPropertyValue(leftColorSelector.value)
+    
+        let leftColor = getComputedStyle(visualsCanvas).getPropertyValue(leftColorSelector.value)
+        if (! leftColor) { leftColor = 'green' }
+        let rightColor = getComputedStyle(visualsCanvas).getPropertyValue(rightColorSelector.value)
+        if (! rightColor) { rightColor = 'red' }
+
+        // Get our turtle path and pattern
         let turtlePattern = document.getElementById("turtle-pattern")
-        
+        let turtlePath = document.getElementById("turtle-path")
 
-        if (turtlePattern) {
-            translateDistance.x = (info.average.volume * 23) + (info.average.frequency) * 42; // audio.currentTime/audio.duration * 1024;
-            translateDistance.y = (info.average.volume * 23) + (info.average.frequency - 0.5) * 42; // audio.currentTime/audio.duration * -512; // // (info.average.volume * - 4.2);
+        // If we are showing the path / pattern
+        if (turtlePattern && show.pattern) {
+            // Let us "wobble" a bit from our center based off of the average volume and frequency
+            translateDistance.x = (info.average.volume * 23) + (info.average.frequency) * 42;
+            translateDistance.y = (info.average.volume * 23) + (info.average.frequency - 0.5) * 42;
+            // and slightly wobble in rotation
             translateDistance.r = ( (info.average.frequency - 0.5) * 180)
+            // if things are not silent
             if (info.average.volume > 0) {
+                // Then we want to transform the pattern based off of volume
                 let scaleX = info.average.volume + (info.average.low*1.6)/(info.average.frequency)
                 let scaleY = info.average.volume + (info.average.low*0.4+info.average.mid*0.8+info.average.high*1.5)/(info.average.frequency)
                 turtlePattern.setAttribute("patternTransform", ``
-                    translate(`${translateDistance.x} `${translateDistance.y})
-                    
+                    translate(`${translateDistance.x} `${translateDistance.y})                    
                     scale(`${scaleX} `${scaleY}`)
                 ``);
             }
             
+            if (turtlePath) {
+                turtlePath.setAttribute("opacity", (info.average.volume + info.average.low)/2);
+                turtlePath.style.setProperty('--foreground', colors.pattern)
+                if (fill.pattern) {
+                    turtlePath.setAttribute("fill", colors.pattern)
+                    if (evenOdd.pattern) {
+                        turtlePath.setAttribute("fill-rule", "evenodd")    
+                    } else {
+                        turtlePath.setAttribute("fill-rule", "nonzero")
+                    }                    
+                    turtlePath.setAttribute("stroke", "transparent")
+                } else {
+                    turtlePath.setAttribute("stroke", colors.pattern)
+                    turtlePath.setAttribute("fill", "transparent")
+                }
+                
+            }
+        } else if (turtlePattern && ! show.pattern) {
+            let turtlePath = document.getElementById("turtle-path")
+            if (turtlePath) {
+                turtlePath.setAttribute("opacity", 0);
+            }
         }
 
+        // We want to change the rotation by setting its animation.
+        // Why?  Because it ensures that it will not use the natural rotation animation
+        // (this would rotation overload).
         let rotatePattern = document.getElementById("rotate-pattern")
-        if (rotatePattern) {            
+        if (rotatePattern && show.pattern) {
             rotatePattern.setAttribute('values', (audio.currentTime/60 * 360 * 33) - (info.average.volume * 30) - translateDistance.r)
         }
        
+        // Next up is creation of an automatic note color.
+        // This area could use some improvement, which is why is not on by default.
         const notePercent = {}
-        notePercent['red'] = info.average.low;
+        notePercent['red']   = info.average.low;
         notePercent['green'] = info.average.mid;
-        notePercent['blue'] = info.average.high;
-
+        notePercent['blue']  = info.average.high;
         const noteRGB = {}
 
         let baseColor = getComputedStyle(visualsCanvas).getPropertyValue(colorSelector.value);
@@ -481,109 +876,270 @@ async function ShowVisualizer() {
         noteRGB['red'] = Math.floor(Math.min(info.average.volume + (info.average.low * 1.5) * 255, 255));
         noteRGB['green'] = Math.floor(Math.min(info.average.volume + (info.average.mid * 2.1) * 255, 255));
         noteRGB['blue'] = Math.floor(Math.min(info.average.volume + (info.average.high * 1.6) * 255, 255));
-        noteRGB['color'] = ``#`${noteRGB.red.toString(16).padStart(2, '0')}`${noteRGB.green.toString(16).padStart(2, '0')}`${noteRGB.blue.toString(16).padStart(2, '0')}``;
-
-
-        let backgroundColor = getComputedStyle(visualsCanvas).getPropertyValue('--background')
-        if (backgroundColor == '') {
-            backgroundColor = '#FFFFFF'
-        }
-        
-        let turtlePath = document.getElementById("turtle-path")
-        if (turtlePath) {
-            turtlePath.setAttribute("opacity", (info.average.volume + info.average.low)/2);
-        }
+        noteRGB['color'] = ``#`${noteRGB.red.toString(16).padStart(2, '0')}`${noteRGB.green.toString(16).padStart(2, '0')}`${noteRGB.blue.toString(16).padStart(2, '0')}``;                    
 
         // getComputedStyle(document).setPropertyValue('--foreground',noteRGB['color'])
+
+        // Ok, let us set up our foregroundColor 
         let foregroundColor = ''
         if (document.getElementById('autoColor').checked) {
+            // If we wanted to use the auto color,
+            // change it and the value
             foregroundColor = noteRGB['color']
-            if (turtlePath) {                
+            if (turtlePath) {
+                // and change the foreground variable within the path.
                 turtlePath.style.setProperty('--foreground', foregroundColor)
             }            
         }
         else if (document.getElementById('showCustomColor').checked) {
-            foregroundColor = document.getElementById('customColor').value
+            // If we wanted to use a custom color, change values accordingly
+            foregroundColor = document.getElementById('customColor').value            
             if (turtlePath) {                
                 turtlePath.style.setProperty('--foreground', foregroundColor)
             }
         }
         else {
+            // Otherwise, use the color CSS variable selected in the dropdown.
             foregroundColor = getComputedStyle(visualsCanvas).getPropertyValue(colorSelector.value)
             if (turtlePath) {
-                turtlePath.style.setProperty('--foreground', foregroundColor)
+                turtlePath.style.setProperty('--foreground', colors.pattern)
             }
         }
        
+        // Make our visuals take up the whole screen
         visualsCanvas.width = window.innerWidth
-        visualsCanvas.height = window.innerHeight
+        visualsCanvas.height = window.innerHeight        
         visualsCanvas.style.width = "100%"
         visualsCanvas.style['margin-left'] = "0%"
+        // And set our values accordingly.
         const visualsWidth = window.innerWidth
         const visualsHeight = window.innerHeight
     
-        visualsCanvas2d.fillStyle = backgroundColor
-        visualsCanvas2d.clearRect(0, 0, visualsWidth, visualsHeight)
+        // One would think we would need to clear the rectangle, but one would be wrong.
+        // One is not quite sure why this is the case.
+        // visualsCanvas2d.clearRect(0, 0, visualsWidth, visualsHeight)
 
-        visualsCanvas2d.lineWidth = info.average.low * 4.2;
+        // Our first set of lines are defined by the average bassline
+        visualsCanvas2d.lineWidth = info.average.low * 4.2;        
         visualsCanvas2d.strokeStyle = foregroundColor;
         let x = 0;
+        let scopes = []
+        let nonZeros = [] 
+        let channelNames = []       
+        if (show.stereo) {
+            channelNames.push("right")
+            channelNames.push("left")
+            scopes.push(rightInfo.scope)
+            scopes.push(leftInfo.scope)
+            nonZeros.push(rightInfo.levels.nonZero)
+            nonZeros.push(leftInfo.levels.nonZero)
+        }
+        channelNames.push("mono")
+        scopes.push(info.scope)
+        nonZeros.push(info.levels.nonZero)            
         
-        if (document.getElementById('showScope').checked) {
-            visualsCanvas2d.beginPath();
-            const sliceWidth = (visualsWidth * 1.0) / bufferLength;                        
-            x = 0;
-            for (let i = 0; i < bufferLength; i++) {
-                const v = dataArray[i] / 128.0;
-                const y = v * (visualsHeight / 2);
-
-                if (i === 0) {
-                    visualsCanvas2d.moveTo(x, y);
-                } else {
-                    visualsCanvas2d.lineTo(x, y);
+        // If we are showing a scopes,
+        if (show.scope) {
+            // let us draw each scope in a loop
+            for (let scopeIndex =0; scopeIndex < scopes.length; scopeIndex++) {                
+                const scope = scopes[scopeIndex]
+                const nonZero = nonZeros[scopeIndex]
+                // We are going to turn this into an SVG path
+                const scopePath = []
+                // This is actually pretty easy:
+                // Our scope is a range of values between 0 and 2.
+                // This makes most of the math easy.
+                // For a standard ossciloscope, 
+                // we start by dividing the screen into slices
+                let sliceWidth = visualsWidth / scope.length;
+                x = 0
+                                
+                // and go over each point in our scope
+                for (let i = 0; i < scope.length; i++) {                    
+                    // our 'vertical' value is translated into the range of `[1,-1]`
+                    const v = scope[i] - 1;
+                    // we want the scope to max out at 1/3 of the screen size
+                    // so we weight our value by that number
+                    let weight = (visualsHeight/3)
+                    // We determine our point in the nonZero volume array
+                    let nonZeroIndex = Math.floor(i/scope.length * nonZero.length)
+                    // and multiply the weight
+                    weight *= nonZero[nonZeroIndex]
+                    // to calculate y, we take half of the height and add our weighted value.                
+                    const y = (visualsHeight / 2) + v * weight
+                    // we have to start the line at the first point
+                    // every other point is a line segment.
+                    if (i === 0) { scopePath.push(``M `${x} `${y}``)
+                    } else { scopePath.push(``L `${x} `${y}``) }
+                    // Increment our x and continue to the next point
+                    x += sliceWidth;
                 }
 
-                x += sliceWidth;
+                // Congratulations, we now have a path of our first ossiloscope!            
+                const scopePath2D = new Path2D(scopePath.join(' '))
+                // just set the color
+                // just set the color
+                if (channelNames[scopeIndex] == "mono") {
+                    visualsCanvas2d.strokeStyle = foregroundColor
+                    visualsCanvas2d.fillStyle = foregroundColor
+                }
+                if (channelNames[scopeIndex] == "right") {
+                    visualsCanvas2d.strokeStyle = rightColor
+                    visualsCanvas2d.fillStyle = rightColor
+                    if (! show.right) { continue }
+                    if (fill.right) {
+                        if (evenOdd.right) {
+                            visualsCanvas2d.fill(scopePath2D, 'evenodd')
+                        } else {
+                            visualsCanvas2d.fill(scopePath2D)
+                        }                                                                                        
+                        continue
+                    }
+                }
+                if (channelNames[scopeIndex] == "left") {
+                    visualsCanvas2d.strokeStyle = leftColor
+                    visualsCanvas2d.fillStyle = leftColor
+                    if (! show.left) { continue }
+                    if (fill.left) {
+                        if (evenOdd.left) {
+                            visualsCanvas2d.fill(scopePath2D, 'evenodd')
+                        } else {
+                            visualsCanvas2d.fill(scopePath2D) 
+                        }
+                        
+                        continue
+                    }
+                }
+                                
+                // and stroke or fill the path. 
+                if (fill.scope) {
+                    if (evenOdd.scope) {
+                        visualsCanvas2d.fill(scopePath2D, 'evenodd')
+                    } else {
+                        visualsCanvas2d.fill(scopePath2D)
+                    }                    
+                } else {
+                    visualsCanvas2d.stroke(scopePath2D) 
+                }
+                
             }
-        
-            visualsCanvas2d.lineTo(visualsWidth, visualsHeight / 2);
-            visualsCanvas2d.stroke();
         }
 
-        if (document.getElementById('showRadialScope').checked) {
-            /*
-            Radial Oscilloscope
-            */
-        
-            const centerX = visualsWidth / 2;
-            const centerY = visualsHeight / 2;
-            const radius = Math.min(centerX, centerY) * 0.66 * info.average.volume;
-            const angleStep = (Math.PI * 2) / (bufferLength - 1);
-            
-            for (let i = 0; i < bufferLength; i++) {
-                const v = dataArray[i] / 128.0;
-                const x = centerX + Math.cos(angleStep * i) * radius * v;
-                const y = centerY + Math.sin(angleStep * i) * radius * v;                
-                if (i === 0) {            
-                    visualsCanvas2d.moveTo(x, y);
+        if (show.radialScope) {
+            for (let scopeIndex =0; scopeIndex < measurements.length; scopeIndex++) {                
+                const scope = measurements[scopeIndex].scope
+                
+                // We are going to turn this into an SVG path
+                const scopePath = []
+                const centerX = visualsWidth / 2
+                const centerY = visualsHeight / 2
+                let volumeWeight = info.average.volume
+                const radius = Math.min(centerX, centerY) * 0.66 * volumeWeight
+                let angleStep = (Math.PI * 2) / scope.length                
+                for (let i = 0; i < scope.length; i++) {
+                    let angle = angleStep*i
+                    if (i == (scope.length - 1)) {
+                        scopePath.push('z')
+                        continue
+                    }
+                    const v = scope[i]
+                    const x = centerX + Math.cos(angleStep * i) * radius * v                    
+                    const y = centerY + Math.sin(angleStep * i) * radius * v                    
+                    if (angle === 0) {
+                        scopePath.push(``M `${x} `${y}``)
+                    } else {
+                        scopePath.push(``L `${x} `${y}``)
+                    }
+                }
+                                        
+                // Congratulations, we now have a radial ossiloscope!
+                const scopePath2D = new Path2D(scopePath.join(' '))
+                // just set the color
+                if (channelNames[scopeIndex] == "mono") {
+                    visualsCanvas2d.strokeStyle = colors.radial
+                    visualsCanvas2d.fillStyle = colors.radial
+                }
+                if (channelNames[scopeIndex] == "right") {
+                    visualsCanvas2d.strokeStyle = rightColor
+                    visualsCanvas2d.fillStyle = rightColor
+                    if (! show.right) { continue }
+                    if (fill.right) {                        
+                        if (evenOdd.right) {
+                            visualsCanvas2d.fill(scopePath2D, 'evenodd')
+                        } else {
+                            visualsCanvas2d.fill(scopePath2D)
+                        }
+                        continue
+                    }
+                }
+                if (channelNames[scopeIndex] == "left") {
+                    visualsCanvas2d.strokeStyle = leftColor
+                    visualsCanvas2d.fillStyle = leftColor
+                    if (! show.left) { continue }
+                    if (fill.left) {
+                        if (evenOdd.left) {
+                            visualsCanvas2d.fill(scopePath2D, 'evenodd')
+                        } else {
+                            visualsCanvas2d.fill(scopePath2D)
+                        }
+                        continue
+                    }
+                }
+                                
+                // and stroke the path. 
+                if (fill.radialScope) {
+                    if (evenOdd.radialScope) {
+                        visualsCanvas2d.fill(scopePath2D, 'evenodd')
+                    } else {
+                        visualsCanvas2d.fill(scopePath2D)
+                    }                                       
                 } else {
-                    visualsCanvas2d.lineTo(x, y);
+                    visualsCanvas2d.stroke(scopePath2D) 
                 }
             }
-
-            visualsCanvas2d.stroke();
         }
                 
-        if (document.getElementById('showBars').checked) {
-            x = 0;
-            const barWidth = (visualsWidth * 1.0) / barsBufferLength;
+        
+        if (show.bars || show.volumeCurve) {
+            x = 0;            
+            const gapWidth = 3
+            const barLevels = levels.nonZero
+            let barWidth = ((visualsWidth * 1.0) / barLevels.length) - gapWidth
             let barHeight = 0;
-            for (let i = 0; i < barsBufferLength; i++) {
-                barHeight = frequencyArray[i] / 2;
-                visualsCanvas2d.fillStyle = foregroundColor;
-                visualsCanvas2d.fillRect(x, visualsHeight - barHeight / 2, barWidth, barHeight);
-                x += barWidth + 1;
-            }    
+            
+            let path = []
+            let barsPath = []
+            for (let i = 0; i < barLevels.length; i++) {
+                barHeight = barLevels[i] * visualsHeight * 1/8;                
+                let rectTop = visualsHeight - barHeight
+                if (show.bars) {
+                    visualsCanvas2d.fillStyle = colors.bars;
+                    visualsCanvas2d.strokeStyle = colors.curve;
+                    visualsCanvas2d.fillRect(x, visualsHeight - barHeight, barWidth, barHeight);
+                }                
+
+                if (i == 0 ) {
+                    path.push(``M 0 `${visualsHeight}``)
+                    path.push(``L `${x} `${rectTop - info.average.low * 4.2}``)
+                } else {                    
+                    path.push(``L `${x + (barWidth + gapWidth ) / 2} `${rectTop - info.average.low * 4.2}``)
+                }
+                x += barWidth + gapWidth;
+            }                            
+
+            if (show.volumeCurve) {
+                let path2d = new Path2D(path.join(' '))
+                //path.strokeWidth = 1
+                
+                if (! show.bars) {
+                    visualsCanvas2d.fillStyle = colors.bars
+                    visualsCanvas2d.fill(path2d)
+                }
+                    
+                visualsCanvas2d.lineWidth = info.average.volume * 4.2;
+                visualsCanvas2d.strokeStyle = colors.curve
+                visualsCanvas2d.stroke(path2d)
+            }            
         }
     }
     draw();
@@ -592,13 +1148,4 @@ async function ShowVisualizer() {
 "@
 $html
 
-
-"<details>"
-"<summary>View Source</summary>"
-"<div id='PowerShellCode'>"
-"<pre><code class='language-PowerShell'>"
-[Web.HttpUtility]::HtmlEncode($MyInvocation.MyCommand.ScriptBlock)
-"</code></pre>"
-"</div>"
-"</details>"
 $OnResize

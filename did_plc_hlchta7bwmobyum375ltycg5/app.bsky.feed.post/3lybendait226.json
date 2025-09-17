@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757271484995012,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lybendeydy2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lybendait226",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-07T18:58:03.956Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibzfxyukhbxuk22ep4ef564gsv5qgig4sbi6hxrqvd4psnbwemtum",
+          "uri": "at://did:plc:nbhqozlybqqmxax3vdawb4lf/app.bsky.feed.post/3ly7sryzg2s2p"
+        },
+        "root": {
+          "cid": "bafyreidpnkfuq4yn35qbvqjnr4tt3jwe3pv2kja6om6ndp5gamj5gjvk5u",
+          "uri": "at://did:plc:nbhqozlybqqmxax3vdawb4lf/app.bsky.feed.post/3ly6ypvywhc2d"
+        }
+      },
+      "text": "I think it would teach you much more.\n\nI also think that JSON representing a half translated form of the language is much less useful than JSON representing the language without modification ( see Jupyter Notebooks ).\n\nThis is a polite way of saying \"you are barking up the wrong tree\"."
+    },
+    "cid": "bafyreibc7prm543kev2e5aa6jlc4gvf7u5i6tp4ckczqqmfyz6uzbtp4jq"
+  }
+}

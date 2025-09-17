@@ -94,54 +94,56 @@ if ($site.PSScriptRoot) {
 #region At Protocol
 
 #region At Data
-# If we have a script root, we'll use it to set the working directory.
-# Create a new DataSet to hold the At Protocol data.
-$atProtocolData = [Data.DataSet]::new('AtProtocol')
-# Look up in the path
-$parentPath = $PSScriptRoot | Split-Path -Parent
-# Find any directories that start with did* in the parent path.
-$atJsonFiles = $parentPath | 
-    Get-ChildItem -Filter did* |
-    Get-ChildItem -Directory | 
-    Get-ChildItem -Filter *.json # and get any json files in them.
 
-foreach ($jsonFile in $atJsonFiles) {
-    $jsonText = Get-Content -Path $jsonFile.FullName -Raw
-    $jsonObject = ConvertFrom-Json -InputObject $jsonText
-    $recordType = $jsonObject.commit.record.'$type'
-    if (-not $recordType) { continue }
-    
-    if (-not $atProtocolData.Tables[$recordType]) {
-        $dataTable = $atProtocolData.Tables.Add($recordType)
-        $dataTable.Columns.AddRange(@(
-            [Data.DataColumn]::new('did', [string], '', 'Attribute'),
-            [Data.DataColumn]::new('rkey', [string], '', 'Attribute')
-            [Data.DataColumn]::new('createdAt', [DateTime], '', 'Attribute'),
-            [Data.DataColumn]::new('atUri', [string], "'at://' + did + '/$recordType/' + rkey", 'Attribute')
-            [Data.DataColumn]::new('json', [string], '', 'SimpleContent')
-            [Data.DataColumn]::new('message', [object], '', 'Hidden')
-        ))
-        $dataTable.PrimaryKey = $dataTable.Columns['did', 'rkey']
-        $dataTable.DefaultView.Sort = 'createdAt ASC'
-    } else {
-        $dataTable = $atProtocolData.Tables[$recordType]
+if (-not $site.AtData) {
+    # If we have a script root, we'll use it to set the working directory.
+    # Create a new DataSet to hold the At Protocol data.
+    $atProtocolData = [Data.DataSet]::new('AtProtocol')
+    # Look up in the path
+    $parentPath = $PSScriptRoot | Split-Path -Parent
+    # Find any directories that start with did* in the parent path.
+    $atJsonFiles = $parentPath | 
+        Get-ChildItem -Filter did* |
+        Get-ChildItem -Directory | 
+        Get-ChildItem -Filter *.json # and get any json files in them.
+
+    foreach ($jsonFile in $atJsonFiles) {
+        $jsonText = Get-Content -Path $jsonFile.FullName -Raw
+        $jsonObject = ConvertFrom-Json -InputObject $jsonText
+        $recordType = $jsonObject.commit.record.'$type'
+        if (-not $recordType) { continue }
+        
+        if (-not $atProtocolData.Tables[$recordType]) {
+            $dataTable = $atProtocolData.Tables.Add($recordType)
+            $dataTable.Columns.AddRange(@(
+                [Data.DataColumn]::new('did', [string], '', 'Attribute'),
+                [Data.DataColumn]::new('rkey', [string], '', 'Attribute')
+                [Data.DataColumn]::new('createdAt', [DateTime], '', 'Attribute'),
+                [Data.DataColumn]::new('atUri', [string], "'at://' + did + '/$recordType/' + rkey", 'Attribute')
+                [Data.DataColumn]::new('json', [string], '', 'SimpleContent')
+                [Data.DataColumn]::new('message', [object], '', 'Hidden')
+            ))
+            $dataTable.PrimaryKey = $dataTable.Columns['did', 'rkey']
+            $dataTable.DefaultView.Sort = 'createdAt ASC'
+        } else {
+            $dataTable = $atProtocolData.Tables[$recordType]
+        }
+
+        $dataRow = $dataTable.NewRow()
+        $dataRow['did'] = $jsonObject.did
+        $dataRow['rkey'] = $jsonObject.commit.rkey    
+        $dataRow['createdAt'] = 
+            if ($jsonObject.commit.record.createdAt) { $jsonObject.commit.record.createdAt }
+            else { [DBNull]::Value }
+        $jsonObject.pstypenames.insert(0, $recordType)
+        $dataRow['message'] = $jsonObject
+        $dataRow['json'] = $jsonText    
+        $dataTable.Rows.Add($dataRow)
     }
 
-    $dataRow = $dataTable.NewRow()
-    $dataRow['did'] = $jsonObject.did
-    $dataRow['rkey'] = $jsonObject.commit.rkey    
-    $dataRow['createdAt'] = 
-        if ($jsonObject.commit.record.createdAt) { $jsonObject.commit.record.createdAt }
-        else { [DBNull]::Value }
-    $jsonObject.pstypenames.insert(0, $recordType)
-    $dataRow['message'] = $jsonObject
-    $dataRow['json'] = $jsonText    
-    $dataTable.Rows.Add($dataRow)
-}
-
-if ($site -is [Collections.IDictionary]) {
-    $site.AtData = $atProtocolData
-}
+    if ($site -is [Collections.IDictionary]) {
+        $site.AtData = $atProtocolData
+    }
 
 #endregion At Data
 
@@ -176,6 +178,7 @@ $atPackage.Close()
 $atPackage.Dispose()
 
 if ($psScriptRoot) {Pop-Location}
+}
 #endregion at.zip
 
 #endregion At Protocol
@@ -208,13 +211,13 @@ $site.Taskbar = [Ordered]@{
 }
 
 $site.HeaderMenu = [Ordered]@{
-    "Gists"  = "https://MrPowerShell.com/Gists"
-    "GitHub" = "https://MrPowerShell.com/GitHub"    
-    "Memes"  = "https://MrPowerShell.com/Memes"    
-    "Mentions" = "https://MrPowerShell.com/Mentions"
-    "Modules" = "https://MrPowerShell.com/Modules"
-    "Tags" = "https://MrPowerShell.com/Tags"
-    "YouTube" = "https://MrPowerShell.com/YouTube"
+    # "Gists"  = "https://MrPowerShell.com/Gists"
+    "GitHub" = "/GitHub"    
+    "Memes"  = "/Memes"    
+    "Mentions" = "/Mentions"
+    "Modules" = "/Modules"
+    "Tags" = "/Tags"
+    "YouTube" = "/YouTube"
 }
 #endregion Site Menus
 
@@ -250,9 +253,9 @@ $sitebackgrounds = @(
 
     {turtle KochSnowflake 4.2 4}
     
-    {turtle BoxFractal 1.5 4}
+    {turtle BoxFractal 4.2 4}
 
-    {turtle Flower 15 5 40 72}
+    # {turtle Flower 15 5 40 72}
 
     {turtle Flower 15 9 40 40}
 
@@ -265,11 +268,7 @@ $sitebackgrounds = @(
     {turtle @('rotate', 45, 'circle',21,0.25,'circle',21,-0.25 * 8)}
 
     {turtle rotate (360/5) @('circle',15,0.5,'circle',15,-0.5, 'rotate', 72 * 5)}
-
-    {turtle @('rotate',90, 'forward',160, @('rotate', 120, 'forward', 160 * 3) * 5)}
-
-    {turtle @('rotate',180, @('rotate', 120, 'forward', 42 * 3) * 6)}
-
+    
     {
         turtle square 42 @('rotate', -60, 'forward',42, 'rotate', 120, 'forward',42, 'rotate', 30 * 4)
     }
@@ -327,11 +326,63 @@ $sitebackgrounds = @(
     {
         turtle ($doodle,'left','30', 'forward', '75' * 3)
     }
+
+    {
+        turtle @('StepSpiral',23, 90, 4, 'rotate',90 * 4)
+    }
+
+    {
+        turtle spirolateral 42 60 8
+    }
+
+    {
+        turtle rotate -30 @('spirolateral',23,60,6,@(1,3),'rotate', 60 * 6 )
+    }
+
+    {
+        turtle spirolateral 23 90 11 @(3,4,5) 
+    }
+
+    {
+        turtle spirolateral 23 120 6 @(1,3)
+    }
+
+    {
+        turtle spirolateral 23 144 8
+    }
+    
+    {
+        turtle @('StepSpiral',23, 60, 4 * 3)
+    }
+
+    {
+        turtle @('StepSpiral',23, 120, 16, 18)
+    }
+
+    {
+        turtle @('StepSpiral',23, 60, 16, 19 * 6)
+    }
+
+    {
+        turtle @('ArcRight', 23, 60, 'ArcLeft', 23, 160 * 24)
+    }
+
+    {
+        turtle Pentaplexity 23 4
+    }
+
+    {
+        turtle BoardFractal 23 4
+    }
+
+    {
+        turtle CrystalFractal 23 4
+    }    
 )
 
 $siteBackground = $sitebackgrounds | Get-Random
         
-$site.Background = . $siteBackground |
+$site.Background = . $siteBackground|
     Set-Turtle PatternAnimation $backgroundPatternAnimations |
     Set-Turtle PathAttribute @{opacity=.2} |
     Select-Object -ExpandProperty Pattern

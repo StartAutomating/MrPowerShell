@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757352236387986,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lydptwmsde2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lydpty7lzk2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-08T17:23:57.91Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibwxxoy5bdsihc3u4tjpizewafyrdoz3wlfthz4st34yopy3wj5gm",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lyc6prbbuk2h"
+        },
+        "root": {
+          "cid": "bafyreic6mnswdlpyabsyccnn4adhgy6z5v3ghp4k6zypyrg5d6cvs3ti2a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lybeqnt4hs26"
+        }
+      },
+      "text": "A few notes here:\n\n1. PowerShell syntax is flexible, and can be terse ( see the first example that made you ask the language )\n\n2. You are correct that the taxonomy is meant to help disambiguation.\n\n3. Tab completion is a wonderful thing that saves much typing.\n\n4. Aliases are great, too."
+    },
+    "cid": "bafyreib5mvng455gw7ocnv5k3heayp3himrzy7ykgkvtlpr6myp3tfm2pe"
+  }
+}

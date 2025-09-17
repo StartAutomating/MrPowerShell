@@ -1,0 +1,80 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757359102354169,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lydwa7z2iz2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lydwa6alok27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-08T19:18:09.338Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "PowerShell Dark Blue - the original Windows PowerShell and PowerShell ISE console color - #012456",
+            "aspectRatio": {
+              "height": 200,
+              "width": 200
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreifxch2kne64njtuoczrhufvwbizc3g2wcs6fes6ubkju52p5uzloi"
+              },
+              "mimeType": "image/jpeg",
+              "size": 3431
+            }
+          },
+          {
+            "alt": "PowerShell light blue - used in many community projects - #4488ff",
+            "aspectRatio": {
+              "height": 200,
+              "width": 200
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreie6f47gcbjvae2xn7og5b7t3jty5blbbvbjso75l5jmwkddocsibq"
+              },
+              "mimeType": "image/jpeg",
+              "size": 3984
+            }
+          },
+          {
+            "alt": "PowerShell mid blue (#224488).  Often used as an accent color in community projects.",
+            "aspectRatio": {
+              "height": 200,
+              "width": 200
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreidajxcfwpmnu5brdvvmrv5quaoc2chtqz2jz2lnozfnevkjhrdvdq"
+              },
+              "mimeType": "image/jpeg",
+              "size": 3588
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiggjtuul3q2tzfp7ocncmay7emwdsakqzlxnw5dpqh4jvmdmnu5nm",
+          "uri": "at://did:plc:zam3hroornhi2pozrzsfcinv/app.bsky.feed.post/3lydsecbwvs2i"
+        },
+        "root": {
+          "cid": "bafyreiggjtuul3q2tzfp7ocncmay7emwdsakqzlxnw5dpqh4jvmdmnu5nm",
+          "uri": "at://did:plc:zam3hroornhi2pozrzsfcinv/app.bsky.feed.post/3lydsecbwvs2i"
+        }
+      },
+      "text": "~💯\n\nThe classic PowerShell Dark Blue (#012456) ? \nOr the lighter blue used in community projects (#4488ff) ?\nOr the mid blue (#224488)?\n\n~~~PowerShell\nturtle square 200 fill '#4488ff' save ./LightBlue.svg fill '#012456' save ./DarkBlue.svg fill '#224488' save ./MidBlue.svg\n~~~\n\nYour favorite?"
+    },
+    "cid": "bafyreibb37hibvpdqpedj72c2qzruuo3ckflm7tgzczkvhsrqb4ctswe2y"
+  }
+}

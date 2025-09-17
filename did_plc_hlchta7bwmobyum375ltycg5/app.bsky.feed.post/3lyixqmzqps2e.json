@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757532515715313,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyixqoeyuo2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyixqmzqps2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-10T19:28:34.147Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Gist a little file server. GitHub Gist: instantly share code, notes, and snippets.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieqhtgl35ueb6u4djc2czpaleughc5jms6rfrsnzl2uraxhbjw3za"
+            },
+            "mimeType": "image/jpeg",
+            "size": 121877
+          },
+          "title": "Gist a little file server",
+          "uri": "https://gist.github.com/StartAutomating/1faa8418351157b7536909b65b0327b0"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "gist"
+            }
+          ],
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 31
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://gist.github.com/StartAutomating/1faa8418351157b7536909b65b0327b0"
+            }
+          ],
+          "index": {
+            "byteEnd": 118,
+            "byteStart": 87
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CyberSecurity"
+            }
+          ],
+          "index": {
+            "byteEnd": 156,
+            "byteStart": 142
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Hey #PowerShell people, here's #gist a small file server (written in pure PowerShell)\n\ngist.github.com/StartAutomat...\n\nI'd appreciate if any #CyberSecurity nerds gave it a looksee and let me know if they have any suggestions for improvement."
+    },
+    "cid": "bafyreifsqovxye6u3imgtqx7e7jcq3zkq2w62ipex3hgudzo5k5o3vyln4"
+  }
+}

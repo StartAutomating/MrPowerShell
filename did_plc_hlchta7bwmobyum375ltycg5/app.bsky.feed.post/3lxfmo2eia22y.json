@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756318028532298,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxfmo46c672a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxfmo2eia22y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-27T18:07:05.465Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: The size of data types is truly astounding.  We can fit any point in the observable universe into a .NET [double] (on a Raspberry Pi ;-) )",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiff35qldn7w4n4wz6g27iv6poh3o6yvdqwqeowssnhf5tzjyboknm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 523425
+          },
+          "title": "a man with glasses is surrounded by a glowing circle and the website pmitf.com is displayed below him",
+          "uri": "https://media.tenor.com/3eIvVsG3yPYAAAAC/the-universe-tim-and-eric-mind-blown.gif?hh=317&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 33,
+            "byteStart": 22
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DotNet"
+            }
+          ],
+          "index": {
+            "byteEnd": 41,
+            "byteStart": 34
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DataType"
+            }
+          ],
+          "index": {
+            "byteEnd": 51,
+            "byteStart": 42
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Astonomy"
+            }
+          ],
+          "index": {
+            "byteEnd": 61,
+            "byteStart": 52
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "One more mind blowing #PowerShell #DotNet #DataType #Astonomy fun:\n\nCan I fit the observable universe into a [double]?\n\n~~~PowerShell\n$observableUniverse = 8.8E+26 -as [double]\n[Math]::Sqrt([double]::MaxValue)/$observableUniverse\n~~~\n\n1.52361453749348E+127\n\n(a [double] fits the universe)\n\nYes!  😀👽🌌"
+    },
+    "cid": "bafyreigjosrc7bmimvjw72jmfgfizm6mm2mkowkmmbptzvuifhcgpbwqle"
+  }
+}

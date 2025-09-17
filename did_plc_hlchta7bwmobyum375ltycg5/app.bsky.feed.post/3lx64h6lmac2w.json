@@ -1,0 +1,98 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756060097729761,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lx64h77syh2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lx64h6lmac2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-24T18:28:16.974Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Turtles in a PowerShell. Contribute to PowerShellWeb/Turtle development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibhmoifhfnjbabu33i2ke4hqo54ief776htfttqiv7wpla7rxra3a"
+            },
+            "mimeType": "image/jpeg",
+            "size": 877605
+          },
+          "title": "GitHub - PowerShellWeb/Turtle: Turtles in a PowerShell",
+          "uri": "https://GitHub.com/PowerShellWeb/Turtle"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "git"
+            }
+          ],
+          "index": {
+            "byteEnd": 51,
+            "byteStart": 47
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 84,
+            "byteStart": 73
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 92,
+            "byteStart": 85
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/PowerShellWeb/Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 130,
+            "byteStart": 104
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 152,
+            "byteStart": 148
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I swear I'm having too much fun coming up with #git branch names for new #PowerShell #Turtle features.\n\nGitHub.com/PowerShellWe...\n\nAbout to tackle #SVG Morphs\n\nCurrently lightly torn between making a branch named \"turtle-metamorphosis\" or \"mighty-morping-power-turtle\"\n\nThoughts?  Suggestions ?"
+    },
+    "cid": "bafyreifgurpu7bsyk6526qiok6fxlm56jc3nsulwg5r334g7awfnb2mh44"
+  }
+}

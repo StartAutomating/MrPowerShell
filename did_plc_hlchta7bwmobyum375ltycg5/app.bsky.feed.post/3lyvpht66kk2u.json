@@ -1,0 +1,82 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757970305838187,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyvphspqgs2t",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyvpht66kk2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-15T21:05:05.257Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 79,
+            "byteStart": 67
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "VSCode"
+            }
+          ],
+          "index": {
+            "byteEnd": 125,
+            "byteStart": 118
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CyberSecurity"
+            }
+          ],
+          "index": {
+            "byteEnd": 161,
+            "byteStart": 147
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 213,
+            "byteStart": 207
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 268,
+            "byteStart": 257
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "It's not everyday you accidentally figure out how to deadlock your #RaspberryPi when you change a font file inside of #VSCode.\n\nWho gets the bug?\n\n#CyberSecurity folks, I believe I have just uncovered a new #Linux DOS technique.\n\n( Just another Monday with #PowerShell )"
+    },
+    "cid": "bafyreiczc6shctrhctuee5a7vrc5qr6sfvtqujpfrnluysntgwkqovbvha"
+  }
+}

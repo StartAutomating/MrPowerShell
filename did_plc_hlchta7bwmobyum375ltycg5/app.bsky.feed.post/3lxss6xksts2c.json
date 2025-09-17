@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756770640366128,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxss6zgznq2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxss6xksts2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-01T23:50:38.26Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiguw264e5ndf6z7d53wtg6rq3shwiyyjfi5dxumxk2vdotytjdbp4",
+          "uri": "at://did:plc:3rgby3uaxkyykull6zax5ozb/app.bsky.feed.post/3lxsp6htxhq52"
+        },
+        "root": {
+          "cid": "bafyreidonq4s2bxr6v64hsqpkbd673mmoaqd4id47jibfs6pfe77yxl2cq",
+          "uri": "at://did:plc:3rgby3uaxkyykull6zax5ozb/app.bsky.feed.post/3lxsp47cp4at2"
+        }
+      },
+      "text": "I don't know for certain, but did you consider trying:\n\n~~~PowerShell\nGet-ChildItem | Where-Object LinkTarget \n~~~\n\nThis seemed to work for me.\n\nTo figure this out, I piped to Get-Member, spotted a LinkTarget property, and then went looking for symbol links (and found em).\n\nHope this helps!"
+    },
+    "cid": "bafyreifxmoobjfpfaiqgtta2qzcn6mnm65pnkffrsperlkibfl476x3atm"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757991213472311,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lywcwwnpts24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lywcwwhvac2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-16T02:53:33.133Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TIL"
+            }
+          ],
+          "index": {
+            "byteEnd": 4,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Font"
+            }
+          ],
+          "index": {
+            "byteEnd": 29,
+            "byteStart": 24
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 56,
+            "byteStart": 52
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#TIL Today I Learned: \n\n#Font Paths are upside-down #SVG Paths"
+    },
+    "cid": "bafyreiahbzvejjdnowpmq7aewsjdtmhjfgsrtupzp7qw5nhlvh3plwcefy"
+  }
+}

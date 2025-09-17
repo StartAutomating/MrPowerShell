@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757374316274300,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyeefxk4ix2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyeefx77nc27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-08T23:31:55.666Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreige6obtdv33hz3x3nprcaszb4cv2leey4i4vdktzvkktgqamtdp7a",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lyee6fxkds2l"
+        },
+        "root": {
+          "cid": "bafyreic6mnswdlpyabsyccnn4adhgy6z5v3ghp4k6zypyrg5d6cvs3ti2a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lybeqnt4hs26"
+        }
+      },
+      "text": "Understanding the performance curve in practice is much more a matter of understanding bottlenecks.  If you have N somewhat greedy algorithms, how do they impact the system?  How does an overlap hurt performance?  What happens under extreme stress?\n \nThese are practical life skills."
+    },
+    "cid": "bafyreidj6p7mlouyqamd5yc5yznkox57raagocogduy2ug5e2qyv3is3gm"
+  }
+}

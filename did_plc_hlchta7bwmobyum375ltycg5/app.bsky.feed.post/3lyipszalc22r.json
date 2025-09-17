@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757524002133834,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyipsx6mzn23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyipszalc22r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-10T17:06:44.129Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibwe5vb4griczymphozxu6yhfhp6dzsv7jd5dnmytlgyq3h3zu3uq",
+          "uri": "at://did:plc:fjy3sx4fxowbh6x2ldc2ykl4/app.bsky.feed.post/3lyi25vvzis23"
+        },
+        "root": {
+          "cid": "bafyreibwe5vb4griczymphozxu6yhfhp6dzsv7jd5dnmytlgyq3h3zu3uq",
+          "uri": "at://did:plc:fjy3sx4fxowbh6x2ldc2ykl4/app.bsky.feed.post/3lyi25vvzis23"
+        }
+      },
+      "text": "I mean we like to joke, but deep down we all know that hell runs on Windows NT and Batch scripts.\n\n😈😂😉"
+    },
+    "cid": "bafyreifbfg53mrb7lmdpgj6lf4xlfrtrrh7vk2kxhsxqcq6yay232mbhv4"
+  }
+}

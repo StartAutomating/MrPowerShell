@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757352801035175,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lydqeqzo6k2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lydqesc56s2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-08T17:33:22.127Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihobp33phir6gqc7szneexqvvui2ptk3mlrivr6myihlhjpejbi3m",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lyc722hhmk2h"
+        },
+        "root": {
+          "cid": "bafyreic6mnswdlpyabsyccnn4adhgy6z5v3ghp4k6zypyrg5d6cvs3ti2a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lybeqnt4hs26"
+        }
+      },
+      "text": "We all have busy schedules, and I see this a lot...\n\nI call it the \"not yet sunk cost fallacy\" or the \"it won't help fallacy\".\n\nPowerShell saves people time thru automation.  That's its major stock in trade.\n\nYou'd be amazed how often people learn it and immediately find it helpful and applicable."
+    },
+    "cid": "bafyreiax74fb5dcgtetj3lc74ud5u4pxqq5xjcawh7ve7cens5pg6hj76m"
+  }
+}

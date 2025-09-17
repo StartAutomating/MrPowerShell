@@ -1,0 +1,84 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756247597206870,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxdl33mykp2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxdl2zch522s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-26T22:33:13.596Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A Fun PowerShell Module for Multimedia (using FFMpeg) - StartAutomating/RoughDraft",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreichocaqz4wnjmyovdduyntfiiqf5p7q5uxzio7mysn7qa7u2memk4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 149795
+          },
+          "title": "GitHub - StartAutomating/RoughDraft: A Fun PowerShell Module for Multimedia (using FFMpeg)",
+          "uri": "https://github.com/StartAutomating/RoughDraft"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ffmpeg"
+            }
+          ],
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 42
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 228,
+            "byteStart": 217
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/RoughDraft"
+            }
+          ],
+          "index": {
+            "byteEnd": 287,
+            "byteStart": 261
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibgw55a3lvtfficbikpi67vza3rdgda4cpzxvbfm2x2qhlj5dzqf4",
+          "uri": "at://did:plc:ig6k7v5xtjpexm26gyzq4vci/app.bsky.feed.post/3lxdjknya2k2f"
+        },
+        "root": {
+          "cid": "bafyreibgw55a3lvtfficbikpi67vza3rdgda4cpzxvbfm2x2qhlj5dzqf4",
+          "uri": "at://did:plc:ig6k7v5xtjpexm26gyzq4vci/app.bsky.feed.post/3lxdjknya2k2f"
+        }
+      },
+      "text": "Probably just pegging a single core using #ffmpeg.\n\nYou could try it with -max-threads to let it chew up more CPU, or multiple background jobs to let more files process at once.\n\nAlso, only somewhat related, here's a #PowerShell module for media manipulation:\n\ngithub.com/StartAutomat..."
+    },
+    "cid": "bafyreidkkriou64f6r7fzeycgq2jl3ztk476d3s7owzwu6wbta47dsu47u"
+  }
+}

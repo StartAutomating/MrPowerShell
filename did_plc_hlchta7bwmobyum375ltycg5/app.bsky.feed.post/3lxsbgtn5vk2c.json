@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756752653032573,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxsbgvk6a52h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxsbgtn5vk2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-01T18:50:48.966Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Popping into $psScriptRoot is great when you want to reference multiple local paths.  Knowing how to use $psScriptRoot is required to reliably build scripts that reference a local path.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiebeqqpzmssg5wvhech4kerldcdghr6vril7o6vnhcvadnjpzevme"
+            },
+            "mimeType": "image/jpeg",
+            "size": 829896
+          },
+          "title": "a knight with a helmet and a sword says \" this is the way \"",
+          "uri": "https://media.tenor.com/WB0asE2__fAAAAAC/the-book-of-boba-fett-this-is-the-way.gif?hh=412&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicypmeilns6bc2w4c6nftfqc5enrlhbkv2snpjfh7q7go77jjko3i",
+          "uri": "at://did:plc:a5sh4otd2y3nnuqx2r7hy5dp/app.bsky.feed.post/3lxrqfjbkys2q"
+        },
+        "root": {
+          "cid": "bafyreiecqtb3sf6av622fqb7cx6efxj6rdy5pupfz3n2bhyuniaurvwkim",
+          "uri": "at://did:plc:2a7ia2xzrmuvu2kkfdo6xku5/app.bsky.feed.post/3lxphngea2e24"
+        }
+      },
+      "text": "💯\n\nThis is the way to correctly handle relative paths in a script or function.\n\nIf you're going to be doing it often, I'd suggest throwing these two lines at the top/bottom of your script:\n\n~~~PowerShell\nif ($psScriptRoot) { Push-Location $psScriptRoot }\n#...\nif ($psScriptRoot) { Pop-Location } \n~~~"
+    },
+    "cid": "bafyreifddavjy4gwkaqzfmc4bxocphtiaafwjyni5dbhcef6vuujc7fiye"
+  }
+}

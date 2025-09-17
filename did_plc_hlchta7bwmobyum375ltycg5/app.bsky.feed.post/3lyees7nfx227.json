@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757374727436440,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lyees7sokc2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lyees7nfx227",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-08T23:38:47.172Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiavdslercaamhkkpgahca2jcqiycbckvx7ptebstwiniqmjlhik5u",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lyedvgylu22l"
+        },
+        "root": {
+          "cid": "bafyreic6mnswdlpyabsyccnn4adhgy6z5v3ghp4k6zypyrg5d6cvs3ti2a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lybeqnt4hs26"
+        }
+      },
+      "text": "In cybersecurity practice, what I posted was pretty darn relevant.\n\nAbout 80% of vectors try to go thru PowerShell.  A PowerShell script is \"safe\" if it uses only safe commands and types, and does not allow indeterminate loops.\n\nWhat I posted lets you check the type, which is the richest vector."
+    },
+    "cid": "bafyreigtopa266hxqqgbhbouitz5lx4vkrnecmtdj34hb4tqxq64yjm2vm"
+  }
+}

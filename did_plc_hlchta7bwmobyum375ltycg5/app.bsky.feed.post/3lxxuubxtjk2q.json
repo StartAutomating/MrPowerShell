@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756945300617615,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxxuucf7dm2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxxuubxtjk2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-04T00:21:39.99Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicurfqz6dmhkwhdvfvpwyjqwx7jr35ylnwbpsvnpbc7jmif3a2ql4",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lxxunqjhws2k"
+        },
+        "root": {
+          "cid": "bafyreih2bdpqwc3lg2upoawzhnkhu4z5sfd5wlmpbvbed6oitmqwu263ei",
+          "uri": "at://did:plc:4hr6wshflvjydch6xlypl5c4/app.bsky.feed.post/3lxtqcfenis2e"
+        }
+      },
+      "text": "I feel there's an undiscovered algebra to languages (programming and spoken), and enjoy combining / pushing boundaries of syntax to try to postulate what it might be.\n\nCall it a weird hobby ;-)"
+    },
+    "cid": "bafyreihcq4dx5dtjxw7ucg55bk2pgntbfqx3crkarvadskd2igxx3qksda"
+  }
+}

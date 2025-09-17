@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757108130516874,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ly4mixsjuj2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ly4miuz7hk2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-05T21:35:26.061Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "YouTube video by FlobotsVEVO",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihosjdcxqyijujgilbmnn3npqxcb6qdkuzsvgg2yofuynhcclwxwm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 870804
+          },
+          "title": "Flobots - Handlebars",
+          "uri": "https://youtu.be/HLUX0y4EptA"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Handlebars"
+            }
+          ],
+          "index": {
+            "byteEnd": 17,
+            "byteStart": 6
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 21
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Music"
+            }
+          ],
+          "index": {
+            "byteEnd": 59,
+            "byteStart": 53
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://youtu.be/HLUX0y4EptA"
+            }
+          ],
+          "index": {
+            "byteEnd": 294,
+            "byteStart": 274
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Basic #Handlebars in #PowerShell (in post size, with #Music)\n\n~~~PowerShell\n$input -replace '\\{\\{(?<m>.+?)\\}\\}', {\n $m=$_.Groups['m'].Value\n if ($m -match '(?>Key|Token|Password)$') { return '' }\n $s=$ExecutionContext.SessionState\n return $s.PSVariable.Get($m).Value\n}\n~~~\n\nyoutu.be/HLUX0y4EptA\n\n😜😀😎"
+    },
+    "cid": "bafyreicoqd5hocvkqgipgnuodjwtmj6kclifkvwvvjj3dorya2vnqraimi"
+  }
+}

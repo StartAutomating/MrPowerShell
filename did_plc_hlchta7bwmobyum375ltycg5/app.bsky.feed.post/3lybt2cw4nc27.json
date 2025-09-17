@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757286954318942,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lybt2eqazd2x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lybt2cw4nc27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-07T23:15:52.21Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicydikclo62cvi7lbz7etf6uf2ect3r2sclanmbekd4ulgim7pybu",
+          "uri": "at://did:plc:ucjqs5d4mfb2bii7ta7cpur2/app.bsky.feed.post/3lybsdsmets23"
+        },
+        "root": {
+          "cid": "bafyreic6mnswdlpyabsyccnn4adhgy6z5v3ghp4k6zypyrg5d6cvs3ti2a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lybeqnt4hs26"
+        }
+      },
+      "text": "This reinforces the theory.\n\nIt's _really_ a great language for dealing with objects and sets of objects.\n\nAka, in theory, a STEM professional's best friend.\n\nIn practice, a lot of STEM people seem to have strong language affinities (aka, they already _have_ a best friend)"
+    },
+    "cid": "bafyreiho5f5mnx5fnh6rejnyqw3d7buppbg7eemqj4b35my5wtmx62egvq"
+  }
+}

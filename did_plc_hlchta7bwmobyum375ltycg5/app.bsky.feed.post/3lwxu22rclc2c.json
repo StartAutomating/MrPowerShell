@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1755844911967339,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lwxu25bq622a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lwxu22rclc2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-08-22T06:41:48.393Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Goofy as it is, I still appreciate the internet.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreie37f3dod3wpjupn7mosky6xzxlxwke36spelahdq3mxje6iaj6na"
+            },
+            "mimeType": "image/jpeg",
+            "size": 119174
+          },
+          "title": "goofy is standing in front of a door and saying awww shucks thanks .",
+          "uri": "https://media.tenor.com/hQxq9BmELa4AAAAC/shy-bashful.gif?hh=498&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihpcubja7m6k32zlpea2ikek3x7ecx36ug24h2nejvl45lmqr2sru",
+          "uri": "at://did:plc:bnqkww7bjxaacajzvu5gswdf/app.bsky.feed.post/3lwxttpmce22p"
+        },
+        "root": {
+          "cid": "bafyreib4gektu57zbdfhgg4e3ubfktn2qdvqtru6o3ryoyijn2cwdtgtdy",
+          "uri": "at://did:plc:gfrmhdmjvxn2sjedzboeudef/app.bsky.feed.post/3lwx22xd2z42l"
+        }
+      },
+      "text": "Aww... Thanks!\n\nIt's nice to feel seen."
+    },
+    "cid": "bafyreifq6rejpg7dtzvsha45l2mkax52aagqprvvufjdr6obzy3xczo2na"
+  }
+}

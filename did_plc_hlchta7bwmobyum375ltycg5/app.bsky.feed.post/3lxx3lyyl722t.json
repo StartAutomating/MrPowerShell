@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1756918183104526,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lxx3m2tvo32e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lxx3lyyl722t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-03T16:49:38.597Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Microsoft and partners disrupted Lumma Stealer, malware used to steal data and enable cybercrime. Legal action was filed on May 13 by Microsoft DCU",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigquevjaodc6ogva4tndthfez676tnb2djaqtdcyhxq5bzc3lmhoq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 357429
+          },
+          "title": "Disrupting Lumma Stealer: Microsoft leads global action against favored cybercrime tool",
+          "uri": "https://blogs.microsoft.com/on-the-issues/2025/05/21/microsoft-leads-global-action-against-favored-cybercrime-tool/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://blogs.microsoft.com/on-the-issues/2025/05/21/microsoft-leads-global-action-against-favored-cybercrime-tool/"
+            }
+          ],
+          "index": {
+            "byteEnd": 143,
+            "byteStart": 108
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifjuc4fp5omxmnj73536rxxapxxqawperdpj7ovjrce3dmuhb4odm",
+          "uri": "at://did:plc:y5ziidtxv6yvci7b7tvei3ea/app.bsky.feed.post/3lxwxm5hjpc2s"
+        },
+        "root": {
+          "cid": "bafyreifjuc4fp5omxmnj73536rxxapxxqawperdpj7ovjrce3dmuhb4odm",
+          "uri": "at://did:plc:y5ziidtxv6yvci7b7tvei3ea/app.bsky.feed.post/3lxwxm5hjpc2s"
+        }
+      },
+      "text": "I don't know for certain what payload this is trucking, but most of these vectors have been Lumma Stealer.\n\nblogs.microsoft.com/on-the-issue..."
+    },
+    "cid": "bafyreietrx33mllrhrlkrhrtbcqgvh743ucy7cjqbtlnrwkpn7ipum2hpq"
+  }
+}

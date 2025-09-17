@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757098058723190,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ly4d4qgsjm23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ly4d4odfbk2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-05T18:47:32.726Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: On the one hand, this sort of code makes me want to put on some gloves and inspect what it's actually doing.  On the other hand, it's not worth anyone's time unless it's trying to hack you.  Coin toss odds on this one, so, leave it alone.  Look on in horror for a second and then do your best to forget this ever existed.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihon2hkmucpxutswpppc5tb35lfkilhkcpjiaw4anf6xylsbsicee"
+            },
+            "mimeType": "image/jpeg",
+            "size": 707766
+          },
+          "title": "a man wearing blue gloves and a shirt that says schitts creek",
+          "uri": "https://media.tenor.com/NhU0tCwYNrIAAAAC/thats-disgusting-david.gif?hh=498&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifble5c265w3wibuk2gzm4lhiwbqlqbrwjwm5mrmzazlzg33kv6ru",
+          "uri": "at://did:plc:v55xjzasf6aed6u5tdbjc2jy/app.bsky.feed.post/3ly3x25otzc2z"
+        },
+        "root": {
+          "cid": "bafyreifble5c265w3wibuk2gzm4lhiwbqlqbrwjwm5mrmzazlzg33kv6ru",
+          "uri": "at://did:plc:v55xjzasf6aed6u5tdbjc2jy/app.bsky.feed.post/3ly3x25otzc2z"
+        }
+      },
+      "text": "Even as someone known to produce incredibly byzantine code, I have to say:  That's some gross looking PowerShell."
+    },
+    "cid": "bafyreick33jacaqarcw7fguutcisqd4mc5urq7w5wpusqs6arn74uu7ewy"
+  }
+}

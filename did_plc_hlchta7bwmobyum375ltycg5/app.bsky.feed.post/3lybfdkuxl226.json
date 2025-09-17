@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1757272232739117,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lybfdm7kwj2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lybfdkuxl226",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-07T19:10:30.164Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Kermit wants you to go to the dark side and change your primary shell on Linux to PowerShell.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreif2xyjbju6cu75uxflr4ohol4lplbfdpgbsu4kupombehuxxxfgny"
+            },
+            "mimeType": "image/jpeg",
+            "size": 60411
+          },
+          "title": "kermit the frog is wearing a black hoodie and kermit the frog is wearing a black hood .",
+          "uri": "https://media.tenor.com/x9HyTfKBXVEAAAAC/doja-cat.gif?hh=280&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiedoy4jws26sxu2bgmvkhoqgt5bbtosyizoeicpk2ewidttwwosim",
+          "uri": "at://did:plc:mx2ytos5katejcdrxmhgsido/app.bsky.feed.post/3lybc4chyxp62"
+        },
+        "root": {
+          "cid": "bafyreiedoy4jws26sxu2bgmvkhoqgt5bbtosyizoeicpk2ewidttwwosim",
+          "uri": "at://did:plc:mx2ytos5katejcdrxmhgsido/app.bsky.feed.post/3lybc4chyxp62"
+        }
+      },
+      "text": "There are many powers of the dark side that some would consider unnatural..."
+    },
+    "cid": "bafyreif3m6m4aeif3v3tomxxhx3rgwad5dl4w7c6gswcnbjd2fhnsssuwi"
+  }
+}

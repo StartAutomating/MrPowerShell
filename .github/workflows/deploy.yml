@@ -44,7 +44,7 @@ jobs:
         uses: actions/upload-pages-artifact@main
         with:
           # Upload the contents of the ./MrPowerShell.com directory to the GitHub Pages artifact
-          path: './MrPowerShell.com/'
+          path: './MrPowerShell.com/'          
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@main
