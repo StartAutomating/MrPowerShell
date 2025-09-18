@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758219515034135,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz4xktzvtb2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz4xkumx6c27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-18T18:18:35.557Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibkgsumqz7nrl26f5xvfpttjhklggkcuqkaior2ypanmcc3e4q64y",
+          "uri": "at://did:plc:kx2mxhedzbeuqethywrzdexz/app.bsky.feed.post/3lz3w3ydtk22t"
+        },
+        "root": {
+          "cid": "bafyreifp6tprdh7wi7ydtmpjd3fiu44k5xvv5cze3iletehvkv5lewi6ga",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lz3ttg7u322r"
+        }
+      },
+      "text": "I started this thread when I decided not to ship something before a morning demo.\n\nMorning demo went great!\n\n( Now back to shipping something )"
+    },
+    "cid": "bafyreiak63e4dzvajxkk5ven5qxqg3ec6ijjtsksnm5tdfzt46pionuz2m"
+  }
+}
