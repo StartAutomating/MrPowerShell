@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758236688941133,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz5hkoeple2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz5hkp3ees27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-18T23:04:49.607Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibexlrfolpf4hcutrsxf7uzhzrjryhv5n7fcsbgytll4ra43khbwi",
+          "uri": "at://did:plc:v7kyxhq4fybiwicizgclzkdq/app.bsky.feed.post/3lz5agjlykk2o"
+        },
+        "root": {
+          "cid": "bafyreifiwvtfb6gdjpknbn72vfc757se2j7oeq4pjknivd4xf7kley4zc4",
+          "uri": "at://did:plc:v7kyxhq4fybiwicizgclzkdq/app.bsky.feed.post/3lz55bm4uh32b"
+        }
+      },
+      "text": "I hear ya.\n\nOften though it's really helpful to hear a \"doesn't work on my machine\", even without too much context.\n\nIt probably works on their machine, and they may not know a problem exists until someone tells them.\n\nI figure people should try to be that person, without animus."
+    },
+    "cid": "bafyreicgbqs7ukeqz5d6xmrqgz4v7srplclj7r7rold44nrpmyjwkkvl7u"
+  }
+}
