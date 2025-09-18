@@ -1,0 +1,102 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758221475239977,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz4zfada5b2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz4zf5q2kc2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-18T18:51:11.251Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "",
+            "aspectRatio": {
+              "height": 800,
+              "width": 800
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiecpzempu5q53clns7ftoxwkjngt6qcfriywgiw3hpzgomcxibefe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 97679
+            }
+          }
+        ]
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PieGraphs"
+            }
+          ],
+          "index": {
+            "byteEnd": 42,
+            "byteStart": 32
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 48
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 110,
+            "byteStart": 103
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Graphics"
+            }
+          ],
+          "index": {
+            "byteEnd": 120,
+            "byteStart": 111
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 135,
+            "byteStart": 124
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Spending a bit of my day making #PieGraphs on a #RaspberryPi (and just now realizing the meme factor)\n\n#Turtle #Graphics in #PowerShell just keep getting better and better!\n\nNew drop coming in -lt ([DateTime]::Now.AddDays(7)) 😉"
+    },
+    "cid": "bafyreif46idd5ecullasvjdme4axzbkgjqyw3iebbp7ulqxjysjh5k7yi4"
+  }
+}
