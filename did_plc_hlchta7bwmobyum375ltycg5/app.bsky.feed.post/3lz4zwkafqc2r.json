@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758222057450121,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz4zwmmpow2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz4zwkafqc2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-18T19:00:54.798Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "⟩⚡PowerShell Emoji 😎😉😍🥰🤔😟. Contribute to StartAutomating/Emoji development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihqm4slc7m4pzhbbgl3kmuos3uelyjy4this6pz3a7gj5hutjr7my"
+            },
+            "mimeType": "image/jpeg",
+            "size": 232549
+          },
+          "title": "GitHub - StartAutomating/Emoji: ⟩⚡PowerShell Emoji 😎😉😍🥰🤔😟",
+          "uri": "https://github.com/StartAutomating/Emoji"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/Emoji"
+            }
+          ],
+          "index": {
+            "byteEnd": 156,
+            "byteStart": 130
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 216,
+            "byteStart": 205
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaca6vfthr72r66f3dmsbmlvbi73ucyg766rtkis2kipdflyo3nt4",
+          "uri": "at://did:plc:owo2l6v35uvk3axlrkz6d2wt/app.bsky.feed.post/3lz3nn26uhb2p"
+        },
+        "root": {
+          "cid": "bafyreiaca6vfthr72r66f3dmsbmlvbi73ucyg766rtkis2kipdflyo3nt4",
+          "uri": "at://did:plc:owo2l6v35uvk3axlrkz6d2wt/app.bsky.feed.post/3lz3nn26uhb2p"
+        }
+      },
+      "text": "Nifty post.\n\nWondering where you first ran across the technique (especially since it's one I proved the concept of ~2 years ago)\n\ngithub.com/StartAutomat...\n\n(beware of anyone using Set-Emoji)\n\nEverything #PowerShell can do has a dark side.\n\nIMO, It's not always wise to give people ideas explicitly."
+    },
+    "cid": "bafyreicdxehuaztihhfrg3c7rv6vo4gtpa3v2zyk2hxky3belolx7xbu4u"
+  }
+}
