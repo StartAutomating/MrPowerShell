@@ -1,0 +1,134 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758216849428842,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz4v3eg6vt2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz4v3c2ukk27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-18T17:34:05.29Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Turtles in a PowerShell",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreif4kvwvtzwe6wscgoueuplpysrup47xatmvcs5y4hzcrfkq6gniri"
+            },
+            "mimeType": "image/jpeg",
+            "size": 989768
+          },
+          "title": "Turtle",
+          "uri": "https://psturtle.com/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 29,
+            "byteStart": 22
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 48,
+            "byteStart": 37
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://psturtle.com/"
+            }
+          ],
+          "index": {
+            "byteEnd": 147,
+            "byteStart": 135
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://psturtle.com/Commands/Get-Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 195,
+            "byteStart": 167
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShellWeb/Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 238,
+            "byteStart": 212
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 244,
+            "byteStart": 240
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Graphics"
+            }
+          ],
+          "index": {
+            "byteEnd": 254,
+            "byteStart": 245
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TurtlePower"
+            }
+          ],
+          "index": {
+            "byteEnd": 267,
+            "byteStart": 255
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just finished talking #Turtle at the #PowerShell community call!\n\nIt went great and the memes were flowing like water.\n\nCheck it out:\n\npsturtle.com\n\nSuper demo page:\n\npsturtle.com/Commands/Get...\n\nProject page:\n\ngithub.com/PowerShellWe...\n\n#SVG #Graphics #TurtlePower"
+    },
+    "cid": "bafyreie4mrwdlgfzkc4l7mev5qvkziiq6y7ajq5pjal4i5trzd54xpfbva"
+  }
+}
