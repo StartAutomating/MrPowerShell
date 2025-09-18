@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758225208835202,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz54uk25z524",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz54uj52bs2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-18T19:53:27.756Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicdxehuaztihhfrg3c7rv6vo4gtpa3v2zyk2hxky3belolx7xbu4u",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lz4zwkafqc2r"
+        },
+        "root": {
+          "cid": "bafyreiaca6vfthr72r66f3dmsbmlvbi73ucyg766rtkis2kipdflyo3nt4",
+          "uri": "at://did:plc:owo2l6v35uvk3axlrkz6d2wt/app.bsky.feed.post/3lz3nn26uhb2p"
+        }
+      },
+      "text": "Addendum:\n\nLooks like this is one of the techniques featured on PowerShellForHackers\n\n(which, given that I explained this technique to the person who made PowerShellForHackers, squarely puts this one as \"my fault\" 😆😎😉)"
+    },
+    "cid": "bafyreigllrmmbu7tszfhmatbphhtdpg36bnxayous44uvhqf23r6z5ohva"
+  }
+}
