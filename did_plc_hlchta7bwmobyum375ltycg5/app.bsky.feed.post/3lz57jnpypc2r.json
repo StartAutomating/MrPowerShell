@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758228067099638,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz57jnytby2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz57jnpypc2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-18T20:41:04.698Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic2qoc7kgeo2xzbj7n7ivoudscwumt5p5vadrjox3arqo7oenoitq",
+          "uri": "at://did:plc:v7kyxhq4fybiwicizgclzkdq/app.bsky.feed.post/3lz55bqxokd2b"
+        },
+        "root": {
+          "cid": "bafyreifiwvtfb6gdjpknbn72vfc757se2j7oeq4pjknivd4xf7kley4zc4",
+          "uri": "at://did:plc:v7kyxhq4fybiwicizgclzkdq/app.bsky.feed.post/3lz55bm4uh32b"
+        }
+      },
+      "text": "Not one of mine, is it?\n\n( mostly joking, I generally don't make installers)\n\nIn all seriousness though:\n\nBuilding tools is hard work\n\nDocumenting them is a different skillset altogether.\n\nI often fear that I lack that skillset entirely.\n\nCompassion is good.\n\nFile issues. Help them understand.\n\n🤗"
+    },
+    "cid": "bafyreiduy5r345livohyjc2toatfersnhb6womwhgeouty2rcephaljg7i"
+  }
+}
