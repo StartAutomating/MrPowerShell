@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758223961223323,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz53pd3jfu2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz53pbzi222r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-18T19:32:38.785Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidabvmjirk6vw7at4qrvsffyxmkqqpjxewjo5ltvjguezdhcjgtgu",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3lz53jt6lvs2q"
+        },
+        "root": {
+          "cid": "bafyreie4mrwdlgfzkc4l7mev5qvkziiq6y7ajq5pjal4i5trzd54xpfbva",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lz4v3c2ukk27"
+        }
+      },
+      "text": "Thanks!\n\nThis has been a blast to build!\n\nIf you or anyone else wants to help, just jump on in and file some issues and start hacking away."
+    },
+    "cid": "bafyreifi76afxb5gaebzxldrfggjas6zcm4zxdv7x6izewjz2a6i5qiake"
+  }
+}
