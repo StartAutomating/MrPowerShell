@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758307554148491,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz7jkmj4cj2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz7jklnp7k2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-19T18:45:52.974Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiforbnibisx57seg35t6wp6sttaha3eqwdqeaf3ldlqonx7jdfvla",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7gqgt2u22j"
+        },
+        "root": {
+          "cid": "bafyreiforbnibisx57seg35t6wp6sttaha3eqwdqeaf3ldlqonx7jdfvla",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7gqgt2u22j"
+        }
+      },
+      "text": "Great movie, and Whistler is key.\n\nTrying to remember the verbatim line where they point out that the macguffin has to be the answering machine, because while everyone else was watching, Whistler was listening.\n\nBeen so long.... Gotta rewatch this one."
+    },
+    "cid": "bafyreic5fdcubtlfrvuvi73e25d3avtsgtsk4mz3akson4rjo62jyf3bf4"
+  }
+}
