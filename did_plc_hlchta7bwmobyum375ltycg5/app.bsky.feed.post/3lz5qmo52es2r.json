@@ -1,0 +1,92 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758246420124852,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz5qmoojaq23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz5qmo52es2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-19T01:46:59.4Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "VSCode"
+            }
+          ],
+          "index": {
+            "byteEnd": 55,
+            "byteStart": 48
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Copilot"
+            }
+          ],
+          "index": {
+            "byteEnd": 106,
+            "byteStart": 98
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 163,
+            "byteStart": 155
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Containers"
+            }
+          ],
+          "index": {
+            "byteEnd": 200,
+            "byteStart": 189
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 234,
+            "byteStart": 223
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihab5ufuuf7q3kptjsxfecz3enqhyaehmndm6pp3oj74kurdjhnou",
+          "uri": "at://did:plc:hpmftisceoy4runolfcwadkr/app.bsky.feed.post/3lz5ozceikj2p"
+        },
+        "root": {
+          "cid": "bafyreihab5ufuuf7q3kptjsxfecz3enqhyaehmndm6pp3oj74kurdjhnou",
+          "uri": "at://did:plc:hpmftisceoy4runolfcwadkr/app.bsky.feed.post/3lz5ozceikj2p"
+        }
+      },
+      "text": "How I work or how I build?\n\nHow I work: I'd say #VSCode overall, with a bit of a mixed opinion on #Copilot and it's interjections.\n\nHow I build?  Probably #AtProto itself, and before that, #Containers.  \n\nWell before that, #PowerShell (obviously)"
+    },
+    "cid": "bafyreihdyq5zq5gdwryjurktlvga4pyt24nbg7tigz5jpv2zgjlmmq7ffu"
+  }
+}
