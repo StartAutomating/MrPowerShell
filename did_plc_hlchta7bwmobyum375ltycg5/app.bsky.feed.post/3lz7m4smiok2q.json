@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758310312126497,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz7m4sufbj2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz7m4smiok2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-19T19:31:51.738Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicqnriei6jmhndctlxdcpo6kknoz6w3y5fp4feww43utgvidmzzxa",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7ll5exvk2j"
+        },
+        "root": {
+          "cid": "bafyreiforbnibisx57seg35t6wp6sttaha3eqwdqeaf3ldlqonx7jdfvla",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7gqgt2u22j"
+        }
+      },
+      "text": "Thanks for the additional perspective, it makes me appreciate the movie much more!\n\nI'm glad accessibility has gotten much better since the days of Sneakers (though it's hard for me to know how much better).\n\nNothing but respect for the Whistlers of the world that came before."
+    },
+    "cid": "bafyreiaoocfs3xeoebdz5mhlfevirkqbr6d63my72nqc6ptt2uuvtyp2sq"
+  }
+}
