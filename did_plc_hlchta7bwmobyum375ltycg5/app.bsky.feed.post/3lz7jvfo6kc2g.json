@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758307916455932,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz7jvg5dbv2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz7jvfo6kc2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-19T18:51:55.797Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif7t522vm7hredcbvzzhdc6oiphvgnfkpqnr477aarjgaojgxf7gy",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3lz7hesmwyu27"
+        },
+        "root": {
+          "cid": "bafyreicgq54xenipbbmsecndatqwfmqsaiuuhfrxn3bvihlbufpczezcf4",
+          "uri": "at://did:plc:jivpwssp36r2yimwbsgfieka/app.bsky.feed.post/3lz7duopcuk23"
+        }
+      },
+      "text": "Long long ago, there were pushes towards very restrictive function names.\n\nThey mostly didn't last past the Monad days.\n\nThere was much rejoicing."
+    },
+    "cid": "bafyreidvtfdtmazujrcehw6zc6y5gdwkbzc2auu7aq5yxpyn4n57yijsva"
+  }
+}
