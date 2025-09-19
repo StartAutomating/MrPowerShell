@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758311379680515,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz7n4mwxja23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz7n4mqtxs2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-19T19:49:39.331Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreickc7bh3stwg56gnbcjovi4va4ctnnryw3lan4x7az6banqvimdey",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7mskb3kc2j"
+        },
+        "root": {
+          "cid": "bafyreiforbnibisx57seg35t6wp6sttaha3eqwdqeaf3ldlqonx7jdfvla",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7gqgt2u22j"
+        }
+      },
+      "text": "I think another movie that makes this joke is Robin Hood: Men in Tights.\n\nThat nostalgia trip I cannot recommend.\n\nI'm also reasonably certain that the character \"Abe Blinkin\" is somewhere near the bottom of good representation."
+    },
+    "cid": "bafyreib5h5h5mow3diftzgso62pg5vj6u3m74fbcyczfjioypdbez7pneq"
+  }
+}
