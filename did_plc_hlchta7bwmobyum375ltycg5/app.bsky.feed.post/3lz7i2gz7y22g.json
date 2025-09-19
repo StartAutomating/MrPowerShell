@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758305937958890,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz7i2hchqs23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz7i2gz7y22g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-19T18:18:57.497Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie2gfd2a3y6m4hwjfw2ebihot6ywekobkcxxxml5heew7b2cikwra",
+          "uri": "at://did:plc:n3d72yupkvvhom4drv7s64x6/app.bsky.feed.post/3lz6seylmuc2d"
+        },
+        "root": {
+          "cid": "bafyreidsseqy2tzwfqehoglctisjvpjf7k436m6bimd3s6drdic4xih5oq",
+          "uri": "at://did:plc:rjd2yngmgzmxmdyiu6je6z7x/app.bsky.feed.post/3lz5avdkok22l"
+        }
+      },
+      "text": "Scoop is great.\n\nGotta wonder though.... Do all of your homies actually like cmd?\n\nLike every time I even think of writing a batch script, I feel a chill run down my spine, and I flash back to the early days of IT when we had nothing else."
+    },
+    "cid": "bafyreihxpn3jea77labweyoge5prs56xtzpww7kqwdi5ejh357fi7jgjsa"
+  }
+}
