@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758316270938855,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz7rofoabp2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz7roeq6z22j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-19T21:11:09.868Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid7iz7fstv7oedag6g253lth2zdvqoijtj6pvmhkf3hodpstdiqbi",
+          "uri": "at://did:plc:rsxjtmi5qi5ktgxs2uohf6z5/app.bsky.feed.post/3lz7rgny65s2p"
+        },
+        "root": {
+          "cid": "bafyreiforbnibisx57seg35t6wp6sttaha3eqwdqeaf3ldlqonx7jdfvla",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7gqgt2u22j"
+        }
+      },
+      "text": "Thanks!  I figured as much.  It's probably better that SVG path syntax doesn't screen read, as it would probably be quite awkward\n\n\"m 50 50 c 200 0 0 -200 200 200\" \n\n(move to point 50, 50, and draw a cubic bezier curve to 200,200, with control points at either corner)"
+    },
+    "cid": "bafyreihqrbc7ehl6y4cqlp4llaabz64kovg6dtspskmfuaw55emoonzteq"
+  }
+}
