@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758308237316093,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz7k6whqbp2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz7k6t6jmk2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-19T18:57:11.955Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Sneakers was one of the OG hacking movies, and one that still somewhat stands up.  If you haven't ever seen it, try to make the time.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifm4plofiati6wqpbmicqxlwlq5regcl4lu6whevwb65fbwemrcqm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 91265
+          },
+          "title": "a close up of a man wearing a pair of glasses with a computer screen reflected in them .",
+          "uri": "https://media.tenor.com/kXnYG4L_4JYAAAAC/sneakers-david-strathairn.gif?hh=280&ww=489"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiforbnibisx57seg35t6wp6sttaha3eqwdqeaf3ldlqonx7jdfvla",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7gqgt2u22j"
+        },
+        "root": {
+          "cid": "bafyreiforbnibisx57seg35t6wp6sttaha3eqwdqeaf3ldlqonx7jdfvla",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7gqgt2u22j"
+        }
+      },
+      "text": "Lines that still live rent free in my head, ~30 years after I first saw it:\n\n\"Be a Beacon\"\n\n\"Who wants to take down power to the eastern seaboard?\"\n\n\"I can't kill my friend... Kill my friend.\"\n\nBonus points for \"Setec Astronomy\" / \"Too Many Secrets.\""
+    },
+    "cid": "bafyreiglln72z5xtdd7gblnd5yuy2u6nmugde7sp677zj6l6ysf4jthlpe"
+  }
+}
