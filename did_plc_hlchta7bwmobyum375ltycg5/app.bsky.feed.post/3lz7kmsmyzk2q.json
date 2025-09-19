@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758308707232403,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz7kmt5ze22l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz7kmsmyzk2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-19T19:05:01.142Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifwxv7ic6hbxsakqbxesauyfjeqcr242zj4sssz7rqfxuvujfw4um",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7kdycfm22j"
+        },
+        "root": {
+          "cid": "bafyreiforbnibisx57seg35t6wp6sttaha3eqwdqeaf3ldlqonx7jdfvla",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7gqgt2u22j"
+        }
+      },
+      "text": "Yeah I think that phrase found its way into the protomeme culture so early that most people don't know where it came from.\n\nAnother classic that hasn't aged well is the bit about keypads:\n\n\"A 5 Digit Code, you know that's unbreakable\"\n\n*kicks the door down*\n\nSeriously need to rewatch it."
+    },
+    "cid": "bafyreigvopvzqu63rgmjrxbmxnm3vsbkxosngunajg7fguoqdnvodr7bke"
+  }
+}
