@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758308997016175,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz7kvldtrq2t",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz7kvhnox22q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-19T19:09:51.619Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreia27owgmnzlmlmxbuaiks3cdpyleyoi3tmujkpo2ijp775vcqz3di"
+            },
+            "mimeType": "image/jpeg",
+            "size": 998650
+          },
+          "title": "Clipper chip - Wikipedia",
+          "uri": "https://en.wikipedia.org/wiki/Clipper_chip"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://en.wikipedia.org/wiki/Clipper_chip"
+            }
+          ],
+          "index": {
+            "byteEnd": 150,
+            "byteStart": 118
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifwxv7ic6hbxsakqbxesauyfjeqcr242zj4sssz7rqfxuvujfw4um",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7kdycfm22j"
+        },
+        "root": {
+          "cid": "bafyreiforbnibisx57seg35t6wp6sttaha3eqwdqeaf3ldlqonx7jdfvla",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7gqgt2u22j"
+        }
+      },
+      "text": "The other kinda messed thing is that Sneakers was feasible at it's point of time.\n\nTwas the era of the clipper chip:\n\nen.wikipedia.org/wiki/Clipper...\n\nWhen Sneakers was made, the device they stole in Sneakers would have existed, and been worth fighting over.\n\n(not sure if the writers knew this)"
+    },
+    "cid": "bafyreiaxn5qwadc3rh7o2aumvbbz7leafj3mpeyvtmumphdn7ft743oyki"
+  }
+}
