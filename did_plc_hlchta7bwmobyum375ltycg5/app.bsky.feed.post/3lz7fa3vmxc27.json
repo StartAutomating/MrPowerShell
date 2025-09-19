@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758302906046614,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz7fa33g4l2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz7fa3vmxc27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-19T17:28:25.944Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Claims are ‘an unsophisticated, uneducated approach that demonstrates a lack of knowledge’, says one professor",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreif2bremjwf7k3dkpovyjqogk4hgbk4zemspwravtswrxhyoavm7rm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 350024
+          },
+          "title": "Revealed: US law enforcement claimed emojis could signal Tren de Aragua affiliation",
+          "uri": "https://www.theguardian.com/us-news/2025/sep/19/fbi-cbp-tren-de-aragua-emojis"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.theguardian.com/us-news/2025/sep/19/fbi-cbp-tren-de-aragua-emojis"
+            }
+          ],
+          "index": {
+            "byteEnd": 104,
+            "byteStart": 69
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I got an emoji for ya right here:\n\n🤦\n\nThis is dumb ( and scary )\n\nwww.theguardian.com/us-news/2025..."
+    },
+    "cid": "bafyreie4623ockqz53pmketuwf3gqpimtjezso3jqyp4y7mcll2c66sr6i"
+  }
+}
