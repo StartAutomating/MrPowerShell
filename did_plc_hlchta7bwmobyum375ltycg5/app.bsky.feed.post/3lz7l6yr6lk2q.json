@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758309312506692,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz7l6zi7sz23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz7l6yr6lk2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-19T19:15:11.551Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibxk5qbjncnkoftk77qtbhxvq66gibjd4qtk3bkgad6fjeohhookm",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7kzov6gs2j"
+        },
+        "root": {
+          "cid": "bafyreiforbnibisx57seg35t6wp6sttaha3eqwdqeaf3ldlqonx7jdfvla",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7gqgt2u22j"
+        }
+      },
+      "text": "You're probably right.\n\nI wonder how many people associated with that movie already had an email, or were on Arpanet.\n\nAnd here I am thinking I'm a super old timer of the internet for being online since ~1994.\n\nI still hear dial-up modems in my nightmares (j/k)"
+    },
+    "cid": "bafyreie7wbugodcykgpllay6z22jz7xdrknifp2527lvsqhyvztm6h2gfa"
+  }
+}
