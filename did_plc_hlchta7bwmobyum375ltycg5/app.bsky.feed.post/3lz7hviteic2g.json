@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758305772390457,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz7hvjgqq42s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz7hviteic2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-19T18:16:11.63Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicgq54xenipbbmsecndatqwfmqsaiuuhfrxn3bvihlbufpczezcf4",
+          "uri": "at://did:plc:jivpwssp36r2yimwbsgfieka/app.bsky.feed.post/3lz7duopcuk23"
+        },
+        "root": {
+          "cid": "bafyreicgq54xenipbbmsecndatqwfmqsaiuuhfrxn3bvihlbufpczezcf4",
+          "uri": "at://did:plc:jivpwssp36r2yimwbsgfieka/app.bsky.feed.post/3lz7duopcuk23"
+        }
+      },
+      "text": "FYI\n\nPowerShell syntax is generally case insensitive.\n\nI think the fact that people don't know this and dunk on the language is a bit embarrassing."
+    },
+    "cid": "bafyreihh2nvy4fkmeii6yc2h6u5aok56ydt5ulep6wmuucjjsn4wr5a2yu"
+  }
+}
