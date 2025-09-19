@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758257203835634,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz62o2uawa2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz62o2g3ts2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-19T04:46:43.252Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicotezzedeqctietpoyqnbeihfwald2tthlvzyla27lpafxwsupoi",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3lz62airj2s2f"
+        },
+        "root": {
+          "cid": "bafyreicw4qyrtzjjdpvidgstmtnm35fgskhbn6ji7oylxowdk47g6xk5hy",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3lz5wvjkg5s2h"
+        }
+      },
+      "text": "Putting it another way, I can tell that these are different files more quickly by comparing the shape instead of comparing the hash.\n\nComparing the hash is a 1 by 1 character search for my eyes.\n\nComparing the image is edge detection I'm doing by seeing things.\n\nMake sense?"
+    },
+    "cid": "bafyreigqtczvh2mjbyhbv57rfqgxyjrwlplfkapuokx4e2llcsimw23w3y"
+  }
+}
