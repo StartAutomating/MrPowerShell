@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758307773854368,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz7jr64zmm2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz7jr4ehw22g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-19T18:49:31.824Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigka4q3jkdp6xbhrclzhasovtm7i2baxckytqhchmsv32kba2p3iq",
+          "uri": "at://did:plc:jivpwssp36r2yimwbsgfieka/app.bsky.feed.post/3lz7ihhqnes2d"
+        },
+        "root": {
+          "cid": "bafyreicgq54xenipbbmsecndatqwfmqsaiuuhfrxn3bvihlbufpczezcf4",
+          "uri": "at://did:plc:jivpwssp36r2yimwbsgfieka/app.bsky.feed.post/3lz7duopcuk23"
+        }
+      },
+      "text": "Sure thing 😉\n\nAre you on team lowercase?\n\nTeam pascalCase?\n\nTeam lowercase-separated-by-dashes?\n\nTeam I just don't like anything Microsoft ever touched?\n\nI'm team CasingIsAnnoyingAndIWishItWasConsistentButItsNot"
+    },
+    "cid": "bafyreibiv4n5fsmutq2kjvty6azsb6gur7agscunwo23hnb3w4qzmn5bxu"
+  }
+}
