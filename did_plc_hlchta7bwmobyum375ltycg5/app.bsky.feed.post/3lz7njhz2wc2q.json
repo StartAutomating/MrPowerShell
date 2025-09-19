@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758311810943783,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz7nji74xg2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz7njhz2wc2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-19T19:56:50.566Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreickc7bh3stwg56gnbcjovi4va4ctnnryw3lan4x7az6banqvimdey",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7mskb3kc2j"
+        },
+        "root": {
+          "cid": "bafyreiforbnibisx57seg35t6wp6sttaha3eqwdqeaf3ldlqonx7jdfvla",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7gqgt2u22j"
+        }
+      },
+      "text": "Getting weird and wonky for a second, and asking a few big little questions:\n\nHow do screen readers describe a vector graphics path?\n\nHow much does difference does a 3d emboss make when trying to imagine an image?\n\nWhat's that experience like?"
+    },
+    "cid": "bafyreiftr3xsxnrpqewgeuu4cgsj5jaco46r77qw2gqldvdihw737zhvmq"
+  }
+}
