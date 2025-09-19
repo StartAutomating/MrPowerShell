@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758315880635143,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz7rcq5mur2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz7rcnxxzs2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-19T21:04:36.907Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Andy Schneider (from Get-PowerShell.com) recently asked me how he could make sure that everyone at Avanade could get a consistent set of modules.  I run into a somewhat similar problem here at Microso...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicmiwhanduhc3mpglhfurkvmujrbpyf4sw62kogovqgzwl4ssnzla"
+            },
+            "mimeType": "image/jpeg",
+            "size": 355238
+          },
+          "title": "How To Make Your Own Module Repository - PowerShell Team",
+          "uri": "https://devblogs.microsoft.com/powershell/how-to-make-your-own-module-repository/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://devblogs.microsoft.com/powershell/how-to-make-your-own-module-repository/"
+            }
+          ],
+          "index": {
+            "byteEnd": 260,
+            "byteStart": 222
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicqblwijuyterz5nxny6hoahgvwasg6x7hvppx7jx4iags4xjud6u",
+          "uri": "at://did:plc:n3d72yupkvvhom4drv7s64x6/app.bsky.feed.post/3lz7qzqntxs2t"
+        },
+        "root": {
+          "cid": "bafyreidsseqy2tzwfqehoglctisjvpjf7k436m6bimd3s6drdic4xih5oq",
+          "uri": "at://did:plc:rjd2yngmgzmxmdyiu6je6z7x/app.bsky.feed.post/3lz5avdkok22l"
+        }
+      },
+      "text": "Yeah, but I'm a bit biased because I helped make the thing.\n\nIt does make moments like these a little awkward ;-)\n\nAs long as we can agree nobody should have to use Batch scripts, I'm cool.\n\nLast time I had to was ~2009:\n\ndevblogs.microsoft.com/powershell/h..."
+    },
+    "cid": "bafyreiclztwpfssfmdfln53vmcwykpuvgtmhyiurrn3uk26ezhjhpqd63i"
+  }
+}
