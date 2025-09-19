@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758310481334632,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz7mbu5eg42l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz7mbsmbos2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-19T19:34:39.503Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiforbnibisx57seg35t6wp6sttaha3eqwdqeaf3ldlqonx7jdfvla",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7gqgt2u22j"
+        },
+        "root": {
+          "cid": "bafyreiforbnibisx57seg35t6wp6sttaha3eqwdqeaf3ldlqonx7jdfvla",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7gqgt2u22j"
+        }
+      },
+      "text": "Ok, I'll bite: What's your favorite portrayal of a blind person?\n\n(always seeking good representations, as they can increase compassion and understanding)"
+    },
+    "cid": "bafyreigapfbojqtwnxnlwvu2qqew3askmrrm6mjlpcgmvyeduqxmyhmi2u"
+  }
+}
