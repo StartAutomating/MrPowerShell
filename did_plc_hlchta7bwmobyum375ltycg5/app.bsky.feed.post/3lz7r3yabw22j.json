@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758315653251114,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz7r3yj2gk24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz7r3yabw22j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-19T21:00:52.785Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiarg62iiis5smut7saifd6hvsnb225n3xi7h3bnhf7r53qxdxgp54",
+          "uri": "at://did:plc:n3d72yupkvvhom4drv7s64x6/app.bsky.feed.post/3lz7qpwhbus2t"
+        },
+        "root": {
+          "cid": "bafyreidsseqy2tzwfqehoglctisjvpjf7k436m6bimd3s6drdic4xih5oq",
+          "uri": "at://did:plc:rjd2yngmgzmxmdyiu6je6z7x/app.bsky.feed.post/3lz5avdkok22l"
+        }
+      },
+      "text": "That is indeed lucky, and Python is a far better language that Batch could ever dream of being."
+    },
+    "cid": "bafyreibzbhi4vqfmhefguvpdvilobsyugof757lom73l2zhb5jm3opebfu"
+  }
+}
