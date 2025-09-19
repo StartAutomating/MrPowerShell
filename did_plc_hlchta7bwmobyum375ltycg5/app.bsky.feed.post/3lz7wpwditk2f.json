@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758321692317731,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lz7wpxuhzy2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lz7wpwditk2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-19T22:41:30.59Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihkikbgcmkaogy3atdgn47aqcegqkn4ihmz5vcvaxhasdudhxuaoa",
+          "uri": "at://did:plc:rsxjtmi5qi5ktgxs2uohf6z5/app.bsky.feed.post/3lz7sviafy22p"
+        },
+        "root": {
+          "cid": "bafyreiforbnibisx57seg35t6wp6sttaha3eqwdqeaf3ldlqonx7jdfvla",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7gqgt2u22j"
+        }
+      },
+      "text": "I figured.\n\nI'm thinking thru the problem more abstractly now:  How could one communicate the shape/feel of a curve via touch?\n\nShort version: Most paths can be made from a string passed thru 3 points.  So 12 in a grid would give you a haptic unit circle.\n\nThis exist already?"
+    },
+    "cid": "bafyreiaud4qrgmhavdg53a63b6tqdpjkilysbbaytjcm2xxndjh45vv2qi"
+  }
+}
