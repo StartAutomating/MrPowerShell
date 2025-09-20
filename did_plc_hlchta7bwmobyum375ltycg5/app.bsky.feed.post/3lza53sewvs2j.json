@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758328532563839,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lza53stcsw2t",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lza53sewvs2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-20T00:35:31.547Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihkvsytfwgdjo3pyxeqy3iifj4atjvw6cexgtf652ty25y4gepucu",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lza4wpb4q22x"
+        },
+        "root": {
+          "cid": "bafyreiforbnibisx57seg35t6wp6sttaha3eqwdqeaf3ldlqonx7jdfvla",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7gqgt2u22j"
+        }
+      },
+      "text": "😆 Probably about the same thing they would think now.\n\nSometimes time and perspective are annoying things to have."
+    },
+    "cid": "bafyreiev5j7wfvz3jz44n63gp4hps2gpcbtu2xnitl37sxi7ylcgmoskwa"
+  }
+}
