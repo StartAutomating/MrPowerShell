@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758396271331643,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzc46lculu24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzc46kqt6k2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-20T19:24:29.947Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihws43hxkfmfoojyhnwpdyvrxfam7pheq7wrydla5vpujpyp6jafa",
+          "uri": "at://did:plc:7lo2bpkioqzd2awnvruytts3/app.bsky.feed.post/3lzbybep5w22h"
+        },
+        "root": {
+          "cid": "bafyreihws43hxkfmfoojyhnwpdyvrxfam7pheq7wrydla5vpujpyp6jafa",
+          "uri": "at://did:plc:7lo2bpkioqzd2awnvruytts3/app.bsky.feed.post/3lzbybep5w22h"
+        }
+      },
+      "text": "It _might_ be that you're trying to b64 encode in Windows PowerShell vs PowerShell core.\n\nWindows PowerShell uses a different output encoding by default, and PowerShell core uses the (now standard) UTF8.\n\nYou should be able to force it by changing $OutputEncoding to UTF8.\n\nHope this helps!"
+    },
+    "cid": "bafyreihamo7wripvsdxm2fnim3k5xamswca5n76pb6moyxtraypztt5pue"
+  }
+}
