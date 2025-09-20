@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758328707252418,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lza5azrzr52m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lza5azec7k2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-20T00:38:26.639Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidweb5xxpri56r3ywmgf7by67nvtj3vxfza2a2nabmsncs3rykyay",
+          "uri": "at://did:plc:rsxjtmi5qi5ktgxs2uohf6z5/app.bsky.feed.post/3lza3tu7k6k2p"
+        },
+        "root": {
+          "cid": "bafyreiforbnibisx57seg35t6wp6sttaha3eqwdqeaf3ldlqonx7jdfvla",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7gqgt2u22j"
+        }
+      },
+      "text": "Fair.  I'm only thinking this over because I've recently been doing a lot of vector graphics in Turtle, where you move forward, turn, and toggle if you are drawing.\n\nThese drawings look nice and make it easy to explore interactively, and help one think about the world geometrically.\n\nHence the idea."
+    },
+    "cid": "bafyreievxjuvht4hjbjaqushqn4ngetvf2e34qi7zaj35765kgpmfckh3e"
+  }
+}
