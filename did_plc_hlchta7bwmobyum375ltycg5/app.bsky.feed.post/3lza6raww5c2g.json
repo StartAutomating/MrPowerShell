@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758330325054787,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lza6rao6mr2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lza6raww5c2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-20T01:05:25.201Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibjxwsgyv5msojjfvk4jt2zqjfuhnq6timftvnrkbv6hgo2sudlnu",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lza6keie2c2m"
+        },
+        "root": {
+          "cid": "bafyreiforbnibisx57seg35t6wp6sttaha3eqwdqeaf3ldlqonx7jdfvla",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7gqgt2u22j"
+        }
+      },
+      "text": "Agreed!\n\nI hope someday society gets to the point where these things can be talked about freely and without creepiness."
+    },
+    "cid": "bafyreid4xrko7bxiuwqko45b7sjbb2h7m5hgrzw2dhmv2heyc4nsnyzeqe"
+  }
+}
