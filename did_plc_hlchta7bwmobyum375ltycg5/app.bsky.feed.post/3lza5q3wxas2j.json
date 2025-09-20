@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758329214342152,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lza5q5ewjs2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lza5q3wxas2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-20T00:46:52.663Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiacpm5kcj7bpl6piw6uvrnyleubtm2v2vspctgt4mw37qaxuiokre",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lza5diutyk2x"
+        },
+        "root": {
+          "cid": "bafyreiforbnibisx57seg35t6wp6sttaha3eqwdqeaf3ldlqonx7jdfvla",
+          "uri": "at://did:plc:5magnv4mhwosoawwr6i7your/app.bsky.feed.post/3lz7gqgt2u22j"
+        }
+      },
+      "text": "I think that enough of society prefers not to discuss / think about sex, period.  \n\nDue to professional strictures, I tend to be relatively polite to society on this regard, at least in public / on social media."
+    },
+    "cid": "bafyreigwnbypto54prs47gps22ns6lsqs37l7yyxrazcymusbmleusgcfu"
+  }
+}
