@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758398545915380,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzc6cf6h3r2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzc6cgmgic2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-20T20:02:27.309Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 33,
+            "byteStart": 22
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 51,
+            "byteStart": 39
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 140,
+            "byteStart": 134
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibcqhsxm2c5xqj2ctwelw65lwonzyi2awfcu7sc5stouj57umvldi",
+          "uri": "at://did:plc:orhxryq6skpq4xexv5jc57ms/app.bsky.feed.post/3lzb47u5wud2n"
+        },
+        "root": {
+          "cid": "bafyreid3kytjzrio6fszzafykcpwdkkba22egyblh62yd5jkl22n6prxdy",
+          "uri": "at://did:plc:orhxryq6skpq4xexv5jc57ms/app.bsky.feed.post/3lzb47u5ry22n"
+        }
+      },
+      "text": "Agreed!\n\nBeen rocking #PowerShell on a #RaspberryPi as my \"main\" box for weeks now, and I promise that PowerShell is just as scary on #Linux. 😉"
+    },
+    "cid": "bafyreibch6kewrjfavdf5oczycezo7x2ud3hm3qzi5vtz5xrb4big6r2om"
+  }
+}
