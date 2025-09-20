@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758338389050012,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzagbk2ju623",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzagbko6g22g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-20T03:19:48.464Z",
+      "embed": {
+        "$type": "app.bsky.embed.video",
+        "alt": "4 overlapping bezier curve animations may break your brain.",
+        "aspectRatio": {
+          "height": 1920,
+          "width": 1080
+        },
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreib3mhutwrzhjzlcnkz5ntxeajnrhiedtncfwgdciox57xzsshy6ri"
+          },
+          "mimeType": "video/mp4",
+          "size": 2978975
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 95,
+            "byteStart": 91
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 104,
+            "byteStart": 97
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Graphics"
+            }
+          ],
+          "index": {
+            "byteEnd": 114,
+            "byteStart": 105
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 129,
+            "byteStart": 118
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "This might be one of the most beautiful animations I've ever made, and it's only 2.25kb of #SVG\n\n#Turtle #Graphics in #PowerShell are far too fun!"
+    },
+    "cid": "bafyreiakqq7rqp2krnea55lri6u2oiiuefbkvb2jhktqudcsz4eyjxfnva"
+  }
+}
