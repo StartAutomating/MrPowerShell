@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758480547716025,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzekoa5k4a2t",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzekoak2x225",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-21T18:49:07.972Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreialbij2pugaetcpuwhvkpja3nox4kpjodtmnq2n2seuunae4to3jm",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3lzejlf3yyc2v"
+        },
+        "root": {
+          "cid": "bafyreihws43hxkfmfoojyhnwpdyvrxfam7pheq7wrydla5vpujpyp6jafa",
+          "uri": "at://did:plc:7lo2bpkioqzd2awnvruytts3/app.bsky.feed.post/3lzbybep5w22h"
+        }
+      },
+      "text": "Just being a bit sarcastic....\n\nPretty sure UTF-8 is an actual standard ( not a defacto standard )\n\nAlso pretty sure I went blue in the face fighting for UTF8 during v2, when the ISE encoding bugs reared their head.\n\n(Unfun fact, PowerShell ISE uses another encoding 🤦)"
+    },
+    "cid": "bafyreih7lavhujuz4rebuen3fmek5s2v7cnwnukxrohad3az7trprtffpq"
+  }
+}
