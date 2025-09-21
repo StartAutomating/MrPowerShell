@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758481093451051,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzel6idyeg2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzel6j3trk25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-21T18:58:13.806Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihg3zhe6625t6aoarcqx3akmoisesjkdt2yfkyhojjb6gazastdoq",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3lzekv43mdc2m"
+        },
+        "root": {
+          "cid": "bafyreihws43hxkfmfoojyhnwpdyvrxfam7pheq7wrydla5vpujpyp6jafa",
+          "uri": "at://did:plc:7lo2bpkioqzd2awnvruytts3/app.bsky.feed.post/3lzbybep5w22h"
+        }
+      },
+      "text": "Yep, that was one prong of the defense that kept things from being changed a long time ago.\n\nThe encodedcommand back compat thing was the other.\n\nEncodings were part of the far bigger battle PowerShell played a part in....\n\nBeing open to the influence of Unix/Linux.\n\nGlad we won."
+    },
+    "cid": "bafyreihuc3tw73lddqoofoyfyxvwt2xgnzkrpwogl7kxlboh6nbpo7rixq"
+  }
+}
