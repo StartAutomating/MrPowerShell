@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758481318165929,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzelf5wofm2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzelf5j7fk25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-21T19:01:56.55Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Bugs Bunny and Daffy Duck argue about which pop culture reference kicked off the field of robotics.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreid5psgxlwb4ke2sdrg5dra7jxc2ujvbfxzgwqb3rt7jq3oks2ybpi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 131596
+          },
+          "title": "a duck is standing next to a yellow sign that says rabbit season",
+          "uri": "https://media.tenor.com/uaCd1CVkgScAAAAC/the-bugs-bunny-movie-the-bugs-bunny-and-roadrunner-movie.gif?hh=374&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaxqyapxkhxxrifmvsxfnnonihxiizduk6klvinjbav4ld6z22esm",
+          "uri": "at://did:plc:tg3tb5wukiml4xmxml6qm637/app.bsky.feed.post/3lzd26rd5wc2d"
+        },
+        "root": {
+          "cid": "bafyreiejp3l2x7y2intont32e6xdt7mmk5lqw7pp442bhpvuye6wr4pzea",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lzcxazd5wc2k"
+        }
+      },
+      "text": "Much as it paints me to admit it, I don't get it.\n\nI thought Elmer hunted rabbits.\n\nIs there some cross pond pop culture I don't know?"
+    },
+    "cid": "bafyreigbxjeelg2umndiqhm2rvszptoh3x7mrw6swcmw3dumsnvk3cc7jy"
+  }
+}
