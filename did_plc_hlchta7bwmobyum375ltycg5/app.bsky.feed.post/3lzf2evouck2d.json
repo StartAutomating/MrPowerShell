@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758497415047094,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzf2ew32g72d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzf2evouck2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-21T23:30:14.474Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 72,
+            "byteStart": 61
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebSocket"
+            }
+          ],
+          "index": {
+            "byteEnd": 114,
+            "byteStart": 104
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Well, I finally cracked the code on making a round trip from #PowerShell to the browser and back, via a #WebSocket.\n\nIt's so quick you can see it flicker between images. 😎\n\nPretty pleased with the new capability.\n\nPretty concerned what bad actors and fools might do with that new capability."
+    },
+    "cid": "bafyreifxdn3beolocdpdqu3evxyauuoa4hcjcuaksra72lvtsienmd2age"
+  }
+}
