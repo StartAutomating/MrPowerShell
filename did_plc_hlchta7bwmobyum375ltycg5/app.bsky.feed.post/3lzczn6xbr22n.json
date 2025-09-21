@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758427900146674,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzczn7hhwq24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzczn6xbr22n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-21T04:11:39.404Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 33,
+            "byteStart": 21
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 53,
+            "byteStart": 42
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "VSCode"
+            }
+          ],
+          "index": {
+            "byteEnd": 71,
+            "byteStart": 64
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiczvbohefclcgfe72fytr6rjdjpigzkh4gi3augsk4zj25epwz32i",
+          "uri": "at://did:plc:5dn6hroc3v7i53cz6hpq3zgv/app.bsky.feed.post/3lzc5klqtlk2y"
+        },
+        "root": {
+          "cid": "bafyreiczvbohefclcgfe72fytr6rjdjpigzkh4gi3augsk4zj25epwz32i",
+          "uri": "at://did:plc:5dn6hroc3v7i53cz6hpq3zgv/app.bsky.feed.post/3lzc5klqtlk2y"
+        }
+      },
+      "text": "Honestly, just get a #RaspberryPi and put #PowerShell on it and #VSCode on it and call it good.\n\nThey're really cheap and run reasonably well, and having a consistent coding environment / terminal makes it almost the same regardless of OS.\n\n(just my $0.02)"
+    },
+    "cid": "bafyreidwi5koyumwzwekigbm7vi2hnki3xmsnpire47hpawmtad6yoq2i4"
+  }
+}
