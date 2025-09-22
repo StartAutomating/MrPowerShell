@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758568400790237,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzh4ighc7b2v",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzh4ict6ss2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-22T19:13:15.871Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Even Jeffrey Winger can get how cool it is to update the browser window from PowerShell using a WebSocket.  Not that they'd ever admit it.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiavr4howwoxiueebtjtneuxpyltta6p3ogthyxf6sgd2yqmurmaq4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 901039
+          },
+          "title": "a man in a blue shirt is sitting at a table in front of a stack of books",
+          "uri": "https://media.tenor.com/nNnHuPx2DrIAAAAC/told-ya-so-community.gif?hh=360&ww=466"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebSocket"
+            }
+          ],
+          "index": {
+            "byteEnd": 64,
+            "byteStart": 54
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 127,
+            "byteStart": 116
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 147,
+            "byteStart": 140
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Graphics"
+            }
+          ],
+          "index": {
+            "byteEnd": 157,
+            "byteStart": 148
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Ah, the deep satisfaction that is coming back to your #WebSocket server after a night of rest, sending a message in #PowerShell, and seeing #Turtle #Graphics appear in the browser before you have time to alt-tab."
+    },
+    "cid": "bafyreid3z743dnss4o5lhxnsxkd2zsmpscsa32naz5wnvfwyah7vigpnca"
+  }
+}
