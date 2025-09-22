@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758566287849341,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzh2jhgrmk2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzh2jg5kds23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-22T18:38:05.428Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: I contemplate implementing a protocol buffer in PowerShell.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibdyv54lil7x3umw4pdqjyl3oacqc5w3irczblqwmxmsw37isey7y"
+            },
+            "mimeType": "image/jpeg",
+            "size": 105206
+          },
+          "title": "a black and white photo of a lego man with the words he 's alive",
+          "uri": "https://media.tenor.com/Tbai_BA2SrAAAAAC/he%27s-alive-frankenstein.gif?hh=498&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidkxet765ovcuzstevahqcc4e6wyyc5dhgkpab7dnasxwhyrfxfnq",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3lzgyyoooqk2l"
+        },
+        "root": {
+          "cid": "bafyreigvf5q7yodlqsfekeod3eolr4wvtrg34wrdq72o37opb3ko4qm7mi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lzgxj4yzi22e"
+        }
+      },
+      "text": "Guess I'll have to add it to the mad scientist backlog."
+    },
+    "cid": "bafyreifz3dcgvso4zfxsqlm2azkrbdxdq647rl5atxr7ihos7ldszcntlu"
+  }
+}
