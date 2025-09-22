@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758572848165459,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzhamypqih2t",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzhamyanec2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-22T20:27:27.517Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 281,
+            "byteStart": 274
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihs6ycudiaz2kxpjpd2hafatinraozpwpxdz2z5pkizhbipkjticy",
+          "uri": "at://did:plc:kzsyuofr6oxycym3hqtesbxm/app.bsky.feed.post/3lzh6fu2f5c2g"
+        },
+        "root": {
+          "cid": "bafyreihs6ycudiaz2kxpjpd2hafatinraozpwpxdz2z5pkizhbipkjticy",
+          "uri": "at://did:plc:kzsyuofr6oxycym3hqtesbxm/app.bsky.feed.post/3lzh6fu2f5c2g"
+        }
+      },
+      "text": "Looks cool, I've seen this a bit already.\n\nThe maths are moderately straightforward:\n\nDraw a circle of radius R, and then draw N circles surrounding that of a smaller size.  Use each as an image mask/link and call it a day.\n\nWhat do you want to do?  Try taking a crack with #Turtle."
+    },
+    "cid": "bafyreibhikw6hwa7sgc4m24tnwuxou2p452w3grfpzjxglmm4casdjiljy"
+  }
+}
