@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758661216328403,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzjswlagwg2v",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzjswmf4ws27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-23T21:00:17.456Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidedlwklazhmpakggbidd56kbyhtj6xbiba3w6frhbm2eq24jtilq",
+          "uri": "at://did:plc:jbdzazapkm435seqqwoksul6/app.bsky.feed.post/3lzjax7q4fc2k"
+        },
+        "root": {
+          "cid": "bafyreidedlwklazhmpakggbidd56kbyhtj6xbiba3w6frhbm2eq24jtilq",
+          "uri": "at://did:plc:jbdzazapkm435seqqwoksul6/app.bsky.feed.post/3lzjax7q4fc2k"
+        }
+      },
+      "text": "Not a tool, but a technique.\n\nI should put out a tool.\n\nBasically, use the built in SQL client classes, fill a dataset, then export to csv, and export to csv.\n\nBonus points for handling errors and info messages.\n\nWill try to write something quick."
+    },
+    "cid": "bafyreihdwaogaxapfeuly6pdaee6uxsmhi3t6jusnhumufwttomybqvhmm"
+  }
+}
