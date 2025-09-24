@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758671767264778,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzk4qxkuba2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzk4qsfaqk2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-23T23:55:59.842Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Regular Expressions made Strangely Simple. Contribute to StartAutomating/Irregular development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigpjg5olpjzkooz2zn25kciweoq2mg4x42gnht2d733dvgifguxx4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 148045
+          },
+          "title": "GitHub - StartAutomating/Irregular: Regular Expressions made Strangely Simple",
+          "uri": "https://github.com/StartAutomating/Irregular"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 179,
+            "byteStart": 168
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "regex"
+            }
+          ],
+          "index": {
+            "byteEnd": 197,
+            "byteStart": 191
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/Irregular"
+            }
+          ],
+          "index": {
+            "byteEnd": 292,
+            "byteStart": 266
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Earlier today I had a good long nerd-out call and got the reminder that I need to share some of the cool goodies on the shelf a bit more.\n\nSo, here's a cool and useful #PowerShell module for #regex, Irregular.\n\nCheck it out.  New-Regex may be your new best friend.\n\ngithub.com/StartAutomat..."
+    },
+    "cid": "bafyreib7fwfdflw2nercaxdd7isr7au2upbyzb3jplwzgo5qgv5on46nxa"
+  }
+}
