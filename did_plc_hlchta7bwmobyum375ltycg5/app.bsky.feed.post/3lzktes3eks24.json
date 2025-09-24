@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758696053814293,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzktestj3g2t",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzktes3eks24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-24T06:40:52.927Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigqgxbh22tmfmxcecrisjpmufpttvqpqzeprae6uvydjtdfs356wi",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3lzkrwhxm3k2e"
+        },
+        "root": {
+          "cid": "bafyreigqgxbh22tmfmxcecrisjpmufpttvqpqzeprae6uvydjtdfs356wi",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3lzkrwhxm3k2e"
+        }
+      },
+      "text": "It's one in a long series of bad answers to the question: \"so, where do we store settings?\"\n\nProbably one of the worst.\n\nDefinitely one of the more reviled."
+    },
+    "cid": "bafyreig6pqixnr76bquvxhwvakv6mjii6bt6s7twrkn4snltwocvcqtaai"
+  }
+}
