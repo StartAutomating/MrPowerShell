@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758750158766040,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzmfrbcqjv2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzmfrayetk2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-24T21:42:38.303Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigby23g3ukvjukw762enh46q7awymjbwruxfyvsgzl6pi4fgeaz7q",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3lzmenkdkmk2j"
+        },
+        "root": {
+          "cid": "bafyreigqgxbh22tmfmxcecrisjpmufpttvqpqzeprae6uvydjtdfs356wi",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3lzkrwhxm3k2e"
+        }
+      },
+      "text": "The big thing to get is that only a small number of task based languages even *try* to make it easy for non-programmers.\n\nLike most languages have no way to tell you their commands.\n\nPowerShell has Get-Command, and even Get-Help, built in."
+    },
+    "cid": "bafyreihdnhdop7voixek7jkwuqzqmznvc7snios44x4ejoc7vfm2bhp4ru"
+  }
+}
