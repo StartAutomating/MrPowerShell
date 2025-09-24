@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758743194088006,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzm7boau7r2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzm7bm3muc2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-24T19:46:30.621Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: The dog from Up gets distracted, too.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiabjsppurgo3f5wntvdlatddkvsnsoqlkcaqvjrkfbtd2v63lpcnu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 891018
+          },
+          "title": "a cartoon dog says squirrel to a man",
+          "uri": "https://media.tenor.com/1BgY4JMHRN4AAAAC/squirrel.gif?hh=375&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihyome3woxhibc5tybp5hr245jmqpog5nkd3hoyac5jcmzd66e7oe",
+          "uri": "at://did:plc:kzsyuofr6oxycym3hqtesbxm/app.bsky.feed.post/3lzm6vd5ay22l"
+        },
+        "root": {
+          "cid": "bafyreibsszxhcbx4vren6ehueowupxj5fdhe3ky6kxui7xhn2tn7jk4ysi",
+          "uri": "at://did:plc:552fspq34pn4tahtpnnm5nsn/app.bsky.feed.post/3lzlzfsvmns2r"
+        }
+      },
+      "text": "The squirrel is real."
+    },
+    "cid": "bafyreicgszujfbe6tfob6c5b7dtbn46hpcnzimzkzcyab4jccm5rlqbgyq"
+  }
+}
