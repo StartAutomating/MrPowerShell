@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758678500932688,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzkczp4hai2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzkczongwc2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-24T01:48:20.356Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 135,
+            "byteStart": 124
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 149,
+            "byteStart": 143
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihbl6ngcvjk5bugvubpzywnnx7iofd7or7a7xudswr5j3xv7oup3u",
+          "uri": "at://did:plc:k7rr2hcycpfp5ckxkfhpjnaj/app.bsky.feed.post/3lzk6omvfipw2"
+        },
+        "root": {
+          "cid": "bafyreihbl6ngcvjk5bugvubpzywnnx7iofd7or7a7xudswr5j3xv7oup3u",
+          "uri": "at://did:plc:k7rr2hcycpfp5ckxkfhpjnaj/app.bsky.feed.post/3lzk6omvfipw2"
+        }
+      },
+      "text": "Agreed this is a Windows PowerShell annoyance.\n\nSeen a lot of people stub their toes on this one.\n\nGlad it's mostly gone on #PowerShell core / #Linux."
+    },
+    "cid": "bafyreifzz2ek4iwgprgf4l5vtvcfiki6fzlbtqizqgt2yrhoyjsskttudy"
+  }
+}
