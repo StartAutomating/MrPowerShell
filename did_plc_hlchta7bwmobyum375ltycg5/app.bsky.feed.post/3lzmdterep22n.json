@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758748081080291,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzmdtdwmn324",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzmdterep22n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-24T21:08:01.892Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia2dnojykzzzz4qazn7amzbiq4vjtbrqq322wuidkethuawunfbk4",
+          "uri": "at://did:plc:7bpnaafi2lztlae2v7ewx36x/app.bsky.feed.post/3lzmax6ja5k2j"
+        },
+        "root": {
+          "cid": "bafyreigqgxbh22tmfmxcecrisjpmufpttvqpqzeprae6uvydjtdfs356wi",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3lzkrwhxm3k2e"
+        }
+      },
+      "text": "Thanks for being considerate. 🙏♥️\n\nSometimes being on social media and hearing people talk smack about a language you helped can make it feel like everyone is bullying your kid.\n\nIt's a bit weird sometimes. 🤷"
+    },
+    "cid": "bafyreidofbtiwtghzkvihjdovh33oldreehnbbwgsctwk3h6prmpcteaum"
+  }
+}
