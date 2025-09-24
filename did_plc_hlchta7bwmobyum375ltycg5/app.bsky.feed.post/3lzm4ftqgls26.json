@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758740117386079,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzm4fybmo72p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzm4ftqgls26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-24T18:55:11.634Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Detective Mills wants to know what's in your PowerShell box.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieufiv2s2ddpcanpkbvwefa6bb6znnplbjdac45y5d6q3jllwe5ny"
+            },
+            "mimeType": "image/jpeg",
+            "size": 792168
+          },
+          "title": "a man in a suit and tie is standing in a field with the words whats in the box behind him",
+          "uri": "https://media.tenor.com/JSMFNr5pjVsAAAAC/se7en-whats-in-the-box.gif?hh=240&ww=320"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibsszxhcbx4vren6ehueowupxj5fdhe3ky6kxui7xhn2tn7jk4ysi",
+          "uri": "at://did:plc:552fspq34pn4tahtpnnm5nsn/app.bsky.feed.post/3lzlzfsvmns2r"
+        },
+        "root": {
+          "cid": "bafyreibsszxhcbx4vren6ehueowupxj5fdhe3ky6kxui7xhn2tn7jk4ysi",
+          "uri": "at://did:plc:552fspq34pn4tahtpnnm5nsn/app.bsky.feed.post/3lzlzfsvmns2r"
+        }
+      },
+      "text": "Sounds like some combination of terrifying and fun.\n\nWhat's in the box?"
+    },
+    "cid": "bafyreih2ygetibjhyuoxudy5zy5hfbegfdbt6k46wwvawoavzvoooh4hna"
+  }
+}
