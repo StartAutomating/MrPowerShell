@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758748204363688,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzmdwzgexe23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzmdx27cm22n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-24T21:10:05.033Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia2dnojykzzzz4qazn7amzbiq4vjtbrqq322wuidkethuawunfbk4",
+          "uri": "at://did:plc:7bpnaafi2lztlae2v7ewx36x/app.bsky.feed.post/3lzmax6ja5k2j"
+        },
+        "root": {
+          "cid": "bafyreigqgxbh22tmfmxcecrisjpmufpttvqpqzeprae6uvydjtdfs356wi",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3lzkrwhxm3k2e"
+        }
+      },
+      "text": "As far as niches it works well in, there are too many to count.\n\nFor popularity in the market, cyber security is probably the strongest current niche.\n\nBut that's only because PowerShell can do anything.\n\nSo if someone hacks your PowerShell, they can do anything, too."
+    },
+    "cid": "bafyreibpvb5sty4x3wqj22lp2wgj5feajrlc4tgpk4mxftkugi3cfbpya4"
+  }
+}
