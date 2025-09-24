@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758748488575171,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzme7ihtko23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzme7ipybk2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-24T21:14:48.695Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih5ht4nlyrw2alxxzq4zlzm7ih7gjd3t43szkfuhsorirjlt6va7u",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3lzktnlbrrs2e"
+        },
+        "root": {
+          "cid": "bafyreigqgxbh22tmfmxcecrisjpmufpttvqpqzeprae6uvydjtdfs356wi",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3lzkrwhxm3k2e"
+        }
+      },
+      "text": "Short answer is because being \"task\" / \"object\" oriented helps things fit together cleanly, thus reducing the complexity of combining multiple steps.\n\nIn bash 80% of the work is parsing logic.\n\nIn PowerShell that's like ~0%."
+    },
+    "cid": "bafyreieisollke44tpmp25mbivy7ivs3ng35fif7wgsfte26lflicv66fa"
+  }
+}
