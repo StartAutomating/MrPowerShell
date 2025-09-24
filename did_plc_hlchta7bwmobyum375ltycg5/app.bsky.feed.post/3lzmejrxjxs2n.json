@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758748833331832,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzmejrc32b2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzmejrxjxs2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-24T21:20:33.923Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicp2dnb4mrfvejelqnlrh6tgb4nw2waxqqfot2fbmxrwlhq6yv3aa",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lzmegfzufc2n"
+        },
+        "root": {
+          "cid": "bafyreigqgxbh22tmfmxcecrisjpmufpttvqpqzeprae6uvydjtdfs356wi",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3lzkrwhxm3k2e"
+        }
+      },
+      "text": "Real world metaphors are how languages think of the world.\n\nThere are only four, including the one I just defined:\n\n* Procedural ( black boxes )\n* Functional ( everything is math )\n* Object oriented ( everything is objects )\n* Task oriented ( everything is tasks, with objects coming in and out )"
+    },
+    "cid": "bafyreih2xelpgpojgqrzuvjyjasclxtcgl6xgkptkwmbnmpshcupqgkfjm"
+  }
+}
