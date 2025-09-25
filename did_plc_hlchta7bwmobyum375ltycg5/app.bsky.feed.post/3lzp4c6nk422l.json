@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758843069030749,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzp4c7h7rh2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzp4c6nk422l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-25T23:31:08.072Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 85,
+            "byteStart": 74
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Ruby"
+            }
+          ],
+          "index": {
+            "byteEnd": 155,
+            "byteStart": 150
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "LifeGoals"
+            }
+          ],
+          "index": {
+            "byteEnd": 204,
+            "byteStart": 194
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif5ja3wut4tqteld2jqyt5qhkcmgzaiq2zajsjbquuofuzcwwqqxa",
+          "uri": "at://did:plc:dsbpb3w7glnyddtbewg73g74/app.bsky.feed.post/3lzol67pdus2o"
+        },
+        "root": {
+          "cid": "bafyreif5ja3wut4tqteld2jqyt5qhkcmgzaiq2zajsjbquuofuzcwwqqxa",
+          "uri": "at://did:plc:dsbpb3w7glnyddtbewg73g74/app.bsky.feed.post/3lzol67pdus2o"
+        }
+      },
+      "text": "I'd wager many have over the years.\n\nI used to make a web language around #PowerShell, and made a joke that the goal was to be a better language than #Ruby and less of a schmuck than DHH.\n\nEasy #LifeGoals to meet.\n\nReputation precedes them, and not in a good way."
+    },
+    "cid": "bafyreigdsbd6opix76modbrpuoqaknlzn2cfjxkcz2vdddntfjme4scl2a"
+  }
+}
