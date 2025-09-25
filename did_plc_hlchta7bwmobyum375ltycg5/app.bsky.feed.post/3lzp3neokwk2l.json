@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758842370408137,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzp3nf7ddm2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzp3neokwk2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-25T23:19:29.755Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidg3pugl3m2bhd4yrccufmwyqlagwbenkakkictyhk57s7gwtxtq4",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lzoprtlisk2i"
+        },
+        "root": {
+          "cid": "bafyreidg3pugl3m2bhd4yrccufmwyqlagwbenkakkictyhk57s7gwtxtq4",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3lzoprtlisk2i"
+        }
+      },
+      "text": "Yeah, the way waves multiply is truly insanely fun and weird.\n\nAnti-noise is literally the opposite signal, and if two opposite waves collide they dissipate.\n\nThis also works in reverse:  if two matching waves collide, they multiply.\n\nThis means the places where echoes cross double the volume."
+    },
+    "cid": "bafyreia3ja5bnq4van5wcxxwxsffvp65dxcs7rh53fljsoxwytjbf3w23a"
+  }
+}
