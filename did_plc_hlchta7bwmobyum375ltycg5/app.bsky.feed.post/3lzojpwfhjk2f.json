@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758823126106414,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzojpudmba2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzojpwfhjk2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-25T17:58:48.087Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiat6cp6hb6oarlcxlpf7r2bt5wo6porfxmgf45nhc6dfijspralwu",
+          "uri": "at://did:plc:qxichs7jsycphrsmbujwqbfb/app.bsky.feed.post/3lzni45w7hk2x"
+        },
+        "root": {
+          "cid": "bafyreiat6cp6hb6oarlcxlpf7r2bt5wo6porfxmgf45nhc6dfijspralwu",
+          "uri": "at://did:plc:qxichs7jsycphrsmbujwqbfb/app.bsky.feed.post/3lzni45w7hk2x"
+        }
+      },
+      "text": "I'm a dichotomy rejector who uses Linux and Windows, primarily thru PowerShell."
+    },
+    "cid": "bafyreidpwh3gibufi62wxl23qgxegtur6mt37cqvtovzweuvwjoye3wsge"
+  }
+}
