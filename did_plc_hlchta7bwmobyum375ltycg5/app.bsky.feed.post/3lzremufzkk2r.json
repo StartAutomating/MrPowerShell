@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758920736288005,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzremunr4f2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzremufzkk2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-26T21:05:35.85Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 23
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 160,
+            "byteStart": 149
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "In my opinion:\n\n\"Good\" #PowerShell tries to be easy.\n\nIt tries to be short & sweet.  \n\nIt might add some syntax sugar.\n\nIt flows like liquid.\n\n\"Bad\" #PowerShell doesn't care about easy.\n\nIt doesn't want to try.\n\nIt makes people spicy.\n\nIt hits like a brick.\n\nYour thoughts?"
+    },
+    "cid": "bafyreifkihndhd2p3py63pcfsierufugkopwdfehefdh6wuekxs6nmctoq"
+  }
+}
