@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758865652682398,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzprdatks723",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzprdbbvlc2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-26T05:47:32.969Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "atproto"
+            }
+          ],
+          "index": {
+            "byteEnd": 140,
+            "byteStart": 132
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreierr4cddp5dinssshckupsjm6zvcgm5pl7goycbsnfrczrdgfgxxi",
+          "uri": "at://did:plc:ragtjsm2j2vknwkz3zp4oxrd/app.bsky.feed.post/3lzpbx3wgsk2t"
+        },
+        "root": {
+          "cid": "bafyreihloth7onwxvpdmkkxvhbrieijvmpklujhy6bk3g643t4oibvtnva",
+          "uri": "at://did:plc:ia76kvnndjutgedggx2ibrem/app.bsky.feed.post/3lzpbipmeisvf"
+        }
+      },
+      "text": "Cool!\n\nNot sure which would roll off the tongue better, but I'm thinking\n\n\"atdb\"\n\nMight be better than:\n\n\"kvdb\"\n\nAlso might help in #atproto awareness / assocation.\n\nTry to say all the names five times fast to see how they feel."
+    },
+    "cid": "bafyreiew6tpn4bmwjig3uhcwlqeigqju724jj5v73mfysmse2mx3utaogq"
+  }
+}
