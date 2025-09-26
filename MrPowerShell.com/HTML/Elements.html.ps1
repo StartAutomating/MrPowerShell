@@ -50,10 +50,10 @@ if (-not $script:HtmlElementList) {
         Select-Object -Unique |
         Sort-Object |
         Select-Object @{
-            Name='Name'
+            Name='name'
             Expression={"$_" -replace '[<>]'}
         }, @{
-            Name='Href'
+            Name='href'
             Expression={$elementRoot, ("$_" -replace '[<>]' -replace '\stype="','/' -replace '"$') -join '/'}
         }
 }
