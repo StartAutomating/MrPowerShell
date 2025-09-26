@@ -1,0 +1,84 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758906951897508,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzqxs2tu4f2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzqxs24kw22v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-26T17:15:50.959Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Turtles in a PowerShell. Contribute to PowerShellWeb/Turtle development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibhmoifhfnjbabu33i2ke4hqo54ief776htfttqiv7wpla7rxra3a"
+            },
+            "mimeType": "image/jpeg",
+            "size": 877605
+          },
+          "title": "GitHub - PowerShellWeb/Turtle: Turtles in a PowerShell",
+          "uri": "https://GitHub.com/PowerShellWeb/Turtle"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 84,
+            "byteStart": 73
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 123,
+            "byteStart": 116
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/PowerShellWeb/Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 152,
+            "byteStart": 126
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib7ixctxfu6mbvild6vpz75ejvhwgx3u2nk5mw4xfhrvjd55x7lzm",
+          "uri": "at://did:plc:wcgj5r4d77fzovjmlyx5gyjj/app.bsky.feed.post/3lzqmcqvg522l"
+        },
+        "root": {
+          "cid": "bafyreib7ixctxfu6mbvild6vpz75ejvhwgx3u2nk5mw4xfhrvjd55x7lzm",
+          "uri": "at://did:plc:wcgj5r4d77fzovjmlyx5gyjj/app.bsky.feed.post/3lzqmcqvg522l"
+        }
+      },
+      "text": "Yeah, that is a cool little module.\n\nYou can make far more than plots in #PowerShell, thanks to a new module called #Turtle.\n\nGitHub.com/PowerShellWe...\n\nMore graphs and even more features coming next build!"
+    },
+    "cid": "bafyreifzt6dbwgfcna5ye5qjevy24mhivjhce4ndinqwdhsshteilae2cy"
+  }
+}
