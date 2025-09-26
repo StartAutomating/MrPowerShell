@@ -1,0 +1,98 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758913916661395,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzr6bmy6652p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzr6bkojic2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-26T19:11:54.093Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Gist Get the SVG Elements. GitHub Gist: instantly share code, notes, and snippets.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieqhtgl35ueb6u4djc2czpaleughc5jms6rfrsnzl2uraxhbjw3za"
+            },
+            "mimeType": "image/jpeg",
+            "size": 121877
+          },
+          "title": "Gist Get the SVG Elements",
+          "uri": "https://gist.github.com/StartAutomating/c0be393a26187505525744c691140dff"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 20,
+            "byteStart": 9
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 25,
+            "byteStart": 21
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MDN"
+            }
+          ],
+          "index": {
+            "byteEnd": 30,
+            "byteStart": 26
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "FridayFun"
+            }
+          ],
+          "index": {
+            "byteEnd": 41,
+            "byteStart": 31
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://gist.github.com/StartAutomating/c0be393a26187505525744c691140dff"
+            }
+          ],
+          "index": {
+            "byteEnd": 136,
+            "byteStart": 105
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "A bit of #PowerShell #SVG #MDN #FridayFun:\n\nGet all of the SVG elements with a brief PowerShell script:\n\ngist.github.com/StartAutomat...\n\nIn case you ever wanted to know all of the SVG elements in some script...\n \n😎"
+    },
+    "cid": "bafyreigthpbievudv56n4alerz3bvi2mrhppp3ewl7fa65qsl6mokr5rxu"
+  }
+}
