@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758907626805648,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzqyg4r7fa2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzqyg4q44k2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-26T17:27:04.787Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Orwell's Animal Farm sees the pigs become a ruling oligarchy with a penchant for doublespeak.\n\nThe book ends with \"All Animals are Equal, but some are more Equal than Others.\"\n\nSeems prescient.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiayclbpskfsks6xs7gpwvsakf44ui3ul2yogyc7slqfazzby6sthe"
+            },
+            "mimeType": "image/jpeg",
+            "size": 177593
+          },
+          "title": "a cartoon of three pigs in suits jumping over a fence",
+          "uri": "https://media.tenor.com/kTzWJKyGQ0sAAAAC/animal-farm.gif?hh=361&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.thebulwark.com/p/animal-farm-never-gets-old-george-orwell-80-anniversary"
+            }
+          ],
+          "index": {
+            "byteEnd": 118,
+            "byteStart": 84
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Animal Farm is now 80.\n\nIf only certain autocrats had read that book as a child...\n\nwww.thebulwark.com/p/animal-far..."
+    },
+    "cid": "bafyreign3rki33zcrcojy7wtglx5iko5uczqj6ya7xpcbe2rdapsw45k7u"
+  }
+}
