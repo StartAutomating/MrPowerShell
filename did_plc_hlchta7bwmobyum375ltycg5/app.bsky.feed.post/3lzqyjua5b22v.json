@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758907751621375,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzqyjvgqpn2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzqyjua5b22v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-26T17:29:10.093Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiebxc5t4uljz5ssnmoegwh3dz4ogxqukojv3zjojbzl7rilii7vty",
+          "uri": "at://did:plc:e2pq4zblj4qxrckt7dsj3lvj/app.bsky.feed.post/3lzounu3l322l"
+        },
+        "root": {
+          "cid": "bafyreiebxc5t4uljz5ssnmoegwh3dz4ogxqukojv3zjojbzl7rilii7vty",
+          "uri": "at://did:plc:e2pq4zblj4qxrckt7dsj3lvj/app.bsky.feed.post/3lzounu3l322l"
+        }
+      },
+      "text": "Beauty is in the eye of the beholder.\n\nAnd I don't know what anyone gains by calling something other people love \"ugly\".\n\nSorry you had a bad day with PowerShell.\n\nPowerShell tends to make days better, especially if you ask for help.\n\nWhat were you trying to do?"
+    },
+    "cid": "bafyreiely62hq5iuuxogwo3ccajsvgv55zi53et2xfuizqbiqqiajlhdgm"
+  }
+}
