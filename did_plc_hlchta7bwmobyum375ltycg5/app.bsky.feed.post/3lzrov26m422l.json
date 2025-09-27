@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758931749373672,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzrov2mxso2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzrov26m422l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-27T00:09:07.752Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicu74y7t5i2qxoqvo7slhrjooxgqv7247szrunakbxbrn642v5bgq",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3lzrg7g2ek22d"
+        },
+        "root": {
+          "cid": "bafyreifkihndhd2p3py63pcfsierufugkopwdfehefdh6wuekxs6nmctoq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lzremufzkk2r"
+        }
+      },
+      "text": "Tries to be easy can include:\n\n* Logical naming\n* Predictable behaviors\n* Fluent object pipelines\n* Tab completion\n* Inline help\n* Formatting\n* Extending Types\n* Being 'alias happy'\n* Consistent nouns/parameters\n\nWhereas: \"doesn't care\" about any of this, or about learning why it helps.\n\nMake sense?"
+    },
+    "cid": "bafyreicrbmpp4xi6uqim3q2mkwqnnsdf6r6mcshdrkqctecchtq5xkeqsi"
+  }
+}
