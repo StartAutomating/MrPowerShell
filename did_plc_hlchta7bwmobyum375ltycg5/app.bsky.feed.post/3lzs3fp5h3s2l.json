@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1758945193904905,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzs3fr6pwp2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzs3fp5h3s2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-27T03:53:11.507Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: PowerShell Cmdlets are spelled Cmdlets because Unreal Engine already had the concept of a \"commandlet\" in their command line.  \n\nThat, and, obviously, fewer characters / more 'leetspeek'.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidm7vaaceqh4kejnsinsujvczzxoxxiqlkatrn4jmccmdrcsc3mby"
+            },
+            "mimeType": "image/jpeg",
+            "size": 801715
+          },
+          "title": "a colorful background with the words \" the more you know \" and a star",
+          "uri": "https://media.tenor.com/jW0s11pfmoAAAAAC/the-more-you-know.gif?hh=371&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "UnrealEngine"
+            }
+          ],
+          "index": {
+            "byteEnd": 65,
+            "byteStart": 52
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 96,
+            "byteStart": 85
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie5iyp7o7opvhquwgxlcxnatj7wbnj67zo5dapraymmi56kibrdyq",
+          "uri": "at://did:plc:dty67hjwvp6id52ul7ev4kbv/app.bsky.feed.post/3lzrwcqarf22d"
+        },
+        "root": {
+          "cid": "bafyreibo7fwti4l2d2mmwk7hxb57l23efz2f4bairct3d3ynsvblyaz4fm",
+          "uri": "at://did:plc:ef7xwrwm7btq7qmbe4o67k4y/app.bsky.feed.post/3lzrgywjku22b"
+        }
+      },
+      "text": "This is beautifully ironic and wonderful, since the #UnrealEngine is the reason that #PowerShell Cmdlets are Cmdlets (their command line uses the term \"Commandlet\", and so a spelling change was made to disambiguate)"
+    },
+    "cid": "bafyreidcbjfgjcsp2xseqghlp7xe2wxxumfin3qmqfbkafqqe4h5tcjaxu"
+  }
+}
