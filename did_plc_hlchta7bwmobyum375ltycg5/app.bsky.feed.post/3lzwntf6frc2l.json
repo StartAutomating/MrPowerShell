@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759102417782030,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzwntfmmnd2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzwntf6frc2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-28T23:33:37.122Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifyt7bu4q73sh6lrn24y6ks6rjddv3ugxberm4ukanulxnxsemrxe",
+          "uri": "at://did:plc:ia6mpfe4s64537bgyxgvlnmy/app.bsky.feed.post/3lzwi2b5qis24"
+        },
+        "root": {
+          "cid": "bafyreicnunztmubmhmagpb7xg77mcm2nrhmaksdwmmlhy4dsox3c5l5ste",
+          "uri": "at://did:plc:6omwpywertobiisnnwier7g6/app.bsky.feed.post/3lzw6qermas2s"
+        }
+      },
+      "text": "🤷\n\nMy Cassandra complex extends not much longer than my lifespan."
+    },
+    "cid": "bafyreianoaxtp5hban65olm2saax4v3qnciztunzfs4hnfqkssjxofdx3q"
+  }
+}
