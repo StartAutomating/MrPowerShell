@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759094799371495,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzwgqe6oot2t",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzwgqdzo2c2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-28T21:26:39.062Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidelwsjeou32go6zgv6ctvgmwobwvsemhlaqcsbskbpiom3i7z2hu",
+          "uri": "at://did:plc:ia6mpfe4s64537bgyxgvlnmy/app.bsky.feed.post/3lzweu35p2k2x"
+        },
+        "root": {
+          "cid": "bafyreicnunztmubmhmagpb7xg77mcm2nrhmaksdwmmlhy4dsox3c5l5ste",
+          "uri": "at://did:plc:6omwpywertobiisnnwier7g6/app.bsky.feed.post/3lzw6qermas2s"
+        }
+      },
+      "text": "The thing I really keep coming back to for pop culture PowerShell is:\n\n\"Why hasn't anyone made a good custom progress engine?\"\n\nFancy progress bars are such a staple, and most languages don't even really have a standard progress structure (whereas PowerShell 💙 Write-Progress)"
+    },
+    "cid": "bafyreibka727b3w4ykbwhazlgagxl5e5mf5e5a7rt2kih2wf5xxrgdq4ga"
+  }
+}
