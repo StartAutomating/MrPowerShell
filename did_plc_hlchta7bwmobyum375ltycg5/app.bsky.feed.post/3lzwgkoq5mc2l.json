@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759094609361238,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzwgkoyanr2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzwgkoq5mc2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-28T21:23:28.958Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidelwsjeou32go6zgv6ctvgmwobwvsemhlaqcsbskbpiom3i7z2hu",
+          "uri": "at://did:plc:ia6mpfe4s64537bgyxgvlnmy/app.bsky.feed.post/3lzweu35p2k2x"
+        },
+        "root": {
+          "cid": "bafyreicnunztmubmhmagpb7xg77mcm2nrhmaksdwmmlhy4dsox3c5l5ste",
+          "uri": "at://did:plc:6omwpywertobiisnnwier7g6/app.bsky.feed.post/3lzw6qermas2s"
+        }
+      },
+      "text": "Cool!  Definitely looks like it's still windows (note the DWORDs).\n\nLess sure it's any PowerShell I know (looks like a summary of PE data (the structs / libraries contained within a process or dll)\n\nWent looking for old screenshots of Mr Robot / The Boys and am really wishing I kept a folder :-("
+    },
+    "cid": "bafyreiezumgoa7i4cytpdsxoiky6sj27jb2lar77pl3usmyui6xwjwtfw4"
+  }
+}
