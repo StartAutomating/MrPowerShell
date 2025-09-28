@@ -1,0 +1,80 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759090432792100,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzwco7ussg2x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzwco7hrb22l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-28T20:13:52.204Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 52,
+            "byteStart": 41
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "StarTrek"
+            }
+          ],
+          "index": {
+            "byteEnd": 114,
+            "byteStart": 105
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TheBoys"
+            }
+          ],
+          "index": {
+            "byteEnd": 183,
+            "byteStart": 175
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MrRobot"
+            }
+          ],
+          "index": {
+            "byteEnd": 277,
+            "byteStart": 269
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihyqd4pl7xpxvpsywntmzbn7kbcin2lrxz3xlz7dsy5ee4rgcs2zq",
+          "uri": "at://did:plc:ia6mpfe4s64537bgyxgvlnmy/app.bsky.feed.post/3lzw7hlbins2a"
+        },
+        "root": {
+          "cid": "bafyreicnunztmubmhmagpb7xg77mcm2nrhmaksdwmmlhy4dsox3c5l5ste",
+          "uri": "at://did:plc:6omwpywertobiisnnwier7g6/app.bsky.feed.post/3lzw6qermas2s"
+        }
+      },
+      "text": "Please screenshot!\n\nI've been collecting #PowerShell uses in popular culture for a bit now, but am a few #StarTrek series behind on my viewing.\n\nPowerShell's also appeared in #TheBoys (various places in Vought Tower), and it was also (fittingly) the last hack shown in #MrRobot"
+    },
+    "cid": "bafyreidq2fcge3ygqtiwledto73ljjjmrleyze3epnappiyzsqqixy4rne"
+  }
+}
