@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759090162581903,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzwcg5dary2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzwcg3d4lk2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-28T20:09:19.423Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: A xenomorph's view of chasing you down a hallway.  Seems like a terrible way to go.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiefc2k3o62buewgxtle76s76gam53qoxrr7mijjgerltqjget2py4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 826050
+          },
+          "title": "a computer generated image of a space ship with the name kepler on the bottom",
+          "uri": "https://media.tenor.com/6MpWc9b_Ce8AAAAC/alien-earth-alien.gif?hh=364&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AlienEarth"
+            }
+          ],
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 25
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "xenomorph"
+            }
+          ],
+          "index": {
+            "byteEnd": 103,
+            "byteStart": 93
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Alien3"
+            }
+          ],
+          "index": {
+            "byteEnd": 165,
+            "byteStart": 158
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Finally started watching #AlienEarth last night and *damn*, I haven't felt the horror of the #xenomorph like that in ~30 years!\n\nThese sequences remind me of #Alien3 (somehow, in a good way)"
+    },
+    "cid": "bafyreiarqgp72kefgvzjai627tojwyideexwwpptz4apxn6zlnpfnqdbqe"
+  }
+}
