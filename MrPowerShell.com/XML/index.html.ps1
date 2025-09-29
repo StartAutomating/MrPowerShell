@@ -111,7 +111,7 @@
 
     We can escape the inner text in a few ways.
 
-    We will start by using a static method (`[Security.SecurityElement]::Escape`)[https://learn.microsoft.com/en-us/dotnet/api/system.security.securityelement.escape]
+    We will start by using a static method [`[Security.SecurityElement]::Escape`](https://learn.microsoft.com/en-us/dotnet/api/system.security.securityelement.escape)
 
     ~~~PowerShell
     [xml]"<h1>$([Security.SecurityElement]::Escape("PowerShell & XML"))</h1>"
@@ -200,5 +200,5 @@ ConvertFrom-Markdown -InputObject (
 [Web.HttpUtility]::HtmlEncode($MyInvocation.MyCommand.ScriptBlock)
 "</code></pre>"
 "</details>"
-    
+
 if ($PSScriptRoot) { Pop-Location}
