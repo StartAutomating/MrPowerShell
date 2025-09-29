@@ -184,10 +184,12 @@
 #>
 if ($PSScriptRoot) { Push-Location $PSScriptRoot}
 $myHelp = Get-Help $MyInvocation.MyCommand.ScriptBlock.File
+$title = $myHelp.Synopsis
+$description = $myHelp.description.text -join [Environment]::NewLine
 ConvertFrom-Markdown -InputObject (
     @(
-        "# $($myHelp.Synopsis)"
-        "## $($myHelp.Description.text -join [Environment]::NewLine)"
+        "# $title"
+        "## $description"
         $myHelp.alertSet.alert.text
     ) -join [Environment]::NewLine
 ) | 
