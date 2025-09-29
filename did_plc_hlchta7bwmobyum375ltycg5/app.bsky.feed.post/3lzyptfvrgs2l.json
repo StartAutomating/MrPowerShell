@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759173289073262,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzypthyby32t",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzyptfvrgs2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-29T19:14:44.848Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Larry David gets bingo.\n\nSadly, they might also be the target market for this sort of \"prove you're a human by running this PowerShell script that is totally not going to steal your info\" vector.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidl5mti3wdqfu36g4i4afl6xq3cmoob62uyhh7hkhlaxdasrylwjy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 658298
+          },
+          "title": "a person is playing a game of bingo on a table",
+          "uri": "https://media.tenor.com/sIIWySsegagAAAAC/curb-your-enthusiasm-larry-david.gif?hh=373&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidnnacdqtgbirl7bmjvpnnqnkhfxxexhe4cfcnufn4d4d3xbkz64u",
+          "uri": "at://did:plc:p7ih24bs5prbfyz4oa73lyvr/app.bsky.feed.post/3lzyl7loboc2x"
+        },
+        "root": {
+          "cid": "bafyreichm7sygbanka2yeleewqkw5cmhta3rmnyfuti3bmcrwdyldxbpnu",
+          "uri": "at://did:plc:p7ih24bs5prbfyz4oa73lyvr/app.bsky.feed.post/3lzykqtznsk2x"
+        }
+      },
+      "text": "Yeah, that's definitely a bingo."
+    },
+    "cid": "bafyreih7n4nkrghffhchprs265mst4fjpe7oa3wyj4obewlhuh42g5qibe"
+  }
+}
