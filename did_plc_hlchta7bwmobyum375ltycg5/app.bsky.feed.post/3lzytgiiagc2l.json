@@ -1,0 +1,62 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759177151533861,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzytgmbi4n25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzytgiiagc2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-29T20:19:06.31Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Provides the base class for value types.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreif5cdhusoi35cagqnhxif5bjxpvfwiy4sce35o257o4nsmwddiyfa"
+            },
+            "mimeType": "image/jpeg",
+            "size": 737841
+          },
+          "title": "ValueType Class (System)",
+          "uri": "https://learn.microsoft.com/en-us/dotnet/api/system.valuetype"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 73,
+            "byteStart": 62
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://learn.microsoft.com/en-us/dotnet/api/system.valuetype"
+            }
+          ],
+          "index": {
+            "byteEnd": 258,
+            "byteStart": 223
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "-is [ValueType] is my new favorite use of the -is operator in #PowerShell\n\n~~~PowerShell\n1 -is [ValueType]\n1.1 -is [ValueType\n$true -is [ValueType]\n~~~ \n\nBasically this means \"any .NET type that directly contains a value\"\n\nlearn.microsoft.com/en-us/dotnet..."
+    },
+    "cid": "bafyreiezjnnwpqe2apicdv77nzmzhschdv332nqqwzf6wh7tentltmupv4"
+  }
+}
