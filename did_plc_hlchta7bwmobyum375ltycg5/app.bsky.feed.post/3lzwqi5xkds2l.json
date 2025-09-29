@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759105265070896,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzwqiajup62i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzwqi5xkds2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-29T00:21:01.684Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidulhj2aj3thd75g7xpeylk6zwdrbgtkwjjbm6qd3djlgnx32tk4q",
+          "uri": "at://did:plc:ofrbh253gwicbkc5nktqepol/app.bsky.feed.post/3lzwody57t22n"
+        },
+        "root": {
+          "cid": "bafyreihbzexr3j4ibg6xghoe5urwfr6faetdgxzwzkj4m3ygn6skl3prgq",
+          "uri": "at://did:plc:oisofpd7lj26yvgiivf3lxsi/app.bsky.feed.post/3lzwnpslc4c2n"
+        }
+      },
+      "text": "That does look cool, but no, that's not what I'm looking for.\n\nI want git activity to be social activity.\n\n(did interoperability would be nice) \n\nI think a lot of people churn more than they post, and this would help change that."
+    },
+    "cid": "bafyreiatlwwianugostolil2hgrqkh7zcd4nfaxlc3to2ahk5srtuwbufu"
+  }
+}
