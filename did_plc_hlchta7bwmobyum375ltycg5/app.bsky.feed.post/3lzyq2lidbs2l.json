@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759173528668235,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzyq2ocfpp2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzyq2lidbs2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-29T19:18:45.579Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Using XML in PowerShell",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidarwkxp4jmlkkhyk4m7q5cpzbh2nl4tubxpfiblzgsklnuwupzue"
+            },
+            "mimeType": "image/jpeg",
+            "size": 138088
+          },
+          "title": "XML and PowerShell",
+          "uri": "https://MrPowershell.com/XML"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "XML"
+            }
+          ],
+          "index": {
+            "byteEnd": 25,
+            "byteStart": 21
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 41,
+            "byteStart": 30
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://MrPowershell.com/XML"
+            }
+          ],
+          "index": {
+            "byteEnd": 99,
+            "byteStart": 79
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Need a quickstart on #XML and #PowerShell ?\n\nI wrote one up over the weekend.\n\nmrpowershell.com/XML\n\nPlease let me know if there's any more ground to cover, and I'll try to add to the article."
+    },
+    "cid": "bafyreicruueirur3tedhjslyh27pjd4szjqvkgsglehj7nhniocgwhhlfq"
+  }
+}
