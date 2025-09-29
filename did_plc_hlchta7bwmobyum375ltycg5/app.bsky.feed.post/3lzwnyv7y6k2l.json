@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759102602186621,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzwnyvjpau2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzwnyv7y6k2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-28T23:36:41.723Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 50,
+            "byteStart": 43
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 65,
+            "byteStart": 57
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihbzexr3j4ibg6xghoe5urwfr6faetdgxzwzkj4m3ygn6skl3prgq",
+          "uri": "at://did:plc:oisofpd7lj26yvgiivf3lxsi/app.bsky.feed.post/3lzwnpslc4c2n"
+        },
+        "root": {
+          "cid": "bafyreihbzexr3j4ibg6xghoe5urwfr6faetdgxzwzkj4m3ygn6skl3prgq",
+          "uri": "at://did:plc:oisofpd7lj26yvgiivf3lxsi/app.bsky.feed.post/3lzwnpslc4c2n"
+        }
+      },
+      "text": "I keep thinking I want to be able to treat #GitHub as an #AtProto PDS.\n\nAnyone made this yet?"
+    },
+    "cid": "bafyreifmpcodvhj3fzsfuqasg7t6g4df3kxm66e7z7vm3wsmdp7lqldjxu"
+  }
+}
