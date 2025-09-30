@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759252335305470,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m22zhc5dq32d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m22zhamsg22e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-30T17:12:13.553Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie3p4vcketo4mkqhwzegx66n57t5bzl2rzglf27zjwqybg54aknmq",
+          "uri": "at://did:plc:xq5wbfnpzixcax72hlgnegyf/app.bsky.feed.post/3m22xahjcqc2j"
+        },
+        "root": {
+          "cid": "bafyreie3p4vcketo4mkqhwzegx66n57t5bzl2rzglf27zjwqybg54aknmq",
+          "uri": "at://did:plc:xq5wbfnpzixcax72hlgnegyf/app.bsky.feed.post/3m22xahjcqc2j"
+        }
+      },
+      "text": "Yeah, Select-String can be quite handy.\n\nJust wait until you realize that PowerShell can also *make* any file.\n\nThen wait until you realize that PowerShell can also *run* any file from any language.\n\nThen you'll really be cooking 😉"
+    },
+    "cid": "bafyreibyerjgxuymvhjmmyd2rnz7uutviokewvssvuue7x2k3z76rgegai"
+  }
+}
