@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759270980597951,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m23ksxpqe52x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m23kspzuxs2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-30T22:22:52.419Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiduc6kmg3ndksbpzqm44ofwwu64b3y2zbnfqjm2q6cscqg7bz7iga",
+          "uri": "at://did:plc:k4hstfvvvpj7befljr3bvcso/app.bsky.feed.post/3m23jbajhfc23"
+        },
+        "root": {
+          "cid": "bafyreihzj4iiguyz2wexf3pxpnfmrgi7kylz3nqbeex5bce6xwv5n4dmc4",
+          "uri": "at://did:plc:k4hstfvvvpj7befljr3bvcso/app.bsky.feed.post/3m23ipbcrps2n"
+        }
+      },
+      "text": "Tiobe has some very bizarre sampling bias.\n\nSupposedly they now use search engine data, which seems like a bad correlative.  No idea what weighting they use.\n\nThey used to use a survey of a small handful of European companies, governments, and educational institutions."
+    },
+    "cid": "bafyreigyhycybfstffil7ybhr2ti7olyoi4sqhhiqzhorx6bynlx72hs5e"
+  }
+}
