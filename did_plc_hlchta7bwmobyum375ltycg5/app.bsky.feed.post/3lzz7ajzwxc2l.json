@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759189832376896,
+  "kind": "commit",
+  "commit": {
+    "rev": "3lzz7aklsjn22",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3lzz7ajzwxc2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-29T23:50:31.513Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid6xbehpjklbr5t76tbz2a5km4hp72brk6yckbarvligwzcfsjhbe",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3lzz5j2uqe22t"
+        },
+        "root": {
+          "cid": "bafyreiezjnnwpqe2apicdv77nzmzhschdv332nqqwzf6wh7tentltmupv4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lzytgiiagc2l"
+        }
+      },
+      "text": "Oh, it's a shorthand for \"possibly a number\", and more clear than checking for if the type IsPrimitive (which would, say, miss an [enum])\n\nAlso ends up being slightly faster than .GetType().IsPrimitive, and less complex than the null-safe variant of that."
+    },
+    "cid": "bafyreifzma6nbzsc34ohykmhojstivnd3mhqxd5mhnkjfi6lgxytumujni"
+  }
+}
