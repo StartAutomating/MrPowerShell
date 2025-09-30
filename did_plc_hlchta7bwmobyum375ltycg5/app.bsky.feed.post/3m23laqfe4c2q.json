@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759271443239288,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m23laqvxj325",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m23laqfe4c2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-09-30T22:30:42.557Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiertmhwf3di2ea44qzgs4bt675mhba4y4xrxagpa5vbeswm7vutd4",
+          "uri": "at://did:plc:k4hstfvvvpj7befljr3bvcso/app.bsky.feed.post/3k3wgonqs622e"
+        },
+        "root": {
+          "cid": "bafyreiertmhwf3di2ea44qzgs4bt675mhba4y4xrxagpa5vbeswm7vutd4",
+          "uri": "at://did:plc:k4hstfvvvpj7befljr3bvcso/app.bsky.feed.post/3k3wgonqs622e"
+        }
+      },
+      "text": "I haven't met anyone who programs in D since the mid 90s.\n\nWait.... That's dbase.\n\nLiterally never met anyone who uses D.\n\nI feel like there's a joke waiting in the wings but I'm not making it."
+    },
+    "cid": "bafyreif42ltzu3sjbhoaf5dvo5sqhbjlnpw6qa6pn7x32o7occrd7elhuy"
+  }
+}
