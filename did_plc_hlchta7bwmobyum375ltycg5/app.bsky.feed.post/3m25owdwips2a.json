@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759344109177675,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m25oweky462i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m25owdwips2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-01T18:41:48.387Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 106,
+            "byteStart": 98
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JoyOfThreatModeling"
+            }
+          ],
+          "index": {
+            "byteEnd": 239,
+            "byteStart": 219
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JoyOfPowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 256,
+            "byteStart": 240
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiatawmcy6axvqudilfkwswcq45j5b5uxwvsxgj4vqjodk42w24cvm",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3m25olqhcnk2w"
+        },
+        "root": {
+          "cid": "bafyreidgwf5yk2oi4p3tvxzg66eytrhxdil4mpenbxrs4b6p4vmalt5qey",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m25mlp6crs2k"
+        }
+      },
+      "text": "Yeah.  \n\nI was thinking thru how I might prevent a thread job from seeing a secret (like, say, an #AtProto app password).\n\nNow, instead of having a clear way to hide my secret, I have a new vector to worry about. 🤔\n\n#JoyOfThreatModeling #JoyOfPowerShell"
+    },
+    "cid": "bafyreieyrv33txebfkqogy4enwcdzyu5e4ndhap37th4fwiiejbm5hbmba"
+  }
+}
