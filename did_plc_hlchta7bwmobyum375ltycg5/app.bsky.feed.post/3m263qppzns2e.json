@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759357879280203,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m263qqft4b2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m263qppzns2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-01T22:31:18.075Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "ALT: a blue arrow pointing to the right is against a black background",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihwhmwef32rybqohku2gqd4rusp7hz6td6st3iiikzn2jyx2noeie"
+            },
+            "mimeType": "image/jpeg",
+            "size": 41905
+          },
+          "title": "a blue arrow pointing to the right is against a black background",
+          "uri": "https://media.tenor.com/CGnOmkhIMU0AAAAC/powershell-icon.gif?hh=281&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 27,
+            "byteStart": 16
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "tip"
+            }
+          ],
+          "index": {
+            "byteEnd": 282,
+            "byteStart": 278
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "trick"
+            }
+          ],
+          "index": {
+            "byteEnd": 291,
+            "byteStart": 285
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Oh, the joys of #PowerShell providers:\n\nLet's make some variables:\n\n~~~PowerShell\n# assignment\n$n = 42 \n# using the variable provider\nNew-Item -Path \"variable:n\" -Force -Value 42\n# (in alias shorthand)\nni \"variable:n\" -f -v 42\n~~~\n\nPowerShell is OP, and providers are awesome!\n\n#tip / #trick"
+    },
+    "cid": "bafyreihwblwtuxjuzso2urllbopmmmgc3jfb2qfscyc4zsjogp7s3a7lfi"
+  }
+}
