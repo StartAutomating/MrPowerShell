@@ -1,0 +1,66 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759285946738075,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m23yqyh3ke2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m23yqybhuc27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-01T02:32:26.333Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Browse content tagged with \"James Brundage\" on Channel 9.",
+          "title": "James Brundage | Tags | Channel 9",
+          "uri": "https://web.archive.org/web/20200806131046/https://channel9.msdn.com/Tags/james+brundage"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 37,
+            "byteStart": 26
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GUI"
+            }
+          ],
+          "index": {
+            "byteEnd": 46,
+            "byteStart": 42
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://web.archive.org/web/20200806131046/https://channel9.msdn.com/Tags/james+brundage"
+            }
+          ],
+          "index": {
+            "byteEnd": 152,
+            "byteStart": 121
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Holy crap I've been doing #PowerShell and #GUI development so long some of my first videos are on the internet archive.\n\nweb.archive.org/web/20200806...\n\nI might have to upload some of these to my YouTube channel\n\n(I  need to give my YouTube channel some more love)"
+    },
+    "cid": "bafyreifouxfvpcysj55vcjqxa3pzieph3oynttdgcfp5hab5h3ky7mko6i"
+  }
+}
