@@ -1,0 +1,108 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759337356725441,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m25in4vap422",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m25in5iomk2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-01T16:49:17.202Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Work with WebSockets in PowerShell. Contribute to PowerShellWeb/WebSocket development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreig7qbkifxmqasdkxucznnzapdxhzi2mn7llvvlblcbwocr3vrfeca"
+            },
+            "mimeType": "image/jpeg",
+            "size": 161339
+          },
+          "title": "GitHub - PowerShellWeb/WebSocket: Work with WebSockets in PowerShell",
+          "uri": "https://GitHub.com/PowerShellWeb/WebSocket"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebSocket"
+            }
+          ],
+          "index": {
+            "byteEnd": 52,
+            "byteStart": 42
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 83,
+            "byteStart": 72
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/PowerShellWeb/WebSocket"
+            }
+          ],
+          "index": {
+            "byteEnd": 129,
+            "byteStart": 103
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 167,
+            "byteStart": 160
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Graphics"
+            }
+          ],
+          "index": {
+            "byteEnd": 177,
+            "byteStart": 168
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaj2souxvxqfrymbvdefaeelupmavejkv5qh5lo5ye44sx5f3e3oa",
+          "uri": "at://did:plc:j36wppaxkeepe4iuv4rm5yni/app.bsky.feed.post/3m24pwmydo225"
+        },
+        "root": {
+          "cid": "bafyreicc632t7dm5dgw5a6fghpiitomeim576dteb6nyu2fyc2c7wht37u",
+          "uri": "at://did:plc:j36wppaxkeepe4iuv4rm5yni/app.bsky.feed.post/3m23jplqmj226"
+        }
+      },
+      "text": "For a bit more fun, you can also create a #WebSocket server/client with #PowerShell and HttpListener.\n\nGitHub.com/PowerShellWe...\n\nGonna be using that to add a #Turtle #Graphics server to another project ( probably build after next )"
+    },
+    "cid": "bafyreihf6ibry6veiyx2g6pi3wlcnaykxa7cypkfetfkvcu2y2osktj5ei"
+  }
+}
