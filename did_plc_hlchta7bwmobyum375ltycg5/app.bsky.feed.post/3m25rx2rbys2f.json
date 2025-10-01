@@ -1,0 +1,80 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759347355539896,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m25rx4jonh2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m25rx2rbys2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-01T19:35:53.559Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 95,
+            "byteStart": 84
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 221,
+            "byteStart": 214
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 245,
+            "byteStart": 237
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 285,
+            "byteStart": 274
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiasd7vn3xtyy465kwxzhsv3nnqtita6expppuhdeqbalelascjewq",
+          "uri": "at://did:plc:tg3tb5wukiml4xmxml6qm637/app.bsky.feed.post/3m25rh2flvc2c"
+        },
+        "root": {
+          "cid": "bafyreidgwf5yk2oi4p3tvxzg66eytrhxdil4mpenbxrs4b6p4vmalt5qey",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m25mlp6crs2k"
+        }
+      },
+      "text": "Yeah it makes bizarro sense to me.\n\nThe answer, as always, is to make sure whatever #PowerShell one builds does not allow code injection 😉.\n\nSadly, this is tricky when making modules and DSLs.\n\nTrying to expose #Turtle graphics as an #AtProto bot (safely)\n\nThank god for #PowerShell data blocks 😎"
+    },
+    "cid": "bafyreiht7yjff55hhc4x6ml5ade5ri5yadidgjdiv2dkz462bhemltn5fy"
+  }
+}
