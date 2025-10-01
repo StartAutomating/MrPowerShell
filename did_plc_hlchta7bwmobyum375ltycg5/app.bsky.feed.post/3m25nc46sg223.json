@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759342355875701,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m25nc4h6u42p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m25nc46sg223",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-01T18:12:35.44Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidgwf5yk2oi4p3tvxzg66eytrhxdil4mpenbxrs4b6p4vmalt5qey",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m25mlp6crs2k"
+        },
+        "root": {
+          "cid": "bafyreidgwf5yk2oi4p3tvxzg66eytrhxdil4mpenbxrs4b6p4vmalt5qey",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m25mlp6crs2k"
+        }
+      },
+      "text": "Update:\n\nIt was all fun and games until I needed to run a process in the path.  Since now $env:Path was empty, of course it could not find the command.\n\nSo yeah, both good and bad.\n\nGood side:  A job could restrict the variables it can see\nBad side: A job could corrupt the $env:path"
+    },
+    "cid": "bafyreibxoqn7t5kifwsne3dkgkm3ftranracy73k73gk3jfavjslkryypm"
+  }
+}
