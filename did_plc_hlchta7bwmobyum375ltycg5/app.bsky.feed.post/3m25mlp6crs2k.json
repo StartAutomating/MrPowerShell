@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759341605476214,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m25mlpdrea2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m25mlp6crs2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-01T18:00:03.595Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TIL"
+            }
+          ],
+          "index": {
+            "byteEnd": 20,
+            "byteStart": 16
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 25
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Today I Learned #TIL \n\nA #PowerShell Thread Job will happily remove all of your environmental variables (from both runspaces)\n\n~~~PowerShell\nStart-ThreadJob -ScriptBlock { dir env: | Remove-Item ; dir env: } | Wait-Job | Receive-Job -Keep; dir env:\n~~~\n\nFeels like this is both good and bad."
+    },
+    "cid": "bafyreidgwf5yk2oi4p3tvxzg66eytrhxdil4mpenbxrs4b6p4vmalt5qey"
+  }
+}
