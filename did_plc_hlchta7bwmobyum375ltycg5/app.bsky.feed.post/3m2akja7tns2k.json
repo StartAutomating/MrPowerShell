@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759442454001129,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m2akjbhmo325",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m2akja7tns2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-02T22:00:52.539Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieaeyy5x3zq355x2og7qmggo74q5byjyjswv2cljafzzw4utrfkzq",
+          "uri": "at://did:plc:xgcfuhpm23k2iy6mu7d7ccmo/app.bsky.feed.post/3m2abgsidi22t"
+        },
+        "root": {
+          "cid": "bafyreieaeyy5x3zq355x2og7qmggo74q5byjyjswv2cljafzzw4utrfkzq",
+          "uri": "at://did:plc:xgcfuhpm23k2iy6mu7d7ccmo/app.bsky.feed.post/3m2abgsidi22t"
+        }
+      },
+      "text": "🫂 in a similar boat myself.  Will keep an ear to the ground.\n\nIn the meantime, I'm thinking about trying to organize an NB/Queer local nerd group (to help mentor and network).\n\nIf that sounds like a good thing, LMK and let's get one started."
+    },
+    "cid": "bafyreihyvvvdtmsjwgfi4halisfzshp2zb227rfooo6e5frnihnnhzqr2a"
+  }
+}
