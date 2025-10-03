@@ -1,0 +1,34 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759448802301512,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m2aqghp3vu2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m2aqghgls224",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-02T23:46:41.888Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 17,
+            "byteStart": 14
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "All I get are #AI calls these days 😞\n\nI guess you don't miss headhunter cold-calls until they're gone."
+    },
+    "cid": "bafyreifmdn76cwflbjmir6fkji4txnwrmkqgjpcb6zki6ift5zjwolhrnq"
+  }
+}
