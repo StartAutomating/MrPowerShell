@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759514442047588,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m2cnko675h2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m2cnkn2ue22k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-03T18:00:40.264Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Louise understands the need for constant vigilance and operational security, and is struggling to understand why this is so hard to understand.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiggcvr667vbhdleuzosei3h3ozf6ogmrfuqjotpqfjqwdw5jdoju4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 124810
+          },
+          "title": "Bobsburgers Louise GIF",
+          "uri": "https://media.tenor.com/8GPuKPAbWRcAAAAC/bobsburgers-louise.gif?hh=498&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.theregister.com/2025/10/02/pentagon_relaxes_military_cybersecurity_training/"
+            }
+          ],
+          "index": {
+            "byteEnd": 63,
+            "byteStart": 28
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CyberSecurity"
+            }
+          ],
+          "index": {
+            "byteEnd": 79,
+            "byteStart": 65
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BadIdea"
+            }
+          ],
+          "index": {
+            "byteEnd": 88,
+            "byteStart": 80
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "News"
+            }
+          ],
+          "index": {
+            "byteEnd": 94,
+            "byteStart": 89
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "This is probably not fine:\n\nwww.theregister.com/2025/10/02/p...\n\n#CyberSecurity #BadIdea #News"
+    },
+    "cid": "bafyreibcxssw46xfocp7kccwc2k2c67buavzrbeabd57vdaveof3dxwczq"
+  }
+}
