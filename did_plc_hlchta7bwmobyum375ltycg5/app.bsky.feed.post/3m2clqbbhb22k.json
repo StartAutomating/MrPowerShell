@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759512485780897,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m2clqc4x2g2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m2clqbbhb22k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-03T17:28:01.74Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid7qsdppjmquk7iji72v4jcp3fkrbsch2tbkpeauqa4lrd73hwh4y",
+          "uri": "at://did:plc:tctksreidsei6f7rtw7lwox5/app.bsky.feed.post/3m2c6adtfws2a"
+        },
+        "root": {
+          "cid": "bafyreicebrqbidmsorz4wtxnvl2qtz4blrr5ibfb42vqodgtrpf5p4vzvq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m2ab65mazc2b"
+        }
+      },
+      "text": "Thanks!  I've known about it for a while but only recently got around to making a little module.\n\nIf you already know MathML, please kick the tires and let me know what you think.  Also please consider contributing.  MathML language translation could use some extra hands."
+    },
+    "cid": "bafyreieaishvillhla4q4djkus2wjiquty5lhgddowoptgyucc7cypodfq"
+  }
+}
