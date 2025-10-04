@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759616346724602,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m2fmhnswei2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m2fmhckxds2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-04T22:18:54.068Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Agatha Harkness knows some dark arts, and is still a bit horrified by all that PowerShell syntax can do.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreia267biokwmhl7dmssfyby5lm2irkhfqpbiqhd6rbb75n3ph6p5hm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 696018
+          },
+          "title": "a woman in a plaid shirt holds a plant in front of a disney logo",
+          "uri": "https://media.tenor.com/Ce0rQeCvMj0AAAAC/agatha-all-along-agatha-harkness.gif?hh=270&ww=480"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid3yg4n23qfftputtcwl5hlhdbpat7ehm3mrnhhx2neegnqijwe7a",
+          "uri": "at://did:plc:cz6zqzbojc5dhlpg2lvkp65x/app.bsky.feed.post/3m2flkj2cms2c"
+        },
+        "root": {
+          "cid": "bafyreigkdq2ihxogypod2lsxhc5eucwso4pmwkvnbhes2oybhc2pkvgjt4",
+          "uri": "at://did:plc:qxichs7jsycphrsmbujwqbfb/app.bsky.feed.post/3m2epgzhowk2x"
+        }
+      },
+      "text": "Yeah PowerShell is a witchin good time"
+    },
+    "cid": "bafyreihddv2pyob7wi54x3f6k3ibchcegxec73va62pyqxmre4m2bgbtfy"
+  }
+}
