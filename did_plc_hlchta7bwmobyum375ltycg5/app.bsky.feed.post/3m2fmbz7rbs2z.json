@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759616181343642,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m2fmcfsybs2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m2fmbz7rbs2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-04T22:15:56.491Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Shirley Bennett thinks that operator overloads just working in PowerShell is a nice little trick.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreie7a6oo2xs22mdrlbdj5wxvflamhfv4hacuzklryjj2qc7udfpfyi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 907072
+          },
+          "title": "a woman with curly hair is wearing a white shirt and earrings and says oh , that 's nice .",
+          "uri": "https://media.tenor.com/QCvxoFHsUbkAAAAC/oh-thats.gif?hh=498&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 76,
+            "byteStart": 65
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just realized that we can all multiply and divide [TimeSpan]s in #PowerShell\n\n~~~PowerShell\n$hour = [TimeSpan]::FromHours(1)\n$hour / 2 \n$hour * 24\n~~~\n\nBecause any .NET operators just work in PowerShell 😀"
+    },
+    "cid": "bafyreihnv6u6bi6343rumxaxuzkopdkdn5e5ksj3v546vr7km3y3mz5hlm"
+  }
+}
