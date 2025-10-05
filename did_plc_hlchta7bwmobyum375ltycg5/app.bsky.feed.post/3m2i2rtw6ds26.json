@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759700442153109,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m2i2rw5rnh2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m2i2rtw6ds26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-05T21:40:39.667Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Gist tell me if it looks like Markdown. GitHub Gist: instantly share code, notes, and snippets.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieqhtgl35ueb6u4djc2czpaleughc5jms6rfrsnzl2uraxhbjw3za"
+            },
+            "mimeType": "image/jpeg",
+            "size": 121877
+          },
+          "title": "Gist tell me if it looks like Markdown",
+          "uri": "https://gist.github.com/StartAutomating/3c2b9bb95644d316618833c7675b2846"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 26,
+            "byteStart": 15
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Markdown"
+            }
+          ],
+          "index": {
+            "byteEnd": 93,
+            "byteStart": 84
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://gist.github.com/StartAutomating/3c2b9bb95644d316618833c7675b2846"
+            }
+          ],
+          "index": {
+            "byteEnd": 127,
+            "byteStart": 96
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just sharing a #PowerShell script to make an educated guess if content is or is not #Markdown:\n\ngist.github.com/StartAutomat..."
+    },
+    "cid": "bafyreibgobtgozv3upotnuslwxmbdfubqi3vyamw3yevy2hfgmwpusoj6i"
+  }
+}
