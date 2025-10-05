@@ -1,0 +1,53 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759691226114646,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m2hs7ati2b2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m2hs7ajw322z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-05T19:07:05.427Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreihnv6u6bi6343rumxaxuzkopdkdn5e5ksj3v546vr7km3y3mz5hlm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m2fmbz7rbs2z"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 54,
+            "byteStart": 43
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/did:plc:hlchta7bwmobyum375ltycg5/post/3m2fmbz7rbs2z"
+            }
+          ],
+          "index": {
+            "byteEnd": 239,
+            "byteStart": 215
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Speaking of things that \"just work with in #PowerShell\":\n\nVectors\n\n~~~PowerShell\n$v2 = [Numerics.Vector2]::new(2)\n$v2 * $v2\n$v3 = [Numerics.Vector3]::new(2)\n$v3 * $v3\n$v4 = [Numerics.Vector4]::new(2)\n$v4 * $v4\n~~~\n\nbsky.app/profile/did:...\n\nBtw, just dropped a vector module 😉"
+    },
+    "cid": "bafyreicjtc6o77bggyl7k2d4pg7kh26bwvyet44vc2nm3kp2vd3736opqq"
+  }
+}
