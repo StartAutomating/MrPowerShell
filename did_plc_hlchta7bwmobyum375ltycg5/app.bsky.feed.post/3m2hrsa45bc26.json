@@ -1,0 +1,98 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759690790512821,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m2hrsbaevw25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m2hrsa45bc26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-05T18:59:48.769Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Vectors in PowerShell. Contribute to PowerShellWeb/Vector development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreig2nznuq7sapslh6gwjsc6zhjs7fkqglzsannawhcfjcikduqv76i"
+            },
+            "mimeType": "image/jpeg",
+            "size": 259833
+          },
+          "title": "GitHub - PowerShellWeb/Vector: Vectors in PowerShell",
+          "uri": "https://github.com/PowerShellWeb/Vector"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Math"
+            }
+          ],
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 27
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShellWeb/Vector"
+            }
+          ],
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 83
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 189,
+            "byteStart": 178
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DotNet"
+            }
+          ],
+          "index": {
+            "byteEnd": 201,
+            "byteStart": 194
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Hey #PowerShell people and #Math lovers, there's a new mathy module to play with:\n\ngithub.com/PowerShellWe...\n\nIt helps you turn anything into a vector, and work with vectors in #PowerShell and #DotNet\n\n~~~PowerShell\nv2 1 2\nv3 1 2 3\nv4 1 2 3 4\n~~~\n\nHope this helps / have fun! 😎"
+    },
+    "cid": "bafyreidkneojkodz7qnyvipvaicu72zxdfsybxjk6izwnye6wpvariaz5q"
+  }
+}
