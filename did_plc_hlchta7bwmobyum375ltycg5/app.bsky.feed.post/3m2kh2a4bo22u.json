@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759782326119036,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m2kh2arlkg2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m2kh2a4bo22u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-06T20:25:25.264Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicyastcf6zjct22trjz65e2ldaxaqia7ubyywummzb65pcunaubzm",
+          "uri": "at://did:plc:chf2cynf5w7js55n42x3mx5x/app.bsky.feed.post/3m2kgekxkhk2w"
+        },
+        "root": {
+          "cid": "bafyreig3vtxi5kw2bpxfmqblflbzct2dp3lrdgctpmftuvyxo6k3q5w6c4",
+          "uri": "at://did:plc:chf2cynf5w7js55n42x3mx5x/app.bsky.feed.post/3m2hhfnfhi22b"
+        }
+      },
+      "text": "🤔 Might have to try putting Kali on one of the other PIs.\n\n(and might have to struggle thru installing it on this one eventually)"
+    },
+    "cid": "bafyreibpzrbt26hjyfjgphkxtvxsa6jl2ehuisnn5aurygtlydjca4yrum"
+  }
+}
