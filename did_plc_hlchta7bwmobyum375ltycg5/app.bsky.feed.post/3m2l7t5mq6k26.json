@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759808931899714,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m2l7t5z55s2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m2l7t5mq6k26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-07T03:48:51.322Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihgsc6dt4pdaopytsw3h7jszmsb2fgmfv667a3haerqm3nzyds4vi",
+          "uri": "at://did:plc:xxdcu7zzbkxlbdpzliwclyjg/app.bsky.feed.post/3m2l3dyayts2g"
+        },
+        "root": {
+          "cid": "bafyreiff2zeo43bkqud7u3oatxpkkmaltctuue6nj5oc4pokaiw4wrxdvq",
+          "uri": "at://did:plc:jlplwn5pi4dqrls7i6dx2me7/app.bsky.feed.post/3m2kxnwklmc2p"
+        }
+      },
+      "text": "Seems like defender's doing it's job 😉\n\nOn the bright side, I'm 💯 certain there are many more ways to crash PowerShell.  It may be a sturdy language with non-terminating errors, but there are a million ways to die in the west.\n\nMy current fav:\n\n[Environment]::FailFast(\"I Regret Nothing!\")"
+    },
+    "cid": "bafyreid7a5lsslw46zu7i57gujirvcrq4f77j66dxr6rhxkusgmgxt4iwm"
+  }
+}
