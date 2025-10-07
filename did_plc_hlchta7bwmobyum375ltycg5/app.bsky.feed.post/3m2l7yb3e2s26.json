@@ -1,0 +1,73 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759809103821527,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m2l7ybyena2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m2l7yb3e2s26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-07T03:51:42.719Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "GitHub Gist: instantly share code, notes, and snippets.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieqhtgl35ueb6u4djc2czpaleughc5jms6rfrsnzl2uraxhbjw3za"
+            },
+            "mimeType": "image/jpeg",
+            "size": 121877
+          },
+          "title": "oh-god-why.ps1",
+          "uri": "https://gist.github.com/SeeminglyScience/2f38c96a09d63f3bdac4d37781e8d9c7"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:33jh6d5q5cxbifd6vqpncvgb"
+            }
+          ],
+          "index": {
+            "byteEnd": 46,
+            "byteStart": 25
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://gist.github.com/SeeminglyScience/2f38c96a09d63f3bdac4d37781e8d9c7"
+            }
+          ],
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 78
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiff2zeo43bkqud7u3oatxpkkmaltctuue6nj5oc4pokaiw4wrxdvq",
+          "uri": "at://did:plc:jlplwn5pi4dqrls7i6dx2me7/app.bsky.feed.post/3m2kxnwklmc2p"
+        },
+        "root": {
+          "cid": "bafyreiff2zeo43bkqud7u3oatxpkkmaltctuue6nj5oc4pokaiw4wrxdvq",
+          "uri": "at://did:plc:jlplwn5pi4dqrls7i6dx2me7/app.bsky.feed.post/3m2kxnwklmc2p"
+        }
+      },
+      "text": "Apropos of nothing, this @seeminglyscience.com gist continues to inspire me:\n\ngist.github.com/SeeminglySci..."
+    },
+    "cid": "bafyreibkbibkk6ouvufvnjf7j7bwk2bnqjaxknse2sfifm2jfftpgotsi4"
+  }
+}
