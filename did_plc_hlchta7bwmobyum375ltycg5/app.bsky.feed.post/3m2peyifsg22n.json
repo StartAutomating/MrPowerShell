@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759951920308248,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m2peyjpbpc2x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m2peyifsg22n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-08T19:31:58.064Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Explains Data sections, which isolate text strings and other read-only data from script logic.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifmmevjxd65b2gtvqcr5fv7ja53isj67dtuf5mcecg5hmshyqgwyy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 563248
+          },
+          "title": "about_Data_Sections - PowerShell",
+          "uri": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_data_sections?wt.mc_id=MVP_321542"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CyberSecurity"
+            }
+          ],
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "FYI"
+            }
+          ],
+          "index": {
+            "byteEnd": 19,
+            "byteStart": 15
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 23
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_data_sections?wt.mc_id=MVP_321542"
+            }
+          ],
+          "index": {
+            "byteEnd": 290,
+            "byteStart": 255
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#CyberSecurity #FYI :\n\n#PowerShell data blocks are a great way to constrain the language.\n\nNo types, loops, or methods - just little expressons and a whitelist of commands.\n\n~~~PowerShell\ndata -supportedCommand Get-Random { Get-Random }\n~~~\n\nLearn More:\n\nlearn.microsoft.com/en-us/powers..."
+    },
+    "cid": "bafyreidllcdvsuuz6rcwe27g2j4pmt5pc6v3hbmhop3pmtfhfukiixshsu"
+  }
+}
