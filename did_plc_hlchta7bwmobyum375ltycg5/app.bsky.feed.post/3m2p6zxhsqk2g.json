@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759945525210382,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m2p6zxkzh52q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m2p6zxhsqk2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-08T17:45:24.962Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 29,
+            "byteStart": 18
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Cybersecurity"
+            }
+          ],
+          "index": {
+            "byteEnd": 48,
+            "byteStart": 34
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just quizzing the #PowerShell and #Cybersecurity internet:\n\nDo you know PowerShell has language modes?\n\nDo you use data {} blocks?"
+    },
+    "cid": "bafyreibno6mu7ym6bkdokwsl7ajv2siijplrojwe3xlgjukau2xhm6m4vm"
+  }
+}
