@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1759943907787946,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m2p5jr3miv2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m2p5jrn7rs2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-08T17:18:28.235Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifta3rxv2v6hejqcwdldrndjebnbzig3dsvehfgitx5qmz2ejv7ue",
+          "uri": "at://did:plc:gzgdfuppbj5mybo4dkskc6a5/app.bsky.feed.post/3m2mxisdrl22d"
+        },
+        "root": {
+          "cid": "bafyreifta3rxv2v6hejqcwdldrndjebnbzig3dsvehfgitx5qmz2ejv7ue",
+          "uri": "at://did:plc:gzgdfuppbj5mybo4dkskc6a5/app.bsky.feed.post/3m2mxisdrl22d"
+        }
+      },
+      "text": "PowerShell providers are always a bit slower than the FileSystem, but a bunch faster than explorer ( because explorer tries to copy to each potential \"namespace\" ).\n\nXcopy was built for speed but wasn't fast enough.\n\nI believe robocopy is the current champ."
+    },
+    "cid": "bafyreigos675gwyamwrkh323mvwaf7yeo53txrem35m5jey5nhoajmm6lm"
+  }
+}
