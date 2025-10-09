@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760033363681899,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m2rqtpyl2r22",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m2rqtpqshs2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-09T18:09:22.371Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihg5r54myssjziebqwvd5ib6nrip2untxyr5qcebamsoiqhozcvsa",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m2rqmml7jc2v"
+        },
+        "root": {
+          "cid": "bafyreif3oib4ajkeyazp5gfycxj4sjrsuqy66lk3r6danz3nwpulhgivma",
+          "uri": "at://did:plc:xraomsuf6pvh7r2cqtdwhkvm/app.bsky.feed.post/3m2qbz65o3s2t"
+        }
+      },
+      "text": "Every MSFT team in Vista / Win7 had to support rich eventing, and most have their own eventing channels.\n\nThere is so much information just waiting for you in event logs, if you know to look for it.\n\nYou can also create your own event channels and log whatever you want.\n\nWindows Events are OP."
+    },
+    "cid": "bafyreiezwo444uhz3uy73q3estyqc4vmheqgk6o6pm5zflyus2if6avyum"
+  }
+}
