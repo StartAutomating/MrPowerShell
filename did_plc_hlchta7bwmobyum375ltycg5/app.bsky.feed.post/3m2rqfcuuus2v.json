@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760032880808093,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m2rqfeeh362o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m2rqfcuuus2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-09T18:01:19.112Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaruytc5zcz7tcwaxbt2f7jncf2yvmei2qshbqn3nybk5inc3fd4u",
+          "uri": "at://did:plc:xraomsuf6pvh7r2cqtdwhkvm/app.bsky.feed.post/3m2qc7okgic2t"
+        },
+        "root": {
+          "cid": "bafyreif3oib4ajkeyazp5gfycxj4sjrsuqy66lk3r6danz3nwpulhgivma",
+          "uri": "at://did:plc:xraomsuf6pvh7r2cqtdwhkvm/app.bsky.feed.post/3m2qbz65o3s2t"
+        }
+      },
+      "text": "💯 🙏 yes Windows events are amazingly useful, and easy to query... And yet almost nobody knows how 😭.  People should learn.\n\n~~~PowerShell\nGet-Help Get-WinEvent -Examples\n~~~\n\nShould get most people started.\n\nMore old hat ex MSFT context incoming..."
+    },
+    "cid": "bafyreih5adrlkintu7zquyy7ufcnxgkbyhgijplqlaos3jibtp3nnezlhu"
+  }
+}
