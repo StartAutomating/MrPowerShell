@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760033735062842,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m2rr6t2iux2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m2rr6s5evs2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-09T18:15:33.98Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihsxelknbiosvbocmuqq6pvnod6p2237dvde2zfepcrtnmbosi2km",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m2rqxefomk2v"
+        },
+        "root": {
+          "cid": "bafyreif3oib4ajkeyazp5gfycxj4sjrsuqy66lk3r6danz3nwpulhgivma",
+          "uri": "at://did:plc:xraomsuf6pvh7r2cqtdwhkvm/app.bsky.feed.post/3m2qbz65o3s2t"
+        }
+      },
+      "text": "Event forwarding is the unsung hero of the whole thing.\n\nAny corporate environment worth its salt has forwarded your event logs to security nanoseconds after it was logged.\n\nIt's a pretty small window to fit thru, and makes it almost impossible to leave no trace."
+    },
+    "cid": "bafyreiabq2it2vuj5ltkd4mf4cqhyhenittoodvdivvibcep2z6dpgnsv4"
+  }
+}
