@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760033485056821,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m2rqxemhdz2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m2rqxefomk2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-09T18:11:24.691Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiezwo444uhz3uy73q3estyqc4vmheqgk6o6pm5zflyus2if6avyum",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m2rqtpqshs2v"
+        },
+        "root": {
+          "cid": "bafyreif3oib4ajkeyazp5gfycxj4sjrsuqy66lk3r6danz3nwpulhgivma",
+          "uri": "at://did:plc:xraomsuf6pvh7r2cqtdwhkvm/app.bsky.feed.post/3m2qbz65o3s2t"
+        }
+      },
+      "text": "In Win 7 timeframe all of this eventing was exposed thru PowerShell cmdlets.\n\nAnd then you could do insane things, like:\n\nFind out when a processor overheats, which core overheated, and how hot it was when the system shut down."
+    },
+    "cid": "bafyreihsxelknbiosvbocmuqq6pvnod6p2237dvde2zfepcrtnmbosi2km"
+  }
+}
