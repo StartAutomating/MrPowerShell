@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760474579866738,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m36lqzfmfd25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m36lqz3ugc2s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-14T20:42:59.397Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 58
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "OpenXML"
+            }
+          ],
+          "index": {
+            "byteEnd": 128,
+            "byteStart": 120
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 155,
+            "byteStart": 149
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiencostibxopgzpkjdj36mkktab3ct52z6j5n25ycq33u36pxwew4",
+          "uri": "at://did:plc:23gt44u4zsuqgmoyrqn234si/app.bsky.feed.post/3m36jp5jvts2v"
+        },
+        "root": {
+          "cid": "bafyreigpcl3ksvv4sbm4gpav5ceangopv6tt5gfdkm2ku6pd6udtjcckwq",
+          "uri": "at://did:plc:23gt44u4zsuqgmoyrqn234si/app.bsky.feed.post/3m36alvjdm22v"
+        }
+      },
+      "text": "I'm 100% certain you do.  That assembly has been part of \n#PowerShell since at least v2, and I literally just loaded an #OpenXML file into memory on #Linux.\n\nNot a dead end, and thanks again for reminding me to drop bits.\n\n(almost finished dusting them off)"
+    },
+    "cid": "bafyreibhdzqec5upinghk5pjajf35n4mydir2qk3z32cp6bcnaf2eg2hty"
+  }
+}
