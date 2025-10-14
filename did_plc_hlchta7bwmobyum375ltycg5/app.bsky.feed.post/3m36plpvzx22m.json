@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760478697485819,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m36plqbcfl2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m36plpvzx22m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-14T21:51:36.965Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicoru5sz7f6mlh4npczt3ydmptljyseqcf3jhj6gegqvphomc35by",
+          "uri": "at://did:plc:23gt44u4zsuqgmoyrqn234si/app.bsky.feed.post/3m36p6lwbok2v"
+        },
+        "root": {
+          "cid": "bafyreigpcl3ksvv4sbm4gpav5ceangopv6tt5gfdkm2ku6pd6udtjcckwq",
+          "uri": "at://did:plc:23gt44u4zsuqgmoyrqn234si/app.bsky.feed.post/3m36alvjdm22v"
+        }
+      },
+      "text": "Got it.  Just picking out values from the Excel, or anything more?\n\nStill sanding things off...\n\nReally, thanks for the ask, as it helped me stumble upon some very interesting things (tl;dr, XPS is OpenXML, too, and also very beautifully OP)"
+    },
+    "cid": "bafyreibidxhhmlsmpobxyaddr2udmb46qjubpq5jziauiu62e6h63bzhza"
+  }
+}
