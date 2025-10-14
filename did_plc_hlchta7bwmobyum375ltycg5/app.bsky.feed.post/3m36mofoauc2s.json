@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760475566978337,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m36mogid5g2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m36mofoauc2s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-14T20:59:25.662Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Provides classes that support storage of multiple data objects in a single container.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreie3fmvurwatf2nt7u3u2avrek5bqsmy556dgs35zfl7ydnxdfn7du"
+            },
+            "mimeType": "image/jpeg",
+            "size": 113204
+          },
+          "title": "System.IO.Packaging 9.0.10",
+          "uri": "https://www.nuget.org/packages/System.IO.Packaging/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.nuget.org/packages/System.IO.Packaging/"
+            }
+          ],
+          "index": {
+            "byteEnd": 208,
+            "byteStart": 179
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigye6iovrxkknmqg3hkwx6kac4gioikiuf6lnq4pwrze4k44j7hgu",
+          "uri": "at://did:plc:23gt44u4zsuqgmoyrqn234si/app.bsky.feed.post/3m36ml4xags2v"
+        },
+        "root": {
+          "cid": "bafyreigpcl3ksvv4sbm4gpav5ceangopv6tt5gfdkm2ku6pd6udtjcckwq",
+          "uri": "at://did:plc:23gt44u4zsuqgmoyrqn234si/app.bsky.feed.post/3m36alvjdm22v"
+        }
+      },
+      "text": "Weird.  I know it worked as early as v2, since I worked with the OpenXML evengelist at the time to provide early examples.\n\nLooks like there is a Nuget package you can download.\n\nwww.nuget.org/packages/Sys..."
+    },
+    "cid": "bafyreih2acfs2ijvainx7uvtraemdkdpjv5ajqunpayz54q3lycejpwgbe"
+  }
+}
