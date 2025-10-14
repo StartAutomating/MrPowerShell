@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760468135249548,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m36fqxetxn25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m36fque2x22u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-14T18:55:31.972Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "For ease of implementation, this section provides the full W3C XML schemas for the new elements, attributes, complex",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreif5cdhusoi35cagqnhxif5bjxpvfwiy4sce35o257o4nsmwddiyfa"
+            },
+            "mimeType": "image/jpeg",
+            "size": 737841
+          },
+          "title": "[MS-XLSX]: Appendix A: Full XML Schema",
+          "uri": "https://learn.microsoft.com/en-us/openspecs/office_standards/ms-xlsx/6624db33-496c-47f7-a562-a54cb01b133f?redirectedfrom=MSDN"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://learn.microsoft.com/en-us/openspecs/office_standards/ms-xlsx/6624db33-496c-47f7-a562-a54cb01b133f?redirectedfrom=MSDN"
+            }
+          ],
+          "index": {
+            "byteEnd": 98,
+            "byteStart": 63
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigpcl3ksvv4sbm4gpav5ceangopv6tt5gfdkm2ku6pd6udtjcckwq",
+          "uri": "at://did:plc:23gt44u4zsuqgmoyrqn234si/app.bsky.feed.post/3m36alvjdm22v"
+        },
+        "root": {
+          "cid": "bafyreigpcl3ksvv4sbm4gpav5ceangopv6tt5gfdkm2ku6pd6udtjcckwq",
+          "uri": "at://did:plc:23gt44u4zsuqgmoyrqn234si/app.bsky.feed.post/3m36alvjdm22v"
+        }
+      },
+      "text": "Not sure if this is exactly what you're looking for or not...\n\nlearn.microsoft.com/en-us/opensp...\n\nBasically there are two ways to approach it:\n\nUsing the COMObject (slow), or using the OpenXML (fast).\n\nSome modules also already exist, at least for Excel.\n\n(I should drop some bits for non-excel)"
+    },
+    "cid": "bafyreibh7kn2whvymlsoagyuavupp7bm53yn3ctz5egs2tq4i4n5323haq"
+  }
+}
