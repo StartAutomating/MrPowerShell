@@ -1,0 +1,87 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760470531465437,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m36hye2hlx2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m36hxymrc22n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-14T19:35:18.816Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Some administrators, especially those who come from a Linux background, try to use PowerShell like a Bash shell. While this will work, it is better to use the power behind",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigv436ij6cpikzzf5bkqiizz2xkxfd6ecip4iutiisxueidlr52vy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 619185
+          },
+          "title": "Don't Bash PowerShell (by Steven Judd), Wed, Oct 15, 2025, 6:00 PM   | Meetup",
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/events/311539031/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Bash"
+            }
+          ],
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 6
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 23,
+            "byteStart": 12
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:gwzlu5twwpnddrdx74se7ddn"
+            }
+          ],
+          "index": {
+            "byteEnd": 89,
+            "byteStart": 66
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/311539031/"
+            }
+          ],
+          "index": {
+            "byteEnd": 159,
+            "byteStart": 129
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Don't #Bash #PowerShell\n\nDrop by tomorrow night to hear more from @stevenjudd.bsky.social about how PowerShell and Bash differ:\n\nwww.meetup.com/pacific-powe..."
+    },
+    "cid": "bafyreic42o4hgrmr45wu7naw3ft55was776nmeuaqjle6k4m2l444h4vee"
+  }
+}
