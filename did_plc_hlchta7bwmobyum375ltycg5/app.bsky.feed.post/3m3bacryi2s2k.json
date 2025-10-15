@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760565387098186,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3badajkj62g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3bacryi2s2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-15T21:56:10.24Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiafmldcfxyqbd4wwboz3btb5eunj3zxxnrh5im3e23ltr3s7dulae",
+          "uri": "at://did:plc:ov2uxf5vmrpqzo3mmrtymr3y/app.bsky.feed.post/3m3ax3zyxjk2n"
+        },
+        "root": {
+          "cid": "bafyreiafmldcfxyqbd4wwboz3btb5eunj3zxxnrh5im3e23ltr3s7dulae",
+          "uri": "at://did:plc:ov2uxf5vmrpqzo3mmrtymr3y/app.bsky.feed.post/3m3ax3zyxjk2n"
+        }
+      },
+      "text": "Short answer: yes.  It's a simple script if you're just looking for filenames and there are not any conflicts.\n\nGet-ChildItem -Recurse | Where-Object Extension -in '.jpg', '.jpeg', '.png', '.gif' | Copy-Item -Destination ./SomeDirectory -WhatIf \n\n-WhatIf is there for safety.  Remove it to work."
+    },
+    "cid": "bafyreih2cgoyraw7uwypuho6vmwxu7z7kx6d7t2s2svyw7mkuvnaz6j4s4"
+  }
+}
