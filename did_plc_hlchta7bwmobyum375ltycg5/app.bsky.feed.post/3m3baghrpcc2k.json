@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760565506859117,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3bagu6bxx2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3baghrpcc2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-15T21:58:13.75Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiafmldcfxyqbd4wwboz3btb5eunj3zxxnrh5im3e23ltr3s7dulae",
+          "uri": "at://did:plc:ov2uxf5vmrpqzo3mmrtymr3y/app.bsky.feed.post/3m3ax3zyxjk2n"
+        },
+        "root": {
+          "cid": "bafyreiafmldcfxyqbd4wwboz3btb5eunj3zxxnrh5im3e23ltr3s7dulae",
+          "uri": "at://did:plc:ov2uxf5vmrpqzo3mmrtymr3y/app.bsky.feed.post/3m3ax3zyxjk2n"
+        }
+      },
+      "text": "Long answer: this is a problem that can get as deep as you want it to be.\n\nYou can look at pulling out EXIF data to get more information about the camera / photo data / location, and use this to create your own sorter.\n\nThese scripts end up being too long to skeet."
+    },
+    "cid": "bafyreihwqchupyswysrodmfcqx2zqxuco2fn4a55nd63kfultvjiktxdki"
+  }
+}
