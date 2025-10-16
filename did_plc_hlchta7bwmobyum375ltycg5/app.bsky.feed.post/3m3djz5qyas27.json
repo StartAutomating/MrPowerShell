@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760644505711628,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3djz6dxay25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3djz5qyas27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-16T19:55:03.926Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiae4x4r6igvbbfb3mheazhyno6hlmexkmavuvctgr3f47dkuold3m",
+          "uri": "at://did:plc:b5tzaachqa5ycpykeeyrvnht/app.bsky.feed.post/3m3dfjec3uc2o"
+        },
+        "root": {
+          "cid": "bafyreigpehikgtp5oqdpe2byxjursbwkudrlsfntm4oyianthz6ajt5mne",
+          "uri": "at://did:plc:vszw3ess46odfhnzdsy4huae/app.bsky.feed.post/3m3dffvaxo22n"
+        }
+      },
+      "text": "You recall incorrectly.\n\nWindows programs are still programs, and are still launched as if they were a CLI.  They jus\n\nThe only differences are:\n\n* GUIs don't block the CLI\n* GUIs rarely write to console\n\nTrust me:  been making programs since before Windows 3.1"
+    },
+    "cid": "bafyreidexgx5iduupsed2rw3gd66cnmggoznmknsaj22uogcfm72aumioy"
+  }
+}
