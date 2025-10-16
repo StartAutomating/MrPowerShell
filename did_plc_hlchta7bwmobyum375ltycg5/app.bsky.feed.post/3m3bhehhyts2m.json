@@ -1,0 +1,99 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760572945846615,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3bhejvks32a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3bhehhyts2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-16T00:02:22.515Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Some administrators, especially those who come from a Linux background, try to use PowerShell like a Bash shell. While this will work, it is better to use the power behind",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiddu3gyrg4zhkt3hnuzgwbcxchfrcdf5edo4kspzh2kbh7na2vvba"
+            },
+            "mimeType": "image/jpeg",
+            "size": 619507
+          },
+          "title": "Don't Bash PowerShell (by Steven Judd), Wed, Oct 15, 2025, 6:00 PM   | Meetup",
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/events/311539031/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Bash"
+            }
+          ],
+          "index": {
+            "byteEnd": 26,
+            "byteStart": 21
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 38,
+            "byteStart": 27
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/311539031/"
+            }
+          ],
+          "index": {
+            "byteEnd": 178,
+            "byteStart": 148
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:gwzlu5twwpnddrdx74se7ddn"
+            }
+          ],
+          "index": {
+            "byteEnd": 203,
+            "byteStart": 180
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 228,
+            "byteStart": 222
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Don't forget:\n\nDon't #Bash #PowerShell\n\nLearn more about the differences between PowerShell and Bash.\n\nParty starts in an hour @ 6pm Pacific Time:\n\nwww.meetup.com/pacific-powe...\n\n@stevenjudd.bsky.social is bringing their #Linux game to town tonight.\n\nCome for the code. Stay for the dad jokes."
+    },
+    "cid": "bafyreigvbofsze72prueghydcf7le2uzxghoy75e35s4miit3bugmvqnr4"
+  }
+}
