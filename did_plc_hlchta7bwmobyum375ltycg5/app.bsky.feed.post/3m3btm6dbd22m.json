@@ -1,0 +1,78 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760586088240975,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3btm7vnir2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3btm6dbd22m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-16T03:41:26.23Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "A \"personalized\" message about COMPANY_NAME.",
+            "aspectRatio": {
+              "height": 2000,
+              "width": 891
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiaewvfm4gxgne6f2s3e3ltv46ixmj246pzfjhswsdjylwbp3rzole"
+              },
+              "mimeType": "image/jpeg",
+              "size": 360065
+            }
+          }
+        ]
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "dumb"
+            }
+          ],
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 9
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "scam"
+            }
+          ],
+          "index": {
+            "byteEnd": 20,
+            "byteStart": 15
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "spam"
+            }
+          ],
+          "index": {
+            "byteEnd": 26,
+            "byteStart": 21
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Today in #dumb #scam #spam \n\nThis is actually just embarrassing...\n\nI don't think they actually need COMPANY_NAME's insights.\n\n🤦🤦🤦🤦"
+    },
+    "cid": "bafyreiewi47xpwgsdlxzkycv6kxditoaslvw2hcsrtoyokauxu7q3vxzbm"
+  }
+}
