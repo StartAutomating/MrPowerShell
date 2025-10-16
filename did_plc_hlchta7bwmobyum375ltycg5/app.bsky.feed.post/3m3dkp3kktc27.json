@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760645242383643,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3dkp5vtq62d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3dkp3kktc27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-16T20:07:19.817Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiae4x4r6igvbbfb3mheazhyno6hlmexkmavuvctgr3f47dkuold3m",
+          "uri": "at://did:plc:b5tzaachqa5ycpykeeyrvnht/app.bsky.feed.post/3m3dfjec3uc2o"
+        },
+        "root": {
+          "cid": "bafyreigpehikgtp5oqdpe2byxjursbwkudrlsfntm4oyianthz6ajt5mne",
+          "uri": "at://did:plc:vszw3ess46odfhnzdsy4huae/app.bsky.feed.post/3m3dffvaxo22n"
+        }
+      },
+      "text": "The only other major difference between GUIs and shells is an OS decision to prioritize the currently focused process.  Thread priorities for it get slightly bumped.\n\nThis is sometimes called \"the gift of user focus\".\n\nFun fact: lacking this is what made Vista so slow."
+    },
+    "cid": "bafyreiew6vprtwocuqzdznjtvipec6b4vlkxzlcubxm6bhta7falktfbnm"
+  }
+}
