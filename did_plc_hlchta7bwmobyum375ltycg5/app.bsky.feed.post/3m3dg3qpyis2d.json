@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760640295835872,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3dg3pn2qi25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3dg3qpyis2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-16T18:44:55.959Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 107,
+            "byteStart": 96
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "StarTrek"
+            }
+          ],
+          "index": {
+            "byteEnd": 117,
+            "byteStart": 108
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidibpa4eq6gkp3377blsxfmduio3bz6jpfbr7aayvjvzrtfwmlteq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m3depystpk2d"
+        },
+        "root": {
+          "cid": "bafyreidibpa4eq6gkp3377blsxfmduio3bz6jpfbr7aayvjvzrtfwmlteq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m3depystpk2d"
+        }
+      },
+      "text": "Search-NewLife\n\nFind-NewCivilization\n\nMove-Boldly |\n   Where GoneBefore le 1\n\n😃😂😎🖖\n\n#PowerShell #StarTrek"
+    },
+    "cid": "bafyreic3f75nt7bjixrwp2e6civqmwvpv5z7diawd7fs6rtvspradnwobe"
+  }
+}
