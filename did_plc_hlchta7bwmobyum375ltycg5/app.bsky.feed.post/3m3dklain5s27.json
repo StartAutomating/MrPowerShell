@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760645111473562,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3dklb2m642x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3dklain5s27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-16T20:05:10.779Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig3vpo2xfglengpkifb7jougcs2aqihlqt5vvac6tlomdlwcey7bi",
+          "uri": "at://did:plc:b5tzaachqa5ycpykeeyrvnht/app.bsky.feed.post/3m3dkfju4qk2o"
+        },
+        "root": {
+          "cid": "bafyreigpehikgtp5oqdpe2byxjursbwkudrlsfntm4oyianthz6ajt5mne",
+          "uri": "at://did:plc:vszw3ess46odfhnzdsy4huae/app.bsky.feed.post/3m3dffvaxo22n"
+        }
+      },
+      "text": "Yeah, a lot of early GUI devs fled the CLI as soon as they could (on Mac and Windows).\n\nThis is a little sad, as it let a lot of people forget how things work.\n\nDid deep enough, and both Windows and MacOS call themselves \"shells\" (as in for a cli)."
+    },
+    "cid": "bafyreie73ao6ymmrjiqe4cxb2fypk3i3crly4xtiruoyhm6zhn2umjsi5q"
+  }
+}
