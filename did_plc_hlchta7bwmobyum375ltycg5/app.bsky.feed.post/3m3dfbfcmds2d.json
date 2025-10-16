@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760639412484557,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3dfbeiblg2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3dfbfcmds2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-16T18:30:11.572Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Scotty runs to Get-Help.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihrz4kq6ufgodxrsu7cdjznvph2kmg7myeuhje2eib4fotql474gi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 30948
+          },
+          "title": "a man in a red shirt is giving her all she 's got captain .",
+          "uri": "https://media.tenor.com/Dh-VzcCtWoEAAAAC/scotty-startrek.gif?hh=160&ww=160"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifwz4kckjc4y7r6yzkxbw3vhnuvmnqbnlr5wg73fn5s67dwpycipm",
+          "uri": "at://did:plc:f4lboh5wyd4vvztvi2usnyjc/app.bsky.feed.post/3m3dexq35322t"
+        },
+        "root": {
+          "cid": "bafyreidibpa4eq6gkp3377blsxfmduio3bz6jpfbr7aayvjvzrtfwmlteq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m3depystpk2d"
+        }
+      },
+      "text": "Add-Dilithium?"
+    },
+    "cid": "bafyreifr2hl3lumb23axfgou6lzduuz5j7mhcxv5qbtamnxtrjkghaqhsa"
+  }
+}
