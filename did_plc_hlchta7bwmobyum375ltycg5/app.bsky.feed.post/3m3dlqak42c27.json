@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760646354258760,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3dlqbhxjc2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3dlqak42c27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-16T20:25:52.341Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiew6vprtwocuqzdznjtvipec6b4vlkxzlcubxm6bhta7falktfbnm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m3dkp3kktc27"
+        },
+        "root": {
+          "cid": "bafyreigpehikgtp5oqdpe2byxjursbwkudrlsfntm4oyianthz6ajt5mne",
+          "uri": "at://did:plc:vszw3ess46odfhnzdsy4huae/app.bsky.feed.post/3m3dffvaxo22n"
+        }
+      },
+      "text": "Comparing and contrasting:\n\nA \"server\" OS tends to not give this gift, based off of two ideas:\n\n1. Requests should generally be of equal priority.\n2. Almost nobody watches server GUIs\n\nThis is why for ~50% of computing history it's been apples and oranges."
+    },
+    "cid": "bafyreibgityvcz45ket4t3snpdvvemldpvznui3a35djvhf5elrhndbnlu"
+  }
+}
