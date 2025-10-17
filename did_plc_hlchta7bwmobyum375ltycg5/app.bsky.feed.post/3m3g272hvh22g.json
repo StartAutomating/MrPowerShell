@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760730605807709,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3g273xh7t2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3g272hvh22g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-17T19:50:01.155Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Automate OpenXML with PowerShell. Contribute to PowerShellWeb/OpenXML development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiaogrswnzz55j34ptw6mlkvhkfxvkjyv2plzluho7kf53qjrjurse"
+            },
+            "mimeType": "image/jpeg",
+            "size": 282398
+          },
+          "title": "GitHub - PowerShellWeb/OpenXML: Automate OpenXML with PowerShell",
+          "uri": "https://github.com/PowerShellWeb/OpenXML"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShellWeb/OpenXML"
+            }
+          ],
+          "index": {
+            "byteEnd": 268,
+            "byteStart": 242
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihlxmymravudl7vca2haqrsvcs42vjwgfk4fbwmcqluvykx7qlxgm",
+          "uri": "at://did:plc:23gt44u4zsuqgmoyrqn234si/app.bsky.feed.post/3m3bflfz5hc2x"
+        },
+        "root": {
+          "cid": "bafyreig2lxny5b6x66wmm3bc3do7d7pms3hnaowmbeuatm2vniipexjvqq",
+          "uri": "at://did:plc:23gt44u4zsuqgmoyrqn234si/app.bsky.feed.post/3m36lw22jpk2v"
+        }
+      },
+      "text": "Ok, I added a new entry to the party yesterday.\n\nCan crack open Word, Excel, and PowerPoint.\n\nCan get cells from all worksheets.\n\nDoing more is gonna require more work on the module.\n\nSo now is the time to call out what you want, _exactly_.\n\ngithub.com/PowerShellWe..."
+    },
+    "cid": "bafyreifbgb46bmu5uzppzcbxp3q3arc26c24sdsz74dso55qz4gcc4hk2y"
+  }
+}
