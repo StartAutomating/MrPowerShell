@@ -1,0 +1,110 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760734836013650,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3g65aud5c2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3g656ui2c2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-17T21:00:33.621Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Learn technical information about common App-V Client operations and their integration with the local operating system.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreif5cdhusoi35cagqnhxif5bjxpvfwiy4sce35o257o4nsmwddiyfa"
+            },
+            "mimeType": "image/jpeg",
+            "size": 737841
+          },
+          "title": "Application Publishing and Client Interaction (Windows 10/11) - Microsoft Desktop Optimization Pack",
+          "uri": "https://learn.microsoft.com/en-us/microsoft-desktop-optimization-pack/app-v/appv-application-publishing-and-client-interaction"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TodayILearned"
+            }
+          ],
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TIL"
+            }
+          ],
+          "index": {
+            "byteEnd": 19,
+            "byteStart": 15
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Microsoft"
+            }
+          ],
+          "index": {
+            "byteEnd": 30,
+            "byteStart": 20
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AppV"
+            }
+          ],
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 31
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Virtualization"
+            }
+          ],
+          "index": {
+            "byteEnd": 162,
+            "byteStart": 147
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://learn.microsoft.com/en-us/microsoft-desktop-optimization-pack/app-v/appv-application-publishing-and-client-interaction"
+            }
+          ],
+          "index": {
+            "byteEnd": 200,
+            "byteStart": 165
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#TodayILearned #TIL #Microsoft #AppV is a zip file in a trenchcoat.\n\nThis one is probably pretty useful, since it lets us peer inside of an app in #Virtualization:\n\nlearn.microsoft.com/en-us/micros..."
+    },
+    "cid": "bafyreidyx6vzrzczpe6f4uymuqx6itcbrqz62uwsewbvxiojdoye55vlfm"
+  }
+}
