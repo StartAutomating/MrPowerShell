@@ -1,0 +1,70 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760733702033270,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3g53hjefm2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3g53h7io22z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-17T20:41:41.52Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TodayILearned"
+            }
+          ],
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TIL"
+            }
+          ],
+          "index": {
+            "byteEnd": 19,
+            "byteStart": 15
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "XML"
+            }
+          ],
+          "index": {
+            "byteEnd": 143,
+            "byteStart": 139
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "3DPrinting"
+            }
+          ],
+          "index": {
+            "byteEnd": 299,
+            "byteStart": 288
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#TodayILearned #TIL that .3mf files are just a .zip file in a trenchcoat.\n\nThis one I like 😉\n\nA .3mf file is \"mostly\" just a compressed #XML file representing the model.\n\nIt mainly contains the vertices and triangles between them.\n\nVery simple and easier to understand than STL. 😀\n\n#3DPrinting"
+    },
+    "cid": "bafyreidvvvkuw2ome6uj4yd66yd3atodky2k7blp6s7qjxzeppfeavufnm"
+  }
+}
