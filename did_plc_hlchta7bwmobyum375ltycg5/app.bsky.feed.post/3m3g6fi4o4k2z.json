@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760735112364907,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3g6filnid2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3g6fi4o4k2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-17T21:05:11.763Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidvvvkuw2ome6uj4yd66yd3atodky2k7blp6s7qjxzeppfeavufnm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m3g53h7io22z"
+        },
+        "root": {
+          "cid": "bafyreidvvvkuw2ome6uj4yd66yd3atodky2k7blp6s7qjxzeppfeavufnm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m3g53h7io22z"
+        }
+      },
+      "text": "For nerdy reference / understanding...\n\nSTL is basically a series of triangles.  There are two \"unfortunate\" parts of this.\n\n1. It repeats intersecting coordinates\n2. It does not make the vertices clear\n\nSo 3MF uses less space, and is more clear to read."
+    },
+    "cid": "bafyreif2s6ejfhtrbb4pvsbogzz24oq4xkfpek7xglpos4nxwxj6hnxhm4"
+  }
+}
