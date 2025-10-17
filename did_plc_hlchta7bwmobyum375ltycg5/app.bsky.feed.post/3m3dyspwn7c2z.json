@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760660395319055,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3dysqd4le2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3dyspwn7c2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-17T00:19:54.233Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihkujde3l6hcc27oeenpdj657pd455rqwpt2uxizgujiwfqpjsrqm",
+          "uri": "at://did:plc:aszl4zg4hywkr5h2bcmsbhns/app.bsky.feed.post/3m3cbtzgrjc2k"
+        },
+        "root": {
+          "cid": "bafyreihkujde3l6hcc27oeenpdj657pd455rqwpt2uxizgujiwfqpjsrqm",
+          "uri": "at://did:plc:aszl4zg4hywkr5h2bcmsbhns/app.bsky.feed.post/3m3cbtzgrjc2k"
+        }
+      },
+      "text": "Honestly efficient grayscaling is pretty friggin useful.  Essentially it gives you just a luma channel to work with and it can make all the matrix math for edges easier to compute.\n\nGot a link?\n\nDo wonder how much smaller / more scalable it might be as a vector..."
+    },
+    "cid": "bafyreigts75b3f7egewpx4itc3e7dlcscxdsm7crydweqghrrglylmaizq"
+  }
+}
