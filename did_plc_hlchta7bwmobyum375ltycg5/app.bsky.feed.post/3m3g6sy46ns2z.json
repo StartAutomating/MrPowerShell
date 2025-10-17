@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760735565271559,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3g6sykiy42w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3g6sy46ns2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-17T21:12:44.731Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 34
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaovxnjhcix5gvzarjseblikhj36r7loujnydq4wdccoyctpaxazy",
+          "uri": "at://did:plc:rio6w65f7pbnzjutfs234atq/app.bsky.feed.post/3m3dme6nd3k2r"
+        },
+        "root": {
+          "cid": "bafyreicpv57oyklmfdjlhezrk2sfnguhthy27gejnfggozgqhxmrexnsda",
+          "uri": "at://did:plc:o72ypk5c474zqklkukaphuy3/app.bsky.feed.post/3m3dkrbfghc2p"
+        }
+      },
+      "text": "💯\n\nI helped build a language ( #PowerShell ), and I am still _constantly_ having to double-check a thing.\n\nJust because I know a language like the back of my hand doesn't mean I know _everything_ about it.\n\nEven if you make languages, you'll be constantly surprised by them."
+    },
+    "cid": "bafyreib47lors3ptucqurl5oly6bycjyo2wfy376cgccmv67xx66ubbnvy"
+  }
+}
