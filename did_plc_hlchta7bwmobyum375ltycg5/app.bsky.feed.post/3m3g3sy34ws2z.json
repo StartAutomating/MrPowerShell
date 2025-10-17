@@ -1,0 +1,34 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760732345240062,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3g3sy6l7p2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3g3sy34ws2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-17T20:19:03.472Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerBI"
+            }
+          ],
+          "index": {
+            "byteEnd": 29,
+            "byteStart": 21
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Today I learned that #PowerBI files (*.pbix, *.pbit) are zip files in a trenchcoat.\n\n😀\n\nSadly, I also learned that they are (mostly) full of byte[]s\n\n🤔😞\n\nAny PowerBI geeks know how I might decode those bytes?"
+    },
+    "cid": "bafyreidba4ogz7zwwgwm6zgqt5lvgtcu7pksyyn3tu23tvrtvmlfuw2uae"
+  }
+}
