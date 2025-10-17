@@ -1,0 +1,62 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760732829371475,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3g4bgyu4s2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3g4bezrh22z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-17T20:27:06.82Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Seriously, Gnome, I just played that song an hour ago and it's no longer in my recent menu because...? I know I've listened to the song a dozen times... recently!",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibwsforvcwtx3kohtkxfymimu5or7krxnmwdtwi6fwnc25nqp2opi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 907917
+          },
+          "title": "a gnome statue in a garden with imgflip.com written on the bottom right",
+          "uri": "https://media.tenor.com/lXKHsgNo5BYAAAAC/seriously-come-on.gif?hh=240&ww=360"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Gnome"
+            }
+          ],
+          "index": {
+            "byteEnd": 18,
+            "byteStart": 12
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Gnome"
+            }
+          ],
+          "index": {
+            "byteEnd": 132,
+            "byteStart": 126
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I feel like #Gnome \"recent\" menu is judging me and no longer showing music I play too often.\n\nAnyone else feel that way about #Gnome judging them?"
+    },
+    "cid": "bafyreif5dzm3psiswsa56whivoq5pn57lnxnx55xjtxuhggjn3pi7cnnim"
+  }
+}
