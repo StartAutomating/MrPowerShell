@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760732938671168,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3g4epmctb2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3g4epcshc2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-17T20:28:58.266Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiftzndyxocetisrv7n6q2qnenisnmr7gaxlx735mhppw2526zner4",
+          "uri": "at://did:plc:nbhqozlybqqmxax3vdawb4lf/app.bsky.feed.post/3m3g42b5a4k2j"
+        },
+        "root": {
+          "cid": "bafyreiarkyovq2v7ul55y3nsgcrebged7toovabt52xtjopl5guefryzmm",
+          "uri": "at://did:plc:nbhqozlybqqmxax3vdawb4lf/app.bsky.feed.post/3m3fyjootmk2h"
+        }
+      },
+      "text": "Yep, and I'm just trying to encourage and hopefully steer anyone away from the rocks.\n\nSome things in tech are easy.\n\nLots of things in tech are an endless rabbit hole to wonderland, and it helps to have a friend holding a rope to the real world."
+    },
+    "cid": "bafyreibbz67qg2hgvb4qn5ihmojqu4kfvtaylx56fdm7rd2mrlsiacekwy"
+  }
+}
