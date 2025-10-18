@@ -1,0 +1,122 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760765830496949,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3h2yxnheu2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3h2ywixdk2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-18T05:37:09.15Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Gist a fast Fibonacci. GitHub Gist: instantly share code, notes, and snippets.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieqhtgl35ueb6u4djc2czpaleughc5jms6rfrsnzl2uraxhbjw3za"
+            },
+            "mimeType": "image/jpeg",
+            "size": 121877
+          },
+          "title": "Gist a fast Fibonacci",
+          "uri": "https://gist.github.com/StartAutomating/db3c6f2f05aef061b1b9e61e2941774d"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Fibonacci"
+            }
+          ],
+          "index": {
+            "byteEnd": 24,
+            "byteStart": 14
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Friday"
+            }
+          ],
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 25
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Fun"
+            }
+          ],
+          "index": {
+            "byteEnd": 37,
+            "byteStart": 33
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Math"
+            }
+          ],
+          "index": {
+            "byteEnd": 43,
+            "byteStart": 38
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 55,
+            "byteStart": 44
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 213,
+            "byteStart": 201
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://gist.github.com/StartAutomating/db3c6f2f05aef061b1b9e61e2941774d"
+            }
+          ],
+          "index": {
+            "byteEnd": 255,
+            "byteStart": 224
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just a bit of #Fibonacci #Friday #Fun #Math #PowerShell\n\nHere's a _really_ fast Fibonacci Sequence generator.\n\nIt gets me the first 1024 numbers in around ([TimeSpan]'00:00:00.0002212') seconds.\n\nOn a #RaspberryPi 😉😎\n\ngist.github.com/StartAutomat...\n\nEnjoy!"
+    },
+    "cid": "bafyreia4suqi34t7jffxmid3yaptxgjjdywh3nbolhi74iwk3tmzjy6l3m"
+  }
+}
