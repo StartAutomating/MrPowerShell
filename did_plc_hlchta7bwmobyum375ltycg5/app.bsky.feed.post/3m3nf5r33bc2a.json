@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760982888782680,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3nf5smv4s25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3nf5r33bc2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-20T17:54:47.073Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifg5zddeyjojpluqcffa7wicu3bh4qj37ksp3vatdhkucenyfbl44",
+          "uri": "at://did:plc:23gt44u4zsuqgmoyrqn234si/app.bsky.feed.post/3m3nageloal2s"
+        },
+        "root": {
+          "cid": "bafyreihjflqy4v7mofxxa5dy5hwlfsjd5zhvtbbvbwkf7t36moioldgs34",
+          "uri": "at://did:plc:23gt44u4zsuqgmoyrqn234si/app.bsky.feed.post/3m3na4i54gt2s"
+        }
+      },
+      "text": "Because for a hot minute there were VBScript viruses that spread thru email and nobody on the PowerShell team / org wanted that to be easy with PowerShell.\n\nSo many layers of countermeasures were devised.\n\nChief among them: double clicking a PowerShell script should not run it."
+    },
+    "cid": "bafyreihkg7pyyfdtxiknmvkk6dgu6bynege65vsz7ooijaulxr52cxl3ly"
+  }
+}
