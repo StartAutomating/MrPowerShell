@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760991923406256,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3nnl2ocav2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3nnl24zf227",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-20T20:25:22.716Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "vscode"
+            }
+          ],
+          "index": {
+            "byteEnd": 43,
+            "byteStart": 36
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 90,
+            "byteStart": 79
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreievzw7x3jyjjfrlg7g4mm5kscazguvpzshrkvg6g7stqgsfrxuos4",
+          "uri": "at://did:plc:23gt44u4zsuqgmoyrqn234si/app.bsky.feed.post/3m3nmdpaczt2s"
+        },
+        "root": {
+          "cid": "bafyreihjflqy4v7mofxxa5dy5hwlfsjd5zhvtbbvbwkf7t36moioldgs34",
+          "uri": "at://did:plc:23gt44u4zsuqgmoyrqn234si/app.bsky.feed.post/3m3na4i54gt2s"
+        }
+      },
+      "text": "Eh, I wouldn't complain.\n\nI love my #vscode these days, and appreciate all the #PowerShell ISE could do, but/also/and...\n\nWrote everything during the Vista / Win7 ship cycles in notepad.\n\nSo, ~4 years of pure notepad (editors under construction)\n\nTruly helps you learn languages.  And is a pain."
+    },
+    "cid": "bafyreihcscauvzuuqmc3eqfizuyml7xr2xot7drcjd6ptw7jpwzid7eaea"
+  }
+}
