@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1760993338764546,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3novaia3g2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3nova5w3s27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-20T20:48:58.323Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihiwswjl3fdnvpj4s3jr2vdfddp3hvzm5gstbu57cyy73jalsfumu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m3njcqcjo22k"
+        },
+        "root": {
+          "cid": "bafyreihiwswjl3fdnvpj4s3jr2vdfddp3hvzm5gstbu57cyy73jalsfumu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m3njcqcjo22k"
+        }
+      },
+      "text": "Kicking things off:\n\nI want to be able to treat any directory as a package.\n\nI want to be able to inspect commands without running them.\n\nI want to know where a package came from.\n\nI want to be able to browse a package.\n\nWhat else...?"
+    },
+    "cid": "bafyreigboe4rrtdvhnsv7cmd5wfmc25flv2bhnxzlwy5rnxsatkiabhf7m"
+  }
+}
