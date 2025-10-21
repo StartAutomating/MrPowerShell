@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761013259773783,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3obgwp35a22",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3obgvykek2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-21T02:20:58.994Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicghmxfuezg2rjn3raus5tv75e66gaxapsgrlqkmv4lykpl3j2mtq",
+          "uri": "at://did:plc:tg3tb5wukiml4xmxml6qm637/app.bsky.feed.post/3m3oaftvwrs2d"
+        },
+        "root": {
+          "cid": "bafyreihiwswjl3fdnvpj4s3jr2vdfddp3hvzm5gstbu57cyy73jalsfumu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m3njcqcjo22k"
+        }
+      },
+      "text": "Yeah, I'm thinking one of the benefits of a consistent packaging abstraction is the ability to scan content.\n\nI suppose you would know better than most :-)\n\nI figure a good tool will leave a trace, and a package without those traces is a risk.  The more tracing, the less risk."
+    },
+    "cid": "bafyreifqbucqpogtzewqu2envrpzingzaskgerpi2wdlmmedhnu7bolsxu"
+  }
+}
