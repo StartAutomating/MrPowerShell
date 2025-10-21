@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761016157359759,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3oe5bxikx2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3oe5bmhlk2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-21T03:09:16.862Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaipfluxtapcmw72y57axwc3ocmhzk6kj7g2r2f3bntixzsedk4xy",
+          "uri": "at://did:plc:tg3tb5wukiml4xmxml6qm637/app.bsky.feed.post/3m3ocm27wg22g"
+        },
+        "root": {
+          "cid": "bafyreihiwswjl3fdnvpj4s3jr2vdfddp3hvzm5gstbu57cyy73jalsfumu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m3njcqcjo22k"
+        }
+      },
+      "text": "I take it you mean that this file supports signatures / encryption on a base level, and will not read via API without a key.  Correct?\n\n(this matches what I've seen, re protected word documents).\n\nSeems like there's good plumbing for this scenario."
+    },
+    "cid": "bafyreig7t24pga7ttrekrkm673wrer4ypsa7kc4mv24quc4ac3zxxjsusm"
+  }
+}
