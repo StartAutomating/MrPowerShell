@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761071207904629,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3pxfwaowe2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3pxfyr5bc2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-21T18:26:50.401Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicztdvq7yq3p2la2porjkm4slgd2stoddl2fxdcydv6tcq7z774m4",
+          "uri": "at://did:plc:qgxrhtavp4haeysnbcfsgbpd/app.bsky.feed.post/3m3pw45nyws2e"
+        },
+        "root": {
+          "cid": "bafyreidba4ogz7zwwgwm6zgqt5lvgtcu7pksyyn3tu23tvrtvmlfuw2uae",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m3g3sy34ws2z"
+        }
+      },
+      "text": "Happy to understand this for either.  How will it be laid out in PBIP?\n\nI would like to be able to seamlessly import and export data from PowerShell into / out of PowerBI."
+    },
+    "cid": "bafyreidvngm4qkho6mnazt3rsiqbog5n4kbzwnlfzqexfficopzgiidxo4"
+  }
+}
