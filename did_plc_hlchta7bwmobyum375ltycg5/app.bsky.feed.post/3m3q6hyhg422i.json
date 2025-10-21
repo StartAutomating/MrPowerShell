@@ -1,0 +1,104 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761078794456204,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3q6hzem3i2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3q6hyhg422i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-21T20:33:13.384Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 38
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Bash"
+            }
+          ],
+          "index": {
+            "byteEnd": 68,
+            "byteStart": 63
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Python"
+            }
+          ],
+          "index": {
+            "byteEnd": 84,
+            "byteStart": 77
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Node"
+            }
+          ],
+          "index": {
+            "byteEnd": 98,
+            "byteStart": 93
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Go"
+            }
+          ],
+          "index": {
+            "byteEnd": 103,
+            "byteStart": 100
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Rust"
+            }
+          ],
+          "index": {
+            "byteEnd": 110,
+            "byteStart": 105
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicodzp7heg6mbixwjhz4uorpxzem73kiholqsjeehaneiqwc2fn2u",
+          "uri": "at://did:plc:lhmfzgg5p3qks5gz4ddx4kgg/app.bsky.feed.post/3m3q42natqs2y"
+        },
+        "root": {
+          "cid": "bafyreicodzp7heg6mbixwjhz4uorpxzem73kiholqsjeehaneiqwc2fn2u",
+          "uri": "at://did:plc:lhmfzgg5p3qks5gz4ddx4kgg/app.bsky.feed.post/3m3q42natqs2y"
+        }
+      },
+      "text": "Works the other way around, too 😉\n\n#PowerShell can call any #Bash script, #Python Script, #Node, #Go, #Rust application.  \n\nIf they pipe (|) the output, they can even parse line-by line:\n\n./My.py | ? { $_ -match 'keyword' }\n\nShell languages are useful, and the Object Pipeline is Overpowered."
+    },
+    "cid": "bafyreibqptuyjv4dygw5gqcrki7zlasbhurwhtevyddzf4lsk2uoubclgi"
+  }
+}
