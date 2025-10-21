@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761071502118598,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3pxoou4c32o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3pxoqtdck2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-21T18:31:44.074Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibnz63y3i2en2pgynzrnisp6crqttwg534gelstsehh4mypozvn3m",
+          "uri": "at://did:plc:ykpo6xrw2zf34rq2dnhqe3sv/app.bsky.feed.post/3m3owzdrmkc2s"
+        },
+        "root": {
+          "cid": "bafyreibnz63y3i2en2pgynzrnisp6crqttwg534gelstsehh4mypozvn3m",
+          "uri": "at://did:plc:ykpo6xrw2zf34rq2dnhqe3sv/app.bsky.feed.post/3m3owzdrmkc2s"
+        }
+      },
+      "text": "You're not too far from the really cool use case, which is letting a switch match multiple regexes in order.\n\nVery handy for making small parsers.\n\nBonus points: switch conditions can be variables."
+    },
+    "cid": "bafyreigg45ltz5ekmcir6eknmjwrglgbg73d5dvqeeqhb55mhh23rj3b7a"
+  }
+}
