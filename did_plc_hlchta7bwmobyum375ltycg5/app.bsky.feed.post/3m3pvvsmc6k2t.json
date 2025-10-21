@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761069591001261,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3pvvqae3p2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3pvvsmc6k2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-21T17:59:53.337Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiazacbqqvgrg352sad2koefd5n6mnf2yrdu5renog6r53lcxmwmay",
+          "uri": "at://did:plc:qgxrhtavp4haeysnbcfsgbpd/app.bsky.feed.post/3m3psh5vxes2m"
+        },
+        "root": {
+          "cid": "bafyreidba4ogz7zwwgwm6zgqt5lvgtcu7pksyyn3tu23tvrtvmlfuw2uae",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m3g3sy34ws2z"
+        }
+      },
+      "text": "Honestly I'd like to know the format encoding enough to make my own PowerBi packages from scratch ( as I can for almost all other OPC archives ).\n\nWould love to make a script that queries some data with PowerShell and updates a pbit/pbix.\n\nWhere can I find the docs?"
+    },
+    "cid": "bafyreifwycrirctp25rvyetaxz3deyggeq3rkhcrk5hombt62testc32ai"
+  }
+}
