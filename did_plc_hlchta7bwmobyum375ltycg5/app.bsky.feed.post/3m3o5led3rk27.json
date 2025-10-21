@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761009113805133,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3o5lepfuq2t",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3o5led3rk27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-21T01:11:53.271Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifu3i7bbq5cuf6ofwc4vipsv3zospwcrne6fha3juck6bws7ekmji",
+          "uri": "at://did:plc:tg3tb5wukiml4xmxml6qm637/app.bsky.feed.post/3m3o4r2lkbk2d"
+        },
+        "root": {
+          "cid": "bafyreihiwswjl3fdnvpj4s3jr2vdfddp3hvzm5gstbu57cyy73jalsfumu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m3njcqcjo22k"
+        }
+      },
+      "text": "Happy for help on this front.\n\nI'm thinking I'd like to provide ample provenance information from git where available, along with some static analysis that can be safely double-checked.\n\n(i.e. if it says it doesn't invoke-expression, and it really doesn't invoke-expression)"
+    },
+    "cid": "bafyreid74765a5ur734kkngbian7r7iv7urdfkxhaaf374jbsnqrodocu4"
+  }
+}
