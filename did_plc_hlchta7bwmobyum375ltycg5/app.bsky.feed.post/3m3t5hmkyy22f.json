@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761180789010354,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3t5hon5bf2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3t5hmkyy22f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-23T00:53:06.391Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "This PEP describes the second version of a built-package format for Python called “wheel”.  Wheel provides a Python-specific, relocatable package format that allows people to install software more qui...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihgu43ukydi54krlod4uxvmqen63wvzlj4oaex2hcm757ezxtofzq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 483121
+          },
+          "title": "PEP 491 – The Wheel Binary Package Format 1.9 | peps.python.org",
+          "uri": "https://peps.python.org/pep-0491/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TodayILearned"
+            }
+          ],
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TIL"
+            }
+          ],
+          "index": {
+            "byteEnd": 21,
+            "byteStart": 17
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Python"
+            }
+          ],
+          "index": {
+            "byteEnd": 30,
+            "byteStart": 23
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://peps.python.org/pep-0491/"
+            }
+          ],
+          "index": {
+            "byteEnd": 131,
+            "byteStart": 106
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#TodayILearned / #TIL\n\n#Python Wheels are also just .zip files in a Trenchcoat\n\nLoving this pattern 😀\n\npeps.python.org/pep-0491/"
+    },
+    "cid": "bafyreiaahsrs5kuvqziyuzgcelyiykcvx7sthqjelukxtsp3ifwghzcqxy"
+  }
+}
