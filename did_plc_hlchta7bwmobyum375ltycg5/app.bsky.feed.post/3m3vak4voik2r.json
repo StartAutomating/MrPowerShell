@@ -1,0 +1,122 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761252812504201,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3vak5vwdc2x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3vak4voik2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-23T20:53:31.33Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "More files are zip files than you might think.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidarwkxp4jmlkkhyk4m7q5cpzbh2nl4tubxpfiblzgsklnuwupzue"
+            },
+            "mimeType": "image/jpeg",
+            "size": 138088
+          },
+          "title": "The Zip Epiphany",
+          "uri": "https://mrpowershell.com/Tricks/The-Zip-Epiphany"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://mrpowershell.com/Tricks/The-Zip-Epiphany"
+            }
+          ],
+          "index": {
+            "byteEnd": 161,
+            "byteStart": 129
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 174,
+            "byteStart": 163
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Tip"
+            }
+          ],
+          "index": {
+            "byteEnd": 179,
+            "byteStart": 175
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Trick"
+            }
+          ],
+          "index": {
+            "byteEnd": 186,
+            "byteStart": 180
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Cybersecurity"
+            }
+          ],
+          "index": {
+            "byteEnd": 224,
+            "byteStart": 210
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Infosec"
+            }
+          ],
+          "index": {
+            "byteEnd": 235,
+            "byteStart": 227
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Glassworm"
+            }
+          ],
+          "index": {
+            "byteEnd": 273,
+            "byteStart": 263
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I've been realizing a lot of files are just zip files in a trenchcoat, so I wrote a little article to help everyone understand.\n\nmrpowershell.com/Tricks/The-Z...\n\n#PowerShell #Tip #Trick\n\nIt might be useful to #Cybersecurity / #Infosec folks looking for the next #Glassworm\n\nFeedback welcome!"
+    },
+    "cid": "bafyreia7p5wsxremqlfac5nf2qelnvyfq6con7i4e6eqwffreeb7rfoala"
+  }
+}
