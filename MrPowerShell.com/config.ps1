@@ -234,11 +234,13 @@ $doodle = @(
 # Randomizing site background a bit
 $backgroundPatternAnimations = 
     [Ordered]@{
-        type = 'scale'    ; values = 0.66,0.33, 0.66 ; repeatCount = 'indefinite' ;dur = "23s"; additive = 'sum';id ='scale-pattern'
+        type = 'scale'    ; values = 0.66,0.33, 0.66 ; repeatCount = 'indefinite' ;dur = "277s"; additive = 'sum';id ='scale-pattern'
     }, [Ordered]@{
-        type = 'rotate'   ; values = 0, 360 ;repeatCount = 'indefinite'; dur = "41s"; additive = 'sum'; id ='rotate-pattern'
+        type = 'rotate'   ; values = 0, 360 ;repeatCount = 'indefinite'; dur = "317s"; additive = 'sum'; id ='rotate-pattern'
     }, [Ordered]@{
-        type = 'translate'   ; values = "0 0;"; dur = "41s"; additive = 'sum'; id ='translate-pattern'
+        type = 'skewX'   ; values = "0;45;0"; dur = "401s"; additive = 'sum'; id ='translate-pattern'
+    }, [Ordered]@{
+        type = 'skewY'   ; values = "0;-45;0"; dur = "503s"; additive = 'sum'; id ='translate-pattern'
     }
 
 $sitebackgrounds = @(
