@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761185085085243,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3tbhpxqcj2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3tbhpkfgc2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-23T02:04:44.486Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibd6yluoc4jhhs3eo4pb6ieltv267ujh33ueogmadmk3lben7tf5y",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3m3tbaakups2r"
+        },
+        "root": {
+          "cid": "bafyreiaahsrs5kuvqziyuzgcelyiykcvx7sthqjelukxtsp3ifwghzcqxy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m3t5hmkyy22f"
+        }
+      },
+      "text": "Cool.  Adding it to the list.\n\nBasically realizing that I can make a module for any Open Package format and treat it like a containerized filesystem / microserver.\n\nThus one could have a proper app format for shell scripts.\n\nThoughts?\n\nIdeas for names?"
+    },
+    "cid": "bafyreic7koef7h7osemfxait5vyr7xhdtl2akxr3o3vjzrsdslqy5xhpge"
+  }
+}
