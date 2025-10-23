@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761242135906121,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3uwlxsrcf2x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3uwlwbbyc2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-23T17:55:34.061Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Cybersecurity"
+            }
+          ],
+          "index": {
+            "byteEnd": 211,
+            "byteStart": 197
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "InfoSec"
+            }
+          ],
+          "index": {
+            "byteEnd": 220,
+            "byteStart": 212
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 232,
+            "byteStart": 221
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Does anyone have a quartantined example of Glassworm they can share?\n\nI want to try to make a detector script in PowerShell that looks for the invisible characters without installing the package.\n\n#Cybersecurity #InfoSec #PowerShell"
+    },
+    "cid": "bafyreibftqekb7i64o3l2ofquvpg5lqevjotidl25dzzfw7ytxv6fjwxqu"
+  }
+}
