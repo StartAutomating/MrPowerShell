@@ -14,7 +14,7 @@
 
     If it is a .zip file, you'll get a directory full of understanding of how that file type works.
 
-    ## Open Packaging Conventions
+    ### Open Packaging Conventions
 
     This approach really got supercharged in 2006, with the standardization of [Open Packaging Conventions](https://en.wikipedia.org/wiki/Open_Packaging_Conventions)
 
@@ -41,14 +41,14 @@
 
     ~~~PowerShell
     # Open a .zip and try to read its parts
-    $PackageFile = [IO.Packaging.Package]::Open($pathToZip, 'Open', 'Read)
+    $PackageFile = [IO.Packaging.Package]::Open($pathToZip, 'Open', 'Read')
     if ($PackageFile) {
         $PackageFile.GetParts()
         $PackageFile.Close()
     }    
-    ~~~
+    ~~~    
     
-    ## Other .zip files
+    ### Other .zip files
 
     There are a few other file types of note that are .zip files in a trenchoat (and not Open Packaging files)
 
