@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761183382484340,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3t7uyc4qy2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3t7uxqtvc2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-23T01:36:21.809Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreighhd2kxky5bktowaeozjewyyz5ot277aycvduz7k6jjei3yqqxhy",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3m3t7qx4o4k2c"
+        },
+        "root": {
+          "cid": "bafyreiaahsrs5kuvqziyuzgcelyiykcvx7sthqjelukxtsp3ifwghzcqxy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m3t5hmkyy22f"
+        }
+      },
+      "text": "Oh most definitely.\n\nI vaguely recall that Chocolatey packages are nuget packages.  \n\nIs that recollection correct?"
+    },
+    "cid": "bafyreicpbh5chbxhgbojmcv6kclyhelnvbybproc74fxh2g42wrvra76dq"
+  }
+}
