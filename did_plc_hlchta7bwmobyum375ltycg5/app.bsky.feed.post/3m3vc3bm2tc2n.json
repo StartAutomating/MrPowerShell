@@ -1,0 +1,102 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761254460872039,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3vc3bwry72w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3vc3bm2tc2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-23T21:21:00.424Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "",
+          "title": "Variation Selectors (Unicode block) - Wikipedia",
+          "uri": "https://en.wikipedia.org/wiki/Variation_Selectors_(Unicode_block)"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Regex"
+            }
+          ],
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 8
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 28,
+            "byteStart": 17
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Cybersecurity"
+            }
+          ],
+          "index": {
+            "byteEnd": 166,
+            "byteStart": 152
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "InfoSec"
+            }
+          ],
+          "index": {
+            "byteEnd": 177,
+            "byteStart": 169
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Glassworm"
+            }
+          ],
+          "index": {
+            "byteEnd": 220,
+            "byteStart": 210
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://en.wikipedia.org/wiki/Variation_Selectors_(Unicode_block)"
+            }
+          ],
+          "index": {
+            "byteEnd": 254,
+            "byteStart": 222
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "A quick #Regex / #PowerShell script to find those pesky glassworm characters\n\n~~~PowerShell\n$glasswormDetector = '[\\ufe00-\\ufe0f]' \n~~~\n\nFor all of the #Cybersecurity / #InfoSec people having a long day due to #Glassworm\n\nen.wikipedia.org/wiki/Variati...\n\nMight be making a mini module for this."
+    },
+    "cid": "bafyreiczvjbu364p65spox3sxc5lxn2dejbhrfmwfv2rtze7tyqblcep7y"
+  }
+}
