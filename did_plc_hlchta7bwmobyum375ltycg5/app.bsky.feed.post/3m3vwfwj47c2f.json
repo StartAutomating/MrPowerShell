@@ -1,0 +1,122 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761276294679122,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3vwfxwcwe2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3vwfwj47c2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-24T03:24:52.728Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Glass is a module for seeing thru invisible characters - StartAutomating/Glass",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiermwmx6u3xowfwzfmdlbnbpdkey4j6qkl77ldqam5ycfyjrfs6eq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 225431
+          },
+          "title": "GitHub - StartAutomating/Glass: Glass is a module for seeing thru invisible characters",
+          "uri": "https://github.com/StartAutomating/Glass"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Glassworm"
+            }
+          ],
+          "index": {
+            "byteEnd": 27,
+            "byteStart": 17
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Glassware"
+            }
+          ],
+          "index": {
+            "byteEnd": 208,
+            "byteStart": 198
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Malware"
+            }
+          ],
+          "index": {
+            "byteEnd": 217,
+            "byteStart": 209
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/Glass"
+            }
+          ],
+          "index": {
+            "byteEnd": 253,
+            "byteStart": 227
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CyberSecurity"
+            }
+          ],
+          "index": {
+            "byteEnd": 269,
+            "byteStart": 255
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "InfoSec"
+            }
+          ],
+          "index": {
+            "byteEnd": 278,
+            "byteStart": 270
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 290,
+            "byteStart": 279
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Need to look for #Glassworm or other nefarious invisible scripts?\n\nWant to learn more about this new technique attackers can use to hide?\n\nI went and made a module for Glass.  Be ready for the next #Glassware #Malware attack.\n\ngithub.com/StartAutomat...\n\n#CyberSecurity #InfoSec #PowerShell"
+    },
+    "cid": "bafyreidgerp3hmfmmvap3daoxjyvpqmgsilyexq7nuhfj4og3t7wgy7seu"
+  }
+}
