@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761265508357274,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m3vmeicxec2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m3vmeh2zdk2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-24T00:25:05.566Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaizeckfhkr4ih2qcmh7glib4irc3qb665r6gliyrzmub2hi2m6de",
+          "uri": "at://did:plc:k54achhksfhvlp5jd3rzv32h/app.bsky.feed.post/3m3vlzfi74k23"
+        },
+        "root": {
+          "cid": "bafyreia7p5wsxremqlfac5nf2qelnvyfq6con7i4e6eqwffreeb7rfoala",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m3vak4voik2r"
+        }
+      },
+      "text": "Yeah, on the day Glassworm continues to go wild."
+    },
+    "cid": "bafyreickbhzqe7qftormwrcprwdwdsh5fk4eiksdlpzpvb6vdnzd2rdafm"
+  }
+}
