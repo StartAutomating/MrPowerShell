@@ -70,7 +70,7 @@
 
     Once we know 3 is prime, we know every third number is not prime.
     
-    To quickly get prime numbers up to a point, we can use this little PowerShell function
+    To quickly get prime numbers up to a point, we can use this little [PowerShell function](https://gist.github.com/StartAutomating/8d2bbedbfd371ff70e076d8260a08d4b)
     
     ~~~PowerShell
     # Calculate primes reasonably quickly with the Sieve of Eratosthenes
@@ -160,12 +160,12 @@
 
     Now, instead of having a traffic jam every 5 minutes, things smoothed out.
 
-    * A small traffic jam would occur every ~77 minutes (7*11)
-    * Another small traffic jam would occur every ~119 minutes (7*17) 
-    * Another small traffic jam would occur at ~187 minutes (11*17)
-    * All traffic could jam every ~1309 minutes (7*11*17)
+    * A small traffic jam would occur every ~77 minutes (`7*11`)
+    * Another small traffic jam would occur every ~119 minutes (`7*17`) 
+    * Another small traffic jam would occur at ~187 minutes (`11*17`)
+    * All traffic could jam every ~1309 minutes (`7*11*17`)
 
-    Note the tildas.
+    Note the tildas.    
 
     The real trick came in by using prime intervals in both minutes and seconds, and using a random delay on the tasks to ensure they didn't all start at once.
 
@@ -175,7 +175,9 @@
 
     Hope this helps!
 
-    Please enjoy this list of primes, generated at build time.
+    ---
+
+    Please enjoy this list of primes, generated at build time:
 #>
 
 
