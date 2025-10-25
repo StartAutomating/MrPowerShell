@@ -345,21 +345,21 @@ $myResume = $myResume |
         $attributeString = @($attributes.GetEnumerator() | ForEach-Object { "$($_.Key)='$($_.Value)'" }) -join ' '
         "<div $attributeString>"    
             "<h2>"
-            if ($this.Website) {
-                "<a href='$($this.Website)'>$($this.Name)</a>"
+            if ($this.basics.url) {
+                "<a href='$($this.basics.url)'>$($this.basics.name)</a>"
             } else {
                 # Otherwise, just use the name.
-                "$($this.Name)"
+                "$($this.basics.name)"
             }
             "</h2>"
-            "<h3 class='json-resume-label'>$([Web.HttpUtility]::HtmlEncode($this.Label))</h3>"
-            "<h4 class='json-resume-summary'>$([Web.HttpUtility]::HtmlEncode($this.summary))</h4>"
+            "<h3 class='json-resume-label'>$([Web.HttpUtility]::HtmlEncode($this.basics.Label))</h3>"
+            "<h4 class='json-resume-summary'>$([Web.HttpUtility]::HtmlEncode($this.basics.Summary))</h4>"
             "<h3>Work</h3>"
             "<ul class='json-resume-work'>"
             foreach ($work in $this.Work) {
                 "<li class='json-resume-work-item'>"
                 "<h4 class='json-resume-work-position'>$([Web.HttpUtility]::HtmlEncode($work.position))</h4>"
-                "<h5 class='json-resume-work-company'>$([Web.HttpUtility]::HtmlEncode($work.company))</h5>"
+                "<h5 class='json-resume-work-company'>$([Web.HttpUtility]::HtmlEncode($work.name))</h5>"
                 "<p class='json-resume-work-dates'>$([Web.HttpUtility]::HtmlEncode($work.startDate)) - $([Web.HttpUtility]::HtmlEncode($work.endDate))</p>"
                 if ($work.summary) {
                     "<p class='json-resume-work-summary'>$([Web.HttpUtility]::HtmlEncode($work.summary))</p>"
