@@ -4,8 +4,20 @@ if ($PSScriptRoot) { Push-Location $psScriptRoot }
 
 $Basics = @{
     Name    = "James Brundage"
-    Label   = "Prolific Programmer"
-    Summary = "Experienced software developer with a passion for building innovative solutions."
+    Label   = "Prolific Programmer, Platform Engineer, and Evangelist"
+    Summary = "
+Experienced and passionate software developer and platform engineer.
+
+Motivated by interesting problems and organizational improvements.
+
+Specializing in secure high volume development.
+
+Incredibly experienced with Windows infrastructure ( also competent with Linux )
+
+Proud parent of PowerShell and Scripted UI.
+
+Jack of all trades, master of PowerShell.
+"
     Website = "https://MrPowerShell.com"
 }
 
@@ -213,16 +225,32 @@ $Work = @{
 },
 @{
     Name = 'Filmcritic.com'
+    StartDate = "1997-06"
+    EndDate = "2008-05"
     Position = 'Staff Writer and secondary webmaster'
     Highlights = @(
         'Wrote hundreds of movie reviews for Filmcritic.com from 1996 to 2001.'
         'Created and maintained web infrastructure for ~4,000,000 monthly users.'
+        'Helped found the Online Film Critics Society'
+        'Built initial critical aggregation score algorithms api, used by partner website Rotten Tomatoes'
     )
 }
 
 $skills = @{
     name = "PowerShell"
     level = "Master (18+ years)"
+}, @{
+    name = "DevOps"
+    level = "Master (16+ years)"
+}, @{
+    name = "Platform Engineering"
+    level = "Master (10+ years)"
+}, @{
+    name = "Software Architecture"
+    level = "Master (20+ years)"
+}, @{
+    name = "Software Engineering"
+    level = "Master (20+ years)"
 }, @{
     name = "HTML"
     level = "Master (30+ years)"
@@ -286,10 +314,19 @@ $skills = @{
 }, @{
     name = "Python"
     level = "Intermediate (~5 years)"
+}, @{
+    name = "Prompt Engineering"
+    level = "Intermediate (~3 years)"
+}, @{
+    name = "Artifical Intelligence"
+    level = "Intermediate (~5 years)"
 }
 
 $languages = @{
     language = "PowerShell"
+    fluency = "Mastery"
+}, @{
+    language = "C#"
     fluency = "Expert"
 }, @{
     language = "HTML"
@@ -301,9 +338,6 @@ $languages = @{
     language = "CSS"
     fluency = "Expert"
 }, @{
-    language = "C#"
-    fluency = "Expert"
-}, @{
     language = "C++"
     fluency = "Expert"
 }, @{
@@ -312,7 +346,22 @@ $languages = @{
 }, @{
     language = "SQL"
     fluency = "Expert"
-}
+}, @{
+    language = "TypeScript"
+    fluency = "Intermediate"
+}, @{
+    language = "Go"
+    fluency = "Intermediate"
+}, @{
+    language = "Rust"
+    fluency = "Basic"
+}, @{
+    language = "Basic (and variants)"
+    fluency = "Expert"
+}, @{
+    language = "Logo"
+    fluency = "Intermediate"
+} 
 
 
 $interests = @{
@@ -353,8 +402,10 @@ $myResume = $myResume |
             }
             "</h2>"
             "<h3 class='json-resume-label'>$([Web.HttpUtility]::HtmlEncode($this.basics.Label))</h3>"
-            "<h4 class='json-resume-summary'>$([Web.HttpUtility]::HtmlEncode($this.basics.Summary))</h4>"
-            "<h3>Work</h3>"
+            "<h4 class='json-resume-summary'>
+            $((ConvertFrom-Markdown -InputObject $this.basics.Summary).Html)
+            </h4>"
+            "<h3>Experience</h3>"
             "<ul class='json-resume-work'>"
             foreach ($work in $this.Work) {
                 "<li class='json-resume-work-item'>"
@@ -374,6 +425,30 @@ $myResume = $myResume |
                 "</li>"
             }
             "</ul>"
+
+            if ($this.Skills) {
+                "<h3>Skills</h3>"
+                @(
+                    "|Skill|Level|"
+                    "|-|-|"                
+                    foreach ($skill in $this.Skills) {
+                        "|$($skill.Name)|$($skill.Level)|"
+                    }
+                ) -join [Environment]::NewLine | ConvertFrom-Markdown |
+                    Select-Object -ExpandProperty Html
+            }
+
+            if ($this.Languages) {
+                "<h3>Languages</h3>"
+                @(
+                    "|Language|Fluency|"
+                    "|-|-|"                
+                    foreach ($skill in $this.Languages) {
+                        "|$($skill.language)|$($skill.fluency)|"
+                    }
+                ) -join [Environment]::NewLine | ConvertFrom-Markdown |
+                    Select-Object -ExpandProperty Html
+            }
         "</div>"    
     } -Force -PassThru |
     Add-Member ScriptMethod ToString -Value {
