@@ -1,0 +1,87 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761421311669484,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m425hsv5gw2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m425htphws2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-25T19:41:52.042Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "YouTube video by CGP Grey",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifwxblvi2m77x7jt7lht62hcioslqfweugwvyerya4wi3lgqefera"
+            },
+            "mimeType": "image/jpeg",
+            "size": 66647
+          },
+          "title": "Why Do All Governments Work the Same Way?",
+          "uri": "https://youtu.be/rStL7niR7gs?si=HJ-EZI3fjgoc0Fss"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "YouTube"
+            }
+          ],
+          "index": {
+            "byteEnd": 28,
+            "byteStart": 20
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Trump"
+            }
+          ],
+          "index": {
+            "byteEnd": 99,
+            "byteStart": 93
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:i4t2gmjnatz3hp6czkuyxkn2"
+            }
+          ],
+          "index": {
+            "byteEnd": 126,
+            "byteStart": 106
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://youtu.be/rStL7niR7gs?si=HJ-EZI3fjgoc0Fss"
+            }
+          ],
+          "index": {
+            "byteEnd": 185,
+            "byteStart": 161
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Ran across this old #YouTube gem the other night and am shocked by how prescient it is.\n\nDid #Trump watch @cgpgrey.bsky.social ?  Did they actually take notes?\n\nyoutu.be/rStL7niR7gs?..."
+    },
+    "cid": "bafyreif3gdco4vatesbpgv4u5t62tdl4jiyeua5rt6oet2hp7azcqtanca"
+  }
+}
