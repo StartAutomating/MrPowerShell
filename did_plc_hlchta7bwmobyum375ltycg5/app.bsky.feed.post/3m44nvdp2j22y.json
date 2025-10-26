@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761507665708831,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m44nvczb5x2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m44nvdp2j22y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-26T19:41:04.365Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreichfhoavss3sldnmryc6xast26a5t4nk7b7pwh7kwsbrf5efk4pee",
+          "uri": "at://did:plc:mo6uhnow7qhlj6abtiqzcvhk/app.bsky.feed.post/3m44gfvxna22e"
+        },
+        "root": {
+          "cid": "bafyreichfhoavss3sldnmryc6xast26a5t4nk7b7pwh7kwsbrf5efk4pee",
+          "uri": "at://did:plc:mo6uhnow7qhlj6abtiqzcvhk/app.bsky.feed.post/3m44gfvxna22e"
+        }
+      },
+      "text": "I don't think that's a delusion, I think that's metrics of usability data.\n\nThere are a lot of windows users and Windows PowerShell is built-in.\n\nWhat % of 1.5B use PowerShell? 5%? 10%? Numbers add up quickly.\n\nAlso, rage makes an issue harder to see.\n\nSeriously asking: what are you trying to do?"
+    },
+    "cid": "bafyreihuh5zfq2tzsxib7wxadhrtn3a4acyn74rlgveldzqmvcxbtu4uyu"
+  }
+}
