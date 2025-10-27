@@ -7,12 +7,14 @@
     Want to learn a trick?  I may have a few to share.
 
     This folder contains some tricks of the trade I've figured out over the years.
-
-    You may also want to check out:
-    
-    * [My Gists](https://MrPowerShell.com/Gists)
-    * [My GitHub Repos](https://MrPowerShell.com/GitHub)
-    * [My Modules](https://MrPowerShell.com/Modules)
+.LINK 
+    https://MrPowerShell.com/Tricks     
+.LINK
+    https://MrPowerShell.com/Gists
+.LINK
+    https://MrPowerShell.com/GitHub
+.LINK
+    https://MrPowerShell.com/Modules
 #>
 
 #region Page Help
@@ -59,6 +61,42 @@ foreach ($file in Get-ChildItem -Filter *.html.ps1) {
 }
 "</ul>"
 #endregion Local Links
+
+#region Page Links
+$myFile = Get-Item -LiteralPath $MyInvocation.MyCommand.ScriptBlock.File
+
+$selfReference = @(    
+    if ($myFile.Name -eq 'index.html.ps1') {
+        $myFile.Directory.Name
+    } else {
+        $myFile.Name -replace '\.html\.ps1$'
+    }   
+)
+
+
+$relatedLinks = foreach ($link in $myHelp.relatedLinks.navigationLink.uri) {
+    $linkUri = $link -as [uri]
+    if ($linkUri.IsAbsoluteUri -and
+        ($linkUri.Segments[-1] -replace '/') -ne $selfReference
+    ) {
+        $linkUri
+    }    
+}
+
+if ($relatedLinks) {
+    "<hr/>"
+    "<h4>Related</h4>"
+    "<ul>"
+    foreach ($link in $relatedLinks) {
+        "<li><a href='$link'>$(
+            [Web.HttpUtility]::HtmlEncode(
+                $link.Segments[-1] -replace '/'
+            )
+        )</a></li>"
+    }
+    "</ul>"
+}
+#endregion Page Links
 
 #region View Source
 "<hr/>"
