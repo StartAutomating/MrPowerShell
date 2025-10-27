@@ -47,7 +47,6 @@ $notes
 #endregion Page Help
 
 #region Local Links
-"<hr/>"
 "<ul>"
 foreach ($file in Get-ChildItem -Filter *.html.ps1) {    
     $fileName = $file.Name -replace '\.html\.ps1$'
@@ -62,6 +61,7 @@ foreach ($file in Get-ChildItem -Filter *.html.ps1) {
 #endregion Local Links
 
 #region View Source
+"<hr/>"
 "<details>"
 "<summary>View Source</summary>"
 "<pre><code class='language-powershell'>$([Web.HttpUtility]::HtmlEncode($MyInvocation.MyCommand.ScriptBlock))</code></pre>"
