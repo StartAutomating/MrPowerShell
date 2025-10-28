@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761692537565480,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4c22xa2xz2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4c22wq6sk2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-28T23:02:15.69Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifqsqrlamx6u3t57wxvplmwx74o4mgdxzxxflyijblrkmhw7ltbgm",
+          "uri": "at://did:plc:qeyu36bih2pgwmkppihv2tvt/app.bsky.feed.post/3m4bo5bmidk2n"
+        },
+        "root": {
+          "cid": "bafyreiekafrbproejce7xj2rmfbsbrepigzubc6brig5675khw2ki2tuhq",
+          "uri": "at://did:plc:qeyu36bih2pgwmkppihv2tvt/app.bsky.feed.post/3m4bnimr7h22n"
+        }
+      },
+      "text": "I will never get over how different the PowerBI/Automate/etc ecosystem is from PowerShell.  \n\nPerhaps one day the gap will be bridged....\n\nDare to dream..."
+    },
+    "cid": "bafyreiezmry5qxyzsatlayzgvxae7fcrrtocquv4nekkpb6t47vjhxy5ca"
+  }
+}
