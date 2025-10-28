@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761677396106224,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4blxqccxm2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4blxpyhd22b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-28T18:49:55.572Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid7qlsyhyfosy5qqhbycb5nmejnhxif2bn4q2wxxgdiecvrwqvucq",
+          "uri": "at://did:plc:kigq4ofgay2wrtprk2qdkfaa/app.bsky.feed.post/3m4bilwas4k2o"
+        },
+        "root": {
+          "cid": "bafyreid7qlsyhyfosy5qqhbycb5nmejnhxif2bn4q2wxxgdiecvrwqvucq",
+          "uri": "at://did:plc:kigq4ofgay2wrtprk2qdkfaa/app.bsky.feed.post/3m4bilwas4k2o"
+        }
+      },
+      "text": "Maybe.  Are shebangs acceptable?  \n\nAre we just talking embedding one within the other? (that one I've done)"
+    },
+    "cid": "bafyreihyfylobxzphwaiftmxgyghnauntxdup7l2vynjtjglymlqmufyzy"
+  }
+}
