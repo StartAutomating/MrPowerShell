@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761692457688868,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4bzym6ljw2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4bzylm7322b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-28T23:00:56.916Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidl4kddld25heefkmt53lui6jzxfa7mbwyficemdubjdmtha6kpyq",
+          "uri": "at://did:plc:qeyu36bih2pgwmkppihv2tvt/app.bsky.feed.post/3m4bo5bmffs2n"
+        },
+        "root": {
+          "cid": "bafyreiekafrbproejce7xj2rmfbsbrepigzubc6brig5675khw2ki2tuhq",
+          "uri": "at://did:plc:qeyu36bih2pgwmkppihv2tvt/app.bsky.feed.post/3m4bnimr7h22n"
+        }
+      },
+      "text": "If it's any consolation, I think everyone who plays with PowerShell also hates this weird gulf in the ecosystem."
+    },
+    "cid": "bafyreihckjsdhtto2n4nxtnw37osup2mxf2danxr3oqt2i3vlsdwqc5kam"
+  }
+}
