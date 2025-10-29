@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761758772961467,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4dxqxfbx72f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4dxqxy7ck24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-29T17:26:13.449Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 68,
+            "byteStart": 57
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GameDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 88,
+            "byteStart": 80
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigqbkjr67s5sj2puot5zuhrtgjhpa753v5i4hclei2zrofxywq52q",
+          "uri": "at://did:plc:xmj6ensmeo7obl3luf545p3y/app.bsky.feed.post/3m4cjlyvgw22i"
+        },
+        "root": {
+          "cid": "bafyreigqbkjr67s5sj2puot5zuhrtgjhpa753v5i4hclei2zrofxywq52q",
+          "uri": "at://did:plc:xmj6ensmeo7obl3luf545p3y/app.bsky.feed.post/3m4cjlyvgw22i"
+        }
+      },
+      "text": "Congrats!\n\nWill you be posting it?\n\nI'd love to see more #PowerShell scripts in #GameDev!  Seems like it might actually help with crunch mode.\n\nPlus the more we make easy thru automation, the more anyone can start making games.\n\nPlease, keep up the cool work!"
+    },
+    "cid": "bafyreieqeymkkqcirny6pxregdacuywmrnt44p4t2zgae4n7nnfogfedsq"
+  }
+}
