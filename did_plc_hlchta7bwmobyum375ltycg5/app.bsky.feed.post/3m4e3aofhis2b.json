@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761762521972040,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4e3aooshz2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4e3aofhis2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-29T18:28:41.495Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidg3t3txwre3vjvyyq7pzxubchi7nprooxla7x5a44zvyqto42jqa",
+          "uri": "at://did:plc:vveuef2gjhg6lxd6fimfs4nn/app.bsky.feed.post/3m4e253blk22p"
+        },
+        "root": {
+          "cid": "bafyreidg3t3txwre3vjvyyq7pzxubchi7nprooxla7x5a44zvyqto42jqa",
+          "uri": "at://did:plc:vveuef2gjhg6lxd6fimfs4nn/app.bsky.feed.post/3m4e253blk22p"
+        }
+      },
+      "text": "Is it DNS?\n\nI just found out because all of my badges broke on my modules page."
+    },
+    "cid": "bafyreihdqwnmkgckybpdvivvrnmleg4xi3u7u7yjikp7tullqhfgqisaby"
+  }
+}
