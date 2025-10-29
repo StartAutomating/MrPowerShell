@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761766055312850,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4e6jyfofm2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4e6jwhmuk2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-29T19:27:33.17Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "This cmdlet creates a new theme or updates an existing theme. The color pairs settings can be passed as a hash table, while the color palette settings can be passed as either a hash table or a diction...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreif5cdhusoi35cagqnhxif5bjxpvfwiy4sce35o257o4nsmwddiyfa"
+            },
+            "mimeType": "image/jpeg",
+            "size": 737841
+          },
+          "title": "Add-SPOTheme (Microsoft.Online.SharePoint.PowerShell)",
+          "uri": "https://learn.microsoft.com/en-us/powershell/module/microsoft.online.sharepoint.powershell/add-spotheme"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://learn.microsoft.com/en-us/powershell/module/microsoft.online.sharepoint.powershell/add-spotheme"
+            }
+          ],
+          "index": {
+            "byteEnd": 71,
+            "byteStart": 36
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic2kylg6clcjo7pkquf7kw7uffuvsjzdkytsbtrfe4exjwx4elha4",
+          "uri": "at://did:plc:5m7jwe3geftk4zjp62dhk27u/app.bsky.feed.post/3m4dsczdqzk2e"
+        },
+        "root": {
+          "cid": "bafyreic2kylg6clcjo7pkquf7kw7uffuvsjzdkytsbtrfe4exjwx4elha4",
+          "uri": "at://did:plc:5m7jwe3geftk4zjp62dhk27u/app.bsky.feed.post/3m4dsczdqzk2e"
+        }
+      },
+      "text": "Is this what you're hoping to try?\n\nlearn.microsoft.com/en-us/powers...\n\nIf so, looks pretty straightforward."
+    },
+    "cid": "bafyreigoqmmj3upt5elrmz5q4s7u3l22vorxkqlc7diumdskskl7kb47yy"
+  }
+}
