@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761759060503640,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4dxzjmfr32f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4dxzk6km224",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-29T17:31:00.969Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Go"
+            }
+          ],
+          "index": {
+            "byteEnd": 17,
+            "byteStart": 14
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 64,
+            "byteStart": 53
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigbkbfackrr6ygscwhsqbuh6q3rbcqne6sjkwofw5txljcpnaa74m",
+          "uri": "at://did:plc:yzsm7aifdmbnrs4okma2y3k7/app.bsky.feed.post/3m4dm4z6rfc2g"
+        },
+        "root": {
+          "cid": "bafyreiav77e6ofw4xg2ipolhqo6cvg4ocknpksw6o7in2ynugpasipz3oq",
+          "uri": "at://did:plc:yzsm7aifdmbnrs4okma2y3k7/app.bsky.feed.post/3m4ddevwy2s24"
+        }
+      },
+      "text": "#PowerShell + #Go can be fun....\n\n( Of course so can #PowerShell + about anything 😉 )"
+    },
+    "cid": "bafyreidr6yqym4v5r6at7lzacicq34qer5s4nlx2thqt55hwo5acjou4ca"
+  }
+}
