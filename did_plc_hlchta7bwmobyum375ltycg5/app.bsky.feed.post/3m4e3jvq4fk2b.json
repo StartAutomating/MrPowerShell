@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761762833470460,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4e3jxfy7b2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4e3jvq4fk2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-29T18:33:51.174Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Letterkenny tries to be fair when it comes to server outages.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicufwrgdtqkxxajptwjicxnossbo2fvipj6hzdvhm7byrt4xylfeu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 593266
+          },
+          "title": "a group of people standing around a table with the words to be fair",
+          "uri": "https://media.tenor.com/jFQW2vfsbrsAAAAC/letterkenny-to.gif?hh=270&ww=480"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidiu5nqfbmiunbdjdp5btntal44nhiuhl7vmtbbsmzkbtncrx7tgm",
+          "uri": "at://did:plc:vveuef2gjhg6lxd6fimfs4nn/app.bsky.feed.post/3m4e3fbba3c22"
+        },
+        "root": {
+          "cid": "bafyreidg3t3txwre3vjvyyq7pzxubchi7nprooxla7x5a44zvyqto42jqa",
+          "uri": "at://did:plc:vveuef2gjhg6lxd6fimfs4nn/app.bsky.feed.post/3m4e253blk22p"
+        }
+      },
+      "text": "To be fair, it's sometimes \"someone changed a configuration setting without realizing it\".\n\nTo be balanced, 75% of the time, that configuration setting was DNS-related."
+    },
+    "cid": "bafyreigltrywwuvkvna5pwi2qyuvuf7m47z25dxt5jc5nsn466rpcdqehm"
+  }
+}
