@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761848271963733,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4gl47kfs62m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4gl45dnik2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-30T18:17:48.739Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiavtoiij7dtwleomgf3gj74gex7iueqjc6m2qrudojvdip5d2daze",
+          "uri": "at://did:plc:xmj6ensmeo7obl3luf545p3y/app.bsky.feed.post/3m4gkwjbmq22t"
+        },
+        "root": {
+          "cid": "bafyreigqbkjr67s5sj2puot5zuhrtgjhpa753v5i4hclei2zrofxywq52q",
+          "uri": "at://did:plc:xmj6ensmeo7obl3luf545p3y/app.bsky.feed.post/3m4cjlyvgw22i"
+        }
+      },
+      "text": "I can see that after about 10 minutes poking at unity packages.\n\nTalk about \"security thru obscurity\"\n\nDoes Godot also have a package format?"
+    },
+    "cid": "bafyreifl5ojrljlaofvhygzqalcmfkaelzmwb3w65stn3kqufvnlwkanie"
+  }
+}
