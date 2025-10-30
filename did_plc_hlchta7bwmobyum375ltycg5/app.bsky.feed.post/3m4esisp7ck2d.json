@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761787491326277,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4esitdt752b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4esisp7ck2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-30T01:24:50.506Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib25ixhgtsa6j65zocpoadivdlmkyshqiusxexvhy46qcpyyacr3e",
+          "uri": "at://did:plc:n47ckpfnmkgn6o3ukxumlcbu/app.bsky.feed.post/3m4eq4ohzx22r"
+        },
+        "root": {
+          "cid": "bafyreib25ixhgtsa6j65zocpoadivdlmkyshqiusxexvhy46qcpyyacr3e",
+          "uri": "at://did:plc:n47ckpfnmkgn6o3ukxumlcbu/app.bsky.feed.post/3m4eq4ohzx22r"
+        }
+      },
+      "text": "I find lots of small files easier to find my way around in / manage.\n\nThis is a bit of a trick question, since small files can be packed into large one (extended types files / psm1s).\n\nHope this makes sense, lemme know if you want more context."
+    },
+    "cid": "bafyreib5mbyabg5f2weaxrnf3prl4xx2fkl7jmwwz3vltaypc2rjmtywum"
+  }
+}
