@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761794023479318,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4eyliwysd2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4eylilxd22d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-30T03:13:43.028Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie35lggvrhwxtwhibqxn6onh5xr755zgie75kg37qm7xxxmxnibcm",
+          "uri": "at://did:plc:n47ckpfnmkgn6o3ukxumlcbu/app.bsky.feed.post/3m4eyiaeb522k"
+        },
+        "root": {
+          "cid": "bafyreib25ixhgtsa6j65zocpoadivdlmkyshqiusxexvhy46qcpyyacr3e",
+          "uri": "at://did:plc:n47ckpfnmkgn6o3ukxumlcbu/app.bsky.feed.post/3m4eq4ohzx22r"
+        }
+      },
+      "text": "Cool.  The important thing to note is that it's _much_ harder to break code back up than it is to join it together.\n\nSo rather than having one big part, you want lots of little parts.\n\nAnd, in my opinion, those parts should be as self-contained as possible.\n\n(either in a module or inner functions)"
+    },
+    "cid": "bafyreidbjbvbgw5lbt6zm7hmburmlc76vc6hehrgqlkih3haxehn2kobsu"
+  }
+}
