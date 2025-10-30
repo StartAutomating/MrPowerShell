@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761848466262659,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4glbwlenw2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4glbuuj522d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-30T18:21:01.181Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiavtoiij7dtwleomgf3gj74gex7iueqjc6m2qrudojvdip5d2daze",
+          "uri": "at://did:plc:xmj6ensmeo7obl3luf545p3y/app.bsky.feed.post/3m4gkwjbmq22t"
+        },
+        "root": {
+          "cid": "bafyreigqbkjr67s5sj2puot5zuhrtgjhpa753v5i4hclei2zrofxywq52q",
+          "uri": "at://did:plc:xmj6ensmeo7obl3luf545p3y/app.bsky.feed.post/3m4cjlyvgw22i"
+        }
+      },
+      "text": "Ok, here's some feedback:\n\n1. Those initial variables should be parameters (then someone could interactively use this against any target)\n2. If you want cross-platform image manipulation, you could do worse than FFMpeg or ImageMagic.\n3. I'd output files rather than write-host"
+    },
+    "cid": "bafyreihb5twtwfz5zft5emk7yjpriwfxnhvtzib4yhdym7teg3wndycn5q"
+  }
+}
