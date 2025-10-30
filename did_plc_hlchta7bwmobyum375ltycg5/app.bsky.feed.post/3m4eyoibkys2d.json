@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761794123758624,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4eyoihzur2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4eyoibkys2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-30T03:15:23.351Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie35lggvrhwxtwhibqxn6onh5xr755zgie75kg37qm7xxxmxnibcm",
+          "uri": "at://did:plc:n47ckpfnmkgn6o3ukxumlcbu/app.bsky.feed.post/3m4eyiaeb522k"
+        },
+        "root": {
+          "cid": "bafyreib25ixhgtsa6j65zocpoadivdlmkyshqiusxexvhy46qcpyyacr3e",
+          "uri": "at://did:plc:n47ckpfnmkgn6o3ukxumlcbu/app.bsky.feed.post/3m4eq4ohzx22r"
+        }
+      },
+      "text": "There's thing thing I need to talk about more called the \"Transitive Property of Functions\"\n\nBasically:\n\nA script can become a function, and a function can become a script.  Anything you can represent as one or the other can be represented as either.\n\nThat's a lot of anything.  Probably everything."
+    },
+    "cid": "bafyreie2cpxlnal6xl2nbwh5cl55tag3y5wd2wrd5tbrcvbijnumn2i3r4"
+  }
+}
