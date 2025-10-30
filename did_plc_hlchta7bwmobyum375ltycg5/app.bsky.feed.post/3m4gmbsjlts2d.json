@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761849533612732,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4gmbtc7x725",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4gmbsjlts2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-30T18:38:52.467Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihblfzizsd3lodrlrevm6ohn46v66fgzcw7eonqluctibzmd4iqha",
+          "uri": "at://did:plc:xmj6ensmeo7obl3luf545p3y/app.bsky.feed.post/3m4gm23mey22t"
+        },
+        "root": {
+          "cid": "bafyreigqbkjr67s5sj2puot5zuhrtgjhpa753v5i4hclei2zrofxywq52q",
+          "uri": "at://did:plc:xmj6ensmeo7obl3luf545p3y/app.bsky.feed.post/3m4cjlyvgw22i"
+        }
+      },
+      "text": "Looking a little more, another thing that would be nice would be piped input of parameters.\n\nLike it would be really cool (to me) if you could pipe in a list of files / regions and crop them all.\n\nYou'd want to use [Parameter(ValueFromPipelineByPropertyName)] and a process block."
+    },
+    "cid": "bafyreig6tvvhi2bruanpsfahrkhtrj7z3lcdbxcjoqdpx2vittptqmul34"
+  }
+}
