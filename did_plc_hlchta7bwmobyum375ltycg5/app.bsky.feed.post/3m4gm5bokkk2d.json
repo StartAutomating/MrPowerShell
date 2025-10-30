@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761849381728394,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4gm5ckyjs2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4gm5bokkk2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-30T18:36:20.586Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihblfzizsd3lodrlrevm6ohn46v66fgzcw7eonqluctibzmd4iqha",
+          "uri": "at://did:plc:xmj6ensmeo7obl3luf545p3y/app.bsky.feed.post/3m4gm23mey22t"
+        },
+        "root": {
+          "cid": "bafyreigqbkjr67s5sj2puot5zuhrtgjhpa753v5i4hclei2zrofxywq52q",
+          "uri": "at://did:plc:xmj6ensmeo7obl3luf545p3y/app.bsky.feed.post/3m4cjlyvgw22i"
+        }
+      },
+      "text": "Honestly 1 and 3 are probably the easy wins.\n\nParameters are always useful, and returning an object is always better than just writing to the host.\n\n2 is important if you care about cross-platform (I do, but not everyone does)"
+    },
+    "cid": "bafyreia2omccy7xhx4zktbi2czgdft7tjw7u5stklvha2m2blbwgvpvrme"
+  }
+}
