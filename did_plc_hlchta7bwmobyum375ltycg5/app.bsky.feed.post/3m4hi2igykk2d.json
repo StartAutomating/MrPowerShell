@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761879352309441,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4hi2is4rj2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4hi2igykk2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-31T02:55:51.786Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidqs5ka2eol6i3jvjzfrkml5tshnofx5db7zmuss27iev7ut374h4",
+          "uri": "at://did:plc:uxnbdfu6e5ixacwm3qhowtnu/app.bsky.feed.post/3m4hhpd7gyc2v"
+        },
+        "root": {
+          "cid": "bafyreidbgudvsf6w5es3gd7w5tpdtotxfjrdd7gkz5uh26l7lci25n2ore",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m4h4qsddy22d"
+        }
+      },
+      "text": "Yeah, this is one of those combinations of \"sidetrack route to a thing I want to do\" and \"if I do it once nobody else will have to bother ever again\". I just have to keep taking breaks and working on other things that are more enjoyable."
+    },
+    "cid": "bafyreidubflp6oy2bgw2gng7cp56nytnb37jy4m6nkxkzmj7m42gkwzqgq"
+  }
+}
