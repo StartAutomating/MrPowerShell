@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761871514161464,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4haqva6ik2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4haqsesks2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-31T00:45:10.463Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Being able to serve up layers of in memory readable and writeable data stores that never touch disk is such a cool technique.  And _extremely_ fast and flexible.\n\nEach part/file has a content type, which makes them easy to serve up.\nWe can read or write to a compressed stream of the part.  This minimizes memory impact, and we can serve by literally copying the stream.\n\nWe can also have an infinite number of layers to read or write to, and only store them to disk when needed.  Bonus points:  If we ever need to store them to disk we get a well-organized zip of logs and data.\n\nAlso, it's way faster to list parts of a package than files in filesystem.\n\nThis technique is truly broken.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreichvefyy4bs46wvh32qaxqzmguk2xrfjs4x775nbzksdf32b6a5uq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 980679
+          },
+          "title": "a man is riding a horse with fire coming out of its tail and the words off to the races written below him",
+          "uri": "https://media.tenor.com/jVblO6_iyO0AAAAC/horse-race-off-to-the-races.gif?hh=278&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 23
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "microservices"
+            }
+          ],
+          "index": {
+            "byteEnd": 105,
+            "byteStart": 91
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 160,
+            "byteStart": 153
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GameDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 173,
+            "byteStart": 165
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "In much more fun news, #PowerShell can manipulate packages in memory, and even use them as #microservices.\n\nThis can be a very fast and secure way to do #WebDev and #GameDev.\n\nThink of it like virtualized compressed filesystems.\n\nJust make put in files and content types and away we go!"
+    },
+    "cid": "bafyreieefwn45ll2wzulbi3idiu7yalusnqbdzvm7baiceuv2lxrk7fzsy"
+  }
+}
