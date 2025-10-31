@@ -1,0 +1,152 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761938226397629,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4j6uzzkrn2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4j6uzku322d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-10-31T19:17:04.213Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "webdev"
+            }
+          ],
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 29
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "windows"
+            }
+          ],
+          "index": {
+            "byteEnd": 48,
+            "byteStart": 40
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "IIS"
+            }
+          ],
+          "index": {
+            "byteEnd": 110,
+            "byteStart": 106
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "intranet"
+            }
+          ],
+          "index": {
+            "byteEnd": 144,
+            "byteStart": 135
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 174,
+            "byteStart": 163
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 182,
+            "byteStart": 175
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "HttpListener"
+            }
+          ],
+          "index": {
+            "byteEnd": 261,
+            "byteStart": 248
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 275,
+            "byteStart": 264
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Container"
+            }
+          ],
+          "index": {
+            "byteEnd": 291,
+            "byteStart": 281
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "FTW"
+            }
+          ],
+          "index": {
+            "byteEnd": 296,
+            "byteStart": 292
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifx2odbtkejkurucdhkikas3eobpytjbxrfwouc6xqshtznv7nsom",
+          "uri": "at://did:plc:kd7dz5y6qers6svmxnrfewbo/app.bsky.feed.post/3m4gyddzmgk26"
+        },
+        "root": {
+          "cid": "bafyreifx2odbtkejkurucdhkikas3eobpytjbxrfwouc6xqshtznv7nsom",
+          "uri": "at://did:plc:kd7dz5y6qers6svmxnrfewbo/app.bsky.feed.post/3m4gyddzmgk26"
+        }
+      },
+      "text": "Yeah, people have been doing #webdev on #windows for decades.\n\nIt's pretty popular in corp environments.  #IIS still runs a lot of the #intranet.\n\nI've been doing #PowerShell #WebDev for about 16 years now.\n\nThese days it's mostly cross-platform.  #HttpListener + #PowerShell in a #Container #FTW"
+    },
+    "cid": "bafyreiao7n3dveiph4evwrxcfxrxp44g6m7de2krsidug52d73qigmbny4"
+  }
+}
