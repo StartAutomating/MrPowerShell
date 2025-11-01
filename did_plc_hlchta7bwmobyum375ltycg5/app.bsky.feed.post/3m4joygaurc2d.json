@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1761955519115512,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4joyh45k42m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4joygaurc2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-01T00:05:18.049Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicbjbme6pkha6dheqa2rirjjvohu2xzg4gpa23fnp3crcby6f6tqy",
+          "uri": "at://did:plc:7j5y3yojbqzrzavzx4fgfw5u/app.bsky.feed.post/3m4jjugbl3c2b"
+        },
+        "root": {
+          "cid": "bafyreicbjbme6pkha6dheqa2rirjjvohu2xzg4gpa23fnp3crcby6f6tqy",
+          "uri": "at://did:plc:7j5y3yojbqzrzavzx4fgfw5u/app.bsky.feed.post/3m4jjugbl3c2b"
+        }
+      },
+      "text": "Sounds cool!\n\nTo clear up a misconception, PowerShell is strongly typed, just declare the type before the variable to constrain it.\n\nBonus points:  Being able to apply a validation script or pattern to any variable."
+    },
+    "cid": "bafyreihreumd3gbg25g2lbt5vh5epnimowybb23gb34j75umlyuo6arb3u"
+  }
+}
