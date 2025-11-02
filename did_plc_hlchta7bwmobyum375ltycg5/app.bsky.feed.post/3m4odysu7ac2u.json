@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762115519514713,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4odytgbha2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4odysu7ac2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-02T20:31:58.797Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 86,
+            "byteStart": 75
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie66wy2334ma2oj7uydwnaawvoyxc6qykoqyrtshcibiyd3msnkke",
+          "uri": "at://did:plc:jxhfecrrl2svzpvzhv7d5jbt/app.bsky.feed.post/3m4obkrrvbs2x"
+        },
+        "root": {
+          "cid": "bafyreicbjbme6pkha6dheqa2rirjjvohu2xzg4gpa23fnp3crcby6f6tqy",
+          "uri": "at://did:plc:7j5y3yojbqzrzavzx4fgfw5u/app.bsky.feed.post/3m4jjugbl3c2b"
+        }
+      },
+      "text": "I would argue that's barely scratching the surface of PowerShell, and that #PowerShell is exceedingly amazing when it comes to working with data on the fly.\n\nF# is cool.  C# is cool.\n\nNeither of these languages was meant to be interactive or easy.\n\nPowerShell tries to be both."
+    },
+    "cid": "bafyreidq6do5vgiptfs4mbor7mjryfriubokhn43rqruzci5tormk7slne"
+  }
+}
