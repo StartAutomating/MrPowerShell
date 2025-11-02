@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762118971571174,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4oh7pkpg72b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4oh7p6vt22w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-02T21:29:31.06Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DotNet"
+            }
+          ],
+          "index": {
+            "byteEnd": 202,
+            "byteStart": 195
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreias67uarhhlz5snaznco5kdqdfv5psixialjsho5da57dibujatfy",
+          "uri": "at://did:plc:jxhfecrrl2svzpvzhv7d5jbt/app.bsky.feed.post/3m4ogspdeys2x"
+        },
+        "root": {
+          "cid": "bafyreicbjbme6pkha6dheqa2rirjjvohu2xzg4gpa23fnp3crcby6f6tqy",
+          "uri": "at://did:plc:7j5y3yojbqzrzavzx4fgfw5u/app.bsky.feed.post/3m4jjugbl3c2b"
+        }
+      },
+      "text": "PowerShell always ran on DotNet.\n\nIt being designed for scripting is part of what can throw people off.\n\nUsing -lt / -gt / etc for operators makes conflicts with other langs less likely.\n\nAs for #DotNet, use use :: for static reference and you're good to go.\n\nIf you really want C# inline, Add-Type."
+    },
+    "cid": "bafyreickgtz4tldyseto5vfj46d2v3xveo2psr72jzp3jyc2zmfcyej4eu"
+  }
+}
