@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762115566586653,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4oe2abbdh2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4oe27w3uc2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-02T20:32:46.046Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie5r7olzd3dp5d6oztrunugqpls34g5qudlx2kg7jhcd5wc75lgky",
+          "uri": "at://did:plc:7j5y3yojbqzrzavzx4fgfw5u/app.bsky.feed.post/3m4oaigc6es2r"
+        },
+        "root": {
+          "cid": "bafyreibw6rut2uhna4uuqaclajnmflsk5tjsdclm5bn43sfzi5elpnhfwe",
+          "uri": "at://did:plc:enj4ssqkcnlqvc4hw5agqowk/app.bsky.feed.post/3m4n2k5ehb22m"
+        }
+      },
+      "text": "Lol, would you be competing for FSharp or PowerShell?"
+    },
+    "cid": "bafyreiah5hbhdeg4emlbj7x677usypi6o3rlbynro3s3tynhepp2cfvxam"
+  }
+}
