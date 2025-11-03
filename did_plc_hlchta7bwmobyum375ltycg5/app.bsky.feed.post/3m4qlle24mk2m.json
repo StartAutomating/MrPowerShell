@@ -1,0 +1,63 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762192374515260,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4qllby4ji25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4qlle24mk2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-03T17:52:56.466Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreihiqxytiec2ino4auluiszr6ax2imtcdnohfiupcvs4ncm6rykelm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3lpcvpr7r322l"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 48,
+            "byteStart": 37
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/mrpowershell.com/post/3lpcvpr7r322l"
+            }
+          ],
+          "index": {
+            "byteEnd": 97,
+            "byteStart": 73
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibzam7f7uqll6xaradrmswideb7ds7gnn5txgytqshymei3yqoqvi",
+          "uri": "at://did:plc:p66awmqe5eblp5c5kd35kwca/app.bsky.feed.post/3m4p6t4f7dk2i"
+        },
+        "root": {
+          "cid": "bafyreidz2c4e4xqx2ufduxf33l7sqenetbc3g7b2jm6hbej2ufhhwifdvy",
+          "uri": "at://did:plc:p66awmqe5eblp5c5kd35kwca/app.bsky.feed.post/3m4oqsmaipc2k"
+        }
+      },
+      "text": "Warning: Automating tedious tasks in #PowerShell gets pretty addictive.\n\nbsky.app/profile/mrpo..."
+    },
+    "cid": "bafyreiffm3hqf7kf3agar4k74p3ln7wmlwy747nhl37qwph3thkx3ghl7a"
+  }
+}
