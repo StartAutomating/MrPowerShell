@@ -1,0 +1,53 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762132381402949,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4otpe54po2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4otpdy3ls2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-03T01:13:01.075Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreicdi3axrgdr46tmyfcwas4zqd25ik74ck4f7pohqoti5qj5mw3gq4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m4oksygadc2u"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 46,
+            "byteStart": 35
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/mrpowershell.com/post/3m4oksygadc2u"
+            }
+          ],
+          "index": {
+            "byteEnd": 81,
+            "byteStart": 57
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "The scary thing is this is a legal #PowerShell command:\n\nbsky.app/profile/mrpo..."
+    },
+    "cid": "bafyreickhufkazjduxpda66a3smbm7q6vnw2wmxcs6vfju6ulqzstogbve"
+  }
+}
