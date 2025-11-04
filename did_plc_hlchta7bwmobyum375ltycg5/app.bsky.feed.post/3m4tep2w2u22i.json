@@ -1,0 +1,91 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762288064685123,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4tep3edac2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4tep2w2u22i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-04T20:27:44.135Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A free, open-source PowerShell module with 600+ commands that make SQL Server administration simple, powerful, and fun.",
+          "title": "dbatools | Command-line superpowers for SQL Server automation",
+          "uri": "https://dbatools.io/"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:mpz47tlf4zsgkgr3fvn46pyu"
+            }
+          ],
+          "index": {
+            "byteEnd": 56,
+            "byteStart": 44
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://dbatools.io/"
+            }
+          ],
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 58
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:oqmead6vafy6py7otaam7whk"
+            }
+          ],
+          "index": {
+            "byteEnd": 186,
+            "byteStart": 172
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:esbc722g7bm4ly7b2mg7ba6m"
+            }
+          ],
+          "index": {
+            "byteEnd": 205,
+            "byteStart": 191
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigtiiw6kheibjpyor26gihoqmgxffekpjes5suuu7rpt5jsm4limy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m4telc35nc2i"
+        },
+        "root": {
+          "cid": "bafyreighcn7bf2jnasji4iwd2z3uovwg57kcp5iptlvv54khe6hzdfmpja",
+          "uri": "at://did:plc:udqmajolzc2utmddoklw47l4/app.bsky.feed.post/3m4tc6fclhs2l"
+        }
+      },
+      "text": "We also have the excellent and ever-popular @dbatools.io\n\ndbatools.io\n\nThis one _is_ more Windows specific, and I don't know where I could start in singing its praises but @funbucket.dev and @robsewell.com might have something to say here."
+    },
+    "cid": "bafyreigc4obkjpvihcxdxgvfzgscygpzejdskhfonz2csxw5dp4bryorwi"
+  }
+}
