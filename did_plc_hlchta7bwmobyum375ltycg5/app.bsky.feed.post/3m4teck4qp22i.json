@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762287646073430,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4teclna5e2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4teck4qp22i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-04T20:20:43.876Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "PowerShell module for managing Discord. Contribute to ThePoShWolf/Discordant development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihxurbxtwxkf7i4ji6w5daz6kuvhyaa4szaepn3exj54dl7eghvza"
+            },
+            "mimeType": "image/jpeg",
+            "size": 299855
+          },
+          "title": "GitHub - ThePoShWolf/Discordant: PowerShell module for managing Discord",
+          "uri": "https://github.com/ThePoShWolf/Discordant"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/ThePoShWolf/Discordant"
+            }
+          ],
+          "index": {
+            "byteEnd": 295,
+            "byteStart": 269
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreighcn7bf2jnasji4iwd2z3uovwg57kcp5iptlvv54khe6hzdfmpja",
+          "uri": "at://did:plc:udqmajolzc2utmddoklw47l4/app.bsky.feed.post/3m4tc6fclhs2l"
+        },
+        "root": {
+          "cid": "bafyreighcn7bf2jnasji4iwd2z3uovwg57kcp5iptlvv54khe6hzdfmpja",
+          "uri": "at://did:plc:udqmajolzc2utmddoklw47l4/app.bsky.feed.post/3m4tc6fclhs2l"
+        }
+      },
+      "text": "I'd say PowerToys is pretty popular.\n\nIronically the PowerShell ecosystem has gotten a lot more cross platform, so there's less \"windows-specific\" stuff.\n\nI've got quite of few modules I could recommend, but given your job title I think I'm duty bound to point you to: github.com/ThePoShWolf/..."
+    },
+    "cid": "bafyreidhm4cbjdsoxe56qztblhigkceog54ggdfh4tu73am6brgnbdjnk4"
+  }
+}
