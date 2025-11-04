@@ -1,0 +1,85 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762289606725932,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4tg4zgbcc2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4tg4xvpxs2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-04T20:53:24.484Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "🧠 PowerShell wrapper for AI coding assistants with batch processing, persistent config, and Pester v4→v5 migration automation - potatoqualitee/aitools",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibpwojag4aydgsuupzl2yhpnud4k6pmsxqernibehai6ceqc5qipu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 351329
+          },
+          "title": "GitHub - potatoqualitee/aitools: 🧠 PowerShell wrapper for AI coding assistants with batch processing, persistent config, and Pester v4→v5 migration automation",
+          "uri": "https://github.com/potatoqualitee/aitools"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 25,
+            "byteStart": 22
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:oqmead6vafy6py7otaam7whk"
+            }
+          ],
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 35
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/potatoqualitee/aitools"
+            }
+          ],
+          "index": {
+            "byteEnd": 102,
+            "byteStart": 76
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigtiiw6kheibjpyor26gihoqmgxffekpjes5suuu7rpt5jsm4limy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m4telc35nc2i"
+        },
+        "root": {
+          "cid": "bafyreighcn7bf2jnasji4iwd2z3uovwg57kcp5iptlvv54khe6hzdfmpja",
+          "uri": "at://did:plc:udqmajolzc2utmddoklw47l4/app.bsky.feed.post/3m4tc6fclhs2l"
+        }
+      },
+      "text": "In up-and-coming cool #AI modules, @funbucket.dev has been making AITools:\n\ngithub.com/potatoqualit..."
+    },
+    "cid": "bafyreibblwczm6rr272hs32wwsdab6vpglxafcq5x5lazqxw5oflgmelma"
+  }
+}
