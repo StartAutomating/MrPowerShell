@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762287938461003,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4telcwxkl2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4telc35nc2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-04T20:25:37.425Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects. - StartAutomating/ugit",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigtgmw4edt76d7yrp34whyckvu2t5w7phkm43msb3ewkiuo2ihrqa"
+            },
+            "mimeType": "image/jpeg",
+            "size": 88863
+          },
+          "title": "GitHub - StartAutomating/ugit: Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects.",
+          "uri": "https://github.com/StartAutomating/ugit"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/ugit"
+            }
+          ],
+          "index": {
+            "byteEnd": 172,
+            "byteStart": 146
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Git"
+            }
+          ],
+          "index": {
+            "byteEnd": 186,
+            "byteStart": 182
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreighcn7bf2jnasji4iwd2z3uovwg57kcp5iptlvv54khe6hzdfmpja",
+          "uri": "at://did:plc:udqmajolzc2utmddoklw47l4/app.bsky.feed.post/3m4tc6fclhs2l"
+        },
+        "root": {
+          "cid": "bafyreighcn7bf2jnasji4iwd2z3uovwg57kcp5iptlvv54khe6hzdfmpja",
+          "uri": "at://did:plc:udqmajolzc2utmddoklw47l4/app.bsky.feed.post/3m4tc6fclhs2l"
+        }
+      },
+      "text": "Alright, some seriously useful modules incoming.  Some I have made, some made by others.\n\nStarting off with the one I use for every commit.\n\nugit github.com/StartAutomat...\n\nUpdated #Git with objects automatically parsed from text\n\ni.e.\n\ngit log | Group-Object { $_.CommitDate.DayOfWeek }"
+    },
+    "cid": "bafyreigtiiw6kheibjpyor26gihoqmgxffekpjes5suuu7rpt5jsm4limy"
+  }
+}
