@@ -1,0 +1,73 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762288240088966,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4teuc32w52q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4teuanygs2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-04T20:30:37.935Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A YAML parser and writer that uses an Assembly Load Context on PowerShell 7+ - jborean93/PowerShell-Yayaml",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreif35k7cjbavegrqvyaceaovszsc3zkgshickdr7a3773k3d3hus7e"
+            },
+            "mimeType": "image/jpeg",
+            "size": 337679
+          },
+          "title": "GitHub - jborean93/PowerShell-Yayaml: A YAML parser and writer that uses an Assembly Load Context on PowerShell 7+",
+          "uri": "https://github.com/jborean93/PowerShell-Yayaml"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:waaktpm6r63m5frsf7itvkjn"
+            }
+          ],
+          "index": {
+            "byteEnd": 64,
+            "byteStart": 44
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/jborean93/PowerShell-Yayaml"
+            }
+          ],
+          "index": {
+            "byteEnd": 154,
+            "byteStart": 128
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigtiiw6kheibjpyor26gihoqmgxffekpjes5suuu7rpt5jsm4limy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m4telc35nc2i"
+        },
+        "root": {
+          "cid": "bafyreighcn7bf2jnasji4iwd2z3uovwg57kcp5iptlvv54khe6hzdfmpja",
+          "uri": "at://did:plc:udqmajolzc2utmddoklw47l4/app.bsky.feed.post/3m4tc6fclhs2l"
+        }
+      },
+      "text": "Another one I use in far too many builds is @jborean.bsky.social's YaYaml.\n\nTLDR: Good YAML support with great type isolation.\n\ngithub.com/jborean93/Po..."
+    },
+    "cid": "bafyreihzjatpb4l5k5sq2nfu4smvqyg76wzdmlrhtfvvjlqfsalkonwuiy"
+  }
+}
