@@ -1,0 +1,156 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762289500516520,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4tfzudhus2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4tfzrwvss2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-04T20:51:37.567Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Turtle Graphics in PowerShell. Contribute to PowerShellWeb/Turtle development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibclnkyl5i4brckz7sb6bo2bo5u7bxcnup2hx2xwpbgs6vdwvr2ua"
+            },
+            "mimeType": "image/jpeg",
+            "size": 997168
+          },
+          "title": "GitHub - PowerShellWeb/Turtle: Turtle Graphics in PowerShell",
+          "uri": "https://github.com/PowerShellWeb/Turtle"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 52,
+            "byteStart": 45
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TurtleGraphics"
+            }
+          ],
+          "index": {
+            "byteEnd": 70,
+            "byteStart": 55
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 85,
+            "byteStart": 74
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 105,
+            "byteStart": 101
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 111,
+            "byteStart": 107
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "HTML"
+            }
+          ],
+          "index": {
+            "byteEnd": 118,
+            "byteStart": 113
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "XML"
+            }
+          ],
+          "index": {
+            "byteEnd": 124,
+            "byteStart": 120
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TurtlePower"
+            }
+          ],
+          "index": {
+            "byteEnd": 261,
+            "byteStart": 249
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShellWeb/Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 290,
+            "byteStart": 264
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigtiiw6kheibjpyor26gihoqmgxffekpjes5suuu7rpt5jsm4limy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m4telc35nc2i"
+        },
+        "root": {
+          "cid": "bafyreighcn7bf2jnasji4iwd2z3uovwg57kcp5iptlvv54khe6hzdfmpja",
+          "uri": "at://did:plc:udqmajolzc2utmddoklw47l4/app.bsky.feed.post/3m4tc6fclhs2l"
+        }
+      },
+      "text": "In the newer coolness category there is also #Turtle.\n\n#TurtleGraphics in #PowerShell, outputting to #SVG, #CSS, #HTML, #XML\n\nFor discords context, this could open the door to infinite icons and safe, sharable vector graphics.\n\nAlso, just plain fun #TurtlePower.\n\ngithub.com/PowerShellWe..."
+    },
+    "cid": "bafyreifsvsezdigwd6jrcumvgwksqkwolnbhmmb3n2bju5uuc3yfmfovzi"
+  }
+}
