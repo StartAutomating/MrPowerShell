@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762290053149872,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4tgkdmh6c2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4tgkchvn22i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-04T21:00:51.772Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "My PowerShell modules published to the PowerShell Gallery.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidarwkxp4jmlkkhyk4m7q5cpzbh2nl4tubxpfiblzgsklnuwupzue"
+            },
+            "mimeType": "image/jpeg",
+            "size": 138088
+          },
+          "title": "My PowerShell Modules",
+          "uri": "https://mrpowershell.com/Modules"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://mrpowershell.com/Modules"
+            }
+          ],
+          "index": {
+            "byteEnd": 248,
+            "byteStart": 224
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihbp2mtjlfdwjlu3fs2p7lyvabl77qy6574wl72rmb7uvi3644a6a",
+          "uri": "at://did:plc:udqmajolzc2utmddoklw47l4/app.bsky.feed.post/3m4tfvk2x2c2a"
+        },
+        "root": {
+          "cid": "bafyreighcn7bf2jnasji4iwd2z3uovwg57kcp5iptlvv54khe6hzdfmpja",
+          "uri": "at://did:plc:udqmajolzc2utmddoklw47l4/app.bsky.feed.post/3m4tc6fclhs2l"
+        }
+      },
+      "text": "Yeah, honestly I wish more people would just ask for recommendations.  Clearly I have a bit too many to give.  Not done, though I really should take this thread and make a \"module shout out page\".\n\nUntil then, there's this\n\nmrpowershell.com/Modules"
+    },
+    "cid": "bafyreic7wzns2iya2xntegouh4vsxcdukmaryftwgcbpv4yio32joifgxm"
+  }
+}
