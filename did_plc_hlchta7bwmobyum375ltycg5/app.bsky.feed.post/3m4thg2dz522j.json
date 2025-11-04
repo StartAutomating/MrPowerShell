@@ -1,0 +1,145 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762290985082028,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4thg422yg2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4thg2dz522j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-04T21:16:22.78Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Script OBS with PowerShell. Contribute to StartAutomating/obs-powershell development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiemmfmvebg6n2dvez4o5y5acb3ztmstzdym6yx6ihvcwep7buarzm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 131080
+          },
+          "title": "GitHub - StartAutomating/obs-powershell: Script OBS with PowerShell",
+          "uri": "https://github.com/StartAutomating/obs-powershell"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "windows"
+            }
+          ],
+          "index": {
+            "byteEnd": 43,
+            "byteStart": 35
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "OBS"
+            }
+          ],
+          "index": {
+            "byteEnd": 97,
+            "byteStart": 93
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 98
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Streaming"
+            }
+          ],
+          "index": {
+            "byteEnd": 134,
+            "byteStart": 124
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/obs-powershell"
+            }
+          ],
+          "index": {
+            "byteEnd": 162,
+            "byteStart": 136
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebSocket"
+            }
+          ],
+          "index": {
+            "byteEnd": 212,
+            "byteStart": 202
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PixelShader"
+            }
+          ],
+          "index": {
+            "byteEnd": 246,
+            "byteStart": 234
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:g4iyovne2lj5j4dwrlogar4s"
+            }
+          ],
+          "index": {
+            "byteEnd": 280,
+            "byteStart": 268
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreighcn7bf2jnasji4iwd2z3uovwg57kcp5iptlvv54khe6hzdfmpja",
+          "uri": "at://did:plc:udqmajolzc2utmddoklw47l4/app.bsky.feed.post/3m4tc6fclhs2l"
+        },
+        "root": {
+          "cid": "bafyreighcn7bf2jnasji4iwd2z3uovwg57kcp5iptlvv54khe6hzdfmpja",
+          "uri": "at://did:plc:udqmajolzc2utmddoklw47l4/app.bsky.feed.post/3m4tc6fclhs2l"
+        }
+      },
+      "text": "Oh, yeah, this isn't _technically_ #windows only, but it definitely runs better on windows.\n\n#OBS #PowerShell \n\nScript your #Streaming\n\ngithub.com/StartAutomat...\n\nRidiculous levels of control over OBS #WebSocket, and support for the #PixelShader and other plugins by @exeldro.com"
+    },
+    "cid": "bafyreihzttzyaixdeh5o2qzai2fpl5k4uvfcvkubhtlehczsetzqlhebfi"
+  }
+}
