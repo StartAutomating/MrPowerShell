@@ -1,0 +1,84 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762289278703766,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4tftali2w25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4tft7g7ls2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-04T20:47:56.819Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Work with WebSockets in PowerShell. Contribute to PowerShellWeb/WebSocket development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieanpheomeqf6nrg4y74ojovik3sy7crrdupipwtu3nikx7w4dwva"
+            },
+            "mimeType": "image/jpeg",
+            "size": 255964
+          },
+          "title": "GitHub - PowerShellWeb/WebSocket: Work with WebSockets in PowerShell",
+          "uri": "https://github.com/PowerShellWeb/WebSocket"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebSocket"
+            }
+          ],
+          "index": {
+            "byteEnd": 79,
+            "byteStart": 69
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShellWeb/WebSocket"
+            }
+          ],
+          "index": {
+            "byteEnd": 187,
+            "byteStart": 161
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 295,
+            "byteStart": 287
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic7rgacen2ks2u2vbx72yuu7pkskurti4qm6ajfd2fyt5wxx33obe",
+          "uri": "at://did:plc:udqmajolzc2utmddoklw47l4/app.bsky.feed.post/3m4tegknvs22a"
+        },
+        "root": {
+          "cid": "bafyreighcn7bf2jnasji4iwd2z3uovwg57kcp5iptlvv54khe6hzdfmpja",
+          "uri": "at://did:plc:udqmajolzc2utmddoklw47l4/app.bsky.feed.post/3m4tc6fclhs2l"
+        }
+      },
+      "text": "You think this is wild, you should see some of the stuff I do with a #WebSocket\n\nSpeaking of which, I also make a bunch of modules with stupidly obvious names:\n\ngithub.com/PowerShellWe...\n\nThis gives you a WebSocket client / server in PowerShell, using backround thread jobs.  Great for #AtProto"
+    },
+    "cid": "bafyreifneqek7akzxefnomtxhwgyj3bpf5eunkfvt3txwhzg4mdtacvjm4"
+  }
+}
