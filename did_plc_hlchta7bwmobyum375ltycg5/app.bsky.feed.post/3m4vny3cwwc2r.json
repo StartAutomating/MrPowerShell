@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762366748735957,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4vny2aidw2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4vny3cwwc2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-05T18:19:09.7Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigqvigqvznp6qb3uombm523pjdkwrxlnsel66mfla4wzn4rrep6i4",
+          "uri": "at://did:plc:xebtsknzjud5gejalm6b6djq/app.bsky.feed.post/3m4vmud4evs2t"
+        },
+        "root": {
+          "cid": "bafyreihqd6rdqyh55yjuonx6peq3yykxgovnk2oyb6abr57zatzwqdnfd4",
+          "uri": "at://did:plc:inbagvkt2ildrbxdhmexmkjl/app.bsky.feed.post/3m4tgirghxc2o"
+        }
+      },
+      "text": "Thanks for clarifying and sorry for the typo.\n\nI suppose part of what I'm trying to point out is there is a degree of religiosity in how we talk about languages.\n\nI don't want to disparage anyone's faith in a language, and I don't want them to disparage mine.\n\nMake sense ?"
+    },
+    "cid": "bafyreia7tlpwu6qnyb7hca6svtzyer6oqjnvypqkwjimsxutf5tfrksp2a"
+  }
+}
