@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762367426204767,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4vomacyb52b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4vomapax22r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-05T18:30:26.435Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibe4rvb74q2k5stun5fu2d2a4jx5fj3tljucvzfa5r4fs3w5nnmcm",
+          "uri": "at://did:plc:xebtsknzjud5gejalm6b6djq/app.bsky.feed.post/3m4voijqofk2t"
+        },
+        "root": {
+          "cid": "bafyreihqd6rdqyh55yjuonx6peq3yykxgovnk2oyb6abr57zatzwqdnfd4",
+          "uri": "at://did:plc:inbagvkt2ildrbxdhmexmkjl/app.bsky.feed.post/3m4tgirghxc2o"
+        }
+      },
+      "text": "Even then I have qualms.\n\nGive me a real technical rationale any day of the week.\n\nSaying \"we don't know this now, so we should not ever use it\" is a common refrain, and, in my opinion, an unwise one."
+    },
+    "cid": "bafyreihowkdx4yg7ltssjicvl6qekxm33m52ni5m6londybtzijpttgf7a"
+  }
+}
