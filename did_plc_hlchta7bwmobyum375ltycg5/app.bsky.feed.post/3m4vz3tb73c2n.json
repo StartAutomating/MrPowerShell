@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762378687277600,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4vz3trjzm2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4vz3tb73c2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-05T21:38:06.633Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 46,
+            "byteStart": 39
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 100,
+            "byteStart": 89
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaupmdf2bylsc4vk2dfitil2mg6gqddy2pt57xg5bgqimaeazwbda",
+          "uri": "at://did:plc:qju562fsqaygu5z4xpx25p7j/app.bsky.feed.post/3m4vw7ofw3c2x"
+        },
+        "root": {
+          "cid": "bafyreiaqq3ef4nbn2iskdl4tmbscwzjhwhyawbjfpijiqwn6vn6mxb5zla",
+          "uri": "at://did:plc:qju562fsqaygu5z4xpx25p7j/app.bsky.feed.post/3m4vvtf4iok2x"
+        }
+      },
+      "text": "Very cool!\n\nPlease consider creating a #GitHub repository and publishing a module to the #PowerShell gallery."
+    },
+    "cid": "bafyreiba2mmt4umgvpabgssddag43jgsknahiransvqkader3pvmoggnom"
+  }
+}
