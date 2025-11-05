@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762363806502206,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4vlabr3uy2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4vlac3crc2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-05T17:30:04.001Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicukp7lfcfpfyvwd7ntmo2ettsvhzz5qzpucuzqkn2szpssrblhxy",
+          "uri": "at://did:plc:da23wlphpstmmykszotu5z5a/app.bsky.feed.post/3m4vbgxpguc2q"
+        },
+        "root": {
+          "cid": "bafyreiafqheg7ir35wu26sf23tztn2go3navkdcyu67bkym22loprkoz4q",
+          "uri": "at://did:plc:da23wlphpstmmykszotu5z5a/app.bsky.feed.post/3m4sv6rmy3p2j"
+        }
+      },
+      "text": "Your article does not mention any of the security practices gallery authors can use to stop supply chain attacks cold.\n\nIt also uses the wrong terminology for various techniques.\n\nIf you want to learn these things, just ask.\n\nIf you want to put out misinformation, please reconsider."
+    },
+    "cid": "bafyreighdsfijbetel6nxkc5juhaamcsb3ouyqcctg42vdo7njmk3ntiiu"
+  }
+}
