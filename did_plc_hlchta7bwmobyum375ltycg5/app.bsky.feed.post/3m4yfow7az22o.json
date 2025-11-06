@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762460931288084,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4yfovqsrw2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4yfow7az22o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-06T20:28:51.629Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia5ousjat5nlogn4ivnq5cybyny6gqt5xgxzpndumigt5ptkwvcna",
+          "uri": "at://did:plc:p66awmqe5eblp5c5kd35kwca/app.bsky.feed.post/3m4ya6ucdt22l"
+        },
+        "root": {
+          "cid": "bafyreib6vof77w6mc2h4sivgtfaffnxuvhvj3zlvy747yzccondb6dxfoa",
+          "uri": "at://did:plc:p66awmqe5eblp5c5kd35kwca/app.bsky.feed.post/3m4x5dp5bbs2q"
+        }
+      },
+      "text": "No problem, I had the same exact reaction many moons ago when I was first learning PowerShell.\n\nThere are many things that are \"different\" about PowerShell, and most of them have a reason or two ( jury is often still out on if those reasons are \"good\" )"
+    },
+    "cid": "bafyreignfyxjn25sm4gijmdcvrmjbpged26ptlwcyqnochtzhuvkx225iy"
+  }
+}
