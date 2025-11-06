@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762466046319298,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4ykhbzn4k2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4ykhbpw7k2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-06T21:54:03.982Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihoocaje4helkr62cc4sg7z4c4gfuqyl5hrdmucqfg6uqxlmruulu",
+          "uri": "at://did:plc:3vo24c2exro34bgvkqcupbot/app.bsky.feed.post/3m4yk77jgsc22"
+        },
+        "root": {
+          "cid": "bafyreiahop3jc6veccbg7447v5jsmdeamixs33oas6xldp7rwtzmwuljna",
+          "uri": "at://did:plc:3vo24c2exro34bgvkqcupbot/app.bsky.feed.post/3m4xjcr4dfc25"
+        }
+      },
+      "text": "Exactly!\n\nThe \"preparing to copy\" is basically figuring out which input goes to which output.\n\nAnd it _could_ be miles faster if it presumed everything at c:\\foo was a file, and caching that answer."
+    },
+    "cid": "bafyreigvzdvv6hcpojk2kf2gmhi5vexeqiv22aabf5e42fmahdzuuj5yzm"
+  }
+}
