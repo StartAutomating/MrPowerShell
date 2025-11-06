@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762465926803725,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4ykdqfmgk2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4ykdmnmes2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-06T21:52:01.223Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Learn about the Shell namespace and its data source objects. This namespace offers extensibility options in the Windows Shell UI.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreif5cdhusoi35cagqnhxif5bjxpvfwiy4sce35o257o4nsmwddiyfa"
+            },
+            "mimeType": "image/jpeg",
+            "size": 737841
+          },
+          "title": "Introduction to the Shell Namespace - Win32 apps",
+          "uri": "https://learn.microsoft.com/en-us/windows/win32/shell/namespace-intro"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://learn.microsoft.com/en-us/windows/win32/shell/namespace-intro"
+            }
+          ],
+          "index": {
+            "byteEnd": 209,
+            "byteStart": 174
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibstfn75rojeo5zoezrpfj7gc6eblxyxyx24ojebauq7y5p2etlre",
+          "uri": "at://did:plc:3vo24c2exro34bgvkqcupbot/app.bsky.feed.post/3m4yk3wumos22"
+        },
+        "root": {
+          "cid": "bafyreiahop3jc6veccbg7447v5jsmdeamixs33oas6xldp7rwtzmwuljna",
+          "uri": "at://did:plc:3vo24c2exro34bgvkqcupbot/app.bsky.feed.post/3m4xjcr4dfc25"
+        }
+      },
+      "text": "See my other post.\n\nFile.IO and DotNet do not do this.  It's just an explorer behavior, and a side-effect of the fact that you can \"explore\" multiple types of things.\n\nSee:\n\nlearn.microsoft.com/en-us/window...\n\nIt could be made faster by:\n\nDropping the number of namespaces and skipping when it can."
+    },
+    "cid": "bafyreierrdb4xmjhmuwb6zmqnhxo2ywvasyoeoot7e6pwglvddbkjw3yv4"
+  }
+}
