@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762467142821715,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4ylhzj5wo2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4ylhz7qy22q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-06T22:12:22.36Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Windows"
+            }
+          ],
+          "index": {
+            "byteEnd": 30,
+            "byteStart": 22
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigbvw4ipex5it77hcxchjzdvwgca4j62ig3tqefzivq7uu3olyiwy",
+          "uri": "at://did:plc:3vo24c2exro34bgvkqcupbot/app.bsky.feed.post/3m4ylazpfy222"
+        },
+        "root": {
+          "cid": "bafyreiahop3jc6veccbg7447v5jsmdeamixs33oas6xldp7rwtzmwuljna",
+          "uri": "at://did:plc:3vo24c2exro34bgvkqcupbot/app.bsky.feed.post/3m4xjcr4dfc25"
+        }
+      },
+      "text": "Yeah.  Also, as an ex #Windows engineer, I can tell you it's only a small fraction of the company.  Like by Win7 only about 20,000 people had ever worked on Windows (and I was employee #242...).\n\nI'd suspect a very small number of people know this stuff.\n\nI'm just happy to be in a tiny fraction."
+    },
+    "cid": "bafyreidszfuuqgxrdyvistn74cfav7g5p5cgadxm5rqcqwl4b5mjnuh3gu"
+  }
+}
