@@ -1,0 +1,75 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762467269143517,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4yllrjbr62f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4yllp5sj22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-06T22:14:26.028Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Much like you wouldn't go BASE jumping without a parachute, you wouldn't hand a script to someone with validation, right? Right??? In this session, we'll cover some tips an",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreig6yxqw6mioozmrrie7zj6omhwo2pgcvnpa7cjpyiqa6sgoei5jfi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 743989
+          },
+          "title": "Cliff diving with PowerShell (And other bad ideas) (by Stephen Valdinger), Wed, Nov 12, 2025, 6:00 PM   | Meetup",
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/events/311873587/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:y2blbftk3kpgpf6z5fgxfmw4"
+            }
+          ],
+          "index": {
+            "byteEnd": 150,
+            "byteStart": 132
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/311873587/"
+            }
+          ],
+          "index": {
+            "byteEnd": 184,
+            "byteStart": 154
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Hey #PowerShell people!\n\nDo you even [Parameter(ValueFromPipeline)] ? \n\nDrop by next week to learn all about parameter binding from @steviecoaster.dev !\n\nwww.meetup.com/pacific-powe..."
+    },
+    "cid": "bafyreih2zqotoe673eugoye3nrivwxrdreikp4s52fidfro3phucg2537e"
+  }
+}
