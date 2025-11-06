@@ -1,0 +1,116 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762390346975661,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4wdxderer2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4wdxevyg22n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-06T00:52:28.527Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 119,
+            "byteStart": 108
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 175,
+            "byteStart": 164
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GoDot"
+            }
+          ],
+          "index": {
+            "byteEnd": 184,
+            "byteStart": 178
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "UI"
+            }
+          ],
+          "index": {
+            "byteEnd": 191,
+            "byteStart": 188
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Git"
+            }
+          ],
+          "index": {
+            "byteEnd": 225,
+            "byteStart": 221
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 237,
+            "byteStart": 230
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "LevelUp"
+            }
+          ],
+          "index": {
+            "byteEnd": 261,
+            "byteStart": 253
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicg5mxwx3t7ebmlrzolcua5tv3kgzkvio7kx63a37hchick7o244m",
+          "uri": "at://did:plc:qju562fsqaygu5z4xpx25p7j/app.bsky.feed.post/3m4w6uh5eys2y"
+        },
+        "root": {
+          "cid": "bafyreiaqq3ef4nbn2iskdl4tmbscwzjhwhyawbjfpijiqwn6vn6mxb5zla",
+          "uri": "at://did:plc:qju562fsqaygu5z4xpx25p7j/app.bsky.feed.post/3m4vvtf4iok2x"
+        }
+      },
+      "text": "No problem, lmk if you want some help understanding repos.  I'm keen to help anyone trying to do stuff with #PowerShell ( and significant bonus points are given to #PowerShell + #GoDot or #UI ).\n\nOnce you get the hang of #Git and #GitHub workflows, you #LevelUp."
+    },
+    "cid": "bafyreih73pj3alcalbu6we5l4b756nqjs5xkngcdkd54p72cftaou73ufm"
+  }
+}
