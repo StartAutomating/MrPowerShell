@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762466238491359,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4ykn32ido2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4ykn2o5ys2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-06T21:57:17.912Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 273,
+            "byteStart": 262
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "xcopy"
+            }
+          ],
+          "index": {
+            "byteEnd": 284,
+            "byteStart": 278
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihoocaje4helkr62cc4sg7z4c4gfuqyl5hrdmucqfg6uqxlmruulu",
+          "uri": "at://did:plc:3vo24c2exro34bgvkqcupbot/app.bsky.feed.post/3m4yk77jgsc22"
+        },
+        "root": {
+          "cid": "bafyreiahop3jc6veccbg7447v5jsmdeamixs33oas6xldp7rwtzmwuljna",
+          "uri": "at://did:plc:3vo24c2exro34bgvkqcupbot/app.bsky.feed.post/3m4xjcr4dfc25"
+        }
+      },
+      "text": "It's also kinda unavoidable, with a long history and partner ecosystem.\n\nThe other thing you'd have to do is \"relative pathing\" all of the N-thousand paths, to copy them into the other tree.\n\nSo, that's:\n\nO(N*NamespaceCount)+\nO(N)\n\nBefore the copy even starts.\n\n#PowerShell and #xcopy will be faster."
+    },
+    "cid": "bafyreia7436gh6mhk75qcycnrc7n2voy7lv3pxvgkifmclj2oravhgrgci"
+  }
+}
