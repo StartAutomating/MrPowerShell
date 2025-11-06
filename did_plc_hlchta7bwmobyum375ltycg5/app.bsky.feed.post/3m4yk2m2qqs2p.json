@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762465619106621,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4yk2mgerq25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4yk2m2qqs2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-06T21:46:58.615Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibwors2qrlxrqfxyarxy232cxho5wbfi2ouvrf636yuyctfc6ufpe",
+          "uri": "at://did:plc:3vo24c2exro34bgvkqcupbot/app.bsky.feed.post/3m4yjthjgf222"
+        },
+        "root": {
+          "cid": "bafyreiahop3jc6veccbg7447v5jsmdeamixs33oas6xldp7rwtzmwuljna",
+          "uri": "at://did:plc:3vo24c2exro34bgvkqcupbot/app.bsky.feed.post/3m4xjcr4dfc25"
+        }
+      },
+      "text": "Because \"cross-provider\" copy is hard, and because it's an O(N^2) most people don't see.\n\nThe logical part is that you copy to other \"namespaces\" all the time.  Files are a shell namespace.  Zip files are another.  OneDrive is one more. etc..\n\nThe illogical part is it could be optimized."
+    },
+    "cid": "bafyreifw4a2jdksp7jnrmz4o2zalnofojh6mny7nu6nocnybuqd4cw7vdu"
+  }
+}
