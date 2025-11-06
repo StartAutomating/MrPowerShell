@@ -1,0 +1,95 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762461367287005,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4yg3sxfgf2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4yg3s6l7s2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-06T20:36:03.616Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 43,
+            "byteStart": 32
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShellUniversal"
+            }
+          ],
+          "index": {
+            "byteEnd": 65,
+            "byteStart": 45
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 78,
+            "byteStart": 71
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:sqraalz5tsmoy3upwcjtpepl"
+            }
+          ],
+          "index": {
+            "byteEnd": 102,
+            "byteStart": 84
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 175,
+            "byteStart": 168
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShellUniversal"
+            }
+          ],
+          "index": {
+            "byteEnd": 282,
+            "byteStart": 262
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I just spent my morning talking #PowerShell, #PowerShellUniversal, and #Turtle with @adamrdriscoll.com !\n\nAdam is one of the brightest minds in PowerShell, and talking #WebDev shop with them is always the highlight of the day!\n\nCan't wait to see what comes from #PowerShellUniversal next!"
+    },
+    "cid": "bafyreihuitdwfw6gcyzjohzol3ikjh3skr6feg2mmgjf7qe4bnp76d4yei"
+  }
+}
