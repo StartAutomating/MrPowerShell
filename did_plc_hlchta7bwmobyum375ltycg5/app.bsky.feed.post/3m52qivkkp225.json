@@ -1,0 +1,132 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762541260105794,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m52qivcu5u2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m52qivkkp225",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-07T18:47:40.26Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Turtle Graphics in PowerShell. Contribute to PowerShellWeb/Turtle development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibhmoifhfnjbabu33i2ke4hqo54ief776htfttqiv7wpla7rxra3a"
+            },
+            "mimeType": "image/jpeg",
+            "size": 877605
+          },
+          "title": "GitHub - PowerShellWeb/Turtle: Turtle Graphics in PowerShell",
+          "uri": "https://GitHub.com/PowerShellWeb/Turtle"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 23,
+            "byteStart": 16
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 35,
+            "byteStart": 24
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TurtlePower"
+            }
+          ],
+          "index": {
+            "byteEnd": 71,
+            "byteStart": 59
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/PowerShellWeb/Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 113,
+            "byteStart": 87
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "html"
+            }
+          ],
+          "index": {
+            "byteEnd": 183,
+            "byteStart": 178
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "css"
+            }
+          ],
+          "index": {
+            "byteEnd": 188,
+            "byteStart": 184
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "svg"
+            }
+          ],
+          "index": {
+            "byteEnd": 193,
+            "byteStart": 189
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifx42gfzgt2car77io2yp4qlvpyntz7tymf4wskd2lgrp2s76dioe",
+          "uri": "at://did:plc:munmkmorl6d57hkragyydlyh/app.bsky.feed.post/3m4zze2vy5s2p"
+        },
+        "root": {
+          "cid": "bafyreifx42gfzgt2car77io2yp4qlvpyntz7tymf4wskd2lgrp2s76dioe",
+          "uri": "at://did:plc:munmkmorl6d57hkragyydlyh/app.bsky.feed.post/3m4zze2vy5s2p"
+        }
+      },
+      "text": "Got new bits of #Turtle #PowerShell out, with a bunch more #TurtlePower to play with.\n\nGitHub.com/PowerShellWe...\n\n( Added piegraphs, circle arcs, bezier curves, and nearly full #html #css #svg support )"
+    },
+    "cid": "bafyreiav3yeihmc5vu5khxp2dtk3ebhliadwdqtx5sawmm3axtzj6ixayi"
+  }
+}
