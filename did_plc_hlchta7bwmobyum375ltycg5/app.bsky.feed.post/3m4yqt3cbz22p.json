@@ -1,0 +1,80 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762472886841077,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m4yqt3ohae2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m4yqt3cbz22p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-06T23:48:02.349Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CICD"
+            }
+          ],
+          "index": {
+            "byteEnd": 254,
+            "byteStart": 249
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 262,
+            "byteStart": 255
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Workflow"
+            }
+          ],
+          "index": {
+            "byteEnd": 272,
+            "byteStart": 263
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GameDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 281,
+            "byteStart": 273
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibwecdub7lwhc3m7trbzfet2heib4foa3el5ujopnnufmxpaafchi",
+          "uri": "at://did:plc:3h7rdruxujyjcyv7zd3c3jaq/app.bsky.feed.post/3m4yn3i3y7c2p"
+        },
+        "root": {
+          "cid": "bafyreifoihiium2ugzakdo7kekah5e2d7gm5p562omuteukfz754zymzaa",
+          "uri": "at://did:plc:yqjmutdlwzweiunzuapk3ei7/app.bsky.feed.post/3m4xv5suz522x"
+        }
+      },
+      "text": "Hazarding a charitable guess, it's partly spin, and partly \"yeah, we'll use generative AI to help write our automated tests\".\n\nI'm sure some human intervention will be involved, because, trust me, you _do not_ want to have failing tests in a proper #CICD #GitHub #Workflow #GameDev pipline."
+    },
+    "cid": "bafyreihr3szzguzrjun2hxpcwsequty7xb4slcwk5pauqe5n6xvom4h3da"
+  }
+}
