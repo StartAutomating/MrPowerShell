@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762546145565703,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m52v2fumre2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m52v2flad22m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-07T20:09:02.452Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 24,
+            "byteStart": 13
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 25
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CLI"
+            }
+          ],
+          "index": {
+            "byteEnd": 37,
+            "byteStart": 33
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just a quick #PowerShell #GitHub #CLI splatting trick:\n\nUse an array of arguments to save typing:\n\ni.e.\n\n$enhance = @('--label', 'enhancement')\n\ngh repo issue create --title sometitle --body somebody @enhance \n\nThe more you use it, the more typing it saves!"
+    },
+    "cid": "bafyreibaigzbaejctxkqlsp72jgubxu4via7wc33pto3yp4mdwtew4nu3m"
+  }
+}
