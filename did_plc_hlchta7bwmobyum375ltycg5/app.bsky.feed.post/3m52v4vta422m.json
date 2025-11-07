@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762546227602021,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m52v4wpgpw2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m52v4vta422m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-07T20:10:26.6Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:wshs7t2adsemcrrd4snkeqli"
+            }
+          ],
+          "index": {
+            "byteEnd": 12,
+            "byteStart": 0
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidjg7gokrwuxagunysm3limh32x5z6wraztrq4oyeun3h4i3gdknq",
+          "uri": "at://did:plc:f4lboh5wyd4vvztvi2usnyjc/app.bsky.feed.post/3m52uvtuwxk24"
+        },
+        "root": {
+          "cid": "bafyreiap7y2225vnfsc3a63gi6ww3n22vglxqkfdjmnry5a7p4vujdlc5u",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m52rzxzc2s2m"
+        }
+      },
+      "text": "@tangled.org the least I'll be able to do for now is add you tangled to the site list I support for an upcoming overpowered packaging project.\n\nSadly, without support for sparse clones, this won't work _quite_ as smoothly as it will for github.\n\n(I want people to be able to copy/paste a tree path)"
+    },
+    "cid": "bafyreiate22e243ms4tdca42bwhj6kkjfaxtnldatqp5anwltzxbixvr5q"
+  }
+}
