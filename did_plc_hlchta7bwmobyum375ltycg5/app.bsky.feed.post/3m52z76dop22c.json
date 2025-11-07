@@ -1,0 +1,84 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762550602514055,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m52z7c3gc32b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m52z76dop22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-07T21:23:17.603Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Glass is a module for seeing thru invisible characters - StartAutomating/Glass",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidnba2rls3zfny5kaclqvyvxzpk4jcztdv6znqm4joo5sjyyjf5l4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 107519
+          },
+          "title": "GitHub - StartAutomating/Glass: Glass is a module for seeing thru invisible characters",
+          "uri": "https://github.com/StartAutomating/Glass"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Glassware"
+            }
+          ],
+          "index": {
+            "byteEnd": 115,
+            "byteStart": 105
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Glassworm"
+            }
+          ],
+          "index": {
+            "byteEnd": 126,
+            "byteStart": 116
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/Glass"
+            }
+          ],
+          "index": {
+            "byteEnd": 224,
+            "byteStart": 198
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifx42gfzgt2car77io2yp4qlvpyntz7tymf4wskd2lgrp2s76dioe",
+          "uri": "at://did:plc:munmkmorl6d57hkragyydlyh/app.bsky.feed.post/3m4zze2vy5s2p"
+        },
+        "root": {
+          "cid": "bafyreifx42gfzgt2car77io2yp4qlvpyntz7tymf4wskd2lgrp2s76dioe",
+          "uri": "at://did:plc:munmkmorl6d57hkragyydlyh/app.bsky.feed.post/3m4zze2vy5s2p"
+        }
+      },
+      "text": "Also got a few small modules out....\n\nIn order of recency, we've got Glass, which was meant to help find #Glassware #Glassworm messages in files or packages, and help people understand the vector:\n\ngithub.com/StartAutomat..."
+    },
+    "cid": "bafyreig7prdbpjfxodnicmzrtvjwdpvtei2mhcxgzqu4ws6jmjiil7tmqa"
+  }
+}
