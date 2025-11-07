@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762545067071026,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m52u2dw5432y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m52u2dngmc2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-07T19:51:06.686Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 95,
+            "byteStart": 88
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihvkjm7n3pozktfbekeexxpk7ab763goagcbu2ktqtew3cumi42fm",
+          "uri": "at://did:plc:f4lboh5wyd4vvztvi2usnyjc/app.bsky.feed.post/3m52tl4ssyc24"
+        },
+        "root": {
+          "cid": "bafyreiap7y2225vnfsc3a63gi6ww3n22vglxqkfdjmnry5a7p4vujdlc5u",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m52rzxzc2s2m"
+        }
+      },
+      "text": "Tell me how to make Tangled shadow my GitHub and I will 😉\n\n(I use the hell out of my #GitHub workflows and sparse clones, and at least one of these is not supported in Tangled)"
+    },
+    "cid": "bafyreih7rlc6752rdmdlfpzc54rggwjdoqpa6347kosk7yogdyk7b5vnpq"
+  }
+}
