@@ -1,0 +1,112 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762550656314300,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m52zaw5ijr2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m52zavnpd22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-07T21:24:15.605Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Automate OpenXML with PowerShell. Contribute to PowerShellWeb/OpenXML development by creating an account on GitHub.",
+          "title": "GitHub - PowerShellWeb/OpenXML: Automate OpenXML with PowerShell",
+          "uri": "https://github.com/PowerShellWeb/OpenXML"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 62,
+            "byteStart": 51
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "OpenXML"
+            }
+          ],
+          "index": {
+            "byteEnd": 75,
+            "byteStart": 67
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Word"
+            }
+          ],
+          "index": {
+            "byteEnd": 95,
+            "byteStart": 90
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Excel"
+            }
+          ],
+          "index": {
+            "byteEnd": 103,
+            "byteStart": 97
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerPoint"
+            }
+          ],
+          "index": {
+            "byteEnd": 120,
+            "byteStart": 109
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShellWeb/OpenXML"
+            }
+          ],
+          "index": {
+            "byteEnd": 150,
+            "byteStart": 124
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifx42gfzgt2car77io2yp4qlvpyntz7tymf4wskd2lgrp2s76dioe",
+          "uri": "at://did:plc:munmkmorl6d57hkragyydlyh/app.bsky.feed.post/3m4zze2vy5s2p"
+        },
+        "root": {
+          "cid": "bafyreifx42gfzgt2car77io2yp4qlvpyntz7tymf4wskd2lgrp2s76dioe",
+          "uri": "at://did:plc:munmkmorl6d57hkragyydlyh/app.bsky.feed.post/3m4zze2vy5s2p"
+        }
+      },
+      "text": "Started to crack open the mouth of madness that is #PowerShell and #OpenXML (manipulating #Word, #Excel, and #PowerPoint):\n\ngithub.com/PowerShellWe..."
+    },
+    "cid": "bafyreigafsoiu666om6neoxxhn5e3qma7fqzth2r3w42vlbg4fiz546tay"
+  }
+}
