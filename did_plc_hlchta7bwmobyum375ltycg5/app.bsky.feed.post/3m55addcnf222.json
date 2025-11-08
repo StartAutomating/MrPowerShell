@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762626971812866,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m55adcdkei2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m55addcnf222",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-08T18:36:12.697Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 21
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DotNet"
+            }
+          ],
+          "index": {
+            "byteEnd": 66,
+            "byteStart": 59
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiggnqerzjy7auan6nofnpbdgyualxwb654k65el5kpjcfge7umes4",
+          "uri": "at://did:plc:azy5dtqi56fxhgohal7ytb2a/app.bsky.feed.post/3m52ydo5bis2t"
+        },
+        "root": {
+          "cid": "bafyreihspwal2mkdukfczvisur6lfqy3odk23efqra2w2ml4ldvujoynwe",
+          "uri": "at://did:plc:azy5dtqi56fxhgohal7ytb2a/app.bsky.feed.post/3m52ydo4xqc2t"
+        }
+      },
+      "text": "We did.\n\nIt's called #PowerShell, and it can work with all #DotNet types ( which can work with all C types).\n\nWe even gave you an inline compiler with Add-Type.\n\nStop trolling and try the thing...\n\nIgnorance -ne Bliss"
+    },
+    "cid": "bafyreiegkhhlejjqbnosq53twmq2x6g53ywvcsbhu5mfm5jbuokpx6fsje"
+  }
+}
