@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762566413399107,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m53hwjebcz2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m53hwijmvk2s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-08T01:46:52.422Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Perl"
+            }
+          ],
+          "index": {
+            "byteEnd": 155,
+            "byteStart": 150
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiayv6zspvtygeftvyin7p6dknsa45cnne64leqhfcpnvlqa66gsn4",
+          "uri": "at://did:plc:azy5dtqi56fxhgohal7ytb2a/app.bsky.feed.post/3m52y2gonnk2t"
+        },
+        "root": {
+          "cid": "bafyreiayv6zspvtygeftvyin7p6dknsa45cnne64leqhfcpnvlqa66gsn4",
+          "uri": "at://did:plc:azy5dtqi56fxhgohal7ytb2a/app.bsky.feed.post/3m52y2gonnk2t"
+        }
+      },
+      "text": "I know this is some trolling, but I have to point out the irony of saying things on the internet, which was basically built atop shell languages like #Perl (because your browser is a fancy shell for the https protocol).\n\nSo yeah, use a \"real\" language.  \"Fake\" ones built the internet."
+    },
+    "cid": "bafyreih73yb5ds777uq5ssoen7e6olnsswc4n2iugriceks5pmmckju63e"
+  }
+}
