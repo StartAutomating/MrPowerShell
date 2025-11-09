@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762721156307394,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m57y27ok432w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m57y276l6s2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-09T20:45:55.663Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigo237dqw6lmbn5uji4ucvg2ujx5lpj3yviotmfe25ob4p5jtsbq4",
+          "uri": "at://did:plc:lfgyaigs54niybkw2x72575q/app.bsky.feed.post/3m57xeqwdnk2u"
+        },
+        "root": {
+          "cid": "bafyreigxvaghzghp25wubsokdgavh4uxwusl6hnxv7dki7yg23dobth42m",
+          "uri": "at://did:plc:lfgyaigs54niybkw2x72575q/app.bsky.feed.post/3m57cwhdxi22l"
+        }
+      },
+      "text": "Honestly haven't cracked open a Publisher file in some time.\n\nA brief bit of recon reveals it is not a zip file in a trenchcoat 🤔\n\nI don't know of any API off the top of my head, but there _might_ be a COM api.\n\nLooking forward to seeing what you produce.\n\nGlad I don't use publisher 😉"
+    },
+    "cid": "bafyreientbaahostjkvf3zgvjvydbej364jrukj3dncqbpqtnyyjaa7c7y"
+  }
+}
