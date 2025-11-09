@@ -1,0 +1,70 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762657098781582,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m564f5onpb2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m564f7effs22",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-09T02:58:20.443Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "HotTake"
+            }
+          ],
+          "index": {
+            "byteEnd": 8,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 31,
+            "byteStart": 20
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 59,
+            "byteStart": 53
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Windows"
+            }
+          ],
+          "index": {
+            "byteEnd": 113,
+            "byteStart": 105
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#HotTake 🌶️ :\n\n#PowerShell is what happens when #Linux lovers build an object oriented shell around #Windows technologies."
+    },
+    "cid": "bafyreibjjbhznn3xgdmiohgouqwprkq2vshoxpoefo5lcwewgy3yl7qvuu"
+  }
+}
