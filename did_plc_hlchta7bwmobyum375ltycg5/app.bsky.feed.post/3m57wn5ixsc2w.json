@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762719646864185,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m57wna4z2s2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m57wn5ixsc2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-09T20:20:43.957Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Powershell"
+            }
+          ],
+          "index": {
+            "byteEnd": 22,
+            "byteStart": 11
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigxvaghzghp25wubsokdgavh4uxwusl6hnxv7dki7yg23dobth42m",
+          "uri": "at://did:plc:lfgyaigs54niybkw2x72575q/app.bsky.feed.post/3m57cwhdxi22l"
+        },
+        "root": {
+          "cid": "bafyreigxvaghzghp25wubsokdgavh4uxwusl6hnxv7dki7yg23dobth42m",
+          "uri": "at://did:plc:lfgyaigs54niybkw2x72575q/app.bsky.feed.post/3m57cwhdxi22l"
+        }
+      },
+      "text": "Yep.  With #Powershell, the world is your oyster. \n\nWhat's your favorite .net api so far?"
+    },
+    "cid": "bafyreigi3olo6oh6rv5kevo3sunisyryk2i3aiuuvztuhodllyjdgudshq"
+  }
+}
