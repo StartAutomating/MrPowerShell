@@ -1,0 +1,80 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762809416174388,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5ckajxmpi2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5ckajlyxc2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-10T21:16:54.745Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 23
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "requires"
+            }
+          ],
+          "index": {
+            "byteEnd": 44,
+            "byteStart": 35
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 128,
+            "byteStart": 121
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Workflow"
+            }
+          ],
+          "index": {
+            "byteEnd": 138,
+            "byteStart": 129
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiguudl7kbafkskeyhj3tgdyfdl7jcb4lg7jv2aj3iq5n3mprmlj3m",
+          "uri": "at://did:plc:kdyr5ofwkrqn2efm5ausfmwp/app.bsky.feed.post/3m5ciiemwd22x"
+        },
+        "root": {
+          "cid": "bafyreiguudl7kbafkskeyhj3tgdyfdl7jcb4lg7jv2aj3iq5n3mprmlj3m",
+          "uri": "at://did:plc:kdyr5ofwkrqn2efm5ausfmwp/app.bsky.feed.post/3m5ciiemwd22x"
+        }
+      },
+      "text": "💯\n\nBonus points for #PowerShell #requires :\n\nYou can easily detect this with the AST and auto-install the module in a #GitHub #Workflow.\n\n~~~PowerShell\n(Get-Command ./SomeScript.ps1).ScriptBlock.Ast.ScriptRequirements\n~~~"
+    },
+    "cid": "bafyreidbrtkm7jzfboiyy63rtb7k34noo36ucmcrggavabjo6ec7dhxru4"
+  }
+}
