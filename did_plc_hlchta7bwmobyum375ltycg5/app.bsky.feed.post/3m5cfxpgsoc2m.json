@@ -1,0 +1,70 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762804824409333,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5cfxpl5dr2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5cfxpgsoc2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-10T20:00:23.91Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "math"
+            }
+          ],
+          "index": {
+            "byteEnd": 19,
+            "byteStart": 14
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 66,
+            "byteStart": 62
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Animation"
+            }
+          ],
+          "index": {
+            "byteEnd": 77,
+            "byteStart": 67
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TurtlePower"
+            }
+          ],
+          "index": {
+            "byteEnd": 295,
+            "byteStart": 283
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just did some #math for how long it will take a new \"endless\" #SVG #Animation to repeat and I just made .NET overflow.😆\n\nFive animations w/ five prime intervals: \n\nTime to repeat:\n\n211 * 239 * 397 * 421 * 521\n\n4391275473733 seconds\n\n~50824947 days.\n\n~139,246 years.\n\n😆😎🐢 #TurtlePower"
+    },
+    "cid": "bafyreieovxdmrs2sckvbf56rple23z2n5mlrg3b2algu3r7dlhm5b3riea"
+  }
+}
