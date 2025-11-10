@@ -1,0 +1,186 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762734380760799,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5aeed3q3v2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5aeebgiqk2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-10T00:26:18.462Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "~~~PowerShell\n#requires -Module Turtle\nparam(\n[string]\n$Message = \"\nWe can turn any message into #TurtleGraphics to make #LingualFractals\n\n#PowerShell #Fractal #MathArt #Stenography #SVG #WebDev #Turtle #TurtlePower \n\nLearn more and share yours:\n\",\n\n[double]\n$Scale = 10\n)\n\n$turtleArgs = @()\n$morphToArgs = @()\n$words = @($Message -split '[\\s\\p{P}]+')\nfor ($wordNumber = 0; $wordNumber -lt $words.Length; $wordNumber++) {\n    $word = $words[$wordNumber]\n    $nextWord = $words[$wordNumber + 1]\n\n    $moveForward = @('circle', ($word.Length * $Scale), 0.25)\n    $turtleArgs += $moveForward\n    $morphToArgs += $moveForward\n\n    if ($nextWord) {\n        $arcStart = @('circlearc', ($word.Length * $Scale))\n        $turtleArgs += $arcStart\n        $morphToArgs += $arcStart\n        $turtleArgs +=\n            [Math]::Atan2($nextWord.Length, $word.Length)  * 180 / [Math]::PI\n        $morphToArgs +=\n            [Math]::Atan2($nextWord.Length, $word.Length)  * -180 / [Math]::PI\n        $postRotate = @(\n            'rotate'\n            [Math]::Atan2($nextWord.Length, $word.Length)  * 180 / [Math]::PI\n        )\n            \n        $turtleArgs += $postRotate\n        $morphToArgs += $postRotate\n    }\n}\n\n$colors = @('#4488ff','#224488', '#012456')\n\n$style = @(\n    'fillrule', 'evenodd', 'fill', @($colors | Get-Random -count 2), 'stroke', @($colors | Get-Random -count 2)\n)\n\nturtle @style @turtleArgs Morph @(\n    turtle @turtleArgs\n    turtle @morphToArgs\n    turtle @turtleArgs\n) save ./LingualFractalArcMorph.svg show\n\nturtle @style @turtleArgs save ./LingualFractalArcColor.svg save ./LingualFractalArcColor.png\n~~~",
+            "aspectRatio": {
+              "height": 444,
+              "width": 477
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreifzvo4zvi6igrh77n3snwfvmdoa2ihj7xnb6ir2upgixwwnn5rml4"
+              },
+              "mimeType": "image/jpeg",
+              "size": 116799
+            }
+          }
+        ]
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TurtleGraphics"
+            }
+          ],
+          "index": {
+            "byteEnd": 44,
+            "byteStart": 29
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "LingualFractals"
+            }
+          ],
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 53
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 91,
+            "byteStart": 80
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Fractal"
+            }
+          ],
+          "index": {
+            "byteEnd": 100,
+            "byteStart": 92
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MathArt"
+            }
+          ],
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 101
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Stenography"
+            }
+          ],
+          "index": {
+            "byteEnd": 122,
+            "byteStart": 110
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 127,
+            "byteStart": 123
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 135,
+            "byteStart": 128
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 143,
+            "byteStart": 136
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TurtlePower"
+            }
+          ],
+          "index": {
+            "byteEnd": 156,
+            "byteStart": 144
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShellWeb/Turtle/discussions/349"
+            }
+          ],
+          "index": {
+            "byteEnd": 214,
+            "byteStart": 188
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Animation"
+            }
+          ],
+          "index": {
+            "byteEnd": 255,
+            "byteStart": 245
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "We can turn any message into #TurtleGraphics to make #LingualFractals 😎🐢\n\n#PowerShell #Fractal #MathArt #Stenography #SVG #WebDev #Turtle #TurtlePower \n\nLearn more and share yours:\n\ngithub.com/PowerShellWe...\n\nSource in image description. #Animation at url."
+    },
+    "cid": "bafyreieldkle2fuqxb7gc4iquolo6nhtxts5q3bwmda2dcyuahqaelimj4"
+  }
+}
