@@ -1,0 +1,19 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762810326470360,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5cl3o2llq2l",
+    "operation": "create",
+    "collection": "sh.tangled.repo.issue",
+    "rkey": "3m5cl3nhrzw22",
+    "record": {
+      "$type": "sh.tangled.repo.issue",
+      "body": "In order to be able to efficiently clone portions of a repo, sparse filtering needs to be supported.  \n\nUnfortunately, when one attempts to use a sparse filter, tangled responds with an error and the whole repository is cloned.",
+      "createdAt": "2025-11-10T21:32:04Z",
+      "repo": "at://did:plc:wshs7t2adsemcrrd4snkeqli/sh.tangled.repo/3liuighjy2h22",
+      "title": "sparse filtering does not work with a tangled repo"
+    },
+    "cid": "bafyreig5xrwomv67aeuua4osnpq5iymx4ffhq5kjx4vtt4syrtuwdmxzei"
+  }
+}
