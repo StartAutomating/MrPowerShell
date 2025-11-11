@@ -1,0 +1,448 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762894369016329,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5ezedb3no2q",
+    "operation": "create",
+    "collection": "place.wisp.fs",
+    "rkey": "wispy",
+    "record": {
+      "$type": "place.wisp.fs",
+      "createdAt": "2025-11-11T20:52:47.85Z",
+      "fileCount": 24,
+      "root": {
+        "$type": "place.wisp.fs#directory",
+        "entries": [
+          {
+            "name": "index.html",
+            "node": {
+              "$type": "place.wisp.fs#file",
+              "base64": true,
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreidlywbvyggor44xq6rjxabtrh7lu7e63irk5nbzidgdhb5yv6jrsa"
+                },
+                "mimeType": "application/octet-stream",
+                "size": 37972
+              },
+              "encoding": "gzip",
+              "mimeType": "text/html;charset=utf-8",
+              "type": "file"
+            }
+          },
+          {
+            "name": "index.html.ps1",
+            "node": {
+              "$type": "place.wisp.fs#file",
+              "base64": true,
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreiffhb433lxbqmpuvf7xxcll3tm4ejf53kezv2q6gn2ioy5iccoodi"
+                },
+                "mimeType": "application/octet-stream",
+                "size": 13180
+              },
+              "encoding": "gzip",
+              "mimeType": "application/octet-stream",
+              "type": "file"
+            }
+          },
+          {
+            "name": "robots.txt",
+            "node": {
+              "$type": "place.wisp.fs#file",
+              "base64": true,
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreiflcfsnhow6kvp7xxxdy3ascwz7e6bi2tnnui7hhu6gfrdyga5mxy"
+                },
+                "mimeType": "application/octet-stream",
+                "size": 48
+              },
+              "encoding": "gzip",
+              "mimeType": "text/plain;charset=utf-8",
+              "type": "file"
+            }
+          },
+          {
+            "name": "buildPage.ps1",
+            "node": {
+              "$type": "place.wisp.fs#file",
+              "base64": true,
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreia62mfn3gl6hsvo6ozurf7f7bz237z7l2hohizwh3jgffpybkasvq"
+                },
+                "mimeType": "application/octet-stream",
+                "size": 5856
+              },
+              "encoding": "gzip",
+              "mimeType": "application/octet-stream",
+              "type": "file"
+            }
+          },
+          {
+            "name": "filters.ps1",
+            "node": {
+              "$type": "place.wisp.fs#file",
+              "base64": true,
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreibjbestn5myj5p6awbyp7ruumwwdanfv33c2m7ktyyp4mysqdf4zu"
+                },
+                "mimeType": "application/octet-stream",
+                "size": 2068
+              },
+              "encoding": "gzip",
+              "mimeType": "application/octet-stream",
+              "type": "file"
+            }
+          },
+          {
+            "name": "sitemap.xml",
+            "node": {
+              "$type": "place.wisp.fs#file",
+              "base64": true,
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreia5r55k6nkdbtlnsubhw6kuzj24x5r3bqyanxs6l2lpvr6q5f46ma"
+                },
+                "mimeType": "application/octet-stream",
+                "size": 156
+              },
+              "encoding": "gzip",
+              "mimeType": "application/xml",
+              "type": "file"
+            }
+          },
+          {
+            "name": "build.ps1",
+            "node": {
+              "$type": "place.wisp.fs#file",
+              "base64": true,
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreieyqgatsce5mpjxa4rjdl6ta2giidtsiyamszb7ii7bfbkpdhdp4i"
+                },
+                "mimeType": "application/octet-stream",
+                "size": 3080
+              },
+              "encoding": "gzip",
+              "mimeType": "application/octet-stream",
+              "type": "file"
+            }
+          },
+          {
+            "name": "lastBuild.json",
+            "node": {
+              "$type": "place.wisp.fs#file",
+              "base64": true,
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreiaeawnjfegrwkor2icgnmsg3y33e6pkrcynmzz5l4urp23x7746au"
+                },
+                "mimeType": "application/octet-stream",
+                "size": 348
+              },
+              "encoding": "gzip",
+              "mimeType": "application/json;charset=utf-8",
+              "type": "file"
+            }
+          },
+          {
+            "name": "layout.ps1",
+            "node": {
+              "$type": "place.wisp.fs#file",
+              "base64": true,
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreidyn4mg5x27yxzbdtah3a3hfswrbaezerhbc7x2w6t3syesixensy"
+                },
+                "mimeType": "application/octet-stream",
+                "size": 5284
+              },
+              "encoding": "gzip",
+              "mimeType": "application/octet-stream",
+              "type": "file"
+            }
+          },
+          {
+            "name": "index.json",
+            "node": {
+              "$type": "place.wisp.fs#file",
+              "base64": true,
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreiatd3vg6vf6pk6ama3pugb2lu6xzsn6mpytowfdsjcdtl5wdifgcq"
+                },
+                "mimeType": "application/octet-stream",
+                "size": 1144
+              },
+              "encoding": "gzip",
+              "mimeType": "application/json;charset=utf-8",
+              "type": "file"
+            }
+          },
+          {
+            "name": "config.ps1",
+            "node": {
+              "$type": "place.wisp.fs#file",
+              "base64": true,
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreietipf3ru76zaafxomlb6umm3jaxiroowgdmouw66dsp7ss5s43mi"
+                },
+                "mimeType": "application/octet-stream",
+                "size": 4392
+              },
+              "encoding": "gzip",
+              "mimeType": "application/octet-stream",
+              "type": "file"
+            }
+          },
+          {
+            "name": "_includes",
+            "node": {
+              "$type": "place.wisp.fs#directory",
+              "entries": [
+                {
+                  "name": "Robots.txt.ps1",
+                  "node": {
+                    "$type": "place.wisp.fs#file",
+                    "base64": true,
+                    "blob": {
+                      "$type": "blob",
+                      "ref": "@{$link=bafkreignyt3pglo526gz2mrndndgja5z5xgqg66zupm3znznkhlu6irz2u}",
+                      "mimeType": "application/octet-stream",
+                      "size": 448
+                    },
+                    "encoding": "gzip",
+                    "mimeType": "application/octet-stream",
+                    "type": "file"
+                  }
+                },
+                {
+                  "name": "Index.json.ps1",
+                  "node": {
+                    "$type": "place.wisp.fs#file",
+                    "base64": true,
+                    "blob": {
+                      "$type": "blob",
+                      "ref": "@{$link=bafkreicdtxjj77ed72jj4j4tqc46lub2hat4jq524zw4u3sxfgrv2zicym}",
+                      "mimeType": "application/octet-stream",
+                      "size": 1000
+                    },
+                    "encoding": "gzip",
+                    "mimeType": "application/octet-stream",
+                    "type": "file"
+                  }
+                },
+                {
+                  "name": "LastBuild.json.ps1",
+                  "node": {
+                    "$type": "place.wisp.fs#file",
+                    "base64": true,
+                    "blob": {
+                      "$type": "blob",
+                      "ref": "@{$link=bafkreiepm52sj7lspnpxz7i2yuo7pzlevs57uq6pkpg6x3l65zkuixd5lu}",
+                      "mimeType": "application/octet-stream",
+                      "size": 852
+                    },
+                    "encoding": "gzip",
+                    "mimeType": "application/octet-stream",
+                    "type": "file"
+                  }
+                },
+                {
+                  "name": "Feather.ps1",
+                  "node": {
+                    "$type": "place.wisp.fs#file",
+                    "base64": true,
+                    "blob": {
+                      "$type": "blob",
+                      "ref": "@{$link=bafkreic7jez4eyydwi64dxnipshnxibhvoebktdouw37ojlxfavlky7hcm}",
+                      "mimeType": "application/octet-stream",
+                      "size": 528
+                    },
+                    "encoding": "gzip",
+                    "mimeType": "application/octet-stream",
+                    "type": "file"
+                  }
+                },
+                {
+                  "name": "Index.rss",
+                  "node": {
+                    "$type": "place.wisp.fs#file",
+                    "base64": true,
+                    "blob": {
+                      "$type": "blob",
+                      "ref": "@{$link=bafkreib463dy3lvc5t2rtbnwguzsktyoz2k3u33csdgbmqw5q4tilsbb5u}",
+                      "mimeType": "application/octet-stream",
+                      "size": 836
+                    },
+                    "encoding": "gzip",
+                    "mimeType": "application/rss+xml",
+                    "type": "file"
+                  }
+                },
+                {
+                  "name": "SelectColor.ps1",
+                  "node": {
+                    "$type": "place.wisp.fs#file",
+                    "base64": true,
+                    "blob": {
+                      "$type": "blob",
+                      "ref": "@{$link=bafkreib2iemfgfj7sufw6nngyjcbc72cpu2p3lkqarwwgwhvkwc7vowhda}",
+                      "mimeType": "application/octet-stream",
+                      "size": 452
+                    },
+                    "encoding": "gzip",
+                    "mimeType": "application/octet-stream",
+                    "type": "file"
+                  }
+                },
+                {
+                  "name": "Sitemap.xml.ps1",
+                  "node": {
+                    "$type": "place.wisp.fs#file",
+                    "base64": true,
+                    "blob": {
+                      "$type": "blob",
+                      "ref": "@{$link=bafkreic3zufpvdy2qi2bdpr3bnajetaejyh4rx4dvw44htcirnt7imv7pi}",
+                      "mimeType": "application/octet-stream",
+                      "size": 820
+                    },
+                    "encoding": "gzip",
+                    "mimeType": "application/octet-stream",
+                    "type": "file"
+                  }
+                },
+                {
+                  "name": "BlueSky.svg",
+                  "node": {
+                    "$type": "place.wisp.fs#file",
+                    "base64": true,
+                    "blob": {
+                      "$type": "blob",
+                      "ref": "@{$link=bafkreibvcsl7qe6orkjjbkuzogtmaa3sgyzrybnfnqgmhufwnfiphck5fi}",
+                      "mimeType": "application/octet-stream",
+                      "size": 544
+                    },
+                    "encoding": "gzip",
+                    "mimeType": "image/svg+xml",
+                    "type": "file"
+                  }
+                },
+                {
+                  "name": "GetRandomPalette.ps1",
+                  "node": {
+                    "$type": "place.wisp.fs#file",
+                    "base64": true,
+                    "blob": {
+                      "$type": "blob",
+                      "ref": "@{$link=bafkreiden7bda2nnxjo6fhlvsudo7axz6x6ub5qhuqkqxvd3vlzzfp2x5e}",
+                      "mimeType": "application/octet-stream",
+                      "size": 680
+                    },
+                    "encoding": "gzip",
+                    "mimeType": "application/octet-stream",
+                    "type": "file"
+                  }
+                },
+                {
+                  "name": "Index.rss.ps1",
+                  "node": {
+                    "$type": "place.wisp.fs#file",
+                    "base64": true,
+                    "blob": {
+                      "$type": "blob",
+                      "ref": "@{$link=bafkreigld66bkxhjxfiiekuooxvsk2lc3xgoh7cqra6okq4hraql4muef4}",
+                      "mimeType": "application/octet-stream",
+                      "size": 1196
+                    },
+                    "encoding": "gzip",
+                    "mimeType": "application/octet-stream",
+                    "type": "file"
+                  }
+                },
+                {
+                  "name": "SelectPalette.ps1",
+                  "node": {
+                    "$type": "place.wisp.fs#file",
+                    "base64": true,
+                    "blob": {
+                      "$type": "blob",
+                      "ref": "@{$link=bafkreiaqvehxnaurx2e3y55tylruqblxtxlzsnahbo7injzvco4df2k2zm}",
+                      "mimeType": "application/octet-stream",
+                      "size": 996
+                    },
+                    "encoding": "gzip",
+                    "mimeType": "application/octet-stream",
+                    "type": "file"
+                  }
+                },
+                {
+                  "name": "Help.ps1",
+                  "node": {
+                    "$type": "place.wisp.fs#file",
+                    "base64": true,
+                    "blob": {
+                      "$type": "blob",
+                      "ref": "@{$link=bafkreihgafq4zcr7jc33jqyadbgd2pb7ac2rao7vax776lvepjkzra7k2a}",
+                      "mimeType": "application/octet-stream",
+                      "size": 3748
+                    },
+                    "encoding": "gzip",
+                    "mimeType": "application/octet-stream",
+                    "type": "file"
+                  }
+                }
+              ],
+              "type": "directory"
+            }
+          },
+          {
+            "name": "RSS",
+            "node": {
+              "$type": "place.wisp.fs#directory",
+              "entries": [
+                {
+                  "name": "index.rss",
+                  "node": {
+                    "$type": "place.wisp.fs#file",
+                    "base64": true,
+                    "blob": {
+                      "$type": "blob",
+                      "ref": "@{$link=bafkreida77rcr54gzbwvdzwopintco7pkeym36kucyjlltyzp36fggazy4}",
+                      "mimeType": "application/octet-stream",
+                      "size": 292
+                    },
+                    "encoding": "gzip",
+                    "mimeType": "application/rss+xml",
+                    "type": "file"
+                  }
+                }
+              ],
+              "type": "directory"
+            }
+          }
+        ],
+        "type": "directory"
+      },
+      "site": "wispy"
+    },
+    "cid": "bafyreiepm7ixqty44hihyjgyg32y6yeq6wozax7akabejdjxpbbtcg4spe"
+  }
+}
