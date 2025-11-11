@@ -1,0 +1,100 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762894776535633,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5ezqirwlx2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5ezqgiv322r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-11T20:59:33.971Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A simple audio visualizer using the Web Audio API, made with PowerShell.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreic2u4dkeou3rl25q33xpm2jhyyizxqme7rexolixbkqr4qwt4yjem"
+            },
+            "mimeType": "image/jpeg",
+            "size": 478611
+          },
+          "title": "Audio Visualizer",
+          "uri": "https://sites.wisp.place/mrpowershell.com/wispy"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 28,
+            "byteStart": 20
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://wisp.place"
+            }
+          ],
+          "index": {
+            "byteEnd": 107,
+            "byteStart": 97
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:7puq73yz2hkvbcpdhnsze2qw"
+            }
+          ],
+          "index": {
+            "byteEnd": 127,
+            "byteStart": 116
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:ttdrpj45ibqunmfhdsb4zdwq"
+            }
+          ],
+          "index": {
+            "byteEnd": 141,
+            "byteStart": 128
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://sites.wisp.place/mrpowershell.com/wispy"
+            }
+          ],
+          "index": {
+            "byteEnd": 290,
+            "byteStart": 258
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "In today's \"try new #AtProto stuff\" experiment, I've gone ahead and uploaded my Audio Visualizer wisp.place\n\nThanks @wisp.place @nekomimi.pet for making an interesting product!\n\nGet your groove on.\n\nGive it a try!\n\nHosting a static site on AtProto is easy!\n\nsites.wisp.place/mrpowershell..."
+    },
+    "cid": "bafyreig2wyosimdnlquvhxfkgkjdtbmqhuxq7ml7dl6wqr5wvkyrtgjbqa"
+  }
+}
