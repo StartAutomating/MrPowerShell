@@ -1,0 +1,35 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762895347570613,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5f2bjhbmb2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5f2bj6b5s2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-11T21:09:07.195Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:ttdrpj45ibqunmfhdsb4zdwq"
+            }
+          ],
+          "index": {
+            "byteEnd": 13,
+            "byteStart": 0
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "@nekomimi.pet thanks for the follow!\n\nI've got some questions about Wisp and blobs.\n\nWould you mind shooting me a DM to discuss?\n\nThanks!"
+    },
+    "cid": "bafyreiftao7jmkn2debhszushmlytwdg6bgbd27fnktc4k33bhkshkfz54"
+  }
+}
