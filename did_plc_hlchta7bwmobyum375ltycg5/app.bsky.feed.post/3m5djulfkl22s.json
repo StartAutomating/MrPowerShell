@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762843376481301,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5djunm24b2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5djulfkl22s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-11T06:42:53.715Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Languages last a long time.  Basic was only just now deprecated, after four decades as part of the operating system.  \n\nC is still going strong. It's creator, Dennis Ritchie, died in 2011.\n\nPowerShell came out in 2006, and turns 19 this week.\n\n( they grow up so fast )\n\nOur languages will outlive us.  \n\nThey outshine us.\n\nIt's beautiful and it's crazy, and it humbles the mind and ego.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibcvf5yzoiaxrwydgz7o65kenq47yqlpstasc2wnp3xyjfatc3l3i"
+            },
+            "mimeType": "image/jpeg",
+            "size": 845904
+          },
+          "title": "a painting of a man screaming with the words sherlockspeare tumblr underneath it",
+          "uri": "https://media.tenor.com/qZsDCqjLa70AAAAC/benedict-cumberbatch-screaming.gif?hh=332&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 240,
+            "byteStart": 229
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifclundpbfnrxbo7g37tezslt2i2ijgd3kk22535olvycdt3c2i5i",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3m5dfj3sjuk2c"
+        },
+        "root": {
+          "cid": "bafyreifgsp5r7dyzgqwuzq7k3pwdphpjsenxzybiyvugcsejb2clryuply",
+          "uri": "at://did:plc:d5roaogigcahvqttyidvufnx/app.bsky.feed.post/3m5ddrszz322z"
+        }
+      },
+      "text": "I don't see it going anywhere.\n\nThe timeline on languages is _long_.\n\nBasic \"dying\" took somewhere between the 1980s and now.\n\nPowerShell came out in 2006.  \n\nI'd say we have at least 40 years.\n\nAlso realizing with some horror:\n\n#PowerShell will outlive me\n\nOur languages will outlive us\n\n😱"
+    },
+    "cid": "bafyreidzulxgb5ae7fqf2bxbk2ddfmlxeqraigvgarp4pe5i4smfxnuyoa"
+  }
+}
