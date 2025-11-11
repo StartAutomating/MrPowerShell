@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762886416697460,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5erxeanjk25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5erxfk2d222",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-11T18:40:17.899Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif5ud5powtxktioamf7lxgslqugptu4wqcdiuyxupdh5yedno7b2u",
+          "uri": "at://did:plc:23gt44u4zsuqgmoyrqn234si/app.bsky.feed.post/3m5dprwx7222h"
+        },
+        "root": {
+          "cid": "bafyreif4gb6cn3xruwnyduryskcdazzxfwnor6afqtktlvsnoqmlkwzesi",
+          "uri": "at://did:plc:23gt44u4zsuqgmoyrqn234si/app.bsky.feed.post/3m5cyntqtdk2h"
+        }
+      },
+      "text": "Efficiency, typing, and potential for coolness.\n\nArray subexpression will turn everything into an array without assigning an intermediate variable\n\nSubexpressions can have conditions and loops within them.\n\nSo very slightly faster but way more flexible."
+    },
+    "cid": "bafyreihc5r3373xeejmm7nmatc3rzwqohwzqmf6dqwsm3r3f4mixvyugoe"
+  }
+}
