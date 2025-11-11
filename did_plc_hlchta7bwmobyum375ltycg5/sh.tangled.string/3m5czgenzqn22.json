@@ -1,0 +1,19 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762825720163961,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5czghklb62f",
+    "operation": "create",
+    "collection": "sh.tangled.string",
+    "rkey": "3m5czgenzqn22",
+    "record": {
+      "$type": "sh.tangled.string",
+      "contents": "<#\n.SYNOPSIS\n    PowerShell strings\n.DESCRIPTION\n    Things to know about PowerShell strings\n#>\n\n'We can write a literal within single quotes'\n\n'If we want to include an apostrophe in it''s string, just use two single quotes'\n\n\"If we use double quotes, we can include variables.  I swear this is $true\"\n\n\"We can also include expressions.  Like everyone knows two plus two is $(2 + 2)\"\n\n@'\nIf we don't want to escape quotes, we can use a \"here-string\".\n\nThese start with @' and end with '@, but only if the closing '@ is at the start of the line\n'@\n\n@\"\nIf we want to use variables or expressions, and don't want to escape quotes, we can use a double \"here-string\".\n\nThen we know $true is $true, $false is $false, and 2+2 = $(2 +2). \n\"@\n\n\n\"We can add strings in many ways\"\n\n\"'String A'\" + ' + ' + \"'String B'\"\n\n\"Or\", \"We\", \"Could\", \"Join\", \"Strings\" -join ' '\n\n\"We\", \"Can\", \"Join\", \"By\", \"Any\", \"String\" -join '...'\n\n\"We can also multiply strings\"\n\n\"That way we don't have to\"\n\n\"Repeat ourselves. \" * 3\n\n$myString = \"Strings are objects, so we can find the last index of :\"\n\n$myString + $myString.LastIndexOf(':')\n\n\"We also have a bunch of regular expression operators\"\n\n\"We can also split a string\" -split '\\s'\n\n\"We can replace something in a string\" -replace \"something\", \"anything\"\n\n\"We can do some interesting string comparisons:\"\n\n\"We can see if a string is -like a wildcard\" -like '*like*'\n\n\"We can see if a string matches a pattern\" -match 'pattern'\n\n\"If a pattern matches, then we will have matches in a $($matches) called `$matches\"\n\n\"`$matches.0 will contain the $($matches.0) match\"\n\n@(\n    \n    \"We can make strings out of lists of things\"\n\n    \"Just emit the items one by one\"\n\n    \"And, optionally -join them together\"\n\n) -join [Environment]::NewLine\n\n@(\n    \"<p>This is actually a great way to make tags</p>\"\n)\n\n@(\n    \"// it's also a good way to make classes\"\n    \"class Foo {\"\n        \"public void Bar() {\"\n        \"}\"\n    \"}\"\n) -join [Environment]::NewLine\n\n\"Last but not least, we can convert strings into things\"\n\n\"<a>string that is xml can be coerced to xml with -as</a>\" -as [xml]\n\n[xml]\"<or>we can cast it to xml by prefixing the type</or>\"\n\n\"A string can become a number\"\n\n\"The answer to life, the universe, and everything is:\"\n\n\"42\" -as [double]",
+      "createdAt": "2025-11-11T01:48:37Z",
+      "description": "Things to Know about PowerShell strings",
+      "filename": "Strings.ps1"
+    },
+    "cid": "bafyreidlbr7d6ab2m53kaaktytpl7nsz6lqxjrjuq27ed5goba6mwpqv2m"
+  }
+}
