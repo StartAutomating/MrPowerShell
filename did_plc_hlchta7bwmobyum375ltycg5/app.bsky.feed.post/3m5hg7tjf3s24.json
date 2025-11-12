@@ -1,0 +1,70 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762976896594865,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5hg7ulof325",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5hg7tjf3s24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-12T19:48:15.315Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 48,
+            "byteStart": 37
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "XBox"
+            }
+          ],
+          "index": {
+            "byteEnd": 92,
+            "byteStart": 87
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "XBox"
+            }
+          ],
+          "index": {
+            "byteEnd": 110,
+            "byteStart": 105
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 136,
+            "byteStart": 125
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I'm not sure which is weirder:\n\nThat #PowerShell has a release birthday one day before #XBox...\n\nOr that #XBox is older than #PowerShell\n\nYour thoughts?"
+    },
+    "cid": "bafyreif26krsoxggitmbijsr4hn3db2hgrdsotygrgo5sx375ooln2pb5i"
+  }
+}
