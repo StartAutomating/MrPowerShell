@@ -1,0 +1,110 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762919893874405,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5fr52abml2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5fr4wnrxc24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-12T03:58:09.625Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Marvin from Hitchhiker's Guide knows exactly how dumb it is to get nothing after the longest shutdown in history.\n\nThis year continues to disappoint many.  Least you could do is actually rise to the challenge of the moment.\n\nTrying to make things better is hard, but giving up isn't the right thing to do.  Especially if you're in office.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiccemsz7mulyulngkdlsjtcbysxca25mrbcth652x2tzte2k66mdi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 727693
+          },
+          "title": "a cartoon robot is saying it 's even worse than i thought it would be",
+          "uri": "https://media.tenor.com/x4N5O0nXzmIAAAAC/the-hitchhikers-guide-to-the-galaxy-marvin-the-paranoid-android.gif?hh=281&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "shutdown"
+            }
+          ],
+          "index": {
+            "byteEnd": 16,
+            "byteStart": 7
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "politics"
+            }
+          ],
+          "index": {
+            "byteEnd": 132,
+            "byteStart": 123
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "opinion"
+            }
+          ],
+          "index": {
+            "byteEnd": 141,
+            "byteStart": 133
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "news"
+            }
+          ],
+          "index": {
+            "byteEnd": 147,
+            "byteStart": 142
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "HitchhikersGuide"
+            }
+          ],
+          "index": {
+            "byteEnd": 165,
+            "byteStart": 148
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GivingUp"
+            }
+          ],
+          "index": {
+            "byteEnd": 176,
+            "byteStart": 167
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "If the #shutdown ends with nothing after 42+ days, it will show us what's wrong with life, the universe, and everything. \n\n#politics #opinion #news #HitchhikersGuide\n\n#GivingUp isn't the right thing to do.\n\nEspecially if you're in office."
+    },
+    "cid": "bafyreiailvkhu4nctxlwhpsekmk4p5xwg7zh763fyfzjuehhvoxzh54eau"
+  }
+}
