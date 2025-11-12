@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762970195485247,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5h7y5xbgt2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5h7y3qlec26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-12T17:56:33.053Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic4yanlzyjpcrhtbiami3nl4lpnt4vvejfealdvathn6pt5c7n5iy",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3m5h2ni6jmc2k"
+        },
+        "root": {
+          "cid": "bafyreid3eh7mdef55lq72fxsokxuzau77rnr25q5gxmmcmgp2n6xy7bujq",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3m5eexubd3s2q"
+        }
+      },
+      "text": "It's moments like this I am glad I spent the time and effort to make base logo and a bunch of tooling to make logos and other assets.\n\nLots of logos have chevrons.  The PowerShell logo has an underbar.  Mine does not.  The PowerShell logo isn't angled forward.  Mine is.\n\n🤞 That's good enough."
+    },
+    "cid": "bafyreihehwwl4odafpsapufkgkgrfksl3juhqj3nqems42psnhtxcxzmkq"
+  }
+}
