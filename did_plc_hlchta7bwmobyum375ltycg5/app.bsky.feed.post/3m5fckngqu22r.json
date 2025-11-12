@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762904245069157,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5fckoodka2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5fckngqu22r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-11T23:37:23.592Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihswtl5vla3w5wc2bwhqvdw52fws2kdaqgyevdes6tnie7gqmvcba",
+          "uri": "at://did:plc:h2okxbr76w5522tailkxmidq/app.bsky.feed.post/3m5ewy5lq3k2h"
+        },
+        "root": {
+          "cid": "bafyreihswtl5vla3w5wc2bwhqvdw52fws2kdaqgyevdes6tnie7gqmvcba",
+          "uri": "at://did:plc:h2okxbr76w5522tailkxmidq/app.bsky.feed.post/3m5ewy5lq3k2h"
+        }
+      },
+      "text": "💯 interesting thoughts.\n\nBeen working at this for a while.\n\n1000 foot \"here's how\"\n\n1. PowerShell has an object pipeline, events, and thread jobs; use them.\n2. Everything fast goes thru HTTP / WebSockets on randomized loopback ports.\n3. Everything else goes thru .NET api or CLI parsing.\n\n80% there"
+    },
+    "cid": "bafyreiaqyo6zhwjnyvertqk5nqztp22otfn7kow4nfclk3ip4nsn6nsniq"
+  }
+}
