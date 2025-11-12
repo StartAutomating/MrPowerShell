@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762906660228516,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5fesnzdma2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5fesnph3224",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-12T00:17:39.796Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid3eh7mdef55lq72fxsokxuzau77rnr25q5gxmmcmgp2n6xy7bujq",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3m5eexubd3s2q"
+        },
+        "root": {
+          "cid": "bafyreid3eh7mdef55lq72fxsokxuzau77rnr25q5gxmmcmgp2n6xy7bujq",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3m5eexubd3s2q"
+        }
+      },
+      "text": "Any thoughts on what to avoid in brand names?\n\nWhat part are they saying you can't use?  PowerShell?  Visual Studio 2013?  Tools? 🤔"
+    },
+    "cid": "bafyreih75ribgpt7xj3mm2l4xbonhkot3fvkqflpozbcl7fvrwlmb7dwti"
+  }
+}
