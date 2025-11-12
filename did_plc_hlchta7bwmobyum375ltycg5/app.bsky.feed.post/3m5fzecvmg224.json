@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1762928727640396,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5fzed4i5n2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5fzecvmg224",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-12T06:25:27.281Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 90,
+            "byteStart": 79
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Discord"
+            }
+          ],
+          "index": {
+            "byteEnd": 228,
+            "byteStart": 220
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiapeyc6qyj6mbzdk4qlxqc4zu2ty6wjjizhfsusz7tr524e3m4htu",
+          "uri": "at://did:plc:ddmopuamgkmbuctwrgr7tarb/app.bsky.feed.post/3m5fylmkpt22j"
+        },
+        "root": {
+          "cid": "bafyreighcn7bf2jnasji4iwd2z3uovwg57kcp5iptlvv54khe6hzdfmpja",
+          "uri": "at://did:plc:udqmajolzc2utmddoklw47l4/app.bsky.feed.post/3m4tc6fclhs2l"
+        }
+      },
+      "text": "A bit of general context:\n\nFor a _long_ time, I've been metaprogramming UI via #PowerShell parameters:  \n\nBasically: if I can enumerate your input I can build you a UI.\n\nMight be fun / interesting to make this work with #Discord.\n\nOpen a lot of doors to a lot of people."
+    },
+    "cid": "bafyreicntzydpo5rtw7vppmop5kbgbcdo5565yzydaqefhdxh3sdizzghe"
+  }
+}
