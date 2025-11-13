@@ -1,0 +1,18 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763058258068621,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5jrymxezw2k",
+    "operation": "create",
+    "collection": "place.stream.chat.message",
+    "rkey": "3m5jrymqo6w2k",
+    "record": {
+      "$type": "place.stream.chat.message",
+      "createdAt": "2025-11-13T18:24:16.947Z",
+      "streamer": "did:plc:fzi6kgkbfdja3itxm7xijepq",
+      "text": "sorry, extra dash"
+    },
+    "cid": "bafyreidg7m36ofux62qaidst3ui5ry2rwiqtxxu7rwgu3x7tpcdoz7vgei"
+  }
+}
