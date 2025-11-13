@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763062617683364,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5jw2km57a2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5jw2jyaok24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-13T19:36:56.89Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib5bdu225box7szdru5rg6pwek37jeh7duzu5n2dknirrd5bi7dv4",
+          "uri": "at://did:plc:3xuyghenhq3ch5x6et6zgkxq/app.bsky.feed.post/3m5jdf4j7mk2t"
+        },
+        "root": {
+          "cid": "bafyreifpvjji24euguw2qx3vs4pengdb4bk3teqysgjdm5os4mbi6znftq",
+          "uri": "at://did:plc:3xuyghenhq3ch5x6et6zgkxq/app.bsky.feed.post/3m5iia4qy2s2v"
+        }
+      },
+      "text": "Ah, alright. I see the context now. And apologies for the nerd snipery....\n\nI tend to mount a context into the container.  Way more control (can delete files)\n\nSomething like this:\n\nRUN --mount=type=bind,src=./,target=/Initialize /bin/pwsh -nologo -command /Initialize/Container.init.ps1"
+    },
+    "cid": "bafyreih7rbgnikdj4ninulk2dz2wauxzfmkyxplb3woqf4psqsqlwjsoka"
+  }
+}
