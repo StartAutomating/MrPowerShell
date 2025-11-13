@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763063345365045,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5jwqa2a7q2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5jwq7l32k23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-13T19:49:04.17Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifqtihrr37rtalwkosc2ym3x7ztmg3rxugw3glax752ryvdr2cggi",
+          "uri": "at://did:plc:3xuyghenhq3ch5x6et6zgkxq/app.bsky.feed.post/3m5jwkjppdc2t"
+        },
+        "root": {
+          "cid": "bafyreifpvjji24euguw2qx3vs4pengdb4bk3teqysgjdm5os4mbi6znftq",
+          "uri": "at://did:plc:3xuyghenhq3ch5x6et6zgkxq/app.bsky.feed.post/3m5iia4qy2s2v"
+        }
+      },
+      "text": "Fair.\n\nHonestly though when I'm in problem solver mode I don't want to go with \"what's working\".  \n\nI want to understand why it didn't work, so that I can avoid the problem in the future.\n\nCode fast.  Debug slow."
+    },
+    "cid": "bafyreibtyc3dhypqsgmalgzonihj63ddvubqgfwujddj6lvd3sj5mf7tka"
+  }
+}
