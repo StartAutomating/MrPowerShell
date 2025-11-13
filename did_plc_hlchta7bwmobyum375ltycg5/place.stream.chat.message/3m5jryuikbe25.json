@@ -1,0 +1,32 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763058265957980,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5jryuip5m25",
+    "operation": "create",
+    "collection": "place.stream.chat.message",
+    "rkey": "3m5jryuikbe25",
+    "record": {
+      "$type": "place.stream.chat.message",
+      "createdAt": "2025-11-13T18:24:25.472Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/obs-powershell"
+            }
+          ],
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 0
+          }
+        }
+      ],
+      "streamer": "did:plc:fzi6kgkbfdja3itxm7xijepq",
+      "text": "https://github.com/StartAutomating/obs-powershell"
+    },
+    "cid": "bafyreiftb7fexjjiepzu7ev4n75fwkjvql2q6qlovqr6dqrv6yl4nrphdq"
+  }
+}
