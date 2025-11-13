@@ -1,0 +1,139 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763065639674606,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5jyumnu7e2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5jyulwkws24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-13T20:27:18.831Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Tutorials and articles of Inigo Quilez on computer graphics, fractals, demoscene, shaders and more.",
+          "title": "Inigo Quilez :: computer graphics, mathematics, shaders, fractals, demoscene and more",
+          "uri": "https://iquilezles.org/articles/distfunctions2d/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "LinkOfTheDay"
+            }
+          ],
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 32
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:fzi6kgkbfdja3itxm7xijepq"
+            }
+          ],
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 60
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://iquilezles.org/articles/distfunctions2d/"
+            }
+          ],
+          "index": {
+            "byteEnd": 103,
+            "byteStart": 73
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PixelShaders"
+            }
+          ],
+          "index": {
+            "byteEnd": 154,
+            "byteStart": 141
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GameDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 199,
+            "byteStart": 191
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Graphics"
+            }
+          ],
+          "index": {
+            "byteEnd": 212,
+            "byteStart": 203
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 261,
+            "byteStart": 254
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 273,
+            "byteStart": 262
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TurtleGraphics"
+            }
+          ],
+          "index": {
+            "byteEnd": 289,
+            "byteStart": 274
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Might be hard to top this for a #LinkOfTheDay. \n\nHat tip to @f15y.com !\n\niquilezles.org/articles/dis...\n\nShows how to draw various shapes in #PixelShaders\n\nMight be useful to anyone learning #GameDev or #Graphics.\n\nWill be useful to future iterations of #Turtle #PowerShell #TurtleGraphics  🐢"
+    },
+    "cid": "bafyreig2nthy27kmfivzel3tpvt3gsb7qkxz2mmusrbruapvkqgv2byt5u"
+  }
+}
