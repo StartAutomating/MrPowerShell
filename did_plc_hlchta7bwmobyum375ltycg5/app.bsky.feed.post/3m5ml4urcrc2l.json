@@ -1,0 +1,98 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763153966156755,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5ml4wy4ul2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5ml4urcrc2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-14T20:59:23.36Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Hermes Conrad knows they grow up fast, but he couldn't possible calculate all the of the benefits PowerShell has brought over the past 19 years.\n\nThink of how much joy PowerShell has brought you, how much time it has saved you, how many things you've done with it, and then multiply it by however many millions of people now know PowerShell as a friend.\n\nHappy Birthday PowerShell! (and Happy Birthday Dad!)",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreic6bkwcztquacofkldhhzctdojy7waxctdnoshpc5prii37zi7ny4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 900576
+          },
+          "title": "a cartoon of a man with horns on his head says they grow up so fast",
+          "uri": "https://media.tenor.com/8vweI2J16LkAAAAC/they-grow-up-so-fast-hermes-conrad.gif?hh=498&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 29,
+            "byteStart": 18
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 205,
+            "byteStart": 198
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Tangled"
+            }
+          ],
+          "index": {
+            "byteEnd": 217,
+            "byteStart": 209
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BlueSky"
+            }
+          ],
+          "index": {
+            "byteEnd": 239,
+            "byteStart": 231
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MVPBuzz"
+            }
+          ],
+          "index": {
+            "byteEnd": 250,
+            "byteStart": 242
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Happy Birthday to #PowerShell !\n\nIt released 19 years ago today, and the shell has never been the same!\n\nShare your shell stories and celebrate!\n\nRelease modules and scripts as presents!\n\nPut em on #GitHub or #Tangled, share em on #BlueSky.\n\n#MVPBuzz\n\nAlso, Happy Birthday to my Dad!"
+    },
+    "cid": "bafyreiffufipqsyyj43yhzt4n5lqndwlqarsfbd7rxtce7y2joe36jvsq4"
+  }
+}
