@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763154824013291,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5mlwjgnn22l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5mlwj5k2k24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-14T21:13:43.595Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 281,
+            "byteStart": 270
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiayl4etgw5bu6xef373ianlkoq7g7l6m5dinvyczsxwqtbzatlf5u",
+          "uri": "at://did:plc:s3xcflxtxenb74msfpyjkhjd/app.bsky.feed.post/3m5lyoacqec2f"
+        },
+        "root": {
+          "cid": "bafyreiayl4etgw5bu6xef373ianlkoq7g7l6m5dinvyczsxwqtbzatlf5u",
+          "uri": "at://did:plc:s3xcflxtxenb74msfpyjkhjd/app.bsky.feed.post/3m5lyoacqec2f"
+        }
+      },
+      "text": "To hopefully help and clarify:\n\nOutput redirection uses $OutputEncoding.\n\nBecause of ancient disagreements, $OutputEncoding in Windows PowerShell is utf-16.\n\nThen the world mostly agreed on utf8.\n\nYou can fix it by setting $OutputEncoding\n\nIt defaults to utf8 in modern #PowerShell\n\nHope this helps!"
+    },
+    "cid": "bafyreiaoiyezdhm6udaf6qje2hxcrqkq563yt7jlk5vxsgx7oq2q23o6uy"
+  }
+}
