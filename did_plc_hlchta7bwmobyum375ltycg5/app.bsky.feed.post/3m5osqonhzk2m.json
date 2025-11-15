@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763230866138899,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5osqo6lwn2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5osqonhzk2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-15T18:21:03.702Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaoyuraxag5xvfwigulaw5futuz25zyllvydmsjf4qfqphirto2ea",
+          "uri": "at://did:plc:34ptrjixbtadnlzdi2oqo4fh/app.bsky.feed.post/3m5o35vcy7k2m"
+        },
+        "root": {
+          "cid": "bafyreiaoyuraxag5xvfwigulaw5futuz25zyllvydmsjf4qfqphirto2ea",
+          "uri": "at://did:plc:34ptrjixbtadnlzdi2oqo4fh/app.bsky.feed.post/3m5o35vcy7k2m"
+        }
+      },
+      "text": "To be fair, a lot of PowerShell uses $OutputEncoding ( and it's a fairly obviously named built-in variable ).\n\nEspecially when compared to its much less well known cousin, $ofs ( output format separator ).\n\n$ofs is the default when joining strings.\n\n$ofs='+'\n\"$(1..10)\""
+    },
+    "cid": "bafyreiejc7ratpsjy3mfd2zgzg4rihcrwitydqloihbrendcmdop7xkymu"
+  }
+}
