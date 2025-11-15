@@ -1,0 +1,21 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763232447407627,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5ou7urjrt2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.generator",
+    "rkey": "Link-of-The-Day",
+    "record": {
+      "$type": "app.bsky.feed.generator",
+      "acceptsInteractions": true,
+      "createdAt": "2025-11-15T18:47:26.777516+00:00",
+      "description": "Links of the Day, to brighten your day.",
+      "did": "did:web:api.graze.social",
+      "displayName": "LinkOfTheDay",
+      "social.graze.feed.order": "new"
+    },
+    "cid": "bafyreicliuzr6eslvkruqdla2cikfy2qe6dfuoqjgu3tt3q2sf6ec6kbtu"
+  }
+}
