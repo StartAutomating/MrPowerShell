@@ -1,0 +1,21 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763231706224380,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5otjny7dz25",
+    "operation": "create",
+    "collection": "app.bsky.feed.generator",
+    "rkey": "StrudelSounds",
+    "record": {
+      "$type": "app.bsky.feed.generator",
+      "acceptsInteractions": true,
+      "createdAt": "2025-11-15T18:35:01.418388+00:00",
+      "description": "Posts about Strudel ",
+      "did": "did:web:api.graze.social",
+      "displayName": "StrudelSounds",
+      "social.graze.feed.order": "new"
+    },
+    "cid": "bafyreiaqkkfblr24fvzue4sqoepcbbojss54imboaqo3u5bcftshowhqru"
+  }
+}
