@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763170906760982,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5n2vt4m562u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5n2vsrqgk2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-15T01:41:46.266Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 58,
+            "byteStart": 47
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DotNet"
+            }
+          ],
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 102
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreide34gfxftw5s37plray7moe5tbkfpwphmc2llvxinb5ggij7rtwe",
+          "uri": "at://did:plc:dq5rs4l54xji564abn3xof66/app.bsky.feed.post/3m5n2io5wks2q"
+        },
+        "root": {
+          "cid": "bafyreidtsw66p5s6e2s3bn5xqepalvhvuzjonrppaucrtz5sukwvbcvot4",
+          "uri": "at://did:plc:tdj5ie3dprhi242wsd7ykk7k/app.bsky.feed.post/3m5moksuwap22"
+        }
+      },
+      "text": "Yeah, I'm also a coder.  I just mainly code in #PowerShell.\n\nIt's a .NET language. Can do anything in #DotNet.  Been able to compile C# inline in PowerShell since v2.\n\nBut that adds types to your process (faster but riskier).\n\ndotnet run ... would run in a child process, isolating it.\n\nMake sense?"
+    },
+    "cid": "bafyreid6cb6d5p4peueat2qrsbbewhbnts5xvscxptv4tbwkwvkmsrbafa"
+  }
+}
