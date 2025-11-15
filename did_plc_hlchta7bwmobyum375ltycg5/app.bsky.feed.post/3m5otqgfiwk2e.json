@@ -1,0 +1,78 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763231931109498,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5otqgskle2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5otqgfiwk2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-15T18:38:48.793Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Strudel is a music live coding environment for the browser, porting the TidalCycles pattern language to JavaScript.",
+          "title": "Strudel REPL",
+          "uri": "https://strudel.cc/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "LinkOfTheDay"
+            }
+          ],
+          "index": {
+            "byteEnd": 25,
+            "byteStart": 12
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Strudle"
+            }
+          ],
+          "index": {
+            "byteEnd": 56,
+            "byteStart": 48
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://strudel.cc/"
+            }
+          ],
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 59
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JavaScript"
+            }
+          ],
+          "index": {
+            "byteEnd": 203,
+            "byteStart": 192
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Yesterday's #LinkOfTheDay has to be discovering #Strudle \n\nstrudel.cc\n\nBecause what self respecting nerd wouldn't be interested in a music sampler and live coding environment made entirely in #JavaScript ?\n\nSeriously cool stuff.  Anyone know how to make it autoplay?"
+    },
+    "cid": "bafyreidqp3eviwgi447mu2zxhxz6qgeltaodemxkrd5dvvqgbhghqydgre"
+  }
+}
