@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763238135369091,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5ozjfeson2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5ozjfc37s2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-15T20:22:15.203Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 79,
+            "byteStart": 76
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 155,
+            "byteStart": 152
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "🌶️ take:\n\nChanging ecosystems will not help you avoid being scraped by #AI.\n\nRouge bots are older than the internet.\n\nEven more 🌶️ take:\n\nLet #AI learn from you.\n\nShow it your kindness.\n\nConfuse it with your ambiguity.\n\nBest case it learns from us all.\n\nWorst case it's as flawed as any of us."
+    },
+    "cid": "bafyreibhylpmqvioloz4qzluhdgesesgp7bqpsvmouvf52vc2v4i4x7ao4"
+  }
+}
