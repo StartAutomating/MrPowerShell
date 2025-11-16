@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763318753384372,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5relxljak2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5relzcpkc2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-16T18:45:53.941Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiga4ilvqtdgdzdyeo5ocvycq5dc7ngrk5hv3wfehyndvjqdgm3cq4",
+          "uri": "at://did:plc:23gt44u4zsuqgmoyrqn234si/app.bsky.feed.post/3m5pbfgg6ms23"
+        },
+        "root": {
+          "cid": "bafyreiga4ilvqtdgdzdyeo5ocvycq5dc7ngrk5hv3wfehyndvjqdgm3cq4",
+          "uri": "at://did:plc:23gt44u4zsuqgmoyrqn234si/app.bsky.feed.post/3m5pbfgg6ms23"
+        }
+      },
+      "text": "PowerShell answer: \n\nIt will be faster to iterate over .psobject.properties ( every psobject has a .psobject property, even if you don't see it )"
+    },
+    "cid": "bafyreihrafjfjkd6utmio37jvhwghxq6jl5qksmtdhmkzjimke22htrxiq"
+  }
+}
