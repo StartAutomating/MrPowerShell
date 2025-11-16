@@ -1,0 +1,34 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763332740184039,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5rrmtl3zi2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5rrmsycts2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-16T22:38:59.507Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 41
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just really clicking on a key utility of #AtProto lexicons...\n\nThey're _sharable_ interfaces.\n\nYou might have a more complex object, with many more properties.\n\nYou make have a strong type and an real interface.\n\nBut a public subset is a useful thing."
+    },
+    "cid": "bafyreift2bdqsvhtaaxsf2577nfc243lo6baoklacewhaohupywvpp3oam"
+  }
+}
