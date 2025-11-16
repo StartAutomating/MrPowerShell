@@ -1,0 +1,35 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763326728663157,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5rlzoif3p2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5rlznw4qc24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-16T20:58:47.949Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:ohgsqpfsbocaaxusxqlgfvd7"
+            }
+          ],
+          "index": {
+            "byteEnd": 19,
+            "byteStart": 0
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "@jdhitsolutions.com I've got a musical challenge in mind and would like your help.\n\nMind making one of your compositions available to me as MusicXML?"
+    },
+    "cid": "bafyreigbqszg3yo4d6ll3zc2xlvw2yx75wmxwhlvpbiyu7npxte5ftriw4"
+  }
+}
