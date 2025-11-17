@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763409610796048,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5tz7qcypv25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5tz7pkz3c2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-17T20:00:09.127Z",
+      "embed": {
+        "$type": "app.bsky.embed.video",
+        "alt": "Demonstrating how to make an overlapping white noise waterfull with speakertest:\n\nThis clip was made using obs-powershell on a Raspberry Pi, using the following few lines:\n\nStart-OBSRecord\n\nspeakertest & \n\nspeakertest & \n\nspeakertest & \n\nspeakertest & \n\nGet-Job | ? Name -ne 'OBS' | Remove-Job",
+        "aspectRatio": {
+          "height": 1080,
+          "width": 1920
+        },
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreigwc3rywprh52mpjcjnfssc6w5fcqcys3kpbvtrdx2hctji44vz5q"
+          },
+          "mimeType": "video/mp4",
+          "size": 679796
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 39,
+            "byteStart": 33
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 83,
+            "byteStart": 72
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WhiteNoise"
+            }
+          ],
+          "index": {
+            "byteEnd": 115,
+            "byteStart": 104
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "cybersecurity"
+            }
+          ],
+          "index": {
+            "byteEnd": 207,
+            "byteStart": 193
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I found out about speakertest on #Linux and had a brief bit of fun with #PowerShell background jobs and #WhiteNoise.\n\nWarning: this accidentally proves how to make a waterfall of white noise.\n\n#cybersecurity warning: First red team that uses this is getting thrown shade."
+    },
+    "cid": "bafyreiatkcsv5p4viarrm7xjt7flzril7qymhnxrhiygcugd6nkxrwr44m"
+  }
+}
