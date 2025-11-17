@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763413391169904,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5u4qgct5c2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5u4qdwjdk2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-17T21:03:08.574Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 30,
+            "byteStart": 24
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "windows"
+            }
+          ],
+          "index": {
+            "byteEnd": 47,
+            "byteStart": 39
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibg44brcknuojxh3uahx5u5vseuyv4mnk47k742s5ebgymbvyhqb4",
+          "uri": "at://did:plc:3c6vkaq7xf5kz3va3muptjh5/app.bsky.feed.post/3m5tycygc2c25"
+        },
+        "root": {
+          "cid": "bafyreibg44brcknuojxh3uahx5u5vseuyv4mnk47k742s5ebgymbvyhqb4",
+          "uri": "at://did:plc:3c6vkaq7xf5kz3va3muptjh5/app.bsky.feed.post/3m5tycygc2c25"
+        }
+      },
+      "text": "PowerShell is faster on #linux because #windows defender isn't scanning every script.\n\nAs for why... because object pipelines -gt text pipelines (and a million other reasons)\n\nPowerShell has a lot of useful bells and whistles, and it's implishly fun. 😈"
+    },
+    "cid": "bafyreidwq6asyyj3wvoylkqz6ptrurqmzplslidkecoegdegumrr7ndzba"
+  }
+}
