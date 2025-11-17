@@ -1,0 +1,88 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763415799039797,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5u6y5ywxt2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5u6y3bhys26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-17T21:43:15.415Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Strudel is a music live coding environment for the browser, porting the TidalCycles pattern language to JavaScript.",
+          "title": "Strudel REPL",
+          "uri": "https://strudel.cc/#bm90ZSgiPFtjMiBjM10qNCBbYmIxIGJiMl0qNCBbZjIgZjNdKjQgW2ViMiBlYjNdKjQ%2BIikKLnNvdW5kKCJzaW5lIHNxdWFyZSBzYXd0b290aCIpLnBoYXNlcigxMDI0KQ%3D%3D"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "electron"
+            }
+          ],
+          "index": {
+            "byteEnd": 90,
+            "byteStart": 81
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Strudel"
+            }
+          ],
+          "index": {
+            "byteEnd": 133,
+            "byteStart": 125
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://strudel.cc/#bm90ZSgiPFtjMiBjM10qNCBbYmIxIGJiMl0qNCBbZjIgZjNdKjQgW2ViMiBlYjNdKjQ%2BIikKLnNvdW5kKCJzaW5lIHNxdWFyZSBzYXd0b290aCIpLnBoYXNlcigxMDI0KQ%3D%3D"
+            }
+          ],
+          "index": {
+            "byteEnd": 171,
+            "byteStart": 145
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "OBS"
+            }
+          ],
+          "index": {
+            "byteEnd": 196,
+            "byteStart": 192
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifhovhq2rzd6xklhkha2wwyetbvq3nfdpdkogwwahhli33rnphxmq",
+          "uri": "at://did:plc:idi75z5g5lmqrtyswrnhfubo/app.bsky.feed.post/3m5u6eu4e6c2y"
+        },
+        "root": {
+          "cid": "bafyreidmgt3okdfdgptf2df7yodhmaxxcoojsd5pqewsn2rja52wqfj7ue",
+          "uri": "at://did:plc:idi75z5g5lmqrtyswrnhfubo/app.bsky.feed.post/3m5u43rnkac2y"
+        }
+      },
+      "text": "So now is not the right time to mention that I've figured out how to make a mini #electron app that autoplays something from #Strudel 😉 ....\n\nstrudel.cc#bm90ZSgiPFtj...\n\n(approach works in #OBS, too ;-) )"
+    },
+    "cid": "bafyreihuoa7had3slb7l5hhu4yt33xb4dnbtdgmhdtel2md6keiyoazlby"
+  }
+}
