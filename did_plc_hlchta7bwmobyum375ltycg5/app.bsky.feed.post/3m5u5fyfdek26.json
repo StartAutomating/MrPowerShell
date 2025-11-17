@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763414116960661,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5u5g2g2u72m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5u5fyfdek26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-17T21:15:14.674Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidmgt3okdfdgptf2df7yodhmaxxcoojsd5pqewsn2rja52wqfj7ue",
+          "uri": "at://did:plc:idi75z5g5lmqrtyswrnhfubo/app.bsky.feed.post/3m5u43rnkac2y"
+        },
+        "root": {
+          "cid": "bafyreidmgt3okdfdgptf2df7yodhmaxxcoojsd5pqewsn2rja52wqfj7ue",
+          "uri": "at://did:plc:idi75z5g5lmqrtyswrnhfubo/app.bsky.feed.post/3m5u43rnkac2y"
+        }
+      },
+      "text": "To be fair, I found out about this a bit by accident.\n\nI was looking to play a puretone, which speakertest can also do.  Also plays sound files.  Very handy little app.\n\nIMO _terrible_ default setting to make white noise.  \n\nAt least make me use a switch or something 😂"
+    },
+    "cid": "bafyreieng5cwcoqlqo3xrfuey6e5cy5hgxgis4z66f42madlysocsz6bzy"
+  }
+}
