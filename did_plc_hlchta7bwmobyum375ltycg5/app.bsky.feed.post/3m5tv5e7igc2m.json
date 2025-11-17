@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763405234255435,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5tv5d72xj2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5tv5e7igc2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-17T18:47:15.141Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihii4m3omx5vqqufmlyrvapu4hw4lp5l7thsbazmmbbwpd6lt43sa",
+          "uri": "at://did:plc:6ujwc23kwyy4vv423di2fzsa/app.bsky.feed.post/3m5tt766x3c2j"
+        },
+        "root": {
+          "cid": "bafyreicf7lrjrawv4zu337mzqxe4tqcx5pi5hmsruhd4qm3lzvz7hkfrgq",
+          "uri": "at://did:plc:6ujwc23kwyy4vv423di2fzsa/app.bsky.feed.post/3m5sqt65ke22p"
+        }
+      },
+      "text": "The object pipeline lets you send objects from one step to another, compared to text.  For example:\n\nGet-Process | Where-Obiect WorkingSetSize -gt 100mb | Stop-Process\n\n( Stop any process eating up more than 100 megs of memory )\n\nWay easier than parsing and praying each time."
+    },
+    "cid": "bafyreia4xqfuwuhrpoq45u7b2o3ddlywm27venyux55naonaddlh4ez65a"
+  }
+}
