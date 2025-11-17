@@ -1,0 +1,64 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763337470813996,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5rvzsv4dm2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5rvzsvh5223",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-16T23:57:50.588Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Strudel is a music live coding environment for the browser, porting the TidalCycles pattern language to JavaScript.",
+          "title": "Strudel REPL",
+          "uri": "https://strudel.cc/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://strudel.cc/"
+            }
+          ],
+          "index": {
+            "byteEnd": 223,
+            "byteStart": 213
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "strudel"
+            }
+          ],
+          "index": {
+            "byteEnd": 263,
+            "byteStart": 255
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifaimn3wfxr7uafl5xdsrlazyzftkdv3tevuvskxjcfbz3qcgropy",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3m5rshzwcos27"
+        },
+        "root": {
+          "cid": "bafyreigbqszg3yo4d6ll3zc2xlvw2yx75wmxwhlvpbiyu7npxte5ftriw4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m5rlznw4qc24"
+        }
+      },
+      "text": "Let's start with something fairly short and simple, single instrument.\n\nThen let's shoot for something a bit more complicated.\n\nLong story made short, I'm think I'm gonna update my TerminalTunes module to support strudel.cc\n\nConverting one more format to #strudel seems wise."
+    },
+    "cid": "bafyreibspqd6xqztqpvsxehipvvo7qniwssa7i5qmh4bi3dhg2esq7354a"
+  }
+}
