@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763408655476003,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5tydbjx4a2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5tyd7izvs2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-17T19:44:12.762Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A curated collection of awesome Strudel resources including tracks (popular song covers and remixes), tutorials, and repositories - terryds/awesome-strudel",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreig7jby6hy25ugnogign5nvdi6motyjwbootw2l53sxra4sfe2tpem"
+            },
+            "mimeType": "image/jpeg",
+            "size": 371366
+          },
+          "title": "GitHub - terryds/awesome-strudel: A curated collection of awesome Strudel resources including tracks (popular song covers and remixes), tutorials, and repositories",
+          "uri": "https://github.com/terryds/awesome-strudel"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Strudel"
+            }
+          ],
+          "index": {
+            "byteEnd": 54,
+            "byteStart": 46
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "LinkOfTheDay"
+            }
+          ],
+          "index": {
+            "byteEnd": 81,
+            "byteStart": 68
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/terryds/awesome-strudel"
+            }
+          ],
+          "index": {
+            "byteEnd": 129,
+            "byteStart": 103
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 229,
+            "byteStart": 221
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I may have had too much fun this weekend with #Strudel\n\nYesterday's #LinkOfTheDay probably has to be \n\ngithub.com/terryds/awes...\n\nA few highlights from the weekend coming soon..\n\nI'm beginning to think we should have an #AtProto lexicon for Strudel..."
+    },
+    "cid": "bafyreibf3jugx442ybebnd5p7cxopdhuhdhs6y4cdzdexvkhg5ziavy3b4"
+  }
+}
