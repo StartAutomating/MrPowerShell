@@ -1,0 +1,52 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763416276101838,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5u7gfkpb32u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5u7gdyer22e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-17T21:51:14.316Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Strudel is a music live coding environment for the browser, porting the TidalCycles pattern language to JavaScript.",
+          "title": "Strudel REPL",
+          "uri": "https://strudel.cc/#bm90ZSgiPFtjMiBjM10qNCBbYmIxIGJiMl0qNCBbZjIgZjNdKjQgW2ViMiBlYjNdKjQ%2BIikKLnNvdW5kKCJzaW5lIHNxdWFyZSBzYXd0b290aCIpLnBoYXNlcigxMDI0KQ%3D%3D"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://strudel.cc/#bm90ZSgiPFtjMiBjM10qNCBbYmIxIGJiMl0qNCBbZjIgZjNdKjQgW2ViMiBlYjNdKjQ%2BIikKLnNvdW5kKCJzaW5lIHNxdWFyZSBzYXd0b290aCIpLnBoYXNlcigxMDI0KQ%3D%3D"
+            }
+          ],
+          "index": {
+            "byteEnd": 128,
+            "byteStart": 102
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibcjmonoqpshlne7ysbviict32dk6trql7glq5zsjwqad33i5uium",
+          "uri": "at://did:plc:idi75z5g5lmqrtyswrnhfubo/app.bsky.feed.post/3m5u74onlzc2y"
+        },
+        "root": {
+          "cid": "bafyreidmgt3okdfdgptf2df7yodhmaxxcoojsd5pqewsn2rja52wqfj7ue",
+          "uri": "at://did:plc:idi75z5g5lmqrtyswrnhfubo/app.bsky.feed.post/3m5u43rnkac2y"
+        }
+      },
+      "text": "Yes, but did you check out the little \"composition\" I made for you that references your jokes ;-) ? \n\nstrudel.cc#bm90ZSgiPFtj...\n\n(couldn't find the setting for bias)"
+    },
+    "cid": "bafyreia6xzpkcjrew3zctkbhueonueeo25jfspi3pie3nna2zgaeztg7jy"
+  }
+}
