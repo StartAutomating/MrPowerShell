@@ -1,0 +1,138 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763409175893477,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5tyss6jwe2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5tysru2ls2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-17T19:52:55.314Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Strudel is a music live coding environment for the browser, porting the TidalCycles pattern language to JavaScript.",
+          "title": "Strudel REPL",
+          "uri": "https://strudel.cc/#bm90ZShgPApbZTUgW2I0IGM1XSBkNSBbYzUgYjRdXQpbYTQgW2E0IGM1XSBlNSBbZDUgYzVdXQpbYjQgW34gYzVdIGQ1IGU1XQpbYzUgYTQgYTQgfl0KW1t%2BIGQ1XSBbfiBmNV0gYTUgW2c1IGY1XV0KW2U1IFt%2BIGM1XSBlNSBbZDUgYzVdXQpbYjQgW2I0IGM1XSBkNSBlNV0KW2M1IGE0IGE0IH5dCiwKW1tlMiBlM10qNF0KW1thMiBhM10qNF0KW1tnIzIgZyMzXSoyIFtlMiBlM10qMl0KW2EyIGEzIGEyIGEzIGEyIGEzIGIxIGMyXQpbW2QyIGQzXSo0XQpbW2MyIGMzXSo0XQpbW2IxIGIyXSoyIFtlMiBlM10qMl0KW1thMSBhMl0qNF0KPmAp"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "retro"
+            }
+          ],
+          "index": {
+            "byteEnd": 16,
+            "byteStart": 10
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "gaming"
+            }
+          ],
+          "index": {
+            "byteEnd": 24,
+            "byteStart": 17
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "music"
+            }
+          ],
+          "index": {
+            "byteEnd": 31,
+            "byteStart": 25
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Strudel"
+            }
+          ],
+          "index": {
+            "byteEnd": 51,
+            "byteStart": 43
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Tetris"
+            }
+          ],
+          "index": {
+            "byteEnd": 67,
+            "byteStart": 60
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://strudel.cc/#bm90ZShgPApbZTUgW2I0IGM1XSBkNSBbYzUgYjRdXQpbYTQgW2E0IGM1XSBlNSBbZDUgYzVdXQpbYjQgW34gYzVdIGQ1IGU1XQpbYzUgYTQgYTQgfl0KW1t%2BIGQ1XSBbfiBmNV0gYTUgW2c1IGY1XV0KW2U1IFt%2BIGM1XSBlNSBbZDUgYzVdXQpbYjQgW2I0IGM1XSBkNSBlNV0KW2M1IGE0IGE0IH5dCiwKW1tlMiBlM10qNF0KW1thMiBhM10qNF0KW1tnIzIgZyMzXSoyIFtlMiBlM10qMl0KW2EyIGEzIGEyIGEzIGEyIGEzIGIxIGMyXQpbW2QyIGQzXSo0XQpbW2MyIGMzXSo0XQpbW2IxIGIyXSoyIFtlMiBlM10qMl0KW1thMSBhMl0qNF0KPmAp"
+            }
+          ],
+          "index": {
+            "byteEnd": 141,
+            "byteStart": 115
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GameDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 223,
+            "byteStart": 215
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ContentCreation"
+            }
+          ],
+          "index": {
+            "byteEnd": 244,
+            "byteStart": 228
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 279,
+            "byteStart": 268
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Want some #retro #gaming #music memories?\n\n#Strudel has the #Tetris theme (Korobeiniki) as a friggin example 😆\n\nstrudel.cc#bm90ZShgPApb...\n\nI feel like this tool is invaluable to those who want to make music for #GameDev and #ContentCreation.\n\nCan't wait to make a #PowerShell wrapper 😉"
+    },
+    "cid": "bafyreigzk2wzuaj2nolhibr3tmrasqrifwfxvnglizghrvzsk22mn6mnxe"
+  }
+}
