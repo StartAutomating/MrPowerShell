@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763402337301559,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5tsgy4rts2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5tsgytpx22m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-17T17:58:57.541Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: I'm not lying when I say PowerShell is a real language, but my pop culture addled brain has to include a Pinocchio meme in responses like this.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiggdfnigxqtj4worxjeuj2rojfp6cx2tyqp54ys4cqake74sgwtcy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 227125
+          },
+          "title": "a cartoon character with a long nose and gloves on",
+          "uri": "https://media.tenor.com/mNBTaGqdaygAAAAC/abell46s-reface.gif?hh=371&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicf7lrjrawv4zu337mzqxe4tqcx5pi5hmsruhd4qm3lzvz7hkfrgq",
+          "uri": "at://did:plc:6ujwc23kwyy4vv423di2fzsa/app.bsky.feed.post/3m5sqt65ke22p"
+        },
+        "root": {
+          "cid": "bafyreicf7lrjrawv4zu337mzqxe4tqcx5pi5hmsruhd4qm3lzvz7hkfrgq",
+          "uri": "at://did:plc:6ujwc23kwyy4vv423di2fzsa/app.bsky.feed.post/3m5sqt65ke22p"
+        }
+      },
+      "text": "PowerShell has always been a real language.\n\nCould do anything in .Net since V1.\n\nInline C# came in V2, and classes in PowerShell since v4 or v5.\n\nAnd no other language has an object pipeline or an extended type system.\n\nIt's a real language, we swear."
+    },
+    "cid": "bafyreiesix4liw2djtkkl6ylje5jmofv4gtoz6a7vwzrgmgayej7kgi7re"
+  }
+}
