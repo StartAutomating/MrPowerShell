@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763413747071522,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5u52zoqgo2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5u52z5ubs2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-17T21:09:06.379Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 30,
+            "byteStart": 19
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 54
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Microsoft"
+            }
+          ],
+          "index": {
+            "byteEnd": 78,
+            "byteStart": 68
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihirjprtfamghswymlwk26ipbfvsolotihzp3oqoqmenhmxwv5scm",
+          "uri": "at://did:plc:vt464ohreg6sglmnb4cuctmr/app.bsky.feed.post/3m5u2jg4szc2k"
+        },
+        "root": {
+          "cid": "bafyreibg44brcknuojxh3uahx5u5vseuyv4mnk47k742s5ebgymbvyhqb4",
+          "uri": "at://did:plc:3c6vkaq7xf5kz3va3muptjh5/app.bsky.feed.post/3m5tycygc2c25"
+        }
+      },
+      "text": "The funny thing is #PowerShell was built by lovers of #linux within #Microsoft, and is still something of a \"red-headed stepchild\" within Microsoft.\n\nPowerShell knows it is cool (on any operating system).\n\nPlease try not to judge it by it's parent company."
+    },
+    "cid": "bafyreiglnfzrmrtappkvi5oab4ilyzlzzze5cl3unxsam7rfbiiiqyzfbm"
+  }
+}
