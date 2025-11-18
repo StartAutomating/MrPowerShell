@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763499186262809,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5wmn6ld7l2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5wmn426j22m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-18T20:52:58.988Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Whenever cloud services are having a bad hair day and you're just trying to get stuff done, it's a little frustrating.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiaorspq5v6iq4l7wnutlc4p3r2bbjqzkq5y2tow37rvl64qlp4zzi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 605334
+          },
+          "title": "a cartoon drawing of a bird with red hair and the letter z on it",
+          "uri": "https://media.tenor.com/lTvlSBMV-94AAAAC/bad-hair-day-waking-up.gif?hh=283&ww=341"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "github"
+            }
+          ],
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 7
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia2aosr4wj5ggkd3xqaxgrzp7higb4ods2ytxvoey4ygn3me4eusm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m5wlgzrom22r"
+        },
+        "root": {
+          "cid": "bafyreia2aosr4wj5ggkd3xqaxgrzp7higb4ods2ytxvoey4ygn3me4eusm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m5wlgzrom22r"
+        }
+      },
+      "text": "Sadly, #github workflows are having a bad hair day."
+    },
+    "cid": "bafyreia5n2lp6wa7oa6z7r4luudkwdr5frrptmip52bprmpyqovzbeyg5e"
+  }
+}
