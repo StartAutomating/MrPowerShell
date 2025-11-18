@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763493287913506,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5wh5jriya2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5wh5jvf5s2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-18T19:14:47.932Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieer3iu7ocrbphulpdfcgqwa4vq4obv3sslyv7wa3naicjl2qcj3m",
+          "uri": "at://did:plc:da23wlphpstmmykszotu5z5a/app.bsky.feed.post/3m5wf24245q2j"
+        },
+        "root": {
+          "cid": "bafyreieer3iu7ocrbphulpdfcgqwa4vq4obv3sslyv7wa3naicjl2qcj3m",
+          "uri": "at://did:plc:da23wlphpstmmykszotu5z5a/app.bsky.feed.post/3m5wf24245q2j"
+        }
+      },
+      "text": "All for this kind of offering existing....\n\nBut aren't you the same batch of people that said \"intercepting executable output was a security hole\"?\n\nI have concerns about if your product would inaccurately flag popular modules like ugit."
+    },
+    "cid": "bafyreidhrapartvdjtwvibyyg2hfz2vhfc7i6bck6j4tpk4or2lgby4ksq"
+  }
+}
