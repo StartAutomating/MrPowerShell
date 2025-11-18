@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763500578580532,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5wnwsqn4h2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5wnwsngds2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-18T21:16:18.419Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "git"
+            }
+          ],
+          "index": {
+            "byteEnd": 254,
+            "byteStart": 250
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "dev"
+            }
+          ],
+          "index": {
+            "byteEnd": 259,
+            "byteStart": 255
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Me normally:\n\nI should check in this thing, but I'll just polish it a bit more before I do...\n\nMe when I can't check in:\n\nI should only work on things that I can check in, therefore I must wait until github is back to not check in.\n\n🤷 accept your #git #dev contradictions I guess"
+    },
+    "cid": "bafyreib3uvjvpaudvtuocs6n5o57hef2bsfcdd2wb5ury2lhx36xwr7une"
+  }
+}
