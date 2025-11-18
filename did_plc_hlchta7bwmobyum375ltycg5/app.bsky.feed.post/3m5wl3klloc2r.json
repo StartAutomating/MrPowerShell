@@ -1,0 +1,78 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763497516869942,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5wl3ktj262p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5wl3klloc2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-18T20:25:16.517Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Strudel is a music live coding environment for the browser, porting the TidalCycles pattern language to JavaScript.",
+          "title": "Strudel REPL",
+          "uri": "https://strudel.cc/#c2V0Y3BtKDEyOC80KQoKCmNvbnN0IGJpdE1lbGFuY2hvbHkgID0gIjxbZDIgZDRdKjQgW2EyIGEzXSo0IFtjIzMgZiM0XSo0IFtiMiBiM10qND4iCmNvbnN0IGxlc3NNZWxhbmNob2x5ID0gIjxbZDMgZDRdKjQgW2EyIGEzXSo0IFtjIzIgZiM0XSo0IFtiMiBiM10qND4iCmNvbnN0IG1vcmVNZWxhbmNob2x5ID0gIjxbZDEgZDNdKjQgW2ExIGEzXSo0IFtjIzEgZiMzXSo0IFtiMSBiM10qND4iCgpsZXQgc2VxdWVuY2UgPSBtb3JlTWVsYW5jaG9seTsKCiRtZWxhbmNob2x5OiBub3RlKGxlc3NNZWxhbmNob2x5KS5zb3VuZCgic2luZSBzYXd0b290aCBzcXVhcmUgc2F3dG9vdGgiKS5qdXgocmV2KS5jb2xvcigiYmx1ZSIpLl9zY29wZSgpCgokbWVsYW5jaG9seUF0dGFjazogbm90ZShtb3JlTWVsYW5jaG9seSkuc291bmQoInNpbmUgc2F3dG9vdGggc3F1YXJlIHNhd3Rvb3RoIikuanV4KHJldikuYXR0YWNrKC4xKS5jb2xvcigicmVkIikuX3Njb3BlKCkKCiRtZWxhbmNob2x5RGVjYXk6IG5vdGUoYml0TWVsYW5jaG9seSkuc291bmQoInNpbmUgc2F3dG9vdGggc3F1YXJlIHNhd3Rvb3RoIikuanV4KHJldikuZGVjYXkoLjEpLmNvbG9yKCJncmVlbiIpLl9zY29wZSgpCgovLyRtZWxhbmNob2x5U3VzdGFpbjogbm90ZShtb3JlTWVsYW5jaG9seSkuc291bmQoInNpbmUgc2F3dG9vdGggc3F1YXJlIHNhd3Rvb3RoIikuc3VzdGFpbiguMSkuY29sb3IoImdyZWVuIikuX3Njb3BlKCkKLy8kbWVsYW5jaG9seVJlbGVhc2U6IG5vdGUoYml0TWVsYW5jaG9seSkuc291bmQoInNpbmUgc2F3dG9vdGggc3F1YXJlIHNhd3Rvb3RoIikucmVsZWFzZSguMSkuY29sb3IoImJsdWUiKS5fc2NvcGUoKQovLyRnbmFybHkyOiBub3RlKCI8W2MyIGMzXSo0IFtiYjEgYmIyXSo0IFtmMiBmM10qNCBbZWIyIGViM10qND4iKS5zb3VuZCgic2luZSBzcXVhcmUgc2F3dG9vdGgiKS5yZXYoKS5qdXgocmV2KS5waGFzZXIoMTAyNCkuY29sb3IoImJsdWUiKS5fc2NvcGUoKQoKCi8vJGduYXJseTM6IG5vdGUoIjxbYzIgYzNdKjQgW2JiMSBiYjJdKjQgW2YyIGYzXSo0IFtlYjIgZWIzXSo0PiIpLmp1eChyZXYpLnNvdW5kKCJzaW5lIHNxdWFyZSBzYXd0b290aCIpLnJldigpLmp1eChyZXYpLnBoYXNlcigxMDI0KS5jb2xvcigiZ3JlZW4iKS5fc2NvcGUoKQoKCgo%3D"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Strudel"
+            }
+          ],
+          "index": {
+            "byteEnd": 39,
+            "byteStart": 31
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 114,
+            "byteStart": 103
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 123,
+            "byteStart": 115
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://strudel.cc/#c2V0Y3BtKDEyOC80KQoKCmNvbnN0IGJpdE1lbGFuY2hvbHkgID0gIjxbZDIgZDRdKjQgW2EyIGEzXSo0IFtjIzMgZiM0XSo0IFtiMiBiM10qND4iCmNvbnN0IGxlc3NNZWxhbmNob2x5ID0gIjxbZDMgZDRdKjQgW2EyIGEzXSo0IFtjIzIgZiM0XSo0IFtiMiBiM10qND4iCmNvbnN0IG1vcmVNZWxhbmNob2x5ID0gIjxbZDEgZDNdKjQgW2ExIGEzXSo0IFtjIzEgZiMzXSo0IFtiMSBiM10qND4iCgpsZXQgc2VxdWVuY2UgPSBtb3JlTWVsYW5jaG9seTsKCiRtZWxhbmNob2x5OiBub3RlKGxlc3NNZWxhbmNob2x5KS5zb3VuZCgic2luZSBzYXd0b290aCBzcXVhcmUgc2F3dG9vdGgiKS5qdXgocmV2KS5jb2xvcigiYmx1ZSIpLl9zY29wZSgpCgokbWVsYW5jaG9seUF0dGFjazogbm90ZShtb3JlTWVsYW5jaG9seSkuc291bmQoInNpbmUgc2F3dG9vdGggc3F1YXJlIHNhd3Rvb3RoIikuanV4KHJldikuYXR0YWNrKC4xKS5jb2xvcigicmVkIikuX3Njb3BlKCkKCiRtZWxhbmNob2x5RGVjYXk6IG5vdGUoYml0TWVsYW5jaG9seSkuc291bmQoInNpbmUgc2F3dG9vdGggc3F1YXJlIHNhd3Rvb3RoIikuanV4KHJldikuZGVjYXkoLjEpLmNvbG9yKCJncmVlbiIpLl9zY29wZSgpCgovLyRtZWxhbmNob2x5U3VzdGFpbjogbm90ZShtb3JlTWVsYW5jaG9seSkuc291bmQoInNpbmUgc2F3dG9vdGggc3F1YXJlIHNhd3Rvb3RoIikuc3VzdGFpbiguMSkuY29sb3IoImdyZWVuIikuX3Njb3BlKCkKLy8kbWVsYW5jaG9seVJlbGVhc2U6IG5vdGUoYml0TWVsYW5jaG9seSkuc291bmQoInNpbmUgc2F3dG9vdGggc3F1YXJlIHNhd3Rvb3RoIikucmVsZWFzZSguMSkuY29sb3IoImJsdWUiKS5fc2NvcGUoKQovLyRnbmFybHkyOiBub3RlKCI8W2MyIGMzXSo0IFtiYjEgYmIyXSo0IFtmMiBmM10qNCBbZWIyIGViM10qND4iKS5zb3VuZCgic2luZSBzcXVhcmUgc2F3dG9vdGgiKS5yZXYoKS5qdXgocmV2KS5waGFzZXIoMTAyNCkuY29sb3IoImJsdWUiKS5fc2NvcGUoKQoKCi8vJGduYXJseTM6IG5vdGUoIjxbYzIgYzNdKjQgW2JiMSBiYjJdKjQgW2YyIGYzXSo0IFtlYjIgZWIzXSo0PiIpLmp1eChyZXYpLnNvdW5kKCJzaW5lIHNxdWFyZSBzYXd0b290aCIpLnJldigpLmp1eChyZXYpLnBoYXNlcigxMDI0KS5jb2xvcigiZ3JlZW4iKS5fc2NvcGUoKQoKCgo%3D"
+            }
+          ],
+          "index": {
+            "byteEnd": 235,
+            "byteStart": 209
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Still having too much fun with #Strudel !\n\nJust making a quick post to a work in progress to see if my #PowerShell #AtProto bot picks up the post:\n\n(pleasantly surprised a post is valid with a URL this long)\n\nstrudel.cc#c2V0Y3BtKDEy..."
+    },
+    "cid": "bafyreib3nlm2yrbcbgnjcw7xxbty6axlvityfz54vpkhi5z4sla6jt3ppa"
+  }
+}
