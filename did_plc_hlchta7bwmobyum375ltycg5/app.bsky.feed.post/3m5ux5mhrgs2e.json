@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763441751475794,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5ux5mtqnh2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5ux5mhrgs2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-18T04:55:51.024Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 98
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DotNet"
+            }
+          ],
+          "index": {
+            "byteEnd": 158,
+            "byteStart": 151
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicwvodle6574yxtbsf5xfgasziqzvkcvanlbcgkxoqnhkr73e4a44",
+          "uri": "at://did:plc:6ujwc23kwyy4vv423di2fzsa/app.bsky.feed.post/3m5ub3lsaxc2w"
+        },
+        "root": {
+          "cid": "bafyreicf7lrjrawv4zu337mzqxe4tqcx5pi5hmsruhd4qm3lzvz7hkfrgq",
+          "uri": "at://did:plc:6ujwc23kwyy4vv423di2fzsa/app.bsky.feed.post/3m5sqt65ke22p"
+        }
+      },
+      "text": "PowerShell kinda helped popularize that a bit within Microsoft.  F# definitely came later, C# and #PowerShell both pushed this functionality more into #DotNet.\n\nThe critical difference is that most languages have one input/output at a time, where as PowerShell has N inputs/outputs."
+    },
+    "cid": "bafyreialxn2wgllvkgq6grks2val4sqlpvtuuvhkeu7h6en5rcfi6frh4a"
+  }
+}
