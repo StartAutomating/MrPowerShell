@@ -1,0 +1,66 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763526913772963,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5xghnwh6b2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5xghnku3c2s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-19T04:35:13.321Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Strudel is a music live coding environment for the browser, porting the TidalCycles pattern language to JavaScript.",
+          "title": "Strudel REPL",
+          "uri": "https://strudel.cc/#LyoKQHRpdGxlOiBJbiBUaGUgSGFsbCBvZiB0aGUgTW91bnRhaW4gS2luZwpAYnk6IEVkdmFyZCBIYWdlcnVwIEdyaWVnCiovCgpzZXRjcG0oMTI4LzIpCm5vdGUoYAo8YzVAMC4yNQpkNUAwLjI1CmQjNUAwLjI1CmY1QDAuMjUKZzVAMC4yNQpkIzVAMC4yNQpnNUAwLjUKZiM1QDAuMjUKZDVAMC4yNQpmIzVAMC41CmY1QDAuMjUKYyM1QDAuMjUKZjVAMC41CmM1QDAuMjUKZDVAMC4yNQpkIzVAMC4yNQpmNUAwLjI1Cmc1QDAuMjUKZCM1QDAuMjUKZzVAMC4yNQpjNkAwLjI1CmEjNUAwLjI1Cmc1QDAuMjUKZCM1QDAuMjUKZzVAMC4yNQphIzVAMQpnNUAwLjI1CmE1QDAuMjUKYjVAMC4yNQpjNkAwLjI1CmQ2QDAuMjUKYjVAMC4yNQpkNkAwLjUKZCM2QDAuMjUKYjVAMC4yNQpkIzZAMC41CmQ2QDAuMjUKYjVAMC4yNQpkNkAwLjUKZzVAMC4yNQphNUAwLjI1CmI1QDAuMjUKYzZAMC4yNQpkNkAwLjI1CmI1QDAuMjUKZDZAMC41CmQjNkAwLjI1CmI1QDAuMjUKZCM2QDAuNQpkNkAxCmM2QDAuMjUKZDZAMC4yNQpkIzZAMC4yNQpmNkAwLjI1Cmc2QDAuMjUKZCM2QDAuMjUKZzZAMC41CmYjNkAwLjI1CmQ2QDAuMjUKZiM2QDAuNQpmNkAwLjI1CmMjNkAwLjI1CmY2QDAuNQpjNkAwLjI1CmQ2QDAuMjUKZCM2QDAuMjUKZjZAMC4yNQpnNkAwLjI1CmQjNkAwLjI1Cmc2QDAuMjUKYzdAMC4yNQphIzZAMC4yNQpnNkAwLjI1CmQjNkAwLjI1Cmc2QDAuMjUKYSM2QDE%2BCmApLnNvdW5kKCJwaWFubywgZ21fdHViYSwgZ21fb2JvZSwgZ21fY2VsbG8sIGdtX3ZvaWNlX29vaHMsIGdtX2Nob2lyX2FhaHMiKS5jb2xvcigiYmx1ZSByZWQiKS5fcGlhbm9yb2xsKCkuX3Njb3BlKCkKCg%3D%3D"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 87,
+            "byteStart": 76
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Strudel"
+            }
+          ],
+          "index": {
+            "byteEnd": 111,
+            "byteStart": 103
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://strudel.cc/#LyoKQHRpdGxlOiBJbiBUaGUgSGFsbCBvZiB0aGUgTW91bnRhaW4gS2luZwpAYnk6IEVkdmFyZCBIYWdlcnVwIEdyaWVnCiovCgpzZXRjcG0oMTI4LzIpCm5vdGUoYAo8YzVAMC4yNQpkNUAwLjI1CmQjNUAwLjI1CmY1QDAuMjUKZzVAMC4yNQpkIzVAMC4yNQpnNUAwLjUKZiM1QDAuMjUKZDVAMC4yNQpmIzVAMC41CmY1QDAuMjUKYyM1QDAuMjUKZjVAMC41CmM1QDAuMjUKZDVAMC4yNQpkIzVAMC4yNQpmNUAwLjI1Cmc1QDAuMjUKZCM1QDAuMjUKZzVAMC4yNQpjNkAwLjI1CmEjNUAwLjI1Cmc1QDAuMjUKZCM1QDAuMjUKZzVAMC4yNQphIzVAMQpnNUAwLjI1CmE1QDAuMjUKYjVAMC4yNQpjNkAwLjI1CmQ2QDAuMjUKYjVAMC4yNQpkNkAwLjUKZCM2QDAuMjUKYjVAMC4yNQpkIzZAMC41CmQ2QDAuMjUKYjVAMC4yNQpkNkAwLjUKZzVAMC4yNQphNUAwLjI1CmI1QDAuMjUKYzZAMC4yNQpkNkAwLjI1CmI1QDAuMjUKZDZAMC41CmQjNkAwLjI1CmI1QDAuMjUKZCM2QDAuNQpkNkAxCmM2QDAuMjUKZDZAMC4yNQpkIzZAMC4yNQpmNkAwLjI1Cmc2QDAuMjUKZCM2QDAuMjUKZzZAMC41CmYjNkAwLjI1CmQ2QDAuMjUKZiM2QDAuNQpmNkAwLjI1CmMjNkAwLjI1CmY2QDAuNQpjNkAwLjI1CmQ2QDAuMjUKZCM2QDAuMjUKZjZAMC4yNQpnNkAwLjI1CmQjNkAwLjI1Cmc2QDAuMjUKYzdAMC4yNQphIzZAMC4yNQpnNkAwLjI1CmQjNkAwLjI1Cmc2QDAuMjUKYSM2QDE%2BCmApLnNvdW5kKCJwaWFubywgZ21fdHViYSwgZ21fb2JvZSwgZ21fY2VsbG8sIGdtX3ZvaWNlX29vaHMsIGdtX2Nob2lyX2FhaHMiKS5jb2xvcigiYmx1ZSByZWQiKS5fcGlhbm9yb2xsKCkuX3Njb3BlKCkKCg%3D%3D"
+            }
+          ],
+          "index": {
+            "byteEnd": 225,
+            "byteStart": 199
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Yep, DECPS (old escape sequence for notes in the terminal)  thru a bunch of #PowerShell and piped into #Strudel is a bit mad, but it's also a ton of fun.\n\nHere's some music fitting a mad scientist:\n\nstrudel.cc#LyoKQHRpdGxl..."
+    },
+    "cid": "bafyreiejvpkndixc3hlqhjtt7daorrhffbkxesy75dfzubdb22aw7xpd3y"
+  }
+}
