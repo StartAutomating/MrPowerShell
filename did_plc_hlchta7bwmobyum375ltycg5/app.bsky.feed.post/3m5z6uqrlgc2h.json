@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763587482892886,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5z6uqzw542k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5z6uqrlgc2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-19T21:24:42.437Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihf4nq67brfa3uccutunxgf7jqmwvty5ceqb6siimmqxw5zdzhhhi",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3m5z6dy37ds2k"
+        },
+        "root": {
+          "cid": "bafyreibybnddi7tqf344zxennl4uxa4tigxk4ckml2hq4uuyi5eoqwvez4",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3m5yznsrnek2x"
+        }
+      },
+      "text": "Sounds good.\n\nFrom a purely legalistic perspective, I see the major differentiator between this and the PowerShell logos is the lack of the underbar.\n\nI see the difference between this PowerShell Chevron and the one I use in my profile photo as \"lack of forward skew\".\n\nSo, distinct 😉"
+    },
+    "cid": "bafyreibd5ljaayj5wbtiv6hh6wtw6autscdy7ilwllaknkuopzpjaqawjy"
+  }
+}
