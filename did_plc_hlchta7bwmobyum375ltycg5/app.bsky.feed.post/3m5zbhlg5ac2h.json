@@ -1,0 +1,66 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763590265839773,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5zbhmpm5h2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5zbhlg5ac2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-19T22:11:01.838Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Strudel is a music live coding environment for the browser, porting the TidalCycles pattern language to JavaScript.",
+          "title": "Strudel REPL",
+          "uri": "https://strudel.cc/#c2V0Y3BtKDEyOC8yKQpub3RlKGAKPGM1QDAuMTg3NSB%2BQDAuMDkzNzUgYzVAMC4wOTM3NSBjNUAwLjE4NzUgfkAwLjA5Mzc1IGM1QDAuMDkzNzUgYzVAMC4xODc1IH5AMC4wOTM3NSBjNUAwLjA5Mzc1IGM1QDAuMTg3NSB%2BQDAuMDkzNzUgYzVAMC4wOTM3NSBjNUAwLjE4NzUgfkAwLjA5Mzc1IGM1QDAuMDkzNzUgYzVAMC4xODc1IH5AMC4wOTM3NSBjNUAwLjA5Mzc1IGc1QDAuMTg3NSB%2BQDAuMDkzNzUgZTVAMC4wOTM3NSBnNUAwLjE4NzUgfkAwLjA5Mzc1IGU1QDAuMDkzNzUgZzVAMC4xODc1IH5AMC4wOTM3NSBlNUAwLjA5Mzc1IGM1QDAuMTg3NSB%2BQDAuMDkzNzUgYzVAMC4wOTM3NSBjNUAwLjE4NzUgfkAwLjA5Mzc1IGM1QDAuMDkzNzUgYzVAMC4xODc1IH5AMC4wOTM3NSBjNUAwLjA5Mzc1IGc1QDAuMTg3NSB%2BQDAuMDkzNzUgZTVAMC4wOTM3NSBnNUAwLjE4NzUgfkAwLjA5Mzc1IGU1QDAuMDkzNzUgZzVAMC4xODc1IH5AMC4wOTM3NSBlNUAwLjA5Mzc1IGM1QDEuMTI1PgpgKS5zb3VuZCgiZ21fdHJ1bXBldCIpLmNvbG9yKCJ5ZWxsb3cgZ29sZGVucm9kIikuX3BpYW5vcm9sbCgpLl9waXRjaHdoZWVsKCkuX3Njb3BlKCkKCg%3D%3D"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 23,
+            "byteStart": 12
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Strudel"
+            }
+          ],
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 24
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://strudel.cc/#c2V0Y3BtKDEyOC8yKQpub3RlKGAKPGM1QDAuMTg3NSB%2BQDAuMDkzNzUgYzVAMC4wOTM3NSBjNUAwLjE4NzUgfkAwLjA5Mzc1IGM1QDAuMDkzNzUgYzVAMC4xODc1IH5AMC4wOTM3NSBjNUAwLjA5Mzc1IGM1QDAuMTg3NSB%2BQDAuMDkzNzUgYzVAMC4wOTM3NSBjNUAwLjE4NzUgfkAwLjA5Mzc1IGM1QDAuMDkzNzUgYzVAMC4xODc1IH5AMC4wOTM3NSBjNUAwLjA5Mzc1IGc1QDAuMTg3NSB%2BQDAuMDkzNzUgZTVAMC4wOTM3NSBnNUAwLjE4NzUgfkAwLjA5Mzc1IGU1QDAuMDkzNzUgZzVAMC4xODc1IH5AMC4wOTM3NSBlNUAwLjA5Mzc1IGM1QDAuMTg3NSB%2BQDAuMDkzNzUgYzVAMC4wOTM3NSBjNUAwLjE4NzUgfkAwLjA5Mzc1IGM1QDAuMDkzNzUgYzVAMC4xODc1IH5AMC4wOTM3NSBjNUAwLjA5Mzc1IGc1QDAuMTg3NSB%2BQDAuMDkzNzUgZTVAMC4wOTM3NSBnNUAwLjE4NzUgfkAwLjA5Mzc1IGU1QDAuMDkzNzUgZzVAMC4xODc1IH5AMC4wOTM3NSBlNUAwLjA5Mzc1IGM1QDEuMTI1PgpgKS5zb3VuZCgiZ21fdHJ1bXBldCIpLmNvbG9yKCJ5ZWxsb3cgZ29sZGVucm9kIikuX3BpYW5vcm9sbCgpLl9waXRjaHdoZWVsKCkuX3Njb3BlKCkKCg%3D%3D"
+            }
+          ],
+          "index": {
+            "byteEnd": 121,
+            "byteStart": 95
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Last bit of #PowerShell #Strudel DECPS fun before I charge off to do other things (I promise)\n\nstrudel.cc#c2V0Y3BtKDEy..."
+    },
+    "cid": "bafyreicyxbwxjjujrhnedmllfvnkltwxxgxk2wpffzqsnh5lkuebxfj7iq"
+  }
+}
