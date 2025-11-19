@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763516396076817,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5x4o7ie742u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5x4o73svs2s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-19T01:39:55.612Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic5lolfynghtjbmko43ve2mx6ydouabmz6svczaqfyh5ux32hr5mq",
+          "uri": "at://did:plc:f4lboh5wyd4vvztvi2usnyjc/app.bsky.feed.post/3m5x3zwmmt22v"
+        },
+        "root": {
+          "cid": "bafyreifw2pngbuu5sxwjbgg2mwcdywnyv2gwhykdscmntiuvnxt2nxgn6y",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m5x3oeek5k2s"
+        }
+      },
+      "text": "There's a really old, barely supported, format for encoding musical notes in a C5-C7 scale in ANSI.\n\nA small change to this format would enable the whole MIDI tonal range and simplify the timing.\n\nCurrently:\n\n\"`e[$volume;$duration32nds;$notes,~\"\n\nThinking:\n\n\"`e[$Fraction;$notes,~\""
+    },
+    "cid": "bafyreiajtte2opp2tv7qatn3iau6rx3jwo7ipazyczlb3rrmcv7af4wfhm"
+  }
+}
