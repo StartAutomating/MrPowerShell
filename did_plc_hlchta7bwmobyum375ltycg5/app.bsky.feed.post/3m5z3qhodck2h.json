@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763584118042673,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5z3qi5fcd2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5z3qhodck2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-19T20:28:37.451Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihi22mirloj4wajnjee3vics67bgb7kc5gcce3yuvcqi5uu6jgcn4",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3m5z3ewuwrk2x"
+        },
+        "root": {
+          "cid": "bafyreibybnddi7tqf344zxennl4uxa4tigxk4ckml2hq4uuyi5eoqwvez4",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3m5yznsrnek2x"
+        }
+      },
+      "text": "Oh yeah I could see why that one might get flak.\n\nGimme a few minutes.\n\nThe idea is something like rise of mankind but with chevrons."
+    },
+    "cid": "bafyreiawz3llyixw67git6ry5ex4gqdpk6vqofldvcel32ybcqe4j4o2iy"
+  }
+}
