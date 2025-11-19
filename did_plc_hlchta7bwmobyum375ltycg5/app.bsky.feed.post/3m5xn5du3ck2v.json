@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763534083864803,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5xn5dna3t2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5xn5du3ck2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-19T06:34:43.786Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Maleficent recognizes game when it comes to black magic PowerShell",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiginbnip3j2vnditzzw54qqj526evkycg6icbpisnztlmvokj5cvy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 116239
+          },
+          "title": "a close up of a woman wearing a black costume with horns",
+          "uri": "https://media.tenor.com/KNddSWst7r8AAAAC/maleficent-risa.gif?hh=498&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibjwf2vngnuvrft4wizgif2xedblzogceosvat6zlfqoyz7ypb4um",
+          "uri": "at://did:plc:b5jl5nm7la735c7nepnadadv/app.bsky.feed.post/3m5xln5lusc2d"
+        },
+        "root": {
+          "cid": "bafyreigtjgss6dkhnvtulrsmupqtcvwm4bjglsv53pwzbhyc4qac6hnkum",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m5wudlzenc2h"
+        }
+      },
+      "text": "Oh, it is."
+    },
+    "cid": "bafyreiepkkc4jdp2sviaoysavttsnz3qvmxxoahrdwfic7oojxiaxf7zsa"
+  }
+}
