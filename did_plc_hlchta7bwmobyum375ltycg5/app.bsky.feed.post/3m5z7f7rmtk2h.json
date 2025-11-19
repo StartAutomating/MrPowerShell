@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763588035701243,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5z7fa62iq2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5z7f7rmtk2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-19T21:33:55.039Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigqrstza7vsqg2h32sa4nse2ad73227yiyezdd2w3zo75y7umfpku",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3m5z6zszxoc2k"
+        },
+        "root": {
+          "cid": "bafyreibybnddi7tqf344zxennl4uxa4tigxk4ckml2hq4uuyi5eoqwvez4",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3m5yznsrnek2x"
+        }
+      },
+      "text": "The other major delta is the lack of a \"window frame\".\n\nThat's what associates PowerShell's iconography with windows, and (IMO) the extra problematic part.\n\nBecause neither of these things is framed, we're not associating with windows.\n\nFWIW I might have flagged that old logo back in the day..."
+    },
+    "cid": "bafyreig4uz2oaj6bllajad5e22yn43kjuvbeou7vqyxplkkcwmhmwhariq"
+  }
+}
