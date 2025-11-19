@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763523958221976,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5xdpl6pxn2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5xdpkv2y22s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-19T03:45:57.721Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 89,
+            "byteStart": 81
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiflyxewdnrzbdzeg3h5tnw3ae6xrv7ugnr6thmdvhn4fu6ypsup7q",
+          "uri": "at://did:plc:dy6ekftqerqu5bcz76kgy6ux/app.bsky.feed.post/3m5xd662uec2i"
+        },
+        "root": {
+          "cid": "bafyreiarig2jfp6rszoii7ca24cv4w6mo3jipabfoknkyndbh2lynzzxou",
+          "uri": "at://did:plc:dy6ekftqerqu5bcz76kgy6ux/app.bsky.feed.post/3m5x726wyrk2i"
+        }
+      },
+      "text": "Thanks for bringing that site up!  \n\nI'll add it to another list.  Are they more #AtProto friendly?"
+    },
+    "cid": "bafyreihxsrppacmj5yqhuk4dbnr3hcj3c5ksafbpzezejzaoaafg2cjifm"
+  }
+}
