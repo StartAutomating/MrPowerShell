@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763519490816248,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5x7kgplm52y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5x7kg6wqc2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-19T02:31:30.061Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiarig2jfp6rszoii7ca24cv4w6mo3jipabfoknkyndbh2lynzzxou",
+          "uri": "at://did:plc:dy6ekftqerqu5bcz76kgy6ux/app.bsky.feed.post/3m5x726wyrk2i"
+        },
+        "root": {
+          "cid": "bafyreiarig2jfp6rszoii7ca24cv4w6mo3jipabfoknkyndbh2lynzzxou",
+          "uri": "at://did:plc:dy6ekftqerqu5bcz76kgy6ux/app.bsky.feed.post/3m5x726wyrk2i"
+        }
+      },
+      "text": "Yep.  One of the few things I don't like about Strudel is that they're fediverse oriented.\n\nThis is the sort of stuff that _begs_ for a lexicon.\n\nWorking on it, but collecting the data for now.\n\nI think that At Proto would benefit from a few richer lexicons, and Strudel audio would be one."
+    },
+    "cid": "bafyreifwcw7qdfmy6r6gr7hgrwk32pa6pcmwikd3457mt3q7cdhdy75j5q"
+  }
+}
