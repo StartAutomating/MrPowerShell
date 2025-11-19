@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763583634835748,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5z3c3bvve2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5z3c2r4p22h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-19T20:20:34.148Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaupipj7fp4y5bhhxmgv4ixfb4t7a7p546rncvqluqvyojrisgksm",
+          "uri": "at://did:plc:vnb4vohmhlbs3twdzoq4bvc5/app.bsky.feed.post/3m5z242z3yc2x"
+        },
+        "root": {
+          "cid": "bafyreiaupipj7fp4y5bhhxmgv4ixfb4t7a7p546rncvqluqvyojrisgksm",
+          "uri": "at://did:plc:vnb4vohmhlbs3twdzoq4bvc5/app.bsky.feed.post/3m5z242z3yc2x"
+        }
+      },
+      "text": "I hate picking favorites, but I'll try to name a few:\n\nTrinity of Discoverability:\n\n* Get-Command (gcm)\n* Get-Help \n* Get-Member (gm)\n\nBasic restful cmdlets:\n\nInvoke-RestMethod/WebRequest\n\nAsk me about _functions_ or _modules_ I love, and get a lot more."
+    },
+    "cid": "bafyreihvt2sh4rf3phykc4b4aeuwafyz6i4vxkohxovuhkajmjx3i477ru"
+  }
+}
