@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763588471994855,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5z7sacy222l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5z7s7basc2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-19T21:41:10.709Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicm23yt3abrfkfzjzpdpydqo7yel7lyrkndflckadhcdkulq3yvam",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3m5z7pzrjmk2l"
+        },
+        "root": {
+          "cid": "bafyreibybnddi7tqf344zxennl4uxa4tigxk4ckml2hq4uuyi5eoqwvez4",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3m5yznsrnek2x"
+        }
+      },
+      "text": "Call it one of the unexpected prices of success 😉"
+    },
+    "cid": "bafyreibnzp3owngje7pzg3stevvp2mjhufy4yfgm5bocsew6f7dzpltxce"
+  }
+}
