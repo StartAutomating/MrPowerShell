@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763587844801568,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5z77k6xe62f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5z77jtl6c2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-19T21:30:44.262Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigqrstza7vsqg2h32sa4nse2ad73227yiyezdd2w3zo75y7umfpku",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3m5z6zszxoc2k"
+        },
+        "root": {
+          "cid": "bafyreibybnddi7tqf344zxennl4uxa4tigxk4ckml2hq4uuyi5eoqwvez4",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3m5yznsrnek2x"
+        }
+      },
+      "text": "Well, I've been using mine for several year without too much trouble.\n\nAnd at a certain point it becomes very hard to trademark any chevron / triangle.\n\nSo, 🤞"
+    },
+    "cid": "bafyreighoff5d4cfurywdsmdqgu2qyaubcny32jkl7j2lajgdxpgbkvusm"
+  }
+}
