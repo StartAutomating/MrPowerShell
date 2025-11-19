@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763526187555477,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5xfryynpo25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5xfrx7rdk24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-19T04:23:05.246Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Yoda dances to the Star Wars theme made in Strudel:\n\n~~~strudel\nsetcpm(128/2)\nnote(`\n<\nf#5@0.625 f#5@0.625 f#5@0.625 d5@0.46875 a5@0.15625 f#5@0.625 d5@0.46875 a5@0.15625 f#5@1.25\nc#6@0.625 c#6@0.625 c#6@0.625 d6@0.46875 a5@0.15625 f5@0.625 d5@0.46875 a5@0.15625 f#5@1.25\nf#6@0.625 f#5@0.625 f#6@0.625 \nf6@0.3125 e6@0.3125 d#6@0.15625 d6@0.15625 d#6@0.3125 ~@0.3125 g5@0.3125 c6@0.625 \nb5@0.3125 a#5@0.3125 a5@0.15625 g#5@0.15625 a5@0.3125 ~@0.3125 d5@0.3125 f5@0.625 \nd5@0.46875 a5@0.15625 f#5@0.625 d5@0.46875 a5@0.15625 f#5@1.25\n>\n`).sound(\"piano, gm_tuba, gm_oboe, gm_cello, gm_voice_oohs, gm_choir_aahs\").color(\"blue red\")._pianoroll()._scope()\n~~~",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifwaujx2viimcyjwjrvljykhahqv26w2ktvc2wcwlkud44ue4il3a"
+            },
+            "mimeType": "image/jpeg",
+            "size": 605218
+          },
+          "title": "a close up of a statue of yoda with a sword",
+          "uri": "https://media.tenor.com/U170H9m1W80AAAAC/may-the-fourth-be-with-you.gif?hh=498&ww=393"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 37,
+            "byteStart": 26
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Strudel"
+            }
+          ],
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 41
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "StarWars"
+            }
+          ],
+          "index": {
+            "byteEnd": 61,
+            "byteStart": 52
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://strudel.cc/#c2V0Y3BtKDEyOC8yKQpub3RlKGAKPApmIzVAMC42MjUgZiM1QDAuNjI1IGYjNUAwLjYyNSBkNUAwLjQ2ODc1IGE1QDAuMTU2MjUgZiM1QDAuNjI1IGQ1QDAuNDY4NzUgYTVAMC4xNTYyNSBmIzVAMS4yNQpjIzZAMC42MjUgYyM2QDAuNjI1IGMjNkAwLjYyNSBkNkAwLjQ2ODc1IGE1QDAuMTU2MjUgZjVAMC42MjUgZDVAMC40Njg3NSBhNUAwLjE1NjI1IGYjNUAxLjI1CmYjNkAwLjYyNSBmIzVAMC42MjUgZiM2QDAuNjI1IApmNkAwLjMxMjUgZTZAMC4zMTI1IGQjNkAwLjE1NjI1IGQ2QDAuMTU2MjUgZCM2QDAuMzEyNSB%2BQDAuMzEyNSBnNUAwLjMxMjUgYzZAMC42MjUgCmI1QDAuMzEyNSBhIzVAMC4zMTI1IGE1QDAuMTU2MjUgZyM1QDAuMTU2MjUgYTVAMC4zMTI1IH5AMC4zMTI1IGQ1QDAuMzEyNSBmNUAwLjYyNSAKZDVAMC40Njg3NSBhNUAwLjE1NjI1IGYjNUAwLjYyNSBkNUAwLjQ2ODc1IGE1QDAuMTU2MjUgZiM1QDEuMjUKPgpgKS5zb3VuZCgicGlhbm8sIGdtX3R1YmEsIGdtX29ib2UsIGdtX2NlbGxvLCBnbV92b2ljZV9vb2hzLCBnbV9jaG9pcl9hYWhzIikuY29sb3IoImJsdWUgcmVkIikuX3BpYW5vcm9sbCgpLl9zY29wZSgpCgo%3D"
+            }
+          ],
+          "index": {
+            "byteEnd": 99,
+            "byteStart": 73
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "We have achieved DECPS -> #PowerShell -> #Strudel \n\n#StarWars 👽 😎\n\nstrudel.cc#c2V0Y3BtKDEy..."
+    },
+    "cid": "bafyreib3vyie2ipf7523u4bmbf4gmomsdzjiyx7xttwuzpemzzu3kvyrha"
+  }
+}
