@@ -1,0 +1,126 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763589714155243,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5zaxasalr2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5zax7swak2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-19T22:01:52.803Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Strudel is a music live coding environment for the browser, porting the TidalCycles pattern language to JavaScript.",
+          "title": "Strudel REPL",
+          "uri": "https://strudel.cc/#c2V0Y3BtKDEyOC8yKQpub3RlKGAKPGM1QDAuMDYyNSBkNUAwLjA2MjUgZTVAMC4wNjI1IGY1QDAuMjUgYTVAMC4yNSBnNUAwLjI1IGEjNUAwLjI1IGE1QDAuMTI1IGEjNUAwLjEyNSBjNkAwLjEyNSBhNUAwLjEyNSBnNUAwLjI1IGEjNUAwLjI1IGE1QDAuMTI1IGEjNUAwLjEyNSBjNkAwLjEyNSBhNUAwLjEyNSBhIzVAMC4xMjUgYzZAMC4xMjUgZDZAMC4xMjUgZTZAMC4xMjUgZjZAMC4yNSBlNkAwLjI1IGY2QDAuMjU%2BCmApLnNvdW5kKCJzYXciKS5jb2xvcigieWVsbG93IGdvbGRlbnJvZCIpLl9waWFub3JvbGwoKS5fcGl0Y2h3aGVlbCgpLl9zY29wZSgpCgo%3D"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Retro"
+            }
+          ],
+          "index": {
+            "byteEnd": 22,
+            "byteStart": 16
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "VideoGame"
+            }
+          ],
+          "index": {
+            "byteEnd": 33,
+            "byteStart": 23
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 71,
+            "byteStart": 60
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Strudel"
+            }
+          ],
+          "index": {
+            "byteEnd": 83,
+            "byteStart": 75
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MusicTheory"
+            }
+          ],
+          "index": {
+            "byteEnd": 202,
+            "byteStart": 190
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GameDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 215,
+            "byteStart": 207
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "NameThatTune"
+            }
+          ],
+          "index": {
+            "byteEnd": 231,
+            "byteStart": 218
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://strudel.cc/#c2V0Y3BtKDEyOC8yKQpub3RlKGAKPGM1QDAuMDYyNSBkNUAwLjA2MjUgZTVAMC4wNjI1IGY1QDAuMjUgYTVAMC4yNSBnNUAwLjI1IGEjNUAwLjI1IGE1QDAuMTI1IGEjNUAwLjEyNSBjNkAwLjEyNSBhNUAwLjEyNSBnNUAwLjI1IGEjNUAwLjI1IGE1QDAuMTI1IGEjNUAwLjEyNSBjNkAwLjEyNSBhNUAwLjEyNSBhIzVAMC4xMjUgYzZAMC4xMjUgZDZAMC4xMjUgZTZAMC4xMjUgZjZAMC4yNSBlNkAwLjI1IGY2QDAuMjU%2BCmApLnNvdW5kKCJzYXciKS5jb2xvcigieWVsbG93IGdvbGRlbnJvZCIpLl9waWFub3JvbGwoKS5fcGl0Y2h3aGVlbCgpLl9zY29wZSgpCgo%3D"
+            }
+          ],
+          "index": {
+            "byteEnd": 293,
+            "byteStart": 267
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Another classic #Retro #VideoGame tune ported from DECPS to #PowerShell to #Strudel:\n\nAnyone else got any old video game themes to share?\n\nSeems like they might be a great way to learn some #MusicTheory for #GameDev \n\n#NameThatTune (bonus point for correct edition)\n\nstrudel.cc#c2V0Y3BtKDEy..."
+    },
+    "cid": "bafyreiegvrrpwdsz6ch2dyyqg7sqba7qxjgxi4unr25y5eqe5rykgp3iiu"
+  }
+}
