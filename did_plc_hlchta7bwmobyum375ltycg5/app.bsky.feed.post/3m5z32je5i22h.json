@@ -1,0 +1,51 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763583381538873,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5z32jrbbo2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5z32je5i22h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-19T20:16:21.016Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreigtjgss6dkhnvtulrsmupqtcvwm4bjglsv53pwzbhyc4qac6hnkum",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m5wudlzenc2h"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/mrpowershell.com/post/3m5wudlzenc2h"
+            }
+          ],
+          "index": {
+            "byteEnd": 80,
+            "byteStart": 56
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibybnddi7tqf344zxennl4uxa4tigxk4ckml2hq4uuyi5eoqwvez4",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3m5yznsrnek2x"
+        },
+        "root": {
+          "cid": "bafyreibybnddi7tqf344zxennl4uxa4tigxk4ckml2hq4uuyi5eoqwvez4",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3m5yznsrnek2x"
+        }
+      },
+      "text": "Well, at least you can make that in PowerShell now ;-)\n\nbsky.app/profile/mrpo...\n\nIn all seriousness, I'd love to take a crack at some logo design with Turtle or PSSVG.\n\nKinda got a thought in mind.  Gimme the green light and I'll whip it up and share."
+    },
+    "cid": "bafyreibm4pyvmi4xx76trlfftkghmmh6buewqvyzyhwqmbzkaablw4sfh4"
+  }
+}
