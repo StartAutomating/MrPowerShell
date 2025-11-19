@@ -1,0 +1,88 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763585585979703,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5z544wgza2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5z53wiy722h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-19T20:52:55.841Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "<#\n.SYNOPSIS\n    PowerShell Pro Tools Logo\n.DESCRIPTION\n    An attempt at a PowerShell Pro Tools Logo, written in Turtle PowerShell\n.NOTES\n    Must be running chrome or chromium to save to PNG.\n.LINK\n    https://bsky.app/profile/adamrdriscoll.com/post/3m5z3ewuwrk2x\n#>\nparam(\n# The thickness of the chevron\n[double]\n$thickness = 42,\n\n# The length of each side\n[double]\n$SideLength = 420,\n\n# The distance between each chevron\n[double]\n$JumpDistance = 1kb,\n\n# The number of repetitions.\n# Each repetition is a base multiplier, making the image grow as we scale.\n[ValidateRange(1,16)]\n[int]\n$RepeatCount = 3\n)\n\n\nturtle fill '#4488ff' @(\n    foreach ($n in 1..$RepeatCount) {\n        'forward',($n * $thickness)\n        \n        'rotate',-45\n\n        'forward',($n * $SideLength)\n        \n        'rotate',-90\n        \n        'forward',($n * $SideLength)\n        \n        'rotate',135\n        \n        'forward', ($n * $thickness * -1)\n\n        'rotate', 45\n        \n        'forward',($n * $SideLength)\n\n        'rotate', 90\n\n        'forward',($n * $SideLength)\n\n        'rotate', 225\n\n        'jump', $jumpDistance\n    }\n) stroke '#224488' save ./PowerShellProTools.svg save ./PowerShellProTools.png\n\n",
+            "aspectRatio": {
+              "height": 1159,
+              "width": 2000
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigaocawszbl63ditqjcmntfgc7lkitw5xatlssepb4m7oq2y4jlv4"
+              },
+              "mimeType": "image/jpeg",
+              "size": 244486
+            }
+          }
+        ]
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 91,
+            "byteStart": 80
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 129,
+            "byteStart": 122
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TurtlePower"
+            }
+          ],
+          "index": {
+            "byteEnd": 142,
+            "byteStart": 130
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihi22mirloj4wajnjee3vics67bgb7kc5gcce3yuvcqi5uu6jgcn4",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3m5z3ewuwrk2x"
+        },
+        "root": {
+          "cid": "bafyreibybnddi7tqf344zxennl4uxa4tigxk4ckml2hq4uuyi5eoqwvez4",
+          "uri": "at://did:plc:sqraalz5tsmoy3upwcjtpepl/app.bsky.feed.post/3m5yznsrnek2x"
+        }
+      },
+      "text": "How's this for a first try?\n\nAnd, I absolutely love adding these bonus points:\n\n#PowerShell Source code in the alt text!\n\n#Turtle #TurtlePower\n\nBonus points:  there are parameters so you can play around.\n\nHave fun!"
+    },
+    "cid": "bafyreieq4y7wpgwwubwvsfxrfcs7wnp676iykeeaklo5qnfnkvhco4o26i"
+  }
+}
