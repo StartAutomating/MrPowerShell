@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763523233941212,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m5xczyim2q2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m5xczxs7722h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-19T03:33:53.06Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "My BlueSky feed, but just the tags",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidarwkxp4jmlkkhyk4m7q5cpzbh2nl4tubxpfiblzgsklnuwupzue"
+            },
+            "mimeType": "image/jpeg",
+            "size": 138088
+          },
+          "title": "Tags",
+          "uri": "https://MrPowerShell.com/Tags"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 80,
+            "byteStart": 72
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://MrPowerShell.com/Tags"
+            }
+          ],
+          "index": {
+            "byteEnd": 167,
+            "byteStart": 146
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidpkm4f6d4oyeubgf3cafshfflft5lhjtubakcjss2nbnse263jyu",
+          "uri": "at://did:plc:dy6ekftqerqu5bcz76kgy6ux/app.bsky.feed.post/3m5xcwn6cjs2i"
+        },
+        "root": {
+          "cid": "bafyreiarig2jfp6rszoii7ca24cv4w6mo3jipabfoknkyndbh2lynzzxou",
+          "uri": "at://did:plc:dy6ekftqerqu5bcz76kgy6ux/app.bsky.feed.post/3m5x726wyrk2i"
+        }
+      },
+      "text": "Sort of.  I've been having a lot of fun with static site generation and #AtProto.\n\nFor example, it's kinda comical how I live up to my namesake:\n\nmrpowershell.com/Tags"
+    },
+    "cid": "bafyreigjr45t7fs3tfbud6ardr5p7hq7wfdd2ynewnsqzhjsfca2klxrwe"
+  }
+}
