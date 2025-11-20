@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763665825530083,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m63htkhh4s2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m63hthx6lk2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-20T19:10:22.782Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidxkoq6jzbylfkwakcxmtyti3r2t5n72jgithsbbyuaz734ocmlni",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3m63e5ohucc2e"
+        },
+        "root": {
+          "cid": "bafyreidxkoq6jzbylfkwakcxmtyti3r2t5n72jgithsbbyuaz734ocmlni",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3m63e5ohucc2e"
+        }
+      },
+      "text": "Yeah, probably approximately N minutes after being told they were being let go so the org could resume clicking on things all of the time.\n\nWith great PowerShell comes great responsibility.\n\nSad to see someone break the creed."
+    },
+    "cid": "bafyreib6gnq45gtokdnajo7ijeqq3qgpkcx6l6fh22tsr5eb65opj4qirm"
+  }
+}
