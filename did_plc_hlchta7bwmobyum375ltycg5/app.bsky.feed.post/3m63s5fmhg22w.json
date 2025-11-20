@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763676894136013,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m63s5gcapd2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m63s5fmhg22w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-20T22:14:53.297Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih5dz5zug2af7tvtrrttogjdqtdl2u3z7cjdhmwj4s5oay2fomrji",
+          "uri": "at://did:plc:uzwynznfsovoan2zfrcxbuy5/app.bsky.feed.post/3m63qfj7r2k2n"
+        },
+        "root": {
+          "cid": "bafyreih5dz5zug2af7tvtrrttogjdqtdl2u3z7cjdhmwj4s5oay2fomrji",
+          "uri": "at://did:plc:uzwynznfsovoan2zfrcxbuy5/app.bsky.feed.post/3m63qfj7r2k2n"
+        }
+      },
+      "text": "Congrats!  Truly the most satisfying way to get it done.\n\nThis is the way you truly learn... fighting step by step to get something you need fixed automagically.\n\nAnd the knowledge that you did it, without anyone else's help, is generally pretty satisfying!"
+    },
+    "cid": "bafyreia56t6du2prhmx5a7kufm32oloo26nouk6gwh2jt66o5g5niiksom"
+  }
+}
