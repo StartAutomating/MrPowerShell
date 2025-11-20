@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763666127933911,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m63i4kprfu2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m63i4idl6k2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-20T19:15:25.179Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPI"
+            }
+          ],
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 97
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihij53inwtlxmatyozm3iaulhgpivxrhl7xdozwtpqmwbjd76pvbq",
+          "uri": "at://did:plc:bfuc6nma56f3yn7vy4aantdg/app.bsky.feed.post/3m632edzxws2z"
+        },
+        "root": {
+          "cid": "bafyreihvr6iimszmgie746b342656dao2kpvcwrq6mo6wqffaaycwoqwiy",
+          "uri": "at://did:plc:v6hkwlrkoi34v4zsanhwft2d/app.bsky.feed.post/3m5yjgi75k222"
+        }
+      },
+      "text": "Sadly have not gotten around to it yet (possibly because I've been doing most of my dailies on a #RaspberryPI for the past few months).\n\nHappy to vet any script you link, and might make something if people ask enough times."
+    },
+    "cid": "bafyreih4gfi3dwxzofrpzvv4jfaeq4qi5qudbgsxkdgrtxfm5epxvo4b2q"
+  }
+}
