@@ -1,0 +1,34 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763758625166938,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m666b6kwom2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m666b5znk22d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-21T20:57:03.936Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 58
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "You know, it's not every day I see a new (to me) error in #PowerShell.\n\nThis what happens when you define a class that references itself inside of a .psm1:\n\nImport-Module: The invoked member is not supported before the type is created.\n\n🤷 Accurate but completely impossible to guess. 🤦"
+    },
+    "cid": "bafyreiflmf3miucjrq7zz6cyo4u3aackf6hpzivud2iddfusexj5bjfwgy"
+  }
+}
