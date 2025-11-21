@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763758903191356,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m666jiamt32b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m666ji53ok2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-21T21:01:42.971Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 38,
+            "byteStart": 35
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 84,
+            "byteStart": 73
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Sometimes I wonder how much better #AI would be if it actually _learned_ #PowerShell thru the copious documentation, help, and examples that exist."
+    },
+    "cid": "bafyreid2pqbictpx7fyegu6fux3k4utpjykej6tmwr76dmh2sy5dlmvs4i"
+  }
+}
