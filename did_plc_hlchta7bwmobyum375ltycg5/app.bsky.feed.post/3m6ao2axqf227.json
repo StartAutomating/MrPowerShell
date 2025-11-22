@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763844291962329,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6ao2bbnrp2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6ao2axqf227",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-22T20:44:51.484Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicflcpwhokpt4v2gdbydjown6y4gfqa4jpuzyqecdyby6hvdion5y",
+          "uri": "at://did:plc:tv4wycnplpn26uzkdw5fui4k/app.bsky.feed.post/3m67qmkx42k2y"
+        },
+        "root": {
+          "cid": "bafyreifzf3p7mojapy76cnbs5mg2wmndthwcyyjb2cz7cqrf7zlaw6xnh4",
+          "uri": "at://did:plc:qva6zago4agr25tkiu6rbyw6/app.bsky.feed.post/3m665nsxjpk2f"
+        }
+      },
+      "text": "Vista's real issue was the fact that it used a server thread scheduler rather than a client thread scheduler, so all windows fought for resources (rather than boosting the window you're working in like a normal client OS should).\n\n(sorry, ex-MSFT, ex-Vista engineer)"
+    },
+    "cid": "bafyreiguosu5j44hh56bqsoi6wvmph5244fyaackugb2zhk6l42354kgwa"
+  }
+}
