@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763777814538133,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m66q532mlg2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m66q52qzrs2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-22T02:16:53.643Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidmfjgrleasrntkaiswdezoymaejg6n42o6tsweq6ndsd37w7p3f4",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3m66pxlfock2u"
+        },
+        "root": {
+          "cid": "bafyreig5j4zieskw6s4gfedrv7zpjiirncxkbrzozsp2d7iwrfdr2u7owa",
+          "uri": "at://did:plc:ikoxyyfzoskybh3hqw4onbi5/app.bsky.feed.post/3m666wpm2k22w"
+        }
+      },
+      "text": "Yeah, it's more I'd prefer that PowerShell's UI ecosystem hadn't banked so hard on WPF and the ISE, or on \"megaframeworks\" for Web UI (including ones I have made).\n\nI wish we'd been focusing more on \"here is you you write other apps with PowerShell\", and had a ton of PowerShell making HTML/CSS/JS."
+    },
+    "cid": "bafyreid3stjkixthamxuhbcka2aptc5exsmtda4enjqrpwfxity2cmfguu"
+  }
+}
