@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763845140743239,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6aotkrgux25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6aotiyjes2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-22T20:58:58.76Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibr77hqommgsg3vkgeahotb2q42ghiuqwbqvj6dyebdwaalqz7ocu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m6aoqmjd222d"
+        },
+        "root": {
+          "cid": "bafyreifzf3p7mojapy76cnbs5mg2wmndthwcyyjb2cz7cqrf7zlaw6xnh4",
+          "uri": "at://did:plc:qva6zago4agr25tkiu6rbyw6/app.bsky.feed.post/3m665nsxjpk2f"
+        }
+      },
+      "text": "So without fairly rare \"proper\" hardware, and glass turned on, your poor little CPU would be trying to compute N windows' transparent frames every time the WM_PAINT message would come thru.\n\nAnd that math scaled out pretty poorly."
+    },
+    "cid": "bafyreihj2pmiom6pwjsthbjzroswyyhwglru2jsbc7qyuq4vlwjb6ukyeu"
+  }
+}
