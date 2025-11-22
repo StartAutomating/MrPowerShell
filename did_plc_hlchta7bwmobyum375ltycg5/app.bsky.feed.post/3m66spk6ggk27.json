@@ -1,0 +1,173 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763780585469494,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m66spkiqbz2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m66spk6ggk27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-22T03:03:01.272Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreidtieu7hg3mnu6ju4fjjmgf6mdv4pwfbchsodwxxqku42agkhutmu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m66pgzizys2d"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 20,
+            "byteStart": 9
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 28,
+            "byteStart": 21
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Metaprogramming"
+            }
+          ],
+          "index": {
+            "byteEnd": 72,
+            "byteStart": 56
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 94,
+            "byteStart": 83
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 102,
+            "byteStart": 98
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 133,
+            "byteStart": 122
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "HTML"
+            }
+          ],
+          "index": {
+            "byteEnd": 142,
+            "byteStart": 137
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 149,
+            "byteStart": 145
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "XML"
+            }
+          ],
+          "index": {
+            "byteEnd": 156,
+            "byteStart": 152
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 215,
+            "byteStart": 204
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JS"
+            }
+          ],
+          "index": {
+            "byteEnd": 222,
+            "byteStart": 219
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/mrpowershell.com/post/3m66pgzizys2d"
+            }
+          ],
+          "index": {
+            "byteEnd": 293,
+            "byteStart": 269
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Here's a #PowerShell #WebDev tip:\n\nI don't say enough: \n#Metaprogramming is easy!\n\n#PowerShell -> #CSS - \"${key}:$Value;\"\n#PowerShell -> #HTML / #SVG / #XML - \"<$Element $Attributes>$Children</$Element>\"\n#PowerShell -> #JS\n\"$Modifier $VariableName = $Expression\"\n\nre:\n\nbsky.app/profile/mrpo..."
+    },
+    "cid": "bafyreig5wmiowjxg6dosrwmzchajclh6ps4zrcve6vklbd55yqnnmz2uum"
+  }
+}
