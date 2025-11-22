@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763777078652969,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m66ph4jhpo2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m66pgzizys2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-22T02:04:34.135Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Where to start and where to stop?  Never liked the name ISE.  Did really like that I convinced the developer and PM to switch to STA, thus enabling all of the scripted UI/WPF ecosystem stuff you still see to this day.\n\nOf course that ecosystem is basically gone now.  It's frozen in time, disincentivized to ever improve or change, because the ISE will never improve or change.  ISE's color scheme was so bright.  It's future is so dark.\n\nMore than anything else, I miss the potential of it's codename versus the reality of what it was.\n\nOriginally the name was \"Graphical PowerShell\", and I keep meaning to make one of those.  Maybe it will be interesting.  Maybe it will be cool.  Maybe it will last longer than the \"Integrated Scripting Environment\".  Maybe it won't.\n\nIt's just a lot to think about, and not all of it good.\n\nHence anytime I think too much about the ISE and all of the battles fought and won and lost for nothing, it's \"hello darkness my old friend...\"",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigbcudi3zo4bzlrshu7xcxa3ln47vsocbvx7kvvfkbasmh2go4564"
+            },
+            "mimeType": "image/jpeg",
+            "size": 553466
+          },
+          "title": "a man says hello darkness my old friend",
+          "uri": "https://media.tenor.com/r9CH6oQFfw0AAAAC/ben-affleck-thinking.gif?hh=281&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 40,
+            "byteStart": 29
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid2fxgb2vmnnkdsw42c6mgh3hwzmt6mxekyq5lk54ow6rtjzz4dza",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3m66ojxkdok2p"
+        },
+        "root": {
+          "cid": "bafyreig5j4zieskw6s4gfedrv7zpjiirncxkbrzozsp2d7iwrfdr2u7owa",
+          "uri": "at://did:plc:ikoxyyfzoskybh3hqw4onbi5/app.bsky.feed.post/3m666wpm2k22w"
+        }
+      },
+      "text": "Me every time I think of the #PowerShell ISE.\n\nThoughts on all it could have been, and all it was, in the alt text."
+    },
+    "cid": "bafyreidtieu7hg3mnu6ju4fjjmgf6mdv4pwfbchsodwxxqku42agkhutmu"
+  }
+}
