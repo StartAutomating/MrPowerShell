@@ -3,6 +3,7 @@ $title = "Resume"
 $description = "My Long Professional History"
 $myResume = ./MyResume @PSBoundParameters
 $myResume.ToJson() > ./My.Resume.json
+$myResume
 if (-not $variant) {
 
     foreach ($variant in 'DevOps', 'Cybersecurity', 'Full Stack', 'Design Engineering') {
@@ -11,4 +12,3 @@ if (-not $variant) {
     }
     
 }
-$myResume
