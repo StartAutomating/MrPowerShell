@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763845045744546,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6aoqq3zcg2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6aoqmjd222d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-22T20:57:21.792Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihgor2x7k5vge6chykcfhbvpd7jk6zqnfyeeq46n4jybytzvftn24",
+          "uri": "at://did:plc:tv4wycnplpn26uzkdw5fui4k/app.bsky.feed.post/3m6aonhekuk2b"
+        },
+        "root": {
+          "cid": "bafyreifzf3p7mojapy76cnbs5mg2wmndthwcyyjb2cz7cqrf7zlaw6xnh4",
+          "uri": "at://did:plc:qva6zago4agr25tkiu6rbyw6/app.bsky.feed.post/3m665nsxjpk2f"
+        }
+      },
+      "text": "I mean not tons, but it probably didn't hurt as much as you'd expect.  Vista tried to be at least smart about which effects it would turn on / off based off of performance characteristics.\n\nBut everyone _wanted_ glass windows, and most video cards at the time couldn't do them."
+    },
+    "cid": "bafyreibr77hqommgsg3vkgeahotb2q42ghiuqwbqvj6dyebdwaalqz7ocu"
+  }
+}
