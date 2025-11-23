@@ -1,0 +1,90 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1763855745900323,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6aypljrm52p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6ayplblqk2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-22T23:55:44.354Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Strudel is a music live coding environment for the browser, porting the TidalCycles pattern language to JavaScript.",
+          "title": "Strudel REPL",
+          "uri": "https://strudel.cc/#c2V0Y3BtKDEyOCkKbm90ZShgCjwKNjEgNjQgCjYxIDY0IAo2MSA2NCAKNjEgNjQgNjEgNjQgNjEgNjQgNjEgNjQgNjEgNjQgNTcgNjEgNjQgNTcgNjEgNjQgNTcgNjIgNjYgNTcgNjIgNjYgNjAgNjYgNjEgNjQgNjEgNjMgNjAgNjMgNjEgNjEgNjQgNjEgNjQgNjggNjEgNjQgNjggNjggNjMgNjYgNjMgNjYgNjMgNjYgNjggNjMgNjYgNjggNjggNjEgNjQgNjEgNjQgNjkgNTcgNjEgNjYgNTcgNjEgNjYgNjggNTkgNjQgNTkgNjQgNjYgNTcgNTkgNjMgNTcgNzEgNTkgNjMgNjQgNTkgNjQgNTkgNjQgNTkgNjQgNTkgNjQgNTkgNjQgNTkgNjQgNTkgNjQgNjcgNTkgNjQgNjcgNjcgNTkgNjUgNTkgNjUgNTkgNjUgNjcgNTkgNjUgNjcgNjcgNjAgNjQgNTkgNjQgNjEgNjQgNjYgNjEgNjQgNjYgNTkgNjIgNTkgNjIgNjcgNTkgNjEgNjQgNTkgNjEgNjYgNTkgNjIgNTkgNjIgNjYgNTggNjEgNTggNjEgNTkgNjIgNjYgNTkgNjIgNjYgNTkgNjMgNjYgNzEgNTkgNjMgNjYgNTkgNzIgNjQgNjcgNTkgNjQgNjcgNTkgNjQgNjcgNzAgNTkgNjQgNjcgNzEgNTkgNjMgNjYgNTkgNjMgNjYgNTkgNjMgNjYgNTkgNzEgNjMgNjYgNTkgNzIgNjQgNjcgNTkgNjQgNjcgNTkgNjQgNjcgNTkgNzAgNjQgNjcgNzEgNTkgNjMgNjYgNTkgNjMgNjYgNTkgNzEgNjIgNjUgNTkgNjIgNjUgNTkgNzEgNjEgNjggNTkgNjEgNjggNjkgNTcgNjEgNjYgNTcgNjEgNjYgNjcgNTkgNjIgNTkgNjIgNjYgNTcgNjMgNTcgNjMgNjEgNTcgNTcgNjEgNjEgNTcgNjEgNTcgNjEgNjYgNjEgNjYgNjkgNjEgNzMgNjYgNjkgNzMgNzMgNjEgNjggNzEgNjEgNjggNzEgNjEgNjggNzEgNzMgNjEgNjggNzEgNzMgNzMgNjEgNjYgNjkgNjEgNjYgNjkgNjAgNzIgNjYgNjkgNzMgNjEgNjYgNjkgNjMgNzUgNjYgNjggNjMgNjYgNjggNjMgNjYgNjggNzUgNjMgNjYgNjggNzYgNjQgNjggNzMgNjQgNjggNzMgNzUgNjMgNjYgNjkgNzMgNjEgNjQgNzAgNzIgNjAgNjMgNjggNjAgNjMgNjkgNjAgNjMgNjYgNjAgNjMgNTcgNjQgNjggNzMgNjQgNjggNzYgNjQgNjggNzMgNjQgNjggNjEgNjQgNjEgNTcgNjAgNTcgNjMgNjAgNjYgNjMgNjkgNjYgNzIgNjEgNjQgNjEgNjggNjQgNzMgNjggNzYgNzMgNjggNjEgNjcgNjQgNzAgNjcgNzMgNzAgNzYgNzMgNzkgNzYgODIgNjYgNzIgNjkgNzUgNzIgNzggNzUgODEgNzggODQgODEgODcgODQgNzggODEgNzUgNzggNzIgNzUgNjkgNzIgNjYgNjkgNjMgNjYgNjAgNjMgNTcgNjAgNTcgNTcgNTcgNTcgNTcgNTcgNTcgNTcgNTcgNjEgNjEgNTcgNjEgNTcgNjEgNjAgNjAgNjEgNjEgNjQgNjEgNjQgNjggNjEgNjQgNjggNjggNjMgNjYgNjMgNjYgNjMgNjYgNjggNjMgNjYgNjggNjggNjEgNjQgNjEgNjQgNjkgNTcgNjEgNjYgNTcgNjEgNjYgNjggNTkgNjQgNTkgNjQgNTcgNjYgNTkgNjMgNTcgNzEgNTkgNjMgNjQgNTkgNjQgNTkgNjQgNjggNTkgNjQgNjggNzEgNTkgNjQgNjggNzEgNzEgNTkgNjYgNjkgNTkgNjYgNjkgNTkgNjYgNjkgNTkgNzEgNjYgNjkgNzEgNzEgNTkgNjQgNjggNTkgNjQgNjggNjAgNzIgNjYgNjggNjEgNzMgNjQgNjggNjMgNzUgNjYgNjggNjMgNjYgNjggNjQgNzYgNjggNzMgNjQgNjggNzMgNjIgNzQgNjYgNjkgNjIgNjYgNjkgNzIgNjAgNjYgNjggNjAgNjYgNjggNzMgNjEgNjQgNjggNjEgNjQgNjggNjEgNjUgNjggNjEgNzMgNjUgNjggNjEgNzQgNjYgNjkgNjEgNjYgNjkgNTcgNjEgNjYgNjkgNjEgNzIgNjYgNjkgNzMgNjEgNjUgNjggNjEgNjUgNjggNjEgNjUgNjggNjEgNzMgNjUgNjggNjEgNzQgNjYgNjkgNjEgNjYgNjkgNTcgNjEgNjYgNjkgNjEgNzIgNjYgNjkgNzMgNjEgNjUgNjggNjEgNjUgNjggNjEgNzMgNjYgNjkgNjEgNjYgNjkgNzEgNTkgNjYgNjkgNTkgNjYgNjkgNTkgNjYgNjkgNTkgNzEgNjQgNjggNTcgNjkgNjQgNjggNTcgNjkgNjMgNjYgNjggNjMgNjYgNjggNjEgNjQgNjYgNjEgNjMgNjEgNjMgNjggNjEgNjMgNjkgNTcgNjEgNjMgNjggNjEgNjQgNjEgNjQgNjggNjAgNjMgNjAgNjMgNjEgNjEgNjEgNjQgNjEgNjQgNjEgNjQgNjMgNjYgNjMgNjYgNjMgNjYgNjMgNjYgNjQgNjEgNjggNjQgNzMgNjggNzYgNzMgODAgNzYgNzMgNzIgNzUgNjkgNzIgNjYgNjkgNjMgNjYgNTcgNjAgNjEgNjQgNjEgNjggNjQgNzMgNjggNzYgNzMgODAgNzYgNzMgNzIgNzUgNjkgNzIgNjYgNjkgNjMgNjYgNTcgNjAgNjEgNjEgNjQgNjEgNjEgNjEgNjEKPgpgKS5zb3VuZCgiZ21fZXBpYW5vMiIpLmNvbG9yKCIjNDQ4OGZmICMyMjQ0ODgiKS5fcGlhbm9yb2xsKCkuX3BpdGNod2hlZWwoKS5fc2NvcGUoKQoK"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MIDI"
+            }
+          ],
+          "index": {
+            "byteEnd": 40,
+            "byteStart": 35
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 64,
+            "byteStart": 53
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Strudel"
+            }
+          ],
+          "index": {
+            "byteEnd": 117,
+            "byteStart": 109
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "NameThatTune"
+            }
+          ],
+          "index": {
+            "byteEnd": 161,
+            "byteStart": 148
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://strudel.cc/#c2V0Y3BtKDEyOCkKbm90ZShgCjwKNjEgNjQgCjYxIDY0IAo2MSA2NCAKNjEgNjQgNjEgNjQgNjEgNjQgNjEgNjQgNjEgNjQgNTcgNjEgNjQgNTcgNjEgNjQgNTcgNjIgNjYgNTcgNjIgNjYgNjAgNjYgNjEgNjQgNjEgNjMgNjAgNjMgNjEgNjEgNjQgNjEgNjQgNjggNjEgNjQgNjggNjggNjMgNjYgNjMgNjYgNjMgNjYgNjggNjMgNjYgNjggNjggNjEgNjQgNjEgNjQgNjkgNTcgNjEgNjYgNTcgNjEgNjYgNjggNTkgNjQgNTkgNjQgNjYgNTcgNTkgNjMgNTcgNzEgNTkgNjMgNjQgNTkgNjQgNTkgNjQgNTkgNjQgNTkgNjQgNTkgNjQgNTkgNjQgNTkgNjQgNjcgNTkgNjQgNjcgNjcgNTkgNjUgNTkgNjUgNTkgNjUgNjcgNTkgNjUgNjcgNjcgNjAgNjQgNTkgNjQgNjEgNjQgNjYgNjEgNjQgNjYgNTkgNjIgNTkgNjIgNjcgNTkgNjEgNjQgNTkgNjEgNjYgNTkgNjIgNTkgNjIgNjYgNTggNjEgNTggNjEgNTkgNjIgNjYgNTkgNjIgNjYgNTkgNjMgNjYgNzEgNTkgNjMgNjYgNTkgNzIgNjQgNjcgNTkgNjQgNjcgNTkgNjQgNjcgNzAgNTkgNjQgNjcgNzEgNTkgNjMgNjYgNTkgNjMgNjYgNTkgNjMgNjYgNTkgNzEgNjMgNjYgNTkgNzIgNjQgNjcgNTkgNjQgNjcgNTkgNjQgNjcgNTkgNzAgNjQgNjcgNzEgNTkgNjMgNjYgNTkgNjMgNjYgNTkgNzEgNjIgNjUgNTkgNjIgNjUgNTkgNzEgNjEgNjggNTkgNjEgNjggNjkgNTcgNjEgNjYgNTcgNjEgNjYgNjcgNTkgNjIgNTkgNjIgNjYgNTcgNjMgNTcgNjMgNjEgNTcgNTcgNjEgNjEgNTcgNjEgNTcgNjEgNjYgNjEgNjYgNjkgNjEgNzMgNjYgNjkgNzMgNzMgNjEgNjggNzEgNjEgNjggNzEgNjEgNjggNzEgNzMgNjEgNjggNzEgNzMgNzMgNjEgNjYgNjkgNjEgNjYgNjkgNjAgNzIgNjYgNjkgNzMgNjEgNjYgNjkgNjMgNzUgNjYgNjggNjMgNjYgNjggNjMgNjYgNjggNzUgNjMgNjYgNjggNzYgNjQgNjggNzMgNjQgNjggNzMgNzUgNjMgNjYgNjkgNzMgNjEgNjQgNzAgNzIgNjAgNjMgNjggNjAgNjMgNjkgNjAgNjMgNjYgNjAgNjMgNTcgNjQgNjggNzMgNjQgNjggNzYgNjQgNjggNzMgNjQgNjggNjEgNjQgNjEgNTcgNjAgNTcgNjMgNjAgNjYgNjMgNjkgNjYgNzIgNjEgNjQgNjEgNjggNjQgNzMgNjggNzYgNzMgNjggNjEgNjcgNjQgNzAgNjcgNzMgNzAgNzYgNzMgNzkgNzYgODIgNjYgNzIgNjkgNzUgNzIgNzggNzUgODEgNzggODQgODEgODcgODQgNzggODEgNzUgNzggNzIgNzUgNjkgNzIgNjYgNjkgNjMgNjYgNjAgNjMgNTcgNjAgNTcgNTcgNTcgNTcgNTcgNTcgNTcgNTcgNTcgNjEgNjEgNTcgNjEgNTcgNjEgNjAgNjAgNjEgNjEgNjQgNjEgNjQgNjggNjEgNjQgNjggNjggNjMgNjYgNjMgNjYgNjMgNjYgNjggNjMgNjYgNjggNjggNjEgNjQgNjEgNjQgNjkgNTcgNjEgNjYgNTcgNjEgNjYgNjggNTkgNjQgNTkgNjQgNTcgNjYgNTkgNjMgNTcgNzEgNTkgNjMgNjQgNTkgNjQgNTkgNjQgNjggNTkgNjQgNjggNzEgNTkgNjQgNjggNzEgNzEgNTkgNjYgNjkgNTkgNjYgNjkgNTkgNjYgNjkgNTkgNzEgNjYgNjkgNzEgNzEgNTkgNjQgNjggNTkgNjQgNjggNjAgNzIgNjYgNjggNjEgNzMgNjQgNjggNjMgNzUgNjYgNjggNjMgNjYgNjggNjQgNzYgNjggNzMgNjQgNjggNzMgNjIgNzQgNjYgNjkgNjIgNjYgNjkgNzIgNjAgNjYgNjggNjAgNjYgNjggNzMgNjEgNjQgNjggNjEgNjQgNjggNjEgNjUgNjggNjEgNzMgNjUgNjggNjEgNzQgNjYgNjkgNjEgNjYgNjkgNTcgNjEgNjYgNjkgNjEgNzIgNjYgNjkgNzMgNjEgNjUgNjggNjEgNjUgNjggNjEgNjUgNjggNjEgNzMgNjUgNjggNjEgNzQgNjYgNjkgNjEgNjYgNjkgNTcgNjEgNjYgNjkgNjEgNzIgNjYgNjkgNzMgNjEgNjUgNjggNjEgNjUgNjggNjEgNzMgNjYgNjkgNjEgNjYgNjkgNzEgNTkgNjYgNjkgNTkgNjYgNjkgNTkgNjYgNjkgNTkgNzEgNjQgNjggNTcgNjkgNjQgNjggNTcgNjkgNjMgNjYgNjggNjMgNjYgNjggNjEgNjQgNjYgNjEgNjMgNjEgNjMgNjggNjEgNjMgNjkgNTcgNjEgNjMgNjggNjEgNjQgNjEgNjQgNjggNjAgNjMgNjAgNjMgNjEgNjEgNjEgNjQgNjEgNjQgNjEgNjQgNjMgNjYgNjMgNjYgNjMgNjYgNjMgNjYgNjQgNjEgNjggNjQgNzMgNjggNzYgNzMgODAgNzYgNzMgNzIgNzUgNjkgNzIgNjYgNjkgNjMgNjYgNTcgNjAgNjEgNjQgNjEgNjggNjQgNzMgNjggNzYgNzMgODAgNzYgNzMgNzIgNzUgNjkgNzIgNjYgNjkgNjMgNjYgNTcgNjAgNjEgNjEgNjQgNjEgNjEgNjEgNjEKPgpgKS5zb3VuZCgiZ21fZXBpYW5vMiIpLmNvbG9yKCIjNDQ4OGZmICMyMjQ0ODgiKS5fcGlhbm9yb2xsKCkuX3BpdGNod2hlZWwoKS5fc2NvcGUoKQoK"
+            }
+          ],
+          "index": {
+            "byteEnd": 189,
+            "byteStart": 163
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "On the bright side, I've got basic #MIDI decoding in #PowerShell working.\n\nOn the bad side, my conversion to #Strudel timing is clearly a bit off.\n\n#NameThatTune\n\nstrudel.cc#c2V0Y3BtKDEy..."
+    },
+    "cid": "bafyreigrsdm2wvsvjz66vckulbrie2uarzvrx3y2k5odlnkc6ctg7bsjke"
+  }
+}
