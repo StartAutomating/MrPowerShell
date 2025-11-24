@@ -1,0 +1,120 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764020165400100,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6frtlyqgg2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6frtkp26s2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-24T21:36:00.464Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "PowerShell Tools for DevOps. Contribute to StartAutomating/PSDevOps development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiej3u2yj6emyveiqibgbm57njyfpjqqdonlae2kz2zttubx3w2glu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 235153
+          },
+          "title": "PSDevOps/GitHub/Jobs/TagReleaseAndPublish.psd1 at master · StartAutomating/PSDevOps",
+          "uri": "https://github.com/StartAutomating/PSDevOps/blob/master/GitHub/Jobs/TagReleaseAndPublish.psd1"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/PSDevOps/blob/master/GitHub/Jobs/TagReleaseAndPublish.psd1"
+            }
+          ],
+          "index": {
+            "byteEnd": 61,
+            "byteStart": 35
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/PSDevOps/blob/master/GitHub/Steps/TagModuleVersion.ps1"
+            }
+          ],
+          "index": {
+            "byteEnd": 105,
+            "byteStart": 79
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/PSDevOps/blob/master/GitHub/Steps/ReleaseModule.ps1"
+            }
+          ],
+          "index": {
+            "byteEnd": 133,
+            "byteStart": 107
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/PSDevOps/blob/master/GitHub/Steps/PublishPowerShellGallery.ps1"
+            }
+          ],
+          "index": {
+            "byteEnd": 161,
+            "byteStart": 135
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 220,
+            "byteStart": 213
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Workflow"
+            }
+          ],
+          "index": {
+            "byteEnd": 230,
+            "byteStart": 221
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihvtekrnht4b7l3y23fznq5qkt5stdlgvhzrrnkfujigzjgauvmfa",
+          "uri": "at://did:plc:n4yrsuupoqltkqscs5j6wa6i/app.bsky.feed.post/3m6fpektzik2h"
+        },
+        "root": {
+          "cid": "bafyreid3cyfgldqxx5b7inzgj4b4xzcjizvnpfcfnnjjo5og2tn4olbhsu",
+          "uri": "at://did:plc:n4yrsuupoqltkqscs5j6wa6i/app.bsky.feed.post/3m5z4upexie2k"
+        }
+      },
+      "text": "My memory was wrong on the order:\n\ngithub.com/StartAutomat...\n\nWhich inlines:\n\ngithub.com/StartAutomat...\n\ngithub.com/StartAutomat...\n\ngithub.com/StartAutomat...\n\nLemme know if you have questions about building a #GitHub #Workflow with PSDevOps."
+    },
+    "cid": "bafyreicwiartbd7oo6kmzwo3w7to7pav2z4fgvnchq2xxlptj2kbpjul4y"
+  }
+}
