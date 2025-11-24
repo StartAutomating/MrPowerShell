@@ -1,0 +1,78 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764014213240857,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6fmccctck25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6fmbzehl22m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-24T19:56:43.15Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "#requires -Module WebSocket\n\n$emojiPattern = '[\\p{IsHighSurrogates}\\p{IsLowSurrogates}\\p{IsVariationSelectors}\\p{IsCombiningHalfMarks}]+'\n        websocket wss://jetstream2.us-west.bsky.network/subscribe?wantedCollections=app.bsky.feed.post -Tail |\n            Foreach-Object {\n                $in = $_\n                $spacing = (' ' * (Get-Random -Minimum 0 -Maximum 7))\n                if ($in.commit.record.text -match \"$emojiPattern\") {\n                    $match = $matches.0                    \n                    Write-Host $spacing,$match,$spacing -NoNewline\n                }\n            }",
+            "aspectRatio": {
+              "height": 1080,
+              "width": 1920
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigy5ehocm6qfj64o7ccyk4xpvfqbjyigzaqhax2tngqfkqs4vuq6u"
+              },
+              "mimeType": "image/jpeg",
+              "size": 993259
+            }
+          }
+        ]
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BlueSky"
+            }
+          ],
+          "index": {
+            "byteEnd": 25,
+            "byteStart": 17
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 28
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 59,
+            "byteStart": 48
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Decided to watch #BlueSky / #AtProto emoji with #PowerShell today for a second, and I've gotta wonder?\n\nAnyone know what's going on with all the broken hearts?\n\nScript to watch the emoji feed in the alt text"
+    },
+    "cid": "bafyreialc5trqdlgpvhmdf4egmyhknlanvipjzh2mitbu2mot3moi2areu"
+  }
+}
