@@ -1,0 +1,98 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764026322240616,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6fxl6u6lh25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6fxl2ziv22y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-24T23:18:38.044Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Provides methods and properties for compressing and decompressing streams by using the Deflate algorithm.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreif5cdhusoi35cagqnhxif5bjxpvfwiy4sce35o257o4nsmwddiyfa"
+            },
+            "mimeType": "image/jpeg",
+            "size": 737841
+          },
+          "title": "DeflateStream Class (System.IO.Compression)",
+          "uri": "https://docs.microsoft.com/en-us/dotnet/api/system.io.compression.deflatestream"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PNG"
+            }
+          ],
+          "index": {
+            "byteEnd": 48,
+            "byteStart": 44
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DotNet"
+            }
+          ],
+          "index": {
+            "byteEnd": 82,
+            "byteStart": 75
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://docs.microsoft.com/en-us/dotnet/api/system.io.compression.deflatestream?wt.mc_id=MVP_321542"
+            }
+          ],
+          "index": {
+            "byteEnd": 118,
+            "byteStart": 84
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSharp"
+            }
+          ],
+          "index": {
+            "byteEnd": 194,
+            "byteStart": 187
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 210,
+            "byteStart": 199
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Today I learned the Deflate streams used in #PNG are directly supported in #DotNet\n\ndocs.microsoft.com/en-us/dotnet...\n\nAlways good to know there's more than one way to compress stuff in #CSharp and #PowerShell"
+    },
+    "cid": "bafyreibleczqr47dhdykmiw5ykp2veud5czcxpymb23n2jl3wzfqi6wjci"
+  }
+}
