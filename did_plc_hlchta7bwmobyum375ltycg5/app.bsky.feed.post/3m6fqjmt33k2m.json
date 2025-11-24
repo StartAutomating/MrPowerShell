@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764018754046949,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6fqjnelg725",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6fqjmt33k2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-24T21:12:33.407Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid3cyfgldqxx5b7inzgj4b4xzcjizvnpfcfnnjjo5og2tn4olbhsu",
+          "uri": "at://did:plc:n4yrsuupoqltkqscs5j6wa6i/app.bsky.feed.post/3m5z4upexie2k"
+        },
+        "root": {
+          "cid": "bafyreid3cyfgldqxx5b7inzgj4b4xzcjizvnpfcfnnjjo5og2tn4olbhsu",
+          "uri": "at://did:plc:n4yrsuupoqltkqscs5j6wa6i/app.bsky.feed.post/3m5z4upexie2k"
+        }
+      },
+      "text": "Yes, though I haven't had to think about doing it for some time (my workflow does it for me)."
+    },
+    "cid": "bafyreifmbkdap6htshbochu4padzmbcfotvrtiqi763kxp5bcjusplas7q"
+  }
+}
