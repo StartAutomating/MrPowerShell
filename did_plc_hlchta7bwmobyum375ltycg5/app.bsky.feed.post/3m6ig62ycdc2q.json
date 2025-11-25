@@ -1,0 +1,110 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764110710102544,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6ig64xbms2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6ig62ycdc2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-25T22:45:07.401Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Walter White might be evil, but he never sent a thank you message to the current administration to millions of people who didn't want it.\n\nThat's my best guess as to why TikTok sharing on At Protocol / BlueSky is so low.\n\nIt's legitimately embarrassing though.\n\nIf I had run this same experiment two years ago I expect I'd get vastly different numbers.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidmnnzvqwssviz7jgwz6kppvrdlns7ye3zhtckhcewhjqqc7ln2ga"
+            },
+            "mimeType": "image/jpeg",
+            "size": 614849
+          },
+          "title": "a man is sitting in a car talking to another man and says i 'm actually embarrassed for you",
+          "uri": "https://media.tenor.com/fX7776u2_ygAAAAC/embarrassing-actually.gif?hh=140&ww=244"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TikTok"
+            }
+          ],
+          "index": {
+            "byteEnd": 10,
+            "byteStart": 3
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 56,
+            "byteStart": 45
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebSocket"
+            }
+          ],
+          "index": {
+            "byteEnd": 67,
+            "byteStart": 57
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "youtube"
+            }
+          ],
+          "index": {
+            "byteEnd": 105,
+            "byteStart": 97
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "tiktok"
+            }
+          ],
+          "index": {
+            "byteEnd": 117,
+            "byteStart": 110
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 236,
+            "byteStart": 228
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Is #TikTok dying / dead ?\n\nI've had a little #PowerShell #WebSocket script picking up all of the #youtube and #tiktok links from time to time.\n\nYesterday afternoon, during a ~6 hour window, I saw 14742 links to videos posted to #AtProto.\n\n95% YouTube\n5% TikTok\n\nIs TikTok Dying / Dead?"
+    },
+    "cid": "bafyreifog5mqugyrwtablugnj54hhscr43l7jql7vnphlh6qf5elyyvg3y"
+  }
+}
