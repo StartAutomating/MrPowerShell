@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764118686310303,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6inltw5xa2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6inluxjks2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-26T00:58:07.04Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Microsoft"
+            }
+          ],
+          "index": {
+            "byteEnd": 157,
+            "byteStart": 147
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TRPG"
+            }
+          ],
+          "index": {
+            "byteEnd": 183,
+            "byteStart": 178
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihildxcdamhulczryskkhar4llapsxjedvxdnpn2mstx3o7yfnexq",
+          "uri": "at://did:plc:ep6lal34tprx4l5rv74ea45s/app.bsky.feed.post/3l7armqk3h62e"
+        },
+        "root": {
+          "cid": "bafyreihkc75xatqg2p3mizce2wirk352eoebxxuvzmurneocmv4tnqfgzy",
+          "uri": "at://did:plc:ep6lal34tprx4l5rv74ea45s/app.bsky.feed.post/3l7arj7iggp2y"
+        }
+      },
+      "text": "My whole programming life people have been dunking on basic.\n\nThey have always been wrong.\n\nBasic built Ultima.\n\nBasic built the first fortunes of #Microsoft.\n\nBasic built every #TRPG you could ever think of.\n\nBasic was anything but.\n\nPicking on Basic:\n\nThat's always been basic."
+    },
+    "cid": "bafyreifpcws53abd346m6z3d2zisz4tpy456kdfrfsnyn57a5joszflk5m"
+  }
+}
