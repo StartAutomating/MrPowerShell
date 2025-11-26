@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764187885032753,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6ko254hwo2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6ko23yh222q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-26T20:11:23.649Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TikTok"
+            }
+          ],
+          "index": {
+            "byteEnd": 178,
+            "byteStart": 171
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "YouTube"
+            }
+          ],
+          "index": {
+            "byteEnd": 208,
+            "byteStart": 200
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidlngiiqisqcgs7tjvm3acxay7whgkcctcsl2x3nd6m2i7xsk3pg4",
+          "uri": "at://did:plc:tak56ol4p64gsy57msatbwa7/app.bsky.feed.post/3m6jezfybms2q"
+        },
+        "root": {
+          "cid": "bafyreifog5mqugyrwtablugnj54hhscr43l7jql7vnphlh6qf5elyyvg3y",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m6ig62ycdc2q"
+        }
+      },
+      "text": "_maybe_.  \n\nI find it hard to believe that there's that much of a demographic cliff in one or the other due to age.\n\nSelf-sorting _might_ explain it.\n\nOr it might be that #TikTok just isn't as big as #YouTube.\n\nOver a ~24 hour period:\n\n61208 videos shared\n\n2429 (~3.9%) TikTok, 58779 YouTube."
+    },
+    "cid": "bafyreidrmpynizadqianyhhl27sfyzmey6qadq5cvci7cdprptqfkr2mge"
+  }
+}
