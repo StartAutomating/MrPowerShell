@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764186788337437,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6kmzhbyf72b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6kmzbkbps2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-26T19:53:02.172Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiccseldobdsr3ub7a7pn3dh7rph2ibx44c4iypfhrzzoghnibdqru",
+          "uri": "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3m6fg6aqa6c2k"
+        },
+        "root": {
+          "cid": "bafyreifhfkrsaovluj5n7aynjait4mv7mv7najx3lagzdyxhoccql6h27m",
+          "uri": "at://did:plc:yym5dkfbnzf6lspvh4hnstjg/app.bsky.feed.post/3m6fbnnhynk2i"
+        }
+      },
+      "text": "I propose that if you are _actually_ creative, a \"generative\" AI will not help you generate anything good, because it will not be as creative as you, and will not have your experience in the craft.\n\nThere are plenty of creative software developers."
+    },
+    "cid": "bafyreiaspmjl6l6uwrzoqpobrcyomxlp65m2oidnq4oxqxqr73xp5op3eu"
+  }
+}
