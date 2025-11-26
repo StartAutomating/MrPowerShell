@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764118465789254,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6infb7mms2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6infc4gdk2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-26T00:54:25.949Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "QBasic"
+            }
+          ],
+          "index": {
+            "byteEnd": 13,
+            "byteStart": 6
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 25,
+            "byteStart": 18
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 107,
+            "byteStart": 96
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihkc75xatqg2p3mizce2wirk352eoebxxuvzmurneocmv4tnqfgzy",
+          "uri": "at://did:plc:ep6lal34tprx4l5rv74ea45s/app.bsky.feed.post/3l7arj7iggp2y"
+        },
+        "root": {
+          "cid": "bafyreihkc75xatqg2p3mizce2wirk352eoebxxuvzmurneocmv4tnqfgzy",
+          "uri": "at://did:plc:ep6lal34tprx4l5rv74ea45s/app.bsky.feed.post/3l7arj7iggp2y"
+        }
+      },
+      "text": "💯  #QBasic and #Turtle were my childhood gateways to technology.\n\nWent and ported Nibbles to #PowerShell back in 2020.\n\nPorted Turtle to PowerShell earlier this year.\n\nWant people to learn tech?\n\nGive them a terminal that can do fun things.\n\nThen let them play."
+    },
+    "cid": "bafyreiftejhlhc7mv4gi5wz57njhe75l34bpz4amvhvaqubqmj2e3ssfiy"
+  }
+}
