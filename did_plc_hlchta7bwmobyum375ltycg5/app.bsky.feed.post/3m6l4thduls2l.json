@@ -1,0 +1,88 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764203767912987,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6l4tibfzm2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6l4thduls2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-27T00:36:06.803Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A Retro Arcade Game Console in PowerShell. Contribute to StartAutomating/PowerArcade development by creating an account on GitHub.",
+          "title": "GitHub - StartAutomating/PowerArcade: A Retro Arcade Game Console in PowerShell",
+          "uri": "https://github.com/StartAutomating/PowerArcade"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 61,
+            "byteStart": 50
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GameDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 70,
+            "byteStart": 62
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerArcade"
+            }
+          ],
+          "index": {
+            "byteEnd": 104,
+            "byteStart": 92
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/PowerArcade"
+            }
+          ],
+          "index": {
+            "byteEnd": 146,
+            "byteStart": 120
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic4oxobybqfllqkzrpx4z46dtxgwn3pisxcgvuvynkcpkzmknxmhm",
+          "uri": "at://did:plc:6hb72wbrqxugh4hfkll26gil/app.bsky.feed.post/3m6kzz6fncc2z"
+        },
+        "root": {
+          "cid": "bafyreiff4xrmiiojqjmz4bnyp2dywcht2ddxjduok7tqrb2qveyp6bqvmu",
+          "uri": "at://did:plc:6hb72wbrqxugh4hfkll26gil/app.bsky.feed.post/3m6kzygudtc2z"
+        }
+      },
+      "text": "This reminds me, I've been meaning to gather some #PowerShell #GameDev nerds to help revamp #PowerArcade.\n\nWanna help?\n\ngithub.com/StartAutomat..."
+    },
+    "cid": "bafyreicqndftncsmht4d36jjffzpyynyttfmpvltgttsog3vht7fxnnaxe"
+  }
+}
