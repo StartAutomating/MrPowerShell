@@ -1,0 +1,35 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764367570000192,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6pvf5ylu42f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6pvf546ak2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-28T22:06:08.803Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:yqleoidz7bqq5iybtbo6llib"
+            }
+          ],
+          "index": {
+            "byteEnd": 9,
+            "byteStart": 0
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "@marcf.be \n\nI noticed you are working on a package manager.  Just so happens I'm working on a packaging module.  Happy to figure out how to add support to yours to the list.  LMK if you'd like to sync."
+    },
+    "cid": "bafyreigbaaibpbogdel7nwbnog6jfopzx5aeimypndhypf7zjmxwrj5noa"
+  }
+}
