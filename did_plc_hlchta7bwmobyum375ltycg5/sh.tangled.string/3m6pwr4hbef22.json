@@ -1,0 +1,19 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764369045128392,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6pwr4v74n2l",
+    "operation": "create",
+    "collection": "sh.tangled.string",
+    "rkey": "3m6pwr4hbef22",
+    "record": {
+      "$type": "sh.tangled.string",
+      "contents": "<#\n.SYNOPSIS\n    Get a GitHub user's BlueSky\n.DESCRIPTION\n    Gets an At Protocol Handle / BlueSky profile link for a GitHub user\n.EXAMPLE\n    ./GitHubBlueSky StartAutomating\n#>\nparam([string]$UserName)\n\n# Globally cache to avoid repeat request (use script: inside of a function or module)\nif (-not $global:GitHubProfileCache) {\n    $global:GitHubProfileCache = [Ordered]@{}\n}\n\n# Get the user profile\nif (-not $global:GitHubProfileCache[$UserName]) {\n    $global:GitHubProfileCache[$UserName] = Invoke-WebRequest \"https://github.com/$UserName\"\n}\n\n# Skip empty entries\nif (-not $global:GitHubProfileCache[$UserName]) { return }\n\n$blueSkyProfile = ($global:GitHubProfileCache[$UserName].Links -match 'bsky' | Select-Object -ExpandProperty Href)\n\n# If we have a bluesky profile\nif ($blueSkyProfile) {\n    # output an object linking the profiles\n    [PSCustomObject]@{\n        GitUserName = $UserName\n        GitHubProfile = \"https://github.com/$UserName\"\n        # and extract the username from the last segment\n        AtUserName = ($blueSkyProfile -as [uri]).Segments[-1] -replace '/'\n        BlueSkyProfile = $blueSkyProfile\n    }\n} else {\n    # Otherwise, just output the git info\n    [PSCustomObject]@{\n        GitUserName = $UserName\n        GitHubProfile = \"https://github.com/$UserName\"        \n    }\n}\n\n",
+      "createdAt": "2025-11-28T22:30:44Z",
+      "description": "Get a GitHub User's BlueSky Profile with PowerShell",
+      "filename": "GitHubBlueSky.ps1"
+    },
+    "cid": "bafyreihmiowunm6ntjuaja6o4zqfbpro373nnwgbd2agamgmzkqf5rxrde"
+  }
+}
