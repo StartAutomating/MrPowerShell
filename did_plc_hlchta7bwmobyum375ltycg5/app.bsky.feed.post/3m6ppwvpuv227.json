@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764361722189000,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6ppwv3usv2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6ppwvpuv227",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-28T20:28:42.589Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicfgknnzl6snxagtmms7ah4k2w7x4iol6wmqy32t4elbmna6ly2eu",
+          "uri": "at://did:plc:mozj7gy2htivoh5eh5fpbuq2/app.bsky.feed.post/3m6os6nw2ys2r"
+        },
+        "root": {
+          "cid": "bafyreicfgknnzl6snxagtmms7ah4k2w7x4iol6wmqy32t4elbmna6ly2eu",
+          "uri": "at://did:plc:mozj7gy2htivoh5eh5fpbuq2/app.bsky.feed.post/3m6os6nw2ys2r"
+        }
+      },
+      "text": "Wouldn't mind a -v switch.\n\nWouldn't mind if $PSVersionTable were accessible by a Cmdlet ( not a variable ).\n\nNot sure this gripe is against cmdlets..."
+    },
+    "cid": "bafyreie4vs55toqf6hp3pd3s5stb3wzi7qiaq5b3xyzi57s26wmaaxjpvi"
+  }
+}
