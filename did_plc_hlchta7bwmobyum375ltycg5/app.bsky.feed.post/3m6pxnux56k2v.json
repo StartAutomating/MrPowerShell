@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764370010799311,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6pxnvj4wn2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6pxnux56k2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-28T22:46:49.722Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 157,
+            "byteStart": 146
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigogecmox4zycfx2vf366zu44mlkxu4s7brm2n7zafoiumhtixxua",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3m6pxeivq2s2b"
+        },
+        "root": {
+          "cid": "bafyreid6uwaliq2ougb5ia5acjsbkmbqjtiic3bqqix7ep7dclr3djbh2y",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m6pwsyzmn22x"
+        }
+      },
+      "text": "Yeah, that's part of why I put together the longer forms (that and posterity).\n\nAnd hard relate on the ironic circle of feature anger:\n\n\"Who said #PowerShell should do that?\"\n\nOh, yeah, I did, ~18 years ago.\n\n🤦"
+    },
+    "cid": "bafyreifof3rmy6fawkhpcdagyjz5po3dporkzmss3neugu2ebwadj333vm"
+  }
+}
