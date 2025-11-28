@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764367407603576,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6pvabrowg2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6pvabhnc22v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-28T22:03:25.601Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JustWondering"
+            }
+          ],
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Music"
+            }
+          ],
+          "index": {
+            "byteEnd": 43,
+            "byteStart": 37
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#JustWondering\n\nDoes anyone else use #Music as a timer?\n\nLike: I know the next two tracks in my current playlist are each 7 minutes, so I'll try to do tasks that fit in the next 7-14 minutes."
+    },
+    "cid": "bafyreigmahskpgsdfcjpn6e5slhvs2yodzvtqpuoa4ttcc7d4etsrpbo5u"
+  }
+}
