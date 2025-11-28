@@ -1,0 +1,102 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764369109834446,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6pwt2njhb2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6pwsyzmn22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-28T22:31:48.028Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Get a GitHub User's BlueSky Profile with PowerShell",
+          "title": "GitHubBlueSky.ps1 · by mrpowershell.com",
+          "uri": "https://tangled.org/strings/did:plc:hlchta7bwmobyum375ltycg5/3m6pwr4hbef22"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BlueSky"
+            }
+          ],
+          "index": {
+            "byteEnd": 39,
+            "byteStart": 31
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 59,
+            "byteStart": 52
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/).Links"
+            }
+          ],
+          "index": {
+            "byteEnd": 107,
+            "byteStart": 81
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://gist.github.com/StartAutomating/d65a89645446d7835803193300d52e50"
+            }
+          ],
+          "index": {
+            "byteEnd": 208,
+            "byteStart": 177
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://tangled.org/strings/did:plc:hlchta7bwmobyum375ltycg5/3m6pwr4hbef22"
+            }
+          ],
+          "index": {
+            "byteEnd": 254,
+            "byteStart": 227
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#PowerShell one-liner to get a #BlueSky handle from #GitHub:\n\n~~~PowerShell\n(iwr github.com/StartAutomat... -match 'bsky' | Select -Expand href\n~~~\n\nLongform with docs:\n\nGist:\n\ngist.github.com/StartAutomat...\n\nTangled String:\n\ntangled.org/strings/did:..."
+    },
+    "cid": "bafyreid6uwaliq2ougb5ia5acjsbkmbqjtiic3bqqix7ep7dclr3djbh2y"
+  }
+}
