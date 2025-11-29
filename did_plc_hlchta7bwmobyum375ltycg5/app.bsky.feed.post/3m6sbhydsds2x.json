@@ -1,0 +1,132 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764449270109733,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6sbhzg6ey2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6sbhydsds2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-11-29T20:47:48.852Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Work with WebSockets in PowerShell. Contribute to PowerShellWeb/WebSocket development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieanpheomeqf6nrg4y74ojovik3sy7crrdupipwtu3nikx7w4dwva"
+            },
+            "mimeType": "image/jpeg",
+            "size": 255964
+          },
+          "title": "GitHub - PowerShellWeb/WebSocket: Work with WebSockets in PowerShell",
+          "uri": "https://github.com/PowerShellWeb/WebSocket"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 43,
+            "byteStart": 32
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 56,
+            "byteStart": 48
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebSocket"
+            }
+          ],
+          "index": {
+            "byteEnd": 142,
+            "byteStart": 132
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 221,
+            "byteStart": 214
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHubAction"
+            }
+          ],
+          "index": {
+            "byteEnd": 235,
+            "byteStart": 222
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BlueSky"
+            }
+          ],
+          "index": {
+            "byteEnd": 273,
+            "byteStart": 265
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShellWeb/WebSocket"
+            }
+          ],
+          "index": {
+            "byteEnd": 301,
+            "byteStart": 275
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiebgpp47zrzib7zx5yvsx6iuec6npotppv2xuxyos6arcsa3m7mnm",
+          "uri": "at://did:plc:7qkkfxnszyl7jbkms624f6xb/app.bsky.feed.post/3m6s7zqj2rs2c"
+        },
+        "root": {
+          "cid": "bafyreiejmebmei4szr4a5vfromnwt2e7l54g4orq4tvzbr26gklvvbaf4a",
+          "uri": "at://did:plc:7qkkfxnszyl7jbkms624f6xb/app.bsky.feed.post/3m6s7v3jk7t2t"
+        }
+      },
+      "text": "Cool!\n\nIf you're tinkering with #PowerShell and #AtProto anyways....\n\nAt Protocol is basically an object pipeline, broadcast over a #WebSocket\n\nAny property bag can be posted to at proto 😎\n\nI've been using this #GitHub #GitHubAction to automagically update from #BlueSky\n\ngithub.com/PowerShellWe..."
+    },
+    "cid": "bafyreicsudxigywsejc2tcdii255yvgqvksivvkkdev55qompt5gauhqce"
+  }
+}
