@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764619993653133,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6xahy4w252u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6xahxit2c2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-01T20:13:12.918Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigo7f2rkg5qgbp72eknxkg3tnenit7huxbb2bl3g7ku3r6vaco6zy",
+          "uri": "at://did:plc:6hb72wbrqxugh4hfkll26gil/app.bsky.feed.post/3m6wu3un7i222"
+        },
+        "root": {
+          "cid": "bafyreigo7f2rkg5qgbp72eknxkg3tnenit7huxbb2bl3g7ku3r6vaco6zy",
+          "uri": "at://did:plc:6hb72wbrqxugh4hfkll26gil/app.bsky.feed.post/3m6wu3un7i222"
+        }
+      },
+      "text": "Not too bad of a module name for the purpose.\n\nBeen meaning to put one of these together.\n\nThere's some little stuff in how this is structured that will make it less helpful.\n\nWant issues or DMs or both?"
+    },
+    "cid": "bafyreic6sal5gve4spij43jugrgoc4qfoweef5qv7dctmuatxyjfghj44a"
+  }
+}
