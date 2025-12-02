@@ -105,7 +105,7 @@
     4. What does it cost me each time?
     5. Who helps sell it?
     6. What will they get?
-    7. When will I lost money?
+    7. When will I lose money?
     8. When will I stop losing money?
     9. Are there competitors?
     10. Is cheaper better?
