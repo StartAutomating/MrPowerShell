@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764715531838003,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6zzhagewn2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6zzh7jyn227",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-02T22:45:30.812Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Five Rubrics to help refine any idea or project.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidarwkxp4jmlkkhyk4m7q5cpzbh2nl4tubxpfiblzgsklnuwupzue"
+            },
+            "mimeType": "image/jpeg",
+            "size": 138088
+          },
+          "title": "The Five Rubrics",
+          "uri": "https://mrpowershell.com/Wisdom/The-Five-Rubrics/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://mrpowershell.com/Wisdom/The-Five-Rubrics/"
+            }
+          ],
+          "index": {
+            "byteEnd": 100,
+            "byteStart": 68
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Got a good idea?\n\nHere The Five Rubrics I've been using for years:\n\nmrpowershell.com/Wisdom/The-F...\n\n- 5 rubrics\n- 10 questions each\n- 50 questions to give you food for thought\n\nPlease, take a second and take a bite.\n\nShare what you find useful."
+    },
+    "cid": "bafyreibyjggmdilaeyr5mi632wmuneg4qkynhvfei3gxew2hguoxjbdjwq"
+  }
+}
