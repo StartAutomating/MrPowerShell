@@ -1,0 +1,80 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764711757361924,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m6zvwqrbcl25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m6zvwq3tjs27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-02T21:42:36.523Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Markdown"
+            }
+          ],
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 40
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 64,
+            "byteStart": 53
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "XML"
+            }
+          ],
+          "index": {
+            "byteEnd": 171,
+            "byteStart": 167
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "XPath"
+            }
+          ],
+          "index": {
+            "byteEnd": 196,
+            "byteStart": 190
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidghype23vet4oxiupszxeelfnut35o5xje6kw4ws7eewmsltci5q",
+          "uri": "at://did:plc:iga7ipxo6jy26wv6bevcmdem/app.bsky.feed.post/3m6zons3yvs2z"
+        },
+        "root": {
+          "cid": "bafyreia4v5jtuqleyhvsv4jkp4gcljschordt6eljrhqh3thvu3q2sarde",
+          "uri": "at://did:plc:h72elwuasveurkv2jx5hhvn7/app.bsky.feed.post/3m6vaxnwnys2m"
+        }
+      },
+      "text": "Honestly, I just do this for dissecting #Markdown in #PowerShell these days:\n\n~~~PowerShell\n[xml]\"<x>(ConvertFrom-Markdown -inputobject $markdown)</x>\"\n~~~\n\nOnce it's #XML, I can query with #XPath, and it's off to the races."
+    },
+    "cid": "bafyreico7uyhkd3kid73yj5sa7i7af24ubmm22qd5aa4x6jko7p3sg2zuq"
+  }
+}
