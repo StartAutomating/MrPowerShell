@@ -109,6 +109,26 @@
     8. When will I stop losing money?
     9. Are there competitors?
     10. Is cheaper better?
+
+    ### Using the Rubrics
+
+    These rubrics are best used introspectively.
+
+    You can write down your thoughts, but you don't have to.
+
+    You can pick and choose which of these questions are important to your idea, and how you feel about their answers.
+
+    These are merely questions you or others might ask about your idea, designed to help refine your ideas and projects.
+
+    I originally wrote these over a decade ago, and have sent them in emails time and again over the years to people pondering problems.
+
+    Hopefully, The Five Rubrics will be useful to you.
+
+    Hope this helps,
+
+    James
+.LINK
+    https://MrPowerShell.com/Wisdom/The-Five-Rubrics
 #>
 
 #region Page Help
