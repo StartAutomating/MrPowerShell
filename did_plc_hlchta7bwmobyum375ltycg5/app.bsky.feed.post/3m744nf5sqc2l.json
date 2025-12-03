@@ -1,0 +1,84 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764787678033229,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m744ndxbc52b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m744nf5sqc2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-03T18:47:58.732Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: When AI learns dump opinions from opionated dummies, it's like a falmpalm epidemic spreading.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreietapsuf4xauycpv2uasjp3hqoppekd6i3ornwvgomfmcgwqt3jdm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 110815
+          },
+          "title": "a crowd of people with their hands on their heads",
+          "uri": "https://media.tenor.com/ovo_afyudlUAAAAC/sealyx-naked-gun.gif?hh=279&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 18,
+            "byteStart": 15
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Microsoft"
+            }
+          ],
+          "index": {
+            "byteEnd": 47,
+            "byteStart": 37
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 99,
+            "byteStart": 88
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibqlmc2xoi2hdfroakrlu6vvzhqcn3f6f2cnilijwaxfabgy6d4gm",
+          "uri": "at://did:plc:vwa5bvum5fn7wlcgllpnsj2p/app.bsky.feed.post/3m736fincc22v"
+        },
+        "root": {
+          "cid": "bafyreibqlmc2xoi2hdfroakrlu6vvzhqcn3f6f2cnilijwaxfabgy6d4gm",
+          "uri": "at://did:plc:vwa5bvum5fn7wlcgllpnsj2p/app.bsky.feed.post/3m736fincc22v"
+        }
+      },
+      "text": "Wow, it's like #AI has inherited the #Microsoft red-headed step-child relationship with #PowerShell.\n\nKinda frustrating to see language bias creep so easily into AI."
+    },
+    "cid": "bafyreiebpgopcpqpor6hac5x4mnkwmy6onvacoemijeavy3qem5rdupxpa"
+  }
+}
