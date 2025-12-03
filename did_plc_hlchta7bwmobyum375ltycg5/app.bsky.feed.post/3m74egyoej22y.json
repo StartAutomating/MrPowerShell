@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764796054969751,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m74egyvdnc2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m74egyoej22y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-03T21:07:34.252Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 30,
+            "byteStart": 19
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 103,
+            "byteStart": 96
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Even with a bit of #PowerShell help, it's a big pain to tag over a hundred different people as  #GitHub co-authors.\n\n🤷 Do what you gotta do to attribute correctly\n\nAnyone else ever use the Co-authored-by capabilities in GitHub?"
+    },
+    "cid": "bafyreienic2ukynoec76contztpfx63f3or4u6k7dgsa4zs6uljsfz4qcy"
+  }
+}
