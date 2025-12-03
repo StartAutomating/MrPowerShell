@@ -122,6 +122,8 @@
 
     I originally wrote these over a decade ago, and have sent them in emails time and again over the years to people pondering problems.
 
+    The Five Rubrics have been pretty useful to me.
+
     Hopefully, The Five Rubrics will be useful to you.
 
     Hope this helps,
