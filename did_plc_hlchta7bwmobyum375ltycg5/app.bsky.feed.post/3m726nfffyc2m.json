@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764721108096469,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m726ngc2442d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m726nfffyc2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-03T00:18:26.99Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieoceedvst5c4vjyly5azcxiljsoyk5mtsciaby5harotadn6t5tu",
+          "uri": "at://did:plc:fxgi2crlym2f3ogvygpysomv/app.bsky.feed.post/3m724s4lgzk2r"
+        },
+        "root": {
+          "cid": "bafyreigouvbr7aqrqxrqoos7662diysfq2q2s2wtwqhhjgbe2rjo6qxpvm",
+          "uri": "at://did:plc:sonncyo6avfaobajokkmqvm2/app.bsky.feed.post/3m722feiuns2x"
+        }
+      },
+      "text": "💯\n\nMy favorite example of this has to be Hue Lights.\n\nThe GUI lets you fade out over something like 5 minutes.\n\nLearn to talk to the RESTful service running its bridge, and you can change slowly for _45 minutes_.\n\nIt's like:\n\nWho thought they should limit their gui?"
+    },
+    "cid": "bafyreify4akebwypwadr3doj72qmxj6jei4b3vq62n7m2oi3ksabti3kuu"
+  }
+}
