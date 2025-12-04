@@ -1,0 +1,47 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764879591833117,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m76samanbt2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m76saljj2c2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-04T20:19:50.996Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:hh3ywvussfpmzvpkplksmyhk"
+            }
+          ],
+          "index": {
+            "byteEnd": 22,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 169,
+            "byteStart": 158
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "@sdwheeler.bsky.social \n\nThe other day I made a 101 line file server as a demo.\n\nI carefully kept each line within 80 characters.\n\nWhere in the wide world of #PowerShell docs could such an example go?\n\nInquiring minds want to know 😉."
+    },
+    "cid": "bafyreiazsozrlk2faanymg53w7dhs6ljhfsmu46jqnagojz3sharneqm2a"
+  }
+}
