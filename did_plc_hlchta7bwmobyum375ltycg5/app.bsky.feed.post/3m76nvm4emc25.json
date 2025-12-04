@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764874926714854,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m76nvl7ciz2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m76nvm4emc25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-04T19:02:07.549Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifpp62yetg4k3vlbfsshl3rb2ah6ibpsaro6i2vfusytknk6wzua4",
+          "uri": "at://did:plc:k54achhksfhvlp5jd3rzv32h/app.bsky.feed.post/3m76nhiwjuk2x"
+        },
+        "root": {
+          "cid": "bafyreie6fsbh7b475qsi2yhhpnde7kwmmv4ykebdhors7gp5jgzpnjjhry",
+          "uri": "at://did:plc:k54achhksfhvlp5jd3rzv32h/app.bsky.feed.post/3m76lirvdss2x"
+        }
+      },
+      "text": "I think most module downloads are CI/CD.\n\nMaybe not for stuff like Posh or PSMouseJigger, but for most modules I'm pretty sure builds are the primary driver of traffic."
+    },
+    "cid": "bafyreid3snoysfvlqpvdql4f4dymfscjvkj3shnsfuyh34pwpz2igyg4pm"
+  }
+}
