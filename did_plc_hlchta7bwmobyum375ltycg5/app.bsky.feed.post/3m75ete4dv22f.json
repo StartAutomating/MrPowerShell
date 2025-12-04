@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764830829052689,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m75etecxxc2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m75ete4dv22f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-04T06:47:08.636Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicseltdmytgb5uwkonspril62susbmrqqxnecb4y2bhqaszvsmgz4",
+          "uri": "at://did:plc:2csaa572liboy35h2s7272cr/app.bsky.feed.post/3m753vnnruc2r"
+        },
+        "root": {
+          "cid": "bafyreicseltdmytgb5uwkonspril62susbmrqqxnecb4y2bhqaszvsmgz4",
+          "uri": "at://did:plc:2csaa572liboy35h2s7272cr/app.bsky.feed.post/3m753vnnruc2r"
+        }
+      },
+      "text": "When is anyone going to notice the metaprogramming language I made that brings PowerShell dynamics all kind of fun places ?\n\nSeriously: what are you asking for ... ?"
+    },
+    "cid": "bafyreid3faui6tdriyfcleauqg7lx3r3coaz7ueaar4xineabyvnjbwk2u"
+  }
+}
