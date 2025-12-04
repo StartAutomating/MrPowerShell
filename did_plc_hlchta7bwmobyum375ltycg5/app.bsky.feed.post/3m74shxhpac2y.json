@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764811123148928,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m74si3fujn25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m74shxhpac2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-04T01:18:38.926Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://iTerm2ColorSchemes.com"
+            }
+          ],
+          "index": {
+            "byteEnd": 67,
+            "byteStart": 45
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 75,
+            "byteStart": 71
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 293,
+            "byteStart": 282
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreienic2ukynoec76contztpfx63f3or4u6k7dgsa4zs6uljsfz4qcy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m74egyoej22y"
+        },
+        "root": {
+          "cid": "bafyreienic2ukynoec76contztpfx63f3or4u6k7dgsa4zs6uljsfz4qcy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m74egyoej22y"
+        }
+      },
+      "text": "To give some context, I'm remaking the whole iTerm2ColorSchemes.com to #CSS schtick under a new name.\n\nThere are currently 451 palettes.  About half are attributed to someone.\n\nThat's a lot of \"Co-Authored-By $Name <$ID+$UserName@users.noreply.github.com>\" to keep straight.\n\nThank #PowerShell!"
+    },
+    "cid": "bafyreiafrqs5jc4bk5ynaqc7ukdtlpzxc7ljevldu7moq5avdyeundzlgu"
+  }
+}
