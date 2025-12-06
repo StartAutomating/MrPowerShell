@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1764987922741777,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7bx54nqvo2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7bx556ll22a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-06T02:25:23.221Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibuc5bwyqtjdvtdwtgda5ksday6i67fxemwbariudibqb4qr3444m",
+          "uri": "at://did:plc:jbuckzlfzonlpjskenreri3p/app.bsky.feed.post/3m7bt35jr5k2l"
+        },
+        "root": {
+          "cid": "bafyreibuc5bwyqtjdvtdwtgda5ksday6i67fxemwbariudibqb4qr3444m",
+          "uri": "at://did:plc:jbuckzlfzonlpjskenreri3p/app.bsky.feed.post/3m7bt35jr5k2l"
+        }
+      },
+      "text": "Out of curiosity, what are you trying to build ?"
+    },
+    "cid": "bafyreia4gl2mzc7hwafkt5hvbigsb46edwlxr33z6kmxtvdxu4pkpdv5jm"
+  }
+}
