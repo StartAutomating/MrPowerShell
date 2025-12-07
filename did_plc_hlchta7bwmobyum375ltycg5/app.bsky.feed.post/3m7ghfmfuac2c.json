@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765142827242572,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7ghfn43bq2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7ghfmfuac2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-07T21:27:06.446Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 92,
+            "byteStart": 81
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidz2bbjolynilge22ddktiov7d657ccjl4oxlahzzy5nsxpah6mza",
+          "uri": "at://did:plc:h6tcd37yr7vk33uuisbidqvw/app.bsky.feed.post/3m7gfygb3s22i"
+        },
+        "root": {
+          "cid": "bafyreigiix73ea3ocxh7ai5eqsbf5wgxrx2fjxnlkzugjfeq5y33nb54xy",
+          "uri": "at://did:plc:h6tcd37yr7vk33uuisbidqvw/app.bsky.feed.post/3m7dnetvskc2z"
+        }
+      },
+      "text": "The long story made short about a lot of language decisions in the early days of #PowerShell was basically:  The more unique the less likely to collide and end in escaping hell.\n\nThat's why:\n\n- The escape character is `, not \\\n- The operators are -eq , not ==\n- Multiple string forms exist"
+    },
+    "cid": "bafyreihethywfbid6sscymeyga4wpejp4n7xbhibk5lldasxr3nb3g2gvy"
+  }
+}
