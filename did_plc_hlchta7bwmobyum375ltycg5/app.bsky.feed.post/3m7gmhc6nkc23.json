@@ -1,0 +1,51 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765148252750846,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7gmhdbobk2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7gmhc6nkc23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-07T22:57:31.541Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreihethywfbid6sscymeyga4wpejp4n7xbhibk5lldasxr3nb3g2gvy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m7ghfmfuac2c"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/mrpowershell.com/post/3m7ghfmfuac2c"
+            }
+          ],
+          "index": {
+            "byteEnd": 293,
+            "byteStart": 269
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreielpkhg4b5h4qhkk7olpmqe7ykiqmh7sjghnb5dhjpy66wrtpnnve",
+          "uri": "at://did:plc:meg3nzwxmfn5o7bhnymch33o/app.bsky.feed.post/3m7gkzbailc24"
+        },
+        "root": {
+          "cid": "bafyreielpkhg4b5h4qhkk7olpmqe7ykiqmh7sjghnb5dhjpy66wrtpnnve",
+          "uri": "at://did:plc:meg3nzwxmfn5o7bhnymch33o/app.bsky.feed.post/3m7gkzbailc24"
+        }
+      },
+      "text": "Oddly enough, you could have checked on BlueSky earlier and seen this thread explaining this exact thing, and why it is that way.\n\nAnd honestly over the years it's _incredibly_ useful to have lots of string types.  You often don't want variables / expressions to run.\n\nbsky.app/profile/mrpo..."
+    },
+    "cid": "bafyreic7pcg3sepihhnyxkpbotxrgmgicqdfsnyn3wc6bmq422dek354km"
+  }
+}
