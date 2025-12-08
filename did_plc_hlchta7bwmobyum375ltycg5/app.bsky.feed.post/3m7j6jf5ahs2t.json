@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765236370375047,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7j6jflqw22u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7j6jf5ahs2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-08T23:26:08.579Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 187,
+            "byteStart": 176
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihdzou2zbg3dlm2yaotsacfsfes5ypv6dwwyrjhqij47t4vxcmh24",
+          "uri": "at://did:plc:irotfhpntd2ojsmeazd6fogl/app.bsky.feed.post/3m7j6aurzqs24"
+        },
+        "root": {
+          "cid": "bafyreigiix73ea3ocxh7ai5eqsbf5wgxrx2fjxnlkzugjfeq5y33nb54xy",
+          "uri": "at://did:plc:h6tcd37yr7vk33uuisbidqvw/app.bsky.feed.post/3m7dnetvskc2z"
+        }
+      },
+      "text": "Great to see you getting it !\n\nIt looks like you're just returning strings, which means you could skip the Write-Host and just output the strings.\n\nIt's a solid example of how #PowerShell can be a great glue language for RESTful services.  Nicely done!"
+    },
+    "cid": "bafyreid2n7m7bqjgvyur5uvywvmshnhejzcy2xl22tlyen4zw3xnft5eiy"
+  }
+}
