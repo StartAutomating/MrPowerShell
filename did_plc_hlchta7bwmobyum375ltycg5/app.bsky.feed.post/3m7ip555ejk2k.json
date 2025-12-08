@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765219852051598,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7ip55m67h2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7ip555ejk2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-08T18:50:51.415Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie7o3cgjpvvvqs6tb3vjp2hmfmcu2xz5dl33am3mbwr2bllduqduy",
+          "uri": "at://did:plc:nfipzrviurwj3te6qso4ejrf/app.bsky.feed.post/3m7gsax6lqmj2"
+        },
+        "root": {
+          "cid": "bafyreie7o3cgjpvvvqs6tb3vjp2hmfmcu2xz5dl33am3mbwr2bllduqduy",
+          "uri": "at://did:plc:nfipzrviurwj3te6qso4ejrf/app.bsky.feed.post/3m7gsax6lqmj2"
+        }
+      },
+      "text": "Because you have to check each array element.\n\nI don't know of a single language that will do an equality check for all elements of an array.\n\nIn technical terms: it's an unbounded expense that changes the order of magnitude, which is the sort of thing languages tend to avoid."
+    },
+    "cid": "bafyreiawa5ggur44tj4zwlpp3qh352yess3wkgypfesfihlgt7dzzfiljy"
+  }
+}
