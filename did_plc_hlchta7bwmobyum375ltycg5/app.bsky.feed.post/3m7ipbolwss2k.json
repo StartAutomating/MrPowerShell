@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765220004565208,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7ipbp4wnq2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7ipbolwss2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-08T18:53:23.935Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie7o3cgjpvvvqs6tb3vjp2hmfmcu2xz5dl33am3mbwr2bllduqduy",
+          "uri": "at://did:plc:nfipzrviurwj3te6qso4ejrf/app.bsky.feed.post/3m7gsax6lqmj2"
+        },
+        "root": {
+          "cid": "bafyreie7o3cgjpvvvqs6tb3vjp2hmfmcu2xz5dl33am3mbwr2bllduqduy",
+          "uri": "at://did:plc:nfipzrviurwj3te6qso4ejrf/app.bsky.feed.post/3m7gsax6lqmj2"
+        }
+      },
+      "text": "It may help to note that compare- object is kinda crap and nobody uses it.\n\nI'll do something like:\n\n$delta = Foreach ($item in $Arr) { if ($item -notin $arr2) { $item } }"
+    },
+    "cid": "bafyreid4vsvhiciwrrngddyo7mm4wj366g5x4wuk4mahjufv32r22mlram"
+  }
+}
