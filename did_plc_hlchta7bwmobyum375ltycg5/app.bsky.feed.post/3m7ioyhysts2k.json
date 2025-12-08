@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765219695234426,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7ioyi4b5u2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7ioyhysts2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-08T18:48:15.024Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 133,
+            "byteStart": 122
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiamqqotryupiifhhjy2pohsb5gzm4ru5hmf6ehhl4cg5h6aoj43t4",
+          "uri": "at://did:plc:e6obrty5roh7gprzaqoqrae2/app.bsky.feed.post/3m7i5r6uw2k2f"
+        },
+        "root": {
+          "cid": "bafyreiamqqotryupiifhhjy2pohsb5gzm4ru5hmf6ehhl4cg5h6aoj43t4",
+          "uri": "at://did:plc:e6obrty5roh7gprzaqoqrae2/app.bsky.feed.post/3m7i5r6uw2k2f"
+        }
+      },
+      "text": "🤷 sounds like someone set a color palette with a bad contrast level.  Or maybe you're running in the ISE?\n\nAlso, FWIW, #PowerShell has been and will always be free."
+    },
+    "cid": "bafyreihgaqgiyk5tfu6wvelftysib45ppfabcpjzdoq3kgr6hd2vffemd4"
+  }
+}
