@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765157301600160,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7guuytgpm2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7guuy5mhk2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-08T01:28:20.719Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicvt57oe7utowhxzjrtazubpi722kdtkqqxzlgxdj4cvcol7sweim",
+          "uri": "at://did:plc:irotfhpntd2ojsmeazd6fogl/app.bsky.feed.post/3m7gu5mvixk2c"
+        },
+        "root": {
+          "cid": "bafyreigiix73ea3ocxh7ai5eqsbf5wgxrx2fjxnlkzugjfeq5y33nb54xy",
+          "uri": "at://did:plc:h6tcd37yr7vk33uuisbidqvw/app.bsky.feed.post/3m7dnetvskc2z"
+        }
+      },
+      "text": "Hmm.  I'll add this to my implementation experimentation list and see if I get around to making it.\n\nFWIW, if a job is running and you're waiting for it, CTRL+C will wait just fine.\n\nAnd they now support & (though it doesn't work as nicely as I'd like)"
+    },
+    "cid": "bafyreidbpr5efyyom7imtr3y56hyag6ssjd6p27avhjfc72sw3iv5squkq"
+  }
+}
