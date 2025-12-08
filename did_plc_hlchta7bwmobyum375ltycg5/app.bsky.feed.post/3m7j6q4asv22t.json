@@ -1,0 +1,80 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765236594751756,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7j6q4rtj32f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7j6q4asv22t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-08T23:29:54.141Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 113,
+            "byteStart": 102
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Python"
+            }
+          ],
+          "index": {
+            "byteEnd": 133,
+            "byteStart": 126
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Python"
+            }
+          ],
+          "index": {
+            "byteEnd": 171,
+            "byteStart": 164
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 188,
+            "byteStart": 177
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigshj7v4wzbhic6yfa2kgqmggpesdllo5q47mxsm7dlcpjy2qddcy",
+          "uri": "at://did:plc:i53e6y3liw2oaw4s6e6odw5m/app.bsky.feed.post/3m7iwks3f6n22"
+        },
+        "root": {
+          "cid": "bafyreigshj7v4wzbhic6yfa2kgqmggpesdllo5q47mxsm7dlcpjy2qddcy",
+          "uri": "at://did:plc:i53e6y3liw2oaw4s6e6odw5m/app.bsky.feed.post/3m7iwks3f6n22"
+        }
+      },
+      "text": "Love that the consensus here is the correct answer:  \"Both\"\n\nIf you have to put them in order:\n\nLearn #PowerShell, then learn #Python.\n\nThen learn how to call your #Python from #PowerShell\n\nThen rinse and repeat for any other languages you want/need to learn."
+    },
+    "cid": "bafyreihhzx3v2wblrwb4lc3chsvxiio6xfaabtmwtsv6nvwrju5zwpktvm"
+  }
+}
