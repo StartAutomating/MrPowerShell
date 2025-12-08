@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765224558935453,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7itjfyhzc2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7itje6uu22l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-08T20:09:16.424Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Simple Servers in PowerShell. Contribute to PowerShellWeb/Servers101 development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieytidb5wls636ppl35olmqbxeplr57tgiyazo6rtoxwtb47j2fku"
+            },
+            "mimeType": "image/jpeg",
+            "size": 279615
+          },
+          "title": "GitHub - PowerShellWeb/Servers101: Simple Servers in PowerShell",
+          "uri": "https://github.com/PowerShellWeb/Servers101"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "webdev"
+            }
+          ],
+          "index": {
+            "byteEnd": 21,
+            "byteStart": 14
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 37,
+            "byteStart": 26
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShellWeb/Servers101"
+            }
+          ],
+          "index": {
+            "byteEnd": 128,
+            "byteStart": 102
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Good news for #webdev and #PowerShell people:\n\nI've created a little educational module \"Servers101\"\n\ngithub.com/PowerShellWe...\n\nIt's a collection of simple servers written in pure PowerShell.\n\nHopefully this helps everyone see how simple servers can be."
+    },
+    "cid": "bafyreibth2p3mn7z6x53nupylh3c5sgtjrufriqpjwlx2mqmmbmd5qruoy"
+  }
+}
