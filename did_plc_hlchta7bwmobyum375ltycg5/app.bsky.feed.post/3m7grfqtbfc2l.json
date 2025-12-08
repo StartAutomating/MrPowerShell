@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765153569198963,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7grfrdovr2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7grfqtbfc2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-08T00:26:08.497Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifiwnpsvc4mqoturc77gwljp4mopqpgzv5cuhbqyhjaw35zf3yaxy",
+          "uri": "at://did:plc:irotfhpntd2ojsmeazd6fogl/app.bsky.feed.post/3m7gqrrv4zk2y"
+        },
+        "root": {
+          "cid": "bafyreigiix73ea3ocxh7ai5eqsbf5wgxrx2fjxnlkzugjfeq5y33nb54xy",
+          "uri": "at://did:plc:h6tcd37yr7vk33uuisbidqvw/app.bsky.feed.post/3m7dnetvskc2z"
+        }
+      },
+      "text": "Out of curiosity, what do you mean by lack of job control features?\n\nJobs have been there since v2, and are one of the undersung expansion points of PowerShell.  ThreadJobs are insanely overpoweed (but only available on core).\n\nWorkflows did suck though.  Glad they died."
+    },
+    "cid": "bafyreibh6cn7z7chblfi6fmdcb4w6mdtpaji27d2hedjuf3lq3spkglt5m"
+  }
+}
