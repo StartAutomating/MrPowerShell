@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765223472767986,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7isj2ocnt2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7isiztys22l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-08T19:51:11.84Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BlueSky"
+            }
+          ],
+          "index": {
+            "byteEnd": 37,
+            "byteStart": 29
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 59,
+            "byteStart": 51
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib3jrwpjth4zs725uwhbiqyksjcr2tqcoxeit4xlblgtu5uw5xwa4",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3m7is4iamnk25"
+        },
+        "root": {
+          "cid": "bafyreiaqfjbu4tyawfblxjjzbdflunai5xqrsp2vymjopubsyzwpidfoam",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m7gey6hjc22i"
+        }
+      },
+      "text": "My observation was about the #BlueSky app view for #AtProto\n\n(IMO, it shouldn't have too much to do with facets, more with the Web UI used to create them)"
+    },
+    "cid": "bafyreidn2fv7vrbno6dekayqa3gc3holhb44e4h5m2ktb5tcnh6rzl3u2u"
+  }
+}
