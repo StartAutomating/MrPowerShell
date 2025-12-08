@@ -1,0 +1,70 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765219587244236,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7iovb55ss2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7iovato4s2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-08T18:46:26.84Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 31,
+            "byteStart": 24
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 46,
+            "byteStart": 35
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JavaScript"
+            }
+          ],
+          "index": {
+            "byteEnd": 161,
+            "byteStart": 150
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "NextJS"
+            }
+          ],
+          "index": {
+            "byteEnd": 252,
+            "byteStart": 245
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "How is it that I can do #WebDev in #PowerShell for almost two decades without uncontrolled code injection and yet it seems like every other week some #JavaScript project has accidentally allowed root access ?\n\n🧑‍💻🤦\n\n( Looking at you, #NextJS )"
+    },
+    "cid": "bafyreifwgnckpi2nkghl7w4wmqvszoymwwtyousifu2bbg5ofrsp2lr2jq"
+  }
+}
