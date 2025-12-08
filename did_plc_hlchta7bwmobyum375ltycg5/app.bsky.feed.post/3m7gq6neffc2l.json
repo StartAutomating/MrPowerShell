@@ -1,0 +1,128 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765152258233674,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7gq6p4tcb25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7gq6neffc2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-08T00:04:16.241Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 25,
+            "byteStart": 14
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MacOS"
+            }
+          ],
+          "index": {
+            "byteEnd": 39,
+            "byteStart": 33
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 63
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Nix"
+            }
+          ],
+          "index": {
+            "byteEnd": 94,
+            "byteStart": 90
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Kali"
+            }
+          ],
+          "index": {
+            "byteEnd": 126,
+            "byteStart": 121
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 189,
+            "byteStart": 177
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 222,
+            "byteStart": 211
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "VSCode"
+            }
+          ],
+          "index": {
+            "byteEnd": 233,
+            "byteStart": 226
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiekgymjpmurx7ahbchnxv3mfj2wkbmkt4i7xcm3cajl3wzyiw6lm4",
+          "uri": "at://did:plc:h6tcd37yr7vk33uuisbidqvw/app.bsky.feed.post/3m7gpmvrhjk2i"
+        },
+        "root": {
+          "cid": "bafyreigiix73ea3ocxh7ai5eqsbf5wgxrx2fjxnlkzugjfeq5y33nb54xy",
+          "uri": "at://did:plc:h6tcd37yr7vk33uuisbidqvw/app.bsky.feed.post/3m7dnetvskc2z"
+        }
+      },
+      "text": "Not only does #PowerShell run on #MacOS, it runs on a lot more #Linux distros than that.  #Nix even has an easy package. #Kali comes with it.\n\nAnd I'm typing these words from a #RaspberryPi, while working on my #PowerShell in #VSCode. 😎\n\nSo yeah, you're good. 😉"
+    },
+    "cid": "bafyreigywjh6jyswpjdbtlomqdhxz2vjqy3zkdk4ei6yovtsq6avqczjai"
+  }
+}
