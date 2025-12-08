@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765222167077505,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7irc4ylq72f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7irc3aans2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-08T19:29:24.668Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieubum7jn3cqkpycwgjylwam6cjkhridkcune6uqimewekqnv3pwi",
+          "uri": "at://did:plc:e6obrty5roh7gprzaqoqrae2/app.bsky.feed.post/3m7ipyc5ius2c"
+        },
+        "root": {
+          "cid": "bafyreiamqqotryupiifhhjy2pohsb5gzm4ru5hmf6ehhl4cg5h6aoj43t4",
+          "uri": "at://did:plc:e6obrty5roh7gprzaqoqrae2/app.bsky.feed.post/3m7i5r6uw2k2f"
+        }
+      },
+      "text": "As to part two:\n\nSpeaking from a lot of personal experience, I can assure you that nobody working on PowerShell (or any other thing shipped with Windows) is thinking about \"selling\" Windows.\n\nThe philosophy is that you're working on a public good.\n\n\"Selling\" Windows is not an engineer's job."
+    },
+    "cid": "bafyreigvzgxrt3npftp2efs3ds5qtcdo23nr4ljetptfzjuigkntcxpxyq"
+  }
+}
