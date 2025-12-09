@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765316611653299,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7ljastay52y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7ljasapfs2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-09T21:43:30.971Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidbvlaj7nsiz6rn7td2ecxg4f7xwxzhfmh2owyrvnkjjgwin75use",
+          "uri": "at://did:plc:i45a6ifeq7m4ukawvocstrac/app.bsky.feed.post/3m7lixgmdbs2g"
+        },
+        "root": {
+          "cid": "bafyreidreengkpippe4oe5wbjo3hfpancuy5jmmy6q42t2jhl7uu3jtxme",
+          "uri": "at://did:plc:i45a6ifeq7m4ukawvocstrac/app.bsky.feed.post/3m7l6zgzz5k2p"
+        }
+      },
+      "text": "Obviously, because I didn't presume you were a person.\n\nAnd again, I apologize for that assumption and the initial tone.  \n\nClearly you're not just a bot.\n\nWhen I say keep humanity in mind, I mean:\n\nEvery tech was built by people, and it's commonly callous to insult people's work and passions."
+    },
+    "cid": "bafyreig27nujw4h6dvxbaxfbj6vercup43ohle2p6nqrhljilwevobh7ji"
+  }
+}
