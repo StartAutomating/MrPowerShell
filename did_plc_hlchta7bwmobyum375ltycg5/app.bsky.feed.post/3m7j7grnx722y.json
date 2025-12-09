@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765237355368676,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7j7gs4a2n2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7j7grnx722y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-08T23:42:34.789Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibctj6qpary7cudwb5gopryci24ai3miuibpjz7setbtcoudffr4q",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3m7j4s3k2k42s"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreib6noioadeve4fnxucu5wvlro6zn34fqlhj7ff2qkfrqbpnho6wi4",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3m7j4oyfdi42a"
+        }
+      },
+      "text": "Here's the understanding for the comparison operators:\n\nAD is a directory of property bags, and each property _could_ have multiple values.\n\nHence the not-great idea of making a different .NET type that returns the list, even if it has just one item.\n\nSo comparison won't work, because it's a list."
+    },
+    "cid": "bafyreiek2ggvpurbfhpvldffav7nov2grd7b7iitfmfquyror2r3fzgeq4"
+  }
+}
