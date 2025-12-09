@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765237554969472,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7j7mqhgir2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7j7mositk2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-08T23:45:53.119Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie56yhcvv2cfk2wwd62v5be4rl7ic5hobev6fi3l7qt5v72nz4k7a",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3m7j4uiiera23"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreib6noioadeve4fnxucu5wvlro6zn34fqlhj7ff2qkfrqbpnho6wi4",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3m7j4oyfdi42a"
+        }
+      },
+      "text": "Again 💯.  I've actually explained these issues multiple times, including to people who work on or with Active Directory, and they just don't quite get it.  Because too many AD people know AD thru the GUI, this \"everything's actually a list\" bit is so obscured people won't believe you."
+    },
+    "cid": "bafyreiacu4elij4zoener4cgcaovnz6fvcdps6wrzwzid6lyjdurqjabz4"
+  }
+}
