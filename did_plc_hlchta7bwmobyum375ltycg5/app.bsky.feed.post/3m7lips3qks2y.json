@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765316045492474,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7liptapeo2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7lips3qks2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-09T21:34:00.383Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieqckuxvsruy3q3v4slatcajyzwzm2jgy3y3pjdtqlilhil24psd4",
+          "uri": "at://did:plc:i45a6ifeq7m4ukawvocstrac/app.bsky.feed.post/3m7lii45ltk2k"
+        },
+        "root": {
+          "cid": "bafyreidreengkpippe4oe5wbjo3hfpancuy5jmmy6q42t2jhl7uu3jtxme",
+          "uri": "at://did:plc:i45a6ifeq7m4ukawvocstrac/app.bsky.feed.post/3m7l6zgzz5k2p"
+        }
+      },
+      "text": "You're welcome to do so.\n\nI still wish the best for you and the rest of the human race.\n\nAnytime I see anger like this I feel someone needs a 🫂."
+    },
+    "cid": "bafyreifaizutlrev4a6yu5mi6kwbowkvejeq64lt6jpvx2ry46v2bmbsue"
+  }
+}
