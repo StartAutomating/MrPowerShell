@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765240501010400,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7jcek22bg2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7jcej7ge22y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-09T00:35:00.041Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihu6yylrgfe5l4ecavils57o7b3yfhtpxmf27m63tvkszskfv6cei",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3m7jaw77imx23"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreib6noioadeve4fnxucu5wvlro6zn34fqlhj7ff2qkfrqbpnho6wi4",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3m7j4oyfdi42a"
+        }
+      },
+      "text": "I think it's actually more of a function of long term brain drain, understandability, and time.\n\nOn prem AD is very good at what it does, because it scaled for millions since the early 90s.\n\nAD literally became the backbone of the IT world.\n\nBut the AD team was always small..."
+    },
+    "cid": "bafyreiacymz5xgh2tp72b5xh3ri4t6qzrk2cnpqvukeblfkzup5wu5jo4q"
+  }
+}
