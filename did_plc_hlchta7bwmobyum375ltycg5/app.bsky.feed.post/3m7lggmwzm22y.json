@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765313587483674,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7lggopxkw2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7lggmwzm22y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-09T20:53:05.513Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifr6rficlijybim44woxadeggdsc2omxlqvn5dplxbmruhtnvcf2u",
+          "uri": "at://did:plc:i45a6ifeq7m4ukawvocstrac/app.bsky.feed.post/3m7le2lltm22f"
+        },
+        "root": {
+          "cid": "bafyreidreengkpippe4oe5wbjo3hfpancuy5jmmy6q42t2jhl7uu3jtxme",
+          "uri": "at://did:plc:i45a6ifeq7m4ukawvocstrac/app.bsky.feed.post/3m7l6zgzz5k2p"
+        }
+      },
+      "text": "The mix of ragebait posts and random product placements and youtubes.\n\nThat and using a literal troll face mask as a profile photo, with a troll name.\n\nThat and the fact that said face photo is the dumbest Stackhouse."
+    },
+    "cid": "bafyreicxejsfm6eb2vpycel4n3ttcm6czudosz3eqfgfwy3utkihc73at4"
+  }
+}
