@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765315554076475,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7libcahw72q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7libal2a22y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-09T21:25:52.249Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid44ygevczjy5c63wdvncyyvelhctde5uevk7qtgv2lf7wvi6kxga",
+          "uri": "at://did:plc:i45a6ifeq7m4ukawvocstrac/app.bsky.feed.post/3m7lhwfss5k2m"
+        },
+        "root": {
+          "cid": "bafyreidreengkpippe4oe5wbjo3hfpancuy5jmmy6q42t2jhl7uu3jtxme",
+          "uri": "at://did:plc:i45a6ifeq7m4ukawvocstrac/app.bsky.feed.post/3m7l6zgzz5k2p"
+        }
+      },
+      "text": "Dude, I'm not worked up.  I'm just spending some cycles of my day to try to keep the community troll free.  \n\nI apologize for presuming you were purely a bot.\n\nI hope you can see where coming in trollingly hot can be unwelcome.\n\nHave a nice day!"
+    },
+    "cid": "bafyreid7pldhlcmbsygp43ng2vvbo5keozbiwbzevb7m6v5xd2mmc5d4yy"
+  }
+}
