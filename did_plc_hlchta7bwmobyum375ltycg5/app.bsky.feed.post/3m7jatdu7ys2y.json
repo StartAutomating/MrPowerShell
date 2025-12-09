@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765238850834747,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7jated5ua2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7jatdu7ys2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-09T00:07:30.263Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib6noioadeve4fnxucu5wvlro6zn34fqlhj7ff2qkfrqbpnho6wi4",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3m7j4oyfdi42a"
+        },
+        "root": {
+          "cid": "bafyreib6noioadeve4fnxucu5wvlro6zn34fqlhj7ff2qkfrqbpnho6wi4",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3m7j4oyfdi42a"
+        }
+      },
+      "text": "Let me try to correct the record here:\n\nWorking in any language with a badly designed library is deeply infuriating.\n\nAKA:  Let's agree to blame the long-since-disbanded team that built the functionality, not the language."
+    },
+    "cid": "bafyreif3rkrqmpq2k6bm3qqgejzm2jj222uckig522rtaaxu6padvl3loq"
+  }
+}
