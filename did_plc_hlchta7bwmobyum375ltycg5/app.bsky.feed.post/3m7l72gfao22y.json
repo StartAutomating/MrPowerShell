@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765305660335570,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7l72gt2wq2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7l72gfao22y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-09T18:40:59.792Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihhr7sgslbhbq3gmu47fs5xn4nu2jrhajba725utzineug3ywxiqe",
+          "uri": "at://did:plc:wy25eaakpyuv2unzvl4z3ro6/app.bsky.feed.post/3m7l6go6tmk2z"
+        },
+        "root": {
+          "cid": "bafyreicttlcf5rgnxx6p33akge3sqplw6lnym4nnk6mrcikombqj675uei",
+          "uri": "at://did:plc:wy25eaakpyuv2unzvl4z3ro6/app.bsky.feed.post/3m7kfhbnxns2i"
+        }
+      },
+      "text": "Not quite sure this is a question, but yeah, I'd like to make a tool that handles subfolders correctly.  I'd also like multiple destinations (i.e. a local share and a local folder)."
+    },
+    "cid": "bafyreidx3e7i4qrwiogg6g3h6l4tkqfvz3trjjpq2phr43siwedsued6xa"
+  }
+}
