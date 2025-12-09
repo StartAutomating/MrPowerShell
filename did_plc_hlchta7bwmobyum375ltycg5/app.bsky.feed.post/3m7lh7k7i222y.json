@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765314425471866,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7lh7lejka2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7lh7k7i222y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-09T21:07:01.505Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibklxpsf3hmkwp7hius4qm4g3lpmwpcdhvapu2diekn2xk3f4mqkm",
+          "uri": "at://did:plc:i45a6ifeq7m4ukawvocstrac/app.bsky.feed.post/3m7lguh7x5s24"
+        },
+        "root": {
+          "cid": "bafyreidreengkpippe4oe5wbjo3hfpancuy5jmmy6q42t2jhl7uu3jtxme",
+          "uri": "at://did:plc:i45a6ifeq7m4ukawvocstrac/app.bsky.feed.post/3m7l6zgzz5k2p"
+        }
+      },
+      "text": "Your profile photo is of a character from True Blood, and the context for it's use is to deceive others (both in show and in your profile).\n\nPretty sure that makes it a troll face.\n\nAlso, why bother to try to insult intellects?\n\nDo you think that works against actually smart people?"
+    },
+    "cid": "bafyreifwypdulzhxhkuwej75id37xd6cbdy6vhdgcj7ndv2c3rxwwn4vte"
+  }
+}
