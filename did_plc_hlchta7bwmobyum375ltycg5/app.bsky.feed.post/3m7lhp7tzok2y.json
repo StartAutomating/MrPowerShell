@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765314948138634,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7lhpaeisq2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7lhp7tzok2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-09T21:15:47.515Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihb3xr6tmu6s6gquuwtjafmtpiuxg654pfpzuw5kpkxeyaiix4xnu",
+          "uri": "at://did:plc:i45a6ifeq7m4ukawvocstrac/app.bsky.feed.post/3m7lhjmvzb224"
+        },
+        "root": {
+          "cid": "bafyreidreengkpippe4oe5wbjo3hfpancuy5jmmy6q42t2jhl7uu3jtxme",
+          "uri": "at://did:plc:i45a6ifeq7m4ukawvocstrac/app.bsky.feed.post/3m7l6zgzz5k2p"
+        }
+      },
+      "text": "If you have a specific gripe, and the blame is mine, I'll clearly own it (see yesterdays long and detailed thread on AD pains).\n\nCan tell you it was not designed by AI, because it predates AI by decades.  And the main designers are smarter than you or I will ever be.\n\nStill smells like troll."
+    },
+    "cid": "bafyreifq6cvrob35ei4v7q43ercney3ogua7lydnx22m5wzrsey2ncwj2e"
+  }
+}
