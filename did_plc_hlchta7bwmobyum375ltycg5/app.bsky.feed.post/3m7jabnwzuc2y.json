@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765238257573749,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7jabokefr2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7jabnwzuc2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-08T23:57:36.861Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigw5qo2xumuveuzgrzz2sn74d3i5hqmkvbjgn7asckcihwmixgl6y",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3m7ja4a45my2f"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreib6noioadeve4fnxucu5wvlro6zn34fqlhj7ff2qkfrqbpnho6wi4",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3m7j4oyfdi42a"
+        }
+      },
+      "text": "I am not currently domain joined so wouldn't be able to test, but if you lemme know what you're looking for we can see how rusty my raw LDAP is.\n\nWhat exactly are you trying to find?"
+    },
+    "cid": "bafyreibihxayjjdgtxlbezp6osklaiefkesoglbjj4jq42ivvose63avmu"
+  }
+}
