@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765238434585494,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7jagwcdtd2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7jagvcqoc2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-09T00:00:32.358Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifd3pb5wrgchgjn4lwvofmteqhqdjdjsxb2jlu7jglrzcxp2b5pta",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3m7jaakcpwh2j"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreib6noioadeve4fnxucu5wvlro6zn34fqlhj7ff2qkfrqbpnho6wi4",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3m7j4oyfdi42a"
+        }
+      },
+      "text": "Know for certain:  no.\n\nBut my spidey sense says it's probably a trust issue.\n\nAny time foreign security principals are in play, AD has to negotiate between directories, and it very rarely trusts another directory to do so (by fairly sensible design)."
+    },
+    "cid": "bafyreid54ldcbwz2eix5gtd4nusbkieumtgb5lg6mcwcb4sklpiberk37a"
+  }
+}
