@@ -1,0 +1,61 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765237739462072,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7j7safeae2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7j7s65ni22y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-08T23:48:56.985Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Flags that control the behavior of the user account.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreif5cdhusoi35cagqnhxif5bjxpvfwiy4sce35o257o4nsmwddiyfa"
+            },
+            "mimeType": "image/jpeg",
+            "size": 737841
+          },
+          "title": "User-Account-Control attribute - Win32 apps",
+          "uri": "https://learn.microsoft.com/en-us/windows/win32/adschema/a-useraccountcontrol"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://learn.microsoft.com/en-us/windows/win32/adschema/a-useraccountcontrol"
+            }
+          ],
+          "index": {
+            "byteEnd": 293,
+            "byteStart": 258
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie75ft4fnuy6bc2afp4j4zjbfvtcfikmyl6x3v3rpkwdw2li2j5si",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3m7j4xfddtm2f"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreib6noioadeve4fnxucu5wvlro6zn34fqlhj7ff2qkfrqbpnho6wi4",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3m7j4oyfdi42a"
+        }
+      },
+      "text": "Also true, and also very annoying.  The AD cmdlets and ADSI adapter show AD enums like strings most of the time.  But they're not actually strings, and can't be set as strings.\n\nThey have to be set to some obscure number listed in some learn site like this: learn.microsoft.com/en-us/window..."
+    },
+    "cid": "bafyreia4ofcuyufjmskgorxgmxlco4qsfbhuutkan736zqus2ajqyuys2e"
+  }
+}
