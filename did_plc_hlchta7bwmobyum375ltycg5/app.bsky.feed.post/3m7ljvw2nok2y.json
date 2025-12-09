@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765317321230153,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7ljvxjwut2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7ljvw2nok2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-09T21:55:19.611Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicm5xtsoravxend6rc2ma5b7qw7fef2m3mbho25ljyftvfluw55fa",
+          "uri": "at://did:plc:4cfw7c6w6xcu74c6xu6c527l/app.bsky.feed.post/3m7lh6gp7os2j"
+        },
+        "root": {
+          "cid": "bafyreidreengkpippe4oe5wbjo3hfpancuy5jmmy6q42t2jhl7uu3jtxme",
+          "uri": "at://did:plc:i45a6ifeq7m4ukawvocstrac/app.bsky.feed.post/3m7l6zgzz5k2p"
+        }
+      },
+      "text": "Mostly grit and stubbornness.\n\nAlso, I'm pretty sure trying to encourage suicidal idealization is the low road.  Might want to step off of that track.\n\nWe all never know when we're talking to someone who is on the edge, and all but the worst of us don't want that blood on our hands."
+    },
+    "cid": "bafyreie5diabgxogapicsjeaoafqufj7qciti6wdrd6kcqstmrpgvlyx3y"
+  }
+}
