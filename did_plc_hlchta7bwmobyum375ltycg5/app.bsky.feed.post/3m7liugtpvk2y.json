@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765316198232786,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7liuijqpb2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7liugtpvk2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-09T21:36:36.358Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidffhidfq62i6yzgt6ssnw3tm26stjp4nuf7azak6e4jnoc4oqo5i",
+          "uri": "at://did:plc:i45a6ifeq7m4ukawvocstrac/app.bsky.feed.post/3m7lihm7ars2k"
+        },
+        "root": {
+          "cid": "bafyreidreengkpippe4oe5wbjo3hfpancuy5jmmy6q42t2jhl7uu3jtxme",
+          "uri": "at://did:plc:i45a6ifeq7m4ukawvocstrac/app.bsky.feed.post/3m7l6zgzz5k2p"
+        }
+      },
+      "text": "I'll own my part of things.\n\nI presumed utter botness, and you're clearly not just a bot.\n\nI apologize for that.\n\nMy assumption was incorrect, and my first outing was harsher than it would be.\n\nAll technology is built by people, try to keep humanity in mind."
+    },
+    "cid": "bafyreicxqnj45vofn5qqzzompx6aobulgspnrzv52g7stio3glperjjf3m"
+  }
+}
