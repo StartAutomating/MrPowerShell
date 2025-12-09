@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765242726757756,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7jegtequa2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7jegqapss2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-09T01:12:02.016Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicxl465og45fe3tidt3hhoi4yqmhy2tzjli2rlodfnwyaip6yv5ce",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3m7jd4h6lnj2y"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreib6noioadeve4fnxucu5wvlro6zn34fqlhj7ff2qkfrqbpnho6wi4",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3m7j4oyfdi42a"
+        }
+      },
+      "text": "Don't get me wrong, it's still mission critical.  \n\nEntra is (ironically) the off-ramp from a smaller and smaller niche skillset.\n\nIMO, In the long run, it's better to have a competent cloud service than AD admins with god rights and varying levels of competency."
+    },
+    "cid": "bafyreia6bxxorsyokpiqiuosrirhv2dq567yafapuustlls37fdjlta7ye"
+  }
+}
