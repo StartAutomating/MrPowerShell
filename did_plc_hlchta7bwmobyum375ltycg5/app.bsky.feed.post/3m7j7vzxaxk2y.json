@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765237867386417,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7j7w2f4qa2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7j7vzxaxk2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-08T23:51:06.799Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie75ft4fnuy6bc2afp4j4zjbfvtcfikmyl6x3v3rpkwdw2li2j5si",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3m7j4xfddtm2f"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreib6noioadeve4fnxucu5wvlro6zn34fqlhj7ff2qkfrqbpnho6wi4",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3m7j4oyfdi42a"
+        }
+      },
+      "text": "To make matters extra annoying, the fields that are hidden enums aren't enums enough for PowerShell to set them correctly.  So you're having to -band / -bor / -bxor your way thru setting the values.\n\nAnd there's just nobody telling you this.\n\nYou have to learn it \"the hard way\".\n\n🤦"
+    },
+    "cid": "bafyreihmedoj2bxorw5eqlwqgnrqig4bholw4quxyes37oa4b5erulejhy"
+  }
+}
