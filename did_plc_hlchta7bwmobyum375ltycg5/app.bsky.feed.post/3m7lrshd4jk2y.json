@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765325793857077,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7lrshmbk52a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7lrshd4jk2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-10T00:16:33.43Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieueucwscehqsp6xnqt6zloo4hycp2bzfgsyhibwfilp3pz2wrtbi",
+          "uri": "at://did:plc:dt64chr2y7fuo2dbulksht6h/app.bsky.feed.post/3m7lrl6ykbk27"
+        },
+        "root": {
+          "cid": "bafyreibqst3mtz4tgohu4mvnoxgsaxzdg3g55xubv5fvb5wjfgsjonhdcm",
+          "uri": "at://did:plc:dt64chr2y7fuo2dbulksht6h/app.bsky.feed.post/3m7llxr3g3o2g"
+        }
+      },
+      "text": "Yeah, I don't particularly trust bleepingcomputer's headline accuracy.\n\nI believe far more people are p0wnd thru running some random script or a poisoned supply chain than are p0wned by this off-chance."
+    },
+    "cid": "bafyreidgqflwv7hec6i6roztc7mixh72ykbscbvsc3wwsbe4wbtvmy3w7e"
+  }
+}
