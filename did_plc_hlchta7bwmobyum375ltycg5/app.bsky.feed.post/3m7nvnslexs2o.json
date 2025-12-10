@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765398651547231,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7nvns46md2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7nvnslexs2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-10T20:30:51.906Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidau6pica7pth654l65x6zwpgysg5eg4kpzzxcq652ig4l33yc3qe",
+          "uri": "at://did:plc:n7pqy34ee44p54bugthxtlnz/app.bsky.feed.post/3m7nre5ghzc2t"
+        },
+        "root": {
+          "cid": "bafyreifenifznypmsubuwsa527ecuv2wefxhukuhmayruicdbxqn53g6pa",
+          "uri": "at://did:plc:yr7nv7ljdx22v65mqhrwpbvd/app.bsky.feed.post/3m7njuzo5oc23"
+        }
+      },
+      "text": "I am quite sure it's a language 😉 ( I do some wild things with it almost every day ).\n\nAs for the \"commands and libraries\"... Yeah, there are plenty of them for specific products.  And there are plenty of them for non Microsoft products, too.\n\nThey vary in quality, as do libraries in all langs."
+    },
+    "cid": "bafyreihot3xa5xxqcy7sh2szojzreyndkmult7jvly5vnlrq3lnkz7lbqi"
+  }
+}
