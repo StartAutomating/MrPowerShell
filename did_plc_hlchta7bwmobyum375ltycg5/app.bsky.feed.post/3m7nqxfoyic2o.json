@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765393606627033,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7nqxg5fac2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7nqxfoyic2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-10T19:06:45.228Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Paramount Skydance's David Ellison went to great lenghts try to clinch a pact for Warner Bros. Discovery with CEO David Zaslav. His six offers were rebuffed.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreib5x2wtd4itydmrovtpcljn3wfhrfo5krjgtmydqg2f2jddn4dram"
+            },
+            "mimeType": "image/jpeg",
+            "size": 251493
+          },
+          "title": "David Ellison Courted Warner Bros. Discovery’s Zaslav Hard Over 12 Weeks to Win a Deal. Then WBD’s Chief Stopped Responding to His Texts",
+          "uri": "https://variety.com/2025/biz/news/david-ellison-paramount-courted-warner-bros-discovery-zaslav-1236604323/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WB"
+            }
+          ],
+          "index": {
+            "byteEnd": 39,
+            "byteStart": 36
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Netflix"
+            }
+          ],
+          "index": {
+            "byteEnd": 55,
+            "byteStart": 47
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Paramount"
+            }
+          ],
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 59
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://variety.com/2025/biz/news/david-ellison-paramount-courted-warner-bros-discovery-zaslav-1236604323/"
+            }
+          ],
+          "index": {
+            "byteEnd": 291,
+            "byteStart": 264
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Key phrase from long writeup on the #WB merger #Netflix vs #Paramount\n\n\"... Ellison reiterated Paramount’s ability to build a platform that was competitive\"\n\nSounds to me like admitting Paramount Plus couldn't handle the server load at present.\n\nYour thoughts?\n\nvariety.com/2025/biz/new..."
+    },
+    "cid": "bafyreiasce6hbfotiketngumxz5psn7swwifqxifoqd46f7qde7ockdgba"
+  }
+}
