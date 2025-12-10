@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765325637745025,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7lrnsqfam2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7lrnsaehk2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-10T00:13:57.102Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 28,
+            "byteStart": 24
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "HTML"
+            }
+          ],
+          "index": {
+            "byteEnd": 118,
+            "byteStart": 113
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "XML"
+            }
+          ],
+          "index": {
+            "byteEnd": 201,
+            "byteStart": 197
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihkfug5i6mr7iufm46fdkkv4d6u4a45anvhy57x6wf45ss4jujoay",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3m7lhf7qdtc2d"
+        },
+        "root": {
+          "cid": "bafyreihkfug5i6mr7iufm46fdkkv4d6u4a45anvhy57x6wf45ss4jujoay",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3m7lhf7qdtc2d"
+        }
+      },
+      "text": "I should also note that #CSS rules are a pretty good case, too:\n\n\"font-size: 1em\", \"font-weight:bold\" -join ';'\n\n#HTML elements work, too:\n\n'<div>', ($stuff -join '</div><div>'), '</div>'\n\nSo does #XML\n\n\"<x>\",\"<y/>\",\"<z/>\",\"</x>\" -join '' -as [xml]"
+    },
+    "cid": "bafyreiaqwlhjaktwasx6m4sgbpfvrf2blzkk5wjls2yhzjs7kgmd2hpjku"
+  }
+}
