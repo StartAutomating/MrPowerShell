@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765484647532419,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7qfqo7bk52a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7qfql2qks2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-11T20:24:04.031Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Why primes are pretty useful in programming",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidarwkxp4jmlkkhyk4m7q5cpzbh2nl4tubxpfiblzgsklnuwupzue"
+            },
+            "mimeType": "image/jpeg",
+            "size": 138088
+          },
+          "title": "The Power of Primes",
+          "uri": "https://mrpowershell.com/Tricks/The-Power-Of-Primes"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://mrpowershell.com/Tricks/The-Power-Of-Primes"
+            }
+          ],
+          "index": {
+            "byteEnd": 289,
+            "byteStart": 257
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie6m3rah7osjx45ejbw3xolcz4tyn5nboy2goepop6qwyspzzilky",
+          "uri": "at://did:plc:dmgbuthqk3l6rqwznps7qwnc/app.bsky.feed.post/3m7q234iqk22o"
+        },
+        "root": {
+          "cid": "bafyreie6m3rah7osjx45ejbw3xolcz4tyn5nboy2goepop6qwyspzzilky",
+          "uri": "at://did:plc:dmgbuthqk3l6rqwznps7qwnc/app.bsky.feed.post/3m7q234iqk22o"
+        }
+      },
+      "text": "Long ago I wrote a monitoring tool for the Office365 team.\n\nEveryone wanted all their checks every 5 minutes.\n\nThe first time we turned it on Office365 had some unexpected downtime.\n\nSwitched to use prime intervals.\n\nFixed the chaos & learned a new trick.\n\nmrpowershell.com/Tricks/The-P..."
+    },
+    "cid": "bafyreickw6gh3zamhkqzl7uxbdmx2hinyfwbura35huft5f4timbzl25pu"
+  }
+}
