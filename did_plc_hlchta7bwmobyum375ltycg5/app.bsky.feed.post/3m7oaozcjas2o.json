@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765410502633436,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7oaoy7ggn26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7oaozcjas2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-10T23:48:23.67Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifn4toxwc6uvljip4xqo6jsfbdf3jmehfofdd3wegcwaeo2qr5jzq",
+          "uri": "at://did:plc:n7pqy34ee44p54bugthxtlnz/app.bsky.feed.post/3m7nn2uidx222"
+        },
+        "root": {
+          "cid": "bafyreifenifznypmsubuwsa527ecuv2wefxhukuhmayruicdbxqn53g6pa",
+          "uri": "at://did:plc:yr7nv7ljdx22v65mqhrwpbvd/app.bsky.feed.post/3m7njuzo5oc23"
+        }
+      },
+      "text": "Thinking about this a bit more and meeting halfway.\n\nArgument grammar consistency is actually something PowerShell does really well.  Command Metadata is \"a really good idea, well implemented.\"\n\nRubbish-drawer taxonomies match some sadly common bad patterns though 😕. ( not everything is an Invoke- )"
+    },
+    "cid": "bafyreihevb2ju7bf5ywplqarlqxmsy7akvmteyyvzvthgwniuvdcl4iq2u"
+  }
+}
