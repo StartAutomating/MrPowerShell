@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765431651951862,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7oufbj2d22a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7oufagf3k2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-11T05:40:50.43Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieurkqt326tgrtesqoonkdazlrdkk6uyv3y54qr37cjp4hj43cio4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 225737
+          },
+          "title": "devin got fired · stack-auth/stack-auth@8827c0c",
+          "uri": "https://github.com/stack-auth/stack-auth/commit/8827c0c0a4ff38149a5242cfbb5db488f136d3cb"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "LinkOfTheDay"
+            }
+          ],
+          "index": {
+            "byteEnd": 64,
+            "byteStart": 51
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 83,
+            "byteStart": 76
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TypeScript"
+            }
+          ],
+          "index": {
+            "byteEnd": 118,
+            "byteStart": 107
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/stack-auth/stack-auth/commit/8827c0c0a4ff38149a5242cfbb5db488f136d3cb"
+            }
+          ],
+          "index": {
+            "byteEnd": 154,
+            "byteStart": 128
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Some days, it's the little things that feel like a #LinkOfTheDay\n\nLike this #GitHub commit message about a #TypeScript issue :\n\ngithub.com/stack-auth/s...\n\nGrab your 🍿"
+    },
+    "cid": "bafyreic5lwd4oqvrwss6fuwk7eia7lobh6ff2ulzkejmp4sftur3rtloty"
+  }
+}
