@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765411156837667,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7obchxk332a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7obcim5yk2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-10T23:59:17.25Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifn4toxwc6uvljip4xqo6jsfbdf3jmehfofdd3wegcwaeo2qr5jzq",
+          "uri": "at://did:plc:n7pqy34ee44p54bugthxtlnz/app.bsky.feed.post/3m7nn2uidx222"
+        },
+        "root": {
+          "cid": "bafyreifenifznypmsubuwsa527ecuv2wefxhukuhmayruicdbxqn53g6pa",
+          "uri": "at://did:plc:yr7nv7ljdx22v65mqhrwpbvd/app.bsky.feed.post/3m7njuzo5oc23"
+        }
+      },
+      "text": "As for the dependency \"problem\", I would argue PowerShell is much better at this than say, NPM.\n\nThe majority of modules do not require other modules ( though the Azure and AWS modules definitely do ).\n\nI, for one, build almost everything with zero external dependencies."
+    },
+    "cid": "bafyreicomrgfad62h7hqhnisz65ekx2jzmftyxt766jz7bmjheafn2b2am"
+  }
+}
