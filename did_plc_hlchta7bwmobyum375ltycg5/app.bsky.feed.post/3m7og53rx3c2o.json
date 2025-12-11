@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765416344087915,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7og52wgjv2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7og53rx3c2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-11T01:25:44.746Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidxvxddwc5isanztoagmixdbihztfpwq4y2oormvk3lb5lruuoha4",
+          "uri": "at://did:plc:n7pqy34ee44p54bugthxtlnz/app.bsky.feed.post/3m7obvjej3k2k"
+        },
+        "root": {
+          "cid": "bafyreifenifznypmsubuwsa527ecuv2wefxhukuhmayruicdbxqn53g6pa",
+          "uri": "at://did:plc:yr7nv7ljdx22v65mqhrwpbvd/app.bsky.feed.post/3m7njuzo5oc23"
+        }
+      },
+      "text": "True.  Some people do this with PowerShell, too ( been making WPF and Web apps with PowerShell for ~16 years ). I wish it were better known / more popular.\n\nThe supply chain is always a lot smaller.\n\nPart of that is cultural, part of that is a side effect of how much more is \"in box\"."
+    },
+    "cid": "bafyreig47tp6vhckc4ppey4qq5ixccewgfwoqkywjs5ecmh6cqqhjjb62m"
+  }
+}
