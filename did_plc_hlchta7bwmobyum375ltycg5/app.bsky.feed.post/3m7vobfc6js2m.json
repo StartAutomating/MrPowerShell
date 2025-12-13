@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765665598473157,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7vobgiuk727",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7vobfc6js2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-13T22:39:57.035Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifxirv2kqglznxaxykcxhoy33lcub2zi3i6b4jyteeizg6ybh36ry",
+          "uri": "at://did:plc:2dxu7jv7t7wqmtgirlvodkyn/app.bsky.feed.post/3m7vo33oncs2s"
+        },
+        "root": {
+          "cid": "bafyreibcmx53ruikitllmx3byr4c5436vgwjkxoslkp23pnut42r4a64x4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m7vnerqcck2g"
+        }
+      },
+      "text": "What if, say, you found a lot of community scripts without parameter validation?  No reservations?"
+    },
+    "cid": "bafyreig2iwkprz7fkdbi3j2z5hhadzcwapck27rtvy7zgrba2mp3jez2fi"
+  }
+}
