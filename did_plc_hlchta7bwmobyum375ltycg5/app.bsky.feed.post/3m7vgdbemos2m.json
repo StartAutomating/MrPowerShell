@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765657070697317,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7vgdbqyr32p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7vgdbemos2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-13T20:17:50.094Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigyzlpxafie7y2c3xdk4hcs54vep64htrqc2gdcrqcjua6uywkfxu",
+          "uri": "at://did:plc:3lyznxzrddyvxmtyidg6ojsk/app.bsky.feed.post/3m7vcll5o4c2f"
+        },
+        "root": {
+          "cid": "bafyreib6d2unrzghh2cljokm7t32lz7mpgilwkiba2nls55chdckip5pbe",
+          "uri": "at://did:plc:zeuf57zztgutdtjquomt4ws5/app.bsky.feed.post/3m7msfhm42c2s"
+        }
+      },
+      "text": "To be fair, it's really the \"don't give users admin\" more than the \"lock down execution policy\".\n\nExecution policy is not what everyone seems to think it is."
+    },
+    "cid": "bafyreiecdegzgksgk6rgks3b724oklag3brrtjnho7vqthmad2svo5p5fm"
+  }
+}
