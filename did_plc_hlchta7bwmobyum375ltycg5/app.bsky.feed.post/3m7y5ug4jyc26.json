@@ -1,0 +1,48 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765751063966529,
+  "kind": "commit",
+  "commit": {
+    "rev": "3m7y5uiqgh22m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3m7y5ug4jyc26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-14T22:24:21.037Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:qlfgpkorvet4mformigxeass"
+            }
+          ],
+          "index": {
+            "byteEnd": 24,
+            "byteStart": 0
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:cz73r7iyiqn26upot4jtjdhk"
+            }
+          ],
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 25
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "@minuteearth.bsky.social @xkcd.com \n\nI think I've got a good one for you! \n\nI saw my soda vibrating while I played some music.\n\nHow loud would a sound have to be to make soda can / bottle explode?\n\nWhat else would happen?\n\n🍿🍿🍿\n\nEagerly hoping for a response."
+    },
+    "cid": "bafyreidhlrcr33r5sqvzr675e37idtxebbxq7oddqwpi6b2jw5bs47zazi"
+  }
+}
