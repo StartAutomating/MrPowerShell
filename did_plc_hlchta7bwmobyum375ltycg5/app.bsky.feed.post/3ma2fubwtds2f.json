@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765828367648822,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ma2fudexnr2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ma2fubwtds2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-15T19:52:46.066Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia3nwrv5vs2igigzcap3ext2osp3yz5c5nw3nbkxstsv2szakfbia",
+          "uri": "at://did:plc:fouiptakwdnctdtl3dy2akqs/app.bsky.feed.post/3ma2bcnxjy4u2"
+        },
+        "root": {
+          "cid": "bafyreia3nwrv5vs2igigzcap3ext2osp3yz5c5nw3nbkxstsv2szakfbia",
+          "uri": "at://did:plc:fouiptakwdnctdtl3dy2akqs/app.bsky.feed.post/3ma2bcnxjy4u2"
+        }
+      },
+      "text": "🤷 that is a bit unusual.\n\nIf it's a shell that's been around a bit, you may have many objects chewing up memory.\n\nYou can try [GC]::Collect() to explicitly run the garbage collector.\n\nOr you could spawn a new shell."
+    },
+    "cid": "bafyreietshziucx33dywc7ut3keqlnkl2xwxqfgq5yxuh2adbkwmjonknq"
+  }
+}
