@@ -162,6 +162,13 @@ $Style = @"
     grid-area: playFile
 }
 
+input[type="file"]::file-selector-button {
+    text-align: center;
+    color: var(--foreground);
+    background-color: var(--background);
+    border: thin solid var(--foreground);
+    border-radius: 0.25rem;
+}
 
 .rateAndPitch { grid-area: rateAndPitch; display: grid; }
 
@@ -214,8 +221,8 @@ pre { text-align: left }
 .verticalSlider{ writing-mode: vertical-rl;direction: rtl }
 
 // .colorWheel { filter: url('#colorWheel'); }
-// canvas { filter: url('#blurFilter'); }
-// #background-svg { filter: url('#blurFilter') }
+canvas { filter: url('#hueRotate'); }
+#background-svg { filter: url('#hueRotate') }
 .audioControls { text-align: center}
 "@
 
@@ -228,12 +235,12 @@ $svgFilters = @'
           <animate attributeName="values" values="0; 360" dur=".42s" repeatCount="indefinite" />
       </feColorMatrix>
       <feMorphology operator="dilate" radius="1" result="dilated">
-        <animate attributeName="radius" values="0;42;0" dur="0.42s" repeatCount="indefinite"/>
+        <animate attributeName="radius" values="0;1;0" dur="0.42s" repeatCount="indefinite"/>
       </feMorphology>
       <feMorphology operator="erode" radius="1" result="eroded">
-        <animate attributeName="radius" values="0;42;0" dur="0.42s" repeatCount="indefinite"/>
+        <animate attributeName="radius" values="1;4;1" dur="0.42s" repeatCount="indefinite"/>
       </feMorphology>      
-      <feBlend mode="exclusion" in="SourceGraphic" in2="eroded" result="blendedEroded">        
+      <feBlend mode="exclusion" in="SourceGraphic" in2="eroded" result="blendedEroded">
         <animate attributeName="mode" values="screen;overlay;screen" dur="0.42s" repeatCount="indefinite"/>
       </feBlend>
       <feBlend mode="exclusion" in2="eroded" in="blendedEroded" />
@@ -243,20 +250,35 @@ $svgFilters = @'
         <animate attributeName="radius" values="0;1;0" dur="4.2s" repeatCount="indefinite"/>
     </feMorphology>
   </filter>
+  <filter id='tile' x="0" y="0" width="100%" height="100%">
+    <feTile in="SourceGraphic" x="0" y="0" width="100%" height="100%" />
+    <feTile />
+  </fitler>
+  <filter id="emboss">
+      <feConvolveMatrix
+        kernelMatrix="1 0 0
+                      0 0 0
+                      0 0 -1" />
+  </filter>  
   <filter id='dilateFilter'>
     <feMorphology in="SourceGraphic" operator="dilate" radius="1" result="dilated">
-        <animate attributeName="radius" values="1;8;1" dur="4.2s" repeatCount="indefinite"/>
+        <!-- <animate attributeName="radius" values="1;2;1" dur="4.2s" repeatCount="indefinite"/> -->
     </feMorphology>
   </filter>  
   <filter id='blurFilter'>
     <feGaussianBlur in="SourceGraphic" stdDeviation="0.5" result="blur" />    
-        <animate id='blurFilterAnimation' attributeName="stdDeviation" values="0;1;0" dur="0.42s" repeatCount="indefinite"/>
+        <animate id='blurFilterAnimation' attributeName="stdDeviation" values="0;2;0" dur=".42s" repeatCount="indefinite"/>
     </feGaussianBlur>
   </filter>
   <filter id='hueRotate'>
     <feColorMatrix in="SourceGraphic" type="hueRotate" values="180">
-        <animate attributeName="values" values="0;360" dur="0.42s" repeatCount="indefinite"/>
-    </feColorMatrix>
+        <animate attributeName="values" values="0;360" dur="4.2s" repeatCount="indefinite" id='hueRotateAnimation' />
+    </feColorMatrix>    
+  </filter>
+  <filter id='saturate'>
+    <feColorMatrix in="SourceGraphic" type="saturate" values="1">
+        <!-- <animate attributeName="values" values="0;1;0" dur="4.2s" repeatCount="indefinite"/> -->
+    </feColorMatrix>    
   </filter>
   </defs>
 </svg>
@@ -267,15 +289,46 @@ $audioPlayer = @"
 <div class='audioPlayer'>
     <div class='playerProgress'>
         <audio controls="true" autoplay="true" id="audio">
-            <!-- <source src='http://knhc-ice.streamguys1.com/live' type='audio/mpeg' /> -->
+            <!-- <source id='audioSrc' src='http://knhc-ice.streamguys1.com/live' type='audio/mpeg' /> -->
             <!-- <source src='https://kjzz.streamguys1.com/kbaq_mp3_128' type='audio/mpeg' /> -->
         </audio>
     </div>
 
+    <script type='module'>
+        const searchParameters = new URLSearchParams(window.location.search)
+        const queryAliases = {
+            "Source": ["Source", "source", "Src", "src", "S", "s"]
+        }
+        const queryParameters = {}
+        for (const key of Object.keys(queryAliases)) {            
+            for (const p of queryAliases[key]) {
+                if (searchParameters.has(p)) {
+                    queryParameters[key] = searchParameters.get(p)
+                    break
+                }
+            }
+        }
+        if (queryParameters.Source) {
+            try {
+                var preFetch = await fetch(queryParameters.Source).then(r => r.blob())
+                document.getElementById('audio').src = queryParameters.Source
+            } catch {
+                console.log('no go')
+            }
+            
+        }
+    </script>
+
     <div class='nowPlayingInput'>
+        
         <input type="file" id="audioFile" multiple="true" />
+        
     </div>
     <div id='currentlyPlaying'>
+        <button id='lastTrack'>$(. $site.includes.Feather 'skip-back')</button>
+        <span id='currentTrackName'>
+        </span>
+        <button id='nextTrack'>$(. $site.includes.Feather 'skip-forward')</button>
     </div>
 </div>
 "@
@@ -318,7 +371,11 @@ $([Web.HttpUtility]::HtmlEncode($MyInvocation.MyCommand.ScriptBlock))
                             <legend>Palette</legend>
                             $(if ($site.Includes.SelectPalette) { . $site.Includes.SelectPalette })
                             <button id="SetRandomPalette" onclick="SetRandomPalette()">Random Palette</button>
-                        </fieldset>                           
+                            <input type="checkbox" id="HueRotateSwitch" checked="true" />
+                            <label for="HueRotateSwitch">HueRotate</label>
+                            <input type="number" id="HueRotateMultiplier" value="720" />
+                            <label for="HueRotateSwitch">x</label>
+                        </fieldset>
                         <fieldset>
                             <legend>Mono</legend>
                             <input type="checkbox" id="showMono" checked="true" />
@@ -474,24 +531,73 @@ $([Web.HttpUtility]::HtmlEncode($MyInvocation.MyCommand.ScriptBlock))
 </div>
 
 <script>
-var audio = document.getElementById('audio');
-var audioLoader = document.getElementById('audioFile');
+var audio = document.getElementById('audio')
+var audioLoader = document.getElementById('audioFile')
+var nextTrack = document.getElementById('nextTrack')
+var lastTrack = document.getElementById('lastTrack')
 var playlistFiles = []
 var playlistIndex = 0;
 const playlist = {
     index: 0,
-    files: []
+    files: [],
+    cache: {}
 }
 
-audioLoader.addEventListener('change', (e) => {
-    var reader = new FileReader();    
-    for (var i = e.target.files.length - 1 ; i >= 0; i--) {
-        playlist.files.unshift(e.target.files[i])
+async function NowPlaying() {
+    
+    var fileToPlay = playlist.files[playlist.index]
+    if (! fileToPlay) { return }
+    if (! playlist.cache[fileToPlay.name]) {
+        var reader = new FileReader();
+        reader.readAsDataURL(fileToPlay)
+        reader.onload = async (event) => { 
+            playlist.cache[fileToPlay.name] = event.target.result
+            audio.src = event.target.result
+            document.getElementById('currentTrackName').innerText = fileToPlay.name
+        }        
+    } else {
+        audio.src = playlist.cache[fileToPlay.name]
+        document.getElementById('currentTrackName').innerText = fileToPlay.name
     }
-    playlist.index = 0
-    reader.readAsDataURL(playlist.files[playlist.index])
-    document.getElementById('currentlyPlaying').innerText = playlist.files[playlist.index].name
-    reader.onload = (event) => { audio.src = event.target.result }
+    
+    if (playlist.files.length > (playlist.index + 1)) {
+        var reader = new FileReader();
+        var nextIndex = playlist.index + 1
+        var nextFile = playlist.files[nextIndex]
+        reader.readAsDataURL(nextFile)
+        reader.onload = async (event) => { 
+            playlist.cache[nextFile.name] = event.target.result
+        }
+    }    
+}
+
+
+nextTrack.addEventListener('click', (e) => {
+    if (! playlist.files.length) { return }
+    playlist.index++
+    if (playlist.index > playlist.files.length) {
+        playlist.index = 0;
+    }
+    NowPlaying()
+})
+
+lastTrack.addEventListener('click', (e) => {
+    if (! playlist.files.length) { return }
+    playlist.index--
+    if (playlist.index < 0) {
+        playlist.index = playlist.files.length - 1;
+    }
+    NowPlaying()
+})
+
+const readers = []
+
+audioLoader.addEventListener('change', async (e) => {    
+    for (var i = e.target.files.length - 1 ; i >= 0; i--) {
+        playlist.files.unshift(e.target.files[i])        
+    }
+    playlist.index = 0        
+    NowPlaying();
 }, false);
 
 audio.addEventListener('playing', (e) => {
@@ -509,13 +615,7 @@ audio.addEventListener('playing', (e) => {
 audio.addEventListener('ended', (e) => {
     if (playlist.index < (playlist.files.length - 1)) {        
         playlist.index++;
-        var reader = new FileReader();
-        reader.readAsDataURL(playlist.files[playlist.index])
-        reader.onload = (event) => {
-            audio.src = event.target.result;            
-            audio.play();
-            document.getElementById('currentlyPlaying').innerText = playlist.files[playlist.index].name
-        }
+        NowPlaying()        
     }
 }, false)
 
@@ -557,8 +657,12 @@ function propertyValueOf(propertyName) {
     getComputedStyle(visualsCanvas).getPropertyValue(propertyName)
 }
 
+
 async function ShowVisualizer() {    
     const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (! audioSource) {    
+        audioSource = audioCtx.createMediaElementSource(document.getElementById("audio"));
+    }
     const analyser = audioCtx.createAnalyser();
     analyser.fftSize = 2048;
     const barsAnalyser = audioCtx.createAnalyser();
@@ -594,10 +698,7 @@ async function ShowVisualizer() {
     const colorBarAnalyzer = audioCtx.createAnalyser();
     // so we want use a smaller fftSize
     colorBarAnalyzer.fftSize = 32;
-    const colorArray = new Uint8Array(colorBarAnalyzer.frequencyBinCount);
-    if (! audioSource) {
-        audioSource = audioCtx.createMediaElementSource(document.getElementById("audio"));
-    }    
+    const colorArray = new Uint8Array(colorBarAnalyzer.frequencyBinCount);        
     const splitter = audioCtx.createChannelSplitter(2);    
     const panner = audioCtx.createStereoPanner()
     const compressor = audioCtx.createDynamicsCompressor();
@@ -663,7 +764,7 @@ async function ShowVisualizer() {
             const frequencyValue = levelsArray[frequencyIndex];
             const frequencyRatio = frequencyValue/255.0                        
             let frequencyDelta = frequencyRatio            
-            levels.all.push(frequencyRatio)            
+            levels.all.push(frequencyRatio)
             if (frequencyValue > 0 ) {
                 
                 levels.nonZero.push(frequencyRatio)
@@ -784,8 +885,12 @@ async function ShowVisualizer() {
         let rightGainValue = document.getElementById('rightGain').value
         if (rightGainValue) { rightGain.gain.value = rightGainValue / 50 }
 
+        
         // And measure the audio
         const info = measure(frequencyArray, dataArray);
+
+        
+
         let leftInfo = null
         let rightInfo = null
         let channelDelta = 0
@@ -798,9 +903,23 @@ async function ShowVisualizer() {
             measurements.push(leftInfo)
         }
         measurements.push(info)
-
         // Most of what we visualize is based off of levels.
         const levels = info.levels;
+        let saturateFilter = document.getElementById('saturate')
+        // saturateFilter.setAttribute('values', (info.average.low + info.average.high) * 1.25)
+
+        let hueRotateFilter = document.getElementById('hueRotateAnimation')
+        if (hueRotateFilter) {
+            if (document.getElementById('HueRotateSwitch')?.checked) {
+                let hueRotateMultiplier = document.getElementById('HueRotateMultiplier')?.value 
+                if (! hueRotateMultiplier) { hueRotateMultiplier = 720 }
+                hueRotateFilter.setAttribute('values', 
+                    ((info.average.volume + info.average.frequency) * hueRotateMultiplier)
+                )
+            } else {
+                hueRotateFilter.setAttribute('values', 0)
+            }
+        }        
 
         let patternColor = getComputedStyle(visualsCanvas).getPropertyValue(leftColorSelector.value)
     
