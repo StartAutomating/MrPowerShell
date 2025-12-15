@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765831678804365,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ma2iwyzrle2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ma2iwynlu22y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-15T20:47:58.217Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 131,
+            "byteStart": 128
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifolarqgmbmizc4gkdopzfmvcuj4o7ge7ktu6rpx53q3oklsoa5pu",
+          "uri": "at://did:plc:lkqxuuqmxt5xbqlbbcushjt6/app.bsky.feed.post/3ma2iesbkdk2q"
+        },
+        "root": {
+          "cid": "bafyreiavdevxzb54emt2chmokqpebmoamtqkmrnt4usi2fkxpjzckugnwe",
+          "uri": "at://did:plc:lkqxuuqmxt5xbqlbbcushjt6/app.bsky.feed.post/3ma2gsfua3c2i"
+        }
+      },
+      "text": "Thank you!🙏💙\n\nEspecially in the AI age, I'm gonna keep trying to move the ball forward and help as many people as I can.\n\n#AI can't innovate.\n\nI sure as hell can 😉."
+    },
+    "cid": "bafyreiglpitzvvlaeiarngsuq2s4d37prfyllblmidpd7cw5cozwerso5y"
+  }
+}
