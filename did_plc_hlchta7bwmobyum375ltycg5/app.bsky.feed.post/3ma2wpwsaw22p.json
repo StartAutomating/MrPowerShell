@@ -1,0 +1,80 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765846474595544,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ma2wpxbmfb27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ma2wpwsaw22p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-16T00:54:33.776Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Cybersecurity"
+            }
+          ],
+          "index": {
+            "byteEnd": 237,
+            "byteStart": 223
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 249,
+            "byteStart": 238
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "InfoSec"
+            }
+          ],
+          "index": {
+            "byteEnd": 258,
+            "byteStart": 250
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "FYI"
+            }
+          ],
+          "index": {
+            "byteEnd": 263,
+            "byteStart": 259
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigbeiciktulomgw5bgtwp5nykek5xyakcvf5kbesangdjdb5l2og4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ma2wkdadrk2p"
+        },
+        "root": {
+          "cid": "bafyreiegetshdhjssdazge7it7pc32rqomfmi2ii7lshlu4krt6yyxxuhy",
+          "uri": "at://did:plc:at6a4g3smx3o2r7n2lx55tbc/app.bsky.feed.post/3ma2lysotz52v"
+        }
+      },
+      "text": "Like you'd basically do something like:\n\n1024 08:00:00,00 ->  08:00:00,01\n# >> insert payload here \n\nThat would probably not be in the normal runtime of a movie, and would only show for a thousandth of a second if it was.\n\n#Cybersecurity #PowerShell #InfoSec #FYI"
+    },
+    "cid": "bafyreif3jowrigqipywuuzhg2veqh7ebrdueubshjvuyebfkirmktncqsm"
+  }
+}
