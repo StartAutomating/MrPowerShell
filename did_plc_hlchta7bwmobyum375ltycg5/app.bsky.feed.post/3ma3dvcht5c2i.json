@@ -1,0 +1,84 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765860613810807,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ma3dvdl5g227",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ma3dvcht5c2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-16T04:50:12.434Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Glass is a module for seeing thru invisible characters - StartAutomating/Glass",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidnba2rls3zfny5kaclqvyvxzpk4jcztdv6znqm4joo5sjyyjf5l4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 107519
+          },
+          "title": "GitHub - StartAutomating/Glass: Glass is a module for seeing thru invisible characters",
+          "uri": "https://github.com/StartAutomating/Glass"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Malware"
+            }
+          ],
+          "index": {
+            "byteEnd": 77,
+            "byteStart": 69
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Glassware"
+            }
+          ],
+          "index": {
+            "byteEnd": 92,
+            "byteStart": 82
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/Glass"
+            }
+          ],
+          "index": {
+            "byteEnd": 156,
+            "byteStart": 130
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigkdu2di76zw4lssdgqvnsk5mhxfz3icfqvtosciifufqwosb7jze",
+          "uri": "at://did:plc:aq3qtb6wgydzt2d5snhkcfek/app.bsky.feed.post/3ma3ds3kghs2q"
+        },
+        "root": {
+          "cid": "bafyreiegetshdhjssdazge7it7pc32rqomfmi2ii7lshlu4krt6yyxxuhy",
+          "uri": "at://did:plc:at6a4g3smx3o2r7n2lx55tbc/app.bsky.feed.post/3ma2lysotz52v"
+        }
+      },
+      "text": "Yeah.\n\nA million ways to die in the west.\n\nCould be worse.\n\nCould be #Malware and #Glassware\n\nLittle scanner tool  / POC  below:\n\ngithub.com/StartAutomat..."
+    },
+    "cid": "bafyreibckdrydoxisncgovarhef7zs222qqnowxmx576vb5vofcbtduoz4"
+  }
+}
