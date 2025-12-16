@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765926813679261,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ma5bkadgga2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ma5bk7s6lc2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-16T23:13:32.522Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreietgutxqdafxhycs4dzp2edbyftyu746u74tmrfco4lybpufd36vu",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3ma5bffbttc2k"
+        },
+        "root": {
+          "cid": "bafyreig7cf2dwvnxffqagzlpcbf244qpx36tgarvcymae4m3fgs6isdbdu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ma5aloveus2o"
+        }
+      },
+      "text": "Yep.  Exactly.  I'm not really even judging the person for the slip (too soon to tell / do so).  I just 🤷 figured people might be able to put 2+2 together."
+    },
+    "cid": "bafyreify2mcxtk6dpkjsggelp2oeqwbjnxbbs3eerriksgqg3cqro6nxje"
+  }
+}
