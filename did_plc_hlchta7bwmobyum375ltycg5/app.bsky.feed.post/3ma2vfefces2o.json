@@ -1,0 +1,101 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765845045486790,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ma2vfehxy427",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ma2vfefces2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-16T00:30:45.191Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreidhqyyrzriuqu3kyq7ah6wsn4cu7lcqkyxg5tkjdgkpqgnkhpo6ze",
+          "uri": "at://did:plc:fel6pkqz7nrl3mgktq2gmywl/app.bsky.feed.post/3ma2prmvpw22f"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 57,
+            "byteStart": 46
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BlueSky"
+            }
+          ],
+          "index": {
+            "byteEnd": 78,
+            "byteStart": 70
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 95,
+            "byteStart": 92
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 113,
+            "byteStart": 102
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AMA"
+            }
+          ],
+          "index": {
+            "byteEnd": 130,
+            "byteStart": 126
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/4gottenfuturist.bsky.social/post/3ma2prmvpw22f"
+            }
+          ],
+          "index": {
+            "byteEnd": 253,
+            "byteStart": 229
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Open offer to all people trying to figure out #PowerShell problems on #BlueSky\n\nYou can ask #AI about #PowerShell, or you can #AMA.\n\nIt's best to ask for directions before you go down the rabbit hole. Always happy to give them.\n\nbsky.app/profile/4got...\n\nHope this helps!\n\n(I may regret this)"
+    },
+    "cid": "bafyreicpt7vh5gpou325x5vmnjleinvzxdxmpeysemdhkl3hx2sses6ary"
+  }
+}
