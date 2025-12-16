@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765926548789567,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ma5bcdelv42m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ma5bcd3svs2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-16T23:09:07.548Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifrtcwnqupjh5ja5xvd6m4jy4uhrhgyhkqcgdztipm7qjjqb5ouni",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3ma5b3lx3f22k"
+        },
+        "root": {
+          "cid": "bafyreig7cf2dwvnxffqagzlpcbf244qpx36tgarvcymae4m3fgs6isdbdu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ma5aloveus2o"
+        }
+      },
+      "text": "Yeah, I figure if people have stated a preference, it's rude to ignore it.\n\nIf there's a hint of a preference, or you just want to be safe, you can always default to \"they\".\n\nIMO, slipping is fine, trolling is not.\n\nBut it's still no fun to see someone slip on a banana peel 🍌"
+    },
+    "cid": "bafyreif7ynf4ay3qd3nzn2rdqgzxeonn47rm7d5sztjv3mv5w32ij6ap5i"
+  }
+}
