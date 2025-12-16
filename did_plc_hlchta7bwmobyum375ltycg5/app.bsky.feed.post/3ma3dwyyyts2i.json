@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765860670106577,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ma3dwzdi5f26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ma3dwyyyts2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-16T04:51:09.62Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiczuinjsl6fitvlns6xnjqzwjg6dhgjnzsq5qaitbcl67bfzx6or4",
+          "uri": "at://did:plc:aq3qtb6wgydzt2d5snhkcfek/app.bsky.feed.post/3ma3ds3rvq22q"
+        },
+        "root": {
+          "cid": "bafyreiegetshdhjssdazge7it7pc32rqomfmi2ii7lshlu4krt6yyxxuhy",
+          "uri": "at://did:plc:at6a4g3smx3o2r7n2lx55tbc/app.bsky.feed.post/3ma2lysotz52v"
+        }
+      },
+      "text": "The new frontier seems to be hiding them in packages of all formats.\n\nSome days I hate how everything can be dual use."
+    },
+    "cid": "bafyreicq3ov4lm5ezalluihjl2uxa2hc7dw5rjct5mrcrbxm7rkq7vktzy"
+  }
+}
