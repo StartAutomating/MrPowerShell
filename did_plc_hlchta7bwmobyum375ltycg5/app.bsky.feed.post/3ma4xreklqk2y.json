@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765916313333015,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ma4xrcqixs2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ma4xreklqk2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-16T20:18:34.978Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Ubuntu"
+            }
+          ],
+          "index": {
+            "byteEnd": 67,
+            "byteStart": 60
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Kali"
+            }
+          ],
+          "index": {
+            "byteEnd": 85,
+            "byteStart": 80
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Nix"
+            }
+          ],
+          "index": {
+            "byteEnd": 138,
+            "byteStart": 134
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicylwq5p2kuuebsdxixlcwhl276ef57koe7e2xfy7yno5itgltw7m",
+          "uri": "at://did:plc:253uihkqufclbrghzp4ofr5f/app.bsky.feed.post/3ma4xnowz6c24"
+        },
+        "root": {
+          "cid": "bafyreiegetshdhjssdazge7it7pc32rqomfmi2ii7lshlu4krt6yyxxuhy",
+          "uri": "at://did:plc:at6a4g3smx3o2r7n2lx55tbc/app.bsky.feed.post/3ma2lysotz52v"
+        }
+      },
+      "text": "On the Pi, just Raspbian.\n\nFor some other old x86/64 boxes, #Ubuntu.\n\nSometimes #Kali if I'm feeling like being 🌶️.  Very rarely #Nix if I feel like being very 🌶️🌶️.\n\nEt tu?"
+    },
+    "cid": "bafyreifo7prg3gabszaakh2yi5x2uy2li44vhlye72yu3zhgevluimsiuq"
+  }
+}
