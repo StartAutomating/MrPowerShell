@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765915284944606,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ma4wso6bgm2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ma4wspyl2s2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-16T20:01:26.783Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DotNet"
+            }
+          ],
+          "index": {
+            "byteEnd": 96,
+            "byteStart": 89
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicwsnepjdlwiiirekn7zohmph45eeylg3gonyvcytponntdmbajlm",
+          "uri": "at://did:plc:253uihkqufclbrghzp4ofr5f/app.bsky.feed.post/3ma4wkfwxjc27"
+        },
+        "root": {
+          "cid": "bafyreiegetshdhjssdazge7it7pc32rqomfmi2ii7lshlu4krt6yyxxuhy",
+          "uri": "at://did:plc:at6a4g3smx3o2r7n2lx55tbc/app.bsky.feed.post/3ma2lysotz52v"
+        }
+      },
+      "text": "If it had an object pipeline...\n\nOr an extended type system\nOr native restful support\nOr #DotNet\nOr parameter binding\nOr validation\nOr inline help...\n\nThen maybe I would.\n\nStill not sure how people \"blame\" PowerShell for the bad things hackers do with it.\n\nMight as well blame Python or the rain."
+    },
+    "cid": "bafyreiflttdcriuev7knjo7thufglqamdxktkk6d63pw4m4b7utg2z3p6i"
+  }
+}
