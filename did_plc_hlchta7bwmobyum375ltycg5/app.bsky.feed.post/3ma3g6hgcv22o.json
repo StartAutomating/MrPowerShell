@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765863067735495,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ma3g6hwnou26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ma3g6hgcv22o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-16T05:31:07.101Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiff6jg4wnikdkxazup3qauj6an6ulaa47tvbelptw4qmyvjpilp4e",
+          "uri": "at://did:plc:aq3qtb6wgydzt2d5snhkcfek/app.bsky.feed.post/3ma3fsg23zk2q"
+        },
+        "root": {
+          "cid": "bafyreiegetshdhjssdazge7it7pc32rqomfmi2ii7lshlu4krt6yyxxuhy",
+          "uri": "at://did:plc:at6a4g3smx3o2r7n2lx55tbc/app.bsky.feed.post/3ma2lysotz52v"
+        }
+      },
+      "text": "Ooh?  Which one?\n\n🍿\n\nI generally build tools and sometimes they are used in ways I don't appreciate.\n\nI'm ex-MSFT an ex-PowerShell team and the grandparent of scripted PowerShell GUI, so this stuff comes up often enough.  😉\n\nAlso did the STRIDE threat model for PowerShell 2-3 😎"
+    },
+    "cid": "bafyreica36nqxy23vqcddsz2i77cvw4kuwqi3xlnq7cpudzdygeiudanva"
+  }
+}
