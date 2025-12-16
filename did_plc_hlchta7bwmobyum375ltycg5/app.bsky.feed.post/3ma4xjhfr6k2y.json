@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765916048131345,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ma4xjfvkxq2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ma4xjhfr6k2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-16T20:14:09.53Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 178,
+            "byteStart": 172
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigxto6qixuvokbbg4ahkmto6mwuknyzioropvu5bmte2vk5ufrcsy",
+          "uri": "at://did:plc:253uihkqufclbrghzp4ofr5f/app.bsky.feed.post/3ma4xcqs5j227"
+        },
+        "root": {
+          "cid": "bafyreiegetshdhjssdazge7it7pc32rqomfmi2ii7lshlu4krt6yyxxuhy",
+          "uri": "at://did:plc:at6a4g3smx3o2r7n2lx55tbc/app.bsky.feed.post/3ma2lysotz52v"
+        }
+      },
+      "text": "Because it helps highlight performance issues and compatibility issues.\n\nIf stuff runs fast on the Pi, it's often superspeed on anything else.\n\nAlso, I actually kinda like #Linux.\n\nThat and I like being ironic."
+    },
+    "cid": "bafyreifrovhztoukmwr6t5mkmtuqotd2stdvnzkcd5coonzv5cumu5njhi"
+  }
+}
