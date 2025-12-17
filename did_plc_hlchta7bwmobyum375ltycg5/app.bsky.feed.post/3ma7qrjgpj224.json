@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766011883545634,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ma7qrjqos62i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ma7qrjgpj224",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-17T22:51:23.116Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Microsoft"
+            }
+          ],
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 26
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MVPBuzz"
+            }
+          ],
+          "index": {
+            "byteEnd": 193,
+            "byteStart": 185
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ActuallyHappyBirthday"
+            }
+          ],
+          "index": {
+            "byteEnd": 216,
+            "byteStart": 194
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just had a bunch of other #Microsoft MVPs sing an unprompted \"Happy Birthday\" in a Teams call.\n\nSo far, that's made my day 😍\n\n💙🫂🎁🫂🎁🫂❤️🫂🎁🫂🎁🫂💙\n\n#MVPBuzz #ActuallyHappyBirthday"
+    },
+    "cid": "bafyreidgmu3lwsmndhmax5hidqb6mx3lnrn5fijkpual77e324ga4nwvd4"
+  }
+}
