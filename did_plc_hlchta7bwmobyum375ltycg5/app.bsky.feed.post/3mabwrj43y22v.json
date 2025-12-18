@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766087048836581,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mabwrmwgfk2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mabwrj43y22v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-18T19:44:04.696Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ffmpeg"
+            }
+          ],
+          "index": {
+            "byteEnd": 153,
+            "byteStart": 146
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "yt-dlp"
+            }
+          ],
+          "index": {
+            "byteEnd": 173,
+            "byteStart": 166
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 225,
+            "byteStart": 214
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicdfuqjxhpbzxusqp4q5rsnndzbaca5ehtrs4xajkdndcde7amor4",
+          "uri": "at://did:plc:55bdaexrbw7vor36inwyc6bn/app.bsky.feed.post/3ma7l5rwqe22e"
+        },
+        "root": {
+          "cid": "bafyreigwky734p5f3ol55alkyupp63ol4uph6n4p7j6uvn54l5q2xxwfay",
+          "uri": "at://did:plc:55bdaexrbw7vor36inwyc6bn/app.bsky.feed.post/3ma7l5ozd3s2e"
+        }
+      },
+      "text": "This is why I made Get-Media -YouTubeUrl just download yt-dlp for you, and provided tab completion for some of the more common scenarios.\n\nI love #ffmpeg, and I love #yt-dlp.\n\nAnd I would prefer clearly documented #PowerShell parameters to their arcana any/every time.\n\nThat just me?"
+    },
+    "cid": "bafyreihwz7svmqf74q6yskrot6bofo2ucsjj5ixihvu5xmhzth2ow4bqfe"
+  }
+}
