@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766098583794515,
+  "kind": "commit",
+  "commit": {
+    "rev": "3macbjfg6cz2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3macbjebttk27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-18T22:56:22.367Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigwuejo53hxjm3tzr65nv4svqrd7wrb5gn4tjvn5rueiqm4xe6gby",
+          "uri": "at://did:plc:7j5y3yojbqzrzavzx4fgfw5u/app.bsky.feed.post/3mac2vvmmec2l"
+        },
+        "root": {
+          "cid": "bafyreicmcm2jljjev4b6apew252pv6knerpmvddecdlmwxdok5rjrgoape",
+          "uri": "at://did:plc:llsqgeyuaquhhdjjlowdgb34/app.bsky.feed.post/3mabngy2gk72b"
+        }
+      },
+      "text": "Mostly agreed.\n\nWhat do you mean by \"more ergonomic?\""
+    },
+    "cid": "bafyreih57f427xd6sjdj4jncdzc4ymq6gh3g4zfl2a4alzbgj3tugsc6za"
+  }
+}
