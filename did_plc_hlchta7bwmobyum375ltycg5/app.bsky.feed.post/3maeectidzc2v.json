@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766170302793672,
+  "kind": "commit",
+  "commit": {
+    "rev": "3maeecs46o227",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3maeectidzc2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-19T18:51:44.13Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig67p74r3xwja3iwifm3aa5ghyeggevk4kylopx6v5tbhhhemtzoa",
+          "uri": "at://did:plc:pwr6abquzsshkgorh3bwxyn7/app.bsky.feed.post/3mae65fq75s2g"
+        },
+        "root": {
+          "cid": "bafyreig67p74r3xwja3iwifm3aa5ghyeggevk4kylopx6v5tbhhhemtzoa",
+          "uri": "at://did:plc:pwr6abquzsshkgorh3bwxyn7/app.bsky.feed.post/3mae65fq75s2g"
+        }
+      },
+      "text": "Costs more than the original ( even with inflation )\n\nComes with blood on your hands.\n\nNostalgia trip clearly not worth the cost to your wallet or soul."
+    },
+    "cid": "bafyreihi53wwqtcqk4acdqt4sg3gp77g2hqxy3kw4iwc44aiy7wvnwid5m"
+  }
+}
