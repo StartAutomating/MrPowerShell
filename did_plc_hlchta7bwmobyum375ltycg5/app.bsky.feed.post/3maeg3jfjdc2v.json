@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766172204874146,
+  "kind": "commit",
+  "commit": {
+    "rev": "3maeg3hwydc2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3maeg3jfjdc2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-19T19:23:26.154Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiflfwkegwlhlyykv6jirlrok4cr3ek4quddld4gu7m5y6itqmj42u",
+          "uri": "at://did:plc:i5gichmgf33yio57sgbuhbgn/app.bsky.feed.post/3madxqvv2p7u2"
+        },
+        "root": {
+          "cid": "bafyreiflfwkegwlhlyykv6jirlrok4cr3ek4quddld4gu7m5y6itqmj42u",
+          "uri": "at://did:plc:i5gichmgf33yio57sgbuhbgn/app.bsky.feed.post/3madxqvv2p7u2"
+        }
+      },
+      "text": "Funny, my favorite bash command is powershell 😉"
+    },
+    "cid": "bafyreia5ejbtecqk35fqutjvlastdyshp6rhbn6lw6tuppt4lndq7ja3um"
+  }
+}
