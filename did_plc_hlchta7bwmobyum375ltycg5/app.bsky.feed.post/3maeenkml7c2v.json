@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766170662608124,
+  "kind": "commit",
+  "commit": {
+    "rev": "3maeenjaora2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3maeenkml7c2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-19T18:57:43.929Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidcr57dba2g7itss7zdw46sydnnvzdie4czjrm5fogjx2no774vxq",
+          "uri": "at://did:plc:okcllivvkleedwsmroggepzd/app.bsky.feed.post/3madztndzjc2e"
+        },
+        "root": {
+          "cid": "bafyreidcr57dba2g7itss7zdw46sydnnvzdie4czjrm5fogjx2no774vxq",
+          "uri": "at://did:plc:okcllivvkleedwsmroggepzd/app.bsky.feed.post/3madztndzjc2e"
+        }
+      },
+      "text": "That is a dark joke and a deep cut.\n\nPlease, share some of the previous failures more broadly so those of us who weren't online during the Boston Marathon Bombings have context.\n\n( Unless you're thinking of something else, in which case please link that )"
+    },
+    "cid": "bafyreig2hn6vmn2t2ktk5jajhowuucdnlloeva4bu6yj2hpppnsfliaah4"
+  }
+}
