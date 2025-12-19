@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766169861559922,
+  "kind": "commit",
+  "commit": {
+    "rev": "3maedvn6vnz27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3maedvokpp22v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-19T18:44:22.757Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 250,
+            "byteStart": 247
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiff2egw4wh24bk55dkvwyxngtsscfm7uvzarcr6pungszsdrlp74a",
+          "uri": "at://did:plc:2rbzxqmytflqrziv2qmwkdhd/app.bsky.feed.post/3mad6g2p6qs2r"
+        },
+        "root": {
+          "cid": "bafyreic54f3ts3q2gs52m5mtpsbgxdmal2oiaay3it7ryykgca7l2jtzfm",
+          "uri": "at://did:plc:ywbm3iywnhzep3ckt6efhoh7/app.bsky.feed.post/3maajhucqwk2s"
+        }
+      },
+      "text": "I figure some things lend themselves to AI modelling more than others.\n\nPredicting the \"right path\" for a script seems subjective and uncertain.\n\nPredicting the \"right path\" for a hurricane seems like probabilistic number crunching ( right up the #AI alley )"
+    },
+    "cid": "bafyreiai7rzg5fdu6tjufdnsfyoxldzretjttkynyftrm6urebyefkk6ty"
+  }
+}
