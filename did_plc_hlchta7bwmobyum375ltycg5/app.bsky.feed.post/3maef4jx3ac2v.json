@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766171165665091,
+  "kind": "commit",
+  "commit": {
+    "rev": "3maef4i5syg2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3maef4jx3ac2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-19T19:06:06.541Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiazfjwchydn2obueq24adsbxvm433ee2265haxloxsd6csyqxvsne",
+          "uri": "at://did:plc:rnpkyqnmsw4ipey6eotbdnnf/app.bsky.feed.post/3macokz5ezk2z"
+        },
+        "root": {
+          "cid": "bafyreiazfjwchydn2obueq24adsbxvm433ee2265haxloxsd6csyqxvsne",
+          "uri": "at://did:plc:rnpkyqnmsw4ipey6eotbdnnf/app.bsky.feed.post/3macokz5ezk2z"
+        }
+      },
+      "text": "Honestly this was one of the best things about being in Test back when.\n\nYou got to see how *everyone screws up*.\n\nYou got to learn from *everyone's mistakes*.\n\nMuch faster way to learn than stubbing each toe yourself.\n\n( Probably a notch less effective than burning your own hand )"
+    },
+    "cid": "bafyreihp7jbhv6qj2a2ntapdbh7ciot5xvyqdyyoycjbkxa6ce2ekfbyce"
+  }
+}
