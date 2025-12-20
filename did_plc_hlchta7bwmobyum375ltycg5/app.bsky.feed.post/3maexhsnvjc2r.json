@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766190876346679,
+  "kind": "commit",
+  "commit": {
+    "rev": "3maexhwlhu22a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3maexhsnvjc2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-20T00:34:32.129Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidd7aongdrbszcuwyle2yhcsjs2m7hd77eqlux5ybcpwztpg7ahlu",
+          "uri": "at://did:plc:ftrnyploqc7hpolyw7nzcvkj/app.bsky.feed.post/3maemsf3zzs2q"
+        },
+        "root": {
+          "cid": "bafyreidd7aongdrbszcuwyle2yhcsjs2m7hd77eqlux5ybcpwztpg7ahlu",
+          "uri": "at://did:plc:ftrnyploqc7hpolyw7nzcvkj/app.bsky.feed.post/3maemsf3zzs2q"
+        }
+      },
+      "text": "From what I have tried of command names, I don't know if it ever did.\n\n🤷 Command names can be anything, including many things you cannot or would not want to type.\n\nMy favorite are multi-word commands.  My least favorite are invisible ones."
+    },
+    "cid": "bafyreieyluqtk2lakkbuzhcjow2isrrrsx4xpg72x5ruw3c2rqrjqojigm"
+  }
+}
