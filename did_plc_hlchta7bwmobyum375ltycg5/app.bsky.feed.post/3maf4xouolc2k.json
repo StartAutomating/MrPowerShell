@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766196776172844,
+  "kind": "commit",
+  "commit": {
+    "rev": "3maf4xquonz27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3maf4xouolc2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-20T02:12:53.737Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigqbnoyzcybh44jncc762syz6z7krf4d4ulxgtw4ej2j4gczjlrqa",
+          "uri": "at://did:plc:ywbm3iywnhzep3ckt6efhoh7/app.bsky.feed.post/3maek4d5k6l2b"
+        },
+        "root": {
+          "cid": "bafyreigqbnoyzcybh44jncc762syz6z7krf4d4ulxgtw4ej2j4gczjlrqa",
+          "uri": "at://did:plc:ywbm3iywnhzep3ckt6efhoh7/app.bsky.feed.post/3maek4d5k6l2b"
+        }
+      },
+      "text": "Yeah I can get you, if you narrow the ask down a bit...\n\nDo you just need a worksheet per input file, or do you need all rows to end up in the same table, or .... ? \n\nGimme some insight and I'll try to take a crack this weekend."
+    },
+    "cid": "bafyreifwoos52wyzkyvo5g5lyrwdfpffzlizvxasgkjndbzp4i7de7z5ym"
+  }
+}
