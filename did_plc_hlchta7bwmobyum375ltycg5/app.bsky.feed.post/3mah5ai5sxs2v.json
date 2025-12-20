@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766265787866215,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mah5ahpcqx27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mah5ai5sxs2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-20T21:23:08.164Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 68,
+            "byteStart": 57
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DotNet"
+            }
+          ],
+          "index": {
+            "byteEnd": 80,
+            "byteStart": 73
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiagpjao6724dvj7vf4xjx4725kl56mb5fqqg77jngh7ilidnqehga",
+          "uri": "at://did:plc:agsxmicokb65pubftcgtv4kj/app.bsky.feed.post/3mah4vwcabc2u"
+        },
+        "root": {
+          "cid": "bafyreifevfzrhdilt5gzm3fsxpxegjji2ny2wvov6hesm3c7tbreh4zwxu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mah4gdmpnc2v"
+        }
+      },
+      "text": "Oh hell yeah!\n\nI am here for making a VHS that works for #PowerShell and #DotNet.\n\nI would suggest Spectre Console is orthogonal, and you'd want to get your PowerShell support right before remaking Charm's mistakes."
+    },
+    "cid": "bafyreidcjq2udmcwfsd3dj6zfqr6wva7xrre3ibv7vnvlgvaikmwjppzim"
+  }
+}
