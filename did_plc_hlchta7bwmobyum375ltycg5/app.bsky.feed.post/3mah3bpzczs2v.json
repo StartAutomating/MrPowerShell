@@ -1,0 +1,57 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766263685675571,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mah3bqq5672c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mah3bpzczs2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-20T20:48:02.474Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:xf3m37s3ck7yzvg2dcd7773o"
+            }
+          ],
+          "index": {
+            "byteEnd": 54,
+            "byteStart": 40
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 99,
+            "byteStart": 88
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiayemal75ox6p2jc25dtvtqcbvv5wkglvjbpvr4z4gw7anhuehgee",
+          "uri": "at://did:plc:sydgpvanh46u766n536r33oa/app.bsky.feed.post/3magmd326by2h"
+        },
+        "root": {
+          "cid": "bafyreiayemal75ox6p2jc25dtvtqcbvv5wkglvjbpvr4z4gw7anhuehgee",
+          "uri": "at://did:plc:sydgpvanh46u766n536r33oa/app.bsky.feed.post/3magmd326by2h"
+        }
+      },
+      "text": "Lol that brings me back!\n\nLong long ago @leeholmes.com made a similar fire animation in #PowerShell.\n\nTime to curl up in front of a virtual fire 😀"
+    },
+    "cid": "bafyreibbz4ldsq22wdwwnlztrrhytlpu5rze4jexozdopjagzkkksyj5gq"
+  }
+}
