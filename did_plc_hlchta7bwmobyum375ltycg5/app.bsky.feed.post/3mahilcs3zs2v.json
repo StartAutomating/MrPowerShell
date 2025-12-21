@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766277966495223,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mahilf3e262z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mahilcs3zs2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-21T00:46:02.795Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiduafhi7sc3ejqy7byq7qyns6stmob7d2ufpjwnsxz5pn6xcmnlqy",
+          "uri": "at://did:plc:agsxmicokb65pubftcgtv4kj/app.bsky.feed.post/3mahfih2jzc2u"
+        },
+        "root": {
+          "cid": "bafyreicl6soh6wdrmgozkg2bdjn2hrqa34bppzrydol66oifuewxhoreoi",
+          "uri": "at://did:plc:agsxmicokb65pubftcgtv4kj/app.bsky.feed.post/3ma5eo3n4l22y"
+        }
+      },
+      "text": "Yeah there's a _very_ simple trick for this, but it's not at all obvious.\n\nPart 1.  Only use monospaced fonts.\nPart 2.  Use the golden ratio to compute character size\n\nThen it's:\n\n$w = [Math]::Ceiling(($LineLength * $size)/$goldenRatio)\n$h = [Math]::Ceiling(($totalLines + 2) * $size * $Spacing)"
+    },
+    "cid": "bafyreiawur5dwzn2jrdxwmtc5t7aucgbebb3etn4pitzk6yejim64jk4qi"
+  }
+}
