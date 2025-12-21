@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765830871553060,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ma2i6wdyag2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ma2i6rctjc2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-15T20:34:25.217Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Simple Servers in PowerShell. Contribute to PowerShellWeb/Servers101 development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreictkxcfsf2mxte64gypwc3jccezobbr3c3n2osueyh7qha7tp3rue"
+            },
+            "mimeType": "image/jpeg",
+            "size": 275452
+          },
+          "title": "GitHub - PowerShellWeb/Servers101: Simple Servers in PowerShell",
+          "uri": "https://github.com/PowerShellWeb/Servers101"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShellWeb/Servers101"
+            }
+          ],
+          "index": {
+            "byteEnd": 208,
+            "byteStart": 182
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia375xyhpdn7iyvfcey5rgazodlw7zujf542b6dda622guun6f72u",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ma2hnsoffs2y"
+        },
+        "root": {
+          "cid": "bafyreiavdevxzb54emt2chmokqpebmoamtqkmrnt4usi2fkxpjzckugnwe",
+          "uri": "at://did:plc:lkqxuuqmxt5xbqlbbcushjt6/app.bsky.feed.post/3ma2gsfua3c2i"
+        }
+      },
+      "text": "Also a lot of the modules I've been making recently are purposefully spartan and small, so they're easier to understand and use as a template.\n\nLike this little educational module:\n\ngithub.com/PowerShellWe..."
+    },
+    "cid": "bafyreiav2holyenhs7tlzl4z5ogj6pv6vlfidm55jmqe3ej4py7cqp2jky"
+  }
+}

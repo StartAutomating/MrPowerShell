@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766274018474370,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mahevqyvwg2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mahevoqgf22v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-20T23:40:15.9Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidk5tqhwfq44erydv2fy4otjackv6wn2o2ny6ygum3ixbv2lh4chm",
+          "uri": "at://did:plc:d7252nj622aw3a36jcentth3/app.bsky.feed.post/3mahdkoilxs2g"
+        },
+        "root": {
+          "cid": "bafyreicl6soh6wdrmgozkg2bdjn2hrqa34bppzrydol66oifuewxhoreoi",
+          "uri": "at://did:plc:agsxmicokb65pubftcgtv4kj/app.bsky.feed.post/3ma5eo3n4l22y"
+        }
+      },
+      "text": "Only from the \"disk space\" perspective.\n\nThis is like saying a zip is more efficient than a file.\n\nIn memory, I'm quite sure they're all about the same, since they'll all have to go thru the same rendering engines.\n\nFor this purpose (making SVGs), the criticism is especially moot."
+    },
+    "cid": "bafyreifhjuzlndorodxvwroaaa3ldw5lmr4o2uu3bwterkvbdrgkzu2xpu"
+  }
+}

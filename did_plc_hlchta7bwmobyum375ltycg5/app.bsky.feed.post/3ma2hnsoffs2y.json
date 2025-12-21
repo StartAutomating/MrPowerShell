@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765830300637988,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ma2hnvtlsg2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ma2hnsoffs2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-15T20:24:56.218Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "YouTube video by PowerShell.org",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidlqv4hxisryolfkhkpu56oznf3iseeatcsjtc2mn6gkbxzq4dt3e"
+            },
+            "mimeType": "image/jpeg",
+            "size": 642346
+          },
+          "title": "Mastering Making Modules by James Brundage",
+          "uri": "https://youtu.be/-5mTb7L44F4"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://youtu.be/-5mTb7L44F4"
+            }
+          ],
+          "index": {
+            "byteEnd": 284,
+            "byteStart": 264
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiavdevxzb54emt2chmokqpebmoamtqkmrnt4usi2fkxpjzckugnwe",
+          "uri": "at://did:plc:lkqxuuqmxt5xbqlbbcushjt6/app.bsky.feed.post/3ma2gsfua3c2i"
+        },
+        "root": {
+          "cid": "bafyreiavdevxzb54emt2chmokqpebmoamtqkmrnt4usi2fkxpjzckugnwe",
+          "uri": "at://did:plc:lkqxuuqmxt5xbqlbbcushjt6/app.bsky.feed.post/3ma2gsfua3c2i"
+        }
+      },
+      "text": "The immortal words of Shay Levy will forever haunt me:\n\n\"Modules are just a friggin script\" (just rename .ps1 to .psm1 for a basic module).\n\nSome of my recent modules should be easy to learn from...\n\nThere's also this 3-hour session I did a couple of years back:\n\nyoutu.be/-5mTb7L44F4"
+    },
+    "cid": "bafyreia375xyhpdn7iyvfcey5rgazodlw7zujf542b6dda622guun6f72u"
+  }
+}

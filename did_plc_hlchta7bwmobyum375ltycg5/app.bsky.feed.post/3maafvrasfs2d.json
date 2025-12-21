@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766034574668336,
+  "kind": "commit",
+  "commit": {
+    "rev": "3maafvrn6hh2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3maafvrasfs2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-18T05:09:34.107Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "LLMS"
+            }
+          ],
+          "index": {
+            "byteEnd": 10,
+            "byteStart": 5
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 40,
+            "byteStart": 29
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiasv6p3lef4yng3kipao3neqmw37egywcpttffxvfdzrlisn4tnpy",
+          "uri": "at://did:plc:s33lmvk7rwmlypc2qm6wn2lr/app.bsky.feed.post/3maa72oydlw32"
+        },
+        "root": {
+          "cid": "bafyreiasv6p3lef4yng3kipao3neqmw37egywcpttffxvfdzrlisn4tnpy",
+          "uri": "at://did:plc:s33lmvk7rwmlypc2qm6wn2lr/app.bsky.feed.post/3maa72oydlw32"
+        }
+      },
+      "text": "😂 #LLMS get confused with #PowerShell 5.1 vs 7.0 like half the rest of us.\n\nTell them \"Set $OutputEncoding to UTF8\" and it will probably work fine.\n\n🤞"
+    },
+    "cid": "bafyreiduprfvqawjifxyf6imuzwb4k5eeo3w7wm7jeukuwmcarttiylzme"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766267621276004,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mah6x47ijj2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mah6x3ofxc2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-20T21:53:40.569Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 104,
+            "byteStart": 93
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihcvbcd2j7eyrek23nod7i67b3tbismyl3dlcpbqknhdgru5e6rti",
+          "uri": "at://did:plc:ysu7df46kmalnnydsgwb57ff/app.bsky.feed.post/3maeks2euak2z"
+        },
+        "root": {
+          "cid": "bafyreihcvbcd2j7eyrek23nod7i67b3tbismyl3dlcpbqknhdgru5e6rti",
+          "uri": "at://did:plc:ysu7df46kmalnnydsgwb57ff/app.bsky.feed.post/3maeks2euak2z"
+        }
+      },
+      "text": "I used to own that book!\n\nHave tried not to touch DOS too often since I started working with #PowerShell.  \n\nBut IIRC it was a very useful book before that."
+    },
+    "cid": "bafyreicnmmrzjbx232iq6a4hvhsnxd7xjzfyxhx5bpbposacgocavfh6y4"
+  }
+}

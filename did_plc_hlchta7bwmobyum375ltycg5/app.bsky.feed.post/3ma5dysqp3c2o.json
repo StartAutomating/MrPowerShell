@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765929450350101,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ma5dytdyta26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ma5dysqp3c2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-16T23:57:29.641Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia5rny3jis7vlp44tb5ngr2l2lkcxjh723vocgpavdscu2ex4opbi",
+          "uri": "at://did:plc:y33stg664pav7fmpohxbnubc/app.bsky.feed.post/3ma5dredq4s2e"
+        },
+        "root": {
+          "cid": "bafyreicphmadavn5e5d76zwckrmi5j2r3xy5qxvr4sdaccbhof5ox6k6cy",
+          "uri": "at://did:plc:y33stg664pav7fmpohxbnubc/app.bsky.feed.post/3m7roqttnzs26"
+        }
+      },
+      "text": "a- please try PowerShell (with splatting)\n\n$ffargs = @('i', $file, $outputFile, '-y')\nffmpeg @ffargs \n\nb - please share your full command line."
+    },
+    "cid": "bafyreielmfgt5i2hpvx7xc26ooonwiebvsna4h25fnfhq4hap6tumnhpf4"
+  }
+}

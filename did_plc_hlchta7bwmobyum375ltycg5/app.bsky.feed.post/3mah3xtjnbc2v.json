@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766264424263884,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mah3xtaguw2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mah3xtjnbc2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-20T21:00:24.352Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 294,
+            "byteStart": 290
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "FYI"
+            }
+          ],
+          "index": {
+            "byteEnd": 299,
+            "byteStart": 295
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigbmqvzvd66itvnotar4h4rzsld6wsjvmoat5tgnzkpw7s5k3c4ge",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mah3phrljs2v"
+        },
+        "root": {
+          "cid": "bafyreicl6soh6wdrmgozkg2bdjn2hrqa34bppzrydol66oifuewxhoreoi",
+          "uri": "at://did:plc:agsxmicokb65pubftcgtv4kj/app.bsky.feed.post/3ma5eo3n4l22y"
+        }
+      },
+      "text": "I'm officially sad I can off the top of my head this... ( Though glad I typo'd one above )\n\nA - arc path\nC - cubic bezier curve\nL - line to\nM - move\nH/V - horizontal/vertical line\nS - Bezier Curve\nQ - Quadratic Bezier curve\nT - curve to\n\nUppercase means absolute\nLowercase means relative.\n\n#SVG #FYI"
+    },
+    "cid": "bafyreicosh743tlubvao6ntln536vx6qxsslpfu5rfrqnmjks5dvxjui4m"
+  }
+}

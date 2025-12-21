@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766197681180343,
+  "kind": "commit",
+  "commit": {
+    "rev": "3maf5sq4rzf2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3maf5ss4h7s2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-20T02:28:03.107Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie6zeu7quyfjq2ggdl3t42ga57ukrzt2pnmdcpzp5o7vbqanmgepm",
+          "uri": "at://did:plc:cf2qgboupspp7pilrkcb6rxp/app.bsky.feed.post/3maf244resc25"
+        },
+        "root": {
+          "cid": "bafyreigzbtw5nkfusfaq35hucvbqqwowoni225s74fnlkqmehcl2ui7r5m",
+          "uri": "at://did:plc:ynbscw644x7ovpgse3wx4qar/app.bsky.feed.post/3ma62ujltpf2f"
+        }
+      },
+      "text": "Flavien has one.  Not sure what that is but it doesn't exactly look like a safe authority."
+    },
+    "cid": "bafyreiai6wwp2k5qhc4x5kvedezrkhmylkjdynrdrieo4vzi3wqegmkmc4"
+  }
+}

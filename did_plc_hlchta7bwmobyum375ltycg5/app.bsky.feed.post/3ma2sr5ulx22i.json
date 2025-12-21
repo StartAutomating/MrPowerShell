@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765842220446215,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ma2sr6d2yb26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ma2sr5ulx22i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-15T23:43:39.78Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "cybersecurity"
+            }
+          ],
+          "index": {
+            "byteEnd": 211,
+            "byteStart": 197
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BitTorrent"
+            }
+          ],
+          "index": {
+            "byteEnd": 230,
+            "byteStart": 219
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Malware"
+            }
+          ],
+          "index": {
+            "byteEnd": 265,
+            "byteStart": 257
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihkeoouu4n2oyqgf2n2jwdhojj3flm7o7jh7aof7krmlbfi26cfsu",
+          "uri": "at://did:plc:aq3qtb6wgydzt2d5snhkcfek/app.bsky.feed.post/3ma2mkhdicc2h"
+        },
+        "root": {
+          "cid": "bafyreiegetshdhjssdazge7it7pc32rqomfmi2ii7lshlu4krt6yyxxuhy",
+          "uri": "at://did:plc:at6a4g3smx3o2r7n2lx55tbc/app.bsky.feed.post/3ma2lysotz52v"
+        }
+      },
+      "text": "I can translate that one for you:\n\nIn this case it probably means \"some file has a link to a script, and maybe tries to run it\"\n\nWhich, IMO, is a little sensational.  They seem to mean:\n\n\"Breaking #cybersecurity News!  #BitTorrent files may contain contain #Malware.\" 🤦"
+    },
+    "cid": "bafyreieu74yfxlp73vbszwrva4rygqfb73nb2koex7ylnlst4yigohl7ua"
+  }
+}

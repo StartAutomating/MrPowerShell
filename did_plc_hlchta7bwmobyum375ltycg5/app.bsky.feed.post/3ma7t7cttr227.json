@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766014494746512,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ma7t7dxsum2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ma7t7cttr227",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-17T23:34:53.453Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 31,
+            "byteStart": 24
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibu7g7jvvatcvgwezqyyoicyaoqcamlp4mztjwc23m2oodq6tq5um",
+          "uri": "at://did:plc:xrspiwserax6shgskcj7grgg/app.bsky.feed.post/3ma7t4ifmjk2h"
+        },
+        "root": {
+          "cid": "bafyreidgmu3lwsmndhmax5hidqb6mx3lnrn5fijkpual77e324ga4nwvd4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3ma7qrjgpj224"
+        }
+      },
+      "text": "Lol, hopefully will get #Turtle updates out by the new year.\n\nSo many goodies to drop...\n\nMust... get... to... it..."
+    },
+    "cid": "bafyreigdsjqq6437odk4zd2onyjlmmxmkpq23euddddbmc3nceutq36yjq"
+  }
+}

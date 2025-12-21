@@ -1,0 +1,92 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765925901053946,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ma5ap2gpi42p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ma5aoyto522o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-16T22:58:19.26Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Steamdeck"
+            }
+          ],
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 99
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 139,
+            "byteStart": 128
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Arch"
+            }
+          ],
+          "index": {
+            "byteEnd": 159,
+            "byteStart": 154
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 166,
+            "byteStart": 160
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "FlipperZero"
+            }
+          ],
+          "index": {
+            "byteEnd": 218,
+            "byteStart": 206
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreielp2ql44hkoq4qdvnxijun4sbxt4jzpsvewcogywjjsyboumnjbm",
+          "uri": "at://did:plc:qlse3u3qdzb7yd3xzzemlyv6/app.bsky.feed.post/3ma55g237522w"
+        },
+        "root": {
+          "cid": "bafyreibauz2cf4tve2jtdq62r5kjigopy7ddmiylpmnhabajsmwupbvc5q",
+          "uri": "at://did:plc:5vjs3nyqlaadgzqpaxdtqxb5/app.bsky.feed.post/3ma4o24yg3k26"
+        }
+      },
+      "text": "What's to figure out?\n\n$Output = python ./somescript.py \n\nAlso, honestly, the only reason I want a #Steamdeck someday is to put #PowerShell on a handheld #Arch #Linux device and have something that blows a #FlipperZero out of the water."
+    },
+    "cid": "bafyreid3xdsz7ot7eyks6uo4utikegxu3xmzjslm3yg5taryhifkyrlauu"
+  }
+}

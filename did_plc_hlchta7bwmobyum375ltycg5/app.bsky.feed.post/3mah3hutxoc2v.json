@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766263888288482,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mah3hu75na26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mah3hutxoc2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-20T20:51:28.87Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibkqjkuhexwtwcac6txbi2my66bggzamagpxnykuvjvnjcizi4oaa",
+          "uri": "at://did:plc:agsxmicokb65pubftcgtv4kj/app.bsky.feed.post/3ma5eo46agc2y"
+        },
+        "root": {
+          "cid": "bafyreicl6soh6wdrmgozkg2bdjn2hrqa34bppzrydol66oifuewxhoreoi",
+          "uri": "at://did:plc:agsxmicokb65pubftcgtv4kj/app.bsky.feed.post/3ma5eo3n4l22y"
+        }
+      },
+      "text": "It actually gets a notch cooler....\n\nIf you use fontforge, you can actually extract any font out into SVG glyphs used to draw them.\n\nThen you can flip em over and plop em anywhere.\n\nEscape characters are a nightmare but I've got most of em in a func somewhere."
+    },
+    "cid": "bafyreibidtwpoi57qlwezbf3vqd3odaniymmzzvppt2p2xyud6mtmalkmy"
+  }
+}

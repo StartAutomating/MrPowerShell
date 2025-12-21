@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766087107852849,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mabwtfackk2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mabwteglwk2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-18T19:45:06.906Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A Fun PowerShell Module for Multimedia (using FFMpeg) - StartAutomating/RoughDraft",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieqcvtmgciut4dby37gne6u262x43d53c4xs3x3fnstvyxh6pexni"
+            },
+            "mimeType": "image/jpeg",
+            "size": 65379
+          },
+          "title": "GitHub - StartAutomating/RoughDraft: A Fun PowerShell Module for Multimedia (using FFMpeg)",
+          "uri": "https://GitHub.com/StartAutomating/RoughDraft"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/StartAutomating/RoughDraft"
+            }
+          ],
+          "index": {
+            "byteEnd": 73,
+            "byteStart": 47
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihwz7svmqf74q6yskrot6bofo2ucsjj5ixihvu5xmhzth2ow4bqfe",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mabwrj43y22v"
+        },
+        "root": {
+          "cid": "bafyreigwky734p5f3ol55alkyupp63ol4uph6n4p7j6uvn54l5q2xxwfay",
+          "uri": "at://did:plc:55bdaexrbw7vor36inwyc6bn/app.bsky.feed.post/3ma7l5ozd3s2e"
+        }
+      },
+      "text": "Oh btw you can find the wrapper package here:\n\nGitHub.com/StartAutomat..."
+    },
+    "cid": "bafyreiapm35ibotbpqninlueufmyvj4cdbnzftahaqerrzfogfhh23exai"
+  }
+}

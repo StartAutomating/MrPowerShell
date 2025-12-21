@@ -1,0 +1,87 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766264912076919,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mah4ge5dak2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mah4gdmpnc2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-20T21:08:30.992Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Turtle Graphics in PowerShell.  Draw any image with turtles in a powershell.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreih7cmkerl4zhfxpdkmytijlmqadszgzvz44xnhx4icolezqshpuka"
+            },
+            "mimeType": "image/jpeg",
+            "size": 343294
+          },
+          "title": "Get-Turtle",
+          "uri": "https://psturtle.com/Commands/Get-Turtle"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:agsxmicokb65pubftcgtv4kj"
+            }
+          ],
+          "index": {
+            "byteEnd": 19,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 119,
+            "byteStart": 115
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/PSSVG/blob/main/Commands/Custom/SVG.ANSI.ps1"
+            }
+          ],
+          "index": {
+            "byteEnd": 163,
+            "byteStart": 137
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://psturtle.com/Commands/Get-Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 225,
+            "byteStart": 197
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "@philco.bsky.social \n\nHey there it seems like you're working on some stuff I've also dabbled with.\n\nOld console to #SVG converter here:\n\ngithub.com/StartAutomat...\n\nLots more incredible SVG here:\n\npsturtle.com/Commands/Get...\n\nEnjoy!"
+    },
+    "cid": "bafyreifevfzrhdilt5gzm3fsxpxegjji2ny2wvov6hesm3c7tbreh4zwxu"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1765935750146533,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ma5julajvb2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ma5jukqrg227",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-17T01:42:29.489Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 121,
+            "byteStart": 110
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifzcpugygfyot5n4hq2x7pdkfhwjmhiu6wphrp4xnc3uqjsnqq6fu",
+          "uri": "at://did:plc:7p5yt44ze2j3bpvw7pvat57j/app.bsky.feed.post/3ma5iekbro22c"
+        },
+        "root": {
+          "cid": "bafyreicphmadavn5e5d76zwckrmi5j2r3xy5qxvr4sdaccbhof5ox6k6cy",
+          "uri": "at://did:plc:y33stg664pav7fmpohxbnubc/app.bsky.feed.post/3m7roqttnzs26"
+        }
+      },
+      "text": "while this does look cool and I do like it, it does not hold a candle to the many cool shell things that only #PowerShell can currently do.\n\n(especially since, using PowerShell, I can run any of these tools).\n\nIf you'd like, I'm happy to help with the trial/error."
+    },
+    "cid": "bafyreif6xtuv2baxtccsf2eo7mev22jjx4hm7sxrodwbs6mwmhsztejeuu"
+  }
+}

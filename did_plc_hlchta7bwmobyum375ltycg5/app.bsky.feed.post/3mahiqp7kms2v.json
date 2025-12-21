@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766278145271431,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mahiqqam3f27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mahiqp7kms2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-21T00:49:03.592Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihsmmanjsulp7325on74dnfejfs6fd3zaafyggd5ykjbnr6wy6beu",
+          "uri": "at://did:plc:d7252nj622aw3a36jcentth3/app.bsky.feed.post/3mahg3kghw22f"
+        },
+        "root": {
+          "cid": "bafyreicl6soh6wdrmgozkg2bdjn2hrqa34bppzrydol66oifuewxhoreoi",
+          "uri": "at://did:plc:agsxmicokb65pubftcgtv4kj/app.bsky.feed.post/3ma5eo3n4l22y"
+        }
+      },
+      "text": "Additionally, the browser will have already parsed SVG, because SVG is HTML.\n\nSo yes, the zip file analogy doesn't work at all here.\n\nBecause one thing is a container for compressed SVGs\n\nAnd the other is an actual image.\n\nNo additional parsing cost required, or paid by you."
+    },
+    "cid": "bafyreifqccmdjg4nwfjcp2vbzzdv4bpwe7vsjc4t6dj6nrrdpgkqk3mwne"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766278070597888,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mahiojee4e2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mahioi5xqk2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-21T00:47:49.09Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicwncnb6y4fmx34nuhhdlbgvnf473qv3vtugjstgjzkz35ur23nem",
+          "uri": "at://did:plc:d7252nj622aw3a36jcentth3/app.bsky.feed.post/3mahg3kmo5s2f"
+        },
+        "root": {
+          "cid": "bafyreicl6soh6wdrmgozkg2bdjn2hrqa34bppzrydol66oifuewxhoreoi",
+          "uri": "at://did:plc:agsxmicokb65pubftcgtv4kj/app.bsky.feed.post/3ma5eo3n4l22y"
+        }
+      },
+      "text": "Actually you can just use the use element and symbols.  Or directly use <glyph>.\n\nSVG was at least partially made for this.\n\nIf you've got an ASCII set of characters, direct encoding ain't bad.  You can also still avoid it by using <text>, too."
+    },
+    "cid": "bafyreidhpkmx2mjugfvebha7nv5dmvkdmej2wbxb5xvbzrwvgpisnkomx4"
+  }
+}

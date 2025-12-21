@@ -1,0 +1,80 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766350640644838,
+  "kind": "commit",
+  "commit": {
+    "rev": "3majmbbokc72a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3majmbbbnjs2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-21T20:57:20.107Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 83,
+            "byteStart": 72
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 92,
+            "byteStart": 85
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GameDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 106,
+            "byteStart": 98
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 184,
+            "byteStart": 181
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieggnmmkyisfcvzd7isacih3fognbho5u2v6ddhw4ukv3achv6qnm",
+          "uri": "at://did:plc:p572wxnsuoogcrhlfrlizlrb/app.bsky.feed.post/3majgtkyfzs2r"
+        },
+        "root": {
+          "cid": "bafyreieggnmmkyisfcvzd7isacih3fognbho5u2v6ddhw4ukv3achv6qnm",
+          "uri": "at://did:plc:p572wxnsuoogcrhlfrlizlrb/app.bsky.feed.post/3majgtkyfzs2r"
+        }
+      },
+      "text": "I try.\n\nEvery day.\n\nJust trying to find good communities, primarily for #PowerShell, #WebDev, and #GameDev.\n\nTechSky doesn't seem like this at all ( unless people are talking about #AI )"
+    },
+    "cid": "bafyreicpryefbbmkplaf7xrf3kg52y67s22imy2vonhz5ikiwzkhjbwaze"
+  }
+}
