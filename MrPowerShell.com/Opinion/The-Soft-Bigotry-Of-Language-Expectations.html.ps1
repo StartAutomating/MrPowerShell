@@ -350,14 +350,39 @@
 #>
 Push-Location $psScriptRoot
 
+#region Article
 $myHelp = Get-Help $MyInvocation.MyCommand.ScriptBlock.File
-# $myHelp
+$title = $myHelp.Synopsis
+$description = $myHelp.description.text -join [Environment]::NewLine
+
+if ($page -isnot [Collections.IDictionary]) {
+    $page = [Ordered]@{}
+}
+
+$page.title = $title
+$page.description = $description
 
 $markdown = $myHelp.alertset.alert.text -join [Environment]::NewLine 
 
-
 $markdown > ($MyInvocation.MyCommand.Name -replace '(?:\.html)?\.ps1$', '.md')
+"<style>"
+"article { width: 120ch; margin-left:auto;margin-right:auto; }"
+"article img { display: block; width: 50%; margin-left: auto; margin-right:auto; }"
+"</style>"
+"<article>"
+$markdown | 
+    ConvertFrom-Markdown | 
+    Select-Object -expand html
+"</article>"
+#endregion Article
 
-ConvertFrom-Markdown -InputObject $markdown | select -expand html
+#region View Source
+"<details id='view-source'>"
+"<summary>View Source</summary>"
+"<pre><code class='language-powershell'>"
+[Web.HttpUtility]::HtmlEncode("$($MyInvocation.MyCommand.ScriptBlock)")
+"</code></pre>"
+"</details>"
+#endregion View Source
 
 Pop-Location
