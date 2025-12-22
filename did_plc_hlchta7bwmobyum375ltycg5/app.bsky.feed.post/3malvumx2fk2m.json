@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766429672743855,
+  "kind": "commit",
+  "commit": {
+    "rev": "3malvuluswc27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3malvumx2fk2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-22T18:54:33.03Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicsdqrpc42me7hmaebr37eirjnqr4lpvthtzwxcqnb44a2fvyeilq",
+          "uri": "at://did:plc:p5ciq3kylueygjfxezgofbwf/app.bsky.feed.post/3mah4gwanxc2o"
+        },
+        "root": {
+          "cid": "bafyreicsdqrpc42me7hmaebr37eirjnqr4lpvthtzwxcqnb44a2fvyeilq",
+          "uri": "at://did:plc:p5ciq3kylueygjfxezgofbwf/app.bsky.feed.post/3mah4gwanxc2o"
+        }
+      },
+      "text": "Ansible is a safe bet.\n\nYou could also BYODSC by implementing 3-4 verbs per thing.\n\nGet/Set/Test/Repair\n\n( I did this so many times before DSC they mangled the idea and ran with it )\n\nGet gathers data\nSet changes stuff\nTest tests if it looks good\nRepair fixed it when it doesn't"
+    },
+    "cid": "bafyreie3fsaqww77f2rqz34btle57uxbmnins5ctc4gsyaodsytediw4me"
+  }
+}
