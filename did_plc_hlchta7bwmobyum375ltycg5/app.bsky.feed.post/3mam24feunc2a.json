@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766434228851557,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mam24fnfxe2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mam24feunc2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-22T20:10:28.497Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia7pvikbjukvvhamxgf3xvkupbr7kl2lltkyki55kma677adcixb4",
+          "uri": "at://did:plc:iga7ipxo6jy26wv6bevcmdem/app.bsky.feed.post/3malzwsapwk2l"
+        },
+        "root": {
+          "cid": "bafyreihuyb4iqjb2f7odwf36v2rwd5ntudqf467l6evaou4rus5yqvrpwm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3maly7vfch22s"
+        }
+      },
+      "text": "Yeah, I didn't say my name, or my businesses name.\n\nI also figure, between all of the conference talks I've done and user groups and podcasts, if someone wanted to deepfake my voice, they already could.\n\nSometimes having a real sense of your safety sets you free from too much paranoia."
+    },
+    "cid": "bafyreibdg7bfm3gghdprpp3jkf652epzsckw5cjydtqlisutla5jbjquaa"
+  }
+}
