@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766432538489536,
+  "kind": "commit",
+  "commit": {
+    "rev": "3malyjykrae2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3malyjuh6bc2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-22T19:42:13.025Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiagcr3j3blhkjob3nwnai5i6njjztsjiwv6pcd2h4xutn3tqxub7q",
+          "uri": "at://did:plc:23gt44u4zsuqgmoyrqn234si/app.bsky.feed.post/3malrhxr6ic23"
+        },
+        "root": {
+          "cid": "bafyreiagcr3j3blhkjob3nwnai5i6njjztsjiwv6pcd2h4xutn3tqxub7q",
+          "uri": "at://did:plc:23gt44u4zsuqgmoyrqn234si/app.bsky.feed.post/3malrhxr6ic23"
+        }
+      },
+      "text": "Glad you're getting closer to the finish line.\n\nWhen you gonna give me some issues / PRs?\n\nThe CalcChain is indeed not handled in ImportExcel or OpenXML.\n\nYou can either pop open excel to let it figure it out.\n\nOr port N of ~500 functions.\n\nThe majority of them are \"easy\".\n\nNot all of em."
+    },
+    "cid": "bafyreif3drqxntozwgtdzkl2yhdi245l5k2pxs4l35ekdpr4hbsreecd44"
+  }
+}
