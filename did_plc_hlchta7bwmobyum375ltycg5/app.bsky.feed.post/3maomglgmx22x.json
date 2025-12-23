@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766522617971859,
+  "kind": "commit",
+  "commit": {
+    "rev": "3maomglxeaw27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3maomglgmx22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-23T20:43:37.22Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia5iptnjoro3nlolia4aspedbpl3wctwjbtfpfqquwffr5ceihbum",
+          "uri": "at://did:plc:a47i2grd3cuioabyz5vwrniu/app.bsky.feed.post/3maoldotw522d"
+        },
+        "root": {
+          "cid": "bafyreiemuhiign3nlmj4443uk3dopjup7iiq6ietukbzgloly4gjyqecpi",
+          "uri": "at://did:plc:a47i2grd3cuioabyz5vwrniu/app.bsky.feed.post/3manxv5dhbk2u"
+        }
+      },
+      "text": "Yep.\n\nSo I figured \"get a subtitles module out\", and then we can all:\n\n1. Find bad subtitles\n2. Convert between subtitle formats\n3. Search subtitles for key phrases\n\nWin win win\n\nThe only \"L\" is that by having a PowerShell module to make subtitles it's easier to make bad subtitles."
+    },
+    "cid": "bafyreiefzvvhnjbh6em7rmuyfe4r6c3yi7pfrzi3gthwdx4wporkqvebqu"
+  }
+}
