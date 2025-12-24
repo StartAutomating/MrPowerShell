@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766539911181936,
+  "kind": "commit",
+  "commit": {
+    "rev": "3map4jxkfyc2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3map4ju6z522x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-24T01:31:46.94Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: A Grand Slam review is a movie takedown that knocks it out of the park.\n\nThis 🌶️ hot take against Avatar is a fine example of the form.  \n\nTells you what the movie is about, makes it's opinion really clear.\n\nLeaves you with the impression you should avoid it like the plague without saying so directly.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiaiozmhhfj6hvqk2rh7vg2qi3e7oa4gitoofgjsidrvwaui5wonju"
+            },
+            "mimeType": "image/jpeg",
+            "size": 528481
+          },
+          "title": "a cartoon of a baseball player holding a bat with the words `` grand salami '' written below him .",
+          "uri": "https://media.tenor.com/ImuqNo0_IRwAAAAC/home-run-long.gif?hh=281&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiap6wmlcybcaj6yhdx5gnp3jdlvjiswusd4crstiqgatrlow3w5da",
+          "uri": "at://did:plc:6o53b4kljtcmbgi5b63qh2n3/app.bsky.feed.post/3mahoswqdvc2a"
+        },
+        "root": {
+          "cid": "bafyreiap6wmlcybcaj6yhdx5gnp3jdlvjiswusd4crstiqgatrlow3w5da",
+          "uri": "at://did:plc:6o53b4kljtcmbgi5b63qh2n3/app.bsky.feed.post/3mahoswqdvc2a"
+        }
+      },
+      "text": "Speaking as former film critic (OG OFCS, ~1996), this is one of the best reviews I've ever read!\n\nGreat grand slam of a review!\n\nWasn't planning on going, sure am not planning on it now.\n\nHats off to the excellent craft work of intertwining synopsis with the take down. \n\n9/10 ⭐"
+    },
+    "cid": "bafyreifebzohgsmvl57patziz6b75pjz52vumydrpxwho443czrqlylmme"
+  }
+}
