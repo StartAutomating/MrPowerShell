@@ -1,0 +1,114 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766609777235098,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mar5m5lkkm2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mar5m5mfas2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-24T20:56:17.143Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "MarkX - Markdown, XML, and PowerShell. Contribute to StartAutomating/MarkX development by creating an account on GitHub.",
+          "title": "GitHub - StartAutomating/MarkX: MarkX - Markdown, XML, and PowerShell",
+          "uri": "https://github.com/StartAutomating/MarkX"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Markdown"
+            }
+          ],
+          "index": {
+            "byteEnd": 47,
+            "byteStart": 38
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JoyToTheWorld"
+            }
+          ],
+          "index": {
+            "byteEnd": 78,
+            "byteStart": 64
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/MarkX"
+            }
+          ],
+          "index": {
+            "byteEnd": 155,
+            "byteStart": 129
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "xmas"
+            }
+          ],
+          "index": {
+            "byteEnd": 301,
+            "byteStart": 296
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "gift"
+            }
+          ],
+          "index": {
+            "byteEnd": 307,
+            "byteStart": 302
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "data"
+            }
+          ],
+          "index": {
+            "byteEnd": 313,
+            "byteStart": 308
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Hey #PowerShell people and masters of #Markdown :\n\n2025 holiday #JoyToTheWorld code drops continue!\n\nHot off the press:\n\nMarkX - github.com/StartAutomat...\n\nMarkdown, XML, and PowerShell (oh my!)\n\nQueryable Markdown!\nEasy table creation!\nStrongly typed datatables!\n\nEnjoy!\n\n🎁🎄🎁🎄🎁\n\n#xmas #gift #data"
+    },
+    "cid": "bafyreiby5ki4lvhytgrvyzsuziv2b42ckrczdrgcbvw6dnimila2na5gve"
+  }
+}
