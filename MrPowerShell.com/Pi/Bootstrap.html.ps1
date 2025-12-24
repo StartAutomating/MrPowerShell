@@ -7,8 +7,10 @@
     PowerShell is pretty awesome on the Raspberry Pi.
 
     Here's a script to get PowerShell installed on the Pi.
-
-
+.LINK
+    https://MrPowerShell.com/Pi/Bootstrap
+.LINK
+    https://MrPowerShell.com/Pi/poshpi.sh
 #>
 param(
 [uri]
@@ -64,13 +66,18 @@ chmod +x ~/powershell/pwsh
         $installScript > ./poshpi.sh
         chmod +x ./poshpi.sh
     }
-    
 }
 
+
 if ($installScript) {
+
 "<pre><code language='lang-sh'>
 $([Web.HttpUtility]::HtmlEncode($installScript))
 </code></pre>"
+}
+
+if ($site.Includes.CopyCode) {
+    . $site.Includes.CopyCode 
 }
 
 Pop-Location
