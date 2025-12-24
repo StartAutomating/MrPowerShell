@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766609415590412,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mar5be6rrm2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mar5bd5wnk2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-24T20:50:13.862Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 62,
+            "byteStart": 51
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 80,
+            "byteStart": 68
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibvdga3sov2oeohx3rzt44blwekw6ccbglyuyh5co6gofvfu6dfsm",
+          "uri": "at://did:plc:wqa5yo6o7vfibv42yj3azsbl/app.bsky.feed.post/3maqz36e3os2z"
+        },
+        "root": {
+          "cid": "bafyreibvdga3sov2oeohx3rzt44blwekw6ccbglyuyh5co6gofvfu6dfsm",
+          "uri": "at://did:plc:wqa5yo6o7vfibv42yj3azsbl/app.bsky.feed.post/3maqz36e3os2z"
+        }
+      },
+      "text": "🤷 why else do you think I'm daily driving using #PowerShell on a #RaspberryPi ?\n\nHonestly, it gives me a few things:\n\n1. Cross platform/architecture testing\n2. Perf testing\n3. Much less bloat"
+    },
+    "cid": "bafyreig5iyvq4z55h6ekw7xlonxhr2hrzjwjlsfbavlxu7dop7b6glyh5q"
+  }
+}
