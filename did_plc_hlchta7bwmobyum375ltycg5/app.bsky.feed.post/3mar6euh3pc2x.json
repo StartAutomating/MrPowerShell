@@ -1,0 +1,96 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766610607637474,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mar6ev6zj726",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mar6euh3pc2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-24T21:10:06.393Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "MarkX - Markdown, XML, and PowerShell. Contribute to StartAutomating/MarkX development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifb7hnjq75gp4f63gtol233ku6axmijdb5ll4nni44rtkq3sod6v4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 216672
+          },
+          "title": "GitHub - StartAutomating/MarkX: MarkX - Markdown, XML, and PowerShell",
+          "uri": "https://github.com/StartAutomating/MarkX"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 71,
+            "byteStart": 60
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "XML"
+            }
+          ],
+          "index": {
+            "byteEnd": 76,
+            "byteStart": 72
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Markdown"
+            }
+          ],
+          "index": {
+            "byteEnd": 90,
+            "byteStart": 81
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/MarkX"
+            }
+          ],
+          "index": {
+            "byteEnd": 119,
+            "byteStart": 93
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigtbci5cyn4cljvkp4cz7ty7k5pg5ljb5urdnfroaocq77c342lve",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3majw5einvs2q"
+        },
+        "root": {
+          "cid": "bafyreigtbci5cyn4cljvkp4cz7ty7k5pg5ljb5urdnfroaocq77c342lve",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3majw5einvs2q"
+        }
+      },
+      "text": "Now at 2425/2500\n\n75 left\n\n7 days to go.\n\nNew drops out for #PowerShell #XML and #Markdown:\n\ngithub.com/StartAutomat..."
+    },
+    "cid": "bafyreibf3efmw2kwhh4fdk4iydcoqm5x3yytmdh3by6fsd24656kfimzpi"
+  }
+}
