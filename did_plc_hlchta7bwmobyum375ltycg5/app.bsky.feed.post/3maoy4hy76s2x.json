@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766535163533415,
+  "kind": "commit",
+  "commit": {
+    "rev": "3maoy4ifogf2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3maoy4hy76s2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-24T00:12:42.959Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaihoon3lxs4up53ezwhadj5cfgrraldliepuvlsgvi55y4uk4acm",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3maoecp6uw22b"
+        },
+        "root": {
+          "cid": "bafyreiaihoon3lxs4up53ezwhadj5cfgrraldliepuvlsgvi55y4uk4acm",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3maoecp6uw22b"
+        }
+      },
+      "text": "That's a lot of writing for one year!  Almost 4.5 novels worth!\n\nAnd that's why you're the best PowerShell teacher in the business, 20 years running. (IMHO)\n\nHappy Holidays 🎄 Happy New Year! 🪩  \n\nCan't wait to see what you come up with in 2026!"
+    },
+    "cid": "bafyreidmqcm3arblgsn5g3xtvgxpo3ouhulbwhw7hraavmvpk4pbxifhga"
+  }
+}
