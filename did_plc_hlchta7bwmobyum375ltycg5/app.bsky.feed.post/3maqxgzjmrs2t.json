@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766603166132566,
+  "kind": "commit",
+  "commit": {
+    "rev": "3maqxgzw2fp2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3maqxgzjmrs2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-24T19:06:02.635Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiesopjdkykchn5krnz5ae7w7f3fltldh3wgjjsqdtlbtdhttg2mzu",
+          "uri": "at://did:plc:hzrswnow7xejwkj5b64yzlav/app.bsky.feed.post/3maqot7ekhc2a"
+        },
+        "root": {
+          "cid": "bafyreiau2dojxxnanqpv6entmosxriq3erdinbgovxoppsijxjqterpbay",
+          "uri": "at://did:plc:hzrswnow7xejwkj5b64yzlav/app.bsky.feed.post/3maoz7scq7s2p"
+        }
+      },
+      "text": "Yes, I think it can.\n\nIt's quite easy to just save a bunch of tags into a variable and join them later.\n\nAnd also to use little filters and functions to transform stuff.\n\nOf course, why stop there?"
+    },
+    "cid": "bafyreiddmehbrmn7lpnzwrk2cj7vlh7qky6hacramydaj5lggmliblgzpu"
+  }
+}
