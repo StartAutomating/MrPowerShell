@@ -1,0 +1,51 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766541308672674,
+  "kind": "commit",
+  "commit": {
+    "rev": "3map5tmuzz42p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3map5tl6hls2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-24T01:55:06.77Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreiaqwlhjaktwasx6m4sgbpfvrf2blzkk5wjls2yhzjs7kgmd2hpjku",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3m7lrnsaehk2y"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/mrpowershell.com/post/3m7lrnsaehk2y"
+            }
+          ],
+          "index": {
+            "byteEnd": 216,
+            "byteStart": 192
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiau2dojxxnanqpv6entmosxriq3erdinbgovxoppsijxjqterpbay",
+          "uri": "at://did:plc:hzrswnow7xejwkj5b64yzlav/app.bsky.feed.post/3maoz7scq7s2p"
+        },
+        "root": {
+          "cid": "bafyreiau2dojxxnanqpv6entmosxriq3erdinbgovxoppsijxjqterpbay",
+          "uri": "at://did:plc:hzrswnow7xejwkj5b64yzlav/app.bsky.feed.post/3maoz7scq7s2p"
+        }
+      },
+      "text": "Yeah, it's pretty nifty.\n\nWait until you figure out how much you can actually do with @(), -join, and -replace  (works in 1.0+) \n\n 😍😍😍 \n\nFor a taste or two, check this earlier post:\n\nbsky.app/profile/mrpo..."
+    },
+    "cid": "bafyreifavbpq7gerywid2h27npystwrz2p622c2hlykd4xrjyexbryoepe"
+  }
+}
