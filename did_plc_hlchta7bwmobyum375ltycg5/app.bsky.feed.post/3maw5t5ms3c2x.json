@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766781811272636,
+  "kind": "commit",
+  "commit": {
+    "rev": "3maw5t5zveb2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3maw5t5ms3c2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-26T20:43:30.729Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihfrmwav2z34q43l5elq2efgyyzb6ehc2n3sv4efzzrf2ttgzm6hy",
+          "uri": "at://did:plc:5a6z6di52r5jxco37iaypsdx/app.bsky.feed.post/3maw3qq2h622j"
+        },
+        "root": {
+          "cid": "bafyreihfrmwav2z34q43l5elq2efgyyzb6ehc2n3sv4efzzrf2ttgzm6hy",
+          "uri": "at://did:plc:5a6z6di52r5jxco37iaypsdx/app.bsky.feed.post/3maw3qq2h622j"
+        }
+      },
+      "text": "Did a bit of looking at the tool.\n\nI think that jobs will be the right way to go for most of it.\n\nStuff like --keyboard input might require a terminal (or redirection of standard input).\n\nFor the rest the job will be nice because you can always Stop-Job (to, say, stop recording)"
+    },
+    "cid": "bafyreie3mhsi24unv5t4amwzolbmwkztgyshafozgphmdctmkauozghxhi"
+  }
+}
