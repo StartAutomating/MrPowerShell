@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766786476646357,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mawc66v2ge2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mawc66sh4c2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-26T22:01:16.029Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TIL"
+            }
+          ],
+          "index": {
+            "byteEnd": 4,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "⑂ingGreat"
+            }
+          ],
+          "index": {
+            "byteEnd": 245,
+            "byteStart": 233
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 251,
+            "byteStart": 247
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#TIL there is actually a proper symbol for \"fork\" and \"inverted fork\".\n\nThey're buried in the \"optical character recognition\" block\n\n⑂ - Fork - 0x2442\n⑃ - Inverted Fork - 0x2443\n\nBonus points:  Guess it works as a hashtag, too!\n\n#⑂ingGreat\n\n#CSS class:\n\n.ocr-fork-list { list-style: '\\2442'}"
+    },
+    "cid": "bafyreidjbm3uyslwf3qdlfgcbtfn3lksejn3bk6qddzchu24w6mt7qnrxy"
+  }
+}
