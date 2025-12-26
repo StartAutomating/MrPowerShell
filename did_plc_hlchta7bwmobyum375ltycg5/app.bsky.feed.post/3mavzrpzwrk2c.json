@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766777467334563,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mavzrpc4yc2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mavzrpzwrk2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-26T19:31:07.958Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaq7z2qdgmmm3p2lajnnudmoolm645hicvhatq2cslbdqqxmrctuy",
+          "uri": "at://did:plc:n4v3w2lmcptvczaspsyanfhy/app.bsky.feed.post/3mavw5f6wfc2b"
+        },
+        "root": {
+          "cid": "bafyreiaq7z2qdgmmm3p2lajnnudmoolm645hicvhatq2cslbdqqxmrctuy",
+          "uri": "at://did:plc:n4v3w2lmcptvczaspsyanfhy/app.bsky.feed.post/3mavw5f6wfc2b"
+        }
+      },
+      "text": "IIRC this has been there a while ( temped to say Win8 )\n\n\"Popular\" programs that aren't installed by default can be recommended in search.\n\nI'm pretty sure the definition of \"Popular\" has changed over time.\n\nWould not be surprised if it lives in the registry or a configuration file somewhere."
+    },
+    "cid": "bafyreieuyea7lgxocbiz4quwzcu2gl7ced76jotklbzdxmw3ftk77zrqzm"
+  }
+}
