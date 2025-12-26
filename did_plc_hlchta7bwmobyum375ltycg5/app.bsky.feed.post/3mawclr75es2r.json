@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766786932036020,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mawclrkbbq2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mawclr75es2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-26T22:08:51.528Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TIL"
+            }
+          ],
+          "index": {
+            "byteEnd": 4,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 199,
+            "byteStart": 195
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Cybersecurity"
+            }
+          ],
+          "index": {
+            "byteEnd": 265,
+            "byteStart": 251
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#TIL I learned there's a pair of special OCR characters for bank account info:\n\nsymbol | hex | name\n⑆ | 0x2446 | ocr-branch-bank-identification\n⑉ | 0x2449 | ocr-customer-account-number\n\nGood #CSS news - we can style financial information 😀\nBad #Cybersecurity news - attackers could scan for this 🫤"
+    },
+    "cid": "bafyreifv6d4s366f4ft7zmgyofgd6zvnsrx76cxd72n7ysm7pufrhoouwi"
+  }
+}
