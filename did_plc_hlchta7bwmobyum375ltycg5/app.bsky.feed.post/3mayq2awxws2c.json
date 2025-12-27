@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766870095904525,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mayq2atinc2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mayq2awxws2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-27T21:14:55.919Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "IIS"
+            }
+          ],
+          "index": {
+            "byteEnd": 134,
+            "byteStart": 130
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif52z3ylmoud6peqqffloqqyg6p6msl7iyehhtiivesj3ktphwxia",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3maypjojx7s2c"
+        },
+        "root": {
+          "cid": "bafyreifinb444l6irgds4ccf6c6orb6ydi3irzbsxo52er2hpgdphepjb4",
+          "uri": "at://did:plc:ht4v7ms76njx5mlit7lwlrdw/app.bsky.feed.post/3max3vvywe225"
+        }
+      },
+      "text": "On Windows there's also the registry provider ( which, admittedly, works in somewhat funky ways ).\n\nIf you ever have to deal with #IIS - first, I'm sorry, and second, the IIS provider is your friend.\n\nThere are a few community providers as well ( but way more cmdlets )"
+    },
+    "cid": "bafyreih34a5e2cszema64y6yvh4dlsxrjspodqakjinjbirextkg7dkene"
+  }
+}
