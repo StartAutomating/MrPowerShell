@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766866039754241,
+  "kind": "commit",
+  "commit": {
+    "rev": "3maymbelh7p2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3maymbebals2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-27T20:07:19.315Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicks76w35i6csgycp4ck35lp3r7duwtuwgdevbfilqydwfbr2pkbe",
+          "uri": "at://did:plc:ht4v7ms76njx5mlit7lwlrdw/app.bsky.feed.post/3max5qph6ws2n"
+        },
+        "root": {
+          "cid": "bafyreifinb444l6irgds4ccf6c6orb6ydi3irzbsxo52er2hpgdphepjb4",
+          "uri": "at://did:plc:ht4v7ms76njx5mlit7lwlrdw/app.bsky.feed.post/3max3vvywe225"
+        }
+      },
+      "text": "Wait, are you saying you would want a database-like filesystem in PowerShell ?\n\nIf so, are you already familiar with PowerShell providers?"
+    },
+    "cid": "bafyreid7ymqjzcwpkils3ricw3tbh4qpyengrntgkakeicxzsckkq2nlhy"
+  }
+}
