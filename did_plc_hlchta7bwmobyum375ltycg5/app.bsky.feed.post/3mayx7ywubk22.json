@@ -1,0 +1,110 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766877805562575,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mayx7z2xio2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mayx7ywubk22",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-27T23:23:25.045Z",
+      "embed": {
+        "$type": "app.bsky.embed.video",
+        "alt": "# Some Example REPL fun\nturtle keyframe (@{\n        'spin' = @{\n            'from' = @{\n                rotate = \"0deg\"\n            }            \n            'to' = @{\n                rotate = \"360deg\"                 \n            }\n        }\n    }) rotate (\n    Get-Random -Min -360 -Max 360\n) (\n    'starflower', 'flower', 'square' | Get-Random\n) 42 fill @(\n     '#4488ff', '#224488' | Get-Random -Count 2\n) stroke @(\n     '#4488ff', '#224488' | Get-Random -Count 2\n) fillrule evenodd pathclass spin",
+        "aspectRatio": {
+          "height": 1080,
+          "width": 1920
+        },
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreihnsyzkblduxnxvrppripgk77zb3xk5kbs5ulxvpnsiwnckielzqu"
+          },
+          "mimeType": "video/mp4",
+          "size": 1644185
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 34
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 53,
+            "byteStart": 46
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "REPL"
+            }
+          ],
+          "index": {
+            "byteEnd": 59,
+            "byteStart": 54
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 67,
+            "byteStart": 60
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 151,
+            "byteStart": 139
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "OBS"
+            }
+          ],
+          "index": {
+            "byteEnd": 200,
+            "byteStart": 196
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Having a bit too much fun with my #PowerShell #Turtle #REPL #WebDev experiment.\n\nPretty happy with the perf, considering it's running on a #RaspberryPi with a single node while recording video in #OBS\n\nCode being run in alt text.  \n\n🎵 is \"Space Invader\" by Hatiras, J-Magik Remix."
+    },
+    "cid": "bafyreiarhl2gzl7rdx73ngeacl36bphl2tgf3qqbn6kbjl42l6cn5aegle"
+  }
+}
