@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766868085751005,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mayo6dkdzg2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mayo6ccnd22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-27T20:41:24.084Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Honestly MrPowerShell started as a reference to other tech monikers.  Enough old colleagues watched MsExcel and joked that I would be MrPowerShell.\n\nI still kinda bristle with it, but it fits.\n\nI've been doing PowerShell for decades and have written over 27,000,000 lines of code ( and counting ).\n\nSo if I am not MrPowerShell, who is?\n\nEqually importantly, does anyone else have any \"right\" to tell me differently about something I helped make and have been doing for decades?",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreic7yt3a55mj7nxfo4ujbn5mj3z24zxihz3bjnhxipxiufb2nfnsdq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 155401
+          },
+          "title": "rick and morty are sitting at a table with the words \" this guy gets it \" on the bottom",
+          "uri": "https://media.tenor.com/nUmlmcEFJ0kAAAAC/gets-it.gif?hh=280&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiefawz54amjdjlxzgs22s6azrxwqfkpovlmt77wngcz2k4tv7f25m",
+          "uri": "at://did:plc:ht4v7ms76njx5mlit7lwlrdw/app.bsky.feed.post/3maynqnw43k2l"
+        },
+        "root": {
+          "cid": "bafyreifinb444l6irgds4ccf6c6orb6ydi3irzbsxo52er2hpgdphepjb4",
+          "uri": "at://did:plc:ht4v7ms76njx5mlit7lwlrdw/app.bsky.feed.post/3max3vvywe225"
+        }
+      },
+      "text": "Finally someone who understands why I picked the name 😂"
+    },
+    "cid": "bafyreic7ibewy5revxlap37wfax6bffbh4opxhqfzbtk4pjajdkmx6idde"
+  }
+}
