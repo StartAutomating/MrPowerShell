@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766867220173291,
+  "kind": "commit",
+  "commit": {
+    "rev": "3maynekbf3s2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mayneiq5ps2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-27T20:26:58.403Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieihs3hi5dwovb2auhv2btra6mnfoati4vopu5g2zfwpkkt33pyvq",
+          "uri": "at://did:plc:7qxlnsz2gveb7ke2ixocoete/app.bsky.feed.post/3mayn25ld3k2j"
+        },
+        "root": {
+          "cid": "bafyreifinb444l6irgds4ccf6c6orb6ydi3irzbsxo52er2hpgdphepjb4",
+          "uri": "at://did:plc:ht4v7ms76njx5mlit7lwlrdw/app.bsky.feed.post/3max3vvywe225"
+        }
+      },
+      "text": "🤦🤦🤦\n\nYeah this post is about a very old module being deprecated.\n\nLanguage ain't going anywhere.\n\nIt'll be in the box for decades to come.\n\nHell, VBScript isn't fully removed yet and PowerShell supplanted it ~20 years ago ."
+    },
+    "cid": "bafyreibca6wabrbhkappbmihsh2r2pmkio2rz5sknjc7y6pjyo5bwxwx3m"
+  }
+}
