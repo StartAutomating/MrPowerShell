@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766865845444132,
+  "kind": "commit",
+  "commit": {
+    "rev": "3maym3kpyyd2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3maym3kdmvk2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-27T20:04:04.358Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia2q4mqz6tucun4wjmtyutocn745gazzvvlaffalmstdpdeynxfle",
+          "uri": "at://did:plc:7qxlnsz2gveb7ke2ixocoete/app.bsky.feed.post/3mayc42dc6k2n"
+        },
+        "root": {
+          "cid": "bafyreifinb444l6irgds4ccf6c6orb6ydi3irzbsxo52er2hpgdphepjb4",
+          "uri": "at://did:plc:ht4v7ms76njx5mlit7lwlrdw/app.bsky.feed.post/3max3vvywe225"
+        }
+      },
+      "text": "Says who?\n\nNobody I know ( and I know the people who would be pulling the switch )"
+    },
+    "cid": "bafyreihdobo7bbhxdgegaou77en6qf2qiylt4kw5erlkjxfsyblzd26bty"
+  }
+}
