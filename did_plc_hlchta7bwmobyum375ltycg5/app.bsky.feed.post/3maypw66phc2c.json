@@ -1,0 +1,92 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1766869959195615,
+  "kind": "commit",
+  "commit": {
+    "rev": "3maypw6hn752c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3maypw66phc2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-27T21:12:38.809Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 50,
+            "byteStart": 39
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 131,
+            "byteStart": 119
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 180,
+            "byteStart": 174
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MacOS"
+            }
+          ],
+          "index": {
+            "byteEnd": 189,
+            "byteStart": 183
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Arm"
+            }
+          ],
+          "index": {
+            "byteEnd": 196,
+            "byteStart": 192
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid7jjrx3twdbvsakmczb77oahxpfznxry57v6onaxferywrnwovmq",
+          "uri": "at://did:plc:3xhlqpzzkxatceypli2t2zp3/app.bsky.feed.post/3maxiteom7s2s"
+        },
+        "root": {
+          "cid": "bafyreid3o5qj7lksxuh4lzfqvxnlrkv3nvgif5yxc7tlbfkevh3dwwwl6e",
+          "uri": "at://did:plc:umwcmw7pv5zmaujie62q4apm/app.bsky.feed.post/3mawq2tko6k23"
+        }
+      },
+      "text": "Don't worry too much, tons of stuff in #PowerShell is cross platform ( and sometimes doesn't know it)\n\nI daily drive a #RaspberryPi so almost everything I make is definitely #Linux / #MacOS / #Arm friendly."
+    },
+    "cid": "bafyreig5bf3kw6t77uq6wdnnt2f7mubikyq6budywuipo5umnvqtkh3254"
+  }
+}
