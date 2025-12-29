@@ -1,0 +1,122 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767046686883877,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mb5uiypkgq2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mb5uiwc62s2s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-29T22:18:01.727Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "CSS and SVG Gradient Generator. Contribute to PowerShellWeb/Gradient development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigxsfjkvimkbqaexvaetiua2bxg7jheqaiiyzj6yfknjkwit5g2nu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 279399
+          },
+          "title": "GitHub - PowerShellWeb/Gradient: CSS and SVG Gradient Generator",
+          "uri": "https://github.com/PowerShellWeb/Gradient"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 26,
+            "byteStart": 22
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 31,
+            "byteStart": 27
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShellWeb/Gradient"
+            }
+          ],
+          "index": {
+            "byteEnd": 85,
+            "byteStart": 59
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Example"
+            }
+          ],
+          "index": {
+            "byteEnd": 95,
+            "byteStart": 87
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 268,
+            "byteStart": 257
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 276,
+            "byteStart": 269
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "FTW"
+            }
+          ],
+          "index": {
+            "byteEnd": 281,
+            "byteStart": 277
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just dropped a little #CSS #SVG gradient generator module\n\ngithub.com/PowerShellWe...\n\n#Example :\n\n$gradient = Gradient '#4488ff', '#224488'\n\"<html><style>\"\n\"body { max-width: 100vw; width: 100vh; background:$gradient}\"\n\"</style></html>\" > ./gradient.html\n\n#PowerShell #WebDev #FTW"
+    },
+    "cid": "bafyreicirvqw64a5o3v2ix2badpe3btnvs7neyu6gpqdvs2s67hnypnquy"
+  }
+}
