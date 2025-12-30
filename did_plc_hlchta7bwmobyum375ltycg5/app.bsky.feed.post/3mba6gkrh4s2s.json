@@ -1,0 +1,53 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767126059847304,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mba6gl34ph2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mba6gkrh4s2s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-30T20:20:59.431Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreicirvqw64a5o3v2ix2badpe3btnvs7neyu6gpqdvs2s67hnypnquy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mb5uiwc62s2s"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://MrPowerShell.com/GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 91,
+            "byteStart": 68
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/mrpowershell.com/post/3mb5uiwc62s2s"
+            }
+          ],
+          "index": {
+            "byteEnd": 246,
+            "byteStart": 222
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Any other nerds ever shoot themselves in the foot with a ricochet?\n\nmrpowershell.com/GitHub\n\nThis page lost layout yesterday.\n\nThe layout script adds a header if a page lacks the <html> tag.\n\nI also posted this new tool:\n\nbsky.app/profile/mrpo... \n\nFor 1000 points, tell me:\n\nWhat broke & why?"
+    },
+    "cid": "bafyreibgxg5yemsem2e522pdkzkoqugfg6kot7ozptmeq27vaxjd34o4we"
+  }
+}
