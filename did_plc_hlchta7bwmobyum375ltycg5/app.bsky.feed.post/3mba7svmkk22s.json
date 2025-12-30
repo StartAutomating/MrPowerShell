@@ -1,0 +1,76 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767127548395549,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mba7swnnlz26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mba7svmkk22s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-30T20:45:47.2Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "The DroidCam OBS plugin let's you connect your phone and get high quality audio & video directly into OBS, just like a regular camera source. \n\nRequires the DroidCam app, available for Android and iOS...",
+          "title": "DroidCam OBS Camera",
+          "uri": "https://obsproject.com/forum/resources/droidcam-obs-camera.1308/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "OBS"
+            }
+          ],
+          "index": {
+            "byteEnd": 40,
+            "byteStart": 36
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Android"
+            }
+          ],
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 52
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://obsproject.com/forum/resources/droidcam-obs-camera.1308/"
+            }
+          ],
+          "index": {
+            "byteEnd": 110,
+            "byteStart": 80
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid56k3segj6knfigi5vyzpfux2ggces4e6yemewbh5xrx5dqhstfa",
+          "uri": "at://did:plc:gkkuebwqrwelbz5qiwvphc4t/app.bsky.feed.post/3mba7nwzuvc25"
+        },
+        "root": {
+          "cid": "bafyreifluvely6dn7xknijs5ers5p65ptyiq5vy7ag3b3uni2bxorfq3o4",
+          "uri": "at://did:plc:gkkuebwqrwelbz5qiwvphc4t/app.bsky.feed.post/3mb7ttymn7c2n"
+        }
+      },
+      "text": "No problem.\n\nI think I've used this #OBS plugin for #Android mirroring before:\n\nobsproject.com/forum/resour...\n\nDon't know how to help iPhones."
+    },
+    "cid": "bafyreicu2zvd5akhchq3jnxjqwxxhwe6cot63kuys3mmkfocwgebh4pod4"
+  }
+}
