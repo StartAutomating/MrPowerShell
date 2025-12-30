@@ -153,7 +153,9 @@ foreach ($repoInfo in $myRepos | Where-Object Fork -Not | Sort-Object stargazers
                     "<img class='repo-thumbnail' src='https://cdn.bsky.app/img/feed_thumbnail/plain/$($post.did)/$thumbRef@png' alt='Thumbnail' />"
                 } else { '' }
                     
-                "<blockquote>$imageTag - $($post.commit.record.text) <br/>— <a href='https://bsky.app/profile/$($post.did)/post/$($post.commit.rkey)'>@$($post.author.handle)</a></blockquote>"
+                "<blockquote>$imageTag - $(
+                    [Web.HttpUtility]::HtmlEncode($post.commit.record.text)
+                ) <br/>— <a href='https://bsky.app/profile/$($post.did)/post/$($post.commit.rkey)'>@$($post.author.handle)</a></blockquote>"
             }
         }
     "</div>"
