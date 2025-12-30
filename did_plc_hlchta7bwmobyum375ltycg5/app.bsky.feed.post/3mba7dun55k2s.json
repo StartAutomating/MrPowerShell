@@ -1,0 +1,64 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767127043991809,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mba7dvlgoz27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mba7dun55k2s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-30T20:37:22.854Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "OBS (Open Broadcaster Software) is free and open source software for video recording and live streaming. Stream to Twitch, YouTube and many other providers or record your own videos with high quality ...",
+          "title": "Open Broadcaster Software | OBS",
+          "uri": "https://obsproject.com/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "OBS"
+            }
+          ],
+          "index": {
+            "byteEnd": 18,
+            "byteStart": 14
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://obsproject.com/"
+            }
+          ],
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 22
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifhtq2bj6a4smkwawhxwb37mtaden2k2x3ec4gfvjrvp4yzf5qyqu",
+          "uri": "at://did:plc:gkkuebwqrwelbz5qiwvphc4t/app.bsky.feed.post/3mba5bb5nis25"
+        },
+        "root": {
+          "cid": "bafyreifluvely6dn7xknijs5ers5p65ptyiq5vy7ag3b3uni2bxorfq3o4",
+          "uri": "at://did:plc:gkkuebwqrwelbz5qiwvphc4t/app.bsky.feed.post/3mb7ttymn7c2n"
+        }
+      },
+      "text": "I'd recommend #OBS. \n\nobsproject.com\n\nPretty fine piece of software that is pretty insanely optimized for streaming.\n\nI'd be shocked if there was a single thing you could do in Camo that you could not also do in OBS."
+    },
+    "cid": "bafyreiakplnsbqz7em4z6gj6voqmjbcq4h5ccvoiyg6xs55jbyj2dm6kou"
+  }
+}
