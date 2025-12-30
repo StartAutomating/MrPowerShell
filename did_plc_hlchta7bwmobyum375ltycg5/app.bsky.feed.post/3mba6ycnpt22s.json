@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767126656048683,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mba6ydo7q42a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mba6ycnpt22s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-30T20:30:54.9Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidi24ab5pdn4wbbpgylpzykc3kk7kftxle5nfno5jnp52jxaa7vym",
+          "uri": "at://did:plc:ytjooxu5zpcgozcd3pzi6u3q/app.bsky.feed.post/3mb7x3q5ijc2g"
+        },
+        "root": {
+          "cid": "bafyreifluvely6dn7xknijs5ers5p65ptyiq5vy7ag3b3uni2bxorfq3o4",
+          "uri": "at://did:plc:gkkuebwqrwelbz5qiwvphc4t/app.bsky.feed.post/3mb7ttymn7c2n"
+        }
+      },
+      "text": "I think a more correct statement would be \"PowerShell shouldn't be doing things unless someone tells it to\"\n\nPlenty of PowerShell will be periodically run by tasks, and more than a few programs use PowerShell to work with the system.\n\nI personally worry about scripts that appear obfuscated."
+    },
+    "cid": "bafyreifjfftmc2y2bxbesluryvnz5pmxn7l2hjnov5374kyfz7irt2djiy"
+  }
+}
