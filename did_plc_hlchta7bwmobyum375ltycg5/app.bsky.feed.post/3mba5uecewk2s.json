@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767125451134260,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mba5ugjocn27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mba5uecewk2s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2025-12-30T20:10:48.666Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieeuerfbdslj7de2t3kgfsbi7gbygp5ffr5ipytczzndpkexhzxs4",
+          "uri": "at://did:plc:gkkuebwqrwelbz5qiwvphc4t/app.bsky.feed.post/3mba54ao7jc25"
+        },
+        "root": {
+          "cid": "bafyreifluvely6dn7xknijs5ers5p65ptyiq5vy7ag3b3uni2bxorfq3o4",
+          "uri": "at://did:plc:gkkuebwqrwelbz5qiwvphc4t/app.bsky.feed.post/3mb7ttymn7c2n"
+        }
+      },
+      "text": "IMO, Nothing too suspicious, but the last one is a little weird.\n\nThe one with no command line is the process you launched.\n\nThe one with the command line looks like it's just enumerating packages.\n\nNo ... means no extra content.\n\nBase64 encoded command lines are what to watch for.\n\nHope this helps!"
+    },
+    "cid": "bafyreifbpomepfvyf4utifszcgk6gwiynldickpx7fsoo5wyzgbbe6znva"
+  }
+}
