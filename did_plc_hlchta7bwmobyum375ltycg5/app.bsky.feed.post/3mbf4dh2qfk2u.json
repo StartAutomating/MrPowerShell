@@ -1,0 +1,63 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767295605347663,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbf4dgb7kp2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbf4dh2qfk2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-01T19:26:46.084Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreiarhl2gzl7rdx73ngeacl36bphl2tgf3qqbn6kbjl42l6cn5aegle",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mayx7ywubk22"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 31,
+            "byteStart": 24
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/mrpowershell.com/post/3mayx7ywubk22"
+            }
+          ],
+          "index": {
+            "byteEnd": 147,
+            "byteStart": 123
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic7osihvrkyxrlii37r5e35tzedj5fnaapckilt46fma525k5vmha",
+          "uri": "at://did:plc:jcqncuvvdxvwsxyk6fvs5rjq/app.bsky.feed.post/3mbf3ozltxk2i"
+        },
+        "root": {
+          "cid": "bafyreiggoujjs6iglie7rfeoa35sghlbys5zoxbmumclad7onh4lxnc4gq",
+          "uri": "at://did:plc:jcqncuvvdxvwsxyk6fvs5rjq/app.bsky.feed.post/3mbeylb4mb22n"
+        }
+      },
+      "text": "Mine too!\n\n( Started on #Turtle in Kindergarten )\n\nWait until you see the REPL.\n\nEarly draft post from a few days ago....\n\nbsky.app/profile/mrpo...\n\n( It's gotten cooler )"
+    },
+    "cid": "bafyreibg7qyh3amx4owqmy5cg2dbmrnqkll7ca5xgip2i5lguhpchzwewy"
+  }
+}
