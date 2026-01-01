@@ -1,0 +1,62 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767297042903190,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbf5oasiz227",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbf5obcn7k2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-01T19:50:42.894Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "YouTube video by TheBugglesVEVO",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiajhqkb2sfweqnnaoigjburphjcmttzjpgpqx5nsf72hjcgcfuzim"
+            },
+            "mimeType": "image/jpeg",
+            "size": 51037
+          },
+          "title": "The Buggles - Video Killed The Radio Star (Official Music Video)",
+          "uri": "https://youtu.be/W8r-tXRLazs?si=WTL_7sPOUlOhAqRp"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MTV"
+            }
+          ],
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 30
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://youtu.be/W8r-tXRLazs?si=WTL_7sPOUlOhAqRp"
+            }
+          ],
+          "index": {
+            "byteEnd": 173,
+            "byteStart": 149
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Guess it's now official.\n\nThe #MTV generation has outlasted MTV.\n\nThey left this world like they entered it.\n\nPlaying \"Video Killed the Radio Star\"\n\nyoutu.be/W8r-tXRLazs?..."
+    },
+    "cid": "bafyreifhdsb3ubo2k32u32zq7tm26vyqnfpsknxzwvfxj2etcptd542lmm"
+  }
+}
