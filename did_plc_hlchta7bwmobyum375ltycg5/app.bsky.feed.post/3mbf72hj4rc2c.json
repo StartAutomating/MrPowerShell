@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767298527757608,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbf72j3y6j2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbf72hj4rc2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-01T20:15:25.793Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidfm5vo6kclsmofllnkmxlqs6kw3uluh5sxxirs3bvk4ccriuqpnq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mbf6y3ggmc2c"
+        },
+        "root": {
+          "cid": "bafyreiggoujjs6iglie7rfeoa35sghlbys5zoxbmumclad7onh4lxnc4gq",
+          "uri": "at://did:plc:jcqncuvvdxvwsxyk6fvs5rjq/app.bsky.feed.post/3mbeylb4mb22n"
+        }
+      },
+      "text": "Note this probably would return multiple pairs on multiple monitors, so may require some tweaking (or, alternatively, just use $width, $height, $null = ... to throw out all other values except the first pair )"
+    },
+    "cid": "bafyreigni6dmwl3fhketwj527yjzva3kcpkn3h4pcuuyimr3doluowlkxe"
+  }
+}
