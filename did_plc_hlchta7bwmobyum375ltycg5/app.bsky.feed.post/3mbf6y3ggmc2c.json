@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767298450332732,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbf6y7gwyb26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbf6y3ggmc2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-01T20:14:06.014Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 148,
+            "byteStart": 142
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiedkvnya3bogo4sr7jtixjoo5x74tpkenuyljo37vmi4jdj64dk4y",
+          "uri": "at://did:plc:jcqncuvvdxvwsxyk6fvs5rjq/app.bsky.feed.post/3mbf2mjiek222"
+        },
+        "root": {
+          "cid": "bafyreiggoujjs6iglie7rfeoa35sghlbys5zoxbmumclad7onh4lxnc4gq",
+          "uri": "at://did:plc:jcqncuvvdxvwsxyk6fvs5rjq/app.bsky.feed.post/3mbeylb4mb22n"
+        }
+      },
+      "text": "It downloaded the images fine, though Raspbian does not seem to have `system_profiler` (I think that's what you meant).\n\nTo get resolution on #linux, this little script does the trick:\n\n~~~PowerShell\n$width, $height = (fbset) -match '\\d+x\\d+' -replace '\\D', ' ' -split '\\s+' -ne ''\n~~~"
+    },
+    "cid": "bafyreidfm5vo6kclsmofllnkmxlqs6kw3uluh5sxxirs3bvk4ccriuqpnq"
+  }
+}
