@@ -1,0 +1,206 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767232457287066,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbdbjhacpf27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbdbjg4drc2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-01T01:54:15.649Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Microsoft MVP in Azure / PowerShell. StartAutomating has 84 repositories available. Follow their code on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibnnk3dwmbais24mwenswz64qqrbn3ecd32b34qh5fal6jczlsm6y"
+            },
+            "mimeType": "image/jpeg",
+            "size": 111237
+          },
+          "title": "StartAutomating - Overview",
+          "uri": "https://github.com/StartAutomating"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 29
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating"
+            }
+          ],
+          "index": {
+            "byteEnd": 92,
+            "byteStart": 66
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "HappyNewYear"
+            }
+          ],
+          "index": {
+            "byteEnd": 107,
+            "byteStart": 94
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 138,
+            "byteStart": 127
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 157,
+            "byteStart": 150
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "css"
+            }
+          ],
+          "index": {
+            "byteEnd": 198,
+            "byteStart": 194
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "svg"
+            }
+          ],
+          "index": {
+            "byteEnd": 203,
+            "byteStart": 199
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "html"
+            }
+          ],
+          "index": {
+            "byteEnd": 209,
+            "byteStart": 204
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "powershell"
+            }
+          ],
+          "index": {
+            "byteEnd": 221,
+            "byteStart": 210
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "gamedev"
+            }
+          ],
+          "index": {
+            "byteEnd": 230,
+            "byteStart": 222
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "webdev"
+            }
+          ],
+          "index": {
+            "byteEnd": 238,
+            "byteStart": 231
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "atproto"
+            }
+          ],
+          "index": {
+            "byteEnd": 247,
+            "byteStart": 239
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "toys"
+            }
+          ],
+          "index": {
+            "byteEnd": 253,
+            "byteStart": 248
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "NewYear"
+            }
+          ],
+          "index": {
+            "byteEnd": 274,
+            "byteStart": 266
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Hit my mark! 🎯\n\nOver 2500 #GitHub contributions in 2025! 😎\n\ngithub.com/StartAutomat...\n\n#HappyNewYear! 🪩\n\nSo much new #PowerShell in 2025! ( #Turtle is my fav 🐢)\n\nStay tuned for new #css #svg #html #powershell #gamedev #webdev #atproto #toys 🎁 in the #NewYear! 😉\n\n🙏 Like, Share, Subscribe 🙏"
+    },
+    "cid": "bafyreihrno2c66iipwfc4sjcnfl6lra5ydqscj3diuqe4kzg33t4gtjayi"
+  }
+}
