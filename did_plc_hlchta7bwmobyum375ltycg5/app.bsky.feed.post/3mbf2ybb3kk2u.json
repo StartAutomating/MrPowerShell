@@ -1,0 +1,84 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767294157773965,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbf2yaztx72c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbf2ybb3kk2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-01T19:02:37.162Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Script SVGs with PowerShell. Contribute to StartAutomating/PSSVG development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiftsch3or5mfoloq7oyrq3ncz5tbmaf3o74klgqn2pl3q4q7lfvym"
+            },
+            "mimeType": "image/jpeg",
+            "size": 87160
+          },
+          "title": "GitHub - StartAutomating/PSSVG: Script SVGs with PowerShell",
+          "uri": "https://GitHub.com/StartAutomating/PSSVG"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/StartAutomating/PSSVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 164,
+            "byteStart": 138
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 209,
+            "byteStart": 205
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 233,
+            "byteStart": 222
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidzzaukq5tiazzdml5onug4jmcgcp4yeh3lxmujfclu7o6bnnlnbq",
+          "uri": "at://did:plc:jcqncuvvdxvwsxyk6fvs5rjq/app.bsky.feed.post/3mbf2q7qhec22"
+        },
+        "root": {
+          "cid": "bafyreiggoujjs6iglie7rfeoa35sghlbys5zoxbmumclad7onh4lxnc4gq",
+          "uri": "at://did:plc:jcqncuvvdxvwsxyk6fvs5rjq/app.bsky.feed.post/3mbeylb4mb22n"
+        }
+      },
+      "text": "Yeah, it's pretty neat.\n\nWhile you're at it, you might want to know about a couple of other repos I make.\n\nPixelPosh is built atop PSSVG\n\nGitHub.com/StartAutomat...\n\nThat's a basically full wrapper of the #SVG standard in #PowerShell, with a good batch of examples."
+    },
+    "cid": "bafyreibypygrmb5jxdfstnoxpmnbr7mx6n4yr7mv2jtxeocd52zhqxykoy"
+  }
+}
