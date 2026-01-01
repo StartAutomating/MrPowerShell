@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767301240845735,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbfblenllo27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbfbledrmc2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-01T21:00:40.381Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihjvjvheyhxkfbkwk3osvxxjtfg2n3vhnattsur7g4klxulzi4y4e",
+          "uri": "at://did:plc:jcqncuvvdxvwsxyk6fvs5rjq/app.bsky.feed.post/3mbfb5pcjc22n"
+        },
+        "root": {
+          "cid": "bafyreiggoujjs6iglie7rfeoa35sghlbys5zoxbmumclad7onh4lxnc4gq",
+          "uri": "at://did:plc:jcqncuvvdxvwsxyk6fvs5rjq/app.bsky.feed.post/3mbeylb4mb22n"
+        }
+      },
+      "text": "Ah, fair concern.  A larger number of special folders are cross platform than people think (including this one).\n\nNot all of them, though.\n\n[Enum]::GetValues([Environment+SpecialFolder]) | %{ [PSCustomObject]@{Name=$_;Path=[Environment]::GetFolderPath($_)} }\n\nLooks like all the My* folders work!"
+    },
+    "cid": "bafyreiflspuj4qp7ndhqdgdratlkaj467xnw6ycdn6lkar7b6keibqbsjm"
+  }
+}
