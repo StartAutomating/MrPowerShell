@@ -312,7 +312,7 @@
 
     Judge Not, lest we be judged.
 
-    If you have read this far, please do you part to do better.
+    If you have read this far, please do your part to do better.
 
     Whenever you find yourself making a snap judgement, stop.
 
@@ -324,9 +324,8 @@
 
     If you must judge anyone, judge the content of their character, not the groups they belong to.
 
-    If you don't know the content of their character, don't rush to judgement.    
-    
-    Let's try to leave judging to the judges (be they secural or divine).
+    If you don't know the content of their character, don't rush to judgement.
+    Let's try to leave judging to the judges (be they secular or divine).
 
     Anytime you feel the soft bigotry of language expectations, please judge yourself first.
     
