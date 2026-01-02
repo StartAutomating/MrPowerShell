@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767390044332060,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbhubwazak2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbhubvh46s2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-02T21:40:43.344Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiddqzvgtefijxv5eu3gzc5iiq627cx2it7ipfwsyfagbm2jeuxkqu",
+          "uri": "at://did:plc:jcqncuvvdxvwsxyk6fvs5rjq/app.bsky.feed.post/3mbhtsowwkc2x"
+        },
+        "root": {
+          "cid": "bafyreiggoujjs6iglie7rfeoa35sghlbys5zoxbmumclad7onh4lxnc4gq",
+          "uri": "at://did:plc:jcqncuvvdxvwsxyk6fvs5rjq/app.bsky.feed.post/3mbeylb4mb22n"
+        }
+      },
+      "text": "Not sure how many links to why exist.  The last post covers the major ones.\n\nAnswering \"when\" instead:\n\nWhen to use a script: When hacking stuff together, when you need to do things near the script, when you don't want to export it.\n\nWhen to use a function:  Every other scenario."
+    },
+    "cid": "bafyreihgptmuqgipoeiqrszb4pnew5nrxhytswhulgnjibfqn4h2latbzu"
+  }
+}
