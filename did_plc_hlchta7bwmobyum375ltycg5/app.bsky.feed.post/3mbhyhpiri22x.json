@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767394535578757,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbhyhrgrun2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbhyhpiri22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-02T22:55:33.401Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Steve Buscemi's Social Media Manager wants to know if Hashtags are still cool.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieffbk7h6bks7rngjqitlai3w5bns5fk2lpryfygbbeuozyiileey"
+            },
+            "mimeType": "image/jpeg",
+            "size": 749744
+          },
+          "title": "a man wearing a music band shirt holds a skateboard over his shoulder",
+          "uri": "https://media.tenor.com/INFLTfC0MuwAAAAC/fellow-kids-no-text.gif?hh=477&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiguuaco4jau5cnpsaesy3ntxb2ocrz3eqeo7awfjw2iwdfeaajy5q",
+          "uri": "at://did:plc:negn53cra4jpdslqj6zvycbv/app.bsky.feed.post/3mbhwg7eixl22"
+        },
+        "root": {
+          "cid": "bafyreigqts4spfjmfhmng5mju6r47lp5dgkocegscyeg76v6jh4bonojra",
+          "uri": "at://did:plc:na6m4utgyfnuw3t6tsqgne4e/app.bsky.feed.post/3mbhwbwrecyi2"
+        }
+      },
+      "text": "I think it's an \"older person\" thing.\n\nHashtags are no longer cool?\n\nAsking for a friend."
+    },
+    "cid": "bafyreifg2yisxykgbmxrwjmlnvrz7jyycaewow7hnbgzgdwj2gbi4snxhi"
+  }
+}
