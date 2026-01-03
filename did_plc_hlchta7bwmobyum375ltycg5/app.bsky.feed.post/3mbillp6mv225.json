@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767415069133560,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbillpqoow2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbillp6mv225",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-03T04:37:48.38Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 108,
+            "byteStart": 100
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 243,
+            "byteStart": 232
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigl65i2rnmod6k472xvmzxawg75muz6qm2japue27zhj3367b5rqi",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3mbil6fc6js24"
+        },
+        "root": {
+          "cid": "bafyreigqts4spfjmfhmng5mju6r47lp5dgkocegscyeg76v6jh4bonojra",
+          "uri": "at://did:plc:na6m4utgyfnuw3t6tsqgne4e/app.bsky.feed.post/3mbhwbwrecyi2"
+        }
+      },
+      "text": "Yeah, I don't think most people realize what % of my feed is actually runable code.  Or that all of #AtProto is an object pipeline.\n\nWhich makes the whole \"use Mastodon\" bit a bit rich, IMO.\n\nObject Pipelines are overpowered.\n\nOnly #PowerShell can truly surf the waves of data."
+    },
+    "cid": "bafyreigcaof4rzhxvc57icxq5wt374noco744n2tqr6nekihpkgks6jr6e"
+  }
+}
