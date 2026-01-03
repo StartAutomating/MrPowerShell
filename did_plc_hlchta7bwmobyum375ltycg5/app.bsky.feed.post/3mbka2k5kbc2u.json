@@ -1,0 +1,94 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767471399155290,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbka2ibvu626",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbka2k5kbc2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-03T20:16:40.992Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 21,
+            "byteStart": 14
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 38,
+            "byteStart": 31
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 54,
+            "byteStart": 43
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 138,
+            "byteStart": 126
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "STEM"
+            }
+          ],
+          "index": {
+            "byteEnd": 214,
+            "byteStart": 209
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Programming"
+            }
+          ],
+          "index": {
+            "byteEnd": 231,
+            "byteStart": 219
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I made a safe #WebDev repl for #Turtle and #PowerShell.\n\nLike, safe enough to give to family.\n\nGoing to be giving my nieces a #RaspberryPi later today. 🎁\n\nThen gonna try to get them inspired to learn about #STEM and #Programming.\n\n(They are ~5 and 8)\n\n🤞🤞🤞🤞🤞\n🐢🐢🐢🐢\n🎁🎁🎁\n🤷🤷\n🎄\n\n( Wish me luck )"
+    },
+    "cid": "bafyreigz4qm3m53sq5ugvy6mmv6uey4r6o6s465nzp2kcp5defofvvrssq"
+  }
+}
