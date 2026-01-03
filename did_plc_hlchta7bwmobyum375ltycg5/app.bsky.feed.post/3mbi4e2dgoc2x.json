@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767398706506960,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbi4e354c52a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbi4e2dgoc2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-03T00:05:05.51Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiekwicatgdyfudkwcn6acsvlgjrhkdnkfozt66uybqramd6oeioa4",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3mbi4aoiymc2g"
+        },
+        "root": {
+          "cid": "bafyreidvs66xnldfov6kcfbyxyjw3td3uo4jr5k6ka72heywgf6ogpdatu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mbi27hltk22x"
+        }
+      },
+      "text": "I may lose the wager 😆.  But someone else is going to need to script this out for today (too much stuff to do before tomorrow)"
+    },
+    "cid": "bafyreierek54ammv2tgx6u7ru6kis7q5ymencu5vdpjdinhhr2f2uaod7a"
+  }
+}
