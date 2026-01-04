@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767558990532754,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbmrmvtppd2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbmrmv6xdc2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-04T20:36:29.641Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihnjojne4spgajrkh37ehsz5jqm4boo34hzae7x6oiuxgf3f3w7em",
+          "uri": "at://did:plc:rnpkyqnmsw4ipey6eotbdnnf/app.bsky.feed.post/3mbmqzadeas2r"
+        },
+        "root": {
+          "cid": "bafyreigqxzix54b66dojhpwigi77wrgp2obo5qrimpvawzwhax6t47b6le",
+          "uri": "at://did:plc:rnpkyqnmsw4ipey6eotbdnnf/app.bsky.feed.post/3mblgq6z56c2m"
+        }
+      },
+      "text": "As for WinForms... oh... where to start.\n\nIt made it miles easier to write apps for Windows.\n\nAnyone who has ever done raw C++ MVC can attest to this.\n\nIt made a solid foundation so esy to build upon that it's still in use ~20 years later.\n\nYada yada yada test of time."
+    },
+    "cid": "bafyreiaw4uoiu476tsio5hp2m2exxzvnei4t4suo6nmehsqxoreeeyd5ji"
+  }
+}
