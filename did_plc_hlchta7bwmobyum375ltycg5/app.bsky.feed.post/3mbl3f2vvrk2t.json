@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767500745590178,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbl3f37ece2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbl3f2vvrk2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-04T04:25:45.142Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiawn73urxf26wj2jppyshdvikeekhxyk4jxkmqxnhmplan4y7okda",
+          "uri": "at://did:plc:he5c45ek3n7ueg6tu7xobsxx/app.bsky.feed.post/3mbl2xlcnss2q"
+        },
+        "root": {
+          "cid": "bafyreihvvyd5eufh5wy7dzm7oz5xzcpcwoxc5wsqmdeyavxhlmze445oqu",
+          "uri": "at://did:plc:he5c45ek3n7ueg6tu7xobsxx/app.bsky.feed.post/3mbkvmob73c2b"
+        }
+      },
+      "text": "Ah.\n\nIIRC you might be able to just run msbuild / dotnet build on each of the projects and see which ones barf.\n\nsomething like:\n\n~~~PowerShell\ndir *.csproj -recurse | %{ dotnet build $_.fullname & } \n~~~\n\nMight do the trick.\n\nThe & at the end is a PowerShell core thing for background jobs."
+    },
+    "cid": "bafyreicjass7bjcbdhir2hv23b23opkfzkjenu2gqohmg5gfefk33uebs4"
+  }
+}
