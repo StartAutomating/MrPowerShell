@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767558818997395,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbmrhrjklm2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbmrhnt6ks2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-04T20:33:34.144Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihnjojne4spgajrkh37ehsz5jqm4boo34hzae7x6oiuxgf3f3w7em",
+          "uri": "at://did:plc:rnpkyqnmsw4ipey6eotbdnnf/app.bsky.feed.post/3mbmqzadeas2r"
+        },
+        "root": {
+          "cid": "bafyreigqxzix54b66dojhpwigi77wrgp2obo5qrimpvawzwhax6t47b6le",
+          "uri": "at://did:plc:rnpkyqnmsw4ipey6eotbdnnf/app.bsky.feed.post/3mblgq6z56c2m"
+        }
+      },
+      "text": "As usual I'm not gonna throw any shade at other languages or techs.\n\nEspecially ones I've used so much.\n\nThe back half of the 90s VB apps for mom and pops were my bread and butter. (the fate of many nerds outside the west coast in thost days)"
+    },
+    "cid": "bafyreigdtrrkddr5hk2i3godahttmab7h5yypwnidzygl4h24x3pj4zxyu"
+  }
+}
