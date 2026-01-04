@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767501235182629,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbl3tnzq3j2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbl3tnqmtk2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-04T04:33:54.655Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie2geppcuixuevgkxxhhsqt2pl3w5tq2rkugr35wkcnouwsz52wtm",
+          "uri": "at://did:plc:torygwypgwul7zk4gi4lfwty/app.bsky.feed.post/3mbl3gvyzfk2r"
+        },
+        "root": {
+          "cid": "bafyreiey4iajlvigjxsbwk3xwxxzkepusl5ndsdtlvwxr3wakhc3qajyfu",
+          "uri": "at://did:plc:k54achhksfhvlp5jd3rzv32h/app.bsky.feed.post/3mbk7awqd622e"
+        }
+      },
+      "text": "Honestly... good suggestion!\n\nI'd personally say \"theoretically Cobol\", but, it's been a long time since I've had to do practical Cobol, so I couldn't be sure. \n\nHaven't had to work with it too much this century.\n\nDo you do Cobol?\n\nWould also honestly accept \"AppleScript\"."
+    },
+    "cid": "bafyreihyfttiu765bgt3xjow6ep2r43syk4k37ggbuyp5mylfgv2r6wuwa"
+  }
+}
