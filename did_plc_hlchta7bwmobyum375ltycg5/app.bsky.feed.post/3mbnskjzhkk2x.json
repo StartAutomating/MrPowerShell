@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767594345057969,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbnskklfev2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbnskjzhkk2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-05T06:25:44.299Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 55,
+            "byteStart": 44
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihvxzhi7t6lpejnh565zonxapbuqa2olyyvisnfwjat2ozmklzr7m",
+          "uri": "at://did:plc:z32gbpw5tkdhis53bkosqfeg/app.bsky.feed.post/3mbnmxkhttk2y"
+        },
+        "root": {
+          "cid": "bafyreihvxzhi7t6lpejnh565zonxapbuqa2olyyvisnfwjat2ozmklzr7m",
+          "uri": "at://did:plc:z32gbpw5tkdhis53bkosqfeg/app.bsky.feed.post/3mbnmxkhttk2y"
+        }
+      },
+      "text": "I may be biased, but I switch to the simple #PowerShell equivalent:\n\n[DateTime]::Now.ToString('yyyy-MM-dd')\n\nOf course, .bat is one of my least favorite languages to deal with.  You can always call PowerShell in .bat if you don't want to touch anything else..."
+    },
+    "cid": "bafyreibryhoe2gwzevivchuqbxordds4bw7433cb44rmc7hwz535e4rmg4"
+  }
+}
