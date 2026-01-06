@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767684224131370,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbqgb5zgnm2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbqgb5l27k2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-06T07:23:43.566Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidlwm7inck7bgo5dl6ndxkkctmxkit3f4unbyaw5ynxc23fycabee",
+          "uri": "at://did:plc:2eeszwpbnmtk4u6fkzcfgfaj/app.bsky.feed.post/3mbqfbse4bc24"
+        },
+        "root": {
+          "cid": "bafyreieeyxoc2u2bqwaak3m7yhz2tldc44lls6byyo676plnwbwb6rtthq",
+          "uri": "at://did:plc:2eeszwpbnmtk4u6fkzcfgfaj/app.bsky.feed.post/3mbpxtrhmvk24"
+        }
+      },
+      "text": "Good to hear!\n\nThis isn't always the fastest / right way to approach things, but it is one of the more reliable ones.  \n\nAs the saying goes, there's more than one way to skin a cat.\n\nWhat are you trying to do?"
+    },
+    "cid": "bafyreihzwbzaww2djuvtlmhhnshl7tcpcwp73jmm5yp2ugs6ajihxaojke"
+  }
+}
