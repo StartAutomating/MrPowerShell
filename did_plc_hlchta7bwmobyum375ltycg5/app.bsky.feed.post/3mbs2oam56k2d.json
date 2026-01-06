@@ -1,0 +1,64 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767740500371820,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbs2odaktp2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbs2oam56k2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-06T23:01:37.53Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreif46cq4gpvsq77sbihcm6g2glwqlpznmaehgalfqul63te7wrs3ym",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3mbnkhzwgkk2s"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:tkbfciykcg4ubnq63ztqvyr7"
+            }
+          ],
+          "index": {
+            "byteEnd": 80,
+            "byteStart": 66
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/griff.systems/post/3mbnkhzwgkk2s"
+            }
+          ],
+          "index": {
+            "byteEnd": 125,
+            "byteStart": 101
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie3nyc73szywq6abkjn7nncxbliyiekmef2reruv5jzatdwpdae2m",
+          "uri": "at://did:plc:xexd2tsli2mrikrs445hazgm/app.bsky.feed.post/3mbrysiysr22s"
+        },
+        "root": {
+          "cid": "bafyreie3nyc73szywq6abkjn7nncxbliyiekmef2reruv5jzatdwpdae2m",
+          "uri": "at://did:plc:xexd2tsli2mrikrs445hazgm/app.bsky.feed.post/3mbrysiysr22s"
+        }
+      },
+      "text": "Congratulations!  Your are the 2nd person to ask this this week!\n\n@griff.systems covers most of it.\n\nbsky.app/profile/grif...\n\nAdditional context:\n\n1. mkdir just calls New-Item (on Windows)\n2. -Force forces creation of intermediate directories\n3. PowerShell Providers are more than filesystems"
+    },
+    "cid": "bafyreigdfa6xhoyiunsfdacx6kdcjdihlsrgkzqpentfsiciw6cv3zbhfy"
+  }
+}
