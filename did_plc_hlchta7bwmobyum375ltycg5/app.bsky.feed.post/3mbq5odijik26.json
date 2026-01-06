@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767675006543070,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbq5oe2nnk2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbq5odijik26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-06T04:50:02.307Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifuclnsywg4ggmo4xptyd3c34hqkteilppliufx5zcxjkg627ukhq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mbq5kvmcws26"
+        },
+        "root": {
+          "cid": "bafyreieeyxoc2u2bqwaak3m7yhz2tldc44lls6byyo676plnwbwb6rtthq",
+          "uri": "at://did:plc:2eeszwpbnmtk4u6fkzcfgfaj/app.bsky.feed.post/3mbpxtrhmvk24"
+        }
+      },
+      "text": "Or, alternatively:\n\n\"Force <criteria> to be a single object by piping to Select-Object -First 1\"\n\nOr: \n\n\"Force <criteria> to not be iterated starting with ,\""
+    },
+    "cid": "bafyreiae62gop2zyrblemcantjszzeew244ejhiqaogli3dlurehhe5b5a"
+  }
+}
