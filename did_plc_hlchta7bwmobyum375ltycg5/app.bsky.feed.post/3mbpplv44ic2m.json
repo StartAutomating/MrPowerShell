@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767659890282465,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbpplxgvcx26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbpplv44ic2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-06T00:38:07.725Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicoqay4guz7bhcxt3f5dth55womuegorhu2jgp2ylagekeg7sv5c4",
+          "uri": "at://did:plc:gdmw3sbpck7ei2fohzg7xoz4/app.bsky.feed.post/3mbpnrobz2c2i"
+        },
+        "root": {
+          "cid": "bafyreicfrkub4d64blga7okqimtn737ldffv6m4esbtnedxg2litjh4gpq",
+          "uri": "at://did:plc:gdmw3sbpck7ei2fohzg7xoz4/app.bsky.feed.post/3mbpltb7p3s2c"
+        }
+      },
+      "text": "Looks like the jQuery use was minimal, despite the version used being outdated and vulnerable.\n\nEnjoy playing"
+    },
+    "cid": "bafyreif5kdyziqz2tk6fki2x4c6hzsakak2msgdbjxhzz2rcpfazsxktru"
+  }
+}
