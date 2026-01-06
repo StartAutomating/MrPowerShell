@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767656502024861,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbpmgy3uvq2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbpmgwabe225",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-05T23:41:39.913Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "The PerformanceObserver interface is used to observe performance measurement events and be notified of new performance entries as they are recorded in the browser's performance timeline.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreic23i2indpia6faedadaxk3iry5ff7ii2ued7juhuzfbhb3ht7iai"
+            },
+            "mimeType": "image/jpeg",
+            "size": 145461
+          },
+          "title": "PerformanceObserver - Web APIs | MDN",
+          "uri": "https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver"
+            }
+          ],
+          "index": {
+            "byteEnd": 205,
+            "byteStart": 168
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://cloudflareinsights.com/cdn-cgi/rum"
+            }
+          ],
+          "index": {
+            "byteEnd": 261,
+            "byteStart": 227
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicfrkub4d64blga7okqimtn737ldffv6m4esbtnedxg2litjh4gpq",
+          "uri": "at://did:plc:gdmw3sbpck7ei2fohzg7xoz4/app.bsky.feed.post/3mbpltb7p3s2c"
+        },
+        "root": {
+          "cid": "bafyreicfrkub4d64blga7okqimtn737ldffv6m4esbtnedxg2litjh4gpq",
+          "uri": "at://did:plc:gdmw3sbpck7ei2fohzg7xoz4/app.bsky.feed.post/3mbpltb7p3s2c"
+        }
+      },
+      "text": "Vector is at the bottom of the page, in the linked cloudflare script:\n\nThere's a crypto stealer and a token stealer that lurks until the page isn't visible, and uses a developer.mozilla.org/en-US/docs/W... to exfil the data to cloudflareinsights.com/cdn-cgi/rum (which is already flagged by uBlock)"
+    },
+    "cid": "bafyreief7kkd555dqscufs6jha2h22xcmr4aoq7s4litt2id3d5lsdhioi"
+  }
+}
