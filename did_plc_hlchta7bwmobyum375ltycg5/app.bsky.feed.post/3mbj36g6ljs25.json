@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767431803350258,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbj36gttwp2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbj36g6ljs25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-03T09:16:42.603Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Zune"
+            }
+          ],
+          "index": {
+            "byteEnd": 153,
+            "byteStart": 148
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigvunt6xnvqhu4pymmx77cusmi36xuziu5ippyjgvnhixchix6hti",
+          "uri": "at://did:plc:sfjxpxxyvewb2zlxwoz2vduw/app.bsky.feed.post/3mbiutyh2ec2h"
+        },
+        "root": {
+          "cid": "bafyreigqts4spfjmfhmng5mju6r47lp5dgkocegscyeg76v6jh4bonojra",
+          "uri": "at://did:plc:na6m4utgyfnuw3t6tsqgne4e/app.bsky.feed.post/3mbhwbwrecyi2"
+        }
+      },
+      "text": "Thanks for the clarification.\n\nIt's an old signature I used, trying to avoid defensiveness when giving feedback.\n\n(it started when I was giving the #Zune team 30+ issues a day)\n\nThat was a long time ago.\n\nIf it's having the opposite effect, it's time to switch it up.\n\nThis helped! 💙  Thanks!  💙 🙏"
+    },
+    "cid": "bafyreidg5u2j326n43nrx4siaf2htxl2um7tyguzbf24ycztnks2po2vyq"
+  }
+}

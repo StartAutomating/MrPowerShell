@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767394430076393,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbhyemr7ib2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbhyeme7yk2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-02T22:53:49.442Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 57,
+            "byteStart": 46
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 76,
+            "byteStart": 64
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigqts4spfjmfhmng5mju6r47lp5dgkocegscyeg76v6jh4bonojra",
+          "uri": "at://did:plc:na6m4utgyfnuw3t6tsqgne4e/app.bsky.feed.post/3mbhwbwrecyi2"
+        },
+        "root": {
+          "cid": "bafyreigqts4spfjmfhmng5mju6r47lp5dgkocegscyeg76v6jh4bonojra",
+          "uri": "at://did:plc:na6m4utgyfnuw3t6tsqgne4e/app.bsky.feed.post/3mbhwbwrecyi2"
+        }
+      },
+      "text": "🤷 You asked, I answered\n\n(while working on #PowerShell on my #RaspberryPi )\n\nYou can read my bio and understand why this gendered phrasing isn't quite right.\n\nAlso, my handle is \"mrpowershell\" because:\n\n1. I helped make the thing.\n2. I've been at it for ~20 years\n\nTruly do hope this helps."
+    },
+    "cid": "bafyreihtbhbzvcfp63x4aryegwf7hiv6xvydhaoez75ygczxm46ojei2qu"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767333606951995,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbg7px5e5n2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbg7pvjotc2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-02T06:00:04.873Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "PSDates provides a set of tools to help you better work with dates and times in PowerShell. It contains function to help you find specific date formats, get certain dates based on other dates (firs...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihb4ycm5p4g3wnysvgjvdvchi5osytff5kqvccj6gwbh4j2gt5lg4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 325468
+          },
+          "title": "GitHub - mdowst/PSDates: PSDates provides a set of tools to help you better work with dates and times in PowerShell. It contains function to help you find specific date formats, get certain dates base...",
+          "uri": "https://github.com/mdowst/PSDates"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:ftrnyploqc7hpolyw7nzcvkj"
+            }
+          ],
+          "index": {
+            "byteEnd": 24,
+            "byteStart": 7
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/mdowst/PSDates"
+            }
+          ],
+          "index": {
+            "byteEnd": 132,
+            "byteStart": 107
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidfbp5dfkflgkgrs2seznv4bkubhmzh4q2wndpkejqm2prs77r5fe",
+          "uri": "at://did:plc:qbsolccfpm2tcqumqbdrpp6w/app.bsky.feed.post/3mbfychdi2c2n"
+        },
+        "root": {
+          "cid": "bafyreidfbp5dfkflgkgrs2seznv4bkubhmzh4q2wndpkejqm2prs77r5fe",
+          "uri": "at://did:plc:qbsolccfpm2tcqumqbdrpp6w/app.bsky.feed.post/3mbfychdi2c2n"
+        }
+      },
+      "text": "Nice!\n\n@mdowst.dowst.dev check it out.  \n\nMight be a couple of useful new functions for PSDates in there.\n\ngithub.com/mdowst/PSDates"
+    },
+    "cid": "bafyreiexambj5muvee5vgbvqnmft2learja6hetx72x3oemunz6ehyxmlq"
+  }
+}

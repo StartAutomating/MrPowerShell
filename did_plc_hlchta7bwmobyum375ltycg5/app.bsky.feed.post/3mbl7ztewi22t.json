@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767505737566253,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbl7ztvptb27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbl7ztewi22t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-04T05:48:56.856Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidqd2m7psoeafa2sxvrwnurdzzanbcehluxtjnmay4jx3f7syirsu",
+          "uri": "at://did:plc:ge2nr2g7ldib6sm5kweqvin3/app.bsky.feed.post/3mbl6hmr6p222"
+        },
+        "root": {
+          "cid": "bafyreidqd2m7psoeafa2sxvrwnurdzzanbcehluxtjnmay4jx3f7syirsu",
+          "uri": "at://did:plc:ge2nr2g7ldib6sm5kweqvin3/app.bsky.feed.post/3mbl6hmr6p222"
+        }
+      },
+      "text": "Jokes aside, I'm right there with you.\n\nPerl quite literally built the early internet, and while I've found many other ways to use a Common Gateway Interface since, I'll never forget my first Perl script.\n\n(of course, it helps that my first Perl script made Rotten Tomatoes possible)."
+    },
+    "cid": "bafyreiafw2i7iwighqddq3olauzaf7xngzijcpy7depkzy444dke5onive"
+  }
+}

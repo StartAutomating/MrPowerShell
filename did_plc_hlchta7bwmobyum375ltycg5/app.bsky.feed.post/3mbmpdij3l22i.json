@@ -1,0 +1,92 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767556526437699,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbmpdhyhwa2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbmpdij3l22i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-04T19:55:26.867Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 76,
+            "byteStart": 68
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Markdown"
+            }
+          ],
+          "index": {
+            "byteEnd": 127,
+            "byteStart": 118
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WSDL"
+            }
+          ],
+          "index": {
+            "byteEnd": 146,
+            "byteStart": 141
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "POX"
+            }
+          ],
+          "index": {
+            "byteEnd": 224,
+            "byteStart": 220
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "exchange"
+            }
+          ],
+          "index": {
+            "byteEnd": 288,
+            "byteStart": 279
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic7uld56mxdxlkhnmuffibvqtfvojv43hak2vo5ukydee43s5rm7a",
+          "uri": "at://did:plc:rnpkyqnmsw4ipey6eotbdnnf/app.bsky.feed.post/3mblgwr7n7s2m"
+        },
+        "root": {
+          "cid": "bafyreigqxzix54b66dojhpwigi77wrgp2obo5qrimpvawzwhax6t47b6le",
+          "uri": "at://did:plc:rnpkyqnmsw4ipey6eotbdnnf/app.bsky.feed.post/3mblgq6z56c2m"
+        }
+      },
+      "text": "Now might be the time to remind everyone that I have a \"Markdown to #AtProto Lexicon\" script.\n\nI think I would take a #Markdown lexicon to a #WSDL one any day.\n\n( This is a true joke )\n\nBut that's just because WSDL is a #POX.\n\n( That was a deep cut for anyone else who knows the #exchange protocol )"
+    },
+    "cid": "bafyreiefgjp3aigfv2swrlz2wsql7y72vxq4mpmqlquih2e3jm7xuugmby"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767559617581567,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbms7lx57c26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbms7lhxxc2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-04T20:46:56.986Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie2v2itb6ufpbcf7jgtq3m2eomafdxp6ak7ijpfnbwl7chhlnd6zm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mbmoinff722i"
+        },
+        "root": {
+          "cid": "bafyreigqxzix54b66dojhpwigi77wrgp2obo5qrimpvawzwhax6t47b6le",
+          "uri": "at://did:plc:rnpkyqnmsw4ipey6eotbdnnf/app.bsky.feed.post/3mblgq6z56c2m"
+        }
+      },
+      "text": "This also might be the right time to note I barely ever drink.\n\nLike I can count the number of drinks I had in 2025 on my fingers.\n\nCreative benders though, those are basically constant."
+    },
+    "cid": "bafyreihsnah76atslv7yos65ko3yrr3mmcure4qjtf4hpbawlurguciipm"
+  }
+}

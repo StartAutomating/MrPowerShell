@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767655998136282,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbplxxgx7j2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbplxwwql225",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-05T23:33:17.331Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicfrkub4d64blga7okqimtn737ldffv6m4esbtnedxg2litjh4gpq",
+          "uri": "at://did:plc:gdmw3sbpck7ei2fohzg7xoz4/app.bsky.feed.post/3mbpltb7p3s2c"
+        },
+        "root": {
+          "cid": "bafyreicfrkub4d64blga7okqimtn737ldffv6m4esbtnedxg2litjh4gpq",
+          "uri": "at://did:plc:gdmw3sbpck7ei2fohzg7xoz4/app.bsky.feed.post/3mbpltb7p3s2c"
+        }
+      },
+      "text": "Confirm with your own eyes.... Here's a few lines of the cloudflare script at the bottom:\n\n944: function (e) {\n    \"use strict\";\n    var t = \"undefined\" != typeof crypto && crypto.getRandomValues && crypto.getRandomValues.bind(crypto) ...\n\nTell me that looks safe."
+    },
+    "cid": "bafyreidopma7iigqd35qecaf3lwk36xudrv25zlpts3j3l3hudg2sk7mei"
+  }
+}

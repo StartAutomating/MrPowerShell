@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767387026536580,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbhrhycabs2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbhrhx5aik2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-02T20:50:25.218Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicv6skcy3fhc6qz6l4bizgitoj4ao746544ktadbnn523nisyrzre",
+          "uri": "at://did:plc:qbsolccfpm2tcqumqbdrpp6w/app.bsky.feed.post/3mbhqqscibs2n"
+        },
+        "root": {
+          "cid": "bafyreidfbp5dfkflgkgrs2seznv4bkubhmzh4q2wndpkejqm2prs77r5fe",
+          "uri": "at://did:plc:qbsolccfpm2tcqumqbdrpp6w/app.bsky.feed.post/3mbfychdi2c2n"
+        }
+      },
+      "text": "😆\n\nNo worries.  I generally try put stuff out there so it can be picked up by others.  Not exactly nerd sniping if that's the goal in the first place.\n\nBut, out of curiosity, how many points are expert programmer polymaths worth?"
+    },
+    "cid": "bafyreibj5z264cqucb7isugwmrovtaxkxurgsmfnkgrqsxpag7zagkz3su"
+  }
+}

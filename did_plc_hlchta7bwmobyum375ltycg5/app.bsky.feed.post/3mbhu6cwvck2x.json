@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767389924266925,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbhu6drczr27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbhu6cwvck2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-02T21:38:43.275Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifpeuiliavihjw7frd2qrtrt3vnqvedzrccou7jiznby7kcwvytli",
+          "uri": "at://did:plc:jcqncuvvdxvwsxyk6fvs5rjq/app.bsky.feed.post/3mbhtop2sck2x"
+        },
+        "root": {
+          "cid": "bafyreiggoujjs6iglie7rfeoa35sghlbys5zoxbmumclad7onh4lxnc4gq",
+          "uri": "at://did:plc:jcqncuvvdxvwsxyk6fvs5rjq/app.bsky.feed.post/3mbeylb4mb22n"
+        }
+      },
+      "text": "- Functions can be run from anywhere once they are loaded.\n- Functions are exported from modules (scripts aren't discoverable)\n- Functions are faster (they touch disk less)\n- Functions can be found (Find-Command)\n\nScripts are still useful, but functions are the better default."
+    },
+    "cid": "bafyreiemslppbvd3l55ourdkmzznwtivwn7zuz4bmosdt3imhuientc3di"
+  }
+}

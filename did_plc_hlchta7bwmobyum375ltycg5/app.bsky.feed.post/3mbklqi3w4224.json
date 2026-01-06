@@ -1,0 +1,51 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767483946251899,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbklqg4v652c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbklqi3w4224",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-03T23:45:48.2Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreidvs66xnldfov6kcfbyxyjw3td3uo4jr5k6ka72heywgf6ogpdatu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mbi27hltk22x"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/mrpowershell.com/post/3mbi27hltk22x"
+            }
+          ],
+          "index": {
+            "byteEnd": 173,
+            "byteStart": 149
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidnbyjpwihojvf6k6sezs54yje2am7ao6ymhx7yqcgzahecbx42d4",
+          "uri": "at://did:plc:a3yierchgwp2lvyontsragui/app.bsky.feed.post/3mbkhvesgb22s"
+        },
+        "root": {
+          "cid": "bafyreiey4iajlvigjxsbwk3xwxxzkepusl5ndsdtlvwxr3wakhc3qajyfu",
+          "uri": "at://did:plc:k54achhksfhvlp5jd3rzv32h/app.bsky.feed.post/3mbk7awqd622e"
+        }
+      },
+      "text": "Yeah, I don't think any other programming language is anywhere near natural aside from PowerShell.\n\nIt's the flexibility.\n\nPoint I was making here:\n\nbsky.app/profile/mrpo..."
+    },
+    "cid": "bafyreihrchzbujg3asvm2q5t4eb65727mxxeu2mc3543vm2a3waipvfcxm"
+  }
+}

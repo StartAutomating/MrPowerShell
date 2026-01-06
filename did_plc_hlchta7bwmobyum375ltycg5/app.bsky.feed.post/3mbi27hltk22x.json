@@ -1,0 +1,34 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767396404436146,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbi27hp42g27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbi27hltk22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-02T23:26:44.16Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 54,
+            "byteStart": 43
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "It seems like people are always dunking on #PowerShell syntax.\n\nLemme ask the world this:\n\nWhat langs do you know that support fully natural syntax?\n\nFor example:\n\n~~~PowerShell\nhelp Get-Command\n\n# or \n\ngradient red green blue\n~~~\n\nAnyone got anything?"
+    },
+    "cid": "bafyreidvs66xnldfov6kcfbyxyjw3td3uo4jr5k6ka72heywgf6ogpdatu"
+  }
+}

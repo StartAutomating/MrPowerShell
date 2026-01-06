@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767387154090622,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbhrlr26gc27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbhrlpvkp22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-02T20:52:31.844Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "PowerShell made Posh. Contribute to StartAutomating/Posh development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihsrr64hhsz32qvkz2sk7a3cmf7dqsa4kcfepmhpayfqlfxuxq744"
+            },
+            "mimeType": "image/jpeg",
+            "size": 109051
+          },
+          "title": "GitHub - StartAutomating/Posh: PowerShell made Posh",
+          "uri": "https://github.com/StartAutomating/Posh"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/Posh"
+            }
+          ],
+          "index": {
+            "byteEnd": 127,
+            "byteStart": 101
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicv6skcy3fhc6qz6l4bizgitoj4ao746544ktadbnn523nisyrzre",
+          "uri": "at://did:plc:qbsolccfpm2tcqumqbdrpp6w/app.bsky.feed.post/3mbhqqscibs2n"
+        },
+        "root": {
+          "cid": "bafyreidfbp5dfkflgkgrs2seznv4bkubhmzh4q2wndpkejqm2prs77r5fe",
+          "uri": "at://did:plc:qbsolccfpm2tcqumqbdrpp6w/app.bsky.feed.post/3mbfychdi2c2n"
+        }
+      },
+      "text": "Also, dirty secret, this took about as much time as it takes to cross the intersection.\n\nUsing Posh (github.com/StartAutomat...)\n\n$post.net.types | ? Name -match 'chinese'\n\n(it's literally the only type loaded by default matching that term)"
+    },
+    "cid": "bafyreibqqwr63rycck3nx6dpqxszk2rwcr22ic4z7yzfm6t4zvmfwtsqxq"
+  }
+}

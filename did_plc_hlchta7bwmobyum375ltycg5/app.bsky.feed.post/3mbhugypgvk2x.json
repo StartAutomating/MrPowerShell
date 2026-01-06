@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767390215242100,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbhugzb2bo27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbhugypgvk2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-02T21:43:34.535Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihgptmuqgipoeiqrszb4pnew5nrxhytswhulgnjibfqn4h2latbzu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mbhubvh46s2x"
+        },
+        "root": {
+          "cid": "bafyreiggoujjs6iglie7rfeoa35sghlbys5zoxbmumclad7onh4lxnc4gq",
+          "uri": "at://did:plc:jcqncuvvdxvwsxyk6fvs5rjq/app.bsky.feed.post/3mbeylb4mb22n"
+        }
+      },
+      "text": "A simpler way to slice it:\n\nWhen it's for you, a script is fine.\n\nWhen it's for others, functions are probably better."
+    },
+    "cid": "bafyreifkhflgqxgnguzvzybp5cejfyvme2muoz7g3b3frytlop5hx72jza"
+  }
+}

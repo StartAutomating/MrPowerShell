@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767414273948349,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbiktzhgms26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbiktz27us25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-03T04:24:33.415Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 85,
+            "byteStart": 74
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiakyvbaug33omwbwpyym2xbudc3lvdpdgxijqyj6xqzgcrmqtubgq",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3mbikg3esnc24"
+        },
+        "root": {
+          "cid": "bafyreigqts4spfjmfhmng5mju6r47lp5dgkocegscyeg76v6jh4bonojra",
+          "uri": "at://did:plc:na6m4utgyfnuw3t6tsqgne4e/app.bsky.feed.post/3mbhwbwrecyi2"
+        }
+      },
+      "text": "🤷 what can one do, except for continue to offer random helpful bits of #PowerShell?\n\nOnly so many seconds in a day:\n\n60 * 60 * 24 # to be precise\n\nPeople are always knocking it until they rock it.\n\nThen they discover how overpowered an object pipeline really is 😎"
+    },
+    "cid": "bafyreihumn5z33ve6jwsxptr3arqdrmo3hpms75jndjyz4ikyfiknutiay"
+  }
+}

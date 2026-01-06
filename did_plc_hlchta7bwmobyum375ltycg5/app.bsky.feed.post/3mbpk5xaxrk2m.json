@@ -1,0 +1,112 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767654054242690,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbpk5zfqgm2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbpk5xaxrk2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-05T23:00:51.509Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: This is why we can't have nice things.\n\nSomeone makes a nice animation with a funny name, and racks up 1000 followers / victims in a matter of hours.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihaju5lbj6xbwzaejt4pgg5txsnikrwblkwq55xutkzlvpkdxaxf4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 831301
+          },
+          "title": "a man in a green shirt is pushing a little girl on a swing",
+          "uri": "https://media.tenor.com/2RMSmeEu80wAAAAC/family-jewels-swing.gif?hh=278&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GoogleBalls"
+            }
+          ],
+          "index": {
+            "byteEnd": 50,
+            "byteStart": 38
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Cybersecurity"
+            }
+          ],
+          "index": {
+            "byteEnd": 176,
+            "byteStart": 162
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "InfoSec"
+            }
+          ],
+          "index": {
+            "byteEnd": 185,
+            "byteStart": 177
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:vwzwgnygau7ed7b7wt5ux7y2"
+            }
+          ],
+          "index": {
+            "byteEnd": 196,
+            "byteStart": 187
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:xraomsuf6pvh7r2cqtdwhkvm"
+            }
+          ],
+          "index": {
+            "byteEnd": 217,
+            "byteStart": 197
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "KickedInTheGoogleBalls"
+            }
+          ],
+          "index": {
+            "byteEnd": 296,
+            "byteStart": 273
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "After a deeper look, can confirm that #GoogleBalls is bad news.\n\nScript at the bottom:\n\nLooks for crypto/tokens and hides itself until the window isn't focused.\n\n#Cybersecurity #InfoSec\n\n@retr0.id @swiftonsecurity.com please double-check and spread the word.\n\nWe have been #KickedInTheGoogleBalls 😠"
+    },
+    "cid": "bafyreidkv64vhl6uk6lwphllxzmnk2efmyotcdfj4xkaledcucg3x2qwvi"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767634861162565,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mboybzsdd22m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mboybz736k2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-05T17:41:00.41Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicfdrdqnwzfl6dbgsafgtyvwxnhyblfzgp57s5zlmbzghxvh7o5gy",
+          "uri": "at://did:plc:z32gbpw5tkdhis53bkosqfeg/app.bsky.feed.post/3mboraxk5zc2g"
+        },
+        "root": {
+          "cid": "bafyreihvxzhi7t6lpejnh565zonxapbuqa2olyyvisnfwjat2ozmklzr7m",
+          "uri": "at://did:plc:z32gbpw5tkdhis53bkosqfeg/app.bsky.feed.post/3mbnmxkhttk2y"
+        }
+      },
+      "text": "Nice! Congrats!\n\nFor extra perf ( part 1):\n\nUse -noprofile to speed up PowerShells start.\n\nFor way more extra perf ( part 2 )\n\nETW can be quickly queried as objects with Get-WinEvent."
+    },
+    "cid": "bafyreibs7h65mzu7yo3o4e3xayjnbbkbcq6rv6dztmhtzvwdw6grziqwzy"
+  }
+}

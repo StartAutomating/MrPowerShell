@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767379185422521,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbhk6cffkg2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbhk6bptk22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-02T18:39:44.576Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig5blccmy75w4m2zrq6sgik3uumjwogskplzq7ucyu3pdv5phovf4",
+          "uri": "at://did:plc:msnoue7ch3y6xna56k33w332/app.bsky.feed.post/3mbh6kalcck2n"
+        },
+        "root": {
+          "cid": "bafyreig5blccmy75w4m2zrq6sgik3uumjwogskplzq7ucyu3pdv5phovf4",
+          "uri": "at://did:plc:msnoue7ch3y6xna56k33w332/app.bsky.feed.post/3mbh6kalcck2n"
+        }
+      },
+      "text": "I certainly hope so, because it's fun excercise... ?\n\nIt took me years to realize inline is the easy way:\n\ndir | Where-Object Extension -in '.jpg','.png','.svg' |\nForeach-Object { \"<div><img src='$($_.Fullname)' alt='$($_.Name)' /></div>\" }\n\nHope this helps!"
+    },
+    "cid": "bafyreih3hjw7o4eochcr4pxji655bafoaxkxgt2fs6agnkgv6i2meelsii"
+  }
+}

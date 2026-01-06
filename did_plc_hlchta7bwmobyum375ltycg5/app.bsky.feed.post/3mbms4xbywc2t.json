@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767559530049600,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbms4yfwv32m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbms4xbywc2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-04T20:45:28.709Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiho2bzrobpcuaaa4ljfbeommsy4tli773bixp3fzijffxzrqyxuf4",
+          "uri": "at://did:plc:rnpkyqnmsw4ipey6eotbdnnf/app.bsky.feed.post/3mbibsbyq4k2e"
+        },
+        "root": {
+          "cid": "bafyreiaih3pilorwcoqppg26qrcd5zrc6oqsp67js7pmulzb7mp2etrcjm",
+          "uri": "at://did:plc:rnpkyqnmsw4ipey6eotbdnnf/app.bsky.feed.post/3mbib5wydfk2e"
+        }
+      },
+      "text": "Good enough news here, via crap I've learned over the years.\n\ne33 is the socket type.  Everything after [regex]'^\\D\\d\\d' can usually be ignored\n\nI think you'll be able to find something by looking for \"e33 400 lumen\" or \"e33 200 lumen\".\n\nAll the help I can give here, as I have no garage."
+    },
+    "cid": "bafyreigu7uoetjjcc56q5rblpkoysoeakjrot24q6kg6exlpgfoj6l5k5u"
+  }
+}

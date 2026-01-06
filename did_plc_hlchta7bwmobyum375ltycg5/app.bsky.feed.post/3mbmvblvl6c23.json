@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767562908130517,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbmvbnupjc2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbmvblvl6c23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-04T21:41:45.765Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiblhghsd2jk5pmu5tiva2ihvouazcjn34ibokohg26i3wftakwkwq",
+          "uri": "at://did:plc:43ntgoqv7ngs76kv5go5hbya/app.bsky.feed.post/3mbmu3dehds2f"
+        },
+        "root": {
+          "cid": "bafyreicxew57tgjcddqrwwtppanhysytpi3hbzgm2hubjsmal7bpcq7vjy",
+          "uri": "at://did:plc:yckwzhoszgrvjm5zesk3hqod/app.bsky.feed.post/3mbm7or34kc2d"
+        }
+      },
+      "text": "Yeah, Restart-Computer was added in V2 (IIRC)\n\nTo be fair, it just calls down to WMI to restart.\n\nAnd to be balanced, I still find myself using \"shutdown /r /f /t 0\" when I really want to reboot.\n\n# Shutdown reboot force timeout 0\n# Do not pass go, Do not collect $200, Shut Up and Reboot."
+    },
+    "cid": "bafyreie7gvkxf67wkqpphwhp6b6cxkvwk27ecshc5rgx6pcrirjuba3nke"
+  }
+}
