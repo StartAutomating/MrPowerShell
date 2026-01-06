@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767659257563253,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbpoz3z5es2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbpoz2jrdc2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-06T00:27:35.882Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 271,
+            "byteStart": 260
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JavaScript"
+            }
+          ],
+          "index": {
+            "byteEnd": 294,
+            "byteStart": 283
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic2beiwlxn6ybr2byn6ah2fnt35rp5yjfxx4bs2eeslat6sygavue",
+          "uri": "at://did:plc:2o6kue7j6qv2rx7pyjep33qq/app.bsky.feed.post/3mbpons3jms23"
+        },
+        "root": {
+          "cid": "bafyreicfrkub4d64blga7okqimtn737ldffv6m4esbtnedxg2litjh4gpq",
+          "uri": "at://did:plc:gdmw3sbpck7ei2fohzg7xoz4/app.bsky.feed.post/3mbpltb7p3s2c"
+        }
+      },
+      "text": "Let's be real here... people keep tabs open.\n\nAs someone who has been devving for decades, I can say few things with certainty:\n\n1. Better safe than sorry.\n2. We can all be wrong (and it appears I am)\n3. Imposter syndrome is endemic.\n\nBeing jokey:\n\n🤷 I'm a #PowerShell MVP, not a #JavaScript MVP"
+    },
+    "cid": "bafyreihk3euluqvylxxhtpbs3kqcesenv277a6fetcaelywvizu5rpgt5y"
+  }
+}
