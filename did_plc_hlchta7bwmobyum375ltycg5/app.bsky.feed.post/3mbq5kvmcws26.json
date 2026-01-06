@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767674887532867,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbq5kvwizs2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbq5kvmcws26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-06T04:48:07.087Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 63,
+            "byteStart": 52
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Claude"
+            }
+          ],
+          "index": {
+            "byteEnd": 208,
+            "byteStart": 201
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieeyxoc2u2bqwaak3m7yhz2tldc44lls6byyo676plnwbwb6rtthq",
+          "uri": "at://did:plc:2eeszwpbnmtk4u6fkzcfgfaj/app.bsky.feed.post/3mbpxtrhmvk24"
+        },
+        "root": {
+          "cid": "bafyreieeyxoc2u2bqwaak3m7yhz2tldc44lls6byyo676plnwbwb6rtthq",
+          "uri": "at://did:plc:2eeszwpbnmtk4u6fkzcfgfaj/app.bsky.feed.post/3mbpxtrhmvk24"
+        }
+      },
+      "text": "I'd guess it is because this is not deterministic.\n\n#PowerShell is fairly unique in many ways, one of them is the way it iterates and returns expressions.\n\nI have a simple trick you could try to teach #Claude\n\n\"Force <criteria> values to be array by using a @() subexpression\""
+    },
+    "cid": "bafyreifuclnsywg4ggmo4xptyd3c34hqkteilppliufx5zcxjkg627ukhq"
+  }
+}
