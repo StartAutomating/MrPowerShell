@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767747067239914,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbsarzu5h327",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbsarzeyzc2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-07T00:51:06.626Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaskn33olqw7x2laxg4swcwu42mqs45firs6leuc3sqs3p7wglqru",
+          "uri": "at://did:plc:6xlutiqn7uoxxgtzdyuxcudc/app.bsky.feed.post/3mbs7xi7n6224"
+        },
+        "root": {
+          "cid": "bafyreiaib7dkrzlzmircxd7jnyxzn4z6w4fgmc5l3uec6en3urynhlxx7y",
+          "uri": "at://did:plc:6xlutiqn7uoxxgtzdyuxcudc/app.bsky.feed.post/3mbq7sc6bks2w"
+        }
+      },
+      "text": "To be fair, IPAddresses are a bit annoying to work with (period, not just in PowerShell) (ipv4 and ipv6)\n\nSo let's try to demystify....\n\nFirst, try piping an IP to Get-Member:\n\n[IPAddress]\"192.168.0.1\"  | Get-Member\n\nThis gives us the first answer:\n\nTo sort:\n\n$IPs | Sort-Object address"
+    },
+    "cid": "bafyreia2nt25dyaqkbbgtroucxq6b3hba5f5awm34xitf4txcoogorci4q"
+  }
+}
