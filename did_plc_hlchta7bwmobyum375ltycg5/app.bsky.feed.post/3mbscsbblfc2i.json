@@ -1,0 +1,52 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767749226148240,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbscsc4e2e2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbscsbblfc2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-07T01:27:02.386Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Contribute to sawfriendship/PowerShell_IP-Calc development by creating an account on GitHub.",
+          "title": "PowerShell_IP-Calc/IP-Calc.ps1 at main · sawfriendship/PowerShell_IP-Calc",
+          "uri": "https://github.com/sawfriendship/PowerShell_IP-Calc/blob/main/IP-Calc.ps1"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/sawfriendship/PowerShell_IP-Calc/blob/main/IP-Calc.ps1"
+            }
+          ],
+          "index": {
+            "byteEnd": 150,
+            "byteStart": 124
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifqiqgqwqvld3s5hsms6kibdw5ixsgt5hhplj66uhwdcwyruiyzgy",
+          "uri": "at://did:plc:6xlutiqn7uoxxgtzdyuxcudc/app.bsky.feed.post/3mbscmhqkzc2l"
+        },
+        "root": {
+          "cid": "bafyreiaib7dkrzlzmircxd7jnyxzn4z6w4fgmc5l3uec6en3urynhlxx7y",
+          "uri": "at://did:plc:6xlutiqn7uoxxgtzdyuxcudc/app.bsky.feed.post/3mbq7sc6bks2w"
+        }
+      },
+      "text": "Yeah, this is where I'm gonna go ahead and refer to a search engine.\n\nMagic keywords \"PowerShell CIDR\"\n\nHere's one I found\n\ngithub.com/sawfriendshi...\n\nPlenty more out there."
+    },
+    "cid": "bafyreibuq2psse47fydonyjetclhnewkurc4twe6gbkbrdpf2m3hou75zy"
+  }
+}
