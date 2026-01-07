@@ -1,0 +1,116 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767823486899826,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbuhxjce562a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbuhxh7emk2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-07T22:04:44.562Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 42,
+            "byteStart": 35
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Basic"
+            }
+          ],
+          "index": {
+            "byteEnd": 65,
+            "byteStart": 59
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JavaScript"
+            }
+          ],
+          "index": {
+            "byteEnd": 121,
+            "byteStart": 110
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "VBScript"
+            }
+          ],
+          "index": {
+            "byteEnd": 156,
+            "byteStart": 147
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSharp"
+            }
+          ],
+          "index": {
+            "byteEnd": 212,
+            "byteStart": 205
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 236,
+            "byteStart": 225
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ARPANet"
+            }
+          ],
+          "index": {
+            "byteEnd": 266,
+            "byteStart": 258
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiegxt7bqxb3njde373qj6fauqkuujiifjsk5ogfaogotqeqjzyei4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mbugylayhk2i"
+        },
+        "root": {
+          "cid": "bafyreiegxt7bqxb3njde373qj6fauqkuujiifjsk5ogfaogotqeqjzyei4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mbugylayhk2i"
+        }
+      },
+      "text": "For my own reference, I started on #Turtle at 5 (1986) and #Basic at 8 (1991), then C/C++ at ~11 (1994), Then #JavaScript when it was MochaScript, #VBScript (1996), realtime video apps in C++ (2000-2004), #CSharp (2005), and #PowerShell  (2006).\n\nI'm so old #ARPANet is (slightly) younger than I am."
+    },
+    "cid": "bafyreiczpxht3lurhc5zt6srhvks6qwwdmuz7gusnqesced5ka7ki2a2oi"
+  }
+}
