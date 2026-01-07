@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767826928043488,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbul62775n2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbul5xehgk2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-07T23:02:04.058Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Lucifer Morningstar wants to know what you desire:   An object pipeline on an open operating system?  Yes Please.\n\nOf course Lucifer doesn't use PowerShell on Linux.\n\nHe gets Maze to do it (obviously).",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihqxp2wbjqhkb2k4ls5hocggznjcptqdwbbszkf5ex56d4ernimym"
+            },
+            "mimeType": "image/jpeg",
+            "size": 796161
+          },
+          "title": "a man with a beard is smiling for the camera .",
+          "uri": "https://media.tenor.com/3yZdTRSmmdYAAAAC/lucifer-morningstar.gif?hh=280&ww=244"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 21,
+            "byteStart": 15
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiemkfdbcxb32ttcjt5ronktzqgtthde7pvlhdkd4cdl5pgchjixlq",
+          "uri": "at://did:plc:zeuf57zztgutdtjquomt4ws5/app.bsky.feed.post/3mbukx5mtks2h"
+        },
+        "root": {
+          "cid": "bafyreihm7pcfqhkpc462f4e2w4ndwrwgr5awpt6rvhudmtaxc5tv3glinu",
+          "uri": "at://did:plc:zeuf57zztgutdtjquomt4ws5/app.bsky.feed.post/3mbtv6ysmoc2u"
+        }
+      },
+      "text": "#PowerShell on #Linux - So wrong it's right 😉😈"
+    },
+    "cid": "bafyreifhulnp5spqq3wcv24veglohqlz56mgff5wgvhjqaytgah5zxexqe"
+  }
+}
