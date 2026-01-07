@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767826000772391,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbukcfrjao27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbukc5hti22i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-07T22:46:30.936Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "1h 46m | R",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifvsqxpwhcsh7nuk5b66d5b2tuhfssim432fhkq7zj3cycjapegbq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 986027
+          },
+          "title": "Even Cowgirls Get the Blues (1993) ⭐ 4.3 | Comedy, Drama, Romance",
+          "uri": "https://www.imdb.com/title/tt0106834/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RottenTomatoes"
+            }
+          ],
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 17
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "IndieMovie"
+            }
+          ],
+          "index": {
+            "byteEnd": 163,
+            "byteStart": 152
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.imdb.com/title/tt0106834/"
+            }
+          ],
+          "index": {
+            "byteEnd": 226,
+            "byteStart": 198
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ImSoOld"
+            }
+          ],
+          "index": {
+            "byteEnd": 236,
+            "byteStart": 228
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I just found out #RottenTomatoes doesn't capture my old blurb  on \"Even Cowgirls Get the Blues\" and now I have a bit of the blues.\n\nIMO, this weird old #IndieMovie needs to be seen by more people.\n\nwww.imdb.com/title/tt0106...\n\n#ImSoOld I gotta see if I can even convert my .doc files anymore"
+    },
+    "cid": "bafyreiekpnywhrzlq2dt3aswplq5jui3owqvfjh4wyhavakhgzoobrbu4q"
+  }
+}
