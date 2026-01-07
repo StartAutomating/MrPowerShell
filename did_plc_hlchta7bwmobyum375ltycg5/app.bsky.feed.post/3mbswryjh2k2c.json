@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767770688633388,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbswryytxe2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbswryjh2k2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-07T07:24:48.042Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieenzw4gr54j632rhe2zbgcehj75wiu4zsoub7aiaedkuadzwo37u",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mbswno2ync2c"
+        },
+        "root": {
+          "cid": "bafyreie3nyc73szywq6abkjn7nncxbliyiekmef2reruv5jzatdwpdae2m",
+          "uri": "at://did:plc:xexd2tsli2mrikrs445hazgm/app.bsky.feed.post/3mbrysiysr22s"
+        }
+      },
+      "text": "The easiest way to achieve what you want is probably aliasing to the command itself, for example:\n\nSet-Alias mkdir (Get-Command mkdir -CommandType Application).Source\n\nAliases are scoped.  So hopefully you can put this line in a script and 🤞 call it a day."
+    },
+    "cid": "bafyreifo4k2a2otckqezksrrkv2zi6ct75jovrvx3etfaz4lwaakdbnod4"
+  }
+}
