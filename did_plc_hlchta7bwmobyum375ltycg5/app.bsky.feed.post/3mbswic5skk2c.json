@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767770363180038,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbswickn6d27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbswic5skk2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-07T07:19:22.602Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 43,
+            "byteStart": 32
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidaerav6zuacqvlvq6y2pmkmk3oe7r4dzynu4drylevfvdnujrspq",
+          "uri": "at://did:plc:xexd2tsli2mrikrs445hazgm/app.bsky.feed.post/3mbsrtmddvs2x"
+        },
+        "root": {
+          "cid": "bafyreie3nyc73szywq6abkjn7nncxbliyiekmef2reruv5jzatdwpdae2m",
+          "uri": "at://did:plc:xexd2tsli2mrikrs445hazgm/app.bsky.feed.post/3mbrysiysr22s"
+        }
+      },
+      "text": "Alas, these difference predates #PowerShell.\n\nmkdir (Windows) and mkdir (Unix) have always worked differently.\n\nPowerShell took a step in the right direction making the Unix behavior _mostly_ work on Windows by default (IMO).\n\nAlso, on Unix, PowerShell does ship mkdir - it uses the command."
+    },
+    "cid": "bafyreibuu35ueicjzqju24b2wtrcok6uolytdbgauz2ixsnvggitfuaqii"
+  }
+}
