@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767817077108735,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbubyihyqs2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbubyi2efk2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-07T20:17:56.55Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 81,
+            "byteStart": 69
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicinwiikeofio2tzzjgpszzwuis3kux6ysyc2suqgxq6mqoz4ee5q",
+          "uri": "at://did:plc:cbkjy5n7bk3ax2wplmtjofq2/app.bsky.feed.post/3mbubn4xfr22k"
+        },
+        "root": {
+          "cid": "bafyreiep5h4e3vg7ss55avenjsrpwpn76n2sbwo7hl3ows2esrltff4p3a",
+          "uri": "at://did:plc:re3ebnp5v7ffagz6rb6xfei4/app.bsky.feed.post/3mbfoiwutps2r"
+        }
+      },
+      "text": "Thanks!\n\nI found the repo yesterday and tried running the tool on my #RaspberryPi, and found that it complains about tool pathing.\n\nWhile I'm pretty certain this is a \"my machine\" problem, I'm equally certain checking in a generated copy would not hurt (and would be consistent with other projects)"
+    },
+    "cid": "bafyreiceqddikrbqp2wtqbr4j3knbubtawikwmarfsypysctelk67gh4p4"
+  }
+}
