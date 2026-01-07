@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767752572176537,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbsfw3phob2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbsfw367ak2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-07T02:22:51.426Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigsm7jjrdhpbidbplgzpfibht7ug5fnbbopv4x2pjkl5qb576plie",
+          "uri": "at://did:plc:qx7in36j344d7qqpebfiqtew/app.bsky.feed.post/3mbse7jft3k2n"
+        },
+        "root": {
+          "cid": "bafyreigsm7jjrdhpbidbplgzpfibht7ug5fnbbopv4x2pjkl5qb576plie",
+          "uri": "at://did:plc:qx7in36j344d7qqpebfiqtew/app.bsky.feed.post/3mbse7jft3k2n"
+        }
+      },
+      "text": "Yep, though that only removes them from the current process and any child processes.\n\n(but that's just how env variables work with process isolation)"
+    },
+    "cid": "bafyreih2t7j2nmf3mmwiygvqbgfbvdcgqibswwu7okqmtnzsunv3zuikwi"
+  }
+}
