@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767770543380769,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbswnogdfu27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbswno2ync2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-07T07:22:22.865Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreietlwrfzjmgximopuvbdkgplctoqdxd3pkcrv24gsxk6t4novmtpy",
+          "uri": "at://did:plc:xexd2tsli2mrikrs445hazgm/app.bsky.feed.post/3mbstrianis2x"
+        },
+        "root": {
+          "cid": "bafyreie3nyc73szywq6abkjn7nncxbliyiekmef2reruv5jzatdwpdae2m",
+          "uri": "at://did:plc:xexd2tsli2mrikrs445hazgm/app.bsky.feed.post/3mbrysiysr22s"
+        }
+      },
+      "text": "One more note here.\n\nI'm (personally) not happy with the mkdir function as it stands for several reasons (you've mentioned a few already)\n\nAs much as I don't love it, the \"force consistency by overriding\" approach is the only way to get what is wanted here.\n\nPlease do not shoot the messenger."
+    },
+    "cid": "bafyreieenzw4gr54j632rhe2zbgcehj75wiu4zsoub7aiaedkuadzwo37u"
+  }
+}
