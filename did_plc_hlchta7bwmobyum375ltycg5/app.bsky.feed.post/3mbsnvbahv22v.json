@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767761134971968,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbsnvbvlzu2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbsnvbahv22v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-07T04:45:34.172Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibdh7dtj6jn2v6uspy2f3dmnoliehszjkfhg45lt6rxp2nrkkncti",
+          "uri": "at://did:plc:xexd2tsli2mrikrs445hazgm/app.bsky.feed.post/3mbsfhno26s2s"
+        },
+        "root": {
+          "cid": "bafyreie3nyc73szywq6abkjn7nncxbliyiekmef2reruv5jzatdwpdae2m",
+          "uri": "at://did:plc:xexd2tsli2mrikrs445hazgm/app.bsky.feed.post/3mbrysiysr22s"
+        }
+      },
+      "text": "It's telling you it already exists.\n\nUse -Force with New-Item if you want.\n\nOr if you really want to \"fix\" this, you can just define your own mkdir\n\nfunction mkdir([string]$Path) { New-Item @psboundParameters -Force -ItemType Directory -ErrorAction Ignore | Out-Null }"
+    },
+    "cid": "bafyreif734ucc3bs4eqy37rt7bwibepzjcm5bwevxoff7bxfmwxwpnwrvi"
+  }
+}
