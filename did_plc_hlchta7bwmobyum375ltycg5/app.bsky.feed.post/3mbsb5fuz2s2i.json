@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767747449666527,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbsb5gm6hg2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbsb5fuz2s2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-07T00:57:28.832Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 87,
+            "byteStart": 76
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia2nt25dyaqkbbgtroucxq6b3hba5f5awm34xitf4txcoogorci4q",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mbsarzeyzc2i"
+        },
+        "root": {
+          "cid": "bafyreiaib7dkrzlzmircxd7jnyxzn4z6w4fgmc5l3uec6en3urynhlxx7y",
+          "uri": "at://did:plc:6xlutiqn7uoxxgtzdyuxcudc/app.bsky.feed.post/3mbq7sc6bks2w"
+        }
+      },
+      "text": "Note that this doesn't work as we'd like for ipv6.\n\nFor a v4/v6 solution in #PowerShell, we can turn bytes into strings\n\n@( \n  foreach ($ip in $ips) {\n   @(foreach ($byte in ($ip.GetAddressBytes()) {\n      # (we need 3 digits)\n      \"{0:d3}\" -f $byte }\n    ) -join '.' \n  }\n) | Sort-Object"
+    },
+    "cid": "bafyreif2xxp7nsm2tl3kfmqccgddpnwq42osioxzb5smgpf4m4tfj4qlau"
+  }
+}
