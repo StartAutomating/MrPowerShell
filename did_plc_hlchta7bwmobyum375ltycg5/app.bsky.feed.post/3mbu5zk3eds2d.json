@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767812816949139,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbu5zjmm2i2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbu5zk3eds2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-07T19:06:57.267Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 31,
+            "byteStart": 20
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 52,
+            "byteStart": 46
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Defender"
+            }
+          ],
+          "index": {
+            "byteEnd": 76,
+            "byteStart": 67
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihm7pcfqhkpc462f4e2w4ndwrwgr5awpt6rvhudmtaxc5tv3glinu",
+          "uri": "at://did:plc:zeuf57zztgutdtjquomt4ws5/app.bsky.feed.post/3mbtv6ysmoc2u"
+        },
+        "root": {
+          "cid": "bafyreihm7pcfqhkpc462f4e2w4ndwrwgr5awpt6rvhudmtaxc5tv3glinu",
+          "uri": "at://did:plc:zeuf57zztgutdtjquomt4ws5/app.bsky.feed.post/3mbtv6ysmoc2u"
+        }
+      },
+      "text": "I personally prefer #PowerShell load times on #Linux.\n\nOn Windows, #Defender scans every script.  Great for safety, and impactful on performance of you use big modules that touch many scripts.\n\nThere are some tricks modules can do to load faster. Lmk which ones are slow if you want."
+    },
+    "cid": "bafyreifaggxdw7vmwoqdffpvlyzvsynfmulfviqqs4ayetnwt7pycyhme4"
+  }
+}
