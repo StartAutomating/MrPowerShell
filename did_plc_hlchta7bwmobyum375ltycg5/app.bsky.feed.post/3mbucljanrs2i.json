@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767817717069556,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbucljp6dj2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbucljanrs2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-07T20:28:35.34Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicinwiikeofio2tzzjgpszzwuis3kux6ysyc2suqgxq6mqoz4ee5q",
+          "uri": "at://did:plc:cbkjy5n7bk3ax2wplmtjofq2/app.bsky.feed.post/3mbubn4xfr22k"
+        },
+        "root": {
+          "cid": "bafyreiep5h4e3vg7ss55avenjsrpwpn76n2sbwo7hl3ows2esrltff4p3a",
+          "uri": "at://did:plc:re3ebnp5v7ffagz6rb6xfei4/app.bsky.feed.post/3mbfoiwutps2r"
+        }
+      },
+      "text": "Digging into the lexicons for a second:\n\n1. I think \"title\" is too short.\n2. I think themes could/should grow \n3. I think a separated spec for colors is unneeded / potentially problematic (would rather store as hex/css colors than rgb)\n4. I think you need more lexicons 😉"
+    },
+    "cid": "bafyreicopuqx3bqwcaybzgtra7rpzwvosmo6wvfr4jfufodyg2ldv5ilsi"
+  }
+}
