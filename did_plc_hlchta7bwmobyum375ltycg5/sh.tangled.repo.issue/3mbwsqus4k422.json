@@ -1,0 +1,19 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767903796339143,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbwsqwg25t2a",
+    "operation": "create",
+    "collection": "sh.tangled.repo.issue",
+    "rkey": "3mbwsqus4k422",
+    "record": {
+      "$type": "sh.tangled.repo.issue",
+      "body": "For those of us that write a lot of technical content, there's a somewhat standard problem:\n\nHow do you store all of your samples?  Including them inline in Markdown is certainly an option, but it is not an option that helps discoverability too much.  Inline examples are harder to search and extract, and a bit of a nightmare to reuse.\n\nIf there was a `site.standard.code.sample` it would make it easy to build a client-side search for a site's samples (just listRecords from a user).\n\nThis would also help establish copyright for creators - simply post your sample and the at protocol will timestamp it and shout it out to the world.\n\nLast but not least, this sort of lexicon would make it easy to search samples and discover technical sites from multiple publications.\n\n## Suggested Lexicon Markdown\n\n### site.standard.code.sample\n> A code sample within a standard site.\n\n|Property|Type|Description|\n|-|-|-|\n| **`$type`** | `[string]` | The type of the object.  Must be `site.standard.code.sample`. |\n| **`title`** | `[string]` | The title of the sample |\n| **`language`** | `[string]` | The programming language used in the sample |\n| **`code`** | `[string]` | The example code |\n| `createdAt` | `[datetime]` |The time the code sample was created |\n\n",
+      "createdAt": "2026-01-08T20:23:14+00:00",
+      "repo": "at://did:plc:re3ebnp5v7ffagz6rb6xfei4/sh.tangled.repo/3mbriu65fu522",
+      "title": "Suggested Lexicon: `site.standard.code.sample`"
+    },
+    "cid": "bafyreieiaz5l6gm4tswk6lkavkisl5n2iurjzutywvjhg6yffrbu5j3noy"
+  }
+}
