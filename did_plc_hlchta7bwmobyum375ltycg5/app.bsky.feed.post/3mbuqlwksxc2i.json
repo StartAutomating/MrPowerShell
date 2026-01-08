@@ -1,0 +1,73 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767832763852389,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbuqlxnk5l2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbuqlwksxc2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-08T00:39:21.689Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Ok, this idea requires a bit of logical introduction.  For the short version of things, visit the current site for palettes, [4bitcss](https://4bitcss.com)\n\nA while back, I wanted a bunch of palettes ...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiemt5hnjcotn2lh3b7d5v7mwdzamkkk65562iitclc6ovqtvfoiry"
+            },
+            "mimeType": "image/jpeg",
+            "size": 228407
+          },
+          "title": "suggested lexicon: `site.standard.color.palette` #4",
+          "uri": "https://tangled.org/standard.site/lexicons/issues/4"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:re3ebnp5v7ffagz6rb6xfei4"
+            }
+          ],
+          "index": {
+            "byteEnd": 73,
+            "byteStart": 59
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://tangled.org/standard.site/lexicons/issues/4"
+            }
+          ],
+          "index": {
+            "byteEnd": 141,
+            "byteStart": 114
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifunrrsx6r2b7iapeojye675ks5cxn57cz2gozxvpvpz4ydi3iwdm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mbuqiyalx22i"
+        },
+        "root": {
+          "cid": "bafyreiep5h4e3vg7ss55avenjsrpwpn76n2sbwo7hl3ows2esrltff4p3a",
+          "uri": "at://did:plc:re3ebnp5v7ffagz6rb6xfei4/app.bsky.feed.post/3mbfoiwutps2r"
+        }
+      },
+      "text": "And issue #4 suggests a simple alternative that would give @standard.site hundreds of palettes \"out of the box\".\n\ntangled.org/standard.sit..."
+    },
+    "cid": "bafyreigk76kdsvohlnuq26bx7axpeaswvcoeax7cxbspuphpejbf5lb6z4"
+  }
+}
