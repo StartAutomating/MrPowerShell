@@ -1,0 +1,19 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767900352332115,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbwpkbw3t52d",
+    "operation": "create",
+    "collection": "sh.tangled.repo.issue.comment",
+    "rkey": "3mbwpkbfjjc22",
+    "record": {
+      "$type": "sh.tangled.repo.issue.comment",
+      "body": "Yeah, I honestly like that there is a _small_ palette now.  I just want to figure out how to bring all of the palettes over into the site.standard.\n\nI think there should be the room to grow into both (and maybe a few PowerShell or other scripts to convert between the two).\n\nMaybe the answer is: \n\n* `site.standard.palette.basic`\n* `site.standard.palette.terminal`\n\nAfter all..\n\nA part of me also wants a `site.standard.palette.named`, but, lets be honest, who is going to create a color palette for all of the [named colors in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/named-color) ?  (and, even if that person exists, _should_ they?)",
+      "createdAt": "2026-01-08T19:25:51+00:00",
+      "issue": "at://did:plc:hlchta7bwmobyum375ltycg5/sh.tangled.repo.issue/3mbuq5pdywi22",
+      "replyTo": "at://did:plc:eob75vcjtmbaef2tn4evc4sl/sh.tangled.repo.issue.comment/3mbvfl56u7h22"
+    },
+    "cid": "bafyreido5jkexy4ehjhhth6hhqlv2zf7houx23qhfjuaxaw3qwpyvxwcee"
+  }
+}
