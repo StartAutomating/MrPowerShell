@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767915074933825,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbx5b2iptc2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbx5ayvfxs2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-08T23:31:13.155Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:nx7znvoex7ev3wcxn3tipovm"
+            }
+          ],
+          "index": {
+            "byteEnd": 258,
+            "byteStart": 244
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigtpxac4kzqltj4sn2hcrm2abtqxf7ocj6ksk564lj7vyomkchqye",
+          "uri": "at://did:plc:eob75vcjtmbaef2tn4evc4sl/app.bsky.feed.post/3mbwlumdnpk2o"
+        },
+        "root": {
+          "cid": "bafyreigtpxac4kzqltj4sn2hcrm2abtqxf7ocj6ksk564lj7vyomkchqye",
+          "uri": "at://did:plc:eob75vcjtmbaef2tn4evc4sl/app.bsky.feed.post/3mbwlumdnpk2o"
+        }
+      },
+      "text": "This was the policy on dyingbird for a while and it seemed to work well.  I think certain parts of it are codified into law, for whatever that is worth these days.\n\nIt's really horrifying to imagine if someone former NYC mayor was able to keep @mayor.nyc.gov 😆🤔🫤😱"
+    },
+    "cid": "bafyreibhz6k32ebkyvy7q2o2cgv3maphymkn5hcwlglntn5k6r54p5iswq"
+  }
+}
