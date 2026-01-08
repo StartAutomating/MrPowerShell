@@ -1,0 +1,78 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767834855671347,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbuskd6hgc2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbuskb2zxc2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-08T01:14:13.08Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreihyaeu36mgtwidbow4szhrtazh4l3m7d25xniw7m5a4apjdpkqtki",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.generator/Back-In-My-Day"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 12,
+            "byteStart": 4
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BackInMyDay"
+            }
+          ],
+          "index": {
+            "byteEnd": 38,
+            "byteStart": 26
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/did:plc:hlchta7bwmobyum375ltycg5/feed/Back-In-My-Day"
+            }
+          ],
+          "index": {
+            "byteEnd": 276,
+            "byteStart": 252
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:i6y3jdklpvkjvynvsrnqfdoq"
+            }
+          ],
+          "index": {
+            "byteEnd": 298,
+            "byteStart": 285
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "New #AtProto feed alert!\n\n#BackInMyDay\n\nContains any \"Back in My Day\" or \"I'm so old posts\"\n\n(for all of us older people getting more and more in on the joke)\n\nBack In My Day, Grandpa Simpson was a throwaway joke.  Now he's a ghost of things to come.\n\nbsky.app/profile/did:...\n\nThanks @graze.social !"
+    },
+    "cid": "bafyreig4stqy66jbznzrgjyyjgol7zd3ixya7vg5lb2pxnxd4egyrbkuae"
+  }
+}
