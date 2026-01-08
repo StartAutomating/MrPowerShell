@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767915354037162,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbx5jeog6z2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbx5jdscks2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-08T23:35:53.024Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SmallWeb"
+            }
+          ],
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 25
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifd5eswbmvxc5rwcoh2pan2hfadomzwz3i7pmpt5bh3jpodh75xyi",
+          "uri": "at://did:plc:eob75vcjtmbaef2tn4evc4sl/app.bsky.feed.post/3mbuzkjkoks2g"
+        },
+        "root": {
+          "cid": "bafyreifd5eswbmvxc5rwcoh2pan2hfadomzwz3i7pmpt5bh3jpodh75xyi",
+          "uri": "at://did:plc:eob75vcjtmbaef2tn4evc4sl/app.bsky.feed.post/3mbuzkjkoks2g"
+        }
+      },
+      "text": "I think if we all do our #SmallWeb part, and keep creating new communities, then the human internet will continue to grow and thrive.\n\nPlatforms have come and gone for years because they get flooded by bots.\n\nWe just need to keep moving to higher ground."
+    },
+    "cid": "bafyreigobhtt7ft3iu3is2swrnbutllnnnfa6gzcbkfuivb2hs4cuqr5ny"
+  }
+}
