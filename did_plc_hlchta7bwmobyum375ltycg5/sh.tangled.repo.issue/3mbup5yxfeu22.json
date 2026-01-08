@@ -1,0 +1,22 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767831222367897,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbup62gdrk2p",
+    "operation": "create",
+    "collection": "sh.tangled.repo.issue",
+    "rkey": "3mbup5yxfeu22",
+    "record": {
+      "$type": "sh.tangled.repo.issue",
+      "body": "The current standard lets you specify a palette, but does not indicate if it is a light or dark palette.\n\nTo do this one needs to calculate Luma:\n\n~~~PowerShell\n        filter GetLuma {\n            $colorString = $_\n            # Convert the background color to a uint32\n            $rgb = ($colorString -replace \"#\", \"0x\" -replace ';') -as [UInt32]\n            # then make it into a percentage red, green, and blue.\n            $r, $g, $b = ([float][byte](($rgb -band 0xff0000) -shr 16)/255),\n                ([float][byte](($rgb -band 0x00ff00) -shr 8)/255),\n                ([float][byte]($rgb -band 0x0000ff)/255)\n        \n            # Calculate the luma of the background color\n            [Math]::Round(\n                0.2126 * $R + 0.7152 * $G + 0.0722 * $B,\n                6\n            )\n        }\n~~~\n\nOnce one has computed the background color luma, you know if the palette is Bright or Dark.\n\nI normally use a cutoff of: `if ($luma -gt 0.4) { \"bright\" } else {\"dark\"}`\n\nWhile you're there, calculating Contrast is also pretty straightforward:\n\n~~~PowerShell\n[Math]::Abs(($foreground | GetLuma) - ($background | GetLuma))\n~~~\n\nWhy does this matter?\n\nQuite a few reasons, but [@media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-color-scheme) and personal preferences spring first to mind.\n\nWith at least a Luma value, it's pretty easy to determine if a palette is bright or dark, and this makes it much easier to pick between palettes.\n\nAlso, as I write out this issue, I'm realizing it's a good additional justification for [why it should be palette, not theme](https://tangled.org/standard.site/lexicons/issues/2) - a theme might include a bright or dark palette, but a palette is either bright or dark.",
+      "createdAt": "2026-01-08T00:13:40+00:00",
+      "references": [
+        "at://did:plc:hlchta7bwmobyum375ltycg5/sh.tangled.repo.issue/3mbuo7mo45722"
+      ],
+      "repo": "at://did:plc:re3ebnp5v7ffagz6rb6xfei4/sh.tangled.repo/3mbriu65fu522",
+      "title": "`site.standard.(palette|theme).basic` should include luma/contrast/bright/dark"
+    },
+    "cid": "bafyreiefkiby3rbhucaskrjsichoer4vidzayuywjgak7dogcy2m3qzphu"
+  }
+}
