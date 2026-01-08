@@ -1,0 +1,19 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767830202857525,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbuo7oad3r2c",
+    "operation": "create",
+    "collection": "sh.tangled.repo.issue",
+    "rkey": "3mbuo7mo45722",
+    "record": {
+      "$type": "sh.tangled.repo.issue",
+      "body": "I believe that `site.standard.palette.basic` would be the ideal nomenclature, not `site.standard.theme.basic`.\n\nHere is why I believe `palette` is the correct name:\n\n1. As presently written, this encapsulates a palette, not a complete theme.\n2. Using the term \"palette\" keeps the term \"theme\" open for more complex scenarios.\n3. `palette` provides a clear delineation of purpose between itself and `theme`.  One deals with colors specifically, the other encapsulates UI customizations (for example, if we imagine a holiday theme, it might include a palette but also contain specific shapes/assets to display, different fonts to use, etc)\n4. To me, `palette` implies potential customization, where as theme implies a fixed set of selections.\n\nThese are just my rationale for the name change.  I have a few projects where I had been using either `theme` or `colorScheme` and have since standardized on the lexically correct term, which is `palette`.\n\nMy apologies for such a pedantic issue.  Please consider changing this before too many people take a dependency on standard.site.\n\n \n\n",
+      "createdAt": "2026-01-07T23:56:41+00:00",
+      "repo": "at://did:plc:re3ebnp5v7ffagz6rb6xfei4/sh.tangled.repo/3mbriu65fu522",
+      "title": "site.standard.palette.basic (not theme)"
+    },
+    "cid": "bafyreigywvqnkyrg3zaxy2gwukg6cqjjarx6v5j7ecr2eqdml7hx2vvloe"
+  }
+}
