@@ -1,0 +1,19 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767836466173266,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbuu26zxps2a",
+    "operation": "create",
+    "collection": "sh.tangled.repo.issue.comment",
+    "rkey": "3mbuu25rmpt22",
+    "record": {
+      "$type": "sh.tangled.repo.issue.comment",
+      "body": "I hear that strong preference on including data as an object.  I also ask you to consider the performance / complexity tradeoff.  If it was limited to hex RGB, this would be fine.  But component rgb.... \n\nFirst up, usability:\n\nHex RGB is definitely the standard here.  Almost every UI platform supports '#4488ff'.  Putting it into components makes for extra work for the developer on the way in _and_ the way out.\n\nLet's presume we limit the syntax to hex rgb for the next bit: data transmission:\n\n\"red\" + \"green\" + \"blue\" is an extra 12 bytes right there.  shorten it to RGB and you take that down to 3 bytes, but then you the quoting around keys to worry about, plus the colon (9 more bytes).  \n\nThat's more \"over the wire\" than required, by far.  As written, 21-26 bytes to send the data, versus 7.  That would be sent across the jetstream and duplicated into every pds.  Surely that's nothing compare to text posts, but it also adds up.\n\nI'm a big fan of \"as simple and open as possible\" lexicons, so I think just suggesting css color and taking a single value the right long term answer here, because it has a whole standards committee behind it and support from almost every web based UI framework.  \n\nBut if we want to keep it \"very standard\", I'd still think HexRGB should be the default, and component RGB would be the exception.  \n\nIf we want it to be very fast, then standardizing on a uint32 representation of RBG or RGBA would be quicker (and roughly the same amount over the wire, depending on the color used).\n\nIf we're finding the sweet spot between usability and insanity, hex color.\n\nIf we're being as long term open as possible without taxing the developer, css color\n\nIf we want the developer to pay a tax each time they use the color, keep it in pure component form.\n\n(apologies for the strong feelings here - been doing graphics work long enough to know how important simple choices like these can be on framework adoption )",
+      "createdAt": "2026-01-08T01:41:00+00:00",
+      "issue": "at://did:plc:hlchta7bwmobyum375ltycg5/sh.tangled.repo.issue/3mbufev4pe422",
+      "replyTo": "at://did:plc:ukp7pzzht32uigg6bg4vxr5t/sh.tangled.repo.issue.comment/3mbufwfmzyw22"
+    },
+    "cid": "bafyreie34c42jhmfbvphhfrvjl3o6xo63izlxgnu76p355tbiwbdzykrv4"
+  }
+}
