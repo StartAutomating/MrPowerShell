@@ -1,0 +1,35 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767832458737971,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbuqcvkif32c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbuqcuvtjs2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-08T00:34:17.963Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:wshs7t2adsemcrrd4snkeqli"
+            }
+          ],
+          "index": {
+            "byteEnd": 12,
+            "byteStart": 0
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "@tangled.org just opened a bunch of issues on a repo and found myself desperately wanting a \"preview\" tab.\n\nI'll make it one more Tangled issue for the day if you tell me where I should put that particular wish."
+    },
+    "cid": "bafyreicsp5dpp6cygx7uxnd6xy7eiljyp44yhl74bbzfxjl4g4meuido2e"
+  }
+}
