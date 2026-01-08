@@ -1,0 +1,19 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767904854278668,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbwtqhccus2a",
+    "operation": "create",
+    "collection": "sh.tangled.repo.issue",
+    "rkey": "3mbwtqgtexa22",
+    "record": {
+      "$type": "sh.tangled.repo.issue",
+      "body": "Another standard want for many sites is a code sandbox, or code pen.\n\n`code.sample` is a non-interactive sample of code for any single language. \n\n`code.sandbox` would be an interactive sample of code for any group of languages.\n\nA canonically simple case would be creating a code pen of our own, with:\n\n1. HTML\n2. CSS\n3. JavaScript\n4. An Optional Import Map (JSON)\n\nA less canonical example might consist of:\n\n1. An arbitrary language\n2. A sandbox service URL\n\nIn order to encompass both scenarios, I suggest the following lexicon:\n\n#### site.standard.code.sandbox\n> A code sandbox.  Code sandboxes can contain multiple languages and should be able to run interactively where possible.\n\n|Property|Type|Description|\n|-|-|-|\n| **`$type`** | `[string]` | The type of the object.  Must be `site.standard.code.sandbox`. |\n| **`title`** | `[string]` | The title of the sandbox |\n| `sandbox` | `[object]` | An object containing code to run in the sandbox.  Should contain html, css, javascript, and/or an import map.  |\n| `sandboxUrl` | `[uri]` | A url for a sandbox service, or a url to the sandbox.  If `sandbox` is empty, this should be treated as an external link  |\n| `createdAt` | `[datetime]` |The time the sandbox was created |\n\n\n---\n\nIn case anyone is wondering, I'm suggesting `sandbox` be optional so that a `sandboxUrl` can just point to an existing sandbox (thus enabling people to easily link existing sandboxes like codepen)",
+      "createdAt": "2026-01-08T20:40:53+00:00",
+      "repo": "at://did:plc:re3ebnp5v7ffagz6rb6xfei4/sh.tangled.repo/3mbriu65fu522",
+      "title": "Suggested Lexicon: `site.standard.code.sandbox|pen`"
+    },
+    "cid": "bafyreigpitixgualhvopi3p7qq77en6lr7ym6cavvl3pp5ld5vnusibsxm"
+  }
+}
