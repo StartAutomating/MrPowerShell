@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767991771493901,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbzeorz3hk2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbzeor6kyk24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-09T20:49:30.498Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidlgcox6as6ga37egxsnlrwiihmhugz6lp4suxnakxd5mfblv7pq4",
+          "uri": "at://did:plc:hzrswnow7xejwkj5b64yzlav/app.bsky.feed.post/3mbzdnl2gus2o"
+        },
+        "root": {
+          "cid": "bafyreidlgcox6as6ga37egxsnlrwiihmhugz6lp4suxnakxd5mfblv7pq4",
+          "uri": "at://did:plc:hzrswnow7xejwkj5b64yzlav/app.bsky.feed.post/3mbzdnl2gus2o"
+        }
+      },
+      "text": "Very nice!\n\nOne slight (maybe controversial) suggestion:\n\nI'd suggest using Get-PieGraph instead of New-PieGraph.\n\nThat way, fallback syntax will allow:\n\nPieGraph ..."
+    },
+    "cid": "bafyreifhh7mimv5lrucz5c7dl5y2rv3er4hk2mpg43xqvzkdb2ghstzmau"
+  }
+}
