@@ -1,0 +1,84 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767992052334230,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbzex5hrd72p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbzex3s6pk24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-09T20:54:10.062Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Some nights I will face the horrors of the wasteland of my code.\n\nOther nights I will face the horrors of the irradiated wastelands of Fallout.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiepeym2fy4o4ij2wudbwknpkrvkqs777g2hfc3o3rmtnhgyoucsca"
+            },
+            "mimeType": "image/jpeg",
+            "size": 655093
+          },
+          "title": "a woman is wearing a blue jacket with the letter t on it",
+          "uri": "https://media.tenor.com/uf3xHDqErj0AAAAC/okey-dokey-lucy-maclean.gif?hh=280&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Fallout"
+            }
+          ],
+          "index": {
+            "byteEnd": 147,
+            "byteStart": 139
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DeveloperProblems"
+            }
+          ],
+          "index": {
+            "byteEnd": 167,
+            "byteStart": 149
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "OldWorldBlues"
+            }
+          ],
+          "index": {
+            "byteEnd": 182,
+            "byteStart": 168
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibk7wyopxesckjqjfhurdima2pltooo2gtxgats7gqsygwkonjuou",
+          "uri": "at://did:plc:chf2cynf5w7js55n42x3mx5x/app.bsky.feed.post/3mbzeptldm22g"
+        },
+        "root": {
+          "cid": "bafyreiey4iajlvigjxsbwk3xwxxzkepusl5ndsdtlvwxr3wakhc3qajyfu",
+          "uri": "at://did:plc:k54achhksfhvlp5jd3rzv32h/app.bsky.feed.post/3mbk7awqd622e"
+        }
+      },
+      "text": "Eh, it might also depend on the night.\n\nSome nights I want to go 10 rounds with my own code.\n\nOther nights I want to watch TV or play some #Fallout\n\n#DeveloperProblems #OldWorldBlues"
+    },
+    "cid": "bafyreidp5jhkpexxxhm4bt6khwrh56vp7nhi5cclwkgdkvqd2hleercdri"
+  }
+}
