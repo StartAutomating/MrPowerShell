@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767915531363092,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbx5ontb572p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbx5omofa22n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-08T23:38:50.104Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 83,
+            "byteStart": 80
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigyqnr6u7edqecioyl4q7tz245xc5h7cyg25dje5vqes3jz3e4dlq",
+          "uri": "at://did:plc:6lwfvmss45d7j7fot34v2kw5/app.bsky.feed.post/3mbv7e7po5c26"
+        },
+        "root": {
+          "cid": "bafyreihqvkeqxthcu2fufcv2xv7mye3na7qwuirzwh5po36p2mjrmyagii",
+          "uri": "at://did:plc:eob75vcjtmbaef2tn4evc4sl/app.bsky.feed.post/3mbv2w64rl22t"
+        }
+      },
+      "text": "They built a platform people use and love, but do not pay for enough.\n\nAnd then #AI started removing their human traffic, which impacted their ability to convert the few customers needed to let all of this survive.\n\nTheir blame isn't wrong, and, also, 🤷 frameworks are really hard to monetize."
+    },
+    "cid": "bafyreiazvazfvweqxkivujvjx3274tqyuhrun4w6ysufcepf2iglcvketm"
+  }
+}
