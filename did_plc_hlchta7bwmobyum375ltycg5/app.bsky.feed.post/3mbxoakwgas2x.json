@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767933311592338,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbxoakd6qo27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbxoakwgas2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-09T04:35:12.119Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "css"
+            }
+          ],
+          "index": {
+            "byteEnd": 240,
+            "byteStart": 236
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "svg"
+            }
+          ],
+          "index": {
+            "byteEnd": 257,
+            "byteStart": 253
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib2qtbokksittrw3ohsriidrzuic6xocq6p7jd7phj2zchn7hgcsu",
+          "uri": "at://did:plc:vx2s6tiptwgssycs66xkh3xp/app.bsky.feed.post/3mbxle4zjoc2o"
+        },
+        "root": {
+          "cid": "bafyreihqvkeqxthcu2fufcv2xv7mye3na7qwuirzwh5po36p2mjrmyagii",
+          "uri": "at://did:plc:eob75vcjtmbaef2tn4evc4sl/app.bsky.feed.post/3mbv2w64rl22t"
+        }
+      },
+      "text": "I think CSS can do more than what tailwind does with it, but, that's just because I spend too much time reading CSS docs and putting crazy things together.\n\nStill need to drop the css mega framework I started before Xmas 😟. (20,000+ #css classes and #svg shapes and counting )"
+    },
+    "cid": "bafyreibvjlj5wjn4osbjgf4era47bsncfqg7cnnp5a7hio33i5ndlu72ym"
+  }
+}
