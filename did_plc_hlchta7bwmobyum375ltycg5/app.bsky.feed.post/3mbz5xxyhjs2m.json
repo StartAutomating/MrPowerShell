@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767984562606911,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbz5xwn3ls2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbz5xxyhjs2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-09T18:49:23.435Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifmfxztljivi3pirvrqbav72t3q4x5o64ivbhl4r6pta57mnt2y6e",
+          "uri": "at://did:plc:qj7tkd4q4qvbbcj4654uahcm/app.bsky.feed.post/3mbyqjb4qb22t"
+        },
+        "root": {
+          "cid": "bafyreifmfxztljivi3pirvrqbav72t3q4x5o64ivbhl4r6pta57mnt2y6e",
+          "uri": "at://did:plc:qj7tkd4q4qvbbcj4654uahcm/app.bsky.feed.post/3mbyqjb4qb22t"
+        }
+      },
+      "text": "In a good or a bad way ?"
+    },
+    "cid": "bafyreig3vs64r3vdqvw5m7eofftwx72izsp4n5s7xelwkuzg2veys3p5im"
+  }
+}
