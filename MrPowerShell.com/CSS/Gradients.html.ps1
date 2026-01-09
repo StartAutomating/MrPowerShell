@@ -17,8 +17,40 @@ param(
 [Collections.IDictionary]
 $SampleGradients = [Ordered]@{
     radial = { gradient '#4488ff' '#224488' }
+    radialRainbow = { gradient red orange yellow green blue indigo violet }
+    radialVariableRainbow = { gradient @(
+        'var(--red)'
+        'var(--brightYellow)'
+        'var(--yellow)'
+        'var(--green)'
+        'var(--blue)'
+        'var(--brightPurple)'
+        'var(--purple)'
+    ) }
     linear = { gradient linear '#4488ff' '#224488' }
+    linearVariable = { gradient linear 'var(--blue)' 'var(--brightBlue)' }
+    linearVariableRainbow = { gradient linear @(
+        'var(--red)'
+        'var(--brightYellow)'
+        'var(--yellow)'
+        'var(--green)'
+        'var(--blue)'
+        'var(--brightPurple)'
+        'var(--purple)'
+    ) }
     conic =  { gradient conic '#4488ff' '#224488' }
+    conicVariable = { gradient conic 'var(--blue)' 'var(--brightBlue)'}
+    conicVariableRainbow = { 
+        gradient conic @(
+            'var(--red)'
+            'var(--brightYellow)'
+            'var(--yellow)'
+            'var(--green)'
+            'var(--blue)'
+            'var(--brightPurple)'
+            'var(--purple)'
+        )
+    }
     diagonalRepeating = { gradient repeating-linear '45deg', 
         '#4488ff', 
         '#4488ff 5px',
@@ -128,7 +160,27 @@ $markdown |
 foreach ($sampleId in @($SampleGradients.Keys)) {
     if ($SampleGradients[$sampleId] -as [ScriptBlock[]]) {
         "<div>"
-            "<h3>$sampleId</h3>"        
+            "<h3>$sampleId</h3>"
+                                    
+            "<details open>"
+                "<summary>PowerShell</summary>"
+                foreach ($gradient in $SampleGradients[$sampleId]) {
+                    "<pre><code class='language-powershell'>"
+                    [Web.HttpUtility]::HtmlEncode($gradient)
+                    "</code></pre>"        
+                }
+            "</details>"
+
+            "<details open>"
+                "<summary>CSS</summary>"
+                "<pre><code class='language-css'>"
+                $css = "background:$(@(foreach ($gradient in $SampleGradients[$sampleId]) {
+                    . $gradient
+                }) -join (', ' + [Environment]::NewLine))"
+                [Web.HttpUtility]::HtmlEncode($css)
+                "</code></pre>"
+            "</details>"
+            
             "<div id='$sampleId' style='width:100%;height:100%;background:$(
                 @(foreach ($gradient in $SampleGradients[$sampleId]) {
                     . $gradient
