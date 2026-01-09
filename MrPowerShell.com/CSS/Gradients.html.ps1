@@ -65,6 +65,13 @@ $SampleGradients = [Ordered]@{
     conicRepeating = { gradient repeating-conic '#4488ff 0% 5%',
         '#224488 5% 10%'
     }
+    conicRepeatingRGB = {
+        gradient repeating-conic @(
+            'red 0% 5%',
+            'green 5% 10%'   
+            'blue 10% 15%'
+        )
+    }
     conicRepeatingOverlap = @(
         { gradient repeating-conic 'from 0deg at 25% 50%',
                 '#4488ff99 0% 5%',
@@ -74,8 +81,30 @@ $SampleGradients = [Ordered]@{
             '#22448899 5% 10%'
         }
     )
+    conicRepeatingRGBOverlap = @(
+        { gradient repeating-conic 'from 0deg at 25% 50%',
+            'color-mix(in srgb, red 50%, transparent) 0% 5%',
+            'color-mix(in srgb, green 50%, transparent) 5% 10%',
+            'color-mix(in srgb, blue 50%, transparent) 10% 15%'
+        }, { gradient repeating-conic 'from 180deg at 75% 50%',
+            'color-mix(in srgb, red 50%, transparent) 0% 5%',
+            'color-mix(in srgb, green 50%, transparent) 5% 10%',
+            'color-mix(in srgb, blue 50%, transparent) 10% 15%'
+        }
+    )
+    conicRepeatingRGBVariableOverlap = @(
+        { gradient repeating-conic 'from 0deg at 25% 50%',
+            'color-mix(in srgb, var(--red) 50%, transparent) 0% 5%',
+            'color-mix(in srgb, var(--green) 50%, transparent) 5% 10%',
+            'color-mix(in srgb, var(--blue) 50%, transparent) 10% 15%'
+        }, { gradient repeating-conic 'from 180deg at 75% 50%',
+            'color-mix(in srgb, var(--red) 50%, transparent) 0% 5%',
+            'color-mix(in srgb, var(--green) 50%, transparent) 5% 10%',
+            'color-mix(in srgb, var(--blue) 50%, transparent) 10% 15%'
+        }
+    )    
     conicRepeatingFromCorners = @(
-            { gradient repeating-conic 'from 0deg at 0% 0%',
+        { gradient repeating-conic 'from 0deg at 0% 0%',
                 '#4488ff99 0% 2.5%',
                 '#22448899 2.5% 5%'
         }, { gradient repeating-conic 'from 180deg at 100% 0%',
@@ -126,6 +155,40 @@ $SampleGradients = [Ordered]@{
         { gradient repeating-conic 'from 180deg at 100% 100%',
             'color-mix(in srgb, var(--blue) 25%, transparent) 0% 5%',
             'color-mix(in srgb, var(--brightBlue) 25%, transparent) 5% 10%'
+        }
+    )
+    conicRGBVariableCorners = @(
+        { gradient repeating-conic 'from 0deg at 0% 0%',        
+            "color-mix(in srgb, var(--red) 50%, transparent) 0% 5%",
+            "color-mix(in srgb, var(--green) 50%, transparent) 5% 10%",
+            "color-mix(in srgb, var(--blue) 50%, transparent) 10% 15%"
+        }
+        { gradient repeating-conic 'from 180deg at 100% 0%',        
+            "color-mix(in srgb, var(--red) 50%, transparent) 0% 5%",
+            "color-mix(in srgb, var(--green) 50%, transparent) 5% 10%",
+            "color-mix(in srgb, var(--blue) 50%, transparent) 10% 15%"
+        }        
+    )
+    conicRGBVariable4Corners = @(
+        { gradient repeating-conic 'from 0deg at 0% 0%',        
+            "color-mix(in srgb, var(--red) 25%, transparent) 0% 5%",
+            "color-mix(in srgb, var(--green) 25%, transparent) 5% 10%",
+            "color-mix(in srgb, var(--blue) 25%, transparent) 10% 15%"
+        }
+        { gradient repeating-conic 'from 180deg at 100% 0%',        
+            "color-mix(in srgb, var(--red) 25%, transparent) 0% 5%",
+            "color-mix(in srgb, var(--green) 25%, transparent) 5% 10%",
+            "color-mix(in srgb, var(--blue) 25%, transparent) 10% 15%"
+        }
+        { gradient repeating-conic 'from 0deg at 100% 100%',        
+            "color-mix(in srgb, var(--red) 25%, transparent) 0% 5%",
+            "color-mix(in srgb, var(--green) 25%, transparent) 5% 10%",
+            "color-mix(in srgb, var(--blue) 25%, transparent) 10% 15%"
+        }
+        { gradient repeating-conic 'from 0deg at 0% 100%',        
+            "color-mix(in srgb, var(--red) 25%, transparent) 0% 5%",
+            "color-mix(in srgb, var(--green) 25%, transparent) 5% 10%",
+            "color-mix(in srgb, var(--blue) 25%, transparent) 10% 15%"
         }
     )
 }
@@ -190,6 +253,16 @@ foreach ($sampleId in @($SampleGradients.Keys)) {
     }
 }
 
+"<style>.lowerSticky {    
+    display: fixed;
+    position: sticky;
+    z-index: 50;
+    bottom: 2.5%;
+    max-width: 100%;
+    text-align: center;
+}</style>"
+
+"<div class='lowerSticky'>"
 if ($site.Includes.SelectPalette) {
     . $site.Includes.SelectPalette
 }
@@ -197,6 +270,7 @@ if ($site.Includes.SelectPalette) {
 if ($site.Includes.GetRandomPalette) {
     . $site.Includes.GetRandomPalette
 }
+"</div>"
 
 #region View Source
 "<details><summary>View Source</summary>"
