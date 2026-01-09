@@ -138,6 +138,13 @@ foreach ($sampleId in @($SampleGradients.Keys)) {
     }
 }
 
+if ($site.Includes.SelectPalette) {
+    . $site.Includes.SelectPalette
+}
+
+if ($site.Includes.GetRandomPalette) {
+    . $site.Includes.GetRandomPalette
+}
 
 #region View Source
 "<details><summary>View Source</summary>"
@@ -150,5 +157,4 @@ foreach ($sampleId in @($SampleGradients.Keys)) {
 if ($site.Includes.CopyCode) {
     . $site.Includes.CopyCode
 }
-
 
