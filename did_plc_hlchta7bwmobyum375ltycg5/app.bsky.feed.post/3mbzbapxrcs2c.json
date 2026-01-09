@@ -1,0 +1,80 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767988087741202,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbzbasz4or2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbzbapxrcs2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-09T19:47:58.239Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 57,
+            "byteStart": 46
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 112,
+            "byteStart": 106
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Unix"
+            }
+          ],
+          "index": {
+            "byteEnd": 173,
+            "byteStart": 168
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Windows"
+            }
+          ],
+          "index": {
+            "byteEnd": 237,
+            "byteStart": 229
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifxduz6npmkarv6t3ie4shwjk3kavj6kqlga7bs4ntrsp3rzzwum4",
+          "uri": "at://did:plc:qj7tkd4q4qvbbcj4654uahcm/app.bsky.feed.post/3mbzam2wync2q"
+        },
+        "root": {
+          "cid": "bafyreifmfxztljivi3pirvrqbav72t3q4x5o64ivbhl4r6pta57mnt2y6e",
+          "uri": "at://did:plc:qj7tkd4q4qvbbcj4654uahcm/app.bsky.feed.post/3mbyqjb4qb22t"
+        }
+      },
+      "text": "I get that a lot 😆.\n\nShort version is that #PowerShell 's core syntax was made by a few nerds in early #Linux \"Resistance\" within Microsoft.\n\nIt has things longtime #Unix fans always wanted (object pipelines) as well as stuff #Windows admins needed (WMI/CIM support).\n\nSo, yeah, lot going on. 😆"
+    },
+    "cid": "bafyreifw736kvbhflwpajyrbig64vyofgvmrlyyqyya6u5dnaxb522h7dm"
+  }
+}
