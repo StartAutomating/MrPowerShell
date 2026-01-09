@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767985344449282,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbz6paqxog2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbz6pc4cus2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-09T19:02:25.799Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 78,
+            "byteStart": 67
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihitk4c7ii57nsdtvmnf5aomhgslprtspumrb24xuvnjdvp62y5pi",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3mbxwz5u26c22"
+        },
+        "root": {
+          "cid": "bafyreif64xegvwklmvafqda72nndy2u32qz5onjjf3yltlnmbjqgw2teh4",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3mbxqgapf6c2t"
+        }
+      },
+      "text": "Yeah that's the \"potentially\" part.\n\nThe more magic we can do with #PowerShell, the more important it is to avoid uncontrolled code injection at all costs."
+    },
+    "cid": "bafyreia7yfku6kgy3ljnw6zq5zw3qiut7e4m7a6rxh6l6zph7ez6lxdzfy"
+  }
+}
