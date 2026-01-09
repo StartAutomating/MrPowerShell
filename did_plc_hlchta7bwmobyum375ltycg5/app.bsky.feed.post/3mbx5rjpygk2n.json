@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1767915630249205,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mbx5rlpoq42a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mbx5rjpygk2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-08T23:40:27.674Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreialkbok77mpp7wbzq5tj6zx5q6lteeumf27vv3cb7zp6r6tvzkoiu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 692303
+          },
+          "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.",
+          "uri": "https://tailwindcss.com/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 46,
+            "byteStart": 42
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://tailwindcss.com/"
+            }
+          ],
+          "index": {
+            "byteEnd": 65,
+            "byteStart": 50
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifwdew7z2apee5bko63lv3ux4xrxxjltabj745yy25qerxsrj534u",
+          "uri": "at://did:plc:6lwfvmss45d7j7fot34v2kw5/app.bsky.feed.post/3mbvi4tstac22"
+        },
+        "root": {
+          "cid": "bafyreihqvkeqxthcu2fufcv2xv7mye3na7qwuirzwh5po36p2mjrmyagii",
+          "uri": "at://did:plc:eob75vcjtmbaef2tn4evc4sl/app.bsky.feed.post/3mbv2w64rl22t"
+        }
+      },
+      "text": "Just wondering if you realize Tailwind is #CSS ?\n\ntailwindcss.com"
+    },
+    "cid": "bafyreiajysqv3255l44lhi3yafm3hfyja4be4iqrotsyxjmaxu6sve5zk4"
+  }
+}
