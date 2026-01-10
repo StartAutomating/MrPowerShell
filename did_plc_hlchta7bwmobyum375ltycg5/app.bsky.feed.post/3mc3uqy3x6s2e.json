@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768077744996934,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mc3uqxpdic2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mc3uqy3x6s2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-10T20:42:24.207Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidyjavdr7apaeumi3rl5utgaohkln6oqus76c32wwb32m5uegrhnu",
+          "uri": "at://did:plc:uvzhf7yu2yv7ujyochhaj2lq/app.bsky.feed.post/3mc36je3ddk2s"
+        },
+        "root": {
+          "cid": "bafyreidyjavdr7apaeumi3rl5utgaohkln6oqus76c32wwb32m5uegrhnu",
+          "uri": "at://did:plc:uvzhf7yu2yv7ujyochhaj2lq/app.bsky.feed.post/3mc36je3ddk2s"
+        }
+      },
+      "text": "Testing locales?\n\nOr, perhaps more likely, trying to view some UTF8 / different encoding in Windows PowerShell ?"
+    },
+    "cid": "bafyreigdjy66gpqhgv55kn3e6oyrjmnk5szsrttlkebzq52jeyobsk32im"
+  }
+}
