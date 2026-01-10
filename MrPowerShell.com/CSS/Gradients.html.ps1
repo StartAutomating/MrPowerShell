@@ -51,19 +51,216 @@ $SampleGradients = [Ordered]@{
             'var(--purple)'
         )
     }
-    diagonalRepeating = { gradient repeating-linear '45deg', 
-        '#4488ff', 
-        '#4488ff 5px',
-        '#224488 5px', 
-        '#224488 30px'
+    diagonalLinearRepeating = { 
+        @(
+            'repeating-linear'
+            '45deg'
+            '#4488ff 1rem'
+            '#224488 2rem'
+        ) | gradient 
+        
     }
-    radialRepeating = { gradient repeating-radial '#4488ff', 
-        '#4488ff 5px',
-        '#224488 5px', 
-        '#224488 30px'
+    radialRepeating = { gradient repeating-radial '#4488ff 1rem',
+        '#224488 2rem'
     }
+    radialRepeatingVariable = { gradient repeating-radial 'var(--blue) 1rem',         
+        'var(--brightBlue) 2rem'
+    }
+    radialRepeatingRGBVariable = { gradient repeating-radial 'var(--red) 1rem',
+        'var(--green) 2rem',
+        'var(--blue) 3rem'    
+    }
+    radialRepeatingRGBVariableOverlap = @(
+        { 
+            gradient repeating-radial  @(
+                'circle closest-side at 0.01% 0.01%'
+                'color-mix(in srgb, var(--red) 50%, transparent) 1rem'
+                'color-mix(in srgb, var(--green) 50%, transparent) 2rem'
+                'color-mix(in srgb, var(--blue) 50%, transparent) 3rem'    
+            )
+        }
+        { 
+            gradient repeating-radial  @(
+                'circle closest-side at 99.99% 0.01%'
+                'color-mix(in srgb, var(--red) 50%, transparent) 1rem'
+                'color-mix(in srgb, var(--green) 50%, transparent) 2rem'
+                'color-mix(in srgb, var(--blue) 50%, transparent) 3rem'    
+            )
+        }
+    )
+    radialRepeatingRainbowVariableOverlap = @(
+        { 
+            gradient repeating-radial  @(
+                'circle closest-side at 25% 50%'
+                'color-mix(in srgb, var(--red) 50%, transparent) 1rem'
+                'color-mix(in srgb, var(--brightYellow) 50%, transparent) 2rem'
+                'color-mix(in srgb, var(--yellow) 50%, transparent) 3rem'
+                'color-mix(in srgb, var(--green) 50%, transparent) 4rem'
+                'color-mix(in srgb, var(--blue) 50%, transparent) 5rem'
+                'color-mix(in srgb, var(--brightPurple) 50%, transparent) 6rem'
+                'color-mix(in srgb, var(--purple) 50%, transparent) 7rem'
+            )
+        }
+        { 
+            gradient repeating-radial  @(
+                'circle closest-side at 75% 50%'
+                'color-mix(in srgb, var(--red) 50%, transparent) 1rem'
+                'color-mix(in srgb, var(--brightYellow) 50%, transparent) 2rem'
+                'color-mix(in srgb, var(--yellow) 50%, transparent) 3rem'
+                'color-mix(in srgb, var(--green) 50%, transparent) 4rem'
+                'color-mix(in srgb, var(--blue) 50%, transparent) 5rem'
+                'color-mix(in srgb, var(--brightPurple) 50%, transparent) 6rem'
+                'color-mix(in srgb, var(--purple) 50%, transparent) 7rem'
+            )
+        }
+    )
+    radialRepeatingRainbowVariableCorners = @(
+        { 
+            gradient repeating-radial  @(
+                'circle closest-side at 0.01% 0.01%'
+                'color-mix(in srgb, var(--red) 50%, transparent) 1rem'
+                'color-mix(in srgb, var(--brightYellow) 50%, transparent) 2rem'
+                'color-mix(in srgb, var(--yellow) 50%, transparent) 3rem'
+                'color-mix(in srgb, var(--green) 50%, transparent) 4rem'
+                'color-mix(in srgb, var(--blue) 50%, transparent) 5rem'
+                'color-mix(in srgb, var(--brightPurple) 50%, transparent) 6rem'
+                'color-mix(in srgb, var(--purple) 50%, transparent) 7rem'
+            )
+        }
+        { 
+            gradient repeating-radial  @(
+                'circle closest-side at 99.99% 0.01%'
+                'color-mix(in srgb, var(--red) 50%, transparent) 1rem'
+                'color-mix(in srgb, var(--brightYellow) 50%, transparent) 2rem'
+                'color-mix(in srgb, var(--yellow) 50%, transparent) 3rem'
+                'color-mix(in srgb, var(--green) 50%, transparent) 4rem'
+                'color-mix(in srgb, var(--blue) 50%, transparent) 5rem'
+                'color-mix(in srgb, var(--brightPurple) 50%, transparent) 6rem'
+                'color-mix(in srgb, var(--purple) 50%, transparent) 7rem'
+            )
+        }
+    )
+    radialEllipseRepeatingRainbowOverlap = @(
+        {   
+            $alpha = "$(100 / 2)%"
+            @(foreach ($vertical in '50%') {
+                foreach ($horizontal in '25%', '75%') {
+                    gradient repeating-radial  @(
+                        "ellipse 50% 50% at $Horizontal $vertical"
+                        $colorNumber = 0
+                        foreach ($color in 'red','brightYellow','yellow',
+                            'green','blue','brightPurple', 'purple') {
+                            $colorNumber++
+                            "color-mix(in srgb, var(--$color) $alpha, transparent) $($colorNumber)rem"
+                        }
+                    )
+                }
+            }) -join (',' + [Environment]::NewLine)
+        }        
+    )
+    radialEllipseRepeatingRainbowCorners = @(
+        {   
+            $alpha = "$(100 / 4)%"
+            @(foreach ($vertical in '0.01%') {
+                foreach ($horizontal in '0.01%', '99.99%') {
+                    gradient repeating-radial  @(
+                        "ellipse 50% 50% at $Horizontal $vertical"
+                        $colorNumber = 0
+                        foreach ($color in 'red','brightYellow','yellow',
+                            'green','blue','brightPurple', 'purple') {
+                            $colorNumber++
+                            "color-mix(in srgb, var(--$color) $alpha, transparent) $($colorNumber)rem"
+                        }
+                    )
+                }
+            }) -join (',' + [Environment]::NewLine)
+        }        
+    )
+    radialEllipseRepeatingRainbowOverlapFourCorners = @(
+        {   
+            $alpha = "$(100 / 4)%"
+            @(foreach ($vertical in '0.01%','99.99%') {
+                foreach ($horizontal in '0.01%', '99.99%') {
+                    gradient repeating-radial  @(
+                        "ellipse 50% 50% at $Horizontal $vertical"
+                        $colorNumber = 0
+                        foreach ($color in 'red','brightYellow','yellow',
+                            'green','blue','brightPurple', 'purple') {
+                            $colorNumber++
+                            "color-mix(in srgb, var(--$color) $alpha, transparent) $($colorNumber)rem"
+                        }
+                    )
+                }
+            }) -join (',' + [Environment]::NewLine)
+        }        
+    )
+    radialEllipseRepeatingRainbowOverlap8 = @(
+        {   
+            $alpha = "$(100 / 8)%"
+            @(foreach ($vertical in '25%','50%','75%') {
+                foreach ($horizontal in '25%', '50%','75%') {
+                    if ($horizontal -eq '50%' -and $vertical -eq '50%') {
+                        continue
+                    }
+                    gradient repeating-radial  @(
+                        "ellipse 50% 50% at $Horizontal $vertical"
+                        $colorNumber = 0
+                        foreach ($color in 'red','brightYellow','yellow',
+                            'green','blue','brightPurple', 'purple') {
+                            $colorNumber++
+                            "color-mix(in srgb, var(--$color) $alpha, transparent) $($colorNumber)rem"
+                        }
+                    )
+                }
+            }) -join (',' + [Environment]::NewLine)
+        }        
+    )
+    radialEllipseRepeatingRainbowVariableFourCorners = @(
+        {   
+            $alpha = "$(100 / 4)%"
+            @(foreach ($vertical in '0.01%', '99.99%') {
+                foreach ($horizontal in '0.01%', '99.99%') {
+                    gradient repeating-radial  @(
+                        "ellipse 50% 50% at $vertical $Horizontal"
+                        $colorNumber = 0
+                        foreach ($color in 'red','brightYellow','yellow',
+                            'green','blue','brightPurple', 'purple') {
+                            $colorNumber++
+                            "color-mix(in srgb, var(--$color) $alpha, transparent) $($colorNumber)rem"
+                        }
+                    )
+                }
+            }) -join (',' + [Environment]::NewLine)
+        }        
+    )
+    radialRepeatingRainbowVariableFourCorners = @(
+        {
+            $alpha = "$(100 / 4)%"
+            @(foreach ($vertical in '0.01%', '99.99%') {
+                foreach ($horizontal in '0.01%', '99.99%') {
+                    gradient repeating-radial  @(
+                        "circle closest-side at $horizontal $Vertical"
+                        $colorNumber = 0
+                        foreach ($color in 'red','brightYellow','yellow',
+                            'green','blue','brightPurple', 'purple') {
+                            $colorNumber++
+                            "color-mix(in srgb, var(--$color) $alpha, transparent) $($colorNumber)rem"
+                        }
+                    )
+                }
+            }) -join (',' + [Environment]::NewLine) 
+        }
+    )
+    
     conicRepeating = { gradient repeating-conic '#4488ff 0% 5%',
         '#224488 5% 10%'
+    }
+    conicRepeatingVariable = { gradient repeating-conic 'var(--blue) 0% 5%',
+        'var(--brightBlue) 5% 10%'
+    }
+    conicRepeatingColorMix = { 
+        gradient repeating-conic 'color-mix(in srgb, var(--blue) 50%, transparent) 0% 5%',
+            'color-mix(in srgb, var(--brightBlue) 50%, transparent) 5% 10%'
     }
     conicRepeatingRGB = {
         gradient repeating-conic @(
@@ -102,7 +299,46 @@ $SampleGradients = [Ordered]@{
             'color-mix(in srgb, var(--green) 50%, transparent) 5% 10%',
             'color-mix(in srgb, var(--blue) 50%, transparent) 10% 15%'
         }
-    )    
+    )
+    conicRepeatingRainbowOverlap = @(
+        { gradient repeating-conic 'from 0deg at 25% 50%',
+            'color-mix(in srgb, red 50%, transparent) 0% 2%',
+            'color-mix(in srgb, orange 50%, transparent) 2% 4%',
+            'color-mix(in srgb, yellow 50%, transparent) 4% 6%',
+            'color-mix(in srgb, green 50%, transparent) 6% 8%',
+            'color-mix(in srgb, blue 50%, transparent) 8% 10%',
+            'color-mix(in srgb, indigo 50%, transparent) 10% 12%',
+            'color-mix(in srgb, violet 50%, transparent) 12% 14%'
+        }, { gradient repeating-conic 'from 180deg at 75% 50%',
+            'color-mix(in srgb, red 50%, transparent) 0% 2%',
+            'color-mix(in srgb, orange 50%, transparent) 2% 4%',
+            'color-mix(in srgb, yellow 50%, transparent) 4% 6%',
+            'color-mix(in srgb, green 50%, transparent) 6% 8%',
+            'color-mix(in srgb, blue 50%, transparent) 8% 10%',
+            'color-mix(in srgb, indigo 50%, transparent) 10% 12%',
+            'color-mix(in srgb, violet 50%, transparent) 12% 14%'
+        }
+    )
+    conicRepeatingRainbowVariableOverlap = @(
+        { gradient repeating-conic 'from 0deg at 25% 50%',
+            'color-mix(in srgb, var(--red) 50%, transparent) 0% 2%',
+            'color-mix(in srgb, var(--brightYellow) 50%, transparent) 2% 4%',
+            'color-mix(in srgb, var(--yellow) 50%, transparent) 4% 6%',
+            'color-mix(in srgb, var(--green) 50%, transparent) 6% 8%',
+            'color-mix(in srgb, var(--blue) 50%, transparent) 8% 10%',
+            'color-mix(in srgb, var(--brightPurple) 50%, transparent) 10% 12%',
+            'color-mix(in srgb, var(--purple), transparent) 12% 14%'
+        }, { gradient repeating-conic 'from 180deg at 75% 50%',
+            'color-mix(in srgb, var(--red) 50%, transparent) 0% 2%',
+            'color-mix(in srgb, var(--brightYellow) 50%, transparent) 2% 4%',
+            'color-mix(in srgb, var(--yellow) 50%, transparent) 4% 6%',
+            'color-mix(in srgb, var(--green) 50%, transparent) 6% 8%',
+            'color-mix(in srgb, var(--blue) 50%, transparent) 8% 10%',
+            'color-mix(in srgb, var(--brightPurple) 50%, transparent) 10% 12%',
+            'color-mix(in srgb, var(--purple), transparent) 12% 14%'
+        }
+    )
+        
     conicRepeatingFromCorners = @(
         { gradient repeating-conic 'from 0deg at 0% 0%',
                 '#4488ff99 0% 2.5%',
@@ -112,13 +348,7 @@ $SampleGradients = [Ordered]@{
             '#22448899 2.5% 5%'
         }
     )
-    conicRepeatingVariable = { gradient repeating-conic 'var(--blue) 0% 5%',
-        'var(--brightBlue) 5% 10%'
-    }
-    conicRepeatingColorMix = { 
-        gradient repeating-conic 'color-mix(in srgb, var(--blue) 50%, transparent) 0% 5%',
-            'color-mix(in srgb, var(--brightBlue) 50%, transparent) 5% 10%'
-    }
+    
     conicRepeatingVariableOverlap = @(
         { gradient repeating-conic 'from 0deg at 25% 50%',
                 'color-mix(in srgb, var(--blue) 50%, transparent) 0% 5%',
@@ -138,6 +368,25 @@ $SampleGradients = [Ordered]@{
             'color-mix(in srgb, var(--blue) 50%, transparent) 0% 5%',
             'color-mix(in srgb, var(--brightBlue) 50%, transparent) 5% 10%'
         }        
+    )
+    conicRepeatingRainbowVariableCorners = @(
+        { gradient repeating-conic 'from 0deg at 0% 0%',
+            'color-mix(in srgb, var(--red) 50%, transparent) 0% 2%',
+            'color-mix(in srgb, var(--brightYellow) 50%, transparent) 2% 4%',
+            'color-mix(in srgb, var(--yellow) 50%, transparent) 4% 6%',
+            'color-mix(in srgb, var(--green) 50%, transparent) 6% 8%',
+            'color-mix(in srgb, var(--blue) 50%, transparent) 8% 10%',
+            'color-mix(in srgb, var(--brightPurple) 50%, transparent) 10% 12%',
+            'color-mix(in srgb, var(--purple), transparent) 12% 14%'
+        }, { gradient repeating-conic 'from 180deg at 100% 0%',
+            'color-mix(in srgb, var(--red) 50%, transparent) 0% 2%',
+            'color-mix(in srgb, var(--brightYellow) 50%, transparent) 2% 4%',
+            'color-mix(in srgb, var(--yellow) 50%, transparent) 4% 6%',
+            'color-mix(in srgb, var(--green) 50%, transparent) 6% 8%',
+            'color-mix(in srgb, var(--blue) 50%, transparent) 8% 10%',
+            'color-mix(in srgb, var(--brightPurple) 50%, transparent) 10% 12%',
+            'color-mix(in srgb, var(--purple), transparent) 12% 14%'
+        }
     )
     conicRepeatingVariableFourCorners = @(
         { gradient repeating-conic 'from 0deg at 0% 0%',
@@ -191,6 +440,197 @@ $SampleGradients = [Ordered]@{
             "color-mix(in srgb, var(--blue) 25%, transparent) 10% 15%"
         }
     )
+    radialRainbowVariableFourCorners = @(
+        {
+            $alpha = "$(100 / 4)%"
+            @(foreach ($vertical in '0.01%','99.99%') {
+                foreach ($horizontal in '0.01%', '99.99%') {
+                    gradient repeating-radial  @(
+                        "circle closest-side at $horizontal $Vertical"
+                        $colorNumber = 0
+                        foreach ($color in 'red','brightYellow','yellow',
+                            'green','blue','brightPurple', 'purple') {
+                            $colorNumber++
+                            "color-mix(in srgb, var(--$color) $alpha, transparent) $($colorNumber)rem"
+                        }
+                    )
+                }
+            }) -join (',' + [Environment]::NewLine)
+        }        
+    )
+    conicRainbowVariableFourCorners = @(
+        {
+            $alpha = "$(100 / 4)%"
+            $colors = 'red','brightYellow','yellow',
+                'green','blue','brightPurple', 'purple'
+            $degrees = 0
+            @(foreach ($vertical in '0%','100%') {
+                foreach ($horizontal in '0%', '100%') {                    
+                    gradient repeating-conic  @(
+                        "from ${degrees}deg at $horizontal $Vertical"
+                        $colorNumber = 0                        
+                        foreach ($color in $colors) {                            
+                            $from = "$($colorNumber * 42/$colors.Count/2)%"                            
+                            $to =  "$(++$colorNumber * 42/$colors.Count/2)%"
+                            "color-mix(in srgb, var(--$color) $alpha, transparent) $from $to"
+                            # "color-mix(in srgb, var(--$color) $alpha, transparent) $from $to"
+                        }
+                    )
+                    $degrees += 180
+                }
+            }) -join (',' + [Environment]::NewLine)
+        }
+        
+    )
+    conicRainbowVariableFullFourCorners = @(
+        {
+            $alpha = "$(100 / 4)%"
+            $colors = 'foreground',
+                'black', 'brightBlack',
+                'red', 'brightRed',
+                'green', 'brightGreen', 
+                'yellow','brightYellow',
+                'blue','brightBlue',
+                'purple', 'brightPurple',
+                'cyan', 'brightCyan',
+                'white','brightWhite',
+                'background'
+            $degrees = 0
+            @(foreach ($vertical in '0%','100%') {
+                foreach ($horizontal in '0%', '100%') {                    
+                    gradient repeating-conic  @(
+                        "from ${degrees}deg at $horizontal $Vertical"
+                        $colorNumber = 0                        
+                        foreach ($color in $colors) {                            
+                            $from = "$([Math]::Round($colorNumber * 50/$colors.Count/2, 2))%"
+                            $to =  "$([Math]::Round(++$colorNumber * 50/$colors.Count/2))%"
+                            "color-mix(in srgb, var(--$color) $alpha, transparent) $from $to"
+                        }
+                    )
+                    $degrees += 90
+                }
+            }) -join (',' + [Environment]::NewLine)
+        }
+        
+    )
+    linearHorizontalRainbowVariableFullFourCorners = @(
+        {
+            $alpha = "$(100 / 2)%"
+            $colors = 'foreground',
+                'black', 'brightBlack',
+                'red', 'brightRed',
+                'green', 'brightGreen', 
+                'yellow','brightYellow',
+                'blue','brightBlue',
+                'purple', 'brightPurple',
+                'cyan', 'brightCyan',
+                'white','brightWhite',
+                'background'
+            @(
+                foreach ($horizontal in 'left', 'right') {
+                    gradient repeating-linear  @(
+                        # "${degrees}deg"
+                        "to $horizontal"
+                        $colorNumber = 0                        
+                        foreach ($color in $colors) {                                
+                            $colorNumber++                        
+                            "color-mix(in srgb, var(--$color) $alpha, transparent) ${colorNumber}rem"
+                        }
+                    )                
+                }
+            ) -join (',' + [Environment]::NewLine)
+        }
+        
+    )
+    linearVerticalRainbowVariableFullFourCorners = @(
+        {
+            $alpha = "$(100 / 2)%"
+            $colors = 'foreground',
+                'black', 'brightBlack',
+                'red', 'brightRed',
+                'green', 'brightGreen', 
+                'yellow','brightYellow',
+                'blue','brightBlue',
+                'purple', 'brightPurple',
+                'cyan', 'brightCyan',
+                'white','brightWhite',
+                'background'
+            @(
+                foreach ($vertical in 'top', 'bottom') {
+                    gradient repeating-linear  @(
+                        # "${degrees}deg"
+                        "to $vertical"
+                        $colorNumber = 0                        
+                        foreach ($color in $colors) {                                
+                            $colorNumber++                        
+                            "color-mix(in srgb, var(--$color) $alpha, transparent) ${colorNumber}rem"
+                        }
+                    )                
+                }
+            ) -join (',' + [Environment]::NewLine)
+        }
+        
+    )
+    linearThatchRainbowVariableFull = @(
+        {
+            $alpha = "$(100 / 4)%"
+            $colors = 'foreground',
+                'black', 'brightBlack',
+                'red', 'brightRed',
+                'green', 'brightGreen', 
+                'yellow','brightYellow',
+                'blue','brightBlue',
+                'purple', 'brightPurple',
+                'cyan', 'brightCyan',
+                'white','brightWhite',
+                'background'
+            @(
+                foreach ($direction in 'right','bottom','left','top') {
+                    gradient repeating-linear  @(
+                        # "${degrees}deg"
+                        "to $direction"
+                        $colorNumber = 0                        
+                        foreach ($color in $colors) {                                
+                            $colorNumber++                        
+                            "color-mix(in srgb, var(--$color) $alpha, transparent) ${colorNumber}rem"
+                        }
+                    )                
+                }
+            ) -join (',' + [Environment]::NewLine + (' ' * 2))
+        }
+        
+    )
+    linearRainbowVariableFullFourCorners = @(
+        {
+            $alpha = "$(100 / 4)%"
+            $colors = 'foreground',
+                'black', 'brightBlack',
+                'red', 'brightRed',
+                'green', 'brightGreen', 
+                'yellow','brightYellow',
+                'blue','brightBlue',
+                'purple', 'brightPurple',
+                'cyan', 'brightCyan',
+                'white','brightWhite',
+                'background'
+            $degrees = 0
+            @(foreach ($vertical in 'bottom','top') {
+                foreach ($horizontal in 'left', 'right') {
+                    gradient repeating-linear  @(
+                        # "${degrees}deg"
+                        "to $horizontal $Vertical"
+                        $colorNumber = 0                        
+                        foreach ($color in $colors) {                                
+                            $colorNumber++                        
+                            "color-mix(in srgb, var(--$color) $alpha, transparent) ${colorNumber}rem"
+                        }
+                    )
+                    $degrees += 90
+                }
+            }) -join (',' + [Environment]::NewLine)
+        }
+        
+    )
 }
 )
 
@@ -220,38 +660,46 @@ $markdown |
 "</article>"
 #endregion Article
 
-foreach ($sampleId in @($SampleGradients.Keys)) {
-    if ($SampleGradients[$sampleId] -as [ScriptBlock[]]) {
-        "<div>"
-            "<h3>$sampleId</h3>"
-                                    
-            "<details open>"
-                "<summary>PowerShell</summary>"
-                foreach ($gradient in $SampleGradients[$sampleId]) {
-                    "<pre><code class='language-powershell'>"
-                    [Web.HttpUtility]::HtmlEncode($gradient)
-                    "</code></pre>"        
-                }
-            "</details>"
+$gradientTypes = 'radial', 'linear','conic'
+foreach ($gradientType in $gradientTypes) {
+    "<details open>"
+    "<summary>$gradientType</summary>"
+    foreach ($sampleId in @($SampleGradients.Keys -match $gradientType | Sort-Object)) {
+        if ($SampleGradients[$sampleId] -as [ScriptBlock[]]) {
+            "<div>"
+                "<h3>$sampleId</h3>"
+                                        
+                "<details open>"
+                    "<summary>PowerShell</summary>"
+                    foreach ($gradient in $SampleGradients[$sampleId]) {
+                        "<pre><code class='language-powershell'>"
+                        [Web.HttpUtility]::HtmlEncode($gradient)
+                        "</code></pre>"        
+                    }
+                "</details>"
 
-            "<details open>"
-                "<summary>CSS</summary>"
-                "<pre><code class='language-css'>"
-                $css = "background:$(@(foreach ($gradient in $SampleGradients[$sampleId]) {
-                    . $gradient
-                }) -join (', ' + [Environment]::NewLine))"
-                [Web.HttpUtility]::HtmlEncode($css)
-                "</code></pre>"
-            "</details>"
-            
-            "<div id='$sampleId' style='width:100%;height:100%;background:$(
-                @(foreach ($gradient in $SampleGradients[$sampleId]) {
-                    . $gradient
-                }) -join ', '
-            )'></div>"
-        "</div>"
+                "<details open>"
+                    "<summary>CSS</summary>"
+                    "<pre><code class='language-css'>"
+                    $css = "background:$(@(foreach ($gradient in $SampleGradients[$sampleId]) {
+                        . $gradient
+                    }) -join (', ' + [Environment]::NewLine))"
+                    [Web.HttpUtility]::HtmlEncode($css)
+                    "</code></pre>"
+                "</details>"
+                
+                "<div id='$sampleId' style='width:100%;height:100%;background:$(
+                    @(foreach ($gradient in $SampleGradients[$sampleId]) {
+                        . $gradient
+                    }) -join ', '
+                )'></div>"
+            "</div>"
+        }
     }
+    "</details>"
 }
+
+
 
 "<style>.lowerSticky {    
     display: fixed;
