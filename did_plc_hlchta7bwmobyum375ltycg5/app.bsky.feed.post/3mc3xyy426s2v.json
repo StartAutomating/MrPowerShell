@@ -1,0 +1,53 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768081234292324,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mc3xyyg7nr26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mc3xyy426s2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-10T21:40:33.871Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreihyaeu36mgtwidbow4szhrtazh4l3m7d25xniw7m5a4apjdpkqtki",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.generator/Back-In-My-Day"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BackInMyDay"
+            }
+          ],
+          "index": {
+            "byteEnd": 12,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/did:plc:hlchta7bwmobyum375ltycg5/feed/Back-In-My-Day"
+            }
+          ],
+          "index": {
+            "byteEnd": 163,
+            "byteStart": 139
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#BackInMyDay I made a feed for \"Back In My Day\" and \"I'm so old\" posts.\n\nProbably the most entertaining and varied feed I've made yet....\n\nbsky.app/profile/did:..."
+    },
+    "cid": "bafyreibxcpop32xmfn44n5cqfeu54t5ezn3l4mf4h6qbyydom3osnd4luu"
+  }
+}
