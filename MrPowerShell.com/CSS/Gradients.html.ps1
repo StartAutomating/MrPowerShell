@@ -162,6 +162,196 @@ $SampleGradients = [Ordered]@{
             }) -join (',' + [Environment]::NewLine)
         }        
     )
+    radialCircleRepeatingForegroundBackgroundPentagon = @(
+        {
+            $alpha = "$([Math]::Round(100 / 5))%"
+            $colors = 'foreground','background'
+            $degrees = 0
+            @(foreach ($position in '50% 0.01%','99.99% 50%','66% 99.99%', '33% 99.99%', '0.01% 50%') {                
+                gradient repeating-radial  @(
+                    "circle closest-side at $position"
+                    $colorNumber = 0
+                    foreach ($color in $colors) {
+                        $colorNumber++
+                        "color-mix(in srgb, var(--$color) $alpha, transparent) $($colorNumber)rem"
+                    }                    
+                )
+                $degrees += 72            
+            }) -join (',' + [Environment]::NewLine)
+        }        
+    )
+    radialCircleRepeatingForegroundBackgroundHexagon = @(
+        {
+            $alpha = "$([Math]::Round(100 / 5))%"
+            $colors = 'foreground','background'
+            $degrees = 0
+            @(foreach ($position in '33% 0.01%','66% 0.01%','99.99% 50%','66% 99.99%', '33% 99.99%', '0.01% 50%') {                
+                gradient repeating-radial  @(
+                    "circle closest-side at $position"
+                    $colorNumber = 0
+                    foreach ($color in $colors) {
+                        $colorNumber++
+                        "color-mix(in srgb, var(--$color) $alpha, transparent) $($colorNumber)rem"
+                    }                    
+                )
+                $degrees += 60            
+            }) -join (',' + [Environment]::NewLine)
+        }        
+    )
+    radialEllipseRepeatingForegroundBackgroundHexagon = @(
+        {
+            $alpha = "$([Math]::Round(100 / 5))%"
+            $colors = 'foreground','background'
+            $degrees = 0
+            @(foreach ($position in '33% 0.01%','66% 0.01%','99.99% 50%','66% 99.99%', '33% 99.99%', '0.01% 50%') {                
+                gradient repeating-radial  @(
+                    "ellipse 50% 50% at $position"
+                    $colorNumber = 0
+                    foreach ($color in $colors) {
+                        $colorNumber++
+                        "color-mix(in srgb, var(--$color) $alpha, transparent) $($colorNumber)rem"
+                    }                    
+                )
+                $degrees += 60            
+            }) -join (',' + [Environment]::NewLine)
+        }        
+    )
+    radialCircleRepeatingFullHexagon = @(
+        {
+            $alpha = "$([Math]::Round(100 / 5))%"
+            $colors = 'foreground',
+                'black', 'brightBlack',
+                'red', 'brightRed',
+                'green', 'brightGreen', 
+                'yellow','brightYellow',
+                'blue','brightBlue',
+                'purple', 'brightPurple',
+                'cyan', 'brightCyan',
+                'white','brightWhite',
+                'background'
+            $degrees = 0
+            @(foreach ($position in '33% 0.01%','66% 0.01%','99.99% 50%','66% 99.99%', '33% 99.99%', '0.01% 50%') {                
+                gradient repeating-radial  @(
+                    "circle closest-side at $position"
+                    $colorNumber = 0
+                    foreach ($color in $colors) {
+                        $colorNumber++
+                        "color-mix(in srgb, var(--$color) $alpha, transparent) $($colorNumber)rem"
+                    }                    
+                )
+                $degrees += 60            
+            }) -join (',' + [Environment]::NewLine)
+        }        
+    )
+    radialEllipseRepeatingRGBHexagon = @(
+        {
+            $alpha = "$([Math]::Round(100 / 5))%"
+            $colors = 'red','green','blue'
+            $degrees = 0
+            @(foreach ($position in '33% 0.01%','66% 0.01%','99.99% 50%','66% 99.99%', '33% 99.99%', '0.01% 50%') {
+                gradient repeating-radial  @(
+                    "ellipse 50% 50% at $position"
+                    $colorNumber = 0
+                    foreach ($color in $colors) {
+                        $colorNumber++
+                        "color-mix(in srgb, var(--$color) $alpha, transparent) $($colorNumber)rem"
+                    }                    
+                )
+                $degrees += 72            
+            }) -join (',' + [Environment]::NewLine)
+        }        
+    )
+    
+    radialEllipseRepeatingFullHexagon = @(
+        {
+            $alpha = "$([Math]::Round(100 / 5))%"
+            $colors = 'foreground',
+                'black', 'brightBlack',
+                'red', 'brightRed',
+                'green', 'brightGreen', 
+                'yellow','brightYellow',
+                'blue','brightBlue',
+                'purple', 'brightPurple',
+                'cyan', 'brightCyan',
+                'white','brightWhite',
+                'background'
+            $degrees = 0
+            @(foreach ($position in '33% 0.01%','66% 0.01%','99.99% 50%','66% 99.99%', '33% 99.99%', '0.01% 50%') {
+                gradient repeating-radial  @(
+                    "ellipse 50% 50% at $position"
+                    $colorNumber = 0
+                    foreach ($color in $colors) {
+                        $colorNumber++
+                        "color-mix(in srgb, var(--$color) $alpha, transparent) $($colorNumber)rem"
+                    }                    
+                )
+                $degrees += 60            
+            }) -join (',' + [Environment]::NewLine)
+        }        
+    )
+    radialEllipseRepeatingForegroundBackgroundPentagon = @(
+        {
+            $alpha = "$([Math]::Round(100 / 5))%"
+            $colors = 'foreground','background'
+            $degrees = 0
+            @(foreach ($position in '50% 0.01%','99.99% 50%','66% 99.99%', '33% 99.99%', '0.01% 50%') {                
+                gradient repeating-radial  @(
+                    "ellipse 50% 50% at $position"
+                    $colorNumber = 0
+                    foreach ($color in $colors) {
+                        $colorNumber++
+                        "color-mix(in srgb, var(--$color) $alpha, transparent) $($colorNumber)rem"
+                    }                    
+                )
+                $degrees += 72            
+            }) -join (',' + [Environment]::NewLine)
+        }        
+    )
+    radialEllipseRepeatingRGBPentagon = @(
+        {
+            $alpha = "$([Math]::Round(100 / 5))%"
+            $colors = 'red','green','blue'
+            $degrees = 0
+            @(foreach ($position in '50% 0.01%','99.99% 50%','66% 99.99%', '33% 99.99%', '0.01% 50%') {                
+                gradient repeating-radial  @(
+                    "ellipse 50% 50% at $position"
+                    $colorNumber = 0
+                    foreach ($color in $colors) {
+                        $colorNumber++
+                        "color-mix(in srgb, var(--$color) $alpha, transparent) $($colorNumber)rem"
+                    }                    
+                )
+                $degrees += 72            
+            }) -join (',' + [Environment]::NewLine)
+        }        
+    )    
+    radialEllipseRepeatingFullPentagon = @(
+        {
+            $alpha = "$([Math]::Round(100 / 5))%"
+            $colors = 'foreground',
+                'black', 'brightBlack',
+                'red', 'brightRed',
+                'green', 'brightGreen', 
+                'yellow','brightYellow',
+                'blue','brightBlue',
+                'purple', 'brightPurple',
+                'cyan', 'brightCyan',
+                'white','brightWhite',
+                'background'
+            $degrees = 0
+            @(foreach ($position in '50% 0.01%','99.99% 50%','66% 99.99%', '33% 99.99%', '0.01% 50%') {                
+                gradient repeating-radial  @(
+                    "ellipse 50% 50% at $position"
+                    $colorNumber = 0
+                    foreach ($color in $colors) {
+                        $colorNumber++
+                        "color-mix(in srgb, var(--$color) $alpha, transparent) $($colorNumber)rem"
+                    }                    
+                )
+                $degrees += 72            
+            }) -join (',' + [Environment]::NewLine)
+        }        
+    )
     radialEllipseRepeatingRainbowCorners = @(
         {   
             $alpha = "$(100 / 4)%"
@@ -363,6 +553,7 @@ $SampleGradients = [Ordered]@{
             'color-mix(in srgb, var(--brightBlue) 50%, transparent) 5% 10%'
         }
     )
+    
     conicRepeatingVariableCorners = @(
         { gradient repeating-conic 'from 0deg at 0% 0%',
                 'color-mix(in srgb, var(--blue) 50%, transparent) 0% 5%',
@@ -373,6 +564,7 @@ $SampleGradients = [Ordered]@{
             'color-mix(in srgb, var(--brightBlue) 50%, transparent) 5% 10%'
         }        
     )
+    
     conicRepeatingRainbowVariableCorners = @(
         { gradient repeating-conic 'from 0deg at 0% 0%',
             'color-mix(in srgb, var(--red) 50%, transparent) 0% 2%',
@@ -392,6 +584,7 @@ $SampleGradients = [Ordered]@{
             'color-mix(in srgb, var(--purple), transparent) 12% 14%'
         }
     )
+    
     conicRepeatingVariableFourCorners = @(
         {
             $alpha = "$(100 / 4)%"
@@ -413,6 +606,7 @@ $SampleGradients = [Ordered]@{
             }) -join (',' + [Environment]::NewLine)
         }        
     )
+    
     conicRGBVariableCorners = @(
         {
             $alpha = "$(100 / 2)%"
@@ -434,6 +628,7 @@ $SampleGradients = [Ordered]@{
             }) -join (',' + [Environment]::NewLine)
         }                
     )
+    
     conicRGBVariableOverlapHorizontal = @(
         {
             $alpha = "$(100 / 2)%"
@@ -455,6 +650,7 @@ $SampleGradients = [Ordered]@{
             }) -join (',' + [Environment]::NewLine)
         }                
     )
+    
     conicRGBVariableOverlapVertical = @(
         {
             $alpha = "$(100 / 2)%"
@@ -476,6 +672,7 @@ $SampleGradients = [Ordered]@{
             }) -join (',' + [Environment]::NewLine)
         }                
     )
+    
     conicRGBVariableFourCorners = @(
         {
             $alpha = "$(100 / 4)%"
@@ -497,6 +694,7 @@ $SampleGradients = [Ordered]@{
             }) -join (',' + [Environment]::NewLine)
         }
     )
+
     radialRainbowVariableFourCorners = @(
         {
             $alpha = "$(100 / 4)%"
@@ -538,6 +736,158 @@ $SampleGradients = [Ordered]@{
             }) -join (',' + [Environment]::NewLine)
         }
         
+    )
+    radialEllipseRepeatingForegroundBackgroundTriangle = @(
+        {
+            $alpha = "$([Math]::Round(100 / 3))%"
+            $colors = 'foreground','background'
+            $degrees = 0
+            @(foreach ($position in '0.01% 99.99%','50% 0.01%', '99.99% 99.99%') {
+                gradient repeating-radial  @(
+                    "ellipse 50% 50% at $position"
+                    $colorNumber = 0
+                    foreach ($color in $colors) {
+                        $colorNumber++
+                        "color-mix(in srgb, var(--$color) $alpha, transparent) $($colorNumber)rem"
+                    }                    
+                )
+                $degrees += 120           
+            }) -join (',' + [Environment]::NewLine)
+        }        
+    )
+    radialEllipseRepeatingFullTriangle = @(
+        {
+            $alpha = "$([Math]::Round(100 / 3))%"
+            # $colors = 'foreground','background'
+            $colors = 'foreground',
+                'black', 'brightBlack',
+                'red', 'brightRed',
+                'green', 'brightGreen', 
+                'yellow','brightYellow',
+                'blue','brightBlue',
+                'purple', 'brightPurple',
+                'cyan', 'brightCyan',
+                'white','brightWhite',
+                'background'
+            $degrees = 0
+            @(foreach ($position in '0.01% 99.99%','50% 0.01%', '99.99% 99.99%') {
+                gradient repeating-radial  @(
+                    "ellipse 50% 50% at $position"
+                    $colorNumber = 0
+                    foreach ($color in $colors) {
+                        $colorNumber++
+                        "color-mix(in srgb, var(--$color) $alpha, transparent) $($colorNumber)rem"
+                    }                    
+                )
+                $degrees += 120            
+            }) -join (',' + [Environment]::NewLine)
+        }        
+    )
+    radialEllipseRepeatingRGBTriangle = @(
+        {
+            $alpha = "$([Math]::Round(100 / 3))%"
+            $colors = 'red','green','blue'
+            $degrees = 0
+            @(foreach ($position in '0.01% 99.99%','50% 0.01%', '99.99% 99.99%') {
+                gradient repeating-radial  @(
+                    "ellipse 50% 50% at $position"
+                    $colorNumber = 0
+                    foreach ($color in $colors) {
+                        $colorNumber++
+                        "color-mix(in srgb, var(--$color) $alpha, transparent) $($colorNumber)rem"
+                    }                    
+                )
+                $degrees += 72            
+            }) -join (',' + [Environment]::NewLine)
+        }        
+    )
+    conicRainbowVariableFullTriangle = @(
+        {
+            $alpha = "$([Math]::Round(100 / 3))%"
+            $colors = 'foreground',
+                'black', 'brightBlack',
+                'red', 'brightRed',
+                'green', 'brightGreen', 
+                'yellow','brightYellow',
+                'blue','brightBlue',
+                'purple', 'brightPurple',
+                'cyan', 'brightCyan',
+                'white','brightWhite',
+                'background'
+            $degrees = 0
+            @(foreach ($position in '0.01% 99.99%','50% 0.01%', '99.99% 99.99%') {    
+                gradient repeating-conic  @(
+                    "from ${degrees}deg at $position"
+                    $colorNumber = 0                        
+                    foreach ($color in $colors) {                            
+                        $from = "$([Math]::Round($colorNumber * 50/$colors.Count/2, 2))%"
+                        $to =  "$([Math]::Round(++$colorNumber * 50/$colors.Count/2))%"
+                        "color-mix(in srgb, var(--$color) $alpha, transparent) $from $to"
+                    }
+                )
+                $degrees += 120
+            
+            }) -join (',' + [Environment]::NewLine)
+        }
+        
+    )
+    conicRainbowVariableFullHexagon = @(
+        {
+            $alpha = "$([Math]::Round(100 / 6))%"
+            $colors = 'foreground',
+                'black', 'brightBlack',
+                'red', 'brightRed',
+                'green', 'brightGreen', 
+                'yellow','brightYellow',
+                'blue','brightBlue',
+                'purple', 'brightPurple',
+                'cyan', 'brightCyan',
+                'white','brightWhite',
+                'background'
+            $degrees = 0
+            @(foreach ($position in '33% 0%','66% 0%', '100% 50%','66% 100%', '33% 100%', '0% 50%') {                
+                gradient repeating-conic  @(
+                    "from ${degrees}deg at $position"
+                    $colorNumber = 0                        
+                    foreach ($color in $colors) {                            
+                        $from = "$([Math]::Round($colorNumber * 50/$colors.Count/2, 2))%"
+                        $to =  "$([Math]::Round(++$colorNumber * 50/$colors.Count/2))%"
+                        "color-mix(in srgb, var(--$color) $alpha, transparent) $from $to"
+                    }
+                )
+                $degrees += 60
+            
+            }) -join (',' + [Environment]::NewLine)
+        }
+        
+    )
+    conicRainbowVariableFullPentagon = @(
+        {
+            $alpha = "$([Math]::Round(100 / 5))%"
+            $colors = 'foreground',
+                'black', 'brightBlack',
+                'red', 'brightRed',
+                'green', 'brightGreen', 
+                'yellow','brightYellow',
+                'blue','brightBlue',
+                'purple', 'brightPurple',
+                'cyan', 'brightCyan',
+                'white','brightWhite',
+                'background'
+            $degrees = 0
+            @(foreach ($position in '50% 0%','100% 50%','66% 100%', '33% 100%', '0% 50%') {                
+                gradient repeating-conic  @(
+                    "from ${degrees}deg at $position"
+                    $colorNumber = 0                        
+                    foreach ($color in $colors) {                            
+                        $from = "$([Math]::Round($colorNumber * 50/$colors.Count/2, 2))%"
+                        $to =  "$([Math]::Round(++$colorNumber * 50/$colors.Count/2))%"
+                        "color-mix(in srgb, var(--$color) $alpha, transparent) $from $to"
+                    }
+                )
+                $degrees += 72            
+            }) -join (',' + [Environment]::NewLine)
+        }        
     )
     conicRainbowVariableFullFourCorners = @(
         {
@@ -718,6 +1068,34 @@ $markdown |
 #endregion Article
 
 $gradientTypes = 'radial', 'linear','conic'
+
+$blends = 'normal','darken','multiply','color-burn',
+    'linear-dodge','screen','overlay','soft-light','hard-light',
+    'difference','exclusion','hue', 'saturation', 'color', 'luminosity'
+
+"<style>
+
+@keyframes huerotate {
+    0%, 100% { filter: hue-rotate(0deg)  }
+    50% { filter: hue-rotate(360deg)  }
+}
+
+.huerotate {
+    animation-name: huerotate;
+    animation-iteration-count: infinite;    
+    animation-duration: 5s;
+}
+
+.gradient-sample {     
+
+    width:100%; height:100%;
+    background-blend-mode: difference;    
+}
+
+.paused {
+    animation-play-state: paused;
+}
+</style>"
 foreach ($gradientType in $gradientTypes) {
     "<details open>"
     "<summary>$gradientType</summary>"
@@ -738,18 +1116,20 @@ foreach ($gradientType in $gradientTypes) {
                 "<details open>"
                     "<summary>CSS</summary>"
                     "<pre><code class='language-css'>"
-                    $css = "background:$(@(foreach ($gradient in $SampleGradients[$sampleId]) {
+                    $css = "background-image:$(@(foreach ($gradient in $SampleGradients[$sampleId]) {
                         . $gradient
                     }) -join (', ' + [Environment]::NewLine))"
                     [Web.HttpUtility]::HtmlEncode($css)
                     "</code></pre>"
                 "</details>"
                 
-                "<div id='$sampleId' style='width:100%;height:100%;background:$(
+                "<div class='gradient-preview'>"
+                "<div id='$sampleId' class='gradient-sample' style='background-image:$(
                     @(foreach ($gradient in $SampleGradients[$sampleId]) {
                         . $gradient
                     }) -join ', '
                 )'></div>"
+                
             "</div>"
         }
     }
@@ -765,6 +1145,7 @@ foreach ($gradientType in $gradientTypes) {
     bottom: 2.5%;
     max-width: 100%;
     text-align: center;
+    mix-blend-mode: difference;
 }</style>"
 
 "<div class='lowerSticky'>"
@@ -775,6 +1156,20 @@ if ($site.Includes.SelectPalette) {
 if ($site.Includes.GetRandomPalette) {
     . $site.Includes.GetRandomPalette
 }
+"<script>"
+@"
+function toggleHueRotate() {
+for (const element of [
+    ...document.querySelectorAll('.gradient-sample')
+]) {
+    element.classList.toggle('huerotate')
+}
+}
+"@
+"</script>"
+"<input id='toggleHueRotate' type='checkbox' onchange='toggleHueRotate()'></input>"
+"<label for='toggleHueRotate'>Hue Rotate</label>"
+
 "</div>"
 
 #region View Source
