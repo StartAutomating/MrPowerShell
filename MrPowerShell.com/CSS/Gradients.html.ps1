@@ -6,11 +6,15 @@
 .NOTES
     CSS Gradients are pretty great.
 
-    I recently wrote [Gradient](https://github.com/PowerShellWeb/Gradient): a mini-module to help generate gradients.
+    I recently wrote [Gradient](https://github.com/PowerShellWeb/Gradient), a mini-module to help generate gradients.
 
-    This is a collection of some of the cool CSS gradients you can generate.
+    This page generates a number of cool CSS gradients we can drop into any website.
+
+    Like most of the rest of this site, this page is experimental and subject to change.
+
+    This work will be feeding into a framework, once I Have the excess time.
 .LINK
-    https://MrPowerShell.com/CSS/Gradients # CSS Gradients
+    https://MrPowerShell.com/CSS/Gradients
 #>
 #requires -Module MarkX, Gradient
 param(
@@ -389,55 +393,108 @@ $SampleGradients = [Ordered]@{
         }
     )
     conicRepeatingVariableFourCorners = @(
-        { gradient repeating-conic 'from 0deg at 0% 0%',
-                'color-mix(in srgb, var(--blue) 25%, transparent) 0% 5%',
-                'color-mix(in srgb, var(--brightBlue) 25%, transparent) 5% 10%'
-        }, 
-        { gradient repeating-conic 'from 180deg at 100% 0%',
-            'color-mix(in srgb, var(--blue) 25%, transparent) 0% 5%',
-            'color-mix(in srgb, var(--brightBlue) 25%, transparent) 5% 10%'
-        },
-        { gradient repeating-conic 'from 0deg at 0% 100%',
-                'color-mix(in srgb, var(--blue) 25%, transparent) 0% 5%',
-                'color-mix(in srgb, var(--brightBlue) 25%, transparent) 5% 10%'
-        },
-        { gradient repeating-conic 'from 180deg at 100% 100%',
-            'color-mix(in srgb, var(--blue) 25%, transparent) 0% 5%',
-            'color-mix(in srgb, var(--brightBlue) 25%, transparent) 5% 10%'
-        }
-    )
-    conicRGBVariableCorners = @(
-        { gradient repeating-conic 'from 0deg at 0% 0%',        
-            "color-mix(in srgb, var(--red) 50%, transparent) 0% 5%",
-            "color-mix(in srgb, var(--green) 50%, transparent) 5% 10%",
-            "color-mix(in srgb, var(--blue) 50%, transparent) 10% 15%"
-        }
-        { gradient repeating-conic 'from 180deg at 100% 0%',        
-            "color-mix(in srgb, var(--red) 50%, transparent) 0% 5%",
-            "color-mix(in srgb, var(--green) 50%, transparent) 5% 10%",
-            "color-mix(in srgb, var(--blue) 50%, transparent) 10% 15%"
+        {
+            $alpha = "$(100 / 4)%"
+            $colors = 'blue','brightBlue'
+            $degrees = 0
+            @(foreach ($vertical in '0%','100%') {
+                foreach ($horizontal in '0%', '100%') {                    
+                    gradient repeating-conic  @(
+                        "from ${degrees}deg at $horizontal $Vertical"
+                        $colorNumber = 0                        
+                        foreach ($color in $colors) {                            
+                            $from = "$([Math]::Round($colorNumber * 50/$colors.Count/2, 2))%"
+                            $to =  "$([Math]::Round(++$colorNumber * 50/$colors.Count/2))%"
+                            "color-mix(in srgb, var(--$color) $alpha, transparent) $from $to"
+                        }
+                    )
+                    $degrees += 90
+                }
+            }) -join (',' + [Environment]::NewLine)
         }        
     )
-    conicRGBVariable4Corners = @(
-        { gradient repeating-conic 'from 0deg at 0% 0%',        
-            "color-mix(in srgb, var(--red) 25%, transparent) 0% 5%",
-            "color-mix(in srgb, var(--green) 25%, transparent) 5% 10%",
-            "color-mix(in srgb, var(--blue) 25%, transparent) 10% 15%"
-        }
-        { gradient repeating-conic 'from 180deg at 100% 0%',        
-            "color-mix(in srgb, var(--red) 25%, transparent) 0% 5%",
-            "color-mix(in srgb, var(--green) 25%, transparent) 5% 10%",
-            "color-mix(in srgb, var(--blue) 25%, transparent) 10% 15%"
-        }
-        { gradient repeating-conic 'from 0deg at 100% 100%',        
-            "color-mix(in srgb, var(--red) 25%, transparent) 0% 5%",
-            "color-mix(in srgb, var(--green) 25%, transparent) 5% 10%",
-            "color-mix(in srgb, var(--blue) 25%, transparent) 10% 15%"
-        }
-        { gradient repeating-conic 'from 0deg at 0% 100%',        
-            "color-mix(in srgb, var(--red) 25%, transparent) 0% 5%",
-            "color-mix(in srgb, var(--green) 25%, transparent) 5% 10%",
-            "color-mix(in srgb, var(--blue) 25%, transparent) 10% 15%"
+    conicRGBVariableCorners = @(
+        {
+            $alpha = "$(100 / 2)%"
+            $colors = 'red','green','blue'
+            $degrees = 0
+            @(foreach ($vertical in '0%') {
+                foreach ($horizontal in '0%', '100%') {                    
+                    gradient repeating-conic  @(
+                        "from ${degrees}deg at $horizontal $Vertical"
+                        $colorNumber = 0                        
+                        foreach ($color in $colors) {                            
+                            $from = "$([Math]::Round($colorNumber * 50/$colors.Count/2, 2))%"
+                            $to =  "$([Math]::Round(++$colorNumber * 50/$colors.Count/2))%"
+                            "color-mix(in srgb, var(--$color) $alpha, transparent) $from $to"
+                        }
+                    )
+                    $degrees += 180
+                }
+            }) -join (',' + [Environment]::NewLine)
+        }                
+    )
+    conicRGBVariableOverlapHorizontal = @(
+        {
+            $alpha = "$(100 / 2)%"
+            $colors = 'red','green','blue'
+            $degrees = 0
+            @(foreach ($vertical in '50%') {
+                foreach ($horizontal in '25%', '75%') {                    
+                    gradient repeating-conic  @(
+                        "from ${degrees}deg at $horizontal $Vertical"
+                        $colorNumber = 0                        
+                        foreach ($color in $colors) {                            
+                            $from = "$([Math]::Round($colorNumber * 50/$colors.Count/2, 2))%"
+                            $to =  "$([Math]::Round(++$colorNumber * 50/$colors.Count/2))%"
+                            "color-mix(in srgb, var(--$color) $alpha, transparent) $from $to"
+                        }
+                    )
+                    $degrees += 180
+                }
+            }) -join (',' + [Environment]::NewLine)
+        }                
+    )
+    conicRGBVariableOverlapVertical = @(
+        {
+            $alpha = "$(100 / 2)%"
+            $colors = 'red','green','blue'
+            $degrees = 0
+            @(foreach ($vertical in '25%', '75%') {
+                foreach ($horizontal in '50%') {                    
+                    gradient repeating-conic  @(
+                        "from ${degrees}deg at $horizontal $Vertical"
+                        $colorNumber = 0                        
+                        foreach ($color in $colors) {                            
+                            $from = "$([Math]::Round($colorNumber * 50/$colors.Count/2, 2))%"
+                            $to =  "$([Math]::Round(++$colorNumber * 50/$colors.Count/2))%"
+                            "color-mix(in srgb, var(--$color) $alpha, transparent) $from $to"
+                        }
+                    )
+                    $degrees += 180
+                }
+            }) -join (',' + [Environment]::NewLine)
+        }                
+    )
+    conicRGBVariableFourCorners = @(
+        {
+            $alpha = "$(100 / 4)%"
+            $colors = 'red','green','blue'
+            $degrees = 0
+            @(foreach ($vertical in '0%','100%') {
+                foreach ($horizontal in '0%', '100%') {                    
+                    gradient repeating-conic  @(
+                        "from ${degrees}deg at $horizontal $Vertical"
+                        $colorNumber = 0                        
+                        foreach ($color in $colors) {                            
+                            $from = "$([Math]::Round($colorNumber * 50/$colors.Count/2, 2))%"
+                            $to =  "$([Math]::Round(++$colorNumber * 50/$colors.Count/2))%"
+                            "color-mix(in srgb, var(--$color) $alpha, transparent) $from $to"
+                        }
+                    )
+                    $degrees += 90
+                }
+            }) -join (',' + [Environment]::NewLine)
         }
     )
     radialRainbowVariableFourCorners = @(
@@ -476,7 +533,7 @@ $SampleGradients = [Ordered]@{
                             # "color-mix(in srgb, var(--$color) $alpha, transparent) $from $to"
                         }
                     )
-                    $degrees += 180
+                    $degrees += 90
                 }
             }) -join (',' + [Environment]::NewLine)
         }
