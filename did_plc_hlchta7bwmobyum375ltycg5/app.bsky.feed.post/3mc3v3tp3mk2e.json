@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768078108075123,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mc3v3sy3352p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mc3v3tp3mk2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-10T20:48:28.691Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihecusah67j4w2nfqhvtkgdsfbt5zlaj4lf7bfdsxgh6avnu3xy4e",
+          "uri": "at://did:plc:kq6jbj54fmzzw333jfokxtfa/app.bsky.feed.post/3mc3uvlk7ks2t"
+        },
+        "root": {
+          "cid": "bafyreieewfrzkjp5kpla3m7xefxtkql33mkngu5v6pxrmy5ttmq4e5jnpa",
+          "uri": "at://did:plc:kq6jbj54fmzzw333jfokxtfa/app.bsky.feed.post/3mc3h4zzkac2t"
+        }
+      },
+      "text": "Yeah, it is.\n\nIIRC, it's one of the few operators that feels in the wrong order.\n\n$list -contains $value\n\nVs:\n\n$value -in $list\n\nThe other one is the -format operator\n\n\"#{0:x6}\" -f (Get-Random -max 0xFFFFFF)"
+    },
+    "cid": "bafyreicu4zfo7k2axh23ns4nv5exdibozzs4z2ov3zn4sthzvpfx35vs5i"
+  }
+}
