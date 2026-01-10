@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768081848976265,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mc3ylc5wxo27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mc3ylawoe22v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-10T21:50:47.112Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.pinvoke.net/default.aspx/user32/getwindow.html"
+            }
+          ],
+          "index": {
+            "byteEnd": 78,
+            "byteStart": 47
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://pinvoke.net/default.aspx/user32.SetActiveWindow"
+            }
+          ],
+          "index": {
+            "byteEnd": 133,
+            "byteStart": 106
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 195,
+            "byteStart": 184
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaxhswns63yf5svrysvhfvchrr724vov7fx27evjc6ggwnwi45kiu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mc3yb7qqsc2v"
+        },
+        "root": {
+          "cid": "bafyreie3dt4euz6cejhocg4ncby5bkpdjkcub3fyywpjfp25z7evshssfq",
+          "uri": "at://did:plc:igwys72qocifas7j2pqsaegy/app.bsky.feed.post/3mc3mh7oaz22x"
+        }
+      },
+      "text": "The hard way:\n\nStep 1, Get the Window handle:\n\nwww.pinvoke.net/default.aspx...\n\nStep 2, SetCurrentWindow\n\npinvoke.net/default.aspx...\n\nI don't feel like translating either of these to #PowerShell right now, but I'm sure some corner of the internet has already done this."
+    },
+    "cid": "bafyreidrbaxyqpjv5m7wdbexvx2x546i3uhedactgyskt3htipx3x76jku"
+  }
+}
