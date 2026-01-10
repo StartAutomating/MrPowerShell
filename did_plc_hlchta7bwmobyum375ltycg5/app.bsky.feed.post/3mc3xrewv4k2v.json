@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768080979577003,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mc3xrfh3wq26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mc3xrewv4k2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-10T21:36:18.898Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreictrachwwq3zzf2hycsxsczbkhlfuxainehvzmopjpxbhkgxyiogm",
+          "uri": "at://did:plc:nv57eqolnyusoo4nck6z4g7r/app.bsky.feed.post/3mc3iy5kkx22m"
+        },
+        "root": {
+          "cid": "bafyreictrachwwq3zzf2hycsxsczbkhlfuxainehvzmopjpxbhkgxyiogm",
+          "uri": "at://did:plc:nv57eqolnyusoo4nck6z4g7r/app.bsky.feed.post/3mc3iy5kkx22m"
+        }
+      },
+      "text": "I'm so old I remember when stringrays were new (and when they were only used in conflict zones)\n\nI'm also so old I remember when security researchers were first talking about \"reverse engineering location from history\" (~2008-2009).\n\nBrave new world we live in, filled with such wonders."
+    },
+    "cid": "bafyreifjdbsgqoeci6o33bvbbegvlmospqe5dyiudc7yhimns2ikdq3fyi"
+  }
+}
