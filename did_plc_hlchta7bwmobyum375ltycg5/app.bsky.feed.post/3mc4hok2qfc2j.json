@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768098067245734,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mc4homixkp2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mc4hok2qfc2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-11T02:21:03.473Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Just because you can animate a gradient in CSS doesn't mean you should, apparently.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreia6qvtt3uzgusodkfcxyxy6lesdpn7n237ovmezvx67racu3rumnq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 962045
+          },
+          "title": "a drawing of a cat in the rain with a black background",
+          "uri": "https://media.tenor.com/UacnAFq8PhoAAAAC/nub-cat-nub.gif?hh=480&ww=480"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 52,
+            "byteStart": 48
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "When you finally figure out how to animate your #CSS repeating gradient background and it brings your page performance to it's knees.\n\n🫤"
+    },
+    "cid": "bafyreihsi4psgu2q7iojnq3pvignrdn4oihcwq77yjwdoueieabhtpmvqu"
+  }
+}
