@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768161074719793,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mc6cefr76y27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mc6cect2222j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-11T19:51:11.104Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: This makes bizarro sense to me... rem is just multiplication, where as % will have to divide the bounding box to determine the % and then multiply it out.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicgp4m2tsrnee6v4ffxushvi266iuablp5nie6fzgyprgylq25foy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 158446
+          },
+          "title": "a cartoon pug dog is running with its tongue out",
+          "uri": "https://media.tenor.com/iEWFcQcAs1wAAAAC/happy-pug-excited-pug.gif?hh=278&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 52,
+            "byteStart": 48
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihsi4psgu2q7iojnq3pvignrdn4oihcwq77yjwdoueieabhtpmvqu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mc4hok2qfc2j"
+        },
+        "root": {
+          "cid": "bafyreihsi4psgu2q7iojnq3pvignrdn4oihcwq77yjwdoueieabhtpmvqu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mc4hok2qfc2j"
+        }
+      },
+      "text": "When you figure out how to make a much smoother #CSS gradient animation by switching from % radius to rem radius."
+    },
+    "cid": "bafyreierkldbuu3q7jb2hljgpsct3lon5mnffnn4hmrcmip7qq56ruguje"
+  }
+}
