@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768255637068778,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcb2gktncd2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcb2gidtus2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-12T22:07:13.287Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WPF"
+            }
+          ],
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 10
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 87,
+            "byteStart": 80
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiebmw6mqr4mzuehubivu2rj4c5twksvz5v6gcwpjwiygh26lehxfq",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3mcaslfeub22z"
+        },
+        "root": {
+          "cid": "bafyreih4xyekoikob27pis3zrix5parw56szra5nvci45yenxjpsjeuvnu",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3mcaou72abs2z"
+        }
+      },
+      "text": "Yeah, the #WPF is looking more and more sleek.\n\nI only hope you try going local #WebDev sometime instead 😉  \n\nThen you can let everyone in your network use it 😀"
+    },
+    "cid": "bafyreigupe5z7476p6ny5zz7p5v4sehzivx5s6e55osqnfdem4x7ujnur4"
+  }
+}
