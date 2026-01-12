@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768182494634305,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mc6wcrr6ot26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mc6wcrra6c25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-12T01:48:14.501Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreielhjavjuxpefbpaxaaz26mrpdlz5i5evhop3v4euf7cbte7tbkeu",
+          "uri": "at://did:plc:oko4aupssykr5ic6s47o2xy7/app.bsky.feed.post/3mc6w5owvpc2g"
+        },
+        "root": {
+          "cid": "bafyreicoeuzsq3pexzphuy5t7xfp5ttsogvegumunsh7ai47kzhafwwcmq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mbsdeeqzzc2i"
+        }
+      },
+      "text": "I would like to know the 5.1 exceptions ( though I'm not sure if I care about making it run on 5.1, I'm a little surprised it didn't )"
+    },
+    "cid": "bafyreibe6horpkbue5yqekwjg73eetkn4dhlgbc5fvqq4ugja5bksxqoky"
+  }
+}
