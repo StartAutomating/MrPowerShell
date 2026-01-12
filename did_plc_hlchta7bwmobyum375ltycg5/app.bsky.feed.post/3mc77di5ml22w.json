@@ -1,0 +1,82 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768192181991089,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mc77diefjz2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mc77di5ml22w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-12T04:29:41.653Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Regex"
+            }
+          ],
+          "index": {
+            "byteEnd": 18,
+            "byteStart": 12
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "tip"
+            }
+          ],
+          "index": {
+            "byteEnd": 29,
+            "byteStart": 25
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "trick"
+            }
+          ],
+          "index": {
+            "byteEnd": 38,
+            "byteStart": 32
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "html"
+            }
+          ],
+          "index": {
+            "byteEnd": 129,
+            "byteStart": 124
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#PowerShell #Regex quick #tip / #trick\n\nMatch anything until something else with ` [\\s\\S]+? `\n\nFor example, find a table in #html:\n\n~~~PowerShell\n$html -match \"<table[\\s\\S]+?</table>\"\n$matches.0 # Now has your table \n~~~\n\nGot Regex or PowerShell questions?  Ask me anything."
+    },
+    "cid": "bafyreib6l4rkqzvrbcdwql4mppussqnuuphkiyddbttwsvfsmg6p6xhjom"
+  }
+}
