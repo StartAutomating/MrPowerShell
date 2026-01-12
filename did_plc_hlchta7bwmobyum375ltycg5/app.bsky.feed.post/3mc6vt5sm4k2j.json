@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768181971149026,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mc6vt6mamb27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mc6vt5sm4k2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-12T01:39:30.259Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic7uyq2gsklx65kk5ajidr6j5f6f5gmxiajnss453iijnw7pwsxi4",
+          "uri": "at://did:plc:oko4aupssykr5ic6s47o2xy7/app.bsky.feed.post/3mc6vq374js2g"
+        },
+        "root": {
+          "cid": "bafyreiat457zeffbd4rba6qodfcu6si3e3zpyrmep4jfexomczo3yb4sey",
+          "uri": "at://did:plc:oko4aupssykr5ic6s47o2xy7/app.bsky.feed.post/3mc632vkuhk2s"
+        }
+      },
+      "text": "I owned one / had the time, I'd take a crack at this one.\n\nUntil then, mainly gonna wish you luck.\n\nAt current rates, I'll probably get to full soundbank hackability sometime in 2027-2028."
+    },
+    "cid": "bafyreigxf5xijwbj4d2btlgnik5m2umh2jgyxrcqxgknkosnabe27cmmie"
+  }
+}
