@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768185285648429,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mc6yvxhyal2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mc6yvwuzjk2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-12T02:34:44.887Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 82,
+            "byteStart": 71
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Microsoft"
+            }
+          ],
+          "index": {
+            "byteEnd": 98,
+            "byteStart": 88
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicrwgd2qspwcnxjwxaqvcdsjwar6erwj2xcelkg5gwvmpo2lhl2hi",
+          "uri": "at://did:plc:oko4aupssykr5ic6s47o2xy7/app.bsky.feed.post/3mc6wuzpqwc2g"
+        },
+        "root": {
+          "cid": "bafyreicoeuzsq3pexzphuy5t7xfp5ttsogvegumunsh7ai47kzhafwwcmq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mbsdeeqzzc2i"
+        }
+      },
+      "text": "No big deal.\n\nOne of the weirdest long term side effects of working on #PowerShell / at #Microsoft is the ability to read error messages regardless of locale.\n\nBackwhen, if you did localization testing, you'd have to be able to make sense of it in:\n\nEnglish, German, Japanese, and pseudo-localized."
+    },
+    "cid": "bafyreihcifkqotwz3rkfswcvjamplpphujmfxozdv2uiur4ianeovzmw5y"
+  }
+}
