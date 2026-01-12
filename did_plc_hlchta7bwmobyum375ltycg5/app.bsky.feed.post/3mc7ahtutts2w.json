@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768193407153994,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mc7ahudlb22z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mc7ahtutts2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-12T04:50:01.907Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia3rnmjj4tqle4a5rcvaehudej5dtuqy2z2zkpbvr37qfp5y3xt4m",
+          "uri": "at://did:plc:dembgr5cjhfqmngkqxtlto4a/app.bsky.feed.post/3mc7adlvxdc2y"
+        },
+        "root": {
+          "cid": "bafyreibwahsm77ymzwzbtz4bppylznnoefddrrvpybbc6p5wd47jtzqy5a",
+          "uri": "at://did:plc:dembgr5cjhfqmngkqxtlto4a/app.bsky.feed.post/3mc6jgxcwok2t"
+        }
+      },
+      "text": "Drop me some syntax and I'll see if I can't spot some issues.\n\nCopy-Item is annoying, I just find it to be consistently annoying across operating systems.\n\nStill often takes me a try or two to get it \"right\"\n\nCommon culprits:  Missing * and missing -Force\n\n(just trying to help)"
+    },
+    "cid": "bafyreiadqh4hln6ltafqvew6ibmeubts2wodyq6spbdnbepvuy3sjfgr2m"
+  }
+}
