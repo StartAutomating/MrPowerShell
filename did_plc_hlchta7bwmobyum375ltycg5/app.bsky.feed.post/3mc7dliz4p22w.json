@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768196746434397,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mc7dljd4r426",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mc7dliz4p22w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-12T05:45:45.957Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiakzugqkfvjrhp2ekwrmthv5snpbx75ur3jglxq7mfw7ecm2z6wzy",
+          "uri": "at://did:plc:dembgr5cjhfqmngkqxtlto4a/app.bsky.feed.post/3mc7cluwmjs2y"
+        },
+        "root": {
+          "cid": "bafyreibwahsm77ymzwzbtz4bppylznnoefddrrvpybbc6p5wd47jtzqy5a",
+          "uri": "at://did:plc:dembgr5cjhfqmngkqxtlto4a/app.bsky.feed.post/3mc6jgxcwok2t"
+        }
+      },
+      "text": "Fair.  File-by-file is easier.\n\nThe other problem I've sometimes had with Copy-Item file-by-file is the tree hierarchy not existing yet, which often puts things in unexpected places rather than fails.\n\nI think that's the hole you're falling into."
+    },
+    "cid": "bafyreidhw4mngbbrlq7crvgpqk4ugk2covz3rpxhmr4447ta2dhmgewixu"
+  }
+}
