@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768243194679786,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcaotrtbuc2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcaott4jgs23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-12T18:39:55.887Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "I'm not sure about \"preferred\".\n\nBut yeah, this is one way PowerShell is weird.\n\nTechnically functions don't have a formal return type.\n\nThey emit one or more objects.\n\nThis can be very handy, but it throws people off at first.\n\n[OutputType()] is suggestion, not a contract."
+    },
+    "cid": "bafyreicroa2e2u6k62rqh3dpuf6rmebdixfxgiv5n4mbpjprgx5snwyxii"
+  }
+}
