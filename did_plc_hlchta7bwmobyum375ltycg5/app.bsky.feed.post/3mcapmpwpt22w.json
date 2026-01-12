@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768244034295600,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcapmrruti2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcapmpwpt22w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-12T18:53:51.413Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "PowerShell for every system! Contribute to PowerShell/PowerShell development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreic4ffmb276pktaogajay7arddwdqmshwjmhaakjtazpipm5r5j3bi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 240485
+          },
+          "title": "GitHub - PowerShell/PowerShell: PowerShell for every system!",
+          "uri": "https://github.com/PowerShell/PowerShell"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShell/PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 162,
+            "byteStart": 136
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifvvecuslowk2nnnceevsitffwucvg33t6jpy3e4xfx5t6cioeje4",
+          "uri": "at://did:plc:dembgr5cjhfqmngkqxtlto4a/app.bsky.feed.post/3mcaecal5q22z"
+        },
+        "root": {
+          "cid": "bafyreibwahsm77ymzwzbtz4bppylznnoefddrrvpybbc6p5wd47jtzqy5a",
+          "uri": "at://did:plc:dembgr5cjhfqmngkqxtlto4a/app.bsky.feed.post/3mc6jgxcwok2t"
+        }
+      },
+      "text": "If you really feel that is the case, please open an issue on the repo and provide some instructions for others to reproduce the issue.\n\ngithub.com/PowerShell/P...\n\nThanks!"
+    },
+    "cid": "bafyreibfupehih3tpyac47yhipwzjfbrlwcgxmrymexrmvtzrx2pcboqae"
+  }
+}
