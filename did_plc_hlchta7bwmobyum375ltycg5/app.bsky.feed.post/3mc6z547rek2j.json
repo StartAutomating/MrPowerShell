@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768185526862672,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mc6z55lcaa2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mc6z547rek2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-12T02:38:45.363Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie67hqqchsqcoioranrtp4waseji7raklmjytc6hforhblqsedpga",
+          "uri": "at://did:plc:jxxnrnpzldfoltmztpbue44t/app.bsky.feed.post/3mc6u4aa3es2n"
+        },
+        "root": {
+          "cid": "bafyreie67hqqchsqcoioranrtp4waseji7raklmjytc6hforhblqsedpga",
+          "uri": "at://did:plc:jxxnrnpzldfoltmztpbue44t/app.bsky.feed.post/3mc6u4aa3es2n"
+        }
+      },
+      "text": "I'm gonna jokingly say:\n\n\"Every computer animator of the late 1980s?\"\n\nWent to look it up and the MSRP was $699\n\nSo, not adjusting for inflation at all, they're losing at least $199.\n\nAmigas were always too rich for my blood."
+    },
+    "cid": "bafyreicjfhzbb7bi55ykxfexeyignr77eygc7tijoa4z72g3incnndqzza"
+  }
+}
