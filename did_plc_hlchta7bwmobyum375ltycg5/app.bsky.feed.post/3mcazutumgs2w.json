@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768255042964569,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcazuvbt472a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcazutumgs2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-12T21:57:21.391Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigctrx4q5pt5v5ac3kmgvakgf3wex2zd76drtzrsltjmkufyvf26i",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcazl4pv7c2i"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "First, you can easily process one-by-one by piping from your output.  Or pick the first with Select -First 1.  Or index into the array to get the singletons.\n\nSecond, given that the whole \"object pipeline\" is as old as PowerShell, \"fixing\" this would be the mother of all breaking changes."
+    },
+    "cid": "bafyreibedu4t7ltz2yk6gwuvheqmqk3zfupe3l6rjmvq5k3ykckylbgpqy"
+  }
+}
