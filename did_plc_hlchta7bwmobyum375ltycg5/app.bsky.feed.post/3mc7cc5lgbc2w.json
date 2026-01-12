@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768195359038418,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mc7cc6362v2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mc7cc5lgbc2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-12T05:22:38.242Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigpm5zxtvgvpnosuo7y3goese5mh7cdraatwweqhspdhwchqivmnu",
+          "uri": "at://did:plc:dembgr5cjhfqmngkqxtlto4a/app.bsky.feed.post/3mc7ar5kj522y"
+        },
+        "root": {
+          "cid": "bafyreibwahsm77ymzwzbtz4bppylznnoefddrrvpybbc6p5wd47jtzqy5a",
+          "uri": "at://did:plc:dembgr5cjhfqmngkqxtlto4a/app.bsky.feed.post/3mc6jgxcwok2t"
+        }
+      },
+      "text": "Out of curiosity, did you try -LiteralPath?  (that should work around weird characters)\n\nAre you copying file by file, or passing whole directories in?"
+    },
+    "cid": "bafyreihjwdyhxqolla2rmpwds4gr77qqyeqendmjmatahghhbwd7espf5q"
+  }
+}
