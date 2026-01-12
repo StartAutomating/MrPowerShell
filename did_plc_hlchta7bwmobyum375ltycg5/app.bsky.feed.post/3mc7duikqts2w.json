@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768197048042215,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mc7duiusmj2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mc7duikqts2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-12T05:50:47.476Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 111,
+            "byteStart": 104
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 123,
+            "byteStart": 112
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 145,
+            "byteStart": 138
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih3fffikw5y3ym7p6a2ldrbitxin3acbl65hibhmywnxxhcrtoayu",
+          "uri": "at://did:plc:qhddtd7dkykqwpfm5qfkznrt/app.bsky.feed.post/3mc7cw4ftik2s"
+        },
+        "root": {
+          "cid": "bafyreiepgi2rwtojs3gvxg2hrg4dochplfbbvtdoqgaegkfloadew2t32e",
+          "uri": "at://did:plc:watmxkxfjbwyxfuutganopfk/app.bsky.feed.post/3mc7bhwyz3s26"
+        }
+      },
+      "text": "I honestly just want web interactivity in a REPL with easy uniqified history.\n\nAnd a place to play with #WebDev #PowerShell modules, like #Turtle 🐢\n\n🤞 we will see what I drop tonight and what I drop later this week.\n\n(you're adding features, but good ones)"
+    },
+    "cid": "bafyreico2hpifwr2ohnof3ez4elh7m2kvaqwtwce5pj3orcidsqhyq7a5e"
+  }
+}
