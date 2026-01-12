@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768185175537394,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mc6ysoilwe2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mc6yso5qcs2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-12T02:32:55.072Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiafngpwvddb6f24azyi2mwc3j5q24z7c6kycvt2z3bo5cq5wuabum",
+          "uri": "at://did:plc:oko4aupssykr5ic6s47o2xy7/app.bsky.feed.post/3mc6wxkkuz22g"
+        },
+        "root": {
+          "cid": "bafyreicoeuzsq3pexzphuy5t7xfp5ttsogvegumunsh7ai47kzhafwwcmq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mbsdeeqzzc2i"
+        }
+      },
+      "text": "Well, that was a weird one...\n\nBasically problem boiled down to one routine that did range indexing directly\n\n$sequence[-2,-1] # works on core, does not work in 5.1\n$sequence[@(-2,-1)] # works on both.\n\nNext to useless error message though 🤔\n\nFixed on turtle-reptile branch.,"
+    },
+    "cid": "bafyreihf6cggavfqfghzygy5isek5ecj3ddmuscwo2n6w2yjjrwqd3x2om"
+  }
+}
