@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768255456249979,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcb2b6sjpo2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcb2b5lpdk2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-12T22:04:14.239Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibedu4t7ltz2yk6gwuvheqmqk3zfupe3l6rjmvq5k3ykckylbgpqy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mcazutumgs2w"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "Fourth, limiting functions to a single return type creates a lot of lexical overloading.   Think:\n\nGet-Process | select name\n\nvs\n\nGetProcessName\nGetProcessId\nGetProcessObject\nGetProcessWorkingSet"
+    },
+    "cid": "bafyreiepeta4tqirfw4oepqtqtaefl4eb2zfnyzd6o4v2zqfrqicya4ceq"
+  }
+}
