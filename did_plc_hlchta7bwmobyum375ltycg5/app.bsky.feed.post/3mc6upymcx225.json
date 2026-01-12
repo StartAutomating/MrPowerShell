@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768180790655075,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mc6upyqlau2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mc6upymcx225",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-12T01:19:50.404Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "The Web MIDI API connects to and interacts with Musical Instrument Digital Interface (MIDI) Devices.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigrvx36fztfbess2xhmd4rqwsytds4256hyrnptfrcehuknseyctm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 112448
+          },
+          "title": "Web MIDI API - Web APIs | MDN",
+          "uri": "https://developer.mozilla.org/en-US/docs/Web/API/Web_MIDI_API"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://developer.mozilla.org/en-US/docs/Web/API/Web_MIDI_API"
+            }
+          ],
+          "index": {
+            "byteEnd": 159,
+            "byteStart": 122
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihpdg5sgjwduw3rfbwj3ewy6hzw66zyb23bjfdwi2zl2su7t5zxei",
+          "uri": "at://did:plc:oko4aupssykr5ic6s47o2xy7/app.bsky.feed.post/3mc6emt2nuk2w"
+        },
+        "root": {
+          "cid": "bafyreiat457zeffbd4rba6qodfcu6si3e3zpyrmep4jfexomczo3yb4sey",
+          "uri": "at://did:plc:oko4aupssykr5ic6s47o2xy7/app.bsky.feed.post/3mc632vkuhk2s"
+        }
+      },
+      "text": "The browser has quietly gotten quite a bit overpowered...\n\nYou can, for example, talk to a MIDI device directly from it.\n\ndeveloper.mozilla.org/en-US/docs/W...\n\nHaven't messed with this batch of apis yet, but it looks more straightforward than reading midi files ( have that on a shelf, too )"
+    },
+    "cid": "bafyreih5z2zuikn36m7qqujn4affxfjkgaf4auz6augfkwji2oihrtgsju"
+  }
+}
