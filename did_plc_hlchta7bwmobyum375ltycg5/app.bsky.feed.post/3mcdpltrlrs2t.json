@@ -1,0 +1,82 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768347085084632,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcdplxildw2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcdpltrlrs2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T23:31:21.099Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 35,
+            "byteStart": 28
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:nixiyrvdswjb7mhdolxqkf2a"
+            }
+          ],
+          "index": {
+            "byteEnd": 83,
+            "byteStart": 69
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:7puq73yz2hkvbcpdhnsze2qw"
+            }
+          ],
+          "index": {
+            "byteEnd": 99,
+            "byteStart": 88
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SmallWeb"
+            }
+          ],
+          "index": {
+            "byteEnd": 207,
+            "byteStart": 198
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic3osgfwyp7gbje7sj52ezl2kdjnrlzq26oiqru3pnyswunpjmz7a",
+          "uri": "at://did:plc:xebtsknzjud5gejalm6b6djq/app.bsky.feed.post/3mcdn5lq66k27"
+        },
+        "root": {
+          "cid": "bafyreihies3sp5sw5ud77bwp4utttfca777asvsjjnu64yt7pvg4k3coly",
+          "uri": "at://did:plc:257wekqxg4hyapkq6k47igmp/app.bsky.feed.post/3mccu32j4ts2b"
+        }
+      },
+      "text": "Honestly, why stop at one?\n\n#GitHub pages are a free option.\n\nSo are @neocities.org and @wisp.place \n\nIt won't cost you anything but time.\n\nI figure learning how to make your own minimal pages is a #SmallWeb life skill."
+    },
+    "cid": "bafyreicntvk2bam2ulnzsxucv25nmrs6s62pjb5v42nhe7jdxrcsyyb22a"
+  }
+}
