@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768287617351089,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcby7ogase2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcby7nchek2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T07:00:15.858Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "CSS and SVG Gradient Generator. Contribute to PowerShellWeb/Gradient development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicvnjv4sq2jsahel5yuta4mq62klhebq7cks6nthugkblu3sxxkoi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 277167
+          },
+          "title": "GitHub - PowerShellWeb/Gradient: CSS and SVG Gradient Generator",
+          "uri": "https://github.com/PowerShellWeb/Gradient"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShellWeb/Gradient"
+            }
+          ],
+          "index": {
+            "byteEnd": 98,
+            "byteStart": 72
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 145,
+            "byteStart": 141
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://mrpowershell.com/CSS/Gradients"
+            }
+          ],
+          "index": {
+            "byteEnd": 226,
+            "byteStart": 196
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#PowerShell Monday Night Modules alert:\n\nNew bits of Gradient are out:\n\ngithub.com/PowerShellWe...\n\nNow it's even easier to generate stacked #CSS gradients!\n\nCheck out some pretty cool examples:\n\nmrpowershell.com/CSS/Gradients"
+    },
+    "cid": "bafyreih5uo7gxa52mzsbdxvvgtp6i2nttvtmaxnhgpwy3jar574xp47brm"
+  }
+}
