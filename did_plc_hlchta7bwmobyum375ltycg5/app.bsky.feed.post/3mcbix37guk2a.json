@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768271226411515,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbix3jc3i2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbix37guk2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T02:27:02.322Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih76kwnfks2gqraweprfz3y4rqgcjyqd72rjzu6xrnn76jwl25hey",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcbij6k22c2e"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "Honestly, take the edge off and give the _very_ specific bug and we might see traction here.\n\nI'd support a breaking change when a type is explicitly declared (though I still doubt that it would be accepted by the team).\n\nGo ahead and file and issue and see what they say."
+    },
+    "cid": "bafyreia53wprocb37djgf5csvmc56chupcamsq4jwrfnqsx7juamu62fsq"
+  }
+}
