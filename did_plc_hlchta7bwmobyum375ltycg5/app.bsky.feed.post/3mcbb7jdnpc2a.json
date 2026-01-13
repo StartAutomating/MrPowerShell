@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768262917188680,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbb7jquwd2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbb7jdnpc2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T00:08:35.642Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidegd5ksxqws2ozvgt2jyckm4bfsldxtpdelyim6pe5m4d62n2srm",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcbaopddtc2w"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "Classic constraint example (works in PowerShell 1+)\n\n~~~PowerShell\n[Collections.ArrayList]$foobarbaz=  @(\"foo\",\"bar\",\"baz\")\n$foobarbaz.GetType()\n~~~\n\nIf the type comes on the left side of a variable assignment, it's constrained to that type.\n\nPowerShell does this.  This is how.\n\nIt's not lying."
+    },
+    "cid": "bafyreiblo5ssfrlzfhybgxu45kxwj6juxrczpgxpeuklzll3rwauxxffw4"
+  }
+}
