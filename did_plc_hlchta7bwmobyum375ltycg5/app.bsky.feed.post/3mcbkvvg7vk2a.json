@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768273330856154,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbkvvyjz22m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbkvvg7vk2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T03:02:10.183Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiek4l2gip2uk7gkqaf5vrloqzvcnrgchatr2o2mcqm6rm5dzxkt7q",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcbkqaqbgs2f"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "The trick I provided covers it.\n\nYou just need to watch out for things that could also output.\n\nSide note:  this is why a lot of people prefer [collections.generic.list[psobject]]\n\n(it's .Add does not output)"
+    },
+    "cid": "bafyreifjfjh6ya64aziskbvqojft4hwbvpqa3uu5ezyczuf2blpgc5jmcq"
+  }
+}
