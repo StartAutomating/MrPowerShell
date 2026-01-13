@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768266315141441,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbeet3zka2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbeesj7mk2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T01:05:14.258Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifgrv65wqth6xl4y3lh2q6d5yy2xhs4tpvblnsp42su6o42bjr6vy",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcbc7cdjys2w"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "The other approach more commonly used is to prepend a comma.  This returns a list, which is unrolled to the single object:\n\n~~~PowerShell\nfunction f { [Collections.ArrayList]$arr = 1..3; ,$arr }; (f).GetType()\n~~~\n\nWorks since v1."
+    },
+    "cid": "bafyreihqjse3xdzpxl3zjta3ojdp6zwg7oicgge25bso54drefg4oayt24"
+  }
+}
