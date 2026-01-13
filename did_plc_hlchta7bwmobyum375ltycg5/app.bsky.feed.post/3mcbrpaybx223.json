@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768280624376471,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbrpbikpe27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbrpaybx223",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T05:03:43.62Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidouhgdudhz2c4gdh4xkbksx3wsjhlf3qkcnawrzwhd4o5t36qgle",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mcbrjq2uvs23"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "If you said:  return 1, it would just be a single int.\n\n~~~PowerShell\nfunction one { return 1}\n(one).GetType()\n~~~\n\nSame for a single process:\n\n~~~PowerShell\nfunction myprocess { Get-Process -id $pid}\n(myprocess).GetType()\n~~~\n\nLists/DataTables are the \"gotcha\""
+    },
+    "cid": "bafyreiaoozhul4gh6c55bnjvqbeyqxo6pwos4bpjx5etzkixmnr6e5te2a"
+  }
+}
