@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768281111868254,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbs5sgia42a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbs5rvfdc23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T05:11:51.114Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia7liq5eegdnbjy4emjnt3bqiqe45mkt5y3ye3oz7he6w35gucjne",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcbr5ffs2c2d"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "Have you ever tried to get a large company to fix a small thing?\n\nWe all have to pick our battles.\n\nBetween \"just use a different type / learn some tricks\" and \"try to break existing functionality\", I'll always choose to deal with what works.\n\nI try to be a realist."
+    },
+    "cid": "bafyreicr32mapqikzpefycevzociiq4bm6uq6tli6lnihltbsr5kjo7nue"
+  }
+}
