@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768346636208871,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcdp6lfu7l2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcdp6jw3pc2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T23:23:54.554Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiartxmxx5kc5wokx2tfrm5oliehamxhiw3ymdfzbtpvulftafvdtq",
+          "uri": "at://did:plc:jkbmndprp6flhdr77ul6rbuq/app.bsky.feed.post/3mcdkma7ma22q"
+        },
+        "root": {
+          "cid": "bafyreiartxmxx5kc5wokx2tfrm5oliehamxhiw3ymdfzbtpvulftafvdtq",
+          "uri": "at://did:plc:jkbmndprp6flhdr77ul6rbuq/app.bsky.feed.post/3mcdkma7ma22q"
+        }
+      },
+      "text": "I think you might lose people at \"Upload your financial data\"\n\nMaybe pick a less terrifying example...?"
+    },
+    "cid": "bafyreihf3d5mbzhnnhdnolttyoytfitibwdsyo7wnsswornk3gh4rfgt4u"
+  }
+}
