@@ -1,0 +1,63 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768293365696232,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcc5kxludv2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcc5kww47s23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T08:36:03.742Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "YouTube video by LegalEagle",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifzanfzm6qd4iyhjpt3rxlvnqsjdtps5ibzgfab7bb6yxqexmxuwi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 84197
+          },
+          "title": "ICE Shot And Killed Her",
+          "uri": "https://youtu.be/7AQbhes-Ntw?si=nvMQrSYLy6idtmMZ"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:7wpxcp6wyndg7ecvdunigbbz"
+            }
+          ],
+          "index": {
+            "byteEnd": 182,
+            "byteStart": 168
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://youtu.be/7AQbhes-Ntw?si=nvMQrSYLy6idtmMZ"
+            }
+          ],
+          "index": {
+            "byteEnd": 209,
+            "byteStart": 185
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "\"Thousands of drivers are pulled over every day.  Revving the engine doesn't give the highway patrol license to murder the driver\".\n\nGreat quote and great breakdown by @legaleagle.tv \n\nyoutu.be/7AQbhes-Ntw?..."
+    },
+    "cid": "bafyreifqjq4p5dufjskuxyvh2zicyawioco3ityruhp54dchdyposay66i"
+  }
+}
