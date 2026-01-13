@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768346564941199,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcdp4gwz742a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcdp4gmpis2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T23:22:43.991Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibquipxr7zwdfm64wirxy6wauhmj57uhntipjbowl3aubqbgaeste",
+          "uri": "at://did:plc:djeen2khkxpzztxxdcbqk7qv/app.bsky.feed.post/3mcdl2qju3s2w"
+        },
+        "root": {
+          "cid": "bafyreibquipxr7zwdfm64wirxy6wauhmj57uhntipjbowl3aubqbgaeste",
+          "uri": "at://did:plc:djeen2khkxpzztxxdcbqk7qv/app.bsky.feed.post/3mcdl2qju3s2w"
+        }
+      },
+      "text": "I sadly disagree.\n\nSo many programmers I know don't know the first thing about CSS.\n\nSo many more suffer from a Dunning-Kruger effect and think that the CSS they learned in 2010 is still good.\n\n(wish I could confidently state I'm not in that group, but 🤷 Dunning-Kruger effect)"
+    },
+    "cid": "bafyreidaqdqe6foyh4r6nrd4h47kwhg6lqgrctyzkm4x4duvltudbdyy4a"
+  }
+}
