@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768284037467504,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbuuygsan2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbuuxz5fs2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T06:00:36.763Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidewuzrfofyr5mq64x37coos5ev5e5oz72gs552rbtrk4nonezrem",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcbszcxvws2d"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "Cool story.\n\nI got quite a few things changed in my years testing PowerShell.\n\nI've even managed to help change things in the years since.\n\n🙏hear me when I say (IMO):\n\nThis battle was not worth fighting 18 years ago.\n\nIt is not worth fighting today."
+    },
+    "cid": "bafyreigwtm7dw7okln76xmzdy3er5lpqpco3oiocekv4jfcqhcpawh3wiq"
+  }
+}
