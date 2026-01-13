@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768266170659428,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbeaj5wps2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbeai7ar22a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T01:02:49.229Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifgrv65wqth6xl4y3lh2q6d5yy2xhs4tpvblnsp42su6o42bjr6vy",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcbc7cdjys2w"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "Ok, let's do things explicitly.\n\nThere are many ways a Cmdlets can write objects.\n\nThe default is emitting it.  We can also write it directly:\n\n~~~PowerShell\nfunction f { [CmdletBinding()]param([Collections.ArrayList]$arr = 1..3)  $PSCmdlet.WriteObject($arr) }\n(f).GetType()\n~~~"
+    },
+    "cid": "bafyreievskxbqp5x3z5esp2ydsxazcf3agnp33nofdyafqh3l3a57brz3q"
+  }
+}
