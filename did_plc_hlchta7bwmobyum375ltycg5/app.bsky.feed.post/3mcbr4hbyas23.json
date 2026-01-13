@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768279993383481,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbr4hpv5r26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbr4hbyas23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T04:53:12.695Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiabx4dulia6kodr46vz2tq5lugaieleoka7e2hpnrjxuc6o7szlwa",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3mcbqduhci22w"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "Yep.  The sad part here is they have worked their way past the first problem and don't seem to realize it.\n\nThe code has a simple, _new_ bug.\n\nAnother one I think we've all made / still make.\n\n🤷 Just another point along the learning curve."
+    },
+    "cid": "bafyreiftaprfcglemrrhz4uw2eorio35vrhynm4mimzwtz3c2kkx6jzat4"
+  }
+}
