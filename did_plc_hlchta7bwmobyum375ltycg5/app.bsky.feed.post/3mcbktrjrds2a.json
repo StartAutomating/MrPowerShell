@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768273259437144,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbktru4mx2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbktrjrds2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T03:00:58.996Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiekan25inumhd7522unzqvjvgovsea6p6nav3wx66ipc7ewnkvjlq",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcbkoeurk22f"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "Yep, because you're outputting in places you are not seeing.\n\n.Add outputs the new count.\n\nSo that code outputs.\n\n0\n1\nYourArrayList\n\n$null = $theArrayList.Add will fix you.\n\nPeople have also complained about this for years, but it's much faster than explicitly outputting."
+    },
+    "cid": "bafyreiheximylpp665ndkdeepoaf7mngxqnv5vnp5dlgn77aitoyofyv3i"
+  }
+}
