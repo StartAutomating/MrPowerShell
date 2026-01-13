@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768271374464754,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbj3m6plh2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbj3lu2422a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T02:29:33.992Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiexh2a36zdctvnllhbkrjz4fz3c3cfi2yhle3xl6wwg7hsvxse47m",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcbihnwoks2e"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "No, it's not an ignorant thought.\n\nYou're running into a difference of the language, and people stumble here often enough that we all have plenty of ways to help.\n\nLearning how to return specific types is practically a rite of passage.\n\nWe are trying to help."
+    },
+    "cid": "bafyreics6yunxb5etvcwnebqe73zzvt2dsk6tdpshqpftgdxq3ucxkzhbe"
+  }
+}
