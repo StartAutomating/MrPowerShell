@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768262266445173,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbam64stb2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbam5qd3s2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-12T23:57:45.94Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiby34xax5zahktkzzy4r5wv6u7xc75fotse3uwaxrvfffixoengum",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcbaid2yqk2w"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "See other post.  If you're declaring a function, it can have any number of return items.\n\nIf you're declaring a strongly typed method, it can have a strict return type.\n\nYou can also constrain a type, using brackets before the variable:\n\n[int]$OnlyNumbers = 'string'"
+    },
+    "cid": "bafyreiatmeompcppxi2ewbic4kokpx3gntnjqlpblzg5kvxhzkbwrgbdla"
+  }
+}
