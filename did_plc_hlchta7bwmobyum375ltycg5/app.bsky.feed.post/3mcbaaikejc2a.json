@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768261875045719,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbaaitqv42a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbaaikejc2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-12T23:51:14.626Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiclyvhlqwwm2lhny22bykzr6uzviindrtgyzahgfqdw6aa6afdjdq",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcb7roic5227"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "If you want a definitive return type, use a class and you'll get that behavior.\n\nIf you want to try asking for this, go ahead.  I doubt the community would be supportive.\n\nYou're essentially asking decades of experience to change because you said so."
+    },
+    "cid": "bafyreifvvr4bd4odbzmglqvsujs2z2z5shoinl2ydzcoxknwez4a5dhqzq"
+  }
+}
