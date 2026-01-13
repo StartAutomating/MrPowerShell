@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768280438580938,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbrjqga4s2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbrjq2uvs23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T05:00:38.108Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia7liq5eegdnbjy4emjnt3bqiqe45mkt5y3ye3oz7he6w35gucjne",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcbr5ffs2c2d"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "The one thing I _think_ might be able to get traction is the idea that return should be able to be explicitly typed / returned.\n\nIt wouldn't break the syntax, it would just \"fix\" your scenario.\n\nSort-of.\n\nThe only _other_ reason you're having problems is wanting to return a collection."
+    },
+    "cid": "bafyreidouhgdudhz2c4gdh4xkbksx3wsjhlf3qkcnawrzwhd4o5t36qgle"
+  }
+}
