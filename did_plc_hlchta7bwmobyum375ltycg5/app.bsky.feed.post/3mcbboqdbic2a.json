@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768263430881440,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbboteswg2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbboqdbic2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T00:17:06.286Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiaysfzwycaeuagxoc2kgkrsxoncbif3kfwss6mgdvhsswsybbxo5m"
+            },
+            "mimeType": "image/jpeg",
+            "size": 725610
+          },
+          "title": "Moving RGB Gradient Interference Pattern",
+          "uri": "https://codepen.io/StartAutomating/pen/zxBoGVE"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 20,
+            "byteStart": 16
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CodePen"
+            }
+          ],
+          "index": {
+            "byteEnd": 43,
+            "byteStart": 35
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://codepen.io/StartAutomating/pen/zxBoGVE"
+            }
+          ],
+          "index": {
+            "byteEnd": 149,
+            "byteStart": 123
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 162,
+            "byteStart": 155
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Put out another #CSS gradient onto #CodePen\n\nThis is the same interference pattern animation, just with a bit more color:\n\ncodepen.io/StartAutomat...\n\nThe #WebDev trick - make properties for -rx and -ry, and then animate them to morph the ellipse"
+    },
+    "cid": "bafyreiehuw7pqxuup72p55kdmjicqpu3h6j5q2e2iozhkppcen3m4dinom"
+  }
+}
