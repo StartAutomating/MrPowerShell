@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768271114964534,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbituopl42c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbittzkpk2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T02:25:14.126Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiemcnkj6vzgy4spfkygsx32qalugip444osqjhamd43aatsrr47xm",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcbicdkmqk2e"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "I think it's a lot more \"coming in hot\" to say that the language is lying to you and should change core behaviors.\n\nI give a crap enough to respond and try to help.\n\nPlease stop shooting the messenger."
+    },
+    "cid": "bafyreid264l4wrhq4awhqvbpih2m7uhovadia7xe3ffh7fu7ofpdd6hbze"
+  }
+}
