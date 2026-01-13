@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768280146188858,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbrazloba2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbraz7jzs23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T04:55:45.702Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib2gboweo4rc32uv3c2o7b5i3td4quocnbplvy5maepmx6rusabsa",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcbr3tyfkk2d"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "Go ahead and report it.\n\nI'm sure many people have asked for what you ask over time.\n\nHell, I wrote a compiler or two to help avoid these issues.\n\nThis is how the language works, and it's unlikely to change.\n\nThese are places _everyone_ stumbles at least once."
+    },
+    "cid": "bafyreiay5se5tqlh5vuqweej2nu3u5ybfs3jqrw4saylqfycztqy2djcam"
+  }
+}
