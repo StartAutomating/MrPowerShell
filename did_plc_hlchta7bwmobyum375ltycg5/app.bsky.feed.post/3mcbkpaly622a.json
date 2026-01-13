@@ -1,0 +1,80 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768273107454548,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbkpawmgs2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbkpaly622a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T02:58:27.025Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JavaScript"
+            }
+          ],
+          "index": {
+            "byteEnd": 120,
+            "byteStart": 109
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TypeScript"
+            }
+          ],
+          "index": {
+            "byteEnd": 148,
+            "byteStart": 137
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Go"
+            }
+          ],
+          "index": {
+            "byteEnd": 162,
+            "byteStart": 159
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 181,
+            "byteStart": 170
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifckwrv6jp433cvlzll54xz2bp3z5vtwtwmrcepexirucswupcmiq",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcbkj2on6c2f"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "I see that this is a thing in every programming language.  Every programming language has at least oddities\n\n#JavaScript has prototypes.\n#TypeScript has enums\n#Go has :=\n#PowerShell outputs a pipeline\n\nOne can be annoyed at having to learn these things, but IMO, getting mad at it makes no sense."
+    },
+    "cid": "bafyreig3nlzihuzc564ljqssmo3befuzy3jdajwyunpsd7a2f2oa4quqlu"
+  }
+}
