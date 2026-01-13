@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768262157731475,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbaiwhwgg2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbaiutadk2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-12T23:55:55.935Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiclyvhlqwwm2lhny22bykzr6uzviindrtgyzahgfqdw6aa6afdjdq",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcb7roic5227"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "Here, fixed it for you:\n\n~~~PowerShell\nclass foo { [int]ShouldBeInt() { return \"string\" } } \n(foo).ShouldBeInt()\n~~~\n\nNow you get a nice conversion error when something tries to return a string.\n\nPowerShell can do this, just not where you are expecting."
+    },
+    "cid": "bafyreibqcwck6umrg7gsft2pgpmsko6idwkwchdhwvv4jv2vuuapkqbc3q"
+  }
+}
