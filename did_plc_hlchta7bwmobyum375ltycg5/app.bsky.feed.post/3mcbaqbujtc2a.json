@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768262406670835,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbaqds2g32a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbaqbujtc2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T00:00:04.489Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidv2xzrxjtd2zku75cjnjkixcduq2kvyfcchv4a6udo7oan63brpe",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcbambgxxs2w"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "PowerShell isn't lying to you.\n\nIt's just not working the way you think it is.\n\nYou think functions have a single strongly typed return.\n\nThey do not.\n\nThey emit objects.\n\nStrongly typed methods/properties return strong types.\n\nFunctions can be weakly typed.\n\nThis _is_ the design."
+    },
+    "cid": "bafyreibiymhsxckppbznimowohfp63xjc5knquxq6vysahfph35vm7eb7u"
+  }
+}
