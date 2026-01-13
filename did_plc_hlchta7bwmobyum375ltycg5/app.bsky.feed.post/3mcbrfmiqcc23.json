@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768280301673655,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbrfnstdm2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbrfmiqcc23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T04:58:20.15Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "When you write a script, a few possible concerns may be going through your mind:   ·         Does my Script do what I want it to? ·         Can the script be read and understood by other people? ·    ...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicmiwhanduhc3mpglhfurkvmujrbpyf4sw62kogovqgzwl4ssnzla"
+            },
+            "mimeType": "image/jpeg",
+            "size": 355238
+          },
+          "title": "Lightweight Performance Testing with PowerShell - PowerShell Team",
+          "uri": "https://devblogs.microsoft.com/powershell/lightweight-performance-testing-with-powershell/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://devblogs.microsoft.com/powershell/lightweight-performance-testing-with-powershell/"
+            }
+          ],
+          "index": {
+            "byteEnd": 183,
+            "byteStart": 145
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib2gboweo4rc32uv3c2o7b5i3td4quocnbplvy5maepmx6rusabsa",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcbr3tyfkk2d"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "This is me warning people about the issue and showing people how perf test the best solution around it.  Written (checks watch): \n\n18 years ago\n\ndevblogs.microsoft.com/powershell/l..."
+    },
+    "cid": "bafyreihesxx4itzzyt6ora3fqsli2l36tylmwpfykdtmowli533df6rbei"
+  }
+}
