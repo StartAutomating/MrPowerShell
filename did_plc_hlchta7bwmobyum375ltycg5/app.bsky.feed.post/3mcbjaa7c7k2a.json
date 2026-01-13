@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768271529986148,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbjaajesv2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbjaa7c7k2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T02:32:09.551Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigkqiaztxvlm72veds2rtrybugacx6hwz7e4sgzekrexs4xka6ljy",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcbiaekh622e"
+        },
+        "root": {
+          "cid": "bafyreif2sxvuf3ej7ov32amho2hldf65qjjdf7l4qalu3t3qh7e6elfjmu",
+          "uri": "at://did:plc:6rcd2z6f4ucwdrftquxbryy4/app.bsky.feed.post/3mcaewsfd722u"
+        }
+      },
+      "text": "This is true in almost any language.  How a language handle types and return things is part of what every new scripter / developer needs to learn.\n\nPowerShell, being considerably more type promiscuous than almost any other language than C, can be tricky in these regards.\n\nThis is good stuff to know."
+    },
+    "cid": "bafyreiayo5srqlj3wkbdlepwdftw743rnii7ge4onvqwbkbnsvb2pwewey"
+  }
+}
