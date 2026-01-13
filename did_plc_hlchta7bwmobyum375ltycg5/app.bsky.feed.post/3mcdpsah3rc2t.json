@@ -1,0 +1,114 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768347297897061,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcdpscfu3w2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcdpsah3rc2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T23:34:55.713Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreiei6id6wuuxml44zuff3iux6shvmsfgv4bpp2ykssnyg54lckyxiu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.generator/css-js-svg-html"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/did:plc:hlchta7bwmobyum375ltycg5/feed/css-js-svg-html"
+            }
+          ],
+          "index": {
+            "byteEnd": 41,
+            "byteStart": 17
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 86,
+            "byteStart": 79
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "css"
+            }
+          ],
+          "index": {
+            "byteEnd": 123,
+            "byteStart": 119
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "javascript"
+            }
+          ],
+          "index": {
+            "byteEnd": 136,
+            "byteStart": 125
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "svg"
+            }
+          ],
+          "index": {
+            "byteEnd": 142,
+            "byteStart": 138
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "html"
+            }
+          ],
+          "index": {
+            "byteEnd": 149,
+            "byteStart": 144
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:i6y3jdklpvkjvynvsrnqfdoq"
+            }
+          ],
+          "index": {
+            "byteEnd": 203,
+            "byteStart": 190
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "New feed alert!\n\nbsky.app/profile/did:...\n\nNever miss a post about client-side #WebDev again\n\nGets anything mentioning #css, #javascript, #svg, #html (and codepen, for good measure)\n\nThanks @graze.social for making it easy to make feeds on a whim!"
+    },
+    "cid": "bafyreiayztlrbf72sfddqkfy4hue6jggt3zcabesmhxrkbmctzkkw222ee"
+  }
+}
