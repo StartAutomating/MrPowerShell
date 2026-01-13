@@ -1,0 +1,64 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768288034042967,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcbym3p2il2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcbylzgi6k2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T07:07:11.225Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: I swear at least once a week someone comes onto the PowerShell corner of BlueSky, rants about things in the language they don't like, yells at everyone who tries to help them, and then blocks a bunch of people in a huff.\n\nI really wish people were better about how they ask for help, and I _really_ wish people were better at admitting when they are wrong.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibbvyvzh3qx2dfmlii6omh4xwqvkwomruv66iah7stwlmtqvooawq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 934575
+          },
+          "title": "a man is making a funny face with his mouth open .",
+          "uri": "https://media.tenor.com/SKtDAcZjQxQAAAAC/infernal-osrs.gif?hh=371&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:tkbfciykcg4ubnq63ztqvyr7"
+            }
+          ],
+          "index": {
+            "byteEnd": 64,
+            "byteStart": 50
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:waaktpm6r63m5frsf7itvkjn"
+            }
+          ],
+          "index": {
+            "byteEnd": 85,
+            "byteStart": 65
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Some days people on the internet make me like:\n\n( @griff.systems @jborean.bsky.social thanks for the assist!)"
+    },
+    "cid": "bafyreifx3cxfiydszap2msqg4knq2eam6rzk7cw4t3rr5dn73sfyyhxzky"
+  }
+}
