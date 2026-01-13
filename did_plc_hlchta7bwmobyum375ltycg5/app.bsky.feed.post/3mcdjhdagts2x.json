@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768340487744783,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcdjhdsrr72a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcdjhdagts2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T21:41:27.091Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiebspyut2vpfwswkbpt2kzrgnpgjdyxj6wvlsh2hstxl2sejcv334",
+          "uri": "at://did:plc:lqgdhylrhf6epyv7phhhg7lp/app.bsky.feed.post/3mccizratggd2"
+        },
+        "root": {
+          "cid": "bafyreiebspyut2vpfwswkbpt2kzrgnpgjdyxj6wvlsh2hstxl2sejcv334",
+          "uri": "at://did:plc:lqgdhylrhf6epyv7phhhg7lp/app.bsky.feed.post/3mccizratggd2"
+        }
+      },
+      "text": "Because Windows PowerShell -ne PowerShell, and $outputEncoding for Windows PowerShell matched the Windows expectations of the time (Win7).\n\nIf it's consolation:\n\n1. We all hate this, too.\n2. I especially dislike it, as I fought for it to change in 3.0 (and lost that battle😞)"
+    },
+    "cid": "bafyreie4pdvkj2xzoz5bhyqfywjdf5k2bzpmypf5skelrthoe2qdrbgwo4"
+  }
+}
