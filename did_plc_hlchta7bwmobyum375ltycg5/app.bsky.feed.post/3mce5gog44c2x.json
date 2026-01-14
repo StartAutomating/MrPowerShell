@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768361940583923,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mce5gor65u2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mce5gog44c2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-14T03:39:00.093Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidodttjfkinal5heow3owni2pn72vhpfa4almihwnkoewhl4hnqyq",
+          "uri": "at://did:plc:ljihnmg37pixgf37mlyx5vxl/app.bsky.feed.post/3mce4d4to6k2x"
+        },
+        "root": {
+          "cid": "bafyreidbdnx44ziwwzkit53gdsueb4wnc4qqvtoy52yvllrph6icysf6y4",
+          "uri": "at://did:plc:aa23o5w4w2afknay44oqxqz6/app.bsky.feed.post/3mce46xkxi22m"
+        }
+      },
+      "text": "To be fair, it does some rather untrustworthy things to remove the ai.\n\nTo be balanced, I have looked enough to not be _too_ worried.\n\nIn my personal / professional opinion, it's risky but does what it says it does.\n\nWould be ok for \"my machine\"\n\nWould not be ok for a corp environment."
+    },
+    "cid": "bafyreialazbizgoweyltqa5axbovdxbayggkvyoucqwlu4tx5li675ash4"
+  }
+}
