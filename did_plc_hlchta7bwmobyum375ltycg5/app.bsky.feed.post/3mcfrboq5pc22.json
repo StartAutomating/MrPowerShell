@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768417609136615,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcfrbpf56727",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcfrboq5pc22",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-14T19:06:47.225Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaq64oxyn5xpydto5la7vpbonm2txlvmh3xjtbfgwyzy5vwibjg64",
+          "uri": "at://did:plc:6hakn4o42hz5mffdlofynjiy/app.bsky.feed.post/3mcfr4lddgs2e"
+        },
+        "root": {
+          "cid": "bafyreihxmfqupgezobm5ugkgxsyzgoxzzsfueyvxj4fplu3i26mceanza4",
+          "uri": "at://did:plc:6hakn4o42hz5mffdlofynjiy/app.bsky.feed.post/3mcfbs72evs2e"
+        }
+      },
+      "text": "The reduction by squares almost always helps, as long as it's at least \"one square\" to reduce.\n\nCan apply to just batch size if throttle is fixed.\n\nProbably should have written it as $TotalJobs = [Math]::Sqrt($count )"
+    },
+    "cid": "bafyreic4ks2bjwp7op4au3ktcb66hxjebe54sewlabz3ewnzukieqxk7im"
+  }
+}
