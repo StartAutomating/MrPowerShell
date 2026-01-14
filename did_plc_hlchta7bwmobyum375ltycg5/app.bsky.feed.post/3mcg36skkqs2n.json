@@ -1,0 +1,34 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768428323840333,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcg3b2pp2h2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcg36skkqs2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-14T22:04:07.992Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 51,
+            "byteStart": 48
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Evergreen maxims of computing, doubly true with #AI:\n\n\"Garbage in, Garbage Out\""
+    },
+    "cid": "bafyreihjz5p4e2udu45jqadfd5s7y6xs37m7q5hl2m7l3ypqdo5db6ljmi"
+  }
+}
