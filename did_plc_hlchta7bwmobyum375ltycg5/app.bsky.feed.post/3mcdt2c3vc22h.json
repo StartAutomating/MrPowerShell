@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768350787791809,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcdt2cfvhx2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcdt2c3vc22h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-14T00:33:07.104Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicxeh5twldah7waqgqatrg42udsbjayhvw2zojcdjsqnt44g3xmkm",
+          "uri": "at://did:plc:257wekqxg4hyapkq6k47igmp/app.bsky.feed.post/3mcdswpfj5c2i"
+        },
+        "root": {
+          "cid": "bafyreihies3sp5sw5ud77bwp4utttfca777asvsjjnu64yt7pvg4k3coly",
+          "uri": "at://did:plc:257wekqxg4hyapkq6k47igmp/app.bsky.feed.post/3mccu32j4ts2b"
+        }
+      },
+      "text": "👍 me too!\n\nIt's a good attempt a standard, and, with a little work from the community, it can flourish and we can prevent vendor lock-in (thus letting everyone succeed, not just the lucky ones)"
+    },
+    "cid": "bafyreibrkiowd5bas3cu3zycdgipcxs2c4htl7afs2wyatvhbko72ygm6m"
+  }
+}
