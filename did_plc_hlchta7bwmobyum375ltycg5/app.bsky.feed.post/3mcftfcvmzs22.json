@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768419876856221,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcftfd35yo2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcftfcvmzs22",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-14T19:44:36.523Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibesiswtfzivlmjq7o4f2qttvu424v5tideerxw2aedje4vzlbt6a",
+          "uri": "at://did:plc:wktvdgehqe65l7llw4cp3mge/app.bsky.feed.post/3mcfjhfvkqc2i"
+        },
+        "root": {
+          "cid": "bafyreibesiswtfzivlmjq7o4f2qttvu424v5tideerxw2aedje4vzlbt6a",
+          "uri": "at://did:plc:wktvdgehqe65l7llw4cp3mge/app.bsky.feed.post/3mcfjhfvkqc2i"
+        }
+      },
+      "text": "Back in my day we were called \"androgynous\"\n\nStill remember busting out the dictionary on this topic during a teen argument about masculinity."
+    },
+    "cid": "bafyreibn5k6buznqnelgooiop3chn5pdfnyffctqarceeygw3mp6oilh5u"
+  }
+}
