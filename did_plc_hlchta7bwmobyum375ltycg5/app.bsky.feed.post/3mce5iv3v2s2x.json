@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768362018678690,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mce5izb22d2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mce5iv3v2s2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-14T03:40:14.208Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 27,
+            "byteStart": 23
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifg4nvgsbnsgcoown3y7stf3vmrjmkljoiopdq3gm6ookanpv2a2q",
+          "uri": "at://did:plc:2zmxikig2sj7gqaezl5gntae/app.bsky.feed.post/3mce5feoex22f"
+        },
+        "root": {
+          "cid": "bafyreihies3sp5sw5ud77bwp4utttfca777asvsjjnu64yt7pvg4k3coly",
+          "uri": "at://did:plc:257wekqxg4hyapkq6k47igmp/app.bsky.feed.post/3mccu32j4ts2b"
+        }
+      },
+      "text": "That is some beautiful #SVG dark magic.\n\n<animate> tries to animate an attribute, but not all attributes are animatable.\n\n<set> sets them.\n\nThese are both more broken than at first glance..."
+    },
+    "cid": "bafyreiebsh72rvh3vniu5tiqcp4bwr2vrpynybohhe4bzqtscpos3b5wvm"
+  }
+}
