@@ -1,0 +1,96 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768363903300785,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mce7b64pmr2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mce7b4yls22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-14T04:11:41.534Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "This is a Pecha Kucha on SVG (written in SVG) Click the link to see this in fullscreen",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiceximdot7sq6dgviogoymupdf6mubhbmxcl5wdgt5lzlwox4aleu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 187864
+          },
+          "title": "Pecha Kucha on SVG (in SVG) · Issue #3 · StartAutomating/PechaKucha",
+          "uri": "https://github.com/StartAutomating/PechaKucha/issues/3"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PechaKucha"
+            }
+          ],
+          "index": {
+            "byteEnd": 65,
+            "byteStart": 54
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 73,
+            "byteStart": 69
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 99,
+            "byteStart": 88
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/PechaKucha/issues/3"
+            }
+          ],
+          "index": {
+            "byteEnd": 230,
+            "byteStart": 204
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifg4nvgsbnsgcoown3y7stf3vmrjmkljoiopdq3gm6ookanpv2a2q",
+          "uri": "at://did:plc:2zmxikig2sj7gqaezl5gntae/app.bsky.feed.post/3mce5feoex22f"
+        },
+        "root": {
+          "cid": "bafyreihies3sp5sw5ud77bwp4utttfca777asvsjjnu64yt7pvg4k3coly",
+          "uri": "at://did:plc:257wekqxg4hyapkq6k47igmp/app.bsky.feed.post/3mccu32j4ts2b"
+        }
+      },
+      "text": "As for how broken this can be... \n\nLast year I gave a #PechaKucha on #SVG (and a bit of #PowerShell)\n\nStill need to drop the scripts, but I was able to put the whole 6:40 PechaKucha into a GitHub Issue:\n\ngithub.com/StartAutomat..."
+    },
+    "cid": "bafyreifomgfggxrfpm4bjdpiufmzcr7he7dkdn2yjggcqxityoev6qrmka"
+  }
+}
