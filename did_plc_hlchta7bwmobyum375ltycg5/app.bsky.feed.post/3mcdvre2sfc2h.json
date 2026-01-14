@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768353709435559,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcdvrewgbl26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcdvre2sfc2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-14T01:21:48.401Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihar6jbs3crjp6r3g42hhcjtpkgda5gzebgmrhs4enwsntqwr2f4e",
+          "uri": "at://did:plc:xebtsknzjud5gejalm6b6djq/app.bsky.feed.post/3mcdvos5kj227"
+        },
+        "root": {
+          "cid": "bafyreihies3sp5sw5ud77bwp4utttfca777asvsjjnu64yt7pvg4k3coly",
+          "uri": "at://did:plc:257wekqxg4hyapkq6k47igmp/app.bsky.feed.post/3mccu32j4ts2b"
+        }
+      },
+      "text": "No worries.  I deal with enough shade daily 😎, and didn't detect you were throwing any.\n\nThanks for being inquisitive and nice about it!"
+    },
+    "cid": "bafyreial7hto2nypt63b3ydd6dd5fiynasxch4ozntjfw63vs2zt5m56ae"
+  }
+}
