@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768416351318963,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcfq4asy6d2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcfq4a67js22",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-14T18:45:50.443Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihxmfqupgezobm5ugkgxsyzgoxzzsfueyvxj4fplu3i26mceanza4",
+          "uri": "at://did:plc:6hakn4o42hz5mffdlofynjiy/app.bsky.feed.post/3mcfbs72evs2e"
+        },
+        "root": {
+          "cid": "bafyreihxmfqupgezobm5ugkgxsyzgoxzzsfueyvxj4fplu3i26mceanza4",
+          "uri": "at://did:plc:6hakn4o42hz5mffdlofynjiy/app.bsky.feed.post/3mcfbs72evs2e"
+        }
+      },
+      "text": "🧑‍💻 can confirm this is quite fun.\n\nPro tip: you can often run fastest in batches of batches.\n\nBut how big?\n\nI use \"reduction by squares\".\n\n$ThrottleLimit = [Math]::Sqrt($ItemCount)\n\n$BatchSize = [Math]::Sqrt($ThrottleLimit )\n\nShould write a post on this..."
+    },
+    "cid": "bafyreiaeiqedfu26kyqig7ocjgi663aucwivsyfqm77qiutl7nncxul2gq"
+  }
+}
