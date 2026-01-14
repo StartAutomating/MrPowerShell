@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768351309975176,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcdtjtuomx2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcdtjt4enk2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-14T00:41:48.263Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 95,
+            "byteStart": 87
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BlueSky"
+            }
+          ],
+          "index": {
+            "byteEnd": 106,
+            "byteStart": 98
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig3dw2vp43j62dnbqatseff66l7tjjqpef5i5g4gj3suma2xqotpi",
+          "uri": "at://did:plc:257wekqxg4hyapkq6k47igmp/app.bsky.feed.post/3mcdtb7tulc2i"
+        },
+        "root": {
+          "cid": "bafyreihies3sp5sw5ud77bwp4utttfca777asvsjjnu64yt7pvg4k3coly",
+          "uri": "at://did:plc:257wekqxg4hyapkq6k47igmp/app.bsky.feed.post/3mccu32j4ts2b"
+        }
+      },
+      "text": "😀 Great to hear!\n\nI think endless options for free/cheap/open hosting built atop of #AtProto / #BlueSky will be this platform's \"killer app\" moment.\n\nI'm just trying to build PowerShell tooling to help make it happen / connect the dots between groups.\n\nThanks for being \"on the right page\"!"
+    },
+    "cid": "bafyreidhxbfe72fgsk6vokklobzynude6z64ztgehc5keljpofmhhopciu"
+  }
+}
