@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768353653637198,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcdvppabiv2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcdvpovjxk2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-14T01:20:52.655Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 7,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BlueSky"
+            }
+          ],
+          "index": {
+            "byteEnd": 39,
+            "byteStart": 31
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 79,
+            "byteStart": 67
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibwnyq2xsjwctk2xq3tpixkxflelnty6fy2hcw6u6j2jxljrxr7ly",
+          "uri": "at://did:plc:xebtsknzjud5gejalm6b6djq/app.bsky.feed.post/3mcdvlfnpus27"
+        },
+        "root": {
+          "cid": "bafyreihies3sp5sw5ud77bwp4utttfca777asvsjjnu64yt7pvg4k3coly",
+          "uri": "at://did:plc:257wekqxg4hyapkq6k47igmp/app.bsky.feed.post/3mccu32j4ts2b"
+        }
+      },
+      "text": "#GitHub probably has great DR\n\n#BlueSky hopefully has great DR\n\nMy #RaspberryPi has no DR\n\nPlus, that's two places to compromise, with two sets of creds, and two-factor auth on each."
+    },
+    "cid": "bafyreignnn5y4tpbcg6awicewsztiqaky2cc34rga7y5d3vcs53hl5eulm"
+  }
+}
