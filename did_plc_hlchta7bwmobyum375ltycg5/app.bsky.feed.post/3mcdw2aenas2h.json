@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768354007231727,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcdw2awr4z2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcdw2aenas2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-14T01:26:46.52Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidkzgx5d7sx25m2wexnqoo674m4wwo4owdkb67wesw7scxukkegvy",
+          "uri": "at://did:plc:xebtsknzjud5gejalm6b6djq/app.bsky.feed.post/3mcdvt4qkgk27"
+        },
+        "root": {
+          "cid": "bafyreihies3sp5sw5ud77bwp4utttfca777asvsjjnu64yt7pvg4k3coly",
+          "uri": "at://did:plc:257wekqxg4hyapkq6k47igmp/app.bsky.feed.post/3mccu32j4ts2b"
+        }
+      },
+      "text": "For me it's a perverse incentization thing:\n\nIf I know this box is underpowered and may die tomorrow:\n\n1. I'm more likely to keep checking in / publishing\n2. I'm testing crossplatform compatibility by default\n3. I'm seeing how things perform in \"low perf\" environments."
+    },
+    "cid": "bafyreigx6may5rqzuaimyvzdq4mkd2usgwa7yham7eq5dqbxtbz77jzvgq"
+  }
+}
