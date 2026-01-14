@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768353265141662,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcdve4kmqm2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcdve2wpdk2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-14T01:14:22.622Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreialzic3pzt2uwo42hemjt7pfurq6oeiebcqa7moganji3piydp7ve",
+          "uri": "at://did:plc:xebtsknzjud5gejalm6b6djq/app.bsky.feed.post/3mcdv6nunks27"
+        },
+        "root": {
+          "cid": "bafyreihies3sp5sw5ud77bwp4utttfca777asvsjjnu64yt7pvg4k3coly",
+          "uri": "at://did:plc:257wekqxg4hyapkq6k47igmp/app.bsky.feed.post/3mccu32j4ts2b"
+        }
+      },
+      "text": "a - I suspect their computers may live longer than mine.\nb - I'm personally doing a \"hybrid\" approach.  \n\nMy At Proto feed can supply lots of records, but my GitHub Workflow + PowerShell can give me infinitely granular control about how to process and display those records.\n\nMake sense?"
+    },
+    "cid": "bafyreib3hwcfaecmnl3x5ydrbp4m3tfrwmw6js2mmn7ehb3ovjveouxoem"
+  }
+}
