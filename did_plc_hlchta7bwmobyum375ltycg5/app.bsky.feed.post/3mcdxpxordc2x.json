@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768355810361736,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcdxpy5qdb2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcdxpxordc2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-14T01:56:49.354Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicd7ssaijzvdjihyvkwr7pvgjjq5d7m4ctkol3yrferf2zwa5zzgy",
+          "uri": "at://did:plc:257wekqxg4hyapkq6k47igmp/app.bsky.feed.post/3mcdxd3qu2226"
+        },
+        "root": {
+          "cid": "bafyreihies3sp5sw5ud77bwp4utttfca777asvsjjnu64yt7pvg4k3coly",
+          "uri": "at://did:plc:257wekqxg4hyapkq6k47igmp/app.bsky.feed.post/3mccu32j4ts2b"
+        }
+      },
+      "text": "Yep.  ~$10/year minimum adds up."
+    },
+    "cid": "bafyreidmv3j4zjrhqncpvdmqsecnyfva23og5rswmehxlyo52r742lhqqa"
+  }
+}
