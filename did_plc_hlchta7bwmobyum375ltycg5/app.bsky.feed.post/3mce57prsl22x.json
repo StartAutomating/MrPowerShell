@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768361712069247,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mce57use5z2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mce57prsl22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-14T03:35:06.644Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "The <animate> SVG element provides a way to animate an attribute of an element over time.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreic23i2indpia6faedadaxk3iry5ff7ii2ued7juhuzfbhb3ht7iai"
+            },
+            "mimeType": "image/jpeg",
+            "size": 145461
+          },
+          "title": "<animate> - SVG | MDN",
+          "uri": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/animate"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/animate"
+            }
+          ],
+          "index": {
+            "byteEnd": 146,
+            "byteStart": 109
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib3w2y224brgx3o3dlgtclgq4cahphxz3s7blsjrjnny6skc55s3i",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mce262ja5s2x"
+        },
+        "root": {
+          "cid": "bafyreihies3sp5sw5ud77bwp4utttfca777asvsjjnu64yt7pvg4k3coly",
+          "uri": "at://did:plc:257wekqxg4hyapkq6k47igmp/app.bsky.feed.post/3mccu32j4ts2b"
+        }
+      },
+      "text": "Sadly this does not work for a single stream, but you could use it to swap between streams every N seconds.\n\ndeveloper.mozilla.org/en-US/docs/W...\n\nAlmost every property can be animated in SVG, including href in images."
+    },
+    "cid": "bafyreiflli7hf4fyp5ezxhlobzrp4wk5fvtzbs4afw56tvuxjvwwbep5eu"
+  }
+}
