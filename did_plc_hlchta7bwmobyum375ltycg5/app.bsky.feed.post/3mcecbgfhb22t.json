@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768367134556895,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcecbi4cd22p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcecbgfhb22t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-14T05:05:32.621Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreife6bpkkoaxqte2c7566oqsowdtecy3zueyim6mgsqcp3vh22b7gq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 612535
+          },
+          "title": "SVG PechaKucha",
+          "uri": "https://codepen.io/StartAutomating/pen/QwEGVJV"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://codepen.io/StartAutomating/pen/QwEGVJV"
+            }
+          ],
+          "index": {
+            "byteEnd": 39,
+            "byteStart": 13
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifomgfggxrfpm4bjdpiufmzcr7he7dkdn2yjggcqxityoev6qrmka",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mce7b4yls22x"
+        },
+        "root": {
+          "cid": "bafyreihies3sp5sw5ud77bwp4utttfca777asvsjjnu64yt7pvg4k3coly",
+          "uri": "at://did:plc:257wekqxg4hyapkq6k47igmp/app.bsky.feed.post/3mccu32j4ts2b"
+        }
+      },
+      "text": "Much better\n\ncodepen.io/StartAutomat..."
+    },
+    "cid": "bafyreicqhr7hd6qprfdwgzso33armbn24jmi46ggv5g5fz3pr7t3zdjsui"
+  }
+}
