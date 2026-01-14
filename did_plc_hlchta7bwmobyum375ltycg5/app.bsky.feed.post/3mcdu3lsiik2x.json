@@ -1,0 +1,80 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768351907379203,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcdu3nwkwa2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcdu3lsiik2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-14T00:51:44.578Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHubAction"
+            }
+          ],
+          "index": {
+            "byteEnd": 152,
+            "byteStart": 139
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 173,
+            "byteStart": 165
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHubWorkflow"
+            }
+          ],
+          "index": {
+            "byteEnd": 213,
+            "byteStart": 198
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 246,
+            "byteStart": 235
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibs53yc57zoe44ab4pq6mizpdr44z5cylvh27ycqkghnhonv33a4i",
+          "uri": "at://did:plc:xebtsknzjud5gejalm6b6djq/app.bsky.feed.post/3mcdtutsdzc27"
+        },
+        "root": {
+          "cid": "bafyreihies3sp5sw5ud77bwp4utttfca777asvsjjnu64yt7pvg4k3coly",
+          "uri": "at://did:plc:257wekqxg4hyapkq6k47igmp/app.bsky.feed.post/3mccu32j4ts2b"
+        }
+      },
+      "text": "Yeah I'm not saying it's anywhere near the only answer.\n\nJust one that's been working reliably for me for over a year now.\n\nI use a simple #GitHubAction to watch my #AtProto account, and then use a #GitHubWorkflow to make my page with #PowerShell.\n\nVery straightfoward, simple, and effective."
+    },
+    "cid": "bafyreihwtc56fq7xidezf762aabxmpvmtqlerbtajpx2xychygjnty7whu"
+  }
+}
