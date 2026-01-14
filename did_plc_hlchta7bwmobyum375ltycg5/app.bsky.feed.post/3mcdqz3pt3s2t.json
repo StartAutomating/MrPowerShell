@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768348606071971,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcdqz7qzhe2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcdqz3pt3s2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-13T23:56:39.379Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Jack of all trades, master of PowerShell.  Doing WebDev since the 90s.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiag3mug5qkw7ookvv3ajvw5tglbwpdjymrvncn26amomh6rnh6ojm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 128384
+          },
+          "title": "MrPowerShell on CodePen",
+          "uri": "https://codepen.io/StartAutomating"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://codepen.io/StartAutomating"
+            }
+          ],
+          "index": {
+            "byteEnd": 137,
+            "byteStart": 111
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I might have to just keep posting more stuff to CodePen to satisfy that little itch that is \"counters go up?\"\n\ncodepen.io/StartAutomat..."
+    },
+    "cid": "bafyreifame37u43mvbggiigj47advt2rlxx445rbnrj3nl3fvpjywd6qzq"
+  }
+}
