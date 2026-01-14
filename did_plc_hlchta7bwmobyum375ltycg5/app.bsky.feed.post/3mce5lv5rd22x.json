@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768362116080349,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mce5lvrcmh26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mce5lv5rd22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-14T03:41:54.933Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 12,
+            "byteStart": 8
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "XML"
+            }
+          ],
+          "index": {
+            "byteEnd": 48,
+            "byteStart": 44
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 65
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiebsh72rvh3vniu5tiqcp4bwr2vrpynybohhe4bzqtscpos3b5wvm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mce5iv3v2s2x"
+        },
+        "root": {
+          "cid": "bafyreihies3sp5sw5ud77bwp4utttfca777asvsjjnu64yt7pvg4k3coly",
+          "uri": "at://did:plc:257wekqxg4hyapkq6k47igmp/app.bsky.feed.post/3mccu32j4ts2b"
+        }
+      },
+      "text": "For one #SVG <animate> can animate _either_ #XML attributes _or_ #CSS properties.\n\nSo <animate> was basically CSS keyframes, but about 10 years ahead of them being an official thing."
+    },
+    "cid": "bafyreiga5nss6biwjeyvjonzm7yohqd5xvevq52mcwoi4g4egbs4l2ople"
+  }
+}
