@@ -1,0 +1,110 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768366229732331,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcebgiwnhm27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcebggxe6c2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-14T04:50:27.237Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreife6bpkkoaxqte2c7566oqsowdtecy3zueyim6mgsqcp3vh22b7gq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 612535
+          },
+          "title": "SVG PechaKucha",
+          "uri": "https://codepen.io/StartAutomating/pen/QwEGVJV"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CodePen"
+            }
+          ],
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 3
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PechaKucha"
+            }
+          ],
+          "index": {
+            "byteEnd": 82,
+            "byteStart": 71
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 90,
+            "byteStart": 86
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 99,
+            "byteStart": 95
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://codepen.io/StartAutomating/pen/QwEGVJV"
+            }
+          ],
+          "index": {
+            "byteEnd": 139,
+            "byteStart": 113
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Graphics"
+            }
+          ],
+          "index": {
+            "byteEnd": 279,
+            "byteStart": 270
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Ok #CodePen, I'm actually kinda impressed. 👏\n\nJust uploaded my 2025 #PechaKucha on #SVG (in #SVG) to CodePen\n\ncodepen.io/StartAutomat...\n\n2422 lines\n665kb\n\n20 \"slides\"\n20 seconds a slide\n6:40 of animations about why SVG is awesome.\n\n🙏 check it out and learn about #Graphics"
+    },
+    "cid": "bafyreidkoc2hxju4q2zmris36r3n3fycwe5tfg6e6tupmsnwvda6bnhpxe"
+  }
+}
