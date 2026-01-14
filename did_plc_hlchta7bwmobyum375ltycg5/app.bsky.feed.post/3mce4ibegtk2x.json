@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768360920475273,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mce4ibxtgm2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mce4ibegtk2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-14T03:21:59.775Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidl2ysgo55wdptzfsgg5eeg7jnpm7gpraw4xrvwvdq73zdjxirc2u",
+          "uri": "at://did:plc:2zmxikig2sj7gqaezl5gntae/app.bsky.feed.post/3mcdzvbsumc2o"
+        },
+        "root": {
+          "cid": "bafyreihies3sp5sw5ud77bwp4utttfca777asvsjjnu64yt7pvg4k3coly",
+          "uri": "at://did:plc:257wekqxg4hyapkq6k47igmp/app.bsky.feed.post/3mccu32j4ts2b"
+        }
+      },
+      "text": "So the basic idea / trick is that you can construct a slideshow of images in SVG, and that scales them reloads the url.\n\nThis would normally do it...\n\n<animate attributeName=\"href\" values=\"...\" dur=\"3s\" repeatCount=\"infinite\"/>\n\nBut, alas, no.\n\nFlicking between channels probably would."
+    },
+    "cid": "bafyreicgcgergcjiwnuuveswwaftn3kwobmlnt5hu5roea3klqgv7cafwi"
+  }
+}
