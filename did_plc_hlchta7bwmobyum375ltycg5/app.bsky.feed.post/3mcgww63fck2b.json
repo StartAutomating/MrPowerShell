@@ -1,0 +1,63 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768458026640741,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcgwwbbudr2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcgww63fck2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-15T06:20:22.857Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "The Diamond Age: Or, a Young Lady's Illustrated Primer …",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreig3erfps5rsphvuhfpyjs2qjuffb57urseewul7nid6ijieuophdq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 856766
+          },
+          "title": "The Diamond Age: Or, a Young Lady's Illustrated Primer",
+          "uri": "https://www.goodreads.com/book/show/827.The_Diamond_Age"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:6vn2o6t6tzgu5tlblfkir7ni"
+            }
+          ],
+          "index": {
+            "byteEnd": 72,
+            "byteStart": 45
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.goodreads.com/book/show/827.The_Diamond_Age"
+            }
+          ],
+          "index": {
+            "byteEnd": 223,
+            "byteStart": 190
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "People seem to be a bit myopic with which of @nealstephenson.bsky.social 's books they idolize.\n\nSnow Crash is cool, sure.\n\nWish more people read \"The Diamond Age\"\n\nOr Zodiac\n\nOr The Big U\n\nwww.goodreads.com/book/show/82..."
+    },
+    "cid": "bafyreic67tkzxquxz6irhhozsuztt6x4abcc3aq4xvdoi7ohomhxhkwqgi"
+  }
+}
