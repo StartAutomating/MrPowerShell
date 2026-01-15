@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768453105444309,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcgsdmfxw42e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcgsdmiufk2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-15T04:58:25.479Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihxzlwds3rffbsrg2j43ygohdryuithydlgdqthbwinzgrdvxth6q",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mcgs7v5btk2z"
+        },
+        "root": {
+          "cid": "bafyreihxmfqupgezobm5ugkgxsyzgoxzzsfueyvxj4fplu3i26mceanza4",
+          "uri": "at://did:plc:6hakn4o42hz5mffdlofynjiy/app.bsky.feed.post/3mcfbs72evs2e"
+        }
+      },
+      "text": "Like if we are launching one thread job, nbd.\n\nIf we want to launch 100, almost all at once, a pool will handle it better.\n\nIf threadjobs use pools now, call me happy.\n\nStart-ThreadJob is still miles better than Start-Job, IMO."
+    },
+    "cid": "bafyreib44jxvpgjgjskqdxwhvxkk3ltnah6f7gs7zvv34wwbvck4prfltq"
+  }
+}
