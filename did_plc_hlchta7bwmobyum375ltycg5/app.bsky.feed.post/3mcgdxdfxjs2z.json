@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768437661179283,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcgdxdmjg52z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcgdxdfxjs2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-15T00:41:00.907Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicdfgtdqnq6lg5frct6rmo722rll6zx4coegfnucraj2hokhonvka",
+          "uri": "at://did:plc:iga7ipxo6jy26wv6bevcmdem/app.bsky.feed.post/3mcg7g3fxrk2x"
+        },
+        "root": {
+          "cid": "bafyreihxmfqupgezobm5ugkgxsyzgoxzzsfueyvxj4fplu3i26mceanza4",
+          "uri": "at://did:plc:6hakn4o42hz5mffdlofynjiy/app.bsky.feed.post/3mcfbs72evs2e"
+        }
+      },
+      "text": "Quick version is : timestamp start, end, script block, and run space id.\n\nMuch more than that makes for looking glass problems, where you're spending more time trying to figure out if it's slow than not watching it at all.\n\nFriggin looking glass problems.\n\nFriggin Heisenbugs."
+    },
+    "cid": "bafyreifs73jsvrk7z7rjd2bc5xkuxnihxewmdiu2m2jxhgeujkpmdae2cm"
+  }
+}
