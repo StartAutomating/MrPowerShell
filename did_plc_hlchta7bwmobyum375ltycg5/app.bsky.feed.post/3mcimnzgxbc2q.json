@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768515735656808,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcimo43a6n2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcimnzgxbc2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-15T22:22:11.617Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Which is easier?\n\nDealing with Shadow copy hell and making all of Windows build faster? \n\nOr walking into Mordor and up the slopes of Mt Doom?",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiafyou2jrlcxkryrs4jynwkk7gsdqkifnherijdnmo6b5ce47hduq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 765724
+          },
+          "title": "a shadow of a person riding a horse with red eyes",
+          "uri": "https://media.tenor.com/FXfEhsfmlXoAAAAC/nazgul-lotr.gif?hh=277&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidishemq2ygc5zxatbc2ntp53mvmt5jdd6g2tkvze2qhzbir6xvw4",
+          "uri": "at://did:plc:jwao3uxqsskovawl6ux7rytu/app.bsky.feed.post/3mcilz4qkak2l"
+        },
+        "root": {
+          "cid": "bafyreicybwijogqipjaih2e2d7pwfzm6fitwx7bumcvleazeeqbr4zipvy",
+          "uri": "at://did:plc:jwao3uxqsskovawl6ux7rytu/app.bsky.feed.post/3mcijocey322l"
+        }
+      },
+      "text": "Shadowcopy brings back memories.\n\nHorrible memories.\n\nOf Octopus.  Of Nebula.  \n\nOf helping rewrite the Windows Build back in the dark days of pre-git builds.  \n\nBack in the days of SourceDepot and Product Studio.\n\n😱😱😱😱😱"
+    },
+    "cid": "bafyreibgwmfm5jk5zcgbgaecdwwtxiv5cjqyocmqnbd7mtn2okpdhqd67m"
+  }
+}
