@@ -1,0 +1,34 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768517107482549,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcinwxs2g62p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcinwxhhd22q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-15T22:45:05.269Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ImpostorSyndrome"
+            }
+          ],
+          "index": {
+            "byteEnd": 130,
+            "byteStart": 113
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Somehow just now realizing with horror that \"show and tell\" never actually ends, and we've probably all got some #ImpostorSyndrome about if we brought something cool enough to class."
+    },
+    "cid": "bafyreievfrzq5frqjmb4gaxg5ic735wr3kljau7h4ltovqbwmnkxp5jz7m"
+  }
+}
