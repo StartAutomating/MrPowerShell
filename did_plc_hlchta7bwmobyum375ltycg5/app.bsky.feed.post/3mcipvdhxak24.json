@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768519199754485,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcipveunv427",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcipvdhxak24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-15T23:19:58.242Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihncbp5t2yuwuub4as6my2oq7vmno6rahdasvzqh7eogh4ounesie",
+          "uri": "at://did:plc:zntngpowgd6rorjt3haywj36/app.bsky.feed.post/3mciigvvips2t"
+        },
+        "root": {
+          "cid": "bafyreihncbp5t2yuwuub4as6my2oq7vmno6rahdasvzqh7eogh4ounesie",
+          "uri": "at://did:plc:zntngpowgd6rorjt3haywj36/app.bsky.feed.post/3mciigvvips2t"
+        }
+      },
+      "text": "Hard relate.  Ended up making multiple libraries just so I could make SVG logos more easily.\n\nIf you want to share your InkSkape, I could take a few minutes for the fun challenge."
+    },
+    "cid": "bafyreibr24bxoobu3ywdjeimc2yomznstoz5g52yr45vl623cjlhwezghm"
+  }
+}
