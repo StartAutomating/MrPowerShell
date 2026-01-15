@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768514870363345,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mciludyfj32p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mciluch4722q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-15T22:07:48.644Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicybwijogqipjaih2e2d7pwfzm6fitwx7bumcvleazeeqbr4zipvy",
+          "uri": "at://did:plc:jwao3uxqsskovawl6ux7rytu/app.bsky.feed.post/3mcijocey322l"
+        },
+        "root": {
+          "cid": "bafyreicybwijogqipjaih2e2d7pwfzm6fitwx7bumcvleazeeqbr4zipvy",
+          "uri": "at://did:plc:jwao3uxqsskovawl6ux7rytu/app.bsky.feed.post/3mcijocey322l"
+        }
+      },
+      "text": "🤷 I don't actually know this one, and yet I will hazard a guess.\n\nMy guess:\n\nBecause it's more than most managers will ever need and about as much as a backend engineer might be willing to tolerate.\n\n🤞Good luck!\n\n(please remember to SupportShouldProcess)"
+    },
+    "cid": "bafyreid4x5a7b2svahxeco7th3b437dxb23ufbvv5sfyhfkbpf7gbf5nli"
+  }
+}
