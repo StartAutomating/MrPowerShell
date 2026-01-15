@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768461240804555,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcgzw2ti362k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcgzvzyoa22q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-15T07:13:59.8Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:sqraalz5tsmoy3upwcjtpepl"
+            }
+          ],
+          "index": {
+            "byteEnd": 139,
+            "byteStart": 121
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:dzsggruemobq6bllmzbhlo5d"
+            }
+          ],
+          "index": {
+            "byteEnd": 241,
+            "byteStart": 219
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibg2xqjjuaidrgvm55tt4cezp64cz7mnmifegh35asvbjvku5cdtu",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3mcgza3xrbk2c"
+        },
+        "root": {
+          "cid": "bafyreihxmfqupgezobm5ugkgxsyzgoxzzsfueyvxj4fplu3i26mceanza4",
+          "uri": "at://did:plc:6hakn4o42hz5mffdlofynjiy/app.bsky.feed.post/3mcfbs72evs2e"
+        }
+      },
+      "text": "For longer term ref:\n\nPipeworks was the first PowerShell Web framework, and the reigning champ until I got overwhelmed & @adamrdriscoll.com one-uped it with PowerShell Universal (and made the whole ecosystem easier) (& @badgerati.bsky.social made Pode)\n\nSo much old gold in them hills."
+    },
+    "cid": "bafyreiccxsuwqbzmzqs4q6yisbjl5necdjcdahaeuwqkpl5ols24mc323a"
+  }
+}
