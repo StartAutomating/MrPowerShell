@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768458876545069,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcgxpm3xka2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcgxplah522b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-15T06:34:35.516Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigdyepual5cplfivpo4dr4iddzulrebq2eegn2vah64wyxdgmblcq",
+          "uri": "at://did:plc:rnpkyqnmsw4ipey6eotbdnnf/app.bsky.feed.post/3mcgxdgw5js2q"
+        },
+        "root": {
+          "cid": "bafyreideu7vvwf6b573u4i6q3isyyrulgbfi4xow35ey5e5as3r6qxashu",
+          "uri": "at://did:plc:rnpkyqnmsw4ipey6eotbdnnf/app.bsky.feed.post/3mcguzdrfuk2q"
+        }
+      },
+      "text": "👀 call me tempted.\n\nCall me crazy for occasionally missing sprocs.\n\nOr just call me brainwashed by working with too many DBAs over the years."
+    },
+    "cid": "bafyreidiwyguxguklytfsdbhypnepruoxn34shc7ls7vc56itdzxcdhv7q"
+  }
+}
