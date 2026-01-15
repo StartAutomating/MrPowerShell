@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768459386840461,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcgy6skvzp27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcgy6rddxs2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-15T06:43:05.219Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "PowerShell Pipeworks is a web platform built in Windows PowerShell, and a toolkit for putting it all together with PowerShell - StartAutomating/Pipeworks",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreia7cvcgaqcg63tg5xrx6j66pty7dvzxma5ojoodq66j2rm6kdcnme"
+            },
+            "mimeType": "image/jpeg",
+            "size": 311063
+          },
+          "title": "Pipeworks/Invoke-Parallel.ps1 at main · StartAutomating/Pipeworks",
+          "uri": "https://github.com/StartAutomating/Pipeworks/blob/main/Invoke-Parallel.ps1"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/Pipeworks/blob/main/Invoke-Parallel.ps1"
+            }
+          ],
+          "index": {
+            "byteEnd": 242,
+            "byteStart": 216
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiahorbnb2vsl2brk3ry7xexoysx67elw45gn7uwyzs7kntfs67cfe",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3mcgt6juuas2z"
+        },
+        "root": {
+          "cid": "bafyreihxmfqupgezobm5ugkgxsyzgoxzzsfueyvxj4fplu3i26mceanza4",
+          "uri": "at://did:plc:6hakn4o42hz5mffdlofynjiy/app.bsky.feed.post/3mcfbs72evs2e"
+        }
+      },
+      "text": "I feel you... part of why I haven't come back to it.\n\nThat and wanting other people to have a chance to make a mark.\n\nHere's the _very_ old Pipeworks Invoke-Parallel\n\n(at least 12 years old now [almost a teenager])\n\ngithub.com/StartAutomat..."
+    },
+    "cid": "bafyreidv7wbx52hhpnvpxri6dmyvwi25s2dfox76jrmiidx4d7tdldtkzq"
+  }
+}
