@@ -1,0 +1,110 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768508575758131,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcifyqw6bh27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcifynbggs2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-15T20:22:51.759Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreife6bpkkoaxqte2c7566oqsowdtecy3zueyim6mgsqcp3vh22b7gq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 612535
+          },
+          "title": "SVG PechaKucha",
+          "uri": "https://codepen.io/StartAutomating/pen/QwEGVJV"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PechaKucha"
+            }
+          ],
+          "index": {
+            "byteEnd": 50,
+            "byteStart": 39
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 58,
+            "byteStart": 54
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CodePen"
+            }
+          ],
+          "index": {
+            "byteEnd": 70,
+            "byteStart": 62
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://codepen.io/StartAutomating/pen/QwEGVJV"
+            }
+          ],
+          "index": {
+            "byteEnd": 102,
+            "byteStart": 76
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PechaKucha"
+            }
+          ],
+          "index": {
+            "byteEnd": 134,
+            "byteStart": 123
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 151,
+            "byteStart": 140
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Still impressed I could upload a whole #PechaKucha on #SVG to #CodePen....\n\ncodepen.io/StartAutomat...\n\nShould I make more #PechaKucha with #PowerShell?"
+    },
+    "cid": "bafyreigyszfb7txvtayciewmodlektls4xpqipzy5beane7ofvvddixgym"
+  }
+}
