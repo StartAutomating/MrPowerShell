@@ -74,6 +74,17 @@
 
     {{$Animation}}
 
+    And the script that made it:
+
+    {{$function:BlueSkyButterflyAnimation}}
+
+    Hopefully this helps us all understand a bit more about SVG.
+
+    We can dissect any shape from it's path.
+
+    And we make stop-motion animation just by providing lots of paths.
+
+    Have Fun!
 .LINK
     https://MrPowerShell.com/SVG/BlueSkyButterfly
 #>
