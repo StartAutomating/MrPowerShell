@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768453626917201,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcgst3aqwg27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcgst3dldk2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-15T05:07:04.35Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibxdoloceo3cfx4efjbf5r7fc3lvxiqejorfu2azpl2og6hpp4rae",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3mcgsdqyruk25"
+        },
+        "root": {
+          "cid": "bafyreihxmfqupgezobm5ugkgxsyzgoxzzsfueyvxj4fplu3i26mceanza4",
+          "uri": "at://did:plc:6hakn4o42hz5mffdlofynjiy/app.bsky.feed.post/3mcfbs72evs2e"
+        }
+      },
+      "text": "Yeah.  Hence my ( hopefully shared ) frustration that you cannot manipulate the runspaces in a pool.\n\nFor super high performance scenarios I've always ended up making my own pool manager atop of rspools."
+    },
+    "cid": "bafyreidooqjzzxgjaqlyuo2wx4pbrb7emmamlz65g277n4n4xliqcybcoy"
+  }
+}
