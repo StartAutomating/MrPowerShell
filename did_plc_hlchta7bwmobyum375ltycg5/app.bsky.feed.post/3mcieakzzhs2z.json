@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768506691458277,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcieajh2wx26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcieakzzhs2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-15T19:51:30.371Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifkl5sxnrzy7fomua2kjuc4swunedgmxln34zlqnye5ix7yczbgl4",
+          "uri": "at://did:plc:hcq3w6fvco6oycpqh6i46zoo/app.bsky.feed.post/3mcie3nasbk2m"
+        },
+        "root": {
+          "cid": "bafyreifm37xhmx5g4dgij3eeg4dlhmise22esxrci7unsf3tdtspann6li",
+          "uri": "at://did:plc:hcq3w6fvco6oycpqh6i46zoo/app.bsky.feed.post/3mci3a2nfs225"
+        }
+      },
+      "text": "Always nice when things are that easy.\n\nI really need to actually drop updates to my module for VSCode.\n\nMaybe that'll be today's distraction....\n\n( Ask nicely or provide feature inspiration to improve odds )"
+    },
+    "cid": "bafyreicummwv63vyn6s2q3hgvegaecj647uy7lud7nop4z2mkda7cfdyey"
+  }
+}
