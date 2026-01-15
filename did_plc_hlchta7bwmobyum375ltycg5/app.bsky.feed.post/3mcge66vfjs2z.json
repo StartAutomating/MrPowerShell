@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768437891369048,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcge6733aw2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcge66vfjs2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-15T00:44:51.052Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicdfgtdqnq6lg5frct6rmo722rll6zx4coegfnucraj2hokhonvka",
+          "uri": "at://did:plc:iga7ipxo6jy26wv6bevcmdem/app.bsky.feed.post/3mcg7g3fxrk2x"
+        },
+        "root": {
+          "cid": "bafyreihxmfqupgezobm5ugkgxsyzgoxzzsfueyvxj4fplu3i26mceanza4",
+          "uri": "at://did:plc:6hakn4o42hz5mffdlofynjiy/app.bsky.feed.post/3mcfbs72evs2e"
+        }
+      },
+      "text": "Number of cores is a good base to consider.\n\nJust ended up making the technique for systems that will always have more customers than cores.\n\nLike Office365 itself.\n\nOr a competitor to Zillow.\n\nData set size -gt core count."
+    },
+    "cid": "bafyreicgpl3h5ndj57z7yjhmpwxd7voeqhchcnld4bhh24ew3ojxnteyli"
+  }
+}
