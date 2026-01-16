@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768522638349801,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcit3u5oji2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcit3r4soc25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-16T00:17:15.11Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihavx6putmkouiwhl3mpmosnupv2c5bjen6dtevyo7zn2motisw64",
+          "uri": "at://did:plc:6cerjaoqr7yf474hw3gdfekz/app.bsky.feed.post/3mcishs5gbc2b"
+        },
+        "root": {
+          "cid": "bafyreicypqc6vhtzk5ntln3qwrqbrzmwdvyhkhmtrx324bw4pumrvldaxq",
+          "uri": "at://did:plc:vmhrtckqi7ghdoqhf3lgvm4y/app.bsky.feed.post/3mcinm7nxhs2p"
+        }
+      },
+      "text": "Yeah.\n\nLooking back, most of \"good\" web design has always been figuring out how to use tags / CSS in unexpected ways with a limited set of options.\n\nWe just have _way_ more options now."
+    },
+    "cid": "bafyreicnpfk2gqzx7b2oqtsvcjrhezh2wmgnr7ml4wy5bokmbvtl2oo4ca"
+  }
+}
