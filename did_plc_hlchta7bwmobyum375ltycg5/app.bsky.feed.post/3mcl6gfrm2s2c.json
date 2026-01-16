@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768603523569168,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcl6ggbzul2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcl6gfrm2s2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-16T22:45:22.944Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid37ytmmq7op64oqgcuk6rzkofcgjjsxr2zo2alzybfkpdq6aproi",
+          "uri": "at://did:plc:e3aiwz4cnaxykqpswow3uk3q/app.bsky.feed.post/3mcko37i5pk2t"
+        },
+        "root": {
+          "cid": "bafyreid37ytmmq7op64oqgcuk6rzkofcgjjsxr2zo2alzybfkpdq6aproi",
+          "uri": "at://did:plc:e3aiwz4cnaxykqpswow3uk3q/app.bsky.feed.post/3mcko37i5pk2t"
+        }
+      },
+      "text": "To be fair, it's probably a lot easier to automate 300 items than click them one by one.\n\nTo be balanced, the admin portal may have found out the hard way once or twice why exposing Select-Object and Sort-Object in remoting is a bad idea.\n\n🤷 just trying to provide some context."
+    },
+    "cid": "bafyreiczv4cjo32vt5yjketzbbsh27zzqs5zmdy4qfbu2fqvdowxbk5mii"
+  }
+}
