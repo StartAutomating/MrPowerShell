@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768588627044874,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mckqkfxzki27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mckqkg6uok2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-16T18:37:05.211Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibfx2252t4lztxb7vtjz2isbqybnaucb3jw33kkhxbipjx2hyzhny",
+          "uri": "at://did:plc:zmhf3zrmlotqy4sml44swzf3/app.bsky.feed.post/3mcjntt62rc2o"
+        },
+        "root": {
+          "cid": "bafyreibfx2252t4lztxb7vtjz2isbqybnaucb3jw33kkhxbipjx2hyzhny",
+          "uri": "at://did:plc:zmhf3zrmlotqy4sml44swzf3/app.bsky.feed.post/3mcjntt62rc2o"
+        }
+      },
+      "text": "Still feel like VSCode is going to be snappier than ISE.\n\nAlso, that's not why the ISE was \"nerfed\".  If you would like to know why, just ask."
+    },
+    "cid": "bafyreige7g42ljoyvr5pierjpcotpwnv3p3bokxyqiijgh4z47z2h5z7qe"
+  }
+}
