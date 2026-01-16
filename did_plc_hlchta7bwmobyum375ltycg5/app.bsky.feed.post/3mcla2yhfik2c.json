@@ -1,0 +1,98 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768605289091099,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcla2zhvjw2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcla2yhfik2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-16T23:14:47.362Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiag6m7x3qozdb2hltr7zqtbjvnqlryloxt4teqtfd2uut4qtbgx2e"
+            },
+            "mimeType": "image/jpeg",
+            "size": 252670
+          },
+          "title": "Parallax Astroid Morph",
+          "uri": "https://codepen.io/StartAutomating/pen/KwMWzzG"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "FridayFun"
+            }
+          ],
+          "index": {
+            "byteEnd": 19,
+            "byteStart": 9
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 24,
+            "byteStart": 20
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CodePen"
+            }
+          ],
+          "index": {
+            "byteEnd": 53,
+            "byteStart": 45
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://codepen.io/StartAutomating/pen/KwMWzzG"
+            }
+          ],
+          "index": {
+            "byteEnd": 107,
+            "byteStart": 81
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 130,
+            "byteStart": 123
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "A bit of #FridayFun #SVG for you, now out on #CodePen:\n\nParallax Astroid Morphs\n\ncodepen.io/StartAutomat...\n\nFrom vNext of #Turtle 🐢\n\nDraw a bunch of overlapping right triangles.\n\nThen morph all of them but the edges to smaller triangles.\n\nThen 🤯\n\nEnjoy!"
+    },
+    "cid": "bafyreighvnu4sjfzfgpocry6dg37rt4rn2ovd66i4ralngdlmhirbl5p3m"
+  }
+}
