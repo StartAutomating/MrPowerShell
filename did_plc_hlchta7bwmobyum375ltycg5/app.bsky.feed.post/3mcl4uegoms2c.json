@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768601845658192,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcl4ug3czm2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcl4uegoms2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-16T22:17:23.815Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiez5zc7kqn2br5jm5b43tl27kilwwz47lpcthhyihz7sqthc54sqe",
+          "uri": "at://did:plc:zmhf3zrmlotqy4sml44swzf3/app.bsky.feed.post/3mckzpdaoh224"
+        },
+        "root": {
+          "cid": "bafyreibfx2252t4lztxb7vtjz2isbqybnaucb3jw33kkhxbipjx2hyzhny",
+          "uri": "at://did:plc:zmhf3zrmlotqy4sml44swzf3/app.bsky.feed.post/3mcjntt62rc2o"
+        }
+      },
+      "text": "No, that will work on core.  Almost all of the Exchange Online / MSOnline stuff is (mostly) version independent, since it often uses remoting or REST apis to accomplish the need.\n\nCore is _much_ faster."
+    },
+    "cid": "bafyreichpe7vhutjqt4cdyep7x4zzxntsgr46vpupnq4373tk6bzp4yhlu"
+  }
+}
