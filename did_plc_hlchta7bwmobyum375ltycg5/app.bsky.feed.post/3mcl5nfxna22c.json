@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768602685135056,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcl5ngpe5e2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcl5nfxna22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-16T22:31:24.28Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibfx2252t4lztxb7vtjz2isbqybnaucb3jw33kkhxbipjx2hyzhny",
+          "uri": "at://did:plc:zmhf3zrmlotqy4sml44swzf3/app.bsky.feed.post/3mcjntt62rc2o"
+        },
+        "root": {
+          "cid": "bafyreibfx2252t4lztxb7vtjz2isbqybnaucb3jw33kkhxbipjx2hyzhny",
+          "uri": "at://did:plc:zmhf3zrmlotqy4sml44swzf3/app.bsky.feed.post/3mcjntt62rc2o"
+        }
+      },
+      "text": "Providing the context on the \"nerfing\", for some sense of posterity:\n\nISE was built atop a series of next gen WPF controls designed for Visual Studio (Nautilus).\n\nDeveloper division went another direction, thus leaving the ISE as the only consumer of these components.\n\nThe math didn't math."
+    },
+    "cid": "bafyreid7bs53mq3lfrud2fzuo4yfojwokpm65azoejmjpqnpzrilhiq5we"
+  }
+}
