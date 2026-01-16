@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768604381457690,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcl77yekrb2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcl77yhcac27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-16T22:59:41.384Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiapckowe4n434fgqoyusewft2evrvs7qxxfqt3molduqmg3ttsgjm",
+          "uri": "at://did:plc:rvlyeda73kxm7l2weegk73pa/app.bsky.feed.post/3mckzdyds5c2n"
+        },
+        "root": {
+          "cid": "bafyreiapckowe4n434fgqoyusewft2evrvs7qxxfqt3molduqmg3ttsgjm",
+          "uri": "at://did:plc:rvlyeda73kxm7l2weegk73pa/app.bsky.feed.post/3mckzdyds5c2n"
+        }
+      },
+      "text": "I think /links/code-churn would be better than /url, if only because I think you're likely to have more than one per page."
+    },
+    "cid": "bafyreiebkbv3jnpdfvhhr3eiorza2wapi4fqbb56dp7tkxb77ehrhj5c4i"
+  }
+}
