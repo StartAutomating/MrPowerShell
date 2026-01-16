@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768589591462895,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mckrh7lnmt2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mckrh6zkbk2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-16T18:53:10.773Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "⟩⚡PowerShell Emoji 😎😉😍🥰🤔😟. Contribute to StartAutomating/Emoji development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiheiuaqbyrzgkyafpir47op7stjry2tcm7hpikshxlhbpsaq36ucu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 150321
+          },
+          "title": "GitHub - StartAutomating/Emoji: ⟩⚡PowerShell Emoji 😎😉😍🥰🤔😟",
+          "uri": "https://GitHub.com/StartAutomating/Emoji"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/StartAutomating/Emoji"
+            }
+          ],
+          "index": {
+            "byteEnd": 205,
+            "byteStart": 179
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifbpumbpfdx75lbyugcpiwfyznv2oxsd7ybmcb6odfmcbgkohg2da",
+          "uri": "at://did:plc:76n5af4lu74itlshkbvbynyo/app.bsky.feed.post/3mckjekdaf22g"
+        },
+        "root": {
+          "cid": "bafyreifoasgs5gstrfmhp67o7g6y67irbnzjguhfmzofacmkbtgxknncbu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mciicoo73k2q"
+        }
+      },
+      "text": "There aren't that many keywords in PowerShell, and this approach (alone) would not let you define a new one.\n\nEmoji can be used in Command Names, Parameters, and variable names.\n\nGitHub.com/StartAutomat...\n\nThis module may help."
+    },
+    "cid": "bafyreibenxxh5dhqh74oc27ytqzjo6ofquavlibh2ixvvom7cfe6olxgaa"
+  }
+}
