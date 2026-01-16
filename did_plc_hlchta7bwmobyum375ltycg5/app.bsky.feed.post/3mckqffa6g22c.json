@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768588456112028,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mckqfekrqx2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mckqffa6g22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-16T18:34:16.42Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaxkrkkxzmlkjkirrlvetdz4qkt2juyvn5nsedthmo7yaihmlnwzi",
+          "uri": "at://did:plc:5wmtatl4sewlc7jrtclffjy6/app.bsky.feed.post/3mckjssslwk2r"
+        },
+        "root": {
+          "cid": "bafyreiaxkrkkxzmlkjkirrlvetdz4qkt2juyvn5nsedthmo7yaihmlnwzi",
+          "uri": "at://did:plc:5wmtatl4sewlc7jrtclffjy6/app.bsky.feed.post/3mckjssslwk2r"
+        }
+      },
+      "text": "Can always alias it 😂.  Or, turn console promoting off and go back to good old tab completion."
+    },
+    "cid": "bafyreibazj3y522bkfbg3yx3lyazisl7en7kb4dctqsvnfqjxoot4wbko4"
+  }
+}
