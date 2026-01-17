@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768690079256299,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcnozy5a6o2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcnozxn6xc2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-17T22:47:58.554Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigzacq2u74ugdcneziftquayxmma4uuea3j5w5cugnmvscusmu4jm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mcnowm7wrc2c"
+        },
+        "root": {
+          "cid": "bafyreibbf6lsgbeujpjgjkrnmyaszceaaqt6fnjo3x5tb7exbhrcynoenm",
+          "uri": "at://did:plc:552wqjyuq5dnmc2izzgvudcs/app.bsky.feed.post/3mcl4723yo22n"
+        }
+      },
+      "text": "It's not PowerShell vs this tech or that tech.\n\nIt's PowerShell _and_ every technology.\n\nThe more we all make things that can communicate in common ways, the more we all benefit."
+    },
+    "cid": "bafyreicoubyfgqqgys4y4tws3g75skfdzmaqorlblmemtwcn3kiweuusce"
+  }
+}
