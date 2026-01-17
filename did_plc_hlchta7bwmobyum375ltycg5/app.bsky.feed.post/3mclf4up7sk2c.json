@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768610719941124,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mclf4v7odw2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mclf4up7sk2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-17T00:45:19.242Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "VSCode"
+            }
+          ],
+          "index": {
+            "byteEnd": 283,
+            "byteStart": 276
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "LSP"
+            }
+          ],
+          "index": {
+            "byteEnd": 292,
+            "byteStart": 288
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid7bs53mq3lfrud2fzuo4yfojwokpm65azoejmjpqnpzrilhiq5we",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mcl5nfxna22c"
+        },
+        "root": {
+          "cid": "bafyreibfx2252t4lztxb7vtjz2isbqybnaucb3jw33kkhxbipjx2hyzhny",
+          "uri": "at://did:plc:zmhf3zrmlotqy4sml44swzf3/app.bsky.feed.post/3mcjntt62rc2o"
+        }
+      },
+      "text": "The other part of this is that ISE was also fulfilling another Windows only role that was superceded by changes.\n\nBackwhen, ISE was your internationalized text editor.\n\nNowadays, notepad can do that.\n\nAnd, it being Windows only didn't help the case.\n\nSo, better to align with #VSCode and #LSP"
+    },
+    "cid": "bafyreihg5iduq7rcys5ct2jqyanonxp72qckmuey37jofa5gs4paud5erq"
+  }
+}
