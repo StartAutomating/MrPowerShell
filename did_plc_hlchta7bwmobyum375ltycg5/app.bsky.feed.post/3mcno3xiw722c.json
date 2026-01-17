@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768689073442324,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcno3xsido2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcno3xiw722c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-17T22:31:11.781Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 173,
+            "byteStart": 162
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigbluxohhhnlgd5eb5qwskcrcehpobweki3wfkweydidgl6mlkqmu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mcnnwewbzs2c"
+        },
+        "root": {
+          "cid": "bafyreibbf6lsgbeujpjgjkrnmyaszceaaqt6fnjo3x5tb7exbhrcynoenm",
+          "uri": "at://did:plc:552wqjyuq5dnmc2izzgvudcs/app.bsky.feed.post/3mcl4723yo22n"
+        }
+      },
+      "text": "Functional languages are built around their mathematical origins.  They tend towards purity, not usability, and are built around lambas (anonymous expressions).\n\n#PowerShell is built with lambas, not purity.\n\nHence the joke \"Functional enough to be functional, not too functional to be functionless\""
+    },
+    "cid": "bafyreico5duftdkbtzvyemwyhajzqeyg7c467pa4ukk4bpecw2bjqhpmu4"
+  }
+}
