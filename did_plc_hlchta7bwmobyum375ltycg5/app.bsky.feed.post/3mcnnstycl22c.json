@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768688773098903,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcnnsur7q22g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcnnstycl22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-17T22:26:06.101Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihbuhjxor6geloi47k5rkoo4vyjq34htdwl7xciptw5fjgx3o63be",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mcnnp54wks2c"
+        },
+        "root": {
+          "cid": "bafyreibbf6lsgbeujpjgjkrnmyaszceaaqt6fnjo3x5tb7exbhrcynoenm",
+          "uri": "at://did:plc:552wqjyuq5dnmc2izzgvudcs/app.bsky.feed.post/3mcl4723yo22n"
+        }
+      },
+      "text": "Task-oriented languages is terminology I made up shortly after joining the PowerShell team, pondering the same \"What are you PowerShell?\" question.\n\nThey can be thought of as a hybrid of the three earlier language types:\n\nObject-oriented languages\nFunctional languages\nProcedural languages"
+    },
+    "cid": "bafyreiaw5yrmiig2rs6vo2c5eog7zrzufmmaddqoov4n2a4zgrgihyhmcu"
+  }
+}
