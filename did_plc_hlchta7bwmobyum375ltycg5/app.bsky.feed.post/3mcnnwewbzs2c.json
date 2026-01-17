@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768688895184354,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcnnwlfdex26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcnnwewbzs2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-17T22:28:04.523Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaw5yrmiig2rs6vo2c5eog7zrzufmmaddqoov4n2a4zgrgihyhmcu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mcnnstycl22c"
+        },
+        "root": {
+          "cid": "bafyreibbf6lsgbeujpjgjkrnmyaszceaaqt6fnjo3x5tb7exbhrcynoenm",
+          "uri": "at://did:plc:552wqjyuq5dnmc2izzgvudcs/app.bsky.feed.post/3mcl4723yo22n"
+        }
+      },
+      "text": "Object-oriented languages give you pieces, but don't tell you how they connect together.  \n\nThey also tend to drown themselves in rigid descriptions of objects and abstractions around them.\n\nTask-oriented languages are designed to piece objects together, by using flexible (not rigid) objects."
+    },
+    "cid": "bafyreigbluxohhhnlgd5eb5qwskcrcehpobweki3wfkweydidgl6mlkqmu"
+  }
+}
