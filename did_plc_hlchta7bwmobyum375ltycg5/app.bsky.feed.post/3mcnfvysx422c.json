@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768680282460627,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcnfvzb4mm2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcnfvysx422c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-17T20:04:41.896Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ICE"
+            }
+          ],
+          "index": {
+            "byteEnd": 138,
+            "byteStart": 134
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Minneapolis"
+            }
+          ],
+          "index": {
+            "byteEnd": 278,
+            "byteStart": 266
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Seattle"
+            }
+          ],
+          "index": {
+            "byteEnd": 292,
+            "byteStart": 284
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihrovuv4uaglbifwypv6slo5tga2fbf32ne24pjukrzg6hdqssh7a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mcnatvklak27"
+        },
+        "root": {
+          "cid": "bafyreihrovuv4uaglbifwypv6slo5tga2fbf32ne24pjukrzg6hdqssh7a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mcnatvklak27"
+        }
+      },
+      "text": "As this gets some traction, I feel I have to correct a typo and add context.\n\n\"weak\" respiratory systems at risk from tear gas.\n\nWhen #ICE (or anyone) throws tear gas it endangers whole blocks.\n\nJust living near protests can be enough to make you \"the enemy\".\n\n🫂 #Minneapolis from #Seattle"
+    },
+    "cid": "bafyreidi2xriy64uzarwts7a77wzuqo3xeyz354mudr7jtfcchffpovrca"
+  }
+}
