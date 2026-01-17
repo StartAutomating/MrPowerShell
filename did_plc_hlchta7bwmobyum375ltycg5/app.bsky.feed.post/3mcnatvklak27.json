@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768674846292735,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcnatxtwzm23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcnatvklak27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-17T18:34:02.658Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Federal agents' use of chemical weapons has hurt children at immigration raids, while walking down their block, and in their schools.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidjdnctrrlmcno7oyhmjohp2uyjrrliwibli4d7nevwck736ltpti"
+            },
+            "mimeType": "image/jpeg",
+            "size": 506702
+          },
+          "title": "ICE's tear gas sent a 6-month-old to the hospital, the latest in an alarming pattern",
+          "uri": "https://www.motherjones.com/politics/2026/01/ice-tear-gas-on-kids-minneapolis-chicago-chemical-irritant/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PSA"
+            }
+          ],
+          "index": {
+            "byteEnd": 252,
+            "byteStart": 248
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ICE"
+            }
+          ],
+          "index": {
+            "byteEnd": 257,
+            "byteStart": 253
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.motherjones.com/politics/2026/01/ice-tear-gas-on-kids-minneapolis-chicago-chemical-irritant/"
+            }
+          ],
+          "index": {
+            "byteEnd": 294,
+            "byteStart": 259
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Speaking from literally painful experience:\n\nTear gas is a gas.\n\nYou don't have to be a protester to get tear gassed.\n\nYou just have to be downwind of a protest.\n\nTear gas hurts, and if you're young or have a week respiratory system, it can kill.\n\n#PSA #ICE\n\nwww.motherjones.com/politics/202..."
+    },
+    "cid": "bafyreihrovuv4uaglbifwypv6slo5tga2fbf32ne24pjukrzg6hdqssh7a"
+  }
+}
