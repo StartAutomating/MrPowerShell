@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768689172545004,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcno6xeplk22",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcno6wvcxc2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-17T22:32:51.802Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreico5duftdkbtzvyemwyhajzqeyg7c467pa4ukk4bpecw2bjqhpmu4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mcno3xiw722c"
+        },
+        "root": {
+          "cid": "bafyreibbf6lsgbeujpjgjkrnmyaszceaaqt6fnjo3x5tb7exbhrcynoenm",
+          "uri": "at://did:plc:552wqjyuq5dnmc2izzgvudcs/app.bsky.feed.post/3mcl4723yo22n"
+        }
+      },
+      "text": "Procedural languages are the foundation, and they are built around procedural black boxes, often with primitive input and output.\n\nTask-oriented languages make more transparent boxes, with rich input and output.\n\nThese are easier to stack / fit / pipe together."
+    },
+    "cid": "bafyreibamukc64u74solzowm7cewrul4dmlfj2wd6sx2455nz56oyzn65y"
+  }
+}
