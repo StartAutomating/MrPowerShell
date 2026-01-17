@@ -1,0 +1,80 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768689457656666,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcnohhdqob23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcnohh3pes2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-17T22:37:37.224Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "REST"
+            }
+          ],
+          "index": {
+            "byteEnd": 16,
+            "byteStart": 11
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JSON"
+            }
+          ],
+          "index": {
+            "byteEnd": 101,
+            "byteStart": 96
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "XML"
+            }
+          ],
+          "index": {
+            "byteEnd": 107,
+            "byteStart": 103
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 136,
+            "byteStart": 125
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibwwd2q6bufbntco4w6zksapnzaypb3bomhjtlj54jjs7srsudc64",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mcnoehjwqk2c"
+        },
+        "root": {
+          "cid": "bafyreibbf6lsgbeujpjgjkrnmyaszceaaqt6fnjo3x5tb7exbhrcynoenm",
+          "uri": "at://did:plc:552wqjyuq5dnmc2izzgvudcs/app.bsky.feed.post/3mcl4723yo22n"
+        }
+      },
+      "text": "Got a good #REST api?  \n\nInvoke-RestMethod makes it easy to work with them.\n\nYour return can be #JSON, #XML, or plain text.  #PowerShell will convert what it can into objects, and we can all work with it consistently."
+    },
+    "cid": "bafyreiaqvdytkkuk2al6doiugerbj26zyjgdaycgehi6vbjefzdkdzvlsm"
+  }
+}
