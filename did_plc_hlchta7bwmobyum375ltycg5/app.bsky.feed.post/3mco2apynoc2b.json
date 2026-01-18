@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768702118916928,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mco2ardkit2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mco2apynoc2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-18T02:08:36.581Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A Parallax Astroid Morph in SVG, made with Turtle for PowerShell.  This shows a grid of astroids bending in spacetime....",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibev6qi2l4pmhyk74bsafgnzaiebigxf6ybqawdlnhsudfmpefzqi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 226038
+          },
+          "title": "Parallax Astroid Morph",
+          "uri": "https://codepen.io/StartAutomating/pen/KwMWzzG"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "svg"
+            }
+          ],
+          "index": {
+            "byteEnd": 59,
+            "byteStart": 55
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "css"
+            }
+          ],
+          "index": {
+            "byteEnd": 66,
+            "byteStart": 62
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 94,
+            "byteStart": 83
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://codepen.io/StartAutomating/pen/KwMWzzG"
+            }
+          ],
+          "index": {
+            "byteEnd": 143,
+            "byteStart": 117
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I think I'm getting pretty good at making mind melting #svg / #css animations with #PowerShell.\n\nWhat do you think?\n\ncodepen.io/StartAutomat..."
+    },
+    "cid": "bafyreihgvpee5x6zgudubzu6caj5kyjg2pog6kncrswe5kz6tziuccarhy"
+  }
+}
