@@ -1,0 +1,69 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768769804367703,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcpzbxwsna23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcpzbxgfqc2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-18T20:56:43.661Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 48,
+            "byteStart": 44
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MDN"
+            }
+          ],
+          "index": {
+            "byteEnd": 72,
+            "byteStart": 68
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:a4klb3lge3phlc4az4uspfpo"
+            }
+          ],
+          "index": {
+            "byteEnd": 97,
+            "byteStart": 75
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigexa32bavddgcngsnyibneazdgvzh32a3vyepo6lvk4xa7o4jhx4",
+          "uri": "at://did:plc:6qqmyniq667yf2up6aq7qhuw/app.bsky.feed.post/3mcpxvdy2pc2b"
+        },
+        "root": {
+          "cid": "bafyreiahn726ahwz3pokwodkwua562nqfuoemrulhafxmtw3i5y5fwt44q",
+          "uri": "at://did:plc:6bhwtxet24drb6mtjqdmx67n/app.bsky.feed.post/3mcpx36gzvc2v"
+        }
+      },
+      "text": "(almost) everything I've ever learned about #CSS, I've learned from #MDN \n\n@developer.mozilla.org is the best!"
+    },
+    "cid": "bafyreigj7grekqn6e4gddql3ao746b2udwgzig22qckbqsuk3cqc6ju7w4"
+  }
+}
