@@ -1,0 +1,52 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768764737160054,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcpukxkkii2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcpukzbhmc2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-18T19:32:18.869Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "",
+          "title": "Open Packaging Conventions - Wikipedia",
+          "uri": "https://en.wikipedia.org/wiki/Open_Packaging_Conventions"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://en.wikipedia.org/wiki/Open_Packaging_Conventions"
+            }
+          ],
+          "index": {
+            "byteEnd": 141,
+            "byteStart": 109
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie2c4qfnyhakkrjtbsymwnz4fa6cfvmvgac2nxo4k7zmauqawnrbm",
+          "uri": "at://did:plc:3wng2qnttvtg23546ar6bawo/app.bsky.feed.post/3mcpg4nr62c22"
+        },
+        "root": {
+          "cid": "bafyreie2c4qfnyhakkrjtbsymwnz4fa6cfvmvgac2nxo4k7zmauqawnrbm",
+          "uri": "at://did:plc:3wng2qnttvtg23546ar6bawo/app.bsky.feed.post/3mcpg4nr62c22"
+        }
+      },
+      "text": "You'd be amazed at all of the files that are \"zip files in a trenchcoat\"\n\nHere's a list of some of them....\n\nen.wikipedia.org/wiki/Open_Pa..."
+    },
+    "cid": "bafyreibedhab47i5ohsbewqkaat5te54mrvlsbidz42ucyhqrx3tgvzizm"
+  }
+}
