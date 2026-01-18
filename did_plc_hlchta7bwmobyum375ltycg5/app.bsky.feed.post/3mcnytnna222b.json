@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768700605897391,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcnytp4lgn2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcnytnna222b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-18T01:43:24.161Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiczqfzijzvi2bvdmwrwz6oo6d5ocit2oczea7vuf2vmtvgzssaccy",
+          "uri": "at://did:plc:aiec7yq6ugq2qc7pg47f63or/app.bsky.feed.post/3mcnxrqtgak2z"
+        },
+        "root": {
+          "cid": "bafyreifqfsd72lz63u67zrltk37gr3oa4nnwytnshb5jgtjhxvy4y2uqo4",
+          "uri": "at://did:plc:gwfx4qjjq2yhjzrgr5xqcnyz/app.bsky.feed.post/3mcnt6jhtoc2v"
+        }
+      },
+      "text": "I it is pretty horrifying, pretty cool, and pretty useful.\n\nIMO, it's one of the best \"secret\" tricks to know.\n\nA browser source, and all of OBS, can be controlled with a streamkey.\n\nAnd this lets you automate/record/stream _any_ client/server interaction you want.\n\nTruly OP."
+    },
+    "cid": "bafyreia26pc2i2rtzgp2q3dyc5ppdofzgximj57f5dv2o26hw3zrpydagq"
+  }
+}
