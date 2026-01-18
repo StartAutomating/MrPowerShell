@@ -1,0 +1,114 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768769947081971,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcpzg7zq2e26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcpzg7imp22b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-18T20:59:06.34Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreiei6id6wuuxml44zuff3iux6shvmsfgv4bpp2ykssnyg54lckyxiu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.generator/css-js-svg-html"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:i6y3jdklpvkjvynvsrnqfdoq"
+            }
+          ],
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 32
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/did:plc:hlchta7bwmobyum375ltycg5/feed/css-js-svg-html"
+            }
+          ],
+          "index": {
+            "byteEnd": 104,
+            "byteStart": 80
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 121,
+            "byteStart": 114
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 145,
+            "byteStart": 141
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JavaScript"
+            }
+          ],
+          "index": {
+            "byteEnd": 159,
+            "byteStart": 148
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 166,
+            "byteStart": 162
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "HTML"
+            }
+          ],
+          "index": {
+            "byteEnd": 174,
+            "byteStart": 169
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I made this feed last week with @graze.social and just can't get enough of it:\n\nbsky.app/profile/did:...\n\nEndless #WebDev inspiration on:\n\n- #CSS\n- #JavaScript\n- #SVG\n- #HTML\n\n🙏 like, share, and subscribe 🙏"
+    },
+    "cid": "bafyreiepq4rhldxfdln5b5byiwzs7qd4exexz5dwvnyyu7jawe6i6gogiu"
+  }
+}
