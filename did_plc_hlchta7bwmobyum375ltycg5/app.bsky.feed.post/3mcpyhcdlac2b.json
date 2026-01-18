@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768768911804864,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcpyheelv72o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcpyhcdlac2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-18T20:41:49.133Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Even Jake Peralta knows PowerShell has an explosive amount of power.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihwszlc5jus4yq5rqh3z4wjvx6met2scilun76odudr5nxhw4lf2i"
+            },
+            "mimeType": "image/jpeg",
+            "size": 795389
+          },
+          "title": "a group of people behind a concrete wall with the words welcome to the party pal written on it",
+          "uri": "https://media.tenor.com/SpDCx0dMFkIAAAAC/brooklyn-nine-nine-brooklyn99.gif?hh=297&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibj4ucvuun7rtusx3g7p7qwxkc3v4nultckoo3j4opvzhiijyz3le",
+          "uri": "at://did:plc:yzcysybfvjyl5clcahimxila/app.bsky.feed.post/3mcpoodkv6yx2"
+        },
+        "root": {
+          "cid": "bafyreibj4ucvuun7rtusx3g7p7qwxkc3v4nultckoo3j4opvzhiijyz3le",
+          "uri": "at://did:plc:yzcysybfvjyl5clcahimxila/app.bsky.feed.post/3mcpoodkv6yx2"
+        }
+      },
+      "text": "Welcome to the party!\n\nI may be a bit biased, but I think PowerShell's pretty great and that you're nearly guaranteed to have a better time than batch scripting."
+    },
+    "cid": "bafyreicql6teuyeajpqinrajq4frebzcpby24ej55nyj6wsvbtdmkt4hl4"
+  }
+}
