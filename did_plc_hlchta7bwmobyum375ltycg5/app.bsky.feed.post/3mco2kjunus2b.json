@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768702448667956,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mco2kml5ct2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mco2kjunus2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-18T02:14:05.703Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibprmpjlxahrrwogdz5umd5d3wdnp6i6a6vx4nyj26riqq2fncdtu",
+          "uri": "at://did:plc:fmu7xpo2cd4g26vl4dob7cfb/app.bsky.feed.post/3mcmskhql6cs2"
+        },
+        "root": {
+          "cid": "bafyreibprmpjlxahrrwogdz5umd5d3wdnp6i6a6vx4nyj26riqq2fncdtu",
+          "uri": "at://did:plc:fmu7xpo2cd4g26vl4dob7cfb/app.bsky.feed.post/3mcmskhql6cs2"
+        }
+      },
+      "text": "Also 💯 this is worse when you know the Task Scheduler API's capabilities, which exceed the UI's capabilities.\n\nThe UI makes it somewhat easy.  The API is only somewhat awkward but much more overpowered.\n\nFluent multi-trigger tasks are overpowered magic."
+    },
+    "cid": "bafyreihhx4f5ml7dnvlgsyut4kep2lnv5bjlj6doq23epbmaalucpa64l4"
+  }
+}
