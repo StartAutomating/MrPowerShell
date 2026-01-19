@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768864904074816,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcsru64dcv26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcsru5qgcc2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-19T23:21:43.541Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidrz4wsb4fqsjr3wvm5agkaaudf32bmno3svjkm4ltvwqxfeno424",
+          "uri": "at://did:plc:rnjim2raplnls2nnlg4ajywy/app.bsky.feed.post/3mcreq7sbjs2w"
+        },
+        "root": {
+          "cid": "bafyreidrz4wsb4fqsjr3wvm5agkaaudf32bmno3svjkm4ltvwqxfeno424",
+          "uri": "at://did:plc:rnjim2raplnls2nnlg4ajywy/app.bsky.feed.post/3mcreq7sbjs2w"
+        }
+      },
+      "text": "Very nice find!\n\nI find a lot of these \"tiny horizontal scollbar\" issues end up being fixed by setting:\n\nbody { max-width: 100vw }\n\nIf you just set width, it doesn't include the scrollbar's width, so the actual width ends up being 100vw + ~15px."
+    },
+    "cid": "bafyreid3qfopsorhvsup5xreyos5emf5hbp7htptnqjfh6qtfaolgifpbq"
+  }
+}
