@@ -1,0 +1,128 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768784274977013,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcqgraacsp2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcqgr7jnh22v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-19T00:57:54.116Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$ADLIB"
+            }
+          ],
+          "index": {
+            "byteEnd": 27,
+            "byteStart": 21
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$X"
+            }
+          ],
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 34
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$Y"
+            }
+          ],
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 43
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$Z"
+            }
+          ],
+          "index": {
+            "byteEnd": 59,
+            "byteStart": 57
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$X"
+            }
+          ],
+          "index": {
+            "byteEnd": 78,
+            "byteStart": 76
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$Y"
+            }
+          ],
+          "index": {
+            "byteEnd": 81,
+            "byteStart": 79
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$Z"
+            }
+          ],
+          "index": {
+            "byteEnd": 88,
+            "byteStart": 86
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$ADLIB"
+            }
+          ],
+          "index": {
+            "byteEnd": 147,
+            "byteStart": 141
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiendkfb5wwjose6kfaddhjbr2nhxjeuzevi35jgeh7ga7ed6l7jqq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mcqgjpjxh22v"
+        },
+        "root": {
+          "cid": "bafyreiendkfb5wwjose6kfaddhjbr2nhxjeuzevi35jgeh7ga7ed6l7jqq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mcqgjpjxh22v"
+        }
+      },
+      "text": "Now we can do inline $adlib 😆\n\n$X = 'X'\n$Y = 'ruined'\n$Z = 'internet'\n\n\" $X $Y the $Z \"\n\nThis seems like it could be fun.\n\nAnyone got any $adlib to share?"
+    },
+    "cid": "bafyreiefljthu2g6dqfvcfylfjiwtfbei6dcqyxljfid7tri32qswhxlc4"
+  }
+}
