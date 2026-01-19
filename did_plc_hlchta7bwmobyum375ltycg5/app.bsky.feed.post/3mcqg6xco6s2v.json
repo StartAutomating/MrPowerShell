@@ -1,0 +1,70 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768783661979106,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcqg6xlefd2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcqg6xco6s2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-19T00:47:41.519Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "regex"
+            }
+          ],
+          "index": {
+            "byteEnd": 21,
+            "byteStart": 15
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "html"
+            }
+          ],
+          "index": {
+            "byteEnd": 55,
+            "byteStart": 50
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 141,
+            "byteStart": 130
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$HTML"
+            }
+          ],
+          "index": {
+            "byteEnd": 190,
+            "byteStart": 185
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just sharing a #regex to find images and video in #html \n\n~~~regex\nhttps?://\\S+?\\.(jpe?g|png|svg|gif|mp4|web[mp])\n~~~\n\nAs in this #PowerShell example :\n\n~~~PowerShell\n[regex]::matches( $html, 'https?://\\S+?\\.(jpe?g|png|svg|gif|mp4|web[mp])', 'IgnoreCase')\n~~~\n\n😈 have fun!"
+    },
+    "cid": "bafyreie5auvkozeudvafsearrkifnefee22dytygziatrswn6xwdufrm3e"
+  }
+}
