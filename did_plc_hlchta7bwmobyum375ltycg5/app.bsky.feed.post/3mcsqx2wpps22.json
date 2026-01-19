@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768863927061180,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcsqx2deq22q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcsqx2wpps22",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-19T23:05:27.517Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiby355zp7lg7a43cj2y43tnjd7f65vgls6ns7x2cbkdhjm5qtptsa",
+          "uri": "at://did:plc:aupcftxiahd327jpafh4xm3x/app.bsky.feed.post/3mcryk4f4i225"
+        },
+        "root": {
+          "cid": "bafyreiby355zp7lg7a43cj2y43tnjd7f65vgls6ns7x2cbkdhjm5qtptsa",
+          "uri": "at://did:plc:aupcftxiahd327jpafh4xm3x/app.bsky.feed.post/3mcryk4f4i225"
+        }
+      },
+      "text": "I personally would say that the fumble here is not realizing that PowerShell *always* supported prompting and multi word commands.\n\nBuilding a lighter AI language model atop PowerShell is trivial.\n\nWish more people could see it..."
+    },
+    "cid": "bafyreiatu6x54ttvgqkb2itqujoiltgepn4x5o4yp7bwnj25hcyvmbw37u"
+  }
+}
