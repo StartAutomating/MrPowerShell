@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768855206042236,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcsit3gnsl26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcsit2l4ws2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-19T20:40:02.989Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "US president tells Norwegian PM he no longer feels obliged to think ‘purely of peace’ as relations with Europe plunge into chaos",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreib2sw7jcw4c67i4s5rcqg47rvllfm3in36hqve62nckzrzlju34t4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 324958
+          },
+          "title": "Donald Trump links Greenland threats to Nobel snub as EU trade war looms",
+          "uri": "https://www.theguardian.com/us-news/2026/jan/19/donald-trump-greenland-threats-nobel-prize-snub-letter"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.theguardian.com/us-news/2026/jan/19/donald-trump-greenland-threats-nobel-prize-snub-letter"
+            }
+          ],
+          "index": {
+            "byteEnd": 277,
+            "byteStart": 242
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "So let's get this domestic abuser logic right....\n\n\"You didn't give me a prize for being nice, so now I'll be nasty and take Greenland\"\n\nThat's not too far \"look what you made me do\", is it?\n\nAny other DV survivors find this all maddening ?\n\nwww.theguardian.com/us-news/2026..."
+    },
+    "cid": "bafyreietrpnt2gky5l7n73bymk56qbag2h27nbaimxd3ftwkjbvp2ffzj4"
+  }
+}
