@@ -1,0 +1,214 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768784022887848,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcqgjps4rl2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcqgjpjxh22v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-19T00:53:42.468Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TodayILearned"
+            }
+          ],
+          "index": {
+            "byteEnd": 14,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TIL"
+            }
+          ],
+          "index": {
+            "byteEnd": 19,
+            "byteStart": 15
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$HTML"
+            }
+          ],
+          "index": {
+            "byteEnd": 30,
+            "byteStart": 25
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BlueSky"
+            }
+          ],
+          "index": {
+            "byteEnd": 51,
+            "byteStart": 43
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$VAR"
+            }
+          ],
+          "index": {
+            "byteEnd": 99,
+            "byteStart": 95
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$IS"
+            }
+          ],
+          "index": {
+            "byteEnd": 110,
+            "byteStart": 107
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$AS"
+            }
+          ],
+          "index": {
+            "byteEnd": 143,
+            "byteStart": 140
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$EX"
+            }
+          ],
+          "index": {
+            "byteEnd": 251,
+            "byteStart": 248
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$COOL"
+            }
+          ],
+          "index": {
+            "byteEnd": 262,
+            "byteStart": 257
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$STUFF"
+            }
+          ],
+          "index": {
+            "byteEnd": 269,
+            "byteStart": 263
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$ABOUT"
+            }
+          ],
+          "index": {
+            "byteEnd": 276,
+            "byteStart": 270
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$AT"
+            }
+          ],
+          "index": {
+            "byteEnd": 280,
+            "byteStart": 277
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$WOW"
+            }
+          ],
+          "index": {
+            "byteEnd": 285,
+            "byteStart": 281
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$YES"
+            }
+          ],
+          "index": {
+            "byteEnd": 290,
+            "byteStart": 286
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$LOVE"
+            }
+          ],
+          "index": {
+            "byteEnd": 296,
+            "byteStart": 291
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$THIS"
+            }
+          ],
+          "index": {
+            "byteEnd": 302,
+            "byteStart": 297
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#TodayILearned #TIL that $html counts as a #BlueSky hashtag (somehow).  Not $dollar.  It seems $var format $is acceptable now for hashtags, $as long as they are not certain $variable keywords.\n\nLoving this! 😎\n\nWondering what else is $excluded ? $ex ?  \n\n$cool $stuff $about $at\n$wow $yes $love $this"
+    },
+    "cid": "bafyreiendkfb5wwjose6kfaddhjbr2nhxjeuzevi35jgeh7ga7ed6l7jqq"
+  }
+}
