@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768855342840252,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcsix7sxeo2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcsixanfys2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-19T20:42:23.575Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicwlweqy4lp3v3t76of3pqfbmog47a3bc2ujwhv7ltckxeanaxawa",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mcsikroiyc2e"
+        },
+        "root": {
+          "cid": "bafyreideujxwcltrznpa6ttgps6zqbk6sot7taa2ugeidbbszkkqvsxj5q",
+          "uri": "at://did:plc:2btolxxgou2ze2stwytv75vw/app.bsky.feed.post/3mcs3pftimk2s"
+        }
+      },
+      "text": "More sarcasm:\n\nIt's almost like they need this hybrid role between Dev and Ops that can tell them when systems are designed in a way that would adversely impact performance and cost at scale.\n\nThis has always sounded like a PM/Dev decision, not a DevOps/Ops decision."
+    },
+    "cid": "bafyreibt5aettveegbtbgfi2k2kgudnl4zw4a7impudzqj6mxzxe3pl2ia"
+  }
+}
