@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768870866882126,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcsxftgg2u2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcsxft5vfc2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-20T01:01:05.137Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidgbuhrmz7yd6v5dr4xhckqwwy4i4inxrcnnd5rcr633i6e5yfzoe",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3mcsx7jvcr225"
+        },
+        "root": {
+          "cid": "bafyreiby355zp7lg7a43cj2y43tnjd7f65vgls6ns7x2cbkdhjm5qtptsa",
+          "uri": "at://did:plc:aupcftxiahd327jpafh4xm3x/app.bsky.feed.post/3mcryk4f4i225"
+        }
+      },
+      "text": "Not what I mean here.  \n\nI mean writing a language model based off of PowerShell functions as metadata, ideally with a very light probablistic parser as your main shell.\n\nI may need to prototype an example."
+    },
+    "cid": "bafyreiacmofrku2u5xzdjjnfzaifnq3shc56untuar4ln2cbta4or6jnxa"
+  }
+}
