@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768946737142060,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcv62yafob2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcv62xn6ls2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-20T22:05:36.403Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "YouTube video by Hildegard von Blingin'",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiemt4n5fez2ldbnj3ndfpuojwcrkfacvflsavijtft27kni4kgnti"
+            },
+            "mimeType": "image/jpeg",
+            "size": 76621
+          },
+          "title": "We Didn't Start the Fire (Bardcore | Medieval/Renaissance Style Cover)",
+          "uri": "https://youtu.be/drDs-Y5DNH8?si=NA7u9FEHzS1cuiOs"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://youtu.be/drDs-Y5DNH8?si=NA7u9FEHzS1cuiOs"
+            }
+          ],
+          "index": {
+            "byteEnd": 239,
+            "byteStart": 215
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibjal3mp55fimcb4nnmvntz4dybhaeojj32xq3c4wuw4ocerhxrpi",
+          "uri": "at://did:plc:xrspiwserax6shgskcj7grgg/app.bsky.feed.post/3mcv5pnhlfs2m"
+        },
+        "root": {
+          "cid": "bafyreicledvc7h2d6igzv6cudctvmqt4jyt33gpwafjkokd5wjsgoahcqa",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mcv5iy5ewk2y"
+        }
+      },
+      "text": "Honestly they've done a bunch of amazing videos.\n\nI'd say their \"hit rate\" is like 90%.\n\nWould also highly recommend their \"We Didn't Start the Fire\" video, if only for the historically accurate trivia / lyrics...\n\nyoutu.be/drDs-Y5DNH8?..."
+    },
+    "cid": "bafyreibipvlchyr6st5k264dhlz2jwk5kkbmn6lhzqshyusxrwvh5x7ndy"
+  }
+}
