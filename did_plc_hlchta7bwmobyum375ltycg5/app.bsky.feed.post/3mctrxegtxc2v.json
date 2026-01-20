@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768899373040294,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mctrxfyxuo2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mctrxegtxc2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-20T08:56:10.969Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Spock would have absolutely rocked the command line, and Data would type too quickly to be seen.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreielzlloxnapzyaulw6jiy7b3ubsfqftsb62qhgp4mhjwk37gwuazy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 579972
+          },
+          "title": "a man says \" it is the only logical conclusion \" in front of another man",
+          "uri": "https://media.tenor.com/2IEPOv5FRiMAAAAC/star-trek-tng.gif?hh=375&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihonv2wjoq7dpq33cdueif6yvjx7q6by7eufvpkegprq3je5hi67q",
+          "uri": "at://did:plc:3ls2ei5dm7e5gymlwny2dygw/app.bsky.feed.post/3mctp7aewqk2s"
+        },
+        "root": {
+          "cid": "bafyreigj7mej5p3x3vsmrztl5g656ijoesa3l6zeutccisqrusjxdh3xmi",
+          "uri": "at://did:plc:3ls2ei5dm7e5gymlwny2dygw/app.bsky.feed.post/3mctollklpc2s"
+        }
+      },
+      "text": "💯 it is absolutely insane how many times I brought up this exact example as a goal for PowerShell.\n\nBasically the talking point was \"we'll never get to a Star Trek future if we don't have a syntactically consistent logical layer\" (like Cmdlets).\n\n🖖"
+    },
+    "cid": "bafyreiephxhtmtccwoxq3zjtx4xh6yev4bsowf42yhmzipvwtvjig2yk5a"
+  }
+}
