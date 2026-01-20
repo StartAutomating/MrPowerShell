@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768900865143867,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcttds4j672k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcttdrokk22v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-20T09:21:01.248Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Grok"
+            }
+          ],
+          "index": {
+            "byteEnd": 130,
+            "byteStart": 125
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "StarTrek"
+            }
+          ],
+          "index": {
+            "byteEnd": 142,
+            "byteStart": 133
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "StarfleetProblems"
+            }
+          ],
+          "index": {
+            "byteEnd": 161,
+            "byteStart": 143
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiepuperbg7omobxrfqrcqgdjb53sqyhrta7aozci2c4y4zcbxdpta",
+          "uri": "at://did:plc:3ls2ei5dm7e5gymlwny2dygw/app.bsky.feed.post/3mctsno3yzc2s"
+        },
+        "root": {
+          "cid": "bafyreigj7mej5p3x3vsmrztl5g656ijoesa3l6zeutccisqrusjxdh3xmi",
+          "uri": "at://did:plc:3ls2ei5dm7e5gymlwny2dygw/app.bsky.feed.post/3mctollklpc2s"
+        }
+      },
+      "text": "Fair.  Kinda horrifying to think that the Holodecks/suites we've seen portrayed on screen seem to have fewer safeguards than #Grok.\n\n#StarTrek #StarfleetProblems"
+    },
+    "cid": "bafyreiaenq25vmf6nam5bxeprwtuisjsmo2m55jptzuyzawlyi735z3jj4"
+  }
+}
