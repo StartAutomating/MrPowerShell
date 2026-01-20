@@ -1,0 +1,62 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768946134845248,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcv5iz2tc524",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcv5iy5ewk2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-20T21:55:32.954Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "YouTube video by Hildegard von Blingin'",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiftu44bks4wkzogsofu57ucwsvqt4akidkfuz35dlfm6a2vv7pgma"
+            },
+            "mimeType": "image/jpeg",
+            "size": 66002
+          },
+          "title": "Losing My Religion - R.E.M. (Bardcore | Medieval Style Cover)",
+          "uri": "https://youtu.be/_oh6OrO9_Dk?si=E7Sxp7KdT_06xQxa"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Bardcore"
+            }
+          ],
+          "index": {
+            "byteEnd": 38,
+            "byteStart": 29
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://youtu.be/_oh6OrO9_Dk?si=E7Sxp7KdT_06xQxa"
+            }
+          ],
+          "index": {
+            "byteEnd": 127,
+            "byteStart": 103
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Any day where there is a new #Bardcore is a good day.\n\nAnother new classic by Hildegard von Blingin'!\n\nyoutu.be/_oh6OrO9_Dk?..."
+    },
+    "cid": "bafyreicledvc7h2d6igzv6cudctvmqt4jyt33gpwafjkokd5wjsgoahcqa"
+  }
+}
