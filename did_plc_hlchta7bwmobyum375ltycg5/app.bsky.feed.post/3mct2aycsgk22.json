@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768873925777096,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mct2axnf4q23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mct2aycsgk22",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-20T01:52:03.993Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib7w7uccc2tejrgye3fazvtqlzqs4eactnhwjq64zbczzlcq4kyoy",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3mcszajq7ls2b"
+        },
+        "root": {
+          "cid": "bafyreicxhja7nwzcfj3ynrnclzy6hqtakiitr3yvy2nvyerzm5qqgzqegq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mcsxphurg22u"
+        }
+      },
+      "text": "If I hazard a guess, it's that there may be a larger chunk of JavaScript programmers that only know one programming language.\n\nI'm suggesting that from my anecdotal evidence, JavaScript developers seem less inclined to learn other languages than most programmers."
+    },
+    "cid": "bafyreihxj4o3o67rt37aerxeiyx7cymip2d66f6prnpvdnnkwmvummlymy"
+  }
+}
