@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768899524230416,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcts3wf5la2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcts3vxsg22v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-20T08:58:43.568Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://memory-alpha.fandom.com/wiki/Leah_Brahms"
+            }
+          ],
+          "index": {
+            "byteEnd": 297,
+            "byteStart": 258
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigj7mej5p3x3vsmrztl5g656ijoesa3l6zeutccisqrusjxdh3xmi",
+          "uri": "at://did:plc:3ls2ei5dm7e5gymlwny2dygw/app.bsky.feed.post/3mctollklpc2s"
+        },
+        "root": {
+          "cid": "bafyreigj7mej5p3x3vsmrztl5g656ijoesa3l6zeutccisqrusjxdh3xmi",
+          "uri": "at://did:plc:3ls2ei5dm7e5gymlwny2dygw/app.bsky.feed.post/3mctollklpc2s"
+        }
+      },
+      "text": "I honestly have more legal / privacy / safety concerns about the holodeck than anything else.\n\nLike call me crazy if you will, but I feel like a lot of the stuff Barclay and Geordi got up to would be potential grounds for dismissal.\n\nTeam Leah Brahms here.\n\nmemory-alpha.fandom.com/wiki/Leah_Br..."
+    },
+    "cid": "bafyreigbxyj3tg2kjdfusjizepqinoxdpy6m4zcl4w2zv37ilye44ia7ve"
+  }
+}
