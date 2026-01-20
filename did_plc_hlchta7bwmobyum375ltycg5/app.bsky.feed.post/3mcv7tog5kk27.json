@@ -1,0 +1,71 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1768948640290716,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcv7tp6vh323",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcv7tog5kk27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-20T22:37:19.338Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "YouTube"
+            }
+          ],
+          "index": {
+            "byteEnd": 66,
+            "byteStart": 58
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BlueSky"
+            }
+          ],
+          "index": {
+            "byteEnd": 85,
+            "byteStart": 77
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 103,
+            "byteStart": 91
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:oc6vwdlmk2kqyida5i74d3p5"
+            }
+          ],
+          "index": {
+            "byteEnd": 300,
+            "byteStart": 282
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "One of these days I'm going to remember not to fullscreen #YouTube videos on #BlueSky on a #RaspberryPi\n\nUntil then, I'll be like:\n\n\"Why did you forget not to do this?\"\n\"Why is the browser window pinned to front and frozen?\"\n\"How long will I wait to shut up and reboot?\"\n\n😞🫤\n\n@support.bsky.team"
+    },
+    "cid": "bafyreic4tvq2nclxhowkgv6q77xcgivrptj2a6e4psndipa3gbzber5ez4"
+  }
+}
