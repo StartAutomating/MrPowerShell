@@ -1,0 +1,122 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769029253693030,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcxkw63yap2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcxkw3lick2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-21T21:00:50.89Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "What if you could hand someone a PowerShell environment with zero installation, zero risk to your systems, and instant feedback? Microsoft MVP James Brundage is building ex",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreievdw6bwwdhpxu6pmbfutwnbhwu6forkcbflfo5b2yk2ud7i3evta"
+            },
+            "mimeType": "image/jpeg",
+            "size": 712362
+          },
+          "title": "PowerShell in the Browser: Safe Sandboxes and Interactive Learning, Wed, Jan 21, 2026, 8:00 PM   | Meetup",
+          "uri": "https://www.meetup.com/research-triangle-powershell-users-group/events/312984170/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 44,
+            "byteStart": 33
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.meetup.com/research-triangle-powershell-users-group/events/312984170/"
+            }
+          ],
+          "index": {
+            "byteEnd": 107,
+            "byteStart": 77
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 149,
+            "byteStart": 138
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 199,
+            "byteStart": 192
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 222,
+            "byteStart": 218
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "HTML"
+            }
+          ],
+          "index": {
+            "byteEnd": 246,
+            "byteStart": 241
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 255,
+            "byteStart": 251
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I can't wait for everyone to see #PowerShell running safely in the browser!\n\nwww.meetup.com/research-tri...\n\nDrop by even if you're not a #PowerShell person.  Learn how you can do interactive #WebDev, generate endless #SVG shapes, play with #HTML and #CSS, and much more!\n\n5pm pacific / 8 eastern"
+    },
+    "cid": "bafyreiheimt4sodag7hhqzgdgnj6acfuehshj3fxiih2z2a43zind343um"
+  }
+}
