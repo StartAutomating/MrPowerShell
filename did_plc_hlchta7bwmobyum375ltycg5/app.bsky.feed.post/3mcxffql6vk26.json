@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769023332657826,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcxffpe3m22y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcxffql6vk26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-21T19:22:13.758Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidtjf4d4lxafs5yirczygto3yjrvd7dlow6naf62q45f2bo47m25a",
+          "uri": "at://did:plc:7pe2sey6e3xu52pwffdm5y2i/app.bsky.feed.post/3mcxf4l4wmk2z"
+        },
+        "root": {
+          "cid": "bafyreidtjf4d4lxafs5yirczygto3yjrvd7dlow6naf62q45f2bo47m25a",
+          "uri": "at://did:plc:7pe2sey6e3xu52pwffdm5y2i/app.bsky.feed.post/3mcxf4l4wmk2z"
+        }
+      },
+      "text": "Short answer: it means nothing.\n\nMedium answer: it means I/others were right on this one.\n\nLong answer: it means someone once thought there needed to be a version in that directory, won an argument, and, due to back compat, that versioned directory can never change.\n\n🤷😂😭"
+    },
+    "cid": "bafyreiebibj6ldyndrhqnqre2o5wsod43p5ljuvofu2r4lojyoa5hl37fi"
+  }
+}
