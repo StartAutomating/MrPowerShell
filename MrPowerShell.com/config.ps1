@@ -385,6 +385,7 @@ $sitebackgrounds = @(
 $siteBackground = $sitebackgrounds | Get-Random
         
 $site.Background = . $siteBackground|
+    Set-Turtle Id "turtle" | 
     Set-Turtle PatternAnimation $backgroundPatternAnimations |
     Set-Turtle PathAttribute @{opacity=.2} |
     Select-Object -ExpandProperty Pattern
