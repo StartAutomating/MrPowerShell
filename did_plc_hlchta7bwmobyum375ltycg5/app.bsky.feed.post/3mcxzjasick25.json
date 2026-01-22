@@ -1,0 +1,110 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769045019579464,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcxzlzb2ct2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcxzjasick25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-22T01:22:06.282Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Turtle Graphics in PowerShell. Contribute to PowerShellWeb/Turtle development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreianms4l5oadh7y5iw7oo4zeaxkyroqo6rarmuzfkvoghct6o7ti5m"
+            },
+            "mimeType": "image/jpeg",
+            "size": 997516
+          },
+          "title": "GitHub - PowerShellWeb/Turtle: Turtle Graphics in PowerShell",
+          "uri": "https://github.com/PowerShellWeb/Turtle"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 71,
+            "byteStart": 64
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShellWeb/Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 101,
+            "byteStart": 75
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 120,
+            "byteStart": 116
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JamStack"
+            }
+          ],
+          "index": {
+            "byteEnd": 189,
+            "byteStart": 180
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "StaticSiteGenerator"
+            }
+          ],
+          "index": {
+            "byteEnd": 210,
+            "byteStart": 190
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Hey #PowerShell people, new toys are out!\n\nFirst up new bits of #Turtle :\n\ngithub.com/PowerShellWe...\n\nMake endless #SVG graphics with simple scripts, and drop them right into any #JamStack #StaticSiteGenerator ."
+    },
+    "cid": "bafyreif3wievubidue5tbroqtok4hg2f4ll2jguxd26jwnrvrx26z3ezyq"
+  }
+}
