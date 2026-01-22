@@ -69,7 +69,27 @@ foreach ($post in $myPosts) {
     foreach ($facet in $post.commit.record.facets) {
         foreach ($feature in $facet.features) {
             if ($feature.'$type' -eq 'app.bsky.richtext.facet#mention') {
-                $resolvedMention = $post.commit.record.text.Substring($facet.index.byteStart, $facet.index.byteEnd - $facet.index.byteStart)
+                $byteStart, $byteEnd = $facet.index.byteStart, $facet.index.byteEnd
+                if ($facet.index.byteEnd -gt $post.commit.record.text.Length) {
+                    # When using emoji, byteStart/end are not exactly accurate.
+                    foreach ($rune in $post.commit.record.text.EnumerateRunes()) {
+                        if ($rune.Utf16SequenceLength -gt 1) {
+                            $byteStart -= ($rune.Utf16SequenceLength - 1)
+                            $byteEnd -= ($rune.Utf16SequenceLength - 1)
+                        }
+                    }
+                    # skip for now
+                    continue
+                }
+
+                $resolvedMention = try {
+                    $post.commit.record.text.Substring($byteStart, $byteEnd - $byteStart)
+                } catch {
+                    continue
+                }
+                if (-not $resolvedMention) {
+                    $null= $null
+                }
                 $didMap[$resolvedMention] = $feature.did
                 if (-not $postsByMention[$resolvedMention]) {
                     $postsByMention[$resolvedMention] = @()
