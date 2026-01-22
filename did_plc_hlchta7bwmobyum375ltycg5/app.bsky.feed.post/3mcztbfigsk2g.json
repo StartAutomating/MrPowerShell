@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769106940558739,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mcztbg3z7g2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mcztbfigsk2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-22T18:35:39.786Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidxttlmisyyhqobbbxcslnobos3pqeoduw7cnbveaqcxmsdze7rre",
+          "uri": "at://did:plc:rnjim2raplnls2nnlg4ajywy/app.bsky.feed.post/3mcz2vic2wk2k"
+        },
+        "root": {
+          "cid": "bafyreidrz4wsb4fqsjr3wvm5agkaaudf32bmno3svjkm4ltvwqxfeno424",
+          "uri": "at://did:plc:rnjim2raplnls2nnlg4ajywy/app.bsky.feed.post/3mcreq7sbjs2w"
+        }
+      },
+      "text": "Thanks for clarifying!  \n\nI suspected you had a good reason to find such an interesting trick.\n\nThanks for sharing the context in which anyone might need it!"
+    },
+    "cid": "bafyreic76x5zlyw4mwsfmfcy72sceoistxsidte7findoanbfl6tetramq"
+  }
+}
