@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769124676958950,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md2drytjv32q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md2drydaqs2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-22T23:31:16.279Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif7u2ln6vzdym7f5r43tyxrtkfzpwmw525ovprrfnxlj6otbdtjmy",
+          "uri": "at://did:plc:k54achhksfhvlp5jd3rzv32h/app.bsky.feed.post/3mczzxqwiac23"
+        },
+        "root": {
+          "cid": "bafyreierh3t3qeds65pjug5rj7mcrxy3fd6af7yyt5sjennscylwnhboye",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mcxycmludc25"
+        }
+      },
+      "text": "It most definitely was.  Not sure when the rtpsug will upload it (but they tend to be far more prompt than I)"
+    },
+    "cid": "bafyreig7xat7vo275df23xf4kaitcps7n6d7hf67sb4eh6r7nbyycb4mcm"
+  }
+}
