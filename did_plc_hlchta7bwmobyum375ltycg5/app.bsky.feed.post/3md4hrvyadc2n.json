@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769197688910010,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md4hrwgkjv2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md4hrvyadc2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-23T19:48:08.265Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicwnilzjf3vgczkc7zh2h7drdxn6fmyrrsgb4eqhszktbuxq2cmcu",
+          "uri": "at://did:plc:ywbm3iywnhzep3ckt6efhoh7/app.bsky.feed.post/3md4djxepw22j"
+        },
+        "root": {
+          "cid": "bafyreietx3yqpd3ygb6d36qajxjqepsvfgomzrxolqmlhtwb5qnvnquthe",
+          "uri": "at://did:plc:ywbm3iywnhzep3ckt6efhoh7/app.bsky.feed.post/3md4djwkvqk2j"
+        }
+      },
+      "text": "1st:\n\nIMO, this guess is probably right.  There is a setting to use an existing shell in vscode tasks ( but I sadly don't remember it off the top of my head ).\n\n2nd:\n\nWithout seeing the script I can't guess too much, but you might wanna make parameters and make em Mandatory.\n\nThat'll prompt better"
+    },
+    "cid": "bafyreifsjlqi2fxparrmsuyqw6roj35dtu4rbw4ty6ttb4k7z632ijkcb4"
+  }
+}
