@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769199949576799,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md4jvbmazw26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md4jva5dpc2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-23T20:25:47.066Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Sheeve Palpatine tries to channel unlimited PowerShell, but forgets the -Force does not like him.\n\nWhoopsie.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihbqsio3l7mbddslqd4n2xwv7jfx3jiois54bamccmsplcpy6pdbq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 412397
+          },
+          "title": "a man is screaming with the words \" unlimited power \" behind him",
+          "uri": "https://media.tenor.com/iVNXJisqtQ4AAAAC/power-starwars.gif?hh=214&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidheq532v4y6vvcgaiip5qpp4rxpxavkf2r42roreyip2tyeb4zv4",
+          "uri": "at://did:plc:6ytjiuuw65nyvjzawnmgkruo/app.bsky.feed.post/3md47miaxh22i"
+        },
+        "root": {
+          "cid": "bafyreidheq532v4y6vvcgaiip5qpp4rxpxavkf2r42roreyip2tyeb4zv4",
+          "uri": "at://did:plc:6ytjiuuw65nyvjzawnmgkruo/app.bsky.feed.post/3md47miaxh22i"
+        }
+      },
+      "text": "So many characters and languages to choose from... ( I try not to pick favorites)\n\nHere's 3:\n\nData is obviously a polymath proficient in C/ASM.\n\nNaomi Nagata nearly needs R for orbits, but can probably get Rusty.\n\nSheev Palpatine's love of PowerShell is well-documented."
+    },
+    "cid": "bafyreiclgcocy2wnqhyeqovsckppcywsinwnnoaiigfov5zjn6wxju5yby"
+  }
+}
