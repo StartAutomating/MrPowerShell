@@ -1,0 +1,65 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769201659308592,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md4liafoqh26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md4li26n522j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-23T20:54:12.091Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "One of my old life mantras was:\n\nTry to make a better language than Ruby and try to be a better person than David Heinemeier Hansson.\n\nBoth of these are low bars to vault over, but good life goals.",
+            "aspectRatio": {
+              "height": 270,
+              "width": 202
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreic7ashcsgfgx7nz22hmt6d2chiebju4zf2wllgtatvungq4jmm3sy"
+              },
+              "mimeType": "image/jpeg",
+              "size": 61719
+            }
+          },
+          {
+            "alt": "Jerome Valaska may not _officially_ be the Joker, but we all know that's only for legal reasons.  \n\nThey're smiling because another developer decided to try Ruby on Rails.",
+            "aspectRatio": {
+              "height": 1080,
+              "width": 1080
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiggub3gefqyqipwrxmrehiosqvhg4e35hivt3hlxniyqflw4vrtem"
+              },
+              "mimeType": "image/jpeg",
+              "size": 887493
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicoxfg3jitmsjlni3ksslh3fhel2afx7rbptze26srjdf6732i3ey",
+          "uri": "at://did:plc:6ytjiuuw65nyvjzawnmgkruo/app.bsky.feed.post/3md4ieia7322z"
+        },
+        "root": {
+          "cid": "bafyreidheq532v4y6vvcgaiip5qpp4rxpxavkf2r42roreyip2tyeb4zv4",
+          "uri": "at://did:plc:6ytjiuuw65nyvjzawnmgkruo/app.bsky.feed.post/3md47miaxh22i"
+        }
+      },
+      "text": "You're right!\n\nHonestly the similarity is a little uncanny."
+    },
+    "cid": "bafyreiervvstf5ae5ypwn37pjwfctzyzgdav3ts7edtf5hkzbiqipedaze"
+  }
+}
