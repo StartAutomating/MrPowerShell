@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769204433744112,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md4o2wtfv42q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md4o2whnns2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-23T21:40:33.211Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifmqfcpli3hds2zpf6qobmnj33fbp6wkoltqcwbhugfk5cw3l4dkm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3md4m27sbfk2j"
+        },
+        "root": {
+          "cid": "bafyreifmqfcpli3hds2zpf6qobmnj33fbp6wkoltqcwbhugfk5cw3l4dkm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3md4m27sbfk2j"
+        }
+      },
+      "text": "Getting personal about this for a sec...\n\nThe video mentions how departments sometimes threaten to not investigate as a response to civic pushback.\n\nI live about 6 blocks from what was CHOP/CHAZ.\n\nSince then, SPD has basically held a grudge.\n\n8 of my neighbors were killed in 2020.\n\nWT actual F."
+    },
+    "cid": "bafyreihspkaaxkwcygo74cpu7x7m7u7xdtnpf4j653kuk4zb7pgnzvaoum"
+  }
+}
