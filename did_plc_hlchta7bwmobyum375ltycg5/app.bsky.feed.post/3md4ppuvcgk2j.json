@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769206210305574,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md4ppv2sfs2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md4ppuvcgk2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-23T22:10:09.947Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihdsqeuapq6qqew7g2bhpfnhx3jscjz7galunqhkv7v46pfuijniy",
+          "uri": "at://did:plc:vnahn6jtrxybtydwsxjeogiz/app.bsky.feed.post/3md4nuulqbf2c"
+        },
+        "root": {
+          "cid": "bafyreicrczpgpqhfjzqrpqhl7o7qlrpimcd3apxg37tz2vaa5l23ap7iru",
+          "uri": "at://did:plc:vnahn6jtrxybtydwsxjeogiz/app.bsky.feed.post/3md4hkgmouc2c"
+        }
+      },
+      "text": "I'd also guess that the new events are auditing improvements brought on by security review.  That is to say, it's (probably) a feature designed to address these concerns.\n\nJust kinda hard for \"everyone\" to get the memo when \"everyone\" -eq \"every Windows user on earth\""
+    },
+    "cid": "bafyreidlip5j7bqbdjvaita4pw4ghjymgjp6z3zykkivor3xvkwncetica"
+  }
+}
