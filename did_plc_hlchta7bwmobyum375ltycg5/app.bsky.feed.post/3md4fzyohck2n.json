@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769195812781110,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md4fzzadnk26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md4fzyohck2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-23T19:16:52.041Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiakmahsxzkgbc77k7z5kvfrl6ol6mpt4fmffetaznfm5xpkgjsbzq",
+          "uri": "at://did:plc:2zmxikig2sj7gqaezl5gntae/app.bsky.feed.post/3md45d3pbi22v"
+        },
+        "root": {
+          "cid": "bafyreibamrqecvwo5ihe7dwaw3bvllzl3ctcnzry7nforasjnrrrc6cgle",
+          "uri": "at://did:plc:2zmxikig2sj7gqaezl5gntae/app.bsky.feed.post/3md2qyissc22g"
+        }
+      },
+      "text": "Ah, that explains the misunderstanding.\n\nA breadth first engineer that can actually go deep is what defines S-tier for me.\n\nLike if I put myself there, it's not the depth of expertise in PowerShell... It's the breadth of things I've done over time.\n\nYou're S-Tier"
+    },
+    "cid": "bafyreif52udtngqrxsyjjfdt27louzygyuug6rje2qt525zjlg4z3odi5m"
+  }
+}
