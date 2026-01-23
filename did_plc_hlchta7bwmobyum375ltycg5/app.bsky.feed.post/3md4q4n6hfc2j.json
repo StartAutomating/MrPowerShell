@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769206638866351,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md4q4nptd22q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md4q4n6hfc2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-23T22:17:18.066Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihetjm2bfy4frvrnzxkhelf4soepvxnfm6gavcajgp43qtjfc3bai",
+          "uri": "at://did:plc:vnahn6jtrxybtydwsxjeogiz/app.bsky.feed.post/3md4pwvfhyf2c"
+        },
+        "root": {
+          "cid": "bafyreicrczpgpqhfjzqrpqhl7o7qlrpimcd3apxg37tz2vaa5l23ap7iru",
+          "uri": "at://did:plc:vnahn6jtrxybtydwsxjeogiz/app.bsky.feed.post/3md4hkgmouc2c"
+        }
+      },
+      "text": "Right & the fact that there are new events means they were accountable and added auditing.\n\nIf it's something they can't see/do, that's a \"capability gap\", and, IMO, their problem.\n\nIf it's something people don't know, that's an \"awareness gap\"\n\nCan't tool your way out of a people problem."
+    },
+    "cid": "bafyreifnk3qwm5widwczvrcgnxfjrkoawuefb7w4jirrznzr7gddzp6c7y"
+  }
+}
