@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769145969342794,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md2xmkaakc2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md2xmjnxtk2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-23T05:26:07.967Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidufux4kticrxqymiftykkeu7xhnwhl6jnl522qpovj36trwmkdbe",
+          "uri": "at://did:plc:n5fpirhfkxxbszmbv64tnsmi/app.bsky.feed.post/3md2wwj5iyc2p"
+        },
+        "root": {
+          "cid": "bafyreidlm7qlgj7camfqjuw7y5bdvysacdldmqyunsaomp4njdtawbgtni",
+          "uri": "at://did:plc:n5fpirhfkxxbszmbv64tnsmi/app.bsky.feed.post/3md2rfeqloc2x"
+        }
+      },
+      "text": "Congratulations!\n\nYeah that does sound weird.  Environment variable corruption (especially of %path%) could explain the behavior though.\n\nYour logs might still have the error, if you wanted to share it I can give a more confident educated guess."
+    },
+    "cid": "bafyreiaahiuh6flioqh5eefqg4zlt5ixjginzkajbf4q7z3v5a4bguglwa"
+  }
+}
