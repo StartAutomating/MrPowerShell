@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769196412307398,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md4gluyxx42s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md4glujbsk2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-23T19:26:51.657Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihafhquwhlcwq3xvtbo3fl35c3njedi7devu3kodqfvt433sw7f7y",
+          "uri": "at://did:plc:ppky7idrh4zvqizb7jrfiwhj/app.bsky.feed.post/3md3xhz2r632i"
+        },
+        "root": {
+          "cid": "bafyreibamrqecvwo5ihe7dwaw3bvllzl3ctcnzry7nforasjnrrrc6cgle",
+          "uri": "at://did:plc:2zmxikig2sj7gqaezl5gntae/app.bsky.feed.post/3md2qyissc22g"
+        }
+      },
+      "text": "Maybe you should.\n\nI'd say you shouldn't feel too bad about the \"inches and goal\".\n\nI've got quite a few projects that are in that state, because those final inches towards release can be tedious *and* hard when the first version grows big."
+    },
+    "cid": "bafyreidhxgojf4staszwipvbljltsqs2pipnze5dt3lnkng5re5fjok5pm"
+  }
+}
