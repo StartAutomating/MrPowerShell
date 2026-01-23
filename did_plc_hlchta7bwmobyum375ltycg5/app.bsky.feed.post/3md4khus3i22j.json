@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769200573380316,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md4khv2fkr2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md4khus3i22j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-23T20:36:12.697Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih65yfhqirptmv5hj4kkr7yu5q6rft37wjzxffdy6yeimtogcpah4",
+          "uri": "at://did:plc:vnahn6jtrxybtydwsxjeogiz/app.bsky.feed.post/3md4j7ovdpn2c"
+        },
+        "root": {
+          "cid": "bafyreicrczpgpqhfjzqrpqhl7o7qlrpimcd3apxg37tz2vaa5l23ap7iru",
+          "uri": "at://did:plc:vnahn6jtrxybtydwsxjeogiz/app.bsky.feed.post/3md4hkgmouc2c"
+        }
+      },
+      "text": "Trust me, you don't want to know how annoying deciding global error ids was (and maybe is).\n\nPre-Vista things got so bad that Microsoft made a whole new eventing subsystem.\n\nPartially for speed.\n\nLargely so that everyone got their own log and stopped cluttering the SYSTEM log."
+    },
+    "cid": "bafyreiena5argc7fkcaem3dapkovppixcpm4ukxvurpcp4646trf456zae"
+  }
+}
