@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769151498540143,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md34rdwp4x23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md34rdggsc2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-23T06:58:17.909Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidwkznb5ttf4ejjbtysh3nttciv5znup34yinbdq6fmo5ozflsw3u",
+          "uri": "at://did:plc:ppky7idrh4zvqizb7jrfiwhj/app.bsky.feed.post/3md2zxirr422i"
+        },
+        "root": {
+          "cid": "bafyreibamrqecvwo5ihe7dwaw3bvllzl3ctcnzry7nforasjnrrrc6cgle",
+          "uri": "at://did:plc:2zmxikig2sj7gqaezl5gntae/app.bsky.feed.post/3md2qyissc22g"
+        }
+      },
+      "text": "I'll bite and ask...\n\nWhat got you super into PowerShell?\n\nWhat'd you end up doing with it?"
+    },
+    "cid": "bafyreibn3qpa6nuuokyrralt6r7en3ywor2oq6cq65amqemurn3saxr3qa"
+  }
+}
