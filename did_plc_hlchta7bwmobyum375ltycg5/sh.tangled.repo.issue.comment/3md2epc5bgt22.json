@@ -1,0 +1,18 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769125660470560,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md2epcmi7z2u",
+    "operation": "create",
+    "collection": "sh.tangled.repo.issue.comment",
+    "rkey": "3md2epc5bgt22",
+    "record": {
+      "$type": "sh.tangled.repo.issue.comment",
+      "body": "I've been thinking this thru as a well, and while I'm not sure a timestamp id is the _best_ solution, I actually think it might have some unexpected benefits.\n\nIf I'm thinking of exposing a public url for a standard.site.document, it's already effectively provided me with a unique(ish) identifier with the `.path`\n\nNow imagine I update the content.\n\nMy new record has the same `.path`, but a different rkey and different timestamp.  So if I'm rebuilding the site, I know which is newer, and can either only display the correct link or give people the option to \"view history\" by looking at previous records.\n\nInitially I _felt_ I would want a key to match the path, until I realized that the timestamp gives me this additional feature \"for free\".\n\nNow let's flip it around:\n\nImagine I'm migrating / publishing content to standard.site from a \"non-standard\" source.\n\nIf I have a final url where content might lie, I can look at my own feed to see if that content has already been published.  If it has not been published, I can then publish it.  If it already has been published, I can check if it changes (and, if it has, I can update it).\n\nOnce again, the ability to have multiple \"keys\" for a given url is helpful, because it gives me a revision history (and can help me avoid \"spamming\" at proto when migrating/syncing/publishing content).\n\nAnd so I've come around to believing that tid is really the right rkey.\n\nThis is just me sharing my thoughts on this issue; please let me know if those thoughts make sense and if you have any additional thoughts to share.\n",
+      "createdAt": "2026-01-22T23:47:39+00:00",
+      "issue": "at://did:plc:6e7msnu5o3mdboitzv7oxbxm/sh.tangled.repo.issue/3mcrd7dbdl722"
+    },
+    "cid": "bafyreics6pkbsy6zww5acoboxc2eksn7k6mjsbsv2n4cy6brouzfqkgzty"
+  }
+}
