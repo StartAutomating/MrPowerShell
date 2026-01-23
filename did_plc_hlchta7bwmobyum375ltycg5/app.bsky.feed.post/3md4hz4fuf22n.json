@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769197930540362,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md4hz4vtd62y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md4hz4fuf22n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-23T19:52:09.884Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibxihtzpnomnumvo6wwyttajileuh34dxfocvcpcjgoqxkvhu6mqe",
+          "uri": "at://did:plc:ywbm3iywnhzep3ckt6efhoh7/app.bsky.feed.post/3md4eozhjms2j"
+        },
+        "root": {
+          "cid": "bafyreietx3yqpd3ygb6d36qajxjqepsvfgomzrxolqmlhtwb5qnvnquthe",
+          "uri": "at://did:plc:ywbm3iywnhzep3ckt6efhoh7/app.bsky.feed.post/3md4djwkvqk2j"
+        }
+      },
+      "text": "Not everyone.....\n\nTo all the PowerShell haters out there: please don't suggest people switch languages mid problem.\n\nIMO it's pretty rude and dismissive.  Lightly insults them, their choices, and the language.\n\nAs to what you should do:\n\nMake mandatory parameters\nRun the task in existing shell."
+    },
+    "cid": "bafyreigtxclfrnmjf27a6o2fdu55j2zqmvjb66ienies3nlbx3trppfeby"
+  }
+}
