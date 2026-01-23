@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769144859374015,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md2wlibe5j2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md2wljfim224",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-23T05:07:40.392Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidlm7qlgj7camfqjuw7y5bdvysacdldmqyunsaomp4njdtawbgtni",
+          "uri": "at://did:plc:n5fpirhfkxxbszmbv64tnsmi/app.bsky.feed.post/3md2rfeqloc2x"
+        },
+        "root": {
+          "cid": "bafyreidlm7qlgj7camfqjuw7y5bdvysacdldmqyunsaomp4njdtawbgtni",
+          "uri": "at://did:plc:n5fpirhfkxxbszmbv64tnsmi/app.bsky.feed.post/3md2rfeqloc2x"
+        }
+      },
+      "text": "That does sound very weird.\n\nOut of curiosity, does the event log  capture the status code?\n\nDoes it close when you run the script or as soon as it opens?\n\nSame thing happen with -NoProfile?\n\n( Sorry, this is weird and has engaged my debugger brain )"
+    },
+    "cid": "bafyreie726cqrwo5f6jhkn5myyuplp3beqxqllw3y4fo4cpz6mx3i4z7s4"
+  }
+}
