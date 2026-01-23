@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769200044089225,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md4jy4hkdh26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md4jy3zgpk2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-23T20:27:23.407Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicdcu2sqv5e5hkwtpoku3ad3x7o233y6d54bfalb2wttr5x4ffrtm",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3md4juxga7e2x"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreifcdlrsc77l6pqqoawwbw2nonn5udvxvcneivuwottxtpwack5ehq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3md4jfngl222j"
+        }
+      },
+      "text": "Yeah.  I think that all IM noises can be cute for up to the first 100 times.\n\nThen it wears off and they are annoying.\n\nDiscord is the only one that really refuses to turn off though, even when told to do so.\n\n🫤"
+    },
+    "cid": "bafyreiewrmalakcloz3unheybxnbv7oqacftuokpzr2yzppvwc2gyjhryu"
+  }
+}
