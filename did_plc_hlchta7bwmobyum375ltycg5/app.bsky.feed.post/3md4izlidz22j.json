@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769199019944425,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md4izltmkv2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md4izlidz22j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-23T20:10:19.436Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicnh4mos7m756yjkqdyusiyrosbuxmayo45npphbtxcunf4i3rdtq",
+          "uri": "at://did:plc:d5roaogigcahvqttyidvufnx/app.bsky.feed.post/3md4hmvh7ks2e"
+        },
+        "root": {
+          "cid": "bafyreietx3yqpd3ygb6d36qajxjqepsvfgomzrxolqmlhtwb5qnvnquthe",
+          "uri": "at://did:plc:ywbm3iywnhzep3ckt6efhoh7/app.bsky.feed.post/3md4djwkvqk2j"
+        }
+      },
+      "text": "To be fair, Write-Host no longer kills puppies.\n\nBut Read-Host sometimes kills kittens :-(\n\nAlso, glad that meme was memorable!\n\nSometimes a little effort in making a good turn of phrase pays off for decades..."
+    },
+    "cid": "bafyreibgbyex7vzq66xr6ek2wwgmntado2dfdq5kixihzrifatv7ttlbaq"
+  }
+}
