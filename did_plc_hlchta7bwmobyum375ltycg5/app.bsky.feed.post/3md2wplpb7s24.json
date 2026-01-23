@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769144995874198,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md2wpkiv7e2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md2wplpb7s24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-23T05:09:57.028Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicwqohksbnnwqt3jefa2hiwhon5uterhbksy7twwckjcepvox3b6u",
+          "uri": "at://did:plc:ak3thcubfvmglutk4jlxdsd7/app.bsky.feed.post/3md2qlj6iw22m"
+        },
+        "root": {
+          "cid": "bafyreibsmo4mbwv7ggvxx55hhjyrjqdahj3mwyybsh23rpchfnpzo6vqry",
+          "uri": "at://did:plc:nx6d7bljsopavnwwuuq2f75t/app.bsky.feed.post/3md2d2exgpc2u"
+        }
+      },
+      "text": "It's more of a \"what\" than a \"who\".\n\nIt's a programming language and a cross platform shell.\n\nComes pre-installed on every Windows machine since Win7."
+    },
+    "cid": "bafyreif54p4qvbt2x2uovtqilabths3c2e2qah7pp73x2z7flqa6bwl3hq"
+  }
+}
