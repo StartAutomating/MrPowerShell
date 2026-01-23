@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769134072262440,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md2mjywawq2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md2mjzuuok24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-23T02:07:53.146Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiffvv33msqsyyjxhrdpts25wpqsh2kb7neq6w3wy6e3jq43vye3uq",
+          "uri": "at://did:plc:qda3qxmvvcrcjodghynhtbnd/app.bsky.feed.post/3md2lr5emns2p"
+        },
+        "root": {
+          "cid": "bafyreigxwit6nbxefg3xwqm22pr4lxosudwqj3xr7imegamtimif3z467i",
+          "uri": "at://did:plc:qda3qxmvvcrcjodghynhtbnd/app.bsky.feed.post/3md2eu2a7as2p"
+        }
+      },
+      "text": "It was originally called Monad.\n\nThis may lead you to more potential jokes.\n\nI kinda wish it had a different name, since it feels like it's overselling itself\n\nIf you give it about an hour, you'll realize that it's not."
+    },
+    "cid": "bafyreiczbrzgikdtgsccox7okmpsomj5jg6oc7mf45iloqv4cevl27jocy"
+  }
+}
