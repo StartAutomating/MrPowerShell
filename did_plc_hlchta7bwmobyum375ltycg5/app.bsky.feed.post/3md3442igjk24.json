@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769150782648710,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md343z7js32q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md3442igjk24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-23T06:46:23.895Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid4c26boc537q7agqxok742kdzmoyl3l6snox33ht6ik2r2aaxkvi",
+          "uri": "at://did:plc:2zmxikig2sj7gqaezl5gntae/app.bsky.feed.post/3md2ymzkpck2u"
+        },
+        "root": {
+          "cid": "bafyreibamrqecvwo5ihe7dwaw3bvllzl3ctcnzry7nforasjnrrrc6cgle",
+          "uri": "at://did:plc:2zmxikig2sj7gqaezl5gntae/app.bsky.feed.post/3md2qyissc22g"
+        }
+      },
+      "text": "I don't tend to try to butter egos too much, and I don't tend to try to put people into tiers too often.\n\nThat stated....\n\nIMO, you're S-tier."
+    },
+    "cid": "bafyreibqc4zqlen2wlsc4udxpbke7qgm4r7wsqw7vk233x2xftgfw23q3a"
+  }
+}
