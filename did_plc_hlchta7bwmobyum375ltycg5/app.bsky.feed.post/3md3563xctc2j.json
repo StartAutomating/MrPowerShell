@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769151926729324,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md3564ainz26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md3563xctc2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-23T07:05:26.281Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaiyvdrdz5ybxa3orkp3polkygb6rpj7ar6zfdr74gezb2fntxeke",
+          "uri": "at://did:plc:2zmxikig2sj7gqaezl5gntae/app.bsky.feed.post/3md2wg65l6k2a"
+        },
+        "root": {
+          "cid": "bafyreiaiyvdrdz5ybxa3orkp3polkygb6rpj7ar6zfdr74gezb2fntxeke",
+          "uri": "at://did:plc:2zmxikig2sj7gqaezl5gntae/app.bsky.feed.post/3md2wg65l6k2a"
+        }
+      },
+      "text": "If it helps, listRecords returns most recent first.\n\nSo unless they're a very active spambot just one call to listRecords for the user should do it.\n\n(not a full backfill, but it doesn't sound like you need one)"
+    },
+    "cid": "bafyreicn5lc65amgpryr3quf33nndhpx5dpg6mliwj3joas33crhj43sbe"
+  }
+}
