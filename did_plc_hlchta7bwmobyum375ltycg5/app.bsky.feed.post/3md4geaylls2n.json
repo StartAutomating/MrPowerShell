@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769196156673709,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md4geb6lte2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md4geaylls2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-23T19:22:36.307Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif52udtngqrxsyjjfdt27louzygyuug6rje2qt525zjlg4z3odi5m",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3md4fzyohck2n"
+        },
+        "root": {
+          "cid": "bafyreibamrqecvwo5ihe7dwaw3bvllzl3ctcnzry7nforasjnrrrc6cgle",
+          "uri": "at://did:plc:2zmxikig2sj7gqaezl5gntae/app.bsky.feed.post/3md2qyissc22g"
+        }
+      },
+      "text": "Being a mile wide and an inch deep is admirable, too.\n\nI'm constantly surprised and annoyed by how narrow most people's technical interests and acumen are.\n\nThe vast majority of nerds I know fun away from unfamiliar languages / technology 😟"
+    },
+    "cid": "bafyreidar3wjvbtoj2hy7bdofywm6uhztqxahhbdvbmpmhtddoojhe6mxe"
+  }
+}
