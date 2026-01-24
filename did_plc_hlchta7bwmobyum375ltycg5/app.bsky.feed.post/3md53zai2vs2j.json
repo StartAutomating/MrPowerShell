@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769219409460354,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md53zaqzk32e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md53zai2vs2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-24T01:50:08.987Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiftokqnck6qflpxhxbvkfwigsedxm4nn7yfqluwzxpgjuf7rlramy",
+          "uri": "at://did:plc:7fpnq4abwmtk6z6war664fbi/app.bsky.feed.post/3md4e7qcxs222"
+        },
+        "root": {
+          "cid": "bafyreietx3yqpd3ygb6d36qajxjqepsvfgomzrxolqmlhtwb5qnvnquthe",
+          "uri": "at://did:plc:ywbm3iywnhzep3ckt6efhoh7/app.bsky.feed.post/3md4djwkvqk2j"
+        }
+      },
+      "text": "💙💙💙💙💙\n\nIMO, everyone can and maybe should learn to program.\n\nPowerShell being a programming language you can play with interactively makes that easier than people think.\n\nInteractive / interpreted languages are great!\n\nWe all start small, with scripts we care about.\n\nLike this one 🙂"
+    },
+    "cid": "bafyreif2ugl6oxalosn5v7x2wh5c5ltirdv3s4vtgbvj3uobucghyuhxea"
+  }
+}
