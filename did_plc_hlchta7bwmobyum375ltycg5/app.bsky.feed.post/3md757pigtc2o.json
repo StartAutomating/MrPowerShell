@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769289417848280,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md757nzzin2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md757pigtc2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-24T21:16:59.274Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibnad2rmfxchmh6t5iopskgcpj3rusgvbtduwfhnmf757eihxxmyu",
+          "uri": "at://did:plc:7pe2sey6e3xu52pwffdm5y2i/app.bsky.feed.post/3md74zwm6jc2v"
+        },
+        "root": {
+          "cid": "bafyreih76sdvxnkoyyea6cbsp4vzwpzzj26tdzwtl2p7eg4rrbho6wkujy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3md74kqzuwk2o"
+        }
+      },
+      "text": "Lol got more distractions to deal with before I try.\n\nBut, um, yeah, this sort of PowerShell could probably build doom very efficiently.\n\nBecause it's basically giving you a flexible fast underlying implementation and way to describe different data using it.\n\nJust hadn't thought of sprites."
+    },
+    "cid": "bafyreihaoskkpida7dseefts73mp2f3mwgkezrcqmzxoxepzegtjokbozi"
+  }
+}
