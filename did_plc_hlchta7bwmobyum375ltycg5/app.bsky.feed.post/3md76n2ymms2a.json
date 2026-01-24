@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769290941868875,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md76n3eik32e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md76n2ymms2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-24T21:42:21.288Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiawfg7lpizx56ka5i4ru7t56rt3upvfvdnl5td2he7xufxmuzia6y",
+          "uri": "at://did:plc:7pe2sey6e3xu52pwffdm5y2i/app.bsky.feed.post/3md76b6vd222v"
+        },
+        "root": {
+          "cid": "bafyreih76sdvxnkoyyea6cbsp4vzwpzzj26tdzwtl2p7eg4rrbho6wkujy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3md74kqzuwk2o"
+        }
+      },
+      "text": "To nerd for a second more.\n\n\"What's a line?\"\n\n(no 80s joke answers)\n\nIt's the path between two points.\n\nCan you render a line in a console terminal?  Yes.\n\nWill it look smooth?  No.  Because you can't anti-alias your way out of not having enough \"pixels\"."
+    },
+    "cid": "bafyreiam6xamp4qxktwjhhlpk6dzuuj76ifwodgoecr4jg7cmtu33mrskq"
+  }
+}
