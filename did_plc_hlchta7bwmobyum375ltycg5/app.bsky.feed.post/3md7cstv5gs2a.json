@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769295430751053,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md7csudpmi2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md7cstv5gs2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-24T22:57:10.127Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigoqcqz4j53mb7bzi7syflhu3f3irzui3ut7kdfzmysblpsh7v3bq",
+          "uri": "at://did:plc:rawozo4ufsmilkxcsgqyr66e/app.bsky.feed.post/3md7c7hy2dc2m"
+        },
+        "root": {
+          "cid": "bafyreibsmo4mbwv7ggvxx55hhjyrjqdahj3mwyybsh23rpchfnpzo6vqry",
+          "uri": "at://did:plc:nx6d7bljsopavnwwuuq2f75t/app.bsky.feed.post/3md2d2exgpc2u"
+        }
+      },
+      "text": "Hardly.  Just drawing a line with a stranger.\n\nOnly so many hours / minutes / seconds in a day.\n\nThe ask is \"help me figure out my computer\"\n\nAnd that is an uncertain amount of time, and, again, not my job."
+    },
+    "cid": "bafyreieftxfkrkmwriasrtjo4yizvbjyri4k3aiwebozpmc4vyivybveim"
+  }
+}
