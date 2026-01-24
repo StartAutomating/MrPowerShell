@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769289319348139,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md754q3awq2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md754ripr22o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-24T21:15:20.716Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibyhk6bq4udvianfgqd4mbwi3lmnvgflwryrrqtfspwj7taure2vq",
+          "uri": "at://did:plc:xwhsmuozq3mlsp56dyd7copv/app.bsky.feed.post/3ltwzam5ncc26"
+        },
+        "root": {
+          "cid": "bafyreidwfgttnon3c3hnjdhzvo6vmawomr3ldj74tg2igtitx6hiahmnvi",
+          "uri": "at://did:plc:xwhsmuozq3mlsp56dyd7copv/app.bsky.feed.post/3ltwywyxa2k2h"
+        }
+      },
+      "text": "In all fairness, I would say most of us knew it was a crazy good idea.\n\nDoesn't take too long with an object pipeline to see what unique benefits it brings.\n\nI just wish another language also had a proper one."
+    },
+    "cid": "bafyreid5dphanxydppkmtsxuwqz6jdo23zde2unmqomjnmly4ip5esyueq"
+  }
+}
