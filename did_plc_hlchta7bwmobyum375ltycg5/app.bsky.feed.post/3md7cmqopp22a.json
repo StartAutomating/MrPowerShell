@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769295226071226,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md7cmr6xna2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md7cmqopp22a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-24T22:53:45.445Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidhd55f5igxohcpqpmpqyrfuxrkg2w75hqvetm3uw3nxdas6fr53q",
+          "uri": "at://did:plc:ak3thcubfvmglutk4jlxdsd7/app.bsky.feed.post/3md7bxihkuk2l"
+        },
+        "root": {
+          "cid": "bafyreibsmo4mbwv7ggvxx55hhjyrjqdahj3mwyybsh23rpchfnpzo6vqry",
+          "uri": "at://did:plc:nx6d7bljsopavnwwuuq2f75t/app.bsky.feed.post/3md2d2exgpc2u"
+        }
+      },
+      "text": "Not at all.  Just don't trust the outreach.\n\nAI generated graphics + lack of other context make me feel like this is a trolling attempt.\n\nHappy to answer questions.\n\nNot happy to spend an uncertain amount of time helping fix your computer problems.\n\n(I get enough of that as is)"
+    },
+    "cid": "bafyreifbs36iofyfwaxhx2c6ocsvlirolecxkiezu2jlmscimwmpo652re"
+  }
+}
