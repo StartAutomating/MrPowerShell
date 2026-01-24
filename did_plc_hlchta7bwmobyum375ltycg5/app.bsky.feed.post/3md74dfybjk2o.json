@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769288468624568,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md74de5xcy2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md74dfybjk2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-24T21:01:09.782Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicnsdnjht4gb2tyouzd42va56u5ava76prg6dakwitwhjmuos7xei",
+          "uri": "at://did:plc:cypabufdnyqb6k2jrl3kf36w/app.bsky.feed.post/3md747jk3tk25"
+        },
+        "root": {
+          "cid": "bafyreihqprfxxgxfmdccr45bkpjskfhydty4sik43wucx74bcdak55p6nq",
+          "uri": "at://did:plc:cypabufdnyqb6k2jrl3kf36w/app.bsky.feed.post/3md623dqk3k2k"
+        }
+      },
+      "text": "Nah, I'm someone who helped make the language and someone who did a lot of very careful work to threat model and secure the language.\n\nAnd PowerShell has lifted people from poverty and brought more Linux dynamics to Windows than anything else.\n\nAnd is at the vanguard of current resistance."
+    },
+    "cid": "bafyreiaao5xmf66adr2uwu62j37zfbs4tuhucuitl7us2m6aszjrdip7bq"
+  }
+}
