@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769289770018621,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md75k5tntx2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md75k7df6c2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-24T21:22:51.429Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih7vihjtphk2n5zchuissa7kae567vbr6kk2durcpb6d5guakti6y",
+          "uri": "at://did:plc:xwhsmuozq3mlsp56dyd7copv/app.bsky.feed.post/3ltwzojwqp22h"
+        },
+        "root": {
+          "cid": "bafyreidwfgttnon3c3hnjdhzvo6vmawomr3ldj74tg2igtitx6hiahmnvi",
+          "uri": "at://did:plc:xwhsmuozq3mlsp56dyd7copv/app.bsky.feed.post/3ltwywyxa2k2h"
+        }
+      },
+      "text": "Only on Windows PowerShell.\n\nAnd only because foolish editor decisions stuck for far too long.\n\n$outputencoding = [text.encoding]::utf8\n\nFixed!"
+    },
+    "cid": "bafyreibbhxqx6ptykfmxmh4p27gmxzsddnvzndk4j6o6xamc5l45idcnsq"
+  }
+}
