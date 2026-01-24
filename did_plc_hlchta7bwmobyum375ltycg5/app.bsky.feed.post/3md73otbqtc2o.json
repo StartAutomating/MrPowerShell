@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769287777904211,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md73ortck32k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md73otbqtc2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-24T20:49:39.081Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid2puwlkurwv2ayoj7tfftlkkriebrqpzhma3zh5mjoz4goziw7t4",
+          "uri": "at://did:plc:cypabufdnyqb6k2jrl3kf36w/app.bsky.feed.post/3md73f2b5lc25"
+        },
+        "root": {
+          "cid": "bafyreihqprfxxgxfmdccr45bkpjskfhydty4sik43wucx74bcdak55p6nq",
+          "uri": "at://did:plc:cypabufdnyqb6k2jrl3kf36w/app.bsky.feed.post/3md623dqk3k2k"
+        }
+      },
+      "text": "🤷🤦 the fact that you can even guestimate the number of attacks speaks to its robust auditing.\n\nThe fact that you can constrain it makes it much more secure than, say, VBScript or Python or JavaScript.\n\nIt *just* had its first CVE ~20 years in.  Still no CSAM exploited vulns."
+    },
+    "cid": "bafyreibfxetu4qknhk2w55vph37qrv6smu4j456jz2z4iwkkyko5tdnocm"
+  }
+}
