@@ -1,0 +1,126 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769291543861684,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md776yqx3u26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md774z3nk22j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-24T21:51:16.16Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "Wired up ollama / ollama-powershell to Reptile (https://github.com/PowerShellWeb/Reptile) with the code below.\n\nGot a \"correct\" answer and then who knows how many escape sequences that don't render right in the browser.\n\nlol \"Mostly works\" \n\n~~~PowerShell\nReptile -Initialize {\n    Import-Module ollama-powershell\n} -SupportedCommand @(\n    # We also need to add it to the list of supported commands.\n    'TinyLlama'\n) -Shell @(\n    # Our shell is just a form with two inputs:    \n    \"<form action='/' method='post'>\"\n    # A date selector\n    \"<input id='date' name='prompt' value='What are you' />\"\n    # (with a label)\n    \"<label for='date'>The prompt</label>\"\n    # and a hidden input containing our script.\n    \"<input type='hidden' name='command' value='$(\n        [Web.HttpUtility]::HtmlAttributeEncode('tinyllama $Prompt')\n    )'></input>\"\n    \"<input type='submit' value='go'></input>\"\n    \"</form>\"\n)\n~~~",
+            "aspectRatio": {
+              "height": 1080,
+              "width": 1920
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreicmcbgjm3kp32sqm3hze3znt2xwzzmpm7ub3wafn4leqvcohs2ea4"
+              },
+              "mimeType": "image/jpeg",
+              "size": 980160
+            }
+          }
+        ]
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 19,
+            "byteStart": 16
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ollama"
+            }
+          ],
+          "index": {
+            "byteEnd": 27,
+            "byteStart": 20
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberyPI"
+            }
+          ],
+          "index": {
+            "byteEnd": 39,
+            "byteStart": 28
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 51,
+            "byteStart": 40
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebRepl"
+            }
+          ],
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 52
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/ollama-powershell"
+            }
+          ],
+          "index": {
+            "byteEnd": 166,
+            "byteStart": 140
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShellWeb/Reptile"
+            }
+          ],
+          "index": {
+            "byteEnd": 209,
+            "byteStart": 183
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "When your local #AI #ollama #RaspberyPI #PowerShell #WebRepl experiment _mostly_ works...\n\nCode in the alt text.\n\nUsing ollama powershell ( github.com/StartAutomat... ) and reptile ( github.com/PowerShellWe...)"
+    },
+    "cid": "bafyreicvfsbapcm5u45n7q2ks7gcyq735xvglp75u6s3ivu4gzgf37dtui"
+  }
+}
