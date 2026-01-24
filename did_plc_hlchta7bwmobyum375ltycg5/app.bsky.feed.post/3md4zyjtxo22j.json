@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769217239299994,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md4zykyznx2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md4zyjtxo22j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-24T01:13:57.777Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidarwkxp4jmlkkhyk4m7q5cpzbh2nl4tubxpfiblzgsklnuwupzue"
+            },
+            "mimeType": "image/jpeg",
+            "size": 138088
+          },
+          "title": "MrPowerShell",
+          "uri": "https://mrpowershell.com/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://mrpowershell.com/"
+            }
+          ],
+          "index": {
+            "byteEnd": 291,
+            "byteStart": 275
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiduyupqcr2rlcvxwkjkgzi3lfq6dyz64tgj3hrltm36eo4j3rrvnu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3md4zu56skk2j"
+        },
+        "root": {
+          "cid": "bafyreifuuecvqifiwar3tez3s7nozxzharoeii3m2olgezzs5gaa7vurga",
+          "uri": "at://did:plc:mdabmns2q636e5uu2lneiqqn/app.bsky.feed.post/3md4hyakqr22l"
+        }
+      },
+      "text": "Past that, I think anyone learning technology should realize that we're always in a terminal, we just don't see it that way.\n\nWeb protocols are almost all text based: we just show that text in a browser/app.\n\nURLs _are_ commands, over the Common Gateway Interface (CGI)\n\nGET mrpowershell.com"
+    },
+    "cid": "bafyreifnilkqsejkoi4ckvgi42u6yrsrdbiyqn3uebnbxgwwp4yarqabbq"
+  }
+}
