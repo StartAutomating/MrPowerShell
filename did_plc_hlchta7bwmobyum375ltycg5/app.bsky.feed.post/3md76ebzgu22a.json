@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769290647101427,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md76ecbxpe26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md76ebzgu22a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-24T21:37:26.665Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiawfg7lpizx56ka5i4ru7t56rt3upvfvdnl5td2he7xufxmuzia6y",
+          "uri": "at://did:plc:7pe2sey6e3xu52pwffdm5y2i/app.bsky.feed.post/3md76b6vd222v"
+        },
+        "root": {
+          "cid": "bafyreih76sdvxnkoyyea6cbsp4vzwpzzj26tdzwtl2p7eg4rrbho6wkujy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3md74kqzuwk2o"
+        }
+      },
+      "text": "Yes / and... logically it's only a very light layer connecting it to the console.\n\nAll of the game / level / sprite logic would work just as well in the browser with a different formatter."
+    },
+    "cid": "bafyreif5dwkknknhs4rlh3shm45dohwkjc5lqk2dpj3usamrnjukubi2zu"
+  }
+}
