@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769293608365231,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md7b4kdkyz24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md7b4jtlps2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-24T22:26:47.652Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 70,
+            "byteStart": 67
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidrlss7cfmv7q4j7hkpp5mkdidznlv3wnismegz3ninpwscxl5sde",
+          "uri": "at://did:plc:ug4xea4topbu5pcky6ik6nwy/app.bsky.feed.post/3md7ailbxqk2a"
+        },
+        "root": {
+          "cid": "bafyreifodrobs2ikvxtwqrhmwcacxsco7efa2wf6c6a6uctuu3n3jnvgsi",
+          "uri": "at://did:plc:ug4xea4topbu5pcky6ik6nwy/app.bsky.feed.post/3md7ailbuss2a"
+        }
+      },
+      "text": "I'm all for PowerShell overall, but am not a huge fan of \"agentic\" #AI attempting to use it to fix markdown spacing.\n\nCall me crazy, but some things are better to just do by hand."
+    },
+    "cid": "bafyreihaj7mekaolsq623lfwevb5ut57escoidq4hzcaccc2ee5hqfha4q"
+  }
+}
