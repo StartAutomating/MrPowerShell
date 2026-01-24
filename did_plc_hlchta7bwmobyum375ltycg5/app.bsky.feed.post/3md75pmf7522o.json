@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769289951452343,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md75pkvzfc2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md75pmf7522o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-24T21:25:52.893Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigneeal6zkpk2pxveir44gktycqihwgborfjjkrpqtufli3q5xtze",
+          "uri": "at://did:plc:7pe2sey6e3xu52pwffdm5y2i/app.bsky.feed.post/3md75jnt5gs2v"
+        },
+        "root": {
+          "cid": "bafyreih76sdvxnkoyyea6cbsp4vzwpzzj26tdzwtl2p7eg4rrbho6wkujy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3md74kqzuwk2o"
+        }
+      },
+      "text": "All good questions but not quite the \"right\" ones imo.\n\nPS can draw a line, sure.\n\nBut can the console render that line?\n\n( Depends on the console ).\n\nThis is why I've been loving having a safe web repl.\n\nThen I can just draw a line by outputting a <line> and let the browser do the work."
+    },
+    "cid": "bafyreidkclwyeikgfbzt5k7n2ubvpxmg33h6643xzcdtch3fkw6pczafja"
+  }
+}
