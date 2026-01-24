@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769217813460301,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md52jonrp62e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md52jo6a522j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-24T01:23:32.733Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibn5lrqvvyridmmhjh4ny6henp5jkl6dxfs2fovmim4pvqj2molg4",
+          "uri": "at://did:plc:mdabmns2q636e5uu2lneiqqn/app.bsky.feed.post/3md4i6ibgpk2l"
+        },
+        "root": {
+          "cid": "bafyreifuuecvqifiwar3tez3s7nozxzharoeii3m2olgezzs5gaa7vurga",
+          "uri": "at://did:plc:mdabmns2q636e5uu2lneiqqn/app.bsky.feed.post/3md4hyakqr22l"
+        }
+      },
+      "text": "'print(\"hello world\")' > ./hello.py\n\nThere ya go!\n\n(should work in bash or powershell)"
+    },
+    "cid": "bafyreih74lv62e4qnjxotlczbxf54mj6fe6awqyjs3rpfol7xmvhd6wuky"
+  }
+}
