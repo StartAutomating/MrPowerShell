@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769217693902747,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md52g4pabp26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md52g47zgc2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-24T01:21:33.254Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibnvkbszefgficonroey2clixqbtq6pmdwpplfgzrrambptlybavi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3md52ah5tec2j"
+        },
+        "root": {
+          "cid": "bafyreifuuecvqifiwar3tez3s7nozxzharoeii3m2olgezzs5gaa7vurga",
+          "uri": "at://did:plc:mdabmns2q636e5uu2lneiqqn/app.bsky.feed.post/3md4hyakqr22l"
+        }
+      },
+      "text": "And while we're on the topic, what's \"Windows?\"\n\nWell, originally, back when you had only one program on the screen at the time, you only had one shell.\n\nWindows is a multi-shell operating system, with a fancy shell.\n\nAll OSes are fancy shells.\n\nWe live our digital lives in shells."
+    },
+    "cid": "bafyreigmi6c5dcstwscl5i3ic4phaqejmteirdkufaq65qprit4tw6nsuy"
+  }
+}
