@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769376320575597,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdbo5kwth62u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdbo5kf4f223",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-25T21:25:19.9Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigp4qmn3eh5wsmenpc3vewkskuny6oerljiz4rfiwl25iodlhs2ly",
+          "uri": "at://did:plc:fctm54odkdirr6nr4ayozrnl/app.bsky.feed.post/3mdbm4k7pmc2c"
+        },
+        "root": {
+          "cid": "bafyreigjpoqzp2eiaqdsmmtry44vqfwtfatxxl5ipplttjom7avy4tdy3u",
+          "uri": "at://did:plc:agg3qm37sw5kmjmohvg7lph6/app.bsky.feed.post/3mdblszfgvc2m"
+        }
+      },
+      "text": "👀👀👀\n\nmy yt-dlp is not perfect.  Mind helping translate that?\n\nLooking to me like it's getting a time range from N channels.\n\nAm I reading that right?"
+    },
+    "cid": "bafyreicz3rdscourgcnskfm3saucod7dkb25mob3k4f3776ngy5z2zpjkm"
+  }
+}
