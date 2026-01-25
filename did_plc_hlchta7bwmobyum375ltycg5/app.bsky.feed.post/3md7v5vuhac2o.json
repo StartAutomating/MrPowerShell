@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769315128679928,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md7v5vhw6u2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md7v5vuhac2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-25T04:25:28.651Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidz6hegcixscmabhc7srs4mxgiluacciijhv5hhl6ugh7xkmdkjwm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 861943
+          },
+          "title": "Massacre - Wikipedia",
+          "uri": "https://en.wikipedia.org/wiki/Massacre"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MinneapolisMassacre"
+            }
+          ],
+          "index": {
+            "byteEnd": 71,
+            "byteStart": 51
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "massacre"
+            }
+          ],
+          "index": {
+            "byteEnd": 248,
+            "byteStart": 239
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://en.wikipedia.org/wiki/Massacre"
+            }
+          ],
+          "index": {
+            "byteEnd": 287,
+            "byteStart": 257
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Let's start calling this what it is.\n\nThis was the #MinneapolisMassacre\n\nWatch it from any angle.\n\nSee the government kill its citizens in cold blood.\n\n7 v 1\n\nPinned to the ground.\n\nShot multiple times.\n\nDenied medical care.\n\nLooks like a #massacre to me.\n\nen.wikipedia.org/wiki/Massacre"
+    },
+    "cid": "bafyreieece2ly5ntgqrqexssnfi6ulzun34stwsnz53uvnbge4lvodsj4u"
+  }
+}
