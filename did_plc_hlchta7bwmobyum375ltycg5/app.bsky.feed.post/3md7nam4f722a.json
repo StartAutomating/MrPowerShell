@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769306629761605,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md7namlxpq26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md7nam4f722a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-25T02:03:49.157Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidfvkrdl65j227xun6naa2pi3mtobh2o7izxq6m3xgmzlxkuhksna",
+          "uri": "at://did:plc:ht4v7ms76njx5mlit7lwlrdw/app.bsky.feed.post/3md7mjsfmlk2l"
+        },
+        "root": {
+          "cid": "bafyreifmaa6byw6gahsmnmkrvulda47iywkwjnqknktteowwrnb5fh6pme",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3md7ku6uwas2a"
+        }
+      },
+      "text": "pddl looks pretty perfect!\n\nIs it usually sent over the wire or just loaded from a file?  (or 🤞 both) ?"
+    },
+    "cid": "bafyreifvpuqkm5hfdxjwg27zwam7ng5u3gx6zqutzhkck6fyboy72iwnka"
+  }
+}
