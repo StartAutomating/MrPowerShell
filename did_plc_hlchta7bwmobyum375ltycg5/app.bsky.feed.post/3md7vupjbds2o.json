@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769315891781943,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md7vunhjbn2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md7vupjbds2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-25T04:38:13.748Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiabrwn5p2pdposojpt6om4o6syjxvot2vqihzyrs77wtzpmzg3uqe",
+          "uri": "at://did:plc:ddkwwmygvai35ieoxu53ge6h/app.bsky.feed.post/3md7ijyljv22y"
+        },
+        "root": {
+          "cid": "bafyreiabrwn5p2pdposojpt6om4o6syjxvot2vqihzyrs77wtzpmzg3uqe",
+          "uri": "at://did:plc:ddkwwmygvai35ieoxu53ge6h/app.bsky.feed.post/3md7ijyljv22y"
+        }
+      },
+      "text": "About 5 minutes.  15 if I'm helping someone else learn how.\n\nWould a how-to guide help?"
+    },
+    "cid": "bafyreighdlahvljbofdlcmo2rcqp2f4pnezkb7gudeqvp2hx33bukddysq"
+  }
+}
