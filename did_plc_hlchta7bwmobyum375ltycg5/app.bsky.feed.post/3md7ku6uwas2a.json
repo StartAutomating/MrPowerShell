@@ -1,0 +1,59 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769304067101197,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md7ku7f5p62d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md7ku6uwas2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-25T01:21:05.143Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:ht4v7ms76njx5mlit7lwlrdw"
+            }
+          ],
+          "index": {
+            "byteEnd": 19,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 67,
+            "byteStart": 56
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Robots"
+            }
+          ],
+          "index": {
+            "byteEnd": 79,
+            "byteStart": 72
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "@anglesideangle.dev want to figure out how to make some #PowerShell for #Robots ?\n\nI keep meaning to find a roboticist or two to collab with on PowerShelling this space.  \n\nKnow anyone?"
+    },
+    "cid": "bafyreifmaa6byw6gahsmnmkrvulda47iywkwjnqknktteowwrnb5fh6pme"
+  }
+}
