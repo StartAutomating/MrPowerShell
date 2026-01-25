@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769377899600617,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdbpmmptmi2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdbpmmngk223",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-25T21:51:39.329Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PSA"
+            }
+          ],
+          "index": {
+            "byteEnd": 25,
+            "byteStart": 21
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PTSD"
+            }
+          ],
+          "index": {
+            "byteEnd": 54,
+            "byteStart": 49
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Community reminder / #PSA for those dealing with #PTSD\n\nTry to be kind to your community.\n\nTry to make the time for people flashing back to their past due to the present.\n\nWe all need support.\n\nWe all need kindness.\n\nTry to find just a few minutes to help.\n\nGood luck 🫂💙"
+    },
+    "cid": "bafyreidscj6wq7v226q7lcfgvzxv4okywk3ebrmcirmwb24vjsprwn46ou"
+  }
+}
