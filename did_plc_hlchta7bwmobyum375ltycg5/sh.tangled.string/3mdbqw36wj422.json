@@ -1,0 +1,19 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769379292114710,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdbqw4ppzy23",
+    "operation": "create",
+    "collection": "sh.tangled.string",
+    "rkey": "3mdbqw36wj422",
+    "record": {
+      "$type": "sh.tangled.string",
+      "contents": "<#\n.SYNOPSIS\n    Get the CPU Speed    \n.DESCRIPTION\n    Get the CPU Speed on Linux, MacOS, or Windows\n.EXAMPLE\n    ./GetCPUSpeed.ps1\n#>\nif ($executionContext.SessionState.PSVariable.Get('IsLinux').Value) {\n    Get-Content /proc/cpuinfo -Raw -ErrorAction SilentlyContinue | \n        Select-String \"(?<Unit>Mhz|MIPS)\\s+\\:\\s+(?<Value>[\\d\\.]+)\" | \n        Select-Object -First 1 -ExpandProperty Matches |\n        ForEach-Object {\n            $_.Groups[\"Value\"].Value -as [int]\n        }\n} elseif ($executionContext.SessionState.PSVariable.Get('IsMacOS').Value) {\n    (sysctl -n hw.cpufrequency) / 1e6 -as [int]\n} else {\n    $getCimInstance = $ExecutionContext.SessionState.InvokeCommand.GetCommand('Get-CimInstance','Cmdlet')\n    if ($getCimInstance) {\n        & $getCimInstance -Class Win32_Processor |\n            Select-Object -ExpandProperty MaxClockSpeed\n    }\n}",
+      "createdAt": "2026-01-25T22:14:50+00:00",
+      "description": "Get the CPU Speed on Linux, MacOS, or Windows",
+      "filename": "GetCPUSpeed.ps1"
+    },
+    "cid": "bafyreieikjrwdcqwepngmaciinpmvsnk62m5cd3wlhgvloouaxviswlute"
+  }
+}
