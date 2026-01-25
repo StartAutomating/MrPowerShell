@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769369490048587,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdbhrysqre2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdbhrza3q224",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-25T19:31:30.358Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicgbhnvisrjov365qka7qjxccpxnbldhctzpurpb7ciizc3djp4rm",
+          "uri": "at://did:plc:uq7uugrq52sycyqjeymojy2i/app.bsky.feed.post/3mdaikhvq2c2z"
+        },
+        "root": {
+          "cid": "bafyreigt7cdymyd3umliplfkkhqpgpdhmtiuhntqin2v6zzznkgjpl33wq",
+          "uri": "at://did:plc:7awuwkhcftxs2fvc3ljwi3ia/app.bsky.feed.post/3md7276iwpk2d"
+        }
+      },
+      "text": "Cross that bridge when we get to it.\n\nIn 2020 Trump called for armed poll watchers in my neighborhood.\n\nI made a will before I went to vote.\n\nAnd I voted.\n\nWe will vote.\n\nThen we will see what happens."
+    },
+    "cid": "bafyreih4vx3zdla6d6cmnmlb7ctw7pakfh7rwr3afhq4chpdtofx4yecxq"
+  }
+}
