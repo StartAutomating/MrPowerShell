@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769380698771871,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdbs7zylyj26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdbs7xxkl22w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-25T22:38:16.212Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihtlx3qt63odzyztrhoabe2um4jdca3otlkzxyevbq5daix4b7xou"
+            },
+            "mimeType": "image/jpeg",
+            "size": 954224
+          },
+          "title": "The Prince - Wikipedia",
+          "uri": "https://en.wikipedia.org/wiki/The_Prince"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://en.wikipedia.org/wiki/The_Prince"
+            }
+          ],
+          "index": {
+            "byteEnd": 108,
+            "byteStart": 76
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Fun history fact:\n\nMachiavelli's \"The Prince\" is a failed job application.\n\nen.wikipedia.org/wiki/The_Pri... \n\nMany have tried to be Machiavellian without realizing this.\n\nHistory has a clear answer:\n\nIt's better to be loved than feared."
+    },
+    "cid": "bafyreidbas6ebbmahhkbsf5d4oqa2tkgiawfhnuwvxahkz26unhmwkzhom"
+  }
+}
