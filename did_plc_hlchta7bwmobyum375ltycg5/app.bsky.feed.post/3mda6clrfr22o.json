@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769324949878576,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mda6clyayl26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mda6clrfr22o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-25T07:09:09.516Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigt7cdymyd3umliplfkkhqpgpdhmtiuhntqin2v6zzznkgjpl33wq",
+          "uri": "at://did:plc:7awuwkhcftxs2fvc3ljwi3ia/app.bsky.feed.post/3md7276iwpk2d"
+        },
+        "root": {
+          "cid": "bafyreigt7cdymyd3umliplfkkhqpgpdhmtiuhntqin2v6zzznkgjpl33wq",
+          "uri": "at://did:plc:7awuwkhcftxs2fvc3ljwi3ia/app.bsky.feed.post/3md7276iwpk2d"
+        }
+      },
+      "text": "Mostly agreed.\n\nI know enough to know that rage doesn't help.\n\nCompassion helps.\nCommunity helps.\nResolve helps.\nPlanning helps.\n\nRage is their language.\n\nI choose not to speak it.\n\nWe know they are wrong.\nWe know we will vote.\nWe know we will organize.\nWe can be full of resolve, not rage."
+    },
+    "cid": "bafyreiebjstvj4ufwlc5mehdj5xan6623qrctvtauikcjbhaacp645iozq"
+  }
+}
