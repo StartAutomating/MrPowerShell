@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769304841491108,
+  "kind": "commit",
+  "commit": {
+    "rev": "3md7lld4rhe26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3md7llcut3k2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-25T01:34:01.087Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 59,
+            "byteStart": 52
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "gcode"
+            }
+          ],
+          "index": {
+            "byteEnd": 136,
+            "byteStart": 130
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicc73t7autsj7ro4ygsj6udn2y24fbcx2mqm53ilhzeiji545x7fi",
+          "uri": "at://did:plc:ht4v7ms76njx5mlit7lwlrdw/app.bsky.feed.post/3md7lef3zgk2p"
+        },
+        "root": {
+          "cid": "bafyreifmaa6byw6gahsmnmkrvulda47iywkwjnqknktteowwrnb5fh6pme",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3md7ku6uwas2a"
+        }
+      },
+      "text": "High level I'm more thinking like _very_ old school #Turtle\n\nThat is:  if a Robot can have a REST api and it can be a plaintext / #gcode description of it's moves, we're in business!\n\nTurtle started out as a Robotics experiment in 1948.  Just connecting old dots..."
+    },
+    "cid": "bafyreifssokailr3hzpzheyenvl3mgbr43uvbz2663rfyayub5khjjf27e"
+  }
+}
