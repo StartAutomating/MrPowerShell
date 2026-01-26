@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769416365764631,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdctgyv4do26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdcth2bz6c2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-26T08:32:47.013Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifhqkwwoldmm447j7mia2mvy2rdpqngtrakwe6gujsi6qbalflqqq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mdctdxsik22t"
+        },
+        "root": {
+          "cid": "bafyreia5wjhclqljlrw44ddyit4ja7jvc4llzuerf3f2jrncnwsbesisfu",
+          "uri": "at://did:plc:xxlgtkqunecrlagdcja7zwnv/app.bsky.feed.post/3mdcftwfrj222"
+        }
+      },
+      "text": "These approach have the advantage of providing time-stamping and (limited) isolation.\n\nPair this with the async behavior and you've got quite a lot of powerful options at your fingertips in PowerShell."
+    },
+    "cid": "bafyreig46zntjyscfzfcdssyrtlcbdlgfw6atiuv572rnopunyqzm4y3uu"
+  }
+}
