@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769462027773699,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mde5xtp27z23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mde5xt5koc2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-26T21:13:47.109Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicbpzratty2opuoj24uegjonlj3xqyqkfyivfafxjgttg2wybv6eu",
+          "uri": "at://did:plc:7g5d3a6dy5aoc5yeltilx6hz/app.bsky.feed.post/3mde5n2ocjs2c"
+        },
+        "root": {
+          "cid": "bafyreiauezhaiy3d4bzrihwn7nrvauxs2d2n6r56coit7w77emw244cqre",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mde4mn2h3s2k"
+        }
+      },
+      "text": "Me, too!\n\nIt's a story about how some ingroups view _anyone_ from a city as a bad person, when in fact it's _only_ the city person who helps.\n\nA priest and a levite say said \"not my problem\" and go to the other side of the road.\n\nA compassionate urbanist stops and helps.\n\n\"Who Is My Neighbor?\""
+    },
+    "cid": "bafyreibuiyop777f6nn4yb6zobfdn3bfsqdkx2swhaah2j27ip3lotqlei"
+  }
+}
