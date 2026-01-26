@@ -1,0 +1,110 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769393588399878,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdc6a6g2zs26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdc6a3wfbk23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-26T02:13:05.271Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "YouTube video by kallo92",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiae45gdkogmqslz3uja6s54gyamkl36zunvnnjrkclcp2cdarwn5u"
+            },
+            "mimeType": "image/jpeg",
+            "size": 742169
+          },
+          "title": "The Offspring - Come Out and Play - Akira Anime",
+          "uri": "https://youtu.be/Uwcn5jNFIuo"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "News"
+            }
+          ],
+          "index": {
+            "byteEnd": 5,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://youtu.be/Uwcn5jNFIuo"
+            }
+          ],
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 25
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Anime"
+            }
+          ],
+          "index": {
+            "byteEnd": 53,
+            "byteStart": 47
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AMV"
+            }
+          ],
+          "index": {
+            "byteEnd": 58,
+            "byteStart": 54
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "IceOut"
+            }
+          ],
+          "index": {
+            "byteEnd": 66,
+            "byteStart": 59
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GoodOldInternet"
+            }
+          ],
+          "index": {
+            "byteEnd": 83,
+            "byteStart": 67
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#News nowadays be like:\n\nyoutu.be/Uwcn5jNFIuo\n\n#Anime #AMV #IceOut #GoodOldInternet"
+    },
+    "cid": "bafyreig6mlnzyo7bir4b3tgg6dvy4ybtnwkd45f2ccwc6hkvefycpnyfzi"
+  }
+}
