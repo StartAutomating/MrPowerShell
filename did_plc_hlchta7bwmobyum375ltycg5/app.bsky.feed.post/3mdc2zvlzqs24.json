@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769390155341179,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdc2zushum2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdc2zvlzqs24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-26T01:15:56.088Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JavaScript"
+            }
+          ],
+          "index": {
+            "byteEnd": 130,
+            "byteStart": 119
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 145,
+            "byteStart": 141
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 159,
+            "byteStart": 155
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiguymher4ktpysilzeeufp4vtfq5evc4l7ukmixxcget5xh3tjcmm",
+          "uri": "at://did:plc:zcorktjn4hznwzppvhtjyzxv/app.bsky.feed.post/3mdbzemrmk22j"
+        },
+        "root": {
+          "cid": "bafyreiguymher4ktpysilzeeufp4vtfq5evc4l7ukmixxcget5xh3tjcmm",
+          "uri": "at://did:plc:zcorktjn4hznwzppvhtjyzxv/app.bsky.feed.post/3mdbzemrmk22j"
+        }
+      },
+      "text": "Yes and no.\n\nHTML is a markup language.\n\nIt describes data, but cannot do loops or conditionals.\n\nSome of that data is #JavaScript , some is #CSS, some is #SVG.\n\nThose can all contain conditionals or loops.\n\nSo in abstract theory, no.\n\nIn practice, yes.  It's a metaprogramming language for 3 langs."
+    },
+    "cid": "bafyreigdvohl6f3ekdzzbs6dbe4u7c2mjvplyphfxne5qsnlbma6fi7w5y"
+  }
+}
