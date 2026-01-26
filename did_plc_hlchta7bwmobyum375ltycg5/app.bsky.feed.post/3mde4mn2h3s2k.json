@@ -1,0 +1,98 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769460580868292,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mde4mpbipb2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mde4mn2h3s2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-26T20:49:37.874Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreig72e7kxufw5pjaxv3ggztnrohrfao63roou473oblnmn2zp3fixu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 900374
+          },
+          "title": "Parable of the Good Samaritan - Wikipedia",
+          "uri": "https://en.wikipedia.org/wiki/Parable_of_the_Good_Samaritan"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Pretti"
+            }
+          ],
+          "index": {
+            "byteEnd": 205,
+            "byteStart": 198
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Good"
+            }
+          ],
+          "index": {
+            "byteEnd": 211,
+            "byteStart": 206
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Samaritans"
+            }
+          ],
+          "index": {
+            "byteEnd": 223,
+            "byteStart": 212
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Minneapolis"
+            }
+          ],
+          "index": {
+            "byteEnd": 239,
+            "byteStart": 227
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://en.wikipedia.org/wiki/Parable_of_the_Good_Samaritan"
+            }
+          ],
+          "index": {
+            "byteEnd": 299,
+            "byteStart": 267
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I don't think most people realize that \"A Good Samaritan\" isn't just about a good person helping.\n\nIt's also about the prejudice that prevents people from seeing goodness in others.\n\nThere are many #Pretti #Good #Samaritans in #Minneapolis.\n\nCity people are people.\n\nen.wikipedia.org/wiki/Parable..."
+    },
+    "cid": "bafyreiauezhaiy3d4bzrihwn7nrvauxs2d2n6r56coit7w77emw244cqre"
+  }
+}
