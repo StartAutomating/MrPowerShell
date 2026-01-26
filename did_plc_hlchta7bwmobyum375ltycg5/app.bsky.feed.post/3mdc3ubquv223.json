@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769391047533547,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdc3ugwec32b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdc3ubquv223",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-26T01:30:41.244Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Van Wilder is not a role model.  And this is why you don't feel the trolls.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiepsj6za6jafcipxac5y5obvfy2dbrve4xktk2llyjw3qpiuftkpq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 777006
+          },
+          "title": "a man in a suit and tie is smiling with the words \" buh bye now \" next to him",
+          "uri": "https://media.tenor.com/YIgYH8a9tYwAAAAC/buh-bye-now-chris-brander.gif?hh=498&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibkp2pvfo43f2ooxop5qkdpk3hqt3rbyt6u4nybru3d5rlkysjajm",
+          "uri": "at://did:plc:ak3thcubfvmglutk4jlxdsd7/app.bsky.feed.post/3mdc3rlmaxs2i"
+        },
+        "root": {
+          "cid": "bafyreibsmo4mbwv7ggvxx55hhjyrjqdahj3mwyybsh23rpchfnpzo6vqry",
+          "uri": "at://did:plc:nx6d7bljsopavnwwuuq2f75t/app.bsky.feed.post/3md2d2exgpc2u"
+        }
+      },
+      "text": ""
+    },
+    "cid": "bafyreigsvxa2mtqi3hx6cf57tw7xibb3zy6kkrtel64vgfrenlz2ii6yr4"
+  }
+}
