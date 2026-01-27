@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769543509831625,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdgju6xcx72h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdgju6oocc2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-27T19:51:49.365Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihfg6d2gu6bywjyq3ale6zax3vymoaw2cglk2vzdvn3n7le7hhznq",
+          "uri": "at://did:plc:mvqgxyogng6i3ki6ps5klhwp/app.bsky.feed.post/3mdfvgv3zq5dn"
+        },
+        "root": {
+          "cid": "bafyreigltnvgn43qt54trfw2y4hwhyn4sr56i7q35twl657dcfpjmpcpaa",
+          "uri": "at://did:plc:mvqgxyogng6i3ki6ps5klhwp/app.bsky.feed.post/3mdfqmovhoudy"
+        }
+      },
+      "text": "IMO, it's little / big things like this that keep the UK behind where it could/should be in the tech world.\n\nSpeaking from Seattle to London politicians:\n\nYou can stop VPNs roughly as much as as you can stop the rain."
+    },
+    "cid": "bafyreieketigydtaxxosydgs6hvymwzj7tygvfnk7kehda3lfijmcr75a4"
+  }
+}
