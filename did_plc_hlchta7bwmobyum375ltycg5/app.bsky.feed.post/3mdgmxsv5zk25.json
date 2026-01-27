@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769546853469313,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdgmxtqfwp23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdgmxsv5zk25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-27T20:47:32.438Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic2x5vj4z7u4nefud5h6j7ognx35dk2dntirnc5gtkp7ckwaax7oq",
+          "uri": "at://did:plc:p2zbuuerumyjlllcs3suohki/app.bsky.feed.post/3mdglyw7uhs2a"
+        },
+        "root": {
+          "cid": "bafyreigltnvgn43qt54trfw2y4hwhyn4sr56i7q35twl657dcfpjmpcpaa",
+          "uri": "at://did:plc:mvqgxyogng6i3ki6ps5klhwp/app.bsky.feed.post/3mdfqmovhoudy"
+        }
+      },
+      "text": "🤦\n\nI'm enough of an anglophile to be familiar with many of the face-plants.\n\n🤦🤦\n\nI'm a student of history enough to know this has been going on for a while.\n\n🤦🤦🤦\n\nI'm old enough to remember when the UK had many luminaries of tech.\n\nIt's all be very sad to watch from afar."
+    },
+    "cid": "bafyreif26mavqwfufpppvtwbonaskv66pmf3j4wsanxuln56nghagpmsei"
+  }
+}
