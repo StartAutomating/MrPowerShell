@@ -1,0 +1,90 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769542859789105,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdgjat2omc2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdgjassdm223",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-27T19:40:59.368Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreiakuypw67gjcpti6bgmhlyzbcpxmggcbf4gqoct4p4add6l4h3sme",
+          "uri": "at://did:plc:bdjf6o36si23ivt52wmp5frn/app.bsky.feed.post/3mdg6vrrxhk2k"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:bdjf6o36si23ivt52wmp5frn"
+            }
+          ],
+          "index": {
+            "byteEnd": 24,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 57,
+            "byteStart": 46
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DotNet"
+            }
+          ],
+          "index": {
+            "byteEnd": 79,
+            "byteStart": 72
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "XML"
+            }
+          ],
+          "index": {
+            "byteEnd": 84,
+            "byteStart": 80
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/pifflevalve.bsky.social/post/3mdg6vrrxhk2k"
+            }
+          ],
+          "index": {
+            "byteEnd": 294,
+            "byteStart": 270
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "@pifflevalve.bsky.social \n\nWhat do you mean?\n\n#PowerShell just uses the #DotNet #XML parser (and adds some bells and whistles)\n\nWhat type of XML in PowerShell is the current \"bane of your life?\"\n\n( I might be able to try to help, got some wolfsbane right over here...)\n\nbsky.app/profile/piff..."
+    },
+    "cid": "bafyreidlwduu3756ewfmaqtzzirhvxinv5lekc6ckq2dbam353m6ysspzi"
+  }
+}
