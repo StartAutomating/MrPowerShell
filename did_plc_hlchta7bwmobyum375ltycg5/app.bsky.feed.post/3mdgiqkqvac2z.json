@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769542314654096,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdgiql3tsn2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdgiqkqvac2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-27T19:31:54.061Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicsypplij2bz6z4vgsvntbuxtozja3vj54mrj4j5iykrlwjrdrxpq",
+          "uri": "at://did:plc:76n5af4lu74itlshkbvbynyo/app.bsky.feed.post/3mdfxe6dcrc2d"
+        },
+        "root": {
+          "cid": "bafyreieflgpgqyklzdnzdhuzthbuz6symkboz2oxnmprixcx4y4cufg3va",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mddzpeiwdk2k"
+        }
+      },
+      "text": "Thanks!  Adapters are fun!\n\nI've been trying to release some of these cool projects on the shelf that had started to gather dust.\n\nNot sure when the full Reptile talk will be uploaded (but might try to clock some content creation hours today to put more content out there)"
+    },
+    "cid": "bafyreieozgd4mimnab35o6hzyvtuto7wjxthcma4h5f73pv6le2t5dilwq"
+  }
+}
