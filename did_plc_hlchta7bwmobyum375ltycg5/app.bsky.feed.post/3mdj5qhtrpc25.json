@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769633579720163,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdj5qicobe2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdj5qhtrpc25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-28T20:52:59.065Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Signal"
+            }
+          ],
+          "index": {
+            "byteEnd": 52,
+            "byteStart": 45
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 75,
+            "byteStart": 63
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ARM"
+            }
+          ],
+          "index": {
+            "byteEnd": 101,
+            "byteStart": 97
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Seriously wondering / asking.\n\nWhy shouldn't #Signal work on a #RaspberryPi?\n\nAren't many phones #ARM?\n\nWhy is issue?\n\n(random answers welcome)"
+    },
+    "cid": "bafyreiae2wya7ongdlaczzrpqw47r6dhinvhvasusgoqm5avw4qulbmrgi"
+  }
+}
