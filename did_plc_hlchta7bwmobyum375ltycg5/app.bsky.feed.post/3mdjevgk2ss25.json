@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769641267346462,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdjevi2qnx24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdjevgk2ss25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-28T23:01:01.663Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Get Organized - Fast Grouping by multiple conditions - StartAutomating/Organize",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigcbt7cghplfzu2rkkkdsd63o5c3pbzihupq6h5yl3dge6e6muyla"
+            },
+            "mimeType": "image/jpeg",
+            "size": 234362
+          },
+          "title": "GitHub - StartAutomating/Organize: Get Organized - Fast Grouping by multiple conditions",
+          "uri": "https://github.com/StartAutomating/Organize"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/Organize"
+            }
+          ],
+          "index": {
+            "byteEnd": 178,
+            "byteStart": 152
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihznopv5cmvmiug774ntnlzglkjey5obh2uenbxaxmpfkx74ehvhi",
+          "uri": "at://did:plc:tp2a3zmwolpuwfzmnen3k3aq/app.bsky.feed.post/3mdj7cfirpc2b"
+        },
+        "root": {
+          "cid": "bafyreihznopv5cmvmiug774ntnlzglkjey5obh2uenbxaxmpfkx74ehvhi",
+          "uri": "at://did:plc:tp2a3zmwolpuwfzmnen3k3aq/app.bsky.feed.post/3mdj7cfirpc2b"
+        }
+      },
+      "text": "Woot!  Nice to see your progress on this.\n\nCongrats!\n\nBTW, don't know if I mentioned this but I made a quick mini-module for multi-selection grouping:\n\ngithub.com/StartAutomat..."
+    },
+    "cid": "bafyreialxyhd2pnct4hxdviawfox5nxrzhpkoqbapkmvyks2ciak2fz2ou"
+  }
+}
