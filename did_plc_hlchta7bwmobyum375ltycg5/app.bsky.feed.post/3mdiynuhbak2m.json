@@ -1,0 +1,84 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769628126954993,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdiynungzy23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdiynuhbak2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-28T19:22:02.905Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "YouTube video by DEFCONConference",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicrahlxlmtihh4pv37n4yubttgfkppladypg2z33533xc5j7rc4re"
+            },
+            "mimeType": "image/jpeg",
+            "size": 49407
+          },
+          "title": "DEF CON 18 - David Kennedy \"ReL1K\" & Josh Kelley - Powershell...omfg",
+          "uri": "https://youtu.be/q5pA49C7QJg?si=wWHaFKiAbjq9LHL0"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DefCon"
+            }
+          ],
+          "index": {
+            "byteEnd": 92,
+            "byteStart": 85
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 112,
+            "byteStart": 101
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://youtu.be/q5pA49C7QJg?si=wWHaFKiAbjq9LHL0"
+            }
+          ],
+          "index": {
+            "byteEnd": 174,
+            "byteStart": 150
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiay4tmof2izgcyle4vuhticxojhmjd6kjiayv67eylvjzxbdg5f3e",
+          "uri": "at://did:plc:2cadvbwpkxtuvmv2gpy5laml/app.bsky.feed.post/3mdirjpp6k22u"
+        },
+        "root": {
+          "cid": "bafyreiay4tmof2izgcyle4vuhticxojhmjd6kjiayv67eylvjzxbdg5f3e",
+          "uri": "at://did:plc:2cadvbwpkxtuvmv2gpy5laml/app.bsky.feed.post/3mdirjpp6k22u"
+        }
+      },
+      "text": "Yep.\n\nActually it's generally been under a second since ~2010.\n\nSee this old seminal #DefCon talk on #PowerShell and the Social Engineering Toolkit.\n\nyoutu.be/q5pA49C7QJg?...\n\nPowershell...omfg was the name of the talk.  Demo is about 1/3rd thru.\n\nNowadays people use rubber duckys."
+    },
+    "cid": "bafyreif4o2f5mnvryqplamrnn2fxj3swbd3dmvqkiezclpekujlvp22b74"
+  }
+}
