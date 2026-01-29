@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769662447873369,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdjymt6xn62u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdjymsw33k25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-29T04:54:07.487Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihkw7sru26w4cujab3gbzbvxo5uc7cc66bqykq4cktl6hzyyffxqa",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mdjxqfpfs22q"
+        },
+        "root": {
+          "cid": "bafyreib7wtucniinupfdwycmz7mkpfmglwlm54hlmwtcyjk4apbsn4jttq",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mdjm33756k2w"
+        }
+      },
+      "text": "As in \"for the night\" or as in \"forever\" ?"
+    },
+    "cid": "bafyreiazvawszyispnx46btnqvzh7wkv45p4avyffw2ety4mx3qak3y5ky"
+  }
+}
