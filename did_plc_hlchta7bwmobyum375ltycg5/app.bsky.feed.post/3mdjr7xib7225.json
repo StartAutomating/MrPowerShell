@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769654500384841,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdjr7xr6tv26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdjr7xib7225",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-29T02:41:39.877Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiddldrgwm5hv2pluh7kpalephxg2yvxteciox5gwzldyb7wn6hvui",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3mdjqujmsd42x"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreiae2wya7ongdlaczzrpqw47r6dhinvhvasusgoqm5avw4qulbmrgi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mdj5qhtrpc25"
+        }
+      },
+      "text": "Thanks!  Raspbian is Debian but a fair number of packages don't have the best arm/arm64 support.\n\nSo it's like normal linux, just without half the packages.\n\n😂"
+    },
+    "cid": "bafyreihyu4panwgjfk46vcmotgmzo2fba2bbihkm5fqtzs7dqhbrcpezxu"
+  }
+}
