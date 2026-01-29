@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769660380724792,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdjwp7qlyf24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdjwp7eius25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-29T04:19:40.168Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib7wtucniinupfdwycmz7mkpfmglwlm54hlmwtcyjk4apbsn4jttq",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mdjm33756k2w"
+        },
+        "root": {
+          "cid": "bafyreib7wtucniinupfdwycmz7mkpfmglwlm54hlmwtcyjk4apbsn4jttq",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mdjm33756k2w"
+        }
+      },
+      "text": "😂 Gotta love an interesting outcome of a good thought experiment 😂"
+    },
+    "cid": "bafyreiefpsqrhpgpypecz4ovx6hho7fsocreh5pz255cjhm3tuafhhr3s4"
+  }
+}
