@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769670774287414,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdkaexqtzk23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdkaeyzcys2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-29T07:12:55.383Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic7hl7nwbhporgqhj4j7x22gc4ektepw4vscxft3zjmct4a63l6k4",
+          "uri": "at://did:plc:j4kqueb7vgvip47ovzqjaa2g/app.bsky.feed.post/3mdk2yqhhms2q"
+        },
+        "root": {
+          "cid": "bafyreifdkxr4x636s6ufbuqbe6lro5gozpzwi43qgecasgxw5pazjthkvu",
+          "uri": "at://did:plc:oe5k5kgdudinkw6jpzzfcw4q/app.bsky.feed.post/3mdiz5f7os22a"
+        }
+      },
+      "text": "Yeah that has always been the sad thing to see.\n\nLots of old school well meaning Rs that thought it all stood for something.  Lots still do.\n\nLot of us Independents who could always see the sham side.  Lots still can't.\n\nLots of people misled for decades.\n\nTrue tragedy for us all."
+    },
+    "cid": "bafyreigh3kmva6peti3p465kbycfi77orywvvb4rveirpf44cceuupnf3m"
+  }
+}
