@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769670923090355,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdkajfp33e2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdkajgwggk2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-29T07:15:24.186Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Global rank: 16,969th. ⭐1.6K owned. ⭐23.3K contributed. 👥529 followers. Top repo: PSDevOps (⭐148).",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibxle436akc3po4cn3fewkadhmu442pz6z5a6s2nza55iy2lze7e4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 13706
+          },
+          "title": "StartAutomating (James Brundage) - GitHub Analytics | GitRanks",
+          "uri": "https://gitranks.com/profile/StartAutomating"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://gitranks.com/profile/StartAutomating"
+            }
+          ],
+          "index": {
+            "byteEnd": 149,
+            "byteStart": 121
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihsvmschifdl2idcygmgq4lbduxuhbdhxdtikxyiiblsnw6tqlgbe",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mdjz564vls2q"
+        },
+        "root": {
+          "cid": "bafyreib7wtucniinupfdwycmz7mkpfmglwlm54hlmwtcyjk4apbsn4jttq",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mdjm33756k2w"
+        }
+      },
+      "text": "Not too bad output ( until you've gotta debug / refactor ).\n\nI stopped counting until GitRanks started doing it for me.\n\ngitranks.com/profile/Star...\n\nStill can't believe I'm pushing close to 27mb ( by hand or by non-ai bots I've written ).\n\nAutomation definitely helps."
+    },
+    "cid": "bafyreibugm5h5ygq2zr3lsqafe3zodq5meqtaczc4v2ge4qpdsrow4p35q"
+  }
+}
