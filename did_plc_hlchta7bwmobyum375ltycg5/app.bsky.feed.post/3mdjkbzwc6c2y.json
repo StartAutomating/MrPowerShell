@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769647054093603,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdjkc2hb3p2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdjkbzwc6c2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-29T00:37:33.349Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:aunpu65mdrhwfie7ynymlzeh"
+            }
+          ],
+          "index": {
+            "byteEnd": 242,
+            "byteStart": 227
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:4w3nwmmuwuz3jchs6kh6ai2e"
+            }
+          ],
+          "index": {
+            "byteEnd": 269,
+            "byteStart": 247
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib7lgydotjh7af3hdz4uxr7w5dm3iodrbauwmfexwpmsh55rk46gy",
+          "uri": "at://did:plc:j4kqueb7vgvip47ovzqjaa2g/app.bsky.feed.post/3mdiz7pncpc2l"
+        },
+        "root": {
+          "cid": "bafyreifdkxr4x636s6ufbuqbe6lro5gozpzwi43qgecasgxw5pazjthkvu",
+          "uri": "at://did:plc:oe5k5kgdudinkw6jpzzfcw4q/app.bsky.feed.post/3mdiz5f7os22a"
+        }
+      },
+      "text": "I personally think you're underestimating when the GOP went fully rabbid, and how many people have left that formerly \"big tent\" as it shrunk ever smaller.\n\nIf you want to get a sense of why so many left, I'd recommend reading @thebulwark.com (or @timmiller.bsky.social \"Why We Did It\")"
+    },
+    "cid": "bafyreih24kzjmf5g6daevaui4owh6rheym5rvc7m2agodddxcraezdo3em"
+  }
+}
