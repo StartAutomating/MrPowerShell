@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769645849203917,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdjj65dox32h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdjj64tvtc2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-29T00:17:28.458Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Macroeconomics"
+            }
+          ],
+          "index": {
+            "byteEnd": 235,
+            "byteStart": 220
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifdkxr4x636s6ufbuqbe6lro5gozpzwi43qgecasgxw5pazjthkvu",
+          "uri": "at://did:plc:oe5k5kgdudinkw6jpzzfcw4q/app.bsky.feed.post/3mdiz5f7os22a"
+        },
+        "root": {
+          "cid": "bafyreifdkxr4x636s6ufbuqbe6lro5gozpzwi43qgecasgxw5pazjthkvu",
+          "uri": "at://did:plc:oe5k5kgdudinkw6jpzzfcw4q/app.bsky.feed.post/3mdiz5f7os22a"
+        }
+      },
+      "text": "🤷 none of us can know for sure.\n\nMy money says \"probably not\".\n\nRomney and Trump are miles apart, and yet both in the \"country should be run like business\" / \"takers vs makers\" camp.\n\nI swear nobody paid attention in #Macroeconomics, including the first \"Management Consulting\" billionaire (Romney)."
+    },
+    "cid": "bafyreielvis6pqnke63ugguix6ovfdaz7c67en4uuqxeqtub7el6etkidy"
+  }
+}
