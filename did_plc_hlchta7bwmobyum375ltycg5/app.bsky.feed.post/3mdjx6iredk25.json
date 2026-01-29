@@ -1,0 +1,84 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769660894495082,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdjx6jpgcs2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdjx6iredk25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-29T04:28:13.342Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Ollama PowerShell:  Play with AI in PowerShell. Contribute to StartAutomating/ollama-powershell development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihxq4xu2vxywwheqnjh23bd6o23fdfhpzanjw4ikeojvcehx4ojrm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 220701
+          },
+          "title": "GitHub - StartAutomating/ollama-powershell: Ollama PowerShell:  Play with AI in PowerShell",
+          "uri": "https://github.com/StartAutomating/ollama-powershell"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ollama"
+            }
+          ],
+          "index": {
+            "byteEnd": 122,
+            "byteStart": 115
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ollama-powershell"
+            }
+          ],
+          "index": {
+            "byteEnd": 143,
+            "byteStart": 125
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/ollama-powershell"
+            }
+          ],
+          "index": {
+            "byteEnd": 171,
+            "byteStart": 145
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieh2iglmqaejwhfvxneae667xsxbomnweogzrrou2x6g7ddakl4be",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mdjx3uolts2q"
+        },
+        "root": {
+          "cid": "bafyreib7wtucniinupfdwycmz7mkpfmglwlm54hlmwtcyjk4apbsn4jttq",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mdjm33756k2w"
+        }
+      },
+      "text": "Well, if you want to try doing the \"free\" version.\n\nI bet this would be a pretty fun / easy experiment to run with #ollama / #ollama-powershell\n\ngithub.com/StartAutomat...\n\nJust saying ..."
+    },
+    "cid": "bafyreibpn5ukscdy7w33q37xu7m7f6u3dpoidqydlstuvaalr3pvwliwly"
+  }
+}
