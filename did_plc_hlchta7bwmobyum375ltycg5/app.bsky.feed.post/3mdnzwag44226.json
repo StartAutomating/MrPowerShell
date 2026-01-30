@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769801275099868,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdnzw6ycrq2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdnzwag44226",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-30T19:27:56.324Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:53ehfpwig5jtiywii5s7wq5k"
+            }
+          ],
+          "index": {
+            "byteEnd": 148,
+            "byteStart": 124
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:hh3ywvussfpmzvpkplksmyhk"
+            }
+          ],
+          "index": {
+            "byteEnd": 173,
+            "byteStart": 151
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreickm3bqygr4ritnq5atwbbry7z2wryrb2wcngxugdiwoktdldurba",
+          "uri": "at://did:plc:bgkll6a47vtbmsvjhfkovcr2/app.bsky.feed.post/3mdnhq2zf6c2g"
+        },
+        "root": {
+          "cid": "bafyreickm3bqygr4ritnq5atwbbry7z2wryrb2wcngxugdiwoktdldurba",
+          "uri": "at://did:plc:bgkll6a47vtbmsvjhfkovcr2/app.bsky.feed.post/3mdnhq2zf6c2g"
+        }
+      },
+      "text": "💯 the about topics and help are part of what makes PowerShell so powerful.\n\nThe bulk of the older topics were written by @juneblender.bsky.social.\n\n@sdwheeler.bsky.social writes the new ones.\n\nThey're both great people filled with endless curiosity.\n\nAlmost all features are well documented."
+    },
+    "cid": "bafyreibtpc6c6hm6qpfxvlvkmq6kt55iwbfijouy7sos5ukqkkojdbkb6u"
+  }
+}
