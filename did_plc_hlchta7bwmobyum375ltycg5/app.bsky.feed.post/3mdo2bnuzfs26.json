@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769801658571180,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdo2bmnp6p26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdo2bnuzfs26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-30T19:34:19.547Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreietsj6bdfphdnah7wanq7plej62lxvs7zkrjncvn2awx6cpaynyqy",
+          "uri": "at://did:plc:bgkll6a47vtbmsvjhfkovcr2/app.bsky.feed.post/3mdo27ipke225"
+        },
+        "root": {
+          "cid": "bafyreickm3bqygr4ritnq5atwbbry7z2wryrb2wcngxugdiwoktdldurba",
+          "uri": "at://did:plc:bgkll6a47vtbmsvjhfkovcr2/app.bsky.feed.post/3mdnhq2zf6c2g"
+        }
+      },
+      "text": "Nah, I'm typing with my thumbs.  Don't chatGPT too much.\n\nJust genuinely happy to see the enthusiasm and trying to share a bit more coolness."
+    },
+    "cid": "bafyreih4afnfge5u4dyb2ru5jh6yzfdp5tviorbuxv6azv4gnsegcdhfhq"
+  }
+}
