@@ -1,0 +1,19 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769748559895949,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdmit5valk2y",
+    "operation": "create",
+    "collection": "app.bsky.graph.list",
+    "rkey": "3mdmit5uxsc2y",
+    "record": {
+      "$type": "app.bsky.graph.list",
+      "createdAt": "2026-01-30T04:49:19.482Z",
+      "description": "Amazing people working on At Protocol projects.",
+      "name": "Awesome At Protocol People",
+      "purpose": "app.bsky.graph.defs#referencelist"
+    },
+    "cid": "bafyreid5buueqgmiwty2argsafodx7h4yyrvoutpjxgiohss2chmtanjzi"
+  }
+}
