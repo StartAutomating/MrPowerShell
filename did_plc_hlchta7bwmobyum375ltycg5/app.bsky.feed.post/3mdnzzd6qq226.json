@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769801378718752,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdnzzbvbz22h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdnzzd6qq226",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-30T19:29:39.896Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibrtbysjnqpz3j2pmxech7glyehlleqo3vnhciivpbmukal5g5ttu",
+          "uri": "at://did:plc:bgkll6a47vtbmsvjhfkovcr2/app.bsky.feed.post/3mdnhxcuch22g"
+        },
+        "root": {
+          "cid": "bafyreickm3bqygr4ritnq5atwbbry7z2wryrb2wcngxugdiwoktdldurba",
+          "uri": "at://did:plc:bgkll6a47vtbmsvjhfkovcr2/app.bsky.feed.post/3mdnhq2zf6c2g"
+        }
+      },
+      "text": "💙🩵\n\nThose three are useful indeed!  Provided a lot of the examples for advanced functions and traps back in the day.\n\nLegitimately impressed you know about trap.  Most people do not.  Handy af once you know how to work it."
+    },
+    "cid": "bafyreicy6ooqjr2x6udhsrj5ezqj3movywrjrqiaqc7gsdgumwiteq5cci"
+  }
+}
