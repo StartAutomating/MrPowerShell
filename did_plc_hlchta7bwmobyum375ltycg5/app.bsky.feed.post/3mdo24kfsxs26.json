@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769801486595158,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdo24iro5v23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdo24kfsxs26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-30T19:31:28.131Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifydzyqciwcivo7mehm7xwzfw74ucfoizh2t3tv6a3zfmwiir7j4q",
+          "uri": "at://did:plc:bgkll6a47vtbmsvjhfkovcr2/app.bsky.feed.post/3mdnircui3c2g"
+        },
+        "root": {
+          "cid": "bafyreickm3bqygr4ritnq5atwbbry7z2wryrb2wcngxugdiwoktdldurba",
+          "uri": "at://did:plc:bgkll6a47vtbmsvjhfkovcr2/app.bsky.feed.post/3mdnhq2zf6c2g"
+        }
+      },
+      "text": "ValidateScript is definitely overpowered!\n\nMy favorite 🤯 : you can use it to track variable history.\n\nArgument Transforms are arguably more powerful, but, sadly, less documented 😕.\n\nNeed to drop that demo module..."
+    },
+    "cid": "bafyreidobth4hkb6tj6gnfbpunncqwqwu3gytbmoarr3xhm4jy23ta6zei"
+  }
+}
