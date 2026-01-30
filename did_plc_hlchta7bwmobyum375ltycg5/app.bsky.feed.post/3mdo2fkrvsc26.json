@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769801789592172,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdo2fjpshd2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdo2fkrvsc26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-30T19:36:30.517Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Microsoft MVP in Azure / PowerShell. StartAutomating has 87 repositories available. Follow their code on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibxle436akc3po4cn3fewkadhmu442pz6z5a6s2nza55iy2lze7e4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 13706
+          },
+          "title": "StartAutomating - Overview",
+          "uri": "https://GitHub.com/StartAutomating"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/StartAutomating"
+            }
+          ],
+          "index": {
+            "byteEnd": 81,
+            "byteStart": 55
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihc726y4kgo5sueue5strt55d7tewnwboksgviit7bxd2ei2dqaue",
+          "uri": "at://did:plc:bgkll6a47vtbmsvjhfkovcr2/app.bsky.feed.post/3mdo2c3so5k25"
+        },
+        "root": {
+          "cid": "bafyreickm3bqygr4ritnq5atwbbry7z2wryrb2wcngxugdiwoktdldurba",
+          "uri": "at://did:plc:bgkll6a47vtbmsvjhfkovcr2/app.bsky.feed.post/3mdnhq2zf6c2g"
+        }
+      },
+      "text": "Either of them will confirm I am quite a real person.\n\nGitHub.com/StartAutomat...\n\nJust a person who has written about 27mb of PowerShell over the years."
+    },
+    "cid": "bafyreifqygdlmg3ndp7w6lrg5yjcthv56i3iffnaiilsvwadspsezukfge"
+  }
+}
