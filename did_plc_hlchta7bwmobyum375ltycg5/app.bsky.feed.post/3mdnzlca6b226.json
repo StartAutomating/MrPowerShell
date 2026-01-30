@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769800909953484,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdnzlbpwl62e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdnzlca6b226",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-30T19:21:49.133Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Dispiriting, deadly and unrevealing – there is a decent documentary to be made about the former model from Slovenia, but this one is unredeemable",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiaedotmqhbtmmzed26x5plufz5jcauu6dux5xd6rovgtb3epvhxne"
+            },
+            "mimeType": "image/jpeg",
+            "size": 166561
+          },
+          "title": "Melania review – Trump film is a gilded trash remake of The Zone of Interest",
+          "uri": "https://www.theguardian.com/film/2026/jan/30/melania-review-trump-film-is-a-gilded-trash-remake-of-the-zone-of-interest"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.theguardian.com/film/2026/jan/30/melania-review-trump-film-is-a-gilded-trash-remake-of-the-zone-of-interest"
+            }
+          ],
+          "index": {
+            "byteEnd": 290,
+            "byteStart": 255
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "It's days like this I'm glad I'm a retired film critic.\n\nCause otherwise I might have to review this.\n\n> \"As first lady, children will always remain my priority,” she coos, and you can almost picture her coaxing them into her little gingerbread house.\n\nwww.theguardian.com/film/2026/ja..."
+    },
+    "cid": "bafyreiclecmsc5pbvd736mdmihbf5ropzpyl4r7yf2kgalq7dq5fdxblea"
+  }
+}
