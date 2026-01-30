@@ -1,0 +1,65 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769748667587692,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdmiwem22q2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdmiwedm3s2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-30T04:51:07.092Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreibpya7nbkojrct7prcblxro4cwxivtxyv4ehla3hb337boe76buwi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.graph.starterpack/3mdmit6bipj2d"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BlueSky"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 7
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 85,
+            "byteStart": 77
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://go.bsky.app/3tDSepA"
+            }
+          ],
+          "index": {
+            "byteEnd": 127,
+            "byteStart": 108
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Made a #BlueSky starter pack to help people keep track of all of the amazing #AtProto people and projects.\n\ngo.bsky.app/3tDSepA\n\nDo you build something great on BlueSky?\n\nDid I miss you?\n\nLet me know.\n\nLike. Share. Subscribe."
+    },
+    "cid": "bafyreifa45qtqzepprrwdeo6ifbuqnhfl5wfkjf2okpolwrzzr4f33tkge"
+  }
+}
