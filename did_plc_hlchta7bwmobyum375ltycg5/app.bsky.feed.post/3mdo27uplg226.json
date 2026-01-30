@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769801599165016,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdo27tfomc2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdo27uplg226",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-30T19:33:19.601Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia543nq4tmaatu2ecwbq4a2o5gapj6hkzdukmzgje2jogkt7bmniq",
+          "uri": "at://did:plc:bgkll6a47vtbmsvjhfkovcr2/app.bsky.feed.post/3mdnzzsk4ec25"
+        },
+        "root": {
+          "cid": "bafyreickm3bqygr4ritnq5atwbbry7z2wryrb2wcngxugdiwoktdldurba",
+          "uri": "at://did:plc:bgkll6a47vtbmsvjhfkovcr2/app.bsky.feed.post/3mdnhq2zf6c2g"
+        }
+      },
+      "text": "This is for real.\n\nI worked on PowerShell v2-v3.\n\nAlmost every core piece of PowerShell we know and love dates to that time.\n\nMessages like this warm my 🩵💙, because it's like a spontaneous \"thank you for your hard work\" from the internet.\n\nWe all love PowerShell very much."
+    },
+    "cid": "bafyreicisqsvqmqgjwwgbnkfg6ojgylc6jrzm4amg2nyclu6b3a2avj65i"
+  }
+}
