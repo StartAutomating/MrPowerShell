@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769802907457123,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdo3gqa4a32u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdo3griols26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-30T19:55:04.851Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigfeodvpck6t4bs6c67yu2v2b4i33aooxruclfv7vnd6zhb4uqzaq",
+          "uri": "at://did:plc:44jzoazrip6yp7o63jgvhjll/app.bsky.feed.post/3mdo37vlnzk2r"
+        },
+        "root": {
+          "cid": "bafyreies4mwmv6fq5ktwla7atdzh3ghlna7yi4uvvyh36m7vghfyfg27qu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mdo2ywshb226"
+        }
+      },
+      "text": "Nah, I'm much closer to a PowerShell cyborg at this point.\n\n😂\n\nLike the shell has become an extension of my body / thought process.\n\nSeriously love / hate it when this happens.\n\n\"You know too much, you must be AI\" 😂😂"
+    },
+    "cid": "bafyreifb3aj77msjasqhsecgryokpm2mii4i4zpblvitmbrvph2c2bxdci"
+  }
+}
