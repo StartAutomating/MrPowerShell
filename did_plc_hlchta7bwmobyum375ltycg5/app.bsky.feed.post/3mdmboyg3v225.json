@@ -1,0 +1,96 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769740904908764,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdmboz6rm726",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdmboyg3v225",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-30T02:41:43.517Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Popping and Locking color scheme",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigdwv56vhfapnuglyvekrscnkxwujvifoqgm2uvq7zotqebbz2wdy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 85060
+          },
+          "title": "/Popping-and-Locking/Popping-and-Locking.css",
+          "uri": "https://4bitcss.com/Popping-and-Locking/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "css"
+            }
+          ],
+          "index": {
+            "byteEnd": 153,
+            "byteStart": 149
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "terminal"
+            }
+          ],
+          "index": {
+            "byteEnd": 194,
+            "byteStart": 185
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "powershell"
+            }
+          ],
+          "index": {
+            "byteEnd": 226,
+            "byteStart": 215
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://4bitcss.com/Popping-and-Locking/"
+            }
+          ],
+          "index": {
+            "byteEnd": 267,
+            "byteStart": 240
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia7sytdcyzrs2yhzaa6mohj63kmc5l34nicogseuagyqx53hfnv5e",
+          "uri": "at://did:plc:gpypcihg7tzipgu5iupexake/app.bsky.feed.post/3mdmb5pmaos23"
+        },
+        "root": {
+          "cid": "bafyreia7sytdcyzrs2yhzaa6mohj63kmc5l34nicogseuagyqx53hfnv5e",
+          "uri": "at://did:plc:gpypcihg7tzipgu5iupexake/app.bsky.feed.post/3mdmb5pmaos23"
+        }
+      },
+      "text": "😂  plenty of fun to be had with command names and aliases 😂\n\nMy favorite command name still has to be \"Out-Daemon\"\n\nAlso, this reminds me of a #css color palette generated from a #terminal color palette (with #powershell, of course)\n\n4bitcss.com/Popping-and-..."
+    },
+    "cid": "bafyreie4do463et3c7svfxzibtparipv7eertsywfukarlqwtpojidpiwm"
+  }
+}
