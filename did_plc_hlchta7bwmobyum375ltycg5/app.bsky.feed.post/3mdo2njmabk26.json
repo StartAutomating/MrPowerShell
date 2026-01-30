@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769802057911801,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdo2nir6jd2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdo2njmabk26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-30T19:40:57.718Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Me when some people say I am a bot.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifhuy6gke3dkcr6ydooxmnrcdts7qdfzlofdkdco7ev4fujwo7gbu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 110904
+          },
+          "title": "a police officer sitting at a desk says i am a human i am a human male",
+          "uri": "https://media.tenor.com/VWlFU8d0T20AAAAC/captain-holt-raymond-holt.gif?hh=280&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiah63auhme3fq224b2aygexjmh3wmecy2y3aq6p76yelqlg3ogyqq",
+          "uri": "at://did:plc:bgkll6a47vtbmsvjhfkovcr2/app.bsky.feed.post/3mdo2hux65225"
+        },
+        "root": {
+          "cid": "bafyreickm3bqygr4ritnq5atwbbry7z2wryrb2wcngxugdiwoktdldurba",
+          "uri": "at://did:plc:bgkll6a47vtbmsvjhfkovcr2/app.bsky.feed.post/3mdnhq2zf6c2g"
+        }
+      },
+      "text": "🤷 your enthusiasm for PowerShell is still appreciated, even if the false presumptions of my lack of humanity are not.\n\nSeriously 🙏 keep on exploring the language and posting.\n\nIt's lots of fun!"
+    },
+    "cid": "bafyreickkeaigk5sjrmljjplj5julmtz3pw6taexxfpj6mxyobddhjyw7q"
+  }
+}
