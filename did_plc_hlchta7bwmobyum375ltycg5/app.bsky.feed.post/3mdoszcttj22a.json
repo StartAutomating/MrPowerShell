@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769828226387140,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdoszderlc2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdoszcttj22a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-31T02:57:03.084Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidyq73twq3bhzhtjgc3y4rlf4xzdpjkkvfub2br5fgl6xabdipkhi",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdoawh7t4s2b"
+        },
+        "root": {
+          "cid": "bafyreidyq73twq3bhzhtjgc3y4rlf4xzdpjkkvfub2br5fgl6xabdipkhi",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdoawh7t4s2b"
+        }
+      },
+      "text": "I tend to use a job when I want/need to sidestep this.\n\nIt's also probably good to make sure everyone knows the telltale sign:  the most ironic error you'll ever see in PowerShell:\n\n\"Cannot convert X to X because it is X\""
+    },
+    "cid": "bafyreidofoqbof744lumqdelrvy4nsvva4shrm7bwkjwiyhrhab5knuvcu"
+  }
+}
