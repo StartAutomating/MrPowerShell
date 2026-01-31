@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769895558395443,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdqrq2mwae2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdqrpzvs622c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-31T21:39:17.456Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreienspvt7t7u4mlxlca6fg7dtk6dm2lcdvttqiq2s4zdhenfuyz23u",
+          "uri": "at://did:plc:23tdnkbgz6iarbxk3tr4dds6/app.bsky.feed.post/3mdqhcmk2pq2g"
+        },
+        "root": {
+          "cid": "bafyreienspvt7t7u4mlxlca6fg7dtk6dm2lcdvttqiq2s4zdhenfuyz23u",
+          "uri": "at://did:plc:23tdnkbgz6iarbxk3tr4dds6/app.bsky.feed.post/3mdqhcmk2pq2g"
+        }
+      },
+      "text": "💯 to almost all of this!\n\nOne of my old sayings is that \"programming is tedious, not hard\"\n\nDo I believe an LLM or sufficiently caffeinated individual can rapidly produce a minimum viable product?  Yes.\n\nDo I think that that product can ship multiple versions with some stability? No.\n\nIt takes work."
+    },
+    "cid": "bafyreiegdphifud7xvfx7o3nwuovna5z3kl74geytnsvuuaproj5akz7dy"
+  }
+}
