@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769890389445237,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdqmvz5aaf2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdqmvzk7lk2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-31T20:13:09.683Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigp4khnttct6z4xdvpmtx23o3pe42pg4uso3spasn55a7t6dnigei",
+          "uri": "at://did:plc:ekecza4ryueyt7bw74hbzhy3/app.bsky.feed.post/3mdqh2kb3z22g"
+        },
+        "root": {
+          "cid": "bafyreigp4khnttct6z4xdvpmtx23o3pe42pg4uso3spasn55a7t6dnigei",
+          "uri": "at://did:plc:ekecza4ryueyt7bw74hbzhy3/app.bsky.feed.post/3mdqh2kb3z22g"
+        }
+      },
+      "text": "It is definitely both.\n\nBut it's also definitely a programming language in a scripting language in a shell ( in roughly that order )."
+    },
+    "cid": "bafyreibhiofe6xk5ib2jyh4abcsqisdtidzsd3sreasr3s5hjhggsg22ga"
+  }
+}
