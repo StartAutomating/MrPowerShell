@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769831213893495,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdovsguci62d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdovsglrws25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-31T03:46:53.36Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidofoqbof744lumqdelrvy4nsvva4shrm7bwkjwiyhrhab5knuvcu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mdoszcttj22a"
+        },
+        "root": {
+          "cid": "bafyreidyq73twq3bhzhtjgc3y4rlf4xzdpjkkvfub2br5fgl6xabdipkhi",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdoawh7t4s2b"
+        }
+      },
+      "text": "Memory was slightly wrong here.\n\nActual error is something like:\n\nInvalidArgument: Cannot convert the \"ns.MyType\" value of type \"ns.MyType\" to type \"ns.MyType\".\n\nStill maintain it is the most ironic and unhelpful error you will ever see in PowerShell."
+    },
+    "cid": "bafyreihjmgxuqedtj6apvitwwd63stz4tyy3c6cqiutyren7cwua4cufka"
+  }
+}
