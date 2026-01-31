@@ -1,0 +1,104 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769831142999552,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdovqdc2j32s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdovqd34dk25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-31T03:45:42.558Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$T1"
+            }
+          ],
+          "index": {
+            "byteEnd": 149,
+            "byteStart": 146
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$I1"
+            }
+          ],
+          "index": {
+            "byteEnd": 195,
+            "byteStart": 192
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$T1"
+            }
+          ],
+          "index": {
+            "byteEnd": 201,
+            "byteStart": 198
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$T2"
+            }
+          ],
+          "index": {
+            "byteEnd": 215,
+            "byteStart": 212
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$I2"
+            }
+          ],
+          "index": {
+            "byteEnd": 262,
+            "byteStart": 259
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$T2"
+            }
+          ],
+          "index": {
+            "byteEnd": 268,
+            "byteStart": 265
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidyq73twq3bhzhtjgc3y4rlf4xzdpjkkvfub2br5fgl6xabdipkhi",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdoawh7t4s2b"
+        },
+        "root": {
+          "cid": "bafyreidyq73twq3bhzhtjgc3y4rlf4xzdpjkkvfub2br5fgl6xabdipkhi",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdoawh7t4s2b"
+        }
+      },
+      "text": "Btw if you need to reproduce this with Add-Type....\n\nSteps are:\n\n1. Declare two types with _slightly_ different signatures.\n2. -OutputAssembly\n3. $t1 = Add-Type -Path ./first.dll -Passthru\n4. $i1 = $t1::new()\n5. $t2 = Add-Type -Path ./second.dll -Passthru\n6. $i2 = $t2::new()\n7. [t1]$i2\n\nHave fun!"
+    },
+    "cid": "bafyreiagrw6qoc7o3texdqiea3ozwxnwf53foysgw6t4qfc4nu3lhkuzmu"
+  }
+}
