@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769896011888409,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdqs5kzsmq23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdqs5kh23k2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-31T21:46:51.006Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "UBI"
+            }
+          ],
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 105
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Math"
+            }
+          ],
+          "index": {
+            "byteEnd": 255,
+            "byteStart": 250
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I feel like if everyone gave a penny/nickel/dime every time they were wrong online, we'd be able to have #UBI and a decent Social Safety Net, and still have enough extra cash to fund the US government.\n\nThink of it like a universal swear jar:\n\nThe ~ #Math :\n\n(8gb * .63 * 1 * 365)/1tb"
+    },
+    "cid": "bafyreibzjkhjwwujm2pxruaglgiso6yk3ga5kpvc6suzrhal7gesa5jdp4"
+  }
+}
