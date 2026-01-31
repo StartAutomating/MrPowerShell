@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769835763770017,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdozzzz7vv2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdozzznbjs25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-31T05:02:43.179Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia53hf6haesin3rk6utgms7e3nnpsdbhqiuaaoufnpvbnrme253ce",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdozsn75d22v"
+        },
+        "root": {
+          "cid": "bafyreidyq73twq3bhzhtjgc3y4rlf4xzdpjkkvfub2br5fgl6xabdipkhi",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdoawh7t4s2b"
+        }
+      },
+      "text": "Ah.\n\nWell, sadly, this is something I often avoid by avoiding assemblies.\n\nIt's most commonly encountered by accident, when you've already loaded one module and then another module loads the \"same but not actually\" assembly.\n\nCould try to whip something up, but these errors are transient by nature."
+    },
+    "cid": "bafyreidqu4ufsaksy2ev5qrgafwic7n7yo6qd4wdbodfdwidippafhcnde"
+  }
+}
