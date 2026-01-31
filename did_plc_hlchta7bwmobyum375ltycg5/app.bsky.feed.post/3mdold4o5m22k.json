@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769819962861118,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdold55tku2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdold4o5m22k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-01-31T00:39:22.216Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$ENV"
+            }
+          ],
+          "index": {
+            "byteEnd": 139,
+            "byteStart": 135
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigxbhbumxva6xyceugmbhjghez5fh3crjsuqlidxhrhn37h6srcry",
+          "uri": "at://did:plc:hcq3w6fvco6oycpqh6i46zoo/app.bsky.feed.post/3mdo7zpo6z22o"
+        },
+        "root": {
+          "cid": "bafyreigxbhbumxva6xyceugmbhjghez5fh3crjsuqlidxhrhn37h6srcry",
+          "uri": "at://did:plc:hcq3w6fvco6oycpqh6i46zoo/app.bsky.feed.post/3mdo7zpo6z22o"
+        }
+      },
+      "text": "For a winget install you'll probably need to use dot sourcing _and_ re-sync the path from the environment:\n\nShould be something like:\n\n$env:Path = [environment]::GetEnviromentVariables('PATH', 'User')"
+    },
+    "cid": "bafyreiacqwhayxllye7m7jsw6ntdbnlao2s3j4sbezf6hul4rcts3bcnd4"
+  }
+}
