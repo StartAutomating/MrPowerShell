@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769983834766923,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdtdwvlhcy2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdtdwuxfa22h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-01T22:10:33.976Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic5zabp5y72fxufapsl6cxh5p7pldlsxtwysvwuf57hfmonfacnx4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mdtdt2gdls2h"
+        },
+        "root": {
+          "cid": "bafyreidt2mfvjxkrgzswdugflnyardtr4du2omcglalzywhzwomso3qgsm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdssfktci22z"
+        }
+      },
+      "text": "First up: it was a solved problem.  People needed examples of using WMI on fixed ports, and got them, and they stopped complaining.  So, no need to make a \"new\" protocol.\n\nSecond up: it created countless more problems.  Most notably, in inflating packet size and thus network congestion."
+    },
+    "cid": "bafyreicrdlay35uvr7kpykeo6aualel6xybxfnd4uy74zoi43a6hqg36pq"
+  }
+}
