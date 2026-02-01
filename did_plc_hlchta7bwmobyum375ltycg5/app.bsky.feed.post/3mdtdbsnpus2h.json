@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769983127454482,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdtdbswtdk26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdtdbsnpus2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-01T21:58:46.919Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidkqcd3izt5ufoemmplehsoopgqd45nbulqtynejmwkgieqyldacy",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3mdtbz75hlk27"
+        },
+        "root": {
+          "cid": "bafyreidt2mfvjxkrgzswdugflnyardtr4du2omcglalzywhzwomso3qgsm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdssfktci22z"
+        }
+      },
+      "text": "SSH is the future?\n\nGiven it's only 4 years younger than the internet, I could sworn it was the past.  😂\n\nSeriously agree with the statements here.\n\nI've been \"over\" PowerShell remoting since ~2012.\n\nHTTP/S is the way.\n\nCliXml even fits inline into HTML, and can be styled with CSS."
+    },
+    "cid": "bafyreig2szrf7sg553n347jz5efcxi3jdv4tot4bs4b3t6oklb4xbyfpvq"
+  }
+}
