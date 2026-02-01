@@ -1,0 +1,80 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769984789307465,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdtetdseuj2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdtetdazo22h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-01T22:26:28.496Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SSH"
+            }
+          ],
+          "index": {
+            "byteEnd": 40,
+            "byteStart": 36
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 79,
+            "byteStart": 68
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "HTML"
+            }
+          ],
+          "index": {
+            "byteEnd": 156,
+            "byteStart": 151
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JSON"
+            }
+          ],
+          "index": {
+            "byteEnd": 187,
+            "byteStart": 182
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifhpfx3aeudtpizmiz7qhb3dkulqtr5abc57ccwiryj6f2f53n6oe",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3mdteoq3xac2z"
+        },
+        "root": {
+          "cid": "bafyreidt2mfvjxkrgzswdugflnyardtr4du2omcglalzywhzwomso3qgsm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdssfktci22z"
+        }
+      },
+      "text": "💯 and you've just identified why #SSH isn't the right choice for #PowerShell remoting.\n\nPowerShell outputs open-ended objects.\n\nSSH is text based.\n\n#HTML _is_ open-ended objects.\n#JSON _is_ open-ended objects.\n\nEither would be a better choice."
+    },
+    "cid": "bafyreibrt7r2ymsyvig4qdmbkmxxp3erm7jtc22gwllt7mvzhxmd2sficm"
+  }
+}
