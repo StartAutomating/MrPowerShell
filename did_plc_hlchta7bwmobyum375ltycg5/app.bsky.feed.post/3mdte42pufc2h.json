@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769984008478675,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdte437ply2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdte42pufc2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-01T22:13:27.793Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihpamtrzagsaibp5yarebclxiwytxavsi4wmtsigzp56qjitz326y",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mdtdz724j22h"
+        },
+        "root": {
+          "cid": "bafyreidt2mfvjxkrgzswdugflnyardtr4du2omcglalzywhzwomso3qgsm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdssfktci22z"
+        }
+      },
+      "text": "Fourth: Despite wanting to be \"standards based\", if effectively cut Microsoft out of the semantic web standards discussions.\n\nSemantic web elements, like <progress>, are a much better fit than a whole custom serialization method for a prorgress bar.\n\nSo it was tactically unwise."
+    },
+    "cid": "bafyreigd5ighrzwfqbr4mq6yyi2rvf6rdz3qbjacgv45oc5osm2xfrii6a"
+  }
+}
