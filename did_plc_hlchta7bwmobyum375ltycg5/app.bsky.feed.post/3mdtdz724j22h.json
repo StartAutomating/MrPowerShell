@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769983912262282,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdtdz7irun2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdtdz724j22h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-01T22:11:51.66Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicrdlay35uvr7kpykeo6aualel6xybxfnd4uy74zoi43a6hqg36pq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mdtdwuxfa22h"
+        },
+        "root": {
+          "cid": "bafyreidt2mfvjxkrgzswdugflnyardtr4du2omcglalzywhzwomso3qgsm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdssfktci22z"
+        }
+      },
+      "text": "Third: it was clear that protocols were moving in a more \"web friendly\" direction (using 80/443).  The writing was on the wall since before WSMan was even a thing.\n\nThis has been shown thru time in that basically all the other \"Indigo\" apis are now dead and gone."
+    },
+    "cid": "bafyreihpamtrzagsaibp5yarebclxiwytxavsi4wmtsigzp56qjitz326y"
+  }
+}
