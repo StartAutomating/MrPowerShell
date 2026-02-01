@@ -1,0 +1,183 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769930155980130,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdrrx56bbw2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdrrx3can22s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-01T07:15:53.532Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicxwwd53q5wq5exlb35u26pdf4tzll73nozjnslchl7rh5dellvpm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 869451
+          },
+          "title": "Hello World - PowerShell Pocket Blog",
+          "uri": "https://pckt.blog/b/posh/hello-world-pxsfky1"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://pckt.blog"
+            }
+          ],
+          "index": {
+            "byteEnd": 96,
+            "byteStart": 87
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://pckt.blog/b/posh/hello-world-pxsfky1"
+            }
+          ],
+          "index": {
+            "byteEnd": 178,
+            "byteStart": 153
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:revjuqmkvrw6fnkxppqtszpv"
+            }
+          ],
+          "index": {
+            "byteEnd": 197,
+            "byteStart": 187
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 239,
+            "byteStart": 228
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "C"
+            }
+          ],
+          "index": {
+            "byteEnd": 242,
+            "byteStart": 240
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Rust"
+            }
+          ],
+          "index": {
+            "byteEnd": 248,
+            "byteStart": 243
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "golang"
+            }
+          ],
+          "index": {
+            "byteEnd": 256,
+            "byteStart": 249
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "markdown"
+            }
+          ],
+          "index": {
+            "byteEnd": 266,
+            "byteStart": 257
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "html"
+            }
+          ],
+          "index": {
+            "byteEnd": 272,
+            "byteStart": 267
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "javascript"
+            }
+          ],
+          "index": {
+            "byteEnd": 284,
+            "byteStart": 273
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "python"
+            }
+          ],
+          "index": {
+            "byteEnd": 292,
+            "byteStart": 285
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "json"
+            }
+          ],
+          "index": {
+            "byteEnd": 298,
+            "byteStart": 293
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I may have taken \"Hello World\" examples a bit too far...\n\nFirst post of the PowerShell pckt.blog !\n\n\"Hello World\" in PowerShell and 11 other languages.\n\npckt.blog/b/posh/hello...\n\nThanks @pckt.blog for the PowerShell support !\n\n#PowerShell #C #Rust #golang #markdown #html #javascript #python #json"
+    },
+    "cid": "bafyreibnnvtozoqasghdqwbigcdihqmraydbtzqtgjoay2bqu2d65pqz6m"
+  }
+}
