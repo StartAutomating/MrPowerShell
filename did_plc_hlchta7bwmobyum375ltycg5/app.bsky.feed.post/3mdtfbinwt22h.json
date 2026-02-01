@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769985264580754,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdtfbj2t7626",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdtfbinwt22h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-01T22:34:23.925Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih4wllnli544zkt7kcdcnb6gfl2dxg7szyz2scvkqzezc2eulnmoi",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3mdteyecrlk2z"
+        },
+        "root": {
+          "cid": "bafyreidt2mfvjxkrgzswdugflnyardtr4du2omcglalzywhzwomso3qgsm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdssfktci22z"
+        }
+      },
+      "text": "Also probably worth noting on this topic:\n\nAlmost every security hole in a product related to PowerShell has come because people have tried to re-expose PowerShell in web forms without understanding language modes.  Most of the rest are \"didn't understand auth mechanisms\" (CredSSP)"
+    },
+    "cid": "bafyreicxpqjmndmp5rlv324oubox5v3f3nqxac7s7vdtqoqjstltzdlrda"
+  }
+}
