@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769984424085232,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdteihivdt26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdteigzsns2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-01T22:20:23.356Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihuufuodt7ati5g5xexxuvqga6msbokio7coitkzta4ripwcdkqqu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mdtedf5dbc2h"
+        },
+        "root": {
+          "cid": "bafyreidt2mfvjxkrgzswdugflnyardtr4du2omcglalzywhzwomso3qgsm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdssfktci22z"
+        }
+      },
+      "text": "Seventh: Isolating the costs and \"benefits\".\n\nBecause Microsoft made it's own thing here, it has had to maintain it.  This still costs Microsoft.  \n\nAnd the \"benefits\" of PowerShell remoting, like RBAC / sandboxing, were not shared and have been implemented hapazardly across the field."
+    },
+    "cid": "bafyreihzuoo7gxgvhgt6aftdeiksyusyjzlxgeu76qlvf3ggmn7gcmyjfq"
+  }
+}
