@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769984254258173,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdtedfm66j24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdtedf5dbc2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-01T22:17:33.602Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihc3cgqakoi4nwg67r5yx7s2sqsayk7j2h3fra4m6fkec6rybfnhq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mdte7eb2pc2h"
+        },
+        "root": {
+          "cid": "bafyreidt2mfvjxkrgzswdugflnyardtr4du2omcglalzywhzwomso3qgsm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdssfktci22z"
+        }
+      },
+      "text": "Sixth: industry alignment.  Microsoft making it's own remoting protocol when basically everyone else had stopped left a sour taste in the mouth of many other companies.\n\nWhy?  Because Microsoft hoped to win a standards war nobody else was fighting."
+    },
+    "cid": "bafyreihuufuodt7ati5g5xexxuvqga6msbokio7coitkzta4ripwcdkqqu"
+  }
+}
