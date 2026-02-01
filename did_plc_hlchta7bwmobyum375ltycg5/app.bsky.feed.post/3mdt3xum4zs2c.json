@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769975277996626,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdt3xv5uuu2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdt3xum4zs2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-01T19:47:57.228Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 25,
+            "byteStart": 14
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 41,
+            "byteStart": 29
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicatydudo2qdywyio6hpfwdn5dhr5is6ingrm4vm4yp4tfpb5k6ky",
+          "uri": "at://did:plc:miq2gfvloumsjfkpgkv7p65x/app.bsky.feed.post/3mds7n7zenxl2"
+        },
+        "root": {
+          "cid": "bafyreifzp64wm3pjm5dqki6tc2fwh3lgzprptvoc6atglwubukfxoaoko4",
+          "uri": "at://did:plc:miq2gfvloumsjfkpgkv7p65x/app.bsky.feed.post/3mds6j7cvkau2"
+        }
+      },
+      "text": "I daily drive #PowerShell on #RaspberryPi just fine 🤷.\n\nAlso seem to be getting surprisingly great perf, especially considering the Pi is in low power mode.\n\nOf course I do tend to try to write quick code..."
+    },
+    "cid": "bafyreie3andexhgugeruxumt5vbrq426h3rjzo2fvsneb6i32idg47nfdy"
+  }
+}
