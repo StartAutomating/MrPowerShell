@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769983276566478,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdtdgbarwu2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdtdgay44c2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-01T22:01:16.158Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiarfyrdjvgrr3jydsasn4vco7z6mk6jbh6ibwx7x6w7wkvruzjgs4",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdtd6cojrc2z"
+        },
+        "root": {
+          "cid": "bafyreidt2mfvjxkrgzswdugflnyardtr4du2omcglalzywhzwomso3qgsm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdssfktci22z"
+        }
+      },
+      "text": "All cool, and, all not exactly what I mean here.\n\nI mean that PowerShell's remote hosting protocol is a lot of extra weight to add to a transport, for a limited actual value (with potential security shortcomings).\n\nWhy don't we all just hone in on simple server side PowerShell?"
+    },
+    "cid": "bafyreib7blg4p3iohtfqo5a26ljxlirqgjnq6ve5jdjrvpzs5kuurmysim"
+  }
+}
