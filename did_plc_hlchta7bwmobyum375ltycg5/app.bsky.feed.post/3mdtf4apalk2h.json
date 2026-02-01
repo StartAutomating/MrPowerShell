@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769985088504130,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdtf4b7qh42e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdtf4apalk2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-01T22:31:27.807Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih4wllnli544zkt7kcdcnb6gfl2dxg7szyz2scvkqzezc2eulnmoi",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3mdteyecrlk2z"
+        },
+        "root": {
+          "cid": "bafyreidt2mfvjxkrgzswdugflnyardtr4du2omcglalzywhzwomso3qgsm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdssfktci22z"
+        }
+      },
+      "text": "💯 yep.  One you've suffered from much more than I (especially recently).\n\nIMO, stop the \"Sunk Cost Fallacy\" and stop bothering with PSRemoting.\n\nIt's better for our health."
+    },
+    "cid": "bafyreieeaeuaikl44hzrl7dhcigx6xlmdvtfij6hu35b55cqscbmummwmi"
+  }
+}
