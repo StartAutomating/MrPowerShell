@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769984951599798,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdtey5uepx2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdtey44e4s2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-01T22:29:08.776Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: My feelings on WinRM/WS-Man as a remoting protocol are painful and complicated.\n\nI would far prefer HTTP.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigla5yjdpqqafbexva7qpvarbezhc4kizegh35pcsexcvanfwrvyq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 599608
+          },
+          "title": "Bobsburgers Louise GIF",
+          "uri": "https://media.tenor.com/8GPuKPAbWRcAAAAC/bobsburgers-louise.gif?hh=498&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihnlc7snkiasjz7yp2eh55xt3q2wkqs4thoarpasx4gbyfubsqxdm",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3mdteqdi7h22z"
+        },
+        "root": {
+          "cid": "bafyreidt2mfvjxkrgzswdugflnyardtr4du2omcglalzywhzwomso3qgsm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdssfktci22z"
+        }
+      },
+      "text": "Yes, and CliXml is it's own bundle of issues.  And I've already typed one screed for the day (so I'll come back at this one later).\n\nWhile the two are related, WinRM/WS-Man were the big targets here.\n\nObviously I'm still not \"over it\"."
+    },
+    "cid": "bafyreigludiko36smakb7dqplme3hvcgji4afuqefckzgv6vguvhttm3uq"
+  }
+}
