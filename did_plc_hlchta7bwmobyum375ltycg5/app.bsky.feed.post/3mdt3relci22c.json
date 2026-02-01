@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769975059801034,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdt3rf4moh2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdt3relci22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-01T19:44:19.093Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieinpogtasfn6xzxzpf75nrrzzkf6tlk32cv3b7tbqs2yzwegiism",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdsmdemvns2k"
+        },
+        "root": {
+          "cid": "bafyreieinpogtasfn6xzxzpf75nrrzzkf6tlk32cv3b7tbqs2yzwegiism",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdsmdemvns2k"
+        }
+      },
+      "text": "Three letters:\n\nRMM\n\nThis approach is great if the 100 processes are fan-out remoting."
+    },
+    "cid": "bafyreic3afstf3ndukr5boakou2mw2rdmxgcxtpmqtpz7h2nlnbg3fvjfa"
+  }
+}
