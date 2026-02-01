@@ -1,0 +1,717 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769978485407750,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdt6xgso6h2y",
+    "operation": "create",
+    "collection": "site.standard.document",
+    "rkey": "3mdfcs3j7a2vh",
+    "record": {
+      "$type": "site.standard.document",
+      "content": {
+        "$type": "blog.pckt.content",
+        "items": [
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "\"Hello World\""
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "content": [
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "Hello World!"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              }
+            ],
+            "level": 3
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "I'm James, and the code above is Hello World in PowerShell."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Long ago, I worked on the PowerShell team and helped build a really beautiful and interesting scripting language.  "
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "content": [
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "PowerShell planted seeds of inspiration inside me and many others, and they haven't stopped sprouting since."
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.text"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "In the past couple of decades I've been continuing to explore and grow the capabilities of the language, and have beamed with pride as more and more people have been inspired."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "content": [
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "At it's core, PowerShell is about making complicated technology easier to use and understand.  PowerShell does this with an Object Pipeline, which lets us pass stuff from one step to the next.  It is a powerful language that comes with a shell, so it's pretty easy to explore and iterate.  Want to learn PowerShell and follow along?  Just open up a command line. It is built into Windows, and just an install away on MacOS and most Linux distributions."
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's show this in some simple examples."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Imagine we want to pick a random message to say.  Well, first up, let's look for a command called random:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "Get-Command *random*"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 50,
+                  "byteStart": 40
+                }
+              }
+            ],
+            "plaintext": "You'll notice there is a command called Get-Random "
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "content": [
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "We can get help about Get-Random with Get-Help"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "Get-Help Get-Random"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "You might be asked to update help to run this, I suggest you do.  It gives you full help on any built-in command, localized to dozens of languages.  Almost all commands also have examples:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "Get-Help Get-Random -Examples"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "After you've RTFM'd a bit, you should see that we can pipe any objects into Get-Random and get a random one of them back out."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "content": [
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "So, let's pipe some messages into it:"
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "'Hello', 'Hi', 'Hello World' | Get-Random"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We'll get back a random one of those messages."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Writing Hello World in Many Languages"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Long ago the C++ team had a t-shirt:  \"My language can build yours\"."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "With that in mind, let's see how we can write \"Hello World\" in a bunch of languages, all from PowerShell."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 4,
+            "plaintext": "Hello World in Markdown with PowerShell"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "content": [
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "Writing Hello World in other languages from PowerShell is pretty easy."
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "Let's start with a \"hello world\" in markdown."
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "\"# \" + ('Hello', 'Hi', 'Hello World' | Get-Random)"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can just join strings together to write code in any language."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "If you're running PowerShell 6+, we can convert that markdown and show the html:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "\"# \" + ('Hello', 'Hi', 'Hello World' | Get-Random) |\n    ConvertFrom-Markdown |\n    Select-Object -ExpandProperty HTML"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 4,
+            "plaintext": "Hello World in HTML with PowerShell"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can also write our hello world in HTML directly:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "'<h1>' + ('Hello', 'Hi', 'Hello World' | Get-Random) + '</h1>'"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 4,
+            "plaintext": "Hello World in SVG with PowerShell"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "An SVG hello world is about as easy.  We just have to use an <svg> and <text> element."
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": [],
+            "plaintext": "'<svg xmlns=\"http://www.w3.org/2000/svg\"><text>' +\n   ('Hello', 'Hi', 'Hello World' | Get-Random) + \n'</text></svg>'  "
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 4,
+            "plaintext": "Hello World In Python with PowerShell"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's do write a randomized \"hello world\" in Python, from PowerShell"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "'print(\"' + ('Hello', 'Hi', 'Hello World' | Get-Random) + '\")'"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 4,
+            "plaintext": "Hello World in JSON with PowerShell"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "A \"Hello World\" in JSON is just a single JSON string."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "PowerShell can convert any object to json with ConvertTo-Json."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "content": [
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "So \"Hello World\" (or any other object in JSON) is just:"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "\"hello world\" | ConvertTo-Json"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This is a little underwhelming until you remember that JSON is valid JavaScript."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "content": [
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "Hello World in JavaScript with PowerShell"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              }
+            ],
+            "level": 4
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's introduce a new trick in this one."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "PowerShell can put any number of subexpressions inside of a string, for example:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "\"$(Get-Random)\""
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "If we wanted to write hello world in JavaScript, we can just output a string that runs console.log('$(some expression)')"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "\"console.log($(\n    'Hello', 'Hi', 'Hello World' |\n        Get-Random | \n            ConvertTo-Json\n))\""
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 4,
+            "plaintext": "Hello World in Go with PowerShell"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "content": [
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "Let's go!"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "This one will be a bit more fun, because we need to spread things across multiple lines."
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "content": [
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "Luckily, all PowerShell strings span multiple lines, so we can still just add them together.  "
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "Let's assign our go to a variable "
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "$go"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": " and go run it"
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "# Get going\n$go = '\npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"' + \n        ('Hello', 'Hi', 'Hello World' | Get-Random) + '\")\n}\n'\n\n$go > ./hello.go  # Send our go to hello.go\n\ngo run ./hello.go # Go run it!"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 4,
+            "plaintext": "Hello World in Rust with PowerShell"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "content": [
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "Rust is all the rage these days.  Let's write a Hello World in Rust, in PowerShell."
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "Simple version first:"
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": [],
+            "plaintext": "# Make our hello world and redirect to ./hello.rs\n'fn main() { println!(\"Hello World!\"); }' > ./hello.rs\n# compile hello.rs\nrutsc ./hello.rs\n# run the hello world app\n./hello"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "content": [
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "To keep mixing these up a bit, let's learn a fun and useful trick.  We can make a list of items in PowerShell with an array subexpression "
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "@()"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": " .  This will return the result of the expression inside as a list of items (even if there was only one item).  "
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "Inside of expressions we can perform conditionals and loops.  We can also use an operator on the list.  For example, "
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "@('a','b','c') -join '|'"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": " will make a list containing a, b, and c, and join them by a pipe character."
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "We can think of any language as just a sequence of strings joined in different ways.  In Rust (and many languages), we can just statements with a semicolon."
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "So let's make a randomized \"Hello World\" in Rust, with PowerShell."
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "# Collecting rust\n$rust = @(\n    'fn main() {'\n    @(foreach ($n in 1..3 | Get-Random) {\n        'println!(\"' + (\n            'hello', 'hi', 'hello world' | Get-Random\n         ) + '\")'\n    }) -join ';'\n    '}'\n)\n\n# Take our rust and redirect it a rust file\n$rust > ./hello.rs\n\n# Compile the rust file\nrustc ./hello.rs\n\n# Run the application\n./hello"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 4,
+            "plaintext": "Hello World in C with PowerShell"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Why stop now?  Let's go back to grandparent of many languages, and write a Hello World in C, with PowerShell"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Once again, simple form first:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "'\n#include <stdio.h>\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}\n' > ./hello.c"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Now let's do what we did with Rust and make a few random hellos"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": [],
+            "plaintext": "$c = @(\n   \"#include <stdio.h>\"\n   \"int main() {\"\n   @(\n   foreach ($n in 1..3 | Get-Random) {\n          'printf(\"' + (\n              'hello', 'hi', 'hello world' | Get-Random\n         ) + '\")'\n   }\n   'return 0;'\n   ) -join (';' +[Environment]::Newline)      \n   \"}\"\n)\n\n$c -join [Environment]::Newline > ./hello.c\n\n# Compile our C with gcc\ngcc ./hello.c -o ./hello\n\n# Run hello world\n./hello"
+          },
+          {
+            "$type": "blog.pckt.block.image",
+            "attrs": {
+              "align": "center",
+              "alt": "captain-america-steve-rogers-small-can-do-this-all-day.gif",
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreiew6fri5kenihj5txn5fufkwv3utt3kxexmfizr72y6xa5r7adwsy"
+                },
+                "mimeType": "image/gif",
+                "size": 1601106
+              },
+              "src": "blob:bafkreiew6fri5kenihj5txn5fufkwv3utt3kxexmfizr72y6xa5r7adwsy",
+              "width": "700"
+            }
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Hello World!  Stay Tuned"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "content": [
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "So, once again, in PowerShell and 11 other languages, \"Hello World\""
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "You might have noticed I like PowerShell."
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "You might have also noticed I know a few programming languages."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "content": [
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "I have historically been bad about blogging, and hope this little PowerShell pocket blog helps change that.  "
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "Stay tuned for more cool tools and toys!"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Please don't forget to Like, Share, and Subscribe."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://github.com/sponsors/StartAutomating"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 168,
+                  "byteStart": 125
+                }
+              }
+            ],
+            "plaintext": "If you're feeling extra generous and want to encourage me to say hello more often, please consider sponsoring me on github : https://github.com/sponsors/StartAutomating."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "If you're feeling extra curious and want to check out some of the other stuff I do, check out:"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://github.com/StartAutomating"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 34,
+                  "byteStart": 0
+                }
+              }
+            ],
+            "plaintext": "https://github.com/StartAutomating (my main github page)"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://github.com/PowerShellWeb"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 32,
+                  "byteStart": 0
+                }
+              }
+            ],
+            "plaintext": "https://github.com/PowerShellWeb (home of many PowerShell Web dev efforts)"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://mrpowershell.com/"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 25,
+                  "byteStart": 0
+                }
+              }
+            ],
+            "plaintext": "https://mrpowershell.com/ (my personal page and home to many experiments)"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "content": [
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "Hello World: Stay Tuned!"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              }
+            ]
+          }
+        ]
+      },
+      "coverImage": {
+        "$type": "blob",
+        "ref": {
+          "$link": "bafkreiew6fri5kenihj5txn5fufkwv3utt3kxexmfizr72y6xa5r7adwsy"
+        },
+        "mimeType": "image/gif",
+        "size": 1601106
+      },
+      "description": "I'm James, and the code above is Hello World in PowerShell. Long ago, I worked on the PowerShell team and helped build a really beautiful and interesting scripting language. PowerShell planted seeds of inspiration inside me and many others, and they haven't stopped sprouting since.",
+      "path": "/hello-world-pxsfky1",
+      "publishedAt": "2026-01-27T08:12:43+00:00",
+      "site": "at://did:plc:hlchta7bwmobyum375ltycg5/site.standard.publication/3mdfcro5xe273",
+      "tags": [
+        "PowerShell",
+        "HTML",
+        "DevOps",
+        "Platform Engineering",
+        "C",
+        "Go",
+        "Rust",
+        "JavaScript",
+        "SVG",
+        "Markdown",
+        "JSON",
+        "Intro"
+      ],
+      "textContent": "\"Hello World\"\nHello World!\nI'm James, and the code above is Hello World in PowerShell.\nLong ago, I worked on the PowerShell team and helped build a really beautiful and interesting scripting language.  \nPowerShell planted seeds of inspiration inside me and many others, and they haven't stopped sprouting since.\nIn the past couple of decades I've been continuing to explore and grow the capabilities of the language, and have beamed with pride as more and more people have been inspired.\nAt it's core, PowerShell is about making complicated technology easier to use and understand.  PowerShell does this with an Object Pipeline, which lets us pass stuff from one step to the next.  It is a powerful language that comes with a shell, so it's pretty easy to explore and iterate.  Want to learn PowerShell and follow along?  Just open up a command line. It is built into Windows, and just an install away on MacOS and most Linux distributions.\nLet's show this in some simple examples.\nImagine we want to pick a random message to say.  Well, first up, let's look for a command called random:\nGet-Command *random*\nYou'll notice there is a command called Get-Random \nWe can get help about Get-Random with Get-Help\nGet-Help Get-Random\nYou might be asked to update help to run this, I suggest you do.  It gives you full help on any built-in command, localized to dozens of languages.  Almost all commands also have examples:\nGet-Help Get-Random -Examples\nAfter you've RTFM'd a bit, you should see that we can pipe any objects into Get-Random and get a random one of them back out.\nSo, let's pipe some messages into it:\n'Hello', 'Hi', 'Hello World' | Get-Random\nWe'll get back a random one of those messages.\nWriting Hello World in Many Languages\nLong ago the C++ team had a t-shirt:  \"My language can build yours\".\nWith that in mind, let's see how we can write \"Hello World\" in a bunch of languages, all from PowerShell.\nHello World in Markdown with PowerShell\nWriting Hello World in other languages from PowerShell is pretty easy.Let's start with a \"hello world\" in markdown.\n\"# \" + ('Hello', 'Hi', 'Hello World' | Get-Random)\nWe can just join strings together to write code in any language.\nIf you're running PowerShell 6+, we can convert that markdown and show the html:\n\"# \" + ('Hello', 'Hi', 'Hello World' | Get-Random) |\n    ConvertFrom-Markdown |\n    Select-Object -ExpandProperty HTML\nHello World in HTML with PowerShell\nWe can also write our hello world in HTML directly:\n'<h1>' + ('Hello', 'Hi', 'Hello World' | Get-Random) + '</h1>'\nHello World in SVG with PowerShell\nAn SVG hello world is about as easy.  We just have to use an <svg> and <text> element.\n'<svg xmlns=\"http://www.w3.org/2000/svg\"><text>' +\n   ('Hello', 'Hi', 'Hello World' | Get-Random) + \n'</text></svg>'  \nHello World In Python with PowerShell\nLet's do write a randomized \"hello world\" in Python, from PowerShell\n'print(\"' + ('Hello', 'Hi', 'Hello World' | Get-Random) + '\")'\nHello World in JSON with PowerShell\nA \"Hello World\" in JSON is just a single JSON string.\nPowerShell can convert any object to json with ConvertTo-Json.\nSo \"Hello World\" (or any other object in JSON) is just:\n\"hello world\" | ConvertTo-Json\nThis is a little underwhelming until you remember that JSON is valid JavaScript.\nHello World in JavaScript with PowerShell\nLet's introduce a new trick in this one.\nPowerShell can put any number of subexpressions inside of a string, for example:\n\"$(Get-Random)\"\nIf we wanted to write hello world in JavaScript, we can just output a string that runs console.log('$(some expression)')\n\"console.log($(\n    'Hello', 'Hi', 'Hello World' |\n        Get-Random | \n            ConvertTo-Json\n))\"\nHello World in Go with PowerShell\nLet's go!This one will be a bit more fun, because we need to spread things across multiple lines.\nLuckily, all PowerShell strings span multiple lines, so we can still just add them together.  Let's assign our go to a variable $go and go run it\n# Get going\n$go = '\npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"' + \n        ('Hello', 'Hi', 'Hello World' | Get-Random) + '\")\n}\n'\n\n$go > ./hello.go  # Send our go to hello.go\n\ngo run ./hello.go # Go run it!\nHello World in Rust with PowerShell\nRust is all the rage these days.  Let's write a Hello World in Rust, in PowerShell.Simple version first:\n# Make our hello world and redirect to ./hello.rs\n'fn main() { println!(\"Hello World!\"); }' > ./hello.rs\n# compile hello.rs\nrutsc ./hello.rs\n# run the hello world app\n./hello\nTo keep mixing these up a bit, let's learn a fun and useful trick.  We can make a list of items in PowerShell with an array subexpression @() .  This will return the result of the expression inside as a list of items (even if there was only one item).  Inside of expressions we can perform conditionals and loops.  We can also use an operator on the list.  For example, @('a','b','c') -join '|' will make a list containing a, b, and c, and join them by a pipe character.We can think of any language as just a sequence of strings joined in different ways.  In Rust (and many languages), we can just statements with a semicolon.So let's make a randomized \"Hello World\" in Rust, with PowerShell.\n# Collecting rust\n$rust = @(\n    'fn main() {'\n    @(foreach ($n in 1..3 | Get-Random) {\n        'println!(\"' + (\n            'hello', 'hi', 'hello world' | Get-Random\n         ) + '\")'\n    }) -join ';'\n    '}'\n)\n\n# Take our rust and redirect it a rust file\n$rust > ./hello.rs\n\n# Compile the rust file\nrustc ./hello.rs\n\n# Run the application\n./hello\nHello World in C with PowerShell\nWhy stop now?  Let's go back to grandparent of many languages, and write a Hello World in C, with PowerShell\nOnce again, simple form first:\n'\n#include <stdio.h>\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}\n' > ./hello.c\nNow let's do what we did with Rust and make a few random hellos\n$c = @(\n   \"#include <stdio.h>\"\n   \"int main() {\"\n   @(\n   foreach ($n in 1..3 | Get-Random) {\n          'printf(\"' + (\n              'hello', 'hi', 'hello world' | Get-Random\n         ) + '\")'\n   }\n   'return 0;'\n   ) -join (';' +[Environment]::Newline)      \n   \"}\"\n)\n\n$c -join [Environment]::Newline > ./hello.c\n\n# Compile our C with gcc\ngcc ./hello.c -o ./hello\n\n# Run hello world\n./hello\nHello World!  Stay Tuned\nSo, once again, in PowerShell and 11 other languages, \"Hello World\"You might have noticed I like PowerShell.\nYou might have also noticed I know a few programming languages.\nI have historically been bad about blogging, and hope this little PowerShell pocket blog helps change that.  Stay tuned for more cool tools and toys!\nPlease don't forget to Like, Share, and Subscribe.\nIf you're feeling extra generous and want to encourage me to say hello more often, please consider sponsoring me on github : https://github.com/sponsors/StartAutomating.\nIf you're feeling extra curious and want to check out some of the other stuff I do, check out:\nhttps://github.com/StartAutomating (my main github page)\nhttps://github.com/PowerShellWeb (home of many PowerShell Web dev efforts)\nhttps://mrpowershell.com/ (my personal page and home to many experiments)\nHello World: Stay Tuned!",
+      "title": "Hello World",
+      "updatedAt": "2026-02-01T20:41:22+00:00"
+    },
+    "cid": "bafyreievcimgriylq2uslm5bgxvmre6fuc2x5b454anj3z5iwy7xhj7wva"
+  }
+}
