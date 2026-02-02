@@ -1,0 +1,365 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769992207353594,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdtlqg6lty26",
+    "operation": "create",
+    "collection": "site.standard.document",
+    "rkey": "3mdtauz4fg2lb",
+    "record": {
+      "$type": "site.standard.document",
+      "content": {
+        "$type": "blog.pckt.content",
+        "items": [
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 86,
+                  "byteStart": 78
+                }
+              }
+            ],
+            "plaintext": "One of the best things about PowerShell is that you can interactively explore anything.  Long before the Wiggum Loop was a thing, PowerShell let you explore interactively with prompting.  Here's how you can embody the spirit of Ralph Wiggum and find your way around PowerShell."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "All parts of the PowerShell Wiggum Loop are as old as PowerShell itself."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "To be fair, the Simpsons did it first (1989)."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "PowerShell did it second (2006)."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Generative AI came a lot later (~2020)"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We used to call this many things that didn't imply you were an idiot.  I'm calling this the \"PowerShell Wiggum Loop\" now only to make it easier to understand."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We used to call it:"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "The Trinity of Discoverability"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "content": [
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "The basic \"exploration / implementation\" loop looks like this: Find a command, try to figure out how to use it, run it, see what it produces."
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "This loop was included three common commands, dubbed the Trinity of Discoverability"
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "They are:"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "content": [
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "Get-Command"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              }
+            ],
+            "level": 3
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "PowerShell commands tend to be named with verb-noun pairs.  Most people try to be as obvious as possible."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "With that in mind, getting commands is pretty obviously named.  To Get commands in PowerShell, you just run:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "Get-Command"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "content": [
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "When this runs you'll see (almost) every command currently loaded."
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "This will vary depending on your OS, what modules you have installed, and what you have loaded."
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "content": [
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "Get-Command has plenty of parameters.  One of the most useful is probably -Syntax."
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "To see the syntax of Get-Command, we run:"
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "Get-Command Get-Command -Syntax\n"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "content": [
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "To see all of the commands from all Modules starting with Microsoft.*, we'd use:"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "Get-Command -Module Microsoft.*"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can also get all commands of a -Verb.  Let's get all the gets:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "Get-Command -Verb Get"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can also look for nouns.  Let's get all the -Module commands:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "Get-Command -Noun Module"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "And of course, we just search by wildcard:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "Get-Command Get*"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "content": [
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "If we want to scope it down to a given type of command, we can use "
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "-CommandType"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "So, if we wanted to see if ffmpeg was installed and in the path, we could:"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "Get-Command ffmpeg* -CommandType Application"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Get-Help"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "content": [
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "Ok, so now we've found a command.  How do we figure out how to use it?"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "Well, we RTFM."
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "Luckily, PowerShell commands have native structured help (unlike, sadly, literally any other programming language I know)."
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "To get help, we can, just:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "Get-Help"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "First up, let's talk about how we find commands:"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "content": [
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "This will show us a bit about the help system.  You might need to use "
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "Update-Help"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": " before you run these examples to download all of the help topics in your language."
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.hardBreak"
+              },
+              {
+                "$type": "blog.pckt.block.text",
+                "text": "There are two kinds of help in PowerShell:  topics and commands."
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "But let's just see a list of the about_ topics"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "Get-Help about_*"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Now let's get help about Get-Help"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "Get-Help Get-Help"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Get-Member"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "First up, let's talk about how we find commands:"
+          },
+          {
+            "$type": "blog.pckt.block.text"
+          }
+        ]
+      },
+      "description": "One of the best things about PowerShell is that you can interactively explore anything. Long before the Wiggum Loop was a thing, PowerShell let you explore interactively with prompting. Here's how you can embody the spirit of Ralph Wiggum and find your way around PowerShell. All parts of the PowerShell Wiggum Loop are as old as PowerShell itself. To be fair, the Simpsons did it first (1989).",
+      "path": "/the-powershell-wiggum-loop-stez852",
+      "publishedAt": "2026-02-01T21:15:50+00:00",
+      "site": "at://did:plc:hlchta7bwmobyum375ltycg5/site.standard.publication/3mdfcro5xe273",
+      "tags": [],
+      "textContent": "One of the best things about PowerShell is that you can interactively explore anything.  Long before the Wiggum Loop was a thing, PowerShell let you explore interactively with prompting.  Here's how you can embody the spirit of Ralph Wiggum and find your way around PowerShell.\nAll parts of the PowerShell Wiggum Loop are as old as PowerShell itself.\nTo be fair, the Simpsons did it first (1989).\nPowerShell did it second (2006).\nGenerative AI came a lot later (~2020)\nWe used to call this many things that didn't imply you were an idiot.  I'm calling this the \"PowerShell Wiggum Loop\" now only to make it easier to understand.\nWe used to call it:\nThe Trinity of Discoverability\nThe basic \"exploration / implementation\" loop looks like this: Find a command, try to figure out how to use it, run it, see what it produces.This loop was included three common commands, dubbed the Trinity of Discoverability\nThey are:\nGet-Command\nPowerShell commands tend to be named with verb-noun pairs.  Most people try to be as obvious as possible.\nWith that in mind, getting commands is pretty obviously named.  To Get commands in PowerShell, you just run:\nGet-Command\nWhen this runs you'll see (almost) every command currently loaded.This will vary depending on your OS, what modules you have installed, and what you have loaded.\nGet-Command has plenty of parameters.  One of the most useful is probably -Syntax.To see the syntax of Get-Command, we run:\nGet-Command Get-Command -Syntax\n\nTo see all of the commands from all Modules starting with Microsoft.*, we'd use:\nGet-Command -Module Microsoft.*\nWe can also get all commands of a -Verb.  Let's get all the gets:\nGet-Command -Verb Get\nWe can also look for nouns.  Let's get all the -Module commands:\nGet-Command -Noun Module\nAnd of course, we just search by wildcard:\nGet-Command Get*\nIf we want to scope it down to a given type of command, we can use -CommandTypeSo, if we wanted to see if ffmpeg was installed and in the path, we could:\nGet-Command ffmpeg* -CommandType Application\nGet-Help\nOk, so now we've found a command.  How do we figure out how to use it?Well, we RTFM.Luckily, PowerShell commands have native structured help (unlike, sadly, literally any other programming language I know).\nTo get help, we can, just:\nGet-Help\nFirst up, let's talk about how we find commands:\nThis will show us a bit about the help system.  You might need to use Update-Help before you run these examples to download all of the help topics in your language.There are two kinds of help in PowerShell:  topics and commands.\nBut let's just see a list of the about_ topics\nGet-Help about_*\nNow let's get help about Get-Help\nGet-Help Get-Help\nGet-Member\nFirst up, let's talk about how we find commands:",
+      "title": "The PowerShell Wiggum Loop",
+      "updatedAt": "2026-02-02T00:30:06+00:00"
+    },
+    "cid": "bafyreifz7msu37ry6nnrstkw3yd2yo3ujv6yvlbmaib352ev34snmkfijq"
+  }
+}
