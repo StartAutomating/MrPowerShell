@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770071429991810,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdvvjgupbq2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdvvjipuxc2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-02T22:30:31.765Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid56zqv42yzwfq7hfbf5qjk5uwnza5oucjb5mkbjr7x5lzu7takmy",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdvsqky3ws2h"
+        },
+        "root": {
+          "cid": "bafyreidt2mfvjxkrgzswdugflnyardtr4du2omcglalzywhzwomso3qgsm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdssfktci22z"
+        }
+      },
+      "text": "Good to know!\n\nSounds like you've already sunk costs into MS-PSRP, which changes the calculations.\n\nI have not, which impacts my costing.\n\nIf you've already paid most of the costs, might as well get the benefits."
+    },
+    "cid": "bafyreifl4az7qdhlre5526o2uqkpeguhov5wlx47s63afbfefbkhojxo7i"
+  }
+}
