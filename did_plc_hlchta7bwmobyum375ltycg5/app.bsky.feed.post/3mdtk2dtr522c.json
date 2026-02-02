@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769990393527460,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdtk2efvjq2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdtk2dtr522c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-01T23:59:52.701Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicjziu7aktbuwl4p6d65tzosyvliwqwwsyciq5qd4xjysij6qmd24",
+          "uri": "at://did:plc:xehlvfkrzauq2jfm2atacezc/app.bsky.feed.post/3mdtgqnfwrs2q"
+        },
+        "root": {
+          "cid": "bafyreiee6jhhwbkixrcvr3orrsyhuusy26n3qcsjzzv6bemxaaodgwnzee",
+          "uri": "at://did:plc:xehlvfkrzauq2jfm2atacezc/app.bsky.feed.post/3mds3pmaxzs2o"
+        }
+      },
+      "text": "To be fair, the POWER never left PowerShell."
+    },
+    "cid": "bafyreia77nmffosciargqy75llia6nssnwe53lhmpxocsntcyyjfaxmjny"
+  }
+}
