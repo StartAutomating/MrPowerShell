@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1769990829406242,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdtkhddcph23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdtkhb63d22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-02T00:07:06.1Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: PowerShell may be able to do a lot of impishly clever things, but I kinda scoff a bit when people suggest is either from hell or powers hell.\n\nFor one: \"hell\" isn't really actually a thing, biblically speaking.  Once looked up this in a concordance and found only 8 references in the whole bible (all of which concern a pit of trash outside of Jerusalem) \n\nFor another, there are _far_ worse programming experiences, some of them by design (Brainf--k comes to mind, but Assembly is also \"hell\" enough [and is closer to the metal].  APL would also be an acceptable answer.)\n\nLast but not least, it's actually kinda rude.\n\nHow do you think you'd feel if people make jokes about how evil your creations were every other day?\n\nMaybe this is why I enjoy the show Lucifer so much... (either that or the copious amounts of campy cheese)",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidjahbpifkallf2344puktwo6aeml3mua7vsnnye4fx2r7kbuirdy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 801677
+          },
+          "title": "a man in a suit says kidding in front of a tall building",
+          "uri": "https://media.tenor.com/CRZzsUhS31UAAAAC/kidding-sort-of.gif?hh=477&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaseauhahtdqnu4fgiw27pipamwvilg2dysmeu2ej4ogrnht76m3y",
+          "uri": "at://did:plc:xehlvfkrzauq2jfm2atacezc/app.bsky.feed.post/3mdtk33leqs2n"
+        },
+        "root": {
+          "cid": "bafyreiee6jhhwbkixrcvr3orrsyhuusy26n3qcsjzzv6bemxaaodgwnzee",
+          "uri": "at://did:plc:xehlvfkrzauq2jfm2atacezc/app.bsky.feed.post/3mds3pmaxzs2o"
+        }
+      },
+      "text": "Only of the impish fun variety.  😈\n\nRead alt text for my full thoughts about this."
+    },
+    "cid": "bafyreiacf7vy5c5q27vmu4loq6csfvm6ynm2ru5fdkfyuq2ouonmyadj6q"
+  }
+}
