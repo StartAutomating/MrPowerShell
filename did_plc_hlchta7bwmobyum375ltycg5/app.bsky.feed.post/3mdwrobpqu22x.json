@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770101654995148,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdwro7mdu324",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdwrobpqu22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-03T06:54:16.968Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicyle5iipxzlyyybw25ecnwjufwzsfd6jahjxkakoccq4txdc5hv4",
+          "uri": "at://did:plc:udxwh7thzf672fiuqanuafly/app.bsky.feed.post/3mdw2fmeiyk2q"
+        },
+        "root": {
+          "cid": "bafyreicyle5iipxzlyyybw25ecnwjufwzsfd6jahjxkakoccq4txdc5hv4",
+          "uri": "at://did:plc:udxwh7thzf672fiuqanuafly/app.bsky.feed.post/3mdw2fmeiyk2q"
+        }
+      },
+      "text": "Like what ?\n\nI definitely have my biases, and I also definitely find PowerShell helps way more \"non-tech\" things than expected.\n\nI also find it's more like learning Yodaspeak than Latin ( especially since PowerShell is a genderqueer programming language and Latin is a heavily gendered language )"
+    },
+    "cid": "bafyreibhpw3ppcb4a3ndsqi7m6saz5ju72diumorgpxm57y6qzxeimbn3i"
+  }
+}
