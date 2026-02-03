@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770082445892277,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdw7rnbats23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdw7rmp2lk2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-03T01:34:01.791Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiav3cjvzxb4m663vcu7j3rghwbqarpojtsk6dqc5x76g4lb6lhheu",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdw42lwzhc22"
+        },
+        "root": {
+          "cid": "bafyreidt2mfvjxkrgzswdugflnyardtr4du2omcglalzywhzwomso3qgsm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdssfktci22z"
+        }
+      },
+      "text": "The \"agentless\" rationale is one of the better ones I've heard.\n\nWould love to get into the nitty gritty of standardizing web clients to work with this."
+    },
+    "cid": "bafyreice22qrxtruxh2lblivavenpehxwhc2pus6fwkq542phhphslyjh4"
+  }
+}
