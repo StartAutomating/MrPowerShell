@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770147951501540,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdy4rxja3m24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdy4rx2euk2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-03T19:45:50.899Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiftodyte6vl6jnodmnstpvzasyu446t7ace5i44dvhunqw5kpptai",
+          "uri": "at://did:plc:fpruhuo22xkm5o7ttr2ktxdo/app.bsky.feed.post/3mdy4jlokqc2r"
+        },
+        "root": {
+          "cid": "bafyreicvl4ikoczn3ckg6hs2uog74uxx4gufxcyhyh4iwhv6e2774idj6a",
+          "uri": "at://did:plc:fpruhuo22xkm5o7ttr2ktxdo/app.bsky.feed.post/3mdw3u6wjvs2v"
+        }
+      },
+      "text": "Yeah.  This also looks very cool 😉\n\nIt appears to be React.  We had originally been thinking to start with a pure HTML/CSS/JS sandbox.  Thinking has evolved a bit to basically be \"a sandboxable file tree\"\n\nOr, if we're referencing pinned posts:\n\n\"A Social FileSystem\" 😉😎"
+    },
+    "cid": "bafyreihiirm226zdlqwfjgdiu4zc3qivp6q7ppxvvwrxuil76qosxwwnui"
+  }
+}
