@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770149046067880,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdy5sjafmf2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdy5sirx5k2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-03T20:04:03.239Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiforcouudtecqbvo77xs3zslji6auoogrga43y2tclb24tusqfgpa",
+          "uri": "at://did:plc:7ttueuaaofc3sudh6upyzo63/app.bsky.feed.post/3mdy3jj4ark2k"
+        },
+        "root": {
+          "cid": "bafyreig22rzsfrnfb47xuxjycyqnikttfyy4bbbopjwij7qsc7avd5wtqu",
+          "uri": "at://did:plc:bhdap3w2bseikypfnjmaskzf/app.bsky.feed.post/3mdxnludrdk2l"
+        }
+      },
+      "text": "Get-CimInstance does _most_ of this.\n\nIf you really want, I could try to rewrite Get-WmiObject for .NET core (please ask nicely and be patient)\n\n(IIRC the .Net libraries for WMI were never ported to core, but the Com objects still exist)\n\n(I worked on WMI before I worked on PowerShell)"
+    },
+    "cid": "bafyreiag2e2s5py4dfgasnwyqm4pw46rcpjsavgnkmatudi4omit2lth6y"
+  }
+}
