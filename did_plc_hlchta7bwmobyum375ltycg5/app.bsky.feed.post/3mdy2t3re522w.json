@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770145841501317,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdy2t35bzm2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdy2t3re522w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-03T19:10:41.917Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiarijxlkdgidbq74blnbl4j2unmwdlgqxt2bv4zn33vv43ff4hwoq",
+          "uri": "at://did:plc:tr2kxcqj4ssprkobdarx7stl/app.bsky.feed.post/3mdxol34mfs2t"
+        },
+        "root": {
+          "cid": "bafyreig22rzsfrnfb47xuxjycyqnikttfyy4bbbopjwij7qsc7avd5wtqu",
+          "uri": "at://did:plc:bhdap3w2bseikypfnjmaskzf/app.bsky.feed.post/3mdxnludrdk2l"
+        }
+      },
+      "text": "I mean I make a few additional langs atop PowerShell, but I wouldn't call any of them a secret, third PowerShell ( yet )"
+    },
+    "cid": "bafyreide2nelwcyf3vfs5bp7hng2cgw43izvshxqhrfcbh7bqlaoyqctza"
+  }
+}
