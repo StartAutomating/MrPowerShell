@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770150559936163,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdy77p427x2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdy77onerc2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-03T20:29:19.329Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieljn5ol4artoxx7reeanb62pvk5qwchnhirtdppmptqhgxjfsxem",
+          "uri": "at://did:plc:7ttueuaaofc3sudh6upyzo63/app.bsky.feed.post/3mdy6oiyync2k"
+        },
+        "root": {
+          "cid": "bafyreig22rzsfrnfb47xuxjycyqnikttfyy4bbbopjwij7qsc7avd5wtqu",
+          "uri": "at://did:plc:bhdap3w2bseikypfnjmaskzf/app.bsky.feed.post/3mdxnludrdk2l"
+        }
+      },
+      "text": "I'd honestly just try to add the if and use Get-CimInstance.\n\nThe core of the language works the same on both.  Most scripts don't need to be updated unless they use Get-WmiObject.\n\nI don't think Microsoft will update your/anyone's Github project.\n\nLots of little dev work for others to do...."
+    },
+    "cid": "bafyreib2fe262i473ws3y4l3tkonl4l4lk3fa5jf7slmgez72qxbg3nd4i"
+  }
+}
