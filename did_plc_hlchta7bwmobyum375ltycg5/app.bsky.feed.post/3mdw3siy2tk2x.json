@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770078174871037,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdw3shenjb2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdw3siy2tk2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-03T00:22:56.478Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibybbpvakk7of2wxzmsmmfy22zp64rlqg5vx43ttyvko3n372gitu",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdw3flx4hc22"
+        },
+        "root": {
+          "cid": "bafyreidt2mfvjxkrgzswdugflnyardtr4du2omcglalzywhzwomso3qgsm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdssfktci22z"
+        }
+      },
+      "text": "Noted / agreed.  An org like yours is better suited to doing it well and supporting the community.\n\nI'm curious which scenarios are \"only\" possible with PSRemoting, and feel like we may all want to collab on a more open transport layer.\n\nWe can take this offline if you wish..."
+    },
+    "cid": "bafyreieeyjylvqxhkcb5fnfbrzr2ky5neywnrqnmxeiwxcwpo4lqk26hxq"
+  }
+}
