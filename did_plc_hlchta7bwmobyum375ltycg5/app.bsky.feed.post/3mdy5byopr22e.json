@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770148490188576,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdy5bz5nzh2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdy5byopr22e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-03T19:54:49.485Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic6rynyzfawg2huhrsxuzkede36qbdw2zxv73onitfr3hohuacl34",
+          "uri": "at://did:plc:fpruhuo22xkm5o7ttr2ktxdo/app.bsky.feed.post/3mdy4z6lwdk2r"
+        },
+        "root": {
+          "cid": "bafyreicvl4ikoczn3ckg6hs2uog74uxx4gufxcyhyh4iwhv6e2774idj6a",
+          "uri": "at://did:plc:fpruhuo22xkm5o7ttr2ktxdo/app.bsky.feed.post/3mdw3u6wjvs2v"
+        }
+      },
+      "text": "🤷 honestly doesn't seem too different from where I'm sitting (just another type of file in the filesystem).\n\nOf course I don't know all of what you're thinking and you don't know all of what I'm thinking...\n\nDoes seem worth a sync or two to figure it out (at least to me)\n\nCool project though!"
+    },
+    "cid": "bafyreigl54kqeyqjbfnzfbwogvmfky6qato646tdbbyxw77t7aq5iv7pva"
+  }
+}
