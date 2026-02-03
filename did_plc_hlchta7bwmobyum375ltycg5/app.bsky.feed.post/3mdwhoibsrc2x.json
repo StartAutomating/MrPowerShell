@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770090924567151,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdwhogfhek2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdwhoibsrc2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-03T03:55:26.434Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicgwvhb2b4mzotqy3omi5p7pua3dvmiujklay4rjp5z7hyt4627di",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdwbt4vzwk22"
+        },
+        "root": {
+          "cid": "bafyreidt2mfvjxkrgzswdugflnyardtr4du2omcglalzywhzwomso3qgsm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdssfktci22z"
+        }
+      },
+      "text": "That's one ( pretty good ) way to do it.\n\nSecured WebSockets with identifiable authentication is the way.\n\nApropos of nothing, what do you know about how At Protocol works ? ( The protocol BlueSky is based off of )"
+    },
+    "cid": "bafyreifz5zjymfcji4bcfs4zwsc3lm4bsr2t3anqv55rfpjl2tnt5uczqy"
+  }
+}
