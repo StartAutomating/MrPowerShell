@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770108846657934,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdwyejyt3i24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdwyejvw2s2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-03T08:54:06.192Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "retro"
+            }
+          ],
+          "index": {
+            "byteEnd": 95,
+            "byteStart": 89
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "gaming"
+            }
+          ],
+          "index": {
+            "byteEnd": 103,
+            "byteStart": 96
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "powershell"
+            }
+          ],
+          "index": {
+            "byteEnd": 150,
+            "byteStart": 139
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreididl7pln6yymqipwajcw3xtwm3v6dn2t7u3vgt5fy3yn3pvgv3oe",
+          "uri": "at://did:plc:6we7c6durzmawkcgy6xkknjz/app.bsky.feed.post/3mdww3ld5u224"
+        },
+        "root": {
+          "cid": "bafyreididl7pln6yymqipwajcw3xtwm3v6dn2t7u3vgt5fy3yn3pvgv3oe",
+          "uri": "at://did:plc:6we7c6durzmawkcgy6xkknjz/app.bsky.feed.post/3mdww3ld5u224"
+        }
+      },
+      "text": "🩵 fantastic!\n\n🙏 Please open source this script.\n\nI feel like there are a few other #retro #gaming enthusiasts who might appreciate a #powershell downloader."
+    },
+    "cid": "bafyreiezzwjt7mfwpqrdem5j3apt4epvmta4vekp6ssmprrpnbqs37i53y"
+  }
+}
