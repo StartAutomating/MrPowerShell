@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770149560133329,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdy6bviecg26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdy6bv6zpk2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-03T20:12:39.567Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidublcmuxzfpffilzqsnsl4iq4bm54g2xdxlrvyc2ux6idkses54i",
+          "uri": "at://did:plc:7ttueuaaofc3sudh6upyzo63/app.bsky.feed.post/3mdy5vos77c2k"
+        },
+        "root": {
+          "cid": "bafyreig22rzsfrnfb47xuxjycyqnikttfyy4bbbopjwij7qsc7avd5wtqu",
+          "uri": "at://did:plc:bhdap3w2bseikypfnjmaskzf/app.bsky.feed.post/3mdxnludrdk2l"
+        }
+      },
+      "text": "Well, since I'm no longer on the team I couldn't say for sure.\n\nI can say with a fair amount of certainty that a lot of older .NET libraries have never gotten ported to Core (some because of lacking features, others because of lacking interest).\n\nLots of scripts are just too lazy to add an if 😞"
+    },
+    "cid": "bafyreiff53iiueqbshcfzhgnp4dntizpdlkbqv66ws3qsoepffzr43miq4"
+  }
+}
