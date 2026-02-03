@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770145724010412,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdy2pl4n5x24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdy2plr4t22w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-03T19:08:44.463Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibmnokgvmcrclwdd6bjkyufqyr3tzmj767g3tpto5537kwzzrbu5y",
+          "uri": "at://did:plc:sjqunkdzdai7tq22uyiyej3p/app.bsky.feed.post/3mdxaikqs422c"
+        },
+        "root": {
+          "cid": "bafyreibmnokgvmcrclwdd6bjkyufqyr3tzmj767g3tpto5537kwzzrbu5y",
+          "uri": "at://did:plc:sjqunkdzdai7tq22uyiyej3p/app.bsky.feed.post/3mdxaikqs422c"
+        }
+      },
+      "text": "This truly sucks.\n\nAlso, please, tell me what features you love.\n\nA few months ago I built a modernized Turtle graphics and realized it could be the backbone of an animation app.\n\nTrying to fill this gap might be a worthwhile / fun effort."
+    },
+    "cid": "bafyreie6qfs4yx5vinbbgjc7j3kqvpsehembzmdk4dc3goqxggypyqcbqm"
+  }
+}
