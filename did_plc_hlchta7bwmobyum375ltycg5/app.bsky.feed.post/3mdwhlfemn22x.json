@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770090820772002,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdwhldg22r2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdwhlfemn22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-03T03:53:42.717Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicfmv5fr3ao6us2s3u526ucyqqwnyj5t7c4g4nrn5cw6t7vbblosm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdwboiyla222"
+        },
+        "root": {
+          "cid": "bafyreidt2mfvjxkrgzswdugflnyardtr4du2omcglalzywhzwomso3qgsm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mdssfktci22z"
+        }
+      },
+      "text": "I believe there is a way to win this game, though it depends on how long you need to win.\n\nFor a long term scenario, using psremoting to bootstrap an agent is ideal.\n\nFor more short term scenarios, these days I prefer to use an ephemeral server."
+    },
+    "cid": "bafyreifz4e5pw4ponollsomy7rjgcrkqxqaroptxykuca7twkujrqlexzu"
+  }
+}
