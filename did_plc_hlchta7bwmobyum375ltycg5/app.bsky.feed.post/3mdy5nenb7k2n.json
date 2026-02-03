@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770148871721655,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdy5newexc2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdy5nenb7k2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-03T20:01:11.118Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic3nnvpvzizs6riiqdf7dgem563kc2tixurpmjgsamkupslvo7a64",
+          "uri": "at://did:plc:7ttueuaaofc3sudh6upyzo63/app.bsky.feed.post/3mdy3j7a3lk2k"
+        },
+        "root": {
+          "cid": "bafyreig22rzsfrnfb47xuxjycyqnikttfyy4bbbopjwij7qsc7avd5wtqu",
+          "uri": "at://did:plc:bhdap3w2bseikypfnjmaskzf/app.bsky.feed.post/3mdxnludrdk2l"
+        }
+      },
+      "text": "Oh, we did.\n\nProblem was the way early .NET handled dependencies.\n\nProblem didn't get \"fixed\" until .NET core, which came out a few years after PowerShell.\n\nOnce .NET core had all of the parts PowerShell needed, it went crossplatform.\n\nHad always been the plan.  Just took a while to get there."
+    },
+    "cid": "bafyreicxjbhu3jgrrw54fwahaivep5pwjigo4ye4trmh5y7tpdsi3s7iom"
+  }
+}
