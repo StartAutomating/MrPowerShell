@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770237140075075,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me2ptye55e2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me2ptxog7s2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-04T20:32:19.235Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 127,
+            "byteStart": 115
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifxg4cdy2it3t4of46rywvmlyblivet3zxyfrnsdri5x4ej4mwwia",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3me2pqjnaic2e"
+        },
+        "root": {
+          "cid": "bafyreigfo6em4klrydpowejs4fo2swgcgvq2psovomvl4ut7gecgsowzny",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3me2lthz6hs2p"
+        }
+      },
+      "text": "Should be supported in Add/New/Set-WTProfile:\n\nAka should be as easy as:\n\nSet-WTProfile -TabColor '#4488ff'\n\nOn my #RaspberryPi atm, will try this when I'm back at my windows beefy box."
+    },
+    "cid": "bafyreifkpzp7wkbptyl5easekc3fn7bkz6rsseivbjth4gj2idt7l2sgnu"
+  }
+}
