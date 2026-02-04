@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770189479560744,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdzdhlov7u2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdzdhmxi222e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-04T07:18:00.703Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibusdtaofd3erwh6sg2yf6uxenqmwpnihyj3kt5bk2efc72x3dg3m",
+          "uri": "at://did:plc:s5zwyygnkcdgblepvwused47/app.bsky.feed.post/3mdzdd3bu622j"
+        },
+        "root": {
+          "cid": "bafyreihwlcdbjaareksei5jmssyt4aj6kq6tdio7yl6zbsxhbptvo3gfli",
+          "uri": "at://did:plc:6amf2dzllh6lvnsqxsr4nf6e/app.bsky.feed.post/3mdxpjlvwrs2w"
+        }
+      },
+      "text": "Yeah, it's a mixed bag, and I hold out hope for more Task / Object Pipeline languages becoming a thing.\n\nI do want to correct a record here.\n\nPowerShell was a very \"bottom up\" effort at Microsoft.\n\nNot too much top down meddling, just a lot of language and Linux enthusiasts pushing for change."
+    },
+    "cid": "bafyreiboqfalnjn3bio4uips7gvtcb3o7zni3kd4floenqi2h7webii7ie"
+  }
+}
