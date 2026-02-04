@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770246642040236,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me2yp5zhoo23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me2yp4xf722e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-04T23:10:40.677Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A Retro Arcade Game Console in PowerShell. Contribute to StartAutomating/PowerArcade development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiba3zhtv5zmuyqp5tuqdkzzs4c3vyl52if6ivh6l6vjwcu3gapbja"
+            },
+            "mimeType": "image/jpeg",
+            "size": 215451
+          },
+          "title": "GitHub - StartAutomating/PowerArcade: A Retro Arcade Game Console in PowerShell",
+          "uri": "https://github.com/StartAutomating/PowerArcade"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/PowerArcade"
+            }
+          ],
+          "index": {
+            "byteEnd": 299,
+            "byteStart": 273
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifwgmj56m6mjqtxmgr423zuxdjnfb3fnad2kieflxdfnwhiesh2xi",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3me2r3schyk2p"
+        },
+        "root": {
+          "cid": "bafyreigfo6em4klrydpowejs4fo2swgcgvq2psovomvl4ut7gecgsowzny",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3me2lthz6hs2p"
+        }
+      },
+      "text": "I was figuring it might make sense to just make them easy to output.\n\nThere's a lot of \"little code here / little code there\" stuff, but nothing cohesive and easy to import and use.\n\nCan make some bidirectional code work, too.\n\n~ half this stuff is already in PowerArcade\n\ngithub.com/StartAutomat..."
+    },
+    "cid": "bafyreia56f23v5osqiigtyhrjxn2i7pkzrjeeoaocdbwgj7zoq2na3bxxe"
+  }
+}
