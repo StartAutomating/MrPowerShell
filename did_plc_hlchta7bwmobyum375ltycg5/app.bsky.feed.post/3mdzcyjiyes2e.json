@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770188972563153,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdzcyiblp32u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdzcyjiyes2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-04T07:09:33.759Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibilko6fpnsvhfdi57uhsxo6bmd4g4ddi6sn7pkash2o4urwynmle",
+          "uri": "at://did:plc:s5zwyygnkcdgblepvwused47/app.bsky.feed.post/3mdyxe3mx422g"
+        },
+        "root": {
+          "cid": "bafyreihwlcdbjaareksei5jmssyt4aj6kq6tdio7yl6zbsxhbptvo3gfli",
+          "uri": "at://did:plc:6amf2dzllh6lvnsqxsr4nf6e/app.bsky.feed.post/3mdxpjlvwrs2w"
+        }
+      },
+      "text": "Nushell is different and interesting.\n\nAnd, sadly, lacking a proper object pipeline.\n\nOr command discoverbility.\n\nOr extensibility.\n\nI *really* wish another language had these things.\n\nCause, honestly, I want other languages to have half the tricks in PowerShell's bag.\n\n🤷🤦"
+    },
+    "cid": "bafyreih6d46xjsvec3mstwinoftaeh57pc67idu5jc4acxnvkakigfgzru"
+  }
+}
