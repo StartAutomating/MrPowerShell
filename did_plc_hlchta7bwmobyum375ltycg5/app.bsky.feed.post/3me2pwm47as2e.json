@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770237228368935,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me2pwmlv4b2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me2pwm47as2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-04T20:33:47.768Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiftnqlc5euswvvgokgwgrumh756ezbh3s4oh5exbkjlv2msqzejza",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3me2pu72jv22p"
+        },
+        "root": {
+          "cid": "bafyreigfo6em4klrydpowejs4fo2swgcgvq2psovomvl4ut7gecgsowzny",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3me2lthz6hs2p"
+        }
+      },
+      "text": "See other reply.\n\nAlmost everything you change in Windows Terminal is actually a profile change.\n\nBut yeah, should basically just be:\n\nSet-WTProfile -TabColor '#4488ff'\n\n(it should auto-detect the current profile, or you can provide the name or guid)"
+    },
+    "cid": "bafyreia22unmqmxklrpb7ildo7fzem7wvdqhdgthjfjxkcp7dxmw44ipui"
+  }
+}
