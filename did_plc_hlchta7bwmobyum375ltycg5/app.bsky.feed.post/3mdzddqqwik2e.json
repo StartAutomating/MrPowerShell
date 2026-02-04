@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770189348968423,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdzddp6v4o2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdzddqqwik2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-04T07:15:50.467Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihwlcdbjaareksei5jmssyt4aj6kq6tdio7yl6zbsxhbptvo3gfli",
+          "uri": "at://did:plc:6amf2dzllh6lvnsqxsr4nf6e/app.bsky.feed.post/3mdxpjlvwrs2w"
+        },
+        "root": {
+          "cid": "bafyreihwlcdbjaareksei5jmssyt4aj6kq6tdio7yl6zbsxhbptvo3gfli",
+          "uri": "at://did:plc:6amf2dzllh6lvnsqxsr4nf6e/app.bsky.feed.post/3mdxpjlvwrs2w"
+        }
+      },
+      "text": "PowerShell -gt Bash.\n\nPowerShell + Python -gt Python + Bash.\n\nPowerShell + JavaScript -gt JavaScript + Bash."
+    },
+    "cid": "bafyreifvzrhe2cfianzmezyj2hbrhm3fe4h4zwlmlwxrbyi4y56ipwl3a4"
+  }
+}
