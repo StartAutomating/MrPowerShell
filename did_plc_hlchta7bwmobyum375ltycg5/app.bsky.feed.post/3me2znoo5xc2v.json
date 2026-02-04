@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770247668879674,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me2znrcnkk2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me2znoo5xc2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-04T23:27:45.882Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaulitgp3zqrgokhjtr574koyt346pfn4r6t3tjmttn5epdtyrbp4",
+          "uri": "at://did:plc:fdme4gb7mu7zrie7peay7tst/app.bsky.feed.post/3me2zifzfo22v"
+        },
+        "root": {
+          "cid": "bafyreiep5h4e3vg7ss55avenjsrpwpn76n2sbwo7hl3ows2esrltff4p3a",
+          "uri": "at://did:plc:re3ebnp5v7ffagz6rb6xfei4/app.bsky.feed.post/3mbfoiwutps2r"
+        }
+      },
+      "text": "Yeah, I think we may be hair-splitting here.\n\nI don't expect non-technical people to write JSON.\n\nI do hope that people keep usability and metadata in mind when they make a lexicon, and think if someone can use it clearly with only metadata descriptions."
+    },
+    "cid": "bafyreic2lshuq6bh7bopojw25xi6kz7kt5mywleqpxt654qwhflkms6kli"
+  }
+}
