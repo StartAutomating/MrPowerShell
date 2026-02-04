@@ -1,0 +1,84 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770235122567412,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me2nxubsuo26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me2nxtlmls2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-04T19:58:41.683Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects. - StartAutomating/ugit",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibbfpi3pqexpkpgumv5iob5sulruyl7gajeperiyw74mrnf7u5ww4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 36955
+          },
+          "title": "GitHub - StartAutomating/ugit: Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects.",
+          "uri": "https://GitHub.com/StartAutomating/ugit"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 209,
+            "byteStart": 198
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "git"
+            }
+          ],
+          "index": {
+            "byteEnd": 227,
+            "byteStart": 223
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/StartAutomating/ugit"
+            }
+          ],
+          "index": {
+            "byteEnd": 259,
+            "byteStart": 233
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigf6oqrpbb3bmvd5jdsdjpq3nqaabq52oz3qvezjnlfj7leyczseq",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3me2noydks22p"
+        },
+        "root": {
+          "cid": "bafyreigfo6em4klrydpowejs4fo2swgcgvq2psovomvl4ut7gecgsowzny",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3me2lthz6hs2p"
+        }
+      },
+      "text": "Cool beans.\n\nOver the past years I've been moving to allowing more open syntax/natural in my scripts.\n\nSometimes that means intercepting and extending application calls.\n\nSee ugit for an example of #PowerShell intercepting #git io.\n\nGitHub.com/StartAutomat..."
+    },
+    "cid": "bafyreiefpyxse42apc2udleh5mji7poe67ztc7i2ghcfzeig37opqkg47a"
+  }
+}
