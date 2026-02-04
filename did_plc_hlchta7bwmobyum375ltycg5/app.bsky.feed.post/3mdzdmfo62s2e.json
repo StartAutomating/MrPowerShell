@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770189639604374,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mdzdmefd6i26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mdzdmfo62s2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-04T07:20:40.832Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreierkdq6ylupt3nmngrtwjjpjw5ayimdjqhc3fqos6yoxhoprlqaie",
+          "uri": "at://did:plc:6amf2dzllh6lvnsqxsr4nf6e/app.bsky.feed.post/3mdyxddp2cs2o"
+        },
+        "root": {
+          "cid": "bafyreihwlcdbjaareksei5jmssyt4aj6kq6tdio7yl6zbsxhbptvo3gfli",
+          "uri": "at://did:plc:6amf2dzllh6lvnsqxsr4nf6e/app.bsky.feed.post/3mdxpjlvwrs2w"
+        }
+      },
+      "text": "I have to give you that point.\n\nPython has a great community that constantly builds amazing things.\n\nIt's ecosystem is amazing.\n\nAlso / and...\n\nPowerShell's ecosystem is itself plus all other language ecosystems.\n\nIMO, it's the best glue language yet.\n\nPowerShell + Python ftw.\n\nPython + Bash fml."
+    },
+    "cid": "bafyreif6oo5vv6exbhbvzpjhtksj2bm3vss4dv5rt6ctgsn6drqecxkuyq"
+  }
+}
