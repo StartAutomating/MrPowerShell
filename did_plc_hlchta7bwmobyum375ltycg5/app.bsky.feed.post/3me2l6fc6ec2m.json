@@ -1,0 +1,84 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770232118218938,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me2l6d3tvg2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me2l6fc6ec2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-04T19:08:40.334Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects. - StartAutomating/ugit",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibbfpi3pqexpkpgumv5iob5sulruyl7gajeperiyw74mrnf7u5ww4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 36955
+          },
+          "title": "GitHub - StartAutomating/ugit: Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects.",
+          "uri": "https://GitHub.com/StartAutomating/ugit"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "powershell"
+            }
+          ],
+          "index": {
+            "byteEnd": 250,
+            "byteStart": 239
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "git"
+            }
+          ],
+          "index": {
+            "byteEnd": 255,
+            "byteStart": 251
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/StartAutomating/ugit"
+            }
+          ],
+          "index": {
+            "byteEnd": 296,
+            "byteStart": 270
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicdxxghrg52zrpnob3mebem7bdt2nih7vk6q3gcfnk65ksst3ivze",
+          "uri": "at://did:plc:gqck2dtpmag4zrtu5h2fuauj/app.bsky.feed.post/3me2hdqtoiz2n"
+        },
+        "root": {
+          "cid": "bafyreicdxxghrg52zrpnob3mebem7bdt2nih7vk6q3gcfnk65ksst3ivze",
+          "uri": "at://did:plc:gqck2dtpmag4zrtu5h2fuauj/app.bsky.feed.post/3me2hdqtoiz2n"
+        }
+      },
+      "text": "I don't know why people won't learn, but I do know why not to git add -A:\n\nIdea is to have discrete commits, containing only the changes relevant to the issue you're fixing.\n\nNot \"check in all the files at once\"\n\nAlso, got way more than 3 #powershell #git scripts 😉\n\nGitHub.com/StartAutomat..."
+    },
+    "cid": "bafyreicandqeh7nislet2ug6kdtifuki7po4mffqid2j5qfpfw427l2qvm"
+  }
+}
