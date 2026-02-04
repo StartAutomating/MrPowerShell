@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770246287466224,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me2yelwsrl2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me2yeld3vc2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-04T23:04:46.642Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidcalroul3uoswvzbeuzikezyxp3oqictlwviqt4wzqd6lkuli32a",
+          "uri": "at://did:plc:fdme4gb7mu7zrie7peay7tst/app.bsky.feed.post/3me2vxyo6622g"
+        },
+        "root": {
+          "cid": "bafyreiep5h4e3vg7ss55avenjsrpwpn76n2sbwo7hl3ows2esrltff4p3a",
+          "uri": "at://did:plc:re3ebnp5v7ffagz6rb6xfei4/app.bsky.feed.post/3mbfoiwutps2r"
+        }
+      },
+      "text": "I respectfully disagree with this viewpoint.\n\nA Lexicon is akin to an OpenAPI or JSON Schema.\n\nWhile we think of both of these as \"developer tools\", they also purposefully contain enough metadata to autogenerate UIs.\n\nPeople will interact with our lexicons, because programmers make it easy."
+    },
+    "cid": "bafyreibjm6zd7rb4njyenpkpt4ehlbac4nqyv6g524udvuvkfnqs6fkwya"
+  }
+}
