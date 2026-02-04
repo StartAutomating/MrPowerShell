@@ -1,0 +1,68 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770232808426512,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me2lsve5hr2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me2lsuru222m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-04T19:20:07.679Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 75,
+            "byteStart": 64
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 85,
+            "byteStart": 79
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 125,
+            "byteStart": 114
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidym2vhd3oazso4lii7traf6dep33fwyw3gbmff3yz53g2ru5w5yi",
+          "uri": "at://did:plc:n475nhilc5k6wqzqbbuirwv4/app.bsky.feed.post/3me27e2kjlc22"
+        },
+        "root": {
+          "cid": "bafyreibumwewcp35vgnktivu2j27x6kdcwobxxlkr2duzn2zs6ulg5umti",
+          "uri": "at://did:plc:isf6drpeeoqyhuwinar2wgxn/app.bsky.feed.post/3me275gfx7c2e"
+        }
+      },
+      "text": "Why not both?\n\nPowerShell is cross-platform.\n\nI personally love #PowerShell on #Linux ( slightly more than I love #PowerShell on Windows ).\n\n🐧😎"
+    },
+    "cid": "bafyreicef6pzvxtqdwto37y5m35penvtw7dmzafrbxk67fqk3lhbsaz4gi"
+  }
+}
