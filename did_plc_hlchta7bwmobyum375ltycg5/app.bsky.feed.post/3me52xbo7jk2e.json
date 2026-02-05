@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770317779552202,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me52xa5nwj26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me52xbo7jk2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-05T18:56:21.014Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihb7hsptoumvu4ypdihn52gk4z4mbmndwjt3dmviy7l4xz4ov63oq",
+          "uri": "at://did:plc:6xnj2xurjfnfqxbvykqr74an/app.bsky.feed.post/3me4edfkjss2d"
+        },
+        "root": {
+          "cid": "bafyreihvicigv7bjfaicr2yunufm3ukapbcakbw5lzijdy2t6fp6peoija",
+          "uri": "at://did:plc:v5kmobucttfxrmradpinaqyx/app.bsky.feed.post/3me3w6qx6hk2n"
+        }
+      },
+      "text": "💯\n\nYesterday I was talking about how Linux needs PowerShell, and this is kinda what I mean.\n\nPowerShell at least tries to be easy and structured, and it helps bring a lot of sanity to the mishmash of inscrutable commands that is a lot of Linux."
+    },
+    "cid": "bafyreih4o7ieht7mukwi4mbafikrwrwapfu7rdr2ihw4f7pnqxn7nzvari"
+  }
+}
