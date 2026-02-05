@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770271601460237,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me3pwzbyud2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me3pwyryak2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-05T06:06:40.803Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiedx2gkegc6resk42ii3ixtmr3oqewwddsq7fgoq3dbtd6ncjbusq",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3me3o4s4uxk2p"
+        },
+        "root": {
+          "cid": "bafyreigjgm26g4r5scqlk6nz22fxvhuctot3rebmh66m2azihxmsf4jqau",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3me3ik3ytn22p"
+        }
+      },
+      "text": "Good!  / (slightly) oh dear.\n\nI feel like sometimes very efficient approaches become obvious with experience.\n\nShort version of my short approach:\n\nLocalized data files with basic structure.\n\nHappy to dive into the nitty gritty (this weekend) 😉"
+    },
+    "cid": "bafyreieyancjw4fcgsbhwawrwrhrcv6u4x5kgy77bboubcbfdyd5i4ydea"
+  }
+}
