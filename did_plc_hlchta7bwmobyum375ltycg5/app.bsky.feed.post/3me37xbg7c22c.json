@@ -1,0 +1,92 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770254430683767,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me37xbvkgz2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me37xbg7c22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-05T01:20:29.985Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 95,
+            "byteStart": 89
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 113,
+            "byteStart": 102
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Windows"
+            }
+          ],
+          "index": {
+            "byteEnd": 138,
+            "byteStart": 130
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MacOS"
+            }
+          ],
+          "index": {
+            "byteEnd": 147,
+            "byteStart": 141
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AppleScript"
+            }
+          ],
+          "index": {
+            "byteEnd": 173,
+            "byteStart": 161
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaagtx5fw5x42o5k4zj6po4f5hveyt5dzb2vczgv6gvtb3yksiylu",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3me37qmivvk2p"
+        },
+        "root": {
+          "cid": "bafyreigfo6em4klrydpowejs4fo2swgcgvq2psovomvl4ut7gecgsowzny",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3me2lthz6hs2p"
+        }
+      },
+      "text": "Fair goto.\n\nI actually absolutely love PowerShell on Linux though.\n\nIt's weird but true, #Linux needs #PowerShell _far_ more than #Windows.  #MacOS at least has #AppleScript.\n\nLinux has been parsing and praying for decades.\n\nPowerShell makes it so much better.\n\nAnd it runs faster on Linux. 😎"
+    },
+    "cid": "bafyreibopc4pzku5xflclwzlhsesuyntu52ali4rgm3z3q2a4ctfqksioa"
+  }
+}
