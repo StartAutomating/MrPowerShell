@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770269416796360,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me3nvvsvzi2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me3nvvfatc2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-05T05:30:16.202Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiekygox4hu4wziqql2e4uf2bkbcyqs4x4vxpitj73egfkoollvoqi",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3me2meudkas2p"
+        },
+        "root": {
+          "cid": "bafyreiekygox4hu4wziqql2e4uf2bkbcyqs4x4vxpitj73egfkoollvoqi",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3me2meudkas2p"
+        }
+      },
+      "text": "Less than you'd think, but for weird reasons.\n\nIt's pretty clear GitHub does some local caching of packages regardless of language, and has been doing so for at least ~2-3 years.\n\nI find that GitHub can do a \"fresh\" install of a package faster than most boxes I've seen.\n\nHonestly, it's great."
+    },
+    "cid": "bafyreihmeuocvvuv6nbbgzupzoera6cmnkvfqvwpgfpq2f5j3zxglgvavm"
+  }
+}
