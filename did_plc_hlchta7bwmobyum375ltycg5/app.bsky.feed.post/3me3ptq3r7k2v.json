@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770271491453893,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me3ptqeu742d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me3ptq3r7k2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-05T06:04:51.023Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigntcncnqp3vc3z752e2p3d3kjgujvnkmpdcbouqq7cr5jw5vjrwq",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3me3o7mgfsk2p"
+        },
+        "root": {
+          "cid": "bafyreiekygox4hu4wziqql2e4uf2bkbcyqs4x4vxpitj73egfkoollvoqi",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3me2meudkas2p"
+        }
+      },
+      "text": "Yes, and, this pre-supposes there is a single default template.\n\nIf I were in GitHub's shoes I'd want to mitigate the cost even if people did things inefficiently.\n\nThey provide a fair number of samples for using caching and encourage it in many ways.\n\nBut don't see them rewriting anyone's workflow."
+    },
+    "cid": "bafyreiguc2qqzisodpjhfntmwnd2qat7ys5jyg5hckcyujn4zgiixsgyc4"
+  }
+}
