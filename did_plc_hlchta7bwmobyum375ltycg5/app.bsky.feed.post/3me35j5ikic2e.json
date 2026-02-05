@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770251809387324,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me35j5woae2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me35j5ikic2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-05T00:36:48.621Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiblivmdbevvvfj2u5zkoin6fmyzfgr5grrhny4tti3sjltdfko3fi",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3me35epbbuc2q"
+        },
+        "root": {
+          "cid": "bafyreidxbvpdwsqnnw4gmgrfr557mtkbmyfb7poutvipgtnp75fhdfm6gu",
+          "uri": "at://did:plc:ykxw5rlwbf74z5ktczwjbaye/app.bsky.feed.post/3me2vo7lflc2d"
+        }
+      },
+      "text": "They're alright.  \n\nSeems like about 3/4 of the content is good, 1/4 of the content is clickbaity.\n\nSadly much better ratio than a lot of tech tubers.\n\nGod I need to record / broadcast more content."
+    },
+    "cid": "bafyreidwfsygl7zcuwqm3wgc3alyvc4vrkfwbkah4ddy4grxk3c5qwjrdy"
+  }
+}
