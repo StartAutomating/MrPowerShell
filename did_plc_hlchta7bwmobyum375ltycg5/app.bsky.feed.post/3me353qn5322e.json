@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770251359613231,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me353r4gtc2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me353qn5322e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-05T00:29:18.933Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiam7vhq66qig7izyf6iqmr5j7652jdc4ovgssqlbrkiy5th5gmexa",
+          "uri": "at://did:plc:ykxw5rlwbf74z5ktczwjbaye/app.bsky.feed.post/3me34qcy3i22q"
+        },
+        "root": {
+          "cid": "bafyreidxbvpdwsqnnw4gmgrfr557mtkbmyfb7poutvipgtnp75fhdfm6gu",
+          "uri": "at://did:plc:ykxw5rlwbf74z5ktczwjbaye/app.bsky.feed.post/3me2vo7lflc2d"
+        }
+      },
+      "text": "Thanks!\n\nFWIW:\n\n1. Did a looksee and the code looks clean and safe.\n2. Most of the code should also run fine on MacOS and Linux\n3. Gave the repo an issue asking for xplat support."
+    },
+    "cid": "bafyreibtbpuf5ynegkrpdbzyjwznwpa7sbj4xyagyknvqoqdyz2ncdvf3u"
+  }
+}
