@@ -1,0 +1,36 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770325866612868,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me5ci4uxii2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me5ci2zkq22v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-05T21:11:00.664Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: I don't look like this nerd, but I certainly do a lot of nerdy things every day",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiefupkgypacxzwreyrkcfniu3uf64fqfkvoafauf2mgshn4aezxue"
+            },
+            "mimeType": "image/jpeg",
+            "size": 581971
+          },
+          "title": "a cartoon character is walking down a sidewalk with a book in his hand",
+          "uri": "https://media.tenor.com/Zs_-W6j2J8MAAAAC/homer-neerddd.gif?hh=182&ww=250"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "text": "As I make a bunch GitHub issues for escape sequences, using the ANSI escape sequence as the issue number, I have to admit a core truth to myself.\n\nI am definitely a big friggin nerd."
+    },
+    "cid": "bafyreihork43lcmtlw7wkfgdwzm4ukavead46ic2ycbxpikztxvr7kh2eq"
+  }
+}
