@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770266129569356,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me3ktwtzcq2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me3ktwdunk2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-05T04:35:28.871Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreignjvu33om7f3pcldrdrtgdazeggknhmvvw6i656fevvzsqn7dklq",
+          "uri": "at://did:plc:2qrxf4kc7qu2nv2ioy7atz4t/app.bsky.feed.post/3me3jgfhlzc2w"
+        },
+        "root": {
+          "cid": "bafyreibf5kfnnhmaphfm63iul5keazai2bugm4onor6y5ulb2kfxkelrzy",
+          "uri": "at://did:plc:2qrxf4kc7qu2nv2ioy7atz4t/app.bsky.feed.post/3me3heaqkjs2w"
+        }
+      },
+      "text": "I'm trying to make some animation tooling to help fill the void left by adobe here.\n\n🙏 Please help me understand this scenario so I can build a script to save everyone the time.\n\nGo an animation file you could share with nested symbols?"
+    },
+    "cid": "bafyreicynr36dheb4622m37wqybir6dacshexrcmagr3fypblaknzihtxu"
+  }
+}
