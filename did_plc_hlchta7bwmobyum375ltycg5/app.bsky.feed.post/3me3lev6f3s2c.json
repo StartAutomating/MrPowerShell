@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770266698651192,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me3levknu426",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me3lev6f3s2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-05T04:44:58.068Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Adobe"
+            }
+          ],
+          "index": {
+            "byteEnd": 50,
+            "byteStart": 44
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Animate"
+            }
+          ],
+          "index": {
+            "byteEnd": 59,
+            "byteStart": 51
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "If you are reconsidering if you want to use #Adobe #Animate and have some sample files you're willing to share, please reach out. \n\nI'm trying to make some tools to help people migrate their animate projects into open source formats.\n\nLooking for any examples or experts I can find.\n\nThanks!"
+    },
+    "cid": "bafyreibgr7vyjuxkizhwfadtuockivljxhceynjgwoiip4axp5jakqvnui"
+  }
+}
