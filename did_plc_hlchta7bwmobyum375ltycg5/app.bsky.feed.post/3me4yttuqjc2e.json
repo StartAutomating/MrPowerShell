@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770315517348767,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me4ytsoqrg2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me4yttuqjc2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-05T18:18:38.402Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic222opomg2i7yvrdx5avrz3fsqrp2oea5e67cg77gi3mtofliclm",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3me4ivpzu7k2o"
+        },
+        "root": {
+          "cid": "bafyreifasgbnedt4e6nrdzojmw4zijrlaaqci7m5bksqxptbkuawaz37bm",
+          "uri": "at://did:plc:wt5jnss43slmbjzdh4ucyhqw/app.bsky.feed.post/3me3plzcbic2l"
+        }
+      },
+      "text": "The number of times I have slowly and painfully explained this to vendors and module developers is frustrating.\n\nThey know not what they do.\nThey know not who they hurt.\n\nProbably thousands of cumulative hours waiting for nothing."
+    },
+    "cid": "bafyreifpzpupszezckr4ql5bgtfnqjpmzf4opoobr7hddwkpmpl3og6b6u"
+  }
+}
