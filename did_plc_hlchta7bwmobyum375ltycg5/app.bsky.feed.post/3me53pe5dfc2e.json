@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770318587897767,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me53pcxqao24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me53pe5dfc2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-05T19:09:48.913Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihrlulbvjpc5cci2hzzhe5l4omali43r2wrvsuxiqvnz4jlxibis4",
+          "uri": "at://did:plc:6xnj2xurjfnfqxbvykqr74an/app.bsky.feed.post/3me53invrhk2x"
+        },
+        "root": {
+          "cid": "bafyreihvicigv7bjfaicr2yunufm3ukapbcakbw5lzijdy2t6fp6peoija",
+          "uri": "at://did:plc:v5kmobucttfxrmradpinaqyx/app.bsky.feed.post/3me3w6qx6hk2n"
+        }
+      },
+      "text": "Yep.  Another reason for the daily driving on Linux.\n\nIt's a long road to making that OS more usable, but I'm walking it.\n\nDid I mention that any PowerShell command can implicitly become a GUI ? ( Not just a TUI, a GUI )"
+    },
+    "cid": "bafyreifwnuc6iarkr7syvsbl6epps3hja7tvgcb4fp5salq3wlg65iefxu"
+  }
+}
