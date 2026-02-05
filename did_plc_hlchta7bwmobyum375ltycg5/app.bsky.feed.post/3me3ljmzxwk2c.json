@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770266858169969,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me3ljnrk7p2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me3ljmzxwk2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-05T04:47:37.307Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicxibpi4f74hkrr5btmlg42giczmtpc2wfjc3cm2uvywdmv2veb2i",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3me3c56lesk2p"
+        },
+        "root": {
+          "cid": "bafyreigfo6em4klrydpowejs4fo2swgcgvq2psovomvl4ut7gecgsowzny",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3me2lthz6hs2p"
+        }
+      },
+      "text": "MacOS needs PowerShell, too 😉\n\nAs for Linux machines being appliances...\n\n🤷 sometimes they are.  \n\nPersonally I _want_ to be able to run PowerShell on an appliance.\n\nOther times I want to run PowerShell in a Linux container \n\nOr a GitHub Workflow.\n\nAll good reasons to try it."
+    },
+    "cid": "bafyreiagybywyc4aiwvegc4472fm7rboziat6j2pexup6iizjvndpsp6ja"
+  }
+}
