@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770349725035702,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me5ypbojww2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me5ypdk76s2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-06T03:48:46.798Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiflty4lvodcuucolgadnusufl6gegqgq5afoqelc7kg7iktkc647m",
+          "uri": "at://did:plc:q7suwaz53ztc4mbiqyygbn43/app.bsky.feed.post/3me5jwa3wj62t"
+        },
+        "root": {
+          "cid": "bafyreiflty4lvodcuucolgadnusufl6gegqgq5afoqelc7kg7iktkc647m",
+          "uri": "at://did:plc:q7suwaz53ztc4mbiqyygbn43/app.bsky.feed.post/3me5jwa3wj62t"
+        }
+      },
+      "text": "Yeah, it took a good while for DotNet Core to get everything required for PowerShell good to go.\n\nThe march in that direction started in powershell 2.0/.net core 1.0.  I think it took until .net core 3.0 for the functionality to be there."
+    },
+    "cid": "bafyreiefu3ycdzkktphsvv7ym6pjfnuuhak6hjkbwhcimhrdvyrzccfzt4"
+  }
+}
