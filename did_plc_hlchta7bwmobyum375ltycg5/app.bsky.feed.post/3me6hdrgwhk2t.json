@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770365467099301,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me6hegflfh2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me6hdrgwhk2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-06T08:10:44.847Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigoilhgsa7bqook4clhlklxx4d56v3r3az5hpn4de2qhqgvfyw3fe",
+          "uri": "at://did:plc:te7ifhsg3qucnh4g57fnnbqc/app.bsky.feed.post/3me6gzaanfk27"
+        },
+        "root": {
+          "cid": "bafyreig22rzsfrnfb47xuxjycyqnikttfyy4bbbopjwij7qsc7avd5wtqu",
+          "uri": "at://did:plc:bhdap3w2bseikypfnjmaskzf/app.bsky.feed.post/3mdxnludrdk2l"
+        }
+      },
+      "text": "I'm sure Microsoft learn has a couple, and I'm sure I should try to write a few more.\n\nThe concise version is simply this:\n\nFast and flexible cross-platform consistency.\n\nThe long-fabled dream of \"write once, run everywhere\" is far more feasible in PowerShell (as everything is dynamic objects)"
+    },
+    "cid": "bafyreibul7ubf4enc65vwgm2gu67pcfxcm5iigx5syt7fs7p6huyfimxay"
+  }
+}
