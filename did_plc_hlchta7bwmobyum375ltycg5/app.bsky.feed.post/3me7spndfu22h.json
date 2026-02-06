@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770412015099087,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me7spo6isj24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me7spndfu22h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-06T21:06:54.088Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidunl33fn7znlkpmznnt43ahfmi5oyfu3awzbyp5sumae5evilirm",
+          "uri": "at://did:plc:vt464ohreg6sglmnb4cuctmr/app.bsky.feed.post/3me6qweo5rk2o"
+        },
+        "root": {
+          "cid": "bafyreicxyzw72qa2lghldd2s56hs5gdzj5ctvmqpyfnet2fybldgo4xccq",
+          "uri": "at://did:plc:vt464ohreg6sglmnb4cuctmr/app.bsky.feed.post/3me6o64lqb22o"
+        }
+      },
+      "text": "Nah, it's that thing that is used to automate lots of stuff and can metaprogram other languages.\n\nAfaik not running on Nintendo's yet.\n\nBut has been used to help test Nintendo / Xbox games since 2010.\n\nSo probably the thing that drives the Mario Kart in tests."
+    },
+    "cid": "bafyreics3smyegfsztsegnkbor237vkppbtwsaesubztvls3dxvpw6k2oe"
+  }
+}
