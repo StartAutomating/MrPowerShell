@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770412402992316,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me7t37jier2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me7t364vcs2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-06T21:13:20.799Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: I jokingly maintain that this line from the Prequel trilogy is really all about ILM's late 90s/ early 2000 attempts to do things in Java.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibgna2gycn4okylcaudumzemqku4pvaxeneacrfg2mjtrvay3ar3i"
+            },
+            "mimeType": "image/jpeg",
+            "size": 45421
+          },
+          "title": "a man is standing in a dark room with the words `` you were the chosen one '' .",
+          "uri": "https://media.tenor.com/TxxK-usCnQAAAAAC/star-wars-chosen-one.gif?hh=240&ww=480"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie2f6udj7x34zuankecok5k5kjzgesp5yuttequ2brtzdjmezdlmm",
+          "uri": "at://did:plc:rjhjcb3rgdsmdr6ykywuh63z/app.bsky.feed.post/3me6reyybgs2z"
+        },
+        "root": {
+          "cid": "bafyreicxyzw72qa2lghldd2s56hs5gdzj5ctvmqpyfnet2fybldgo4xccq",
+          "uri": "at://did:plc:vt464ohreg6sglmnb4cuctmr/app.bsky.feed.post/3me6o64lqb22o"
+        }
+      },
+      "text": "Sadly the late 90s/early 00s just called in to disagree with this.\n\nWe all hoped it would be Java.\n\nThen the xplat incompatibility problems started."
+    },
+    "cid": "bafyreiab2u7i23ckagavqxuihq63nl7bkrpan5rph7ly42azgy4egvq47q"
+  }
+}
