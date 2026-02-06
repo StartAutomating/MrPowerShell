@@ -1,0 +1,132 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770420389675713,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mea2j7tarr2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mea2izigjc2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-06T23:26:21.881Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "Remember those who have been taken from us all.  Cherish their memory and goodness.  Fight on, for they cannot.",
+            "aspectRatio": {
+              "height": 2000,
+              "width": 1505
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreidhpv72k6ycwsmjghomf34s75iljl3nmrxirub6habsmibcp3pmei"
+              },
+              "mimeType": "image/jpeg",
+              "size": 965684
+            }
+          },
+          {
+            "alt": "Tributes to Alex Pretti outside Harbor view in Seattle.",
+            "aspectRatio": {
+              "height": 2000,
+              "width": 1505
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiaf52ptdde7yyrz65fjiiaue7f5o7r5oieqsl4ov6ir2karuqhgju"
+              },
+              "mimeType": "image/jpeg",
+              "size": 980838
+            }
+          },
+          {
+            "alt": "Nurses should not have to mourn the violent loss of nurses.\n\n( Last time I checked it was a Geneva violation to target medical personnel or those giving assistance to the wounded )",
+            "aspectRatio": {
+              "height": 1505,
+              "width": 2000
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreifuk7fck5vuunlwpac3jjni2fh3owul4yudggmddb6u2jyn2zzrby"
+              },
+              "mimeType": "image/jpeg",
+              "size": 963483
+            }
+          }
+        ]
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Seattle"
+            }
+          ],
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 26
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AlexPretti"
+            }
+          ],
+          "index": {
+            "byteEnd": 110,
+            "byteStart": 99
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RestInPower"
+            }
+          ],
+          "index": {
+            "byteEnd": 192,
+            "byteStart": 180
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "IceOut"
+            }
+          ],
+          "index": {
+            "byteEnd": 201,
+            "byteStart": 194
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MinneapolisMassacre"
+            }
+          ],
+          "index": {
+            "byteEnd": 223,
+            "byteStart": 203
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Saw this by Harborview in #Seattle and it brought up so much sorrow and so much joy.\n\nRNs mourning #AlexPretti pretty much everywhere.\n\nThey were a good person.\n\nThey are missed.\n\n#RestInPower\n\n#IceOut\n\n#MinneapolisMassacre"
+    },
+    "cid": "bafyreiagfpcdyhuchjuike3fevqjcbcjsfr5wp6zoivaye4oqpf4zngioi"
+  }
+}
