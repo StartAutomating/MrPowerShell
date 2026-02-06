@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770412585606305,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me7taoag3d2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me7tanenkk2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-06T21:16:24.554Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiejc2w4xrtzmsg2pr2267u3fqihzg3zmtsjkfbiercz56ajj2qybu",
+          "uri": "at://did:plc:yeplumkwwcfqh5gr7burql3e/app.bsky.feed.post/3me7fnmnzts23"
+        },
+        "root": {
+          "cid": "bafyreicxyzw72qa2lghldd2s56hs5gdzj5ctvmqpyfnet2fybldgo4xccq",
+          "uri": "at://did:plc:vt464ohreg6sglmnb4cuctmr/app.bsky.feed.post/3me6o64lqb22o"
+        }
+      },
+      "text": "As someone who wrote a bunch of Perl CGI in the early days of the internets....\n\n🙏Please no🙏\n\nThe industry joke for a long time was that Perl is a \"write-only\" language."
+    },
+    "cid": "bafyreiacipuclpcljcfi4isfnppsmahylf7phuwnhivk2odtrxxrkbteje"
+  }
+}
