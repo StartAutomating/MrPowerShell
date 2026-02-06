@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770415653821020,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me7w43q3qq2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me7w3zkitk2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-06T22:07:30.783Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: A Monster can really appreciate the joy of running PowerShell on Linux.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibpzprupoboe2xdfu3mcic23tmnzty2l4tcdfi3zrdltwqiuqmtyy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 819113
+          },
+          "title": "a cartoon character is smiling and says so dirty on the bottom",
+          "uri": "https://media.tenor.com/6hS9upEn2v4AAAAC/so-dirty-maurice-the-hormone-monster.gif?hh=494&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib3mfrhrqwqvp53aodwasukkidi2wco5buo3kx7i4tx3xfh6ump5m",
+          "uri": "at://did:plc:clm472deyybgr3foglo5wgtk/app.bsky.feed.post/3me74dyzsms27"
+        },
+        "root": {
+          "cid": "bafyreib3mfrhrqwqvp53aodwasukkidi2wco5buo3kx7i4tx3xfh6ump5m",
+          "uri": "at://did:plc:clm472deyybgr3foglo5wgtk/app.bsky.feed.post/3me74dyzsms27"
+        }
+      },
+      "text": "💯"
+    },
+    "cid": "bafyreiaelepn7hr5xbr6ckz5klf3q4tuo7ybritv7y6qekdwoxahuj2cm4"
+  }
+}
