@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770420688748220,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mea2s5ze3u26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mea2s5qj4k2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-06T23:31:28.337Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifpuzvmfkswzkejjkcyze4edqscudkmmyinygced67qfx6typ6t4e",
+          "uri": "at://did:plc:hcq3w6fvco6oycpqh6i46zoo/app.bsky.feed.post/3me746xwdzc24"
+        },
+        "root": {
+          "cid": "bafyreifpuzvmfkswzkejjkcyze4edqscudkmmyinygced67qfx6typ6t4e",
+          "uri": "at://did:plc:hcq3w6fvco6oycpqh6i46zoo/app.bsky.feed.post/3me746xwdzc24"
+        }
+      },
+      "text": "BTW this gif reminds me of an old and useful saying of mine:\n\n\"If you're banging your head against the wall, try going around\""
+    },
+    "cid": "bafyreihejlkq65cfdqvp5lnpi42qps2jwvfi5g7v3bhtnbel4vnwv4rn4m"
+  }
+}
