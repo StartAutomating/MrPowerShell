@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770411437313618,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me7s6h3tcv2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me7s6g77hc2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-06T20:57:16.185Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicxyzw72qa2lghldd2s56hs5gdzj5ctvmqpyfnet2fybldgo4xccq",
+          "uri": "at://did:plc:vt464ohreg6sglmnb4cuctmr/app.bsky.feed.post/3me6o64lqb22o"
+        },
+        "root": {
+          "cid": "bafyreicxyzw72qa2lghldd2s56hs5gdzj5ctvmqpyfnet2fybldgo4xccq",
+          "uri": "at://did:plc:vt464ohreg6sglmnb4cuctmr/app.bsky.feed.post/3me6o64lqb22o"
+        }
+      },
+      "text": "I think a lot of languages are good, and not too bad.\n\nPowerShell, Python, Go, C#, Rust, C++, JavaScript:\n\nAll mostly good.\n\nThe problem is old adages are true:\n\n- The perfect is the enemy of the good\n- The best laid plans of mice and men oft go awry."
+    },
+    "cid": "bafyreif6bjvbrufakfkdxljtpji4mjohtpvqvucfsicc77phs4msn45eo4"
+  }
+}
