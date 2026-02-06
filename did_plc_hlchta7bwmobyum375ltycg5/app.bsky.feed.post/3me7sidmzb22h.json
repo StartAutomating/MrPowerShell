@@ -1,0 +1,34 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770411770026209,
+  "kind": "commit",
+  "commit": {
+    "rev": "3me7sieetbn2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3me7sidmzb22h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-06T21:02:49.036Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "infosec"
+            }
+          ],
+          "index": {
+            "byteEnd": 201,
+            "byteStart": 193
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Today there is a Hackaday blog about macro assembly in Bash.\n\nHalf of me is kicking myself for not posting my PowerShell / Assembly generation experiments sooner.\n\nHad been holding back due to #infosec concerns\n\nThe other half of me is like:\n\n🤷 The cats out the bag now 🤷\n\nGuess I'll have to share."
+    },
+    "cid": "bafyreigmoowdloasmj5hgpfaydidkpckuyqb6rflnvf23mu5oqewmli7xm"
+  }
+}
