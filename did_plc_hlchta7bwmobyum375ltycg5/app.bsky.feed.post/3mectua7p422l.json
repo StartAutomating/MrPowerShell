@@ -1,0 +1,41 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770516321482768,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mectuacbgv2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mectua7p422l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T02:05:21.064Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreiceghdkfap6pnysailco6dq5zars4w5erj4jnrdcvhhuunusu3vwa",
+          "uri": "at://did:plc:7tthud43qlc2k3b7ooh7fsvu/app.bsky.feed.post/3mecodaixhc2w"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/bryanrva.dev/post/3mecodaixhc2w"
+            }
+          ],
+          "index": {
+            "byteEnd": 274,
+            "byteStart": 250
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Without naming your job, tell me something you say over and over again in professional contexts:\n\n\"That's a good little PowerShell script you've made.  Did you know there was a module on the gallery that does this, too?\"\n\n( I try to be diplomatic )\n\nbsky.app/profile/brya..."
+    },
+    "cid": "bafyreifmf3uxiwdw77y7lu2qnir27achwqepzurvumibz7iwuifanvjqwq"
+  }
+}
