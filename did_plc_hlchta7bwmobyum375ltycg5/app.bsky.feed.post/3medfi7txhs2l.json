@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770535246285460,
+  "kind": "commit",
+  "commit": {
+    "rev": "3medfiabv752y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3medfi7txhs2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T07:20:45.38Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid22rer5otduiyrtusjxfzwjrk5b6j524fudrijp6ltqod67qtkq4",
+          "uri": "at://did:plc:esyyysvopsxyg3vlfaiyftmd/app.bsky.feed.post/3medello5kc2w"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "Pretty sure for a large variety of reason's the main platform it targets is cross-platform (since 2016 every build has been xplat).\n\nI think this is the order of strategic importance:\n\n- Unix/Linux\n- Windows\n- MacOS\n\nBeing able to seamlessly work on all 3 is the \"big win\"\n\nAnd was always the goal."
+    },
+    "cid": "bafyreibnnixdu2mw75prikgcmkpk3yiaycm6rvpqy6dysot6z6dmubhuxa"
+  }
+}
