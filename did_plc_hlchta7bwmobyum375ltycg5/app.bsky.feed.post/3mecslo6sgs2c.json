@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770514960488726,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecsloip7q26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecslo6sgs2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T01:42:39.983Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 42,
+            "byteStart": 31
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 48
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreignlwzb7y5tvtfpvjvi2cxcc2lzvw3kqtpwoxk3pisnl2a2mjem6i",
+          "uri": "at://did:plc:jgtv6qlzmpf2ayp2c4warwyz/app.bsky.feed.post/3mecpurv64k2r"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "I always do 😉\n\n(daily drive #PowerShell on a #RaspberryPi, run gcc at least once a week)"
+    },
+    "cid": "bafyreie2bwfej65k4y7r3qbb7ry47ufm3zlyrlbkjynhagjuz3f6d2mcxm"
+  }
+}
