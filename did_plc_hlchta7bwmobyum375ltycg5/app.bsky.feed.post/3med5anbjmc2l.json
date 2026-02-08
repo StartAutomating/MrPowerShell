@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770526401752258,
+  "kind": "commit",
+  "commit": {
+    "rev": "3med5anqwog26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3med5anbjmc2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T04:53:21.085Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiclk27hun4ifwsoqrncw5724jbmmpw4fd3b75cxjwpppali7wxq5i",
+          "uri": "at://did:plc:jgtv6qlzmpf2ayp2c4warwyz/app.bsky.feed.post/3med53ivkbk2r"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "I hear ya, and\n\n1. Civilization matters, that's why we have to fight for it.\n2. Liability doesn't exactly expire.\n3. 🎶 castles built with sand / fall into the sea / eventually 🎶"
+    },
+    "cid": "bafyreicr5ttcl5fi7ikve7rk5sei5vr5snzja5nyg2xezqthp5ec4op5nm"
+  }
+}
