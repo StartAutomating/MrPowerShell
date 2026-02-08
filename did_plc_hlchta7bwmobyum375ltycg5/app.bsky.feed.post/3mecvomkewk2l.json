@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770518280692440,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecvomttc62u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecvomkewk2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T02:38:00.155Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic5hfapfbadvg3mhxbby2tpb5mrhv5e4ywniuecmfg6lwdiqkniwi",
+          "uri": "at://did:plc:torygwypgwul7zk4gi4lfwty/app.bsky.feed.post/3mecvkfw5nk2a"
+        },
+        "root": {
+          "cid": "bafyreifmf3uxiwdw77y7lu2qnir27achwqepzurvumibz7iwuifanvjqwq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mectua7p422l"
+        }
+      },
+      "text": "Yep, me too.  Which is why I generally tell someone _after_ they have made their script (and after a compliment or two if I can)\n\nEither they have come up with something they like and want to continue, or they have disliked the process and want to stop.\n\nEither way, knowing help."
+    },
+    "cid": "bafyreidu2zkaswwjdaeqxrruou4sxpt7s37y4da3o6pxrqwiucyqoixumu"
+  }
+}
