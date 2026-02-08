@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770521444647405,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecymwcwny2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecymv6hcc2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T03:30:43.318Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Script OBS with PowerShell. Contribute to StartAutomating/obs-powershell development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiemmfmvebg6n2dvez4o5y5acb3ztmstzdym6yx6ihvcwep7buarzm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 131080
+          },
+          "title": "GitHub - StartAutomating/obs-powershell: Script OBS with PowerShell",
+          "uri": "https://github.com/StartAutomating/obs-powershell"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/obs-powershell"
+            }
+          ],
+          "index": {
+            "byteEnd": 50,
+            "byteStart": 24
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicuhm5qawxwob2csez5z6mftjii56atylhhlpwsflpfzhftgesomq",
+          "uri": "at://did:plc:jgtv6qlzmpf2ayp2c4warwyz/app.bsky.feed.post/3mecyavnrpk2r"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "Ummm...\n\nNot _exactly_\n\ngithub.com/StartAutomat...\n\nWorks over their websocket api, and can connect to any obs instance with the port open on any network\n\n😎\n\nHave fun!"
+    },
+    "cid": "bafyreiekrsjxgbg7muqtb76rv67y745b6lk4fkamjd67tnerkj2ex4cvfa"
+  }
+}
