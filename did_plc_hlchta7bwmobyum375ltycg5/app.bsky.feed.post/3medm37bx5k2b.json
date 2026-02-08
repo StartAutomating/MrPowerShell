@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770542326681743,
+  "kind": "commit",
+  "commit": {
+    "rev": "3medm3alaq32e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3medm37bx5k2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T09:18:44.774Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "RGB Interference patterns on a moving gradient.   Built by overlapping ellipse gradients with a CSS variable radius....",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidpfszbrn7xmzc4fwmmsdslayoi5vjukbwcefh47cmrdrzhcuodha"
+            },
+            "mimeType": "image/jpeg",
+            "size": 156106
+          },
+          "title": "Moving RGB Gradient Interference Pattern",
+          "uri": "https://codepen.io/StartAutomating/pen/zxBoGVE"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://codepen.io/StartAutomating/pen/zxBoGVE"
+            }
+          ],
+          "index": {
+            "byteEnd": 137,
+            "byteStart": 111
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiejvhdw25c26k4fff7vuug2diahwirnm62xhjqih3ql7j6oq74dtu",
+          "uri": "at://did:plc:jgtv6qlzmpf2ayp2c4warwyz/app.bsky.feed.post/3medliywdck2w"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "Those aren't gifs.\n\nThey're SVG\n\nThis brain breaker is CSS though.\n\n( Both made with PowerShell 😉😎😈)\n\ncodepen.io/StartAutomat..."
+    },
+    "cid": "bafyreibzwdhguzjiadfk36knrvb66idrocpp6bhzbh7qalfbttsuaoivkm"
+  }
+}
