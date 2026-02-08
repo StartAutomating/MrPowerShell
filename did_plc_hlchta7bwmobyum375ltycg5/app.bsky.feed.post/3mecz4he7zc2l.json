@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770521966166796,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecz4hpoby26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecz4he7zc2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T03:39:25.698Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiekrsjxgbg7muqtb76rv67y745b6lk4fkamjd67tnerkj2ex4cvfa",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mecymv6hcc2l"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "Brief PSA for those not reading between the lines in this thread:\n\nIf you run OBS, for the love of God, _use a firewall_. \n\nDo not allow access to your OBS websocket port to the outside world.\n\nDo not share your socket key.\n\nDo not open websocket settings on a stream."
+    },
+    "cid": "bafyreihri6pez62bkhdi6nbehppnjkcej3rwuvpraai7agn5cus43zslsq"
+  }
+}
