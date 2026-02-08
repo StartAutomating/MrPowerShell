@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770520685964772,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecxw6jgj52e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecxw6a6ps2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T03:18:01.06Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiewpaynemslcisoi5r7wbzwqvfsymoj7kwww3jpngwyhivulpd4be",
+          "uri": "at://did:plc:jgtv6qlzmpf2ayp2c4warwyz/app.bsky.feed.post/3mecxqy6zac2r"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "Actually this was kinda referenced / the idea.\n\n@\"\nHey Rest of Microsoft of the time:\n\nWhat if we took inspiration from unix/linux shells and then turned it up to 11?\n\nThen we could have a terminal that doesn't suck, and an open-source community can flourish.\n\"@"
+    },
+    "cid": "bafyreiagpqdozdxllmob375cld2k3qni6jlfpi4v3nxzgwsta4xykz4soy"
+  }
+}
