@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770520275245266,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecxjt5twg2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecxjsv6os2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T03:11:06.512Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibiwmzlkyexzapl27leedcrrod437ydwc6gdnbgnulrwcxepauqva",
+          "uri": "at://did:plc:jgtv6qlzmpf2ayp2c4warwyz/app.bsky.feed.post/3mecxdgkobc2r"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "Hey, ask Margaret Mead:\n\nSmall, dedicated Resistance Bands worked to end the gilded age.\n\nAnd to stop the last time a bundle of sticks gathered together.\n\nResistance Bands work!\n\nJust know PowerShell and I were in the Borg Resistance Band 😉 (and it worked!)"
+    },
+    "cid": "bafyreievarpzlil2crzrqxdmbgkfmqaj3jhkwpqu34qnebgi7e3esn4hve"
+  }
+}
