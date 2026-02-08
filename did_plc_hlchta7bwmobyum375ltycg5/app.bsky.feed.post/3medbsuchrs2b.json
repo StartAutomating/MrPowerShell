@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770531306665085,
+  "kind": "commit",
+  "commit": {
+    "rev": "3medbsthzdp2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3medbsuchrs2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T06:15:07.404Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreietaqzyu2cok5k43g3jhjxbm77k6gwbeiwvlptw2uojwbtkudqtfi",
+          "uri": "at://did:plc:jgtv6qlzmpf2ayp2c4warwyz/app.bsky.feed.post/3medasyswns2r"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "Nah.  Had to look it up.\n\nFar closer to Ring 0 😉"
+    },
+    "cid": "bafyreigveytgut36hdz42rpcuucncpkq4vez5hrqpbv3teens2tb7iuq4a"
+  }
+}
