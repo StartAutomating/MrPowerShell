@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770516403984270,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mectwp4fws23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mectwollzs2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T02:06:43.244Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiftzcdmlouqv7e3jg2amhjukkcxifvm6dgbuagt3nsl6o7tm46l4m",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mectsicfc22z"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "I prefer VSCode to ISE, for a multitude of reasons.\n\nAnd, yes/not \"officially\"\n\nI posted a whole thread on this a bit back but didn't bookmark it.\n\nDo you want the short version of the \"unofficial\" answer?"
+    },
+    "cid": "bafyreie45qi2kig6fvjtwhdt6xwcmpiak5geu6kofahxigps3gx6xmxio4"
+  }
+}
