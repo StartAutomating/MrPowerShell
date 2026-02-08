@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770532544480357,
+  "kind": "commit",
+  "commit": {
+    "rev": "3medcxpqvj323",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3medcxpe7ds2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T06:35:43.731Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiatchlhap6h5cj3yuwmfraho37rx4nktevrgibjja3nyhvjau653q",
+          "uri": "at://did:plc:jgtv6qlzmpf2ayp2c4warwyz/app.bsky.feed.post/3medcp47fgs2r"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "This is why I no longer try to be cool. 😎\n\nOf course, it helps to have had a cool enough life to not to worry about being cool day by day."
+    },
+    "cid": "bafyreibggtgiebl4anzwaielur65kd3sftjbc3qntkshssyjulq7tm7toa"
+  }
+}
