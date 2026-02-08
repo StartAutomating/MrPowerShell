@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770510334056568,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecobsgjlm2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecobs4w722l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T00:25:33.604Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifuvozp7atv4jifvwabp7pzzzdbzl7drlkbqzm4tcfezs5hqx6cny",
+          "uri": "at://did:plc:zg244vnnzhmisj7ezvndbhg7/app.bsky.feed.post/3mecf3tmbtc2f"
+        },
+        "root": {
+          "cid": "bafyreifuvozp7atv4jifvwabp7pzzzdbzl7drlkbqzm4tcfezs5hqx6cny",
+          "uri": "at://did:plc:zg244vnnzhmisj7ezvndbhg7/app.bsky.feed.post/3mecf3tmbtc2f"
+        }
+      },
+      "text": "IMO PowerShell has never gotten as much love as it should have from Microsoft marketing.  \n\nThey often hype products that heavily use PowerShell, but don't highlight PowerShell itself.\n\nNo Snover leaving was not a red flag\nNo is Russinovich doing AI + Python\n\nIt's PowerShell + all languages. Not vs."
+    },
+    "cid": "bafyreib446i4tgiqt7kvjjax2ag5pjbz5hz2tq3juhiafkjzd2ehgyavmi"
+  }
+}
