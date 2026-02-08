@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770520745863890,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecxy3vmne2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecxy3pxhs2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T03:19:05.54Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigmenkektubvsk6nefftirc4kmufjqae4xg5b5ujl35loz75usksu",
+          "uri": "at://did:plc:torygwypgwul7zk4gi4lfwty/app.bsky.feed.post/3mecwyszavs2a"
+        },
+        "root": {
+          "cid": "bafyreifmf3uxiwdw77y7lu2qnir27achwqepzurvumibz7iwuifanvjqwq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mectua7p422l"
+        }
+      },
+      "text": "Quite curious what these numbers look like on your machine btw.  \n\nEspecially since I'm running on such an underpowered box at the moment.\n\nMind typing and sharing?"
+    },
+    "cid": "bafyreih6vhutok62vxvn5gmhon4woo3r6nwjd3lbxoxiap5swt35pbyh64"
+  }
+}
