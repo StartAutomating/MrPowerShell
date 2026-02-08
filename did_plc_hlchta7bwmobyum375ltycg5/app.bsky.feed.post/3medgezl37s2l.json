@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770536212676697,
+  "kind": "commit",
+  "commit": {
+    "rev": "3medgf2365m2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3medgezl37s2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T07:36:51.876Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia32fvi527t7dywjq7xrzah3plg27yim67ohcwa2yjx6azwajjquq",
+          "uri": "at://did:plc:esyyysvopsxyg3vlfaiyftmd/app.bsky.feed.post/3medg7crjoc2w"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "That tracks.\n\n5.1. is when the \"Windows heavy\" era ended, though I'd argue it was also more Unix / Linux friendly.  Lots of conventions came straight over.  \n\nBasically it was a gateway to the full power of the command line that Windows had been lacking since the days of DOS (and then some)."
+    },
+    "cid": "bafyreifihdytvjupbiqa3d7fis4bs6k4glf3cbwm7il6p3f45cimdpmnp4"
+  }
+}
