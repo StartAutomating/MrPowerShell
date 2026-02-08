@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770523169358512,
+  "kind": "commit",
+  "commit": {
+    "rev": "3med2aczu4r2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3med2ackscc2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T03:59:28.629Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibb5jxo3tdqwtgyl4boxyltr2hk4exeykcet4pyz4mck26nmxfu4e",
+          "uri": "at://did:plc:jgtv6qlzmpf2ayp2c4warwyz/app.bsky.feed.post/3meczwvmyy22r"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "I am old and do not get this reference.\n\nSo tentative no.\n\nExplain your acronyms and then I can tell you for sure."
+    },
+    "cid": "bafyreid4k37gihxn3vklxsxx6mgsow2gq3qjlhitwsfykszl5rlhjrm6ba"
+  }
+}
