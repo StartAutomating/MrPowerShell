@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770523101169859,
+  "kind": "commit",
+  "commit": {
+    "rev": "3med26c4ymg23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3med26bnjnc2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T03:58:20.562Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibrueymsuk3kucwqt6ekkpshysgbs6x52hmjrnicktjnwiseaxqgu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3meczihmu7c2l"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "Pointing it out for those who don't know:\n\nMy website is statically generated with PowerShell.\n\nThe list of primes on this page is generated every time.\n\nThe time is included in the page.\n\nLast run of all primes up to 10kb:\n\n0.3174099 seconds\n\nPowerShell is faster than you think."
+    },
+    "cid": "bafyreia2awg2ezcweqhpanx7do2vbrui3xsh74yrww7wflfvnebbc2oajm"
+  }
+}
