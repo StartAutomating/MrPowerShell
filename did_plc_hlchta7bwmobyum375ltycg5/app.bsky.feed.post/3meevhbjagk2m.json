@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770586754151656,
+  "kind": "commit",
+  "commit": {
+    "rev": "3meevhbxskt2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3meevhbjagk2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T21:39:13.179Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia6lsx5iblhhwoyj5nw2rbe2gzfxdwdglx5mpuciqso4nmj4sobi4",
+          "uri": "at://did:plc:xmj6ensmeo7obl3luf545p3y/app.bsky.feed.post/3meetrbzyv225"
+        },
+        "root": {
+          "cid": "bafyreiec7iexmqvftj27iw72hkuljjk2saktmd26ccsihx7dvkpqitlae4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3meesprdjmk2m"
+        }
+      },
+      "text": "In the days before \"at-will\" employment was the norm, this may have been true.  Nowadays, the line seems more artificial.\n\nEmployees vs contractors creates a \"second class citizen\" dynamic at any given company.\n\nAnd for the past ~10 years, frozen wages (due to some accounting tricks [ask me more])"
+    },
+    "cid": "bafyreiht2jmhpfqsesernlzrkiwsmjam5fa2pyabc3xqe55jhclnc4mzom"
+  }
+}
