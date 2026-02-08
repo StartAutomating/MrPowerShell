@@ -1,0 +1,92 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770519920801664,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecx7j2lj42b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecx7irpgs2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T03:05:20.367Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$SB"
+            }
+          ],
+          "index": {
+            "byteEnd": 17,
+            "byteStart": 14
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$SB"
+            }
+          ],
+          "index": {
+            "byteEnd": 70,
+            "byteStart": 67
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$SB"
+            }
+          ],
+          "index": {
+            "byteEnd": 105,
+            "byteStart": 102
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$SB"
+            }
+          ],
+          "index": {
+            "byteEnd": 165,
+            "byteStart": 162
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$INPUT"
+            }
+          ],
+          "index": {
+            "byteEnd": 178,
+            "byteStart": 172
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif6p4jvsuogzyep4y5zucz4esrhyj2n7hbpy4teebg3xoucmuaxw4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mecx2bw3bk2c"
+        },
+        "root": {
+          "cid": "bafyreifmf3uxiwdw77y7lu2qnir27achwqepzurvumibz7iwuifanvjqwq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mectua7p422l"
+        }
+      },
+      "text": "~~~PowerShell\n$sb = { process {$_ } }\nMeasure-Command { 1..1mb | . $sb }\nMeasure-Command { 1..1mb | & $sb }\n~~~\n\n00:00:00.9177012\n00:00:00.8245429\n\n~~~PowerShell\n$sb = { @($input)} \nMeasure-Command { 1..1mb | . $sb}\nMeasure-Command { 1..1mb | & $sb}\n~~~\n\n00:00:00.9131567\n00:00:00.8963133"
+    },
+    "cid": "bafyreigwxtpkknrvikfh73cxjrfipf2xwbaalanctyiunr5gxkcxtp7g4i"
+  }
+}
