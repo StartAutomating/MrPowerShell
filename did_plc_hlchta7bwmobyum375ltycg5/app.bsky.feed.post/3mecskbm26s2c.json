@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770514913945488,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecskc3bdg26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecskbm26s2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T01:41:53.231Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigukj35eaclkst6czzekjoya5o6plu5sg2e7yxupzcwrdawe4kns4",
+          "uri": "at://did:plc:jgtv6qlzmpf2ayp2c4warwyz/app.bsky.feed.post/3mecptbfygc2r"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "It's ok.\n\nI'm not demanding you or anyone use things you don't want to use.\n\nJust explaining why I can't just \"switch to Bash\": 19 years of PowerShell code that Bash can't run.\n\nAlso, posh is one of PowerShell's nicknames.\n\nYou can give it a try sometime, what do you have to lose?"
+    },
+    "cid": "bafyreihsamcrnguvcxgsc6egiznf4l66jnmnq6vfqqdmiid44i2j5nh4k4"
+  }
+}
