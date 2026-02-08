@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770518368195881,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecvrafycz26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecvra5rac2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T02:39:27.822Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibglw5gclhq4akxc6aqjhpex4xdi5fq3y6win7wvy7nqjw74kmjoe",
+          "uri": "at://did:plc:torygwypgwul7zk4gi4lfwty/app.bsky.feed.post/3mecvkfgnkk2a"
+        },
+        "root": {
+          "cid": "bafyreifmf3uxiwdw77y7lu2qnir27achwqepzurvumibz7iwuifanvjqwq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mectua7p422l"
+        }
+      },
+      "text": "I'm not sure I agree on the first point.\n\nOn the second: yes, of course.  That's part of why one tells people.  So that collaboration can happen.\n\nI _love_ talking to other people who have made similar tools.\n\nIt's really hard to compare notes otherwise."
+    },
+    "cid": "bafyreiglrnptjqbudrquzftlz7k633vdjat3ndscjppvmv4u255sireodi"
+  }
+}
