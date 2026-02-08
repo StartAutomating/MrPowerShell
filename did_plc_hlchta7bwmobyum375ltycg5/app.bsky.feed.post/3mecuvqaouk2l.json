@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770517447300103,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecuvs2phm2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecuvqaouk2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T02:24:05.17Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: The Mandalorians know that a support is better than going into battle alone.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiebeqqpzmssg5wvhech4kerldcdghr6vril7o6vnhcvadnjpzevme"
+            },
+            "mimeType": "image/jpeg",
+            "size": 829896
+          },
+          "title": "a knight with a helmet and a sword says \" this is the way \"",
+          "uri": "https://media.tenor.com/WB0asE2__fAAAAAC/the-book-of-boba-fett-this-is-the-way.gif?hh=412&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiewc3i2ryi7ultvpsnms6yzhtot2jsvj6jl3vme7hri2nptkrethm",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecuo4ch2s2z"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "It was built on a component that Visual Studio thought would be the new editor hotness.  They seem to have changed their minds, and, obviously, this impacts any future support needed for the application.\n\nChoice looks clear to me.\n\nWork with VSCode, because \"This is the Way\"."
+    },
+    "cid": "bafyreibfeuegce3qx7xcqltklrdv2df2fvc5vbffwtlnbgswdyabbdtjwe"
+  }
+}
