@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770517740606395,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecv6jvjv32b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecv6jmhxk2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T02:29:00.207Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiawtfn6dhs6fe4pqka7vopycjzzdtcricfwtriluqesjkyyc7fgwq",
+          "uri": "at://did:plc:stznz7qsokto2345qtdzogjb/app.bsky.feed.post/3mecox4bdxk2b"
+        },
+        "root": {
+          "cid": "bafyreiceghdkfap6pnysailco6dq5zars4w5erj4jnrdcvhhuunusu3vwa",
+          "uri": "at://did:plc:7tthud43qlc2k3b7ooh7fsvu/app.bsky.feed.post/3mecodaixhc2w"
+        }
+      },
+      "text": "🤣\n\nWell, unless you set $errorActionPreference = 'stop', damn near anything \"always runs\"\n\nJust a question of how large of a \"sea of red\" you will see."
+    },
+    "cid": "bafyreibcsrbl3gs76qe6q27ncqqsguhwlgz4wxphn6icz35sbrgzko3sum"
+  }
+}
