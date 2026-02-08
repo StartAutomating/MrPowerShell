@@ -1,0 +1,52 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770536949658346,
+  "kind": "commit",
+  "commit": {
+    "rev": "3medh2yxlm323",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3medh2yrnas2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T07:49:09.24Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Strudel is a music live coding environment for the browser, porting the TidalCycles pattern language to JavaScript.",
+          "title": "Strudel REPL",
+          "uri": "https://strudel.cc/#c2V0Y3BtKDEyOC80KQoKCmNvbnN0IGJpdE1lbGFuY2hvbHkgID0gIjxbZDIgZDRdKjQgW2EyIGEzXSo0IFtjIzMgZiM0XSo0IFtiMiBiM10qND4iCmNvbnN0IGxlc3NNZWxhbmNob2x5ID0gIjxbZDMgZDRdKjQgW2EyIGEzXSo0IFtjIzIgZiM0XSo0IFtiMiBiM10qND4iCmNvbnN0IG1vcmVNZWxhbmNob2x5ID0gIjxbZDEgZDNdKjQgW2ExIGEzXSo0IFtjIzEgZiMzXSo0IFtiMSBiM10qND4iCgpsZXQgc2VxdWVuY2UgPSBtb3JlTWVsYW5jaG9seTsKCiRtZWxhbmNob2x5OiBub3RlKGxlc3NNZWxhbmNob2x5KS5zb3VuZCgic2luZSBzYXd0b290aCBzcXVhcmUgc2F3dG9vdGgiKS5qdXgocmV2KS5jb2xvcigiYmx1ZSIpLl9zY29wZSgpCgokbWVsYW5jaG9seUF0dGFjazogbm90ZShtb3JlTWVsYW5jaG9seSkuc291bmQoInNpbmUgc2F3dG9vdGggc3F1YXJlIHNhd3Rvb3RoIikuanV4KHJldikuYXR0YWNrKC4xKS5jb2xvcigicmVkIikuX3Njb3BlKCkKCiRtZWxhbmNob2x5RGVjYXk6IG5vdGUoYml0TWVsYW5jaG9seSkuc291bmQoInNpbmUgc2F3dG9vdGggc3F1YXJlIHNhd3Rvb3RoIikuanV4KHJldikuZGVjYXkoLjEpLmNvbG9yKCJncmVlbiIpLl9zY29wZSgpCgovLyRtZWxhbmNob2x5U3VzdGFpbjogbm90ZShtb3JlTWVsYW5jaG9seSkuc291bmQoInNpbmUgc2F3dG9vdGggc3F1YXJlIHNhd3Rvb3RoIikuc3VzdGFpbiguMSkuY29sb3IoImdyZWVuIikuX3Njb3BlKCkKLy8kbWVsYW5jaG9seVJlbGVhc2U6IG5vdGUoYml0TWVsYW5jaG9seSkuc291bmQoInNpbmUgc2F3dG9vdGggc3F1YXJlIHNhd3Rvb3RoIikucmVsZWFzZSguMSkuY29sb3IoImJsdWUiKS5fc2NvcGUoKQovLyRnbmFybHkyOiBub3RlKCI8W2MyIGMzXSo0IFtiYjEgYmIyXSo0IFtmMiBmM10qNCBbZWIyIGViM10qND4iKS5zb3VuZCgic2luZSBzcXVhcmUgc2F3dG9vdGgiKS5yZXYoKS5qdXgocmV2KS5waGFzZXIoMTAyNCkuY29sb3IoImJsdWUiKS5fc2NvcGUoKQoKCi8vJGduYXJseTM6IG5vdGUoIjxbYzIgYzNdKjQgW2JiMSBiYjJdKjQgW2YyIGYzXSo0IFtlYjIgZWIzXSo0PiIpLmp1eChyZXYpLnNvdW5kKCJzaW5lIHNxdWFyZSBzYXd0b290aCIpLnJldigpLmp1eChyZXYpLnBoYXNlcigxMDI0KS5jb2xvcigiZ3JlZW4iKS5fc2NvcGUoKQoKCgo%3D"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://strudel.cc/#c2V0Y3BtKDEyOC80KQoKCmNvbnN0IGJpdE1lbGFuY2hvbHkgID0gIjxbZDIgZDRdKjQgW2EyIGEzXSo0IFtjIzMgZiM0XSo0IFtiMiBiM10qND4iCmNvbnN0IGxlc3NNZWxhbmNob2x5ID0gIjxbZDMgZDRdKjQgW2EyIGEzXSo0IFtjIzIgZiM0XSo0IFtiMiBiM10qND4iCmNvbnN0IG1vcmVNZWxhbmNob2x5ID0gIjxbZDEgZDNdKjQgW2ExIGEzXSo0IFtjIzEgZiMzXSo0IFtiMSBiM10qND4iCgpsZXQgc2VxdWVuY2UgPSBtb3JlTWVsYW5jaG9seTsKCiRtZWxhbmNob2x5OiBub3RlKGxlc3NNZWxhbmNob2x5KS5zb3VuZCgic2luZSBzYXd0b290aCBzcXVhcmUgc2F3dG9vdGgiKS5qdXgocmV2KS5jb2xvcigiYmx1ZSIpLl9zY29wZSgpCgokbWVsYW5jaG9seUF0dGFjazogbm90ZShtb3JlTWVsYW5jaG9seSkuc291bmQoInNpbmUgc2F3dG9vdGggc3F1YXJlIHNhd3Rvb3RoIikuanV4KHJldikuYXR0YWNrKC4xKS5jb2xvcigicmVkIikuX3Njb3BlKCkKCiRtZWxhbmNob2x5RGVjYXk6IG5vdGUoYml0TWVsYW5jaG9seSkuc291bmQoInNpbmUgc2F3dG9vdGggc3F1YXJlIHNhd3Rvb3RoIikuanV4KHJldikuZGVjYXkoLjEpLmNvbG9yKCJncmVlbiIpLl9zY29wZSgpCgovLyRtZWxhbmNob2x5U3VzdGFpbjogbm90ZShtb3JlTWVsYW5jaG9seSkuc291bmQoInNpbmUgc2F3dG9vdGggc3F1YXJlIHNhd3Rvb3RoIikuc3VzdGFpbiguMSkuY29sb3IoImdyZWVuIikuX3Njb3BlKCkKLy8kbWVsYW5jaG9seVJlbGVhc2U6IG5vdGUoYml0TWVsYW5jaG9seSkuc291bmQoInNpbmUgc2F3dG9vdGggc3F1YXJlIHNhd3Rvb3RoIikucmVsZWFzZSguMSkuY29sb3IoImJsdWUiKS5fc2NvcGUoKQovLyRnbmFybHkyOiBub3RlKCI8W2MyIGMzXSo0IFtiYjEgYmIyXSo0IFtmMiBmM10qNCBbZWIyIGViM10qND4iKS5zb3VuZCgic2luZSBzcXVhcmUgc2F3dG9vdGgiKS5yZXYoKS5qdXgocmV2KS5waGFzZXIoMTAyNCkuY29sb3IoImJsdWUiKS5fc2NvcGUoKQoKCi8vJGduYXJseTM6IG5vdGUoIjxbYzIgYzNdKjQgW2JiMSBiYjJdKjQgW2YyIGYzXSo0IFtlYjIgZWIzXSo0PiIpLmp1eChyZXYpLnNvdW5kKCJzaW5lIHNxdWFyZSBzYXd0b290aCIpLnJldigpLmp1eChyZXYpLnBoYXNlcigxMDI0KS5jb2xvcigiZ3JlZW4iKS5fc2NvcGUoKQoKCgo%3D"
+            }
+          ],
+          "index": {
+            "byteEnd": 219,
+            "byteStart": 193
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidqdyuzcvvnoulvlmn2zmq3zokvdjh4sdsuu3pym3njxvttkt6giu",
+          "uri": "at://did:plc:jgtv6qlzmpf2ayp2c4warwyz/app.bsky.feed.post/3medgm273t22r"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "And / also.... Can you paste a random sequence and it's source code in an at proto message?\n\nCause Strudel really rocks this way.\n\nFirst week playing with this felt like Daft Punk's Homework.\n\nstrudel.cc#c2V0Y3BtKDEy..."
+    },
+    "cid": "bafyreifuwgzldfl3wfuomwyi6qpi335m3s7hgkjhcooc4ctqpvo4ivfmrq"
+  }
+}
