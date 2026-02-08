@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770520091789302,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecxem2hpm2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecxelublc2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T03:08:11.369Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigmenkektubvsk6nefftirc4kmufjqae4xg5b5ujl35loz75usksu",
+          "uri": "at://did:plc:torygwypgwul7zk4gi4lfwty/app.bsky.feed.post/3mecwyszavs2a"
+        },
+        "root": {
+          "cid": "bafyreifmf3uxiwdw77y7lu2qnir27achwqepzurvumibz7iwuifanvjqwq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mectua7p422l"
+        }
+      },
+      "text": "Don't worry about it at all.\n\nI feel like PowerShell dogmas should be questioned.\n\nI also feel lucky/brave enough to be very actively questioning them, and \"established\" enough to overrule their authority.\n\nPerks of being the most prolific PowerShell programmer on the planet."
+    },
+    "cid": "bafyreihcendqz6qvkrldhpwkutk76cjxjtnj5y3kq2j7ggwruow7e76rw4"
+  }
+}
