@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770524744258889,
+  "kind": "commit",
+  "commit": {
+    "rev": "3med3pazwqv2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3med3pakmc22l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T04:25:43.584Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih6fvyyveiv6pj5ubl3kaajtnbtdn73lrfn3wme6zi22dvaffi6ry",
+          "uri": "at://did:plc:jgtv6qlzmpf2ayp2c4warwyz/app.bsky.feed.post/3med32dlrqc2r"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "Also / seriously/ and...\n\nDid you notice that brief note of mine about \"bash can run powershell and powershell can run bash\"?\n\nCause it's not an either / or.\n\nIt's a \"both\"\n\nOr an \"all of the above\" 😎"
+    },
+    "cid": "bafyreidwzb4re2cqecwpt6nwckymmrwybpth23mjtbdar4qrug2llz4awa"
+  }
+}
