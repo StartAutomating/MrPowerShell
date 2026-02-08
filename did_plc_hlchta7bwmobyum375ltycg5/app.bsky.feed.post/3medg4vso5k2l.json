@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770535940185783,
+  "kind": "commit",
+  "commit": {
+    "rev": "3medg4wce2226",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3medg4vso5k2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T07:32:19.495Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiewf44jasvl7in5y7gjmzekuz5cm3u5c73kq7xcdbbbvgx2jvynum",
+          "uri": "at://did:plc:esyyysvopsxyg3vlfaiyftmd/app.bsky.feed.post/3medfv3h5yc2q"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "Yeah, PowerShell's history / alignment is a little fun and funky.  \n\n1. Started as an offshoot of early WSL \n2. Brought a bunch of unix conventions to Microsoft\n3. Automate everything Windows\n4. Got Microsoft to embrace open source\n5. Enable the cloud\n6. Go xplat\n7. Automate everything else"
+    },
+    "cid": "bafyreiciyrv4nz3tu4vhe7dcegti2vsc255go5n6jtvyz3s7jlhytsm324"
+  }
+}
