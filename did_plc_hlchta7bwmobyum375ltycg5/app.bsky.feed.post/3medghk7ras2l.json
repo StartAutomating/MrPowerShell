@@ -1,0 +1,51 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770536296882572,
+  "kind": "commit",
+  "commit": {
+    "rev": "3medghkgoae2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3medghk7ras2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T07:38:16.439Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreiagpqdozdxllmob375cld2k3qni6jlfpi4v3nxzgwsta4xykz4soy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mecxw6a6ps2l"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/mrpowershell.com/post/3mecxw6a6ps2l"
+            }
+          ],
+          "index": {
+            "byteEnd": 77,
+            "byteStart": 53
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia32fvi527t7dywjq7xrzah3plg27yim67ohcwa2yjx6azwajjquq",
+          "uri": "at://did:plc:esyyysvopsxyg3vlfaiyftmd/app.bsky.feed.post/3medg7crjoc2w"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "Earlier today's explanation of the thought process:\n\nbsky.app/profile/mrpo..."
+    },
+    "cid": "bafyreifsbbkowo53m6vsif6uc6pu4jiniv4ct6ti7xssu26pd545qhjjqe"
+  }
+}
