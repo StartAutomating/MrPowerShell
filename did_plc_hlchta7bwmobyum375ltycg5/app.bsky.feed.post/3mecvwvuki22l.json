@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770518558683492,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecvww24vt2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecvwvuki22l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T02:42:38.361Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid5jvt5z6jdbubjir6zwq5vnormrzfjnnxr4tr44y53tmoe2ga6xi",
+          "uri": "at://did:plc:torygwypgwul7zk4gi4lfwty/app.bsky.feed.post/3mecvomwdqk2a"
+        },
+        "root": {
+          "cid": "bafyreifmf3uxiwdw77y7lu2qnir27achwqepzurvumibz7iwuifanvjqwq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mectua7p422l"
+        }
+      },
+      "text": "Also, and... I very much appreciate the feedback.  \n\nI'm always looking for new ways to approach this difficulty, because everyone works hard on what they do, and needs to be appreciated more for that work.\n\nLife can be an endless process of improvement..."
+    },
+    "cid": "bafyreidoykvdidg7lp6sspxorce6jfeptimugwbjyx3t7xqmyxoppq6u3e"
+  }
+}
