@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770509895180489,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecnupvvbr26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecnuqgqgc2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T00:18:15.621Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihrev2f6cllynh2nz7at5a6u2owvnfdxxnf6i6dldtdltsxqpqe5q",
+          "uri": "at://did:plc:jgtv6qlzmpf2ayp2c4warwyz/app.bsky.feed.post/3mecip2ek2s2r"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "I get that a lot....\n\nAlso / and... PoweShell was founded by Linux nerds, and did more to help Microsoft embrace Linux than most other teams combined.\n\nSo 🤷 maybe the message / medium is muddled."
+    },
+    "cid": "bafyreibauqdjgi6pxknht5aipjvspl7b5qf7vtapxg42iiwms5k6okf4vm"
+  }
+}
