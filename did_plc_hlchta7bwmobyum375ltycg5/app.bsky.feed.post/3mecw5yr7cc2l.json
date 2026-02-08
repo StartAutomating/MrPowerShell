@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770518796783936,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecw5z2lcd2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecw5yr7cc2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T02:46:36.278Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigeit47ldd6ka7yt2asvm5e3boohbocpj23p5otmz5paaqqmywyge",
+          "uri": "at://did:plc:torygwypgwul7zk4gi4lfwty/app.bsky.feed.post/3mecvygoeyk2a"
+        },
+        "root": {
+          "cid": "bafyreifmf3uxiwdw77y7lu2qnir27achwqepzurvumibz7iwuifanvjqwq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mectua7p422l"
+        }
+      },
+      "text": "No problem, I figured.\n\nJust trying to be as not rude as I can be (and possibly failing)\n\nI am lightly amused because the earlier response seemed a lot more likely to feel rude to me:\n\n\"Why so many loops in your PowerShell?\"\n\n\"Because foreach is faster than | Foreach, duh\""
+    },
+    "cid": "bafyreih4ksfph25sswnt6crynkj5ldlicqu273wak432nbiswwkwidlr6a"
+  }
+}
