@@ -1,0 +1,34 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770583817867608,
+  "kind": "commit",
+  "commit": {
+    "rev": "3meespryywl2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3meesprdjmk2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T20:50:16.977Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JustSaying"
+            }
+          ],
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 0
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#JustSaying on a Sunday\n\nI feel like if publicly traded companies had to report \"revenue per contractor\" and \"revenue per employee\" we would:\n\n1. Have a much more honest market.\n2. Almost immediately substantially reduce inequality.\n3. Remove the perverse incentives that keep people contractors."
+    },
+    "cid": "bafyreiec7iexmqvftj27iw72hkuljjk2saktmd26ccsihx7dvkpqitlae4"
+  }
+}
