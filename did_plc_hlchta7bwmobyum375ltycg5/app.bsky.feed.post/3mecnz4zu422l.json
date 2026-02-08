@@ -1,0 +1,48 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770510043881636,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecnz5ob5y23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecnz4zu422l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T00:20:43.048Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:dzsggruemobq6bllmzbhlo5d"
+            }
+          ],
+          "index": {
+            "byteEnd": 80,
+            "byteStart": 58
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:sqraalz5tsmoy3upwcjtpepl"
+            }
+          ],
+          "index": {
+            "byteEnd": 175,
+            "byteStart": 157
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Spent a good chunk of my early afternoon catching up with @badgerati.bsky.social \n\nIf you're not following this bright mind of PowerShell, please do.\n\nThey, @adamrdriscoll.com and myself are the \"old hats\" of PowerShell Web development, and we all of lots of knowledge to share."
+    },
+    "cid": "bafyreihfysdaz4s35bh4iisclkde6pkljlnh35jlwasxszjnd6msyyxt4q"
+  }
+}
