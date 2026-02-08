@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770537190659245,
+  "kind": "commit",
+  "commit": {
+    "rev": "3medhc6uxnf2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3medhc53o7s2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T07:53:08.644Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A simple audio visualizer using the Web Audio API, made with PowerShell.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreic2u4dkeou3rl25q33xpm2jhyyizxqme7rexolixbkqr4qwt4yjem"
+            },
+            "mimeType": "image/jpeg",
+            "size": 478611
+          },
+          "title": "Audio Visualizer",
+          "uri": "https://MrPowerShell.com/HTML/AudioVisualizer"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://MrPowerShell.com/HTML/AudioVisualizer"
+            }
+          ],
+          "index": {
+            "byteEnd": 222,
+            "byteStart": 190
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihi7b3brix3oxqixdskcsnspc4u3drxrxfrdx4dzsmpb3wumumgxq",
+          "uri": "at://did:plc:jgtv6qlzmpf2ayp2c4warwyz/app.bsky.feed.post/3medh5jqqc22r"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "Nah not gonna mention Wine.\n\nAm gonna get to making a pure browser VST one of these days.\n\nUntil then I'll just enjoy besting the old WinAmp visualizer in HTML, JavaScript, and PowerShell:\n\nmrpowershell.com/HTML/AudioVi...\n\nGot any mp3s lying around by chance ?  😉 \n\nGive it a try and lmk thoughts."
+    },
+    "cid": "bafyreifzsfgepmimm3erl2rta7gkyjphmflk45dic6hs2j72lqkesnllay"
+  }
+}
