@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770519450204856,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecwri73yo2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecwrhw5nk2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T02:57:29.702Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$N"
+            }
+          ],
+          "index": {
+            "byteEnd": 58,
+            "byteStart": 56
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$N"
+            }
+          ],
+          "index": {
+            "byteEnd": 74,
+            "byteStart": 72
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihn6hex42uc3qkv3uofihyukgqx7jaspsv7ahvyaa7xrisneouuoe",
+          "uri": "at://did:plc:torygwypgwul7zk4gi4lfwty/app.bsky.feed.post/3mecwisq2us2a"
+        },
+        "root": {
+          "cid": "bafyreifmf3uxiwdw77y7lu2qnir27achwqepzurvumibz7iwuifanvjqwq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mectua7p422l"
+        }
+      },
+      "text": "_much_ faster\n\n~~~PowerShell\nMeasure-Command { foreach ($n in 1..1mb) { $n } }\nMeasure-Command { 1..1mb | Foreach-Object{ $_ } }\n~~~\n\nOn my RaspberryPi:\n\n00:00:00.8552225\nvs\n00:00:04.6863841\n\nBecause pipeline binding can be slow.\n\nWant me to blow your 🤯 ?"
+    },
+    "cid": "bafyreifujic4qr5pqumts5jub3d74t2muaw6thvfvxq3dwboaco3mzjuna"
+  }
+}
