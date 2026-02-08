@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770521198669715,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecyflsdop26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecyflizxc2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T03:26:38.298Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiagpqdozdxllmob375cld2k3qni6jlfpi4v3nxzgwsta4xykz4soy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mecxw6a6ps2l"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "Thing of it is / was, we gave the gift of scale / consistency to the rest of Microsoft, and helped Microsoft see the value in Unix / Linux ecosystems.\n\nIt was hard fight. \n\nWithout PowerShell, IMO:\n\n- Office365 & Azure would probably not exist\n- Windows would be a lot less open than it is"
+    },
+    "cid": "bafyreidugn7yycnvho3sxbs6c5pho7jb3xoyvfkw7k7oewatox2524ltg4"
+  }
+}
