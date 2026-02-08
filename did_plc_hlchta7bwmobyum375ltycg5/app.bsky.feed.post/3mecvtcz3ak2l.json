@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770518438476757,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecvtdcgwo2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecvtcz3ak2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T02:40:37.922Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid5jvt5z6jdbubjir6zwq5vnormrzfjnnxr4tr44y53tmoe2ga6xi",
+          "uri": "at://did:plc:torygwypgwul7zk4gi4lfwty/app.bsky.feed.post/3mecvomwdqk2a"
+        },
+        "root": {
+          "cid": "bafyreifmf3uxiwdw77y7lu2qnir27achwqepzurvumibz7iwuifanvjqwq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mectua7p422l"
+        }
+      },
+      "text": "I'm very limited in characters here...\n\nI normally spread it out over a few paragraphs and a couple of talks.\n\nMy bedside manner has improved vastly with time and still has much room to grow."
+    },
+    "cid": "bafyreieqeyp4uydkwy6ykxbw74hqhk3d7ceuxuejpqvvvm2egjmoga3oze"
+  }
+}
