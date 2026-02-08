@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770515808345120,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mectex37dy2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mectewkkyk2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T01:56:47.619Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihvy4ozleeavfvy7q5k72crwqdkv37s2u3gbasr533i4au4kprw6u",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecspgoahk2z"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "I love objects, and so does PowerShell 😉\n\nLogo was my first love\nThen Basic\nThen C++\nThen C#\nThen I found PowerShell and realized I could combine the power of all languages that came before it _and_ have inline C#\n\nThen I fell in love, hard."
+    },
+    "cid": "bafyreifvarpalzpdqts46lx7tyw55utxyhi3ozaajkwdheu4724kqgustu"
+  }
+}
