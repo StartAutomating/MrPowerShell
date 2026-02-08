@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770586549157782,
+  "kind": "commit",
+  "commit": {
+    "rev": "3meevb6tp422b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3meevb6et5c2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T21:35:48.562Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig47v6fkqnhr6lp57joqfll2rbsgqav5lkkhodwtivp6rw7xdh4f4",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3meetl5ysp22p"
+        },
+        "root": {
+          "cid": "bafyreiec7iexmqvftj27iw72hkuljjk2saktmd26ccsihx7dvkpqitlae4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3meesprdjmk2m"
+        }
+      },
+      "text": "🤷 maybe a bit.  I do not have an MBA, but know many who do.\n\nAnd maybe MBAs and Quants should be thinking of this metric's value...\n\n\"Revenue per Employee\" is a (probably) overvalued metric.\n\nAnd, IMO, not the full picture.\n\nMarkets only work well if they are honest.\n\nWe need to keep them honest."
+    },
+    "cid": "bafyreiflyhmz2f3qdwicqt3zstd7526q3qgzfetcbdac6r3newr36vgaze"
+  }
+}
