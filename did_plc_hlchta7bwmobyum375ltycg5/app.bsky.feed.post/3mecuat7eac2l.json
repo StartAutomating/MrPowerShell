@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770516744202024,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecuatnysh2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecuat7eac2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T02:12:23.629Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaw5rqfec77blqmlocghdndtymqbprzqwoel6yc35c5e3wsbcpsgy",
+          "uri": "at://did:plc:jgtv6qlzmpf2ayp2c4warwyz/app.bsky.feed.post/3mectxbihis2r"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "lol that ain't the resume.\nI skipped lots of details.\n\nLike the time I wrote realtime video mixing apps in C++/ASM (in 2000-2004).  Discovered the fast chroma key SIMD trick y'all use now ~ (NAND + NOR + XOR) (2001)\n\nI try not to get too competitive.\n\nBecause it causes impostor syndrome."
+    },
+    "cid": "bafyreicew4nim7aun25fjtcqjvuazuxnio2dtnswultj75vbfrbarf7hby"
+  }
+}
