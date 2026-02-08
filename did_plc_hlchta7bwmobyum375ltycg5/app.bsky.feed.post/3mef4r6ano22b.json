@@ -1,0 +1,82 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770594600570174,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mef4r5a2ml2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mef4r6ano22b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T23:50:01.488Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Patriots"
+            }
+          ],
+          "index": {
+            "byteEnd": 85,
+            "byteStart": 76
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Seattle"
+            }
+          ],
+          "index": {
+            "byteEnd": 97,
+            "byteStart": 89
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SuperBowl"
+            }
+          ],
+          "index": {
+            "byteEnd": 263,
+            "byteStart": 253
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SuperBowl60"
+            }
+          ],
+          "index": {
+            "byteEnd": 276,
+            "byteStart": 264
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "NoKings"
+            }
+          ],
+          "index": {
+            "byteEnd": 285,
+            "byteStart": 277
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "However it all goes today, 🙏 please remember that there are lots of true #Patriots in #Seattle.\n\nI don't wanna see any foul play turning this into a culture war.\n\nBoth teams are Americans.\n\nBoth cities have fought for liberty.\n\nGood luck to us all.\n\n#SuperBowl #SuperBowl60 #NoKings"
+    },
+    "cid": "bafyreichxr2jcks5ji7upugdzchcbzejcqjxazb5ext3kyzqdd3477utbu"
+  }
+}
