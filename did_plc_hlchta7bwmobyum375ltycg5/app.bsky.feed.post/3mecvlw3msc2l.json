@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770518190302754,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mecvlwqqhn2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mecvlw3msc2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-08T02:36:29.494Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifrglqv37rybdrraszaqisfarbn6wyrukbg4pvfc3k5kxzkpngd3m",
+          "uri": "at://did:plc:jgtv6qlzmpf2ayp2c4warwyz/app.bsky.feed.post/3mecvizbyi22r"
+        },
+        "root": {
+          "cid": "bafyreid5x3ksjkfhzgyqt6oicqj2rs4jvkt65mphbi3w7v57a7a2j4piwa",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mecbvthkjk2w"
+        }
+      },
+      "text": "I also find it funny that it's a \"band\" chanting \"ohm\" to a \"resistance band\"\n\nTruly does work on multiple levels.\n\nWell done!"
+    },
+    "cid": "bafyreiaekr4tylaw5kaq7s3c5ggch6ssagln2rk7vvg33ack34cwqaj5ye"
+  }
+}
