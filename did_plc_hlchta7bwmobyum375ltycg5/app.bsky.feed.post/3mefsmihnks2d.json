@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770618067371386,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mefsmiqcis2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mefsmihnks2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-09T06:21:06.751Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 208,
+            "byteStart": 205
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 242,
+            "byteStart": 231
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiekbksodavisbqhkdvfwcqovc4ovifkfxulot3dpnbpy5ueehfj24",
+          "uri": "at://did:plc:keerxez6h5bvqddk7cnl2x6w/app.bsky.feed.post/3mef5zrkqos2r"
+        },
+        "root": {
+          "cid": "bafyreicgr3by7ooniyuh6eloii2cq45hetn6psqlefvwg744f6z3fkoaf4",
+          "uri": "at://did:plc:oy2ebrbjfsmr3oacqe5mbuw5/app.bsky.feed.post/3meevec52j22n"
+        }
+      },
+      "text": "🤷 At least PowerShell would have prompted for confirmation.\n\n~~~PowerShell\nRemove-Item ./SomePath # Will Prompt\nRemove-Item ./SomePath -Recurse -Force  # Will never see those files again.\n~~~\n\n🤦\n\nIf #AI learns one thing from #PowerShell, it should be \"SupportsShouldProcess\"\n\n🤦"
+    },
+    "cid": "bafyreiemssexktj3gl7fsv7ikcyagqgwumpbzywdtwo56qsw4nyj7pyxau"
+  }
+}
