@@ -1,0 +1,87 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770679485651859,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mehlsvd3kk2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mehlsttar22m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-09T23:24:43.275Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "**Shift management may be the shiftiest part of being a manager. So it wasn’t surprising when I got the Jira ticket to ‘automate shift scheduling’. Toss in a few spicy ingr",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicio65gsmhbpc4kirzqrq3opdu5gu2hymsdmnipiftxqfvorhhddq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 371531
+          },
+          "title": "Get Your Shifts Together, Wed, Feb 11, 2026, 6:00 PM   | Meetup",
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/events/313285279/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/313285279/"
+            }
+          ],
+          "index": {
+            "byteEnd": 105,
+            "byteStart": 75
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:otkcml7eml2246xguedjmnvp"
+            }
+          ],
+          "index": {
+            "byteEnd": 127,
+            "byteStart": 107
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Teams"
+            }
+          ],
+          "index": {
+            "byteEnd": 186,
+            "byteStart": 180
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Hey #PowerShell People:\n\nJoin us this week for \"Get Your Shifts Together\"\n\nwww.meetup.com/pacific-powe...\n\n@sraybae.bsky.social will be talking about Shift Management in Microsoft #Teams\n\nWednesday:  6pm Pacific time."
+    },
+    "cid": "bafyreidp2nyp2da6ygtvb7xbmiygqbis2mag5qn3kfoqrl7apmovhn376m"
+  }
+}
