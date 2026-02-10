@@ -1,0 +1,111 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770698836151853,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mei5tlqccb2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mei5tlis522n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T04:47:15.449Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "YouTube video by Dan McClellan",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreia6ehduufwp4l26e3rtrg6oal73g7ow2wwpzwqmsf6aca4hzvp7ti"
+            },
+            "mimeType": "image/jpeg",
+            "size": 65273
+          },
+          "title": "Responding to Speaker Mike Johnson",
+          "uri": "https://youtu.be/bM5ueJA3p1w?si=shD8xDoTf4ofYR7v"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Theology"
+            }
+          ],
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 36
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Thelogical"
+            }
+          ],
+          "index": {
+            "byteEnd": 59,
+            "byteStart": 48
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "IceOut"
+            }
+          ],
+          "index": {
+            "byteEnd": 110,
+            "byteStart": 103
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "faithful"
+            }
+          ],
+          "index": {
+            "byteEnd": 143,
+            "byteStart": 134
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://youtu.be/bM5ueJA3p1w?si=shD8xDoTf4ofYR7v"
+            }
+          ],
+          "index": {
+            "byteEnd": 221,
+            "byteStart": 197
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:keli3pan4hujqmgofrdeklvs"
+            }
+          ],
+          "index": {
+            "byteEnd": 295,
+            "byteStart": 274
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Dan McClellan is the living GOAT of #Theology / #Thelogical Debate.\n\nBiblical breakdown of why we need #IceOut !\n\n🙏 Share with any #faithful you know 🙏\n\nMicah 6:8 closer is 👨‍🍳😘.\n\nyoutu.be/bM5ueJA3p1w?...\n\n(Giving my official 2X Preachers kid endorsement)\n\n@maklelan.bsky.social"
+    },
+    "cid": "bafyreih45r74xbhw5rt5uhjgafkzn56leexzjdh5twwhyuaey6ni52sina"
+  }
+}
