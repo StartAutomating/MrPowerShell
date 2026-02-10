@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770758240290113,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mejv5y62vh24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mejv5xnylk2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T21:17:19.551Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaf7xfahnwxenh4tyqdtirw75lai4u46d7azyrimjfqowh23cqe7m",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mejt63ox722m"
+        },
+        "root": {
+          "cid": "bafyreihwmkiorks6zhkmyp4bg4yjzhvlf6tczkpunkumgdfqgbzoawkmwe",
+          "uri": "at://did:plc:kqbyr4gqt6p2l57htlsa4nha/app.bsky.feed.post/3mejnbuzcik2w"
+        }
+      },
+      "text": "The more difficult aspect of things is that employers often don't see skills as learnable / transitionable.  Employers often typecast.\n\nFor example:\n\nI've been programming for decades and can do damn near anything in code.\n\nI often get typecast as Platform Engineer / DevOps."
+    },
+    "cid": "bafyreiadsv7apuxbz6v3pny43wrmep3rcpkcc5usnfumvotm2mx4s7t7oq"
+  }
+}
