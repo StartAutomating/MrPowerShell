@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770693401891317,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mehyrngdnc2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mehyrn3k5c2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T03:16:41.298Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidbbdioznw3blbniw72r2hzxbzoligsbcffgb6hm3vppshjhtvtea",
+          "uri": "at://did:plc:oxpdbm5mhkuffceinveelnns/app.bsky.feed.post/3mehllkmzqk2q"
+        },
+        "root": {
+          "cid": "bafyreib4zhi7bn5ettdhvmqhqakx2i4nbssvtu5mglxvu7trrppnidqnci",
+          "uri": "at://did:plc:oxpdbm5mhkuffceinveelnns/app.bsky.feed.post/3mehllkmvtk2q"
+        }
+      },
+      "text": "That is frustrating.\n\nYou can always change the path in your $profile.\n\nOr set an alias to node.\n\nI run into this sort of stuff all the time on my Pi.\n\nDefinitely frustrating."
+    },
+    "cid": "bafyreihb33f53qbfrxiuhjsu4vgk2h3q6vndvjvhdupcf4dnqdcxkjk7te"
+  }
+}
