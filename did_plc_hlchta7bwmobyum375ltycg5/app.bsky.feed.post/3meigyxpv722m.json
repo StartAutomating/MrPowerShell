@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770708680151052,
+  "kind": "commit",
+  "commit": {
+    "rev": "3meigyxyvux2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3meigyxpv722m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T07:31:19.717Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicyu35igcredi526ronjw4fbqfwaskecctynluxnk77gw4jm2jd5m",
+          "uri": "at://did:plc:cp4jr4lmjvxhattbrv4eoynm/app.bsky.feed.post/3meielbrjuk2v"
+        },
+        "root": {
+          "cid": "bafyreihzdb3subgafgavpq77w3wxjs43zodlerwswyhyqcdrigcwaklcki",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehr7ij54s2c"
+        }
+      },
+      "text": "This is a quicker / other topic.\n\nIn general, having academically studied the thing a bit, I find that error messages are only so helpful for actually finding and fixing code.\n\nError Following produces bad results\n\nError Familiarity produces better results."
+    },
+    "cid": "bafyreihiqxyjgrwhccl3y3mm6gvpl7ggu3cbr4aza4f26sejmjmsfayobq"
+  }
+}
