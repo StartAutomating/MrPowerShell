@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770694512680277,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mehzsqtcgu2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mehzsqypqs2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T03:35:12.695Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid2vtqad67l2g7xxk3udqrsoggjza56pbtu6kihcu6psgui4t27jq",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehyylvs4c2x"
+        },
+        "root": {
+          "cid": "bafyreihzdb3subgafgavpq77w3wxjs43zodlerwswyhyqcdrigcwaklcki",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehr7ij54s2c"
+        }
+      },
+      "text": "Yep!\n\nLooks like that JS will help me make an isolated icon builder.  Thanks!\n\nAnd the beauty of this all is you get to use tricks I discovered and posted without me having to tell everyone one by one.\n\nAI has spread my tricks far and wide.\n\nAnd I appreciate the hell out of that."
+    },
+    "cid": "bafyreigc4lwob5wrry5zrjanyuxgbovbuevqmv6wst5ivj6bgymucwuzzm"
+  }
+}
