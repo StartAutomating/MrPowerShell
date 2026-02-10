@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770692908702998,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mehycws5xf2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mehycwbdy22r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T03:08:27.609Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: The PowerShell + other languages El Camino does donuts around just using one language.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidwqoopb2fv5my6i7gtxfjwkphbjbt3icv6is6jlr4j6qm5facfaq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 31919
+          },
+          "title": "a black pickup truck is driving down a street with a house in the background .",
+          "uri": "https://media.tenor.com/Mh14K_n_RaQAAAAC/camino-burnout.gif?hh=180&ww=320"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib5jwakwjz5vimtfafnlf6rp2pzv62n44v7qigtrtxe2xbv47sat4",
+          "uri": "at://did:plc:vmd7f273b4u5no7paxyts577/app.bsky.feed.post/3mehurnmjfk22"
+        },
+        "root": {
+          "cid": "bafyreib5jwakwjz5vimtfafnlf6rp2pzv62n44v7qigtrtxe2xbv47sat4",
+          "uri": "at://did:plc:vmd7f273b4u5no7paxyts577/app.bsky.feed.post/3mehurnmjfk22"
+        }
+      },
+      "text": "It's not a truck, it's not a car!\n\nI think I like this one 😀\n\n( Not sure that this is Punching Up though 😉)\n\nLmk if you want a better way to do Git and PowerShell..."
+    },
+    "cid": "bafyreidqppmx3d6xcz4wlnkio7dhkyardef7dz3zch3f2tvphlus6ulssa"
+  }
+}
