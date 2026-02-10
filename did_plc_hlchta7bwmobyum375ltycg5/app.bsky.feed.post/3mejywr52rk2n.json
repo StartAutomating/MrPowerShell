@@ -1,0 +1,63 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770762293474279,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mejywrmnud2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mejywr52rk2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T22:24:52.789Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreih3hxrbeep6u3pqdsvr57mjalrz4mbnpgmu2xt7mewh7cr6teuram",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mejymsk5hs2n"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 89,
+            "byteStart": 78
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/mrpowershell.com/post/3mejymsk5hs2n"
+            }
+          ],
+          "index": {
+            "byteEnd": 201,
+            "byteStart": 177
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic4nc6trropczf52hbumb6hdnyyob66uerpqejmvxd6a3lnuvnfdi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mejtc4t2qc2m"
+        },
+        "root": {
+          "cid": "bafyreihwmkiorks6zhkmyp4bg4yjzhvlf6tczkpunkumgdfqgbzoawkmwe",
+          "uri": "at://did:plc:kqbyr4gqt6p2l57htlsa4nha/app.bsky.feed.post/3mejnbuzcik2w"
+        }
+      },
+      "text": "To put this back into the main thread...\n\nJust figured this out:\n\nI feel like #PowerShell might be easier to write than Iambic Pentameter\n\nBut _damn_\n\nUp to like 3x the folio.\n\nbsky.app/profile/mrpo...\n\nI also just found out Shakespeare combined is longer than the Bible!\n\n[it may have more wisdom]"
+    },
+    "cid": "bafyreihvrs73wdymccw2h25s3yhwwxyk5wfy6qixew5xetzox2owfsfdf4"
+  }
+}
