@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770709018256972,
+  "kind": "commit",
+  "commit": {
+    "rev": "3meihd2bilc23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3meihczyg6c2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T07:36:57.638Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiacbzolyisvudk4wwvv3bahzbzkj4v6srga4usaatwfpwnuzdsjtq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3meih7svwg22m"
+        },
+        "root": {
+          "cid": "bafyreihzdb3subgafgavpq77w3wxjs43zodlerwswyhyqcdrigcwaklcki",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehr7ij54s2c"
+        }
+      },
+      "text": "TL;DRs of the study:\n\n1. Women and men were mostly equally good at debugging, with women having a slightly better success rate (within margin of error).\n2. Error familiarity was the most effective technique, by a wide margin (4x-10x better than all other approaches)."
+    },
+    "cid": "bafyreibatckx2upzue3by2nixzlxdgnhpzy36xuhvxv6u5sq4eyh24tzga"
+  }
+}
