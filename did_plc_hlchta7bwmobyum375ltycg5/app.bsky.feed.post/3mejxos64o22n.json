@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770760952111879,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mejxosgy462e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mejxos64o22n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T22:02:31.696Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieruyjetfz3bjigmio7i4as3zc7qlo4swacwqlg3zxqesh55klsz4",
+          "uri": "at://did:plc:2ca7f4m5dsfiws3edvvi5vzi/app.bsky.feed.post/3mejxcxcohs2l"
+        },
+        "root": {
+          "cid": "bafyreihwmkiorks6zhkmyp4bg4yjzhvlf6tczkpunkumgdfqgbzoawkmwe",
+          "uri": "at://did:plc:kqbyr4gqt6p2l57htlsa4nha/app.bsky.feed.post/3mejnbuzcik2w"
+        }
+      },
+      "text": "Right?\n\nHamlet was truly the greatest idiot.\n\nI becha he didn't know Yorick all that well.\n\nBTW, I love being outclassed in my memory of Shakespeare.\n\nHats off to your memorization."
+    },
+    "cid": "bafyreiclcnnbtjlyqdurwwhxemg6da6jgf5nq4xfye4blgreou6pt67kue"
+  }
+}
