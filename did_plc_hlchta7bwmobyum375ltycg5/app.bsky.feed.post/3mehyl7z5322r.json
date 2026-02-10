@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770693187416005,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mehylafnmn24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mehyl7z5322r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T03:13:06.26Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibtvsisqca3hml7ufo7kv6zr7gp35gky6yyhzfhzvtpgk7ebwvc44",
+          "uri": "at://did:plc:li4jwuaj2t6gl2esfs2wekmp/app.bsky.feed.post/3mehxnwolus2q"
+        },
+        "root": {
+          "cid": "bafyreihzdb3subgafgavpq77w3wxjs43zodlerwswyhyqcdrigcwaklcki",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehr7ij54s2c"
+        }
+      },
+      "text": "There are quite a few ways to do it, and a few that are cross platform.\n\nLemme know if you like to know more of the \"how\"\n\nServices are overkill, and often more dangerous to run than an ephemeral loopback server."
+    },
+    "cid": "bafyreigjozu23iviwr76ftlu5wdvzdkbwrmq235di6qv7mohtopniaveb4"
+  }
+}
