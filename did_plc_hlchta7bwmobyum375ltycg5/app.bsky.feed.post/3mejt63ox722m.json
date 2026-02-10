@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770756097986330,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mejt64sidd2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mejt63ox722m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T20:41:36.293Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihwmkiorks6zhkmyp4bg4yjzhvlf6tczkpunkumgdfqgbzoawkmwe",
+          "uri": "at://did:plc:kqbyr4gqt6p2l57htlsa4nha/app.bsky.feed.post/3mejnbuzcik2w"
+        },
+        "root": {
+          "cid": "bafyreihwmkiorks6zhkmyp4bg4yjzhvlf6tczkpunkumgdfqgbzoawkmwe",
+          "uri": "at://did:plc:kqbyr4gqt6p2l57htlsa4nha/app.bsky.feed.post/3mejnbuzcik2w"
+        }
+      },
+      "text": "Thing of it is, most of the best programmers I know didn't major in Computer Science.\n\nThe best programmers are autodidacts and problem solvers.\n\nIMO, liberal arts tends to encourage discovery and exploration.\n\nSo 🤷🌶️ : Not actually bad advice."
+    },
+    "cid": "bafyreiaf7xfahnwxenh4tyqdtirw75lai4u46d7azyrimjfqowh23cqe7m"
+  }
+}
