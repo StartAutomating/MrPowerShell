@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770693089481021,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mehyidjn4u24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mehyidbtx22r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T03:11:29.028Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigisuuhz26vwsrkxlvqq2d5gmwvjvhd7g5p4cdmqzs3oxoovniwk4",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehr7ijcyc2c"
+        },
+        "root": {
+          "cid": "bafyreihzdb3subgafgavpq77w3wxjs43zodlerwswyhyqcdrigcwaklcki",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehr7ij54s2c"
+        }
+      },
+      "text": "Nifty.\n\n🤞It's using the canvas rasterizer to turn svg into bmp, and then, probably System.Drawing to make the icon.\n\n\"PowerShell trick\" for this is basically launch a background server and an electron app pointing to it.\n\nMuch more secure than a service."
+    },
+    "cid": "bafyreicw5xoqsixzpebattbdz2jpwelo4bxnq5sme7424rogtpdeb5uheu"
+  }
+}
