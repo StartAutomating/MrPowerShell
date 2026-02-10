@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770708828448386,
+  "kind": "commit",
+  "commit": {
+    "rev": "3meih5eurxg2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3meih5ddvr22m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T07:33:46.125Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Little research has addressed IT professionals&#8217; script debugging strategies, or considered whether there may be gender differences in these strategies. What strategies do male and female scripte...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigk5kmzliol3tspvafkdqlh62ilrakhlh5ggenamp6xdpajzk66pi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 382368
+          },
+          "title": "Males’ and Females’ Script Debugging Strategies",
+          "uri": "https://link.springer.com/chapter/10.1007/978-3-642-00427-8_12"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://link.springer.com/chapter/10.1007/978-3-642-00427-8_12"
+            }
+          ],
+          "index": {
+            "byteEnd": 53,
+            "byteStart": 20
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihiqxyjgrwhccl3y3mm6gvpl7ggu3cbr4aza4f26sejmjmsfayobq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3meigyxpv722m"
+        },
+        "root": {
+          "cid": "bafyreihzdb3subgafgavpq77w3wxjs43zodlerwswyhyqcdrigcwaklcki",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehr7ij54s2c"
+        }
+      },
+      "text": "The study is here:\n\nlink.springer.com/chapter/10.1...\n\n(still hate the title)\n\nBasically watched people try to debug behind one way glass and categorized their experiences.\n\n\"Error Familiarity\" is my contribution to the literature."
+    },
+    "cid": "bafyreifziis3z2rr5lxtcgv4hkwp67y77upzxt7sxyczwimvkc4scfwmpe"
+  }
+}
