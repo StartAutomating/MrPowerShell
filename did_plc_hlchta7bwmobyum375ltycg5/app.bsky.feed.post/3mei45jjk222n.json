@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770697021257264,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mei45jafcz24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mei45jjk222n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T04:17:01.441Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigu4qltdyurfpwmxip23cuvnlwrajndlbtlvnoiumsypvkrxigzye",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mei34r26ic2x"
+        },
+        "root": {
+          "cid": "bafyreihzdb3subgafgavpq77w3wxjs43zodlerwswyhyqcdrigcwaklcki",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehr7ij54s2c"
+        }
+      },
+      "text": "Anytime.\n\nHonestly kinda love reviewing ( most ) AI code ( that works )\n\nEither hilariously wrong, decently right, or good inspiration for stuff to distill ( or a mix of the three )\n\nAny way generally a good time.\n\n😉\n\nLmk if you make more fun stuff."
+    },
+    "cid": "bafyreiercgdac6y3o3agg4jwlgzogxsi4hoxypkwrweb7bl6j6uiofbnoa"
+  }
+}
