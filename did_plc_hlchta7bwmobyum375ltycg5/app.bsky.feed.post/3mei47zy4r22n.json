@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770697106452595,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mei4a2hi7r24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mei47zy4r22n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T04:18:25.805Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigeqx6co7lpxxxrqe5kmz26tzdu2xbn62q2xr762t2kwvyuxvd3ay",
+          "uri": "at://did:plc:ppky7idrh4zvqizb7jrfiwhj/app.bsky.feed.post/3mei3bxdavk2f"
+        },
+        "root": {
+          "cid": "bafyreiaf35dfmsj6nbqwtdvbrnoavndy2u7d75a3ixnm64lrd5ft47vbjq",
+          "uri": "at://did:plc:jv5m6n4mh3ni2nn5xxidyfsy/app.bsky.feed.post/3mehnfhq3i722"
+        }
+      },
+      "text": "Yes, I get it.\n\nAnd I hope that as you describe how this limits the ability to share and publish, I hope you're beginning to wonder how to make things decoupled.\n\nLemme know if you want some tricks of the trade."
+    },
+    "cid": "bafyreiffxisx7qeqccjjtavylwkl3joosldxbivnnqpwwfrjigbfjzo73e"
+  }
+}
