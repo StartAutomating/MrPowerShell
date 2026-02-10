@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770694346511848,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mehznsf72s23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mehznrurek2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T03:32:25.842Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiclzjtmts3ywbyu54qt3ojivtr5373cpziqxiybknpj2wv52td7pi",
+          "uri": "at://did:plc:ppky7idrh4zvqizb7jrfiwhj/app.bsky.feed.post/3mehz7lvgek2f"
+        },
+        "root": {
+          "cid": "bafyreiaf35dfmsj6nbqwtdvbrnoavndy2u7d75a3ixnm64lrd5ft47vbjq",
+          "uri": "at://did:plc:jv5m6n4mh3ni2nn5xxidyfsy/app.bsky.feed.post/3mehnfhq3i722"
+        }
+      },
+      "text": "Mine too!\n\nAlmost 20 years of virtuous cycle means I can do so damn much with purely PowerShell at this point.\n\nOthers are often 🤷\n\nI just keep trying to make cool stuff, chip away at the blissful ignorance, educate my colleagues, and laugh a bit as the gap grows."
+    },
+    "cid": "bafyreifmfed6fuogxd6u7vvsai4n7id4rj3tqfxobbpzpvnhpimgvxthra"
+  }
+}
