@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770753416159923,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mejqo76zfu2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mejqo7oons2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T19:56:56.123Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Force Remove Copilot, Recall and More in Windows 11 - zoicware/RemoveWindowsAI",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifng2u74e7j2x4x2mr2sazsxm6bthnv5yiyosykhxpqdgs4otcvgm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 135700
+          },
+          "title": "GitHub - zoicware/RemoveWindowsAI: Force Remove Copilot, Recall and More in Windows 11",
+          "uri": "https://GitHub.com/zoicware/RemoveWindowsAI"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/zoicware/RemoveWindowsAI"
+            }
+          ],
+          "index": {
+            "byteEnd": 59,
+            "byteStart": 33
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihkpv3jgamzupj6jve4iofztzpmxwbxj2jul2hwga5c3c3ybq2y7q",
+          "uri": "at://did:plc:3qotytguhjcdjxpfr2ghd6lz/app.bsky.feed.post/3mejqh6hpmc2d"
+        },
+        "root": {
+          "cid": "bafyreihx53dto53uluye6sc7rnwnx4ssv3ufvvk45uwlpjgmeiald6n7zq",
+          "uri": "at://did:plc:3qotytguhjcdjxpfr2ghd6lz/app.bsky.feed.post/3mejogvhxb22b"
+        }
+      },
+      "text": "Looks like it's RemoveWindowsAI\n\nGitHub.com/zoicware/Rem...\n\n( Just a newer link to it )\n\nSo far nobody has reported it p0wning them.\n\nSo 🤞 looks like you're safe."
+    },
+    "cid": "bafyreighjeza4qe3fzp7notcw73yil7won56xulxn4vglt2f7ou3s6ce6i"
+  }
+}
