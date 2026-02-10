@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770700126505964,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mei722foew2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mei6zzxw222n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T05:08:45.696Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib3csngaamhjjl4hknhvmwtd2gpqhccqhi24grfsv4ew4ejksi2v4",
+          "uri": "at://did:plc:cp4jr4lmjvxhattbrv4eoynm/app.bsky.feed.post/3mei2cmtyrc2e"
+        },
+        "root": {
+          "cid": "bafyreihzdb3subgafgavpq77w3wxjs43zodlerwswyhyqcdrigcwaklcki",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehr7ij54s2c"
+        }
+      },
+      "text": "To dissect a bit more.\n\nThe difference is that electron / npm encourages a self contained chromium copy.\n\nFor every app.\n\nThat now has a different update cycle than chromium itself.\n\nAnd electron is a pretty light framework.\n\nJust makes much more sense to use it globally / avoid it if you can."
+    },
+    "cid": "bafyreialbn2xg2alb4rpq3nlaaoonsd5wzbluwxtcwfl7tii5prtujewsq"
+  }
+}
