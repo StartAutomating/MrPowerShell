@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770763017213049,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mejzmdlwdt2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mejzmdg7cs2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T22:36:56.608Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaf7xfahnwxenh4tyqdtirw75lai4u46d7azyrimjfqowh23cqe7m",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mejt63ox722m"
+        },
+        "root": {
+          "cid": "bafyreihwmkiorks6zhkmyp4bg4yjzhvlf6tczkpunkumgdfqgbzoawkmwe",
+          "uri": "at://did:plc:kqbyr4gqt6p2l57htlsa4nha/app.bsky.feed.post/3mejnbuzcik2w"
+        }
+      },
+      "text": "Also probably good to note:\n\nMany of the \"greats\" of tech didn't graduate.\n\nBill Gates\nSteve Jobs\nMark Zuckerberg\nLarry Ellison\nGabe Newell\n\nAll college dropouts (just naming a few)\n\nDegrees don't mean much in the tech world.\n\nUnderstanding means much more."
+    },
+    "cid": "bafyreihhgfayttt5rgoqd2digs2jhruyxjvkiychi26q2cyprlnpznjw2u"
+  }
+}
