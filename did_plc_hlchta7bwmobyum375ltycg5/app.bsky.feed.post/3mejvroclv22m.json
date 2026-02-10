@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770758901476052,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mejvroqud42s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mejvroclv22m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T21:28:20.828Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicflpu65dhobcni7v57adktrs7bsabglu5fsivm6bqpo3ntjen5ly",
+          "uri": "at://did:plc:2zh22gqi3qwsdtk7uvqz2qwg/app.bsky.feed.post/3mejvg3vtsc2w"
+        },
+        "root": {
+          "cid": "bafyreihwmkiorks6zhkmyp4bg4yjzhvlf6tczkpunkumgdfqgbzoawkmwe",
+          "uri": "at://did:plc:kqbyr4gqt6p2l57htlsa4nha/app.bsky.feed.post/3mejnbuzcik2w"
+        }
+      },
+      "text": "I feel like many people do not see the humor or dripping sarcasm in Shakespeare.\n\nLike Othello.\n\nDid they really love wisely, but not well?\n\nI think, based off of the fact that Iago manipulated Othello into murder, they loved neither wisely nor well.\n\n🤦"
+    },
+    "cid": "bafyreifxgqrtniydb523naza622bg763uprgnkxbwzt7obnihtv7t2evam"
+  }
+}
