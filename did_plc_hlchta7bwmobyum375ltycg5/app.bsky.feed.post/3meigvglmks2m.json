@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770708561464443,
+  "kind": "commit",
+  "commit": {
+    "rev": "3meigvgvmmo2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3meigvglmks2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T07:29:21.087Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiauuejzlp5mjj7cl4r3ebdkpyhpyyp3hrdej6v47h5iyvxpajq3ty",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3meigsxzt5s2m"
+        },
+        "root": {
+          "cid": "bafyreihzdb3subgafgavpq77w3wxjs43zodlerwswyhyqcdrigcwaklcki",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehr7ij54s2c"
+        }
+      },
+      "text": "Contrasting this to the bevy of frameworks built atop electron.\n\nSome of them are fairly stable (say, VSCode).\n\nOthers infamously break stuff all the time (not throwing shade in any particular direction, but you can surely name a few)\n\nBasically always want to check your foundation for cracks."
+    },
+    "cid": "bafyreibqyquzhj2rcgpnqq7rbqyth2fj3ex6qv6r65mfmxy5jpo2r2yicu"
+  }
+}
