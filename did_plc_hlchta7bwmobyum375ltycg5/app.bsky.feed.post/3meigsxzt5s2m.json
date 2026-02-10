@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770708479256253,
+  "kind": "commit",
+  "commit": {
+    "rev": "3meigsydios2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3meigsxzt5s2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T07:27:58.715Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie6jdgf5kq23rs3hka66h5niauznx2pdykrv5xgkm5w2qbhbimqku",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3meigpzxvrk2m"
+        },
+        "root": {
+          "cid": "bafyreihzdb3subgafgavpq77w3wxjs43zodlerwswyhyqcdrigcwaklcki",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehr7ij54s2c"
+        }
+      },
+      "text": "I like electron, and I'd be comfy enough building atop it.\n\nIt may be a bit up the pyramid, but it's stable enough.\n\nEven more stable if my project is just getting/calling the latest electron, which helps prevent it from being unstable / out of date."
+    },
+    "cid": "bafyreiauuejzlp5mjj7cl4r3ebdkpyhpyyp3hrdej6v47h5iyvxpajq3ty"
+  }
+}
