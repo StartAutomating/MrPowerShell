@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770694627977331,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mehzw6qkbj26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mehzw6dmls2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T03:37:07.347Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid2vtqad67l2g7xxk3udqrsoggjza56pbtu6kihcu6psgui4t27jq",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehyylvs4c2x"
+        },
+        "root": {
+          "cid": "bafyreihzdb3subgafgavpq77w3wxjs43zodlerwswyhyqcdrigcwaklcki",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehr7ij54s2c"
+        }
+      },
+      "text": "Also, it does look like the script does what I am saying but doesn't clean up after itself.\n\nHonestly shouldn't be too big an issue until you've run 1000x of them and run out of memory.\n\nThen just reboot and all will be right as rain.\n\n*Way* better than giving persistent creds."
+    },
+    "cid": "bafyreih7coczdx32e5mewibavyfhn5e2l7apg3243mdwqlmddgawc7uhya"
+  }
+}
