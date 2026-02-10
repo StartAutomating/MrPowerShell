@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770693277007543,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mehynwhcgn26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mehynwaju22r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T03:14:36.681Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiagzxhj74ud6homgddb37d3cjuod53uad62tlcw2fczwmb4yiueya",
+          "uri": "at://did:plc:ppky7idrh4zvqizb7jrfiwhj/app.bsky.feed.post/3mehx4vmobk2f"
+        },
+        "root": {
+          "cid": "bafyreiaf35dfmsj6nbqwtdvbrnoavndy2u7d75a3ixnm64lrd5ft47vbjq",
+          "uri": "at://did:plc:jv5m6n4mh3ni2nn5xxidyfsy/app.bsky.feed.post/3mehnfhq3i722"
+        }
+      },
+      "text": "Hate to burst balloons;\n\nSemicolons aren't required in classes in PowerShell."
+    },
+    "cid": "bafyreib4qnyk6gzesm34qj2fv2zbgpjawqyosnhkco76q5xoigrmbdrc3q"
+  }
+}
