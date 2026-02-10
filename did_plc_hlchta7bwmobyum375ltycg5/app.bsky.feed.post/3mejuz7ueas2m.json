@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770758081147406,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mejuzacxtt2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mejuz7ueas2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T21:14:40.376Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigeq6e7esdzp6a33aejrduwfwbn6dmapglcrk2tefumskawy3pkse",
+          "uri": "at://did:plc:cp4jr4lmjvxhattbrv4eoynm/app.bsky.feed.post/3mej7actr3k2v"
+        },
+        "root": {
+          "cid": "bafyreihzdb3subgafgavpq77w3wxjs43zodlerwswyhyqcdrigcwaklcki",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehr7ij54s2c"
+        }
+      },
+      "text": "Yes, error familiarity is very highly correlated with experience (deep understanding isn't always required)\n\nI call it \"burnt hand reasoning\" because you basically get burnt by the bad error message and the emotional response to finding out what was actually wrong helps \"burn\" the knowledge in."
+    },
+    "cid": "bafyreid2we5h5w2bq7xlq7fepkpsqv6feqva4sm7jif5ziif2b7snnbzya"
+  }
+}
