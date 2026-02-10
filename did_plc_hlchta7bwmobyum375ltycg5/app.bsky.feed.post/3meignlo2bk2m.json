@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770708298355041,
+  "kind": "commit",
+  "commit": {
+    "rev": "3meignlxhnq2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3meignlo2bk2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T07:24:57.974Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidqwae2pqeayrgmkjlksaemdn7r4la2zvjgidlpippooxssbi6boi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3meigkdgg222m"
+        },
+        "root": {
+          "cid": "bafyreihzdb3subgafgavpq77w3wxjs43zodlerwswyhyqcdrigcwaklcki",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehr7ij54s2c"
+        }
+      },
+      "text": "The bottom of the inverted pyramid is extraordinarily stable, because decades of work is stacked upon it.\n\nIf, say, C's printf broke tomorrow, we'd all know.\n\nIf I'm building atop an HttpListener, that's been stable longer than NodeJS and all it's frameworks have been alive."
+    },
+    "cid": "bafyreiesookedsnze4liyw246vrzz73nfyhyvoe6k5v734vwaetweakvom"
+  }
+}
