@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770756232392669,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mejtc5dcuw24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mejtc4t2qc2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T20:43:51.693Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibdbbqcw6hzz7vva54cy27vwrp4u3wkvpvjtw3z2bhlcbb7ishdd4",
+          "uri": "at://did:plc:drd73wmwbq6vic6qjolb4dgs/app.bsky.feed.post/3mejrqapftk2t"
+        },
+        "root": {
+          "cid": "bafyreihwmkiorks6zhkmyp4bg4yjzhvlf6tczkpunkumgdfqgbzoawkmwe",
+          "uri": "at://did:plc:kqbyr4gqt6p2l57htlsa4nha/app.bsky.feed.post/3mejnbuzcik2w"
+        }
+      },
+      "text": "😅 so true.\n\nUsed to quip:\n\nCorporate politics are King Lear\nBut most people think they're in Midsummer's Night's Dream\nAnd pucking it all up.\n\nProbably quote the bard at least once a week."
+    },
+    "cid": "bafyreic4nc6trropczf52hbumb6hdnyyob66uerpqejmvxd6a3lnuvnfdi"
+  }
+}
