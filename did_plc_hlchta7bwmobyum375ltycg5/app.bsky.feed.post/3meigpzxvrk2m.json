@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770708380468214,
+  "kind": "commit",
+  "commit": {
+    "rev": "3meigq2aweo26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3meigpzxvrk2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T07:26:20.087Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiesookedsnze4liyw246vrzz73nfyhyvoe6k5v734vwaetweakvom",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3meignlo2bk2m"
+        },
+        "root": {
+          "cid": "bafyreihzdb3subgafgavpq77w3wxjs43zodlerwswyhyqcdrigcwaklcki",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehr7ij54s2c"
+        }
+      },
+      "text": "Similarly, if I'm building atop electron, I've got about a hundred pieces of pyramid below me.\n\nThis might be great if I want menus and transparent windows.\n\nAnd it's less than the thousands it could be in some projects.\n\nBut building atop of chromium is simple.\n\nKeeping your copy up to date is not."
+    },
+    "cid": "bafyreie6jdgf5kq23rs3hka66h5niauznx2pdykrv5xgkm5w2qbhbimqku"
+  }
+}
