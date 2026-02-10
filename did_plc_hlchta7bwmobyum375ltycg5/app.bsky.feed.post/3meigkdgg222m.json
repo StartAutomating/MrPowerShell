@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770708189358466,
+  "kind": "commit",
+  "commit": {
+    "rev": "3meigkdwdgi2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3meigkdgg222m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T07:23:08.673Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibmgr5y6by2xavvgbt74jpvafth3mjfjecxi2lnzy3upbaljx65ce",
+          "uri": "at://did:plc:cp4jr4lmjvxhattbrv4eoynm/app.bsky.feed.post/3meielbipnc2v"
+        },
+        "root": {
+          "cid": "bafyreihzdb3subgafgavpq77w3wxjs43zodlerwswyhyqcdrigcwaklcki",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehr7ij54s2c"
+        }
+      },
+      "text": "Actually quite the opposite.\n\nThink of all software like a big inverted pyramid.\n\nThe further up you go, the easier it can be to unbalance it.\n\nThe closer you are to the ground, the more sure you are it is stable.\n\nBuild with techniques you build near the bottom."
+    },
+    "cid": "bafyreidqwae2pqeayrgmkjlksaemdn7r4la2zvjgidlpippooxssbi6boi"
+  }
+}
