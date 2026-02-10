@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770699305909711,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mei6biuet22k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mei6biqgws2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T04:55:02.318Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Not endorsing Agent Smith's view on humanity.\n\nJust saying that frameworks are often over engineered and built atop each other like Matryoshka dolls.\n\nFrameworks feel like a path to greatness, but they really lead to strong coupling and harder to refactor code.\n\nMaking frameworks has been the way up for many people.  Maintaining them is almost always a way to trap yourself into a cycle of technical debt and pain.\n\nI know this much better than most.  I am not immune.\n\nI have made many frameworks.\n\nA few light ones have proved very useful.\n\nMost of them have not proved their utility with time.\n\nThe best framework is no framework \n\nThe second best framework is a light framework.\n\nThe third best framework is a well-tested stable framework that has barely changed in years.\n\nKeep stuff as close to the language / metal as you can, and live a happier developer life.\n\nTrust me.\n\nI know this lesson painfully well.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibeenctzuxuyuursu7al7xowfke6mcq5xnot2kqj7hdlyctghftdu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 62738
+          },
+          "title": "a man in a suit and tie wearing sunglasses is standing in front of a window .",
+          "uri": "https://media.tenor.com/ggqDl8Dzo64AAAAC/the-matrix-agent-smith.gif?hh=205&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiak22hgdixdiu2qazjtverky2mfnb7dfzv63at2jvxivha24ixoce",
+          "uri": "at://did:plc:cp4jr4lmjvxhattbrv4eoynm/app.bsky.feed.post/3mei2ew3fzk2e"
+        },
+        "root": {
+          "cid": "bafyreihzdb3subgafgavpq77w3wxjs43zodlerwswyhyqcdrigcwaklcki",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehr7ij54s2c"
+        }
+      },
+      "text": "Thing of it is, that reduces framework dependency.\n\nTechnique is almost always better than tooling.\n\nTook me a long time to learn this, and knowing it helps me make better tools.\n\nThere are too many frameworks\n\nDoing too few things\n\nIt's a disease of the industry.\n\n( More in alt )"
+    },
+    "cid": "bafyreibsz253klecvwghdb2svx73d47fiuonig4yc3flkj7iqjbedyt7d4"
+  }
+}
