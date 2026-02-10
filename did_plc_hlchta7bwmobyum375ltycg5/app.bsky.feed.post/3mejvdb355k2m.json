@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770758417721643,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mejvdbhiil23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mejvdb355k2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-10T21:20:17.191Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihx3jwmmqt6jgizpgpffpekakalemkdbcn5wl7hf3rx2ulklhwyqm",
+          "uri": "at://did:plc:2zh22gqi3qwsdtk7uvqz2qwg/app.bsky.feed.post/3mejuloimoc2w"
+        },
+        "root": {
+          "cid": "bafyreihwmkiorks6zhkmyp4bg4yjzhvlf6tczkpunkumgdfqgbzoawkmwe",
+          "uri": "at://did:plc:kqbyr4gqt6p2l57htlsa4nha/app.bsky.feed.post/3mejnbuzcik2w"
+        }
+      },
+      "text": "I also keep coming back to central themes.\n\nMost tragedies highlight hubris as the key component of a downfall\n\n(King Lear, Macbeth, Othello, Richard III [to name just a few])\n\nYet most people (and many techies) had trouble realizing they are wrong.\n\nRead a play.\nGet perspective.\nSave your company."
+    },
+    "cid": "bafyreiamzuztet6mk7gotxhibt5bzl73s2assqj6j4jfzehhlwtlzdj5jm"
+  }
+}
