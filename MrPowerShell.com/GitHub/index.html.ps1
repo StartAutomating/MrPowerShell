@@ -18,7 +18,7 @@ param(
 
     [Alias('GitHubOrgs','GitHubOrg')]
     [string[]]
-    $GitHubOrganizations = @('StartAutomating', 'PowerShellWeb')
+    $GitHubOrganizations = @('StartAutomating', 'PowerShellWeb','PoshWeb')
 )
 
 $Title = "My GitHub Repos"
@@ -28,10 +28,9 @@ if (-not $script:CachedRepoList) {
     $script:CachedRepoList = [Ordered]@{}    
     $connectedToGitHub = Connect-GitHub
     $myGitHubInfo = api.github.com/users/<username> -username $GitHubUserName
-    $startAutomatingRepos = api.github.com/users/<username>/repos -username StartAutomating
-    $psWebRepos = api.github.com/users/<username>/repos -username PowerShellWeb
-    $script:CachedRepoList['StartAutomating'] = $startAutomatingRepos
-    $script:CachedRepoList['PowerShellWeb'] = $psWebRepos
+    foreach ($githubOrg in $gitHubOrganizations) {
+        $script:CachedRepoList[$githubOrg] = api.github.com/users/<username>/repos -username $githubOrg -perPage 100    
+    }
 }
 
 $myRepos = @($script:CachedRepoList.Values) | . { process { $_ } }
@@ -55,7 +54,8 @@ $postsAboutRepos =
     }
 
 $markdown = @(
-"# Most of My Repos"
+
+"# My GitHub Repositories"
 
 "(I write a lot of code)"
 
@@ -63,7 +63,10 @@ $markdown = @(
 
 "  * $totalStars ★"
 "  * [$($myGitHubInfo.followers) followers](https://github.com/$GitHubUserName/?tab=followers)"
-"  * [$($myRepos.Count) public repos](https://github.com/$GitHubUserName/?tab=repositories)"
+"  * $($myRepos.Count) public repos"
+foreach ($key in $script:CachedRepoList) {
+"    * [$($key)](https://github.com/$GitHubUserName/?tab=repositories)($($script:CachedRepoList[$key].Count))"
+}
 "  * $($($myRepos | Where-Object -Not Fork | Measure-Object).Count) of my repos are original"
 "  * $($($myRepos | Where-Object Fork | Measure-Object).Count) of my repos are forks"
 "  * $($($myRepos | Measure-Object -Property forks_count -Sum).Sum) forks of my repos"
@@ -162,3 +165,13 @@ foreach ($repoInfo in $myRepos | Where-Object Fork -Not | Sort-Object stargazers
 }
 
 "</div>"
+
+
+#region View Source
+"<details id='view-source'>"
+"<summary>View Source</summary>"
+"<pre><code class='language-powershell'>"
+[Web.HttpUtility]::HtmlEncode("$($MyInvocation.MyCommand.ScriptBlock)")
+"</code></pre>"
+"</details>"
+#endregion View Source
