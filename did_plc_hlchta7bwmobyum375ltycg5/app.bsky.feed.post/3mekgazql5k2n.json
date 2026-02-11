@@ -1,0 +1,75 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770776598349170,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mekgb3dl6g26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mekgazql5k2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-11T02:23:16.006Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Escape from the pain of escape sequences. Contribute to StartAutomating/Escape development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreig3yqj5lxhuhx32jvhbp7s5wkt36wf6l45l2c7ukkpfp4s5otknki"
+            },
+            "mimeType": "image/jpeg",
+            "size": 220625
+          },
+          "title": "GitHub - StartAutomating/Escape: Escape from the pain of escape sequences",
+          "uri": "https://github.com/StartAutomating/Escape"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/Escape"
+            }
+          ],
+          "index": {
+            "byteEnd": 103,
+            "byteStart": 77
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:swwbcm2sgfccm2pylrr2ku4z"
+            }
+          ],
+          "index": {
+            "byteEnd": 217,
+            "byteStart": 202
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "New #PowerShell module alert!\n\nEscape!\n\nEscape the pain of escape sequences\n\ngithub.com/StartAutomat...\n\nInitial build has over 100 escape sequences to use without looking up arcane syntax.\n\nHat tip to @sneakyness.com for the inspiration!\n\nHave fun!"
+    },
+    "cid": "bafyreibqfuirvolzthy2x42umfi6vx7opxz6fqedrv5tlljxnrqs6vnqlu"
+  }
+}
