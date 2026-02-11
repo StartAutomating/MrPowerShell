@@ -1,0 +1,96 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770776752365001,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mekgfopjd22g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mekgfnhvks2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-11T02:25:50.911Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "PowerShell for every system! Contribute to PowerShell/PowerShell development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreic4ffmb276pktaogajay7arddwdqmshwjmhaakjtazpipm5r5j3bi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 240485
+          },
+          "title": "GitHub - PowerShell/PowerShell: PowerShell for every system!",
+          "uri": "https://github.com/PowerShell/PowerShell"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PowerShell/PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 73,
+            "byteStart": 47
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 271,
+            "byteStart": 265
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 285,
+            "byteStart": 274
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "FTW"
+            }
+          ],
+          "index": {
+            "byteEnd": 290,
+            "byteStart": 286
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifsw6a6wm3cd67ochs4m6ihnmdjag3qpm4ijfwqgn6bpqxd3fk2n4",
+          "uri": "at://did:plc:li4jwuaj2t6gl2esfs2wekmp/app.bsky.feed.post/3mekcl5vh3c2c"
+        },
+        "root": {
+          "cid": "bafyreihzdb3subgafgavpq77w3wxjs43zodlerwswyhyqcdrigcwaklcki",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehr7ij54s2c"
+        }
+      },
+      "text": "You may be hearing these things a bit late...\n\ngithub.com/PowerShell/P...\n\nOpen Source and Cross Platform since 2016\n\nAnd the PowerShell team grew out of the Windows Subsystem for POSIX team (in the early 2000s).\n\nPowerShell helped make Microsoft 💙 Open Source\n\n#Linux + #PowerShell #FTW"
+    },
+    "cid": "bafyreien3qyhwy43isqipfpud4sckuujclccsd4uqnnzpzihp4wanzgl7u"
+  }
+}
