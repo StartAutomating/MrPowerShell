@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770780205285559,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mekjmlplc523",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mekjmn6efc2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-11T03:23:26.705Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 238,
+            "byteStart": 226
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 271,
+            "byteStart": 260
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaey5xv27ipae2muplwljxpeyrxsqao7h4xqcf4hklyfxcrzowyae",
+          "uri": "at://did:plc:li4jwuaj2t6gl2esfs2wekmp/app.bsky.feed.post/3mekj6fzryc23"
+        },
+        "root": {
+          "cid": "bafyreihzdb3subgafgavpq77w3wxjs43zodlerwswyhyqcdrigcwaklcki",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehr7ij54s2c"
+        }
+      },
+      "text": "Thanks!\n\nBoth of these things were the goal 😉.\n\nFWIW the whole list multiplication trick used in there is actually pure PowerShell.\n\nJust proves too handy to ignore in this context.\n\nBonus points: I built most of that on a #RaspberryPi 😉 ( I daily drive #PowerShell on a Pi )"
+    },
+    "cid": "bafyreidsd4hpattpt3zgsx7vplz2tzp5wxr7fl2votccuazqw4amm2uzfy"
+  }
+}
