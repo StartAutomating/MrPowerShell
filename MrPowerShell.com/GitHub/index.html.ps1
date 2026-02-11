@@ -64,7 +64,7 @@ $markdown = @(
 "  * $totalStars ★"
 "  * [$($myGitHubInfo.followers) followers](https://github.com/$GitHubUserName/?tab=followers)"
 "  * $($myRepos.Count) public repos"
-foreach ($key in $script:CachedRepoList) {
+foreach ($key in $script:CachedRepoList.Keys) {
 "    * [$($key)](https://github.com/$GitHubUserName/?tab=repositories)($($script:CachedRepoList[$key].Count))"
 }
 "  * $($($myRepos | Where-Object -Not Fork | Measure-Object).Count) of my repos are original"
