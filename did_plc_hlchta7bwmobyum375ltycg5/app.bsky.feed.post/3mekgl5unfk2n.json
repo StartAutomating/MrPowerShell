@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770776936349753,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mekgl65i7x2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mekgl5unfk2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-11T02:28:55.879Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibjzryufdhytiqgnexox74dyqydidb3iu7ghzqvjpwe2krkhwfrua",
+          "uri": "at://did:plc:li4jwuaj2t6gl2esfs2wekmp/app.bsky.feed.post/3mekchvj5gk2c"
+        },
+        "root": {
+          "cid": "bafyreihzdb3subgafgavpq77w3wxjs43zodlerwswyhyqcdrigcwaklcki",
+          "uri": "at://did:plc:wkfbi2wu2mqcsabcsko742iy/app.bsky.feed.post/3mehr7ij54s2c"
+        }
+      },
+      "text": "See earlier post.  You can do this in practice, on Linux.\n\nI am literally doing this right now.\n\nOn Windows, Linux, or MacOS you can either:\n\n~~~PowerShell\n./someExe # Run Inline\n./someExe & # background job form 1\nStart-Process ./someExe # spawn a process\n~~~\n\nCan also use Start-ThreadJob"
+    },
+    "cid": "bafyreid2tcf3io5fgy6fpukjtxxzsvfoxtkglaqjzdcmbclhgz4k4y6yfi"
+  }
+}
