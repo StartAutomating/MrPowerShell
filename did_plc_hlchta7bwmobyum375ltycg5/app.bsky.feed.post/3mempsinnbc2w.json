@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770855565931757,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mempsj7dxw2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mempsinnbc2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-12T00:19:25.217Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihn43zazn2betn45aeq2rwbqxlolgdujbgb2g232pii4b4zdcxz6y",
+          "uri": "at://did:plc:e62gb2ushvtvjvqcbrxeaw2n/app.bsky.feed.post/3melwx6oxhc2s"
+        },
+        "root": {
+          "cid": "bafyreihn43zazn2betn45aeq2rwbqxlolgdujbgb2g232pii4b4zdcxz6y",
+          "uri": "at://did:plc:e62gb2ushvtvjvqcbrxeaw2n/app.bsky.feed.post/3melwx6oxhc2s"
+        }
+      },
+      "text": "I think genies and jinns do not go back into bottles."
+    },
+    "cid": "bafyreifmwwltk7zo4x5jnxvo63i5q37lo52esmm3irkzum6lzfhduvbv6q"
+  }
+}
