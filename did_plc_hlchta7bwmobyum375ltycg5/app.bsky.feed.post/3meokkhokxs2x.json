@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770918645155868,
+  "kind": "commit",
+  "commit": {
+    "rev": "3meokkg7do626",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3meokkhokxs2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-12T17:50:46.531Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidhzuno7ewzpslk6zrdo5aol3npomku2qipfprhtymucjgaowho4y",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3meoalfootk23"
+        },
+        "root": {
+          "cid": "bafyreicp2mxshd6fcfaat5x64elwm5fw4lgzmlymbdjvlav2nj2dolasjq",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3meoagjy5gk23"
+        }
+      },
+      "text": "If you need to grab just the inner text from the docx to train it, I've got a module that can extract it ( simply called OpenXML ).\n\nCome to think of it, if you want an alternate version of those docs made into a static site, lemme know. ( May even try to throw in a UD dashboard )"
+    },
+    "cid": "bafyreicnsncgqvjf5or35s5rh2yjdkibzck2jjtjkspzfhaykuhmswlkzi"
+  }
+}
