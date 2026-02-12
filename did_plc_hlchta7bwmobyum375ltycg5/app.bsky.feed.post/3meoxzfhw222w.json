@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770933106890188,
+  "kind": "commit",
+  "commit": {
+    "rev": "3meoxzfzk3626",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3meoxzfhw222w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-12T21:51:46.177Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreietksoiflejfgokk6ybzqaijbacaz6xva4zcnr3567rwe3squrrke",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3meoxagljik2x"
+        },
+        "root": {
+          "cid": "bafyreibobfwzwaz3v7aqpqsmpp6flfpieqajvwi34wnjm3p7spgqjqeksa",
+          "uri": "at://did:plc:6suew5ukvojsloocuhx4mfvu/app.bsky.feed.post/3meosmznd422n"
+        }
+      },
+      "text": "Sadly lightly mistaken.\n\nApparently ODT files are, ironically, not Open Packages.\n\nBut they are still \"Zip files in a Trenchcoat\"\n\nBut, sadly, have a different inner XML format.\n\n😂 guess someone never let that standards battle go 😂 (Google lost that one)\n\nMay make another module for ODT."
+    },
+    "cid": "bafyreih5oyqmsicidjhf3bstglwl42i37k4uxs5jks27e4amdtcktxhgqa"
+  }
+}
