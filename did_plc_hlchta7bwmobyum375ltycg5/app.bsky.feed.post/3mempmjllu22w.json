@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770855367449010,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mempmjvqo324",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mempmjllu22w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-12T00:16:04.872Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif2cw6zi6ajiu36i663bqmo5dsube32lw56ypel4wctibizfjd4ei",
+          "uri": "at://did:plc:ssvrcgzfiv5tudpatpv3m7gd/app.bsky.feed.post/3memkqizdbk25"
+        },
+        "root": {
+          "cid": "bafyreif2cw6zi6ajiu36i663bqmo5dsube32lw56ypel4wctibizfjd4ei",
+          "uri": "at://did:plc:ssvrcgzfiv5tudpatpv3m7gd/app.bsky.feed.post/3memkqizdbk25"
+        }
+      },
+      "text": "Very exciting!\n\nI would love it if you could come speak at a user group or two on this topic.\n\nHow do April/May/June look for you?"
+    },
+    "cid": "bafyreidg6txbw6lrbsumftiggdkovcfyfas22hslgeq7nnxm3cozls2cfq"
+  }
+}
