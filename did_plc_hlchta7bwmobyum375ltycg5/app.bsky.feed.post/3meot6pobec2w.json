@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770927916637009,
+  "kind": "commit",
+  "commit": {
+    "rev": "3meot6q7dju2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3meot6pobec2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-12T20:25:15.934Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiasilulfupqnc4v2da5p35fhmqymticmtgndf7bbjk2yyzhg6oceq",
+          "uri": "at://did:plc:6suew5ukvojsloocuhx4mfvu/app.bsky.feed.post/3meoso6avdk2b"
+        },
+        "root": {
+          "cid": "bafyreibobfwzwaz3v7aqpqsmpp6flfpieqajvwi34wnjm3p7spgqjqeksa",
+          "uri": "at://did:plc:6suew5ukvojsloocuhx4mfvu/app.bsky.feed.post/3meosmznd422n"
+        }
+      },
+      "text": "Playing with PowerShell can be pretty fun! 😀 (hope you're enjoying it)\n\nIt does share quite a few commands / aliases with Bash.\n\nThree commands that are always your friend:\n\nGet-Command (gets commands)\nGet-Help (gets help)\nGet-Member (shows you what an object can do)"
+    },
+    "cid": "bafyreibmuqxv3zgq2jpap2qvft7zsk4cwh4rtvuctukv4p45bux6eqj3my"
+  }
+}
