@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770940246649856,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mep6o6yipw2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mep6o6ndv22w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-12T23:50:46.109Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihywaml6upksdc4n3fiyncvuipyigd27n2pjw7oevynjevn4zvge4",
+          "uri": "at://did:plc:xo6giww5xldglc76xhlnwa5h/app.bsky.feed.post/3mep6dvz3es2a"
+        },
+        "root": {
+          "cid": "bafyreihxq3mdlpqva2jahuwrjjho2qg7cc2xkremuhqzcsbypjj4ibn54y",
+          "uri": "at://did:plc:xo6giww5xldglc76xhlnwa5h/app.bsky.feed.post/3meoxfmxpjc2a"
+        }
+      },
+      "text": "Generally when learning a new language, so do I.\n\nIt took me some time to start to see how many unique strengths PowerShell / Object Pipeline / Task-Oriented languages have, and to learn how really rock them.\n\nI believe most people don't ever see these strengths 😞.\n\nOr know there is a difference."
+    },
+    "cid": "bafyreihmp37a44fze7idrc5nxyi5nmaritwvnprrlxohvflz4ry252zyli"
+  }
+}
