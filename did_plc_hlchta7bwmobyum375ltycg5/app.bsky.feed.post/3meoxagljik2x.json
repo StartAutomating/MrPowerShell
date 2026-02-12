@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770932268878343,
+  "kind": "commit",
+  "commit": {
+    "rev": "3meoxagv5ut2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3meoxagljik2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-12T21:37:48.482Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibobfwzwaz3v7aqpqsmpp6flfpieqajvwi34wnjm3p7spgqjqeksa",
+          "uri": "at://did:plc:6suew5ukvojsloocuhx4mfvu/app.bsky.feed.post/3meosmznd422n"
+        },
+        "root": {
+          "cid": "bafyreibobfwzwaz3v7aqpqsmpp6flfpieqajvwi34wnjm3p7spgqjqeksa",
+          "uri": "at://did:plc:6suew5ukvojsloocuhx4mfvu/app.bsky.feed.post/3meosmznd422n"
+        }
+      },
+      "text": "Btw I believe I have some stuff that will help you extract out the text from that odt...\n\nNeed to double-check.\n\nWill do that sometime later today."
+    },
+    "cid": "bafyreietksoiflejfgokk6ybzqaijbacaz6xva4zcnr3567rwe3squrrke"
+  }
+}
