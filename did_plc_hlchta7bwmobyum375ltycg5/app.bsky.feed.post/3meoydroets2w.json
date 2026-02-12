@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770933455270589,
+  "kind": "commit",
+  "commit": {
+    "rev": "3meoyds6mns2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3meoydroets2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-12T21:57:34.515Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihh3n2vo5uvab26bpkk33llazx3ue7dcdgc5su5febdwmpm4oia7e",
+          "uri": "at://did:plc:6suew5ukvojsloocuhx4mfvu/app.bsky.feed.post/3meoy3zxjo22f"
+        },
+        "root": {
+          "cid": "bafyreibobfwzwaz3v7aqpqsmpp6flfpieqajvwi34wnjm3p7spgqjqeksa",
+          "uri": "at://did:plc:6suew5ukvojsloocuhx4mfvu/app.bsky.feed.post/3meosmznd422n"
+        }
+      },
+      "text": "💯 Very true words!\n\nYou may be quickly amazed how much more you can do in a Terminal compared to most GUIs.\n\nMost GUIs hide functionality from you and call it \"easy\" (when it's often harder to do anything \"custom\").\n\nTerminals are always more flexible.\n\nAnd PowerShell is like 80% normal English."
+    },
+    "cid": "bafyreihhrhfcej7els7piwbej3v34o7qwecaripmye3blppkxfxy2uhtay"
+  }
+}
