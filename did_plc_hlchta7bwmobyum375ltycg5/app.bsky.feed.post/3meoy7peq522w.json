@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770933318485035,
+  "kind": "commit",
+  "commit": {
+    "rev": "3meoy7pubap2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3meoy7peq522w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-12T21:55:17.885Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ODT"
+            }
+          ],
+          "index": {
+            "byteEnd": 11,
+            "byteStart": 7
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 37,
+            "byteStart": 26
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih5oyqmsicidjhf3bstglwl42i37k4uxs5jks27e4amdtcktxhgqa",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3meoxzfhw222w"
+        },
+        "root": {
+          "cid": "bafyreibobfwzwaz3v7aqpqsmpp6flfpieqajvwi34wnjm3p7spgqjqeksa",
+          "uri": "at://did:plc:6suew5ukvojsloocuhx4mfvu/app.bsky.feed.post/3meosmznd422n"
+        }
+      },
+      "text": "To DIY #ODT extraction in #PowerShell:\n\n~~~PowerShell\nExpand-Archive -Path ./some.odt -DestinationPath ./someFolder\n\ndir ./someFolder -filter content.xml |\n    Select-Xml //* |\n    Where-Object { $_.Node.LocalName -eq 'text' } |\n    Foreach-Object {$_.Node.innerText }\n~~~"
+    },
+    "cid": "bafyreidvcxkbnxszsckozllflrzpeas46aqkhpzqp2kkm555jzl3lvwvji"
+  }
+}
