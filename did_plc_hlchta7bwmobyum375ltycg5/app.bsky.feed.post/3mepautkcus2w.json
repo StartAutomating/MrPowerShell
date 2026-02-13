@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770942617620016,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mepauu253a2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mepautkcus2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-13T00:30:16.84Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreighmlxjiwjg47ht5ln2pr5eqhf3wkoyjjkfh6b2gftbkwri4t7oie",
+          "uri": "at://did:plc:bay2rtx3zmj2grd63mc4tpm4/app.bsky.feed.post/3mep6vrmkjk22"
+        },
+        "root": {
+          "cid": "bafyreihxq3mdlpqva2jahuwrjjho2qg7cc2xkremuhqzcsbypjj4ibn54y",
+          "uri": "at://did:plc:xo6giww5xldglc76xhlnwa5h/app.bsky.feed.post/3meoxfmxpjc2a"
+        }
+      },
+      "text": "I'll bite: what sort of stuff \"clicks better\"?\n\nFor me it's:\n\n- discoverability\n- interactiveness\n- clear documentation\n- (mostly) consistent naming\n- logical layout\n- obviousness of technique\n- reliability\n- utility\n- uniqueness\n- cleverness\n\nWhat works for you?"
+    },
+    "cid": "bafyreieknjr6g3eepku64im5hvmaoyhnoir6ywk2fkjgpnkefpalaiazxi"
+  }
+}
