@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770942277148796,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mepakpgkyr26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mepakoyxt22w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-13T00:24:36.532Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigmeri6wofqv7imvwrm5k2ba222rk2zbvkb35m2gegodvjbsaxr6u",
+          "uri": "at://did:plc:xo6giww5xldglc76xhlnwa5h/app.bsky.feed.post/3mep6xpviws2a"
+        },
+        "root": {
+          "cid": "bafyreihxq3mdlpqva2jahuwrjjho2qg7cc2xkremuhqzcsbypjj4ibn54y",
+          "uri": "at://did:plc:xo6giww5xldglc76xhlnwa5h/app.bsky.feed.post/3meoxfmxpjc2a"
+        }
+      },
+      "text": "Yes.  One of the things I absolutely love about PowerShell is the reliability.\n\nOnce you've got something working, it works for N things and will generally work everywhere (Windows, Linux, MacOS).\n\nI also feel like PowerShell in particular should be part of any cyber-security education these days."
+    },
+    "cid": "bafyreihepyghapdnupzzg6m4nc3o3idyu7ki7xc5vbvvshdgp6j6rljun4"
+  }
+}
