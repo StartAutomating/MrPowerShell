@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770944366329547,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mepcixqe7526",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mepcix4jp22w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-13T00:59:25.413Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiamyqdaq3rxzmtna7om5iaa257rb73uo4p4q6wey7jhx2abr23mqu",
+          "uri": "at://did:plc:bay2rtx3zmj2grd63mc4tpm4/app.bsky.feed.post/3mepbrn3qyc2c"
+        },
+        "root": {
+          "cid": "bafyreihxq3mdlpqva2jahuwrjjho2qg7cc2xkremuhqzcsbypjj4ibn54y",
+          "uri": "at://did:plc:xo6giww5xldglc76xhlnwa5h/app.bsky.feed.post/3meoxfmxpjc2a"
+        }
+      },
+      "text": "I feel ya (refer to bio)\n\nA language that at least tries to be _somewhat_ easy appeals to me much more than, say, learning Brain****.\n\nI can dive deep if I need to, but love making it easy so I never have to think of it again."
+    },
+    "cid": "bafyreidzrkwvegcr7nx6k4olnbmdzizqphzj2u3d5a723v37p2hdjp26im"
+  }
+}
