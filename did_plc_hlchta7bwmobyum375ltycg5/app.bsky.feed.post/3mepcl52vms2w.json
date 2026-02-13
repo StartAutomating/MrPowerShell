@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770944439275461,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mepcl5fvmm2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mepcl52vms2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-13T01:00:38.76Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib5ilnndspr6fzs3tagtsncf4jgusli4hnybmi3dq3xdyr4p5yocu",
+          "uri": "at://did:plc:bay2rtx3zmj2grd63mc4tpm4/app.bsky.feed.post/3mepbrndwpc2c"
+        },
+        "root": {
+          "cid": "bafyreihxq3mdlpqva2jahuwrjjho2qg7cc2xkremuhqzcsbypjj4ibn54y",
+          "uri": "at://did:plc:xo6giww5xldglc76xhlnwa5h/app.bsky.feed.post/3meoxfmxpjc2a"
+        }
+      },
+      "text": "Honestly same here, at least since the days of Apple II / Early Mac.\n\nApple II was open and Early Mac was understandable and had cool concepts and easy languages.\n\nThen the walled garden grew.\n\nNo personal interest in going there.\n\nToo rich for my blood."
+    },
+    "cid": "bafyreihamoapilgulvxojvdjxcp5aq2657ggnk2ffltsbgfq53mznfypku"
+  }
+}
