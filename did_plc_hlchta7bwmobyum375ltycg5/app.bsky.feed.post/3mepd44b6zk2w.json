@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770945008865187,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mepd44meqx2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mepd44b6zk2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-13T01:10:08.343Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicug4fbao2t655bljpk3ecoxdm6auhxzofiqueg3nlubwpz4gpby4",
+          "uri": "at://did:plc:xo6giww5xldglc76xhlnwa5h/app.bsky.feed.post/3mepcuehc6s2a"
+        },
+        "root": {
+          "cid": "bafyreihxq3mdlpqva2jahuwrjjho2qg7cc2xkremuhqzcsbypjj4ibn54y",
+          "uri": "at://did:plc:xo6giww5xldglc76xhlnwa5h/app.bsky.feed.post/3meoxfmxpjc2a"
+        }
+      },
+      "text": "Yep.\n\nHonestly almost nothing more satisfying than an easy to understand command line that does something cool / useful.\n\n(Though, sadly, Linux has a bit to be desired on the usability front)\n\nPowerShell on the other hand, can basically be natural language (though some people prefer pure verb-noun)"
+    },
+    "cid": "bafyreiccjikz7qkouqtouppv6n3wyrfpgabd7wfaok5u6zudgicmuvudbi"
+  }
+}
