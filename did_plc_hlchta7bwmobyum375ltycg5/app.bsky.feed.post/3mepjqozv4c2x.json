@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1770952145897039,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mepjqp3m5p2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mepjqozv4c2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-13T03:09:01.565Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibku4mpckj4b3rpk5ujotzrsrsjzwxyi3wgbtjumfj5usck5bs7ie",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mepik5h6ok2f"
+        },
+        "root": {
+          "cid": "bafyreicp2mxshd6fcfaat5x64elwm5fw4lgzmlymbdjvlav2nj2dolasjq",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3meoagjy5gk23"
+        }
+      },
+      "text": "I hear you and look forward to seeing what it produces.\n\nI still might spend some of my weekend on this use case, for I think \"old PowerShell specs into a decent static site\" might be a bit of a public good.\n\n( And a good little demo / proof of concept )"
+    },
+    "cid": "bafyreifo545jwedni3u4sxswjwx7ihqxcqx5h7sbg6cjk4lgz6gk5rm3qe"
+  }
+}
