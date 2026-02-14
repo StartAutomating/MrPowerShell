@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771110039769073,
+  "kind": "commit",
+  "commit": {
+    "rev": "3meu4sg2dof2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3meu4se2f322b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-14T23:00:37.204Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: I've been told technically correct is the best kind of correct, but I'm not quite sure that is technically correct.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihjqrzaon2zzvozanyjbcfdlgt2msplht6sc7dqfib4j6wq3bi5ku"
+            },
+            "mimeType": "image/jpeg",
+            "size": 834451
+          },
+          "title": "a cartoon of a man holding a piece of paper with the number 7 on it",
+          "uri": "https://media.tenor.com/ZnbXf9Ix1hEAAAAC/technically-correct-the-best-kind-of-correct.gif?hh=373&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://youtu.be/r4oPXHWrqVI"
+            }
+          ],
+          "index": {
+            "byteEnd": 84,
+            "byteStart": 64
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihwnvllp5iboqoqhrjjzoo5ft75med7flarqqwih7tf5d7zai6x3i",
+          "uri": "at://did:plc:phcuuddubu7rcz47eer2alnq/app.bsky.feed.post/3meu4kz64ks2j"
+        },
+        "root": {
+          "cid": "bafyreibj3wkyk2qofv3ouvzemqxo5lknb6zu6uvtqsbkcnynsylp3vomey",
+          "uri": "at://did:plc:vdudhjzsai7w56shhkc6ee25/app.bsky.feed.post/3metsxsuwp22n"
+        }
+      },
+      "text": "Technically correct.  😆\n\nReminds me of the Bureaucrat song:\n\nyoutu.be/r4oPXHWrqVI"
+    },
+    "cid": "bafyreigewbvogsbocetqnzmywj4l5f43o6uu7gxlqcmpsbyuqbxleliilq"
+  }
+}
