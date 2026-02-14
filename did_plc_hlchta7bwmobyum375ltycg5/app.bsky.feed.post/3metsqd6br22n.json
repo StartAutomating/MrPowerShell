@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771099232078992,
+  "kind": "commit",
+  "commit": {
+    "rev": "3metsqd6zuw2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3metsqd6br22n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-14T20:00:31.757Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiheqg37bokxle4v3xwkxbpmftysxyyacvezrmexhhkcm443ieizze",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3metsng7w322n"
+        },
+        "root": {
+          "cid": "bafyreiheqg37bokxle4v3xwkxbpmftysxyyacvezrmexhhkcm443ieizze",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3metsng7w322n"
+        }
+      },
+      "text": "This is doing it on the network level, which is nice, because it means you can get the capability for free even if you never thought about developing it.\n\nWhich is to say:\n\nGreat innovation!\n\nNow 🙏 give us more useful content type choices, too."
+    },
+    "cid": "bafyreiclwsspnajmplsrufwax5v74ax5efourw676nlu6hzra7fwdhlrx4"
+  }
+}
