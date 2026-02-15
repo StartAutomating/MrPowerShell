@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771191165568080,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mewie5xacq2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mewie5ecvk2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-15T21:32:44.806Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreickpn7tidd6i2wzo6z5ofnfuffbf66sbvqbib2wcczktqwj7dfbm4",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mevvbzvfm22r"
+        },
+        "root": {
+          "cid": "bafyreicp2mxshd6fcfaat5x64elwm5fw4lgzmlymbdjvlav2nj2dolasjq",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3meoagjy5gk23"
+        }
+      },
+      "text": "Finally started whittling on this a bit earlier today.\n\nAlso found the same two corrupted docx files.\n\n(and also found a few things I want to fix in the OpenXML module)\n\nque sera sera\n\nWill be trying to refactor, simplify, and distil into quintessence"
+    },
+    "cid": "bafyreiddld62f6r3gfix2sdmz7qttunrjcj43uarqskkljrgkc2nvgcgcm"
+  }
+}
