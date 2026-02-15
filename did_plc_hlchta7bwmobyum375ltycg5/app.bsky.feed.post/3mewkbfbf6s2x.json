@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771193220436859,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mewkbfkbvb2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mewkbfbf6s2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-15T22:06:59.92Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$TABLE"
+            }
+          ],
+          "index": {
+            "byteEnd": 154,
+            "byteStart": 148
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiay4i23nunt64mdpyiqtjranqnmtycs54ci6jucpkeumyvh37yzf4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mewjxjphfk2e"
+        },
+        "root": {
+          "cid": "bafyreicp2mxshd6fcfaat5x64elwm5fw4lgzmlymbdjvlav2nj2dolasjq",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3meoagjy5gk23"
+        }
+      },
+      "text": "For example, I'm adding some properties to enumerate tables within a document, and then letting you get a jagged array of text\n\ni.e.\n\n~~~PowerShell\n$table.Text[0][0] # get the text from the first row and column\n~~~"
+    },
+    "cid": "bafyreigdsmtfw5uzozmb4b37w2kgzp6knabk7fa2atupjdndj4jdffiq7a"
+  }
+}
