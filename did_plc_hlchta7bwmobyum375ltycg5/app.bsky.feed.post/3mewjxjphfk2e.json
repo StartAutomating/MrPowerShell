@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771192889982939,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mewjxkki7w2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mewjxjphfk2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-15T22:01:29.03Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiddb7ndkylpbyffty6oor55hzw53m5dn6gvbk2ey6363qdbraohpe",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mewjqyxses23"
+        },
+        "root": {
+          "cid": "bafyreicp2mxshd6fcfaat5x64elwm5fw4lgzmlymbdjvlav2nj2dolasjq",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3meoagjy5gk23"
+        }
+      },
+      "text": "The road I'm currently walking is basically taking anything generic enough from what you're doing and integrating it into the module / object model it produces.\n\nAt the end of that road we should be able to handle a new spec tomorrow."
+    },
+    "cid": "bafyreiay4i23nunt64mdpyiqtjranqnmtycs54ci6jucpkeumyvh37yzf4"
+  }
+}
