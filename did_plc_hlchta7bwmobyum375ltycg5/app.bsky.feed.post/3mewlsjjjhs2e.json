@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771194868909848,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mewlsjqaob23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mewlsjjjhs2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-15T22:34:28.547Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihl7pt3mvlm3i7tdkdx4ql57lhmo5bwlqzvessol4er5oh5kagcjq",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mewlbrboac23"
+        },
+        "root": {
+          "cid": "bafyreicp2mxshd6fcfaat5x64elwm5fw4lgzmlymbdjvlav2nj2dolasjq",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3meoagjy5gk23"
+        }
+      },
+      "text": "Oh sadly I already know the OpenXML schemas painfully well.\n\nThe problem is that, like it's competitor, it wasn't ever really designed for human consumption.\n\nThus closing the gaps involves not just grunt work but some wisdom.\n\nAnd a catalyst ( like this project )"
+    },
+    "cid": "bafyreign45xebzrwluplmjd5zkeplqujfbbnasmtbblwsd7gfugxuu2une"
+  }
+}
