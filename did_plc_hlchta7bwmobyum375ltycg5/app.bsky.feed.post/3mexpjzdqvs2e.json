@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771233237781715,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mexpjz3tqg2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mexpjzdqvs2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-16T09:13:57.852Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieypreltorfqeb5iyygmwia2bllrzhxxltgb7q4km5luede3gchrq",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3mexmnpr27c2l"
+        },
+        "root": {
+          "cid": "bafyreicp2mxshd6fcfaat5x64elwm5fw4lgzmlymbdjvlav2nj2dolasjq",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3meoagjy5gk23"
+        }
+      },
+      "text": "Yes, and, in the case of CSS in particular compile time validation can be quite bad / limiting.  It's been constantly changing for decades and it's canonically acceptable to reference elements and attributes that are not standard.\n\nI cannot strongly type that which is inherently weakly typed."
+    },
+    "cid": "bafyreihcezkf4noguo7hzlmqu5fghjvlhsxopdgoj7qe2ndq5ntab2tjie"
+  }
+}
