@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771228126696794,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mexkros2v526",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mexkrorr5k2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-16T07:48:46.502Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigofayqrkqg77jpljpkyrzxqz43nxelnhfba623huxa5qxytqoscy",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3mexklyhwjs2f"
+        },
+        "root": {
+          "cid": "bafyreicp2mxshd6fcfaat5x64elwm5fw4lgzmlymbdjvlav2nj2dolasjq",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3meoagjy5gk23"
+        }
+      },
+      "text": "Yeah, I deeply appreciate you starting the thread asking for updates...\n\nThis is another reason why I end up preferring the extended types approach:\n\nLoads fast enough.\n\nWorks everywhere, often on any version of PowerShell."
+    },
+    "cid": "bafyreia5ftogqqzsnhj3dwm2mo7v7f4uz6j636piizae2czn4sve5x5qfy"
+  }
+}
