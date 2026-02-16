@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771227967694576,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mexkmx5sia26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mexkmx46p22e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-16T07:46:07.46Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicaka7d65nusncpema5njfrbyxkachuh2i37c4lb6x7qc3cqtoniy",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3mexkhjuib22f"
+        },
+        "root": {
+          "cid": "bafyreicp2mxshd6fcfaat5x64elwm5fw4lgzmlymbdjvlav2nj2dolasjq",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3meoagjy5gk23"
+        }
+      },
+      "text": "What of formats that can't really be strictly typed, like CSS?\n\nHow much gain do the types really give?\n\nAnd, most peritently, how much damage do they do over time ?\n\nHaven't you made modules just because other strong types don't get updated as often as they should?"
+    },
+    "cid": "bafyreic2jyavh2kn4nhjomppiqy6kylp7zaoxq4mjmh2iv5k7smm6mwqli"
+  }
+}
