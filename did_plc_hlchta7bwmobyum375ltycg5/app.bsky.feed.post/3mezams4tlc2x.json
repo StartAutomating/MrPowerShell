@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771285944760500,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mezamsffga2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mezams4tlc2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-16T23:52:24.297Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif5ke6noxnuw6k3pjbkp5op4d4b3etbc5fwsu7ehchb2kku64j4nq",
+          "uri": "at://did:plc:dfpywwbzcdeoovd73h2nxbrj/app.bsky.feed.post/3mez6b226efp2"
+        },
+        "root": {
+          "cid": "bafyreif2bycaawoaxsb7q67d6lhpbdjy3gsshpfjibhzdt3qr6zmhcuwbi",
+          "uri": "at://did:plc:dfpywwbzcdeoovd73h2nxbrj/app.bsky.feed.post/3mez63uv4lzm2"
+        }
+      },
+      "text": "Would you like a workaround that doesn't involve any quoting?\n\nI figured out a pretty useful trick for this a couple of years ago.\n\nIt fits in a post.\n\nHappy to share."
+    },
+    "cid": "bafyreid2oqzdxlnhf7n2uteraqc6bqnqignhxk5o5x7a3cl2zommqk3keq"
+  }
+}
