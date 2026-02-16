@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771272045792524,
+  "kind": "commit",
+  "commit": {
+    "rev": "3meytoiowbo2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3meytoh2jk22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-16T20:00:41.153Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Calculate Return on Investment. Contribute to StartAutomating/ROI development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreia2ljjyyaw6bg4v34g34kepvltlpy4gfiyxhsv3s5i6ji7nktxeq4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 192903
+          },
+          "title": "GitHub - StartAutomating/ROI: Calculate Return on Investment",
+          "uri": "https://github.com/StartAutomating/ROI"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/ROI"
+            }
+          ],
+          "index": {
+            "byteEnd": 91,
+            "byteStart": 65
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 280,
+            "byteStart": 277
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Hey #PowerShell people, I made a mini-module this weekend:\n\nROI: github.com/StartAutomat...\n\nSimple Return on Investment calculator.\n\nIt has some pretty interesting examples:\n\nMy top 3:\n\n1. The ROI for writing Open Source\n2. The ROI of Automation\n3. The highly volatile ROI of #AI"
+    },
+    "cid": "bafyreigbfi6jv434meplsplos7heli43uqptec25snunbnhe2xyj2zobtu"
+  }
+}
