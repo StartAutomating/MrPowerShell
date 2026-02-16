@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771199996492436,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mewqldrzd42e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mewqldlxx22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-15T23:59:56.165Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaqsyqmniwarwsm2fvn7iq4itjuwes7bteoikfsm26vuth2kcm4yq",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mewq77thok23"
+        },
+        "root": {
+          "cid": "bafyreicp2mxshd6fcfaat5x64elwm5fw4lgzmlymbdjvlav2nj2dolasjq",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3meoagjy5gk23"
+        }
+      },
+      "text": "The high level trick to all formats is to use an underlying existing rich object that will give maximum flexibility and good enough performance.\n\nThis avoids copying, which is what makes things slower.\n\nFor example, for XML, we've got XmlDocument\n\nFor something binary, we have MemoryStream"
+    },
+    "cid": "bafyreibb2uohfy2dwjw4fdkbphylab4tpddpl5mxf7zqp6dfhc665g6npu"
+  }
+}
