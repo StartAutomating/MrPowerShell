@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771232927087974,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mexpaqqpze2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mexpardwbk2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-16T09:08:47.478Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiej7disfjnbj26ic3xmaov76ju6q7c7lta62tdfwzjkmfr3ddvq6e",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3mexnpafd5s2l"
+        },
+        "root": {
+          "cid": "bafyreicp2mxshd6fcfaat5x64elwm5fw4lgzmlymbdjvlav2nj2dolasjq",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3meoagjy5gk23"
+        }
+      },
+      "text": "Honestly this is the bigger point I agree with much more...\n\nI don't want N layers between the implementation and my code.\n\nTaking the MIDI stuff as an example, it took a decent amount of digging thru dependencies to find a \"raw\" reference implementation.\n\nEasier to port that than require N things."
+    },
+    "cid": "bafyreibkikpwdpttvbo5l6thrqyuksztl76wimbf6d7on5qkxzowf4lzqi"
+  }
+}
