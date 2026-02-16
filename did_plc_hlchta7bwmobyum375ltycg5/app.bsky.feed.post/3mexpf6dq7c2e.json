@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771233074796989,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mexpf5r5h62k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mexpf6dq7c2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-16T09:11:15.321Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiafmamiux6ebu54uwu6mf3rzwbh57fjuchibdkh35ijj7mwdpvkoi",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3mexntcpdlk2l"
+        },
+        "root": {
+          "cid": "bafyreicp2mxshd6fcfaat5x64elwm5fw4lgzmlymbdjvlav2nj2dolasjq",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3meoagjy5gk23"
+        }
+      },
+      "text": "True, and, also, providing I limited myself to what's \"in box\", all of those assemblies will be loaded by the time I am trying to run.\n\nHonestly YaYaml is about the only non-Microsoft module with binaries I'll load with some regularity.\n\nBut I do love miminal dependencies more than most..."
+    },
+    "cid": "bafyreifymezzhptc632noohznpgxlk3wpjcmqs5qqynrg65ox7bxw3ppte"
+  }
+}
