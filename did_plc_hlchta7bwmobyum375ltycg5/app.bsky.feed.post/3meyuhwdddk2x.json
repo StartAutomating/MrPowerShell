@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771272896703607,
+  "kind": "commit",
+  "commit": {
+    "rev": "3meyuhwtbmy2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3meyuhwdddk2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-16T20:14:56.031Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif7oj6cztrtzpcj3tmpqbud7optc6zwhs4zy76oxaza5mp6ctv3ii",
+          "uri": "at://did:plc:nsakitq2z32tjok52mnrnt3x/app.bsky.feed.post/3meyhswjens2x"
+        },
+        "root": {
+          "cid": "bafyreif7oj6cztrtzpcj3tmpqbud7optc6zwhs4zy76oxaza5mp6ctv3ii",
+          "uri": "at://did:plc:nsakitq2z32tjok52mnrnt3x/app.bsky.feed.post/3meyhswjens2x"
+        }
+      },
+      "text": "You can use PowerShell to export lists of files from explorer, or finder, or a Linux filesystem.\n\nAll of them are the same from PowerShell's perspective:\n\n~~~PowerShell\ndir -Path $SomeFolder -File |\n    Select-Object -ExpandProperty Path > ./ListOfFiles.txt\n~~~"
+    },
+    "cid": "bafyreiczathwljaumm2743tynk5bttbxex4kdjgafxckwhyz7t52xcy65u"
+  }
+}
