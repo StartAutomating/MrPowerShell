@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771292506275644,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mezgqdxgku2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mezgqfu6hs2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-17T01:41:48.1Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie5ktqd7i2b6ve7txjoxrregmbbtmwg5dnsp2vpf6wgrw52xpzmum",
+          "uri": "at://did:plc:jnj7wcwuvspxdsipmecmx7rs/app.bsky.feed.post/3mezgigay3s2y"
+        },
+        "root": {
+          "cid": "bafyreidrc5dtvski5fffqv4xfunewcskkzwbr4dii4tn33u4rxvts32tmy",
+          "uri": "at://did:plc:jnj7wcwuvspxdsipmecmx7rs/app.bsky.feed.post/3mezd7iyp3k2y"
+        }
+      },
+      "text": "Ah, that resonates much better.\n\nPowerShell I love.  It's terminal UI 🤷 ( not so much ).\n\nBetter than CMD, but that says so little.\n\nThis is why I build web stuff atop PowerShell instead.\n\nEscape the terminal.\n\nPlus this way PowerShell can just stream out HTML / CSS / JavaScript / SVG."
+    },
+    "cid": "bafyreibxvqffrhtr6ifpmulw2fhuoevj2xgud3h4bapngaikoecyo2x3km"
+  }
+}
