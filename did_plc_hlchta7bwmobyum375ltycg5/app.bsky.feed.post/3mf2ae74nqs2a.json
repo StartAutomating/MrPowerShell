@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771320013898135,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf2ae55j2y2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf2ae74nqs2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-17T09:20:15.671Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihjzmyqxv6tx5ga2eqyubvsmocp2lkroish4evg7x5qmk3tjrx5ja",
+          "uri": "at://did:plc:b7hvnlg42s4requvwvfrhkwi/app.bsky.feed.post/3mezxwwtjlc2s"
+        },
+        "root": {
+          "cid": "bafyreihxt6jd7bgp4onmiu5qlhdzgaddogixhlbttfbln477fcqp5k3h3u",
+          "uri": "at://did:plc:d4hfzmm2is6yyuezyfurkmwi/app.bsky.feed.post/3mezwhis5yk2j"
+        }
+      },
+      "text": "I don't think simplicity was actually ever the main goal of the registry.\n\nI think security and data size were its main reasons for being.\n\nAnd 🤷 eventually everyone just came to prefer the simple approach (key value pairs, json, csv, etc).\n\nThat's why there's a mix of both these days."
+    },
+    "cid": "bafyreih5nnex24lfjrdww7dp33t7gtmbcj65k5s6onyayibl5enfsr7ble"
+  }
+}
