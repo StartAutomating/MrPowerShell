@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771362794354676,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf3i73wfsg2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf3i73nidc2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-17T21:13:13.929Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibe5xnh5bhmxmzuxxv5ob3jytowasweadea4gn5vtt3cngfabmmfe",
+          "uri": "at://did:plc:waaktpm6r63m5frsf7itvkjn/app.bsky.feed.post/3mf3hvefrfc25"
+        },
+        "root": {
+          "cid": "bafyreidzz6uhn3rcpycwhtrhidblkhp5did5qd42aw4omoozsee7gwhngq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mez5zhy2uc2x"
+        }
+      },
+      "text": "I think that means you also think that PowerShell -gt Terminal 😉.\n\nFor me it's just a shorthand for \"I'll take the language that does the most before I care about what terminal it runs in\""
+    },
+    "cid": "bafyreidhbdlcpahvggk6kw2v6ryq2ewligpotdldwwbhaqp3rly63bpa7y"
+  }
+}
