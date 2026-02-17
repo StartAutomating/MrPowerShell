@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771360634156762,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf3g6prwo62z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf3g6py4ps2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-17T20:37:14.211Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidoltk6cfovzrx23y7aa2azxw4iuwu7bvbzzlljxb42jpjjia7l2m",
+          "uri": "at://did:plc:bjsxnxjeeugoc2csou7awqrp/app.bsky.feed.post/3mf3fr6mj2c27"
+        },
+        "root": {
+          "cid": "bafyreiaui7zdak3ja3b62yznc5l4nvtv5sisittkp2c4ssy6awhlfnjs7m",
+          "uri": "at://did:plc:n4v3w2lmcptvczaspsyanfhy/app.bsky.feed.post/3mf2scyelcc2s"
+        }
+      },
+      "text": "Same.\n\nWhy crack open a gui without history and variables when you can crack open a PowerShell window and just type in your formulas?\n\nThis reminds me I need to eventually make a MathML -> PowerShell converter."
+    },
+    "cid": "bafyreicxn67yyolpdkmua3cigjjj5u6wt2b45a4szh23ankgil2lyjbeue"
+  }
+}
