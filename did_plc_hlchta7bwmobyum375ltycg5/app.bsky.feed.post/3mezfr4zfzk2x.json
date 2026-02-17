@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771291461408746,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mezfr77mdm2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mezfr4zfzk2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-17T01:24:18.647Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Warp supports popular shells across macOS, Windows, and Linux. On macOS and Linux, this includes bash, zsh, fish, and PowerShell (pwsh). On Windows, this includes PowerShell 5 & 7, WSL2, and Git Bash.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreif55isihawyw673spqnds7y6cfzjtybbgh6rkor2l7h6wbspgdhqy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 932448
+          },
+          "title": "Supported Shells | Warp",
+          "uri": "https://docs.warp.dev/getting-started/supported-shells"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://docs.warp.dev/getting-started/supported-shells"
+            }
+          ],
+          "index": {
+            "byteEnd": 92,
+            "byteStart": 63
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidrc5dtvski5fffqv4xfunewcskkzwbr4dii4tn33u4rxvts32tmy",
+          "uri": "at://did:plc:jnj7wcwuvspxdsipmecmx7rs/app.bsky.feed.post/3mezd7iyp3k2y"
+        },
+        "root": {
+          "cid": "bafyreidrc5dtvski5fffqv4xfunewcskkzwbr4dii4tn33u4rxvts32tmy",
+          "uri": "at://did:plc:jnj7wcwuvspxdsipmecmx7rs/app.bsky.feed.post/3mezd7iyp3k2y"
+        }
+      },
+      "text": "Hate to be the bearer of good news, but Warp uses PowerShell.\n\ndocs.warp.dev/getting-star..."
+    },
+    "cid": "bafyreihioyybcd3yt2ud2xtwvx6mugdi3hzc5ypk4rkprrwc3lxfndfmse"
+  }
+}
