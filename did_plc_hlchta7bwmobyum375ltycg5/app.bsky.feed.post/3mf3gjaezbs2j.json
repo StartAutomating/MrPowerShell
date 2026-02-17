@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771360988084000,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf3gjaugq42c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf3gjaezbs2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-17T20:43:06.956Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Prof Michael Wooldridge says scenario such as deadly self-driving car update or AI hack could destroy global interest",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreichjtjf6stuegomr5demiks5jesuvp7tn6aubgxciife4y5id3sau"
+            },
+            "mimeType": "image/jpeg",
+            "size": 357157
+          },
+          "title": "Race for AI is making Hindenburg-style disaster ‘a real risk’, says leading expert",
+          "uri": "https://www.theguardian.com/science/2026/feb/17/ai-race-hindenburg-style-disaster-a-real-risk-michael-wooldridge"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.theguardian.com/science/2026/feb/17/ai-race-hindenburg-style-disaster-a-real-risk-michael-wooldridge"
+            }
+          ],
+          "index": {
+            "byteEnd": 79,
+            "byteStart": 44
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Interesting article about the risks of AI:\n\nwww.theguardian.com/science/2026...\n\nJokingly: if/when this happens, will we say \"Oh the Inhumanity?\"\n\nThe sad truth of the article is that the author does not know disasters of automation run amok have already happened."
+    },
+    "cid": "bafyreibzncuze452tqdejotlyd3a25hmc67wmq7glrrmnpptvzf4v74yqy"
+  }
+}
