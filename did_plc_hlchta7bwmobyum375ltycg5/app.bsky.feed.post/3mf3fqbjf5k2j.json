@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771360149367230,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf3fqbfmkc2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf3fqbjf5k2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-17T20:29:09.287Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibhoyykd572j4yhr4s7q4m73qbhbtrm4ckhzmt42au2pyumaadd2u",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mf2zspqbss2g"
+        },
+        "root": {
+          "cid": "bafyreidzz6uhn3rcpycwhtrhidblkhp5did5qd42aw4omoozsee7gwhngq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mez5zhy2uc2x"
+        }
+      },
+      "text": "PowerShell -gt Terminal\n\nAnd, also, a good Terminal to run PowerShell in makes PowerShell a bit more fun."
+    },
+    "cid": "bafyreiacmaqeajpbh3u7ikh2p4j5kjl7wd5g7oefrucauy4lkpayhrkzne"
+  }
+}
