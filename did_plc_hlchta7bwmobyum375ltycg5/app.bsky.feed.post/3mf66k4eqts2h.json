@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771455506660564,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf66k5a5ea2x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf66k4eqts2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T22:58:25.588Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidetq5ylr7gp6hluxcesd624dqpai4o2dyaspz7zsc2tayhn4h2ie",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf646zs2qs22"
+        },
+        "root": {
+          "cid": "bafyreiel7lc4jegldoo47sby6lkjuowld5dsgfk7ua3bj3doadttkjxv3m",
+          "uri": "at://did:plc:jaxyx65mjxshjt2uoyvfvn3a/app.bsky.feed.post/3mf5op7522s23"
+        }
+      },
+      "text": "True.\n\nThough I suppose once you're in PowerShell on Linux everything is objects ( and files are objects )\n\n🤣 Truly the best of both worlds 🤣"
+    },
+    "cid": "bafyreidekeng55cymlyzosxjoyex5vi5lww4aknrp3auksjrndpvu747ry"
+  }
+}
