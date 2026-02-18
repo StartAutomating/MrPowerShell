@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771444859079888,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf5umsv3ur2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf5umupvtc2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T20:01:00.809Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif233tnyc67zdthc2xwrqrbfqn77dx3crk6nucvk5gsw5zuibmzoa",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf5twhi6qs2t"
+        },
+        "root": {
+          "cid": "bafyreiel7lc4jegldoo47sby6lkjuowld5dsgfk7ua3bj3doadttkjxv3m",
+          "uri": "at://did:plc:jaxyx65mjxshjt2uoyvfvn3a/app.bsky.feed.post/3mf5op7522s23"
+        }
+      },
+      "text": "Indeed it is.  And you're talking thru Turtles right now.\n\nRead the history article.\n\nGet to the fun about fonts.\n\nEach font glyph is a Turtle.\n\nLiving in a 2k box.\n\nFonts are Turtles all the way down.\nBrowsers are built atop these boxes.\n\nReally is Turtles all the way down."
+    },
+    "cid": "bafyreib4vmvayhkjdzovadpwt3tx6toeutvp6dgna4a2h2zysltysbs4ea"
+  }
+}
