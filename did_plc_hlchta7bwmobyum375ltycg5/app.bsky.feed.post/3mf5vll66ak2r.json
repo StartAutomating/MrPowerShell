@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771445889171393,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf5vljdltb2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf5vll66ak2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T20:18:10.979Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihc5cx5ao3p3orcozrwilfjvjbnoowuv5j5jzj55s52cebxe7uzki",
+          "uri": "at://did:plc:atjq4khzuijrwft77bga5xp4/app.bsky.feed.post/3mf5otey6mc2z"
+        },
+        "root": {
+          "cid": "bafyreihc5cx5ao3p3orcozrwilfjvjbnoowuv5j5jzj55s52cebxe7uzki",
+          "uri": "at://did:plc:atjq4khzuijrwft77bga5xp4/app.bsky.feed.post/3mf5otey6mc2z"
+        }
+      },
+      "text": "I try not to hate.\n\n( these times and certain technologies make that hard )"
+    },
+    "cid": "bafyreid7zyaou2wkmlkgdgjsn75uqcrtod3m6hj7uq7lpqiqum4x4daffy"
+  }
+}
