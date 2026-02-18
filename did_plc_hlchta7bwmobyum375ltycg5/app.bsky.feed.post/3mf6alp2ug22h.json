@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771457708819659,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf6alqr7fu2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf6alp2ug22h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T23:35:06.224Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "1h 19m | Approved",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreie2b4nu3rukxa32kbrloa6vihhga4vrzhzp4uq2pdeln7vzorvk3e"
+            },
+            "mimeType": "image/jpeg",
+            "size": 673199
+          },
+          "title": "Plan 9 from Outer Space (1958) ⭐ 3.9 | Horror, Sci-Fi",
+          "uri": "https://m.imdb.com/title/tt0052077/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://m.imdb.com/title/tt0052077/"
+            }
+          ],
+          "index": {
+            "byteEnd": 211,
+            "byteStart": 185
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibhfp5rzcg72wyuj5zkw5fcbszfpu2elrk2i4hpwjcfzh2nnkuk2i",
+          "uri": "at://did:plc:i5mvo22kcxsmqn6e3lgjbfnf/app.bsky.feed.post/3mf67rtzays2k"
+        },
+        "root": {
+          "cid": "bafyreiel7lc4jegldoo47sby6lkjuowld5dsgfk7ua3bj3doadttkjxv3m",
+          "uri": "at://did:plc:jaxyx65mjxshjt2uoyvfvn3a/app.bsky.feed.post/3mf5op7522s23"
+        }
+      },
+      "text": "To be fair, neither did \"Plan 9 from Outer Space\".\n\nStill prefer the PowerShell \"everything is objects\" to \"everything is files\" ( Unix/Linux ) or \"everything is pointers\" ( Windows )\n\nm.imdb.com/title/tt0052..."
+    },
+    "cid": "bafyreihhg3sowno27vefr7ffx6iuehn2mwghodkomxe7lxzm5gdyy4cjgu"
+  }
+}
