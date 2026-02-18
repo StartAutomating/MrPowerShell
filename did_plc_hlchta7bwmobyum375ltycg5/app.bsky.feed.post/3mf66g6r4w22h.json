@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771455374175538,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf66g6vn2f2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf66g6r4w22h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T22:56:13.873Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigfvrzwrtyoepral6bdwt4hyapq5nnzshdmugpcvs7srz5r6gkliy",
+          "uri": "at://did:plc:b6iizj5wzawc6av3g23kvq4l/app.bsky.feed.post/3mf5z4dewtk2o"
+        },
+        "root": {
+          "cid": "bafyreigfvrzwrtyoepral6bdwt4hyapq5nnzshdmugpcvs7srz5r6gkliy",
+          "uri": "at://did:plc:b6iizj5wzawc6av3g23kvq4l/app.bsky.feed.post/3mf5z4dewtk2o"
+        }
+      },
+      "text": "🤞Hopefully you didn't do this.\n\nThis is a known scam.\n\nLooks like Lumma Stealer.\n\nPowerShell can do anything, which is why hackers are so keen to have you just run this random PowerShell."
+    },
+    "cid": "bafyreifsudwlsdkic5mfpgd4b73mff2tetpecihetrdey3jdhiqzidtzf4"
+  }
+}
