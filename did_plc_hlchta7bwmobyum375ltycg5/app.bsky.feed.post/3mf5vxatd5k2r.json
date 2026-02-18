@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771446280953733,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf5vx6wavk2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf5vxatd5k2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T20:24:42.791Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibwjymdysfjwcuxuu4ano6646xkshlce7gvk6lbtpfgm4dn7cm4h4",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf5vogcgkk2c"
+        },
+        "root": {
+          "cid": "bafyreiel7lc4jegldoo47sby6lkjuowld5dsgfk7ua3bj3doadttkjxv3m",
+          "uri": "at://did:plc:jaxyx65mjxshjt2uoyvfvn3a/app.bsky.feed.post/3mf5op7522s23"
+        }
+      },
+      "text": "Yeah.  It's just extra characters.  Who wants to type them anymore ?\n\nFun fact:\n\nYou can have commands named emoji in PowerShell.\n\nWhich makes both of these news lines valid Turtle / PowerShell\n\n🐢 Square 42\n🐢 Rectangle 64 32\n\nBasically almost all natural language/ emoji is valid PowerShell."
+    },
+    "cid": "bafyreig64vdkmspxlydwnr6n2kfdpt2tqf76grj7fvik5qbet36d7kuv5e"
+  }
+}
