@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771445641456775,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf5ve53aic2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf5ve7iee22r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T20:14:03.849Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid3ehwyb7mlfnoixtwzdj2ba7vsbeazstuvu6ygm5htxg5qhdrxsu",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf5v67iazk2k"
+        },
+        "root": {
+          "cid": "bafyreiel7lc4jegldoo47sby6lkjuowld5dsgfk7ua3bj3doadttkjxv3m",
+          "uri": "at://did:plc:jaxyx65mjxshjt2uoyvfvn3a/app.bsky.feed.post/3mf5op7522s23"
+        }
+      },
+      "text": "I would love monospace fonts on BlueSky! \n\n( would make nerdy code posts so much cooler )\n\nAlso guess it works for non-palindromes just fine.\n\nThanks for the images / inspiration!"
+    },
+    "cid": "bafyreiftfllmorch5z7lnac2fwappncq23bqtoo2xns3y2gsz5qia4bvaa"
+  }
+}
