@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771447450268093,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf5x224sqv2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf5x23zk522r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T20:44:12.155Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: I lurch out of the woodwork when people mention PowerShell",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreic45lfc7jlv5xqn7knunqot52zxqx7nvd6cyq4b3oe3ceq4ub2jpm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 147907
+          },
+          "title": "a black and white photo of a man in a tuxedo asking , `` you rang ? ''",
+          "uri": "https://media.tenor.com/Yt6YWEPgVkcAAAAC/you-rang.gif?hh=498&ww=498"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigndrujpiu2iwrsz5qfv4k5wppwx5jvwrhc6glqnzuwytv3qbjjym",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf5rmq7vvc2t"
+        },
+        "root": {
+          "cid": "bafyreiel7lc4jegldoo47sby6lkjuowld5dsgfk7ua3bj3doadttkjxv3m",
+          "uri": "at://did:plc:jaxyx65mjxshjt2uoyvfvn3a/app.bsky.feed.post/3mf5op7522s23"
+        }
+      },
+      "text": "If you're so inclined, I would love to know why PowerShell is scary ( for you or anyone else who wants to answer )"
+    },
+    "cid": "bafyreidtgjbj37wvmj7a53tz7ibvq5nkdav3wc4spuofed4bo7eyzfzswu"
+  }
+}
