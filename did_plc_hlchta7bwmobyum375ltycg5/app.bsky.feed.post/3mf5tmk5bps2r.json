@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771443774853273,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf5tmiidwx2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf5tmk5bps2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T19:42:55.969Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Turtle Graphics in PowerShell.  Draw any image with turtles in a powershell.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreid3bog2oho2jodtgl73oumqlsyg7mdhejq5jb6r3pnyitece3gxmi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 144815
+          },
+          "title": "Get-Turtle",
+          "uri": "https://psturtle.com/Commands/Get-Turtle"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://psturtle.com/Commands/Get-Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 98,
+            "byteStart": 70
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://psturtle.com/History"
+            }
+          ],
+          "index": {
+            "byteEnd": 207,
+            "byteStart": 187
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibdwp5n5aj42vbbzu27kpfxz3uoir2xlkryeocg4hxeavtnu7nyqa",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf5rthx57k2t"
+        },
+        "root": {
+          "cid": "bafyreiel7lc4jegldoo47sby6lkjuowld5dsgfk7ua3bj3doadttkjxv3m",
+          "uri": "at://did:plc:jaxyx65mjxshjt2uoyvfvn3a/app.bsky.feed.post/3mf5op7522s23"
+        }
+      },
+      "text": "Nah.\n\nIt's Turtles all the Way down.\n\nFor pretty pictures and demos:\n\npsturtle.com/Commands/Get...\n\nFor a brief history of Turtles / to understand why this is really true for computing:\n\npsturtle.com/History"
+    },
+    "cid": "bafyreia7fvwd7drogxczcbgufiefveihuod5o2nsnrvtrecmkjwvcm4mq4"
+  }
+}
