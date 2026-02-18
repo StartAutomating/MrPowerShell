@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771448075558414,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf5xmogxlr2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf5xmqvv322r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T20:54:38.037Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifshrr33fyasvcg2wgsu3iotp2aiafrmx3zeshmadpzsypuwsxiqm",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf5xc6dexs2k"
+        },
+        "root": {
+          "cid": "bafyreiel7lc4jegldoo47sby6lkjuowld5dsgfk7ua3bj3doadttkjxv3m",
+          "uri": "at://did:plc:jaxyx65mjxshjt2uoyvfvn3a/app.bsky.feed.post/3mf5op7522s23"
+        }
+      },
+      "text": "🩵 I love being wrong.\n\nToday I Learned something new about Bash I like!\n\nAfaik Bash only has functions and commands ( could be wrong ).\n\nPowerShell has:\n\nAliases\nFilters\nFunctions\nCmdlets\nExternalScripts\nApplications\n\nAnd they resolve in that order.\n\nSo you can do stuff like intercept an exes IO."
+    },
+    "cid": "bafyreib2mcy37m2guell4nuh4jkf2norrpvlpkpuzprpqa4tug6lwqaodu"
+  }
+}
