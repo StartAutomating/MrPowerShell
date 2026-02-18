@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771375097364402,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf3tnqzclw2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf3tnqnpws2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T00:38:16.878Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifo2xkwfkrffhakqhl3ix3fxx2h2ozflhgddi5j7dwaueaic44smm",
+          "uri": "at://did:plc:hpu3iv34br3mmsrwvruwh5ny/app.bsky.feed.post/3mf25jqqss222"
+        },
+        "root": {
+          "cid": "bafyreiaqaxs34vcxz45gni6bx24zfgzpv5darul7gj5awgnef3shrknru4",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mezy3rtidc2b"
+        }
+      },
+      "text": "Only in it's operator style. (thank God / Bruce Payette for that)"
+    },
+    "cid": "bafyreicj3q4neqojoyz4tozorflrz6akufd7p733w4iyoa7hfvurqipv3i"
+  }
+}
