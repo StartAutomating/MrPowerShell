@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771446883261969,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf5wj5dwgb2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf5wj75nls2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T20:34:45.011Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidffyp6jd2cbdbnodbvtseqxn5siewqx5336wjohaq43zhpybr4xu",
+          "uri": "at://did:plc:rlo7o225kqh6fd3vvbfsvdcv/app.bsky.feed.post/3mf4krepkr22o"
+        },
+        "root": {
+          "cid": "bafyreidffyp6jd2cbdbnodbvtseqxn5siewqx5336wjohaq43zhpybr4xu",
+          "uri": "at://did:plc:rlo7o225kqh6fd3vvbfsvdcv/app.bsky.feed.post/3mf4krepkr22o"
+        }
+      },
+      "text": "🤣 rofl\n\nThat's shade thrown / shots fired / misinformation all in one go.\n\nString formatting in PowerShell is the exact same nightmare as string formatting in c#.\n\n*Sprays AI with water* bad AI"
+    },
+    "cid": "bafyreidtlgoop5c6cs3m4mtq22jgllvefd4xeqkzsp4rspz7gkbkgfhozq"
+  }
+}
