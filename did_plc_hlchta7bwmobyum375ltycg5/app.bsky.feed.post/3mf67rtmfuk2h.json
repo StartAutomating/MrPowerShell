@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771456839244363,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf67ru2wgx2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf67rtmfuk2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T23:20:38.578Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifserwwepsdstkiigotinhwneg4cosip3pk3ead62wxa3wqterbvu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mf67mnz2rc2h"
+        },
+        "root": {
+          "cid": "bafyreiel7lc4jegldoo47sby6lkjuowld5dsgfk7ua3bj3doadttkjxv3m",
+          "uri": "at://did:plc:jaxyx65mjxshjt2uoyvfvn3a/app.bsky.feed.post/3mf5op7522s23"
+        }
+      },
+      "text": "There is also the general goal of tech democratization.\n\nLike Microsoft succeeds and grows by helping people succeed and grow.\n\nThat's been the strategy since day 1.\n\nAll the way back when everyone else's strategy was \"make everyone use DEC/Apple/Mac/IBM machines\""
+    },
+    "cid": "bafyreigqopx4cyda3vcntkedof73xc2tezn2qxnfan5vpsd3d44xntcrhi"
+  }
+}
