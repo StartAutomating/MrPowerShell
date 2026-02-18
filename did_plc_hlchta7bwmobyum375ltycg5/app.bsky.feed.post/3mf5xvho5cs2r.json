@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771448368374753,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf5xvfoec32q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf5xvho5cs2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T20:59:30.335Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif75473wegtijv7q25rvk46r7qrstm3vxcxi2kwuq5joug5ye7rh4",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf5xtiyink2u"
+        },
+        "root": {
+          "cid": "bafyreiel7lc4jegldoo47sby6lkjuowld5dsgfk7ua3bj3doadttkjxv3m",
+          "uri": "at://did:plc:jaxyx65mjxshjt2uoyvfvn3a/app.bsky.feed.post/3mf5op7522s23"
+        }
+      },
+      "text": "Lol everything really is a file on Linux."
+    },
+    "cid": "bafyreiffbudcwf4g7qtkmsze5kijtupvobgienhekhhtaiydu6roosbsjq"
+  }
+}
