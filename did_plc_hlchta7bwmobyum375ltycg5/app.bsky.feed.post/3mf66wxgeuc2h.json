@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771455937554899,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf66wy7qwd2x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf66wxgeuc2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T23:05:36.606Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid3ubwr2xvqvluzmyftlsxalk4rkg7ytnb7abfuw26sjgrhnq7sam",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf66olhies22"
+        },
+        "root": {
+          "cid": "bafyreiel7lc4jegldoo47sby6lkjuowld5dsgfk7ua3bj3doadttkjxv3m",
+          "uri": "at://did:plc:jaxyx65mjxshjt2uoyvfvn3a/app.bsky.feed.post/3mf5op7522s23"
+        }
+      },
+      "text": "Lol well that's the thing about Microsoft / all companies...\n\nThey're all made up of lots of people.\n\nMicrosoft has a lot of really good people in all shapes, sizes, and orientations.\n\nAnd they are much bigger allies than most know.\n\nExamples incoming ( cause I'm 🩵 proud of em )"
+    },
+    "cid": "bafyreib3ff27qitxfebtvknumzchi7itmd3efzkzf6b7vyhaegp3jxanr4"
+  }
+}
