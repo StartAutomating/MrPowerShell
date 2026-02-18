@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771445113851698,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf5uufvtva2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf5uuhuyx22r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T20:05:15.781Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiajkxldix6bm3xdzoc7llrzgjs4vql232tyfmclfzyxz3i4qmupdi",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf5uolf6fc2k"
+        },
+        "root": {
+          "cid": "bafyreiel7lc4jegldoo47sby6lkjuowld5dsgfk7ua3bj3doadttkjxv3m",
+          "uri": "at://did:plc:jaxyx65mjxshjt2uoyvfvn3a/app.bsky.feed.post/3mf5op7522s23"
+        }
+      },
+      "text": "Ooh that's actually a really nice demo trick!\n\n🩵\n\nMay make an example that riffs on it.  Should work nicely for any palindrome!"
+    },
+    "cid": "bafyreihu2bp63w3d5bqv7qvilwk3bdndxawhkwiouax5jc7u6u25aht2tq"
+  }
+}
