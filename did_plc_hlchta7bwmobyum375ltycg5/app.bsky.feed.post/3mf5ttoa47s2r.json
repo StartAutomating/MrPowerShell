@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771444012850464,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf5ttluko62q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf5ttoa47s2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T19:46:55.14Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiedashaz6fnqxrmkeg6efugku7hm3a2awy67lknzolzijijpp3wxm",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf5qm5tjls2t"
+        },
+        "root": {
+          "cid": "bafyreiel7lc4jegldoo47sby6lkjuowld5dsgfk7ua3bj3doadttkjxv3m",
+          "uri": "at://did:plc:jaxyx65mjxshjt2uoyvfvn3a/app.bsky.feed.post/3mf5op7522s23"
+        }
+      },
+      "text": "Linux is all files.\n\nWindows is all pointers.\n\nPowerShell is all objects."
+    },
+    "cid": "bafyreidqx2q2xaauc5vmdrlsfmwjkw7qv3dfluhk42cz3ppx3xrc7kf2fe"
+  }
+}
