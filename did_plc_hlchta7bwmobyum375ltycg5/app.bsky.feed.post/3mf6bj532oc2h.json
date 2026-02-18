@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771458694662228,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf6bj5inyl2x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf6bj532oc2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T23:51:33.99Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib5gqfcv2g2y52sm6ohd4p44dzrztckzncj3ocqq2xsjhxtm6if5e",
+          "uri": "at://did:plc:rnpkyqnmsw4ipey6eotbdnnf/app.bsky.feed.post/3mf6bc4j3is2a"
+        },
+        "root": {
+          "cid": "bafyreib5gqfcv2g2y52sm6ohd4p44dzrztckzncj3ocqq2xsjhxtm6if5e",
+          "uri": "at://did:plc:rnpkyqnmsw4ipey6eotbdnnf/app.bsky.feed.post/3mf6bc4j3is2a"
+        }
+      },
+      "text": "💯\n\n1000x yes!\n\nIdentifying problems is easy.\n\nTrying to fix them is really friggin hard."
+    },
+    "cid": "bafyreicna7kbepsvlc66d3rc3a3ui5qun2idoagajq36evtq2bnppz662y"
+  }
+}
