@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771377969527313,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf3wda7z6c2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf3wd7fa422j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T01:26:04.456Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Dial: 605-477-3018 -OR- CLICK TO CALL (if we set this up right?) -OR- (maybe an audio player could work ok?) A? via SoundCloud?B? via a \"Podcast\" on Spotify?C? Via an individual \"Podcast Episodes\" - v...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreib54cf45xdprc5uc6xy6k4colgqrzhacpadygmf5ejvesfpfx74m4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 345615
+          },
+          "title": "2025: RejectionHotline.com ~ @HumorHotlines presents: The RE-Launch of",
+          "uri": "https://thewhatevernetwork.com/collections/rejection-hotline"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://thewhatevernetwork.com/collections/rejection-hotline"
+            }
+          ],
+          "index": {
+            "byteEnd": 90,
+            "byteStart": 52
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidhytsf47passnzs2sql4h5wimsfal363wt6lcc7j5tszerv7g6pi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mf3utw67xs2w"
+        },
+        "root": {
+          "cid": "bafyreigzorbu7xddafyckdn6uewqkevqtw55cj5d35tkpvay6gwpm3klvu",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf3ml3xsw22w"
+        }
+      },
+      "text": "Yes they do!\n\nStill just as funny as ever 😂🤣\n\nthewhatevernetwork.com/collections/...\n\nSharing In case anyone needs a good fake number."
+    },
+    "cid": "bafyreiavukhd7n72btm3thelja6xb75oaqew3na3wvhdtmmmxnrixlq2xy"
+  }
+}
