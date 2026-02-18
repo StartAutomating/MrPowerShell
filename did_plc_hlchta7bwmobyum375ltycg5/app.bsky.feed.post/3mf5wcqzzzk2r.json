@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771446666553335,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf5wcon32m2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf5wcqzzzk2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T20:31:08.887Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigpu5t3dvdbzdfan76azywgxswpclydeeygjt3fafckmzkts6tat4",
+          "uri": "at://did:plc:rynkfxmx4c7av4sfi46qfzl6/app.bsky.feed.post/3mf5kig4uic2n"
+        },
+        "root": {
+          "cid": "bafyreigpu5t3dvdbzdfan76azywgxswpclydeeygjt3fafckmzkts6tat4",
+          "uri": "at://did:plc:rynkfxmx4c7av4sfi46qfzl6/app.bsky.feed.post/3mf5kig4uic2n"
+        }
+      },
+      "text": "Because then you'd have an awesome cross platform scripting language installed, and the engine devs wouldn't have to write 3 variations of the same script.\n\nAnd because PowerShell on Linux is fun AF.\n\nIt's been a thing for a decade now."
+    },
+    "cid": "bafyreiaj5vwhf2hqddmrveub2odpnc5ksjso6ngy4hsbqgjgmvrcqfw4xq"
+  }
+}
