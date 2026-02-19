@@ -84,7 +84,7 @@ if (-not $Site) { $Site = [Ordered]@{} }
 if (-not $page) { $page = [Ordered]@{} }
 if (-not $page.MetaData) { $page.MetaData = [Ordered]@{} }
 #endregion Initialize Site and Page
-
+        
 #region Initialize Metadata
 $page.MetaData['og:title'] =
     if ($title) { $title }
@@ -131,34 +131,49 @@ body {
     font-family: '$Font', sans-serif;
     margin: 1em;
 }
+
 header, footer {
     text-align: center;
-    // line-height: .66rem;    
-    // margin: 1em;
 }
 
-/*header > * {
-    display: inline-block
-}*/
+article {
+    background-color: var(--background)
+}
 
 header > svg {
     display: block;
     text-align: center;
 }
 
-$(if ($HeaderMenu) {
-# If the device is in landscape mode, use larger padding and gaps
-"@media (orientation: landscape) {"
-    ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.5em }"
-    ".header-menu-item { text-align: center; padding: 0.5em; }"
-"}"
+$(
+    if ($HeaderMenu) {
+        # If the device is in landscape mode, use larger padding and gaps
+        "@media (orientation: landscape) {"
+            ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.5em }"
+            ".header-menu-item { text-align: center; padding: 0.5em; }"
+        "}"
 
-# If the device is in portrait mode, use smaller padding and gaps
-"@media (orientation: portrait) {"
-    ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(66px, 1fr)); gap: 0.2em }"
-    ".header-menu-item { text-align: center; padding: 0.2em; }"
-"}"
-})
+        # If the device is in portrait mode, use smaller padding and gaps
+        "@media (orientation: portrait) {"
+            ".header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(66px, 1fr)); gap: 0.25em }"
+            ".header-menu-item { text-align: center; padding: 0.25em; }"
+        "}"
+    }
+)
+
+$(
+    if ($FooterMenu) {
+        "@media (orientation: landscape) {"
+            ".footer-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.5em }"
+            ".footer-menu-item { text-align: center; padding: 0.5em; }"
+        "}"
+
+        "@media (orientation: portrait) {"
+            ".footer-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.25em }"
+            ".footer-menu-item { text-align: center; padding: 0.25em; }"
+        "}"
+    }
+)
 
 .logo { 
     display: inline;
@@ -384,17 +399,7 @@ $bodyElements = @(
 
     # * The footer
     "<footer>"
-    if ($FooterMenu) {
-        "<style>"
-        "@media (orientation: landscape) {"
-            ".footer-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 1em }"
-            ".footer-menu-item { text-align: center; padding: 1em; }"
-        "}"
-        "@media (orientation: portrait) {"
-            ".footer-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.5em }"
-            ".footer-menu-item { text-align: center; padding: 0.5em; }"
-        "}"
-        "</style>"
+    if ($FooterMenu) {        
         "<nav class='footer-menu'>"            
         foreach ($menuItem in $FooterMenu.GetEnumerator()) {
             "<a href='$($menuItem.Value)' class='footer-menu-item'>$([Web.HttpUtility]::HtmlEncode($menuItem.Key))</a>"
