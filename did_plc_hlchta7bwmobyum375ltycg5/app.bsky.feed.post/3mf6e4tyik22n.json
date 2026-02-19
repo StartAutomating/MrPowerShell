@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771461504113521,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf6e4ut5lc2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf6e4tyik22n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-19T00:38:23.04Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "My PowerShell modules published to the PowerShell Gallery.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidarwkxp4jmlkkhyk4m7q5cpzbh2nl4tubxpfiblzgsklnuwupzue"
+            },
+            "mimeType": "image/jpeg",
+            "size": 138088
+          },
+          "title": "My PowerShell Modules",
+          "uri": "https://MrPowerShell.com/Modules"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 137,
+            "byteStart": 125
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://MrPowerShell.com/Modules"
+            }
+          ],
+          "index": {
+            "byteEnd": 295,
+            "byteStart": 271
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiftmipybmcstdvju2j3wbmx5r2cd35gqljdicccutogogbd44lmvi",
+          "uri": "at://did:plc:i5mvo22kcxsmqn6e3lgjbfnf/app.bsky.feed.post/3mf6cfgzhzs2k"
+        },
+        "root": {
+          "cid": "bafyreiel7lc4jegldoo47sby6lkjuowld5dsgfk7ua3bj3doadttkjxv3m",
+          "uri": "at://did:plc:jaxyx65mjxshjt2uoyvfvn3a/app.bsky.feed.post/3mf5op7522s23"
+        }
+      },
+      "text": "Thank you!\n\nPresuming you're talking about \"making stuff on Linux\"\n\nThe _real_ bonus points come from making most stuff on a #RaspberryPi.\n\nSo, by default, everything new I make is both cross-platform _and_ cross-architecture.\n\nAnd I make _a lot_ of PowerShell modules.\n\nmrpowershell.com/Modules"
+    },
+    "cid": "bafyreig2bswvmw2ksnhlnz4sppw74euv4dh5fcyaqt76xestubul5gfdc4"
+  }
+}
