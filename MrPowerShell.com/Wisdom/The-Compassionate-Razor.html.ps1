@@ -98,6 +98,7 @@
     James
 #>
 param()
+
 #region Page Help
 # Get my help
 $myHelp = Get-Help $MyInvocation.MyCommand.ScriptBlock.File
@@ -116,19 +117,20 @@ if ($page -is [Collections.IDictionary]) {
 }
 
 # Make one big markdown out of our title, description, and notes
-"<article>"
+
 $markdown = @"
 # $($title)
 
 ## $($description)
 
 $notes
-"@ 
+"@
 
+# Write our markdown into a local file.
 $markdown > (
     $MyInvocation.MyCommand.Source -replace '\.html.ps1$', '.md'
 )
-
+"<article>"
 $markdown | 
     # convert it from markdown
     ConvertFrom-Markdown |
