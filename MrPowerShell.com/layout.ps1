@@ -137,7 +137,8 @@ header, footer {
 }
 
 article {
-    background-color: var(--background)
+    background-color: var(--background);
+    max-width: 100%;    
 }
 
 header > svg {
