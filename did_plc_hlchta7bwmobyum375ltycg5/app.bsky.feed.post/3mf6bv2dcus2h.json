@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771459094674410,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf6bv2ybuw2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf6bv2dcus2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T23:58:13.767Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihh3xvcde6mpcckuq6f65juc5suq4bwiwztd4ibgsc2t2ybjzjfpe",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mf6bsphhv22b"
+        },
+        "root": {
+          "cid": "bafyreigfvrzwrtyoepral6bdwt4hyapq5nnzshdmugpcvs7srz5r6gkliy",
+          "uri": "at://did:plc:b6iizj5wzawc6av3g23kvq4l/app.bsky.feed.post/3mf5z4dewtk2o"
+        }
+      },
+      "text": "The more things change the more they stay the same."
+    },
+    "cid": "bafyreifvdlk7qw2zenhhxkjk2d6dz2q2wptto4ldftk4g5yt6zu7wgpnle"
+  }
+}
