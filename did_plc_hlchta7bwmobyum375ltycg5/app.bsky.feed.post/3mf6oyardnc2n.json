@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771473174789992,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf6oyomrgy2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf6oyardnc2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-19T03:52:39.826Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$VAR"
+            }
+          ],
+          "index": {
+            "byteEnd": 98,
+            "byteStart": 94
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$LOCAL"
+            }
+          ],
+          "index": {
+            "byteEnd": 134,
+            "byteStart": 128
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic5gruqvswe7edwxpf6fxbbsgm2z35o4hp5xsgavffpc2s4tt4tda",
+          "uri": "at://did:plc:qr5tpjzh7ng2gtgyogi7szul/app.bsky.feed.post/3mf6lkpvajk27"
+        },
+        "root": {
+          "cid": "bafyreic5gruqvswe7edwxpf6fxbbsgm2z35o4hp5xsgavffpc2s4tt4tda",
+          "uri": "at://did:plc:qr5tpjzh7ng2gtgyogi7szul/app.bsky.feed.post/3mf6lkpvajk27"
+        }
+      },
+      "text": "Umm..\n\nThat's an anti-pattern.\n\nIt's not required.  It's not even recommended.\n\n~~~PowerShell\n$var             # implicit scope\n$local:var    # local scope\n$script:var  # script / module scope\n$global:var # global scope\n~~~\n\nScopes stack, so we can also\n\nGet-Variable -Name var -Scope N"
+    },
+    "cid": "bafyreiaahkuxu5346a67umjl254xsfgo4qcsop7azsfciwcmothag4hj7u"
+  }
+}
