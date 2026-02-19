@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771495287852548,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf7dlp6zdr2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf7dlpasys2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-19T10:01:27.383Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: My reaction to being told that Macs might be cheaper than PCs for a brief moment in time.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihfyposvps6hzu2b5dsga4eravg27ffv32apnmotoncfkokvhszgu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 49765
+          },
+          "title": "a man in a star wars movie is saying `` that 's impossible '' while hanging from a pole .",
+          "uri": "https://media.tenor.com/h9z2YiFBYnIAAAAC/luke-skyywalker.gif?hh=188&ww=430"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifce7atnsssmiulhtv5mej77ugaoikukhwfnbfu2yxwou43szxs6q",
+          "uri": "at://did:plc:esyyysvopsxyg3vlfaiyftmd/app.bsky.feed.post/3mf7d745dsc2o"
+        },
+        "root": {
+          "cid": "bafyreibxzj4jvvcm2n26jxc7yjbufjb2qhpaceisyqyubc3ymnb4fbfu5e",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf6tq523ks2a"
+        }
+      },
+      "text": "I'll have to check if this is true when I'm next in the market for a new box.\n\nHistorically speaking though, I find this hard to believe.\n\nHaven't had a Mac since my G4 Silver Fox ( which I finally threw out a couple of months ago )"
+    },
+    "cid": "bafyreibmr5v2lrxiyx5oy4hz427ykwfpdpgm4wlape3mkfdsglsgfiroji"
+  }
+}
