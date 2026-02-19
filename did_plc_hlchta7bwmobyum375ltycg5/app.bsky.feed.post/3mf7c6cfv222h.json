@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771493765678038,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf7c6c3vu42h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf7c6cfv222h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-19T09:36:03.968Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicbggt4asm55opiojzv7m3sukevx5wz2gpmxjmt3wr764cumu7hau",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf7bg7wmc22a"
+        },
+        "root": {
+          "cid": "bafyreibxzj4jvvcm2n26jxc7yjbufjb2qhpaceisyqyubc3ymnb4fbfu5e",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf6tq523ks2a"
+        }
+      },
+      "text": "I suppose my other thought is: \"kinda glad I'm too poor at the moment to be in the market for new machines\".\n\nCost / benefit wise though: building a quality box is always a better investment than buying off the shelf.\n\nWay cheaper and better quality."
+    },
+    "cid": "bafyreigyl4o4lrkwm246qd7xqw6p2z2v64amppkghjweb3g2d46qy5k5di"
+  }
+}
