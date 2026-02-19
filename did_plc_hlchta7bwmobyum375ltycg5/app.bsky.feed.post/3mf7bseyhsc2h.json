@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771493363957864,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf7bseovnx2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf7bseyhsc2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-19T09:29:24.021Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicbggt4asm55opiojzv7m3sukevx5wz2gpmxjmt3wr764cumu7hau",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf7bg7wmc22a"
+        },
+        "root": {
+          "cid": "bafyreibxzj4jvvcm2n26jxc7yjbufjb2qhpaceisyqyubc3ymnb4fbfu5e",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf6tq523ks2a"
+        }
+      },
+      "text": "It definitely sucks & I wish inflation wasn't a one way street.\n\nI generally try to hand build a good desktop about once a decade and use underpowered devices for the little things.\n\n🤷 Pis are still pretty cheap and I built my last beast box ~3 years back (and it's got 64gb of ram 😉😎 )"
+    },
+    "cid": "bafyreic5z4glzkfcu56yu5zdrjpqdg5ja7rtha3bak77xos22evc2jzhsa"
+  }
+}
