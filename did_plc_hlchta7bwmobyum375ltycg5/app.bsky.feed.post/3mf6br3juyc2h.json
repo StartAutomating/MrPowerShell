@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771458961583895,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf6br44kim2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf6br3juyc2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T23:56:00.814Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih4on3fkqqxoi3uouczee42vzv7kjob55us6dwg3f3bumjvszbc6u",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mf6bkb7bp22b"
+        },
+        "root": {
+          "cid": "bafyreigfvrzwrtyoepral6bdwt4hyapq5nnzshdmugpcvs7srz5r6gkliy",
+          "uri": "at://did:plc:b6iizj5wzawc6av3g23kvq4l/app.bsky.feed.post/3mf5z4dewtk2o"
+        }
+      },
+      "text": "Well yeah.  If they just did an irm $payload | iex that would be too easy to understand.\n\nPeople think most hackers are super smart.\n\nMost hackers are script kiddies.\n\nAlways has been.\n\nAlways will be.\n\nActual \"game\" is few and far between."
+    },
+    "cid": "bafyreiefbdiqoatylblh6z6o47usl2zi76er2uo7w2kkgjgzssdljf73dq"
+  }
+}
