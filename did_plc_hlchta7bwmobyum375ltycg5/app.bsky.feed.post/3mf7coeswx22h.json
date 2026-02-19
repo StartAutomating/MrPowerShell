@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771494306746725,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf7cohhng22z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf7coeswx22h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-19T09:45:03.357Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "The view from my window thru my Microsoft MVP award.",
+            "aspectRatio": {
+              "height": 2000,
+              "width": 1505
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihpngojkhki3kpm3temkfujpiuwjsondnbjo6vjg53prnmq5ls64y"
+              },
+              "mimeType": "image/jpeg",
+              "size": 950510
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieaw7ges27kkc67wamailqrviwlimnisccqhlfqkzz6fyfjvlcerq",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf7cdtbbms2c"
+        },
+        "root": {
+          "cid": "bafyreibxzj4jvvcm2n26jxc7yjbufjb2qhpaceisyqyubc3ymnb4fbfu5e",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf6tq523ks2a"
+        }
+      },
+      "text": "It does have some nice swag.\n\nIt's not a paid position though.\n\nMore a badge of honor / ear to the ground with an NDA.\n\nBut the award is nicer than my old \"Ship It\" plaque for sure.\n\nTook this photo not too long after I got awarded MVP"
+    },
+    "cid": "bafyreieuyngjmabddsinfx6ogr3dequgidreh52pcucxao6t5rufa5n3vi"
+  }
+}
