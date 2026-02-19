@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771464145759510,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf6glm3eyx2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf6gllmbfs2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-19T01:22:25.051Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidsnycy646s4tddn4ruscuhuetcgzhtdpf34dbj76f66a2h526svu",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mf6gcir5bs2w"
+        },
+        "root": {
+          "cid": "bafyreigfvrzwrtyoepral6bdwt4hyapq5nnzshdmugpcvs7srz5r6gkliy",
+          "uri": "at://did:plc:b6iizj5wzawc6av3g23kvq4l/app.bsky.feed.post/3mf5z4dewtk2o"
+        }
+      },
+      "text": "First up:  I have no knowledge of the incident you're referring to.  I'm only talking in general.\n\nSecond up: People make little code changes all the time without realizing all of their side effects.  \n\nSo, yeah, I find it a useful adage.\n\nIt helps take the edge of admitting mistakes."
+    },
+    "cid": "bafyreihysuk72ekrot37yd4demu56pmwr22rghub7groft4aurmlszzq2m"
+  }
+}
