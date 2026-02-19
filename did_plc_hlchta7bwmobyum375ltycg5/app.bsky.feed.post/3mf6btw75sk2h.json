@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771459056577113,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf6btwltti2x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf6btw75sk2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-18T23:57:35.882Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidcajnake574r5ryaulxrsnxekxqmosc2rcwyzd5wtw4pzx2a345q",
+          "uri": "at://did:plc:i5mvo22kcxsmqn6e3lgjbfnf/app.bsky.feed.post/3mf6bq44l2s2k"
+        },
+        "root": {
+          "cid": "bafyreiel7lc4jegldoo47sby6lkjuowld5dsgfk7ua3bj3doadttkjxv3m",
+          "uri": "at://did:plc:jaxyx65mjxshjt2uoyvfvn3a/app.bsky.feed.post/3mf5op7522s23"
+        }
+      },
+      "text": "Well I can't help your opinion of the syntax ( though I'm happy to help explain some of the \"why\" that I might know )\n\nAs far as back compat goes...\n\nI generally make everything on Linux nowadays.  Don't care if it doesn't work all the way back to v1.\n\n( Still end up often being compatible anyways )"
+    },
+    "cid": "bafyreibp74ygxcqoeskgrks7efqrn3pw3m4yriipu43gyhjrnblf4zsxtq"
+  }
+}
