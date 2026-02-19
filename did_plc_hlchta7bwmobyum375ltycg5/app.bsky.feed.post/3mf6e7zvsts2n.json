@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771461610516141,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf6ea2esjp2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf6e7zvsts2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-19T00:40:09.907Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicybypt7763ttcj3fljoibgphmubys7afhqku3jfcgdy7xdkslyre",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mf6ca6x2ns2b"
+        },
+        "root": {
+          "cid": "bafyreigfvrzwrtyoepral6bdwt4hyapq5nnzshdmugpcvs7srz5r6gkliy",
+          "uri": "at://did:plc:b6iizj5wzawc6av3g23kvq4l/app.bsky.feed.post/3mf5z4dewtk2o"
+        }
+      },
+      "text": "🌶️ UAC is good, actually.\n\nSplit-elevation + address space randomization stopped most hacks dead in their tracks when it first showed up on the scene."
+    },
+    "cid": "bafyreia3n3vtsfdv3x6it6k6t5ityevfyvokjnzn45p6lgxuidxwbl7dfi"
+  }
+}
