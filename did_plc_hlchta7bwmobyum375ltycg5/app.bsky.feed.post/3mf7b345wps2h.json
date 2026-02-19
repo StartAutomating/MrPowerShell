@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771492582891745,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mf7b33uq6t2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mf7b345wps2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-19T09:16:23.012Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicmjxdyhqj4zgstmutlrljmdqjzojby6cofdl2hn6lo5hvjjty52i",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf6tq52m622a"
+        },
+        "root": {
+          "cid": "bafyreibxzj4jvvcm2n26jxc7yjbufjb2qhpaceisyqyubc3ymnb4fbfu5e",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mf6tq523ks2a"
+        }
+      },
+      "text": "And a few additional notes:\n\n1. I love Linux 🐧& so does PowerShell\n2. I like most programming languages ( but love PowerShell )\n3. Always happy to help share any and all knowledge ( after all, I can't take it with me )\n4. I make too many tools and talk about them too rarely.\n\nAMA"
+    },
+    "cid": "bafyreigcl7co43gf67f4sqidlggvyonn7hr3kwceykzx5j4bwsyhyqqjya"
+  }
+}
