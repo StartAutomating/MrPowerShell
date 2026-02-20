@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771561369490401,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfbb53v5sn2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfbb52itvc2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-20T04:22:47.857Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihl4dc4bwryeep62fxfdwzkfd3kiyozz4dfdktdjv6yr2em4vnebi",
+          "uri": "at://did:plc:3rcx5d6v3fumeyhqnqlqtxet/app.bsky.feed.post/3mfaqjtw3kk2f"
+        },
+        "root": {
+          "cid": "bafyreihl4dc4bwryeep62fxfdwzkfd3kiyozz4dfdktdjv6yr2em4vnebi",
+          "uri": "at://did:plc:3rcx5d6v3fumeyhqnqlqtxet/app.bsky.feed.post/3mfaqjtw3kk2f"
+        }
+      },
+      "text": "Hard relate.\n\n🤞you'll keep using the script and never have to think about how it works again."
+    },
+    "cid": "bafyreig2qccry5d3ew2dwlph5o7cpdyus5kncts53gh3mde4br3rnl7kqa"
+  }
+}
