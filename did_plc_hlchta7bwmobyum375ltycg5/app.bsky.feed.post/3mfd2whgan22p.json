@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771623426935312,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfd2wgskny2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfd2whgan22p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-20T21:37:03.548Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigkpuqzxcyiidiauobvl3gxoxus32yefsehrha6hs4xaawu3oydzu",
+          "uri": "at://did:plc:dvdqf3z7tbetbkxrsyjl5w62/app.bsky.feed.post/3mfbxnsz4roa2"
+        },
+        "root": {
+          "cid": "bafyreigkpuqzxcyiidiauobvl3gxoxus32yefsehrha6hs4xaawu3oydzu",
+          "uri": "at://did:plc:dvdqf3z7tbetbkxrsyjl5w62/app.bsky.feed.post/3mfbxnsz4roa2"
+        }
+      },
+      "text": "I believe the reason is caching N commands.  If you have auto discovery turned on I think the first tab will cache all of the available commands.\n\nThis grows linearly.\n\nTab completing arguments can also be slow if someone made a greedy argument completer.  That happens often."
+    },
+    "cid": "bafyreigcrnfijyp5veopdscg3pdlaqoxzkqoliyarc2i5xa73frowrpe7u"
+  }
+}
