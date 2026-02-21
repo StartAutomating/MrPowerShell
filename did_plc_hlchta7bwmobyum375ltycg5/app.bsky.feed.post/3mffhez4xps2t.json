@@ -1,0 +1,47 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771705516857952,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mffhezk4r72i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mffhez4xps2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-21T20:25:16.259Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 27
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:wshs7t2adsemcrrd4snkeqli"
+            }
+          ],
+          "index": {
+            "byteEnd": 50,
+            "byteStart": 38
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "It's Star Saturday!\n\nGot a #GitHub or @tangled.org Project?  Want a star?\n\nLike this post & reply or quote post your project.\n\nGet a Star.  Simple as that.\n\nWho has some cool Git to show?"
+    },
+    "cid": "bafyreigarqc2eday66lcmicpj3mpb7g7iqatvz34knrcn6oi5afkkeefhi"
+  }
+}
