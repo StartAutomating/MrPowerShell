@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771651451979589,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfduzr66jh2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfduzrwtg22k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-21T05:24:12.528Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih33cjxvzynbobwlh3kyr5us2dfry65bkkiyyuwc7a2yweovk5k24",
+          "uri": "at://did:plc:oxkgjcch6l4aspj775o7lwfi/app.bsky.feed.post/3mfdmx2rcek27"
+        },
+        "root": {
+          "cid": "bafyreih33cjxvzynbobwlh3kyr5us2dfry65bkkiyyuwc7a2yweovk5k24",
+          "uri": "at://did:plc:oxkgjcch6l4aspj775o7lwfi/app.bsky.feed.post/3mfdmx2rcek27"
+        }
+      },
+      "text": "Not strange at all.\n\nPowerShell is basically built for automation maxxing.\n\nNot just corporate IT.\n\nIMO, lots of fun."
+    },
+    "cid": "bafyreiatcdqhdigsln3oaigg53f36mgsskp25ukwmn7qwxfuf5orenef5q"
+  }
+}
