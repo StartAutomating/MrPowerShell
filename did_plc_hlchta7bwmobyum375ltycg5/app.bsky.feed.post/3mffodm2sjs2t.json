@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771712985883158,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mffodmiuo32c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mffodm2sjs2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-21T22:29:45.196Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidcxnzqfcjic7fe3fzfjdueids2jfwqecce2rycoggswlm5enycaa",
+          "uri": "at://did:plc:w5ooyhvzg43z3zns7f7lee3e/app.bsky.feed.post/3mffbftcles2q"
+        },
+        "root": {
+          "cid": "bafyreic6ypksmf6n64a7aqo2r6kyatg2ecu2fwtlpctb3bxaezjsuqmwk4",
+          "uri": "at://did:plc:inz4fkbbp7ms3ixufw6xuvdi/app.bsky.feed.post/3mfehzm2vp52f"
+        }
+      },
+      "text": "⭐🌟 gold star for identifying the real strength of AppContainers!\n\nTo paraphrase Silent Bob:\n\n\"What people don't know about Windows could just about fill the Grand fraking Canyon\""
+    },
+    "cid": "bafyreie5o4gxtzvz3sym4oqlirljgkyvu67z6ec7qjwd2tnwuyhj5un5e4"
+  }
+}
