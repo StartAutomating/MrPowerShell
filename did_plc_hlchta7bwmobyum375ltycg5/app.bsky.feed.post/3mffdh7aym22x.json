@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771701293210219,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mffdh5fpau2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mffdh7aym22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-21T19:14:54.824Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibsv2sbmhgbfu3udhpucswjl4z5u4gipy37okg7ioghw6lbews7ie",
+          "uri": "at://did:plc:ykpo6xrw2zf34rq2dnhqe3sv/app.bsky.feed.post/3mfecxywf2k2z"
+        },
+        "root": {
+          "cid": "bafyreiap37z64n5vnzq4jkdtxnq7m3w3upski4hnhfb6kvbmyq7aq6nkhe",
+          "uri": "at://did:plc:ykpo6xrw2zf34rq2dnhqe3sv/app.bsky.feed.post/3mf5lzzthz22o"
+        }
+      },
+      "text": "Honestly your post reminded me that I need to \"spin off\" various parts of PipeScript into smaller projects.\n\nIf only from a SEO perspective.\n\nBig modules end up being big boxes of functionality, and make it harder to know what's in them.\n\nSo, stay tuned.  Will be doing that for this."
+    },
+    "cid": "bafyreihydwxtehwz7oxkbctkwzllvmbolzhzwrcb7nrxvhuzpx7gojownq"
+  }
+}
