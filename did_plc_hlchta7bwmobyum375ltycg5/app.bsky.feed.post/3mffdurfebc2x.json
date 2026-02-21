@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771701747911942,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mffdup5sgr2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mffdurfebc2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-21T19:22:30.048Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihohpxhgu2wtzblwv5tek7itte5x4dat5hvifnmtiot5in3nbgpsu",
+          "uri": "at://did:plc:mqplt3ok3pc5h4y3ce3wz4o5/app.bsky.feed.post/3mffbsp5zks2r"
+        },
+        "root": {
+          "cid": "bafyreihohpxhgu2wtzblwv5tek7itte5x4dat5hvifnmtiot5in3nbgpsu",
+          "uri": "at://did:plc:mqplt3ok3pc5h4y3ce3wz4o5/app.bsky.feed.post/3mffbsp5zks2r"
+        }
+      },
+      "text": "So painfully and sadly true.\n\nHonestly this is why you should never mention you work in IT when  on a long flight.\n\nI've been trapped in a tin can for hours explaining again and again: \"I don't work on Office and can't tell you why Word is this way\"."
+    },
+    "cid": "bafyreiagizl6o2d2h45cs6uc4h3gry7vt7lzabn4uon2i6pr4hmmdcxyg4"
+  }
+}
