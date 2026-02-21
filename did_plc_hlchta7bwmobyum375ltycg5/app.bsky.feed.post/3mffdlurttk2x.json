@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771701450081831,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mffdlt4gvu2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mffdlurttk2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-21T19:17:31.614Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiejyrb57bfwfczaqlcrkt6sine6ne26i4vxpcyjnf47ziibmpnmcy",
+          "uri": "at://did:plc:xofiw7bapauohgc6ajm7ggnn/app.bsky.feed.post/3mffbetvr3c2c"
+        },
+        "root": {
+          "cid": "bafyreidzz6uhn3rcpycwhtrhidblkhp5did5qd42aw4omoozsee7gwhngq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mez5zhy2uc2x"
+        }
+      },
+      "text": "Oh they are legion.\n\nCan use it in any terminal.\nCan call it from other languages ( to varying degrees of efficiency )\nCan make exes that call the API ( Bring Your Own Interpreter )\n\nMy favorite:\n\nCan just make servers in PowerShell and run it from the browser."
+    },
+    "cid": "bafyreiagtflesv2k477oafnbtsvbf3brqtpftel6ysadc4jkwga6at6zee"
+  }
+}
