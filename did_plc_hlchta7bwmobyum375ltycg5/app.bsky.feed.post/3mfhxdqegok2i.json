@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771791372259943,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfhxdpb3gj2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfhxdqegok2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-22T20:16:12.858Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Ben Stein probably isn't as smart as he looks ( considering he did once work for Nixon )\n\nBut I don't think that many smart people really think thru the names of their tools and cmdlets too much.\n\nLots of people give long, techy, overly verbose PowerShell cmdlet names that mean next to nothing if you don't remember some presentation about what the new package format for Windows apps will be called.\n\nCall your commands Get-AppXPackage, Install-AppXPackage, etc, and nobody notices for years.\n\nMake a CLI called \"store\" and it goes viral.\n\nMorals of story:\n\n1. Naming is key\n2. Verb-Noun dogmas are overrated.\n3. Have some fun with it.\n4. Microsoft loves the cli, but is still learning how to make a *good* CLI",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreig6odqxx3qpoflugv4sehlawsacz3kufx7evz42t3txt6mzoz6tkq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 49626
+          },
+          "title": "a man wearing glasses is standing in front of a blackboard and saying `` anyone ? '' .",
+          "uri": "https://media.tenor.com/nnvh8YKcv7EAAAAC/anyone-answer.gif?hh=270&ww=480"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiemurdjefq3bbatjoy5rkhep7ov3ldn7sfad62sxobjkmhedjxpni",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mfej7gajsk2c"
+        },
+        "root": {
+          "cid": "bafyreiemurdjefq3bbatjoy5rkhep7ov3ldn7sfad62sxobjkmhedjxpni",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mfej7gajsk2c"
+        }
+      },
+      "text": "I have a different takeaway:\n\nLook what happens when Windows starts to love CLIs but doesn't love their own cmdlet names.\n\nThis has been possible on the CLI since Win8.\n\nBut you'd have to know about the AppXPackage commands.\n\nPlease raise your hand if you've ever heard of AppXPackages.\n\nMore in alt"
+    },
+    "cid": "bafyreiegkrga3ihbyjumk4yjowdfph2u75q2und27nabnj4mxqjbtqidtu"
+  }
+}
