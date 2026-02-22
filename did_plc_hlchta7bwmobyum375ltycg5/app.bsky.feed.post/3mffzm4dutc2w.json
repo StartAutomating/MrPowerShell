@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771725084757695,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mffzm6ljtq2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mffzm4dutc2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-22T01:51:21.865Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Eureka!\n\nHere's the hint to fast probability calculations in any language\n\nBinary search works based off of the _probability_ at each point.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigcpcrcdn75b74mgaw3zci3brktrbdtkptjnh2vcpazaaozkjcyr4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 871576
+          },
+          "title": "a close up of a window with the word eureka on it",
+          "uri": "https://media.tenor.com/8xLT9YBRZKwAAAAC/eureka-the-nightmare-before-christmas.gif?hh=278&ww=498"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 279,
+            "byteStart": 268
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 283,
+            "byteStart": 280
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Eureka"
+            }
+          ],
+          "index": {
+            "byteEnd": 291,
+            "byteStart": 284
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Eureka!\n\nI just figured out how to make a fast probability calculator to compare large sets of data!\n\nNow I've gotta write up my findings.\n\nMajor hint / spoiler in alt tex\n\nThis trick should let anyone build a _very_ lightweight language model, without a pricey GPU!\n\n#PowerShell #AI #Eureka"
+    },
+    "cid": "bafyreibszupafimprqjql6ezjyjtqqkjvwl3rca4a7l5p6pxm2xe6sycjm"
+  }
+}
