@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771731826677359,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfg7v2fv7b2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfg7v2mz522x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-22T03:43:44.508Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihdfexrry3ck4edxyxofm6o4uwgxccvfiw2dlppsg6wlzjampomka",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mfg4laq7ys27"
+        },
+        "root": {
+          "cid": "bafyreibszupafimprqjql6ezjyjtqqkjvwl3rca4a7l5p6pxm2xe6sycjm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mffzm4dutc2w"
+        }
+      },
+      "text": "I'm still testing / refining approach 😉.\n\nHonestly need to fine tooth comb my existing data set to see how accurate it *really* is.\n\nCurrently guestimating based off of known possible max difference.\n\nIt's *probably* better.\n\nI suspect the mesh will be easier to compare, but haven't made it yet."
+    },
+    "cid": "bafyreic5v55blnvktpcd5omb3vvjih3q24rqls7euu4rghtcjpehjotrkm"
+  }
+}
