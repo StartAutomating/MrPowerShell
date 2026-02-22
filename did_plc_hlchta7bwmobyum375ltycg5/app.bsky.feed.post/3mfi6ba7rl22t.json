@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771798806247432,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfi6basvd52q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfi6ba7rl22t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-22T22:20:05.012Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$PATH"
+            }
+          ],
+          "index": {
+            "byteEnd": 249,
+            "byteStart": 244
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigvllprshtljo6jwuyyfyoe4knqviq6cyx3nr2i7ufr4vscief7y4",
+          "uri": "at://did:plc:v525h5mpu7gxifbu33jnzyyn/app.bsky.feed.post/3mfi5x4xzl222"
+        },
+        "root": {
+          "cid": "bafyreifsnc3dtrldyeuy7tu4txpf6qgt2e7cotmr4vtnckqpr3zue6ybdy",
+          "uri": "at://did:plc:v525h5mpu7gxifbu33jnzyyn/app.bsky.feed.post/3mfhpbvc4zk22"
+        }
+      },
+      "text": "Yeah, robocopy predates PowerShell and thus is subject to it's own set of rules.\n\nHaven't found it to have problems with spaces in it's path though. 🤔\n\nOne helpful trick for calling any exe in PowerShell:\n\nUse Splatting\n\ni.e.\n\n$roboArgs = @($path, '/r', '/y')\nrobocopy @roboargs"
+    },
+    "cid": "bafyreiduwtw4dgtvlgn72jcecnwqzlqj42jnvvhdhvntbwrqkvpsngemvu"
+  }
+}
