@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771800211848298,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfi7l5otox2x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfi7l5ggzs2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-22T22:43:31.372Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicaxwsut2vjiisafwqqqy7g7hamfgbhshybddxmisih74tcnbi4ui",
+          "uri": "at://did:plc:ckgreootjrig5bkqwpxzouae/app.bsky.feed.post/3mfi6y66cvs2n"
+        },
+        "root": {
+          "cid": "bafyreiht4cymwf77meavveolnhv25b7barlzqy3qvvprpahn326yghxnwq",
+          "uri": "at://did:plc:ckgreootjrig5bkqwpxzouae/app.bsky.feed.post/3mfhm6zmz522z"
+        }
+      },
+      "text": "Yeah.  It does smell a lot like people who don't know enough about technology to understand that obeying this would probably break more than a few laws.\n\nReally rare that I say this, but 🤷 thank God for the Interstate Commerce Clause."
+    },
+    "cid": "bafyreiceaj2dfikucefapsz72f6lkh34pg4sbpsr7ditej4a3igvyaspji"
+  }
+}
