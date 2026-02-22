@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771719660346371,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mffukjrie42h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mffukgsew22t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-22T00:20:57.009Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiawpvtjvwnfsape6v4iz4gzuo3qsuh6nrzchors2yf3lwajbd2l4e",
+          "uri": "at://did:plc:3td5i7jm2pzxx36lvl3wontc/app.bsky.feed.post/3mffqcng5b626"
+        },
+        "root": {
+          "cid": "bafyreigz6ojdi5li7lwkneyj22pwolm3dfqjehtyfofzhhkexho5qcj2sy",
+          "uri": "at://did:plc:lyqmhm4ahnx4uvz7qzbi32pf/app.bsky.feed.post/3mffq5muweq2b"
+        }
+      },
+      "text": "Honestly / ideally:\n\nPowerShell is already _very_ close to natural language.\n\nPowerShell should be the capable \"tiny language model\" that anyone can connect to and work with.\n\n_Especially since PowerShell had had language guardrails for almost two decades_\n\nWhat role?\n\nThe Bridge"
+    },
+    "cid": "bafyreiewncayc4hmwxwkyil3wp5koxcmcjm4spofagp6f75acoern26d74"
+  }
+}
