@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771796592780734,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfi47cbkiy2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfi47bq3xs2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-22T21:43:12.004Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiht4cymwf77meavveolnhv25b7barlzqy3qvvprpahn326yghxnwq",
+          "uri": "at://did:plc:ckgreootjrig5bkqwpxzouae/app.bsky.feed.post/3mfhm6zmz522z"
+        },
+        "root": {
+          "cid": "bafyreiht4cymwf77meavveolnhv25b7barlzqy3qvvprpahn326yghxnwq",
+          "uri": "at://did:plc:ckgreootjrig5bkqwpxzouae/app.bsky.feed.post/3mfhm6zmz522z"
+        }
+      },
+      "text": "I think in this case they overestimate the power of a state legislature to dictate requirements to the entire technical world.\n\nAnd, judging from response, overestimate the chances of this even passing in the first place."
+    },
+    "cid": "bafyreihxbjuvfovlx2mkbfpu7z4jnaai2pzs2d7xqtoo4rsais5eahstc4"
+  }
+}
