@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771727767055311,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfg43zb3xy2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfg43yukr22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-22T02:36:02.572Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreickcjff3grkgyj2qbf7aivb7ewcanf34o7dvplyb42cjk3jv4h7ei",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mfg3w54qr227"
+        },
+        "root": {
+          "cid": "bafyreibszupafimprqjql6ezjyjtqqkjvwl3rca4a7l5p6pxm2xe6sycjm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mffzm4dutc2w"
+        }
+      },
+      "text": "Ah, yeah.   Also, you're right...\n\nI *could* think about the answer in two dimensions and make it visual.\n\nAnd then you'd have an easier time comparing embeddings.\n\nGetting answers accurate to 4-5 decimals places on comparing 1.5mb chunks.\n\nNot quite \"six sigma\" but damn close."
+    },
+    "cid": "bafyreiczbycb2z5fiqv3yfaliu5d6pf2y4jlvs5ojx3n36ihczyagjkhde"
+  }
+}
