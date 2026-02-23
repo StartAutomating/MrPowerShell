@@ -1,0 +1,88 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771836669791217,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfjbjofuxa2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfjbjqjljk2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-23T08:51:11.51Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "YouTube video by LastWeekTonight",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreib3smrmd27tpsl4lw4b7ak7ekr5cbuhs73itimhrqqe7zlgmsir5y"
+            },
+            "mimeType": "image/jpeg",
+            "size": 45295
+          },
+          "title": "Twitter: Last Week Tonight with John Oliver (HBO)",
+          "uri": "https://youtu.be/p7ZG_xWYLzI?si=JK2pGMvFHInq7akM"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:d6yrj5mfpoxkwpjnakpfxe2f"
+            }
+          ],
+          "index": {
+            "byteEnd": 36,
+            "byteStart": 16
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "twitter"
+            }
+          ],
+          "index": {
+            "byteEnd": 89,
+            "byteStart": 81
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://youtu.be/p7ZG_xWYLzI?si=JK2pGMvFHInq7akM"
+            }
+          ],
+          "index": {
+            "byteEnd": 127,
+            "byteStart": 103
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:z72i7hdynmk6r22z27h6tvur"
+            }
+          ],
+          "index": {
+            "byteEnd": 174,
+            "byteStart": 165
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "It's great that @lastweektonight.com did a fantastic job of showing just how bad #twitter has become.\n\nyoutu.be/p7ZG_xWYLzI?...\n\nJust really wish they had mentioned @bsky.app 😕\n\nAny ideas why it wasn't brought up?"
+    },
+    "cid": "bafyreib3nh2uzd6ioxs2tywu6dlxggfjy5gcu6z3c24e7jkjbqdnffuxce"
+  }
+}
