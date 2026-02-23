@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771878030907461,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfki2dtfn32i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfki2dcht22t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-23T20:20:30.261Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidmycl7tatimukj2camv2fl3ulgxk5ryoryaac6j5ws7gytr6z5d4",
+          "uri": "at://did:plc:sc3stj2vow3wgf3ashxmetdp/app.bsky.feed.post/3mfkfmp2kok2h"
+        },
+        "root": {
+          "cid": "bafyreifxsj72g4rsn7vbxkeonlvvk3hqyz72344igk7gct5u7t37apb47e",
+          "uri": "at://did:plc:hgdc2vzlkkiidglvcj3vxjsr/app.bsky.feed.post/3mfkcizdl722b"
+        }
+      },
+      "text": "From each according to their capability.... 😉"
+    },
+    "cid": "bafyreigyaa3ms2cyy3rnmp6wsbfj64ugho3l67q76tack2zi2nch7vbhym"
+  }
+}
