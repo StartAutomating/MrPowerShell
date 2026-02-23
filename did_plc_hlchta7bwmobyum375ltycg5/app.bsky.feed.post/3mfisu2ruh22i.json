@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771820910152870,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfistyzneh2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfisu2ruh22i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-23T04:28:31.684Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifalxte33iykcn7aoheoisd6mz5opjhe34hz2qgxmnhig5v7agtsq",
+          "uri": "at://did:plc:c73fekywri3a6jk35by3lrpt/app.bsky.feed.post/3mfilhbewq22t"
+        },
+        "root": {
+          "cid": "bafyreifalxte33iykcn7aoheoisd6mz5opjhe34hz2qgxmnhig5v7agtsq",
+          "uri": "at://did:plc:c73fekywri3a6jk35by3lrpt/app.bsky.feed.post/3mfilhbewq22t"
+        }
+      },
+      "text": "PowerShell isn't a replacement for terminal.\n\nIt's an additional, better, shell and terminal.\n\nCan do all batch can do.\n\n🤷 Don't know why anyone wants to consign any technology to the fire.  Seems a little callous / potentially short sighted.\n\nHas the language hurt you?\n\nIf so, how ?"
+    },
+    "cid": "bafyreicvj3sfxoullllycyfdgabhtjzkmuyarrabso24qds22fxmufozzq"
+  }
+}
