@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771873341695215,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfkdolrmrt2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfkdolmnuk2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-23T19:02:21.362Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifxsj72g4rsn7vbxkeonlvvk3hqyz72344igk7gct5u7t37apb47e",
+          "uri": "at://did:plc:hgdc2vzlkkiidglvcj3vxjsr/app.bsky.feed.post/3mfkcizdl722b"
+        },
+        "root": {
+          "cid": "bafyreifxsj72g4rsn7vbxkeonlvvk3hqyz72344igk7gct5u7t37apb47e",
+          "uri": "at://did:plc:hgdc2vzlkkiidglvcj3vxjsr/app.bsky.feed.post/3mfkcizdl722b"
+        }
+      },
+      "text": "💯 yes!\n\nPlease tell your student they are right.\n\nNot exactly the term we used back in the day, but definitely the idea.\n\nMix and match functionality and be familiar enough to be easy to learn.\n\nI've sometimes called it:\n\nLinga Franca for tech.\nThe Great Polyglot.\n\nWill add this to the list!"
+    },
+    "cid": "bafyreid2krhx4apil76jq6atv4ivacebturp3mlicexuisagenxoxijjsi"
+  }
+}
