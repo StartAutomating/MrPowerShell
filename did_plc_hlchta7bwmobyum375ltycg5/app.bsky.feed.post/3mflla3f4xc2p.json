@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771915805741900,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mflla4fazi2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mflla3f4xc2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-24T06:50:04.249Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "PowerShell made Posh. Contribute to StartAutomating/Posh development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihsrr64hhsz32qvkz2sk7a3cmf7dqsa4kcfepmhpayfqlfxuxq744"
+            },
+            "mimeType": "image/jpeg",
+            "size": 109051
+          },
+          "title": "GitHub - StartAutomating/Posh: PowerShell made Posh",
+          "uri": "https://github.com/StartAutomating/Posh"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/Posh"
+            }
+          ],
+          "index": {
+            "byteEnd": 113,
+            "byteStart": 87
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieo344mjwavqfj2oqe222sbd6ctjbjpgqoza6t2x6hrud32s43lye",
+          "uri": "at://did:plc:q7suwaz53ztc4mbiqyygbn43/app.bsky.feed.post/3mfle4i3lcc2q"
+        },
+        "root": {
+          "cid": "bafyreifusmgq3bqtcqsxzl56t3dxgmrf6xrmhrjdq3g5dsc23bdqs6jraa",
+          "uri": "at://did:plc:q7suwaz53ztc4mbiqyygbn43/app.bsky.feed.post/3mflcgglhlc2q"
+        }
+      },
+      "text": "You can customize the shell quite a bit.\n\nThis has an object model for a bunch of it.\n\ngithub.com/StartAutomat... \n\nCompleters can be implemented per command / parameter.\n\nLots of tab completion is automatic.\n\nKeybinding can be done with PSReadLine (built-in)"
+    },
+    "cid": "bafyreifecet7y2hmcvdsawhs7cgtdwqv5k6k2r3mcjhzrzbuei64yqchvm"
+  }
+}
