@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771959037295270,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfmtij3jcd2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfmtikf4vk2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-24T18:50:38.086Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "When Sammy Azdoufal found he had access to data from robot vacuum cleaners around the world, he told a tech publication. But the implications could be mind-boggling",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihj2ty4yq52kqnhr25ecty3gi5dhec3gxzawuk3munxrhnkduu6vm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 172911
+          },
+          "title": "The accidental hacker: how one man gained control of 7,000 robots",
+          "uri": "https://www.theguardian.com/lifeandstyle/2026/feb/24/accidental-hacker-how-one-man-gained-control-robots-"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.theguardian.com/lifeandstyle/2026/feb/24/accidental-hacker-how-one-man-gained-control-robots-"
+            }
+          ],
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 74
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Yikes!\n\nThis is why I don't think anyone should ever get a robot vacuum.\n\nwww.theguardian.com/lifeandstyle...\n\nThat and they just don't work that well..."
+    },
+    "cid": "bafyreihbnwhd3f3uwdo76bim4fl66gxdz2ayhaoq45plcjgs3ibok5lbb4"
+  }
+}
