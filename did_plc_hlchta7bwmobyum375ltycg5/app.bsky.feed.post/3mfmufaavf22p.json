@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771959999267594,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfmuf6ispn2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfmufaavf22p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-24T19:06:40.54Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreie2km5cbbslcms5zvbpttxpva5ogzrtejs4nbvf3npoaz3xejzuuu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 4012
+          },
+          "title": "Virtual PC - Wikipedia",
+          "uri": "https://en.wikipedia.org/wiki/Virtual_PC"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://en.wikipedia.org/wiki/Virtual_PC"
+            }
+          ],
+          "index": {
+            "byteEnd": 271,
+            "byteStart": 239
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihp3cnclgkmv5jzgf76nhnjfowm6mr5px2bn6l467xkolergvpqdu",
+          "uri": "at://did:plc:timyhhv2q2b3dr5xphjpqp2n/app.bsky.feed.post/3mfkobfsq7k2w"
+        },
+        "root": {
+          "cid": "bafyreihp3cnclgkmv5jzgf76nhnjfowm6mr5px2bn6l467xkolergvpqdu",
+          "uri": "at://did:plc:timyhhv2q2b3dr5xphjpqp2n/app.bsky.feed.post/3mfkobfsq7k2w"
+        }
+      },
+      "text": "My favorite non-PowerShell error is old enough I'd have to go thru a minor hell to screen cap it.\n\nTry to launch a VirtualPC from VirtualPC and see:\n\n\"You cannot run a VirtualPC inside a VirtualPC ( you just had to try this, didn't you)\"\n\nen.wikipedia.org/wiki/Virtual..."
+    },
+    "cid": "bafyreihaw3ybq3fjho37qs6s2dppivdpcxseqeh4mqlv2znlcsse4ooqg4"
+  }
+}
