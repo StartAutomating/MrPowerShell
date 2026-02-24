@@ -1,0 +1,80 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771965954106552,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfmzwnsuzx2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfmzwnjslk2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-24T20:45:53.599Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 236,
+            "byteStart": 230
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Windows"
+            }
+          ],
+          "index": {
+            "byteEnd": 246,
+            "byteStart": 238
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MacOS"
+            }
+          ],
+          "index": {
+            "byteEnd": 258,
+            "byteStart": 252
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 292,
+            "byteStart": 281
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifvb77qq4cwgq7wf4gg4kbn74bljhotrtbrnes4th2oojccze4ucu",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3mfmzedtdsc2l"
+        },
+        "root": {
+          "cid": "bafyreic2gkdr4enthas4ayrwoxfzgamk7kaj2tnkjsbzfsxhax223hu3gu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mfmw7tnoks2p"
+        }
+      },
+      "text": "Review it, it's only 101 lines 😉 \n\nThat's right:\n\nA File Server in PowerShell in 101 lines of code 😎\n\nLimiting myself to 80 characters per line, too.  😎\n\n~4kb 😎\n\nRuns as a low-rights user on a loopback port.\n\nWorks on #Linux, #Windows, and #MacOS 😎\n\nAll you need is #PowerShell 😉😎"
+    },
+    "cid": "bafyreiaqtz6ecjreoxynh3kbeybn6m4zbcnkoact4dwyzcborvo5lj7tza"
+  }
+}
