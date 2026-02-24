@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771959693748645,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfmu43fy7d2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfmu45jx2c2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-24T19:01:35.701Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia4uc2yk5nkaywtera3nkszjpjdb3mbma2kf23w6tyvn3wosd3shi",
+          "uri": "at://did:plc:dkx6dwfplzzvrcz3ausmebol/app.bsky.feed.post/3mfmgqdrhpk2f"
+        },
+        "root": {
+          "cid": "bafyreia4uc2yk5nkaywtera3nkszjpjdb3mbma2kf23w6tyvn3wosd3shi",
+          "uri": "at://did:plc:dkx6dwfplzzvrcz3ausmebol/app.bsky.feed.post/3mfmgqdrhpk2f"
+        }
+      },
+      "text": "This annoys me, too.\n\nEnough that finding out why bugged me for years until I met someone who had worked on the file copy functionality in explorer.\n\nIf you want to know why it's slow, lemme know."
+    },
+    "cid": "bafyreigfjzock6hu5kok2nfhtchq53mm5ojv6snvfpo3ppzvhg4hq5i5bm"
+  }
+}
