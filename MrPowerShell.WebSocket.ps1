@@ -15,7 +15,7 @@ $WellKnownDid = @{
 },
 
 [TimeSpan]
-$Since = [TimeSpan]::FromDays(.5),
+$Since = [TimeSpan]::FromDays(1),
 
 [TimeSpan]
 $TimeOut = [TimeSpan]::FromMinutes(15),
