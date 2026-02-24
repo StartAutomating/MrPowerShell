@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771961387068636,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfmvokgzia2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfmvojt4ik2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-24T19:29:46.307Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifxnuy4cgznis6fxpakrrffih6rzeausb5wdurfhk7jzvnkqg5aeq",
+          "uri": "at://did:plc:wtsercul64odhwht7z5g54et/app.bsky.feed.post/3mfmvhcn36s26"
+        },
+        "root": {
+          "cid": "bafyreici55i6os6lii65kc5l75mewaal34tuwauegtsz77mw4jmbyz7nta",
+          "uri": "at://did:plc:wtsercul64odhwht7z5g54et/app.bsky.feed.post/3mfmu7iqnbk2g"
+        }
+      },
+      "text": "I think that overlapping legal requirements of multinational companies are a better safeguard than legal requirements of a single authoratarian state.\n\nIt changes the incentive structure considerably.\n\nI also think from a \"red team\" perspective, something to map floor plans is terrifyingly handy."
+    },
+    "cid": "bafyreiebaxlxyyp6ozojhae6jkxijgyc3j72vzht77hp4onkbds4bgf5le"
+  }
+}
