@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772058371252757,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfppyvextd2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfppyr5ups2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-25T22:26:06.307Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaxvsbhe4x3okrfvvw3utgmi2f7hfkthihcl2kdycfy5wtdrsvlle",
+          "uri": "at://did:plc:bzdtu4vjo2quk2ef3ykhqtv6/app.bsky.feed.post/3mfp4f3mrsk2b"
+        },
+        "root": {
+          "cid": "bafyreiaxvsbhe4x3okrfvvw3utgmi2f7hfkthihcl2kdycfy5wtdrsvlle",
+          "uri": "at://did:plc:bzdtu4vjo2quk2ef3ykhqtv6/app.bsky.feed.post/3mfp4f3mrsk2b"
+        }
+      },
+      "text": "💯 fantastic work!\n\nI feel like you've done a great service to help prove this point so eloquently.\n\nI 🤞hope people will engage in less language discrimination due to such an amazing proof!\n\nGreat work!"
+    },
+    "cid": "bafyreihzjtxj25kqz6w4wyh6cxdl6l5vhqignvg6qouf5qsbe2hodvm75u"
+  }
+}
