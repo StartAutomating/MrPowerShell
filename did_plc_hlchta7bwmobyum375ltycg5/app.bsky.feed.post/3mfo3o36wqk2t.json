@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772002173784794,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfo3o3hw4m2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfo3o36wqk2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-25T06:49:33.154Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiffoxb3sfdltoze4m5ozdkbfun3n2ypbjmisuzhbalx22j454ztou",
+          "uri": "at://did:plc:ryjacjbrrxbjrih4lyud6sxs/app.bsky.feed.post/3mfo3kchls22t"
+        },
+        "root": {
+          "cid": "bafyreiepd2ka7swi6ssks5n224bzvwbocg5mrb5ra7foxle5dtz7jegmtu",
+          "uri": "at://did:plc:ryjacjbrrxbjrih4lyud6sxs/app.bsky.feed.post/3mfng6xqxy22f"
+        }
+      },
+      "text": "Pretty good go-to.\n\nI used to do _tons_ with IIS.\n\nNowadays I try to keep it to static site generation when I can,\nand HttpListeners from PowerShell running on Linux in a Container when I can't."
+    },
+    "cid": "bafyreifwmrko7fqt3ufg4qkh2tkatderofocv3xgg7tphko2d5w455pe3e"
+  }
+}
