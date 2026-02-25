@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771999027674696,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfnyqdbtnl2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfnyqcrj2k2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-25T05:57:06.986Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiepd2ka7swi6ssks5n224bzvwbocg5mrb5ra7foxle5dtz7jegmtu",
+          "uri": "at://did:plc:ryjacjbrrxbjrih4lyud6sxs/app.bsky.feed.post/3mfng6xqxy22f"
+        },
+        "root": {
+          "cid": "bafyreiepd2ka7swi6ssks5n224bzvwbocg5mrb5ra7foxle5dtz7jegmtu",
+          "uri": "at://did:plc:ryjacjbrrxbjrih4lyud6sxs/app.bsky.feed.post/3mfng6xqxy22f"
+        }
+      },
+      "text": "True!\n\nThe Future has been the Terminal so long it's almost started to become the past 😂 (I believe this one-liner dates back to 2009/2010)"
+    },
+    "cid": "bafyreiencuaciezan35abz2rrjzvbzjyqwmnmtv65xhoakalhe45zneo2a"
+  }
+}
