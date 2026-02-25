@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771998711899989,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfnygw6fzc2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfnygvlg4c2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-25T05:51:51.165Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicygzbdco26d7euaavegzlzgdqfygpohcgynlotl2vumhvyzhqvpa",
+          "uri": "at://did:plc:fdwrurmxsf5skp4ygitlp526/app.bsky.feed.post/3mfngutdg6s2s"
+        },
+        "root": {
+          "cid": "bafyreifobzcetcpi4fhhd5musgreabdj5veqj6uqz7npnqbpfvmxovdm2a",
+          "uri": "at://did:plc:fdwrurmxsf5skp4ygitlp526/app.bsky.feed.post/3mfnfew42ts2s"
+        }
+      },
+      "text": "If you want some open source PowerShell small web servers, just ask.  Dropped some earlier today.  Currently building a lot of stuff due to similar shared concerns."
+    },
+    "cid": "bafyreihqymqy46q3bp5wfgurlqrteg5c6llbp2ej4evod4qjbzt3zklhzi"
+  }
+}
