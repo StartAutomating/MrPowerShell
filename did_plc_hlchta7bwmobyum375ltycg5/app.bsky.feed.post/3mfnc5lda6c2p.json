@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1771974776540582,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfnc5lk2fw2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfnc5lda6c2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-24T23:12:56.102Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "HotTake"
+            }
+          ],
+          "index": {
+            "byteEnd": 272,
+            "byteStart": 264
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DevOps"
+            }
+          ],
+          "index": {
+            "byteEnd": 280,
+            "byteStart": 273
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PlatformEngineering"
+            }
+          ],
+          "index": {
+            "byteEnd": 301,
+            "byteStart": 281
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "🌶️ take: MonoRepos are a bad idea.\n\nWhy?\n\nBecause they:\n\n- Get unweildy, fast\n- Fail when any part fails\n- Give overly broad access \n- Strongly couple functionality\n- Prevent cohesive use\n- Slow development cycles\n- Cause traffic jams\n- Destabilize products\n\n#HotTake #DevOps #PlatformEngineering"
+    },
+    "cid": "bafyreig3mnx7zcrimcsuvvbjii4ccb4hklvbsne7bp7cp6rjx4meeyt6g4"
+  }
+}
