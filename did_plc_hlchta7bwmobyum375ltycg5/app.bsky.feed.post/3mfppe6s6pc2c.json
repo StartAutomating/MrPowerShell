@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772057675504137,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfppe625zz2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfppe6s6pc2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-25T22:14:35.96Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A Fun PowerShell Module for Multimedia (using FFMpeg) - StartAutomating/RoughDraft",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieqcvtmgciut4dby37gne6u262x43d53c4xs3x3fnstvyxh6pexni"
+            },
+            "mimeType": "image/jpeg",
+            "size": 65379
+          },
+          "title": "GitHub - StartAutomating/RoughDraft: A Fun PowerShell Module for Multimedia (using FFMpeg)",
+          "uri": "https://GitHub.com/StartAutomating/RoughDraft"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/StartAutomating/RoughDraft"
+            }
+          ],
+          "index": {
+            "byteEnd": 198,
+            "byteStart": 172
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$MP3"
+            }
+          ],
+          "index": {
+            "byteEnd": 214,
+            "byteStart": 210
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiewzisdtkwbcwjpmnrou3l4qujg3pwqiacxsq3hxdiravaqwkbpnm",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3mfpcfz3vkc2k"
+        },
+        "root": {
+          "cid": "bafyreiewzisdtkwbcwjpmnrou3l4qujg3pwqiacxsq3hxdiravaqwkbpnm",
+          "uri": "at://did:plc:ohgsqpfsbocaaxusxqlgfvd7/app.bsky.feed.post/3mfpcfz3vkc2k"
+        }
+      },
+      "text": "Cool stuff!\n\nHot tip:\n\nRoughDraft makes it easy to get/set lyrics in a song.\n\nAlso, since lyrics are plain text, one *could* make them VTT or SRT, thus giving you timing.\n\nGitHub.com/StartAutomat...\n\nGet-Media $mp3 | select lyric*"
+    },
+    "cid": "bafyreib6abo5omolmt4xq5ghk74z4ykkrnoteah4j2hqmfpimvps7l7qe4"
+  }
+}
