@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772086187050085,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfqjvuvs5i2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfqjvwxnvs2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T06:09:49.02Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihjzdztdpsprhfyrncc4z5nxrv63cwlk3td5eckk2dbmmj7r6afli",
+          "uri": "at://did:plc:z2rokxrttw5254hogmucux2x/app.bsky.feed.post/3mfqg64zxjk2b"
+        },
+        "root": {
+          "cid": "bafyreif2szq4vub444h5mgrxibcnhd33mcxrvk7msbzfte6znqtrphk7t4",
+          "uri": "at://did:plc:z2rokxrttw5254hogmucux2x/app.bsky.feed.post/3mfqevfrmhk2b"
+        }
+      },
+      "text": "That certainly sounds like they might have compromised the account and set up their own command and control.\n\nIf it reappears, then however they have compromised the account is still active.\n\nAre the emails wrong when viewed from a browser ( on another device )?"
+    },
+    "cid": "bafyreidafzkjidol54xhn53hows2pbckdcqyiand5czvk25roxlo633wh4"
+  }
+}
