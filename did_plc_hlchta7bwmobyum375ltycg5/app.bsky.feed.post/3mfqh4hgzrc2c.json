@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772083184258593,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfqh4fdw5s2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfqh4hgzrc2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T05:19:46.402Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicrczt7ldo3p6soqntzrwm3aqimhg32vaxxiguzcrezb3mdkevf4e",
+          "uri": "at://did:plc:bqqmoom6eiznml3kcln47ftd/app.bsky.feed.post/3mfqgotsmyk2f"
+        },
+        "root": {
+          "cid": "bafyreiherdah5dihejinqnoin2qyjtinim6jejjnc3vxdgkihktm2fohyu",
+          "uri": "at://did:plc:2dv4enaklqwhdswno3iurehp/app.bsky.feed.post/3mfoynrxkp22q"
+        }
+      },
+      "text": "Total all cves or cisa warnings.\n\nMicrosoft is something like 30% of them.\n\nWhich, considering that Microsoft is like 80-90% of PCs, is pretty darn good.\n\nMost vulnerabilities come from tiny companies without good threat modelling."
+    },
+    "cid": "bafyreidcanttmraxa7lee6l53fhxjpo4dnebjobzyzby5asu24vbbkthme"
+  }
+}
