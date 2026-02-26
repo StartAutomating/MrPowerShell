@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772077148090067,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfqbiidnnz2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfqbijvdfc2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T03:39:09.168Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "YouTube video by Hildegard von Blingin'",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihekdpxcczt5nw5heozyfm3zegyufxzxcnmyghwcm4dqro6qe6nrq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 54161
+          },
+          "title": "Manchild - Sabrina Carpenter (Bardcore | Medieval Cover) Whitney Avalon & Hildegard von Blingin’",
+          "uri": "https://youtu.be/skXyvLQif5g?si=JJalYBa8z3F-YAbO"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://youtu.be/skXyvLQif5g?si=JJalYBa8z3F-YAbO"
+            }
+          ],
+          "index": {
+            "byteEnd": 174,
+            "byteStart": 150
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Hildegard von Blingin' keeps bringing the hits!\n\nIt's amazing how much more hilarious and political this gets when you take it back a few centuries!\n\nyoutu.be/skXyvLQif5g?..."
+    },
+    "cid": "bafyreibkl4the6xddocvularjpe7t5xvs5iplrfz7aolb6l6domz53hliy"
+  }
+}
