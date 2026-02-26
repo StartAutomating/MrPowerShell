@@ -7,7 +7,9 @@
     Highlights = @(
         "Created tooling to migrate 400+ service accounts to Group Managed Service Accounts (GMSAs)",
         "This tooling helped avoid hundreds of hours of work each year as passwords no longer need to be rotated manually",
+        "Optimized Kubernetes Implementation by improving workflows",
         "Increased quality of Kubernetes deployments by implementing rules with Rego",
+        "Added quality gates to Kubernetes deployments",        
         "This helped catch configuration issues before they reached production, and prevent drift in Kubernetes.",
         "Improved SQL operations by implementing auditing and quality gates in Azure DevOps, improving security, reliability, and release times."            
     )
@@ -25,7 +27,7 @@
         "Implemented new CI/CD pipelines using Azure DevOps.",
         "This reduced deployment times and improved consistency across environments.",
         "Led and trained virtual team of 14 engineers to improve internal monitoring with PowerShell",
-        "This enabled end to end organization awareness thru Grafana and Azure DevOps."
+        "Oversaw LogStash implementation and Graphana implementation, increasing organizational awareness"            
     )
 } 
 
@@ -35,7 +37,7 @@
     StartDate = [DateTime]"2019-06"
     EndDate = [DateTime]"2023-06"
     Summary = "Developed the Azure Resource Manager Template Toolkit"
-    Highlights = @(
+    Highlights = @(        
         "Designed and developed a best practices toolkit for Azure Resource Manager templates.",
         "This reduced the time and cost for Azure Marketplace publishers to validate their templates.",
         "Worked closely with the Azure team to help codify best practices for Azure Resource Manager templates.",
@@ -58,7 +60,10 @@
         "Created internal web infrastructure to organize and visualize incident investigations.",
         "This helped reduce investigation times for security incidents by ~20%",
         "Created automation for internal security tooling to enable cross-referencing of security data.",
-        "This helped improve the accuracy and speed of security investigations."
+        "This helped improve the accuracy and speed of security investigations.",
+        "Assisted integration of security mitigations into Azure operations",
+        "Developed complex Kusto/Cosmos queries to spot irregular activity",
+        "Helped reduce the number of malicious actors using Azure"        
     )
 }
 
@@ -71,8 +76,9 @@
     Highlights = @(
         "Overhauled the data aggregation of every real estate listing in the US, reducing total intake time from ~6 days to ~15 minutes",
         "Created efficient PowerShell and SQL ETL architecture to process millions of listings.",
-        "Rapidly implemented direct RETS and IDX integration"
-        "Reduced infrastructure costs by 98% (from `$20,000 per month to `$250 per month)."
+        "Rapidly implemented direct RETS and IDX integration",        
+        "Engineered platform for a containerized big data ETL architecture",
+        "Reduced infrastructure costs by 98% (from `$20,000 per month to `$250 per month).",        
     )
 }
 
@@ -87,7 +93,8 @@
         "Overhauled internal automation for the deployment and management of the Intune service.",
         "Set up Just Enough Automation (JEA) to allow for secure, delegated administration of the Intune service.",
         "Developed a PowerShell module to automate the deployment of Intune service components.",
-        "Established secure KeyVault use practices for storing sensitive information, reducing human error and surface area."
+        "Established secure KeyVault use practices for storing sensitive information, reducing human error and surface area.",
+        "Reduced security incident rate for Intune"        
     )
 }
 
@@ -127,7 +134,7 @@
     EndDate = [DateTime]"2013-10"
     Summary = "Developed internal monitoring for Office365"
     Highlights = @(
-        "Developed a framework for monitoring the health of Office365 servers and services.",
+        "Engineered a platform for monitoring the health of Office365 servers and services.",
         "Collected thousands of data points per hour from tens of thousands of servers.",
         "This provided increased visibility into the health of Office365 for management and engineering teams.",
         "Developed new techniques for parallel data collection and analysis.",
@@ -147,6 +154,7 @@
         "Worked with management to identify key pain points in the BPOS deployment process."
         "Automated the deployment of Sharepoint Online and Exchange using PowerShell."
         "Reduced new customer deployment time from ~7 days to under an hour"
+        "Created Infrastructure as Code for new Office365 deployments"
         'Automated the work of multiple manual teams, resulting in cost savings of approximately $250,000 per month, or $2.5 million dollars per year.'
     )
 }
@@ -176,10 +184,21 @@
     Highlights = @(
         "Helped develop the PowerShell language and its features.",
         "Created and maintained test suites for PowerShell.",
+        "Reduced testing costs for Microsoft management division",
+        "Pioneered Infrastructure as Code within Microsoft, improving the stability across Microsoft",
+        "Evangelized the need for a hybrid role between Developers and Operations",
         "Pioneered the use of PowerShell in Client UI, proving the versatility of the language.",            
         "Pioneered web development with PowerShell and ASP.net, creating the server side PowerShell ecosystem",
         "Improved engagement with public by producing videos with Channel9, writing posts and articles.",
-        "Performed STRIDE threat modeling of PowerShell and improved language forensics"
+        "Performed STRIDE threat modeling of PowerShell",
+        "Improved language forensics",
+        "Ensured security of constrained language modes",
+        "Language Modes are a foundation part of PowerShell security and have never been hacked",
+        "Assisted Office with OpenXML standardization"
+        "Assisted Xbox and Xbox Live Services with PowerShell integration",
+        "Assisted partner teams and companies in PowerShell development",        
+        "Oversaw Windows-wide Core Engineering Criteria for PowerShell",
+        "Ensured entire operating system was able to be automated"
     )
 }
 
@@ -206,6 +225,8 @@
     EndDate = "2005-06"
     Highlights = @(
         "Developed realtime video mixing (VJ) software suite for live performances.",
+        "Wrote high performance software in C++ and x86 assembly",
+        "Created highly efficient pure assembly chroma key algoritmns"
         "Created visual effects and animations for live shows.",
         "Worked with various artists to create unique visual experiences."
     )

@@ -5,7 +5,8 @@ if ($PSScriptRoot) { Push-Location $psScriptRoot }
 
 
 $variants = @{
-    "DevOps" = "Git", "Azure\s?DevOps", "CI/CD", "Workflow", "PowerShell"
+    "DevOps" = "Git", "Azure\s?DevOps", "CI/CD", "Workflow", "PowerShell", "Infrastructure"
+    "Platform Engineering" = "Git", "Azure\s?DevOps", "CI/CD", "Workflow", "Platform", 'Infrastructure'
     "Cybersecurity" = "Security", "Threat", "Attacks", "Secure"
     "Full Stack" = "Server Side", "Backend", "HTML", "CSS", "JavaScript"
     "Design Engineering" = "HTML", "CSS", "JavaScript"
@@ -23,11 +24,17 @@ $Basics = @{
     Name    = "James Brundage"
     Label   = "Prolific Programmer and Platform Engineer, and Evangelist"
     Summary = "
-Experienced and passionate engineer.
+Experienced, eclectic, and energetic engineer.
 
-Excellent at reducing costs thru automation.
+Pretty prolific programmer (~27mb of open-source code).
 
-Current a 2nd year Microsoft Most Valued Professional.
+Able to automate almost anything.
+
+Engineering platforms since ~2006.
+
+Former Microsoft full time engineer (PowerShell, Task Scheduler)
+
+Current a 2nd year Microsoft Most Valued Professional (MVP) in Azure/PowerShell.
 
 Jack of all trades, master of PowerShell.
 "
@@ -145,5 +152,5 @@ $myResume = $myResume |
         ConvertTo-Json $this -Depth 10
     } -Force -PassThru
 
-$myResume.ToJson() > ./My.Resume.json
+#$myResume.ToJson() > ./My.Resume.json
 $myResume
