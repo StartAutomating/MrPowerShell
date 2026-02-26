@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772084055456190,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfqhwdzrqh2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfqhwg4ce22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T05:34:17.416Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiezf6fblzhabrcznyp6ttlf3cq53jtwicveloj33oe7ooyqzg32ga",
+          "uri": "at://did:plc:bqqmoom6eiznml3kcln47ftd/app.bsky.feed.post/3mfqhsiipfk2f"
+        },
+        "root": {
+          "cid": "bafyreiherdah5dihejinqnoin2qyjtinim6jejjnc3vxdgkihktm2fohyu",
+          "uri": "at://did:plc:2dv4enaklqwhdswno3iurehp/app.bsky.feed.post/3mfoynrxkp22q"
+        }
+      },
+      "text": "I am trying to be a helpful voice in as good faith as possible.\n\nAnd honestly start to disengage when people question my humanity ( it's dehumanizing ).\n\nLook up my name in a search engine if you would like.\n\n🙏Try to understand that I have seen this all up close."
+    },
+    "cid": "bafyreic6xad4avy3imnwo7e3hefn77e5lwrwyl37j6mt3cgfxey64go3o4"
+  }
+}
