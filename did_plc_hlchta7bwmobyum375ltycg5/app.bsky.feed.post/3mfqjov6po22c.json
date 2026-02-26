@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772085950653980,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfqjoth3cf2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfqjov6po22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T06:05:52.271Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif2szq4vub444h5mgrxibcnhd33mcxrvk7msbzfte6znqtrphk7t4",
+          "uri": "at://did:plc:z2rokxrttw5254hogmucux2x/app.bsky.feed.post/3mfqevfrmhk2b"
+        },
+        "root": {
+          "cid": "bafyreif2szq4vub444h5mgrxibcnhd33mcxrvk7msbzfte6znqtrphk7t4",
+          "uri": "at://did:plc:z2rokxrttw5254hogmucux2x/app.bsky.feed.post/3mfqevfrmhk2b"
+        }
+      },
+      "text": "Client side, presuming Outlook application :\n\nIt might be a good idea to run Outlook in safe mode:\n\nOutlook.exe /safe\n\nIIRC this disables email rule processing and macros."
+    },
+    "cid": "bafyreigtdap7qfnst2r2cpa27ghadw6cjsvkiqmzbwur26eueq6xqqa6wm"
+  }
+}
