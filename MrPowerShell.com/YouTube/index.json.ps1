@@ -21,6 +21,14 @@ In this talk, we'll cover some of the interesting aspects of PowerShell objects 
 We'll see why PSObjects are much more powerful than their compiled counterparts, and how that opens doors for us all.    
 "
     Year = 2025
+},@{
+    Name = 'Rocking Docker with PowerShell'
+    YouTubeUrl = 'https://youtu.be/jhtoDeLXv6c'
+    Description = '
+PowerShell can do amazing things with Containers.
+
+Check out how to Rock Docker with PowerShell.
+'
 },
 @{
     Name = 'Mastering making modules'
