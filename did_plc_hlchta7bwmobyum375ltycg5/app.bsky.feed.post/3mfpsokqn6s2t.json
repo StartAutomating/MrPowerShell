@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772061246396062,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfpsol266r2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfpsokqn6s2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-25T23:14:05.264Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibbrhr4yl6mtpedcsdecxhdvolmolszc5ukllnpc43fy5irmlsrfi",
+          "uri": "at://did:plc:bqqmoom6eiznml3kcln47ftd/app.bsky.feed.post/3mfpfjjt3qs2m"
+        },
+        "root": {
+          "cid": "bafyreiherdah5dihejinqnoin2qyjtinim6jejjnc3vxdgkihktm2fohyu",
+          "uri": "at://did:plc:2dv4enaklqwhdswno3iurehp/app.bsky.feed.post/3mfoynrxkp22q"
+        }
+      },
+      "text": "And a select special few chose \"all of the above\", and hid payloads within proported voting machine manuals, that used some VBA/ActiveX to go and launch some PowerShell.\n\nReally wish I was joking here, but 🤷 that's how the 2016 election infrastructure hack happened.\n\nA Turducken of Security Failures"
+    },
+    "cid": "bafyreiauzmxwvxd4orpiz65apgg35jb7v6r7lfvw4irfi4gaiu4eibyklm"
+  }
+}
