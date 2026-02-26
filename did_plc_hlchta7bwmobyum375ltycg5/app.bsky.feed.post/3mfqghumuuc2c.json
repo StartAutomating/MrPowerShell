@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772082493577935,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfqghskkwk2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfqghumuuc2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T05:08:15.581Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiarxuylzhbrbvbym5vjf6ahu3zmp4ukigl4jzxdiryi22rcdjfczu",
+          "uri": "at://did:plc:bqqmoom6eiznml3kcln47ftd/app.bsky.feed.post/3mfqg5g472k2f"
+        },
+        "root": {
+          "cid": "bafyreiherdah5dihejinqnoin2qyjtinim6jejjnc3vxdgkihktm2fohyu",
+          "uri": "at://did:plc:2dv4enaklqwhdswno3iurehp/app.bsky.feed.post/3mfoynrxkp22q"
+        }
+      },
+      "text": "Web browsers run JavaScript in a sandbox, yes.\n\nIt's still not a perfect one.\n\nSee CSS / Chromium exploit from the other week.\n\nIt's also taken decades for them to get this far.  And multiple companies coordinating on standards.\n\nAnd is still imperfect.\n\nThis is apples to oranges."
+    },
+    "cid": "bafyreic3qguvca5zwrgy2nzwlxd5rcpv6buzn7shy4fjqdsi7aebly7e4q"
+  }
+}
