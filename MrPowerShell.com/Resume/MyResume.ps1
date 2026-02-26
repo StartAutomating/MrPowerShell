@@ -22,7 +22,7 @@ $workHistory = ./WorkHistory
 
 $Basics = @{
     Name    = "James Brundage"
-    Label   = "Prolific Programmer and Platform Engineer, and Evangelist"
+    Label   = "Prolific Programmer and Platform Engineer"
     Summary = "
 Experienced, eclectic, and energetic engineer.
 
@@ -34,7 +34,7 @@ Engineering platforms since ~2006.
 
 Former Microsoft full time engineer (PowerShell, Task Scheduler)
 
-Current a 2nd year Microsoft Most Valued Professional (MVP) in Azure/PowerShell.
+Currently a 2nd year Microsoft Most Valued Professional (MVP) in Azure/PowerShell, and Microsoft Imagine Cup Judge.
 
 Jack of all trades, master of PowerShell.
 "
@@ -68,7 +68,7 @@ $myResume = JsonResume @Basics @resumeParameters -Skill $skills -Language $langu
 
 $myResume = $myResume | 
     Add-Member ToHtml -MemberType ScriptMethod -Value {                
-        "<div class='resume'>"    
+        "<article class='resume'>"    
             "<h2>"
             if ($this.basics.url) {
                 "<a href='$($this.basics.url)'>$($this.basics.name)</a>"
@@ -81,6 +81,15 @@ $myResume = $myResume |
             "<h4 class='resume-summary'>
             $((ConvertFrom-Markdown -InputObject $this.basics.Summary).Html)
             </h4>"
+
+            "<h4>"
+            foreach ($variant in $variants.Keys) {
+                "<a href='https://MrPowerShell.com/Resume/$($variant.key -replace '/s')'>"
+                    [Web.HttpUtility]::HtmlEncode($variant.Key)
+                "</a>"
+            }
+            "</h4>"
+
             "<h3>Experience</h3>"
             "<ul class='resume-work'>"
             foreach ($work in $this.Work) {
@@ -143,7 +152,7 @@ $myResume = $myResume |
                 ) -join [Environment]::NewLine | ConvertFrom-Markdown |
                     Select-Object -ExpandProperty Html
             }
-        "</div>"    
+        "</article>"    
     } -Force -PassThru |
     Add-Member ScriptMethod ToString -Value {
         $this.ToHtml() -join [Environment]::NewLine
