@@ -7,10 +7,9 @@ if ($PSScriptRoot) { Push-Location $psScriptRoot }
 $variants = @{
     "DevOps" = "Git", "Azure\s?DevOps", "CI/CD", "Workflow", "PowerShell", "Infrastructure"
     "Platform Engineer" = "Git", "Azure\s?DevOps", "CI/CD", "Workflow", "Platform", 'Infrastructure'
-    "Containerization Engineer" = "Container"
+    "Container Engineer" = "Container"
     "Cybersecurity" = "Security", "Threat", "Attacks", "Secure"
-    "Full Stack" = "Server Side", "Backend", "HTML", "CSS", "JavaScript", "Container"
-    # "Design Engineering" = "HTML", "CSS", "JavaScript"
+    "Full Stack" = "Server Side", "Backend", "HTML", "CSS", "JavaScript", "Container"    
 }
 
 $variantPatterns = @{}
@@ -106,7 +105,9 @@ $myResume = $myResume |
             "</details>"
             "</h4>"
 
+            "<details open>"
             "<h3>Experience</h3>"
+            "<blockquote>"
             "<ul class='resume-work'>"
             foreach ($work in $this.Work) {
                 $startDateFriendly = if ($work.startDate -is [DateTime]) {
@@ -144,6 +145,8 @@ $myResume = $myResume |
                 "</li>"
             }
             "</ul>"
+            "</blockquote>"
+            "</details>"
 
             if ($this.Skills) {
                 "<h3>Skills</h3>"
