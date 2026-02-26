@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772071302870150,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfq42br2gl2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfq42alt2c24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T02:01:40.95Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Adding that time when I overhauled the windows build process.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiah5uwizx5yzuiaia5crzeoliypirpux4s6turrjjvx6cadmgtbmm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 291624
+          },
+          "title": "feat: Resume Updates ( Fixes #235, Fixes #236, Fixes #237, Fixes #238 ) · StartAutomating/MrPowerShell@434f2bc",
+          "uri": "https://github.com/StartAutomating/MrPowerShell/commit/434f2bc85f04a90ae6c463f993042cb9457ec72f"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/MrPowerShell/commit/434f2bc85f04a90ae6c463f993042cb9457ec72f"
+            }
+          ],
+          "index": {
+            "byteEnd": 114,
+            "byteStart": 88
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Every once in a while I make a commit message that is kinda epic in it's own right....\n\ngithub.com/StartAutomat...\n\n😂 Might as well add it to the git log for posterity. 😂"
+    },
+    "cid": "bafyreiehbgmqsmhymykbyrpjx6km53mylwua4s5peghd5xvjwhmxkck6ra"
+  }
+}
