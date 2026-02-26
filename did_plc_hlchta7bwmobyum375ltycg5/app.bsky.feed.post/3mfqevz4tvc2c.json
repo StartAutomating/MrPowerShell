@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772080820874688,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfqevx4bse2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfqevz4tvc2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T04:40:22.576Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifs362rqwq3ckrywo2te4mjttxkuvc67g4si6de2u3fodezjipvyu",
+          "uri": "at://did:plc:bqqmoom6eiznml3kcln47ftd/app.bsky.feed.post/3mfqdo3blf22f"
+        },
+        "root": {
+          "cid": "bafyreiherdah5dihejinqnoin2qyjtinim6jejjnc3vxdgkihktm2fohyu",
+          "uri": "at://did:plc:2dv4enaklqwhdswno3iurehp/app.bsky.feed.post/3mfoynrxkp22q"
+        }
+      },
+      "text": "These were patched vectors.  See the \"enable macros\" fix of ~20+ years ago.\n\nSocial engineering attacks, sadly, have mostly social safeguards.\n\nAlso, much technology is dual use.\n\nMake things easy for everyone, and they're easier for red teams and blue teams."
+    },
+    "cid": "bafyreiahafafsrhmy4okiooel4q2akzqotoq25n52mss4gwvmghj3qnroy"
+  }
+}
