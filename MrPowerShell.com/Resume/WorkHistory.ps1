@@ -11,8 +11,8 @@
         "Increased quality of Kubernetes deployments by implementing rules with Rego",
         "Added quality gates to Kubernetes deployments",        
         "This helped catch configuration issues before they reached production, and prevent drift in Kubernetes.",
-        "Improved SQL operations by implementing auditing and quality gates in Azure DevOps, improving security, reliability, and release times."            
-    )
+        "Improved SQL operations by implementing auditing and quality gates in Azure DevOps, improving security, reliability, and release times."
+     )
 }
 
 @{
@@ -185,7 +185,8 @@
         "Helped develop the PowerShell language and its features.",
         "Created and maintained test suites for PowerShell.",
         "Reduced testing costs for Microsoft management division",
-        'Shipped Windows Windows 7, Server 2008 R2, and Vista'
+        'Shipped Windows Windows 7, Windows Server 2008 R2, Windows Server 2010, and Vista'
+        'Overhauled the Windows Build Process, enabling continuous integration of the Windows Operating System.'
         "Pioneered Infrastructure as Code within Microsoft, improving the stability across Microsoft",
         "Evangelized the need for a hybrid role between Developers and Operations",
         "Pioneered the use of PowerShell in Client UI, proving the versatility of the language.",            
@@ -199,7 +200,7 @@
         "Language Modes are a foundation part of PowerShell security and have never been hacked",
         "Assisted Office with OpenXML standardization",
         "Assisted Xbox and Xbox Live Services with PowerShell integration",
-        "Assisted partner teams and companies in PowerShell development",        
+        "Assisted partner teams and companies in PowerShell development",
         "Oversaw Windows-wide Core Engineering Criteria for PowerShell",
         "Ensured entire operating system was able to be automated"
     )
