@@ -9,7 +9,7 @@ $variants = @{
     "Platform Engineer" = "Git", "Azure\s?DevOps", "CI/CD", "Workflow", "Platform", 'Infrastructure'
     "Container Engineer" = "Container"
     "Cybersecurity" = "Security", "Threat", "Attacks", "Secure"
-    "Full Stack" = "Server Side", "Backend", "HTML", "CSS", "JavaScript", "Container"    
+    "Full Stack Developer" = "Server Side", "Backend", "HTML", "CSS", "JavaScript", "Container"
 }
 
 $variantPatterns = @{}
@@ -106,7 +106,7 @@ $myResume = $myResume |
             "</h4>"
 
             "<details open>"
-            "<h3>Experience</h3>"
+            "<summary><h3>Experience</h3></summary>"
             "<blockquote>"
             "<ul class='resume-work'>"
             foreach ($work in $this.Work) {

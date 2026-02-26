@@ -8,7 +8,7 @@ if (-not $variant) {
 
     foreach ($variant in 'DevOps', 
         'Cybersecurity', 
-        'Full Stack', 
+        'Full Stack Developer', 
         'Design Engineer',
         'Platform Engineer',
         'Container Engineer'
