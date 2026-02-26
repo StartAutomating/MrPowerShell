@@ -8,7 +8,7 @@ $variants = @{
     "DevOps" = "Git", "Azure\s?DevOps", "CI/CD", "Workflow", "PowerShell", "Infrastructure"
     "Platform Engineering" = "Git", "Azure\s?DevOps", "CI/CD", "Workflow", "Platform", 'Infrastructure'
     "Cybersecurity" = "Security", "Threat", "Attacks", "Secure"
-    "Full Stack" = "Server Side", "Backend", "HTML", "CSS", "JavaScript"
+    "Full Stack" = "Server Side", "Backend", "HTML", "CSS", "JavaScript", "Container"
     "Design Engineering" = "HTML", "CSS", "JavaScript"
 }
 
@@ -82,12 +82,14 @@ $myResume = $myResume |
             $((ConvertFrom-Markdown -InputObject $this.basics.Summary).Html)
             </h4>"
 
-            "<h4>"
-            foreach ($variant in $variants.Keys) {
-                "<a href='https://MrPowerShell.com/Resume/$($variant -replace '/s')'>"
-                    [Web.HttpUtility]::HtmlEncode($variant)
+            "<details>"
+            "<summary>Variations</summary>"
+            foreach ($variantName in $variants.Keys) {
+                "<a href='https://MrPowerShell.com/Resume/$($variantName -replace '\s')'>"
+                    [Web.HttpUtility]::HtmlEncode($variantName)
                 "</a>"
             }
+            "</details>"
             "</h4>"
 
             "<h3>Experience</h3>"
