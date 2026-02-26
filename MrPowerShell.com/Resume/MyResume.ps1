@@ -6,10 +6,11 @@ if ($PSScriptRoot) { Push-Location $psScriptRoot }
 
 $variants = @{
     "DevOps" = "Git", "Azure\s?DevOps", "CI/CD", "Workflow", "PowerShell", "Infrastructure"
-    "Platform Engineering" = "Git", "Azure\s?DevOps", "CI/CD", "Workflow", "Platform", 'Infrastructure'
+    "Platform Engineer" = "Git", "Azure\s?DevOps", "CI/CD", "Workflow", "Platform", 'Infrastructure'
+    "Containerization Engineer" = "Container"
     "Cybersecurity" = "Security", "Threat", "Attacks", "Secure"
     "Full Stack" = "Server Side", "Backend", "HTML", "CSS", "JavaScript", "Container"
-    "Design Engineering" = "HTML", "CSS", "JavaScript"
+    # "Design Engineering" = "HTML", "CSS", "JavaScript"
 }
 
 $variantPatterns = @{}
@@ -84,11 +85,13 @@ $myResume = $myResume |
 
             "<details>"
             "<summary>Variations</summary>"
+            "<ul>"
             foreach ($variantName in $variants.Keys) {
-                "<a href='https://MrPowerShell.com/Resume/$($variantName -replace '\s')'>"
+                "<li><a href='https://MrPowerShell.com/Resume/$($variantName -replace '\s')'>"
                     [Web.HttpUtility]::HtmlEncode($variantName)
-                "</a>"
+                "</a></li>"
             }
+            "</ul>"
             "</details>"
             "</h4>"
 
