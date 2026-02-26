@@ -6,7 +6,13 @@ $myResume.ToJson() > ./My.Resume.json
 $myResume
 if (-not $variant) {
 
-    foreach ($variant in 'DevOps', 'Cybersecurity', 'Full Stack', 'Design Engineering') {
+    foreach ($variant in 'DevOps', 
+        'Cybersecurity', 
+        'Full Stack', 
+        'Design Engineer',
+        'Platform Engineer',
+        'Container Engineer'
+    ) {
         $variantResume = . ./MyResume.ps1 @PSBoundParameters -Variant $variant
         $variantResume | ../layout > "$($Variant -replace '\s').html"
     }
