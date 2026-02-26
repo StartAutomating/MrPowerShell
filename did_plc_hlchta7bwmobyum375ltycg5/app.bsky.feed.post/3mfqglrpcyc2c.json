@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772082625507115,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfqglq7gb22q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfqglrpcyc2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T05:10:26.733Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigumwkolevaxt2mrocrwlqssnjdqq4yi34c5clxjvlb3nxtzansum",
+          "uri": "at://did:plc:bqqmoom6eiznml3kcln47ftd/app.bsky.feed.post/3mfqgdfsdzk2f"
+        },
+        "root": {
+          "cid": "bafyreiherdah5dihejinqnoin2qyjtinim6jejjnc3vxdgkihktm2fohyu",
+          "uri": "at://did:plc:2dv4enaklqwhdswno3iurehp/app.bsky.feed.post/3mfoynrxkp22q"
+        }
+      },
+      "text": "This predates me ( not my call ), and yet, I agree with this mitigation.\n\nWhat else can one do ?  Disable and remove functionality legitimately used millions of time a year for because one day it was used maliciously?\n\nWhat would you have done?\n\nGenies and jinns do not go back into bottles."
+    },
+    "cid": "bafyreifgyv262ae2bfa74ztavilnq3jgs226xzz22uzj22qpuu2i2iswnu"
+  }
+}
