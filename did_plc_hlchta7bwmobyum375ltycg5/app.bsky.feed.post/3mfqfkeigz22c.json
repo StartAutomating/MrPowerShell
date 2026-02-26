@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772081504176102,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfqfkcwns72x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfqfkeigz22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T04:51:45.58Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic56arucnowo546xlue25zxnyo3rioxgscdxs73a7gwboefo5de3i",
+          "uri": "at://did:plc:bqqmoom6eiznml3kcln47ftd/app.bsky.feed.post/3mfqf6zdhw22f"
+        },
+        "root": {
+          "cid": "bafyreiherdah5dihejinqnoin2qyjtinim6jejjnc3vxdgkihktm2fohyu",
+          "uri": "at://did:plc:2dv4enaklqwhdswno3iurehp/app.bsky.feed.post/3mfoynrxkp22q"
+        }
+      },
+      "text": "Sorry to continue to correct, and, no.\n\nVBA could always run scripts.\n\nAnd most attackers use that to escape out of VBA asap, then quick pop up a new shell minimized or hidden and then they're off to the races.\n\n\"Enable macros\" and it's all over.\n\nWould not recommend."
+    },
+    "cid": "bafyreigniqcixrijqg7wt7h6wx36o3jcgbp6lhjxi5qnmabl4ji3i42yfa"
+  }
+}
