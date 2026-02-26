@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772084432757464,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfqiblrs4j2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfqibnb4uc2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T05:40:34.014Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibrirnqgpemautpm25jqlrc5jbb3rgdy2yx2lvpft6yavbjgodr64",
+          "uri": "at://did:plc:bqqmoom6eiznml3kcln47ftd/app.bsky.feed.post/3mfqhydbagc27"
+        },
+        "root": {
+          "cid": "bafyreiherdah5dihejinqnoin2qyjtinim6jejjnc3vxdgkihktm2fohyu",
+          "uri": "at://did:plc:2dv4enaklqwhdswno3iurehp/app.bsky.feed.post/3mfoynrxkp22q"
+        }
+      },
+      "text": "I think I'm done actually.\n\nYou started out by pointing out that people mislabeling viruses as malware confuses things.\n\nAnd now you seem to be confusing attackers success rate with defenders failure rate.\n\nWhere do we go to get credit for all the attacks prevented ?\n\nHow can we even begin to count?"
+    },
+    "cid": "bafyreif65eknxihkdjxjz6wxwksrbfx33stdmkkkstcunoxk26rwahbtiu"
+  }
+}
