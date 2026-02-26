@@ -8,7 +8,7 @@ $variants = @{
     "DevOps" = "Git", "Azure\s?DevOps", "CI/CD", "Workflow", "PowerShell", "Infrastructure"
     "Platform Engineer" = "Git", "Azure\s?DevOps", "CI/CD", "Workflow", "Platform", 'Infrastructure'
     "Container Engineer" = "Container"
-    "Cybersecurity" = "Security", "Threat", "Attacks", "Secure"
+    "Cybersecurity" = "Security", "Threat", "Attacks", "Secure", "Malic"
     "Full Stack Developer" = "Server Side", "Backend", "HTML", "CSS", "JavaScript", "Container"
 }
 
@@ -56,7 +56,7 @@ if ($Variant) {
         foreach ($highlight in $work.highlights) {
             foreach ($keyword in $variantKeywords) {
                 if (-not $keyword) { continue }
-                if ($highlight -match "[\s\p{P}]$keyword[\s\p{P}]") {
+                if ($highlight -match "$keyword") {
                     $work
                     continue nextWork
                 } 
@@ -70,7 +70,10 @@ if ($Variant) {
 $myResume = JsonResume @Basics @resumeParameters -Skill $skills -Language $languages -Interest $interests
 
 $myResume = $myResume | 
-    Add-Member ToHtml -MemberType ScriptMethod -Value {                
+    Add-Member ToHtml -MemberType ScriptMethod -Value {
+        "<style>"
+        ".experience-summary { font-size: 2rem; }"
+        "</style>"
         "<article class='resume'>"    
             "<h2>"
             if ($this.basics.url) {
@@ -106,7 +109,7 @@ $myResume = $myResume |
             "</h4>"
 
             "<details open>"
-            "<summary><h3>Experience</h3></summary>"
+            "<summary class='experience-summary'>Experience</summary>"
             "<blockquote>"
             "<ul class='resume-work'>"
             foreach ($work in $this.Work) {
