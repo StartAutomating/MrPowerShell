@@ -7,7 +7,7 @@ if ($PSScriptRoot) { Push-Location $psScriptRoot }
 $variants = @{
     "DevOps" = "Git", "Azure\s?DevOps", "CI/CD", "Workflow", "PowerShell", "Infrastructure"
     "Platform Engineer" = "Git", "Azure\s?DevOps", "CI/CD", "Workflow", "Platform", 'Infrastructure'
-    "Container Engineer" = "Container"
+    "Container Engineer" = "Container", "Kubernetes", "Docker"
     "Cybersecurity" = "Security", "Threat", "Attacks", "Secure", "Malic"
     "Full Stack Developer" = "Server Side", "Backend", "HTML", "CSS", "JavaScript", "Container"
 }
