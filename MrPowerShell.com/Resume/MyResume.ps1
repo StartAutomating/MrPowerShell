@@ -71,7 +71,7 @@ $myResume = $myResume |
         "<article class='resume'>"    
             "<h2>"
             if ($this.basics.url) {
-                "<a href='$($this.basics.url)'>$($this.basics.name)</a>"
+                "<a href='$($this.basics.url | Select -First 1)'>$($this.basics.name)</a>"
             } else {
                 # Otherwise, just use the name.
                 "$($this.basics.name)"
@@ -84,8 +84,8 @@ $myResume = $myResume |
 
             "<h4>"
             foreach ($variant in $variants.Keys) {
-                "<a href='https://MrPowerShell.com/Resume/$($variant.key -replace '/s')'>"
-                    [Web.HttpUtility]::HtmlEncode($variant.Key)
+                "<a href='https://MrPowerShell.com/Resume/$($variant -replace '/s')'>"
+                    [Web.HttpUtility]::HtmlEncode($variant)
                 "</a>"
             }
             "</h4>"
