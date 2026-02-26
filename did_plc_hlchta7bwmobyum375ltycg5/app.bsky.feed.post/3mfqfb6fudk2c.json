@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772081195780170,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfqfb4sab22q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfqfb6fudk2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T04:46:37.199Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaxefocnmutygbvwlnwz23242on44sx2nzexrilfexple3aszyh6m",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mfqf4sxu5s2c"
+        },
+        "root": {
+          "cid": "bafyreiherdah5dihejinqnoin2qyjtinim6jejjnc3vxdgkihktm2fohyu",
+          "uri": "at://did:plc:2dv4enaklqwhdswno3iurehp/app.bsky.feed.post/3mfoynrxkp22q"
+        }
+      },
+      "text": "The consolation is in the even quieter actions that enable us to know.\n\nIf we ( PowerShell team ) hadn't invested so much thought on auditing, we would still be stuck in the stone age of cyber security where most attacks were undetectable.\n\nPowerShell has much more security than people know."
+    },
+    "cid": "bafyreid6zmaivclzozg2upd4bxqvb4jumf46ffpge3uphtnu5n4hin6zpa"
+  }
+}
