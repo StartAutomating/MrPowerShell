@@ -39,7 +39,10 @@ Currently a 2nd year Microsoft Most Valued Professional (MVP) in Azure/PowerShel
 
 Jack of all trades, master of PowerShell.
 "
-    Website = "https://MrPowerShell.com", "https://github.com/StartAutomating"
+    Website = "https://MrPowerShell.com", 
+        "https://github.com/StartAutomating", 
+        "https://github.com/PoshWeb",
+        "https://psturtle.com/"
 }
 
 $skills = ./Skills.ps1
@@ -76,12 +79,7 @@ $myResume = $myResume |
             } else {
                 # Otherwise, just use the name.
                 "$($this.basics.name)"
-            }
-            "<details><summary>Links</summary>"
-            foreach ($url in $this.basics.url) {
-                "<a href='$url'>$([Web.HttpUtility]::HtmlEncode($url))</a>"
-            }
-            "</details>"
+            }            
             "</h2>"            
             "<h3 class='resume-label'>$([Web.HttpUtility]::HtmlEncode($this.basics.Label))</h3>"
             "<h4 class='resume-summary'>
@@ -89,12 +87,20 @@ $myResume = $myResume |
             </h4>"
 
             "<details>"
-            "<summary>Variations</summary>"
+            "<summary>Resume Variants</summary>"
+            "<p>Only show some of my professional history</p>"
             "<ul>"
             foreach ($variantName in $variants.Keys) {
                 "<li><a href='https://MrPowerShell.com/Resume/$($variantName -replace '\s')'>"
                     [Web.HttpUtility]::HtmlEncode($variantName)
                 "</a></li>"
+            }
+            "</ul>"
+            "</details>"
+            "<details><summary>Links</summary>"
+            "<ul>"
+            foreach ($url in $this.basics.url) {
+                "<li><a href='$url'>$([Web.HttpUtility]::HtmlEncode($url))</a></li>"
             }
             "</ul>"
             "</details>"
