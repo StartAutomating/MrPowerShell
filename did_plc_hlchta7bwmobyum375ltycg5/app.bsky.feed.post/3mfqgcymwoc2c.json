@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772082330689078,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfqgcxaowi2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfqgcymwoc2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T05:05:32.006Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibsvvzif5d3r53nbxxylvn4zp5wfziqf6afz6ywib2gn4bxikbx3i",
+          "uri": "at://did:plc:bqqmoom6eiznml3kcln47ftd/app.bsky.feed.post/3mfqfre5yys2f"
+        },
+        "root": {
+          "cid": "bafyreiherdah5dihejinqnoin2qyjtinim6jejjnc3vxdgkihktm2fohyu",
+          "uri": "at://did:plc:2dv4enaklqwhdswno3iurehp/app.bsky.feed.post/3mfoynrxkp22q"
+        }
+      },
+      "text": "Citation needed.\n\n\"Every other company\" seems to ignore the many, many companies that have allowed code injection by not having such safeguards in place.\n\nHard to see this as accurate when hundreds of companies have messed this up.\n\nLots of people still don't know what makes a code injection attack."
+    },
+    "cid": "bafyreif5szmmcfdwlhk56z6ihlk4z5e6pxacfb6daue66h5q6susu7ofke"
+  }
+}
