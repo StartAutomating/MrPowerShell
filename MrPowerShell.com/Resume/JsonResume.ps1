@@ -61,7 +61,7 @@ function Get-JsonResume
     # Any website or URL of contact number.
     [Parameter(ValueFromPipelineByPropertyName)]
     [Alias('Uri','ContactUrl','WebAddress')]
-    [string]
+    [string[]]
     $Website,
 
     # Any social media profiles for the resume owner.

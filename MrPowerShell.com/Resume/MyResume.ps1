@@ -39,7 +39,7 @@ Currently a 2nd year Microsoft Most Valued Professional (MVP) in Azure/PowerShel
 
 Jack of all trades, master of PowerShell.
 "
-    Website = "https://MrPowerShell.com"
+    Website = "https://MrPowerShell.com", "https://github.com/StartAutomating"
 }
 
 $skills = ./Skills.ps1
@@ -77,6 +77,11 @@ $myResume = $myResume |
                 # Otherwise, just use the name.
                 "$($this.basics.name)"
             }
+            "<details><summary>Links</summary>"
+            foreach ($url in $this.basics.url) {
+                "<a href='$url'>$([Web.HttpUtility]::HtmlEncode($url))</a>"
+            }
+            "</details>"
             "</h2>"            
             "<h3 class='resume-label'>$([Web.HttpUtility]::HtmlEncode($this.basics.Label))</h3>"
             "<h4 class='resume-summary'>
