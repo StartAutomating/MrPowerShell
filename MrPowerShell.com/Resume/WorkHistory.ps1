@@ -78,7 +78,7 @@
         "Created efficient PowerShell and SQL ETL architecture to process millions of listings.",
         "Rapidly implemented direct RETS and IDX integration",        
         "Engineered platform for a containerized big data ETL architecture",
-        "Reduced infrastructure costs by 98% (from `$20,000 per month to `$250 per month).",        
+        "Reduced infrastructure costs by 98% (from `$20,000 per month to `$250 per month)."        
     )
 }
 
@@ -226,7 +226,7 @@
     Highlights = @(
         "Developed realtime video mixing (VJ) software suite for live performances.",
         "Wrote high performance software in C++ and x86 assembly",
-        "Created highly efficient pure assembly chroma key algoritmns"
+        "Created highly efficient pure assembly chroma key algoritmns",
         "Created visual effects and animations for live shows.",
         "Worked with various artists to create unique visual experiences."
     )
