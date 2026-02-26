@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772061385370957,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfpssqb26s2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfpsspy2us2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-25T23:16:24.968Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiauzmxwvxd4orpiz65apgg35jb7v6r7lfvw4irfi4gaiu4eibyklm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mfpsokqn6s2t"
+        },
+        "root": {
+          "cid": "bafyreiherdah5dihejinqnoin2qyjtinim6jejjnc3vxdgkihktm2fohyu",
+          "uri": "at://did:plc:2dv4enaklqwhdswno3iurehp/app.bsky.feed.post/3mfoynrxkp22q"
+        }
+      },
+      "text": "Really just wish:\n\n1. This didn't happen\n2. Reality Winner didn't spend years in jail due to leaking the vectors\n3. Those vectors didn't use a language I helped build.\n4. Those vectors didn't (probably) use modules of mine for exfil\n5. Voting vendors had better operational security"
+    },
+    "cid": "bafyreiet7auwdb3fssmlxrkne2vegd6vnbntqibb7qt7ylwhpx3zg7hp3u"
+  }
+}
