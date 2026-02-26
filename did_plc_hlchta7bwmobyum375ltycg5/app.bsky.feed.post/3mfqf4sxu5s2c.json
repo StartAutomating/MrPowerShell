@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772081049745519,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfqf4rhk3u2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfqf4sxu5s2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T04:44:11.003Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiahafafsrhmy4okiooel4q2akzqotoq25n52mss4gwvmghj3qnroy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mfqevz4tvc2c"
+        },
+        "root": {
+          "cid": "bafyreiherdah5dihejinqnoin2qyjtinim6jejjnc3vxdgkihktm2fohyu",
+          "uri": "at://did:plc:2dv4enaklqwhdswno3iurehp/app.bsky.feed.post/3mfoynrxkp22q"
+        }
+      },
+      "text": "The pain is truly threefold:\n\n1. That technical ignorance like what you've mentioned will always enable attacks.\n2. That good tools are used in bad ways.\n3. That bad actors often recognize the value of good technology sooner."
+    },
+    "cid": "bafyreiaxefocnmutygbvwlnwz23242on44sx2nzexrilfexple3aszyh6m"
+  }
+}
