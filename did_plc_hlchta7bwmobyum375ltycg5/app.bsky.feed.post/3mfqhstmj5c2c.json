@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772083935467388,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfqhsrl6hj2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfqhstmj5c2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T05:32:17.361Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiemaad4hobmwwrow3huc5itqgzfhp4snw7xjfk2xqprtobr23b4n4",
+          "uri": "at://did:plc:bqqmoom6eiznml3kcln47ftd/app.bsky.feed.post/3mfqhowwkgk2f"
+        },
+        "root": {
+          "cid": "bafyreiherdah5dihejinqnoin2qyjtinim6jejjnc3vxdgkihktm2fohyu",
+          "uri": "at://did:plc:2dv4enaklqwhdswno3iurehp/app.bsky.feed.post/3mfoynrxkp22q"
+        }
+      },
+      "text": "I'm arguing about attack surface area and rate of failure.\n\nAnd suggesting you're looking at the total, not the ratios.\n\nIf Microsoft were actually awful at security, then they would have percentages closer to their market share."
+    },
+    "cid": "bafyreigaw625lzgz6fiazorsjfpeh5vjp2brj5i4ssvv7v5sz5mkqmappq"
+  }
+}
