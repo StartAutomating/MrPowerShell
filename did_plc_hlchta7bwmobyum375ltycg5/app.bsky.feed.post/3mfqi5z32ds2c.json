@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772084310764605,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfqi5xkxc22i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfqi5z32ds2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T05:38:32.18Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiepvweyjzktlivfp2rf6tygxrkywoy6rtlfhnermizz27fbvbpqry",
+          "uri": "at://did:plc:bqqmoom6eiznml3kcln47ftd/app.bsky.feed.post/3mfqhvkhsnc27"
+        },
+        "root": {
+          "cid": "bafyreiherdah5dihejinqnoin2qyjtinim6jejjnc3vxdgkihktm2fohyu",
+          "uri": "at://did:plc:2dv4enaklqwhdswno3iurehp/app.bsky.feed.post/3mfoynrxkp22q"
+        }
+      },
+      "text": "Now that's just warping numbers to your viewpoint.  Is it 80-90 % of computers with a user in front of them ?\n\nOr 17?\n\nIt seems you are more interested in blaming a company than looking at the industry writ large.\n\nMicrosoft rate has continued to drop over time.  Others continue to rise."
+    },
+    "cid": "bafyreianzpngzguug4qzpprh7xtsgyniplvvmuuhnja3trtgef7o7vz6ye"
+  }
+}
