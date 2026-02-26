@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772083549759409,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfqhhbs2nc2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfqhhduixs2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T05:25:51.747Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidqa3ars5wkkdtlxre5mw4kuktgf6ajps3pybipva43cre52lftaa",
+          "uri": "at://did:plc:bqqmoom6eiznml3kcln47ftd/app.bsky.feed.post/3mfqha25nq22f"
+        },
+        "root": {
+          "cid": "bafyreiherdah5dihejinqnoin2qyjtinim6jejjnc3vxdgkihktm2fohyu",
+          "uri": "at://did:plc:2dv4enaklqwhdswno3iurehp/app.bsky.feed.post/3mfoynrxkp22q"
+        }
+      },
+      "text": "Citation still needed.\n\nAnd even as Google patched the CSS bug in Chromium, they didn't reveal when it was reported, by who, the repro, or who is actively exploiting it.\n\nBecause that is not a good idea for a zero-day exploit.\n\nPlease think thru the ramifications of what you're advocating for."
+    },
+    "cid": "bafyreieyhpi4ahzaxmdmozuscdsxosy6kcivqlbi5iuxoy6ne2vtv5rrk4"
+  }
+}
