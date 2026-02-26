@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772082840751159,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfqgs5oans2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfqgs74jr22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T05:14:02.123Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigumwkolevaxt2mrocrwlqssnjdqq4yi34c5clxjvlb3nxtzansum",
+          "uri": "at://did:plc:bqqmoom6eiznml3kcln47ftd/app.bsky.feed.post/3mfqgdfsdzk2f"
+        },
+        "root": {
+          "cid": "bafyreiherdah5dihejinqnoin2qyjtinim6jejjnc3vxdgkihktm2fohyu",
+          "uri": "at://did:plc:2dv4enaklqwhdswno3iurehp/app.bsky.feed.post/3mfoynrxkp22q"
+        }
+      },
+      "text": "And to be clear I said \"they patched it very quickly after I Love You\".\n\nMicrosoft was and is the biggest target vector, and that has always brought much more dedication and skill to securing billions of boxes than people realize.\n\nI wish people saw that truthfully rather than presumed so much."
+    },
+    "cid": "bafyreifmprvav2fyscdhq7syb3or5zu2zthwvpawbb6vs6p3d667xfp4bm"
+  }
+}
