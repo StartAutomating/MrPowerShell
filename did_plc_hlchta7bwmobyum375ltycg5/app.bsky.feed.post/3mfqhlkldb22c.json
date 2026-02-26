@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772083691254490,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfqhliiw5x2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfqhlkldb22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T05:28:13.004Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiesvmn2pq5sc5ir7imwf734z6id5dmrbzrcpxv3h7jiipstb3bc2i",
+          "uri": "at://did:plc:bqqmoom6eiznml3kcln47ftd/app.bsky.feed.post/3mfqhdjuib22f"
+        },
+        "root": {
+          "cid": "bafyreiherdah5dihejinqnoin2qyjtinim6jejjnc3vxdgkihktm2fohyu",
+          "uri": "at://did:plc:2dv4enaklqwhdswno3iurehp/app.bsky.feed.post/3mfoynrxkp22q"
+        }
+      },
+      "text": "Yes, and the desktop market is the topic here, is it not?  Some people call that the PC market...\n\nEither label applied, it's where the users are, and, considering most major attacks in the past 20+ years have been social vectors, it's a pretty great track record."
+    },
+    "cid": "bafyreia26obw3cvxnsipik6bjm6ce6wtczjlugbipjk7u2mb4t3if6jmoe"
+  }
+}
