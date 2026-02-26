@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772082989560978,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfqgwll56l2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfqgwn2qds2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T05:16:30.963Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibusrvexqe226k6d3xytcctzxbdmqiplzhogzws2t6q2hq5sjgrr4",
+          "uri": "at://did:plc:bqqmoom6eiznml3kcln47ftd/app.bsky.feed.post/3mfqgnz3jpk2f"
+        },
+        "root": {
+          "cid": "bafyreiherdah5dihejinqnoin2qyjtinim6jejjnc3vxdgkihktm2fohyu",
+          "uri": "at://did:plc:2dv4enaklqwhdswno3iurehp/app.bsky.feed.post/3mfoynrxkp22q"
+        }
+      },
+      "text": "Nope, just someone who doesn't like seeing people get dragged for things that are very complicated.\n\nAnd \"enable macros\" *is* prompting for use.\n\nPowerShell went *much* further, enabling prompting throughout the process.\n\nNo other language has that, still."
+    },
+    "cid": "bafyreibmwkq46tlmfxllilkb4t7qhc5aw7vix47ri4ebr7dobeaivmgizu"
+  }
+}
