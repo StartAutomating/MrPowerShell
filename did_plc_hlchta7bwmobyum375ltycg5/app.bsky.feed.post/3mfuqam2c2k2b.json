@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772230428658964,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfuqamfgj22q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfuqam2c2k2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-27T22:13:48.074Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig2ohayqwyrtuymkxsyfegrmggil2ynbd7c5qjyn4munz7u2dzkty",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mfuo2bpwys24"
+        },
+        "root": {
+          "cid": "bafyreifxsmpy4yj2fmmfhxp34cquqxax4duo4do7stvtacunasalv5pfxy",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mfulnugxa224"
+        }
+      },
+      "text": "a - cool\nb - just checking on the buried lead here:\n\nThose are all different PowerShells running in a Rust Native Host, right?\n\n(if so, please let me know if you're proxying object output or sending stuff directly to the terminal)"
+    },
+    "cid": "bafyreidwxzyu66ixxsg25xtdnudognarimckmxdkd64t2p475d3m6bjdvy"
+  }
+}
