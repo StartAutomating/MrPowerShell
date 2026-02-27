@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772216398062775,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfud6hsxae2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfud6juiak2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-27T18:20:00.035Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibvpjgla26aspwdgeojxfbccoge6e5meht7jy4yzx66hyfjx6lpye",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3mftwmxii2s25"
+        },
+        "root": {
+          "cid": "bafyreibvpjgla26aspwdgeojxfbccoge6e5meht7jy4yzx66hyfjx6lpye",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3mftwmxii2s25"
+        }
+      },
+      "text": "Well I'll be in town, I sadly missed the chance on the in-person MVP Summit.\n\nGoing to a few meet and greets, and happy to head over to whatever hotel has the PowerShell party.\n\nSo... Lemme know, too."
+    },
+    "cid": "bafyreihssl6pks2ixwflgor6jud23wveblxkg5xxxurrucw7npfsaic3ze"
+  }
+}
