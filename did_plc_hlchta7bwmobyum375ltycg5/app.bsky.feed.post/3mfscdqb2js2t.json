@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772146781968701,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfscdqsczc2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfscdqb2js2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-26T22:59:41.292Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihrrlz77pq6rhrx4moqkhxt7oxpwk7im6rwxtfemqd2bgowwep6g4",
+          "uri": "at://did:plc:nayoum4pj2llr3horwpaftxa/app.bsky.feed.post/3mfsaetcyjs2t"
+        },
+        "root": {
+          "cid": "bafyreihrrlz77pq6rhrx4moqkhxt7oxpwk7im6rwxtfemqd2bgowwep6g4",
+          "uri": "at://did:plc:nayoum4pj2llr3horwpaftxa/app.bsky.feed.post/3mfsaetcyjs2t"
+        }
+      },
+      "text": "Sounds like it!\n\nI wonder what program / script thought changing registry keys without informing people was a good idea...\n\nLemme know when you've identified the registry keys to reset, and I'll add em to a growing collection of opt-out customzations I'm working on."
+    },
+    "cid": "bafyreibdxmmoeukjhxctphplcdal7ecddlqiej62fozbsrozw5ijvcdcdu"
+  }
+}
