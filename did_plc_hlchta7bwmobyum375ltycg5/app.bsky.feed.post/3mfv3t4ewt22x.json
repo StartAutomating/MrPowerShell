@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772242860960722,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfv3t4vgpy2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfv3t4ewt22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-28T01:41:00.34Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic62e4l7d7iisdtugxbf7egwk74ykzwyycjgsnqrr7bb7t2s3izii",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mfv3o7yedk2x"
+        },
+        "root": {
+          "cid": "bafyreifxsmpy4yj2fmmfhxp34cquqxax4duo4do7stvtacunasalv5pfxy",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mfulnugxa224"
+        }
+      },
+      "text": "Put more simply:\n\n1. It should let methods become Commands\n2. It should have a PSObject (Pseudo Object), with a dynamic pseudotype hierarchy\n3. It should have Scriptable Properties / Methods / Events"
+    },
+    "cid": "bafyreignfesj6xt63gkw34o4mbpvuo3gzkj4ijvvpcdo2o3jjitcqxn454"
+  }
+}
