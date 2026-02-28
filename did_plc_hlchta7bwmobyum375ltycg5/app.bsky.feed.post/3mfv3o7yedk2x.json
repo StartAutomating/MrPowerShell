@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772242697066295,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfv3oajktq2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfv3o7yedk2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-28T01:38:16.35Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifofyahd2flfltev6eqnyc2ztlihqvkfwqsejtnsdhrvraljohev4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mfv2re7zoc2x"
+        },
+        "root": {
+          "cid": "bafyreifxsmpy4yj2fmmfhxp34cquqxax4duo4do7stvtacunasalv5pfxy",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mfulnugxa224"
+        }
+      },
+      "text": "Riffing on the topic in public:\n\n1. It should make it easy have PowerShell-like parameter binding on any existing function/method.\n2. It should have an open dynamic object, with a sequence of type names\n3. It should have an extendable type system, allowing extension of any type."
+    },
+    "cid": "bafyreic62e4l7d7iisdtugxbf7egwk74ykzwyycjgsnqrr7bb7t2s3izii"
+  }
+}
