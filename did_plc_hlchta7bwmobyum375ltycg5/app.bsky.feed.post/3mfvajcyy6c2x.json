@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772247900906197,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfvajddj2q2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfvajcyy6c2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-28T03:05:00.454Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiesovb2bngs54xsprb245jc64wdyalhauwusoac5brmj3mjsjkxda",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mfv6zly7d22n"
+        },
+        "root": {
+          "cid": "bafyreifxsmpy4yj2fmmfhxp34cquqxax4duo4do7stvtacunasalv5pfxy",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mfulnugxa224"
+        }
+      },
+      "text": "Yes, I think I'm suggesting some specific things a binding needs to do.  The more \"live\" objects can be, and the better they can work with .NET, the more happy we can all be.\n\nI'm more thinking thru the sandboxed scenarios.\n\nSpecifically:\n\nHow do I bring object pipelines to JavaScript"
+    },
+    "cid": "bafyreia4mdan4pfwx2ye4qv74ggxr4rmwglbfw3o2w2icjlqla2ktqik4i"
+  }
+}
