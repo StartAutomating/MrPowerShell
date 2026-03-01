@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772308446885054,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfwyvn4ncb2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfwyvmsrts2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-28T19:54:02.931Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic5kpvghhckbc535x4e736pke4ej4jmcdacggcgxklfeofmv3chtm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mfwtnj67ws2c"
+        },
+        "root": {
+          "cid": "bafyreidvblitkk3qheas737wq3vyj7smi776zuxujh2beqxiysnuecydwm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mfwhuplsvs2c"
+        }
+      },
+      "text": "Custom PowerShell script is the route Chocolatey went (/tools/chocolateyInstall.ps1), and _probably_ the most flexible approach.\n\nNuGet does this within their .nuspec by specifying dependencies.\n\nMost other package formats have \"magic manifest file that lists dependencies\""
+    },
+    "cid": "bafyreidjf6gouoemhwcrzmd6o4n5tvdditadtpdnhwc45sdc7jx5evsium"
+  }
+}
