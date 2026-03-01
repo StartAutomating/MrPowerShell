@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772404731246337,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfzslabt2v2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfzsl7vkek2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-01T22:38:50.61Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreighzthyqamskzj5adq3r4vp7umzcs3l5m3o7outri3fqmjki4ywai",
+          "uri": "at://did:plc:pdwryunie6mmkobp2wgjy2ak/app.bsky.feed.post/3mfzoas5tok23"
+        },
+        "root": {
+          "cid": "bafyreibialdwkd3mlkchmrcthsai42b6x3h7ktkzdcpvw433yvcdtizuea",
+          "uri": "at://did:plc:i4tfenpfog244rxry5uz4vtk/app.bsky.feed.post/3mfzni3oz4c2s"
+        }
+      },
+      "text": "We get that a lot 😆\n\nHigh level \"how to\" validate json schemas:\n\nCheck each key/value is in the schema, casts to the right type (-as), and meets the range and regex expectations if present (-lt, -gt, -match)\n\nFor best results, put in [ValidateScript] on a parameter 😉😎\n\nPowerShell is overpowered."
+    },
+    "cid": "bafyreigcvrnxikzekgawp44oebyhkk7x2a22qag23a2mdyyoqrskrymjvi"
+  }
+}
