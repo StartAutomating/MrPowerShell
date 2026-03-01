@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772308189044947,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfwyo2gp4y2x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfwynzuiis2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-28T19:49:48.183Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibcrmbhlamiz3xmioyiz73mj4karylaexc7oz6mtifwcvl62cgvyy",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mfwtgz6lhs2c"
+        },
+        "root": {
+          "cid": "bafyreidvblitkk3qheas737wq3vyj7smi776zuxujh2beqxiysnuecydwm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mfwhuplsvs2c"
+        }
+      },
+      "text": "Specify a bit more if you will...\n\nThis weekend's work/play is sanding off a module for Open Packages (NuGet packages are open packages).\n\nThere are quite a few ways we could try to approach this, some more \"canonical\" than others.\n\nSo lemme know what you want and I'll try to include it."
+    },
+    "cid": "bafyreid63rtotjxzvbvy6fssskewuf523oydlshkjqwwtowj5qaixmdufe"
+  }
+}
