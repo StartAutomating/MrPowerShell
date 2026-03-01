@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772317115926540,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfxay3v4rd2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfxay3apms2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-28T22:18:35.112Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifxdpukn2jbwazvgw3x7kccj5azl3f72qbzyp4aaxzax6jtxibq5e",
+          "uri": "at://did:plc:777eanw7giyjd76dwatpch3d/app.bsky.feed.post/3mfwkimfo3223"
+        },
+        "root": {
+          "cid": "bafyreifxdpukn2jbwazvgw3x7kccj5azl3f72qbzyp4aaxzax6jtxibq5e",
+          "uri": "at://did:plc:777eanw7giyjd76dwatpch3d/app.bsky.feed.post/3mfwkimfo3223"
+        }
+      },
+      "text": "Great viewpoint!\n\nI also find it's really helpful to learn multiple new technologies at the same time.\n\n(Helps compare/contrast/cross-pollinate)\n\nAlso, personally, I'm very over \"language discrimination\":\n\nIMO, this is a huge industry problem many do not see.\n\nTeach empathy _and_ technology!"
+    },
+    "cid": "bafyreibibg6nokqrtejople2d56ru3qkhcalcm553qrxuolzwadksvjg4q"
+  }
+}
