@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772303668719753,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfwuhdmict2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfwuheuhj22b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-28T18:34:29.868Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiacuexsqzu5xoqzgjzq5zezb44nsuhmgnnnw323zadx4bkis6ayhi",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mfwgumanzk2c"
+        },
+        "root": {
+          "cid": "bafyreifxsmpy4yj2fmmfhxp34cquqxax4duo4do7stvtacunasalv5pfxy",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mfulnugxa224"
+        }
+      },
+      "text": "That's where the ETS comes in....\n\nSerialize to / from JSON, then decorate the objects to get a consistent set of methods / properties / events on each object.\n\n🤞Would be the best of both worlds.\n\nMinimal object definitions get transmitted, maximal object definitions are on each client."
+    },
+    "cid": "bafyreiexe2wib3ayi3mw3ubqu6gdwdah2bfm6d2y2eljwdfbsnbod5nj3q"
+  }
+}
