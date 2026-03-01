@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772310644824266,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mfx2xal2kl2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mfx2xabrcs2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-02-28T20:30:44.384Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigrpzkaqsay6l6upwnlksyfb2ox47ka7w6t5hqjlp224fzmnxx3n4",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mfx2puyis22c"
+        },
+        "root": {
+          "cid": "bafyreidvblitkk3qheas737wq3vyj7smi776zuxujh2beqxiysnuecydwm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mfwhuplsvs2c"
+        }
+      },
+      "text": "I think I've got it!  (and it's much easier to support existing mechanisms than build a brand new one).\n\nTo put the ask in Cmdlet terminology:\n\n\"Install-XYZ should install a package _and it's dependencies_\" ?"
+    },
+    "cid": "bafyreifr7u76jgtzdhgkzqwcmuxpnnt6v6xuy5ejmfdrndhmmjkuoyxdqu"
+  }
+}
