@@ -1,0 +1,54 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772493478858636,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mg4fa4q5d62g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mg4fa4gtqs2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-02T23:17:58.451Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreidpkhpbhnvjup4wnmopvbwshjalshxdez5ud7g3p2fa4qhxpoymta",
+          "uri": "at://did:plc:qrllvid7s54k4hnwtqxwetrf/app.bsky.feed.post/3mg4bgzv5r224"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:qrllvid7s54k4hnwtqxwetrf"
+            }
+          ],
+          "index": {
+            "byteEnd": 20,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/joshuajfriedman.com/post/3mg4bgzv5r224"
+            }
+          ],
+          "index": {
+            "byteEnd": 211,
+            "byteStart": 187
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "@joshuajfriedman.com \n\nA - Congratulations!\nB - have lots of tools to help, let's chat\nC - I, for one, would like the kind of BlueSky that doesn't turn off replies on requests for help.\n\nbsky.app/profile/josh..."
+    },
+    "cid": "bafyreie6eepwn3x77iywalpweaj774at6h37ohkiybkwnngkvhlqwl7twi"
+  }
+}
