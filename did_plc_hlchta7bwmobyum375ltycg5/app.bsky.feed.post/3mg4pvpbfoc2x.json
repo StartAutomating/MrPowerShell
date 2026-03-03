@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772504940793211,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mg4pvpmsoq2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mg4pvpbfoc2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-03T02:29:00.262Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigkatrzxt7sclikvubglky2t32avi6w4ookn47s3yhfp2jjdqpofy",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3mg4m2tei5c23"
+        },
+        "root": {
+          "cid": "bafyreigkatrzxt7sclikvubglky2t32avi6w4ookn47s3yhfp2jjdqpofy",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3mg4m2tei5c23"
+        }
+      },
+      "text": "💯\n\nThe function provider is also the easy way to set various exotic function names:\n\nlike multi-word commands:\n\n~~~PowerShell\n${function:This Is Cool} = {\"Yes it Is\"} \n& \"This Is Cool\"\n~~~"
+    },
+    "cid": "bafyreihwrl2klyggyx6afvvygq4wwp24kodckpkbiji4vi3fkcm53mhmoa"
+  }
+}
