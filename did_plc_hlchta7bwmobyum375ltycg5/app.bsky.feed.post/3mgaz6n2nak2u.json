@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772652343400600,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgaz6noit32u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgaz6n2nak2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-04T19:25:42.562Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigoi76oxm6egtc7frow5n4dee3psq5prwizq7geolquyffaxf2fiq",
+          "uri": "at://did:plc:yfvwmnlztr4dwkb7hwz55r2g/app.bsky.feed.post/3mgaee2b3ws2d"
+        },
+        "root": {
+          "cid": "bafyreif462xpjioy6vjcxavhcd35zkdwd4pbffo4auidw263trafkvufry",
+          "uri": "at://did:plc:ja3mx2dwrh6tn3blhuerufrd/app.bsky.feed.post/3mgac3dhu422v"
+        }
+      },
+      "text": "yeah, chipping away at obtuse naming is probably one of PowerShell's better contributions to the universe.\n\nThis problem has plagued us since the days of C.\n\nNot saying anyone needs to have Get-SuperLongFormCommandName, but at least _try_ to be obvious and helpful."
+    },
+    "cid": "bafyreih2sjfpiaeltmp6auhzc4udehhywu47xkogjqqouc45p33oiwem3q"
+  }
+}
