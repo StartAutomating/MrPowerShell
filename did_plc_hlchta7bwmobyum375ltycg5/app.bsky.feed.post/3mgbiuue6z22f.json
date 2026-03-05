@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772669194952835,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgbiuundvz2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgbiuue6z22f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-05T00:06:34.54Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifgnbvafpzomcm66vecdhcezrnx7iu2pwwuowmww6rcqhg3fhpzea",
+          "uri": "at://did:plc:cl3kuq4sxg3jpfjtom4gnamx/app.bsky.feed.post/3mgbin5nzq226"
+        },
+        "root": {
+          "cid": "bafyreif462xpjioy6vjcxavhcd35zkdwd4pbffo4auidw263trafkvufry",
+          "uri": "at://did:plc:ja3mx2dwrh6tn3blhuerufrd/app.bsky.feed.post/3mgac3dhu422v"
+        }
+      },
+      "text": "An old boss put it well:\n\n\"Better explicit than terse\""
+    },
+    "cid": "bafyreidblo5feyzcpg2b23ptpptnlg4wkmymankbjp7cjvy2rapquip6di"
+  }
+}
