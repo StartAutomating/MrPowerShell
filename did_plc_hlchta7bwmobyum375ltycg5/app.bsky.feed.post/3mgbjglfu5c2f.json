@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772669789764316,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgbjglvqcg2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgbjglfu5c2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-05T00:16:29.138Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiccjofa7lplnafclyvg52lagpafo7ykzqmv5oaknuaz5njxzemrs4",
+          "uri": "at://did:plc:cl3kuq4sxg3jpfjtom4gnamx/app.bsky.feed.post/3mgbjaazrrc26"
+        },
+        "root": {
+          "cid": "bafyreif462xpjioy6vjcxavhcd35zkdwd4pbffo4auidw263trafkvufry",
+          "uri": "at://did:plc:ja3mx2dwrh6tn3blhuerufrd/app.bsky.feed.post/3mgac3dhu422v"
+        }
+      },
+      "text": "I tend to use the slightly macabre metric of:\n\n\"Would you understand this if you just woke up from a coma due to a traumatic brain injury?\"\n\nAnytime I don't meet that metric I'm inevitably disappointed with myself as I mentally re-parse my previous code."
+    },
+    "cid": "bafyreiard5zuozm5gvrv4zcds5rf6qznssj333pmhze6axmx4wl3sok7l4"
+  }
+}
