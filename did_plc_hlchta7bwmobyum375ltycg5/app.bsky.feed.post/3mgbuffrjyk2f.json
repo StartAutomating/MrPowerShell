@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772681561309121,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgbufg2h5o2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgbuffrjyk2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-05T03:32:40.835Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihm44776dvdj2fvgokhs4mkhnu3neiwairgslkcr2abeknbg2jp2e",
+          "uri": "at://did:plc:p5yjdr64h7mk5l3kh6oszryk/app.bsky.feed.post/3mgbu7p3qks24"
+        },
+        "root": {
+          "cid": "bafyreicxovbcif7k44szsmh67wut4y5krturepkr4k2jhnp3hmg554davi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgbrlp2gu22f"
+        }
+      },
+      "text": "Direct from the pds would be preferable.\n\ntl;dr of what I'm trying to do is take Open Packaging Conventions files and try to upload them to the pds with an attached linked record.\n\nThis would basically make AtProto / BlueSky an open package source."
+    },
+    "cid": "bafyreic3jqe4vopiro4nkeuokxlbhkmojmmb46g66tj2olfaylryytqlt4"
+  }
+}
