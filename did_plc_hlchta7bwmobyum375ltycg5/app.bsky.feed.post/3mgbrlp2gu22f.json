@@ -1,0 +1,34 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772678551314996,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgbrlpi6hz2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgbrlp2gu22f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-05T02:42:30.665Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 12,
+            "byteStart": 4
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Any #AtProto people out there know why I would be getting \"Internal Server Errors\" on BlueSky blobs?\n\nWas really hoping to see how a .zip file works in a blob.\n\nBlobs seem to upload fine, and can be referenced in an at proto record.\n\nJust don't seem to be available as a synced blob.\n\nAny ideas?"
+    },
+    "cid": "bafyreicxovbcif7k44szsmh67wut4y5krturepkr4k2jhnp3hmg554davi"
+  }
+}
