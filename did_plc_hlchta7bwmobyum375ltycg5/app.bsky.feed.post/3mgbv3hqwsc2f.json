@@ -1,0 +1,35 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772682301779678,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgbv3ia2ud2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgbv3hqwsc2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-05T03:45:01.109Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifk5pud47cpqmxbsdtnx4rbny6teqcuselyfknnjvexkwoivxa74u",
+          "uri": "at://did:plc:kzxq2inux5lrtlj4sr42bnat/app.bsky.feed.post/3mgb3aw2vro2k"
+        },
+        "root": {
+          "cid": "bafyreic7erih5q2r7m62kxokclkbgbzjqpr7gi5axyfcanv6qg3wggmqve",
+          "commit": {
+            "cid": "bafyreidzlxqon4evbrc5e6badjjhemwb3gm5znlbr6mp7ucwnnddd4mgea",
+            "rev": "3mgb3an75p62k"
+          },
+          "uri": "at://did:plc:kzxq2inux5lrtlj4sr42bnat/app.bsky.feed.post/3mgb3an6xto2k",
+          "validationStatus": "valid"
+        }
+      },
+      "text": "Can something look cool and also sus?\n\nI think so."
+    },
+    "cid": "bafyreihrn6y3mi52ysnttctdtmkzim2sarjf2dfeda4mmc3m6fvqtu4ktu"
+  }
+}
