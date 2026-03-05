@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772682117611511,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgbuvyl5mj2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgbuvxz4v22f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-05T03:41:56.828Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiadzotysn244ll4q5rsgyr2doe3fkcvcjita6aaee4hcqxy5vswnu",
+          "uri": "at://did:plc:p5yjdr64h7mk5l3kh6oszryk/app.bsky.feed.post/3mgbunlywfs24"
+        },
+        "root": {
+          "cid": "bafyreicxovbcif7k44szsmh67wut4y5krturepkr4k2jhnp3hmg554davi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgbrlp2gu22f"
+        }
+      },
+      "text": "Sadly, -a- that's exactly what I've done and -b- it seems not to work for plaintext or images, either -c- very ironically, their own docs recommend against content sniffing (for it can be the source of many security holes of its own)."
+    },
+    "cid": "bafyreif7o3tiqwbxx4gykyjov43eij5cxvmhxt3uxwuuqmsohh67gaako4"
+  }
+}
