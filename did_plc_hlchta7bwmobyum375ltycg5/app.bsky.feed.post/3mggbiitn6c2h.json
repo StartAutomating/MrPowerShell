@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772833061466306,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mggbihwomn2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mggbiitn6c2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-06T21:37:42.309Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie7icylyjlsidsvdarhl74emc5jdx7uhazjvtkmenxrvq6s3k4bsq",
+          "uri": "at://did:plc:unnweyhzazisrejrfinloxlx/app.bsky.feed.post/3mgeh6kron22p"
+        },
+        "root": {
+          "cid": "bafyreiffn7zmo4yk22rdtcqm2gfz2gir2nwudshr2mpbiqnyaoiezjnbvy",
+          "uri": "at://did:plc:7umo3cbjz7fhcost4yqj6jbo/app.bsky.feed.post/3mge4mqio4k2f"
+        }
+      },
+      "text": "I'm wondering just how many people understand that \"alt\" came from the days of Usenet.\n\nAlmost all of the fun Usenets were \"alt\".\n\nThe rest were \"rec.\""
+    },
+    "cid": "bafyreibzqw5xlqmewows56zhq2ep6rtrhvhf3hsmrcebvtnmsisavrudyi"
+  }
+}
