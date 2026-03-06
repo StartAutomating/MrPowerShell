@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772824270011262,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgfzchn6jk2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgfzcixv3s2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-06T19:11:11.187Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiffab2wyz3h6jmuxlmroaimcljvaysenuirinhbjifqkl2wo7y23q",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3mgfz6fbtic2q"
+        },
+        "root": {
+          "cid": "bafyreid67plszvcyemjcdzd2oski6uuq5w5nkiaepywgev2tnxzfu6t3gi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgdpfgv6yk26"
+        }
+      },
+      "text": "🤷 I think that when you're inviting the creation and sharing of disk assets you have a different category or two of risk.\n\nAnd I believe I have seen some games make this mistake before.\n\nBut 🤷 happy to hear their answer."
+    },
+    "cid": "bafyreigkciwoglts3xqgnlulzszuc72e6dq3ujbegc7fhlqmeopwz4ew3y"
+  }
+}
