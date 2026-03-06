@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772821309067381,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgfwk7ulza2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgfwkasa2s2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-06T18:21:49.823Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiewnizr3nzzdepus4xc46vbork5jmrkvfifqkggmbf76kb7646w7y",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3mgfskerkl22q"
+        },
+        "root": {
+          "cid": "bafyreid67plszvcyemjcdzd2oski6uuq5w5nkiaepywgev2tnxzfu6t3gi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgdpfgv6yk26"
+        }
+      },
+      "text": "Oh every program is a risk, just some appear more risky than others.\n\nLike games that open terminals and do funny things with files are slightly higher risk because:\n- the open terminal and command injection\n- the chance to hide vectors in files\n\nThe author's answers mollified some of the risk."
+    },
+    "cid": "bafyreicdz74hinafa4xiszohtz2qlp5jhcjhwq4k7hvpfl2r6cejeyc5iy"
+  }
+}
