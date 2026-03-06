@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772831467171604,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgg7yxipg42g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgg7yyeajc2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-06T21:11:07.97Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiawf2xlnfpl2bupibovruigh7i6jnimqffrneztkscryupxfrllie",
+          "uri": "at://did:plc:evobvbacv4pbtzgnakcgdu6i/app.bsky.feed.post/3mgg7rxutes2s"
+        },
+        "root": {
+          "cid": "bafyreid67plszvcyemjcdzd2oski6uuq5w5nkiaepywgev2tnxzfu6t3gi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgdpfgv6yk26"
+        }
+      },
+      "text": "I mean \"how does the loot box get parsed / processed?\".\n\nAnd if you're not doing Invoke-Expression, or .ExpandScript, or just running it as PowerShell, you're probably good.\n\n🙏👍\n\n( Personally I'd prefer either a json or psd1 file, both of which can be loaded safely )\n\nNow, to play testing 😀"
+    },
+    "cid": "bafyreiajel4wkwmp3hlbjovzopbvpnzxlrkxt5glr3ziczfq4347pk36cy"
+  }
+}
