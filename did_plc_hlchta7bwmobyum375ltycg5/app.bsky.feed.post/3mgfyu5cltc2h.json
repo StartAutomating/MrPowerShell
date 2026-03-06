@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772823789395101,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgfyu4dbnl2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgfyu5cltc2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-06T19:03:09.194Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiebvc5uqpkcjtheo5ceeovs462spmxnxaattnqn5tzehuxjxoju7q",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3mgfxym4d422q"
+        },
+        "root": {
+          "cid": "bafyreid67plszvcyemjcdzd2oski6uuq5w5nkiaepywgev2tnxzfu6t3gi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgdpfgv6yk26"
+        }
+      },
+      "text": "Hence asking, and getting a good response, and then asking again about the potentially specific security concern.\n\nPresuming the developer doesn't iex / expand string the box contents, my concern is mollified."
+    },
+    "cid": "bafyreibrnnmkvwj57e5uqhw7f4aatz27djvtvabcldtmvmavtkytv2hg6a"
+  }
+}
