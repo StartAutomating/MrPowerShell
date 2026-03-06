@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772824925769872,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgfzvytfn72q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgfzvzsuws2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-06T19:22:06.384Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidre34vtncihwkjllmpgkx4p7cavedws3mrklw2dxeb55xu54pvii",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3mgfzgb637s2q"
+        },
+        "root": {
+          "cid": "bafyreid67plszvcyemjcdzd2oski6uuq5w5nkiaepywgev2tnxzfu6t3gi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgdpfgv6yk26"
+        }
+      },
+      "text": "I hear you and respect you.\n\nAnd I believe asking questions shouldn't be scary, it should be educational.\n\nI look forward to the answer."
+    },
+    "cid": "bafyreidlsgltgsc2z4usd4iiuoplkykben4od3qg3y2p4mdcol2szxmd2e"
+  }
+}
