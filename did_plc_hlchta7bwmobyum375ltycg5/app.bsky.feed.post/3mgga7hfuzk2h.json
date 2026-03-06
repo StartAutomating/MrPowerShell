@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772831684269840,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgga7gjqfi2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgga7hfuzk2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-06T21:14:45.079Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifjgx5d6f42zzovcpig6adnpe2f4yrgt67ovsvqqgpugsgtpydvgq",
+          "uri": "at://did:plc:esbc722g7bm4ly7b2mg7ba6m/app.bsky.feed.post/3mgg7lvvte224"
+        },
+        "root": {
+          "cid": "bafyreigfp2qc5qtbpb7qsyhu6r32tmzsgoef2gm2icmswgcemgnfxz5rja",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgg762v6z22h"
+        }
+      },
+      "text": "I like it.\n\nAnd, yet, it's dogma I don't always agree with.\n\nGot any other suggestions ?\n\n( Will run this one past the trio )"
+    },
+    "cid": "bafyreiesla3cwbqlsxcb4u727qme24uhlemimkmjeacqtoh54lfydrkey4"
+  }
+}
