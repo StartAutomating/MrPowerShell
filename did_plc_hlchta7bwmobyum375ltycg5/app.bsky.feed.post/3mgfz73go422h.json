@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772824155232035,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgfz7262gl2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgfz73go422h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-06T19:09:16.328Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicqv3if4fn4faymbkh3rznodbadxlwbvojjgzsy2a55hdq3etxlne",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3mgfz34alw22q"
+        },
+        "root": {
+          "cid": "bafyreid67plszvcyemjcdzd2oski6uuq5w5nkiaepywgev2tnxzfu6t3gi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgdpfgv6yk26"
+        }
+      },
+      "text": "Yes, and, they're usually not loading an external scripting language to poke at files.\n\nAka they can all have problems, but some scenarios may produce more open ended problems than others."
+    },
+    "cid": "bafyreicfu5kacvthl4huwgu2lhvmoijk5y7jk5kmy7rkkcdz7d6y7l2jou"
+  }
+}
