@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772823683736599,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgfyqylw5p2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgfyqzfgb22h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-06T19:01:24.428Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaewiigz4mjuxq542dnle7fxex27o6zsidxb6ifzlpnvfqwlskify",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3mgfxvw4lgs2q"
+        },
+        "root": {
+          "cid": "bafyreid67plszvcyemjcdzd2oski6uuq5w5nkiaepywgev2tnxzfu6t3gi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgdpfgv6yk26"
+        }
+      },
+      "text": "Well, if they make loot boxes that expand strings, then the risk isn't just the game's code anymore.\n\nIt's the loot box.\n\nAnd that's what worries me.\n\nEasy path for a game to implement with unexpected side effects."
+    },
+    "cid": "bafyreiceh2wbdxi56xm2pdp2px7qyvulyvxms7bi77me32piyftzwxbu6a"
+  }
+}
