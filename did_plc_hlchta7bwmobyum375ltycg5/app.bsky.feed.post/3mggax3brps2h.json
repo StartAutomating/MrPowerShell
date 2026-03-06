@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772832476268122,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mggawzu4of2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mggax3brps2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-06T21:27:57.666Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiffn7zmo4yk22rdtcqm2gfz2gir2nwudshr2mpbiqnyaoiezjnbvy",
+          "uri": "at://did:plc:7umo3cbjz7fhcost4yqj6jbo/app.bsky.feed.post/3mge4mqio4k2f"
+        },
+        "root": {
+          "cid": "bafyreiffn7zmo4yk22rdtcqm2gfz2gir2nwudshr2mpbiqnyaoiezjnbvy",
+          "uri": "at://did:plc:7umo3cbjz7fhcost4yqj6jbo/app.bsky.feed.post/3mge4mqio4k2f"
+        }
+      },
+      "text": "Hard relate.\n\nI wrote the Critics Score for Rotten Tomatoes and was a founding member of the OFCS.\n\nI wrote realtime video mixers in the days of 200mhz boxes.\n\nI helped build a language millions use.\n\nI am literally older than the Arpanet.\n\nYoung tech & everyone owes everything to old tech."
+    },
+    "cid": "bafyreiaguk32ek3edmugs7wnqxgbymus3nwz2cxnsr3vskkl3zsb4kujoe"
+  }
+}
