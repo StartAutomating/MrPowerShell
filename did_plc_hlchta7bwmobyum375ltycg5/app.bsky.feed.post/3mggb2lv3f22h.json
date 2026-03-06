@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772832594970219,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mggb2kz4o42c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mggb2lv3f22h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-06T21:29:55.74Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaguk32ek3edmugs7wnqxgbymus3nwz2cxnsr3vskkl3zsb4kujoe",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mggax3brps2h"
+        },
+        "root": {
+          "cid": "bafyreiffn7zmo4yk22rdtcqm2gfz2gir2nwudshr2mpbiqnyaoiezjnbvy",
+          "uri": "at://did:plc:7umo3cbjz7fhcost4yqj6jbo/app.bsky.feed.post/3mge4mqio4k2f"
+        }
+      },
+      "text": "Also, not to flex too much more, but my ICQ number was somewhere in the 300,000 range.\n\nAnd my BlueSky # is about a half million.\n\nJust because I have grown older doesn't mean I'm less curious.\n\nJust means I'm more annoyed at wheels being reinvented."
+    },
+    "cid": "bafyreifsvoxu3r4w3gyy5o2gd2m4tkm7ifh5uo7jyydcqbiol6gid2g2je"
+  }
+}
