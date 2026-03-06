@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772824042045877,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgfz3o7d232q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgfz3p5yxk2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-06T19:07:22.799Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigedfn6e2ob4de4kuxmre55jdwje635iqzakdx2iso54mruwg474e",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3mgfywsadm22q"
+        },
+        "root": {
+          "cid": "bafyreid67plszvcyemjcdzd2oski6uuq5w5nkiaepywgev2tnxzfu6t3gi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgdpfgv6yk26"
+        }
+      },
+      "text": "I'm ( slightly ) worried that they are doing an expansion in the loot box logic, which could enable bad \"loot\" spreading thru an otherwise cool looking game.\n\nI've asked them.  Let's let them answer.\n\nEither they have it managed or the public awareness helps fix a problem before it starts."
+    },
+    "cid": "bafyreig4huuizl2pvskdmvxcp2eq56yrisvpxentrtiwiiew5yorjyhqsu"
+  }
+}
