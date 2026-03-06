@@ -1,0 +1,48 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772830566269506,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgg75zshs72d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgg762v6z22h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-06T20:56:04.643Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:mgpkip5ierzs5lom2av34fyy"
+            }
+          ],
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 20
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:inbagvkt2ildrbxdhmexmkjl"
+            }
+          ],
+          "index": {
+            "byteEnd": 63,
+            "byteStart": 51
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just caught up with @brucepayette.bsky.social  and @jsnover.com and talked tons about tech.\n\nGoing to be doing this every few weeks and uploading talks to YouTube.\n\nLooking for suggestions from the Internet for potential podcast names.\n\nAnyone got a good idea?\n\nAny topics you want us to talk about?"
+    },
+    "cid": "bafyreigfp2qc5qtbpb7qsyhu6r32tmzsgoef2gm2icmswgcemgnfxz5rja"
+  }
+}
