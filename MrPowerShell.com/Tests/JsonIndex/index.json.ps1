@@ -1,0 +1,3 @@
+@{
+    rng = Get-Random
+}
