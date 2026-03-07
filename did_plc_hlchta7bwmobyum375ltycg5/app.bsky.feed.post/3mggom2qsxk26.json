@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772847141146491,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mggom3bihg2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mggom2qsxk26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-07T01:32:20.399Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:mgpkip5ierzs5lom2av34fyy"
+            }
+          ],
+          "index": {
+            "byteEnd": 135,
+            "byteStart": 110
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicpjvkg2vmssu7wflqvuqihfu5qsaryjbvsmlalzpkdrvbivqcxjy",
+          "uri": "at://did:plc:audoav6nalzzge4ezwefjdqs/app.bsky.feed.post/3mggfxpthis2x"
+        },
+        "root": {
+          "cid": "bafyreigfp2qc5qtbpb7qsyhu6r32tmzsgoef2gm2icmswgcemgnfxz5rja",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgg762v6z22h"
+        }
+      },
+      "text": "Sounds like a blast!\n\nI'm pretty sure we'd all love to oblige!\n\nStill figuring out scheduling but I feel like @brucepayette.bsky.social could go on about this for hours off the top of their head."
+    },
+    "cid": "bafyreia5ife5bs2bzyir6n7pmdhy3fxx7fegccwm5qatrwu2ulir7hrpqm"
+  }
+}
