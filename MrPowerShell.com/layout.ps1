@@ -138,6 +138,8 @@ header, footer {
 
 article {
     background-color: var(--background);
+    margin: 1rem;
+    padding: 1rem;
     max-width: 100%;    
 }
 
