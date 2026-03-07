@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1772869267254816,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mghd7icqkc2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mghd7kll3k2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-07T07:41:09.375Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidkbkxiex72tnexgmtgetulsy2ptg4yxe3ufemipdvac25aefdepm",
+          "uri": "at://did:plc:q4r2rosbojocbskzd3aamxxx/app.bsky.feed.post/3mghaexy77k2w"
+        },
+        "root": {
+          "cid": "bafyreierss3lvvgfnysncnsy7uc425isyehqacqxefih7h6fj4ml73hpfi",
+          "uri": "at://did:plc:q4r2rosbojocbskzd3aamxxx/app.bsky.feed.post/3mggyyotntk2m"
+        }
+      },
+      "text": "Because c# is inherently more rigid than PowerShell, and because PowerShell can compile C# inline.\n\nAnd, yes, no offense meant, but this is a gap as a sec analyst.\n\nPowerShell is *huge* in both hacking and cyber security.\n\nBecause it's inherently more dynamic than C#."
+    },
+    "cid": "bafyreigorzzu257gpabvskweiocdvtvahqer43gi5qqmxqw5nmij3ykbri"
+  }
+}
