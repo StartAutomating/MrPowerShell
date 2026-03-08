@@ -118,10 +118,14 @@ if ($PowerShellGalleryConditions) {
     $moduleList = $script:MyModuleGalleryInfoCache[$fullUrl]
 
     foreach ($moduleInfo in $moduleList) {
-        $moduleData = [Ordered]@{                
+
+        $moduleData = [Ordered]@{
+            '$type' = 'com.mrpowershell.module'
+            PSTypeName = 'com.mrpowershell.module'
             id = "$($moduleInfo.properties.id)"
             url = "https://powershellgallery.com/packages/$($moduleInfo.properties.Id)"
         }
+
         foreach (
             $propertyName in $myOutputProperties
         ) {
@@ -149,7 +153,6 @@ if ($PowerShellGalleryConditions) {
                 
         }             
         
-        $moduleData
-    }
-    
+        [PSCustomObject]$moduleData
+    }   
 }
