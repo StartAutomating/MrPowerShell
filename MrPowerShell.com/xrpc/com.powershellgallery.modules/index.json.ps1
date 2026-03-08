@@ -116,7 +116,7 @@ if ($PowerShellGalleryConditions) {
         $script:MyModuleGalleryInfoCache[$fullUrl] = Invoke-RestMethod $fullUrl
     }
     $moduleList = $script:MyModuleGalleryInfoCache[$fullUrl] | 
-        Sort-Object { $_.properties.downloadCount.'#text' -as [int]} 
+        Sort-Object { $_.properties.downloadCount.'#text' -as [int]} -Descending
         
     foreach ($moduleInfo in $moduleList) {
 
