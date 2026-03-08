@@ -43,13 +43,13 @@ if ($psScriptRoot) { Push-Location $PSScriptRoot}
 
 if (-not $xrpcCache) { $xrpcCache = [Ordered]@{} }
 
-if (-not $xrpcCache['com.mrpowershell.modules']) {
-    $xrpcCache['com.mrpowershell.modules'] = . ../xrpc/com.mrpowershell.modules/index.json.ps1
+if (-not $xrpcCache['com.powershellgallery.modules']) {
+    $xrpcCache['com.powershellgallery.modules'] = . ../xrpc/com.powershellgallery.modules/index.json.ps1
 }
 
-$moduleList = $xrpcCache['com.mrpowershell.modules']
+$moduleList = $xrpcCache['com.powershellgallery.modules']
 
-Update-TypeData -TypeName com.mrpowershell.module -Force -MemberType ScriptMethod -MemberName ToHtml -Value {
+Update-TypeData -TypeName com.powershellgallery.module -Force -MemberType ScriptMethod -MemberName ToHtml -Value {
     param()
     $publishedAt = $this.Published
     $attributes = [Ordered]@{

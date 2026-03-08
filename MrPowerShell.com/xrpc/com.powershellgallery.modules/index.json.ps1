@@ -120,8 +120,8 @@ if ($PowerShellGalleryConditions) {
     foreach ($moduleInfo in $moduleList) {
 
         $moduleData = [Ordered]@{
-            '$type' = 'com.mrpowershell.module'
-            PSTypeName = 'com.mrpowershell.module'
+            '$type' = 'com.powershellgallery.module'
+            PSTypeName = 'com.powershellgallery.module'
             id = "$($moduleInfo.properties.id)"
             url = "https://powershellgallery.com/packages/$($moduleInfo.properties.Id)"
         }
