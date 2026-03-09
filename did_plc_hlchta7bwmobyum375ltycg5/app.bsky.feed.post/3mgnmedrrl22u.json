@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773085252786009,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgnmeeaves2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgnmedrrl22u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-09T19:40:52.117Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihk7o43cynxgfiqztjr5jgawvimen7zsvv6a323cv6ot24i55im2e",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3mgnm76u4sk24"
+        },
+        "root": {
+          "cid": "bafyreiet44ybz5gybrcpfej7xz26uxrygaujmy2am33vz24xttosve6rvy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgngdizxrk2w"
+        }
+      },
+      "text": "I'm not sure that mentioning Yahoo here is a \"win\"\n\nMy point is that sites that attempt to limit scraping limit their own exposure.\n\nYahoo may have been an \"early adopter\" of trying to limit scraping.\n\nAnd that's part of why Yahoo is mostly irrelevant now."
+    },
+    "cid": "bafyreianqr5dilhj2rtjhjwufbzjbdtedd5zlyhvazqcllyz6rhguq63xq"
+  }
+}
