@@ -18,7 +18,7 @@ $description = $myHelp.description.text -join [Environment]::NewLine
 if ($PSScriptRoot) { Push-Location $psScriptRoot }
 
 if (-not $script:myGists) {            
-    $script:myGists = . ../xprc/com.github.api.users.gists/index.json.ps1
+    $script:myGists = . ../xrpc/com.github.api.users.gists/index.json.ps1
 }
 
 $script:myGists | 
