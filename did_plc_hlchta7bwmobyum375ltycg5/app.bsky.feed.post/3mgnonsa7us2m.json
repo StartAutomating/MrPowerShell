@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773087717469304,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgnonsqcrn2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgnonsa7us2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-09T20:21:56.743Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig7eqpj6ptyayaimlsv326zatlmgg5lvb3zg7tq2mtcxgv2y6c6ty",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3mgnoi6lc2k24"
+        },
+        "root": {
+          "cid": "bafyreiet44ybz5gybrcpfej7xz26uxrygaujmy2am33vz24xttosve6rvy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgngdizxrk2w"
+        }
+      },
+      "text": "Yes, I think that sums it up nicely.\n\nThe ethical problem I have / see is that each time this happens, vast quantities of information disappear into the ether.\n\nThe \"big thing\" at proto / xrpc are designed to fix is this problem.\n\nWe should be able to publish and get our own data freely."
+    },
+    "cid": "bafyreigcc3ga7t7guwuxs252jicp3j7neeknbyty43epf4pvh5jpjjxpqu"
+  }
+}
