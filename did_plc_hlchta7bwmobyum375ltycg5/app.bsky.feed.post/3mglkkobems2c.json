@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773014598220792,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mglkkoprfi2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mglkkobems2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-09T00:03:17.479Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 88,
+            "byteStart": 76
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiasz62br7tnpqcxnwy7wqcu2j3t47cki75btbpybn2gnqd6puqspa",
+          "uri": "at://did:plc:5gung3kb6wkzptdxh2riyc6c/app.bsky.feed.post/3mgljnwbihc27"
+        },
+        "root": {
+          "cid": "bafyreigkshgs4aarsxfhzme4sg7fralgfue7vhfzphjz6z23vndohfrqdy",
+          "uri": "at://did:plc:5gung3kb6wkzptdxh2riyc6c/app.bsky.feed.post/3mgkjldv4kk22"
+        }
+      },
+      "text": "lol was actually hoping arm64 on Linux 😉 . Would love to run this on the #RaspberryPi (cause it would give sleek dedicated device GUIs we could plug into a TV ;-) )"
+    },
+    "cid": "bafyreidyp5f2vt3oba77f3j3szea3g5bdxrzclzrk2dx3zmdfl5o5lakde"
+  }
+}
