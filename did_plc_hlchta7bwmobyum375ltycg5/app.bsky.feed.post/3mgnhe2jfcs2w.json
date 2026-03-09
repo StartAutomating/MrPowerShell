@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773079874378970,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgnhe325v22u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgnhe2jfcs2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-09T18:11:13.695Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaohzn3beka4vlfmeec2a44hr6qjyhkp4u7e34ly2vav3mh7as4wy",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mgnh6tpxhk2m"
+        },
+        "root": {
+          "cid": "bafyreiet44ybz5gybrcpfej7xz26uxrygaujmy2am33vz24xttosve6rvy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgngdizxrk2w"
+        }
+      },
+      "text": "Did it reliably reproduce for you?\n\nAlso, in this case, SEO isn't \"snake oil\", it's a set of standards that most sites adopt for social integration (OpenGraph) and search (JSON-LD)."
+    },
+    "cid": "bafyreig26jvan3amrepb5bpfiuleuruqnkmpkjebbunqcg7lmsuzjlpcju"
+  }
+}
