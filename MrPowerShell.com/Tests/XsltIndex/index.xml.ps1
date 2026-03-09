@@ -1,6 +1,6 @@
 @"
 <?xml version="1.0" ?>
-<?xml-stylesheet href="/Tests/XsltIndex/index.xslt" type="text/xsl" ?>
+<?xml-stylesheet href="/Tests/XsltIndex/index.xsl" type="text/xsl" ?>
 <persons>
   <person username="JS1">
     <name>John</name>
