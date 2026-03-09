@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773088940470072,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgnpsb7bwf2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgnpsawdbs2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-09T20:42:20.107Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib7to5oigtvge5jrz7fkb5nv44wjbt3epfykkecdbnaksqpff4ul4",
+          "uri": "at://did:plc:zmhf3zrmlotqy4sml44swzf3/app.bsky.feed.post/3mgnn7y5yyk2x"
+        },
+        "root": {
+          "cid": "bafyreicdsqq7hp335c4dxflbomonicxzrqcz7zxbvdgwjpcw63adp4rxz4",
+          "uri": "at://did:plc:jcoy7v3a2t4rcfdh6i4kza25/app.bsky.feed.post/3mgnjy42dgs2c"
+        }
+      },
+      "text": "I feel like the original post explains why this is:\n\na) lots less boilerplate and repetition in PowerShell\nb) far fewer PowerShell modules than websites in the world\nc) PowerShell code has varying functions of varying scope\n\nWill add:\n\nd) PowerShell code quality varies _wildly_"
+    },
+    "cid": "bafyreiala6dkl3zt5wcocmjbmljxhxrr2ye6wnhqvnd4jm2nsbk7ffegfm"
+  }
+}
