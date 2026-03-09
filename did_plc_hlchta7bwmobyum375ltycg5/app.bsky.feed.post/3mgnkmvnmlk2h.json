@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773083391264513,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgnkmv2glo2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgnkmvnmlk2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-09T19:09:51.806Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieut7y5mf6c2hjtgu7wse3fgbsohgxyhx36cpwfzytwxjzjzgq25e",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3mgnk6cyq2c23"
+        },
+        "root": {
+          "cid": "bafyreiet44ybz5gybrcpfej7xz26uxrygaujmy2am33vz24xttosve6rvy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgngdizxrk2w"
+        }
+      },
+      "text": "Thanks for the repro.\n\nAlso, I don't think asking for a single movie counts as \"scraping\".\n\nI would call it \"indexing\".\n\n🤷 Just another big company breaking the way the Internet has worked for years."
+    },
+    "cid": "bafyreibn4r5q6jno7igbyrf5kq43w6hirgrwnhngupx26tftyj6kkbmw7u"
+  }
+}
