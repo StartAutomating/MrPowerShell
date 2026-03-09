@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773085829360817,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgnmvjzy7x2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgnmvhy7xs2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-09T19:50:26.947Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidb3aav4hmrekk7oyuq3bcr7b7y3oogeufx7e6443kybw4jyedtru",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3mgnmnxziak24"
+        },
+        "root": {
+          "cid": "bafyreiet44ybz5gybrcpfej7xz26uxrygaujmy2am33vz24xttosve6rvy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgngdizxrk2w"
+        }
+      },
+      "text": "I actually think the path is pretty straight:\n\nYahoo tries to make a Hierarchical Object Organizer driven by user content, won't allow scraping, won't highlight aggregators, and makes itself useless enough to start to pay Google for search.\n\nGoogle embraces standards and takes off like a rocket."
+    },
+    "cid": "bafyreict52btgqdlcpw3squk3icvix4v63xntql52gk6mnuan5ah5aewam"
+  }
+}
