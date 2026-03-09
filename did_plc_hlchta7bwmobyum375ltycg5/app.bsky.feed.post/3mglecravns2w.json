@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773007891324915,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mglecslfvh2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mglecravns2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-08T22:11:29.723Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Standard.site provides shared lexicons for long-form publishing on AT Protocol. Making content easier to discover, index, and move across the ATmosphere.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreih5pj37pqpulifjjho6y6uv3xpxghdnzygy6bynt5mxx5u7va2cda"
+            },
+            "mimeType": "image/jpeg",
+            "size": 415231
+          },
+          "title": "Standard.site - One schema. Every platform.",
+          "uri": "https://standard.site"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://standard.site"
+            }
+          ],
+          "index": {
+            "byteEnd": 143,
+            "byteStart": 130
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://mrpowershell.com/xrpc/site.standard.publication"
+            }
+          ],
+          "index": {
+            "byteEnd": 218,
+            "byteStart": 186
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieq2gxn66cscuiy7azfg4snlkupxi4cc6pqhvunziv72qleh7n4hy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mglacvo4is2w"
+        },
+        "root": {
+          "cid": "bafyreieq2gxn66cscuiy7azfg4snlkupxi4cc6pqhvunziv72qleh7n4hy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mglacvo4is2w"
+        }
+      },
+      "text": "How?\n\nFirst step, in a static site generator, simply make an index.json file beneath `/xrpc/`\n\nFor a trivial example, I've made a standard.site publication endpoint for my own website:\n\nmrpowershell.com/xrpc/site.st...\n\nThis lets anyone get right to the data, without a pds."
+    },
+    "cid": "bafyreihcna4pw6e5mcxrsf72l6miahc2fuq6ruk4rcxj4esydwhqnb5kku"
+  }
+}
