@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773171442391828,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgq4mz3qzg2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgq4mwicjk2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-10T19:37:19.51Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigju2wh4bzu4ilri5ttnad6t6adx2jhblat5rjvun73yqfx276gfy",
+          "uri": "at://did:plc:hfgp6pj3akhqxntgqwramlbg/app.bsky.feed.post/3mgq4bxqy222b"
+        },
+        "root": {
+          "cid": "bafyreiceed3kyqcs3z4kxbqaufz35apxdz3tpes67dcipiwi6vcot5q4c4",
+          "uri": "at://did:plc:hfgp6pj3akhqxntgqwramlbg/app.bsky.feed.post/3mgpwohwq642n"
+        }
+      },
+      "text": "Ah.\n\nIMO, one of the more misleading class names, especially when not on Windows.\n\n🤷 I wonder how many people understand DPAPI\n🤷 I wonder how many people even know what DPAPI is\n\nAs you said, once they can inspect memory on the box, you've got bigger problems."
+    },
+    "cid": "bafyreic2opbd4qya6wzl4doncofsgrqfddk3sfqwcc2cex7dfix5sabcsq"
+  }
+}
