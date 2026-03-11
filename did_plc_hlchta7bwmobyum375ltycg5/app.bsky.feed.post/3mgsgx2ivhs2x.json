@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773251234813809,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgsgwyyosn2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgsgx2ivhs2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-11T17:47:16.163Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicd2qnevxhcvbsyefo2kxpudmm74f2hhhv4he5ceoxzxx4had76iq",
+          "uri": "at://did:plc:4otcfn5iwe7g42exjijp2oc3/app.bsky.feed.post/3mgsejfnvy22n"
+        },
+        "root": {
+          "cid": "bafyreicd2qnevxhcvbsyefo2kxpudmm74f2hhhv4he5ceoxzxx4had76iq",
+          "uri": "at://did:plc:4otcfn5iwe7g42exjijp2oc3/app.bsky.feed.post/3mgsejfnvy22n"
+        }
+      },
+      "text": "🤣 hopefully not too old to start adding module imports to the profile as well...\n\nI'd recommend you use sparingly, for the modules you use every day."
+    },
+    "cid": "bafyreieq2kiqsbqy73hla7d2mc7flnckbqlhk4jzmeeh7xk2m6e5d2xjku"
+  }
+}
