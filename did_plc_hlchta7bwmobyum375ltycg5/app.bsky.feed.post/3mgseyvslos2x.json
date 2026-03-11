@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773249150211859,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgseyv26qb2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgseyvslos2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-11T17:12:30.863Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidjqjb73ypimqqdqqih4cou5nrsigjggpop6ti2f4wlzqelhi25na",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgsetxdgds2x"
+        },
+        "root": {
+          "cid": "bafyreiatfexwpw3vyijkr3rhms4sv4s76cfsoopsqr44mdtcdie32hfhba",
+          "uri": "at://did:plc:vebettqmyywklngg5xi6zirx/app.bsky.feed.post/3mgqtvb3udk27"
+        }
+      },
+      "text": "Additional caveat on the idea is that searching specific lines can be a bit tricky because of how subtitles break lines.\n\nLike if I want every \"shut up Leonard\" joke in Community, the line won't always be on a single subtitle cue."
+    },
+    "cid": "bafyreiflcz27gcler54xmswn3u2y5vrji7exlsx7bu7udkfssu4yx7x63y"
+  }
+}
