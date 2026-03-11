@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773266184822628,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgsuukigw62i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgsuumeja22q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-11T21:56:26.616Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia7bwc7rzchruwi2zuatoqgbi3phlib3kdanm5zkprrj5uw4ki6im",
+          "uri": "at://did:plc:zooxcjiv532cgraks4bl6dbj/app.bsky.feed.post/3mgsuhj27ic27"
+        },
+        "root": {
+          "cid": "bafyreifdabhns3yrnumpxgchnstfdthcjy7s54a7hsryqwwtyyw4zmqzdu",
+          "uri": "at://did:plc:zooxcjiv532cgraks4bl6dbj/app.bsky.feed.post/3mgsnauxhi227"
+        }
+      },
+      "text": "Well 🤷 that's your loss.\n\nIt's a pretty fun and interesting language that does far, far more than just Teams."
+    },
+    "cid": "bafyreigyx2yjqcxltb5zgylzgz2syivlppnlntvt7rbabom4l3ludsuugu"
+  }
+}
