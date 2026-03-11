@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773210321468812,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgratot5nc2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgratnsafc2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-11T06:25:19.985Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Script Subtitles with PowerShell. Contribute to StartAutomating/Subtitles development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibygfcxnk62c6p36zf7o77n3si7vagdhhhkfzdq5reocvxqxdr7he"
+            },
+            "mimeType": "image/jpeg",
+            "size": 216463
+          },
+          "title": "GitHub - StartAutomating/Subtitles: Script Subtitles with PowerShell.",
+          "uri": "https://github.com/StartAutomating/Subtitles/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/Subtitles/"
+            }
+          ],
+          "index": {
+            "byteEnd": 124,
+            "byteStart": 98
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicl2hdw2yqf7mams633jhwu3gsur34axkdb4fwl5ybkejq2gns6jm",
+          "uri": "at://did:plc:vebettqmyywklngg5xi6zirx/app.bsky.feed.post/3mgqucbg5ss27"
+        },
+        "root": {
+          "cid": "bafyreiatfexwpw3vyijkr3rhms4sv4s76cfsoopsqr44mdtcdie32hfhba",
+          "uri": "at://did:plc:vebettqmyywklngg5xi6zirx/app.bsky.feed.post/3mgqtvb3udk27"
+        }
+      },
+      "text": "Hey there.  While you _can_ you Select-String, you can also use this module I made for Subtitles\n\ngithub.com/StartAutomat...\n\nShould be something like:\n\nGet-Subtitle $pathToSubtitles | Search-Subtitle -Phrase $phraseToSearch\n\nWill spit back out StartTime, EndTime, and Cue."
+    },
+    "cid": "bafyreie3k7qgi53soxddfeir3sp6d2bht4ybf3v7shmdgi6gvx3aexgi6q"
+  }
+}
