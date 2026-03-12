@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773341580984996,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgv33jsozw2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgv33ihofk2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-12T18:52:59.334Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifkhlwtavfbkaxiruu5qka2ryugfkpmz3p7eqgeguo74qgiicfsji",
+          "uri": "at://did:plc:revjuqmkvrw6fnkxppqtszpv/app.bsky.feed.post/3mgv23xxjg22v"
+        },
+        "root": {
+          "cid": "bafyreientf77zwwu3tbvdr3oowlkzeibuqxeqoriz2jplj7wii24p2ykf4",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3mgtknxboxc2u"
+        }
+      },
+      "text": "Perchance (possibly) problematic PHP people possibly protest PowerShell people posting parsimonious pocket posts.\n\nPerhaps, a pittance of a probability of perfidy.\n\nProbably people preferring powerful programming paradigms over PHP and Perl.\n\nPatently plain pipelines perform perfectly.\n\n😉😎"
+    },
+    "cid": "bafyreihuljxw53m2hbcztdku4u6fxc5sp2u5c7nqfjoosx4im4ymucgtym"
+  }
+}
