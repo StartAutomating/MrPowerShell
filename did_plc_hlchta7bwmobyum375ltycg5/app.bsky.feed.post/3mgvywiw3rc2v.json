@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773373627319354,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgvywizyia2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgvywiw3rc2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-13T03:47:04.289Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "PowerShell made Posh. Contribute to StartAutomating/Posh development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicfboqlhkgh3il72whtbzizm4xwo2xogueasxpypk4vbiq4ue5nza"
+            },
+            "mimeType": "image/jpeg",
+            "size": 70019
+          },
+          "title": "GitHub - StartAutomating/Posh: PowerShell made Posh",
+          "uri": "https://GitHub.com/StartAutomating/Posh"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/StartAutomating/Posh"
+            }
+          ],
+          "index": {
+            "byteEnd": 64,
+            "byteStart": 38
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie243b2pewgxfn3mmjsqxcichzvqme3vttfbyjc7havjsr45xyfwm",
+          "uri": "at://did:plc:rgvwld6fpigz3ojsjktuquo7/app.bsky.feed.post/3mgvjzmvvoc2q"
+        },
+        "root": {
+          "cid": "bafyreie243b2pewgxfn3mmjsqxcichzvqme3vttfbyjc7havjsr45xyfwm",
+          "uri": "at://did:plc:rgvwld6fpigz3ojsjktuquo7/app.bsky.feed.post/3mgvjzmvvoc2q"
+        }
+      },
+      "text": "You might also want to install Posh.\n\nGitHub.com/StartAutomat...\n\nSpice up the shell a bit.  Add some color to get-member.  All sorts of fun..."
+    },
+    "cid": "bafyreidv5fjes2sam7a7hjkrp7hnp5blgmishu7vnmsiqatzdomouidwzy"
+  }
+}
