@@ -1,0 +1,78 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773514141274473,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mh23sa4hc22u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mh23s6zfrc26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-14T18:48:59.873Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Get JSON Linked Data with PowerShell. Contribute to PoshWeb/JSON-LD development by creating an account on GitHub.",
+          "title": "GitHub - PoshWeb/JSON-LD: Get JSON Linked Data with PowerShell",
+          "uri": "https://github.com/PoshWeb/JSON-LD"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JSONSchema"
+            }
+          ],
+          "index": {
+            "byteEnd": 161,
+            "byteStart": 150
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 174,
+            "byteStart": 166
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PoshWeb/JSON-LD"
+            }
+          ],
+          "index": {
+            "byteEnd": 283,
+            "byteStart": 257
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Hey #PowerShell people, JSON-LD 0.1.1 is out!\n\nGet Linked Data from any website!\n\nNew in this version:\n\nSupport for auto-conversion of Linked Data to #JSONSchema and #AtProto lexicons!\n\n~~~PowerShell\n(JSONLD 'https://schema.org/Movie').GetJsonSchema()\n~~~\n\ngithub.com/PoshWeb/JSON..."
+    },
+    "cid": "bafyreif6juwoscicnvmjrypthl6ja64ogindy36pkailh2row4dvhmpuie"
+  }
+}
