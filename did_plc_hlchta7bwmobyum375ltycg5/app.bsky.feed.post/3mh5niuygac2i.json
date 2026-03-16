@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773636234458490,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mh5nivbhu42q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mh5niuygac2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-16T04:43:53.934Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibcir4d3qlldofa3iobvuleprgmmvqnmpjcx4agqpxpxscbkdb4mu",
+          "uri": "at://did:plc:iga7ipxo6jy26wv6bevcmdem/app.bsky.feed.post/3mh5nc4swuc2e"
+        },
+        "root": {
+          "cid": "bafyreie3mmyweyae66rjkjum3agrgg2lbviyoiyasigustoopqelbqnu5i",
+          "uri": "at://did:plc:iga7ipxo6jy26wv6bevcmdem/app.bsky.feed.post/3mh5hbzrf3u2h"
+        }
+      },
+      "text": "Honestly I've not circled back to messing with this for many moons.  I do vaguely recall them mentioning somewhere that some firmware updates allowed for better control over the device to let you control the app playlist.\n\n🤞 was really hoping you might have already scripted away this annoyance."
+    },
+    "cid": "bafyreibzhchy2wic6c2xh6veakut76pyqcs25fbsxmj6u2f4aaa5v4xb5i"
+  }
+}
