@@ -1,0 +1,84 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773785672704499,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mhbyohinqt2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mhbyocwb5225",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-17T22:14:26.428Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Turtle Graphics in PowerShell.  Draw any image with turtles in a powershell.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidsgy5bj5b7uziyxwhgjv3nsu5kcktafvu3uwehb2n32klug2wqem"
+            },
+            "mimeType": "image/jpeg",
+            "size": 789204
+          },
+          "title": "Get-Turtle",
+          "uri": "https://psturtle.com/Commands/Get-Turtle"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 58,
+            "byteStart": 51
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 73,
+            "byteStart": 62
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://psturtle.com/Commands/Get-Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 103,
+            "byteStart": 75
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifkkay3ckhib4uc2tebczziexpqhwdt7iabhzovac6godrrx7i2nm",
+          "uri": "at://did:plc:xed7mcfu3jthyckesuvwm5ey/app.bsky.feed.post/3mhbwrvcxek2k"
+        },
+        "root": {
+          "cid": "bafyreifkkay3ckhib4uc2tebczziexpqhwdt7iabhzovac6godrrx7i2nm",
+          "uri": "at://did:plc:xed7mcfu3jthyckesuvwm5ey/app.bsky.feed.post/3mhbwrvcxek2k"
+        }
+      },
+      "text": "Seems like you might understand why I had to build #Turtle in #PowerShell\n\npsturtle.com/Commands/Get..."
+    },
+    "cid": "bafyreievknjlg5a7c6utpj2aeafo334ec2o6n2yptjwcc5mmqekfjmvfka"
+  }
+}
