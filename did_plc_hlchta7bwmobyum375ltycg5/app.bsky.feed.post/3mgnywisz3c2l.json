@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773098746967846,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgnywjd4zv2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgnywisz3c2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-09T23:25:46.281Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidc6njvrfwir6rh6cknw26b4wx56on5o7uah7oehalpzk7rqe3asi",
+          "uri": "at://did:plc:oeppouovtib6wliwqdcbggzt/app.bsky.feed.post/3mgnkpkygdc2x"
+        },
+        "root": {
+          "cid": "bafyreihqzx5ll6vxtz3kcojbuw6qbsajrbidfbavwbv2ajp2dsyytz5kvi",
+          "uri": "at://did:plc:oeppouovtib6wliwqdcbggzt/app.bsky.feed.post/3mgnkfzqusk2x"
+        }
+      },
+      "text": "I constantly feel lucky to have started learned computing when I did (late 80s-present).\n\nThings were simple enough that you learned the foundation.\n\nAnd could truly enjoy things getting easier with time.\n\nUnderstanding runs deep.\n\nThere's no shallow end to the pool anymore."
+    },
+    "cid": "bafyreiddjndeumj7rr4xqw7f2vwwvi673pbl7kf2phhn7fjzz2fz4kgrai"
+  }
+}

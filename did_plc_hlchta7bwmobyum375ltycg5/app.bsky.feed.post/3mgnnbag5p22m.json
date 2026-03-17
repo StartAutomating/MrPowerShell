@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773086226228444,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgnnbayu732q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgnnbag5p22m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-09T19:57:01.668Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif3y3unfyxzdyuijy3rntikaeqxfrplwmk3lvmdv3rfmgjw4ry6wy",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3mgnn26ik2224"
+        },
+        "root": {
+          "cid": "bafyreiet44ybz5gybrcpfej7xz26uxrygaujmy2am33vz24xttosve6rvy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgngdizxrk2w"
+        }
+      },
+      "text": "For the internet / society to function, information needs to be able to go both top-down and bottom-up.\n\nIn a painful nutshell, this is why things are \"broken\".\n\nEach internet generation has repeated this cycle.\n\nData opens, people come.\nData closes, people go."
+    },
+    "cid": "bafyreidyzh2bx5tzk4ekmu2jbfmlmfg6e2ucy7jpikfytsbcrmft5y6tsi"
+  }
+}

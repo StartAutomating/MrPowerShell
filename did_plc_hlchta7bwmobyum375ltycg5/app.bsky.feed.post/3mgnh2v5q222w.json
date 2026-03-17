@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773079566658388,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgnh2vhd4e2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgnh2v5q222w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-09T18:06:06.081Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih2kmch3nabxjyeg3tz264wa3tnqbyvk7cmwwvxubdywgv23hxngm",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mgngy52bf22m"
+        },
+        "root": {
+          "cid": "bafyreiet44ybz5gybrcpfej7xz26uxrygaujmy2am33vz24xttosve6rvy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgngdizxrk2w"
+        }
+      },
+      "text": "First of all:\n\nDid it reliably reproduce? (returning nothing for you, too?)\n\nSecond of all:\n\nThis works on basically all sites, since it's how SEO works.\n\nThat's why I'm so shocked at this chicanery.\n\nIt's literally worked this way for over a decade."
+    },
+    "cid": "bafyreiazxg3vl3aimaebudrqyn4c3vihtysbwgsoqytueqnivlrdnm7adu"
+  }
+}

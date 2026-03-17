@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773706767081915,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mh7p6w533i2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mh7p6uuo2k2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-17T00:19:25.226Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie6nm5iwa7wwfj4ic44dgw43rozgcjoymzeej43ayda3kdnyvjbta",
+          "uri": "at://did:plc:5scdazxckg6kso3s3j6psrjs/app.bsky.feed.post/3mh7jxe4rr22z"
+        },
+        "root": {
+          "cid": "bafyreie6nm5iwa7wwfj4ic44dgw43rozgcjoymzeej43ayda3kdnyvjbta",
+          "uri": "at://did:plc:5scdazxckg6kso3s3j6psrjs/app.bsky.feed.post/3mh7jxe4rr22z"
+        }
+      },
+      "text": "I think there are a couple of things that \"fill the gap\" a bit.\n\nModuleFast comes first to mind.\n\nI might look at supporting .depend.psd1 files in ye upcoming packaging module (but am already spending too long to stitch up)"
+    },
+    "cid": "bafyreigx4own7ci6544m2546ocqvprjmcaxb6jq6qgfj3ev2p65dcuxld4"
+  }
+}

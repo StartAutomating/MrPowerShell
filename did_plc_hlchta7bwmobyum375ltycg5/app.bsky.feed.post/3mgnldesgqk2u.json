@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773084146566330,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgnldfbvee2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgnldesgqk2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-09T19:22:25.891Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "BackInMyDay"
+            }
+          ],
+          "index": {
+            "byteEnd": 278,
+            "byteStart": 266
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifkj7sstrsmjdy2tum6ifxec2c5sphjxqll6vlwcrixbffuerl3tu",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3mgnkvzw6ss2d"
+        },
+        "root": {
+          "cid": "bafyreiet44ybz5gybrcpfej7xz26uxrygaujmy2am33vz24xttosve6rvy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgngdizxrk2w"
+        }
+      },
+      "text": "It's a fundamental underpinning of the internet...\n\nIf I cannot request content from your site, it is useless to me.\n\nIf only well-heeled companies with millions of dollars can index content, it stops the \"network effect\" from working.\n\n🤷 Maybe I'm just old, but #BackInMyDay the internet was open."
+    },
+    "cid": "bafyreig6hjac7kyobacpul66nb7azvup3laacsbhffof2mip4ca54o66by"
+  }
+}

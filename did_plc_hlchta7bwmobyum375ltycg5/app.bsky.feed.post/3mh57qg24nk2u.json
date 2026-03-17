@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773621457285996,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mh57qfqm5a2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mh57qg24nk2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-16T00:37:34.309Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "ShowUI is a PowerShell module to help build graphical user interfaces in script. - ShowUI/ShowUI",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigxpj76rxvrfxrnzkqapnnf7p46ogxce6ylk7yczyfk27ou7nwswq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 94652
+          },
+          "title": "ShowUI/CSharp/PowerShellDataSource.cs at dev · ShowUI/ShowUI",
+          "uri": "https://github.com/ShowUI/ShowUI/blob/dev/CSharp/PowerShellDataSource.cs"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/ShowUI/ShowUI/blob/dev/CSharp/PowerShellDataSource.cs"
+            }
+          ],
+          "index": {
+            "byteEnd": 202,
+            "byteStart": 176
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiddtjsq7fm6vqvauw43rzroyyogpbcnxzqubka6vjwjdck2i5kdde",
+          "uri": "at://did:plc:5gung3kb6wkzptdxh2riyc6c/app.bsky.feed.post/3mh55qymvj224"
+        },
+        "root": {
+          "cid": "bafyreihdaqcx4a3c6b5lfao2fmbaict2oz6g2osic34qywne46nqx5qpii",
+          "uri": "at://did:plc:5gung3kb6wkzptdxh2riyc6c/app.bsky.feed.post/3mh42wnicmk2r"
+        }
+      },
+      "text": "As for DataBinding.\n\nEasy mode is just New-Module -AsCustomObject ( it strongly types returns, letting data binding work).\n\nFor harder stuff, we built our own data source....\n\ngithub.com/ShowUI/ShowU..."
+    },
+    "cid": "bafyreib7q3zb5ut2qcdoas4oyr6ehklfwfkjzfh3n7bpjqgm42ovr7mbwu"
+  }
+}

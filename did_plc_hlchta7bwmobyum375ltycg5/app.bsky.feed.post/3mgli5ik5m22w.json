@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773012008692291,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgli5jbdoi2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgli5ik5m22w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-08T23:20:07.785Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Jack of all Trades, Master of PowerShell. Contribute to StartAutomating/MrPowerShell development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidarwkxp4jmlkkhyk4m7q5cpzbh2nl4tubxpfiblzgsklnuwupzue"
+            },
+            "mimeType": "image/jpeg",
+            "size": 138088
+          },
+          "title": "MrPowerShell/MrPowerShell.com/xrpc/com.powershellgallery.modules/index.json.ps1 at main · StartAutomating/MrPowerShell",
+          "uri": "https://github.com/StartAutomating/MrPowerShell/blob/main/MrPowerShell.com/xrpc/com.powershellgallery.modules/index.json.ps1"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/MrPowerShell/blob/main/MrPowerShell.com/xrpc/com.powershellgallery.modules/index.json.ps1#L1-L100"
+            }
+          ],
+          "index": {
+            "byteEnd": 300,
+            "byteStart": 274
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidmh2awx2wwds4zitwgxhshklttrrcdnzq26ruiwfi7fypfqczpby",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mglhwrsov22w"
+        },
+        "root": {
+          "cid": "bafyreieq2gxn66cscuiy7azfg4snlkupxi4cc6pqhvunziv72qleh7n4hy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mglacvo4is2w"
+        }
+      },
+      "text": "Let's look at the json schema side of things first.\n\nAny PowerShell script can define _any_ OutputType, including an arbitrary string.\n\nSo we can just go ahead and defined the schema on the script that generates the endpoint.\n\n_and use that schema to massage results_ 😎\n\ngithub.com/StartAutomat..."
+    },
+    "cid": "bafyreih7jmxs2dh4xxhgprc5tgznmf43ixcu7fy2xuxhwl32hzbxphlqoy"
+  }
+}

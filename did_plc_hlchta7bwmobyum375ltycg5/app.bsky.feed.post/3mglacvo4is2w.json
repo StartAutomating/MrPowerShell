@@ -1,0 +1,20 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773003599702031,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mglacvrqtf2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mglacvo4is2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-08T20:59:59.383Z",
+      "langs": [
+        "en"
+      ],
+      "text": "This weekend has brought a few \"new\" discoveries:\n\n1. We can make dynamically static xrpc endpoints\n2. We can put json schemas in PowerShell OutputTypes\n3. We can automatically decorate any XRPC data to customize display\n4. We can combined these tricks to easily make data driven websites!\n\n😎"
+    },
+    "cid": "bafyreieq2gxn66cscuiy7azfg4snlkupxi4cc6pqhvunziv72qleh7n4hy"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773339942292420,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mguzkouzfq2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mguzkn3b7s2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-12T18:25:40.002Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihk3du6afk2oj44tcyouly2rgdfhwwzavrl254bf7iboamum3ihpi",
+          "uri": "at://did:plc:slyb6dtlemv6ucoymlcufuan/app.bsky.feed.post/3mgukik7ofm2z"
+        },
+        "root": {
+          "cid": "bafyreihk3du6afk2oj44tcyouly2rgdfhwwzavrl254bf7iboamum3ihpi",
+          "uri": "at://did:plc:slyb6dtlemv6ucoymlcufuan/app.bsky.feed.post/3mgukik7ofm2z"
+        }
+      },
+      "text": "Yes! and yes I can imagine a world without PowerShell.\n\nCause I lived in that world before PowerShell came along.\n\nGUIs were almost all we got on Windows, and cross platform scripting was a distant dream.  There was no object pipeline.  No Get-Command.  No Get-Help.\n\nDark times."
+    },
+    "cid": "bafyreihonmbbx2brsppxhxlmdnjlxpt7c3ppdbpeqngydz3uzifthqj2r4"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773253901104224,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgsjghg5vv2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgsjgenba22n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-11T18:31:37.592Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Blank-faced bug killer Bill Lee and his dead-eyed wife, Joan, like to get high on Bill's pest poisons while lounging with Beat poet pals. After meeting the devilish Dr. Benway, Bill gets a drug made f...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiehh6uixknhrdyx23lenxcvxplxulbzh6vl7n7hllsskfasum7uqi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 981133
+          },
+          "title": "Naked Lunch (1991)",
+          "uri": "https://letterboxd.com/film/naked-lunch/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://letterboxd.com/film/naked-lunch/"
+            }
+          ],
+          "index": {
+            "byteEnd": 189,
+            "byteStart": 159
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Exploring an old hard drive today, I found a document called\n\nI Have Absolutely No Idea What This Means.doc\n\nTurns out it was a review of \"Naked Lunch\"\n\n😂\n\nletterboxd.com/film/naked-l..."
+    },
+    "cid": "bafyreieb4prf6w6u3eqqvlnsudkhoib5q5px47ctuw4pplfapxzgxzph3u"
+  }
+}

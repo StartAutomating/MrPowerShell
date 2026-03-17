@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773681486021628,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mh6xnhuttg2x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mh6xnhzeac27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-16T17:18:05.261Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif7w5ur6fdyxvrquh2o5ykkqfqwsmuxw6xijmbfesgkbxdhef2qh4",
+          "uri": "at://did:plc:iga7ipxo6jy26wv6bevcmdem/app.bsky.feed.post/3mh6x53hnns2t"
+        },
+        "root": {
+          "cid": "bafyreie3mmyweyae66rjkjum3agrgg2lbviyoiyasigustoopqelbqnu5i",
+          "uri": "at://did:plc:iga7ipxo6jy26wv6bevcmdem/app.bsky.feed.post/3mh5hbzrf3u2h"
+        }
+      },
+      "text": "Elgato Keylight should already be covered, too.\n\nOpen to adding whatever ( just would prefer PRs from other people to purchasing more smart light for myself )\n\nGenerally trying to expose as much capability as a device has.\n\nWill get around to Govee one day..."
+    },
+    "cid": "bafyreifingmrkw5aftbw5i7cwxqf7lgwwiwcy3r2vjxpeovvzatwmajvxy"
+  }
+}

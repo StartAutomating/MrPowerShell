@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773773126858773,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mhbmylyfcl2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mhbmym4hqs23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-17T18:45:26.711Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibubneqou6lhz4dxnnf6erqyvyoaaepuglubv5m4qfwgwy7o4muam",
+          "uri": "at://did:plc:rhfkk2v6gldc47uo5vrnfdv3/app.bsky.feed.post/3mhbdeksizs2c"
+        },
+        "root": {
+          "cid": "bafyreibubneqou6lhz4dxnnf6erqyvyoaaepuglubv5m4qfwgwy7o4muam",
+          "uri": "at://did:plc:rhfkk2v6gldc47uo5vrnfdv3/app.bsky.feed.post/3mhbdeksizs2c"
+        }
+      },
+      "text": "A bit of both in my opinion.\n\nLots of people see it as just some shell language, and don't realize it's a great programming language with unique concepts.\n\nAnd those of us that build a lot of tools probably don't talk about them as much as we should.\n\nAsk me more & get links to cool projects."
+    },
+    "cid": "bafyreihaimptht3jqc7s3y2ulb7bz3wvibh2xxkkvaazqlgwflcd5lm3je"
+  }
+}

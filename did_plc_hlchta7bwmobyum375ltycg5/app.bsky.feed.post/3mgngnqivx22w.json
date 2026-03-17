@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773079125667863,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgngnqz3wh2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgngnqivx22w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-09T17:58:44.996Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigk7a55xzzzbirmjd6fawhxsoutuyxnn2kxxgmzamnrtvh3lrsbge",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mgngj3nwvs2m"
+        },
+        "root": {
+          "cid": "bafyreiet44ybz5gybrcpfej7xz26uxrygaujmy2am33vz24xttosve6rvy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgngdizxrk2w"
+        }
+      },
+      "text": "Quite sure.  Can access the site just fine.  Asking from the terminal literally gives a blank response.  Same with curl.\n\nPick a title, any title, and try to reproduce the issue.\n\nI'd honestly be very happy if it was \"just me\" (somehow)\n\nEven still failed when providing a different UserAgent 🫤"
+    },
+    "cid": "bafyreicis6lmqiwurat4ofgq4ws7z6b5gyl2mdqnm4sxtkbbcbblgu7nqq"
+  }
+}

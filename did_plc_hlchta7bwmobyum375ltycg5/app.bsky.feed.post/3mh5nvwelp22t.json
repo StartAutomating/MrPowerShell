@@ -1,0 +1,96 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773636673160789,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mh5nvxhhxz2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mh5nvwelp22t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-16T04:51:11.589Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Smarter Lighting with PowerShell. Contribute to StartAutomating/LightScript development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiasfxqdmdx5dvpisza3sxuegy7mqkvwwizdgxfqo2utyr2aug5yky"
+            },
+            "mimeType": "image/jpeg",
+            "size": 195067
+          },
+          "title": "GitHub - StartAutomating/LightScript: Smarter Lighting with PowerShell",
+          "uri": "https://github.com/StartAutomating/LightScript"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Hue"
+            }
+          ],
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 105
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "NanoLeaf"
+            }
+          ],
+          "index": {
+            "byteEnd": 119,
+            "byteStart": 110
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Twinkly"
+            }
+          ],
+          "index": {
+            "byteEnd": 131,
+            "byteStart": 123
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/LightScript"
+            }
+          ],
+          "index": {
+            "byteEnd": 187,
+            "byteStart": 161
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig66gbmtdasvkibcxfjy2smtsyquhgy2v5zi2kjj4c7rkixllk5zq",
+          "uri": "at://did:plc:iga7ipxo6jy26wv6bevcmdem/app.bsky.feed.post/3mh5nqseagk2e"
+        },
+        "root": {
+          "cid": "bafyreie3mmyweyae66rjkjum3agrgg2lbviyoiyasigustoopqelbqnu5i",
+          "uri": "at://did:plc:iga7ipxo6jy26wv6bevcmdem/app.bsky.feed.post/3mh5hbzrf3u2h"
+        }
+      },
+      "text": "Sounds like a fun integration!\n\nIn case you want to script some other devices around the house (and have #Hue #NanoLeaf or #Twinkly lights), here's LightScript\n\ngithub.com/StartAutomat..."
+    },
+    "cid": "bafyreifniprvm2swcg2hmxdogyxwutqfekyzjsnisaaref3s3jaliytwpq"
+  }
+}

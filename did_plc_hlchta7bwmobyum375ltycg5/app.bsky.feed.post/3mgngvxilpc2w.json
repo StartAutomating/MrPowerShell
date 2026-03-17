@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773079401571057,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgngvy4vbf2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgngvxilpc2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-09T18:03:20.761Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicmwjyvb377l3zav6p6nt6qqqmdz5jax2srq2gkqp4cqv42nfjam4",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mgngsgyqfc2m"
+        },
+        "root": {
+          "cid": "bafyreiet44ybz5gybrcpfej7xz26uxrygaujmy2am33vz24xttosve6rvy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgngdizxrk2w"
+        }
+      },
+      "text": "Who said anything about a rest api?\n\nI'm talking about requesting a page and getting back it's JSON-LD / OpenGraph information.\n\nJust pick a random title's webpage and Invoke-RestMethod\n\nPlease sanity check me."
+    },
+    "cid": "bafyreihb6ofjjiwtyo7otqphi2xm2cjmtshxqmeetbpczv6lsie5wgi7w4"
+  }
+}

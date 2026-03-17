@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773011783789830,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mglhwsowik2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mglhwrsov22w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-08T23:16:22.62Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "My PowerShell modules published to the PowerShell Gallery.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidarwkxp4jmlkkhyk4m7q5cpzbh2nl4tubxpfiblzgsklnuwupzue"
+            },
+            "mimeType": "image/jpeg",
+            "size": 138088
+          },
+          "title": "My PowerShell Modules",
+          "uri": "https://MrPowerShell.com/Modules"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://MrPowerShell.com/Modules"
+            }
+          ],
+          "index": {
+            "byteEnd": 77,
+            "byteStart": 53
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://MrPowerShell.com/xrpc/com.powershellgallery.modules"
+            }
+          ],
+          "index": {
+            "byteEnd": 162,
+            "byteStart": 130
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihcna4pw6e5mcxrsf72l6miahc2fuq6ruk4rcxj4esydwhqnb5kku",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mglecravns2w"
+        },
+        "root": {
+          "cid": "bafyreieq2gxn66cscuiy7azfg4snlkupxi4cc6pqhvunziv72qleh7n4hy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mglacvo4is2w"
+        }
+      },
+      "text": "For another example, let's look at My Modules Page:\n\nmrpowershell.com/Modules\n\nIt's using data available from the xrpc endpoint:\n\nmrpowershell.com/xrpc/com.pow...\n\nThis endpoint is built by taking PowerShell Gallery information and making it adhere to a json schema."
+    },
+    "cid": "bafyreidmh2awx2wwds4zitwgxhshklttrrcdnzq26ruiwfi7fypfqczpby"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773342721904077,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mgv45jvcom2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mgv45jkgz226",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-12T19:12:01.323Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihuljxw53m2hbcztdku4u6fxc5sp2u5c7nqfjoosx4im4ymucgtym",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mgv33ihofk2t"
+        },
+        "root": {
+          "cid": "bafyreientf77zwwu3tbvdr3oowlkzeibuqxeqoriz2jplj7wii24p2ykf4",
+          "uri": "at://did:plc:tkbfciykcg4ubnq63ztqvyr7/app.bsky.feed.post/3mgtknxboxc2u"
+        }
+      },
+      "text": "Perfectly plain to purvey:\n\nPowerShell is partially the progeny of PHP and Perl (probably a potion of plenty of programming paradigms)\n\nPossibly a polyglot of programming, with potentially poor purity.\n\nPerchance, PHP / Perl people will peruse PowerShell\n\n🤔😉🤞😎"
+    },
+    "cid": "bafyreihc5bj4swh6xvdgvjeq5gpcifyleotuyzjzhun2q3tk3ogbdf5gji"
+  }
+}
