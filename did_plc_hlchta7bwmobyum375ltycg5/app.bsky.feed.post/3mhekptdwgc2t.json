@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773873764672813,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mhekpttkfz2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mhekptdwgc2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-18T22:42:44.037Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 98,
+            "byteStart": 87
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigobedbab7z427rlacsmkarn4pamqljmmje3cdzlwo2rso5txeroy",
+          "uri": "at://did:plc:ij3kgqajfazfmr3mpa626x6p/app.bsky.feed.post/3mhefmdqu4s2l"
+        },
+        "root": {
+          "cid": "bafyreigobedbab7z427rlacsmkarn4pamqljmmje3cdzlwo2rso5txeroy",
+          "uri": "at://did:plc:ij3kgqajfazfmr3mpa626x6p/app.bsky.feed.post/3mhefmdqu4s2l"
+        }
+      },
+      "text": "💯\n\nDare I ask...\n\nWhat did you need to do / how much easier would it have been with #PowerShell?\n\nAlso, have you tried PowerShell on Linux? (it makes this all _much_ more fun)"
+    },
+    "cid": "bafyreic4ujnppiqqdrpdbhewzwjj6uxmbjvwvzcdfxt636egjnbf6u7moe"
+  }
+}
