@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773885066856293,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mhevakj3l32d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mhevajyxh22d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-19T01:51:02.085Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid5zfqhc2jlk4ui22ltcsbakebp2twoknt7vll2hrlxhkgfbjri5m",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mheoiraa5c2t"
+        },
+        "root": {
+          "cid": "bafyreid5zfqhc2jlk4ui22ltcsbakebp2twoknt7vll2hrlxhkgfbjri5m",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mheoiraa5c2t"
+        }
+      },
+      "text": "Additional notes:\n\n1. This works for dynamic xrpc lexicons as well (just use with {type: \"json\"} )\n2. `fetch` also works.\n3. This makes data driven websites _very_ easy to implement without heavy frameworks."
+    },
+    "cid": "bafyreia5u7w5eppxuu4chxertq42uxvf2sfzlvxxubt2wqgtn4l4dvejh4"
+  }
+}
