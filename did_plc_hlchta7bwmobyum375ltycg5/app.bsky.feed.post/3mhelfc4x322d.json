@@ -1,0 +1,86 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1773874488677851,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mhelffm4ep2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mhelfc4x322d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-18T22:54:44.179Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Get OpenGraph with PowerShell. Contribute to PoshWeb/OpenGraph development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibiinmlxscxvkcge6vkjp67tqld6vxaeew5ndor45mqlzixstnjya"
+            },
+            "mimeType": "image/jpeg",
+            "size": 715782
+          },
+          "title": "GitHub - PoshWeb/OpenGraph: Get OpenGraph with PowerShell",
+          "uri": "https://github.com/PoshWeb/OpenGraph/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "OpenGraph"
+            }
+          ],
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 50
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PoshWeb/OpenGraph/"
+            }
+          ],
+          "index": {
+            "byteEnd": 165,
+            "byteStart": 139
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SEO"
+            }
+          ],
+          "index": {
+            "byteEnd": 212,
+            "byteStart": 208
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Hey #PowerShell people, module update alert:\n\nThe #OpenGraph module just got an update!\n\nNow with improved support for unclosed meta tags\n\ngithub.com/PoshWeb/Open...\n\nUse this module to see if your sites are #SEO friendly.\n\nHave fun!"
+    },
+    "cid": "bafyreifv3bemnaahbhjqvcvgavftdfoixk7elmqz6ssoj5ge6z7d3p2eya"
+  }
+}
