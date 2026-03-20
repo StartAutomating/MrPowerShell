@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774028697748510,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mhj2z7ko3y2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mhj2z4btck27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-20T17:44:54.219Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifdy5vke77iqmydnmgvw2s6ntlv4vvvl6sbnhfls6mshifq2a5kli",
+          "uri": "at://did:plc:dq6jaefxy6vc6vvthg57kwvs/app.bsky.feed.post/3mhhyvc72ps2o"
+        },
+        "root": {
+          "cid": "bafyreifdy5vke77iqmydnmgvw2s6ntlv4vvvl6sbnhfls6mshifq2a5kli",
+          "uri": "at://did:plc:dq6jaefxy6vc6vvthg57kwvs/app.bsky.feed.post/3mhhyvc72ps2o"
+        }
+      },
+      "text": "Nifty !\n\nPipescript has this trick, too.\n\nHappy to see it in some other modules!\n\n🙏 Tell me you fire an event from your command not found?  ( For otherwise, there can only be one command not found )"
+    },
+    "cid": "bafyreicye2tnhhk5fpxhbqxfm5efaeo6bfl7yoiuminqplyxk7xpfnnfmm"
+  }
+}
