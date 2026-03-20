@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774028593757508,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mhj2w4dotv2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mhj2w3vkzc27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-20T17:43:13.154Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreict3s5hin475r37ili2raiwit5fn4v5bursky7uwukpcnxasw3zrq",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mhigy3g4is2k"
+        },
+        "root": {
+          "cid": "bafyreicxbp6lapzqpujihiye26uh5hrrene5ftvxbstpto7x4jjjvffc2i",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mhigkr4eek2k"
+        }
+      },
+      "text": "There's two thoughts on this:\n\nIt can be an \"in-place\" update ( installing to the same directory ), or it can be \"versioned\" directory.\n\nIn place updates sidestep the problem of removal, but step right into the problem of file locks.\n\nDo you prefer in place or versioned ?"
+    },
+    "cid": "bafyreic6s74dc3eras2uoeoqoynvdd7yhvin2nxyvao5f6iavwxs7jrgoy"
+  }
+}
