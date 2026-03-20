@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774039027539647,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mhjemwjgy42s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mhjemwo4bk27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-20T20:37:03.094Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 12,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Windows"
+            }
+          ],
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 52
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#RaspberryPi updates are somehow more annoying that #Windows updates."
+    },
+    "cid": "bafyreihaydepksfc6rqqibszk6qaj5at6pybssbslllzzccxey772pfici"
+  }
+}
