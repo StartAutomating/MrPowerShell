@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774038012478421,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mhjdoso52j2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mhjdosvkss27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-20T20:20:12.511Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidqzb5pnqq5halys5dpt56336lh56vwkobpkfja4n5al24yap7hpu",
+          "uri": "at://did:plc:e6r3y7utj3vfi5ywsxqgjny4/app.bsky.feed.post/3mhjbxm7zl22j"
+        },
+        "root": {
+          "cid": "bafyreid46nt77vy6uruys7qao6iwp5b6qy3uff6xtfcczcxq42d62tqvjq",
+          "uri": "at://did:plc:fd6vwbscqbgrfhez76zxnsmq/app.bsky.feed.post/3mhiulpmaec2e"
+        }
+      },
+      "text": "Give someone a fish and they eat for a day.\n\nTeach someone to fish and they eat forever."
+    },
+    "cid": "bafyreib5pwo7rm5ht3sgsfucwqy4riev2ddvlm6jkqeawj6peysokrgcjy"
+  }
+}
