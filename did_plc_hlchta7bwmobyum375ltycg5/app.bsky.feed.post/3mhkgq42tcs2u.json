@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774075637549128,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mhkgq4oiut2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mhkgq42tcs2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-21T06:47:16.64Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$NULL"
+            }
+          ],
+          "index": {
+            "byteEnd": 86,
+            "byteStart": 81
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$ARGS"
+            }
+          ],
+          "index": {
+            "byteEnd": 176,
+            "byteStart": 171
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig7zcwe3eqlnidxjvo6gqtgghikxfrgazj52xozpwqmhpo5vrvfwy",
+          "uri": "at://did:plc:dq6jaefxy6vc6vvthg57kwvs/app.bsky.feed.post/3mhjvuxe5us22"
+        },
+        "root": {
+          "cid": "bafyreifdy5vke77iqmydnmgvw2s6ntlv4vvvl6sbnhfls6mshifq2a5kli",
+          "uri": "at://did:plc:dq6jaefxy6vc6vvthg57kwvs/app.bsky.feed.post/3mhhyvc72ps2o"
+        }
+      },
+      "text": "Cool.  What I'm suggesting is that your CommandNotFoundAction should simply be:\n\n$null = New-Event -SourceIdentifier CommandNotFound -Sender $executionContext -SourceArgs $args \n\nThen you actual command not found behavior is handled with Register-EngineEvent\n\nAnd then anyone can hook in!"
+    },
+    "cid": "bafyreihoho6mqyqftmvatb7glhunb557nnkqiprx7g74ycsmwyyrqv42xa"
+  }
+}
