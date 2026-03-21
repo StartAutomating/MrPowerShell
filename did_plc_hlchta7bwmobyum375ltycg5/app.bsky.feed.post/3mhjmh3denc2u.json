@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774047418698083,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mhjmh4xd5f2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mhjmh3denc2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-20T22:56:56.594Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih7fzjyyo3bu7yitgqrfeh5p5sxgir6ewdtc3bskwncs2qyrvq5za",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mhjmctfnac2u"
+        },
+        "root": {
+          "cid": "bafyreicxbp6lapzqpujihiye26uh5hrrene5ftvxbstpto7x4jjjvffc2i",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mhigkr4eek2k"
+        }
+      },
+      "text": "As for the Install- scenario:\n\nI took your advice from last week and just made it Install-*** to install a package locally, -DestinationPath optional.\n\nSince these packages can come from almost any repo/npm/nuget/gallery/etc, this should be quite a powerful installer."
+    },
+    "cid": "bafyreihkgrhvntd7iz7htuezgbwanatj3er4up7tcjpnmmjv6v35wladpi"
+  }
+}
