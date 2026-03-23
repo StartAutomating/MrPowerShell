@@ -1,0 +1,21 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774293257313039,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mhqrfoyn3y27",
+    "operation": "create",
+    "collection": "app.bsky.feed.generator",
+    "rkey": "MVP-Summit-Feed",
+    "record": {
+      "$type": "app.bsky.feed.generator",
+      "acceptsInteractions": true,
+      "createdAt": "2026-03-23T19:14:16.040665+00:00",
+      "description": "Any posts about MVPSummit, or containing MVPBuzz ",
+      "did": "did:web:api.graze.social",
+      "displayName": "MVP Summit",
+      "social.graze.feed.order": "new"
+    },
+    "cid": "bafyreib5xgwu5x3oxxqgcsnnn7idzzskndsve5czfymlmmx63x4ogyifda"
+  }
+}
