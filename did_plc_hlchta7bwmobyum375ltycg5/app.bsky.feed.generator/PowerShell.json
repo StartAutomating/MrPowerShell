@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774291522203064,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mhqprxsquq2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.generator",
+    "rkey": "PowerShell",
+    "record": {
+      "$type": "app.bsky.feed.generator",
+      "acceptsInteractions": true,
+      "avatar": {
+        "$type": "blob",
+        "ref": {
+          "$link": "bafkreihuboztdthdzkrte5zpat4rnhreod5a2gs6cqn4f3wvk65ynmmyme"
+        },
+        "mimeType": "image/png",
+        "size": 15661
+      },
+      "createdAt": "2026-03-23T18:45:18.115021+00:00",
+      "description": "PowerShell all the things!  One Shell to Bind them All.  \r\n\r\nAny PowerShell content on the At Protocol",
+      "did": "did:web:api.graze.social",
+      "displayName": "PowerShell",
+      "social.graze.feed.order": "new"
+    },
+    "cid": "bafyreicvxmqbhj74iygcmf7cvwzqexn4rqdzyswanxv5acy57a5jh2ohby"
+  }
+}
