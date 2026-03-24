@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774310152022604,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mhrb576sbr27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mhrb56n5tk2s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-23T23:55:51.263Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihkxztb5vb6lo4246t3gyuwl7e5v5jebylfgpmvt6nzihleb7cuke",
+          "uri": "at://did:plc:kzsyuofr6oxycym3hqtesbxm/app.bsky.feed.post/3mhr2bnpdks27"
+        },
+        "root": {
+          "cid": "bafyreifz32ytsc53lvjpewoh3wfqghzj3e57w7gmkiaq56ztmuzpnqfgdi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mhqqynw6mc2u"
+        }
+      },
+      "text": "Yeah, it looks like it's working again for me, too.  Suspecting temporary Atmosphere Conference related shenanigans.\n\nThat stated, I'm glad I made the feed, if only because I omitted 'pwsh' from the keyword list, which had kept bringing up strange posts from the internet unrelated to PowerShell."
+    },
+    "cid": "bafyreiblyvqj3amnpx7whcuqk7wt7mo5ngc5zry5ms2ncotpzlsfo7gvsa"
+  }
+}
