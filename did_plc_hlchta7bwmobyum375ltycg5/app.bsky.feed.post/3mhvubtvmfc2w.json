@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774468149184469,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mhvubv26562w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mhvubtvmfc2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-25T19:49:07.825Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiavryribkoirredxyvf4k42ukgcc4jg5jykbwcb5rtub7prpsy6um",
+          "uri": "at://did:plc:cknbxvkznyvahkidf4lapy77/app.bsky.feed.post/3mhumq2scsk2s"
+        },
+        "root": {
+          "cid": "bafyreif2sg4v3jmejv3ztgkhicflh4xdjxxsubtv2ta3nilzjkqsifiqmu",
+          "uri": "at://did:plc:cknbxvkznyvahkidf4lapy77/app.bsky.feed.post/3mhsuqbhytk2a"
+        }
+      },
+      "text": "I wouldn't say aliasing is a bad habit. \n\nIn fact, I often say \"don't worry, be alias happy\".\n\nBut PowerShell aliases are not quite like bash aliases (though this may be changing in the future).\n\nAliases are just alternate names (cannot have parameters)"
+    },
+    "cid": "bafyreibotp4xoljsv2qkakdsemcjxebrzzubvpoy2eijfyh6uz2tezimbe"
+  }
+}
