@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774562875871343,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mhymixk3wa2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mhymiwwmec27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-26T22:07:55.165Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidznuodlikqx7q567ubcj5zdcowc4fdfeqd3c4yamv36eiavaejou",
+          "uri": "at://did:plc:shom5lnyxfz3hvdj6mbitz3t/app.bsky.feed.post/3mhykhjk4jk2w"
+        },
+        "root": {
+          "cid": "bafyreig42qo6xt73dkfnz25bfpufq425qkwrz5adli7yjeen35wwjgxv54",
+          "uri": "at://did:plc:shom5lnyxfz3hvdj6mbitz3t/app.bsky.feed.post/3mhy4q4lpgs2q"
+        }
+      },
+      "text": "Ah, yes.\n\nYou're dealing with a \"null burp\"\n\nPeople don't often realize when they are returning a null, rather than returning nothing.\n\nAbout anything is nullable in PowerShell\n\nThis has benefits, and costs.\n\nUnderstanding the benefits will up your game.\n\nDealing with the costs is how we learn."
+    },
+    "cid": "bafyreiby5uxssyylddb4enk3efb77lc6l4entt2ux2yoeveoswkoyqbap4"
+  }
+}
