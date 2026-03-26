@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774479325769384,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mhw6oxv5jj2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mhw6oxk52c27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-25T22:55:25.269Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "servers"
+            }
+          ],
+          "index": {
+            "byteEnd": 139,
+            "byteStart": 131
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "apps"
+            }
+          ],
+          "index": {
+            "byteEnd": 149,
+            "byteStart": 144
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AtProto"
+            }
+          ],
+          "index": {
+            "byteEnd": 280,
+            "byteStart": 272
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I have gotta remember to post more when I'm down the rabbit hole.\n\nIn related news: who out there might want to make really simple #servers and #apps in any language?\n\nCause I'm closing in on a cross-platform open platform for apps.\n\nAlready supports making packages from #AtProto\n\nAsk away"
+    },
+    "cid": "bafyreie57er3tuxafee7bsxel7ur3tp3lawrnncomyi4nhmw7gvjorqtzi"
+  }
+}
