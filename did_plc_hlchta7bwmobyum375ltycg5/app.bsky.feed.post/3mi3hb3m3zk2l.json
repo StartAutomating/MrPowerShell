@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774660326571480,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mi3hb5wytb2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mi3hb3m3zk2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-28T01:12:02.134Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidzxpom5c67svzmqgg7qhsvr3hwwad3b3dvowookluaxzlorcprue",
+          "uri": "at://did:plc:audoav6nalzzge4ezwefjdqs/app.bsky.feed.post/3mi3fwzoqcc2t"
+        },
+        "root": {
+          "cid": "bafyreih7nuonzkaiuad34vp346ctrg63smlrsxf6rlcpzc2q2ec5tprfqi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mhyxksagrc2j"
+        }
+      },
+      "text": "Well, I did help set the style of PowerShell code (if only by writing quite a lot of it), but I feel like it's constantly evolving.\n\nI _think_ it makes sense to align to the cases used in various target languages.\n\nSadly, this is multiple formats in within css and javascript."
+    },
+    "cid": "bafyreih44r75vy7jvx6cvkycn3eermbkquz4uaizjnnfuf2iefgkj3bsde"
+  }
+}
