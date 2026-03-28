@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774652454970922,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mi37wmqyvn2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mi37wlgklk27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-27T23:00:53.439Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicdfm6s7nwgcebsjpt2vlve3ugut2ztzcweedtz2w47dnfqpnvwcq",
+          "uri": "at://did:plc:munmkmorl6d57hkragyydlyh/app.bsky.feed.post/3mhzzetiwas2p"
+        },
+        "root": {
+          "cid": "bafyreicdfm6s7nwgcebsjpt2vlve3ugut2ztzcweedtz2w47dnfqpnvwcq",
+          "uri": "at://did:plc:munmkmorl6d57hkragyydlyh/app.bsky.feed.post/3mhzzetiwas2p"
+        }
+      },
+      "text": "Mainly been working on making a module for Open Packages in PowerShell.\n\nStarted as a \"see what I can do with a .zip\" experiment.\n\nIs ending up basically being an Open Platform, and we're finally about to be able to make cross-platform app packages for PowerShell + everything else.\n\n😉😎"
+    },
+    "cid": "bafyreif3xkw5nwpimg6whawqopvn7qrtw6dv6nsuzbymlkf5ps4m6g7aqa"
+  }
+}
