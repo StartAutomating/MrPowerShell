@@ -1,0 +1,75 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774673307854589,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mi3te2losl2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mi3tdvnbfk25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-28T04:48:21.445Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Random thoughts about random things.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicsnc5kqzshy6kh46zs3l5pe33wfgaw6xjbguzfbnmto4ixfi7s5m"
+            },
+            "mimeType": "image/jpeg",
+            "size": 433541
+          },
+          "title": "offtopic | James Brundage | MVP | Offprint",
+          "uri": "https://offtopic.offprint.app/a/3mi3qqzxr2723-off-topic"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:pgjkomf37an4czloay5zeth6"
+            }
+          ],
+          "index": {
+            "byteEnd": 24,
+            "byteStart": 11
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "offtopic"
+            }
+          ],
+          "index": {
+            "byteEnd": 75,
+            "byteStart": 66
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://offtopic.offprint.app/a/3mi3qqzxr2723-off-topic"
+            }
+          ],
+          "index": {
+            "byteEnd": 127,
+            "byteStart": 90
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Trying out @offprint.app and couldn't resist the urge to create a #offtopic publication.\n\nofftopic.offprint.app/a/3mi3qqzxr2...\n\nLooking forward to having a writing space that isn't constrained by topic.\n\nLet's go off topic.\nLet's go off brand.\n\nLet's see where this goes..."
+    },
+    "cid": "bafyreifklajdrel6q2tjpuhonr4nqf5ejnof2yhmcx4bwvxys5dasp3ycy"
+  }
+}
