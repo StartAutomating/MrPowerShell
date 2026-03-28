@@ -1,0 +1,142 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774673059153555,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mi3t4mma2e2v",
+    "operation": "create",
+    "collection": "site.standard.document",
+    "rkey": "3mi3qqzxr2723",
+    "record": {
+      "$type": "site.standard.document",
+      "content": {
+        "$type": "app.offprint.content",
+        "items": [
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "I think we need to share more."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "app.offprint.richtext.facet#bold"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 10,
+                  "byteStart": 8
+                }
+              }
+            ],
+            "plaintext": "I think I need to share more."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "Every day, people are asked \"how are you?\""
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "Every day, people lie."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "I feel like there are lots of reasons we don't speak up.  Life has a way of shutting us up."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "I feel like one of those reasons is the idea that people's thoughts aren't \"on topic\"."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "app.offprint.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 103,
+                  "byteStart": 93
+                }
+              }
+            ],
+            "plaintext": "I know there's a little part of me that thinks that nobody wants to hear what I have to say, especially if it's not about the specifically nerdy topics I'm \"relevant\" enough to speak about."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "I feel like that's a concern that creeps in over a career: you've gotta stay \"on brand\", right?"
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "app.offprint.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 116,
+                  "byteStart": 111
+                }
+              }
+            ],
+            "plaintext": "I think a lot of us are in the habit of preemptively shutting up.  And I'm going on out a limb and saying that might be a bad habit we can all try to break."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "So let's go off topic."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "Let's go off brand."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "app.offprint.richtext.facet#bold"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 41,
+                  "byteStart": 17
+                }
+              }
+            ],
+            "plaintext": "Let's talk about anything and everything."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "I hope this will be fun."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "Let's find out."
+          }
+        ]
+      },
+      "coverImage": {
+        "$type": "blob",
+        "ref": {
+          "$link": "bafkreia5jbyqia6eyybdgy5vmiyysaymxppcpaebri2nxpc27azpshzgju"
+        },
+        "mimeType": "image/jpeg",
+        "size": 51339
+      },
+      "description": "Off topic, off brand, off print",
+      "path": "/a/3mi3qqzxr2723-off-topic",
+      "publishedAt": "2026-03-28T04:44:13+00:00",
+      "site": "at://did:plc:hlchta7bwmobyum375ltycg5/site.standard.publication/3mi3qqawqnb2q",
+      "textContent": "I think we need to share more.\nI think I need to share more.\nEvery day, people are asked \"how are you?\"\nEvery day, people lie.\nI feel like there are lots of reasons we don't speak up.  Life has a way of shutting us up.\nI feel like one of those reasons is the idea that people's thoughts aren't \"on topic\".\nI know there's a little part of me that thinks that nobody wants to hear what I have to say, especially if it's not about the specifically nerdy topics I'm \"relevant\" enough to speak about.\nI feel like that's a concern that creeps in over a career: you've gotta stay \"on brand\", right?\nI think a lot of us are in the habit of preemptively shutting up.  And I'm going on out a limb and saying that might be a bad habit we can all try to break.\nSo let's go off topic.\nLet's go off brand.\nLet's talk about anything and everything.\nI hope this will be fun.\nLet's find out.",
+      "title": "Off topic"
+    },
+    "cid": "bafyreigy6hxdpzo27wv3xfcsifdoiwbxgbcjzd7rgyt7taeeo3c5dgkju4"
+  }
+}
