@@ -1,0 +1,201 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774670495153042,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mi3qqawvjj2q",
+    "operation": "create",
+    "collection": "site.standard.publication",
+    "rkey": "3mi3qqawqnb2q",
+    "record": {
+      "$type": "site.standard.publication",
+      "basicTheme": {
+        "$type": "site.standard.theme.basic",
+        "accent": {
+          "$type": "site.standard.theme.color#rgb",
+          "b": 255,
+          "g": 153,
+          "r": 51
+        },
+        "accentForeground": {
+          "$type": "site.standard.theme.color#rgb",
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "background": {
+          "$type": "site.standard.theme.color#rgb",
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "foreground": {
+          "$type": "site.standard.theme.color#rgb",
+          "b": 0,
+          "g": 0,
+          "r": 0
+        }
+      },
+      "description": "Random thoughts about random things.",
+      "icon": {
+        "$type": "blob",
+        "ref": {
+          "$link": "bafkreigu7xuyjwglaldtx5b7woacxuo3onjjimd5lx3n5uoq462ebyar2i"
+        },
+        "mimeType": "image/png",
+        "size": 65065
+      },
+      "name": "offtopic",
+      "preferences": {
+        "$type": "site.standard.publication#preferences",
+        "locale": "en-US",
+        "showByline": true,
+        "showInDiscover": true,
+        "timezone": "UTC"
+      },
+      "theme": {
+        "$type": "app.offprint.theme",
+        "colorScheme": "light",
+        "colors": {
+          "$type": "app.offprint.theme.colors",
+          "accent": {
+            "$type": "site.standard.theme.color.rgb",
+            "b": 13,
+            "g": 13,
+            "r": 13
+          },
+          "accentContent": {
+            "$type": "site.standard.theme.color.rgb",
+            "b": 132,
+            "g": 228,
+            "r": 253
+          },
+          "base100": {
+            "$type": "site.standard.theme.color.rgb",
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "base200": {
+            "$type": "site.standard.theme.color.rgb",
+            "b": 250,
+            "g": 250,
+            "r": 250
+          },
+          "base300": {
+            "$type": "site.standard.theme.color.rgb",
+            "b": 229,
+            "g": 229,
+            "r": 229
+          },
+          "baseContent": {
+            "$type": "site.standard.theme.color.rgb",
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "error": {
+            "$type": "site.standard.theme.color.rgb",
+            "b": 129,
+            "g": 145,
+            "r": 255
+          },
+          "errorContent": {
+            "$type": "site.standard.theme.color.rgb",
+            "b": 6,
+            "g": 7,
+            "r": 24
+          },
+          "info": {
+            "$type": "site.standard.theme.color.rgb",
+            "b": 221,
+            "g": 207,
+            "r": 95
+          },
+          "infoContent": {
+            "$type": "site.standard.theme.color.rgb",
+            "b": 17,
+            "g": 16,
+            "r": 3
+          },
+          "neutral": {
+            "$type": "site.standard.theme.color.rgb",
+            "b": 13,
+            "g": 13,
+            "r": 13
+          },
+          "neutralContent": {
+            "$type": "site.standard.theme.color.rgb",
+            "b": 212,
+            "g": 212,
+            "r": 212
+          },
+          "primary": {
+            "$type": "site.standard.theme.color.rgb",
+            "b": 13,
+            "g": 13,
+            "r": 13
+          },
+          "primaryContent": {
+            "$type": "site.standard.theme.color.rgb",
+            "b": 169,
+            "g": 240,
+            "r": 128
+          },
+          "secondary": {
+            "$type": "site.standard.theme.color.rgb",
+            "b": 13,
+            "g": 13,
+            "r": 13
+          },
+          "secondaryContent": {
+            "$type": "site.standard.theme.color.rgb",
+            "b": 252,
+            "g": 243,
+            "r": 164
+          },
+          "success": {
+            "$type": "site.standard.theme.color.rgb",
+            "b": 169,
+            "g": 240,
+            "r": 128
+          },
+          "successContent": {
+            "$type": "site.standard.theme.color.rgb",
+            "b": 14,
+            "g": 22,
+            "r": 4
+          },
+          "warning": {
+            "$type": "site.standard.theme.color.rgb",
+            "b": 105,
+            "g": 206,
+            "r": 255
+          },
+          "warningContent": {
+            "$type": "site.standard.theme.color.rgb",
+            "b": 4,
+            "g": 15,
+            "r": 23
+          }
+        },
+        "effects": {
+          "$type": "app.offprint.theme.effects",
+          "depth": true,
+          "noise": false
+        },
+        "sizing": {
+          "$type": "app.offprint.theme.sizing",
+          "border": "1px",
+          "radiusBox": "0.75rem",
+          "radiusField": "0.5rem",
+          "radiusSelector": "2rem",
+          "sizeField": "0.25rem",
+          "sizeSelector": "0.25rem"
+        }
+      },
+      "url": "https://offtopic.offprint.app"
+    },
+    "cid": "bafyreih4uhlg3hkauumviebvdgx6lkhxvitzxzxgyweebliu5nhl4s5hlm"
+  }
+}
