@@ -1,0 +1,20 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774746725984975,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mi5xq4bacy2q",
+    "operation": "create",
+    "collection": "app.offprint.document.article",
+    "rkey": "3mi5xq4azia2q",
+    "record": {
+      "$type": "app.offprint.document.article",
+      "document": {
+        "$type": "com.atproto.repo.strongRef",
+        "cid": "bafyreiddhv5kyw3xuxsidco74ts24nrquvvbxx4jvhsmpezxtaa2o2jwry",
+        "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/site.standard.document/3mi5v5355ul23"
+      }
+    },
+    "cid": "bafyreihsxucervgw26m7mg44uv2qerfyam3g6wbacgxhwibghyrcdofhdq"
+  }
+}
