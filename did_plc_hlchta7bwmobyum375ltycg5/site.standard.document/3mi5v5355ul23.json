@@ -1,0 +1,337 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774746725984000,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mi5xq3ocyb2l",
+    "operation": "create",
+    "collection": "site.standard.document",
+    "rkey": "3mi5v5355ul23",
+    "record": {
+      "$type": "site.standard.document",
+      "content": {
+        "$type": "app.offprint.content",
+        "items": [
+          {
+            "$type": "app.offprint.block.heading",
+            "level": 1,
+            "plaintext": "Nothing Is Normal"
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "I mean it."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "Absolutely nothing is normal."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "Because normal does not exist."
+          },
+          {
+            "$type": "app.offprint.block.heading",
+            "level": 2,
+            "plaintext": "What Is Normal?"
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "Normal is a shadow."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "app.offprint.richtext.facet#bold"
+                  },
+                  {
+                    "$type": "app.offprint.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 21,
+                  "byteStart": 16
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "app.offprint.richtext.facet#bold"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 22,
+                  "byteStart": 21
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "app.offprint.richtext.facet#bold"
+                  },
+                  {
+                    "$type": "app.offprint.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 24,
+                  "byteStart": 22
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "app.offprint.richtext.facet#bold"
+                  },
+                  {
+                    "$type": "app.offprint.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 31,
+                  "byteStart": 25
+                }
+              }
+            ],
+            "plaintext": "We take what we think is normal and project it onto the world."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "Normal is an illusion."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "Lots of life isn't finite enough to measure numerically."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "There isn't an \"average\" of how people think about things or act."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "Even if there was, who among us would know it accurately?"
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "How would we keep up to date with it as it changed?  Why would we care so much, anyways?"
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "Beyond that, how can we possibly judge what is normal and what is not?  "
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "By our peers?  That's not normal, that's selection bias."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "By our media?  Same problem, different peer group."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "Normal is an individual illusion, born out of our own biases."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "I hope I'm getting the point across."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "You might be with me.  You might not be.  If you're not, I hope you'll spare some thoughts for how normal harms."
+          },
+          {
+            "$type": "app.offprint.block.heading",
+            "level": 2,
+            "plaintext": "Normal Harms"
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "Normal may be an illusion, but it can be a harmful one."
+          },
+          {
+            "$type": "app.offprint.block.heading",
+            "level": 3,
+            "plaintext": "Maybe You're Not \"Normal\""
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "Maybe you've had people who were mean about your differences over time.  Maybe you've had self-judgement about how different you feel.  It seems like a lot of people struggle with this, self included. "
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "Being any form of different can bring a different sort of pain from people:"
+          },
+          {
+            "$type": "app.offprint.block.bulletList",
+            "children": [
+              {
+                "content": {
+                  "$type": "app.offprint.block.text",
+                  "plaintext": "The pain of being excluded"
+                }
+              },
+              {
+                "content": {
+                  "$type": "app.offprint.block.text",
+                  "plaintext": "The pain of people proselytizing the \"proper\" way to be on you"
+                }
+              },
+              {
+                "content": {
+                  "$type": "app.offprint.block.text",
+                  "plaintext": "The pain of being misunderstood"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "We are all more social creatures than we might like to admit."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "People enforcing normalcy upon you sucks."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "It's a form of rejection, and about nobody likes rejection."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "If you know you're not \"normal\", you might be nodding along."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "This next part is for those still believe in \"normal\""
+          },
+          {
+            "$type": "app.offprint.block.heading",
+            "level": 3,
+            "plaintext": "Maybe You're \"Normal\""
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "Maybe you're totally normal.  "
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "Maybe there is some ideal average of humanity, and you are it."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "Maybe you know what normal is, and that you are it."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "Maybe you truly know better, and need to help everyone."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "If so, then, maybe, just maybe, consider a couple of things:"
+          },
+          {
+            "$type": "app.offprint.block.bulletList",
+            "children": [
+              {
+                "content": {
+                  "$type": "app.offprint.block.text",
+                  "plaintext": "Have you ever wanted something different?"
+                }
+              },
+              {
+                "content": {
+                  "$type": "app.offprint.block.text",
+                  "plaintext": "Have you ever hurt someone different?"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "If either of these things are true, even in the smallest respect, than normal has harmed you, too."
+          },
+          {
+            "$type": "app.offprint.block.heading",
+            "level": 2,
+            "plaintext": "Normal Truth"
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "In my opinion, the truth is that none of us are normal.  "
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "None of us ever were, or ever will be."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "Because I believe normal is an illusion."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "What's true to me is this:"
+          },
+          {
+            "$type": "app.offprint.block.bulletList",
+            "children": [
+              {
+                "content": {
+                  "$type": "app.offprint.block.text",
+                  "plaintext": "We are all different"
+                }
+              },
+              {
+                "content": {
+                  "$type": "app.offprint.block.text",
+                  "plaintext": "Different is good"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "I believe we should be kind about our differences."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "I may not believe in normal, but I do believe in right and wrong."
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "I feel like there's a golden rule about this, and there's a reason it's golden."
+          },
+          {
+            "$type": "app.offprint.block.blockquote",
+            "content": [
+              {
+                "$type": "app.offprint.block.text",
+                "plaintext": "Treat others as you want them to treat you."
+              }
+            ]
+          },
+          {
+            "$type": "app.offprint.block.text",
+            "plaintext": "We are all different.  Let's act like it."
+          }
+        ]
+      },
+      "coverImage": {
+        "$type": "blob",
+        "ref": {
+          "$link": "bafkreigvf47cy3ngkt3g6ep5eyyfu4vf645ld3k6w4iamx4chbbqsjd5xu"
+        },
+        "mimeType": "image/jpeg",
+        "size": 37451
+      },
+      "description": "Normal is an individual illusion",
+      "path": "/a/3mi5v5355ul23-nothing-is-normal",
+      "publishedAt": "2026-03-29T01:10:54+00:00",
+      "site": "at://did:plc:hlchta7bwmobyum375ltycg5/site.standard.publication/3mi3qqawqnb2q",
+      "textContent": "Nothing Is Normal\nI mean it.\nAbsolutely nothing is normal.\nBecause normal does not exist.\nWhat Is Normal?\nNormal is a shadow.\nWe take what we think is normal and project it onto the world.\nNormal is an illusion.\nLots of life isn't finite enough to measure numerically.\nThere isn't an \"average\" of how people think about things or act.\nEven if there was, who among us would know it accurately?\nHow would we keep up to date with it as it changed?  Why would we care so much, anyways?\nBeyond that, how can we possibly judge what is normal and what is not?  \nBy our peers?  That's not normal, that's selection bias.\nBy our media?  Same problem, different peer group.\nNormal is an individual illusion, born out of our own biases.\nI hope I'm getting the point across.\nYou might be with me.  You might not be.  If you're not, I hope you'll spare some thoughts for how normal harms.\nNormal Harms\nNormal may be an illusion, but it can be a harmful one.\nMaybe You're Not \"Normal\"\nMaybe you've had people who were mean about your differences over time.  Maybe you've had self-judgement about how different you feel.  It seems like a lot of people struggle with this, self included. \nBeing any form of different can bring a different sort of pain from people:\n- The pain of being excluded\n- The pain of people proselytizing the \"proper\" way to be on you\n- The pain of being misunderstood\n\nWe are all more social creatures than we might like to admit.\nPeople enforcing normalcy upon you sucks.\nIt's a form of rejection, and about nobody likes rejection.\nIf you know you're not \"normal\", you might be nodding along.\nThis next part is for those still believe in \"normal\"\nMaybe You're \"Normal\"\nMaybe you're totally normal.  \nMaybe there is some ideal average of humanity, and you are it.\nMaybe you know what normal is, and that you are it.\nMaybe you truly know better, and need to help everyone.\nIf so, then, maybe, just maybe, consider a couple of things:\n- Have you ever wanted something different?\n- Have you ever hurt someone different?\n\nIf either of these things are true, even in the smallest respect, than normal has harmed you, too.\nNormal Truth\nIn my opinion, the truth is that none of us are normal.  \nNone of us ever were, or ever will be.\nBecause I believe normal is an illusion.\nWhat's true to me is this:\n- We are all different\n- Different is good\n\nI believe we should be kind about our differences.\nI may not believe in normal, but I do believe in right and wrong.\nI feel like there's a golden rule about this, and there's a reason it's golden.\n> Treat others as you want them to treat you.\nWe are all different.  Let's act like it.",
+      "title": "Nothing is Normal"
+    },
+    "cid": "bafyreiddhv5kyw3xuxsidco74ts24nrquvvbxx4jvhsmpezxtaa2o2jwry"
+  }
+}
