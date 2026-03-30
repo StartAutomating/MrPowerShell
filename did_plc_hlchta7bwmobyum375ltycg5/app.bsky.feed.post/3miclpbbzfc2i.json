@@ -1,0 +1,48 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774905611650104,
+  "kind": "commit",
+  "commit": {
+    "rev": "3miclpbr5lm2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3miclpbbzfc2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-30T21:20:10.993Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:pgjkomf37an4czloay5zeth6"
+            }
+          ],
+          "index": {
+            "byteEnd": 18,
+            "byteStart": 5
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:revjuqmkvrw6fnkxppqtszpv"
+            }
+          ],
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 35
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Hey, @offprint.app, please do what @pckt.blog did and kindly add PowerShell to your list of languages.\n\nBetter yet:\n\n_just let us type in the language_\n\nEven better yet:\n\n_just let us copy/paste in markdown_\n\nThanks!"
+    },
+    "cid": "bafyreiccur3ivzf3og7kqadfx7pqtcw465qv6neviofttxvmg4oidvwt5q"
+  }
+}
