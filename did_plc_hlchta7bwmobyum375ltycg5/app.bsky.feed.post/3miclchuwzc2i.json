@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774905185707428,
+  "kind": "commit",
+  "commit": {
+    "rev": "3miclcilstc2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3miclchuwzc2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-30T21:13:01.696Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigcjy7flvqckutb36mkzyq7l57v2sau4ywludc6u6bggztucf2f3q",
+          "uri": "at://did:plc:pynti6afnq7rurnfpr3iykq3/app.bsky.feed.post/3micfucfors2b"
+        },
+        "root": {
+          "cid": "bafyreigcjy7flvqckutb36mkzyq7l57v2sau4ywludc6u6bggztucf2f3q",
+          "uri": "at://did:plc:pynti6afnq7rurnfpr3iykq3/app.bsky.feed.post/3micfucfors2b"
+        }
+      },
+      "text": "🤦 sounds like quite the fool.\n\nHTML, JavaScript, CSS, and SVG are all languages made in the 90s and used _literally millions of times a day_.\n\n🤷 I could not slow nod.  \n\nI would end up on that rant about how React is just window dressing on Components, and how we can do this without 16 extra steps."
+    },
+    "cid": "bafyreigl5amjagjsoegbarfnyl3djl4eezkbl576mvq3ocvxavdp7jgglm"
+  }
+}
