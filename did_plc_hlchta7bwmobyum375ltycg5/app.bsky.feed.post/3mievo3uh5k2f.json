@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774985031972982,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mievo5f45p2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mievo3uh5k2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-31T19:23:48.646Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 204,
+            "byteStart": 192
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig2vtiwpkchn3xsh4kv5kxh75yr7nic5eipx6zyrfturdigcou5le",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3miev745xdc22"
+        },
+        "root": {
+          "cid": "bafyreicowhtnzrkdnpw47524yieht2d55vxksofloiubq5cmxidtf7luta",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mier35mepc22"
+        }
+      },
+      "text": "Thanks!  Wasn't really intentional, was just writing docs and examples for the packaging module I'm working on and wanted a relevant .net tool to demonstrate.\n\nThen found it didn't work on my #RaspberryPi 🤦.\n\nThen added a disclaimer.\n\nRelease multi pwsh as a tool and I shall use it instead."
+    },
+    "cid": "bafyreient56e5phx5ookwctfh33usztvsfezgas46ubohred3pzectpaj4"
+  }
+}
