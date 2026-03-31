@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774986799375037,
+  "kind": "commit",
+  "commit": {
+    "rev": "3miexcuhwhy26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3miexcvbvx22f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-31T19:53:20.133Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiem6oi2zbgxgnrjvq7ms5rkdrj7r2zg5azyacv53gl2ydw2pkapma",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mievxtt4hk22"
+        },
+        "root": {
+          "cid": "bafyreicowhtnzrkdnpw47524yieht2d55vxksofloiubq5cmxidtf7luta",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mier35mepc22"
+        }
+      },
+      "text": "Fair.  I'm actually suggesting being able to install \"dotnet\" tools without dotnet.\n\nBecause it's the closest nuget package format to \"just an app\"."
+    },
+    "cid": "bafyreibtmad24vrba5m73k43awisxwgrlwcstawdflsf3ws5pbtgxjbn3e"
+  }
+}
