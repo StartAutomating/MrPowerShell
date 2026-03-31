@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774984123456082,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mieut4j7j32q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mieut4z7lc2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-31T19:08:43.882Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicowhtnzrkdnpw47524yieht2d55vxksofloiubq5cmxidtf7luta",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mier35mepc22"
+        },
+        "root": {
+          "cid": "bafyreicowhtnzrkdnpw47524yieht2d55vxksofloiubq5cmxidtf7luta",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mier35mepc22"
+        }
+      },
+      "text": "Yes.  Though, sadly, this does not work on arm. 😕"
+    },
+    "cid": "bafyreid5pfft6wwfx72oob4oqcht3f5uqdowr54tyikie7lsq46nzo5fha"
+  }
+}
