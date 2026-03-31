@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774984469376571,
+  "kind": "commit",
+  "commit": {
+    "rev": "3miev5fi7re2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3miev5fb7j22f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-31T19:14:28.076Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid5pfft6wwfx72oob4oqcht3f5uqdowr54tyikie7lsq46nzo5fha",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mieut4z7lc2f"
+        },
+        "root": {
+          "cid": "bafyreicowhtnzrkdnpw47524yieht2d55vxksofloiubq5cmxidtf7luta",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mier35mepc22"
+        }
+      },
+      "text": "Also/ and, I think it should be fairly trivial to start packaging many PowerShell modules / scripts as dotnet tools.\n\nJust still working out the kinks of how to surface things consistently."
+    },
+    "cid": "bafyreiak6ojobispdt6oxvg6tif2ouolbrbitmyjse4nd2stnngu7qekei"
+  }
+}
