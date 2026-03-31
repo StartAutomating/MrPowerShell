@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774914413879511,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mictvm6zxg25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mictvlkiwk2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-30T23:46:53.018Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigthwry3icxx7udesgdc7ds2o7pzwf3g2lj62afk5vn64diry6xoq",
+          "uri": "at://did:plc:pgjkomf37an4czloay5zeth6/app.bsky.feed.post/3micr2eng222e"
+        },
+        "root": {
+          "cid": "bafyreiccur3ivzf3og7kqadfx7pqtcw465qv6neviofttxvmg4oidvwt5q",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3miclpbbzfc2i"
+        }
+      },
+      "text": "Thanks!  (especially if we can get that sweet direct copy/paste from markdown).\n\nGood news: The editor experience is solid!\n\nBad news: Having to painstakingly copy/paste block by block is quite the tax on time."
+    },
+    "cid": "bafyreicolxsjhdmynlx2u6ta5tsrwtxyqbe2vsuztjdulhwc5scdjzomxm"
+  }
+}
