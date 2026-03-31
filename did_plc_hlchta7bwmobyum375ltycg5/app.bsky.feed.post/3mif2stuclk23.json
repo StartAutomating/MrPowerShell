@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774990559875836,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mif2svns6b26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mif2stuclk23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-31T20:55:56.734Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif45ahklc7j55qhb4jx76x75pylug7zdnpwnlaphggonmzvo3vax4",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mif2q44g2c2w"
+        },
+        "root": {
+          "cid": "bafyreicowhtnzrkdnpw47524yieht2d55vxksofloiubq5cmxidtf7luta",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mier35mepc22"
+        }
+      },
+      "text": "Until PowerShell 8... But, at the rate version numbers are moving, we've got ~3-4 years to solve that one. 😂😞"
+    },
+    "cid": "bafyreibpxahde2dr6mhqadycmpmhba57re352jeav67xbla7ykkt7frdpu"
+  }
+}
