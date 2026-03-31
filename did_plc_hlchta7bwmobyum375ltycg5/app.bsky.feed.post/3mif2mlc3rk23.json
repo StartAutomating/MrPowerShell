@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1774990347878826,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mif2mmmgbe2v",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mif2mlc3rk23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-31T20:52:26.423Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih7klfxirczrutow32gzhfd3bfk3ubw3guyxm2wlegyyikyisi664",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mif2ev72sc22"
+        },
+        "root": {
+          "cid": "bafyreicowhtnzrkdnpw47524yieht2d55vxksofloiubq5cmxidtf7luta",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mier35mepc22"
+        }
+      },
+      "text": "You can always call it \"pwsh-latest\". Just might not be accurate, per se, if they haven't updated in a while.\n\nBut adding your own little banner message doesn't sound _too_ bad.  And/also, multi-pwsh installs _should_ be easier to pave over."
+    },
+    "cid": "bafyreiaws2sbmfhnqh7n6un2zacqqs2xfehsyjfylenalb43wnf5jiwx5y"
+  }
+}
