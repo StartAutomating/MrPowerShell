@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775000608679442,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mife6foxrl2v",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mife6eczvc23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-03-31T23:43:26.769Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifh3yw56zttukfiieoapl6qflrc6yhhkwkbgvdfviz2ldxterxmsu",
+          "uri": "at://did:plc:kfk7xcznc7kvmlijfvxa2ygr/app.bsky.feed.post/3mifb4rbees25"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreiesyd3unpldkt2mgferekzfqmtoxbg3hbi3vd4dqnbdwn3kgjiuca",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mif3o2ocis2i"
+        }
+      },
+      "text": "Fair.\n\nI think I have another more unique phobia, and that is the fear that stuff I build will be used to do _more_ horrible things.\n\n🤷 Occupational Hazard 🤷\n\n(this is why cybersecurity and ethics in computing are important)"
+    },
+    "cid": "bafyreictkmgpinyz7aladvvh3ndhlxb7vfkhef5v3qw57j4zsg7ktz4hiu"
+  }
+}
