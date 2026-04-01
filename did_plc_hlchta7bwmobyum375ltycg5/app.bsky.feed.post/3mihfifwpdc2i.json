@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775070739003366,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mihfihgloy2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mihfifwpdc2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-01T19:12:17.226Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic2harfqlvlcn7siqdmshooi3b24mkqn5ny6uobfygbkeprsfsul4",
+          "uri": "at://did:plc:mzxb63kywqorjggqkxftdhfv/app.bsky.feed.post/3mifztp7b3c2i"
+        },
+        "root": {
+          "cid": "bafyreic2harfqlvlcn7siqdmshooi3b24mkqn5ny6uobfygbkeprsfsul4",
+          "uri": "at://did:plc:mzxb63kywqorjggqkxftdhfv/app.bsky.feed.post/3mifztp7b3c2i"
+        }
+      },
+      "text": "🫂 You too, huh?\n\nBest of luck finding the right fit 🤞\n\n🙏 let me know if whatever you find has more headcount"
+    },
+    "cid": "bafyreic2nb5326pubzlrz6yuwjb3oglzosvle5kysjry4xnjyu5rlkgr4a"
+  }
+}
