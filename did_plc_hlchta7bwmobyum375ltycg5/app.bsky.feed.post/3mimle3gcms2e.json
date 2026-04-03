@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775248835955099,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mimle5xhid2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mimle3gcms2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-03T20:40:33.127Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieii7akrylvag55fyadl2jozob3bpbz5l7kdlhts7ta2jx6oe3nza",
+          "uri": "at://did:plc:k54achhksfhvlp5jd3rzv32h/app.bsky.feed.post/3mikjjltflc2v"
+        },
+        "root": {
+          "cid": "bafyreibdw3btdcgvz5wwpl66f4ylmtawls5xmzyo22tb6bgmamapekrpui",
+          "uri": "at://did:plc:k54achhksfhvlp5jd3rzv32h/app.bsky.feed.post/3mikhzrzk5c2v"
+        }
+      },
+      "text": "Fun factoid:  XAML's PathGeometry is _basically_ SVG.\n\nSo we can in fact do almost anything in either XAML or a web app."
+    },
+    "cid": "bafyreibx7cj2foiq3aazupmcnk43snzmmcir3yr4yfcdfyemcwzyqcbkta"
+  }
+}
