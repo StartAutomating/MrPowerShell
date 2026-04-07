@@ -1,0 +1,82 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775599553257441,
+  "kind": "commit",
+  "commit": {
+    "rev": "3miwrye2sri24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3miwrxcvcas2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-07T22:05:18.328Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 21
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 164,
+            "byteStart": 157
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 222,
+            "byteStart": 211
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DotNet"
+            }
+          ],
+          "index": {
+            "byteEnd": 230,
+            "byteStart": 223
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "HttpListener"
+            }
+          ],
+          "index": {
+            "byteEnd": 244,
+            "byteStart": 231
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Left a laptop with a #PowerShell web repl running for ~2 months.  It hibernated.\n\nJust hooked it back up.  Clicked \"turtle lucky\".\n\nA few seconds later, new #Turtle graphics appeared in the browser.\n\nApparently #PowerShell #DotNet #HttpListener webservers can friggin _hibernate_ without incident. 😎"
+    },
+    "cid": "bafyreigupwi4tljhpxpdudw5uyv2eqngueflyw2cewdzd7pzufkgj7yqna"
+  }
+}
