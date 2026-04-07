@@ -1,0 +1,78 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775531727818648,
+  "kind": "commit",
+  "commit": {
+    "rev": "3miussy7bk32v",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3miussslqh22g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-07T03:15:21.278Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "Honestly shocked any building can reflect a sunset like this.",
+            "aspectRatio": {
+              "height": 2000,
+              "width": 1505
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiaxihtpsig6y6htylcixe2qw3rey4htspsgcyh7kn5d3lkmbwhl7m"
+              },
+              "mimeType": "image/jpeg",
+              "size": 899664
+            }
+          }
+        ]
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Sunset"
+            }
+          ],
+          "index": {
+            "byteEnd": 71,
+            "byteStart": 64
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Photo"
+            }
+          ],
+          "index": {
+            "byteEnd": 78,
+            "byteStart": 72
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Seattle"
+            }
+          ],
+          "index": {
+            "byteEnd": 100,
+            "byteStart": 92
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "There's \"capturing the sunset\" and then there's this building.\n\n#Sunset #Photo\n\nNice to see #Seattle finally get to spring!"
+    },
+    "cid": "bafyreigez3ps6bpy6zb7qxblkst3pt3yvn2d34ojzr5aalufa6j7ipbi2e"
+  }
+}
