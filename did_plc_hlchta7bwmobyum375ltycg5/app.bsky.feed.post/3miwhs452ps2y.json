@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775588631315166,
+  "kind": "commit",
+  "commit": {
+    "rev": "3miwhs53rvn2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3miwhs452ps2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-07T19:03:26.052Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia5cmjogumw4wtmi5cbogyrxrvegixhh6l5f6kw3u4n6dggndiaxi",
+          "uri": "at://did:plc:xgvzy7ni6ig6ievcbls5jaxe/app.bsky.feed.post/3miwhbheuq32m"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreibhowurtatvhkyrbuqblhxfppqb6rjaln2zuazvfwn7mj2ct6w3e4",
+          "uri": "at://did:plc:xgvzy7ni6ig6ievcbls5jaxe/app.bsky.feed.post/3miwdrfuzu22c"
+        }
+      },
+      "text": "Nifty!\n\nGot a venue in mind, or planning for virtual sessions ?"
+    },
+    "cid": "bafyreifnbecbei735ia546ywthogs7xlpkjdca2thwsn6lk4cpd25wyrvu"
+  }
+}
