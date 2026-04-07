@@ -1,0 +1,94 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775593198983811,
+  "kind": "commit",
+  "commit": {
+    "rev": "3miwm2y5svm26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3miwm2dt7w22f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-07T20:19:37.52Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 40,
+            "byteStart": 29
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 58,
+            "byteStart": 46
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Windows"
+            }
+          ],
+          "index": {
+            "byteEnd": 132,
+            "byteStart": 124
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 143,
+            "byteStart": 137
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "X64"
+            }
+          ],
+          "index": {
+            "byteEnd": 149,
+            "byteStart": 145
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Arm64"
+            }
+          ],
+          "index": {
+            "byteEnd": 160,
+            "byteStart": 154
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "After 9 months daily driving #PowerShell on a #RaspberryPi, \nI'm finally switching back.\n\nGoing split my time 50/50 between #Windows and #Linux, #X64 and #Arm64.\n\nTakeaways:\n\n1. Almost everything PowerShell runs fine cross-platform 👍\n2. Too many things require x64 architecture 😞"
+    },
+    "cid": "bafyreigh6nm2f5p2b373cnsg5gwwaop6r2s7wf3t6xyclhvsprdv7rp2ey"
+  }
+}
