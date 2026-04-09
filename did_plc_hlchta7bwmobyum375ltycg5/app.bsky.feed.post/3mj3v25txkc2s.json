@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775774674470792,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mj3v3dv4vm2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mj3v25txkc2s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-09T22:43:53.622Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihgjd5swjpo3iue5r6a5lms5d3oxpjwtnukznhodfphyrnf7sgm2u",
+          "uri": "at://did:plc:a3k24ft2vsmzhfghns4gi5e2/app.bsky.feed.post/3mj3tedspf22g"
+        },
+        "root": {
+          "cid": "bafyreihgjd5swjpo3iue5r6a5lms5d3oxpjwtnukznhodfphyrnf7sgm2u",
+          "uri": "at://did:plc:a3k24ft2vsmzhfghns4gi5e2/app.bsky.feed.post/3mj3tedspf22g"
+        }
+      },
+      "text": "🤷Just because PowerShell works on Linux does not mean that all PowerShell commands work on Linux.\n\nServices aren't technically a thing on Linux (they're Daemons)\n\nGet-LocalUser and Get-LocalGroup are also Windows-specific commands.\n\nIf you actually want linux alternatives, just ask."
+    },
+    "cid": "bafyreibytlyo4thmob5q4bxcoi7unvierv5wk4i3brfnzl33mv3gltswx4"
+  }
+}
