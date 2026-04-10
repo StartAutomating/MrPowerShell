@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775847435322287,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mj5ytsjthf25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mj5ytqsgrc2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-10T18:57:13.057Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigfijm75cco73rsdyti2kshd74hwejrakncgddk6bz5cubfjib5fq",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mj5xjtbbek2i"
+        },
+        "root": {
+          "cid": "bafyreielketif72vryq6d3xa2565off5z42rcz3rs74gauzfgpuhlcvj7a",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mj5txv6wbc2i"
+        }
+      },
+      "text": "Yes.\n\nThis is what informs my opinion.\n\nWould _slightly_ prefer a MsixBundle.\n\nWould happily take either over disassembling an MSI."
+    },
+    "cid": "bafyreihxdouoxn36s6yoei3egxq7pzjdrt2hwfftkvkdee4qdds7wbpoze"
+  }
+}
