@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775848490735573,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mj5ztb5e4q2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mj5zt5t2g22f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-10T19:14:46.897Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicfloax63s6wkd7rb5jdckpurymud4smdfknyonswu2lv5b4rhyxi",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mj5yxozftk2n"
+        },
+        "root": {
+          "cid": "bafyreielketif72vryq6d3xa2565off5z42rcz3rs74gauzfgpuhlcvj7a",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mj5txv6wbc2i"
+        }
+      },
+      "text": "Pretty sure Enable-PSRemoting will keep working just fine.\n\nHave complex feeling about Task Scheduler and \"Advanced Installers\", borne from having to test them when I worked on Task Scheduler.  \n\nFrom a security/complexity perspective, not a fan."
+    },
+    "cid": "bafyreidkjfxcfg3svpklmsoq4ipzbmra4xf4g5p6bdlgszohar2y2b5eby"
+  }
+}
