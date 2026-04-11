@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775874868648109,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mj6sff6t6h2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mj6sfefhbk2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-11T02:34:27.574Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaraljissm2pp3gmdo6h3jnwzpq42louvcpxmqwdiy4roj2mkobse",
+          "uri": "at://did:plc:hfgp6pj3akhqxntgqwramlbg/app.bsky.feed.post/3mj6s774yas2w"
+        },
+        "root": {
+          "cid": "bafyreielketif72vryq6d3xa2565off5z42rcz3rs74gauzfgpuhlcvj7a",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mj5txv6wbc2i"
+        }
+      },
+      "text": "I don't know if I'd be too optimistic on this one.\n\nRecently someone put in a ScriptAnalyzer PR chiding me for not using SecureString if a field is named *Password.\n\n🤷 people gonna people, and old habits die very hard."
+    },
+    "cid": "bafyreihsxcfi47c2iqmtaxucbljmadurctgkc7xiah2pj77gjo5x2exlxi"
+  }
+}
