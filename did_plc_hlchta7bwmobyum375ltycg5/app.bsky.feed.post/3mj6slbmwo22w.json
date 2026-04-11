@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775875066458783,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mj6slbvwwt2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mj6slbmwo22w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-11T02:37:46.001Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicxw4jmuxyn3bo3xda434jej4mcbvj5ufvraab4xqz6nfox6tkkva",
+          "uri": "at://did:plc:hfgp6pj3akhqxntgqwramlbg/app.bsky.feed.post/3mj6seypgjk2w"
+        },
+        "root": {
+          "cid": "bafyreielketif72vryq6d3xa2565off5z42rcz3rs74gauzfgpuhlcvj7a",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mj5txv6wbc2i"
+        }
+      },
+      "text": "I hear you, and I feel you.\n\nAlso, as a user, I feel like .NET framework politics can yield these sorts of unexpected side effects.\n\nSecureString on Windows -eq DPAPI\nSecureString on Linux -eq NextToNothing\n\nBut most users just wonder why not: the linter says I should use it."
+    },
+    "cid": "bafyreidkm3oed3mekmaxphlxmjddfgiddt7fhq4xovybsa5v2dqgswc4y4"
+  }
+}
