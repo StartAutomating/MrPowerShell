@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775875425159503,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mj6svxzp3q23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mj6svxjvyk2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-11T02:43:44.514Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreighfei25pouruzztdbe3h5qy6os2e5o2c6orpxdwgyhk6gofx5cpm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mj6ss23ow22r"
+        },
+        "root": {
+          "cid": "bafyreielketif72vryq6d3xa2565off5z42rcz3rs74gauzfgpuhlcvj7a",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mj5txv6wbc2i"
+        }
+      },
+      "text": "I feel like the load needs to be spread across various teams at Microsoft (and this is always very tricky to do, for a variety of reasons).\n\nI think a lot of things, like SecureString, are _really_ about old .NET framework compatibility.\n\nThat is the team I wish existed, and wish would own it."
+    },
+    "cid": "bafyreicirene5qrwnxood4jsh4ihlhoatokhr7z3xm2jynqgerctayxqwy"
+  }
+}
