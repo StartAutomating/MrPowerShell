@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775876444854419,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mj6tuehxf52v",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mj6tudzoys2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-11T03:00:44.247Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibvtiyj55sauecfi6mtueosmoh4lzqzwhwtkdkh5a3luiknvg2otu",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mj6tln45ss2r"
+        },
+        "root": {
+          "cid": "bafyreielketif72vryq6d3xa2565off5z42rcz3rs74gauzfgpuhlcvj7a",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mj5txv6wbc2i"
+        }
+      },
+      "text": "This is the ultimately frustrating thing about both SecureString and any potential MSIX / remoting difficulties:\n\nBoth are complicated technical questions of expensive ownership for whichever team comes to own them.\n\nMakes life difficult.\n\nFor me, it also makes me sympathetic to the trouble."
+    },
+    "cid": "bafyreig4a2fvnojisfaeytilayr6n5tgfoxtbeiarlzolf2rk3t2btj6ii"
+  }
+}
