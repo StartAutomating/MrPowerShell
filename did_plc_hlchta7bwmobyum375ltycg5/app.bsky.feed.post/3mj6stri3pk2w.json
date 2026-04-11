@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775875351665757,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mj6strxszp2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mj6stri3pk2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-11T02:42:31.055Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiez6sm4s3kdfaqwjll5y733y63g73wscz6jh5ciyic7v4dokplz3a",
+          "uri": "at://did:plc:hfgp6pj3akhqxntgqwramlbg/app.bsky.feed.post/3mj6soczyr22w"
+        },
+        "root": {
+          "cid": "bafyreielketif72vryq6d3xa2565off5z42rcz3rs74gauzfgpuhlcvj7a",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mj5txv6wbc2i"
+        }
+      },
+      "text": "Yep, I again agree.\n\nAnd it's also one of those things that surrounds a \"not yet sunk cost\" fallacy.\n\nOwning will cost an unknown X amount of effort, and nobody wants to sign up to own things that might be risky and expensive (from a time perspective).\n\nBut 🤷 \"not yet sunk cost\" fallacy. Who knows?"
+    },
+    "cid": "bafyreidgennnw2j5f5fthbz7yuuwjqvrhwduxej3y4nvi547etu4gavtpm"
+  }
+}
