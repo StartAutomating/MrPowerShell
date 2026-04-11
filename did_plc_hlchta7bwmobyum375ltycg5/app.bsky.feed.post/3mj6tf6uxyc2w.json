@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775875936047092,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mj6tf76h2c2v",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mj6tf6uxyc2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-11T02:52:15.533Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigmogalykfope5cm63d5qyobvugz4k5gsney2tvfq5gb3fm7w3myq",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mj6t74o4yc2r"
+        },
+        "root": {
+          "cid": "bafyreielketif72vryq6d3xa2565off5z42rcz3rs74gauzfgpuhlcvj7a",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mj5txv6wbc2i"
+        }
+      },
+      "text": "Yes.\n\nI think Jonathan Swift said:\n\n\"Falsehood flies, and truth comes limping after it.\"\n\nI still remember spending years convincing engineers that MAX_PATH was no longer a thing.\n\nIf things have obvious name that mislead, they stick around for a while.\n\nIt's frustrating for sure."
+    },
+    "cid": "bafyreibykiep5s3n3yp6htpl2alvkjrhjo6ibatwcyxpm5oa2tf36yzglm"
+  }
+}
