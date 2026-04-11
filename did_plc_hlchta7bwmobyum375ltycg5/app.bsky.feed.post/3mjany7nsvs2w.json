@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775938851668034,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjanya7jcq2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjany7nsvs2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-11T20:20:50.908Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia6kf65glpwinz6hgnblebvkpcbknj6hclj3p4noaxdjaiuoxftfe",
+          "uri": "at://did:plc:zmvctxbcchuvnx4a76tla3ex/app.bsky.feed.post/3mja3mkomxk2u"
+        },
+        "root": {
+          "cid": "bafyreic3r6ebonynvg4pn6k64umyg27aezdaxf2f3protqzd5442lbddce",
+          "uri": "at://did:plc:ulsrokhbdwzathvrvahn76e2/app.bsky.feed.post/3mj3kt27k7s2r"
+        }
+      },
+      "text": "It's fine to target compatibility.  Should be a two-way street.\n\nSecureStrings and Mutexes aren't \"rough edges\" on Linux:  They're differences between operating systems.\n\nYesterday brought a decent thread about why SecureString is not actually secure.  \n\nIIRC Mutexes are similar fictions."
+    },
+    "cid": "bafyreihgvj5fv2yzl7ofk6j2rwzbdpufhgyb57sw3ezux2k7jzewei6xhq"
+  }
+}
