@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775875239877917,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mj6sqhelmz2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mj6sqgsu3c2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-11T02:40:39.209Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibm5cyhl5ulykzt3x6iokv2tu6dlwmgrbdaj32yqtdizgdmbzohrm",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mj6sh4g3js2r"
+        },
+        "root": {
+          "cid": "bafyreielketif72vryq6d3xa2565off5z42rcz3rs74gauzfgpuhlcvj7a",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mj5txv6wbc2i"
+        }
+      },
+      "text": "I feel like the real future of server side PowerShell is not in PS Remoting.\n\nIt's in HttpListeners, and TcpListeners, and simple standard protocols.\n\nPowerShell MCP should not look anything like PowerShell remoting.\n\nHTTPS PowerShell should not either.\n\nI'll take an OpenAPI for PowerShell any day."
+    },
+    "cid": "bafyreig5groqcjw6isl6vrhnz3xvcbggqro7wpticluj5w67wnlnlt2tz4"
+  }
+}
