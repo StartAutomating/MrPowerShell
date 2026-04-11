@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775876329751251,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mj6tqwmnzh2j",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mj6tqw2xfc2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-11T02:58:48.946Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreievalxrz7obuvz2zgqvl46yxkowgs2vpvwpkn67ey5nkqlv6zslyq",
+          "uri": "at://did:plc:hfgp6pj3akhqxntgqwramlbg/app.bsky.feed.post/3mj6tkwwxi22b"
+        },
+        "root": {
+          "cid": "bafyreielketif72vryq6d3xa2565off5z42rcz3rs74gauzfgpuhlcvj7a",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mj5txv6wbc2i"
+        }
+      },
+      "text": "It's both a devastating breaking change and a very good legacy.\n\nIn-memory serialization of any .net types is/was a terrifying thing.\n\nNot too hard to design a DataSet that's safely seriabliazble.\n\nMuch safer to do so."
+    },
+    "cid": "bafyreibbprv4nvu5bam6nu2l6qskhykwzl6nlvpx7pv4jgpty4lvfiaobm"
+  }
+}
