@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775876188963009,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mj6tmqc76t23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mj6tmpzokk2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-11T02:56:28.394Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid4xhuzntpk4tasebmevqiyv5fsghvszzlrtl7vzykj6jbmvkc3bq",
+          "uri": "at://did:plc:hfgp6pj3akhqxntgqwramlbg/app.bsky.feed.post/3mj6tgpxdws2b"
+        },
+        "root": {
+          "cid": "bafyreielketif72vryq6d3xa2565off5z42rcz3rs74gauzfgpuhlcvj7a",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mj5txv6wbc2i"
+        }
+      },
+      "text": "Right.\n\nThe other little battle to fight is that Windows event logs parameter values for plaintext parameters.  \n\nThis is the \"information disclosure\" issue that makes Windows people want it.\n\nIt'd be an easy enough to fix the event logging to avoid certain patterns.\n\nSo many fixes, so much politics"
+    },
+    "cid": "bafyreigxbmiu7hwh6qwzjz2pafenrqmsitfb5rq6qaydihc3xbvnvnxdra"
+  }
+}
