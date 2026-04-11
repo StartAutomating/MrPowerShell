@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775874763453875,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mj6scavzer2j",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mj6scahlak2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-11T02:32:42.786Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibreatxorohdcnmntdsqb2a2nx3jetmeifevbfbfjrzus5ts7sr2y",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mj6rqz4h622n"
+        },
+        "root": {
+          "cid": "bafyreielketif72vryq6d3xa2565off5z42rcz3rs74gauzfgpuhlcvj7a",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mj5txv6wbc2i"
+        }
+      },
+      "text": "I strongly suspect things will be forced to change.\n\nPerhaps I am optimistic.\n\nIf what you fear comes to pass, it will create another \"version divide\" in PowerShell, and the last working .msi will be used.\n\nI feel like we need to keep the feedback coming and let the discussions happen."
+    },
+    "cid": "bafyreif5gs5xpmimixefdh3omaqu5m43ntb4hhnhicedtsctp5th2ptetu"
+  }
+}
