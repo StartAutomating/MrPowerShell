@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775944837554494,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjatklxvsg2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjatkloz6k2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-11T22:00:36.219Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigucruztfoxvaufzrz6d53442lkcxsaqc2zwx3juszqlo5zrkboca",
+          "uri": "at://did:plc:xgvzy7ni6ig6ievcbls5jaxe/app.bsky.feed.post/3mj5lxsowcc2w"
+        },
+        "root": {
+          "cid": "bafyreigucruztfoxvaufzrz6d53442lkcxsaqc2zwx3juszqlo5zrkboca",
+          "uri": "at://did:plc:xgvzy7ni6ig6ievcbls5jaxe/app.bsky.feed.post/3mj5lxsowcc2w"
+        }
+      },
+      "text": "💯\n\nwith one slight adjustment:\n\n\"At Account\"\n\nTwo fewer syllables and 🤞 better for SEO."
+    },
+    "cid": "bafyreicl6wvg5h4mq4eyphgecnk7dpfxwqhfutcvmgr72kg5yr4ghmfw7q"
+  }
+}
