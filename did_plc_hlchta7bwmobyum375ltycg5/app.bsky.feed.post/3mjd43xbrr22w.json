@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776022730002445,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd43ytnai2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjd43xbrr22w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-12T19:38:48.205Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaqutfxgeik7rdtmzs6qb7urqofa25vf5rug442u5vo63qob5nili",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3mjd3lq4ftc27"
+        },
+        "root": {
+          "cid": "bafyreiebeyj2jxbn7ykyelsxfyex4w3m52y6emjccg5mqlrrsdlb4l2opa",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mjczk3dgmc2g"
+        }
+      },
+      "text": "Not trying to minimize anything there.\n\nCooler heads have prevailed for a long time.\n\nSadly, we have a hothead calling the shots.\n\nEven more sadly, that hothead has a myriad of perverse incentives at play."
+    },
+    "cid": "bafyreihm2lie5uiavzdhgy764mvrfjjlxi6acgkkwm3iz2ss654br64tm4"
+  }
+}
