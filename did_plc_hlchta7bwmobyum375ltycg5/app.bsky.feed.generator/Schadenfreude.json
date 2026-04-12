@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776023280273690,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd4mcxbph23",
+    "operation": "create",
+    "collection": "app.bsky.feed.generator",
+    "rkey": "Schadenfreude",
+    "record": {
+      "$type": "app.bsky.feed.generator",
+      "acceptsInteractions": true,
+      "avatar": {
+        "$type": "blob",
+        "ref": {
+          "$link": "bafkreibalvmveboefh65bi2ffd4tkav4h62exnheogrj4eyviu7rsuct5a"
+        },
+        "mimeType": "image/png",
+        "size": 36186
+      },
+      "createdAt": "2026-04-12T19:47:55.548729+00:00",
+      "description": "The experience of pleasure, joy, or self-satisfaction that comes from learning of the troubles, failures, pain, suffering, or humiliation of another.",
+      "did": "did:web:api.graze.social",
+      "displayName": "Schadenfreude",
+      "social.graze.feed.order": "new"
+    },
+    "cid": "bafyreig7nbrmswd7axjcltbxqi6qfxbqqexj3whvdzzkpbxhvbpxcqn2bm"
+  }
+}
