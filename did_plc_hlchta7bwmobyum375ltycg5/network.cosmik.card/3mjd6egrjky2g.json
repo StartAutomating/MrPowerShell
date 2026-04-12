@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776025164363291,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd6egv2ty2g",
+    "operation": "create",
+    "collection": "network.cosmik.card",
+    "rkey": "3mjd6egrjky2g",
+    "record": {
+      "$type": "network.cosmik.card",
+      "content": {
+        "$type": "network.cosmik.card#urlContent",
+        "metadata": {
+          "$type": "network.cosmik.card#urlMetadata",
+          "author": "Matthew Dowst",
+          "description": "PSDates provides a set of tools to help you better work with dates and times in PowerShell. It contains function to help you find specific date formats, get certain dates based on other dates (first/last day of the month or year, patch Tuesday, etc). I also has functions for working with timezones, unix time, WMI time, crontabs.",
+          "imageUrl": "https://opengraph.githubassets.com/d035c96e14e269ceaf7a0152bfb9751374fd455f2fe90e661e48bb42bfa54b14/mdowst/PSDates",
+          "siteName": "GitHub",
+          "title": "mdowst/PSDates",
+          "type": "software"
+        },
+        "url": "https://github.com/mdowst/PSDates"
+      },
+      "createdAt": "2026-04-12T20:19:18.72Z",
+      "type": "URL"
+    },
+    "cid": "bafyreifzixtw3flumr5bt4prnalepukg77f3one767xqv7vxwiwalz4dgq"
+  }
+}
