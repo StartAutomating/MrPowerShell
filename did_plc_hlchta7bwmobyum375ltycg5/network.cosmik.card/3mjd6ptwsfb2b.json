@@ -1,0 +1,26 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776025553124836,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd6ptx27b2b",
+    "operation": "create",
+    "collection": "network.cosmik.card",
+    "rkey": "3mjd6ptwsfb2b",
+    "record": {
+      "$type": "network.cosmik.card",
+      "content": {
+        "$type": "network.cosmik.card#noteContent",
+        "text": "Adapt anything into PowerShell"
+      },
+      "createdAt": "2026-04-12T20:25:42.92Z",
+      "parentCard": {
+        "cid": "bafyreien3askiorl2j2dubdwbxmvwyhrsnbsvvryscvnyyaehi5mby5m4i",
+        "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/network.cosmik.card/3mjd6ptaz7f23"
+      },
+      "type": "NOTE",
+      "url": "https://github.com/StartAutomating/PSAdapter"
+    },
+    "cid": "bafyreifrxjphgk3y4htgxox5ezlkthtindj4kn3pefdazwlyhmyz24476q"
+  }
+}
