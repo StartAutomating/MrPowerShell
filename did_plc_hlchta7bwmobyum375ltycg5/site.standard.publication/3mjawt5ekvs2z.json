@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775948346558439,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjawt5hba52p",
+    "operation": "create",
+    "collection": "site.standard.publication",
+    "rkey": "3mjawt5ekvs2z",
+    "record": {
+      "$type": "site.standard.publication",
+      "basicTheme": {
+        "$type": "site.standard.theme.basic",
+        "accent": {
+          "$type": "site.standard.theme.color#rgb",
+          "b": 43,
+          "g": 130,
+          "r": 87
+        },
+        "accentForeground": {
+          "$type": "site.standard.theme.color#rgb",
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "background": {
+          "$type": "site.standard.theme.color#rgb",
+          "b": 250,
+          "g": 252,
+          "r": 253
+        },
+        "foreground": {
+          "$type": "site.standard.theme.color#rgb",
+          "b": 39,
+          "g": 39,
+          "r": 39
+        }
+      },
+      "description": "Environmentally Aware",
+      "icon": {
+        "$type": "blob",
+        "ref": {
+          "$link": "bafkreigphsyyxmsirxi7n7yqtokblyl3xkmvp2mebqro4uubjvi4yaw3dm"
+        },
+        "mimeType": "image/png",
+        "size": 65361
+      },
+      "name": "Green Leaflet",
+      "preferences": {
+        "showComments": true,
+        "showInDiscover": true,
+        "showMentions": true,
+        "showPrevNext": true,
+        "showRecommends": true
+      },
+      "url": "https://green.leaflet.pub"
+    },
+    "cid": "bafyreifuo5e363pd2sqiqnlyknrkj6qpzzu7nnic5rexlxd3c6fpmvl3am"
+  }
+}
