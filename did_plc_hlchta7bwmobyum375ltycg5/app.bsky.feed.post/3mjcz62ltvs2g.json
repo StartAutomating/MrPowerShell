@@ -1,0 +1,97 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776019580314783,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjcz63vs5e23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjcz62ltvs2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-12T18:46:17.563Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Turtle Graphics in PowerShell. Contribute to PoshWeb/Turtle development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibhmoifhfnjbabu33i2ke4hqo54ief776htfttqiv7wpla7rxra3a"
+            },
+            "mimeType": "image/jpeg",
+            "size": 877605
+          },
+          "title": "GitHub - PoshWeb/Turtle: Turtle Graphics in PowerShell",
+          "uri": "https://GitHub.com/PoshWeb/Turtle"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 185,
+            "byteStart": 178
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Graphics"
+            }
+          ],
+          "index": {
+            "byteEnd": 195,
+            "byteStart": 186
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 210,
+            "byteStart": 199
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/PoshWeb/Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 238,
+            "byteStart": 213
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibpjfmghz5owgeboyf7pmxqizfvhhrvceikytsikdiphyki2cuqby",
+          "uri": "at://did:plc:yijxnx3vxxr7nzjsat5tlbh6/app.bsky.feed.post/3mjcye7hnca2h"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreidegwrsfjn6nqvsencbt6oute7kwtwjio3ak6bl67vlsshlx5my4i",
+          "uri": "at://did:plc:yijxnx3vxxr7nzjsat5tlbh6/app.bsky.feed.post/3mj7lnhgxqh2y"
+        }
+      },
+      "text": "Definitely a toolmaker / craftsman.\n\nStill only the tip of the iceberg.\n\nBeen automating one battle after another for ~20 years.\n\nFor real fun, check out a more recent example:\n\n#Turtle #Graphics in #PowerShell:\n\nGitHub.com/PoshWeb/Turtle\n\nI tend to build tools often and talk about them rarely 😕"
+    },
+    "cid": "bafyreicjjzbefftgg7momouldqt7evdvstm6zbpb2nd2gwfmya5ogn4yhe"
+  }
+}
