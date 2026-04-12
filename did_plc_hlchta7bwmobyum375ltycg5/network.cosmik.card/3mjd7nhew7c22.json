@@ -1,0 +1,26 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776026536904375,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd7nhf52222",
+    "operation": "create",
+    "collection": "network.cosmik.card",
+    "rkey": "3mjd7nhew7c22",
+    "record": {
+      "$type": "network.cosmik.card",
+      "content": {
+        "$type": "network.cosmik.card#noteContent",
+        "text": "Easily create types and format files in PowerShell"
+      },
+      "createdAt": "2026-04-12T20:42:16.369Z",
+      "parentCard": {
+        "cid": "bafyreiek5l5smjuucp3dejvnd6wvwgbfn2l7a2rxhxm6bm4ojerlm3fvg4",
+        "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/network.cosmik.card/3mjd7ngos4p2m"
+      },
+      "type": "NOTE",
+      "url": "https://github.com/StartAutomating/EZOut"
+    },
+    "cid": "bafyreibtwbjotf67te776ousp7ktsywmuk34sn2oqnktk2rqz3lost54si"
+  }
+}
