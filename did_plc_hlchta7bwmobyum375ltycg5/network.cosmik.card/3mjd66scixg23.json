@@ -1,0 +1,26 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776024976732386,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd66scosw23",
+    "operation": "create",
+    "collection": "network.cosmik.card",
+    "rkey": "3mjd66scixg23",
+    "record": {
+      "$type": "network.cosmik.card",
+      "content": {
+        "$type": "network.cosmik.card#noteContent",
+        "text": "Smarter lighting with PowerShell"
+      },
+      "createdAt": "2026-04-12T20:16:10.648Z",
+      "parentCard": {
+        "cid": "bafyreigjfvauka3mdmyjqhc2p4cb7cmz7i56q6hqodrsblrdcnooglonmq",
+        "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/network.cosmik.card/3mjd66rihlv2d"
+      },
+      "type": "NOTE",
+      "url": "https://github.com/StartAutomating/LightScript"
+    },
+    "cid": "bafyreifb7z6j32oiblyh52ozotsfwemxcmbxddjg6lqt5eoptgkajnicty"
+  }
+}
