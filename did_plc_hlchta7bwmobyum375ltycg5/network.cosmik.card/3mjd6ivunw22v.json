@@ -1,0 +1,26 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776025310623616,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd6ivussc2v",
+    "operation": "create",
+    "collection": "network.cosmik.card",
+    "rkey": "3mjd6ivunw22v",
+    "record": {
+      "$type": "network.cosmik.card",
+      "content": {
+        "$type": "network.cosmik.card#noteContent",
+        "text": "Manipulate Media with PowerShell"
+      },
+      "createdAt": "2026-04-12T20:21:50.031Z",
+      "parentCard": {
+        "cid": "bafyreiht5nvwztvik4udrqo2rryjjcbzklcfrtiwy2nuc4vizsnhul2oki",
+        "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/network.cosmik.card/3mjd6iv42sk2v"
+      },
+      "type": "NOTE",
+      "url": "https://github.com/StartAutomating/RoughDraft"
+    },
+    "cid": "bafyreifrm3y4mtaufahnc5nilcp3a4tibwxdy3vhqmwiju2j437fy3ewle"
+  }
+}
