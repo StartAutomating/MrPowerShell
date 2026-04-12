@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776025552524466,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd6ptb72v23",
+    "operation": "create",
+    "collection": "network.cosmik.card",
+    "rkey": "3mjd6ptaz7f23",
+    "record": {
+      "$type": "network.cosmik.card",
+      "content": {
+        "$type": "network.cosmik.card#urlContent",
+        "metadata": {
+          "$type": "network.cosmik.card#urlMetadata",
+          "author": "James Brundage",
+          "description": "Adapt anything into PowerShell Commands",
+          "imageUrl": "https://opengraph.githubassets.com/eeb475f1338d818861cd33771cbb22234ae996d414942d807ec33fb531a5c08a/StartAutomating/PSAdapter",
+          "siteName": "GitHub",
+          "title": "StartAutomating/PSAdapter",
+          "type": "software"
+        },
+        "url": "https://github.com/StartAutomating/PSAdapter"
+      },
+      "createdAt": "2026-04-12T20:25:42.11Z",
+      "type": "URL"
+    },
+    "cid": "bafyreien3askiorl2j2dubdwbxmvwyhrsnbsvvryscvnyyaehi5mby5m4i"
+  }
+}
