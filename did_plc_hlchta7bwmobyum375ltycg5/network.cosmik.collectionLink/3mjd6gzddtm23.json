@@ -1,0 +1,26 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776025251525948,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd6gzdpkm23",
+    "operation": "create",
+    "collection": "network.cosmik.collectionLink",
+    "rkey": "3mjd6gzddtm23",
+    "record": {
+      "$type": "network.cosmik.collectionLink",
+      "addedAt": "2026-04-12T20:20:46.619Z",
+      "addedBy": "did:plc:hlchta7bwmobyum375ltycg5",
+      "card": {
+        "cid": "bafyreigtlcplkmrvv45g4giomslyuw4rcw4pnd3gxeuiahro73m24whrei",
+        "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/network.cosmik.card/3mjd6gxtmct2g"
+      },
+      "collection": {
+        "cid": "bafyreibk3sqvmzfv2yyhlwfps6no2ppsa52qwviyzqysz2clxfgbijdjre",
+        "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/network.cosmik.collection/3mjd5t5a2mf2v"
+      },
+      "createdAt": "2026-04-12T20:20:46.757Z"
+    },
+    "cid": "bafyreihiplzzdkefthk2k3qrk67yvlwjkq22mx2gkrswnhaxqnaomgedvy"
+  }
+}
