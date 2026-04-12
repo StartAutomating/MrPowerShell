@@ -1,0 +1,26 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776022236407115,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd3nbya452j",
+    "operation": "create",
+    "collection": "pub.leaflet.poll.definition",
+    "rkey": "019d8321-7254-7442-aee3-0182b627270f",
+    "record": {
+      "$type": "pub.leaflet.poll.definition",
+      "name": "Poll",
+      "options": [
+        {
+          "$type": "pub.leaflet.poll.definition#option",
+          "text": "Green Is Good"
+        },
+        {
+          "$type": "pub.leaflet.poll.definition#option",
+          "text": "Green Is Not Good"
+        }
+      ]
+    },
+    "cid": "bafyreigzgacraodx42gp6vpiadxssc2x7wfm3ymsrnuqkzpvcpzfpoxmym"
+  }
+}
