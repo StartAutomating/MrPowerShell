@@ -1,0 +1,945 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776022240516019,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd3nem2pv2j",
+    "operation": "create",
+    "collection": "site.standard.document",
+    "rkey": "3mjd3nd4bkk24",
+    "record": {
+      "$type": "site.standard.document",
+      "content": {
+        "$type": "pub.leaflet.content",
+        "pages": [
+          {
+            "$type": "pub.leaflet.pages.linearDocument",
+            "blocks": [
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.header",
+                  "level": 1,
+                  "plaintext": "Green Is Good"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I have some confessions to make:"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.unorderedList",
+                  "children": [
+                    {
+                      "$type": "pub.leaflet.blocks.unorderedList#listItem",
+                      "content": "@{$type=pub.leaflet.blocks.text; plaintext=I care about the environment.}"
+                    },
+                    {
+                      "$type": "pub.leaflet.blocks.unorderedList#listItem",
+                      "content": "@{$type=pub.leaflet.blocks.text; plaintext=I care about climate change.}"
+                    },
+                    {
+                      "$type": "pub.leaflet.blocks.unorderedList#listItem",
+                      "content": "@{$type=pub.leaflet.blocks.text; plaintext=I see where we are.}"
+                    },
+                    {
+                      "$type": "pub.leaflet.blocks.unorderedList#listItem",
+                      "content": "@{$type=pub.leaflet.blocks.text; plaintext=I'm worried.}"
+                    },
+                    {
+                      "$type": "pub.leaflet.blocks.unorderedList#listItem",
+                      "content": "@{$type=pub.leaflet.blocks.text; plaintext=I'm hopeful.}"
+                    },
+                    {
+                      "$type": "pub.leaflet.blocks.unorderedList#listItem",
+                      "content": "@{$type=pub.leaflet.blocks.text; plaintext=I've seen things be worse.}"
+                    },
+                    {
+                      "$type": "pub.leaflet.blocks.unorderedList#listItem",
+                      "content": "@{$type=pub.leaflet.blocks.text; plaintext=I've seen things get better.}"
+                    }
+                  ]
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Some of these confessions might not seem like much."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Some of these confessions might beggar belief."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I humbly hope you might think these things, too."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "facets": [
+                    {
+                      "features": "",
+                      "index": "@{byteEnd=21; byteStart=14}"
+                    }
+                  ],
+                  "plaintext": "This is a new Leaflet all about the environment."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I'm just another old geek on the internet, and I'm on a few missions:"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.unorderedList",
+                  "children": [
+                    {
+                      "$type": "pub.leaflet.blocks.unorderedList#listItem",
+                      "content": "@{$type=pub.leaflet.blocks.text; plaintext=To do as much good as I can.}"
+                    },
+                    {
+                      "$type": "pub.leaflet.blocks.unorderedList#listItem",
+                      "content": "@{$type=pub.leaflet.blocks.text; facets=System.Object[]; plaintext=To bring the old internet back with At Protocol.}"
+                    },
+                    {
+                      "$type": "pub.leaflet.blocks.unorderedList#listItem",
+                      "content": "@{$type=pub.leaflet.blocks.text; facets=System.Object[]; plaintext=To empower individuals with PowerShell.}"
+                    },
+                    {
+                      "$type": "pub.leaflet.blocks.unorderedList#listItem",
+                      "content": "@{$type=pub.leaflet.blocks.text; plaintext=To share knowledge and perspective.}"
+                    },
+                    {
+                      "$type": "pub.leaflet.blocks.unorderedList#listItem",
+                      "content": "@{$type=pub.leaflet.blocks.text; plaintext=To connect with people that also care}"
+                    }
+                  ]
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "This publication is a chance to learn about Leaflet and try to bring some environmental awareness to the world."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "With that in mind, let me flip an old script and make a (hopefully) uncontroversial argument:"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": ""
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.image",
+                  "aspectRatio": {
+                    "height": 414,
+                    "width": 274
+                  },
+                  "image": {
+                    "$type": "blob",
+                    "ref": {
+                      "$link": "bafkreicm5o5fsr6kl3f52jgslew6tkedzryuocsmlcmrsshieapp7b5oza"
+                    },
+                    "mimeType": "image/webp",
+                    "size": 15266
+                  }
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.header",
+                  "level": 2,
+                  "plaintext": "Green Is Good"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Green, for lack of a better word, is good."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Green is right."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Green clarifies, cuts through,and captures the essence of the evolutionary spirit."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Green, in all of its forms -- Green for life, for money, for love, knowledge -- has marked the upward surge of humankind."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "And green -- you mark my words -- will not only save our planet, but that other malfunctioning entity called the USA."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.horizontalRule"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "facets": [
+                    {
+                      "features": "",
+                      "index": "@{byteEnd=58; byteStart=24}"
+                    }
+                  ],
+                  "plaintext": "(Old movie fans may get exactly what I'm paraphrasing here.)"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Changing just a few words and the points work well."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Let's prove it:"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.header",
+                  "level": 3,
+                  "plaintext": "Green Is Right"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I do not know your morals or your faith.  I know why I believe green is right."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "facets": [
+                    {
+                      "features": "",
+                      "index": "@{byteEnd=163; byteStart=154}"
+                    }
+                  ],
+                  "plaintext": "If you can logically accept that environmental destruction has a non-zero chance of hurting the human race, I think you should be able to understand that choosing to possibly/probably hurt the human race is a bad thing."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "facets": [
+                    {
+                      "features": "",
+                      "index": "@{byteEnd=29; byteStart=0}"
+                    }
+                  ],
+                  "plaintext": "I might not believe in normal, but I believe in right and wrong."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I believe green is right.  You can believe what you choose."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.header",
+                  "level": 3,
+                  "plaintext": "Green Clarifies"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Green can cut through complex decision making."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Green can help you understand the wonderful world around us, and the unexpected side effects of rash actions."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Green can give you a pause for prudence."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Green clarifies."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Green can sadly clarify people's political persuasions.  I wish it were not so, and believe it should not be.  "
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Because I believe Green is right, I believe green should not be political."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Green clarifies."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.header",
+                  "level": 3,
+                  "plaintext": "Green Evolves"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Nature has been innovating far longer than the human race.  "
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Evolution is the foundation of nature."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "For billions of years, life has been learning and growing."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Green evolves constantly in the face of pressue."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Green is the source of boundless inspiration."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.header",
+                  "level": 3,
+                  "plaintext": "Green For Life"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I choose to be green because I choose life."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "This choice came early for me, and is lifelong."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I don't know what you think, but I think that life is a great reason to go green.  "
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I hope that once people \"go green\", they go green for life."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "You can choose what you will.  I choose life."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Green For Life."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.header",
+                  "level": 3,
+                  "plaintext": "Green for Money"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Green for money is good, too.  As at least one certain billionaire proves, there's money to be made in green."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "We are dealing with huge challenges to our environment, and there's money to be made in solving them.  "
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Each step towards stability is a step towards lesser systemic risk."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "If we didn't have volatile energy sources, we'd have a lot less global volatility.  People are currently acutely aware of this, as we're in the middle of the greatest oil supply shock since the 1970s."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "If we don't have to pay extractive costs, we have more energy."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "If we learn to work with nature, we don't have to work against it."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Green is money."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.header",
+                  "level": 3,
+                  "plaintext": "Green for Love"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I think love isn't a bad reason to green, either."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Maybe you don't care about any of this, but you know someone that does.  Being a bit greener on their behalf can't be the worst thing in the world."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I believe if we truly care about people, we care about what they actually think (not just what we think they think)."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I believe we should care about people and the world we live in."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "You may make your choices."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I am Green for Love."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.header",
+                  "level": 3,
+                  "plaintext": "Green for Knowledge"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I am endlessly curious."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I seek to understand as much as I can about the world."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Nature is full a lessons."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "If you're listening to learn from life, the world has a way of teaching you things."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I have never understood those who are anti-intellectual, because I have always loved learning."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "You may make up your mind."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I am Green for Knowledge"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.header",
+                  "level": 3,
+                  "plaintext": "Green Humankind"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "There are many lenses thru which we can think of history."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "One lens is of us learning about and influencing our environment."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Throughout all of human history, we've learned how to do more and more with the world around us.  We've also learned what it can cost us."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I believe our story is one of learning how to work with our environment."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I believe that the more we learn about this, the more benefits we bring to humankind."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I hope for a future in greater symbiosis with our world."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I believe in a Green Humankind."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.header",
+                  "level": 3,
+                  "plaintext": "Save the Planet"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I believe we should all work to save the planet."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I am old enough to remember when this phrase was the source of constant derision.  Maybe it still is."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Maybe we can't do much.  Maybe all we can do is talk.  Maybe we can change things.  Maybe things have been changing for decades."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "facets": [
+                    {
+                      "features": "",
+                      "index": "@{byteEnd=39; byteStart=36}"
+                    }
+                  ],
+                  "plaintext": "Maybe, just maybe, we might want to try."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "If you believe there is a non-zero chance of catasrophe, please believe that there's also a non-zero chance of avoiding calamity."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Please try to save the planet."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "It's the only one we've got."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "There's good news:"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "facets": [
+                    {
+                      "features": " ",
+                      "index": "@{byteEnd=24; byteStart=0}"
+                    }
+                  ],
+                  "plaintext": "We Are Saving the Planet"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Despite decades of hemming and hawing, the world has moved more and more in renewable directions.  Progress has accelerated at a  greater than our original damage. "
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "In 1996, the United States produced about 92 megawatts of renewable energy.  By 2026, the United States is estimated to have 545 gigawatts of renewable energy.  That's about 6x more!"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "We've made massive improvements since the days of leaded gasoline."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "We've faced massive environmental challenges before, and we will do so again."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "We need to keep saving our planet, because it is still at risk."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I believe we can be hopeful, because I see how much has changed in my lifetime."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.header",
+                  "level": 3,
+                  "plaintext": "Save our Government"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Political turmoil currently consumes the United States of America."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "We can all work towards ending it."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "The hope in a democratic form of government is that people can change things.  This means needing to find consensus on some things."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "In my opinion, it means we need to find consensus on right and wrong."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I believe we need to be willing to engage in moral debates with each other, and we need to be willing to be wrong."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I believe there are a lot of people who don't see Green as Good."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I believe there are a lot of people that are wrong."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Most of my life, more and more has been changing for the better."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Change has often been fiercely resisted. Change is a law of life."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "facets": [
+                    {
+                      "features": "",
+                      "index": "@{byteEnd=47; byteStart=33}"
+                    }
+                  ],
+                  "plaintext": "Change continues to come because we want change.  Most of us want changes for the better."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I believe green changes are fertile ground for improvement, especially now."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "I believe Green is Good."
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": "Do you?"
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.poll",
+                  "pollRef": {
+                    "cid": "bafyreigzgacraodx42gp6vpiadxssc2x7wfm3ymsrnuqkzpvcpzfpoxmym",
+                    "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/pub.leaflet.poll.definition/019d8321-7254-7442-aee3-0182b627270f"
+                  }
+                }
+              },
+              {
+                "$type": "pub.leaflet.pages.linearDocument#block",
+                "block": {
+                  "$type": "pub.leaflet.blocks.text",
+                  "plaintext": ""
+                }
+              }
+            ],
+            "id": "019d7ec6-b18b-7005-a7cc-3a9a5e4e0898"
+          }
+        ]
+      },
+      "coverImage": {
+        "$type": "blob",
+        "ref": {
+          "$link": "bafkreicm5o5fsr6kl3f52jgslew6tkedzryuocsmlcmrsshieapp7b5oza"
+        },
+        "mimeType": "image/webp",
+        "size": 15266
+      },
+      "description": "An Argument for Environment Awareness",
+      "path": "/3mjd3nd4bkk24",
+      "publishedAt": "2026-04-12T19:30:34.969Z",
+      "site": "at://did:plc:hlchta7bwmobyum375ltycg5/site.standard.publication/3mjawt5ekvs2z",
+      "tags": [
+        "Environment",
+        "Green Is Good",
+        "Opinion"
+      ],
+      "title": "Green Is Good"
+    },
+    "cid": "bafyreictpmwaevfc6wgyd7edkaqlnvnyvd622rkk66bqpr6wszf3fvsclq"
+  }
+}
