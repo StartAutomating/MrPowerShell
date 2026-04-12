@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776022608014807,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd3ydjhbl25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjd3ybk2es2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-12T19:36:44.743Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiduttkhjdqdx4bmxml7rk42fppeoicweqrieekvhscpjqtlkfstli",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3mjd3he75ek27"
+        },
+        "root": {
+          "cid": "bafyreiebeyj2jxbn7ykyelsxfyex4w3m52y6emjccg5mqlrrsdlb4l2opa",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mjczk3dgmc2g"
+        }
+      },
+      "text": "I hear your frustration.  Please understand this post is borne from mine.\n\nI understand there's lots of historical animus, and truly wish timings were less suspicious.\n\nI believe many motivations are in play, and many of them are not at all related to Iran.\n\nI don't think any of them are good."
+    },
+    "cid": "bafyreiduftvwbodp6s6n7fgwivxo6rrzekcalraq3asscpelv2url55atq"
+  }
+}
