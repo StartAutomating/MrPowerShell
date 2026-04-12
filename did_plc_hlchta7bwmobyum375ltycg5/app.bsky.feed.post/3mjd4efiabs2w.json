@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776023012787483,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd4eg4l5v2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjd4efiabs2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-12T19:43:31.532Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiab7y5kwmniqznygjjl7342rr3dt3h5ghywsarsnd6dgtamyh63fu",
+          "uri": "at://did:plc:tflyqezjplxg2sgj7f4edpcu/app.bsky.feed.post/3mjd3nledqs27"
+        },
+        "root": {
+          "cid": "bafyreiebeyj2jxbn7ykyelsxfyex4w3m52y6emjccg5mqlrrsdlb4l2opa",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mjczk3dgmc2g"
+        }
+      },
+      "text": "To be crystal clear:\n\nThis is a myriad of tragedies.\n\n\"Flooding the zone\" should not be so destructive.\n\nThe way this \"war\" is being waged is tragically inept.\n\nIt is hurting us all for the benefit of next to no one."
+    },
+    "cid": "bafyreih4zt5eoom23cgxejcywe7ga6dhg4kwycipqoi6xxlzebrmeqno7m"
+  }
+}
