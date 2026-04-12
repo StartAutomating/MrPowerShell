@@ -1,0 +1,26 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776025716527797,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd6uvj3mf2b",
+    "operation": "create",
+    "collection": "network.cosmik.card",
+    "rkey": "3mjd6uvh26n2b",
+    "record": {
+      "$type": "network.cosmik.card",
+      "content": {
+        "$type": "network.cosmik.card#noteContent",
+        "text": "The public website for Standard.site"
+      },
+      "createdAt": "2026-04-12T20:28:31.548Z",
+      "parentCard": {
+        "cid": "bafyreibodfpegkyalzd2asyeyypul5hjfyfvq7lbbhs5pypjgn77w2ek34",
+        "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/network.cosmik.card/3mjd6uu2kfk2q"
+      },
+      "type": "NOTE",
+      "url": "https://standard.site/"
+    },
+    "cid": "bafyreiatt34iufy435ourbecl7ptf3ur5eq526ntsai6a3kr4m6zccxceu"
+  }
+}
