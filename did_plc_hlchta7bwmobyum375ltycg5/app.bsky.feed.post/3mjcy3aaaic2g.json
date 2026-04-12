@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776018408681433,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjcy37nj7g2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjcy3aaaic2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-12T18:26:49.067Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiefu2hv73ucmbm6teuxgypg53tfvykktufgvsb3r5ag3g3ubjslce",
+          "uri": "at://did:plc:yijxnx3vxxr7nzjsat5tlbh6/app.bsky.feed.post/3mjcwsyv7kg2t"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreidegwrsfjn6nqvsencbt6oute7kwtwjio3ak6bl67vlsshlx5my4i",
+          "uri": "at://did:plc:yijxnx3vxxr7nzjsat5tlbh6/app.bsky.feed.post/3mj7lnhgxqh2y"
+        }
+      },
+      "text": "Yeah, I got scarily good at regex over the years.\n\nAnd, still, I'm using New-Regex -LookAhead/LookBehind every time to make sure I remember the syntax.\n\nNowadays it's pretty common to construct regexes with -join.  I.e.\n\n$spacesOrSymbols = '\\s+', '\\p{S}+' -join '|'"
+    },
+    "cid": "bafyreiacs6alokjigan5i2ngkvkpgss4kdalnzath335yiuntctav7pxbi"
+  }
+}
