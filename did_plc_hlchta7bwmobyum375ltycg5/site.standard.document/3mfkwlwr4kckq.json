@@ -1,0 +1,346 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776029785388675,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjdcoavdq623",
+    "operation": "create",
+    "collection": "site.standard.document",
+    "rkey": "3mfkwlwr4kckq",
+    "record": {
+      "$type": "site.standard.document",
+      "content": {
+        "$type": "blog.pckt.content",
+        "items": [
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Static Sites are simple.  They're just files, and mostly text."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Here's a PowerShell one-liner to make a really simple static site:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "\"<h1>Hello World</h1>\" > ./index.html"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We make static sites with whatever language we want, and we can publish them about anywhere for free."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can can stick them on https://github.com/."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We just create a repository and publish them with GitHub Pages."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://neocities.org"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 52,
+                  "byteStart": 30
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://wisp.place/"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 74,
+                  "byteStart": 56
+                }
+              }
+            ],
+            "plaintext": "We can use a free server, like https://neocities.org or https://wisp.place"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can find the last server on the planet supporting FTP and put our files up there, too."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "It's all just copy/paste."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "There are plenty of frameworks to use, but today let's see how simple it is to make a static site without building a whole framework.  "
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can use GitHub pages to host our site for free, and we can use PowerShell to deploy it."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We only really need two files to get going:"
+          },
+          {
+            "$type": "blog.pckt.block.bulletList",
+            "content": [
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "One GitHub Workflow"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "One or more scripts"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "The GitHub Workflow"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Our workflow exists to call our scripts and publish our page."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 59,
+                  "byteStart": 28
+                }
+              }
+            ],
+            "plaintext": "We want to put this file in ./.github/workflows/deploy.yml "
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This is just a standard GitHub pages workflow, with a few bonus points:"
+          },
+          {
+            "$type": "blog.pckt.block.bulletList",
+            "content": [
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "It runs automatically about once a day, or on demand"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "facets": [
+                      "@{features=System.Object[]; index=}"
+                    ],
+                    "plaintext": "It maps the published url to $env:page_url"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "It runs a script with the name of the workflow"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "It allows you to set a repository variable with a Google Analytics ID "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "It's pretty carefully documented, but we don't have to read it: we can just copy/paste it into the repo and call it a day."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "To make this step a bit easier, I've pushed this workflow to:"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://poshweb.org/workflows/deploy.yml"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 40,
+                  "byteStart": 0
+                }
+              }
+            ],
+            "plaintext": "https://poshweb.org/workflows/deploy.yml"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "New-Item -ItemType File -Path ./.github/workflows/deploy.yml -Force -Value (\n    Invoke-RestMethod https://poshweb.org/workflows/deploy.yml\n)"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Here's the workflow you'll be deploying"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": ""
+            },
+            "plaintext": "# Simple workflow for deploying static content to GitHub Pages\nname: deploy\n\non:\n  # Runs on pushes \n  push:\n  # and run on a schedule\n  schedule: \n    # for those that don't speak cron, this runs:\n    # * At the first minute (`1`)\n    # * Every 21st hour (`1/21`)\n    # * Every day of the year (`* * *`)\n    - cron: '1 1/21 * * *'\n  # Allows you to run this workflow manually from the Actions tab\n  workflow_dispatch:\n\n# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages\npermissions:\n  contents: read\n  pages: write\n  id-token: write\n\n# Allow only one concurrent deployment, and cancel any in-progress deployments if a new one is triggered\nconcurrency:\n  group: \"pages\"\n  cancel-in-progress: true\n\njobs:\n  # GitHub Pages use a single job, named deploy.\n  deploy:\n    # By using an environment, we avoid locking\n    environment:\n      name: github-pages\n      # and we can control where it is deployed.\n      url: ${{ steps.deployment.outputs.page_url }}\n    runs-on: ubuntu-latest\n    steps:\n      # Check out our repository\n      - name: Checkout\n        uses: actions/checkout@main\n        with:\n          # Using fetch-depth: 0 to ensure we get the full history of the repository\n          fetch-depth: 0\n      # Setup GitHub Pages\n      - name: Setup Pages\n        uses: actions/configure-pages@main\n      # To Build Pages in PowerShell, we just call a script      \n      - name: Build Pages\n        # set the shell to pwsh\n        shell: pwsh\n        # and then call any script we would like to build the page.\n        # By default, this can use the same name as the workflow\n        # (in this case, just deploy.ps1)\n        run: . \"./$env:GITHUB_WORKFLOW.ps1\"\n        # This approach makes it easier to logically organize workflow scripts.\n        # We will also map the page_url to an environment variable, so our scripts can access it.\n        env:\n          page_url: ${{ steps.deployment.outputs.page_url }}\n          analytics_id: ${{vars.ANALYTICSID}}\n      - name: Upload artifact\n        uses: actions/upload-pages-artifact@main\n        with:\n          # Upload the contents to the GitHub Pages artifact\n          path: './'          \n      - name: Deploy to GitHub Pages\n        id: deployment\n        uses: actions/deploy-pages@main"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "The site is built and deployed with .deploy.ps1"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "The Scripts"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "The scripts can be as complicated or simple as you want them to be."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "So if we wanted to deploy hello world, all we need is:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "\"<h1>Hello World</h1>\" > ./index.html"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can certainly style things up a bit.  One easy way to do this is to create an array of content, and just output little bits of html."
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "@(\n    # We can just throw html into quotes\n    \"<html>\"\n    \"<head>\"\n    \"<style>\"\n    # and do the same for css\n    \"body { max-width: 100vw; height: 100vh }\"\n    \"h1 { font-size: 3rem; text-align: center }\" \n\n    \"</style>\"\n    \"</head>\"\n    \"<body>\"\n    \"<h1>Hello World</h1>\"\n    \"</body>\"\n    \"</html>\"\n) > ./index.html"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Keeping things simple, we can standardize look and feel across a website with a little bit of layout."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 22,
+                  "byteStart": 12
+                }
+              }
+            ],
+            "plaintext": "Just make a layout.ps1 file and pipe to it."
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "# We can collect all input quickly with $input\n# (but we can only enumerate input once)\n$allInput = @($input)\n\n\n\"<html>\"\n\"<head>\"\n\"<style>\"\n# Feel free to change the style\n\"body { max-width: 100vw; height: 100vh }\"\n\"</style>\"\n\"</head>\"\n\"<body>\"\n# By joining input with newlines, we're treating any pipelined input the same\n$allInput -join [Environment]::Newline \n\"</body>\"\n\"</html>\""
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Then we can do something very simply, like convert a README.md into html and pipe it to layout."
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "ConvertFrom-Markdown -Path ./README.md |\n    Select -Expand Html |\n    ./layout >\n    ./index.html"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Static Sites are simple."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This post is designed to get you started, and hopefully help you realize how PowerShell can generate static sites flexibly without a framework."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Please, try making some static sites with PowerShell.  It's simple and fun."
+          }
+        ]
+      },
+      "coverImage": {
+        "$type": "blob",
+        "ref": {
+          "$link": "bafkreifqejz263mctqvccbeiin7k5n6rns3r5jyyzbetg6gmlu3ar2dryy"
+        },
+        "mimeType": "image/gif",
+        "size": 485152
+      },
+      "description": "Static Sites are simple. They're just files, and mostly text. Here's a PowerShell one-liner to make a really simple static site: We make static sites with whatever language we want, and we can publish them about anywhere for free.",
+      "path": "/static-sites-are-simple-6u51kgj",
+      "publishedAt": "2026-02-24T00:40:53+00:00",
+      "site": "at://did:plc:hlchta7bwmobyum375ltycg5/site.standard.publication/3mdfcro5xe273",
+      "tags": [
+        "PowerShell",
+        "Intro",
+        "SVG",
+        "HTML",
+        "DevOps"
+      ],
+      "textContent": "Static Sites are simple.  They're just files, and mostly text.\nHere's a PowerShell one-liner to make a really simple static site:\n\"<h1>Hello World</h1>\" > ./index.html\nWe make static sites with whatever language we want, and we can publish them about anywhere for free.\nWe can can stick them on https://github.com/.\nWe just create a repository and publish them with GitHub Pages.\nWe can use a free server, like https://neocities.org or https://wisp.place\nWe can find the last server on the planet supporting FTP and put our files up there, too.\nIt's all just copy/paste.\nThere are plenty of frameworks to use, but today let's see how simple it is to make a static site without building a whole framework.  \nWe can use GitHub pages to host our site for free, and we can use PowerShell to deploy it.\nWe only really need two files to get going:\nOne GitHub Workflow\nOne or more scripts\nThe GitHub Workflow\nOur workflow exists to call our scripts and publish our page.\nWe want to put this file in ./.github/workflows/deploy.yml \nThis is just a standard GitHub pages workflow, with a few bonus points:\nIt runs automatically about once a day, or on demand\nIt maps the published url to $env:page_url\nIt runs a script with the name of the workflow\nIt allows you to set a repository variable with a Google Analytics ID \nIt's pretty carefully documented, but we don't have to read it: we can just copy/paste it into the repo and call it a day.\nTo make this step a bit easier, I've pushed this workflow to:\nhttps://poshweb.org/workflows/deploy.yml\nNew-Item -ItemType File -Path ./.github/workflows/deploy.yml -Force -Value (\n    Invoke-RestMethod https://poshweb.org/workflows/deploy.yml\n)\nHere's the workflow you'll be deploying\n# Simple workflow for deploying static content to GitHub Pages\nname: deploy\n\non:\n  # Runs on pushes \n  push:\n  # and run on a schedule\n  schedule: \n    # for those that don't speak cron, this runs:\n    # * At the first minute (`1`)\n    # * Every 21st hour (`1/21`)\n    # * Every day of the year (`* * *`)\n    - cron: '1 1/21 * * *'\n  # Allows you to run this workflow manually from the Actions tab\n  workflow_dispatch:\n\n# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages\npermissions:\n  contents: read\n  pages: write\n  id-token: write\n\n# Allow only one concurrent deployment, and cancel any in-progress deployments if a new one is triggered\nconcurrency:\n  group: \"pages\"\n  cancel-in-progress: true\n\njobs:\n  # GitHub Pages use a single job, named deploy.\n  deploy:\n    # By using an environment, we avoid locking\n    environment:\n      name: github-pages\n      # and we can control where it is deployed.\n      url: ${{ steps.deployment.outputs.page_url }}\n    runs-on: ubuntu-latest\n    steps:\n      # Check out our repository\n      - name: Checkout\n        uses: actions/checkout@main\n        with:\n          # Using fetch-depth: 0 to ensure we get the full history of the repository\n          fetch-depth: 0\n      # Setup GitHub Pages\n      - name: Setup Pages\n        uses: actions/configure-pages@main\n      # To Build Pages in PowerShell, we just call a script      \n      - name: Build Pages\n        # set the shell to pwsh\n        shell: pwsh\n        # and then call any script we would like to build the page.\n        # By default, this can use the same name as the workflow\n        # (in this case, just deploy.ps1)\n        run: . \"./$env:GITHUB_WORKFLOW.ps1\"\n        # This approach makes it easier to logically organize workflow scripts.\n        # We will also map the page_url to an environment variable, so our scripts can access it.\n        env:\n          page_url: ${{ steps.deployment.outputs.page_url }}\n          analytics_id: ${{vars.ANALYTICSID}}\n      - name: Upload artifact\n        uses: actions/upload-pages-artifact@main\n        with:\n          # Upload the contents to the GitHub Pages artifact\n          path: './'          \n      - name: Deploy to GitHub Pages\n        id: deployment\n        uses: actions/deploy-pages@main\nThe site is built and deployed with .deploy.ps1\nThe Scripts\nThe scripts can be as complicated or simple as you want them to be.\nSo if we wanted to deploy hello world, all we need is:\n\"<h1>Hello World</h1>\" > ./index.html\nWe can certainly style things up a bit.  One easy way to do this is to create an array of content, and just output little bits of html.\n@(\n    # We can just throw html into quotes\n    \"<html>\"\n    \"<head>\"\n    \"<style>\"\n    # and do the same for css\n    \"body { max-width: 100vw; height: 100vh }\"\n    \"h1 { font-size: 3rem; text-align: center }\" \n\n    \"</style>\"\n    \"</head>\"\n    \"<body>\"\n    \"<h1>Hello World</h1>\"\n    \"</body>\"\n    \"</html>\"\n) > ./index.html\nKeeping things simple, we can standardize look and feel across a website with a little bit of layout.\nJust make a layout.ps1 file and pipe to it.\n# We can collect all input quickly with $input\n# (but we can only enumerate input once)\n$allInput = @($input)\n\n\n\"<html>\"\n\"<head>\"\n\"<style>\"\n# Feel free to change the style\n\"body { max-width: 100vw; height: 100vh }\"\n\"</style>\"\n\"</head>\"\n\"<body>\"\n# By joining input with newlines, we're treating any pipelined input the same\n$allInput -join [Environment]::Newline \n\"</body>\"\n\"</html>\"\nThen we can do something very simply, like convert a README.md into html and pipe it to layout.\nConvertFrom-Markdown -Path ./README.md |\n    Select -Expand Html |\n    ./layout >\n    ./index.html\nStatic Sites are simple.\nThis post is designed to get you started, and hopefully help you realize how PowerShell can generate static sites flexibly without a framework.\nPlease, try making some static sites with PowerShell.  It's simple and fun.",
+      "title": "Static Sites are Simple",
+      "updatedAt": "2026-04-12T21:36:22+00:00"
+    },
+    "cid": "bafyreicf7syrxyfzkgqmbuugua25odrwnd2fwdon42hbpwt7vwcspglium"
+  }
+}
