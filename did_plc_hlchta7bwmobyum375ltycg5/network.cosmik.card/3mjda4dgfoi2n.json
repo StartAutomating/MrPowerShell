@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776027036128166,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjda4dgkkq2n",
+    "operation": "create",
+    "collection": "network.cosmik.card",
+    "rkey": "3mjda4dgfoi2n",
+    "record": {
+      "$type": "network.cosmik.card",
+      "content": {
+        "$type": "network.cosmik.card#urlContent",
+        "metadata": {
+          "$type": "network.cosmik.card#urlMetadata",
+          "author": "James Brundage",
+          "description": "PowerShell Tools for DevOps",
+          "imageUrl": "https://opengraph.githubassets.com/12e801e4798b6b50b5c22335351007b041cf2320d3975710b53235ef3cfebff3/StartAutomating/PSDevOps",
+          "siteName": "GitHub",
+          "title": "StartAutomating/PSDevOps",
+          "type": "software"
+        },
+        "url": "https://github.com/StartAutomating/PSDevOps"
+      },
+      "createdAt": "2026-04-12T20:50:35.275Z",
+      "type": "URL"
+    },
+    "cid": "bafyreiciriy55kdgrnoedpqog4hjy7lmdj63akvha2zdt7lses6rxz6cnm"
+  }
+}
