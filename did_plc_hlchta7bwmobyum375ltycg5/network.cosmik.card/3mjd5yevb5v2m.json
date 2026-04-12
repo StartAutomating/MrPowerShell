@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776024755923251,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd5yevg252m",
+    "operation": "create",
+    "collection": "network.cosmik.card",
+    "rkey": "3mjd5yevb5v2m",
+    "record": {
+      "$type": "network.cosmik.card",
+      "content": {
+        "$type": "network.cosmik.card#urlContent",
+        "metadata": {
+          "$type": "network.cosmik.card#urlMetadata",
+          "author": "James Brundage",
+          "description": "Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects.",
+          "imageUrl": "https://repository-images.githubusercontent.com/471524111/a32edbeb-990f-4e6a-a514-d77828386ef5",
+          "siteName": "GitHub",
+          "title": "StartAutomating/ugit",
+          "type": "software"
+        },
+        "url": "https://github.com/StartAutomating/ugit"
+      },
+      "createdAt": "2026-04-12T20:12:35.425Z",
+      "type": "URL"
+    },
+    "cid": "bafyreic2syqvdm2uhc7k2eb2egxmwflotukhklcaw3jii7pdhgj5onbz54"
+  }
+}
