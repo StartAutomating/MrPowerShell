@@ -1,0 +1,29 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776024819372305,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd62a7szo2b",
+    "operation": "create",
+    "collection": "network.cosmik.card",
+    "rkey": "3mjd62a7o5g2b",
+    "record": {
+      "$type": "network.cosmik.card",
+      "content": {
+        "$type": "network.cosmik.card#urlContent",
+        "metadata": {
+          "$type": "network.cosmik.card#urlMetadata",
+          "description": "Turtle Graphics in PowerShell",
+          "imageUrl": "https://repository-images.githubusercontent.com/1025195200/2405cee8-0e8a-4fe2-94c6-fd51ce5be230",
+          "siteName": "GitHub",
+          "title": "PoshWeb/Turtle",
+          "type": "software"
+        },
+        "url": "https://github.com/PoshWeb/Turtle"
+      },
+      "createdAt": "2026-04-12T20:13:37.381Z",
+      "type": "URL"
+    },
+    "cid": "bafyreif5fmfi3d72mpugdatcjtvv4ohqzuc7j4zfqwq4do5m4glhpum2iu"
+  }
+}
