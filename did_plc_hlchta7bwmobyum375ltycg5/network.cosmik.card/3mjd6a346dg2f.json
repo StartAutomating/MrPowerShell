@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776025017592792,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd6a35kbo2f",
+    "operation": "create",
+    "collection": "network.cosmik.card",
+    "rkey": "3mjd6a346dg2f",
+    "record": {
+      "$type": "network.cosmik.card",
+      "content": {
+        "$type": "network.cosmik.card#urlContent",
+        "metadata": {
+          "$type": "network.cosmik.card#urlMetadata",
+          "author": "James Brundage",
+          "description": "Script OBS with PowerShell",
+          "imageUrl": "https://repository-images.githubusercontent.com/576071350/fd80fb63-f4e4-456f-b96d-41ab41bb58d7",
+          "siteName": "GitHub",
+          "title": "StartAutomating/obs-powershell",
+          "type": "software"
+        },
+        "url": "https://github.com/StartAutomating/obs-powershell"
+      },
+      "createdAt": "2026-04-12T20:16:53.232Z",
+      "type": "URL"
+    },
+    "cid": "bafyreidt7uqje3wk7gai4xanrv5fob5dntpkjpibxlvaeel6m7biqibmrq"
+  }
+}
