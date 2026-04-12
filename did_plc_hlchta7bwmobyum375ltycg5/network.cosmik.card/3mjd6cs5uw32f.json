@@ -1,0 +1,26 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776025105397142,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd6cs62rl2f",
+    "operation": "create",
+    "collection": "network.cosmik.card",
+    "rkey": "3mjd6cs5uw32f",
+    "record": {
+      "$type": "network.cosmik.card",
+      "content": {
+        "$type": "network.cosmik.card#noteContent",
+        "text": "PowerShell made Posh"
+      },
+      "createdAt": "2026-04-12T20:18:24.577Z",
+      "parentCard": {
+        "cid": "bafyreiatygo2hrtirstapulgwmdk3lxndg7pazpeggvlvw2dd2o3hgot3q",
+        "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/network.cosmik.card/3mjd6cr3e7r2b"
+      },
+      "type": "NOTE",
+      "url": "https://github.com/StartAutomating/Posh"
+    },
+    "cid": "bafyreiai464x3ds37qf6wpbkvkcu65fqt3lp3mfx3xasj62tuytff4ps7u"
+  }
+}
