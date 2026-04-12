@@ -1,0 +1,70 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776026100741801,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd7aeq5s62b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjd7aefryk2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-12T20:34:57.411Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://semble.so"
+            }
+          ],
+          "index": {
+            "byteEnd": 20,
+            "byteStart": 11
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://standard.site"
+            }
+          ],
+          "index": {
+            "byteEnd": 65,
+            "byteStart": 52
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://semble.so/profile/mrpowershell.com/collections/3mjd6t5pzgt2p"
+            }
+          ],
+          "index": {
+            "byteEnd": 158,
+            "byteStart": 133
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://standard.site"
+            }
+          ],
+          "index": {
+            "byteEnd": 179,
+            "byteStart": 166
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Trying out semble.so ...\n\nMade a collection for any standard.site publications.\n\nIt's open for anyone who wants to add their links:\n\nsemble.so/profile/mrpo...\n\nGot a standard.site ?  Please share it."
+    },
+    "cid": "bafyreifpnayxqdqibcxnctvjquoaiheefndcs447hwi4laoimwgqisd75i"
+  }
+}
