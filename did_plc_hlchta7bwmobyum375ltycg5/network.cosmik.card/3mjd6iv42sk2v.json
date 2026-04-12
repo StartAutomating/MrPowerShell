@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776025309959470,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd6iv5kns2v",
+    "operation": "create",
+    "collection": "network.cosmik.card",
+    "rkey": "3mjd6iv42sk2v",
+    "record": {
+      "$type": "network.cosmik.card",
+      "content": {
+        "$type": "network.cosmik.card#urlContent",
+        "metadata": {
+          "$type": "network.cosmik.card#urlMetadata",
+          "author": "James Brundage",
+          "description": "A Fun PowerShell Module for Multimedia (using FFMpeg)",
+          "imageUrl": "https://repository-images.githubusercontent.com/432962149/a65bd8a9-0481-4183-9f29-d0add4eac34b",
+          "siteName": "GitHub",
+          "title": "StartAutomating/RoughDraft",
+          "type": "software"
+        },
+        "url": "https://github.com/StartAutomating/RoughDraft"
+      },
+      "createdAt": "2026-04-12T20:21:49.134Z",
+      "type": "URL"
+    },
+    "cid": "bafyreiht5nvwztvik4udrqo2rryjjcbzklcfrtiwy2nuc4vizsnhul2oki"
+  }
+}
