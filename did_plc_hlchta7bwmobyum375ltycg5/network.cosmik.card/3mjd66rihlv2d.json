@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776024975855178,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjd66rimi52d",
+    "operation": "create",
+    "collection": "network.cosmik.card",
+    "rkey": "3mjd66rihlv2d",
+    "record": {
+      "$type": "network.cosmik.card",
+      "content": {
+        "$type": "network.cosmik.card#urlContent",
+        "metadata": {
+          "$type": "network.cosmik.card#urlMetadata",
+          "author": "James Brundage",
+          "description": "Smarter Lighting with PowerShell",
+          "imageUrl": "https://repository-images.githubusercontent.com/441045193/5dbc276c-48a2-472a-bb11-31f36004543f",
+          "siteName": "GitHub",
+          "title": "StartAutomating/LightScript",
+          "type": "software"
+        },
+        "url": "https://github.com/StartAutomating/LightScript"
+      },
+      "createdAt": "2026-04-12T20:16:09.939Z",
+      "type": "URL"
+    },
+    "cid": "bafyreigjfvauka3mdmyjqhc2p4cb7cmz7i56q6hqodrsblrdcnooglonmq"
+  }
+}
