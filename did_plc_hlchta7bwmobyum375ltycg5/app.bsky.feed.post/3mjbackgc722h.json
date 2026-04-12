@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1775958523388143,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjbacilald23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjbackgc722h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-12T01:48:45.093Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiajkqglvrp6ruc7zt6aibtpkz3ev6cjjkobi2765efba6vj6cxvzq",
+          "uri": "at://did:plc:zmvctxbcchuvnx4a76tla3ex/app.bsky.feed.post/3mjb4orkrtc2d"
+        },
+        "root": {
+          "cid": "bafyreic3r6ebonynvg4pn6k64umyg27aezdaxf2f3protqzd5442lbddce",
+          "uri": "at://did:plc:ulsrokhbdwzathvrvahn76e2/app.bsky.feed.post/3mj3kt27k7s2r"
+        }
+      },
+      "text": "Ah, yes.  Sadly, some companies always had very strange ideas about what makes good PowerShell.\n\nLong long ago twas my job on the PowerShell team.  When I left this role was never quite filled.\n\nMy regrets / apologies."
+    },
+    "cid": "bafyreiferetcpphkdirmjsrhtmouxdae6ozckmwkh4lwn4lpnllz45qk7e"
+  }
+}
