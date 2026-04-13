@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776109463305928,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjfmutvliv2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjfmusowss2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-13T19:44:21.6Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibrhd3bclpfeqgvqz7a62l4etgkvtev4ndezcj62d4jrj5yv3klpq",
+          "uri": "at://did:plc:5hfwqkrpi2id4asywjgq3uu3/app.bsky.feed.post/3mjfjs3jxa225"
+        },
+        "root": {
+          "cid": "bafyreibrhd3bclpfeqgvqz7a62l4etgkvtev4ndezcj62d4jrj5yv3klpq",
+          "uri": "at://did:plc:5hfwqkrpi2id4asywjgq3uu3/app.bsky.feed.post/3mjfjs3jxa225"
+        }
+      },
+      "text": "💯\n\nMake that a mantra.\n\nAfter ~20 years of PowerShell, you can \"just do\" so much in PowerShell!\n\nAlways appreciate people saying it.\n\nAlways appreciate people showing it.\n\nThanks for sharing!"
+    },
+    "cid": "bafyreighrsw6n2pdikrcgbtcccf5iuvbew7uwx5gkgbrd4p7ryiydg6avu"
+  }
+}
