@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776109133587301,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjfmkznhzx22",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjfmkyx4fk2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-13T19:38:52.615Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia2ya4t4ceu6geyfbm5ed6sr4haxbffznlehgpwb3m5lxq6i45iu4",
+          "uri": "at://did:plc:revjuqmkvrw6fnkxppqtszpv/app.bsky.feed.post/3mjflgqmol22e"
+        },
+        "root": {
+          "cid": "bafyreiaibxmmcwopiu2ol445j3rqgd6kegn4qmsuoxcpldkplymyaty2j4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mjdgrcp7s22d"
+        }
+      },
+      "text": "Ah, that tracks.\n\nIf I had a nickel for every time I had made that exact mistake in ~30 years of web dev, I'd at least have enough for a good lunch (and maybe enough for a good vacation).\n\nIf I had a nickel for every time I saw that mistake, I'd retire rich.\n\nDon't beat yourself up..."
+    },
+    "cid": "bafyreih2mbpp6kn2ynkvjn4nay47qbn7psesfh53ptamjmeitnheoh4yuq"
+  }
+}
