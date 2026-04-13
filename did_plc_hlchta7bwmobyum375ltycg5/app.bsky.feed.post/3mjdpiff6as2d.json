@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776043548662608,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjdpidvq6w23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjdpiff6as2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-13T01:25:46.743Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifhqkeqdgmfwkmwfdgnvrtyv7uel2mzw62gnrhtw6qa72bozkwfva",
+          "uri": "at://did:plc:revjuqmkvrw6fnkxppqtszpv/app.bsky.feed.post/3mjdo4zptkc2r"
+        },
+        "root": {
+          "cid": "bafyreiaibxmmcwopiu2ol445j3rqgd6kegn4qmsuoxcpldkplymyaty2j4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mjdgrcp7s22d"
+        }
+      },
+      "text": "Not sure.\n\nLooks like the issue only presents with that direct link though.\n\n🤷"
+    },
+    "cid": "bafyreiaugabksze2xx6sxucfupm3mmm5naiwxnacr55blue4m4cdczgrsy"
+  }
+}
