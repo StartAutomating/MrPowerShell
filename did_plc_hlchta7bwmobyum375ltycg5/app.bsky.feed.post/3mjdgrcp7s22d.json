@@ -1,0 +1,63 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776034201553161,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjdgruvsgr23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjdgrcp7s22d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-12T22:49:42.239Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Static Sites are simple. They're just files, and mostly text.Here's a PowerShell one-liner to make a really simple static site:",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihjahh6i2dtbs6uhk7nnqyonqpzjx6byiiiiq6tnwrk6ow3t7ff3e"
+            },
+            "mimeType": "image/jpeg",
+            "size": 883154
+          },
+          "title": "Static Sites are Simple - PowerShell Pocket Blog",
+          "uri": "https://pckt.blog/b/posh/static-sites-are-simple-6u51kgj"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:revjuqmkvrw6fnkxppqtszpv"
+            }
+          ],
+          "index": {
+            "byteEnd": 10,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://pckt.blog/b/posh/static-sites-are-simple-6u51kgj"
+            }
+          ],
+          "index": {
+            "byteEnd": 127,
+            "byteStart": 102
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "@pckt.blog it appears that some of your OpenGraph tags are leaking into html (at least on this post)\n\npckt.blog/b/posh/stati..."
+    },
+    "cid": "bafyreiaibxmmcwopiu2ol445j3rqgd6kegn4qmsuoxcpldkplymyaty2j4"
+  }
+}
