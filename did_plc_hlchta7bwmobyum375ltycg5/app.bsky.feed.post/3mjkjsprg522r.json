@@ -1,0 +1,62 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776278022569861,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjkjubnqew2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjkjsprg522r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-15T18:32:48.893Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Overpowered module for Open Packages. Contribute to PoshWeb/OP development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidiyti4yxqopkubjttlnyu4sjj455x7fh4gjzn2nqtw3zjl2tfojm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 239117
+          },
+          "title": "GitHub - PoshWeb/OP: Overpowered module for Open Packages",
+          "uri": "https://github.com/PoshWeb/OP"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PoshWeb/OP"
+            }
+          ],
+          "index": {
+            "byteEnd": 76,
+            "byteStart": 55
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PSHSummit"
+            }
+          ],
+          "index": {
+            "byteEnd": 147,
+            "byteStart": 137
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just dropped an Overpowered Module for Open Packages:\n\ngithub.com/PoshWeb/OP\n\nTalking about how Open Packages are Overpowered at 2:45 at #PSHSummit\n\nAnything can become a package!\n\nSimple Powerful example:\n\n~~~PowerShell\nop at://mrpowershell.com/site.standard.document\n~~~\n\nMore demos coming soon!"
+    },
+    "cid": "bafyreib7nlwki4ma637qmcwutna7pyinw6w6kkecgybu2f4eexpeu7dsm4"
+  }
+}
