@@ -1,0 +1,73 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776272470366661,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjkeoszz3t2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjkeoq32lc2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-15T17:01:06.281Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "YouTube video by StartAutomating",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigbpprqwz5qzd5sxjdhs7epf54qnu7fll57m4bz7t7kzjtvvjx52u"
+            },
+            "mimeType": "image/jpeg",
+            "size": 628404
+          },
+          "title": "PowerShell Case Sensitivity Training",
+          "uri": "https://www.youtube.com/watch?v=xhJQB6szWFE"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:gwzlu5twwpnddrdx74se7ddn"
+            }
+          ],
+          "index": {
+            "byteEnd": 82,
+            "byteStart": 59
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.youtube.com/watch?v=xhJQB6szWFE"
+            }
+          ],
+          "index": {
+            "byteEnd": 177,
+            "byteStart": 146
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieg6vigx265xoypmzvb2wcq7r3wgt4qhsmnxj4ptt7edfuqddnn3q",
+          "uri": "at://did:plc:ftrnyploqc7hpolyw7nzcvkj/app.bsky.feed.post/3mjk6vbgjdk2x"
+        },
+        "root": {
+          "cid": "bafyreieg6vigx265xoypmzvb2wcq7r3wgt4qhsmnxj4ptt7edfuqddnn3q",
+          "uri": "at://did:plc:ftrnyploqc7hpolyw7nzcvkj/app.bsky.feed.post/3mjk6vbgjdk2x"
+        }
+      },
+      "text": "For a longer breakdown of PowerShell and case-sensitivity, @stevenjudd.bsky.social and I put together a \"Case Sensitivity Training\" a while back\n\nwww.youtube.com/watch?v=xhJQ..."
+    },
+    "cid": "bafyreihfwqhibh7hrnq2gh3jnrejlmcqsyigfccauwqcuavwamraxlvjqa"
+  }
+}
