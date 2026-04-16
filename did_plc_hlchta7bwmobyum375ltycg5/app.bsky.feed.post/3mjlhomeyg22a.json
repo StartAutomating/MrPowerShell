@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776310042153990,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjlhol4re525",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjlhomeyg22a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-16T03:27:23.376Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig4772f3wqwntrxjqc664oom3klogvdcq6tv3tgwczwh6dmawvhgu",
+          "uri": "at://did:plc:yjgg5pqittc74ld5b2f5gms4/app.bsky.feed.post/3mjlcooigqc23"
+        },
+        "root": {
+          "cid": "bafyreid6rdl577rtskppki3u4f7olgbh4rja4yqp3vzkqsfhtenoxdijji",
+          "uri": "at://did:plc:lvzhf2df5m2zsdlfjg7lo5p6/app.bsky.feed.post/3mjkrob4s6c23"
+        }
+      },
+      "text": "Actually getting an email with a .ps1 attachment won't happen, and won't hurt if it did.\n\nIt won't happen because endpoint protection blocks that extension ( hence people emailing .safe files ).\n\nWon't hurt if it did because PowerShell files are not associated with running ( like vbs files are )."
+    },
+    "cid": "bafyreiclmckhrat734p6t3rznngsy2sczuzqwwowr6seexad56xvojmn3m"
+  }
+}
