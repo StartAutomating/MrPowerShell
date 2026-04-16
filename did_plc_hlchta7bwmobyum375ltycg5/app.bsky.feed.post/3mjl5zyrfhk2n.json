@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776299688014287,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjl5zy6unj2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjl5zyrfhk2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-16T00:34:48.046Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Overpowered module for Open Packages. Contribute to PoshWeb/OP development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiewx73dfml6abd3wsmezb6sdqzt2sc7obnzrjay2ps2uuvjzeq2hm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 160520
+          },
+          "title": "GitHub - PoshWeb/OP: Overpowered module for Open Packages",
+          "uri": "https://GitHub.com/PoshWeb/OP"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/PoshWeb/OP"
+            }
+          ],
+          "index": {
+            "byteEnd": 205,
+            "byteStart": 184
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/PoshWeb/OpenXML"
+            }
+          ],
+          "index": {
+            "byteEnd": 257,
+            "byteStart": 231
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicylgp2px3jdgr7cgfqwwcddmgkhblgwjmopd67npvq4kl6475cdm",
+          "uri": "at://did:plc:lvzhf2df5m2zsdlfjg7lo5p6/app.bsky.feed.post/3mjkzzjw3s22f"
+        },
+        "root": {
+          "cid": "bafyreid6rdl577rtskppki3u4f7olgbh4rja4yqp3vzkqsfhtenoxdijji",
+          "uri": "at://did:plc:lvzhf2df5m2zsdlfjg7lo5p6/app.bsky.feed.post/3mjkrob4s6c23"
+        }
+      },
+      "text": "Fair.  Excel specific question: are all of the form inputs numbers, or are some strings? ( Excel stores these in different ways )\n\nYou should be able to crack open the Excel with OP ( GitHub.com/PoshWeb/OP) or the OpenXML module ( GitHub.com/PoshWeb/Open... )"
+    },
+    "cid": "bafyreibkghcxwtyvugq5yatlxq6lzkkgcodqjjyfiukquuu4e5azjshyru"
+  }
+}
