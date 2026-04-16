@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776299551222962,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjl5vw4egv2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjl5vwwgi22n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-16T00:32:31.896Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih6du5o55qtgxcwss7na7xcofozedheybb55x6jwbzq4d5tvdsj3a",
+          "uri": "at://did:plc:lvzhf2df5m2zsdlfjg7lo5p6/app.bsky.feed.post/3mjkzm73dpk2f"
+        },
+        "root": {
+          "cid": "bafyreid6rdl577rtskppki3u4f7olgbh4rja4yqp3vzkqsfhtenoxdijji",
+          "uri": "at://did:plc:lvzhf2df5m2zsdlfjg7lo5p6/app.bsky.feed.post/3mjkrob4s6c23"
+        }
+      },
+      "text": "I would be sorely disappointed if your \"locked down\" corporate network allowed VBA but did not allow PowerShell.\n\nVBA is much more risky, as it's got a lot less auditing and safety checks built in ( hence why VBA macros are off by default since ~2005 )."
+    },
+    "cid": "bafyreifa7s6dfop7l3jvhq7f5qxoadr4cygfxrxskbpc3ibfzgsymx2mui"
+  }
+}
