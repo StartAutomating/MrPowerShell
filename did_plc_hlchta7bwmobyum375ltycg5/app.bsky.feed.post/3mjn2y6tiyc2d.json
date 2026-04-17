@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776365127819536,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjn2yarizj2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjn2y6tiyc2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-16T18:45:25.55Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid6ufom2gsj7tm6fza3ohwlu34rvqsfz3nbepogbgwtfdw2gfd3qa",
+          "uri": "at://did:plc:kwpjnckadvpdadfy7u6ww3w5/app.bsky.feed.post/3mjmzvgksgc2e"
+        },
+        "root": {
+          "cid": "bafyreid6rdl577rtskppki3u4f7olgbh4rja4yqp3vzkqsfhtenoxdijji",
+          "uri": "at://did:plc:lvzhf2df5m2zsdlfjg7lo5p6/app.bsky.feed.post/3mjkrob4s6c23"
+        }
+      },
+      "text": "PowerShell always had tons of power.\n\nAnd, as mentioned, VBScript had been proving how bad of an idea double click run file extensions were for some time.\n\nNimda and Melissa were huge."
+    },
+    "cid": "bafyreih3trmmpbmlhc5pikvcrac6ayehs2pvbdkhj7iu2v2sy3tuusrggm"
+  }
+}
