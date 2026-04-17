@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776365821762074,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjn3muhoiq2y",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjn3mrqgr22d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-16T18:56:56.46Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigmqixr22qjbggr27mnessfffb46wj7gm7n22tpbr5ifhzbg7h2si",
+          "uri": "at://did:plc:vc7f4oafdgxsihk4cry2xpze/app.bsky.feed.post/3mjiudimk2s2y"
+        },
+        "root": {
+          "cid": "bafyreicpv52dphabbd2wpbjnk4pvnc2dlriazampn6ens77czpnej6ihpe",
+          "uri": "at://did:plc:hjx4vtoryubvqa4vy6xuliy7/app.bsky.feed.post/3mjiuayoybc27"
+        }
+      },
+      "text": "🤷 maybe.\n\nI feel like Out-Daemon might be right up their alley.\n\nPretty sure right now they're having some difficulties with presidents and Submit-HolySee.\n\nMight need to try Start-Excommunication instead."
+    },
+    "cid": "bafyreigklhal54eklhsdio2dxq74vj5ekcyvuirlyxdticn4nmthebqqzm"
+  }
+}
