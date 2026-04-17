@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776362676794535,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjmyotmqpb2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjmyotiuzc2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-16T18:04:24.194Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihhw5fq4ymqwxnppo3ru75fgyk27wmevhalunsxrdtfzo7xtckat4",
+          "uri": "at://did:plc:kwpjnckadvpdadfy7u6ww3w5/app.bsky.feed.post/3mjm7v2jco22z"
+        },
+        "root": {
+          "cid": "bafyreid6rdl577rtskppki3u4f7olgbh4rja4yqp3vzkqsfhtenoxdijji",
+          "uri": "at://did:plc:lvzhf2df5m2zsdlfjg7lo5p6/app.bsky.feed.post/3mjkrob4s6c23"
+        }
+      },
+      "text": "Yup, and even that is opt-in.\n\nThere were some efforts to make the extension double clickable in PowerShell v2 ( when it was being included into win 7 )\n\nI and a few other team members shot that down pretty hard.\n\nOne of the more impactful wins of my MSFT career."
+    },
+    "cid": "bafyreihj4ieihgbmxrd63caoqqohdpo4w6lgh3jjruhlvnf32tbsesipuu"
+  }
+}
