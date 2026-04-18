@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776542503952848,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjsa6hgw2s2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjsa4oth4s2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-18T20:00:43.943Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Someone explains what NFTs were to Captain Picard.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibggsiy6kjabqvuwhzm7sfutsju57vp6wqfmmubhplotbd3v56n7q"
+            },
+            "mimeType": "image/jpeg",
+            "size": 567468
+          },
+          "title": "a bald man is wearing a red sweater with a star trek logo on the front .",
+          "uri": "https://media.tenor.com/rZ0XFlICefgAAAAC/picard-face-palm.gif?hh=280&ww=380"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif4xkjfp35l5wikaxiem2p6qug74wsrsflvx2i3og5yjk6yizk6my",
+          "uri": "at://did:plc:hfgp6pj3akhqxntgqwramlbg/app.bsky.feed.post/3mjs7u3zxjk2x"
+        },
+        "root": {
+          "cid": "bafyreie32nnsslyuprh5ramlg2pkzdselu7hypm3rm6gwmcxutdvxysk24",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mjs7ko7j7k2r"
+        }
+      },
+      "text": "That explains so much of the stupid look and feel.\n\nI'd say we live in the dumbest possible timeline, but that only tempts murphy's law to demonstrate more potential stupidity."
+    },
+    "cid": "bafyreibprvdg5ky2g4oralym2rjpb6aehluopmi5y3bre6hetysuemvume"
+  }
+}
