@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776545973759266,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjsdfutii22a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjsde5t4as2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-18T20:58:35.768Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Overpowered module for Open Packages. Contribute to PoshWeb/OP development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidiyti4yxqopkubjttlnyu4sjj455x7fh4gjzn2nqtw3zjl2tfojm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 239117
+          },
+          "title": "GitHub - PoshWeb/OP: Overpowered module for Open Packages",
+          "uri": "https://github.com/PoshWeb/OP"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PoshWeb/OP"
+            }
+          ],
+          "index": {
+            "byteEnd": 296,
+            "byteStart": 275
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibp5r4b557jaq6yoswuyfdi2f3yctw5ab4zaplyumjrmwl26wt6hm",
+          "uri": "at://did:plc:rhlik5oauzckm6xhgmjfckx2/app.bsky.feed.post/3mjsd2wryzc2b"
+        },
+        "root": {
+          "cid": "bafyreidopb6ubgzrm23iqcaqoietbaxq44lywni6ilv3g6jbshqfqmspwi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mjscfnovns2r"
+        }
+      },
+      "text": "🤷 if it gave me any clue, I'd be able to fix it.\n\nFirst guess was length, so I tried writing shorter posts.\n\nSecond guess was including examples, so I just added a short description.\n\nThird guess is that I linked to anything.\n\nAnd three strikes and I'm out.\n\nRelated to:\n\ngithub.com/PoshWeb/OP"
+    },
+    "cid": "bafyreicm6ykhao5l4zu4aqptiubxvx3rsadcaornskhf4a53i7pmmmqmce"
+  }
+}
