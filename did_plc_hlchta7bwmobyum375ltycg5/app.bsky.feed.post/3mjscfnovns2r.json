@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776544949473507,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjschdyjed2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjscfnovns2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-18T20:41:32.22Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Reddit"
+            }
+          ],
+          "index": {
+            "byteEnd": 77,
+            "byteStart": 70
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 221,
+            "byteStart": 218
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I just spent about an hour writing good intro posts about projects to #Reddit only to see them instantly blocked.\n\n🤷🤦\n\nWhy do I even bother?\n\nBuilding stuff is hard enough.\n\nJust posting about it shouldn't be an #AI nightmare."
+    },
+    "cid": "bafyreidopb6ubgzrm23iqcaqoietbaxq44lywni6ilv3g6jbshqfqmspwi"
+  }
+}
