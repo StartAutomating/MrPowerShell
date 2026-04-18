@@ -1,0 +1,62 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776546162768590,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjsdlirwzh24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjsdjqhlyc2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-18T21:01:43.086Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifedr2qcb5omrdlhqllvk6gtxrsheehp4q3ascz7onruuplz7r2jy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 967190
+          },
+          "title": "Aral Sea - Wikipedia",
+          "uri": "https://en.wikipedia.org/wiki/Aral_Sea"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 12
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://en.wikipedia.org/wiki/Aral_Sea"
+            }
+          ],
+          "index": {
+            "byteEnd": 143,
+            "byteStart": 113
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I feel like #AI in hiring is drying up the employment pipeline and causing an ecosystem disaster faster than the en.wikipedia.org/wiki/Aral_Sea\n\nRelated: anyone need an experienced PowerShell person?"
+    },
+    "cid": "bafyreic7xmtdbvthghpfa2h6g22j75thnvofcxtsiioeen3ayzlyhjkw7a"
+  }
+}
