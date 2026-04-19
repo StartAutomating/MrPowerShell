@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776620442763470,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjuir6uj5r24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjuir6uj4s2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-19T17:40:41.255Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiawapck3roy7cxspugx3m4ykb4udbcl26xkbye2gqs4uyltrhz2ii",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3mjs3bkswrs2q"
+        },
+        "root": {
+          "cid": "bafyreiawapck3roy7cxspugx3m4ykb4udbcl26xkbye2gqs4uyltrhz2ii",
+          "uri": "at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.post/3mjs3bkswrs2q"
+        }
+      },
+      "text": "Sweet sweet graphs!"
+    },
+    "cid": "bafyreiadmo2ox656opxrw4svpsw4hmxx65odraoi2ibfr4uljxnuay3zi4"
+  }
+}
