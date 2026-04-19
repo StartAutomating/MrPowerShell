@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776574298583339,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjt5rzkihb2j",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjt5qbg2ek2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-19T04:50:39.475Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Overpowered module for Open Packages. Contribute to PoshWeb/OP development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidiyti4yxqopkubjttlnyu4sjj455x7fh4gjzn2nqtw3zjl2tfojm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 239117
+          },
+          "title": "GitHub - PoshWeb/OP: Overpowered module for Open Packages",
+          "uri": "https://github.com/PoshWeb/OP/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PoshWeb/OP/"
+            }
+          ],
+          "index": {
+            "byteEnd": 302,
+            "byteStart": 280
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihb7pjk2yfb7ahtuoe5ikbrgro4x6c5o24fxxtp5zdivbdqvmdg7u",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mjt5b5vwx22y"
+        },
+        "root": {
+          "cid": "bafyreihwsk3yfyuai76gcfhmyg2qsclqn6nfossalqk55v5whjgajcfqmq",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mjsyl4t3jc2f"
+        }
+      },
+      "text": "Yep.\n\nI believe a lot of technology is inherently \"dual use\".\n\nBut 🤷 what do I know?\n\nI'm just a person who keeps producing stuff used by blue team and red team.\n\nAnd someone who threat modelled tech that hasn't been broken in ~20 years.\n\nApropos of nothing, latest insanity:\n\ngithub.com/PoshWeb/OP/"
+    },
+    "cid": "bafyreidg7nx2gh75hnw6h7zibnkvaqduejur46gwv5sd7ejhbj4xnr5o4i"
+  }
+}
