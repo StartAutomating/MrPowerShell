@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776567093591644,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjsx3bzi6l2j",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjswzkbgmc24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-19T02:50:34.557Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreib4332lyfb432r4ohlcmekucxcdgbyanfeuoapafk6w62v32dohiq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 138136
+          },
+          "title": "MrPowerShell",
+          "uri": "https://MrPowerShell.com"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://MrPowerShell.com"
+            }
+          ],
+          "index": {
+            "byteEnd": 62,
+            "byteStart": 46
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidzjdr5wxs74x6gfg7kyh7qhds5mj6tkogjrou5ylbyuvory4f74a",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mjswuxkajc2f"
+        },
+        "root": {
+          "cid": "bafyreiec4ybsnydg6sg4gd6oitucwbb3it2pea5hiwjm5jnags5wie2y6e",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mjsqicwwyc2j"
+        }
+      },
+      "text": "Alas, it is not :-(\n\nPlus, believe it or not, MrPowerShell.com was gifted to me (by Mike Robbins, who also does PowerShell).\n\nYou know you got community clout when people give you domains 😉.  \n\nWill the owner of mxpowershell please stand up?"
+    },
+    "cid": "bafyreietuwujghajn54jm52yanekj4uyl2zgp2gqb3ij6igu7hqd2gdgam"
+  }
+}
