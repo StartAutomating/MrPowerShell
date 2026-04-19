@@ -1,0 +1,45 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776568343001323,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjsyajygdr2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjsy6svcqs24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-19T03:11:25.112Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:7d7hkphd43rwukszjzxya3yh"
+            }
+          ],
+          "index": {
+            "byteEnd": 35,
+            "byteStart": 19
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidgew7vsybmuo3qiygfibe3nuexcqri3xbe7m2sdrpwxlgenegzdu",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mjsqk7w6gs2l"
+        },
+        "root": {
+          "cid": "bafyreiec4ybsnydg6sg4gd6oitucwbb3it2pea5hiwjm5jnags5wie2y6e",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mjsqicwwyc2j"
+        }
+      },
+      "text": "I swear every time @jtp.bsky.social threads hit the Beetlejuice mention count requirement an amazingly fun conversation takes place!\n\nThanks for being an awesome person!\n\nEveryone else remember: mention my name at least 3 times and I will probably reply with some cool stuff."
+    },
+    "cid": "bafyreifga4fvbc63nlzf6qda4k46idqwdprvtpftz2exadzcpz7vloeodi"
+  }
+}
