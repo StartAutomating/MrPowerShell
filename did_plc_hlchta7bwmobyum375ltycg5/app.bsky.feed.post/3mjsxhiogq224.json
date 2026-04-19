@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776567561847116,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjsxjakyun2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjsxhiogq224",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-19T02:58:22.648Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Normal is an individual illusion",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiffpag2ncnec4i4xu5qes55ny5a63q3ryz4borm53ctyu2kduql7u"
+            },
+            "mimeType": "image/jpeg",
+            "size": 317133
+          },
+          "title": "Nothing is Normal | James Brundage | MVP | Offprint",
+          "uri": "https://offtopic.offprint.app/a/3mi5v5355ul23-nothing-is-normal"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://offtopic.offprint.app/a/3mi5v5355ul23-nothing-is-normal"
+            }
+          ],
+          "index": {
+            "byteEnd": 260,
+            "byteStart": 223
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib7y4ngmhxnxq36l7m26c6grgjropxpuk4g7mzmhbb5sz2s5swlvm",
+          "uri": "at://did:plc:su3xczlv6yklgh253mt3w7yu/app.bsky.feed.post/3mjswycghrs2e"
+        },
+        "root": {
+          "cid": "bafyreiec4ybsnydg6sg4gd6oitucwbb3it2pea5hiwjm5jnags5wie2y6e",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mjsqicwwyc2j"
+        }
+      },
+      "text": "Plus, on a whole other level, I kinda enjoy subverting expectations about gendering that come from either direction.\n\nOne of my favorite sayings is \"Non-binary doesn't owe you androgyny\"\n\nNot a big believer in normal 😉\n\nofftopic.offprint.app/a/3mi5v5355u..."
+    },
+    "cid": "bafyreifhul7bvpm5xyulmepj2kkffbc3co4jlprjwxt3focjdbgrdhlzoi"
+  }
+}
