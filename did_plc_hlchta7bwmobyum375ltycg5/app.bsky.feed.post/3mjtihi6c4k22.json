@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776585754278745,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjtihgnz2d2j",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjtihi6c4k22",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-19T08:02:35.73Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiabxdutc7ndslxpndkyyvgsipxotwlq2buuriv7h42q7mzkeklljq",
+          "uri": "at://did:plc:q4r2rosbojocbskzd3aamxxx/app.bsky.feed.post/3mjthji4z2s2d"
+        },
+        "root": {
+          "cid": "bafyreib7qpkz3dsdygfv4m4vup2wbcl4pz63lkv4d6qlxp4xkgxd6zpg6y",
+          "uri": "at://did:plc:q4r2rosbojocbskzd3aamxxx/app.bsky.feed.post/3mjtfhogzgk2d"
+        }
+      },
+      "text": "Don't forget to star the repo.\n\nAnd if you make cool examples, don't forget to share.\n\nWorks just fine in workflows btw 😉"
+    },
+    "cid": "bafyreid5i2okgaudpyxwiz3jaamvluwuk2h3bavykxg3e6lqxrqlrm5ddq"
+  }
+}
