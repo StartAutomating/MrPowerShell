@@ -1,0 +1,26 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776555328365993,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjsm4ny6ou2b",
+    "operation": "create",
+    "collection": "pub.leaflet.poll.definition",
+    "rkey": "019da2ea-caa1-7221-936a-24bf07902204",
+    "record": {
+      "$type": "pub.leaflet.poll.definition",
+      "name": "Poll",
+      "options": [
+        {
+          "$type": "pub.leaflet.poll.definition#option",
+          "text": "Yes"
+        },
+        {
+          "$type": "pub.leaflet.poll.definition#option",
+          "text": "No"
+        }
+      ]
+    },
+    "cid": "bafyreie7oedlz6axdyheaal24f4u3nibqxhlxigcfuesktnnecimnqs7rq"
+  }
+}
