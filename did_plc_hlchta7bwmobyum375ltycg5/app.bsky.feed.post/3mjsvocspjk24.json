@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776565642085120,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjsvq23oo22j",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjsvocspjk24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-19T02:26:23.895Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreias5ppbhqobgt7ve4iwmwqsjuzp2p5h7gps6piwlbcocqfctrknee",
+          "uri": "at://did:plc:su3xczlv6yklgh253mt3w7yu/app.bsky.feed.post/3mjsqnwoyg22d"
+        },
+        "root": {
+          "cid": "bafyreiec4ybsnydg6sg4gd6oitucwbb3it2pea5hiwjm5jnags5wie2y6e",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mjsqicwwyc2j"
+        }
+      },
+      "text": "I prefer not to police pronouns too much, and I prefer \"they\" to \"he\".\n\nAlso, I'm not sure that I do count (since Microsoft MVPs are not Microsoft employees)\n\n[I was one once, a long time ago, in a galaxy far, far away]\n\n😉"
+    },
+    "cid": "bafyreigapdsy4kg74r4hvt7qcv5vhqjsii54eb3xzmogny67xarbpvsswm"
+  }
+}
