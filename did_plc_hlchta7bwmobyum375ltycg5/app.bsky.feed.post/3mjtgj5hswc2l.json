@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776583666585911,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjtgj7mxpe2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjtgj5hswc2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-19T07:27:44.134Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Turtle Graphics in PowerShell. Contribute to PoshWeb/Turtle development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreianms4l5oadh7y5iw7oo4zeaxkyroqo6rarmuzfkvoghct6o7ti5m"
+            },
+            "mimeType": "image/jpeg",
+            "size": 997516
+          },
+          "title": "GitHub - PoshWeb/Turtle: Turtle Graphics in PowerShell",
+          "uri": "https://github.com/PoshWeb/Turtle"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PoshWeb/Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 189,
+            "byteStart": 164
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/PSSVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 243,
+            "byteStart": 217
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaewsbmtyqfwlicthtlqdjjvzxuqphgnjsed55dsie2456ehy7xl4",
+          "uri": "at://did:plc:q4r2rosbojocbskzd3aamxxx/app.bsky.feed.post/3mjtg6dokzs2d"
+        },
+        "root": {
+          "cid": "bafyreib7qpkz3dsdygfv4m4vup2wbcl4pz63lkv4d6qlxp4xkgxd6zpg6y",
+          "uri": "at://did:plc:q4r2rosbojocbskzd3aamxxx/app.bsky.feed.post/3mjtfhogzgk2d"
+        }
+      },
+      "text": "A fairly generic method of making these would be using SVG.\n\nYou could write it by hand / script (it's a pretty old and easy standard).\n\nYou could also use Turtle\n\ngithub.com/PoshWeb/Turtle\n\nYou could also use PSSVG\n\ngithub.com/StartAutomat...\n\nAny of these approaches method is about the same."
+    },
+    "cid": "bafyreiard3tsrosia7eh4iws2vx2oh7lwyu4teewfbcrjotkwm4gljud5q"
+  }
+}
