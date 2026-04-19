@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776573227200077,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjt4s3u3qt24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjt4qehr5k2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-19T04:32:48.935Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "STRIDE"
+            }
+          ],
+          "index": {
+            "byteEnd": 263,
+            "byteStart": 256
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiapd2kswfod7qwixplgivhyqmyoeuhpy5tluwsujjazemgx5g5hwu",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mjt426gruc2f"
+        },
+        "root": {
+          "cid": "bafyreihwsk3yfyuai76gcfhmyg2qsclqn6nfossalqk55v5whjgajcfqmq",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mjsyl4t3jc2f"
+        }
+      },
+      "text": "Recently got talking about this with a security person at an unnamed large company.\n\nShared view is basically: \"AI will find lots of things it _might_ consider a security hole\".  But lots of stuff is not so cut and dry.\n\nReally wish more people knew about #STRIDE and threat modelling 😔"
+    },
+    "cid": "bafyreifs5oe7t4bq7syr74oyxzxhf6ajqrex3npk7ves3kz7saqis6kvei"
+  }
+}
