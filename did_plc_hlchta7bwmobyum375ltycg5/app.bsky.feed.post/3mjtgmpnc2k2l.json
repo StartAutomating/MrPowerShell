@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776583785579718,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjtgmr3ocf2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjtgmpnc2k2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-19T07:29:43.851Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiard3tsrosia7eh4iws2vx2oh7lwyu4teewfbcrjotkwm4gljud5q",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mjtgj5hswc2l"
+        },
+        "root": {
+          "cid": "bafyreib7qpkz3dsdygfv4m4vup2wbcl4pz63lkv4d6qlxp4xkgxd6zpg6y",
+          "uri": "at://did:plc:q4r2rosbojocbskzd3aamxxx/app.bsky.feed.post/3mjtfhogzgk2d"
+        }
+      },
+      "text": "You basically want a box / circle for each thing of equal size, and then N points around it for each connection.\n\nThese are just polar coordinates.\n\nThis is where Turtle would be more helpful (probably).\n\nEssentially divide 360 / # connections, and that is your rotation angle for each input/output."
+    },
+    "cid": "bafyreigykc7vb6xqeqy4xv2tyf5yz5ox6el6t74mo7pqkaosz6zocn7m5u"
+  }
+}
