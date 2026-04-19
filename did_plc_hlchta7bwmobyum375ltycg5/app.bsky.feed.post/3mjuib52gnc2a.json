@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776619903313624,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjuib5oabm2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjuib52gnc2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-19T17:31:42.482Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiecfglhzbkva736o5mz7foxscjmruheamsl5yx5bmw2ercnz6rxyi",
+          "uri": "at://did:plc:p2cp5gopk7mgjegy6wadk3ep/app.bsky.feed.post/3mjtqbev2wk2z"
+        },
+        "root": {
+          "cid": "bafyreiecfglhzbkva736o5mz7foxscjmruheamsl5yx5bmw2ercnz6rxyi",
+          "uri": "at://did:plc:p2cp5gopk7mgjegy6wadk3ep/app.bsky.feed.post/3mjtqbev2wk2z"
+        }
+      },
+      "text": "🤷 I mean it's just the path syntax.\n\nCome back to me when it can rasterize animations.\n\nThe path syntax may look obtuse, but it's an *incredibly* limited g-code representing the path of a Turtle / cursor in 2d space.\n\nDid this last summer, sans AI."
+    },
+    "cid": "bafyreicost3xznqjya4njcgwh4q2ivykrlb57d4btrlrrqw4emu4mnxxly"
+  }
+}
