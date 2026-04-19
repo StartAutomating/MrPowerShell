@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776567697277973,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjsxnc2was2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjsxlkv3qc24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-19T03:00:39.182Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia4okmuxbhphpjimfqsczvvoxhhkmplk2ioqchqd5e3vznze7qj34",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mjsxgxnq2s2f"
+        },
+        "root": {
+          "cid": "bafyreiec4ybsnydg6sg4gd6oitucwbb3it2pea5hiwjm5jnags5wie2y6e",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mjsqicwwyc2j"
+        }
+      },
+      "text": "A few.  And probably, sadly, many examples of guilds that were explicitly \"boys clubs\" :-(.  There were also guilds that were explicitly \"girls clubs\".\n\nI'm a history nerd, but not enough of one to have citations at the ready here 😞\n\nI think the most common case was daughter blacksmiths."
+    },
+    "cid": "bafyreibelikhctkyeftfxwcckg3pjlr6x642tgmbfid3gat2wnvv4bzqwm"
+  }
+}
