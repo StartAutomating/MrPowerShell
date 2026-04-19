@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776622483767415,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjuko2gqjs2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjuknye6rc2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-19T18:14:41.25Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreickynq2fnvu3fdhblih3x4tqda7xfslbh4z2rmbqr422w55khxode",
+          "uri": "at://did:plc:rnpkyqnmsw4ipey6eotbdnnf/app.bsky.feed.post/3mjuhvlkmdk2m"
+        },
+        "root": {
+          "cid": "bafyreickynq2fnvu3fdhblih3x4tqda7xfslbh4z2rmbqr422w55khxode",
+          "uri": "at://did:plc:rnpkyqnmsw4ipey6eotbdnnf/app.bsky.feed.post/3mjuhvlkmdk2m"
+        }
+      },
+      "text": "Ooh! Sounds fun! \n\nAre you gonna use fetch or an import map and import statement?\n\n(reminder to self to do some dynamic static xrpc demos)"
+    },
+    "cid": "bafyreiamnzgzl2hfsbezn7wd63suusa4oaots6uf4sypybozhoukozorlu"
+  }
+}
