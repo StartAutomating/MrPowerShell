@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776567306105626,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjsxbkcjy22h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjsx7t63fs24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-19T02:54:05.211Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib7y4ngmhxnxq36l7m26c6grgjropxpuk4g7mzmhbb5sz2s5swlvm",
+          "uri": "at://did:plc:su3xczlv6yklgh253mt3w7yu/app.bsky.feed.post/3mjswycghrs2e"
+        },
+        "root": {
+          "cid": "bafyreiec4ybsnydg6sg4gd6oitucwbb3it2pea5hiwjm5jnags5wie2y6e",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mjsqicwwyc2j"
+        }
+      },
+      "text": "it's cool.  The origin of \"Mr\" is actually not gendered per se.\n\nIt comes from an indication of professional quality of craft, back in the old medieval guild days.  Mr -eq \"Master\", as in Master crasftperson.\n\nGranted, guilds were exclusionary, but mostly on a professional quality level."
+    },
+    "cid": "bafyreidhhxtmsulvfjj4vcyfomx2zxlcort3oc4zibgnpqrlvdjciwmqui"
+  }
+}
