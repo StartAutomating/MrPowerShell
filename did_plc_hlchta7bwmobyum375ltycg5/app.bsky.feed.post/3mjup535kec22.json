@@ -1,0 +1,51 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776627285669897,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjup54afr22i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjup535kec22",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-19T19:34:42.461Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreid5zfqhc2jlk4ui22ltcsbakebp2twoknt7vll2hrlxhkgfbjri5m",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mheoiraa5c2t"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/mrpowershell.com/post/3mheoiraa5c2t"
+            }
+          ],
+          "index": {
+            "byteEnd": 278,
+            "byteStart": 254
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihutepjsrkmqi3altgw2oneh5iz4t54jqp326o77dclgvjedxlt5m",
+          "uri": "at://did:plc:rnpkyqnmsw4ipey6eotbdnnf/app.bsky.feed.post/3mjuohwxkds2f"
+        },
+        "root": {
+          "cid": "bafyreickynq2fnvu3fdhblih3x4tqda7xfslbh4z2rmbqr422w55khxode",
+          "uri": "at://did:plc:rnpkyqnmsw4ipey6eotbdnnf/app.bsky.feed.post/3mjuhvlkmdk2m"
+        }
+      },
+      "text": "Big fan of script tags versus loading more files :-)\n\nI was pleasantly shocked how easy it was to importmap my way to success.   Pair them with <template> support and its ~100 lines to render N at proto items in any way we want.\n\nNo framework required.\n\nbsky.app/profile/mrpo..."
+    },
+    "cid": "bafyreig7l7dfj2pu6ht4x4ux2xo7zltgj2doiv7psvihahjq6dwmtcbhlm"
+  }
+}
