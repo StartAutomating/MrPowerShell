@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776566778894321,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjswrw7s4z2r",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjswq7agm224",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-19T02:45:21.001Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifkn7ms7fpfwbo23oapthdxsbj2sxl27ynjo5qlirgjgg2xjj77fa",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mjswnx6kjc2f"
+        },
+        "root": {
+          "cid": "bafyreiec4ybsnydg6sg4gd6oitucwbb3it2pea5hiwjm5jnags5wie2y6e",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mjsqicwwyc2j"
+        }
+      },
+      "text": "Oh it's no big deal.  Just every time it happens my dysphoria slightly grows.  Perhaps someday the egg will crack. 😉🐣\n\nUntil then, know I love and support you all 🫂\n\nAlso, time for that nerdy reminder:\n\nPowerShell is a genderqueer programming language 😉"
+    },
+    "cid": "bafyreiaqecmftxwwxwhfrwwwam6sy5xcwdqbejrul3ave7y35xp5w73orm"
+  }
+}
