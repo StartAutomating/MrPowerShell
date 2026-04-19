@@ -1,0 +1,54 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776552445274759,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjsjgqqwia24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjsjgry43k2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-18T22:47:26.46Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreice5ph77lb2zercfrldjfd7jpvkpkhb4l7teoveozijectsob4x6y",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.generator/Schadenfreude"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:i6y3jdklpvkjvynvsrnqfdoq"
+            }
+          ],
+          "index": {
+            "byteEnd": 40,
+            "byteStart": 27
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/did:plc:hlchta7bwmobyum375ltycg5/feed/Schadenfreude"
+            }
+          ],
+          "index": {
+            "byteEnd": 141,
+            "byteStart": 117
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Made another fun feed with @graze.social \n\nAll the Schadenfreude on the internet.\n\nPlease like / share / subscribe.\n\nbsky.app/profile/did:..."
+    },
+    "cid": "bafyreihpn3hrouqyv32rpxfyh3q2rf3ihhqqe64nj4j2u2ydol4y2x4rqa"
+  }
+}
