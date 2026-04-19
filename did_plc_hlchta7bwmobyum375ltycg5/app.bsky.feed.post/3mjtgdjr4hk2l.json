@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776583476582860,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjtgdkbwgr2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjtgdjr4hk2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-19T07:24:35.694Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigex4nmk3jxspeu3qjxpfn4iwrtecdd7gzxupfqc7bls6ri3ywoee",
+          "uri": "at://did:plc:q4r2rosbojocbskzd3aamxxx/app.bsky.feed.post/3mjtga2ek2k2d"
+        },
+        "root": {
+          "cid": "bafyreib7qpkz3dsdygfv4m4vup2wbcl4pz63lkv4d6qlxp4xkgxd6zpg6y",
+          "uri": "at://did:plc:q4r2rosbojocbskzd3aamxxx/app.bsky.feed.post/3mjtfhogzgk2d"
+        }
+      },
+      "text": "Is the module public?\n\nIs it cross-platform?\n\nDoes it depend on assemblies, or work thru directly reading the file contents?"
+    },
+    "cid": "bafyreiabrijbkupznrpzftamebkiwmfhebdvvnjimgegzlh2mxa5r6da7m"
+  }
+}
