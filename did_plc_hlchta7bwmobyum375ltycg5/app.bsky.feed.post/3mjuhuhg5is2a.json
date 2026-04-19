@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776619479471104,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjuhuj6agu2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjuhuhg5is2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-19T17:24:37.143Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia3wobfllav7zfadx6vuzoa6i7aoi7mfl3tqkkdebvdytlcjzx3sy",
+          "uri": "at://did:plc:hsqwcidfez66lwm3gxhfv5in/app.bsky.feed.post/3mjuew3igbk2w"
+        },
+        "root": {
+          "cid": "bafyreia3wobfllav7zfadx6vuzoa6i7aoi7mfl3tqkkdebvdytlcjzx3sy",
+          "uri": "at://did:plc:hsqwcidfez66lwm3gxhfv5in/app.bsky.feed.post/3mjuew3igbk2w"
+        }
+      },
+      "text": "If you name a company for the evil \"seeing stones\" corrupted by Sauron, used to corrupt Saruman, used to destroy Numenor, used to drive the last Steward of Gondor insane, you need to work on your media comprehension, and your sense of morality."
+    },
+    "cid": "bafyreihmxi7jzps6vkolb7b6zktfjo236jyxn4tdkze2ncdqwl24hqpol4"
+  }
+}
