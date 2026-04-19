@@ -1,0 +1,75 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776626379354564,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjuoc4lqv424",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjuobysuf222",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-19T19:19:34.045Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Turtle Graphics in PowerShell. Contribute to PoshWeb/Turtle development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreianms4l5oadh7y5iw7oo4zeaxkyroqo6rarmuzfkvoghct6o7ti5m"
+            },
+            "mimeType": "image/jpeg",
+            "size": 997516
+          },
+          "title": "GitHub - PoshWeb/Turtle: Turtle Graphics in PowerShell",
+          "uri": "https://github.com/PoshWeb/Turtle"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:s53e6k6sirobjtz5s6vdddwr"
+            }
+          ],
+          "index": {
+            "byteEnd": 12,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 151,
+            "byteStart": 144
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PoshWeb/Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 183,
+            "byteStart": 158
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "@nichoth.com quick shout out on a nice profile graphic!  \n\nMy brain's working thru how I might build a randomized scripted version of this with #Turtle 🐢\n\ngithub.com/PoshWeb/Turtle\n\n(thanks for the inspiration!)"
+    },
+    "cid": "bafyreia5c4si7l6ck6ze7i3ynir2n2qqiof37lglt53zgedkkoowecu5pe"
+  }
+}
