@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776706086491745,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjwyjj7l6z2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjwyjivbd222",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-20T17:28:02.676Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidzge543suo5njyht6z4rzxzhvoktytjfbvl5vxxzx3wfhuslqoym",
+          "uri": "at://did:plc:7zomkf2szzf4rc576atevbcz/app.bsky.feed.post/3mjwednidh22a"
+        },
+        "root": {
+          "cid": "bafyreie4u4xujy5olsdh5di3csoxo46gt7wdn2wjpy4xfuhcxw2cfgfp7m",
+          "uri": "at://did:plc:7zomkf2szzf4rc576atevbcz/app.bsky.feed.post/3l4xk3ffpia2w"
+        }
+      },
+      "text": "Honestly? Respect!\n\nHad an old MSFT colleague that swore up and down that Excel was the best app Microsoft ever made.\n\nYou might be great friends with them.\n\nPersonally I think it's PowerShell, but we are are biased towards our children, aren't we ?"
+    },
+    "cid": "bafyreiezbldzaqehnlxmlukhdj4vslz2xapra5hxjh7oui2i5h3gzvdosq"
+  }
+}
