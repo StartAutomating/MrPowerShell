@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776665225951173,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjvshsshkt2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjvsht5yzk2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-20T06:07:04.15Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibt4gflgvadmpqs5tvdrwtdjvurxnxic54w6myuiuydtclw4uveqq",
+          "uri": "at://did:plc:xn3l7ogsxym5ixxugidum5dw/app.bsky.feed.post/3mjvs5snlx22l"
+        },
+        "root": {
+          "cid": "bafyreiaf5puvmfyumor6v64h36gdrvhuwymp6xyg7gk34tud2fbq2l2tzy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mjvrdd2z3s2a"
+        }
+      },
+      "text": "Yep.\n\nOne of the most useful modules I've written ( and I've written a lot ).\n\nUse it every day, every commit.\n\nUpped my git game like nobody's business.\n\nWill do the same for you or anyone else."
+    },
+    "cid": "bafyreib5pfabvx2l7xaqsjfw62qsbi2qgumv7xi2zojs4m5jjfrde6zo3q"
+  }
+}
