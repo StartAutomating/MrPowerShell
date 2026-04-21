@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776796897904907,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjzn3ym77g2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjzn3y2auc2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-21T18:41:36.861Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiem47gcbnutjtebispz6adejvvcznm2dpxi46tztvomtzn5fh3kdq",
+          "uri": "at://did:plc:z24nao2xh43csg2fn4v4eggh/app.bsky.feed.post/3mjxrsfeu622e"
+        },
+        "root": {
+          "cid": "bafyreicc6eqtvijxw6a76py3ycrxvwccagzhst4a6igvmdfcblntqd4inm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mjxov3topk2v"
+        }
+      },
+      "text": "Thanks!\n\nI need to write more articles *and* more code."
+    },
+    "cid": "bafyreibg2aermzatnq7avwv56t25ehiripsypzzhcir6jv6jzywbv36ma4"
+  }
+}
