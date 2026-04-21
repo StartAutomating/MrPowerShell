@@ -1,0 +1,98 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776794926233163,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjzlb6wp6w2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjzlb6vylk2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-21T18:08:44.35Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "The C# Dev Kit team replaced C++ Node.js addons with C# and Native AOT, removing a dependency on Python. This post walks through building a Node.js native addon entirely in C# using N-API, LibraryImpo...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiadqfyog7qo63ahlh3v5gsskkdnf7qzgs76faegttfi6nlg5mtd4u"
+            },
+            "mimeType": "image/jpeg",
+            "size": 442975
+          },
+          "title": "Writing Node.js addons with .NET Native AOT - .NET Blog",
+          "uri": "https://devblogs.microsoft.com/dotnet/writing-nodejs-addons-with-dotnet-native-aot/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://devblogs.microsoft.com/dotnet/writing-nodejs-addons-with-dotnet-native-aot/"
+            }
+          ],
+          "index": {
+            "byteEnd": 66,
+            "byteStart": 28
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "JavaScript"
+            }
+          ],
+          "index": {
+            "byteEnd": 79,
+            "byteStart": 68
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSharp"
+            }
+          ],
+          "index": {
+            "byteEnd": 87,
+            "byteStart": 80
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DotNet"
+            }
+          ],
+          "index": {
+            "byteEnd": 95,
+            "byteStart": 88
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Node"
+            }
+          ],
+          "index": {
+            "byteEnd": 101,
+            "byteStart": 96
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "This looks interesting....\n\ndevblogs.microsoft.com/dotnet/writi...\n\n#JavaScript #CSharp #DotNet #Node"
+    },
+    "cid": "bafyreihlzjyzeni3ftj3pbadiec6kfshv6n5ed4wbwmc3euniyzguoc2fi"
+  }
+}
