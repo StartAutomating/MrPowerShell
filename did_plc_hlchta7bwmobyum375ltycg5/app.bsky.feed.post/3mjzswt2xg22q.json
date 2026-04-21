@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776803171057419,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjzswuewn424",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjzswt2xg22q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-21T20:26:06.321Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiax526igpcpd44upy3ynbkm6uyvxrrggbdnwoghy2czc44h5uvcuy",
+          "uri": "at://did:plc:qyjd67r4ov2j7z6zwtdqiiad/app.bsky.feed.post/3mjym3gnwcs2p"
+        },
+        "root": {
+          "cid": "bafyreif5acom6vzcstrh5kds6zmzhdsgj6cdsxipbm3h4qcp46rkxpculq",
+          "uri": "at://did:plc:qyjd67r4ov2j7z6zwtdqiiad/app.bsky.feed.post/3mjylqx5lss2p"
+        }
+      },
+      "text": "Somewhat, yeah.\n\nHaving a more consistent and task/object-oriented command line makes almost all the difference, IMO."
+    },
+    "cid": "bafyreidnqxhxbuqjsopg7excbc3obmuh76f46z567eejgj4zusdo334jau"
+  }
+}
