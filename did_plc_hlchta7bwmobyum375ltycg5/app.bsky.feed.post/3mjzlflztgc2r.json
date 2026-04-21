@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776795071440872,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjzlfkzega2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjzlflztgc2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-21T18:11:12.326Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreids43v7xkbwjutacac4dczi2kejdxb4fx2l34ledd2zn52d7msqjm",
+          "uri": "at://did:plc:qzgy45vpvfpvbjsqhqjapghf/app.bsky.feed.post/3mjzhptvi5225"
+        },
+        "root": {
+          "cid": "bafyreihprpfr6afvcs3e2ce6xr6sl5k5oatw256jmmnvmgwgb55y2ymmny",
+          "uri": "at://did:plc:3pcnghkif2l2bf3g3hx5spsu/app.bsky.feed.post/3mjzhlc3qgc2w"
+        }
+      },
+      "text": "That ain't how the story goes...\n\nPowerShell was made by a small team of full timers, working to find a better way to automate and fill gaps in Windows tooling.\n\nIt grew into a medium sized team and got integrated into Windows as Microsoft realized how powerful it was."
+    },
+    "cid": "bafyreicghdg7jbhb5usko4sfb7qloi72gaby7weay5s3bbt7uhu3pbwkvy"
+  }
+}
