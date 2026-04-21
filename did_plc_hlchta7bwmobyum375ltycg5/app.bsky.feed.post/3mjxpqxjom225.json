@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776731030690901,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mjxpqyti3j24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mjxpqxjom225",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-21T00:23:48.969Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Windows"
+            }
+          ],
+          "index": {
+            "byteEnd": 124,
+            "byteStart": 116
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 149,
+            "byteStart": 138
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie6t6nfypduqlfr7nmkxnegeuuxfbv67zol2fxczsho33nio2taye",
+          "uri": "at://did:plc:d7hrbdv4uuhb7bdag6fvelna/app.bsky.feed.post/3mjxdq7oimk27"
+        },
+        "root": {
+          "cid": "bafyreie6t6nfypduqlfr7nmkxnegeuuxfbv67zol2fxczsho33nio2taye",
+          "uri": "at://did:plc:d7hrbdv4uuhb7bdag6fvelna/app.bsky.feed.post/3mjxdq7oimk27"
+        }
+      },
+      "text": "Lol, bringing back memories.\n\nI believe that's as far back-compat as PowerShell v2 goes.\n\nIIRC 2008R2 was the first #Windows release with #PowerShell v2 on it.\n\nGot my \"Ship It\" award for that OS somewhere..."
+    },
+    "cid": "bafyreib6aaq3dnlclh5bacmjpk6ealbdavitbxeaxdytma2rtljdteuqde"
+  }
+}
