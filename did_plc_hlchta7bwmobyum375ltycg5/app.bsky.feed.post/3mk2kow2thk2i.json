@@ -1,0 +1,73 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776828673154526,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mk2koxohyh2r",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mk2kow2thk2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-22T03:31:10.831Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Intro I think it is time we put down our old friend Write-Output  for good. That’s right, Write-Output  and not Write-Host . You should defi...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiad3jthaqj6k4cl4zjpqvzdm3pbmsl3pcwlefwj6hgzflfblwrmhq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 610469
+          },
+          "title": "Let’s Kill Write-Output",
+          "uri": "https://get-powershellblog.blogspot.com/2017/06/lets-kill-write-output.html"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:tflyqezjplxg2sgj7f4edpcu"
+            }
+          ],
+          "index": {
+            "byteEnd": 116,
+            "byteStart": 101
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://get-powershellblog.blogspot.com/2017/06/lets-kill-write-output.html"
+            }
+          ],
+          "index": {
+            "byteEnd": 298,
+            "byteStart": 251
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifn6psaljvf7wdq7hd433siafbhxyvp7yiklll3755yidxmoaoofu",
+          "uri": "at://did:plc:3ktuyeqq7wqogu23gyeycwku/app.bsky.feed.post/3mk2iwwmd7s25"
+        },
+        "root": {
+          "cid": "bafyreih7zmihghuiuvtqshz3z4jtxvet3wjgpdjmf2mevleufu6xpo2qaa",
+          "uri": "at://did:plc:3ktuyeqq7wqogu23gyeycwku/app.bsky.feed.post/3mk24taufuk25"
+        }
+      },
+      "text": "I sometimes want an explicit command, too.  \n\nWrite-Output tends to be the exception to that rule. \n\n@markekraus.com made a wonderful case about why we shouldn't use it years ago.  I couldn't say it any better, so I will simply link to the old post:\n\nget-powershellblog.blogspot.com/2017/06/lets..."
+    },
+    "cid": "bafyreihekhovc76xculsh37qlsv2sqm56upe5tprmgvjqjvsswtiz6qaly"
+  }
+}
