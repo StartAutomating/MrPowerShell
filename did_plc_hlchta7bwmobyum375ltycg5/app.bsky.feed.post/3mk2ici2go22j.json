@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776826107352579,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mk2icj5bka2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mk2ici2go22j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-22T02:48:26.001Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih7zmihghuiuvtqshz3z4jtxvet3wjgpdjmf2mevleufu6xpo2qaa",
+          "uri": "at://did:plc:3ktuyeqq7wqogu23gyeycwku/app.bsky.feed.post/3mk24taufuk25"
+        },
+        "root": {
+          "cid": "bafyreih7zmihghuiuvtqshz3z4jtxvet3wjgpdjmf2mevleufu6xpo2qaa",
+          "uri": "at://did:plc:3ktuyeqq7wqogu23gyeycwku/app.bsky.feed.post/3mk24taufuk25"
+        }
+      },
+      "text": "Actually not too weird when you unpack what's happening.\n\nFirst case you're passing 3 arguments.  It outputs 3 things.  Second case you're passing one argument.  It outputs one thing.\n\nBtw, you don't need Write-Output, basically, ever."
+    },
+    "cid": "bafyreihvxy4ylpolbttpbnkyevffchddkl52ipct2rpgzu43g4uk3thslm"
+  }
+}
