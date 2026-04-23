@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1776973582821395,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mk6rnmltth2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mk6rnmobic2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-23T19:46:22.571Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic7ns5nqxberg4jhbsjlxj2vnjcphp6zwyg6pqeup5r6edlu6oacu",
+          "uri": "at://did:plc:74jcuocskdxcvcacr3ezp2sn/app.bsky.feed.post/3mk6r3xcrqs27"
+        },
+        "root": {
+          "cid": "bafyreicwpgltcaxqcvb3tonpukceoyx4edopzxzopdla5esekaysop3g2y",
+          "uri": "at://did:plc:7eru4djoxmryem4apfngxwva/app.bsky.feed.post/3mk4lgf4xjc2j"
+        }
+      },
+      "text": "Yes.  It's a well-known vector for the past year or so.\n\nDo not run that script!"
+    },
+    "cid": "bafyreic7zzj7ry3kbn43a23ai2raaaj6atkb5bclfi5bi6k5b67zvjsqcy"
+  }
+}
