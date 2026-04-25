@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1777149530669204,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mkdvjbogqy2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mkdvjawkms2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-25T20:38:49.703Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreierdf2kuabakflgjjhpmpu22sc2wzrzvix2uhka3t6cywrphd26fq",
+          "uri": "at://did:plc:revjuqmkvrw6fnkxppqtszpv/app.bsky.feed.post/3mkc3lwa5422v"
+        },
+        "root": {
+          "cid": "bafyreierdf2kuabakflgjjhpmpu22sc2wzrzvix2uhka3t6cywrphd26fq",
+          "uri": "at://did:plc:revjuqmkvrw6fnkxppqtszpv/app.bsky.feed.post/3mkc3lwa5422v"
+        }
+      },
+      "text": "Good news is that printful does a decent job.\n\nBad news is that a 4 color logo is probably a pricey print / embroidery.\n\n( And I *strongly* recommend embroidery, it lasts way longer )"
+    },
+    "cid": "bafyreigmmxwthzj7xpqvoxwe6ddo2oklu4vp7zxoblgho4stf2xlv2file"
+  }
+}
