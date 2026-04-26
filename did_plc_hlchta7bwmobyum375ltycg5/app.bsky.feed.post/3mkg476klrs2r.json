@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1777225429958397,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mkg47awql623",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mkg476klrs2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-26T17:43:47.34Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicr54pr4wx2pobgc2fvafywezsb5z6axqvub3ldllty7sgvclhb3a",
+          "uri": "at://did:plc:cg2vs7cukjdukbk6k6cf2w6v/app.bsky.feed.post/3mkft2vk6gk2q"
+        },
+        "root": {
+          "cid": "bafyreifswqwkelbqcrlxgqfh3gqaxqjpyc5to3hwoakbest2u2wktsx6cq",
+          "uri": "at://did:plc:jeb6iqvlq7fzgwt6jxus4zdf/app.bsky.feed.post/3mkfn5oxktc25"
+        }
+      },
+      "text": "DOS never left.\n\nIt just got Windows built atop of it, and some walls for stability."
+    },
+    "cid": "bafyreibrfiih26e54ammknoou72ru42mm2boyqmyppi2gjk5duqeir3cnm"
+  }
+}
