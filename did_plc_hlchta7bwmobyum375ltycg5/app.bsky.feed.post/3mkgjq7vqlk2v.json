@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1777239958618994,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mkgjqaibcw2j",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mkgjq7vqlk2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-26T21:45:57.822Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieam2nkysmgmuty74odxnv3ztnqgxqltxj22arp4qhcsn6lasdyhu",
+          "uri": "at://did:plc:jeb6iqvlq7fzgwt6jxus4zdf/app.bsky.feed.post/3mkfqmd3oms2n"
+        },
+        "root": {
+          "cid": "bafyreieam2nkysmgmuty74odxnv3ztnqgxqltxj22arp4qhcsn6lasdyhu",
+          "uri": "at://did:plc:jeb6iqvlq7fzgwt6jxus4zdf/app.bsky.feed.post/3mkfqmd3oms2n"
+        }
+      },
+      "text": "Link to source?\n\nMind if I expand this to the PowerShell Gallery, Chocolatey, and N custom repos?\n\n( I happen to have a nifty overpowered module for this 😉 )"
+    },
+    "cid": "bafyreicvufgjkvynsiterhny2uhtcgcqs6wlihlnaot6enh42g34ql2o6a"
+  }
+}
