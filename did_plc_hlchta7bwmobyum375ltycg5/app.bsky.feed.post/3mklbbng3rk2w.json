@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1777402679133275,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mklbbomelp2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mklbbng3rk2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-28T18:57:57.43Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicmtnlo7rad2xumutcidztb6sfbf2qd3vtrhtlrlcm3wjjj4effz4",
+          "uri": "at://did:plc:wbmlqwgnvmb72lx6wgqcunj5/app.bsky.feed.post/3mkktqnautk2s"
+        },
+        "root": {
+          "cid": "bafyreiemdc5vwhc4pve4j7d3b4bxsy3omz24cwebhuaaz2rmyq47ddm4au",
+          "uri": "at://did:plc:353uz722wm5cvh2urkjvo2op/app.bsky.feed.post/3mkjg5bz5fk2m"
+        }
+      },
+      "text": "Mostly agreed.\n\nAm 💯 certain many have been fired for using Xbox on the job.\n\nAnd that many have also been fired from doing something very unwise in PowerShell.\n\nProbably a few fired for blithely installing booby trapped VSCode extensions, too.\n\n🤷 With great PowerShell comes great responsibility"
+    },
+    "cid": "bafyreiebyutgtaerrhel2hlfy2jpjapp2jwv5hgycq4jd7rra2yuyw3i3y"
+  }
+}
