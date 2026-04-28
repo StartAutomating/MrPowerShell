@@ -1,0 +1,41 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1777412556214993,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mklki2f2yh2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mklkhrse2c27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-28T21:42:27.029Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreiektrlhf6r4ewijdnrckyidqkmr2bkq7g6sbh7npy6lfp6sstvwia",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mklk5uw3rc27"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/mrpowershell.com/post/3mklk5uw3rc27"
+            }
+          ],
+          "index": {
+            "byteEnd": 272,
+            "byteStart": 248
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "After doing this I felt like guestimating how much time younger me spent reviewing movies.\n\nGuestimating 110 minutes per film:\n\n~~~PowerShell\n[TimeSpan]::FromMinutes(451 * 110)\n~~~\n\nComes out to 34.1 days of movies\n\n🤷 figured it might be more.\n\nbsky.app/profile/mrpo..."
+    },
+    "cid": "bafyreidxiofkcn2ypgl2pzmvr2nrgxa5rxvcq4c3t5hlraf377zbssekfa"
+  }
+}
