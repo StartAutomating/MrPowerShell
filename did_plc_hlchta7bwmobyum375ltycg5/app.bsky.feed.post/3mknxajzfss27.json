@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1777494994868144,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mknxavlpiw2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mknxajzfss27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-29T20:36:22.112Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A Fun PowerShell Module for Multimedia (using FFMpeg) - StartAutomating/RoughDraft",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidqhlsa32gxgfuyhbwfpphcp64pej7uskhzezd4zexwbcilj2ih5a"
+            },
+            "mimeType": "image/jpeg",
+            "size": 149781
+          },
+          "title": "GitHub - StartAutomating/RoughDraft: A Fun PowerShell Module for Multimedia (using FFMpeg)",
+          "uri": "https://github.com/StartAutomating/RoughDraft"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/RoughDraft"
+            }
+          ],
+          "index": {
+            "byteEnd": 224,
+            "byteStart": 198
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid5jkd6forvrzeiwjdzazsy45ergcapkyurgxdakpmpdo4p7ytfha",
+          "uri": "at://did:plc:zfubrgofk23trzj7bapmym2d/app.bsky.feed.post/3mknx3cnae22h"
+        },
+        "root": {
+          "cid": "bafyreic5ptdw2ocfiokmms5wo4n4ey6wllmtsnf7oqh4gzot4vs2ggyhui",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mknu4pq3pk2e"
+        }
+      },
+      "text": "I feel like this will trail off quite a bit as you get into more and more obscure filters.\n\nAnd RoughDraft already supports _most_ filters that are well-documented.  (there's about 130 extensions)\n\ngithub.com/StartAutomat...\n\nI just generally try to add one or two new ones when I update..."
+    },
+    "cid": "bafyreie5xvdcgz2zb2r5i2le2qcdjoaja6mfefpo57g5fs4knvfclcmkdi"
+  }
+}
