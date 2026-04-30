@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1777573934162471,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mkqarhknzu24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mkqarj6qs22l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-30T18:32:14.817Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidi2vh3d7lgsiqc5ujwuvygsdg3lzah3ybs75l5jdk2ofhintpyry",
+          "uri": "at://did:plc:clie37yk74fqfoc67rrhvdsj/app.bsky.feed.post/3mkq6xr3ols2w"
+        },
+        "root": {
+          "cid": "bafyreiff5baocvvedu2bvr27hjswcgzrdmw6xm644kr2n2rpkumr6wqloy",
+          "uri": "at://did:plc:idwhjzs5boatwv4zxwwcjk5i/app.bsky.feed.post/3mkpsti5ymk2z"
+        }
+      },
+      "text": "No need for the air quotes. 😉\n\nPowerShell is more of a programming language than a shell, and a much more advanced language than most people realize."
+    },
+    "cid": "bafyreicejxmuh4n4trg3llxprax7uco6uboonhhv6ntmjind2eymdifxd4"
+  }
+}
