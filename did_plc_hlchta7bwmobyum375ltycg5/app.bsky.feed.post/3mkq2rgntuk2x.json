@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1777567489125610,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mkq2rfcqjx2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mkq2rgntuk2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-30T16:44:49.714Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigaoq2vmnniohr55s7llfq3pqsid73zsgvq6jmnpwohl7lb3x5cwq",
+          "uri": "at://did:plc:zmvctxbcchuvnx4a76tla3ex/app.bsky.feed.post/3mkp6p5etvk2y"
+        },
+        "root": {
+          "cid": "bafyreic5ptdw2ocfiokmms5wo4n4ey6wllmtsnf7oqh4gzot4vs2ggyhui",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mknu4pq3pk2e"
+        }
+      },
+      "text": "-Verbose will spit back out whatever commands are being run.\n\nExtensions are debuggable as well, and generally just return a list of arguments to ffmpeg."
+    },
+    "cid": "bafyreigk6bm2nznvsoftezhuddmgsknwcddoj34breaxqktovvypjzlegi"
+  }
+}
