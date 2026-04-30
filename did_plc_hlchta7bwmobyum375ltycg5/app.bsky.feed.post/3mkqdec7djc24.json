@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1777576727186975,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mkqdeq3p722r",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mkqdec7djc24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-04-30T19:18:32.514Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig2tsldcg5xx7btvov76hhty5wf7kqrl4ysskuo6dd5m5fhvekim4",
+          "uri": "at://did:plc:clie37yk74fqfoc67rrhvdsj/app.bsky.feed.post/3mkqbl4a2zs2o"
+        },
+        "root": {
+          "cid": "bafyreiff5baocvvedu2bvr27hjswcgzrdmw6xm644kr2n2rpkumr6wqloy",
+          "uri": "at://did:plc:idwhjzs5boatwv4zxwwcjk5i/app.bsky.feed.post/3mkpsti5ymk2z"
+        }
+      },
+      "text": "So sad to hear Computer Science education has not improved ...\n\nI love C++, and, also, IMO, it's not a good teaching language.  Neither is Java.\n\nA classical CS education is filled with so much stuff people should never use.\n\n(IMO, I don't think Joe Schmoe should be making an OS)"
+    },
+    "cid": "bafyreid5djh2totboocuobzdldppsdyulj2jubatbmycippkejwbmxmnyu"
+  }
+}
