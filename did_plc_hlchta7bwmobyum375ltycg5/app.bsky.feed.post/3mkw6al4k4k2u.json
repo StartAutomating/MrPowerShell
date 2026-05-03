@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1777777377479249,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mkw6al5ac62p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mkw6al4k4k2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-03T03:02:57.363Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigqkvx64jdcp357bjx5po4il2yv2kvrk3kiwjonkrrmoarfd5cazy",
+          "uri": "at://did:plc:tg3tb5wukiml4xmxml6qm637/app.bsky.feed.post/3mkvr3esaec2k"
+        },
+        "root": {
+          "cid": "bafyreia2bcihtjvu66oiivmbd3l7s5hzjx2jra7ohadrnxai2746r65bzq",
+          "uri": "at://did:plc:dyidtvrczrdyracol7td4qtf/app.bsky.feed.post/3mkvnpqj53s2x"
+        }
+      },
+      "text": "I feel like attempts to improve tab completion may have backfired.  And that defender scanning, while somewhat required for safety, slows down PowerShell on Windows so much.\n\nHonestly prefer PowerShell on Linux most days.\n\nBut 🤷 most software is still Windows."
+    },
+    "cid": "bafyreiahk4725dlctmc3lryv3nldlw5cze5khts2wkypfqmfm6o5fnbdka"
+  }
+}
