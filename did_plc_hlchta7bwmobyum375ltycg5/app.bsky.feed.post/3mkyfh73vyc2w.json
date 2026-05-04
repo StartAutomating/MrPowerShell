@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1777853833676063,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mkyfh5j7nw2j",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mkyfh73vyc2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-04T00:17:15.308Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibr4cu426coctdf3ms5f2q3th6jeqgmihqdhq5aszgnhzx5kj3c5i",
+          "uri": "at://did:plc:3egbcs5slg2bqjd3zsbtuhau/app.bsky.feed.post/3mkydn3zrg22x"
+        },
+        "root": {
+          "cid": "bafyreibr4cu426coctdf3ms5f2q3th6jeqgmihqdhq5aszgnhzx5kj3c5i",
+          "uri": "at://did:plc:3egbcs5slg2bqjd3zsbtuhau/app.bsky.feed.post/3mkydn3zrg22x"
+        }
+      },
+      "text": "What PowerShell version?  Which em dashes?\n\nLong long ago I believe we made PowerShell accept the emdash from word / outlook, because it was far easier than explaining the bug.\n\nSome smart quotes work, too.\n\nMore \"whack-a-mole\" may be required."
+    },
+    "cid": "bafyreibvgjh7kmalvo7jrhsgoztwhgislcf6ui6wilj3opmz3mmjfrbhye"
+  }
+}
