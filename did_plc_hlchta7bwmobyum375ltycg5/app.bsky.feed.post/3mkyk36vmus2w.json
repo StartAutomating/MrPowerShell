@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1777858799967306,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mkyk35of5g2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mkyk36vmus2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-04T01:40:01.159Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifcht4gqn4wkjnacmbtk64u6og2hdiq5jkhpta2gpy7dod5pfhqtq",
+          "uri": "at://did:plc:3egbcs5slg2bqjd3zsbtuhau/app.bsky.feed.post/3mkyiumerm22q"
+        },
+        "root": {
+          "cid": "bafyreibr4cu426coctdf3ms5f2q3th6jeqgmihqdhq5aszgnhzx5kj3c5i",
+          "uri": "at://did:plc:3egbcs5slg2bqjd3zsbtuhau/app.bsky.feed.post/3mkydn3zrg22x"
+        }
+      },
+      "text": "Also, on the subject... Really wish MSP stuff would stop running as SYSTEM.\n\nThere are very good reasons this is not recommended, and it's really not that hard to run under better contexts and delegate.\n\n🤔 May need to reach out and try to correct bad behaviors."
+    },
+    "cid": "bafyreiahriykuz56dgrjejfi73uo2qmybpezypnodjjx6ucox7anp4ani4"
+  }
+}
