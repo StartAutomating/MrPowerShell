@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1777858702369600,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mkyjyalyv22b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mkyjyci3bk2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-04T01:38:24.246Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifcht4gqn4wkjnacmbtk64u6og2hdiq5jkhpta2gpy7dod5pfhqtq",
+          "uri": "at://did:plc:3egbcs5slg2bqjd3zsbtuhau/app.bsky.feed.post/3mkyiumerm22q"
+        },
+        "root": {
+          "cid": "bafyreibr4cu426coctdf3ms5f2q3th6jeqgmihqdhq5aszgnhzx5kj3c5i",
+          "uri": "at://did:plc:3egbcs5slg2bqjd3zsbtuhau/app.bsky.feed.post/3mkydn3zrg22x"
+        }
+      },
+      "text": "Yes.  And / also, speaking as someone who helped people at Kaseya learn about PowerShell ( and formerly maintained a couple of products for them)\n\nKaseya still likely has much to learn about PowerShell.\n\n🤷 I wish more MSPs and toolmakers understood the language more."
+    },
+    "cid": "bafyreifpl5epptpda4uloqveg5ih7blyea6zbh5cubp5abn3iqtedkljam"
+  }
+}
