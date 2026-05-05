@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1777965151611422,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ml3n4nqcfo2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ml3n3xymm22o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-05T07:12:07.913Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ManicMonday"
+            }
+          ],
+          "index": {
+            "byteEnd": 35,
+            "byteStart": 23
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 225,
+            "byteStart": 214
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 237,
+            "byteStart": 230
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just finished the most #ManicMonday I've had in a long while.\n\nDay full of meetings, bunches of little script work, followed by my Microsoft MVP renewal paperwork. \n\nJust had to try to write down every interesting #PowerShell and #WebDev project in the past year.  \n\nFun rushed trip down memory lane."
+    },
+    "cid": "bafyreifjryimaymge7gjwvvx7jze6fh76bv4vqxezvwndqdbw2zuiga7ni"
+  }
+}
