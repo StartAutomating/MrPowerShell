@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778287566666033,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mlezfawopc2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mlezfbbmgc2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-09T00:46:02.181Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib5bmpik2sdm2gx5eddyhnlunnlabjg7cvttp7ngre5kweg57stwq",
+          "uri": "at://did:plc:cyfxpwfolkxylyike4yekbsy/app.bsky.feed.post/3mlespyjqf22g"
+        },
+        "root": {
+          "cid": "bafyreibgf2m6fkuflzk4uqz55gx4rbiha6qugg3q4ruv4x2kydfo43aegi",
+          "uri": "at://did:plc:54kh56oq3apqakeseblz4ruq/app.bsky.feed.post/3mldi3o3qwz25"
+        }
+      },
+      "text": "Jokes on you.  It's built into Windows.  You can't uninstall it.  And lots of stuff wouldn't work if you did.\n\nBeyond that PowerShell is awesome.\n\nEven on Linux 😉"
+    },
+    "cid": "bafyreifngh5ozhkhhftvzb6fxduzdgi7haviylqd55zcbpzj6uxm7jg5yy"
+  }
+}
