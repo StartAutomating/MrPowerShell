@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778287389292822,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mleza4awkt2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mleza45klc2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-09T00:43:09.032Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig2h2lwomujxatm4ha6qgixbjdmobti2hfiwbob7qeo6pdvul43yq",
+          "uri": "at://did:plc:54kh56oq3apqakeseblz4ruq/app.bsky.feed.post/3mldqdghzyw2b"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreibgf2m6fkuflzk4uqz55gx4rbiha6qugg3q4ruv4x2kydfo43aegi",
+          "uri": "at://did:plc:54kh56oq3apqakeseblz4ruq/app.bsky.feed.post/3mldi3o3qwz25"
+        }
+      },
+      "text": "This was kinda intentional.\n\nHaving a taxonomy you can recognize and explore with some predictability was the goal of PowerShell's naming conventions.\n\nIn this case things are a little more complicated / annoying because this uses the Registry provider."
+    },
+    "cid": "bafyreiexmxpeae4o44xkqd4hxnoxvulsl5ltm5h7j7jfx2mbx3cyo24viu"
+  }
+}
