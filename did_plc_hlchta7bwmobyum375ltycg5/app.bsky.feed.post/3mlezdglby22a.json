@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778287501909363,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mlezdgo67v2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mlezdglby22a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-09T00:45:00.633Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia6fzs3zoy3lytheodeqnwdsw4uqbw3dqvbe5hqegoelu77lcp2sy",
+          "uri": "at://did:plc:54kh56oq3apqakeseblz4ruq/app.bsky.feed.post/3mldqgfyfq62h"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreibgf2m6fkuflzk4uqz55gx4rbiha6qugg3q4ruv4x2kydfo43aegi",
+          "uri": "at://did:plc:54kh56oq3apqakeseblz4ruq/app.bsky.feed.post/3mldi3o3qwz25"
+        }
+      },
+      "text": "Yah.  As previous reply alluded to...\n\nProviders are *kinda* like virtual filesystems but can represent anything ( flat lists or hierarchies ).\n\nThe Registry provider was implemented in some wonky ways, but basically revolves around getting / setting properties at a path.\n\nAka registry keys."
+    },
+    "cid": "bafyreiet6lyxnssefr3g375ilamxn7xaa4neg3burijvaos3dv3rpbfgky"
+  }
+}
