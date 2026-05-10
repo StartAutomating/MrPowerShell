@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778440403214826,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mljhqbnt4f2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mljhqbzlb22n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-10T19:13:23.404Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihljlphgj23mif55nvmcpzhew3e4n3fcgg2mybi6gru4fwgmb632m",
+          "uri": "at://did:plc:i55fkgcwrczbj7edpucwl5mz/app.bsky.feed.post/3mlj5ses4lo2u"
+        },
+        "root": {
+          "cid": "bafyreihljlphgj23mif55nvmcpzhew3e4n3fcgg2mybi6gru4fwgmb632m",
+          "uri": "at://did:plc:i55fkgcwrczbj7edpucwl5mz/app.bsky.feed.post/3mlj5ses4lo2u"
+        }
+      },
+      "text": "Mostly with you.\n\nI prefer to abstract pipelines into a series of a-la-carte optional jobs or steps.\n\nOr, better yet, make pipelines that just call a single script.\n\nIMO: The more complicated the YAML is to write, the worse the pipeline is.\n\nIf it's easy, it's good."
+    },
+    "cid": "bafyreihnvr4574ahnp3ywsgw6cynjwsqrdxem56gfanqzf2am6n4jiizje"
+  }
+}
