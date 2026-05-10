@@ -1,0 +1,80 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778450372400120,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mljqzf4mkd2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mljqye2ng22e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-10T21:58:57.649Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "YAML"
+            }
+          ],
+          "index": {
+            "byteEnd": 52,
+            "byteStart": 47
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 129,
+            "byteStart": 118
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHubAction"
+            }
+          ],
+          "index": {
+            "byteEnd": 209,
+            "byteStart": 196
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHubWorkflows"
+            }
+          ],
+          "index": {
+            "byteEnd": 251,
+            "byteStart": 235
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihljlphgj23mif55nvmcpzhew3e4n3fcgg2mybi6gru4fwgmb632m",
+          "uri": "at://did:plc:i55fkgcwrczbj7edpucwl5mz/app.bsky.feed.post/3mlj5ses4lo2u"
+        },
+        "root": {
+          "cid": "bafyreihljlphgj23mif55nvmcpzhew3e4n3fcgg2mybi6gru4fwgmb632m",
+          "uri": "at://did:plc:i55fkgcwrczbj7edpucwl5mz/app.bsky.feed.post/3mlj5ses4lo2u"
+        }
+      },
+      "text": "Actually, one more thing:\n\nI _strongly_ prefer #YAML pipelines are as simple as possible.\n\nIMO, they should just be a #PowerShell script that uses the environment variables.\n\nOr a call to another #GitHubAction\n\nDo this to improve your #GitHubWorkflows."
+    },
+    "cid": "bafyreibwb3syfih3ggm2aemcjmujdbrd2twi6ccblhzp77dnadmokwpzb4"
+  }
+}
