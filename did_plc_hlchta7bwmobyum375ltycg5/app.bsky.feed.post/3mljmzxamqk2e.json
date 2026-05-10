@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778446134481654,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mljn337jhz2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mljmzxamqk2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-10T20:48:16.355Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Two conspiracy obsessed young men kidnap the high-powered CEO of a major company, convinced that she is an alien intent on destroying planet Earth.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreier3fftki2lz5evq47jtaxpepm76g2ggokrqvuvk2rawmv47su4rm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 924457
+          },
+          "title": "Bugonia (2025)",
+          "uri": "https://letterboxd.com/film/bugonia/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://letterboxd.com/film/bugonia/"
+            }
+          ],
+          "index": {
+            "byteEnd": 168,
+            "byteStart": 140
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Is Bugonia better or worse without subtitles on the last scene? (the Netflix version did not have them)\n\nIMO, pretty damn good either way.\n\nletterboxd.com/film/bugonia/"
+    },
+    "cid": "bafyreifkhet3exyx5ibuvj7j47qxuyuazudagsayvihgz2y4slwk5he4sa"
+  }
+}
