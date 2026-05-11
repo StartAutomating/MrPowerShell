@@ -1,0 +1,267 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778457426723216,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mljxlhhyqn2b",
+    "operation": "create",
+    "collection": "site.standard.document",
+    "rkey": "3mljvycddjqj2",
+    "record": {
+      "$type": "site.standard.document",
+      "content": {
+        "$type": "blog.pckt.content",
+        "items": [
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "I've been using PowerShell for a pretty long time, and I have some thoughts on profiles."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's share some of what I think makes a good profile and a bad profile."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "PowerShell Profiles"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "The profiles are the script run when a PowerShell launched.  Any user can have a profile, and all users can have a profile.  "
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "You can get the current profiles by just using $profile.  You can create a profile like this:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "python"
+            },
+            "plaintext": "New-Item -ItemType File -Path $profile -Value {\n    \"Welcome to PowerShell\"\n}"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "You can edit these files in any editor."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "You can skip these files by running PowerShell with -NoProfile."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "It's a simple as that."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Profiles are Good"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Profiles can contain anything, and it will run when you start."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This is a handy feature."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "You can run anything in a profile."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Just because you can, doesn't mean you should."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Profile Pitfalls"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Profiles have their pitfalls."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "The biggest common pitfall is performance."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "If your scripts are slow, and you run a lot of them in your profile, PowerShell will take a lot of time to start."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "If you set variables, they will be there for you to use.  If they have common names and strongly constrained, this might cause unexpected issues running other scripts."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "You can mitigate these pitfalls by:"
+          },
+          {
+            "$type": "blog.pckt.block.bulletList",
+            "content": [
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "Loading only a few small scripts and modules"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "Giving variables obvious names"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "In my opinion, this is the biggest thing to understand in profiles.  Avoid the pitfalls, and profiles can be really useful."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Try to keep a low profile, and things are great."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Perfect Profiles"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "In my opinion, the perfect profile is short, simple, and sweet."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "They will:"
+          },
+          {
+            "$type": "blog.pckt.block.bulletList",
+            "content": [
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "Edit any environment variables"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "Import any modules"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "Declare any variables"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "Personalize settings"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "I'd recommend roughly that order."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Personal Profile"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "At time of writing, this is my VSCode Windows profile:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "<#\n.SYNOPSIS\n    This is my VSCode profile.\n.DESCRIPTION\n    This is my VSCode profile.  It runs when PowerShell starts in VSCode.\n.NOTES\n    This is my VSCode profile.\n    There are many profiles like it.\n    This one is mine.\n#>\n\n#region Edit Environment\n# I want to load all older modules implicitly\nif ($env:PSModulePath  -split ';' -notlike '*windowsPowerShell*') {\n    $env:PSModulePath += \";$home\\Documents\\WindowsPowerShell\\Modules\"\n}\n#endregion Edit Environment\n\n#region Import Modules\nImport-Module ugit,posh -Force\n#endregion Import Modules\n\n#region Declare Variables\n$myModules = \"$home\\Documents\\WindowsPowerShell\\Modules\"\n$scratch   = \"$home\\Documents\\WindowsPowerShell\\scratch\"\n\n$enhancement = @('--label', 'enhancement')\n$bug = @('--label', 'bug')\n$assignMe = @('--assignee', '@me')\n$allIssues = @('--state', 'all', '--limit', 2kb)\n$issueJson = @('--json', (\n    'assignees','author','body','closed','closedAt',\n    'closedByPullRequestsReferences','comments','createdAt',\n    'isPinned','labels','milestone','number','reactionGroups',\n    'state','stateReason','title','updatedAt','url' -join ','    \n))\n#endregion Declare Variables\n\n#region Personal Preferences\nif ($PSStyle) {\n    # Make directories a brighter blue\n    $PSStyle.FileInfo.Directory = \"`e[1;36m\"\n}\n#endregion Personal Preferences\n"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 27,
+                  "byteStart": 23
+                }
+              }
+            ],
+            "plaintext": "I'm not saying this is your perfect profile, but it's a pretty good and simple example of what you can do with profiles."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "I'd recommend you keep your profiles short, simple, and sweet."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "If they are longer than this post, you're in trouble."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Just remember to keep a low profile, and you'll be good to go."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Hope this Helps,"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "James"
+          }
+        ]
+      },
+      "coverImage": {
+        "$type": "blob",
+        "ref": {
+          "$link": "bafkreiggdqjckth5ioikfsorst7cpeg4s5ekiid2l6luxpy6wpq5yybmka"
+        },
+        "mimeType": "image/gif",
+        "size": 2100595
+      },
+      "description": "I've been using PowerShell for a pretty long time, and I have some thoughts on profiles. Let's share some of what I think makes a good profile and a bad profile. The profiles are the script run when a PowerShell launched. Any user can have a profile, and all users can have a profile.",
+      "path": "/powershell-profiles-8keunwy",
+      "publishedAt": "2026-05-10T23:28:24+00:00",
+      "site": "at://did:plc:hlchta7bwmobyum375ltycg5/site.standard.publication/3mdfcro5xe273",
+      "tags": [
+        "PowerShell",
+        "Intro"
+      ],
+      "textContent": "I've been using PowerShell for a pretty long time, and I have some thoughts on profiles.\nLet's share some of what I think makes a good profile and a bad profile.\nPowerShell Profiles\nThe profiles are the script run when a PowerShell launched.  Any user can have a profile, and all users can have a profile.  \nYou can get the current profiles by just using $profile.  You can create a profile like this:\nNew-Item -ItemType File -Path $profile -Value {\n    \"Welcome to PowerShell\"\n}\nYou can edit these files in any editor.\nYou can skip these files by running PowerShell with -NoProfile.\nIt's a simple as that.\nProfiles are Good\nProfiles can contain anything, and it will run when you start.\nThis is a handy feature.\nYou can run anything in a profile.\nJust because you can, doesn't mean you should.\nProfile Pitfalls\nProfiles have their pitfalls.\nThe biggest common pitfall is performance.\nIf your scripts are slow, and you run a lot of them in your profile, PowerShell will take a lot of time to start.\nIf you set variables, they will be there for you to use.  If they have common names and strongly constrained, this might cause unexpected issues running other scripts.\nYou can mitigate these pitfalls by:\nLoading only a few small scripts and modules\nGiving variables obvious names\nIn my opinion, this is the biggest thing to understand in profiles.  Avoid the pitfalls, and profiles can be really useful.\nTry to keep a low profile, and things are great.\nPerfect Profiles\nIn my opinion, the perfect profile is short, simple, and sweet.\nThey will:\nEdit any environment variables\nImport any modules\nDeclare any variables\nPersonalize settings\nI'd recommend roughly that order.\nPersonal Profile\nAt time of writing, this is my VSCode Windows profile:\n<#\n.SYNOPSIS\n    This is my VSCode profile.\n.DESCRIPTION\n    This is my VSCode profile.  It runs when PowerShell starts in VSCode.\n.NOTES\n    This is my VSCode profile.\n    There are many profiles like it.\n    This one is mine.\n#>\n\n#region Edit Environment\n# I want to load all older modules implicitly\nif ($env:PSModulePath  -split ';' -notlike '*windowsPowerShell*') {\n    $env:PSModulePath += \";$home\\Documents\\WindowsPowerShell\\Modules\"\n}\n#endregion Edit Environment\n\n#region Import Modules\nImport-Module ugit,posh -Force\n#endregion Import Modules\n\n#region Declare Variables\n$myModules = \"$home\\Documents\\WindowsPowerShell\\Modules\"\n$scratch   = \"$home\\Documents\\WindowsPowerShell\\scratch\"\n\n$enhancement = @('--label', 'enhancement')\n$bug = @('--label', 'bug')\n$assignMe = @('--assignee', '@me')\n$allIssues = @('--state', 'all', '--limit', 2kb)\n$issueJson = @('--json', (\n    'assignees','author','body','closed','closedAt',\n    'closedByPullRequestsReferences','comments','createdAt',\n    'isPinned','labels','milestone','number','reactionGroups',\n    'state','stateReason','title','updatedAt','url' -join ','    \n))\n#endregion Declare Variables\n\n#region Personal Preferences\nif ($PSStyle) {\n    # Make directories a brighter blue\n    $PSStyle.FileInfo.Directory = \"`e[1;36m\"\n}\n#endregion Personal Preferences\n\nI'm not saying this is your perfect profile, but it's a pretty good and simple example of what you can do with profiles.\nI'd recommend you keep your profiles short, simple, and sweet.\nIf they are longer than this post, you're in trouble.\nJust remember to keep a low profile, and you'll be good to go.\nHope this Helps,\nJames",
+      "title": "PowerShell Profiles",
+      "updatedAt": "2026-05-10T23:56:53+00:00"
+    },
+    "cid": "bafyreib4zhz5djjnegcj2hkhk5vsisq72j3t46ql7jpwqp3w67nrlwoh5e"
+  }
+}
