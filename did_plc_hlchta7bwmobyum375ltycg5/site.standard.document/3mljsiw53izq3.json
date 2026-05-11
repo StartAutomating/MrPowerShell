@@ -1,0 +1,218 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778457919126686,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mljy2c6gp72o",
+    "operation": "create",
+    "collection": "site.standard.document",
+    "rkey": "3mljsiw53izq3",
+    "record": {
+      "$type": "site.standard.document",
+      "content": {
+        "$type": "blog.pckt.content",
+        "items": [
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Brevity is the soul of wit, and I'm not always known for it."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "But let's try to make a quick post about a little daily PowerShell timesaver: splatting the GitHub CLI."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "I'm going to show you how you can save typing and time with the GitHub CLI."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "What is Splatting?"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Splatting is a simple technique in PowerShell.  It lets you pass multiple parameters.  It's been there since PowerShell version 2.  This is old, consistent technique."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Most people are used to splatting a dictionary, like:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "# You can splat a dictionary\n$MyId = @{id=$pid}\nGet-Process @MyId"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This is a cool and useful technique, and most people overlook the other half of splatting:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "# You can splat a list\n$allIssues = @('--state', 'all', '--limit, '2kb')\ngh issue list @allIssues"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "The Trick"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "You just saw it."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "There are millions of apps you could use this trick with."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "I just happen to use the github cli on most days."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "You're trading typing all of those arguments for typing a shorter string."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "It saves seconds every time you use it."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "And it's one simple line."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://pckt.blog/b/posh/powershell-profiles-8keunwy"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 32,
+                  "byteStart": 25
+                }
+              }
+            ],
+            "plaintext": "You can stick it in your profile and every time you're using PowerShell, you'll have those variables to use."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "You can just type this sort of trick in if you find yourself using the same parameters."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Think of it as a preset of parameters.  Because that's basically what it is."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Multiple Splats"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "It's important to know that you can do multiple splats."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Here's a simple example:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "$bug = @('--label', 'bug')\n$assignMe = @('--assignee', '@me')\n\ngh issue create --title 'Some Issue' --body 'Some problem' @bug @assignMe"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This would create a bug."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's make another, longer one:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "# Get issue information as json.\n$IssueAsJson= @('--json', (\n    'assignees','author','body','closed','closedAt',\n    'closedByPullRequestsReferences','comments','createdAt',\n    'isPinned','labels','milestone','number','reactionGroups',\n    'state','stateReason','title','updatedAt','url' -join ','    \n))\n\n$allIssues = @('--state', 'all', '--limit, '2kb')\n$IssueList = gh issue list @allIssues @IssueAsJson | ConvertFrom-Json\n$issueList"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "If you run this, you "
+          },
+          {
+            "$type": "blog.pckt.block.bulletList",
+            "content": [
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "List all of the issues from a repo as json"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "Convert them from json into objects"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://pckt.blog/b/posh/powershell-profiles-8keunwy"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 54,
+                  "byteStart": 47
+                }
+              }
+            ],
+            "plaintext": "Feel free to copy/paste these tricks into your profile.  They're handy!"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Hope This Helps,"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "James"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": ""
+          }
+        ]
+      },
+      "description": "Brevity is the soul of wit, and I'm not always known for it. But let's try to make a quick post about a little daily PowerShell timesaver: splatting the GitHub CLI. I'm going to show you how you can save typing and time with the GitHub CLI.",
+      "path": "/splatting-the-github-cli-hs8zt4e",
+      "publishedAt": "2026-05-10T22:26:07+00:00",
+      "site": "at://did:plc:hlchta7bwmobyum375ltycg5/site.standard.publication/3mdfcro5xe273",
+      "tags": [],
+      "textContent": "Brevity is the soul of wit, and I'm not always known for it.\nBut let's try to make a quick post about a little daily PowerShell timesaver: splatting the GitHub CLI.\nI'm going to show you how you can save typing and time with the GitHub CLI.\nWhat is Splatting?\nSplatting is a simple technique in PowerShell.  It lets you pass multiple parameters.  It's been there since PowerShell version 2.  This is old, consistent technique.\nMost people are used to splatting a dictionary, like:\n# You can splat a dictionary\n$MyId = @{id=$pid}\nGet-Process @MyId\nThis is a cool and useful technique, and most people overlook the other half of splatting:\n# You can splat a list\n$allIssues = @('--state', 'all', '--limit, '2kb')\ngh issue list @allIssues\nThe Trick\nYou just saw it.\nThere are millions of apps you could use this trick with.\nI just happen to use the github cli on most days.\nYou're trading typing all of those arguments for typing a shorter string.\nIt saves seconds every time you use it.\nAnd it's one simple line.\nYou can stick it in your profile and every time you're using PowerShell, you'll have those variables to use.\nYou can just type this sort of trick in if you find yourself using the same parameters.\nThink of it as a preset of parameters.  Because that's basically what it is.\nMultiple Splats\nIt's important to know that you can do multiple splats.\nHere's a simple example:\n$bug = @('--label', 'bug')\n$assignMe = @('--assignee', '@me')\n\ngh issue create --title 'Some Issue' --body 'Some problem' @bug @assignMe\nThis would create a bug.\nLet's make another, longer one:\n# Get issue information as json.\n$IssueAsJson= @('--json', (\n    'assignees','author','body','closed','closedAt',\n    'closedByPullRequestsReferences','comments','createdAt',\n    'isPinned','labels','milestone','number','reactionGroups',\n    'state','stateReason','title','updatedAt','url' -join ','    \n))\n\n$allIssues = @('--state', 'all', '--limit, '2kb')\n$IssueList = gh issue list @allIssues @IssueAsJson | ConvertFrom-Json\n$issueList\nIf you run this, you \nList all of the issues from a repo as json\nConvert them from json into objects\nFeel free to copy/paste these tricks into your profile.  They're handy!\nHope This Helps,\nJames",
+      "title": "Splatting the GitHub CLI",
+      "updatedAt": "2026-05-11T00:05:16+00:00"
+    },
+    "cid": "bafyreihigznp62v3en7aunbie52dyjaxow2l7zhfnhfznfviqrwakkytje"
+  }
+}
