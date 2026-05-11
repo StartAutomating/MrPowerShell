@@ -1,0 +1,87 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778457587194257,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mljxqejgid2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mljxpbfxl226",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-10T23:59:09.076Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "I've been using PowerShell for a pretty long time, and I have some thoughts on profiles. Let's share some of what I think makes a good profile and a bad profile...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreignycyggpuoxoqv5ubf7mmq4evgdfuy6mpdbwzuuf5lp2vuv3blge"
+            },
+            "mimeType": "image/jpeg",
+            "size": 957288
+          },
+          "title": "PowerShell Profiles - PowerShell Pocket Blog",
+          "uri": "https://pckt.blog/b/posh/powershell-profiles-8keunwy"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Posh"
+            }
+          ],
+          "index": {
+            "byteEnd": 21,
+            "byteStart": 16
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:revjuqmkvrw6fnkxppqtszpv"
+            }
+          ],
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 22
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://pckt.blog/b/posh/powershell-profiles-8keunwy"
+            }
+          ],
+          "index": {
+            "byteEnd": 204,
+            "byteStart": 179
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "New #PowerShell #Posh @pckt.blog post alert!\n\nThis one's all about profiles.\n\nLearn how to keep a low profile and avoid pitfalls, so you can have the perfect PowerShell profile.\n\npckt.blog/b/posh/power..."
+    },
+    "cid": "bafyreifcpbyuebs6udvcgm5axsh7pzsrimvjypls72fbbe4r32qak6mv4m"
+  }
+}
