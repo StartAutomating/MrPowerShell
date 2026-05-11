@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778525991294147,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mllxgym7fm2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mllxfv34xc2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-11T18:59:13.626Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Brevity is the soul of wit, and I'm not always known for it. But let's try to make a quick post about a little daily PowerShell timesaver: splatting the GitHub...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreid3n6gpjfj6uuqsvgkcdshkumfjj4zs2lzadcs7bdjt4cekjhske4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 71058
+          },
+          "title": "Splatting the GitHub CLI - PowerShell Pocket Blog",
+          "uri": "https://pckt.blog/b/posh/splatting-the-github-cli-hs8zt4e"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 53,
+            "byteStart": 46
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 75,
+            "byteStart": 64
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://pckt.blog/b/posh/splatting-the-github-cli-hs8zt4e"
+            }
+          ],
+          "index": {
+            "byteEnd": 172,
+            "byteStart": 147
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Want to save yourself time every day with the #GitHub CLI?\n\nUse #PowerShell Splatting.\n\nSave precious seconds every time with a simple one-liner.\n\npckt.blog/b/posh/splat..."
+    },
+    "cid": "bafyreihkz4gh44m5iofbbk6abhbktcszbmkw5tzvf6fifvm7lbq56rb7mu"
+  }
+}
