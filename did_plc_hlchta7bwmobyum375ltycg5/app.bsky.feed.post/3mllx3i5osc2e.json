@@ -1,0 +1,62 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778525646902870,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mllx4nahx423",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mllx3i5osc2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-11T18:53:24.534Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "NuGet and Chocolatey are a lot more tasty than you might think.\n\nFor example, did you know we can turn any package into a web server? That's pretty sweet! We can also scan",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreietdiopkji2kubtwrrvcl2xbn56mvzzsllxtnh5lzhef4bell3fvm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 372269
+          },
+          "title": "Open Packages are Overpowered, Wed, May 13, 2026, 6:00 PM   | Meetup",
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/events/314739192/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/314739192/"
+            }
+          ],
+          "index": {
+            "byteEnd": 262,
+            "byteStart": 232
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Hey #PowerShell people:\n\nThis month's Pacific PowerShell User Group is about Open Packages:\n\nAnything can become an Open Package\n\nAny Open Package can be an app\n\nDrop by to learn about Open Packages and making apps with PowerShell\n\nwww.meetup.com/pacific-powe..."
+    },
+    "cid": "bafyreihz2aenu2lacsc26d5uzsdoskjx2q7tmkfhtuwk2k7xe7wty7sxre"
+  }
+}
