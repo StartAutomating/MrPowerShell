@@ -1,0 +1,352 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778612496195860,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mlohyzifu32u",
+    "operation": "create",
+    "collection": "site.standard.document",
+    "rkey": "3mlm73mgi7li6",
+    "record": {
+      "$type": "site.standard.document",
+      "content": {
+        "$type": "blog.pckt.content",
+        "items": [
+          {
+            "$type": "blog.pckt.block.image",
+            "attrs": {
+              "align": "center",
+              "alt": "Jack finds out about PowerShell freeform functions.",
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreihs42r33mjivsf2uh27cl7lidati73nmh7wbrnkafvjuixsu6v5tm"
+                },
+                "mimeType": "image/gif",
+                "size": 589312
+              },
+              "src": "blob:bafkreihs42r33mjivsf2uh27cl7lidati73nmh7wbrnkafvjuixsu6v5tm"
+            }
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We all yearn for freedom."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We want to be free from tyranny.  We want to be free to live.  We want to be free to do things we enjoy."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Some of us yearn to be free of PowerShell's parameter structure."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We might want to pass a prompt to AI."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We might want to pass parameters to an exe without rewriting them."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We might want to rewrite them."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "There are all sorts of reasons you might want to be free of parameter binding in PowerShell."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Whatever yours might be, I'm going to highlight three approaches to making freeform functions in PowerShell.  "
+          },
+          {
+            "$type": "blog.pckt.block.orderedList",
+            "attrs": {
+              "start": 1
+            },
+            "content": [
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "Freeform functions"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "Freeform Filters"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "Freeform Cmdlets"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "These functions will accept any input and any parameters."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This makes it so the parameter binding never fails."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This can be beneficial, and it can be problematic."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Freeform Functions"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Back in the days of PowerShell 1.0, functions didn't have complex parameters.  "
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "They didn't have validation.  They didn't have inline help.  They were fairly simple functions."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "They just had an object pipeline of input, and any variables in the input would be bound by position."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "The PowerShell language is backwards compatible, so this low-level capability never went away."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "It's always been there and should always be there."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "With all of that in mind, here's how we write a freeform function using this fundamental trick:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "# A freeform function\nfunction freeform {@($input) + @($args)}\n\n# A quick example with pipeline and arguments\n1..3 | freeform \"I want to break free!\" \"God Knows\" \"God Knows\" \"I want to break free!\""
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "One quick note:  $input can only be read once.  "
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Once you read the input, the objects break free."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "With that in mind, I'd recommend a slight variation of freeform:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "# A freeform function\nfunction freeform {\n   $allInput = @($input)\n   $allInput + $args\n}\n\n# A quick example with pipeline and arguments\n1..3 | freeform \"I want to break free!\" \"God Knows\" \"God Knows\" \"I want to break free!\""
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Of course, you're free to do whatever you'd like.  That's one of the joys of freedom."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Freeform Function Performance"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Another joy of freeform functions is performance."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "The PowerShell parameter binder is cool, and it is complex.  Writing PowerShell in this format is many orders of magnitude faster than a function with complex parameter binding."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "If you want extraordinarily fast functions, this trick is your best friend."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Don't believe me?  Try piping a million items into that function.  It's pretty snappy."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This performance benefit also happens because we are not having to do a begin, process, and end block.  Everything is happening as soon as the million items all came thru the pipeline."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Freeform functions are wonderful this way.  But what if we wanted to process each item as they came in, and still have flexible arguments?"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "That's what filters are for."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Freeform Filters"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Filters are another part of PowerShell arcana."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "They were also introduced in v1 and never went away."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's make a freeform filter"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": [],
+            "plaintext": "filter freeform {\n   $_ # Output our input\n   $args # Output our arguments\n}\n\n# Run our filter three times.\n# We will see 1,2,3 followed by the word \"filter\"\n1..3 | freeform \"filter\""
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Filters are also decently fast."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 42,
+                  "byteStart": 36
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 76,
+                  "byteStart": 72
+                }
+              }
+            ],
+            "plaintext": "Fun factoid:  filters are looked up before functions. This gives them a very slight performance edge on functions.  If you're piping in lots of items, this slight edge will disappear."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "While both of these techniques are quite fast, speed isn't the only thing that matters."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Sometimes we might want to have a freeform function that has additional parameters."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Freeform Script Cmdlets"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "PowerShell v2 brought the full parameter binding capabilities to PowerShell functions.  Sometimes these functions are called \"advanced functions\".  They were originally called \"Script Cmdlets\".  If we want tab completion and types and we still want a freeform function, we can get there with a pair of parameters."
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "function freeform {\n   [CmdletBinding(PositionalBinding=$false)]\n   param(\n   # This parameter will take any arguments\n   [Parameter(ValueFromRemainingArguments)]\n   [Alias('Arguments', 'Argument', 'Args')]\n   [PSObject[]]\n   $ArgumentList,\n\n   # This parameter will take any input\n   [Parameter(ValueFromPipeline)]\n   [PSObject[]]\n   $InputObject\n   )\n\n   # `$InputObject` would contain the _last_ input\n   # so we can use `$Input` to store any piped input\n   $AllInput = @($input)\n   # If there was no piped input, we did not pipe input.\n   # We can still populate `$AllInput` based off the `$InputObject`\n   if (-not $allInput) { $allInput += $InputObject }\n\n   $allInput\n   $ArgumentList\n}\n\n1..3 | freeform \"Freedom!\""
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This last freeform format might be a bit slower, but it's a lot more friendly to inline help and tab completion.  We can create additional parameters if we want.  They can be strongly typed and validated.  We can even create additional parameter sets.  We are free to do whatever we want."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Freeform Fun"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Freedom from the PowerShell parameter parser can be a wonderful thing."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can treat parameters as natural language."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can make our parameters into a Domain Specific Language (DSL)."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://github.com/PoshWeb/Turtle"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 60,
+                  "byteStart": 54
+                }
+              }
+            ],
+            "plaintext": "For an amazing module that uses this trick, check out Turtle.  Turtle uses freeform functions to give us a logo like syntax within PowerShell."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Try making some freeform functions and enjoy the freedom they bring."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Hope this helps,"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "James"
+          }
+        ]
+      },
+      "coverImage": {
+        "$type": "blob",
+        "ref": {
+          "$link": "bafkreihs42r33mjivsf2uh27cl7lidati73nmh7wbrnkafvjuixsu6v5tm"
+        },
+        "mimeType": "image/gif",
+        "size": 589312
+      },
+      "description": "We all yearn for freedom. We want to be free from tyranny. We want to be free to live. We want to be free to do things we enjoy. Some of us yearn to be free of PowerShell's parameter structure.",
+      "path": "/freeform-functions-d1uy23r",
+      "publishedAt": "2026-05-11T21:16:38+00:00",
+      "site": "at://did:plc:hlchta7bwmobyum375ltycg5/site.standard.publication/3mdfcro5xe273",
+      "tags": [],
+      "textContent": "We all yearn for freedom.\nWe want to be free from tyranny.  We want to be free to live.  We want to be free to do things we enjoy.\nSome of us yearn to be free of PowerShell's parameter structure.\nWe might want to pass a prompt to AI.\nWe might want to pass parameters to an exe without rewriting them.\nWe might want to rewrite them.\nThere are all sorts of reasons you might want to be free of parameter binding in PowerShell.\nWhatever yours might be, I'm going to highlight three approaches to making freeform functions in PowerShell.  \nFreeform functions\nFreeform Filters\nFreeform Cmdlets\nThese functions will accept any input and any parameters.\nThis makes it so the parameter binding never fails.\nThis can be beneficial, and it can be problematic.\nFreeform Functions\nBack in the days of PowerShell 1.0, functions didn't have complex parameters.  \nThey didn't have validation.  They didn't have inline help.  They were fairly simple functions.\nThey just had an object pipeline of input, and any variables in the input would be bound by position.\nThe PowerShell language is backwards compatible, so this low-level capability never went away.\nIt's always been there and should always be there.\nWith all of that in mind, here's how we write a freeform function using this fundamental trick:\n# A freeform function\nfunction freeform {@($input) + @($args)}\n\n# A quick example with pipeline and arguments\n1..3 | freeform \"I want to break free!\" \"God Knows\" \"God Knows\" \"I want to break free!\"\nOne quick note:  $input can only be read once.  \nOnce you read the input, the objects break free.\nWith that in mind, I'd recommend a slight variation of freeform:\n# A freeform function\nfunction freeform {\n   $allInput = @($input)\n   $allInput + $args\n}\n\n# A quick example with pipeline and arguments\n1..3 | freeform \"I want to break free!\" \"God Knows\" \"God Knows\" \"I want to break free!\"\nOf course, you're free to do whatever you'd like.  That's one of the joys of freedom.\nFreeform Function Performance\nAnother joy of freeform functions is performance.\nThe PowerShell parameter binder is cool, and it is complex.  Writing PowerShell in this format is many orders of magnitude faster than a function with complex parameter binding.\nIf you want extraordinarily fast functions, this trick is your best friend.\nDon't believe me?  Try piping a million items into that function.  It's pretty snappy.\nThis performance benefit also happens because we are not having to do a begin, process, and end block.  Everything is happening as soon as the million items all came thru the pipeline.\nFreeform functions are wonderful this way.  But what if we wanted to process each item as they came in, and still have flexible arguments?\nThat's what filters are for.\nFreeform Filters\nFilters are another part of PowerShell arcana.\nThey were also introduced in v1 and never went away.\nLet's make a freeform filter\nfilter freeform {\n   $_ # Output our input\n   $args # Output our arguments\n}\n\n# Run our filter three times.\n# We will see 1,2,3 followed by the word \"filter\"\n1..3 | freeform \"filter\"\nFilters are also decently fast.\nFun factoid:  filters are looked up before functions. This gives them a very slight performance edge on functions.  If you're piping in lots of items, this slight edge will disappear.\nWhile both of these techniques are quite fast, speed isn't the only thing that matters.\nSometimes we might want to have a freeform function that has additional parameters.\nFreeform Script Cmdlets\nPowerShell v2 brought the full parameter binding capabilities to PowerShell functions.  Sometimes these functions are called \"advanced functions\".  They were originally called \"Script Cmdlets\".  If we want tab completion and types and we still want a freeform function, we can get there with a pair of parameters.\nfunction freeform {\n   [CmdletBinding(PositionalBinding=$false)]\n   param(\n   # This parameter will take any arguments\n   [Parameter(ValueFromRemainingArguments)]\n   [Alias('Arguments', 'Argument', 'Args')]\n   [PSObject[]]\n   $ArgumentList,\n\n   # This parameter will take any input\n   [Parameter(ValueFromPipeline)]\n   [PSObject[]]\n   $InputObject\n   )\n\n   # `$InputObject` would contain the _last_ input\n   # so we can use `$Input` to store any piped input\n   $AllInput = @($input)\n   # If there was no piped input, we did not pipe input.\n   # We can still populate `$AllInput` based off the `$InputObject`\n   if (-not $allInput) { $allInput += $InputObject }\n\n   $allInput\n   $ArgumentList\n}\n\n1..3 | freeform \"Freedom!\"\nThis last freeform format might be a bit slower, but it's a lot more friendly to inline help and tab completion.  We can create additional parameters if we want.  They can be strongly typed and validated.  We can even create additional parameter sets.  We are free to do whatever we want.\nFreeform Fun\nFreedom from the PowerShell parameter parser can be a wonderful thing.\nWe can treat parameters as natural language.\nWe can make our parameters into a Domain Specific Language (DSL).\nFor an amazing module that uses this trick, check out Turtle.  Turtle uses freeform functions to give us a logo like syntax within PowerShell.\nTry making some freeform functions and enjoy the freedom they bring.\nHope this helps,\nJames",
+      "title": "Freeform Functions",
+      "updatedAt": "2026-05-12T19:01:30+00:00"
+    },
+    "cid": "bafyreied2zsgcyvjwa4y2yq53ojai43fnnunu3wk5thzzpfj7ruasaiknm"
+  }
+}
