@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778625082527739,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mlotq5m3ev2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mlotq7maw223",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-12T22:31:24.464Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidlzm5nojub2k5iyk5fuwjg6bfukbnike4lyrlcjsrfewrbnc2ejy",
+          "uri": "at://did:plc:qb2mmvmofxkkzwn4nnj4svpo/app.bsky.feed.post/3mlopfpkda22s"
+        },
+        "root": {
+          "cid": "bafyreidlzm5nojub2k5iyk5fuwjg6bfukbnike4lyrlcjsrfewrbnc2ejy",
+          "uri": "at://did:plc:qb2mmvmofxkkzwn4nnj4svpo/app.bsky.feed.post/3mlopfpkda22s"
+        }
+      },
+      "text": "If you have the jpeg I could try to check.\n\nOff the top of my head I'm thinking either exit or slight color deviations.\n\nAnd I think the jpeg contained part of the payload, not the whole thing."
+    },
+    "cid": "bafyreicns5auaqxg362sum6nejjyrwa3mb3v4ytj676xnktjxmpdi6ztci"
+  }
+}
