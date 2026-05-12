@@ -1,0 +1,75 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778612587573843,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mloi3qpshk2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mloi2jifok2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-12T19:02:25.467Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "We all yearn for freedom. We want to be free from tyranny. We want to be free to live. We want to be free to do things we enjoy. Some of us yearn to be free of...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigry3xje3ym4kg7fzllu4wgt2zfehlpgkl6laj6zg73c4x7tu5k6y"
+            },
+            "mimeType": "image/jpeg",
+            "size": 678370
+          },
+          "title": "Freeform Functions - PowerShell Pocket Blog",
+          "uri": "https://pckt.blog/b/posh/freeform-functions-d1uy23r"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:revjuqmkvrw6fnkxppqtszpv"
+            }
+          ],
+          "index": {
+            "byteEnd": 121,
+            "byteStart": 111
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://pckt.blog/b/posh/freeform-functions-d1uy23r"
+            }
+          ],
+          "index": {
+            "byteEnd": 226,
+            "byteStart": 201
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Hey #PowerShell people.  \n\nEver want to make a function that accepts any input?\n\nI just published a PowerShell @pckt.blog post all about freeform functions.\n\nMay you all enjoy the freedom they bring:\n\npckt.blog/b/posh/freef..."
+    },
+    "cid": "bafyreib4icry7ivbfhghlr5mzuwbiqwzd4k75w543ou3w42w3jfp7vn5na"
+  }
+}
