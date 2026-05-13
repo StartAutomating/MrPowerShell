@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778632077073401,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mlp2am5mqw2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mlp2ansk6223",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-13T00:27:58.672Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicowksc2nuw6nqwkcvyhervdpd5b7jvindiaokj5mu3ry7hkghwby",
+          "uri": "at://did:plc:k4pk3m6rz5roldf73eww4ksb/app.bsky.feed.post/3mlol4wkdes2m"
+        },
+        "root": {
+          "cid": "bafyreicowksc2nuw6nqwkcvyhervdpd5b7jvindiaokj5mu3ry7hkghwby",
+          "uri": "at://did:plc:k4pk3m6rz5roldf73eww4ksb/app.bsky.feed.post/3mlol4wkdes2m"
+        }
+      },
+      "text": "The monad is the powerhouse of PowerShell."
+    },
+    "cid": "bafyreih6q4kpkwtedbx7yemjbofjgzbbka4t3n3yuxhubhmpznlthcn2eu"
+  }
+}
