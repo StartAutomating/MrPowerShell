@@ -1,0 +1,63 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778632169281740,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mlp2de2ukr2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mlp2dg7fm223",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-13T00:29:31.368Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreicymg2adndocgp7jaxqs5iiskmah2lh57vbzlsh6m67fwhcx73qye",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mlp26qmqqs23"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/mrpowershell.com/post/3mlp26qmqqs23"
+            }
+          ],
+          "index": {
+            "byteEnd": 47,
+            "byteStart": 23
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 99,
+            "byteStart": 88
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiep7volhpdjnx2oody7q6wtoz3n5dm3brrdaz57xw7cjonpoghjmm",
+          "uri": "at://did:plc:ragtjsm2j2vknwkz3zp4oxrd/app.bsky.feed.post/3mlopchm2sc24"
+        },
+        "root": {
+          "cid": "bafyreiep7volhpdjnx2oody7q6wtoz3n5dm3brrdaz57xw7cjonpoghjmm",
+          "uri": "at://did:plc:ragtjsm2j2vknwkz3zp4oxrd/app.bsky.feed.post/3mlopchm2sc24"
+        }
+      },
+      "text": "🤷 also kinda true.\n\nbsky.app/profile/mrpo...\n\nPeople use Monads all day every day in #PowerShell.\n\nAnd at least 90% don't realize it."
+    },
+    "cid": "bafyreigqsuo7wrpdbuuaeuoafircgqseno4ghjpob6jr7xqqj4dyuaoyqm"
+  }
+}
