@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778630920081056,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mloz64kc2b2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mloz65v62k23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-13T00:08:41.128Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Ian Malcolm's Iconic Jurassic Park Quote, applied to AI and feature requests.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihnqdpwsktfogsjgy7eobk2ydbf4u7uvw247bklqwr5vtqtwfsdtq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 46719
+          },
+          "title": "Ian Malcolm's Iconic Jurassic Park Quote",
+          "uri": "https://static.klipy.com/ii/39f2394ae36df6e199be9eb7c9fa1012/23/0c/bUEjAUpM.gif?hh=303&ww=498&mp4=sedSDTBiWjdn8rXhubWT&webm=TMn83BGwElJz5zwO"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigxr7lixptb5hwckdpbw3u4gyo5x44as4cfds4sh2yhcjnj5onjru",
+          "uri": "at://did:plc:6nmj4lixq7eta3m2rg6hld34/app.bsky.feed.post/3mloritf4xs2p"
+        },
+        "root": {
+          "cid": "bafyreigxr7lixptb5hwckdpbw3u4gyo5x44as4cfds4sh2yhcjnj5onjru",
+          "uri": "at://did:plc:6nmj4lixq7eta3m2rg6hld34/app.bsky.feed.post/3mloritf4xs2p"
+        }
+      },
+      "text": "Just because you can, doesn't mean you should.\n\nI shudder at the thought of too much strongly coupled AI code in every project.\n\nSoftware Architecture matters."
+    },
+    "cid": "bafyreicxsxs2gzd5i345k3sec4vcepk7nqnkquyhjvxmow65m35xgengmu"
+  }
+}
