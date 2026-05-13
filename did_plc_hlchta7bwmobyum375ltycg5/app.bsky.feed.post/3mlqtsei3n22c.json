@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778693880277832,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mlqtsicivx23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mlqtsei3n22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-13T17:37:56.157Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifshmaxntef37ei5chcsddvenmldk2zvb7aklgilwix3726apun2a",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mlpj4t5ias2f"
+        },
+        "root": {
+          "cid": "bafyreihxalp3ew2viggkd73nizslmecxvgrshgh2cbl6d6mcgupvqs3thu",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mlpiovgm5c2f"
+        }
+      },
+      "text": "That's why we don't often type them all out.  We type a few characters in and hit \"tab\".\n\nTab completion is your friend.\n\nWorks on parameters, too.\n\nAlso why short aliases rock.\n\nA keystroke is a horrible thing to waste."
+    },
+    "cid": "bafyreiclk3jcf4gwr4w7ez7yoreeytihr3jdkvkok4ldinvv6rrb64baqy"
+  }
+}
