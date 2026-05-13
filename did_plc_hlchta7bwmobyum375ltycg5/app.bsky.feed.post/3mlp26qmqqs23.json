@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778632014593401,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mlp26q7j7s2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mlp26qmqqs23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-13T00:26:54.519Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifttauixfhsykuauocopt4nlqbwepd7qqj55qsjcmkmujv7jcc56a"
+            },
+            "mimeType": "image/jpeg",
+            "size": 184171
+          },
+          "title": "Monadology - Wikipedia",
+          "uri": "https://en.wikipedia.org/wiki/Monadology"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://en.wikipedia.org/wiki/Monadology"
+            }
+          ],
+          "index": {
+            "byteEnd": 247,
+            "byteStart": 215
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicowksc2nuw6nqwkcvyhervdpd5b7jvindiaokj5mu3ry7hkghwby",
+          "uri": "at://did:plc:k4pk3m6rz5roldf73eww4ksb/app.bsky.feed.post/3mlol4wkdes2m"
+        },
+        "root": {
+          "cid": "bafyreicowksc2nuw6nqwkcvyhervdpd5b7jvindiaokj5mu3ry7hkghwby",
+          "uri": "at://did:plc:k4pk3m6rz5roldf73eww4ksb/app.bsky.feed.post/3mlol4wkdes2m"
+        }
+      },
+      "text": "Each of these things:\n\n-The original name of PowerShell (~2003-2005)\n- An anonymous function (~1920s)\n- The predecessor to the theory of atoms / a way of thinking of the universe (1714)\n\nCitation for the last one:\n\nen.wikipedia.org/wiki/Monadol..."
+    },
+    "cid": "bafyreicymg2adndocgp7jaxqs5iiskmah2lh57vbzlsh6m67fwhcx73qye"
+  }
+}
