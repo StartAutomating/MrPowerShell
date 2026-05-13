@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778694276780555,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mlqu6ccn4t23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mlqu6bxie22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-13T17:44:36.168Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihambunvosxtwxjkqmbdzpvq76j7jmylwejyqbvw7rmx4sbgzqzpm",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mlpjpxtwis2f"
+        },
+        "root": {
+          "cid": "bafyreihxalp3ew2viggkd73nizslmecxvgrshgh2cbl6d6mcgupvqs3thu",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mlpiovgm5c2f"
+        }
+      },
+      "text": "Because PowerShell is like honey badger.\n\nIt does not give a f*ck.\n\nIn most scenarios, either form of slash is acceptable.\n\nSide effect of being written by Linux nerds who knew this drove people nuts.\n\nSame reason either form of newline just works in PowerShell."
+    },
+    "cid": "bafyreiaqe32fvbczgzdcz4yjbdrhowlzi3nduracuullnfhmmf6ejam5ey"
+  }
+}
