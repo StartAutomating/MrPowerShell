@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778694451893459,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mlqudj76ve2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mlqudj72e22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-13T17:47:31.528Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibnbi742wjndfa3p6ayssaameukcrx5mubmewxtqt3hkpqp4kw6ki",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mlqu24du222d"
+        },
+        "root": {
+          "cid": "bafyreihxalp3ew2viggkd73nizslmecxvgrshgh2cbl6d6mcgupvqs3thu",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mlpiovgm5c2f"
+        }
+      },
+      "text": "Ah.\n\nIronically also true for different reasons.\n\nOn Windows, ls becomes an alias to Get-ChildItem.  But since it has different parameters than the Unix ls command this can annoy people.\n\nFor that reason, on Linux / MacOS, ls is not an alias.\n\n🤷 Can always `Remove-Alias ls` 🤷"
+    },
+    "cid": "bafyreig4dq3oagqyfhrwbavohf7dz3zabvbvg2gvq4azqib3x2r5flixpq"
+  }
+}
