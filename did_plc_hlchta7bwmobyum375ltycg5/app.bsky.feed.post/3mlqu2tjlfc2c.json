@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778694164785058,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mlqu2wvhq72o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mlqu2tjlfc2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-13T17:42:40.369Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicftzrd7cr76aoqfylyrekrvhotbvmbqaovkqoznzw4mhcr2mqbea",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mlpk7kn4cs2f"
+        },
+        "root": {
+          "cid": "bafyreihxalp3ew2viggkd73nizslmecxvgrshgh2cbl6d6mcgupvqs3thu",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mlpiovgm5c2f"
+        }
+      },
+      "text": "FWIW, I thought it was funny.\n\n( Cause I have mixed feelings on the -is operator.)"
+    },
+    "cid": "bafyreicaf45golkpbmnfzbohirtnrpc6u2bixj7dxhnxw2imxc4fz5w3ki"
+  }
+}
