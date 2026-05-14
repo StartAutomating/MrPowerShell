@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778797135586254,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mlttxptxbv23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mlttxnuojc27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-14T22:18:52.993Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "Showing this boxes specs on request.\n\n16 cores @ 3.4Ghz.\n64gb of RAM. \nRadeon RX370 with 36gb of GPU Memory.\n\nMore than enough for my day to day, as evidenced by the CPU usage.\n\nThese specs miss the point though:\n\nAn overcomplicated though process is an inefficient thought process. ",
+            "aspectRatio": {
+              "height": 567,
+              "width": 420
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibodsu43m23axb47uuwd7qezau5vbzulkupkso22jq44k32onmf3i"
+              },
+              "mimeType": "image/jpeg",
+              "size": 104095
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih6y4tzgnygjjlevko52ddwub2mvs4itufwoqc5oxlvhha3ldq5di",
+          "uri": "at://did:plc:rhlik5oauzckm6xhgmjfckx2/app.bsky.feed.post/3mltrukanl227"
+        },
+        "root": {
+          "cid": "bafyreihdyf7gfttxxa4sloawptdkglhjiqyookfwpyakmsxngl543lvajq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mltpfhfrik2l"
+        }
+      },
+      "text": "Beefy enough box.\n\nThe point really isn't the total time.\n\nIt's how overcomplicated the thought process is.\n\nAn overcomplicated thought process is an inefficient thought process."
+    },
+    "cid": "bafyreibmgm6fowox6m5pnkhrxvc56zkawlwcfpt6tl7aanajj43p6y4use"
+  }
+}
