@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778785416565224,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mltj2i3ee62a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mltj2fuf4k2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-14T19:03:34.098Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif4xnwurypiq2hu2vfiokmi5lqh3zntajo2bymnpvfawb625ywpvi",
+          "uri": "at://did:plc:hy4kwkakey4eawsw6jjzoc3j/app.bsky.feed.post/3mltehkxyxk23"
+        },
+        "root": {
+          "cid": "bafyreif4xnwurypiq2hu2vfiokmi5lqh3zntajo2bymnpvfawb625ywpvi",
+          "uri": "at://did:plc:hy4kwkakey4eawsw6jjzoc3j/app.bsky.feed.post/3mltehkxyxk23"
+        }
+      },
+      "text": "Please 🙏 don't presume that GUIs are the answer.\n\nThey are not.\n\nThey inherently limit the capabilities of systems for a clickable \"happy\" path.\n\nYes, let's modernize.\n\nLet's make better terminals and better APIs, and some GUIs to help.\n\nIf you need to look up these terms, 🙏 reconsider your point."
+    },
+    "cid": "bafyreigosdlpxgr5nk7kujejvvcddbpco45cjmpj7tn4fbsbfgqltuy454"
+  }
+}
