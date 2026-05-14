@@ -1,0 +1,93 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778790044780748,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mltnefjf2b2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mltnec35mc2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-14T20:20:40.636Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "",
+            "aspectRatio": {
+              "height": 946,
+              "width": 1126
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiamjapp2x3qopcwr63uo4rxwjk3ebxjxbrr2szewdjpcllfag2jam"
+              },
+              "mimeType": "image/jpeg",
+              "size": 344315
+            }
+          },
+          {
+            "alt": "",
+            "aspectRatio": {
+              "height": 918,
+              "width": 1054
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiezo5zxjs6m7apkogihttgzixgnznlqr24ann24ubx3wyblmi37se"
+              },
+              "mimeType": "image/jpeg",
+              "size": 217048
+            }
+          }
+        ]
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 246,
+            "byteStart": 243
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Ollama"
+            }
+          ],
+          "index": {
+            "byteEnd": 254,
+            "byteStart": 247
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Fail"
+            }
+          ],
+          "index": {
+            "byteEnd": 260,
+            "byteStart": 255
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Gwen3.6 overthinks the hell out of a question (and knowingly leaves an error in)\n\nAsked for it to make a minimal PowerShell script for calculating velocity.  \n\n3+ minutes of overthinking ensued.\n\n🤦And the answer is still (slightly) wrong.\n\n#AI #Ollama #Fail"
+    },
+    "cid": "bafyreia2bawclg7ox5jyjhvbuev557bhjyxg4amanc4y5yspckr6ttbqei"
+  }
+}
