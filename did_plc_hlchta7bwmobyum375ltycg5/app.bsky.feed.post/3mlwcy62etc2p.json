@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778881979297468,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mlwcybiavm24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mlwcy62etc2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-15T21:52:55.561Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidnj2ul7bajeieluk2gcm4kkxbsgesskubw7bb5n3l5a54fhvwvje",
+          "uri": "at://did:plc:yvodaimnla66zphecpxdmrbr/app.bsky.feed.post/3mlwcgzlyjk2m"
+        },
+        "root": {
+          "cid": "bafyreic3kq2kn5gefwmtysa4ooek5ovbppeuq2he6admqwjgyzr5ahg4we",
+          "uri": "at://did:plc:l2ktomvijz42t6hfqaxl7gq6/app.bsky.feed.post/3mlwbqsvgsk2p"
+        }
+      },
+      "text": "PowerShell is definitely a programming language.  \n\nIt's just a pretty damn unique one.\n\n🤷 I would learn about the thing before hating on the thing.\n\n🤷 Maybe that's just me."
+    },
+    "cid": "bafyreie5w6ztrbw6p6qcvg27vbchmsw4c5srhmrpawf5mxmgdipes6tvce"
+  }
+}
