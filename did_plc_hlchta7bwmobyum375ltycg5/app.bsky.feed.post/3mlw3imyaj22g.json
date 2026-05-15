@@ -1,0 +1,90 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778873945567386,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mlw3isnsdr2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mlw3imyaj22g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-15T19:38:58.155Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "Deepcoder ties itself into knots trying to figure out how to write \"hello world\" in PowerShell\n\nThe answer is simply:\n\n~~~PowerShell\n'hello world'\n~~~",
+            "aspectRatio": {
+              "height": 511,
+              "width": 1056
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreieshdffipox5qvilewjkstxxgn3kjfzxf5g6jy3dbm5ocjf2eihai"
+              },
+              "mimeType": "image/jpeg",
+              "size": 261378
+            }
+          }
+        ]
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 53,
+            "byteStart": 50
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Ollama"
+            }
+          ],
+          "index": {
+            "byteEnd": 153,
+            "byteStart": 146
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "AI"
+            }
+          ],
+          "index": {
+            "byteEnd": 157,
+            "byteStart": 154
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Fail"
+            }
+          ],
+          "index": {
+            "byteEnd": 163,
+            "byteStart": 158
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "My new favorite thing to do for a laugh is to ask #AI to explain its chain of thought.\n\nIt continues to be hilariously overcomplicated.😂\n\nThis #Ollama #AI #Fail is from Deepcoder.\n\nAbsolutely love how it keeps skipping past the right answer because it's sure it's wrong.\n\nMore like shallowcoder 🤦"
+    },
+    "cid": "bafyreiaqrmg7ms3nahxd2h43ugywgln5ks6tlxbe6y6qdgg6usuiqnqgre"
+  }
+}
