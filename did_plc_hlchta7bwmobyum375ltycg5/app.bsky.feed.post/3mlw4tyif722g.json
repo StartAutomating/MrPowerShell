@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778875396498034,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mlw4u3pgi62j",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mlw4tyif722g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-15T20:03:13.061Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiff7baljelqke65zz5oi4hiwvzpwrzaylzrkn2j5nizae2k2cm55q",
+          "uri": "at://did:plc:ppky7idrh4zvqizb7jrfiwhj/app.bsky.feed.post/3mlw4oyrxyk2d"
+        },
+        "root": {
+          "cid": "bafyreiaqrmg7ms3nahxd2h43ugywgln5ks6tlxbe6y6qdgg6usuiqnqgre",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mlw3imyaj22g"
+        }
+      },
+      "text": "Will consider.  \n\nI'm almost half tempted to start recording these with running commentary.\n\nWell known math formula seems to be an easier question to answer than \"hello world\" 🤷 (I suppose they've all read wikipedia)"
+    },
+    "cid": "bafyreiazdi3f3qbqmvwwpqlb7d4qyp522pjq4et7buov3yqh5wbntgap24"
+  }
+}
