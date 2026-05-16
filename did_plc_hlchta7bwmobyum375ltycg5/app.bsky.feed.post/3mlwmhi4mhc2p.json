@@ -1,0 +1,87 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1778892159702440,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mlwmhlnkbv2j",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mlwmhi4mhc2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-16T00:42:33.114Z",
+      "embed": {
+        "$type": "app.bsky.embed.video",
+        "alt": "Script to generate this:\n\n~~~PowerShell\n$TriangleRGBAShift = @{\n        RGBAShift = $true\n        RGBAShiftRedHorizontal=-10\n        RGBAShiftRedVertical=10\n        RGBAShiftGreenHorizontal= 10\n        RGBAShiftGreenVertical= -10        \n        RGBAShiftBlueVertical=10\n    }\n\nEdit-Media -InputPath ./some.mp3 -ReverseAudio |\n  Edit-Media -TargetTime '00:02:59' |\n  Edit-Media  -ShowFrequency -ShowFrequencyMode bar -ShowFrequencyColors '#4488ff', '#224488' |\n  Edit-Media @TriangleRGBAShift\n~~~",
+        "aspectRatio": {
+          "height": 512,
+          "width": 1024
+        },
+        "presentation": "default",
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreielymyg34wwklxvv4r4zsaoh2zq77rgwqlgisuztyq2ia2xqeesfi"
+          },
+          "mimeType": "video/mp4",
+          "size": 50636033
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "FridayFun"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 5
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "FFmpeg"
+            }
+          ],
+          "index": {
+            "byteEnd": 28,
+            "byteStart": 21
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 44,
+            "byteStart": 33
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/RoughDraft"
+            }
+          ],
+          "index": {
+            "byteEnd": 297,
+            "byteStart": 271
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "More #FridayFun with #FFmpeg and #PowerShell (via RoughDraft)\n\nBackmasking + Showfrequency + Some more fun\n\n~~~PowerShell\nEdit-Media ./Some.mp3 -ReverseAudio |\n  Edit-Media -ShowFrequency ... |\n  Edit-Media -RGBAShift ...\n~~~\n\nBonus points if you can identify the song.\n\ngithub.com/StartAutomat..."
+    },
+    "cid": "bafyreid4p3pscbmvpghmorbxup2aksjfu32yk6e33yjtnivwgg2mnih6we"
+  }
+}
