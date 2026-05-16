@@ -92,7 +92,10 @@ param(
     ),
 
     [int]
-    $PowerShellGallerySkip = 0
+    $PowerShellGallerySkip = 0,
+
+    [uri]
+    $FallBackUri = 'https://MrPowerShell.com/xrpc/com.powershellgallery.modules/'
 )
 
 
@@ -113,7 +116,25 @@ if ($PowerShellGalleryConditions) {
     }
 
     if (-not $script:MyModuleGalleryInfoCache[$fullUrl]) {
-        $script:MyModuleGalleryInfoCache[$fullUrl] = Invoke-RestMethod $fullUrl
+        $script:MyModuleGalleryInfoCache[$fullUrl] = try {
+            Invoke-RestMethod $fullUrl
+        } catch {
+            $_
+        }
+    }
+
+    # If the cache 
+    if ($script:MyModuleGalleryInfoCache[$fullUrl] -is 
+        [Management.Automation.ErrorRecord]) {
+        $moduleList = Invoke-RestMethod -Uri $FallBackUri |
+            ForEach-Object {
+                $in = $_
+                $in.pstypenames.clear()
+                $in.pstypenames.add('com.powershellgallery.module')
+                $in
+            }
+
+        return 
     }
     $moduleList = $script:MyModuleGalleryInfoCache[$fullUrl] | 
         Sort-Object { $_.properties.downloadCount.'#text' -as [int]} -Descending
@@ -150,9 +171,12 @@ if ($PowerShellGalleryConditions) {
 
             if ($propertyData) {
                 $moduleData[$propertyName] = $propertyData
-            }
-                
-        }             
+            }                
+        }
+        
+        if ($moduleData.created -is [DateTime] -and $moduleData.downloadCount -gt 0) {
+            $moduleData.downloadVelocity = $moduleData.downloadCount / ([DateTime]::UtcNow - $moduleData.Created).TotalDays
+        }
         
         [PSCustomObject]$moduleData
     }   
