@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779047585507395,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mm357ntzl72b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mm357jgahk2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-17T19:52:58.605Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiautdpatecm2e5aarecokhtlaoqju6bvnrfd5tb2jjlm6pc4te7ii",
+          "uri": "at://did:plc:deujnid7cxm6xckow3z2zrlg/app.bsky.feed.post/3mm2gaai5p22y"
+        },
+        "root": {
+          "cid": "bafyreihf4u75ihydosqnfiutzqhghuet2uaszkvheetssazu2t7jhq3sje",
+          "uri": "at://did:plc:qyscb7on76pv63nhkcgcmuwk/app.bsky.feed.post/3mjf73r4wq22f"
+        }
+      },
+      "text": "Sounds interesting!\n\nIs it public?  Would love to take a look.\n\nIMO this is one set of scenarios more people should be doing / sharing.\n\nLife hacking in PowerShell.\n\n( Especially for file generation )"
+    },
+    "cid": "bafyreidiuo2dq7kxnaamia436wlp3rqo7pxxaubt4oz4qfy5mddogwhwja"
+  }
+}
