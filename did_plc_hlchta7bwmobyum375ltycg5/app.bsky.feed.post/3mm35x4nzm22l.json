@@ -1,0 +1,84 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779048373440271,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mm35x6wn4o2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mm35x4nzm22l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-17T20:06:10.537Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Find Stream Deck plugins, graphics, video, and audio products for Elgato apps. Enhance streaming with our digital marketplace.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieocy75bko4ovcesaekrpndgduknedkjncuonkz7igk6j4iix2lae"
+            },
+            "mimeType": "image/jpeg",
+            "size": 545868
+          },
+          "title": "Elgato Marketplace",
+          "uri": "https://marketplace.elgato.com/product/scriptdeck-927e59aa-b42d-4da7-84cc-8c78f4dd7e18"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/ScriptDeck"
+            }
+          ],
+          "index": {
+            "byteEnd": 83,
+            "byteStart": 57
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://marketplace.elgato.com/product/scriptdeck-927e59aa-b42d-4da7-84cc-8c78f4dd7e18"
+            }
+          ],
+          "index": {
+            "byteEnd": 188,
+            "byteStart": 150
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://marketplace.elgato.com/product/windows-scriptdeck-857f01dd-8fd4-44d5-8ec7-67ac850b21d3"
+            }
+          ],
+          "index": {
+            "byteEnd": 280,
+            "byteStart": 242
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig3wbiwmjz56cjv7vllk4n76m66enql5pj7vh23h6k4q57xgcysna",
+          "uri": "at://did:plc:jewixaaitg4j2vwzo4kdf3tb/app.bsky.feed.post/3mm35qkt4nl24"
+        },
+        "root": {
+          "cid": "bafyreihmp3mpbpcnvyxeirk7jwl54fehbklfhp3jp2xa342jgwjuqt5g7q",
+          "uri": "at://did:plc:jewixaaitg4j2vwzo4kdf3tb/app.bsky.feed.post/3mm2jc7y3p22c"
+        }
+      },
+      "text": "Cool.\n\nIn case you want it, the plugin project is here:\n\ngithub.com/StartAutomat...\n\nPlugins are here:\n\nScriptDeck (crossplatform PowerShell latest)\n\nmarketplace.elgato.com/product/scri...\n\nWindows Script Deck (Windows only, PowerShell 5.1)\n\nmarketplace.elgato.com/product/wind..."
+    },
+    "cid": "bafyreidvetrysycbizdazjkxfnzzfl7p2anbuev6nkcfzcnwsoulrn3tvm"
+  }
+}
