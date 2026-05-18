@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779086880112353,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mm4bss5b3o2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mm4bss5vsk2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-18T06:48:00.01Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibeqqvmxwybyem3tc3rvdcvvupr7izf7vm3ei3srtmotpn6lcncoe",
+          "uri": "at://did:plc:pk3vds2kiub2mduc5q6bqquw/app.bsky.feed.post/3mm3uqjnfo22f"
+        },
+        "root": {
+          "cid": "bafyreibwvzg2rgwchnzyyv62vry7ykwzg7aidz5h35vae7gkb57rzunayq",
+          "uri": "at://did:plc:a3o63yyincigox4f6nms7prh/app.bsky.feed.post/3ml3ineftd22f"
+        }
+      },
+      "text": "CGI was always the way.  And will always be the way.  It's a useful Common Gateway Interface that has been working well for ~30+ years and will probably still be working well long after we are dead.\n\nThe rest are buzzwords added atop."
+    },
+    "cid": "bafyreid7aqyrdnf743rnmqasnazr3le5rfa6r356k6rux72i6gfbyarscy"
+  }
+}
