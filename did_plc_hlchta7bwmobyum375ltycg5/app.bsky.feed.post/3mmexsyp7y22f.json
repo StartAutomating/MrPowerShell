@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779385386751920,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmexsxmzht23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmexsyp7y22f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-21T17:43:07.097Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigeprwjgcw2vc5uczl7q5tdd5a5llcyujpvesz2offxxbncgakapa",
+          "uri": "at://did:plc:q7suwaz53ztc4mbiqyygbn43/app.bsky.feed.post/3mmeuoiuwys2a"
+        },
+        "root": {
+          "cid": "bafyreibghfdzstdkfq6osmu34kvcyanyu5buisqdpfqj23f6h46pb25nye",
+          "uri": "at://did:plc:4ndrbqakxpzgumqdgmx4jzu5/app.bsky.feed.post/3mmege6tpks2q"
+        }
+      },
+      "text": "Probably.  You can use it in bash.\n\nFrom fish's/bash's perspective, it's just another command line program to call."
+    },
+    "cid": "bafyreia5yztovecjjogjyxolmtgz5vigfsgpgbm3jofawedyrbjootow6m"
+  }
+}
