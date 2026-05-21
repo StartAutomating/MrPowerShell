@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779339188623753,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmdms6eaoz2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmdmrywrzs25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-21T04:53:02.892Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TheBoys"
+            }
+          ],
+          "index": {
+            "byteEnd": 20,
+            "byteStart": 12
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 97,
+            "byteStart": 86
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Pretty glad #TheBoys seems to have mostly stuck the landing.\n\nPretty surprised to see #PowerShell windows lurking in the background of the two fights in the Vought Tower Office (end of Season 1 and finale)\n\nIf any set designer wants to come out of the woodwork and explain why, that'd be great. 🙏"
+    },
+    "cid": "bafyreifdtt4phhhkeelss5h4htxjiajn3iqflwgngilyyccrei2ptfojxa"
+  }
+}
