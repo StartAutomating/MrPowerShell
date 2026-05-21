@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779320292286294,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmd36zejih2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmd36uankk2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-20T23:38:06.827Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidsetoqzqpycj63ldevhiklgf6lovdypyjjwu44phqbbxhqn7vw4a",
+          "uri": "at://did:plc:shom5lnyxfz3hvdj6mbitz3t/app.bsky.feed.post/3mmcyspvhc22f"
+        },
+        "root": {
+          "cid": "bafyreidsetoqzqpycj63ldevhiklgf6lovdypyjjwu44phqbbxhqn7vw4a",
+          "uri": "at://did:plc:shom5lnyxfz3hvdj6mbitz3t/app.bsky.feed.post/3mmcyspvhc22f"
+        }
+      },
+      "text": "The call was made _slightly_ before my time, but I recall it being:\n\nCertain types would cause confusion if always enumerated.\n\n[string] would get weird because it would just spit out chars\n[Hashtable] would get weird because it could contain multiple object types. \n\nLMK if you want more info..."
+    },
+    "cid": "bafyreid2io4kdujxapwmhtqr6tf2dycq7anljybtk2ktaqwj32ie5cery4"
+  }
+}
