@@ -1,0 +1,57 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779338920316434,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmdmk65s2j2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmdmjynqgs25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-21T04:48:34.16Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 120,
+            "byteStart": 109
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RaspberryPi"
+            }
+          ],
+          "index": {
+            "byteEnd": 138,
+            "byteStart": 126
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifnrwpaamqabyvzjpngmxj3iykydxuk5ohkwnclb5afw77u2tq7mu",
+          "uri": "at://did:plc:zbz56dl6rjielg4cupnceyop/app.bsky.feed.post/3mmdaepnyi22t"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreigec2oobh5pognmsghgbk4mzq5m4va7g32m2xpfpmtlzg74cnckh4",
+          "uri": "at://did:plc:punislcvzdcofch3x77ilpe7/app.bsky.feed.post/3mmcybkrvas2a"
+        }
+      },
+      "text": "Installing it on Linux can be lots of fun!  Give it a try!\n\nFor about half the past year I was daily driving #PowerShell on a #RaspberryPi\n\nWater's warm: jump right in!"
+    },
+    "cid": "bafyreieapngf7donur5u2mifphboep4unkbgqdp4bzu4ncliuzhn7jzyze"
+  }
+}
