@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779388017453431,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmf2bdgadj2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmf2b4t4y22a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-21T18:26:48.664Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibymj6bbv7lak56adw2p53spod77h2i2s3e6yopuxdof775kqb76y",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mmcuymhu622u"
+        },
+        "root": {
+          "cid": "bafyreic7clnfwgzcyc7nwtmphbdieoobwhjdcsw75lkn77neb2ocb3g57i",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mmcuwfoylc2f"
+        }
+      },
+      "text": "The approach ugit is using would make this pretty trivial.\n\nugit aliases itself to git and passes calls down to git, adding additional parameters where it can / parsing output that it can.\n\nAnother module that does this for jj would be easy.  Go for it!"
+    },
+    "cid": "bafyreihnjtnmprfeijgalbzq6jv446a7hvqk46iws3jrloflq6y34qdj4e"
+  }
+}
