@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779322730172781,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmd5hobwm22r",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmd5ho65fk2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-21T00:18:49.926Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih6dlknij4wiffknmxj7xxgtp4mg6tg7qlz34lpvf6a3ka7y5fzvy",
+          "uri": "at://did:plc:punislcvzdcofch3x77ilpe7/app.bsky.feed.post/3mmd3sovs522g"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreigec2oobh5pognmsghgbk4mzq5m4va7g32m2xpfpmtlzg74cnckh4",
+          "uri": "at://did:plc:punislcvzdcofch3x77ilpe7/app.bsky.feed.post/3mmcybkrvas2a"
+        }
+      },
+      "text": "🤷 not if it's just exposed as another command.\n\nPowerShell is actually pretty great at prompting.\n\nOf course if they come for tab completion, I will turn that off 😠."
+    },
+    "cid": "bafyreifoypnr6b3zcq75apz6mt6cintzlrbwsl7xg6zaaclwclnacldh34"
+  }
+}
