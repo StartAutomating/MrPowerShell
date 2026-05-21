@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779320783593044,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmd3nnxtmc2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmd3nipfns2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-20T23:46:18.044Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$THING"
+            }
+          ],
+          "index": {
+            "byteEnd": 118,
+            "byteStart": 112
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidqjmcleqpt5sifstmwospdo2tjtwnjezb3dmlqvk5c2ffjewee2i",
+          "uri": "at://did:plc:shom5lnyxfz3hvdj6mbitz3t/app.bsky.feed.post/3mmd3gio2pk2q"
+        },
+        "root": {
+          "cid": "bafyreidsetoqzqpycj63ldevhiklgf6lovdypyjjwu44phqbbxhqn7vw4a",
+          "uri": "at://did:plc:shom5lnyxfz3hvdj6mbitz3t/app.bsky.feed.post/3mmcyspvhc22f"
+        }
+      },
+      "text": "The [string]s thing is easy enough to get:  [string]s are enumerable but most people wouldn't expect \n\nforeach ($thing in \"thing\") { } # to output T H I N G\n\n[Hashtable] literals are used throughout PowerShell.  If we just enumerated keys, it would look weird, too."
+    },
+    "cid": "bafyreidsx4fh7hcmmk6ge5rztu6yjrx3rxrbsveuz4sqtppagtwkraztsy"
+  }
+}
