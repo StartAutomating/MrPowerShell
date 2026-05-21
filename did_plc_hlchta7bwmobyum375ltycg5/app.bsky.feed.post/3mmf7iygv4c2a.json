@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779393658145729,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmf7j7dwld23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmf7iygv4c2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-21T20:00:41.214Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidievuocyuxptzmdu77zzcbwyadfrqz3jpb7a5ppebxgdgvpfihqa",
+          "uri": "at://did:plc:hzrswnow7xejwkj5b64yzlav/app.bsky.feed.post/3mmf7dbopj225"
+        },
+        "root": {
+          "cid": "bafyreih62onn7f6bgbsath5uvj3g5uix4feqtsuahmyhpfix3lr5ecnb2q",
+          "uri": "at://did:plc:hzrswnow7xejwkj5b64yzlav/app.bsky.feed.post/3mmf5undgks24"
+        }
+      },
+      "text": "I just set my breakpoint, run the script (F5), and then run the script again to hit the breakpoint.\n\nSet-PSBreakpoint will set the breakpoints just fine, but until I hit F5 to basically tell VSCode to \"start debugging\" it won't hit any breakpoints."
+    },
+    "cid": "bafyreibtye4gcflbkv2lrz34lqc4t6p26x75hoahtcmyfna2imwnm7q5je"
+  }
+}
