@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779320978777455,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmd3ti3lwr23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmd3tcx3mk2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-20T23:49:33.33Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifttupdylmqzmbvwl4ubyc352mcwpjypm5pdrihnic2gvwn3yqcle",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mmd3px7lck2f"
+        },
+        "root": {
+          "cid": "bafyreidsetoqzqpycj63ldevhiklgf6lovdypyjjwu44phqbbxhqn7vw4a",
+          "uri": "at://did:plc:shom5lnyxfz3hvdj6mbitz3t/app.bsky.feed.post/3mmcyspvhc22f"
+        }
+      },
+      "text": "If you were to just enumerate values, you'd still be losing data.  You'd lose keys.\n\nWe need both key and value to properly work with a hashtable.\n\nBeyond that, I wouldn't always _want_ to enumerate either, because it would be slower to do so.\n\nHence this interesting compromise of needs/wants...."
+    },
+    "cid": "bafyreib6zry4bgqfvk6fj6ixwzfojrb43sbmvvlncubkonupk7omd7nuqy"
+  }
+}
