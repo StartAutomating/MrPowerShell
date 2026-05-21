@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779320865571125,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmd3q46ge72i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmd3px7lck2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-20T23:47:40.363Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidsx4fh7hcmmk6ge5rztu6yjrx3rxrbsveuz4sqtppagtwkraztsy",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mmd3nipfns2f"
+        },
+        "root": {
+          "cid": "bafyreidsetoqzqpycj63ldevhiklgf6lovdypyjjwu44phqbbxhqn7vw4a",
+          "uri": "at://did:plc:shom5lnyxfz3hvdj6mbitz3t/app.bsky.feed.post/3mmcyspvhc22f"
+        }
+      },
+      "text": "The more annoying part of it, IIRC, was that the hashtable and it's KeyValuePair had different object formats.  So if you're doing \"normal\" enumeration suddenly things change types and you've lost a pointer to your collection.\n\nProbably would have been an awful experience..."
+    },
+    "cid": "bafyreifttupdylmqzmbvwl4ubyc352mcwpjypm5pdrihnic2gvwn3yqcle"
+  }
+}
