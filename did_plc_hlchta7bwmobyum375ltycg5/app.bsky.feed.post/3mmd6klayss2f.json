@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779323906576088,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmd6kqche623",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmd6klayss2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-21T00:38:21.28Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiabmfnwkshil7e2w2jjeek3gy6lm7y5kaajwsesj6sn3zvfpica4a",
+          "uri": "at://did:plc:3ktuyeqq7wqogu23gyeycwku/app.bsky.feed.post/3mmd5wnb2bc2g"
+        },
+        "root": {
+          "cid": "bafyreid6qprlknq4qhlvzprt2iffx3fmrtjdbbxjfaimnwe27qgcz4odve",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mmd5mi2tak2f"
+        }
+      },
+      "text": "It's more \"what am I supposed to do?\"\n\nI keep getting moderator slapped for sharing stuff like I was selling stuff.  \n\nIt's on github.\n\nYou don't really want a whole repo on reddit.\n\nAnd I'm literally trying to give this knowledge away.\n\n🤷🤦"
+    },
+    "cid": "bafyreiafhuyvbx2gfuti6jzsf3gicqcbc5mgh4uu5yc5kgfuhlxek44r2i"
+  }
+}
