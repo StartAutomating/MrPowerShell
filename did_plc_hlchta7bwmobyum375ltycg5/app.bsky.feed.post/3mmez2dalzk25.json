@@ -1,0 +1,87 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779386715115864,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmez2kp5km2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmez2dalzk25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-21T18:05:06.775Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Explore this post and more from the PowerShell community",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifvrehjmwmaaxj4mvw2o7ks5zhnptlmnpr3ymohqg3ucrfjp4luba"
+            },
+            "mimeType": "image/jpeg",
+            "size": 405821
+          },
+          "title": "From the PowerShell community on Reddit",
+          "uri": "https://www.reddit.com/r/PowerShell/comments/1tj4afz/static_sites_are_simple_with_powershell/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 41,
+            "byteStart": 30
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.reddit.com/r/PowerShell/comments/1tj4afz/static_sites_are_simple_with_powershell/"
+            }
+          ],
+          "index": {
+            "byteEnd": 74,
+            "byteStart": 44
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:revjuqmkvrw6fnkxppqtszpv"
+            }
+          ],
+          "index": {
+            "byteEnd": 193,
+            "byteStart": 183
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://posh.pckt.blog/static-sites-are-simple-6u51kgj"
+            }
+          ],
+          "index": {
+            "byteEnd": 226,
+            "byteStart": 196
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Static Sites are Simple (with #PowerShell)\n\nwww.reddit.com/r/PowerShell...\n\nJust cracked 30k views in 18 hours!  Check it out.\n\nExpanding on points I originally put on the PowerShell @pckt.blog \n\nposh.pckt.blog/static-sites..."
+    },
+    "cid": "bafyreihodiduoumqmrzzgqb2hvfsglgm4y3daa5ggsyvjttb5ho5xk5wvi"
+  }
+}
