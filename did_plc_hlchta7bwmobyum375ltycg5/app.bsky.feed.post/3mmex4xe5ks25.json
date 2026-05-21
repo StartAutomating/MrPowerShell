@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779384655068919,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmex564l7g2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmex4xe5ks25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-21T17:30:47.488Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic7zsb3lvmfnnblbwckcgcdmnrsvze6mlq2kfy5277cxqpfom2sju",
+          "uri": "at://did:plc:tg3tb5wukiml4xmxml6qm637/app.bsky.feed.post/3mmdvueefxc2f"
+        },
+        "root": {
+          "cid": "bafyreifdtt4phhhkeelss5h4htxjiajn3iqflwgngilyyccrei2ptfojxa",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mmdmrywrzs25"
+        }
+      },
+      "text": "😂\n\nFair point.\n\nI think \"The Deep Uses Fish\" is actually a running subplot throughout the series.\n\nJust not the command line version 😉.\n\nSeriously:\n\nwatch the finale / get the joke"
+    },
+    "cid": "bafyreid2sldggruzdwf6jwamwyyqki2gr7he6tfi6xp6opdwasn2bqnoqu"
+  }
+}
