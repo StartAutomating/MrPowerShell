@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779322267163678,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmd4zul3co24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmd4zpffck2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-21T00:11:01.45Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicy7vn5cuddsklyhu4l2frqnv5t2avyxkknanww54kht6m7pzyyqm",
+          "uri": "at://did:plc:shom5lnyxfz3hvdj6mbitz3t/app.bsky.feed.post/3mmd45wjed22f"
+        },
+        "root": {
+          "cid": "bafyreidsetoqzqpycj63ldevhiklgf6lovdypyjjwu44phqbbxhqn7vw4a",
+          "uri": "at://did:plc:shom5lnyxfz3hvdj6mbitz3t/app.bsky.feed.post/3mmcyspvhc22f"
+        }
+      },
+      "text": "Yeah.  IMO the biggest thing to understand for most of these differences is that C# wasn't _really_ designed for interactive use.\n\nPowerShell was.\n\nGet-Member is your friend."
+    },
+    "cid": "bafyreifclbc5beknhbm6zsgly7fjqnzyndhf42e35pow2d64v67nlngabi"
+  }
+}
