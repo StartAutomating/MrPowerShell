@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779733465998351,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmp3ykjxlg2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmp3yiefwk24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-25T18:24:23.643Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 48,
+            "byteStart": 37
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 56,
+            "byteStart": 49
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Template"
+            }
+          ],
+          "index": {
+            "byteEnd": 66,
+            "byteStart": 57
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Don't know why I didn't realize this #PowerShell #WebDev #Template trick before....\n\nJust name your variables tags:\n\n~~~PowerShell\n${<head>} = \"<head><title>Hello World</title></head>\"\n${<body>} = \"<body><h1>Hello World</h1></body>\"\n\"<html>${<head>}${<body>}</html>\"\n~~~\n\n🤯😉😎\n\nWorks since v1"
+    },
+    "cid": "bafyreih3davf3mt36vufhh7nh7ssr6tsok36b3cnhlw7azf4ekgh4c64eq"
+  }
+}
