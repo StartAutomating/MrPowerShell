@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779729261063582,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmoy36vwky2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmoy33nx3s23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-25T17:14:16.02Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiacw6vufy3jjgqmat45phhqicpcrhgm7rydfsny4hg7l43wdemife",
+          "uri": "at://did:plc:z2ovgabb2ym7jvruuglml5nv/app.bsky.feed.post/3mmovkfz4qk23"
+        },
+        "root": {
+          "cid": "bafyreidd2rperkment2fliztc5wkl5ahsawbd6da2v7qxzseumyhheoitq",
+          "uri": "at://did:plc:s6jonlzicwmdxp4qungpbkcq/app.bsky.feed.post/3mmerqdsfh22v"
+        }
+      },
+      "text": "I figure this is what gists and tangled strings are for 😉"
+    },
+    "cid": "bafyreidvatzjkr4qz733bxaxnb676sf5f5kw55qpcqoobtzcbzg2my37km"
+  }
+}
