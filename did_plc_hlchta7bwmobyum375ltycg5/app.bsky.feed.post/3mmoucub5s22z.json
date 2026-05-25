@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779726151011496,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmoucufvay23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmoucub5s22z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-25T16:07:01.727Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicnurj5eadchqlzew564ubyetqexxjswypsrs5w2rdrfp6f2fbon4",
+          "uri": "at://did:plc:z2ovgabb2ym7jvruuglml5nv/app.bsky.feed.post/3mmoragdw322h"
+        },
+        "root": {
+          "cid": "bafyreidd2rperkment2fliztc5wkl5ahsawbd6da2v7qxzseumyhheoitq",
+          "uri": "at://did:plc:s6jonlzicwmdxp4qungpbkcq/app.bsky.feed.post/3mmerqdsfh22v"
+        }
+      },
+      "text": "It is!\n\n( And well done !)\n\nIf you wanted to share the script, you could do worse than GitHub or Tangled."
+    },
+    "cid": "bafyreif7cr374g3juwatmktw4jfcpm7yt2g7gm66xm4vepvsvr6niavq3e"
+  }
+}
