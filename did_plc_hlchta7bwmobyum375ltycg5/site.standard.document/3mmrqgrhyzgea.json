@@ -1,0 +1,451 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779824721463647,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmrqy5yrba2p",
+    "operation": "create",
+    "collection": "site.standard.document",
+    "rkey": "3mmrqgrhyzgea",
+    "record": {
+      "$type": "site.standard.document",
+      "content": {
+        "$type": "blog.pckt.content",
+        "items": [
+          {
+            "$type": "blog.pckt.block.image",
+            "attrs": {
+              "align": "center",
+              "alt": "Learning how to master markdown in PowerShell makes it your playtoy.",
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreib2onj7ws34q2upjttz6cdoehrgrpb3ngqtvfmpiarmuq4xcjzeum"
+                },
+                "mimeType": "image/gif",
+                "size": 1776908
+              },
+              "naturalHeight": 498,
+              "naturalWidth": 498,
+              "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gNDAK/9sAQwAUDg8SDw0UEhASFxUUGB4yIR4cHB49LC4kMklATEtHQEZFUFpzYlBVbVZFRmSIZW13e4GCgU5gjZeMfZZzfoF8/9sAQwEVFxceGh47ISE7fFNGU3x8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8/8AAEQgADAAMAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8Az7HT4o7VpJTG8sg2hTyFUgHP156/Wsy6s2gl2owlQjKsvcVu6WB5JOBkbcH/ALZpUGnWUFxYQvKhLYIyGI/iPpXaqk4NyuZn/9k=",
+              "src": "blob:bafkreib2onj7ws34q2upjttz6cdoehrgrpb3ngqtvfmpiarmuq4xcjzeum"
+            }
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "I've loved Markdown since the day it was a Daring Fireball post."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 79,
+                  "byteStart": 69
+                }
+              }
+            ],
+            "plaintext": "It's a simple rich text format that gets the job done, and it's used everywhere."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "Markdown in PowerShell"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 85,
+                  "byteStart": 65
+                }
+              }
+            ],
+            "plaintext": "Markdown is supported out of the box on PowerShell 6+, using the ConvertFrom-Markdown command."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Here's it in action:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "\"# Hello World\" |\n    ConvertFrom-Markdown |\n    Select -Expand HTML"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Like any other page in a static site, Markdown is just text."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "And PowerShell is Pretty Good at manipulating text."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "To make PowerShell that outputs markdown, just make simple scripts that spit out text."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Markdown Static Sites"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "One very simple use of this technique is making static sites with Markdown."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "If we don't want to worry about look and feel too much, we can do this with the following pipeline:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "\"# Markdown\" | \n    ConvertFrom-Markdown | \n        Select-Object -ExpandProperty Html >\n            ./markdown.html"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "If we wanted to make a page for every file in the directory, we could:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "foreach ($file in Get-ChildItem *.md -File) {\n    ConvertFrom-Markdown -LiteralPath $file.Fullname |\n        Select-Object -ExpandProperty Html > (\n            $file.Fullname -replace '\\.md$', '.html'\n        )\n}"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "That's a static site generator in six lines of PowerShell!"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Here's an even shorter version:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "foreach ($file in Get-ChildItem *.md -File) {        \n    $html = (ConvertFrom-Markdown -Path $file.Fullname).html\n    $html > ($file.Fullname -replace '\\.md$', '.html') \n}"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Now we've got a static site generator in four lines!"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Static Sites are Simple (with PowerShell)."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "To make websites in PowerShell, all we need to do is loop over markdown and optionally add some layout."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Making Markdown"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can make markdown in PowerShell by just outputting text."
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "@(\n    \"# Hello World\"\n    \"## How Are You?\"\n    \"Today is $([DateTime]::Now.ToShortDateString())\"\n) > ./example.md"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Each line of output will become a line in the markdown file."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can use conditionals if we want to. Let's switch it up by including the day of week."
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "@(\n    \"# Hello World\"\n    switch ([DateTime]::Now.DayOfWeek) {\n        Monday { \"Just Another Manic Monday \"}\n        Tuesday { \"Taco Tuesday\" }\n        Wednesday { \"Halfway thru the week! \"}\n        Thursday { \"Almost Friday\" }\n        Friday { \"Happy Friday! \"}\n        Saturday { \"It's the weekend!\"}\n        default { \"It is $([DateTime]::Now.DayOfWeek)\" }\n    }\n) > ./example.md"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#bold"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 30,
+                  "byteStart": 0
+                }
+              }
+            ],
+            "level": 4,
+            "plaintext": "Making Markdown with Functions"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can make functions that output markdown."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Here's a simple one that outputs headings"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "function markdown.heading {\n    param(\n        [string]$Message = 'Hello World',\n        [ValidateRange(1,6)]$Level = 1\n    )\n    # Multiply our heading character by our level\n    # and put a space in between the heading and message\n    ('#' * $level), $Message -join ' ''\n}\n\nmarkdown.heading \"Markdown Functions\" \nmarkdown.heading \"Are just functions\" -Level 2\nmarkdown.heading \"That output markdown\" -Level 3"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Since markdown functions are just PowerShell functions, we can put whatever we want in there."
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "function markdown.get.process {\n    # Markdown tables have a header row\n    \"|Name|Id|\"\n    # Followed by a row that aligns text\n    \"|:-|-:|\"\n    # Followed by any number of rows of data\n    foreach ($process in Get-Process) {\n        '|' + (\n            $process.Name, $process.Id -join '|'\n        ) + '|'\n    }\n}\n\nmarkdown.get.process > ./process.md"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Now we hopefully see how easy it is to make markdown in PowerShell."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Just spit out strings."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 24,
+                  "byteStart": 16
+                }
+              }
+            ],
+            "plaintext": "This is already probably cool enough, but why not make markdown into something we can query?"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Making Markdown into XML"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "ConvertFrom-Markdown converts Markdown into HTML."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "It's just a hop, skip, and a jump to make this markdown into XML."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Because all of our tags are perfectly balanced, we can make markdown in XML by just putting it into another element."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 57,
+                  "byteStart": 48
+                }
+              }
+            ],
+            "plaintext": "Cannonically, I prefer putting markdown into an <article> element"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "@(\n    \"<article>\"\n    (\"# Hello World\" | ConvertFrom-Markdown).html\n    \"</article>\"\n) -join '' -as [xml]"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "That's it! We've turned a easy old markdown into hard-to-write XML."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Why is this useful?"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 33,
+                  "byteStart": 12
+                }
+              }
+            ],
+            "plaintext": "Because now we can query markdown."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#bold"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 24,
+                  "byteStart": 0
+                }
+              }
+            ],
+            "level": 4,
+            "plaintext": "Markdown, XML, and XPath"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "To show this in action, let's start really simple:"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's just get all of the nodes in some markdown"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "@(\n    \"# Hello World\"\n    \"## Don't mind me\"\n    \"### Just about to turn markdown into XML\"\n    \"> This is pretty cool, right?\"\n) -join [Environment]::Newline |\n    ConvertFrom-Markdown |\n    Foreach-Object {\n        \"<article>$($_.Html)</article>\" -as [xml]\n    } |\n    Select-Xml //*        "
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's get all link hrefs in some markdown:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "# Make some markdown\n@(\n    \"# Some Links\"\n    \"* StartAutomating on GitHub\"\n    \"* PoshWeb on GitHub\"\n    \"* MarkX\"\n) -join [Environment]::Newline | \n    # convert it from markdown\n    ConvertFrom-Markdown |\n    # turn it into xml\n    Foreach-Object {\n        \"<article>$($_.Html)</article>\" -as [xml]\n    } |\n    # pipe it to Select-Xml, picking out any `<a>` elements\n    Select-Xml //a |\n    Foreach-Object { \n        $_.Node.Href\n    }"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This is still the tip of the iceberg."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Turning Markdown into XML lets us query and manipulate Markdown in all sorts of interesting ways."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "What can you do with Markdown and PowerShell? Almost anything."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "Mark My Words"
+          },
+          {
+            "$type": "blog.pckt.block.bulletList",
+            "content": [
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "Markdown is a simple rich text format."
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "PowerShell is pretty perfect for making Markdown."
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "XPath is excellent at extracting information from Markdown."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "You can do a lot of cool things when you mix Markdown with PowerShell."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "What do you want to try?"
+          }
+        ]
+      },
+      "coverImage": {
+        "$type": "blob",
+        "ref": {
+          "$link": "bafkreib2onj7ws34q2upjttz6cdoehrgrpb3ngqtvfmpiarmuq4xcjzeum"
+        },
+        "mimeType": "image/gif",
+        "size": 1776908
+      },
+      "description": "I've loved Markdown since the day it was a Daring Fireball post. It's a simple rich text format that gets the job done, and it's used everywhere. Markdown is supported out of the box on PowerShell 6+, using the ConvertFrom-Markdown command.",
+      "path": "/mastering-markdown-zcefdj6",
+      "publishedAt": "2026-05-26T19:35:37+00:00",
+      "site": "at://did:plc:hlchta7bwmobyum375ltycg5/site.standard.publication/3mdfcro5xe273",
+      "tags": [
+        "PowerShell",
+        "Intro",
+        "Markdown",
+        "Web"
+      ],
+      "textContent": "I've loved Markdown since the day it was a Daring Fireball post.\nIt's a simple rich text format that gets the job done, and it's used everywhere.\nMarkdown in PowerShell\nMarkdown is supported out of the box on PowerShell 6+, using the ConvertFrom-Markdown command.\nHere's it in action:\n\"# Hello World\" |\n    ConvertFrom-Markdown |\n    Select -Expand HTML\nLike any other page in a static site, Markdown is just text.\nAnd PowerShell is Pretty Good at manipulating text.\nTo make PowerShell that outputs markdown, just make simple scripts that spit out text.\nMarkdown Static Sites\nOne very simple use of this technique is making static sites with Markdown.\nIf we don't want to worry about look and feel too much, we can do this with the following pipeline:\n\"# Markdown\" | \n    ConvertFrom-Markdown | \n        Select-Object -ExpandProperty Html >\n            ./markdown.html\nIf we wanted to make a page for every file in the directory, we could:\nforeach ($file in Get-ChildItem *.md -File) {\n    ConvertFrom-Markdown -LiteralPath $file.Fullname |\n        Select-Object -ExpandProperty Html > (\n            $file.Fullname -replace '\\.md$', '.html'\n        )\n}\nThat's a static site generator in six lines of PowerShell!\nHere's an even shorter version:\nforeach ($file in Get-ChildItem *.md -File) {        \n    $html = (ConvertFrom-Markdown -Path $file.Fullname).html\n    $html > ($file.Fullname -replace '\\.md$', '.html') \n}\nNow we've got a static site generator in four lines!\nStatic Sites are Simple (with PowerShell).\nTo make websites in PowerShell, all we need to do is loop over markdown and optionally add some layout.\nMaking Markdown\nWe can make markdown in PowerShell by just outputting text.\n@(\n    \"# Hello World\"\n    \"## How Are You?\"\n    \"Today is $([DateTime]::Now.ToShortDateString())\"\n) > ./example.md\nEach line of output will become a line in the markdown file.\nWe can use conditionals if we want to. Let's switch it up by including the day of week.\n@(\n    \"# Hello World\"\n    switch ([DateTime]::Now.DayOfWeek) {\n        Monday { \"Just Another Manic Monday \"}\n        Tuesday { \"Taco Tuesday\" }\n        Wednesday { \"Halfway thru the week! \"}\n        Thursday { \"Almost Friday\" }\n        Friday { \"Happy Friday! \"}\n        Saturday { \"It's the weekend!\"}\n        default { \"It is $([DateTime]::Now.DayOfWeek)\" }\n    }\n) > ./example.md\nMaking Markdown with Functions\nWe can make functions that output markdown.\nHere's a simple one that outputs headings\nfunction markdown.heading {\n    param(\n        [string]$Message = 'Hello World',\n        [ValidateRange(1,6)]$Level = 1\n    )\n    # Multiply our heading character by our level\n    # and put a space in between the heading and message\n    ('#' * $level), $Message -join ' ''\n}\n\nmarkdown.heading \"Markdown Functions\" \nmarkdown.heading \"Are just functions\" -Level 2\nmarkdown.heading \"That output markdown\" -Level 3\nSince markdown functions are just PowerShell functions, we can put whatever we want in there.\nfunction markdown.get.process {\n    # Markdown tables have a header row\n    \"|Name|Id|\"\n    # Followed by a row that aligns text\n    \"|:-|-:|\"\n    # Followed by any number of rows of data\n    foreach ($process in Get-Process) {\n        '|' + (\n            $process.Name, $process.Id -join '|'\n        ) + '|'\n    }\n}\n\nmarkdown.get.process > ./process.md\nNow we hopefully see how easy it is to make markdown in PowerShell.\nJust spit out strings.\nThis is already probably cool enough, but why not make markdown into something we can query?\nMaking Markdown into XML\nConvertFrom-Markdown converts Markdown into HTML.\nIt's just a hop, skip, and a jump to make this markdown into XML.\nBecause all of our tags are perfectly balanced, we can make markdown in XML by just putting it into another element.\nCannonically, I prefer putting markdown into an <article> element\n@(\n    \"<article>\"\n    (\"# Hello World\" | ConvertFrom-Markdown).html\n    \"</article>\"\n) -join '' -as [xml]\nThat's it! We've turned a easy old markdown into hard-to-write XML.\nWhy is this useful?\nBecause now we can query markdown.\nMarkdown, XML, and XPath\nTo show this in action, let's start really simple:\nLet's just get all of the nodes in some markdown\n@(\n    \"# Hello World\"\n    \"## Don't mind me\"\n    \"### Just about to turn markdown into XML\"\n    \"> This is pretty cool, right?\"\n) -join [Environment]::Newline |\n    ConvertFrom-Markdown |\n    Foreach-Object {\n        \"<article>$($_.Html)</article>\" -as [xml]\n    } |\n    Select-Xml //*        \nLet's get all link hrefs in some markdown:\n# Make some markdown\n@(\n    \"# Some Links\"\n    \"* StartAutomating on GitHub\"\n    \"* PoshWeb on GitHub\"\n    \"* MarkX\"\n) -join [Environment]::Newline | \n    # convert it from markdown\n    ConvertFrom-Markdown |\n    # turn it into xml\n    Foreach-Object {\n        \"<article>$($_.Html)</article>\" -as [xml]\n    } |\n    # pipe it to Select-Xml, picking out any `<a>` elements\n    Select-Xml //a |\n    Foreach-Object { \n        $_.Node.Href\n    }\nThis is still the tip of the iceberg.\nTurning Markdown into XML lets us query and manipulate Markdown in all sorts of interesting ways.\nWhat can you do with Markdown and PowerShell? Almost anything.\nMark My Words\nMarkdown is a simple rich text format.\nPowerShell is pretty perfect for making Markdown.\nXPath is excellent at extracting information from Markdown.\nYou can do a lot of cool things when you mix Markdown with PowerShell.\nWhat do you want to try?",
+      "title": "Mastering Markdown",
+      "updatedAt": "2026-05-26T19:45:15+00:00"
+    },
+    "cid": "bafyreiguh3zgpsk2pcpg3rasfhorcc5cekpkjbqckcjng6w2ytiik2o43m"
+  }
+}
