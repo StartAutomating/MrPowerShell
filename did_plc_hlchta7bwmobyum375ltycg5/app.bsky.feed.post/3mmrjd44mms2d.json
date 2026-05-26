@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779816543078219,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmrjd3s6bb2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmrjd44mms2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-26T17:28:18.022Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreido6sbf2tz4op7x52jxaoejnuhbiavifz6fhzvlrq5ybal7mp25vu",
+          "uri": "at://did:plc:76n5af4lu74itlshkbvbynyo/app.bsky.feed.post/3mmriaioj3s25"
+        },
+        "root": {
+          "cid": "bafyreih3davf3mt36vufhh7nh7ssr6tsok36b3cnhlw7azf4ekgh4c64eq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mmp3yiefwk24"
+        }
+      },
+      "text": "Alas I feel like AI is only right about the last advantage.\n\nBoth use \"safer\" expansion ( no sub expressions ).\n\nPadding also really won't hurt.\n\nFor me it's the ability to easily query for variables and avoid conflicts.\n\nPlus cool factor / obviousness\n\n😎"
+    },
+    "cid": "bafyreicnpkdgmfrckylvmd7tnaolylnnd5ovirjpl3bqsojau6u5ymfvee"
+  }
+}
