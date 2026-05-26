@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779817003818691,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmrjrbhgme2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmrjrcrac22d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-26T17:36:14.751Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "VSCode"
+            }
+          ],
+          "index": {
+            "byteEnd": 7,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 38
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 205,
+            "byteStart": 194
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#VSCode just changed the ballgame for #PowerShell !\n\nThe latest build opens up an integrated tab for a local loopback server.\n\nJust click and link and it opens right up!\n\nThis means we can make #PowerShell web apps that run seamlessly in a tab and return content to the terminal!\n\n🤯🥳"
+    },
+    "cid": "bafyreigyk7vlnv67wjwraad73e2agwqbqdna5q7vel62byfsbu67xtanc4"
+  }
+}
