@@ -1,0 +1,123 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779825008387901,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmrrapmfeg2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmrran6h522o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-26T19:50:05.18Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "I've loved Markdown since the day it was a Daring Fireball post. It's a simple rich text format that gets the job done, and it's used everywhere. Markdown is su...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreib4nqlry25srgggijlqrfhbjewjfrf46o36fo55wvoqephognjmim"
+            },
+            "mimeType": "image/jpeg",
+            "size": 448740
+          },
+          "title": "Mastering Markdown - PowerShell Pocket Blog",
+          "uri": "https://pckt.blog/b/posh/mastering-markdown-zcefdj6"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 42,
+            "byteStart": 31
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:revjuqmkvrw6fnkxppqtszpv"
+            }
+          ],
+          "index": {
+            "byteEnd": 53,
+            "byteStart": 43
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://pckt.blog/b/posh/mastering-markdown-zcefdj6"
+            }
+          ],
+          "index": {
+            "byteEnd": 103,
+            "byteStart": 78
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Markdown"
+            }
+          ],
+          "index": {
+            "byteEnd": 144,
+            "byteStart": 135
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "StaticSite"
+            }
+          ],
+          "index": {
+            "byteEnd": 188,
+            "byteStart": 177
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.reddit.com/r/PowerShell/comments/1togrme/mastering_markdown_with_powershell/"
+            }
+          ],
+          "index": {
+            "byteEnd": 287,
+            "byteStart": 257
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 296,
+            "byteStart": 289
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just dropped a new post on the #PowerShell @pckt.blog !\n\nMastering Markdown:\n\npckt.blog/b/posh/maste...\n\nLearn how to create and query #Markdown with PowerShell.\n\nMake a simple #StaticSite generator in six lines of code.\n\nRead it all on reddit if you want\n\nwww.reddit.com/r/PowerShell...\n\n#WebDev"
+    },
+    "cid": "bafyreieq2avhudz2t53s6mck4m2e5oz73jzkuitxgcvmlbis7taugpmrtu"
+  }
+}
