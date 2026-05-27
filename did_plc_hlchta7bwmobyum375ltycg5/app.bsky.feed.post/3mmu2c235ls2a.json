@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779903440824885,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmu2c72d5f23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmu2c235ls2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-27T17:37:15.411Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigtgpligoiwgee5yuokt63l5yf737ye3j4k2gpy3ghwdedmrxykxu",
+          "uri": "at://did:plc:ryjacjbrrxbjrih4lyud6sxs/app.bsky.feed.post/3mmsqvh3yu223"
+        },
+        "root": {
+          "cid": "bafyreigtgpligoiwgee5yuokt63l5yf737ye3j4k2gpy3ghwdedmrxykxu",
+          "uri": "at://did:plc:ryjacjbrrxbjrih4lyud6sxs/app.bsky.feed.post/3mmsqvh3yu223"
+        }
+      },
+      "text": "This sounds like a \"blame the AI editor\" problem, not a PowerShell problem.\n\nLemme just fix this for you real quick:\n\n~~~PowerShell\n$azArgs = @('network', 'bastion', 'show', '--name', $BastionName, '--resource-group', $resourceGroup, '--query', 'sku') \naz @azArgs\n~~~\n\nAll fixed!  Splatting FTW."
+    },
+    "cid": "bafyreiaa7kvnvdvrba7iely5ou6k3xewsdr2vawnqbziskcshqco75zo44"
+  }
+}
