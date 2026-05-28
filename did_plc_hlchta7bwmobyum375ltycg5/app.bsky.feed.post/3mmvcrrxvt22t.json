@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779946919070061,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmvcrwtasy2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmvcrrxvt22t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-28T05:41:53.46Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Snoopy realizes how simple it will be to use this new feature for integrated client / server functionality in VSCode.\n\nSpin up a server in PowerShell, browse to it, submit a form, get results back to your PowerShell terminal.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihwa2b6gobksib6th3chyxxbcxow5clsaub7lsqdx5z2aff7vrtpi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 409050
+          },
+          "title": "Snoopy Dog's Iconic Dance",
+          "uri": "https://static.klipy.com/ii/c3a19a0b747a76e98651f2b9a3cca5ff/54/4d/XKu70GjG.gif?hh=376&ww=498&mp4=5XQffkxyYzutS12Ekwvn&webm=ZG3o9lZRO1Jpioq"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "vscode"
+            }
+          ],
+          "index": {
+            "byteEnd": 7,
+            "byteStart": 0
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 115,
+            "byteStart": 104
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 250,
+            "byteStart": 243
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "#vscode will now open local loopback servers in a tab!\n\nThis opens up so many doors for _really_ simple #PowerShell local applications inside of VSCode.  Just launch your own server and call it a day.\n\nSo many possibilities!\n\nHuge win for any #WebDev"
+    },
+    "cid": "bafyreidbert3234ztvsvdptmztrtbtte4poao3b3itnuvg4fi2etmap2wa"
+  }
+}
