@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1779923977143812,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmunfzzpyh23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmunfwwnfk22",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-27T23:19:27.431Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifygvwyc6drgi4asfcs3dy3jvzp33p53exoz3ys5wbzxvzzu56f7a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mmunbgteu222"
+        },
+        "root": {
+          "cid": "bafyreigtgpligoiwgee5yuokt63l5yf737ye3j4k2gpy3ghwdedmrxykxu",
+          "uri": "at://did:plc:ryjacjbrrxbjrih4lyud6sxs/app.bsky.feed.post/3mmsqvh3yu223"
+        }
+      },
+      "text": "You cannot do things this way in Bash.\n\nSplatting exists there, but it's limited.\n\nAnd you cannot construct arrays out of dynamic expressions as you can with PowerShell.\n\nPowerShell is _way_ more dynamic than most languages.\n\nThis is a good part of the learning curve.\n\nIt hits you in waves. 🌊"
+    },
+    "cid": "bafyreifhfnqc2h63rn4pgs2c3lkp7dm3ophqhm3kmocmjshpl5rglyhhym"
+  }
+}
