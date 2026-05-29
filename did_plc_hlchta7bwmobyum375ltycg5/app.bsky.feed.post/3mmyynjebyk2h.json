@@ -1,0 +1,72 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1780073471623266,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmyynizgiy2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmyynjebyk2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-29T16:51:11.744Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A Fun PowerShell Module for Multimedia (using FFMpeg) - StartAutomating/RoughDraft",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieqcvtmgciut4dby37gne6u262x43d53c4xs3x3fnstvyxh6pexni"
+            },
+            "mimeType": "image/jpeg",
+            "size": 65379
+          },
+          "title": "GitHub - StartAutomating/RoughDraft: A Fun PowerShell Module for Multimedia (using FFMpeg)",
+          "uri": "https://GitHub.com/StartAutomating/RoughDraft"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/StartAutomating/RoughDraft"
+            }
+          ],
+          "index": {
+            "byteEnd": 141,
+            "byteStart": 115
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/jdhitsolutions/PSBluesky"
+            }
+          ],
+          "index": {
+            "byteEnd": 299,
+            "byteStart": 273
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifzb4czgzdbfbcnpassagfrjxjtuprdmjm6jz6qjrfa777ql4ecpa",
+          "uri": "at://did:plc:l37rppjekz7niro3t63uzbhg/app.bsky.feed.post/3mmx5neywn22k"
+        },
+        "root": {
+          "cid": "bafyreiec5hewxjthafzgfsz2mw7dcrmrqaeu2n6uqpohwj32ehhdk3i6se",
+          "uri": "at://did:plc:l37rppjekz7niro3t63uzbhg/app.bsky.feed.post/3mmwnlt4exs24"
+        }
+      },
+      "text": "All possible with PowerShell 😉.\n\nYou may want to check out a couple of modules (They may help)\n\n#1. RoughDraft\n\nGitHub.com/StartAutomat...\n\nShould get you lots of metadata and let you edit the photos / create slideshow videos.\n\n#2. PSBlueSky\n\nWill let you post to here\n\ngithub.com/jdhitsolutio..."
+    },
+    "cid": "bafyreibgtmunsts3roypv5gr34sndgien5trakrsm6mayswi5v5z7mmhou"
+  }
+}
