@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1780073024594041,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mmyya6qcsj2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mmyyaa57ac2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-29T16:43:45.867Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif6ugeetvfhxbrgyshzkaxbnkpa6usbfvba6c5v4jtztuo6h6weuy",
+          "uri": "at://did:plc:552fspq34pn4tahtpnnm5nsn/app.bsky.feed.post/3mmyts4ywlk2s"
+        },
+        "root": {
+          "cid": "bafyreif6ugeetvfhxbrgyshzkaxbnkpa6usbfvba6c5v4jtztuo6h6weuy",
+          "uri": "at://did:plc:552fspq34pn4tahtpnnm5nsn/app.bsky.feed.post/3mmyts4ywlk2s"
+        }
+      },
+      "text": "🤣\n\nI noticed they have a csv to download.\n\n🤷 At least it will be easy to import into powershell with Import-CSV.\n\nWould not want to check this by hand...\n\n(Especially on hundreds or thousands of accounts )"
+    },
+    "cid": "bafyreifbwikywpxmxho7hc6bb2kcfhbtz7ux3hc3shr6ekmj72t3hssgtm"
+  }
+}
