@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1780161787076311,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mn3kvjaa572d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mn3kvjt4lc27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-05-30T17:23:07.497Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihhvt2spegfx2oxwl42rpjbevei2r2jjo5jzkt77yxczsbk22hida",
+          "uri": "at://did:plc:vc7f4oafdgxsihk4cry2xpze/app.bsky.feed.post/3mmzuh4vmos2c"
+        },
+        "root": {
+          "cid": "bafyreihkax5bq4sfzgz7y6hx2ocmdstktqn36on6nozu3tuzlid72x2kjq",
+          "uri": "at://did:plc:2vjaeco3bs24mv5kdrjlzrbr/app.bsky.feed.post/3mmzufzdirc2p"
+        }
+      },
+      "text": "Yes!\n\nNow if only it was actually PowerShell underneath....\n\nPowerShell is cross-platform.  Build upon it and all of PowerShell's vast ecosystem becomes your oyster."
+    },
+    "cid": "bafyreige6ijlxlfgx5skllyygwbgk7zh22yjenhln4w23qftkcvg4wcx4i"
+  }
+}
