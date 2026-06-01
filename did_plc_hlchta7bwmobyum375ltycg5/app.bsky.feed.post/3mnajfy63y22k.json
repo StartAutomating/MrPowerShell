@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1780332006534669,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mnajggnlzy2w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mnajfy63y22k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-01T16:39:50.616Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaxsdw3cpnbg7rlmmckz6aju77samdsi5iyb5l3ufxglbobk5ezjy",
+          "uri": "at://did:plc:2vjaeco3bs24mv5kdrjlzrbr/app.bsky.feed.post/3mn6ny5y2t22f"
+        },
+        "root": {
+          "cid": "bafyreihkax5bq4sfzgz7y6hx2ocmdstktqn36on6nozu3tuzlid72x2kjq",
+          "uri": "at://did:plc:2vjaeco3bs24mv5kdrjlzrbr/app.bsky.feed.post/3mmzufzdirc2p"
+        }
+      },
+      "text": "Sadly, as I have no MacOS devices at present, my feedback is basically going to be limited to:\n\n\"Looks cool, please try building it atop PowerShell so it could be cross platform\"\n\nHappy to help you understand how if you want the help."
+    },
+    "cid": "bafyreiciuim5zx443lbje4legvo26hdgcj7ogujgeiplbu7hgo5oktqz2u"
+  }
+}
