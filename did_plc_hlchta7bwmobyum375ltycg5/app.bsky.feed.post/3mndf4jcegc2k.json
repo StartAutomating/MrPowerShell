@@ -1,0 +1,99 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1780430475665877,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mndf525bkj2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mndf4jcegc2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-02T20:00:57.286Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Events are easy. Events let you know when something happened, and respond to it if you choose. Events are incredibly useful.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicqaonb3kkxbdp6jmygviebm56ez5gcat2453dezhawwqutaht4fe"
+            },
+            "mimeType": "image/jpeg",
+            "size": 836315
+          },
+          "title": "Events are Easy - PowerShell Pocket Blog",
+          "uri": "https://posh.pckt.blog/events-are-easy-hs4ut4e"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:revjuqmkvrw6fnkxppqtszpv"
+            }
+          ],
+          "index": {
+            "byteEnd": 61,
+            "byteStart": 51
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Reddit"
+            }
+          ],
+          "index": {
+            "byteEnd": 71,
+            "byteStart": 64
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://posh.pckt.blog/events-are-easy-hs4ut4e"
+            }
+          ],
+          "index": {
+            "byteEnd": 143,
+            "byteStart": 113
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.reddit.com/r/PowerShell/comments/1tuzosn/events_are_easy/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button"
+            }
+          ],
+          "index": {
+            "byteEnd": 187,
+            "byteStart": 157
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Hey #PowerShell people, I wrote another PowerShell @pckt.blog / #Reddit post all about events:\n\nEvents are Easy\n\nposh.pckt.blog/events-are-e...\n\nOn Reddit:\n\nwww.reddit.com/r/PowerShell...\n\nLearn how to script asynchronously in PowerShell and see how easy events can be!"
+    },
+    "cid": "bafyreicwx2mpyz5cpxaewawh5f2kirtwsi2qqg34hls7ki3dnj3kkfvha4"
+  }
+}
