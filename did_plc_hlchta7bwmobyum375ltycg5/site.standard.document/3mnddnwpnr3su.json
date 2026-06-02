@@ -1,0 +1,553 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1780429197291350,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mnddwwxh7m2f",
+    "operation": "create",
+    "collection": "site.standard.document",
+    "rkey": "3mnddnwpnr3su",
+    "record": {
+      "$type": "site.standard.document",
+      "content": {
+        "$type": "blog.pckt.content",
+        "items": [
+          {
+            "$type": "blog.pckt.block.image",
+            "attrs": {
+              "align": "center",
+              "alt": "Leslie Knope discovers all you can do with PowerShell events.",
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreicngpqxadauqbkp7fix3qh2us7piivulrwybmqs7s6vpdapjs2tgy"
+                },
+                "mimeType": "image/gif",
+                "size": 1966256
+              },
+              "naturalHeight": 514,
+              "naturalWidth": 640,
+              "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gNDAK/9sAQwAUDg8SDw0UEhASFxUUGB4yIR4cHB49LC4kMklATEtHQEZFUFpzYlBVbVZFRmSIZW13e4GCgU5gjZeMfZZzfoF8/9sAQwEVFxceGh47ISE7fFNGU3x8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8/8AAEQgACgAMAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8ALadbaIhoUbex5Zc8Y/SsOSJPMb5cc9K14QCOQD83f8KhwA74A+9ULcq94o//2Q==",
+              "src": "blob:bafkreicngpqxadauqbkp7fix3qh2us7piivulrwybmqs7s6vpdapjs2tgy"
+            }
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Events are easy."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Events let you know when something happened, and respond to it if you choose."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 28,
+                  "byteStart": 11
+                }
+              }
+            ],
+            "plaintext": "Events are incredibly useful."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Why?"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Because they let you run what you want, when you want."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's see how simple they are:"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "Creating Events"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Events are easy to create."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "To make a new event, simply run:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "New-Event MyCustomEvent"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This will output an event object."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "If nothing subscribes to the event, the event will go in the queue"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can get events with:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "Get-Event"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can handle these events whenever we want."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "How about now?"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "Subscribing to Events"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can run code the millisecond something happens."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "To do this, we can subscribe to the event."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "There are two types of events we can subscribe to in PowerShell:"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Engine events and object events."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Engine Events"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 42,
+                  "byteStart": 33
+                }
+              }
+            ],
+            "plaintext": "We can create engine events with New-Event."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 59,
+                  "byteStart": 39
+                }
+              }
+            ],
+            "plaintext": "We can subscribe to engine events with Register-EngineEvent"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "$subscriber = Register-EngineEvent -SourceIdentifier \"Hello World\" -Action {\n    \"Hello World\" | Out-Host\n}\n$helloWorld = New-Event -SourceIdentifier \"Hello World\" "
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "You might notice a cool thing here: An event's \"Source Identifier\" can be whatever we want."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's pass along a message:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "$subscriber = Register-EngineEvent -SourceIdentifier \"Print Message\" -Action {\n    $event.MessageData | Out-Host\n}\n$printMessageEvent = New-Event -SourceIdentifier \"Print Message\" -MessageData \"Hello World\""
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "If you run these scripts multiple times, you'll quickly notice that multiple subscriptions are allowed."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "The cool thing to note here is that event subscribers share data in their $event.MessageData"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's demonstrate this by counting twice."
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "$doubleCounter = foreach ($n in 1..2) {\n    Register-EngineEvent -SourceIdentifier \"Counter\" -Action {\n        $event.MessageData.Counter++\n        $event.MessageData.Counter | Out-Host\n    }\n}\n\n$counterEvent = New-Event -SourceIdentifier \"Counter\" -MessageData @{\n    Counter=0\n}"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Every time we run this block of code, we get two more subscriptions and a bunch more output."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Before we clean up, let's talk about object events"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Object Events"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "PowerShell is built on the .NET framework. .NET already has events all over the place."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's start simple, with a timer:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "# Create a timer\n$timer = [Timers.Timer]::new([Timespan]\"00:00:03\")\n# don't automatically reset (we only want to do this once)\n$timer.AutoReset = $false\n\n# Subscribe to our event\n$inAFew = Register-ObjectEvent -InputObject $timer -EventName Elapsed -Action {\n    \"In a few seconds\" | Out-Host\n}\n\n# Start the timer (see a message in a few seconds)\n$timer.Start()"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Lots of .NET types have events."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 66,
+                  "byteStart": 56
+                }
+              }
+            ],
+            "plaintext": "To see if any object supports events, simply pipe it to Get-Member (events will be near the top)."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Timers are a good start. What about watching for file changes?"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "$watcher = [IO.FileSystemWatcher]::new($pwd)\n\nRegister-ObjectEvent -InputObject $watcher -EventName Changed -Action {\n    $changedFile = $event.SourceArgs[1].Fullpath\n    $changedFile | Out-Host\n    $changedFile\n} \n\n'Check this out' > ./What-File-Changed.txt"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This is just the tip of the iceberg."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "There are literally millions of .NET types out there."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "They can all have events."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "And we can subscribe to these events in PowerShell"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Getting Subscribers"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's start to clean up a bit:"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 62,
+                  "byteStart": 43
+                }
+              }
+            ],
+            "plaintext": "To get any current subscribers, we can use Get-EventSubscriber"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "Get-EventSubscriber"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "To get events subscribing to a source, we can use:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "Get-EventSubscriber -SourceIdentifier \"Hello World\""
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 30,
+                  "byteStart": 23
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 90,
+                  "byteStart": 79
+                }
+              }
+            ],
+            "plaintext": "If a subscriber has an .Action, we can get results of that action by piping to Receive-Job"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This pipeline will get any output from any subscriber with an action"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "Get-EventSubscriber |\n    Where-Object Action |\n        Select-Object -ExpandProperty Action |\n            Receive-Job -Keep"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Hopefully this will help make another part of event subscriptions \"click\":"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Not only can we run code in the background: we can easily get the results, too."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Cleaning Up"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 44,
+                  "byteStart": 28
+                }
+              }
+            ],
+            "plaintext": "We can unsubscribe by using Unregister-Event"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "# Unsubscribe from everything\nGet-EventSubscriber | Unregister-Event"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "While we're cleaning up, let's also take care of any events in the queue."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 32,
+                  "byteStart": 20
+                }
+              }
+            ],
+            "plaintext": "We can do this with Remove-Event"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "# Get all events, and remove them.\nGet-Event | Remove-Event"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Now that we've cleaned up our runspace, let's clean up this post and review what we've learned:"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "Events are Easy"
+          },
+          {
+            "$type": "blog.pckt.block.bulletList",
+            "content": [
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "facets": [
+                      "@{features=System.Object[]; index=}"
+                    ],
+                    "plaintext": "Events are Easy to create (New-Event)"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "facets": [
+                      "@{features=System.Object[]; index=}"
+                    ],
+                    "plaintext": "Events are Easy to list (Get-Event)"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "facets": [
+                      "@{features=System.Object[]; index=}"
+                    ],
+                    "plaintext": "Events are Easy to remove (Remove-Event)"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "facets": [
+                      "@{features=System.Object[]; index=}"
+                    ],
+                    "plaintext": "Events are Easy to subscribe to (Register-EngineEvent)"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "facets": [
+                      "@{features=System.Object[]; index=}"
+                    ],
+                    "plaintext": "Events are Easy on any object (Register-ObjectEvent)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Events are Easy!"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Give them a try."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Eventually, you'll find events are excellent tools of the trade."
+          }
+        ]
+      },
+      "coverImage": {
+        "$type": "blob",
+        "ref": {
+          "$link": "bafkreicngpqxadauqbkp7fix3qh2us7piivulrwybmqs7s6vpdapjs2tgy"
+        },
+        "mimeType": "image/gif",
+        "size": 1966256
+      },
+      "description": "Events are easy. Events let you know when something happened, and respond to it if you choose. Events are incredibly useful.",
+      "path": "/events-are-easy-hs4ut4e",
+      "publishedAt": "2026-06-02T19:34:54+00:00",
+      "site": "at://did:plc:hlchta7bwmobyum375ltycg5/site.standard.publication/3mdfcro5xe273",
+      "tags": [
+        "PowerShell",
+        "Intro"
+      ],
+      "textContent": "Events are easy.\nEvents let you know when something happened, and respond to it if you choose.\nEvents are incredibly useful.\nWhy?\nBecause they let you run what you want, when you want.\nLet's see how simple they are:\nCreating Events\nEvents are easy to create.\nTo make a new event, simply run:\nNew-Event MyCustomEvent\nThis will output an event object.\nIf nothing subscribes to the event, the event will go in the queue\nWe can get events with:\nGet-Event\nWe can handle these events whenever we want.\nHow about now?\nSubscribing to Events\nWe can run code the millisecond something happens.\nTo do this, we can subscribe to the event.\nThere are two types of events we can subscribe to in PowerShell:\nEngine events and object events.\nEngine Events\nWe can create engine events with New-Event.\nWe can subscribe to engine events with Register-EngineEvent\n$subscriber = Register-EngineEvent -SourceIdentifier \"Hello World\" -Action {\n    \"Hello World\" | Out-Host\n}\n$helloWorld = New-Event -SourceIdentifier \"Hello World\" \nYou might notice a cool thing here: An event's \"Source Identifier\" can be whatever we want.\nLet's pass along a message:\n$subscriber = Register-EngineEvent -SourceIdentifier \"Print Message\" -Action {\n    $event.MessageData | Out-Host\n}\n$printMessageEvent = New-Event -SourceIdentifier \"Print Message\" -MessageData \"Hello World\"\nIf you run these scripts multiple times, you'll quickly notice that multiple subscriptions are allowed.\nThe cool thing to note here is that event subscribers share data in their $event.MessageData\nLet's demonstrate this by counting twice.\n$doubleCounter = foreach ($n in 1..2) {\n    Register-EngineEvent -SourceIdentifier \"Counter\" -Action {\n        $event.MessageData.Counter++\n        $event.MessageData.Counter | Out-Host\n    }\n}\n\n$counterEvent = New-Event -SourceIdentifier \"Counter\" -MessageData @{\n    Counter=0\n}\nEvery time we run this block of code, we get two more subscriptions and a bunch more output.\nBefore we clean up, let's talk about object events\nObject Events\nPowerShell is built on the .NET framework. .NET already has events all over the place.\nLet's start simple, with a timer:\n# Create a timer\n$timer = [Timers.Timer]::new([Timespan]\"00:00:03\")\n# don't automatically reset (we only want to do this once)\n$timer.AutoReset = $false\n\n# Subscribe to our event\n$inAFew = Register-ObjectEvent -InputObject $timer -EventName Elapsed -Action {\n    \"In a few seconds\" | Out-Host\n}\n\n# Start the timer (see a message in a few seconds)\n$timer.Start()\nLots of .NET types have events.\nTo see if any object supports events, simply pipe it to Get-Member (events will be near the top).\nTimers are a good start. What about watching for file changes?\n$watcher = [IO.FileSystemWatcher]::new($pwd)\n\nRegister-ObjectEvent -InputObject $watcher -EventName Changed -Action {\n    $changedFile = $event.SourceArgs[1].Fullpath\n    $changedFile | Out-Host\n    $changedFile\n} \n\n'Check this out' > ./What-File-Changed.txt\nThis is just the tip of the iceberg.\nThere are literally millions of .NET types out there.\nThey can all have events.\nAnd we can subscribe to these events in PowerShell\nGetting Subscribers\nLet's start to clean up a bit:\nTo get any current subscribers, we can use Get-EventSubscriber\nGet-EventSubscriber\nTo get events subscribing to a source, we can use:\nGet-EventSubscriber -SourceIdentifier \"Hello World\"\nIf a subscriber has an .Action, we can get results of that action by piping to Receive-Job\nThis pipeline will get any output from any subscriber with an action\nGet-EventSubscriber |\n    Where-Object Action |\n        Select-Object -ExpandProperty Action |\n            Receive-Job -Keep\nHopefully this will help make another part of event subscriptions \"click\":\nNot only can we run code in the background: we can easily get the results, too.\nCleaning Up\nWe can unsubscribe by using Unregister-Event\n# Unsubscribe from everything\nGet-EventSubscriber | Unregister-Event\nWhile we're cleaning up, let's also take care of any events in the queue.\nWe can do this with Remove-Event\n# Get all events, and remove them.\nGet-Event | Remove-Event\nNow that we've cleaned up our runspace, let's clean up this post and review what we've learned:\nEvents are Easy\nEvents are Easy to create (New-Event)\nEvents are Easy to list (Get-Event)\nEvents are Easy to remove (Remove-Event)\nEvents are Easy to subscribe to (Register-EngineEvent)\nEvents are Easy on any object (Register-ObjectEvent)\nEvents are Easy!\nGive them a try.\nEventually, you'll find events are excellent tools of the trade.",
+      "title": "Events are Easy",
+      "updatedAt": "2026-06-02T19:38:41+00:00"
+    },
+    "cid": "bafyreihi4bd5kmsfmrp6w43ee2cvl5ijgkjdmvhl66fzeyprfl23cvviiy"
+  }
+}
