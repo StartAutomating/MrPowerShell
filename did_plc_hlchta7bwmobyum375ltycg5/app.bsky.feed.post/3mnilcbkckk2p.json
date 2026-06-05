@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1780608891242889,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mnilcazrcg2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mnilcbkckk2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-04T21:34:51.626Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiepym6xwtv3vl27lf5zu3nlaaahua5vmwiiltvfjj4zomsjgwiwre",
+          "uri": "at://did:plc:emvn7fbj2plrm44p53dekons/app.bsky.feed.post/3mnid36fwbc2j"
+        },
+        "root": {
+          "cid": "bafyreiepym6xwtv3vl27lf5zu3nlaaahua5vmwiiltvfjj4zomsjgwiwre",
+          "uri": "at://did:plc:emvn7fbj2plrm44p53dekons/app.bsky.feed.post/3mnid36fwbc2j"
+        }
+      },
+      "text": "Got good news for you ( hopefully ).\n\nAccess Databases can be talked to with ADO and the Jet provider.\n\nLook for a vbscript example, and then use New-Object -ComObject to use the same type of object.\n\nApologies for not remembering the type off the top of my head."
+    },
+    "cid": "bafyreieua65tszb7zguyvsl7nttnmynhagknhkciwffdbfkyvpdde7ocze"
+  }
+}
