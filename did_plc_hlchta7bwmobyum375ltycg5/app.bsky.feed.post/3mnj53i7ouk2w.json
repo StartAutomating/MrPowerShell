@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1780627990519476,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mnj53hiokn2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mnj53i7ouk2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-05T02:53:11.09Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihwx5j5g7n47ign3uvonh4qujcl3nw2xpidord7vcpin4hzomjcsi",
+          "uri": "at://did:plc:emvn7fbj2plrm44p53dekons/app.bsky.feed.post/3mnilf5nh5k2j"
+        },
+        "root": {
+          "cid": "bafyreiepym6xwtv3vl27lf5zu3nlaaahua5vmwiiltvfjj4zomsjgwiwre",
+          "uri": "at://did:plc:emvn7fbj2plrm44p53dekons/app.bsky.feed.post/3mnid36fwbc2j"
+        }
+      },
+      "text": "IIRC the subsystem was called OleDB, and might be an optional component these days."
+    },
+    "cid": "bafyreiher3hcblhuwiwqv3ez5n6dnpmfweg62d4xiivzyd5e5sm5oackli"
+  }
+}
