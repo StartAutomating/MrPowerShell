@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1780774373565062,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mnnffz7uks2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mnnffaqdcs2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-06T19:32:27.679Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifisftcpln5jwf6psbxjf5ddybeqbsoq3k7emmweiew3fb4opnoyq",
+          "uri": "at://did:plc:emvn7fbj2plrm44p53dekons/app.bsky.feed.post/3mnkdsxela22n"
+        },
+        "root": {
+          "cid": "bafyreiepym6xwtv3vl27lf5zu3nlaaahua5vmwiiltvfjj4zomsjgwiwre",
+          "uri": "at://did:plc:emvn7fbj2plrm44p53dekons/app.bsky.feed.post/3mnid36fwbc2j"
+        }
+      },
+      "text": "Woot!\n\nI'm happy you've ended up at the right place!\n\nNow to avoid SQL injection attacks, you'll want to use:\n\n~~~PowerShell\n$adodbCommand = New-Object -ComObject ADOBD.Command\n~~~\n\nThen use .CreateParameter to create parameters and .Append to add them.\n\nHope this helps!"
+    },
+    "cid": "bafyreiee6vh4yjphkmcif5ivux22hballd4ornncpq73ugzzyjkifdqzuu"
+  }
+}
