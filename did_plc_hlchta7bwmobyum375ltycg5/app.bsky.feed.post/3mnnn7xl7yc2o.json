@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1780782789511935,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mnnnarvh772b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mnnn7xl7yc2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-06T21:52:40.238Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiam7nmvjqfpjnkultqwgb5rjevautejrwa7rgbjoxebks6rteb2ni",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mnnmzlgxr22y"
+        },
+        "root": {
+          "cid": "bafyreih2bhmvl6rqw66pgnd7crqdwkwjjtlj2klhap5zmkurgeu4o7obzq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mnnkxydhi22o"
+        }
+      },
+      "text": "I could, but I don't want to or need to with those sorts of numbers.\n\nThis is mainly meant for local fun.  \n\nBeing able to handle remote workloads at that scale just adds to the fun.\n\nIf it's running on my hardware, I won't be hitting it that much\n\nIf it's running in the cloud, I won't have to care."
+    },
+    "cid": "bafyreia3toviqoxfynumo5orr527vzavskq22th74obbm2oynuxe4ne4ci"
+  }
+}
