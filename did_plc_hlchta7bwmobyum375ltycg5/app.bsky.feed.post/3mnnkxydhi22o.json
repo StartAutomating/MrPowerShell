@@ -1,0 +1,58 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1780780370176917,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mnnkypwtes2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mnnkxydhi22o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-06T21:12:25.113Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 21
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 236,
+            "byteStart": 229
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 297,
+            "byteStart": 291
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Writing a fun little #PowerShell server experiment & just got to the cross platform perf testing phase.\n\nWindows: ~20,000-~30,000 requests / min 😎\nKali Linux: ~44,000-~45,000 requests / min 😱😎\n\nTakeaways:\n\n1. PowerShell #WebDev can handle between 1-3 million http requests/hour.\n2. #Linux is faster"
+    },
+    "cid": "bafyreih2bhmvl6rqw66pgnd7crqdwkwjjtlj2klhap5zmkurgeu4o7obzq"
+  }
+}
