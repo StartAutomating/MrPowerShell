@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1781114052659291,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mnxbr7zkap2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mnxbraqwc22p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-10T17:54:12.768Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiabtzkekcaei5fzuscjvvhokhr7r2vg3erhxmqto5ymhhjlomeg2m",
+          "uri": "at://did:plc:3ktuyeqq7wqogu23gyeycwku/app.bsky.feed.post/3mnvvcetetk2p"
+        },
+        "root": {
+          "cid": "bafyreiabtzkekcaei5fzuscjvvhokhr7r2vg3erhxmqto5ymhhjlomeg2m",
+          "uri": "at://did:plc:3ktuyeqq7wqogu23gyeycwku/app.bsky.feed.post/3mnvvcetetk2p"
+        }
+      },
+      "text": "I have only seen this in the wild a handful of times in my ~20 years of PowerShell.\n\nI honestly forget it's even an option most days."
+    },
+    "cid": "bafyreigp6hld7nb7vbmme5ndtlq7cvsabi33rugn45vuhn4bvxlngq46ty"
+  }
+}
