@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1781160365685429,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mnymvf362r2t",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mnymutkpfc2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-11T06:45:44.05Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiemsulbddv6q3g6ksuk2arqusl5zrm6epztfzwgdvc2jdmfr7s4nu",
+          "uri": "at://did:plc:vraljvgixy22j4twn3ls436f/app.bsky.feed.post/3mnxyrafdak2m"
+        },
+        "root": {
+          "cid": "bafyreiemsulbddv6q3g6ksuk2arqusl5zrm6epztfzwgdvc2jdmfr7s4nu",
+          "uri": "at://did:plc:vraljvgixy22j4twn3ls436f/app.bsky.feed.post/3mnxyrafdak2m"
+        }
+      },
+      "text": "Truthfully and sarcastically:\n\nInfinite capabilities vs a tiny old arcane syntax\n\n-and\n\nAbout 30 years of growth in programming language development"
+    },
+    "cid": "bafyreifzofq4qzjlskgmjip4oyykvbc6ptlgm5k5gtdhqeyc5qekvxpo5y"
+  }
+}
