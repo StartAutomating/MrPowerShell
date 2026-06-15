@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1781546565520542,
+  "kind": "commit",
+  "commit": {
+    "rev": "3modukw22bw2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3moduk3bc4s2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-15T18:02:10.088Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicicnzw6cgjxzlgagzmrftfuzj7w2hpkfjy44yzvhnmlb3bsuwd5y",
+          "uri": "at://did:plc:44p7m65grfgr23lauypucca6/app.bsky.feed.post/3moduepv2z22i"
+        },
+        "root": {
+          "cid": "bafyreib4ajziofu6ixrrz7mfcu2cxdgt24scqqboeh2j2yr5zbcxfawgnu",
+          "uri": "at://did:plc:3vyl2i7k2fuk7lbnmlxh3vof/app.bsky.feed.post/3mo7gev2muk2b"
+        }
+      },
+      "text": "Almost certainly.\n\nWhile I've spent most of my life making things easier for users, I'm so far from a \"median\" user I don't know if I would ever state confidently \"average user does this\".\n\nI do know this much: 🤷you can't please em all."
+    },
+    "cid": "bafyreiewp4fxy6fni76hox6ddu4rb2zlwet5daaag5aqt2g7qknvwe4uby"
+  }
+}
