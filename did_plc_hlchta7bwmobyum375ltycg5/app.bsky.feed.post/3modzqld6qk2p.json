@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1781552144375946,
+  "kind": "commit",
+  "commit": {
+    "rev": "3modzrf57gb2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3modzqld6qk2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-15T19:35:16.963Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif5ds3mfih5o763bgzmt6nqlnkbtmo3mqxrg23sfkdspcqu2hvzbu",
+          "uri": "at://did:plc:x3ctujjtcwhkoswqjgs75gja/app.bsky.feed.post/3modydusl6k2u"
+        },
+        "root": {
+          "cid": "bafyreib4ajziofu6ixrrz7mfcu2cxdgt24scqqboeh2j2yr5zbcxfawgnu",
+          "uri": "at://did:plc:3vyl2i7k2fuk7lbnmlxh3vof/app.bsky.feed.post/3mo7gev2muk2b"
+        }
+      },
+      "text": "If it helps, I haven't _technically_ worked on PowerShell in about 16 years now.\n\nWorked _with_ PowerShell almost every day for ~20 years now.\n\nAlso, you're onto a good set of topics / questions.\n\nWe used to call this \"The 30-year hole\"\n\nSadly, it's now \"The 50-year hole\"\n\nRest of tech keeps digging"
+    },
+    "cid": "bafyreig3dnwn6be2tmd45amjh7hhht6ml2w4exzcf6gzdv3v6bujhkpu64"
+  }
+}
