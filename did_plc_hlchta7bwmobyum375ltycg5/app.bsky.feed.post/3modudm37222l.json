@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1781546341510462,
+  "kind": "commit",
+  "commit": {
+    "rev": "3modueflka723",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3modudm37222l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-15T17:58:32.833Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiepzsciah4e7gk5e3sz3p4few4hambojapty4kshkrhu3xnsn7khu",
+          "uri": "at://did:plc:x3ctujjtcwhkoswqjgs75gja/app.bsky.feed.post/3modtuz5m6k2u"
+        },
+        "root": {
+          "cid": "bafyreib4ajziofu6ixrrz7mfcu2cxdgt24scqqboeh2j2yr5zbcxfawgnu",
+          "uri": "at://did:plc:3vyl2i7k2fuk7lbnmlxh3vof/app.bsky.feed.post/3mo7gev2muk2b"
+        }
+      },
+      "text": "Yes, though this isn't \"all\".\n\nI think terminals can be intimidating because they are exposing an infinite surface area without a map.\n\nWhereas most GUIs are exposing a finite surface area with a very limited map.\n\nThey each have their place, and one is infinitely more capable than the other."
+    },
+    "cid": "bafyreiet6nbz5zjioi2ofylzosdqmvs6w3g55u2ziaaaaotlvpcwcyvfhe"
+  }
+}
