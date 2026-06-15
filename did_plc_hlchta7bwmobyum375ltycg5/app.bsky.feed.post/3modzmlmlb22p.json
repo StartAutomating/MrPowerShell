@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1781552012376879,
+  "kind": "commit",
+  "commit": {
+    "rev": "3modznhcwkm2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3modzmlmlb22p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-15T19:33:03.052Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia6ojo232qyab2a3kry36gvsklhxhccizwtnfblgtilq6utuuziv4",
+          "uri": "at://did:plc:wfngcohlll23cnyxchmfx3jc/app.bsky.feed.post/3modyh6t4pc2b"
+        },
+        "root": {
+          "cid": "bafyreib4ajziofu6ixrrz7mfcu2cxdgt24scqqboeh2j2yr5zbcxfawgnu",
+          "uri": "at://did:plc:3vyl2i7k2fuk7lbnmlxh3vof/app.bsky.feed.post/3mo7gev2muk2b"
+        }
+      },
+      "text": "💯\n\nThis is why I love that browsers are fancy terminals.\n\nIt helps \"burst the bubble\" of inaccessibility.\n\nWe've all been learning this stuff for decades, just by browsing the internet.\n\nWe are all smarter than we think\n(and not always as smart as we think)"
+    },
+    "cid": "bafyreidwmvov6z65ahzxly4xhd7eurgf25opg4yawpkwxrsk4sb7mofkm4"
+  }
+}
