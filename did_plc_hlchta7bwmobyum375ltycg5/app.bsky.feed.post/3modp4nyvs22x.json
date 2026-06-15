@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1781540718329145,
+  "kind": "commit",
+  "commit": {
+    "rev": "3modp4smqcw2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3modp4nyvs22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-15T16:25:11.264Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifrxg6o2s2l6u2k6nrtiqxt5xjn3pzyu52s3tvpgxkrmurwy7nd2e",
+          "uri": "at://did:plc:44p7m65grfgr23lauypucca6/app.bsky.feed.post/3mob2qwkbas2t"
+        },
+        "root": {
+          "cid": "bafyreib4ajziofu6ixrrz7mfcu2cxdgt24scqqboeh2j2yr5zbcxfawgnu",
+          "uri": "at://did:plc:3vyl2i7k2fuk7lbnmlxh3vof/app.bsky.feed.post/3mo7gev2muk2b"
+        }
+      },
+      "text": "This scenario is ironic, as when you \"just hit repair\", it's running PowerShell scripts.\n\nThe average user may not know what PowerShell is.\n\nAnd yet the average user is helped by PowerShell every day."
+    },
+    "cid": "bafyreie7bu7cq3chazrbdbcotnuflnorsjondlvkaegtxwrr6i4imr5lwy"
+  }
+}
