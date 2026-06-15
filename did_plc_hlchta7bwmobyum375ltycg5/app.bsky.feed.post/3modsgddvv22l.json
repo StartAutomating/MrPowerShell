@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1781544285911891,
+  "kind": "commit",
+  "commit": {
+    "rev": "3modsh5et7o2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3modsgddvv22l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-15T17:24:16.861Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicfcfd3vuet4usshgaxeucqdum3vrawhn3hmb5z2q6usuh4jtzgz4",
+          "uri": "at://did:plc:wfngcohlll23cnyxchmfx3jc/app.bsky.feed.post/3modq2qplbc2b"
+        },
+        "root": {
+          "cid": "bafyreib4ajziofu6ixrrz7mfcu2cxdgt24scqqboeh2j2yr5zbcxfawgnu",
+          "uri": "at://did:plc:3vyl2i7k2fuk7lbnmlxh3vof/app.bsky.feed.post/3mo7gev2muk2b"
+        }
+      },
+      "text": "🤷I don't know about \"universal truth\"\n\nI do know that lots of Linux GUIs are a light skin atop CLIs, too.\n\nI personally think most people shouldn't be scared of terminals.\n\nBut 🤷most people don't realize browsers are terminals, too.\n\n🤔maybe it is a \"universal truth\""
+    },
+    "cid": "bafyreifrzihf5qgaruoa4pfznrtpzrfbj2w5sg335oq7bgaxjk2sxbfvmm"
+  }
+}
