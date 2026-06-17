@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1781711497167772,
+  "kind": "commit",
+  "commit": {
+    "rev": "3moio6hy7x62h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3moio6fj7l22r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-17T15:51:34.421Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiavezboegyphyg2xh7temsgpenadjv2a3dhar4hn6lgagl4sslvdq",
+          "uri": "at://did:plc:jcqncuvvdxvwsxyk6fvs5rjq/app.bsky.feed.post/3moinqbcd7k2q"
+        },
+        "root": {
+          "cid": "bafyreibn3ykpzyrhkq32tffadn5v6gfp4vygbsuds3nnyvixpml4j6axha",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3moinbbfyuk2r"
+        }
+      },
+      "text": "If they ever come knocking for this, I will answer.\n\nAlso, I feel like *most* people only caught the PowerShell at the end.\n\nBasically every terminal screen on the scary super secret org is PowerShell.  And about 1/2-1/3rd of their big surveillance wall: also PowerShell."
+    },
+    "cid": "bafyreibzg5azyhqq426gdrrqu3l6vpotomctpbaa7rdtbh5bfubl4e6fvy"
+  }
+}
