@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1781711840978761,
+  "kind": "commit",
+  "commit": {
+    "rev": "3moioipmb6h2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3moioiq4yck2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-17T15:57:21.098Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig4xkdezzn7q72ljk5xe4zcmanygjnsrpbli6f4dsnjbqhrjoq77m",
+          "uri": "at://did:plc:53ql7yabvtv6jjrhq7hcpot5/app.bsky.feed.post/3moio7akss22k"
+        },
+        "root": {
+          "cid": "bafyreibn3ykpzyrhkq32tffadn5v6gfp4vygbsuds3nnyvixpml4j6axha",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3moinbbfyuk2r"
+        }
+      },
+      "text": "I personally think that the big \"red flag\" should be that in 8 years of opsec work the main character never suggested using WMI to auto disable USB.\n\nOr gluing drives shut.\n\nOr, as is more common these days, the use of Secured Access Workstations.\n\nDownright sloppy, I say."
+    },
+    "cid": "bafyreiadrjxi7hwsdvcy6wwiqkf5i4ud2yoxqzd3jvmwl5jkg6suh4dvpm"
+  }
+}
