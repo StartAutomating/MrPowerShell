@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1781710320879970,
+  "kind": "commit",
+  "commit": {
+    "rev": "3moin3g7jlb27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3moin3gepl22r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-17T15:32:00.917Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A Fun PowerShell Module for Multimedia (using FFMpeg) - StartAutomating/RoughDraft",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieqcvtmgciut4dby37gne6u262x43d53c4xs3x3fnstvyxh6pexni"
+            },
+            "mimeType": "image/jpeg",
+            "size": 65379
+          },
+          "title": "GitHub - StartAutomating/RoughDraft: A Fun PowerShell Module for Multimedia (using FFMpeg)",
+          "uri": "https://GitHub.com/StartAutomating/RoughDraft"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/StartAutomating/RoughDraft"
+            }
+          ],
+          "index": {
+            "byteEnd": 173,
+            "byteStart": 147
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibyhziclvoqwrpm2j2mkqihcw5rgm6dhg6kilpufyrt77io5nh2hq",
+          "uri": "at://did:plc:7vnzdom5r7uvzns52wd4h4hv/app.bsky.feed.post/3mohycnkdis23"
+        },
+        "root": {
+          "cid": "bafyreibyhziclvoqwrpm2j2mkqihcw5rgm6dhg6kilpufyrt77io5nh2hq",
+          "uri": "at://did:plc:7vnzdom5r7uvzns52wd4h4hv/app.bsky.feed.post/3mohycnkdis23"
+        }
+      },
+      "text": "Very cool effort!\n\nThis module already does a bunch of what you have accomplished, but I will happily take a PR for any extra bells and whistles.\n\nGitHub.com/StartAutomat...\n\nFor YT-DLP stuff:\n\nGet-Media -MediaUrl\n\nFor cover art/metadata \n\nSet-Media -AlbumArt / -Metadata"
+    },
+    "cid": "bafyreiesh6vfkoplxlatjqgoebw7shi7jvvunx6hkqu2yf7j63byte3ccy"
+  }
+}
