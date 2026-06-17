@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1781713375375524,
+  "kind": "commit",
+  "commit": {
+    "rev": "3moipwh6bq32c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3moipvixj422k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-17T16:22:23.529Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifkbho6yqsbcsvsik7gpgvauvdojcipctsfy3kzhhl46nhz6q5uhi",
+          "uri": "at://did:plc:tg3tb5wukiml4xmxml6qm637/app.bsky.feed.post/3moipmz35xs25"
+        },
+        "root": {
+          "cid": "bafyreibn3ykpzyrhkq32tffadn5v6gfp4vygbsuds3nnyvixpml4j6axha",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3moinbbfyuk2r"
+        }
+      },
+      "text": "Yeah.  🤷At least use WPF, right?\n\nKidding.\n\nAt least build a Web UI with <progress> elements.\n\nAll seriousness, this would be a much bigger problem with thousands of text files than hundreds of video files.\n\nToo much Write-Progress causes hisenbugs."
+    },
+    "cid": "bafyreihntumsjitzxsrhe65h5cepqsxjiwlnt6zgonout4gqt5ibwslcyu"
+  }
+}
