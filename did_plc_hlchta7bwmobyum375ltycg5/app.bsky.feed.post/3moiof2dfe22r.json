@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1781711719281933,
+  "kind": "commit",
+  "commit": {
+    "rev": "3moiof3rxoz26",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3moiof2dfe22r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-17T15:55:17.576Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiayd7tmzsrnu3vnvsra47udwayoq3cjzg553stosyyxmmcl6sq4ai",
+          "uri": "at://did:plc:53ql7yabvtv6jjrhq7hcpot5/app.bsky.feed.post/3moio4cg6ik2k"
+        },
+        "root": {
+          "cid": "bafyreibn3ykpzyrhkq32tffadn5v6gfp4vygbsuds3nnyvixpml4j6axha",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3moinbbfyuk2r"
+        }
+      },
+      "text": "Lol, me too. I have literally written that progress UI before.\n\nReminds me: I need to make something for creating more cinematic progress bars....\n\nThough I'm not sure I want an actual progress bar when copying 5x big USB sticks at a time over (presumably) USB3."
+    },
+    "cid": "bafyreienxg2lta5vyt2hohtr7ftajt752isrlvgvob6w3bntad6f6vzhsy"
+  }
+}
