@@ -1,0 +1,84 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1781889478773066,
+  "kind": "commit",
+  "commit": {
+    "rev": "3montwpgato2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3montwohzxk2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-19T17:17:56.526Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A Fun PowerShell Module for Multimedia (using FFMpeg) - StartAutomating/RoughDraft",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreieqcvtmgciut4dby37gne6u262x43d53c4xs3x3fnstvyxh6pexni"
+            },
+            "mimeType": "image/jpeg",
+            "size": 65379
+          },
+          "title": "GitHub - StartAutomating/RoughDraft: A Fun PowerShell Module for Multimedia (using FFMpeg)",
+          "uri": "https://GitHub.com/StartAutomating/RoughDraft"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/StartAutomating/RoughDraft"
+            }
+          ],
+          "index": {
+            "byteEnd": 213,
+            "byteStart": 187
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ffmpeg"
+            }
+          ],
+          "index": {
+            "byteEnd": 242,
+            "byteStart": 235
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 277,
+            "byteStart": 266
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicc47sbakmsbfv4e4p2pxguip6cbkdxsrfptzfsn6bw6rqin7hroa",
+          "uri": "at://did:plc:5sdiawbhokcnncqt55tn3co3/app.bsky.feed.post/3monro3zwbk2y"
+        },
+        "root": {
+          "cid": "bafyreibttxdwckeuht774okqq6e2ftl4mb5wcm6ejtalki3imncwvfrcc4",
+          "uri": "at://did:plc:5sdiawbhokcnncqt55tn3co3/app.bsky.feed.post/3monolowzdc2y"
+        }
+      },
+      "text": "I would disagree.\n\nBut that's only cause I wrote a bunch of PowerShell to wrap FFMpeg.  Clear parameter names help. Tab completion really helps.  So do lots of examples and inline help.\n\nGitHub.com/StartAutomat...\n\nHas definitely made #ffmpeg easier to work with in #PowerShell."
+    },
+    "cid": "bafyreiesi2bfukf6rqzuxmgwm2fvpxetfotiywod2i5gvahwwoh4223v6y"
+  }
+}
