@@ -1,0 +1,135 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1781899279042969,
+  "kind": "commit",
+  "commit": {
+    "rev": "3moo52idbxm2r",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3moo4zgiw6k2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-19T20:00:32.506Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "It's Friday. Let's have some Fun! Let's write fun servers in PowerShell. About a week ago, I released Fun. It's a fun functional server in PowerShell.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiahdg7np6kfob4jutu7v2mjxrcjias77zrizegy73qcf5zgaxx4be"
+            },
+            "mimeType": "image/jpeg",
+            "size": 128539
+          },
+          "title": "Making Memes - PowerShell Pocket Blog",
+          "uri": "https://pckt.blog/b/posh/making-memes-47vra1t"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "FridayFun"
+            }
+          ],
+          "index": {
+            "byteEnd": 22,
+            "byteStart": 12
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Memes"
+            }
+          ],
+          "index": {
+            "byteEnd": 60,
+            "byteStart": 54
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 77,
+            "byteStart": 66
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:revjuqmkvrw6fnkxppqtszpv"
+            }
+          ],
+          "index": {
+            "byteEnd": 92,
+            "byteStart": 82
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://pckt.blog/b/posh/making-memes-47vra1t"
+            }
+          ],
+          "index": {
+            "byteEnd": 120,
+            "byteStart": 95
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.reddit.com/r/PowerShell/comments/1uab5k1/friday_fun_making_memes_with_powershell/"
+            }
+          ],
+          "index": {
+            "byteEnd": 163,
+            "byteStart": 133
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHub"
+            }
+          ],
+          "index": {
+            "byteEnd": 176,
+            "byteStart": 169
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PoshWeb/Fun"
+            }
+          ],
+          "index": {
+            "byteEnd": 205,
+            "byteStart": 183
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Having some #FridayFun -  Put out a post about Making #Memes with #PowerShell\n\nOn @pckt.blog \n\npckt.blog/b/posh/makin...\n\nOn Reddit\n\nwww.reddit.com/r/PowerShell...\n\nFun #GitHub Repo\n\ngithub.com/PoshWeb/Fun"
+    },
+    "cid": "bafyreiezzhuusj2chzwyxpvf2nimbrszzvypiala2me23fimf5dwvsnlm4"
+  }
+}
