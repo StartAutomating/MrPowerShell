@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1781851362372112,
+  "kind": "commit",
+  "commit": {
+    "rev": "3momqgrtecy2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3momqfo7gqs2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-19T06:42:04.856Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigdslnigjp26dkrq2b2rircrwr5gilpcmjnpe7unsoq3k6txja2ea",
+          "uri": "at://did:plc:q4r2rosbojocbskzd3aamxxx/app.bsky.feed.post/3momojirn5k2w"
+        },
+        "root": {
+          "cid": "bafyreigdslnigjp26dkrq2b2rircrwr5gilpcmjnpe7unsoq3k6txja2ea",
+          "uri": "at://did:plc:q4r2rosbojocbskzd3aamxxx/app.bsky.feed.post/3momojirn5k2w"
+        }
+      },
+      "text": "Mostly agreed.\n\nWould order it:\n\nPowerShell\nPython\nC\nBash"
+    },
+    "cid": "bafyreihja4of3eeujwemxqkxsotyybk5p5lw65udmryclmili7gvsyrkum"
+  }
+}
