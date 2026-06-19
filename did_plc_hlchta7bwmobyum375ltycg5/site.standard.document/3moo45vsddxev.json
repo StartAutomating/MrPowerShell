@@ -1,0 +1,314 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1781898614727845,
+  "kind": "commit",
+  "commit": {
+    "rev": "3moo4gheytv2q",
+    "operation": "create",
+    "collection": "site.standard.document",
+    "rkey": "3moo45vsddxev",
+    "record": {
+      "$type": "site.standard.document",
+      "content": {
+        "$type": "blog.pckt.content",
+        "items": [
+          {
+            "$type": "blog.pckt.block.image",
+            "attrs": {
+              "align": "center",
+              "alt": "",
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreigihoec7wq3xk3mphlwiyly5r2tyma7777jpf5ifczqm5xexebmeq"
+                },
+                "mimeType": "image/gif",
+                "size": 2087055
+              },
+              "naturalHeight": 206,
+              "naturalWidth": 498,
+              "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gNDAK/9sAQwAUDg8SDw0UEhASFxUUGB4yIR4cHB49LC4kMklATEtHQEZFUFpzYlBVbVZFRmSIZW13e4GCgU5gjZeMfZZzfoF8/9sAQwEVFxceGh47ISE7fFNGU3x8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8/8AAEQgABQAMAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A5qG4YnOBknA9qdK7SyuxJBJ7fSiiotqaXuj/2Q==",
+              "src": "blob:bafkreigihoec7wq3xk3mphlwiyly5r2tyma7777jpf5ifczqm5xexebmeq"
+            }
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "It's Friday. Let's have some Fun!"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's write fun servers in PowerShell."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "Fun Servers"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://github.com/PoshWeb/Fun"
+                  },
+                  {
+                    "$type": "blog.pckt.richtext.facet#underline"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 32,
+                  "byteStart": 29
+                }
+              }
+            ],
+            "plaintext": "About a week ago, I released Fun. It's a fun functional server in PowerShell."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "It's free, open-source, and lots of fun to play with."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 67,
+                  "byteStart": 66
+                }
+              }
+            ],
+            "plaintext": "It lets us write servers in PowerShell by starting functions with /"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "For example:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "function / { \"<h2>Now Serving from PowerShell</h2>\" }"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can also make a server return a content type. Just add the [OutputType()] attribute."
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "function /d20 {\n    [OutputType('text/plain')]\n    param()\n    Get-Random -Min 1 -Max 20\n}"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "I think this is a short, simple, and sweet way to represent an endpoint."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Looks Good to Me (🤞 looks good to you, too)."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "To start this server, we can just:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "Start-Fun"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Fun supports live reloading, so we can add new endpoints to our server just by adding new functions."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Last week's post introduced the module and showed how we could implement our own Fun server from scratch."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "For this week's fun, let's make some memes"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "Making Memes with PowerShell"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "What's in a Meme? Technical answers only."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can think a meme as a combination of:"
+          },
+          {
+            "$type": "blog.pckt.block.orderedList",
+            "attrs": {
+              "start": 1
+            },
+            "content": [
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "An image"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "Some Text"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "An (optional) animation"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This a pretty easy function to write."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "All we need to do is output a page with an image, some text, and an animation."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "For bonus points we might want to allow you to choose a Google Font and customize the CSS."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's take a crack at it:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "function /meme {\n    <#\n    .SYNOPSIS\n        Fun /meme\n    .DESCRIPTION\n        Making Memes with PowerShell\n    .EXAMPLE\n        /meme \"https://media.tenor.com/PaU1GnUGnfAAAAAC/oprah.gif\" \"You Get a Meme\" > ./YouGetAMeme.html\n    .LINK\n        Start-Fun\n    #>\n    [OutputType('text/html')]\n    param(\n    # The Meme Image\n    [string]\n    $Image = 'https://media1.tenor.com/m/DMlZVvfAsMQAAAAC/boromir-lord-of-the-rings.gif',\n\n    # The Meme Text\n    [string]\n    $Text = $(\n        \"One Does Not Simply \" + (\n            \"Walk into Mordor\",\n                \"Make a Server\",\n                \"Make a Meme\",\n                \"Write Some Code\" | \n                    Get-Random\n        ) \n    ),\n\n    # The style used to render each layer\n    [string[]]\n    $LayerStyle = @(\n        \"position: absolute\"\n        \"display: grid\"\n        \"place-items: center\"\n        \"width:100%\"\n        \"height:100%\"\n    ),\n\n    # The style used to render our text\n    [string[]]\n    $TextStyle = @(\n        'color: white'\n        'font-size: 2.5rem'\n        'place-items: center'\n        'text-align: center'\n        'width: 100%'\n        'translate:0% 40%'\n    ),\n\n    # An optional background. \n    [string]\n    $Background,\n\n    # The Google Font name.  By default, Roboto.\n    [Alias('FontName')]\n    [string]\n    $Font = 'Roboto',\n    \n    # The animation.  By default, scales the meme from 0 to 1.\n    [string]\n    $Animation = \"@keyframes animate-meme { from {scale: 0} to { scale: 1} }\",\n\n    # The animation duration.  By default, 0.666 seconds.\n    [TimeSpan]\n    $AnimationDuration = '00:00:0.666'\n    )\n    \n    @(\n    \"<html>\"\n        \"<head>\"\n            # Make our page title our meme text\n            \"<title>$([Web.HttpUtility]::HtmlEncode($text))</title>\"\n            # Load a font if we've got one\n            if ($Font) {\n                \"<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=$Font' id='font' />\"\n            }\n\n            # Set up our base styles\n            \"<style>\"\n                \"body {\n                    max-width: 100vw;\n                    height: 100vh;\n                    display: grid;\n                    place-items:center;\n                    margin:0;\n                    padding:0;\n                    box-sizing: border-box;\n                    position: relative;\n                    $(if ($Background) { \"background: $background;\" })                    \n                }\"\n                # Make images fill available space\n                \"img { width: 100%; height: 100%; }\"\n                \n                if ($Animation -and # If we have an animation\n                    # and can extract the animation name           \n                    $Animation -match '@keyframes\\s(?<name>[\\w-]+)') {\n                    # Include the animation css\n                    $Animation\n                    # and make a class to apply the animation\n                    \".animated {\n                        animation-name: $($matches.name);\n                        animation-duration: $($AnimationDuration.TotalSeconds)s; \n                        animation-repeat-count: indefinite;\n                    }\"    \n                }\n                \n                # Make a class to style our layer\n                \".layer { $($LayerStyle -join ';') }\"\n                # and make one more class to style our text\n                \".text { $(\n                    ($TextStyle + \"font-family:'$font'\") -join ';'\n                )}\"                \n            \"</style>\"\n        \"</head>\"        \n        \"<body>\" \n            # The page has a background layer           \n            \"<section class='layer animated'>\"\n                # (containing our image)\n                \"<img src='$Image' />\"\n            \"</section>\"\n            # and a text layer\n            \"<section class='layer text animated'>\"\n                # containing our encoded text\n                [Web.HttpUtility]::HtmlEncode($text)\n            \"</section>\"\n        \"</body>\"\n    \"</html>\"\n    ) -join \"`n\"\n}"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Import that function, run Start-Fun, browse to /Meme, and enjoy the show."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "If we want to customize the input, we can just provide query parameters."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can also run this outside of the browser to make a meme html file."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This is just a PowerShell function, so we can also run it locally and redirect to a file."
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "/Meme > ./OneDoesNot.html"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can also provide parameters if we want."
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "/meme \"https://media.tenor.com/PaU1GnUGnfAAAAAC/oprah.gif\" \"You Get a Meme\" > ./YouGetAMeme.html"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "You Get a Meme. And You Get a Meme. You all Get a Meme!"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "Fun PowerShell"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "PowerShell can be a lot more fun than just systems management scripts."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Have you made any Fun servers with PowerShell yet? Share 'em if you've got 'em."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 89,
+                  "byteStart": 86
+                }
+              }
+            ],
+            "plaintext": "I'll be making more memes now that I've got a function for it, and I continue to have way too much fun with PowerShell."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Good luck! Have Fun! Don't Die!"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "I hope this helps, and I'll see you next week."
+          }
+        ]
+      },
+      "coverImage": {
+        "$type": "blob",
+        "ref": {
+          "$link": "bafkreigihoec7wq3xk3mphlwiyly5r2tyma7777jpf5ifczqm5xexebmeq"
+        },
+        "mimeType": "image/gif",
+        "size": 2087055
+      },
+      "description": "It's Friday. Let's have some Fun! Let's write fun servers in PowerShell. About a week ago, I released Fun. It's a fun functional server in PowerShell.",
+      "path": "/making-memes-47vra1t",
+      "publishedAt": "2026-06-19T19:49:49+00:00",
+      "site": "at://did:plc:hlchta7bwmobyum375ltycg5/site.standard.publication/3mdfcro5xe273",
+      "tags": [
+        "PowerShell",
+        "Web",
+        "HTML"
+      ],
+      "textContent": "It's Friday. Let's have some Fun!\nLet's write fun servers in PowerShell.\nFun Servers\nAbout a week ago, I released Fun. It's a fun functional server in PowerShell.\nIt's free, open-source, and lots of fun to play with.\nIt lets us write servers in PowerShell by starting functions with /\nFor example:\nfunction / { \"<h2>Now Serving from PowerShell</h2>\" }\nWe can also make a server return a content type. Just add the [OutputType()] attribute.\nfunction /d20 {\n    [OutputType('text/plain')]\n    param()\n    Get-Random -Min 1 -Max 20\n}\nI think this is a short, simple, and sweet way to represent an endpoint.\nLooks Good to Me (🤞 looks good to you, too).\nTo start this server, we can just:\nStart-Fun\nFun supports live reloading, so we can add new endpoints to our server just by adding new functions.\nLast week's post introduced the module and showed how we could implement our own Fun server from scratch.\nFor this week's fun, let's make some memes\nMaking Memes with PowerShell\nWhat's in a Meme? Technical answers only.\nWe can think a meme as a combination of:\nAn image\nSome Text\nAn (optional) animation\nThis a pretty easy function to write.\nAll we need to do is output a page with an image, some text, and an animation.\nFor bonus points we might want to allow you to choose a Google Font and customize the CSS.\nLet's take a crack at it:\nfunction /meme {\n    <#\n    .SYNOPSIS\n        Fun /meme\n    .DESCRIPTION\n        Making Memes with PowerShell\n    .EXAMPLE\n        /meme \"https://media.tenor.com/PaU1GnUGnfAAAAAC/oprah.gif\" \"You Get a Meme\" > ./YouGetAMeme.html\n    .LINK\n        Start-Fun\n    #>\n    [OutputType('text/html')]\n    param(\n    # The Meme Image\n    [string]\n    $Image = 'https://media1.tenor.com/m/DMlZVvfAsMQAAAAC/boromir-lord-of-the-rings.gif',\n\n    # The Meme Text\n    [string]\n    $Text = $(\n        \"One Does Not Simply \" + (\n            \"Walk into Mordor\",\n                \"Make a Server\",\n                \"Make a Meme\",\n                \"Write Some Code\" | \n                    Get-Random\n        ) \n    ),\n\n    # The style used to render each layer\n    [string[]]\n    $LayerStyle = @(\n        \"position: absolute\"\n        \"display: grid\"\n        \"place-items: center\"\n        \"width:100%\"\n        \"height:100%\"\n    ),\n\n    # The style used to render our text\n    [string[]]\n    $TextStyle = @(\n        'color: white'\n        'font-size: 2.5rem'\n        'place-items: center'\n        'text-align: center'\n        'width: 100%'\n        'translate:0% 40%'\n    ),\n\n    # An optional background. \n    [string]\n    $Background,\n\n    # The Google Font name.  By default, Roboto.\n    [Alias('FontName')]\n    [string]\n    $Font = 'Roboto',\n    \n    # The animation.  By default, scales the meme from 0 to 1.\n    [string]\n    $Animation = \"@keyframes animate-meme { from {scale: 0} to { scale: 1} }\",\n\n    # The animation duration.  By default, 0.666 seconds.\n    [TimeSpan]\n    $AnimationDuration = '00:00:0.666'\n    )\n    \n    @(\n    \"<html>\"\n        \"<head>\"\n            # Make our page title our meme text\n            \"<title>$([Web.HttpUtility]::HtmlEncode($text))</title>\"\n            # Load a font if we've got one\n            if ($Font) {\n                \"<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=$Font' id='font' />\"\n            }\n\n            # Set up our base styles\n            \"<style>\"\n                \"body {\n                    max-width: 100vw;\n                    height: 100vh;\n                    display: grid;\n                    place-items:center;\n                    margin:0;\n                    padding:0;\n                    box-sizing: border-box;\n                    position: relative;\n                    $(if ($Background) { \"background: $background;\" })                    \n                }\"\n                # Make images fill available space\n                \"img { width: 100%; height: 100%; }\"\n                \n                if ($Animation -and # If we have an animation\n                    # and can extract the animation name           \n                    $Animation -match '@keyframes\\s(?<name>[\\w-]+)') {\n                    # Include the animation css\n                    $Animation\n                    # and make a class to apply the animation\n                    \".animated {\n                        animation-name: $($matches.name);\n                        animation-duration: $($AnimationDuration.TotalSeconds)s; \n                        animation-repeat-count: indefinite;\n                    }\"    \n                }\n                \n                # Make a class to style our layer\n                \".layer { $($LayerStyle -join ';') }\"\n                # and make one more class to style our text\n                \".text { $(\n                    ($TextStyle + \"font-family:'$font'\") -join ';'\n                )}\"                \n            \"</style>\"\n        \"</head>\"        \n        \"<body>\" \n            # The page has a background layer           \n            \"<section class='layer animated'>\"\n                # (containing our image)\n                \"<img src='$Image' />\"\n            \"</section>\"\n            # and a text layer\n            \"<section class='layer text animated'>\"\n                # containing our encoded text\n                [Web.HttpUtility]::HtmlEncode($text)\n            \"</section>\"\n        \"</body>\"\n    \"</html>\"\n    ) -join \"`n\"\n}\nImport that function, run Start-Fun, browse to /Meme, and enjoy the show.\nIf we want to customize the input, we can just provide query parameters.\nWe can also run this outside of the browser to make a meme html file.\nThis is just a PowerShell function, so we can also run it locally and redirect to a file.\n/Meme > ./OneDoesNot.html\nWe can also provide parameters if we want.\n/meme \"https://media.tenor.com/PaU1GnUGnfAAAAAC/oprah.gif\" \"You Get a Meme\" > ./YouGetAMeme.html\nYou Get a Meme. And You Get a Meme. You all Get a Meme!\nFun PowerShell\nPowerShell can be a lot more fun than just systems management scripts.\nHave you made any Fun servers with PowerShell yet? Share 'em if you've got 'em.\nI'll be making more memes now that I've got a function for it, and I continue to have way too much fun with PowerShell.\nGood luck! Have Fun! Don't Die!\nI hope this helps, and I'll see you next week.",
+      "title": "Making Memes",
+      "updatedAt": "2026-06-19T19:49:49+00:00"
+    },
+    "cid": "bafyreihvrssbwqy7wbqwigi75ennanztrggcadrhv7wdlkhe6zma4ewkwe"
+  }
+}
