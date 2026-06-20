@@ -1,0 +1,62 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1781994519281359,
+  "kind": "commit",
+  "commit": {
+    "rev": "3moqvr6nx3p2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3moqvpztqvk2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-20T22:28:00.262Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Script Cmdlets to interact with the Xbox Debug APIs.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihmc4pdxwsk3rg6ndsb5gwogkukfc2mc3yfw3famfgotoih7hfny4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 11730
+          },
+          "title": "XBPS 0.1",
+          "uri": "https://www.powershellgallery.com/packages/XBPS/0.1"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "xbox"
+            }
+          ],
+          "index": {
+            "byteEnd": 53,
+            "byteStart": 48
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.powershellgallery.com/packages/XBPS/0.1"
+            }
+          ],
+          "index": {
+            "byteEnd": 218,
+            "byteStart": 177
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Are there are any nerds out there with a modern #xbox developer kit?\n\nI'm wondering if this old PowerShell module I wrote for it and talked about at GameFest 2010 still works.\n\nwww.powershellgallery.com/packages/XBP...\n\nRealized today I never opensourced this and wondering if I should..."
+    },
+    "cid": "bafyreift4tgajgwetn6in3bdpnzikijtj5qtjgx6prth75cnmh3f77564q"
+  }
+}
