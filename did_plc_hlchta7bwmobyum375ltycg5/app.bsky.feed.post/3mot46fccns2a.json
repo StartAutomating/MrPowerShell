@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1782070165151976,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mot47mcg4h25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mot46fccns2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-21T19:28:43.963Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiapffoj2z6ajgbd4igvjwjfrqfufyfsopvflgg45ctzgibbicru2e",
+          "uri": "at://did:plc:ajoupctpamqxup75p2qetp26/app.bsky.feed.post/3moshic5xpc27"
+        },
+        "root": {
+          "cid": "bafyreiapffoj2z6ajgbd4igvjwjfrqfufyfsopvflgg45ctzgibbicru2e",
+          "uri": "at://did:plc:ajoupctpamqxup75p2qetp26/app.bsky.feed.post/3moshic5xpc27"
+        }
+      },
+      "text": "If you're doing this in PowerShell, I believe Get-FileHash will do the trick."
+    },
+    "cid": "bafyreietmx2offpdbzxweqrfpxoq5zpkvhl2mpbu4vru2nknnpzfrzafki"
+  }
+}
