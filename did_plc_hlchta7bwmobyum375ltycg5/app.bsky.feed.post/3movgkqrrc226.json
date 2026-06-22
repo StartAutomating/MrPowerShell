@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1782150036665091,
+  "kind": "commit",
+  "commit": {
+    "rev": "3movglxqzfu2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3movgkqrrc226",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-22T17:39:55.552Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif5e7axkswghnyfqarn467lczqsnakile7twtvazt622idsxt7hri",
+          "uri": "at://did:plc:vy354nwase6fatq5c7rbujqs/app.bsky.feed.post/3movefdirik2o"
+        },
+        "root": {
+          "cid": "bafyreif5e7axkswghnyfqarn467lczqsnakile7twtvazt622idsxt7hri",
+          "uri": "at://did:plc:vy354nwase6fatq5c7rbujqs/app.bsky.feed.post/3movefdirik2o"
+        }
+      },
+      "text": "Yep!  PowerShell has been cross platform for 10 years now.\n\nPowerShell on Linux is so much fun it's silly.\n\nAn Object Pipeline is a wonderful thing to bring to Linux.\n\nIt's also faster than the Windows version. 😉\n\nJump on in... the water's warm."
+    },
+    "cid": "bafyreiggck7vmfehvqwyiox5unexqbmpkljb6myeksbx2ks7omzrmpcv3a"
+  }
+}
