@@ -1,0 +1,307 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1782518046170717,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mpa5dinkph2z",
+    "operation": "create",
+    "collection": "site.standard.document",
+    "rkey": "3mpa4hhcgnh4y",
+    "record": {
+      "$type": "site.standard.document",
+      "content": {
+        "$type": "blog.pckt.content",
+        "items": [
+          {
+            "$type": "blog.pckt.block.image",
+            "attrs": {
+              "align": "center",
+              "alt": "",
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreig3aovjpxkzrmzjrgxwfx5gxmge4rxsr5xif7hje3ezrmylwtrv2y"
+                },
+                "mimeType": "image/gif",
+                "size": 251733
+              },
+              "naturalHeight": 357,
+              "naturalWidth": 498,
+              "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gNDAK/9sAQwAUDg8SDw0UEhASFxUUGB4yIR4cHB49LC4kMklATEtHQEZFUFpzYlBVbVZFRmSIZW13e4GCgU5gjZeMfZZzfoF8/9sAQwEVFxceGh47ISE7fFNGU3x8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8/8AAEQgACQAMAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A60GXzHwAy9hnGKdDu2fP1zUlFAH/2Q==",
+              "src": "blob:bafkreig3aovjpxkzrmzjrgxwfx5gxmge4rxsr5xif7hje3ezrmylwtrv2y"
+            }
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "I've been doing WebDev with PowerShell for a while now."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "I find it a lot of fun."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "I'm somewhat obsessed with making things easy in PowerShell and trying to make development fun."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "I was writing a long post on writing servers with PowerShell, and I wanted to close it with something fun: using the function name as a route."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "Fun Servers"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "What do I mean?"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Functions in PowerShell can be named just about anything."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "For example:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "function / { \"<h1>Hello world</h1>\" }"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Totally legal and valid PowerShell function name. Obvious. Short. Simple. Sweet."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 43,
+                  "byteStart": 31
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 68,
+                  "byteStart": 57
+                }
+              }
+            ],
+            "plaintext": "For a bit more fun, we can use [OutputType] to provide a ContentType"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "function s {\n    [OutputType('text/css')]\n    param()\n    \"body { max-width: 100vw; height: 100vh; font-size: $(Get-Random -Min 1.0 -Max 2.5)rem} \"\n}"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "I don't know about you, but I feel like this is a fun approach."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "I started to write up a good example, but then I kept having fun with it."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://github.com/PoshWeb/Fun"
+                  },
+                  {
+                    "$type": "blog.pckt.richtext.facet#underline"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 60,
+                  "byteStart": 57
+                }
+              }
+            ],
+            "plaintext": "And now there's a fun new open-source PowerShell module: Fun"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This fun module lets you quickly and easily create servers that use this pattern:"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 44,
+                  "byteStart": 42
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 60,
+                  "byteStart": 51
+                }
+              }
+            ],
+            "plaintext": "Simply declare functions or aliases named /*, then Start-Fun."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "With this module, functions run as you, in the current context and host."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This means it can do anything you can do in PowerShell."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "It can create very fun interactions between your terminal and your browser."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Query strings are also automatically mapped to function parameters."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This module and this approach is lots of fun!"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "A Simple Fun Server"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "If you don't want to use a module, here's a brief example of how to make your own fun server."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This code doesn't include all the bells and whistles of the Fun module, but it shows how simple function routing can be."
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "$InitializationScript = {\n    function / {\n        <#\n        .SYNOPSIS\n            Root page\n        .DESCRIPTION\n            Randomized Root Page\n        #>\n        [OutputType('text/html')]\n        param()\n        \"<html>\"\n            \"<head>\"    \n                \"<link rel='stylesheet' href='/main.css' />\"                    \n            \"</head>\"\n            \"<body>\"\n                \"<p class='animated'>\"\n                    \"Hello World\", \"Hello\", \"Hi\", \"Welcome\", \"Wow\" | Get-Random\n                \"</p>\"\n            \"</body>\"\n        \"</html>\"\n    }\n\n    function /main.css {\n        <#\n        .SYNOPSIS\n            \n        .DESCRIPTION\n            Just dynamically defining a css file.\n        #>\n        [OutputType('text/css')] # (the output type determines the content type)\n        param()\n\n        # We can just output css blocks\n        \"@keyframes zoom-from-random { \n            0% {\n                translate:$(\n                    Get-Random -Min -50 -Maximum 50\n                )vw $(\n                    Get-Random -Min -50 -Maximum 50\n                )vh;\n                scale:2;\n            }\n            100% {\n                translate: 0 0;\n                scale: 1;\n            }\n        }\"\n        \n        \".animated { animation-name: zoom-from-random; animation-duration: $(Get-Random -Min 250 -Max 2500)ms;}\"\n        \"h1 { text-align: center; }\"\n\n        \"body { max-width: 100vw; height: 100vh; display: grid; place-items: center; font-size:$(Get-Random -Min 2.0 -Maximum 10.0)rem }\"\n    }        \n}\n\n\n\n# Create a listener.\n$listener = [Net.HttpListener]::new()\n# Add prefixes for a local random port.\n$listener.Prefixes.Add(\"http://127.0.0.1:$(Get-Random -Min 5kb -Max 50kb)/\")\n# Start the listener.\n$listener.Start()\n\n# Write our a warning so we know we're serving and have something to click\nWrite-Warning \"Listening on $($listener.Prefixes)\"\n\n\n# Start our background job\nStart-ThreadJob -ScriptBlock {\n    # pass it the http listener\n    param($listener, $mainRunspace)\n\n    # While the listener is listening, \n    while ($listener.IsListening) {\n        # get the next context\n        $context = $listener.GetContext()\n        $request, $response = $context.Request, $context.Response\n        \n        $requestedFunction = \n            $ExecutionContext.SessionState.InvokeCommand.GetCommand(\n                $request.Url.LocalPath,\n                'Function,Alias'\n            )            \n        \n        if (-not $requestedFunction) {\n            $response.StatusCode = 404\n            $response.Close()\n            continue\n        }\n\n        if ($requestedFunction.OutputType) {\n            $response.ContentType = $requestedFunction.OutputType.Name -join ';'\n        }\n\n        $reply = & $requestedFunction 2>&1\n\n        if ($reply.ErrorRecord) {\n            $response.StatusCode = 500                \n        }\n        if ($reply -as [byte[]]) {\n            $response.Close(($reply -as [byte[]]), $false)\n        }\n        else {\n            $response.Close([Text.Encoding]::UTF8.GetBytes(\"$reply\"), $false)\n        }\n    }\n} -ArgumentList $listener, (\n        [runspace]::DefaultRunspace\n) -ThrottleLimit 16kb -Name \"$($listener.Prefixes)\" -InitializationScript $InitializationScript |\n    # Add our listener to the job, so we can easily tell the job to stop listening\n    Add-Member NoteProperty HttpListener $listener -Force -PassThru"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "That's about 100 lines for a functional server. Not too shabby.  Of course we can do more with it.  A lot more. "
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://github.com/PoshWeb/Fun"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 32,
+                  "byteStart": 19
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://powershellgallery.com/packages/Fun"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 56,
+                  "byteStart": 38
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://ghcr.io/poshweb/fun"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 91,
+                  "byteStart": 66
+                }
+              }
+            ],
+            "plaintext": "I've published the Fun on GitHub, the PowerShell Gallery, and the GitHub Container Registry.  This module has been growing rapidly and has a lot more fun coming soon."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "Friday Fun Servers"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "I think functional servers are short, simple, sweet, and, well, Fun."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "I'll be trying to make a habit of Friday Fun examples."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Please give this approach a try and let me know what you think."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Have Fun!"
+          }
+        ]
+      },
+      "coverImage": {
+        "$type": "blob",
+        "ref": {
+          "$link": "bafkreig3aovjpxkzrmzjrgxwfx5gxmge4rxsr5xif7hje3ezrmylwtrv2y"
+        },
+        "mimeType": "image/gif",
+        "size": 251733
+      },
+      "description": "I've been doing WebDev with PowerShell for a while now. I find it a lot of fun. I'm somewhat obsessed with making things easy in PowerShell and trying to make development fun.",
+      "path": "/friday-fun-1-servers-with-powershell-2nn0bg2",
+      "publishedAt": "2026-06-26T23:53:59+00:00",
+      "site": "at://did:plc:hlchta7bwmobyum375ltycg5/site.standard.publication/3mdfcro5xe273",
+      "tags": [
+        "HTML",
+        "Web",
+        "PowerShell",
+        "Intro"
+      ],
+      "textContent": "I've been doing WebDev with PowerShell for a while now.\nI find it a lot of fun.\nI'm somewhat obsessed with making things easy in PowerShell and trying to make development fun.\nI was writing a long post on writing servers with PowerShell, and I wanted to close it with something fun: using the function name as a route.\nFun Servers\nWhat do I mean?\nFunctions in PowerShell can be named just about anything.\nFor example:\nfunction / { \"<h1>Hello world</h1>\" }\nTotally legal and valid PowerShell function name. Obvious. Short. Simple. Sweet.\nFor a bit more fun, we can use [OutputType] to provide a ContentType\nfunction s {\n    [OutputType('text/css')]\n    param()\n    \"body { max-width: 100vw; height: 100vh; font-size: $(Get-Random -Min 1.0 -Max 2.5)rem} \"\n}\nI don't know about you, but I feel like this is a fun approach.\nI started to write up a good example, but then I kept having fun with it.\nAnd now there's a fun new open-source PowerShell module: Fun\nThis fun module lets you quickly and easily create servers that use this pattern:\nSimply declare functions or aliases named /*, then Start-Fun.\nWith this module, functions run as you, in the current context and host.\nThis means it can do anything you can do in PowerShell.\nIt can create very fun interactions between your terminal and your browser.\nQuery strings are also automatically mapped to function parameters.\nThis module and this approach is lots of fun!\nA Simple Fun Server\nIf you don't want to use a module, here's a brief example of how to make your own fun server.\nThis code doesn't include all the bells and whistles of the Fun module, but it shows how simple function routing can be.\n$InitializationScript = {\n    function / {\n        <#\n        .SYNOPSIS\n            Root page\n        .DESCRIPTION\n            Randomized Root Page\n        #>\n        [OutputType('text/html')]\n        param()\n        \"<html>\"\n            \"<head>\"    \n                \"<link rel='stylesheet' href='/main.css' />\"                    \n            \"</head>\"\n            \"<body>\"\n                \"<p class='animated'>\"\n                    \"Hello World\", \"Hello\", \"Hi\", \"Welcome\", \"Wow\" | Get-Random\n                \"</p>\"\n            \"</body>\"\n        \"</html>\"\n    }\n\n    function /main.css {\n        <#\n        .SYNOPSIS\n            \n        .DESCRIPTION\n            Just dynamically defining a css file.\n        #>\n        [OutputType('text/css')] # (the output type determines the content type)\n        param()\n\n        # We can just output css blocks\n        \"@keyframes zoom-from-random { \n            0% {\n                translate:$(\n                    Get-Random -Min -50 -Maximum 50\n                )vw $(\n                    Get-Random -Min -50 -Maximum 50\n                )vh;\n                scale:2;\n            }\n            100% {\n                translate: 0 0;\n                scale: 1;\n            }\n        }\"\n        \n        \".animated { animation-name: zoom-from-random; animation-duration: $(Get-Random -Min 250 -Max 2500)ms;}\"\n        \"h1 { text-align: center; }\"\n\n        \"body { max-width: 100vw; height: 100vh; display: grid; place-items: center; font-size:$(Get-Random -Min 2.0 -Maximum 10.0)rem }\"\n    }        \n}\n\n\n\n# Create a listener.\n$listener = [Net.HttpListener]::new()\n# Add prefixes for a local random port.\n$listener.Prefixes.Add(\"http://127.0.0.1:$(Get-Random -Min 5kb -Max 50kb)/\")\n# Start the listener.\n$listener.Start()\n\n# Write our a warning so we know we're serving and have something to click\nWrite-Warning \"Listening on $($listener.Prefixes)\"\n\n\n# Start our background job\nStart-ThreadJob -ScriptBlock {\n    # pass it the http listener\n    param($listener, $mainRunspace)\n\n    # While the listener is listening, \n    while ($listener.IsListening) {\n        # get the next context\n        $context = $listener.GetContext()\n        $request, $response = $context.Request, $context.Response\n        \n        $requestedFunction = \n            $ExecutionContext.SessionState.InvokeCommand.GetCommand(\n                $request.Url.LocalPath,\n                'Function,Alias'\n            )            \n        \n        if (-not $requestedFunction) {\n            $response.StatusCode = 404\n            $response.Close()\n            continue\n        }\n\n        if ($requestedFunction.OutputType) {\n            $response.ContentType = $requestedFunction.OutputType.Name -join ';'\n        }\n\n        $reply = & $requestedFunction 2>&1\n\n        if ($reply.ErrorRecord) {\n            $response.StatusCode = 500                \n        }\n        if ($reply -as [byte[]]) {\n            $response.Close(($reply -as [byte[]]), $false)\n        }\n        else {\n            $response.Close([Text.Encoding]::UTF8.GetBytes(\"$reply\"), $false)\n        }\n    }\n} -ArgumentList $listener, (\n        [runspace]::DefaultRunspace\n) -ThrottleLimit 16kb -Name \"$($listener.Prefixes)\" -InitializationScript $InitializationScript |\n    # Add our listener to the job, so we can easily tell the job to stop listening\n    Add-Member NoteProperty HttpListener $listener -Force -PassThru\nThat's about 100 lines for a functional server. Not too shabby.  Of course we can do more with it.  A lot more. \nI've published the Fun on GitHub, the PowerShell Gallery, and the GitHub Container Registry.  This module has been growing rapidly and has a lot more fun coming soon.\nFriday Fun Servers\nI think functional servers are short, simple, sweet, and, well, Fun.\nI'll be trying to make a habit of Friday Fun examples.\nPlease give this approach a try and let me know what you think.\nHave Fun!",
+      "title": "Friday Fun #1 - Servers with PowerShell",
+      "updatedAt": "2026-06-26T23:53:59+00:00"
+    },
+    "cid": "bafyreie54xreg6phrfrkgym2vtcdgp7madjchkppofmjiivyiabazlqhhm"
+  }
+}
