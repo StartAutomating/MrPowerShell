@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1782676489386865,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mpeqviaauc2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mpeqtw6zlc2g",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-28T19:53:56.713Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 95,
+            "byteStart": 84
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://githhub.com/PoshWeb/WebSocket"
+            }
+          ],
+          "index": {
+            "byteEnd": 142,
+            "byteStart": 115
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Yesterday I found a WebSocket for seismic events:\n\nEasy enough to tap into with the #PowerShell WebSocket module:\n\ngithhub.com/PoshWeb/WebS...\n\n$seismic = WebSocket wss://www.seismicportal.eu/standing_order/websocket\n\nToday I learned there are hundreds of seismic events in a 24-hour period 🤯"
+    },
+    "cid": "bafyreiagtkqhnsftno7q74ildxxqk3v5lzc7vxvwvj6xx6cjrfp333oywq"
+  }
+}
