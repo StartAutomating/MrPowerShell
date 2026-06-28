@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1782676085785094,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mpeqjf2uwb2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mpeqhqzyj224",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-28T19:47:08.653Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibeg6rdh55vl225ihk3wdwft6c5ta36e4o4pq7vox24mz2s4idfqe",
+          "uri": "at://did:plc:qfirfugnq6mit2dsbjn6uixc/app.bsky.feed.post/3mpegc5qoyo2q"
+        },
+        "root": {
+          "cid": "bafyreibeg6rdh55vl225ihk3wdwft6c5ta36e4o4pq7vox24mz2s4idfqe",
+          "uri": "at://did:plc:qfirfugnq6mit2dsbjn6uixc/app.bsky.feed.post/3mpegc5qoyo2q"
+        }
+      },
+      "text": "🤦\n\nInteresting idea.\n\nI wouldn't recommend people run as admin and start mucking with their hosts file just to get a few moments' peace."
+    },
+    "cid": "bafyreid5z323e6vxdnxr4kon64hxkbz7ooamifozqlk3p5mxyrrlzz7qk4"
+  }
+}
