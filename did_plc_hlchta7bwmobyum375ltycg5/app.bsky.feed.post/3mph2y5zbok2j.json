@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1782756037731729,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mph2y6u55j2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mph2y5zbok2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-29T18:00:36.026Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifumcz72bpsambfpens4qblul26xduhkuqu5zzj4bbvcbncjw2xeq",
+          "uri": "at://did:plc:3yoa45lzrtiisz6x7mrugw6w/app.bsky.feed.post/3mpgyqr43qz2c"
+        },
+        "root": {
+          "cid": "bafyreifumcz72bpsambfpens4qblul26xduhkuqu5zzj4bbvcbncjw2xeq",
+          "uri": "at://did:plc:3yoa45lzrtiisz6x7mrugw6w/app.bsky.feed.post/3mpgyqr43qz2c"
+        }
+      },
+      "text": "I do not think you understand how PowerShdll jobs work, or WebSockets work.\n\nJobs will run in the background until completed.  They can be easily relaunched.  You can receive their results and save them.\n\nAlso, pretty sure the EU has real infrastructure behind their seismic monitoring service."
+    },
+    "cid": "bafyreibwvudwkwjm4ckqhdengbyz7v3dtop2khox25w4ustav6meqgole4"
+  }
+}
