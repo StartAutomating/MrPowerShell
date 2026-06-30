@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1782838193169413,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mpjhimxjz32n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mpjhgx5kdc2s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-06-30T16:48:56.521Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia2y7mbzge4buxjeewmi2qcrmc2gvv7z5vdbalcyzmdqwl7luxb5y",
+          "uri": "at://did:plc:gmunddngojnlslcqs56wkk7s/app.bsky.feed.post/3mphrirw7i224"
+        },
+        "root": {
+          "cid": "bafyreigbek2nggnzvfsx7b24mjm226rxskrvvmvaq7ese6xwq74oso4b5a",
+          "uri": "at://did:plc:gmunddngojnlslcqs56wkk7s/app.bsky.feed.post/3mphpxfkikk24"
+        }
+      },
+      "text": "Yeah, that was an interesting video.\n\nI watched it a few days ago and was half begging the screen for the author to know something/_anything_ about PowerShell.\n\nThe language is a logical layer you can use to autogenerate UIs.\n\nIf Linux wants better UI, it needs more PowerShell."
+    },
+    "cid": "bafyreibzyw2op3iaqt442vf6y7v5gozsrq3fk43m632tq6estuwjuybeey"
+  }
+}
