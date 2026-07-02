@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1783018259622800,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mpop6zpuic2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mpop57wkfs2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-02T18:49:58.811Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidq6nkmaimz7w563dgzsvr7lbz6agqhqfj6sqj533czxfdyhn6wzq",
+          "uri": "at://did:plc:6omwpywertobiisnnwier7g6/app.bsky.feed.post/3mpoofqy3sc22"
+        },
+        "root": {
+          "cid": "bafyreigg3r7u7eq5owfenlz4kqbniunqrorqaonslcsglvwrie57p36j7i",
+          "uri": "at://did:plc:6omwpywertobiisnnwier7g6/app.bsky.feed.post/3mpofqfhy6c2v"
+        }
+      },
+      "text": "Yeah, and, back in the 90s, I wrote some Perl to aggregate Online Film Critics Society reviews to provide a \"Critics Score\" to a \"new\" site called Rotten Tomatoes.\n\nWoulda been about 1/4 as many lines in PowerShell.\n\nAlso, I'm more talking about anything dealing with objects."
+    },
+    "cid": "bafyreibbcp3hyvef75rivttkw3c2wr6zrjsp5hqharvq7vfksx4q2aflpa"
+  }
+}
