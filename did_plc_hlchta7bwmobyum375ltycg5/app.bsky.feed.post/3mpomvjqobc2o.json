@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1783015853764093,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mpomxdcdun2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mpomvjqobc2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-02T18:09:53.186Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidu7rj5zkphmhhdzv5iye26hcjo2fhlj75amzvr2gpep7mjpfmsve",
+          "uri": "at://did:plc:6omwpywertobiisnnwier7g6/app.bsky.feed.post/3mpoloh5hz22x"
+        },
+        "root": {
+          "cid": "bafyreigg3r7u7eq5owfenlz4kqbniunqrorqaonslcsglvwrie57p36j7i",
+          "uri": "at://did:plc:6omwpywertobiisnnwier7g6/app.bsky.feed.post/3mpofqfhy6c2v"
+        }
+      },
+      "text": "🤔 If only bash could do 1/10th of what PowerShell can do..."
+    },
+    "cid": "bafyreidtjt5wprbygrpracwf7bhlqyqobd4jz3jgffpaqxvmc4wl5f6raa"
+  }
+}
