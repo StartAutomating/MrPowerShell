@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1783098656616315,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mpr22zwe3s2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mpqzz6flwk2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-03T17:09:53.627Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Free eBook digitized and proofread by volunteers.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifpi5vzkvixgaz4knmwrk5rfs6rh7rzentkgjvpfok4ackudeu5aq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 55108
+          },
+          "title": "The United States Bill of Rights by United States",
+          "uri": "https://www.gutenberg.org/ebooks/2"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.gutenberg.org/ebooks/2"
+            }
+          ],
+          "index": {
+            "byteEnd": 80,
+            "byteStart": 54
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigfthkj6rg7p7fcmocfzmt4ost5mnrlnilptyzxjkrmgn5c4gu6yu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mpqztd47ts2b"
+        },
+        "root": {
+          "cid": "bafyreif7b3bzsjtuczk2r4aup44vobrd53ptrjbc2oncpqqovs2x5ihrai",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mpqzoqih4s2b"
+        }
+      },
+      "text": "The 2nd Project Gutenberg doc is the bill of rights:\n\nwww.gutenberg.org/ebooks/2"
+    },
+    "cid": "bafyreifyxqy3z55punkrn223dfqmkkuijmgcofakrekqxrajeerq5k3hhe"
+  }
+}
