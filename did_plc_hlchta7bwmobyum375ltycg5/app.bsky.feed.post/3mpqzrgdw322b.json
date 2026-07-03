@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1783098396040899,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mpqztbthbm22",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mpqzrgdw322b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-03T17:05:33.525Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif7b3bzsjtuczk2r4aup44vobrd53ptrjbc2oncpqqovs2x5ihrai",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mpqzoqih4s2b"
+        },
+        "root": {
+          "cid": "bafyreif7b3bzsjtuczk2r4aup44vobrd53ptrjbc2oncpqqovs2x5ihrai",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mpqzoqih4s2b"
+        }
+      },
+      "text": "The story behind it is peak greybeard:\n\nThe United States Declaration of Independence was the first E-text released by Project Gutenberg, early in 1971. The title was stored in an emailed instruction set which required a tape or diskpack be hand mounted for retrieval..."
+    },
+    "cid": "bafyreibjihivfjt6v6i7kq52xwj57vfjjor3bye7ktkdmczw7vgpvykefi"
+  }
+}
