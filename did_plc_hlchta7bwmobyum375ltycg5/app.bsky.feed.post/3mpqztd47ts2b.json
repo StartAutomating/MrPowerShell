@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1783098460429889,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mpqzv7aq3d2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mpqztd47ts2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-03T17:06:37.236Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibjihivfjt6v6i7kq52xwj57vfjjor3bye7ktkdmczw7vgpvykefi",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mpqzrgdw322b"
+        },
+        "root": {
+          "cid": "bafyreif7b3bzsjtuczk2r4aup44vobrd53ptrjbc2oncpqqovs2x5ihrai",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mpqzoqih4s2b"
+        }
+      },
+      "text": "...The disk pack was the size of a large cake in a cake carrier, cost $1500, and contained 5 megabytes, of which this file took 1-2%. Two tape backups were kept plus one on\npaper tape."
+    },
+    "cid": "bafyreigfthkj6rg7p7fcmocfzmt4ost5mnrlnilptyzxjkrmgn5c4gu6yu"
+  }
+}
