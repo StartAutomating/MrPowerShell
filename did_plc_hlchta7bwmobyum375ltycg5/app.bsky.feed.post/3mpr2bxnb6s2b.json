@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1783098951740728,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mpr2dtiuz72i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mpr2bxnb6s2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-03T17:14:48.528Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Free eBook digitized and proofread by volunteers.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreid4pycpsiuvkh2rldhcixvkiprghtv6xt5u4i6lzt2wsprcjcntzi"
+            },
+            "mimeType": "image/jpeg",
+            "size": 59932
+          },
+          "title": "The United States Constitution by United States",
+          "uri": "https://www.gutenberg.org/ebooks/5"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.gutenberg.org/ebooks/5"
+            }
+          ],
+          "index": {
+            "byteEnd": 55,
+            "byteStart": 29
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigme7wvtshht74zjzuzqt25vu7hkyrjiz4ckkg6cmjablmnrvmzja",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mpr24lxobc2b"
+        },
+        "root": {
+          "cid": "bafyreif7b3bzsjtuczk2r4aup44vobrd53ptrjbc2oncpqqovs2x5ihrai",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mpqzoqih4s2b"
+        }
+      },
+      "text": "And #5 is the Constitution:\n\nwww.gutenberg.org/ebooks/5\n\n🤔 Interesting order of operations for the first 5 docs."
+    },
+    "cid": "bafyreiae3qnhcwptz3bxgromciegsd2ff6fcs66vah66pzyrzgmre3b444"
+  }
+}
