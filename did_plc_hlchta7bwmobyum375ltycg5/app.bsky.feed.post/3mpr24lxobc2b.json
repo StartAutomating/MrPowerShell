@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1783098771917815,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mpr26hx36q2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mpr24lxobc2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-03T17:11:48.514Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Free eBook digitized and proofread by volunteers.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigawvgex4ttk2yn4lbicliiwqsiiqwt2bondkgu3o3zcjoezwx6dm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 59098
+          },
+          "title": "Lincoln's Gettysburg Address by Abraham Lincoln",
+          "uri": "https://www.gutenberg.org/ebooks/4"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.gutenberg.org/ebooks/4"
+            }
+          ],
+          "index": {
+            "byteEnd": 80,
+            "byteStart": 54
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicmce7gy2k7piqx5e23l3hakla7s3zia7pagv7culpf5s4lu3cvxq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mpr235cqtc2b"
+        },
+        "root": {
+          "cid": "bafyreif7b3bzsjtuczk2r4aup44vobrd53ptrjbc2oncpqqovs2x5ihrai",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mpqzoqih4s2b"
+        }
+      },
+      "text": "The 4th Project Gutenberg is the Gettysburg Address:\n\nwww.gutenberg.org/ebooks/4"
+    },
+    "cid": "bafyreigme7wvtshht74zjzuzqt25vu7hkyrjiz4ckkg6cmjablmnrvmzja"
+  }
+}
