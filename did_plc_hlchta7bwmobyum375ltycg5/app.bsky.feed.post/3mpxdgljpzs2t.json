@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1783314866534579,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mpxdgm7fg52w",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mpxdgljpzs2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-06T05:14:25.707Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieltfmikyvjr4axlfavlrv6mk37iso3tyqmfxbjet4peh6hljt4ua",
+          "uri": "at://did:plc:kx2mxhedzbeuqethywrzdexz/app.bsky.feed.post/3mpxdc2huxs2z"
+        },
+        "root": {
+          "cid": "bafyreicllkutf7ild2bkey2y2py6qiqeivkb23kbjsz5wczs57xiatn5si",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mpxcu2flrk2t"
+        }
+      },
+      "text": "Yeah.  I was kinda tempted to add \"wrong answers only\" just to see what might come out of the woodwork.\n\nBut 🤷 I did end up making such a thing, and it doesn't feel totally cursed ( yet )"
+    },
+    "cid": "bafyreibmbybjxyryvwrwm55ufttm3znojwlwkjr3xoyjajtuhwzcfluriq"
+  }
+}
