@@ -1,0 +1,63 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1783472806647294,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mq3wjl6fq72r",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mq3wicin2s2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-08T01:06:03.391Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Braid is a superfast scripting language built by Bruce Payette, one of the original authors of PowerShell.\nIn this month’s Pacific PowerShell User Group, Bruce Payette will",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifandxrlvwmpttpnl7x7ebp54e7ntuf2iagi6i4ei5uqdtsqkdvdq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 61788
+          },
+          "title": "Braid and PowerShell (with Bruce Payette), Wed, Jul 8, 2026, 6:00 PM   | Meetup",
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/events/315592886/?utm_medium=referral&utm_campaign=announce_event&utm_source=link&utm_version=v2&member_id=194790023"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:mgpkip5ierzs5lom2av34fyy"
+            }
+          ],
+          "index": {
+            "byteEnd": 61,
+            "byteStart": 36
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/315592886"
+            }
+          ],
+          "index": {
+            "byteEnd": 171,
+            "byteStart": 141
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Tomorrow night is a special treat!\n\n@brucepayette.bsky.social will be talking about Braid and PowerShell!\n\nShow starts at 6pm pacific time.\n\nwww.meetup.com/pacific-powe..."
+    },
+    "cid": "bafyreig34yn6vfepzvhngvxashjmbxewqbeownutxvazagzvm2k4x6xjhy"
+  }
+}
