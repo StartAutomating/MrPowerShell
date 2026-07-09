@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1783616131622348,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mqa3ywy6xu2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mqa3ywlyhk2s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-09T16:55:29.005Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Meg Ryan realizes how satisfying more out of the box serialization methods and useful modules might be.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihc3ibdflson4hy7j2k6qs7zcb3h3fvi5n4wgk2gbv6ys2bhyaa5u"
+            },
+            "mimeType": "image/jpeg",
+            "size": 39425
+          },
+          "title": "Woman's Enthusiastic Yes!!! - Thefacebooksite",
+          "uri": "https://static.klipy.com/ii/d6b0ce929193df3c242ac34b5654d2ce/85/11/lClDV0dl.gif?hh=373&ww=498&mp4=IOWv4bAAhY33MaFVzqhZ&webm=bXRbFdQbO9y4f2r6P8iZ"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid6zez7g7upaepwuispocyqy64sxijjjqanwxzkee2mamgrfkvrte",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mq6iyriqu227"
+        },
+        "root": {
+          "cid": "bafyreid6zez7g7upaepwuispocyqy64sxijjjqanwxzkee2mamgrfkvrte",
+          "uri": "at://did:plc:cror7ofu623g3e6ajhg4arce/app.bsky.feed.post/3mq6iyriqu227"
+        }
+      },
+      "text": "Yes!  Yes!\n\n1000 times Yes!\n\nWhile we are gathering up modules, I would also recommend PsToml.\n\nAnd *maybe* a few of mine, too.\n\n(Posh, ugit, and Turtle come to mind )."
+    },
+    "cid": "bafyreid7zlrvrpf37gys7nh2fxuwehrswagd544chpzh5mvzuwdwguyaru"
+  }
+}
