@@ -86,7 +86,7 @@ if ($site.PSScriptRoot) {
                 }
             }
 
-        $pointer[$propertyName] = $fileData            
+        $pointer[$propertyName] = $fileData
     }
 }
 #region _
@@ -213,10 +213,8 @@ $site.Taskbar = [Ordered]@{
 $site.HeaderMenu = [Ordered]@{
     # "Gists"  = "https://MrPowerShell.com/Gists"
     "GitHub" = "/GitHub"    
-    "Memes"  = "/Memes"    
-    "Mentions" = "/Mentions"
     "Modules" = "/Modules"
-    "Tags" = "/Tags"
+    "Resume" = "/Resume"
     "YouTube" = "/YouTube"
 }
 #endregion Site Menus
