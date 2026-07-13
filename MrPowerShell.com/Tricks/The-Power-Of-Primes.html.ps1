@@ -88,7 +88,7 @@
 
         if ($script:PrimeSieve -contains $in) { return $in}
         foreach ($n in $script:PrimeSieve) {
-            if (($n * 2) -ge $in) { break }        
+            if (($n * 2) -gt $in) { break }        
             if (-not ($in % $n)) { return }
         }
         $script:PrimeSieve.Enqueue($in) 
@@ -217,7 +217,7 @@ filter prime {
 
     if ($script:PrimeSieve -contains $in) { return $in}
     foreach ($n in $script:PrimeSieve) {
-        if (($n * 2) -ge $in) { break }        
+        if (($n * 2) -gt $in) { break }        
         if (-not ($in % $n)) { return }
     }
     $script:PrimeSieve.Enqueue($in) 
