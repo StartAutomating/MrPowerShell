@@ -1,0 +1,598 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1784064210959195,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mqn5cqnrmj2a",
+    "operation": "create",
+    "collection": "site.standard.document",
+    "rkey": "3mqn4vo7hw3vq",
+    "record": {
+      "$type": "site.standard.document",
+      "content": {
+        "$type": "blog.pckt.content",
+        "items": [
+          {
+            "$type": "blog.pckt.block.image",
+            "attrs": {
+              "align": "center",
+              "alt": "",
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreibwzboekpdboyptozmqpmm4yweews4ju6z2gk2e7ulclgpvhzezna"
+                },
+                "mimeType": "image/gif",
+                "size": 2431615
+              },
+              "naturalHeight": 287,
+              "naturalWidth": 498,
+              "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gNDAK/9sAQwAUDg8SDw0UEhASFxUUGB4yIR4cHB49LC4kMklATEtHQEZFUFpzYlBVbVZFRmSIZW13e4GCgU5gjZeMfZZzfoF8/9sAQwEVFxceGh47ISE7fFNGU3x8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8/8AAEQgABwAMAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8AxJ57JceRGhGwDDAn5u/aoo7iNEChbY/70WT/ACooqeVF8x//2Q==",
+              "src": "blob:bafkreibwzboekpdboyptozmqpmm4yweews4ju6z2gk2e7ulclgpvhzezna"
+            }
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Prime numbers are pretty powerful."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://github.com/PoshWeb/PrimeTime"
+                  },
+                  {
+                    "$type": "blog.pckt.richtext.facet#underline"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 102,
+                  "byteStart": 93
+                }
+              }
+            ],
+            "plaintext": "That's why I just released a new PowerShell module based off of an old mathematical concept: PrimeTime."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "PrimeTime uses prime numbers as time intervals."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's learn how this helps"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "Prime Number Primer"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Prime Numbers can only be divided by themselves and one."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This makes primes pretty rare."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Prime numbers are particularly useful in programming, but it's not always obvious why or how."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "A lot of people might vaguely point towards cryptography as the prime real estate for prime utility."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "The thing of it is, if you're writing your own cryptography, you're probably doing it wrong."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's talk about a more practical application of primes."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "The Cicada Principle"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://en.wikipedia.org/wiki/Periodical_cicadas"
+                  },
+                  {
+                    "$type": "blog.pckt.richtext.facet#underline"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 74,
+                  "byteStart": 57
+                }
+              }
+            ],
+            "plaintext": "In North America there is a curious critter known as the periodical cicaca."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "For the vast majority of their long lifespans, they live underground."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Once every N years, they surface in mass to start the next generation."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "That N is a prime."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Why?"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Cicadas come out en masse so that there are too many of them to eat."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Millions of little critters have to have a perfectly timed multi-year internal clock in order to make this work."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "If two cicadas of different intervals produced offspring, their children might have a messed up internal clock and come out of the ground at the worst time."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "There's an evolutionary advantage to cicadas coming out in large batches, as long as another cicada brood isn't doing the same thing at the same time."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Which brings us back to primes."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Primes are relatively rare."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "So are products of primes (at least past the first few)"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's take two primes as an example."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Imagine one brood of cicadas came out every 11 years, and another brood came out every 13 years."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can find out how long it will take for these two broods to come out at the same time by simply multiplying the primes."
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "11 * 13 -eq 143"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "So, with just two relatively low primes, we have an overlap every 143 years."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This is how primes are most useful to programming: they rarely overlap."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Sieve of Eratosthenes"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This has been known for much longer than computers have existed."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Imagine we wanted to find prime numbers quickly."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We can do this by constructing a sieve that filters out any non-prime number."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes"
+                  },
+                  {
+                    "$type": "blog.pckt.richtext.facet#underline"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 40,
+                  "byteStart": 19
+                }
+              }
+            ],
+            "plaintext": "This is called the Sieve of Eratosthenes"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Once we know 2 is prime, we know every other even number is not prime."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Once we know 3 is prime, we know every third number is not prime."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "To quickly get prime numbers up to a point, we can use this little PowerShell filter"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "# Calculate primes reasonably quickly with the Sieve of Eratosthenes\n# Pipe in any positive whole number to see if it is prime.\nfilter prime {\n    $in = $_\n    if ($in -isnot [int]) { return }\n    if ($in -eq 1) { return $in }\n    if ($in -lt 1) { return}\n    if (-not $script:PrimeSieve) {\n        $script:PrimeSieve = [Collections.Queue]::new()\n        $script:PrimeSieve.Enqueue(2)\n    }\n\n\n    if ($script:PrimeSieve -contains $in) { return $in}\n    foreach ($n in $script:PrimeSieve) {\n        if (($n * 2) -gt $in) { break }        \n        if (-not ($in % $n)) { return }\n    }\n    $script:PrimeSieve.Enqueue($in) \n    $in\n}"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Prime Animations"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Imagine we want a vibrant page. We want things to keep changing yet feel unpredictable. All we need to do is use different prime intervals."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "The PrimeTime logo animates eight primes:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "7 * 11 * 13 * 17 * 19 * 23 * 29 * 31"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 37,
+                  "byteStart": 27
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 66,
+                  "byteStart": 50
+                }
+              }
+            ],
+            "plaintext": "The logo will repeat every 6685349671 seconds, or almost 212 years."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://primetime.poshweb.org/"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 13,
+                  "byteStart": 4
+                }
+              }
+            ],
+            "plaintext": "The PrimeTime page background uses 56 primes."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 55,
+                  "byteStart": 34
+                }
+              }
+            ],
+            "plaintext": "This background will repeat every 8.84753141993573E+116 seconds."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "That's exponential notation."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 79,
+                  "byteStart": 69
+                }
+              }
+            ],
+            "plaintext": "This is a mind-boggling large number (so large it overflows the .NET [TimeSpan])."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 44,
+                  "byteStart": 39
+                }
+              }
+            ],
+            "plaintext": "Turn that interval into years and it's still mind-boggling."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#bold"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 55,
+                  "byteStart": 0
+                }
+              }
+            ],
+            "plaintext": "The page background will repeat every 100 billion years"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Performance and Scheduling"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Imagine we want to design a system that's constantly checking for problems."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We want the system to know about problems as soon as we can, but nobody's exactly sure how often they need to check for something."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "If we go around and ask our colleagues \"how often should we can scan for this?\", the response if often a shrug 🤷."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Often, people will pick an arbitrary number that seems reasonable. Let's say every 5 minutes, 10, or 15 minutes."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Are we starting to see the problem here?"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Every 5 minutes, every computer in the cloud starts to collect stats and report them back."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "And we get a traffic jam."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Every 10 minutes, more computers in the cloud collect more data, and our traffic jam gets worse."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Every 15 minutes, even more computers collect even more data, and our traffic jam puts your average freeway to shame."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Left to our own intuition, we create problems for ourselves and our organizations."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Each individual query is small, but because we're doing so many at once, it can grind performance to a halt."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "By the way, this isn't a hypothetical."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Long long ago, the Office365 team asked me to make some monitoring software to help improve internal visibility into the datacenters."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Everyone asked for 5-, 10-, or 15-minute intervals. ~100 different metrics were collected from ~30000 machines."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "And the first time we tried it on everything, the traffic jam ensued."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "That's when I first realized the power of primes."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "I made three slight adjustments to the timeframes:"
+          },
+          {
+            "$type": "blog.pckt.block.bulletList",
+            "content": [
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "Every 5 minutes became every ~7 minutes"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "Every 10 minutes became every ~11 minutes"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "Every 15 minutes became every ~17 minutes"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Now, instead of having a traffic jam every 5 minutes, things smoothed out."
+          },
+          {
+            "$type": "blog.pckt.block.bulletList",
+            "content": [
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "facets": [
+                      "@{features=System.Object[]; index=}"
+                    ],
+                    "plaintext": "A small traffic jam would occur every ~77 minutes (7*11)"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "facets": [
+                      "@{features=System.Object[]; index=}"
+                    ],
+                    "plaintext": "Another small traffic jam would occur every ~119 minutes (7*17)"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "facets": [
+                      "@{features=System.Object[]; index=}"
+                    ],
+                    "plaintext": "Another small traffic jam would occur at ~187 minutes (11*17)"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "facets": [
+                      "@{features=System.Object[]; index=}"
+                    ],
+                    "plaintext": "All traffic could jam every ~1309 minutes (7*11*17)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Note the tildes."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "The real trick came in by using prime intervals in both minutes and seconds and using a random delay on the tasks to ensure they didn't all start at once."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This took the system from something that could derail a datacenter to something that could monitor thousands of machines while barely impacting performance."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This is the power of primes."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Hope this helps!"
+          }
+        ]
+      },
+      "coverImage": {
+        "$type": "blob",
+        "ref": {
+          "$link": "bafkreibwzboekpdboyptozmqpmm4yweews4ju6z2gk2e7ulclgpvhzezna"
+        },
+        "mimeType": "image/gif",
+        "size": 2431615
+      },
+      "description": "Prime numbers are pretty powerful. That's why I just released a new PowerShell module based off of an old mathematical concept: PrimeTime. PrimeTime uses prime numbers as time intervals.",
+      "langs": [
+        "en"
+      ],
+      "path": "/the-power-of-primes-d8mk23r",
+      "publishedAt": "2026-07-14T21:23:23Z",
+      "site": "at://did:plc:hlchta7bwmobyum375ltycg5/site.standard.publication/3mdfcro5xe273",
+      "tags": [
+        "PowerShell",
+        "HTML",
+        "Web"
+      ],
+      "textContent": "Prime numbers are pretty powerful.\nThat's why I just released a new PowerShell module based off of an old mathematical concept: PrimeTime.\nPrimeTime uses prime numbers as time intervals.\nLet's learn how this helps\nPrime Number Primer\nPrime Numbers can only be divided by themselves and one.\nThis makes primes pretty rare.\nPrime numbers are particularly useful in programming, but it's not always obvious why or how.\nA lot of people might vaguely point towards cryptography as the prime real estate for prime utility.\nThe thing of it is, if you're writing your own cryptography, you're probably doing it wrong.\nLet's talk about a more practical application of primes.\nThe Cicada Principle\nIn North America there is a curious critter known as the periodical cicaca.\nFor the vast majority of their long lifespans, they live underground.\nOnce every N years, they surface in mass to start the next generation.\nThat N is a prime.\nWhy?\nCicadas come out en masse so that there are too many of them to eat.\nMillions of little critters have to have a perfectly timed multi-year internal clock in order to make this work.\nIf two cicadas of different intervals produced offspring, their children might have a messed up internal clock and come out of the ground at the worst time.\nThere's an evolutionary advantage to cicadas coming out in large batches, as long as another cicada brood isn't doing the same thing at the same time.\nWhich brings us back to primes.\nPrimes are relatively rare.\nSo are products of primes (at least past the first few)\nLet's take two primes as an example.\nImagine one brood of cicadas came out every 11 years, and another brood came out every 13 years.\nWe can find out how long it will take for these two broods to come out at the same time by simply multiplying the primes.\n11 * 13 -eq 143\nSo, with just two relatively low primes, we have an overlap every 143 years.\nThis is how primes are most useful to programming: they rarely overlap.\nSieve of Eratosthenes\nThis has been known for much longer than computers have existed.\nImagine we wanted to find prime numbers quickly.\nWe can do this by constructing a sieve that filters out any non-prime number.\nThis is called the Sieve of Eratosthenes\nOnce we know 2 is prime, we know every other even number is not prime.\nOnce we know 3 is prime, we know every third number is not prime.\nTo quickly get prime numbers up to a point, we can use this little PowerShell filter\n# Calculate primes reasonably quickly with the Sieve of Eratosthenes\n# Pipe in any positive whole number to see if it is prime.\nfilter prime {\n    $in = $_\n    if ($in -isnot [int]) { return }\n    if ($in -eq 1) { return $in }\n    if ($in -lt 1) { return}\n    if (-not $script:PrimeSieve) {\n        $script:PrimeSieve = [Collections.Queue]::new()\n        $script:PrimeSieve.Enqueue(2)\n    }\n\n\n    if ($script:PrimeSieve -contains $in) { return $in}\n    foreach ($n in $script:PrimeSieve) {\n        if (($n * 2) -gt $in) { break }        \n        if (-not ($in % $n)) { return }\n    }\n    $script:PrimeSieve.Enqueue($in) \n    $in\n}\nPrime Animations\nImagine we want a vibrant page. We want things to keep changing yet feel unpredictable. All we need to do is use different prime intervals.\nThe PrimeTime logo animates eight primes:\n7 * 11 * 13 * 17 * 19 * 23 * 29 * 31\nThe logo will repeat every 6685349671 seconds, or almost 212 years.\nThe PrimeTime page background uses 56 primes.\nThis background will repeat every 8.84753141993573E+116 seconds.\nThat's exponential notation.\nThis is a mind-boggling large number (so large it overflows the .NET [TimeSpan]).\nTurn that interval into years and it's still mind-boggling.\nThe page background will repeat every 100 billion years\nPerformance and Scheduling\nImagine we want to design a system that's constantly checking for problems.\nWe want the system to know about problems as soon as we can, but nobody's exactly sure how often they need to check for something.\nIf we go around and ask our colleagues \"how often should we can scan for this?\", the response if often a shrug 🤷.\nOften, people will pick an arbitrary number that seems reasonable. Let's say every 5 minutes, 10, or 15 minutes.\nAre we starting to see the problem here?\nEvery 5 minutes, every computer in the cloud starts to collect stats and report them back.\nAnd we get a traffic jam.\nEvery 10 minutes, more computers in the cloud collect more data, and our traffic jam gets worse.\nEvery 15 minutes, even more computers collect even more data, and our traffic jam puts your average freeway to shame.\nLeft to our own intuition, we create problems for ourselves and our organizations.\nEach individual query is small, but because we're doing so many at once, it can grind performance to a halt.\nBy the way, this isn't a hypothetical.\nLong long ago, the Office365 team asked me to make some monitoring software to help improve internal visibility into the datacenters.\nEveryone asked for 5-, 10-, or 15-minute intervals. ~100 different metrics were collected from ~30000 machines.\nAnd the first time we tried it on everything, the traffic jam ensued.\nThat's when I first realized the power of primes.\nI made three slight adjustments to the timeframes:\nEvery 5 minutes became every ~7 minutes\nEvery 10 minutes became every ~11 minutes\nEvery 15 minutes became every ~17 minutes\nNow, instead of having a traffic jam every 5 minutes, things smoothed out.\nA small traffic jam would occur every ~77 minutes (7*11)\nAnother small traffic jam would occur every ~119 minutes (7*17)\nAnother small traffic jam would occur at ~187 minutes (11*17)\nAll traffic could jam every ~1309 minutes (7*11*17)\nNote the tildes.\nThe real trick came in by using prime intervals in both minutes and seconds and using a random delay on the tasks to ensure they didn't all start at once.\nThis took the system from something that could derail a datacenter to something that could monitor thousands of machines while barely impacting performance.\nThis is the power of primes.\nHope this helps!",
+      "title": "The Power of Primes",
+      "updatedAt": "2026-07-14T21:23:23Z"
+    },
+    "cid": "bafyreifcxmdzrregejr6stkmhcqapgxokc6cbiti2nbmiz2nhez42liqne"
+  }
+}
