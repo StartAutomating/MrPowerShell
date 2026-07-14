@@ -1,0 +1,63 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1784057475673565,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mqmx22s6qe2s",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mqmwznaif22p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-14T19:31:00.637Z",
+      "embed": {
+        "$type": "app.bsky.embed.video",
+        "alt": "A few seconds of the demo page for PrimeTime.\n\nPrimeTime uses prime intervals to keep animation vibrant.\n\nThis clip is only seven seconds long.\n\nThe animation will repeat every ~100 trillion years.",
+        "aspectRatio": {
+          "height": 1080,
+          "width": 1920
+        },
+        "presentation": "default",
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreihsxnnzfugm7zbtvxfxdhkz2lstfhn444crsceewq63cfepsbhljq"
+          },
+          "mimeType": "video/mp4",
+          "size": 2420847
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PoshWeb/PrimeTime"
+            }
+          ],
+          "index": {
+            "byteEnd": 81,
+            "byteStart": 55
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://primetime.poshweb.org"
+            }
+          ],
+          "index": {
+            "byteEnd": 104,
+            "byteStart": 83
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Prime Numbers can be hypnotic 😎😵‍💫🤯😱\n\ngithub.com/PoshWeb/Prim...\n\nprimetime.poshweb.org"
+    },
+    "cid": "bafyreiakcztoxausgfovvievpmeitzos7gkdinsnnq3eungmjmr3mznqie"
+  }
+}
