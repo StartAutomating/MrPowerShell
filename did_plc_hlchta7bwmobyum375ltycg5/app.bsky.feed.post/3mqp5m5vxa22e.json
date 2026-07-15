@@ -1,0 +1,90 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1784133250128755,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mqp5malb3e2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mqp5m5vxa22e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-15T16:34:04.004Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "",
+            "aspectRatio": {
+              "height": 907,
+              "width": 899
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiggx2z4p5yl5g2jlolqs3435vslhghfuwfzw4zcp7i7wmhcswija4"
+              },
+              "mimeType": "image/jpeg",
+              "size": 164821
+            }
+          }
+        ]
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Microsoft"
+            }
+          ],
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 24
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 54,
+            "byteStart": 43
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 87,
+            "byteStart": 80
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MVPBuzz"
+            }
+          ],
+          "index": {
+            "byteEnd": 173,
+            "byteStart": 165
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Officially renewed as a #Microsoft MVP for #PowerShell.\n\nAlso, now officially a #WebDev MVP !\n\nLooking forward to another year of innovation and knowledge sharing!\n\n#MVPBuzz\n\n🥳  3 Years of MVP!"
+    },
+    "cid": "bafyreiaizh7hdndtsuofelknsvpkxbobj3ql7n7fjuxfv2w5xqeuat2a5a"
+  }
+}
