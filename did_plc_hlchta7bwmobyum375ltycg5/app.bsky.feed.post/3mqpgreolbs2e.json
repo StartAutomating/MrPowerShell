@@ -1,0 +1,109 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1784143089757183,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mqpgrjcamv2t",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mqpgreolbs2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-15T19:18:02.57Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Turtle Graphics in PowerShell.  Draw any image with turtles in a powershell.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiepuu7riedjfk3o4qqo2jjluwiqj4doaxn6dzyedecnxh7v4vboe4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 991501
+          },
+          "title": "Get-Turtle",
+          "uri": "https://psturtle.com/Commands/Get-Turtle"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 65,
+            "byteStart": 58
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 82,
+            "byteStart": 71
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SVG"
+            }
+          ],
+          "index": {
+            "byteEnd": 137,
+            "byteStart": 133
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "HTML"
+            }
+          ],
+          "index": {
+            "byteEnd": 171,
+            "byteStart": 166
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://psturtle.com/Commands/Get-Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 226,
+            "byteStart": 198
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia3c6hxdefdj32grez74wdlpjunvwczkjal3jh35kpigz75eyzxni",
+          "uri": "at://did:plc:ait3ewyppkd4ubgkldb6pvn3/app.bsky.feed.post/3mqpgdakl7s25"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreiaizh7hdndtsuofelknsvpkxbobj3ql7n7fjuxfv2w5xqeuat2a5a",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mqp5m5vxa22e"
+        }
+      },
+      "text": "Thanks!\n\nOn that note, friendly reminder to check out the #Turtle 🐢 #PowerShell demo page.\n\nIt's pretty 🤯.\n\nPowerShell becomes #SVG and gets dropped right into #HTML\n\nInfinite possibilities.\n\npsturtle.com/Commands/Get..."
+    },
+    "cid": "bafyreibetxko23ciyezjpi6snsskhlcqsnjplirodekf4swb3kr2y3vpgi"
+  }
+}
