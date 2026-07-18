@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1784395958267903,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mqwsbnjzy72j",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mqwsbpdumk2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-18T17:32:39.954Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaygfdu66ly6q3yhjvrwxeldigxblfwyfrzyynlryp4unbhom6l2q",
+          "uri": "at://did:plc:64kdoplv62s6veonqincpgod/app.bsky.feed.post/3mqvxfxxv5s2m"
+        },
+        "root": {
+          "cid": "bafyreicwqb3thp425ex4wqcrclpgndifecd6sz4mmespw3aaysatkyqn5u",
+          "uri": "at://did:plc:3ls2ei5dm7e5gymlwny2dygw/app.bsky.feed.post/3mqvn76j7ns2x"
+        }
+      },
+      "text": "Yep.\n\nIf you want extra bonus points, I once wrote a raw DNS client in PowerShell.\n\nIIRC it's just UDP packets on port 53.\n\nSadly, it was for a client, and so it's not open source.\n\nOne of these days I'll have to do it again."
+    },
+    "cid": "bafyreielvcpwaln3qud7ryu6iknocil7lofvio3b2qlx35g7gb7z5cqzoq"
+  }
+}
