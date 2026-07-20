@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1784570156005696,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mr3uj5etp327",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mr3uia4ckk2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-20T17:55:25.035Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A Fun PowerShell Server. Contribute to PoshWeb/Fun development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihbbu66v6vtqhbcsm3tlliglsbt643bnzbi5zixpzk2z4ysmqtqcy"
+            },
+            "mimeType": "image/jpeg",
+            "size": 459764
+          },
+          "title": "GitHub - PoshWeb/Fun: A Fun PowerShell Server",
+          "uri": "https://github.com/PoshWeb/Fun"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PoshWeb/Fun"
+            }
+          ],
+          "index": {
+            "byteEnd": 184,
+            "byteStart": 162
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidftt2yqcovgel7x6ppii23bazvknscdnushputvlwxo3i42myvom",
+          "uri": "at://did:plc:kzsyuofr6oxycym3hqtesbxm/app.bsky.feed.post/3mr3uazonjk2q"
+        },
+        "root": {
+          "cid": "bafyreifegtfnmgsguqfkfzw5b6frasr37gbc7fpbcqlgnrxll2ixgsrzwy",
+          "uri": "at://did:plc:kzsyuofr6oxycym3hqtesbxm/app.bsky.feed.post/3mq5bnbp7yc2s"
+        }
+      },
+      "text": "I've been doing a lot of GitHub pages with PowerShell workflows.\n\nIt's been working fine.\n\nFor a lightweight local server, I recently had some fun building Fun.\n\ngithub.com/PoshWeb/Fun\n\nWas working a bit on updates to it this morning."
+    },
+    "cid": "bafyreickggc4bavnyq6ursbjfkdjsl3pfbdhdmjokwly2v23xqiipya5ei"
+  }
+}
