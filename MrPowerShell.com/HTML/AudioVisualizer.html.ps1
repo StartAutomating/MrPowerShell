@@ -702,7 +702,7 @@ $(
                 <option>hard-light</option>
                 <option>difference</option>
                 <option>exclusion</option>  
-                <option>hueoption>
+                <option>hue</option>
                 <option>saturation</option>
                 <option>color</option>
                 <option>luminosity</option>
@@ -723,7 +723,7 @@ $(
                 <option>hard-light</option>
                 <option>difference</option>
                 <option selected>exclusion</option>  
-                <option>hueoption>
+                <option>hue</option>
                 <option>saturation</option>
                 <option>color</option>
                 <option>luminosity</option>
