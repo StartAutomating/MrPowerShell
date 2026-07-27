@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1785170692390839,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mrndsjhl6m2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mrndsl33a22n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-27T16:44:53.752Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigeohakpr2wmoqqkevvlgtusx6cbubosp3rdohmb3wxeqkz32mnhu",
+          "uri": "at://did:plc:sg2e2kqdsdp2q2zl44txadbp/app.bsky.feed.post/3mrmer62xrk26"
+        },
+        "root": {
+          "cid": "bafyreigeohakpr2wmoqqkevvlgtusx6cbubosp3rdohmb3wxeqkz32mnhu",
+          "uri": "at://did:plc:sg2e2kqdsdp2q2zl44txadbp/app.bsky.feed.post/3mrmer62xrk26"
+        }
+      },
+      "text": "16 years ago, when I was first making PowerShell into a web language, I set two goals:\n\n1. Be a better language than Ruby\n2. Be a better person than DHH\n\nSadly these have proven very low bars to meet.\n\n🤦"
+    },
+    "cid": "bafyreihwa2hjbpmzz5wb65bp7n2mokj3bqj42zolthokuenc2trfazbcme"
+  }
+}
