@@ -1,0 +1,392 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1785273645813451,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mrqdor5ti52d",
+    "operation": "create",
+    "collection": "site.standard.document",
+    "rkey": "3mrqdhwx2bjhx",
+    "record": {
+      "$type": "site.standard.document",
+      "content": {
+        "$type": "blog.pckt.content",
+        "items": [
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "In PowerShell, Two Wrongs Make a Right"
+          },
+          {
+            "$type": "blog.pckt.block.image",
+            "attrs": {
+              "align": "center",
+              "alt": "Like most languages, PowerShell is truthy.\n\nThis can lead to such ironic behavior as \"two wrongs make a right\"",
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreiarfhvskttjxbd7oi2knwbahp2ptpnouwsviw6mstuy3buruagc5q"
+                },
+                "mimeType": "image/gif",
+                "size": 3968246
+              },
+              "naturalHeight": 379,
+              "naturalWidth": 498,
+              "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gNDAK/9sAQwAUDg8SDw0UEhASFxUUGB4yIR4cHB49LC4kMklATEtHQEZFUFpzYlBVbVZFRmSIZW13e4GCgU5gjZeMfZZzfoF8/9sAQwEVFxceGh47ISE7fFNGU3x8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8/8AAEQgACQAMAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8AWePy3HnoQwAOMj5vrQt4ka7VtosD15NVpv8AXt9TSP8AfNdkIrZmUmf/2Q==",
+              "src": "blob:bafkreiarfhvskttjxbd7oi2knwbahp2ptpnouwsviw6mstuy3buruagc5q"
+            }
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://github.com/PoshWeb/Turtle"
+                  },
+                  {
+                    "$type": "blog.pckt.richtext.facet#underline"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 32,
+                  "byteStart": 26
+                }
+              }
+            ],
+            "plaintext": "I've been toiling away on Turtle to prepare a \"birthday\" release, and I ran into an annoying behavior I've run into a few times before."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "I thought I'd take a few minutes away from the frustration of single line fixes to explain the bug to everyone."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "What Went Wrong"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 144,
+                  "byteStart": 117
+                }
+              }
+            ],
+            "plaintext": "The last build of Turtle introduced a number of randomized parameter defaults. This was meant to be fun. If you said turtle square square square, you'd get three different squares, instead of an error for a lack of length, or three overlapping squares."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 41,
+                  "byteStart": 26
+                }
+              }
+            ],
+            "plaintext": "I noticed that when I ran turtle rotate 0, it didn't rotate by zero."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Instead, it picked a random angle."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Weirder still, the behavior didn't reproduce if I said"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "$turtle = turtle  # Heading at zero\n$turtle.Rotate(0) # Heading still zero 🤔\n$turtle.Rotate()  # Heading random\n(turtle rotate 0) # Heading random 🤬"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Why was this happening? 😱"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 40,
+                  "byteStart": 37
+                }
+              }
+            ],
+            "plaintext": "It took me a bit for it to click: It had to be in the way Turtle processed arguments, because it worked in one case and not the other."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "So I put a breakpoint in, ran my repo."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "The line was:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "if ($argList)"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 36,
+                  "byteStart": 32
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 59,
+                  "byteStart": 46
+                }
+              }
+            ],
+            "plaintext": "The debugger broke, argList was @(0), and yet if ($argList) was false."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "The fix was:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "if ($argList.Length)"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 31,
+                  "byteStart": 13
+                }
+              }
+            ],
+            "plaintext": "Why? Because 'Truthy' -ne $true."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "Truthy and $true"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "About every language has a boolean. It's just a bit. One or zero."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Lots of languages also have this concept of \"truthiness\"."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's take a simple example:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "if (\"something\") { \"something\" }\nif (\"\") { \"you can't get something from nothing\" }"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 5,
+                  "byteStart": 3
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 24,
+                  "byteStart": 19
+                }
+              }
+            ],
+            "plaintext": "If if was strictly $true, we'd have to cast things to a boolean.  You have to do this in C# and quite a few other languages. PowerShell is type promiscuous. PowerShell is truthy."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 118,
+                  "byteStart": 113
+                }
+              }
+            ],
+            "plaintext": "It looks at the first line and says: You're a string, and you're not null or empty. Therefore, the expression is $true."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 120,
+                  "byteStart": 114
+                }
+              }
+            ],
+            "plaintext": "It looks at the second line and says: You're a string, but you're not null or empty. Therefore, the expression is $false"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "PowerShell makes a judgement call."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This is generally a good thing. I personally prefer languages that are truthy. Other truthy languages of note include JavaScript, Python, C++, and C."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "However, it gets tricky with lists. Hence the bug."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "Two Wrongs Make a Right"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "In PowerShell, Two Wrongs Make a Right"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "$true -eq $false, $false"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's say I want to determine if a list is truthy."
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "if (@()) { \"$false, because the list is empty\" }\nif (@(\"\")) { \"$false, because the blank is falsy\" }\nif (@(0)) { \"$false, because zero is falsy\" }\nif (@($false)) { \"$false, because false is falsy\" }\nif (@(1)) { \"$true, because the first item is truthy\" }\nif (@(0,0) { \"$true, because more than one item\" }"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This all makes a certain bizarre sense. If a list has one element, and it is not truthy, then the list isn't truthy, either."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "It's also almost always surprising and annoying."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Hence the bug."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "The fix is just to make sure there are any elements, hence checking for length."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "I've been programming with PowerShell for quite a while now, and this behavior still sometimes bites me (like today)."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "That's why I took a few minutes away from the 🤬 day to explain this bug and write this post. 😌"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Please remember:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "'Truthy' -ne $true\n$false -eq @($false)\n$true -eq $false, $false"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Hope this helps"
+          }
+        ]
+      },
+      "description": "In PowerShell, Two Wrongs Make a Right",
+      "langs": [
+        "en"
+      ],
+      "path": "/two-wrongs-make-a-right-e75j48c",
+      "publishedAt": "2026-07-28T21:20:40Z",
+      "site": "at://did:plc:hlchta7bwmobyum375ltycg5/site.standard.publication/3mdfcro5xe273",
+      "tags": [
+        "PowerShell"
+      ],
+      "textContent": "In PowerShell, Two Wrongs Make a Right\nI've been toiling away on Turtle to prepare a \"birthday\" release, and I ran into an annoying behavior I've run into a few times before.\nI thought I'd take a few minutes away from the frustration of single line fixes to explain the bug to everyone.\nWhat Went Wrong\nThe last build of Turtle introduced a number of randomized parameter defaults. This was meant to be fun. If you said turtle square square square, you'd get three different squares, instead of an error for a lack of length, or three overlapping squares.\nI noticed that when I ran turtle rotate 0, it didn't rotate by zero.\nInstead, it picked a random angle.\nWeirder still, the behavior didn't reproduce if I said\n$turtle = turtle  # Heading at zero\n$turtle.Rotate(0) # Heading still zero 🤔\n$turtle.Rotate()  # Heading random\n(turtle rotate 0) # Heading random 🤬\nWhy was this happening? 😱\nIt took me a bit for it to click: It had to be in the way Turtle processed arguments, because it worked in one case and not the other.\nSo I put a breakpoint in, ran my repo.\nThe line was:\nif ($argList)\nThe debugger broke, argList was @(0), and yet if ($argList) was false.\nThe fix was:\nif ($argList.Length)\nWhy? Because 'Truthy' -ne $true.\nTruthy and $true\nAbout every language has a boolean. It's just a bit. One or zero.\nLots of languages also have this concept of \"truthiness\".\nLet's take a simple example:\nif (\"something\") { \"something\" }\nif (\"\") { \"you can't get something from nothing\" }\nIf if was strictly $true, we'd have to cast things to a boolean.  You have to do this in C# and quite a few other languages. PowerShell is type promiscuous. PowerShell is truthy.\nIt looks at the first line and says: You're a string, and you're not null or empty. Therefore, the expression is $true.\nIt looks at the second line and says: You're a string, but you're not null or empty. Therefore, the expression is $false\nPowerShell makes a judgement call.\nThis is generally a good thing. I personally prefer languages that are truthy. Other truthy languages of note include JavaScript, Python, C++, and C.\nHowever, it gets tricky with lists. Hence the bug.\nTwo Wrongs Make a Right\nIn PowerShell, Two Wrongs Make a Right\n$true -eq $false, $false\nLet's say I want to determine if a list is truthy.\nif (@()) { \"$false, because the list is empty\" }\nif (@(\"\")) { \"$false, because the blank is falsy\" }\nif (@(0)) { \"$false, because zero is falsy\" }\nif (@($false)) { \"$false, because false is falsy\" }\nif (@(1)) { \"$true, because the first item is truthy\" }\nif (@(0,0) { \"$true, because more than one item\" }\nThis all makes a certain bizarre sense. If a list has one element, and it is not truthy, then the list isn't truthy, either.\nIt's also almost always surprising and annoying.\nHence the bug.\nThe fix is just to make sure there are any elements, hence checking for length.\nI've been programming with PowerShell for quite a while now, and this behavior still sometimes bites me (like today).\nThat's why I took a few minutes away from the 🤬 day to explain this bug and write this post. 😌\nPlease remember:\n'Truthy' -ne $true\n$false -eq @($false)\n$true -eq $false, $false\nHope this helps",
+      "title": "Two Wrongs Make a Right",
+      "updatedAt": "2026-07-28T21:20:40Z"
+    },
+    "cid": "bafyreicgrarspekuyosuhyp3ae6jk6xbylatid7lv75bnqo3x4ft7mteme"
+  }
+}
