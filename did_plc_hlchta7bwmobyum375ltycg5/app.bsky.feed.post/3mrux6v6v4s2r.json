@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1785432025569469,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mrux6ttu3t2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mrux6v6v4s2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-30T17:20:26.279Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Explore this post and more from the PowerShell community",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibwjeqtxgjwwq3d65znhoxpd2jwweehkem6s5i7rpdtml3g4tihfa"
+            },
+            "mimeType": "image/jpeg",
+            "size": 142201
+          },
+          "title": "From the PowerShell community on Reddit",
+          "uri": "https://www.reddit.com/r/PowerShell/s/f6NRTvVikK"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.reddit.com/r/PowerShell/s/f6NRTvVikK"
+            }
+          ],
+          "index": {
+            "byteEnd": 208,
+            "byteStart": 178
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Some days Reddit and r/PowerShell warms my heart and brings a smile to my face.\n\nCheck out this \"Is It PowerShell Worth It?\" thread for inspiration of how people use PowerShell\n\nwww.reddit.com/r/PowerShell..."
+    },
+    "cid": "bafyreihpqqppj2c54yfbscbzcm64iaa6figwlqtnymu62zf4nr5ibtreqq"
+  }
+}
