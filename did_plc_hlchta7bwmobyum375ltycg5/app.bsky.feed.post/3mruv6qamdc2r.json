@@ -1,0 +1,41 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1785429871673675,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mruv6ob23n2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mruv6qamdc2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-30T16:44:33.609Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreifrberzefwagewiveeo627yo5pc5rdhzrposh5kwuegppjbssybui",
+          "uri": "at://did:plc:kbzotn4ippvrqllcitxglgm2/app.bsky.feed.post/3mrtybkzpe32k"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/hackernoon.com/post/3mrtybkzpe32k"
+            }
+          ],
+          "index": {
+            "byteEnd": 113,
+            "byteStart": 89
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Learn all about PowerShell events in the fourth article of mine published on HackerNoon\n\nbsky.app/profile/hack..."
+    },
+    "cid": "bafyreiephe43khvfqadh3ojdwlwnhyxytoxhotwysnbvmd2dewobzdlb2y"
+  }
+}
