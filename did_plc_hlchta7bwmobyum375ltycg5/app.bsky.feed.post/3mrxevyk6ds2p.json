@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1785515479081598,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mrxevxvtq62r",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mrxevyk6ds2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-31T16:31:19.667Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihz4auduwmz75r4w4obv4bxjeepy3rtbvxlshcer5yhtx2aj5vaay",
+          "uri": "at://did:plc:4wevdwtzbojh2mtchasvf7ro/app.bsky.feed.post/3mrxdbdbnug2d"
+        },
+        "root": {
+          "cid": "bafyreieiit5ef54gbsezbwlj3uxeazobg2jgv3jkvcvmpkkjateyzysywi",
+          "uri": "at://did:plc:7ou2wkqwowhua5by6fvg5ok6/app.bsky.feed.post/3mrxbdmwuqs2f"
+        }
+      },
+      "text": "That's what hypermedia is there for."
+    },
+    "cid": "bafyreiehjjj43yed4v72mwoftsgc7eakhoz5mkzgbohd6tqm5utkwiy4qa"
+  }
+}
