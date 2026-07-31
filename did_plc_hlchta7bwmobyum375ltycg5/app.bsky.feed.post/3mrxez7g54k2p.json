@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1785515586870660,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mrxez6omc52z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mrxez7g54k2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-31T16:33:07.539Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieiit5ef54gbsezbwlj3uxeazobg2jgv3jkvcvmpkkjateyzysywi",
+          "uri": "at://did:plc:7ou2wkqwowhua5by6fvg5ok6/app.bsky.feed.post/3mrxbdmwuqs2f"
+        },
+        "root": {
+          "cid": "bafyreieiit5ef54gbsezbwlj3uxeazobg2jgv3jkvcvmpkkjateyzysywi",
+          "uri": "at://did:plc:7ou2wkqwowhua5by6fvg5ok6/app.bsky.feed.post/3mrxbdmwuqs2f"
+        }
+      },
+      "text": "This is why I like to do WebDev in PowerShell, sans dependencies.\n\nPowerShell is a great language, and it's WebDev ecosystem is much more than just a couple of modules that can run as servers.\n\nI get the want for a \"one stop shop\", but sometimes we need to customize."
+    },
+    "cid": "bafyreifx4x5ljeh3lewvet6mx3h4zg5v6fouyvkpezyrmcwlo5mk4flwyu"
+  }
+}
