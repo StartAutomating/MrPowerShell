@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1785622194633391,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ms2icdlrjd24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ms2ibpyuic2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-01T22:09:33.806Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifiltdnv4pwknj7hjx2vqhk3hbqgpnreqs4fg6bmo4owon7kggntu",
+          "uri": "at://did:plc:et7wxbag23koqyiha5r5jsvb/app.bsky.feed.post/3mrzzymo7swe2"
+        },
+        "root": {
+          "cid": "bafyreifiltdnv4pwknj7hjx2vqhk3hbqgpnreqs4fg6bmo4owon7kggntu",
+          "uri": "at://did:plc:et7wxbag23koqyiha5r5jsvb/app.bsky.feed.post/3mrzzymo7swe2"
+        }
+      },
+      "text": "I love PowerShell more than many people, and even I wouldn't do this to myself (unless I wanted to basically make that box into a kiosk)"
+    },
+    "cid": "bafyreigi4nsuk7g4iyiuxa3r5oy3f7kbjeeouc255i356tckyeqtqdeqim"
+  }
+}
