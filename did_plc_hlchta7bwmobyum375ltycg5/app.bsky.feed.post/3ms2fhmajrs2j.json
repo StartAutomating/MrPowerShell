@@ -1,0 +1,54 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1785619171211741,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ms2fi7u3b72m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ms2fhmajrs2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-01T21:19:09.963Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "How to draw double height characters in terminals that support them:\n\n\"`e#3 Some Text\" # draws the top half\n\"`e#4 Some Text\" # draws the bottom half\n",
+            "aspectRatio": {
+              "height": 56,
+              "width": 362
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibfk3cv3mzhbmewspvg6ylb7vub7hvv74gvg4kga7qv4vrnukt53e"
+              },
+              "mimeType": "image/jpeg",
+              "size": 17953
+            }
+          }
+        ]
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/Escape"
+            }
+          ],
+          "index": {
+            "byteEnd": 224,
+            "byteStart": 198
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Today I Learned how to make double height lines in a terminal 😎\n\n~~~PowerShell\n\"`e#3 hello world\", \"`e#4 hello world\"\n~~~\n\nAnd then I updated Escape, the PowerShell module for escape sequences:\n\ngithub.com/StartAutomat..."
+    },
+    "cid": "bafyreihqyroxbon7w57kjvm3oseaxcc7keifce7kag5f6zlosdbqmx2fsa"
+  }
+}
