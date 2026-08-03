@@ -1,0 +1,731 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1785786810317756,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ms75qoyluc2p",
+    "operation": "create",
+    "collection": "site.standard.document",
+    "rkey": "3ms75jzx47qb7",
+    "record": {
+      "$type": "site.standard.document",
+      "content": {
+        "$type": "blog.pckt.content",
+        "items": [
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Finding Needles in Haystacks with the AST"
+          },
+          {
+            "$type": "blog.pckt.block.image",
+            "attrs": {
+              "align": "center",
+              "alt": "Using the PowerShell AST makes it easier to find a needle in a haystack.",
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreicokzxuwm7u2ykx7ae2eq7njm4bb7jhaiufvlpw7ltldgpcotvd7a"
+                },
+                "mimeType": "image/gif",
+                "size": 1848486
+              },
+              "naturalHeight": 428,
+              "naturalWidth": 498,
+              "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gNDAK/9sAQwAUDg8SDw0UEhASFxUUGB4yIR4cHB49LC4kMklATEtHQEZFUFpzYlBVbVZFRmSIZW13e4GCgU5gjZeMfZZzfoF8/9sAQwEVFxceGh47ISE7fFNGU3x8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8/8AAEQgACgAMAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8AfFeXAGDITUUuo3ETbfPb16UyOqGqD/SV/wBwfzNAH//Z",
+              "src": "blob:bafkreicokzxuwm7u2ykx7ae2eq7njm4bb7jhaiufvlpw7ltldgpcotvd7a"
+            }
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "PowerShell is a pretty interesting language."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 157,
+                  "byteStart": 144
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 173,
+                  "byteStart": 167
+                }
+              }
+            ],
+            "plaintext": "One of the ways it is interesting is that you can access the Abstract Syntax Tree. Another thing that's interesting is that you can convert any [ScriptBlock] into any [func]."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Put these two together, and PowerShell can succinctly search itself."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://github.com/StartAutomating/SearchScript"
+                  },
+                  {
+                    "$type": "blog.pckt.richtext.facet#underline"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 76,
+                  "byteStart": 64
+                }
+              }
+            ],
+            "plaintext": "That's the foundation of a simple little module I just updated, SearchScript"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's learn how to search our scripts"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "How to Search Scripts"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Most languages use an abstract syntax tree (AST) to represent the code you want to run. PowerShell is nice enough to let you easily access it."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's imagine we wanted to find out what types a script uses."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 8,
+                  "byteStart": 3
+                }
+              }
+            ],
+            "plaintext": "We could try to do this with regular expressions. We would not be happy. It's much easier to ask PowerShell."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 59,
+                  "byteStart": 55
+                }
+              }
+            ],
+            "plaintext": "We can access the Ast of any script block by using the .Ast property."
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": " {\"hello world\"}.Ast"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 57,
+                  "byteStart": 47
+                }
+              }
+            ],
+            "plaintext": "We can get the members of any Ast by piping to Get-Member"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": " {\"hello world\"}.Ast | Get-Member"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 32,
+                  "byteStart": 28
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 44,
+                  "byteStart": 37
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 50,
+                  "byteStart": 46
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 92,
+                  "byteStart": 85
+                }
+              }
+            ],
+            "plaintext": "There's a couple of methods Find and FindAll. Find finds the first matching element. FindAll finds all of them (optionally recursively)."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 42,
+                  "byteStart": 34
+                }
+              }
+            ],
+            "plaintext": "I almost always find myself using .FindAll, but they're both there if we need them."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 61,
+                  "byteStart": 16
+                }
+              }
+            ],
+            "plaintext": "FindAll takes a Func[Management.Automation.Language.Ast,bool] predicate (fancy speak for \"condition\")."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 25,
+                  "byteStart": 21
+                }
+              }
+            ],
+            "plaintext": "But how do we make a Func?"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We don't have to!"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "PowerShell does it for us. Let's see the nodes in a simple list:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "{\"hello\",\"goodbye\"}.Ast.FindAll({param($ast) return $true}, $true)"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 64,
+                  "byteStart": 58
+                }
+              }
+            ],
+            "plaintext": "Let's do it again, but this time only find elements whose .Value is 'hello'"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "{\"hello\",\"goodbye\"}.Ast.FindAll({param($ast) return $ast.Value -eq 'hello'}, $true)"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 52,
+                  "byteStart": 39
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 89,
+                  "byteStart": 76
+                }
+              }
+            ],
+            "plaintext": "How do we search scripts? We provide a [ScriptBlock] to find nodes within a [ScriptBlock]."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This is quite handy! We can use this to find needles in haystacks."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "Search-Script"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "We all love a useful function, so let's abstract this all a bit."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 81,
+                  "byteStart": 68
+                }
+              }
+            ],
+            "plaintext": "Search-Script is an eponymous module. It contains only one command, Search-Script (and a bunch of aliases to it)."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "All it accepts is:"
+          },
+          {
+            "$type": "blog.pckt.block.bulletList",
+            "content": [
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "plaintext": "A ``-Script` to search"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "facets": [
+                      "@{features=System.Object[]; index=}"
+                    ],
+                    "plaintext": "Something to search -For"
+                  }
+                ]
+              },
+              {
+                "$type": "blog.pckt.block.listItem",
+                "content": [
+                  {
+                    "$type": "blog.pckt.block.text",
+                    "facets": [
+                      "@{features=System.Object[]; index=}",
+                      "@{features=System.Object[]; index=}"
+                    ],
+                    "plaintext": "An optional [switch] for -Shallow searches"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 4,
+                  "byteStart": 0
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 73,
+                  "byteStart": 69
+                }
+              }
+            ],
+            "plaintext": "-For is a little special. We can accept multiple types of values for -For."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 23,
+                  "byteStart": 10
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 45,
+                  "byteStart": 37
+                }
+              }
+            ],
+            "plaintext": "If it's a [ScriptBlock] we just call .FindAll."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 11,
+                  "byteStart": 8
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 27,
+                  "byteStart": 14
+                }
+              }
+            ],
+            "plaintext": "If it's not a [ScriptBlock], we can make it into one."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Search-Script -For ([string])"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 18,
+                  "byteStart": 10
+                }
+              }
+            ],
+            "plaintext": "If it's a [string], we'll try an exact match, unless it starts and ends with slashes."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Here's the current code:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "# If `-For` is a `[string]`\nif ($for -is [string]) {\n    # the operator is -eq by default.\n    $operator = '-eq'\n    # If it takes the form of a regex literal \n    if ($for -match '^/.+/$') {\n        # strip the slashes\n        $for =\n            $for -replace '^/' -replace '/$'\n        # and match instead.\n        $operator = '-match'\n    }\n    # Always double single quotes to avoid code injection.\n    $For = $for -replace \"'\",\"''\"\n    # Create a `[Scriptblock]` that finds exactly that string.\n    $for = [ScriptBlock]::Create(\"param(`$ast) (`$ast.Extent.ToString() $operator '$(            \n        $For\n    )') -or (`$ast.Value $operator '$For')\")\n}"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Search-Script -For ([regex])"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 17,
+                  "byteStart": 10
+                }
+              }
+            ],
+            "plaintext": "If it's a [Regex], we'll try to match it."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Here's the current code:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "# If `-For` is a `[Regex]`\nif ($for -is [Regex]) {\n    $for =\n        # Create a `[ScriptBlock]` that matches that pattern.\n        [ScriptBlock]::Create(\"param(`$ast) `$pattern = [Regex]::new('$(\n            # Always double single quotes to avoid code injection.\n            $for -replace \"'\",\"''\"\n        )','$($for.Options)'); `$ast -match `$pattern\")\n}"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "Search-Script -For ([type])"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 16,
+                  "byteStart": 10
+                }
+              }
+            ],
+            "plaintext": "If it's a [type], we'll try to find all instances of that type."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "It's that last one that gets a little complicated."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 14,
+                  "byteStart": 9
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 105,
+                  "byteStart": 96
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 189,
+                  "byteStart": 178
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 256,
+                  "byteStart": 251
+                }
+              }
+            ],
+            "plaintext": "Sure, we could just look for AST types. That would be easy. But we can also ask anything with a .TypeName to give us a type via reflection (and any static references will have a .StaticType). To make matters even more fun, equality comparison doesn't quite cut it for types. We have to check if a type is a subclass of a type. Oh, yeah, then there are interfaces. We have to check that if the type implements the interface."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 15,
+                  "byteStart": 12
+                }
+              }
+            ],
+            "plaintext": "It's just a bit more complicated than it's kin. Here's the current code:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "if ($For -as [type[]]) {\n    $for =\n        # Create a `[ScriptBlock]` that looks for that type.\n        # This one is more complicated, so we will create it in two parts \n        [ScriptBlock]::Create((\n            (@(\n                # dynamically create the list of types\n                'param($ast)'\n                \"`$types = @(\"\n                foreach ($forType in $for) {\n                    $forType = $forType -as [type]\n                    if (-not $forType) { continue }\n                    \"[$($forType.FullName)]\"\n                }    \n                \")\"     \n            ) -join [Environment]::NewLine) + {\n            # Find a reflected type, if there is one.\n            $reflectedType = \n                if ($ast.TypeName.GetReflectionType) {\n                    $ast.TypeName.GetReflectionType()\n                } elseif ($ast.StaticType) {\n                    $ast.StaticType\n                } else {\n                    $null\n                }\n\n            # Go over each of our potential types\n            # Several conditions would be a use of our type\n            foreach ($type in $types) {\n                # * If the ast is that type, return true\n                if ($ast -is $type) { return $true } \n                if (-not $reflectedType) { continue }\n                # * If the reflected type is exactly that type, return true\n                if ($reflectedType -eq $type) { return $true }\n                # * If the reflected type is a subclass of that type, return true\n                if ($reflectedType.IsSubClassOf($type)) { return $true }\n                # * If the type is an interface,\n                #   return true if the reflected type implements it    \n                if ($type.IsInterface -and $reflectedType.GetInterface($type)) {\n                    return $true\n                }\n            }\n        # Returning nothing will be falsy, and will not return the element.\n        }\n    ))"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "The implementation might be a bit brutish, but the execution can be downright glorious."
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "# Find just the `[double]`\n{1,2.0,3} | Search-Script -For ([double])\n\n# Find just the `[int]`\n{1,2.0,3} | Search-Script -For ([int])\n\n# Find all the `[IComparable]` objects\n{1,2.0,3} | Search-Script -For ([IComparable])"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://github.com/StartAutomating/SearchScript"
+                  },
+                  {
+                    "$type": "blog.pckt.richtext.facet#underline"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 91,
+                  "byteStart": 78
+                }
+              }
+            ],
+            "plaintext": "Using the Ast, we can find any needle in any scripted haystack. Please try to Search-Script and give feedback if you've got it."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Happy Hunting!"
+          }
+        ]
+      },
+      "coverImage": {
+        "$type": "blob",
+        "ref": {
+          "$link": "bafkreicokzxuwm7u2ykx7ae2eq7njm4bb7jhaiufvlpw7ltldgpcotvd7a"
+        },
+        "mimeType": "image/gif",
+        "size": 1848486
+      },
+      "description": "Finding Needles in Haystacks with the AST",
+      "langs": [
+        "en"
+      ],
+      "path": "/search-script-j9hkpt6",
+      "publishedAt": "2026-08-03T18:44:19Z",
+      "site": "at://did:plc:hlchta7bwmobyum375ltycg5/site.standard.publication/3mdfcro5xe273",
+      "tags": [
+        "PowerShell"
+      ],
+      "textContent": "Finding Needles in Haystacks with the AST\nPowerShell is a pretty interesting language.\nOne of the ways it is interesting is that you can access the Abstract Syntax Tree. Another thing that's interesting is that you can convert any [ScriptBlock] into any [func].\nPut these two together, and PowerShell can succinctly search itself.\nThat's the foundation of a simple little module I just updated, SearchScript\nLet's learn how to search our scripts\nHow to Search Scripts\nMost languages use an abstract syntax tree (AST) to represent the code you want to run. PowerShell is nice enough to let you easily access it.\nLet's imagine we wanted to find out what types a script uses.\nWe could try to do this with regular expressions. We would not be happy. It's much easier to ask PowerShell.\nWe can access the Ast of any script block by using the .Ast property.\n {\"hello world\"}.Ast\nWe can get the members of any Ast by piping to Get-Member\n {\"hello world\"}.Ast | Get-Member\nThere's a couple of methods Find and FindAll. Find finds the first matching element. FindAll finds all of them (optionally recursively).\nI almost always find myself using .FindAll, but they're both there if we need them.\nFindAll takes a Func[Management.Automation.Language.Ast,bool] predicate (fancy speak for \"condition\").\nBut how do we make a Func?\nWe don't have to!\nPowerShell does it for us. Let's see the nodes in a simple list:\n{\"hello\",\"goodbye\"}.Ast.FindAll({param($ast) return $true}, $true)\nLet's do it again, but this time only find elements whose .Value is 'hello'\n{\"hello\",\"goodbye\"}.Ast.FindAll({param($ast) return $ast.Value -eq 'hello'}, $true)\nHow do we search scripts? We provide a [ScriptBlock] to find nodes within a [ScriptBlock].\nThis is quite handy! We can use this to find needles in haystacks.\nSearch-Script\nWe all love a useful function, so let's abstract this all a bit.\nSearch-Script is an eponymous module. It contains only one command, Search-Script (and a bunch of aliases to it).\nAll it accepts is:\nA ``-Script` to search\nSomething to search -For\nAn optional [switch] for -Shallow searches\n-For is a little special. We can accept multiple types of values for -For.\nIf it's a [ScriptBlock] we just call .FindAll.\nIf it's not a [ScriptBlock], we can make it into one.\nSearch-Script -For ([string])\nIf it's a [string], we'll try an exact match, unless it starts and ends with slashes.\nHere's the current code:\n# If `-For` is a `[string]`\nif ($for -is [string]) {\n    # the operator is -eq by default.\n    $operator = '-eq'\n    # If it takes the form of a regex literal \n    if ($for -match '^/.+/$') {\n        # strip the slashes\n        $for =\n            $for -replace '^/' -replace '/$'\n        # and match instead.\n        $operator = '-match'\n    }\n    # Always double single quotes to avoid code injection.\n    $For = $for -replace \"'\",\"''\"\n    # Create a `[Scriptblock]` that finds exactly that string.\n    $for = [ScriptBlock]::Create(\"param(`$ast) (`$ast.Extent.ToString() $operator '$(            \n        $For\n    )') -or (`$ast.Value $operator '$For')\")\n}\nSearch-Script -For ([regex])\nIf it's a [Regex], we'll try to match it.\nHere's the current code:\n# If `-For` is a `[Regex]`\nif ($for -is [Regex]) {\n    $for =\n        # Create a `[ScriptBlock]` that matches that pattern.\n        [ScriptBlock]::Create(\"param(`$ast) `$pattern = [Regex]::new('$(\n            # Always double single quotes to avoid code injection.\n            $for -replace \"'\",\"''\"\n        )','$($for.Options)'); `$ast -match `$pattern\")\n}\nSearch-Script -For ([type])\nIf it's a [type], we'll try to find all instances of that type.\nIt's that last one that gets a little complicated.\nSure, we could just look for AST types. That would be easy. But we can also ask anything with a .TypeName to give us a type via reflection (and any static references will have a .StaticType). To make matters even more fun, equality comparison doesn't quite cut it for types. We have to check if a type is a subclass of a type. Oh, yeah, then there are interfaces. We have to check that if the type implements the interface.\nIt's just a bit more complicated than it's kin. Here's the current code:\nif ($For -as [type[]]) {\n    $for =\n        # Create a `[ScriptBlock]` that looks for that type.\n        # This one is more complicated, so we will create it in two parts \n        [ScriptBlock]::Create((\n            (@(\n                # dynamically create the list of types\n                'param($ast)'\n                \"`$types = @(\"\n                foreach ($forType in $for) {\n                    $forType = $forType -as [type]\n                    if (-not $forType) { continue }\n                    \"[$($forType.FullName)]\"\n                }    \n                \")\"     \n            ) -join [Environment]::NewLine) + {\n            # Find a reflected type, if there is one.\n            $reflectedType = \n                if ($ast.TypeName.GetReflectionType) {\n                    $ast.TypeName.GetReflectionType()\n                } elseif ($ast.StaticType) {\n                    $ast.StaticType\n                } else {\n                    $null\n                }\n\n            # Go over each of our potential types\n            # Several conditions would be a use of our type\n            foreach ($type in $types) {\n                # * If the ast is that type, return true\n                if ($ast -is $type) { return $true } \n                if (-not $reflectedType) { continue }\n                # * If the reflected type is exactly that type, return true\n                if ($reflectedType -eq $type) { return $true }\n                # * If the reflected type is a subclass of that type, return true\n                if ($reflectedType.IsSubClassOf($type)) { return $true }\n                # * If the type is an interface,\n                #   return true if the reflected type implements it    \n                if ($type.IsInterface -and $reflectedType.GetInterface($type)) {\n                    return $true\n                }\n            }\n        # Returning nothing will be falsy, and will not return the element.\n        }\n    ))\nThe implementation might be a bit brutish, but the execution can be downright glorious.\n# Find just the `[double]`\n{1,2.0,3} | Search-Script -For ([double])\n\n# Find just the `[int]`\n{1,2.0,3} | Search-Script -For ([int])\n\n# Find all the `[IComparable]` objects\n{1,2.0,3} | Search-Script -For ([IComparable])\nUsing the Ast, we can find any needle in any scripted haystack. Please try to Search-Script and give feedback if you've got it.\nHappy Hunting!",
+      "title": "Search-Script",
+      "updatedAt": "2026-08-03T18:44:19Z"
+    },
+    "cid": "bafyreidlvq3faollm3n7rsasmjkxu2a4qyvsoeq2wuvneyryqgexo3ykty"
+  }
+}
