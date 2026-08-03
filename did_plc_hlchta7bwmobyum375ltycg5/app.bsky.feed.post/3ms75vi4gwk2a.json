@@ -1,0 +1,87 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1785787024771860,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ms75wbmsqd2v",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ms75vi4gwk2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-03T18:47:04.154Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Finding Needles in Haystacks with the AST",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreif56eic7xi7mcvljvoxzxfijeyibngjrd27tsbiybjizuy6jq4q6m"
+            },
+            "mimeType": "image/jpeg",
+            "size": 308951
+          },
+          "title": "Search-Script - PowerShell Pocket Blog",
+          "uri": "https://pckt.blog/b/posh/search-script-j9hkpt6"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:revjuqmkvrw6fnkxppqtszpv"
+            }
+          ],
+          "index": {
+            "byteEnd": 49,
+            "byteStart": 39
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://pckt.blog/b/posh/search-script-j9hkpt6"
+            }
+          ],
+          "index": {
+            "byteEnd": 123,
+            "byteStart": 98
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.reddit.com/r/PowerShell/s/RimvkV3DnJ"
+            }
+          ],
+          "index": {
+            "byteEnd": 175,
+            "byteStart": 145
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/SearchScript"
+            }
+          ],
+          "index": {
+            "byteEnd": 226,
+            "byteStart": 200
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just wrote a helpful little PowerShell @pckt.blog post about searching the Abstract Syntax Tree:\n\npckt.blog/b/posh/searc...\n\nRead it on Reddit:\n\nwww.reddit.com/r/PowerShell...\n\nCheck out the module:\n\ngithub.com/StartAutomat...\n\nHappy Hunting!"
+    },
+    "cid": "bafyreif2k74grift5joanqph6emgc2wunwmkzcqx3flohbl7lszi7p57om"
+  }
+}
