@@ -1,0 +1,34 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1785810654724725,
+  "kind": "commit",
+  "commit": {
+    "rev": "3ms7xsv5wop2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3ms7xs5otys2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-04T02:30:29.848Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$SR"
+            }
+          ],
+          "index": {
+            "byteEnd": 131,
+            "byteStart": 128
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Went back to some old script of mine today and legitimately forgot that this sort of syntax works in PowerShell:\n\n~~~PowerShell\n$sr = New-Object IO.StreamReader($decompressed, $Encoding)\n~~~\n\nMethod-like syntax works more places than you'd think."
+    },
+    "cid": "bafyreihw5zyf2bnyahf2in7mnoj6eh6czzlk5anlbeckikcyoccrmgqxkq"
+  }
+}
