@@ -1,0 +1,258 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1785877881774302,
+  "kind": "commit",
+  "commit": {
+    "rev": "3msbwgfd6ff2e",
+    "operation": "create",
+    "collection": "site.standard.document",
+    "rkey": "3msbwascug6zx",
+    "record": {
+      "$type": "site.standard.document",
+      "content": {
+        "$type": "blog.pckt.content",
+        "items": [
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 3,
+            "plaintext": "A Quick Compression Module"
+          },
+          {
+            "$type": "blog.pckt.block.image",
+            "attrs": {
+              "align": "center",
+              "alt": "Compression can be quick and easy in PowerShell",
+              "blob": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreihmdzzsjzm7jpf6h4e3lzpqomdaazdds5wgxpyslputuls6sj4iau"
+                },
+                "mimeType": "image/gif",
+                "size": 461083
+              },
+              "naturalHeight": 270,
+              "naturalWidth": 498,
+              "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gNDAK/9sAQwAUDg8SDw0UEhASFxUUGB4yIR4cHB49LC4kMklATEtHQEZFUFpzYlBVbVZFRmSIZW13e4GCgU5gjZeMfZZzfoF8/9sAQwEVFxceGh47ISE7fFNGU3x8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8/8AAEQgABwAMAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A5+1tFePc45YHHt70J+53Iw3EHqKKK6cTSjGlFr+tDWk25tH/2Q==",
+              "src": "blob:bafkreihmdzzsjzm7jpf6h4e3lzpqomdaazdds5wgxpyslputuls6sj4iau"
+            }
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Compression can be quick and easy with .NET."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's learn how."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Yesterday I just dusted off some old code and added some new tricks."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#link",
+                    "uri": "https://github.com/PoshWeb/Zippy"
+                  },
+                  {
+                    "$type": "blog.pckt.richtext.facet#underline"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 55,
+                  "byteStart": 50
+                }
+              }
+            ],
+            "plaintext": "Today I dropped a quick compression module called Zippy"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Let's see it in action and learn how it works."
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "Zippy Examples"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "# Compress a string using Brotli, output in base64\nCompress-Zippy \"Hello World\"\n\nCompress-Zippy \"Hello Brotli\" -Algorithm Brotli |\n    Expand-Zippy -Algorithm Brotli\n\nCompress-Zippy \"Hello Deflate\" -Algorithm Deflate |\n    Expand-Zippy -Algorithm Deflate\n\nCompress-Zippy \"Hello GZip\" -Algorithm GZip |\n    Expand-Zippy -Algorithm GZip\n\nCompress-Zippy \"Hello ZLib\" -Algorithm ZLib |\n    Expand-Zippy -Algorithm ZLib"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "Compression in PowerShell"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 232,
+                  "byteStart": 211
+                }
+              }
+            ],
+            "plaintext": "PowerShell is built on .NET, and .NET happens to have built-in support for four compression algorithms: Brotli, Deflate, GZip, and Zlib. We can compress data with any of these algorithms by using classes in the System.IO.Compression namespace, for example:"
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "# Create a message\n$message = \"hello world\"\n# Get it as bytes\n$bytes = $outputEncoding.GetBytes($message)\n# Create a memory stream\n$memoryStream = [IO.MemoryStream]::new()\n# Create a compressor using the stream\n$compressor = [IO.Compression.BrotliStream]::new(\n     $memoryStream, [IO.Compression.CompressionLevel]::Fastest\n)\n# Write our bytes to the compressor\n$compressor.Write($bytes,0, $bytes.Length)\n# Close our compressor\n$compressor.Close()\n$compressor.Dispose()\n# Get our compressed bytes\n$compressedBytes = $memoryStream.ToArray()\n# and output them\n$compressedBytes"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": "Decompression in PowerShell"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Now let's go the other way around. It's easier."
+          },
+          {
+            "$type": "blog.pckt.block.codeBlock",
+            "attrs": {
+              "language": "powershell"
+            },
+            "plaintext": "# Create a new memory stream, containing our compressed bytes\n$memoryStream = [IO.MemoryStream]::new($compressedBytes)\n# Create a decompressed stream\n$decompressedStream = [IO.Compression.BroitliStream]::new(\n    $memoryStream, [IO.Compression.CompressionMode]::Decompress\n)\n# Create our output stream\n$outputStream = [IO.MemoryStream]::new()\n# Copy our decompressed stream to it\n$decompressedStream.CopyTo($outputStream)\n# Seek to the start (it outputs a position so null that out)\n$null = $outputStream.Seek(0,'begin')\n# Make a stream reader \n$streamReader = [IO.StreamReader]::new($outputStream, $outputEncoding)\n# Read to the end, which will output our decompressed string\n$streamReader.ReadToEnd()\n# close up.\n$streamReader.Close()"
+          },
+          {
+            "$type": "blog.pckt.block.heading",
+            "level": 2,
+            "plaintext": ".NET and PowerShell"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "This has always been there, and it's pretty easy."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Both examples are less than 20 lines, with documentation."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "These techniques are tried and true."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": ".NET has robust compression support because developers need to compress data all the time."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "If we build on top of simple PowerShell and .NET, we build in a way that lasts a lifetime."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "When I said \"I dusted off some old code\" for Zippy, I wasn't kidding."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 39,
+                  "byteStart": 26
+                }
+              },
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#code"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 55,
+                  "byteStart": 44
+                }
+              }
+            ],
+            "plaintext": "Zippy is an update of the Compress-Data and Expand-Data functions in Pipeworks, the first attempt of PowerShell as a web language."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 24,
+                  "byteStart": 8
+                }
+              }
+            ],
+            "plaintext": "This is 16-year-old code, with minor updates made to support multiple compression algorithms and improved piping."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "facets": [
+              {
+                "features": [
+                  {
+                    "$type": "blog.pckt.richtext.facet#italic"
+                  }
+                ],
+                "index": {
+                  "byteEnd": 70,
+                  "byteStart": 66
+                }
+              }
+            ],
+            "plaintext": "My only regret is that I didn't spin this off into its own module long ago"
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "You can use this article as a guide to implementing your own compression, or you can use a little module like Zippy to get the job done."
+          },
+          {
+            "$type": "blog.pckt.block.text",
+            "plaintext": "Please enjoy this new addition to your PowerShell toolkit and have fun decompressing!"
+          }
+        ]
+      },
+      "coverImage": {
+        "$type": "blob",
+        "ref": {
+          "$link": "bafkreihmdzzsjzm7jpf6h4e3lzpqomdaazdds5wgxpyslputuls6sj4iau"
+        },
+        "mimeType": "image/gif",
+        "size": 461083
+      },
+      "description": "A Quick Compression Module",
+      "langs": [
+        "en"
+      ],
+      "path": "/zippy-fz97hyp",
+      "publishedAt": "2026-08-04T21:11:15Z",
+      "site": "at://did:plc:hlchta7bwmobyum375ltycg5/site.standard.publication/3mdfcro5xe273",
+      "tags": [
+        "PowerShell"
+      ],
+      "textContent": "A Quick Compression Module\nCompression can be quick and easy with .NET.\nLet's learn how.\nYesterday I just dusted off some old code and added some new tricks.\nToday I dropped a quick compression module called Zippy\nLet's see it in action and learn how it works.\nZippy Examples\n# Compress a string using Brotli, output in base64\nCompress-Zippy \"Hello World\"\n\nCompress-Zippy \"Hello Brotli\" -Algorithm Brotli |\n    Expand-Zippy -Algorithm Brotli\n\nCompress-Zippy \"Hello Deflate\" -Algorithm Deflate |\n    Expand-Zippy -Algorithm Deflate\n\nCompress-Zippy \"Hello GZip\" -Algorithm GZip |\n    Expand-Zippy -Algorithm GZip\n\nCompress-Zippy \"Hello ZLib\" -Algorithm ZLib |\n    Expand-Zippy -Algorithm ZLib\nCompression in PowerShell\nPowerShell is built on .NET, and .NET happens to have built-in support for four compression algorithms: Brotli, Deflate, GZip, and Zlib. We can compress data with any of these algorithms by using classes in the System.IO.Compression namespace, for example:\n# Create a message\n$message = \"hello world\"\n# Get it as bytes\n$bytes = $outputEncoding.GetBytes($message)\n# Create a memory stream\n$memoryStream = [IO.MemoryStream]::new()\n# Create a compressor using the stream\n$compressor = [IO.Compression.BrotliStream]::new(\n     $memoryStream, [IO.Compression.CompressionLevel]::Fastest\n)\n# Write our bytes to the compressor\n$compressor.Write($bytes,0, $bytes.Length)\n# Close our compressor\n$compressor.Close()\n$compressor.Dispose()\n# Get our compressed bytes\n$compressedBytes = $memoryStream.ToArray()\n# and output them\n$compressedBytes\nDecompression in PowerShell\nNow let's go the other way around. It's easier.\n# Create a new memory stream, containing our compressed bytes\n$memoryStream = [IO.MemoryStream]::new($compressedBytes)\n# Create a decompressed stream\n$decompressedStream = [IO.Compression.BroitliStream]::new(\n    $memoryStream, [IO.Compression.CompressionMode]::Decompress\n)\n# Create our output stream\n$outputStream = [IO.MemoryStream]::new()\n# Copy our decompressed stream to it\n$decompressedStream.CopyTo($outputStream)\n# Seek to the start (it outputs a position so null that out)\n$null = $outputStream.Seek(0,'begin')\n# Make a stream reader \n$streamReader = [IO.StreamReader]::new($outputStream, $outputEncoding)\n# Read to the end, which will output our decompressed string\n$streamReader.ReadToEnd()\n# close up.\n$streamReader.Close()\n.NET and PowerShell\nThis has always been there, and it's pretty easy.\nBoth examples are less than 20 lines, with documentation.\nThese techniques are tried and true.\n.NET has robust compression support because developers need to compress data all the time.\nIf we build on top of simple PowerShell and .NET, we build in a way that lasts a lifetime.\nWhen I said \"I dusted off some old code\" for Zippy, I wasn't kidding.\nZippy is an update of the Compress-Data and Expand-Data functions in Pipeworks, the first attempt of PowerShell as a web language.\nThis is 16-year-old code, with minor updates made to support multiple compression algorithms and improved piping.\nMy only regret is that I didn't spin this off into its own module long ago\nYou can use this article as a guide to implementing your own compression, or you can use a little module like Zippy to get the job done.\nPlease enjoy this new addition to your PowerShell toolkit and have fun decompressing!",
+      "title": "Zippy",
+      "updatedAt": "2026-08-04T21:11:15Z"
+    },
+    "cid": "bafyreicljofqhfxmq5qbzil6ulu4cmdus4cbzzk7hvmow4e6i7h6itbf6m"
+  }
+}
