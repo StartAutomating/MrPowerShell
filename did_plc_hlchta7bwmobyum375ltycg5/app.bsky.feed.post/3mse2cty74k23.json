@@ -1,0 +1,20 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1785950805082457,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mse2doxufc23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mse2cty74k23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-05T17:26:16.531Z",
+      "langs": [
+        "en"
+      ],
+      "text": "Just asking the internet:\n\nWho wants a PowerShell module for creating / managing Shortcut files?\n\nI'm thinking of making a quick one for Windows and Linux shortcuts (.lnk, .url, .desktopEntry).\n\nThis sound useful?"
+    },
+    "cid": "bafyreib6uykgp4tae2w3yqrq56f3nbeogqmrle4quwv7g3vjjxd6lr4qva"
+  }
+}
