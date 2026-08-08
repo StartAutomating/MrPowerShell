@@ -1,0 +1,36 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1786226511519665,
+  "kind": "commit",
+  "commit": {
+    "rev": "3msm34e5iph2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3msm34cwizs22",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-08T22:01:48.972Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: George Michael feels really sad about Reddit.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihpsyzjyu65qlcbkfuus4dcjp2gudnz7zhawcnxq5cozxwfjz6z2y"
+            },
+            "mimeType": "image/jpeg",
+            "size": 70693
+          },
+          "title": "Man Walking Sadly in Barren Landscape",
+          "uri": "https://static.klipy.com/ii/c3a19a0b747a76e98651f2b9a3cca5ff/1d/0b/6kAGR6Uu.gif?hh=376&ww=498&mp4=sWlYxub4t30gBdOplgEH&webm=Tc4f8DNYErzOWHaSnnb"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "text": "When you spend a half hour writing a post for reddit only to see it get insta-bounced.\n\n( _of course_ I didn't save the draft )"
+    },
+    "cid": "bafyreibjogt4xenwz5od5dkytzfgl3wme3rumfyrayo7l7t3gnl3cybx3a"
+  }
+}
