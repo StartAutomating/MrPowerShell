@@ -1,0 +1,74 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1786223705365835,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mslyiqg6iq2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mslyiopvic2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-08T21:15:02.766Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Simple Shortcuts with PowerShell. Contribute to StartAutomating/Shortcut development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidt6qpzvv367kxvyvq6w7wgpxrv24l7dmzi4qgt6jkm4jplykcy3e"
+            },
+            "mimeType": "image/jpeg",
+            "size": 116370
+          },
+          "title": "GitHub - StartAutomating/Shortcut: Simple Shortcuts with PowerShell",
+          "uri": "https://github.com/StartAutomating/Shortcut"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Windows"
+            }
+          ],
+          "index": {
+            "byteEnd": 63,
+            "byteStart": 55
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Linux"
+            }
+          ],
+          "index": {
+            "byteEnd": 74,
+            "byteStart": 68
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/Shortcut"
+            }
+          ],
+          "index": {
+            "byteEnd": 146,
+            "byteStart": 120
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "New PowerShell module alert!\n\nShortcut lets you create #Windows and #Linux shortcut files (`.url`, `.lnk`, `.desktop`)\n\ngithub.com/StartAutomat..."
+    },
+    "cid": "bafyreibrdmylrnvzonuxiztk2ztokgshqmblgqwbqg6xc2wbx3xb6tlvjq"
+  }
+}
