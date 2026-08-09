@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1786233511471085,
+  "kind": "commit",
+  "commit": {
+    "rev": "3msmbmywzwp2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3msmbmxkm7s2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-08T23:58:29.924Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibg5x6ovb6sbbtk4hrpksz3zxhstup6fq2rh64fbkepslturkdzqe",
+          "uri": "at://did:plc:44jzoazrip6yp7o63jgvhjll/app.bsky.feed.post/3msmam4uc5s24"
+        },
+        "root": {
+          "cid": "bafyreigu3x5gfak2dv6ovfg6yvi5gljvulgq77elc2f62lgis6bch3vmze",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3msm7mjcj5k2p"
+        }
+      },
+      "text": "Hmm.  Making a crossplatform shortcut module will probably be pretty helpful over time.\n\nMaybe I should make one for Startup Scripts, too.\n\n🤔"
+    },
+    "cid": "bafyreidjguyvdgtrhopqy5osakghfxp7tiyg3uckwwxtebm4c5ytrfkcw4"
+  }
+}
