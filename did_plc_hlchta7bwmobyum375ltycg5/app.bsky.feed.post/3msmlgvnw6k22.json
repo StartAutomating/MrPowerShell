@@ -1,0 +1,61 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1786244045501855,
+  "kind": "commit",
+  "commit": {
+    "rev": "3msmlgvxwe22x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3msmlgvnw6k22",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-09T02:54:04.026Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Simple Shortcuts with PowerShell. Contribute to StartAutomating/Shortcut development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicol6fnwzj4ixluuavtrnaw364mlnfp72vnjuamdywasdqqmj4hye"
+            },
+            "mimeType": "image/jpeg",
+            "size": 87327
+          },
+          "title": "GitHub - StartAutomating/Shortcut: Simple Shortcuts with PowerShell",
+          "uri": "https://GitHub.com/StartAutomating/Shortcut"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://GitHub.com/StartAutomating/Shortcut"
+            }
+          ],
+          "index": {
+            "byteEnd": 134,
+            "byteStart": 108
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiefprduvt3mffijaqnqwm3vbrxf4vlylaxwrje4izg4rlxr6xya4u",
+          "uri": "at://did:plc:zc6ftavkp3iv4uszs53qryos/app.bsky.feed.post/3msmcsvp6fy2r"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreidjguyvdgtrhopqy5osakghfxp7tiyg3uckwwxtebm4c5ytrfkcw4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3msmbmxkm7s2v"
+        }
+      },
+      "text": "Cool!  Give Shortcut a try and let me know how it could be improved.\n\nPlease also feed GitHub with a star.\n\nGitHub.com/StartAutomat..."
+    },
+    "cid": "bafyreie2p7qxuxghpl4qkwmdqb3yawuyvgg5drhvjlwzoqstjdg5mj3byy"
+  }
+}
