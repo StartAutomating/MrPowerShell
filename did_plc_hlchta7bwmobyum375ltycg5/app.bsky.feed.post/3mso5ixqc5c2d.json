@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1786297799496438,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mso5iwq6lw2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mso5ixqc5c2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-09T17:50:00.401Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidhlre6oc2ygycsppschg2vcuhwmlk7xmr25gndlkc3ydtt2l6xwq",
+          "uri": "at://did:plc:n5rdclpbyxbzemdl5wbvlatd/app.bsky.feed.post/3msnxhk7god2b"
+        },
+        "root": {
+          "cid": "bafyreidhlre6oc2ygycsppschg2vcuhwmlk7xmr25gndlkc3ydtt2l6xwq",
+          "uri": "at://did:plc:n5rdclpbyxbzemdl5wbvlatd/app.bsky.feed.post/3msnxhk7god2b"
+        }
+      },
+      "text": "Very nice!\n\nNow the door for randomization is open, it might be time to consider fuzzing and randomized permutations."
+    },
+    "cid": "bafyreicdxtsba5wkokhdtdcpfi45yixcgw3fd7wvmeqlf3mpx7pkxjgn24"
+  }
+}
