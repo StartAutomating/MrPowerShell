@@ -1,0 +1,62 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1786302335490641,
+  "kind": "commit",
+  "commit": {
+    "rev": "3msobq42p6u2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3msobq2vsu22z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-09T19:05:33.576Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Interpolates between two quaternions, using spherical linear interpolation.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreibqsp3hrcovamdyrgpuzdluhmjnysblmcem5vhh4bkqoekuaqr4su"
+            },
+            "mimeType": "image/jpeg",
+            "size": 399199
+          },
+          "title": "Quaternion.Slerp(Quaternion, Quaternion, Single) Method (System.Numerics)",
+          "uri": "https://learn.microsoft.com/en-us/dotnet/api/system.numerics.quaternion.slerp"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "TodayILearned"
+            }
+          ],
+          "index": {
+            "byteEnd": 68,
+            "byteStart": 54
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://learn.microsoft.com/en-us/dotnet/api/system.numerics.quaternion.slerp"
+            }
+          ],
+          "index": {
+            "byteEnd": 292,
+            "byteStart": 257
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "I already knew about Lerp (Linear Interpolation), but #TodayILearned it has a spherical friend with an equally adorable name: Slerp (Spherical Linear Interpolation)\n\nYou can Lerp any Vector2, Vector3, or Vector4\n\nYou can Slerp between any two Quaternions:\n\nlearn.microsoft.com/en-us/dotnet..."
+    },
+    "cid": "bafyreie5xovurumke2irnhhsnxdzkhg5bwzkngcdjz46zbem3tnfftbssq"
+  }
+}
