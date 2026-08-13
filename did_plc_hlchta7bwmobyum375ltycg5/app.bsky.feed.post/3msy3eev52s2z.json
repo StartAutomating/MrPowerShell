@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1786639099025117,
+  "kind": "commit",
+  "commit": {
+    "rev": "3msy3ehcf442e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3msy3eev52s2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-13T16:38:16.32Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicpxkh5ouepd46nzod2vevtp5hys5eb3y25hdmy2jjd3igp3ih3z4",
+          "uri": "at://did:plc:uaujmuvgq5e363xctnr257nb/app.bsky.feed.post/3msvzeskenk2y"
+        },
+        "root": {
+          "cid": "bafyreicpxkh5ouepd46nzod2vevtp5hys5eb3y25hdmy2jjd3igp3ih3z4",
+          "uri": "at://did:plc:uaujmuvgq5e363xctnr257nb/app.bsky.feed.post/3msvzeskenk2y"
+        }
+      },
+      "text": "If you switch over to PowerShell Core, it switches it over to UTF-8.\n\nJust FYI: UTF-8 was not a fully standardized thing before many of these features existed."
+    },
+    "cid": "bafyreig6ifnxf5xfowacajksh6wfg5pxsjsu5rzdky5pgf5b62hbr5ge54"
+  }
+}
