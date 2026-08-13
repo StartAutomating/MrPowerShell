@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1786638402669821,
+  "kind": "commit",
+  "commit": {
+    "rev": "3msy2pobvp524",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3msy2pl3yg22a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-13T16:26:38.192Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigc7zwj43tecr4327tpctfo6l2x3fqgp2utbdb5e2vca7lcywjfyu",
+          "uri": "at://did:plc:n5rdclpbyxbzemdl5wbvlatd/app.bsky.feed.post/3msxzegnlrg24"
+        },
+        "root": {
+          "cid": "bafyreigc7zwj43tecr4327tpctfo6l2x3fqgp2utbdb5e2vca7lcywjfyu",
+          "uri": "at://did:plc:n5rdclpbyxbzemdl5wbvlatd/app.bsky.feed.post/3msxzegnlrg24"
+        }
+      },
+      "text": "Nice!\n\nNow if you added a switch to automatically permute thru parameters, you will have finally duplicated all of the features from the ancient internal PowerTest framework."
+    },
+    "cid": "bafyreif43oniubhn6t6q53z7lwnoiiryfsdsijw4tio3xvvfct63y6atfu"
+  }
+}
