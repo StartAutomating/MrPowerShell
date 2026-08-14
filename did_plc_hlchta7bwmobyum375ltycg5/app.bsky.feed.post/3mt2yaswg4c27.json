@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1786738835886007,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mt2yatqywp25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mt2yaswg4c27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-14T20:20:34.813Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DotNet"
+            }
+          ],
+          "index": {
+            "byteEnd": 123,
+            "byteStart": 116
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GameDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 264,
+            "byteStart": 256
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Anyone want to come out of the woodwork and help me understand some 3D projection into 2D space, specifically using #DotNet Matrix4x4 ? \n\nI'm so close to being able to render 3D into SVG I can taste it, but so far the correct answer eludes me...\n\n🙏 any #GameDev or 3D nerds want to help?"
+    },
+    "cid": "bafyreihmztgnnjly5ngafm3q67o6jdwsurrslcdydsf5srqq3sgpd7lb6e"
+  }
+}
