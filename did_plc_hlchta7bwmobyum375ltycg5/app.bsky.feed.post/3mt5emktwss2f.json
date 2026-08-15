@@ -1,0 +1,64 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1786820836076244,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mt5emmqrmi2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mt5emktwss2f",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-15T19:07:13.375Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "A rasterization of an SVG with 128 steps of scale() transforms.",
+            "aspectRatio": {
+              "height": 1079,
+              "width": 1919
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigx2jjdxqmuxoadvcvac4uhsxks4m4pyhmwws7usgrzdyw4fkcn7e"
+              },
+              "mimeType": "image/jpeg",
+              "size": 220055
+            }
+          }
+        ]
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$SCALE"
+            }
+          ],
+          "index": {
+            "byteEnd": 167,
+            "byteStart": 161
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihmztgnnjly5ngafm3q67o6jdwsurrslcdydsf5srqq3sgpd7lb6e",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mt2yaswg4c27"
+        },
+        "root": {
+          "cid": "bafyreihmztgnnjly5ngafm3q67o6jdwsurrslcdydsf5srqq3sgpd7lb6e",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mt2yaswg4c27"
+        }
+      },
+      "text": "I _think_ I've figured it out.\n\nIf I want to give a SVG object an apparent depth, I can use a scale transform using the formula:\n\n~~~PowerShell\n1/[Math]::Pow(2, $scale - 1)\n~~~\n\nThe transform-origin controls where it scales to.\n\nDo you all see depth in this image?"
+    },
+    "cid": "bafyreidz544c3adoe5umigmz4hucbxn65kbreuj7kmy6ekzmooe5ekeoqm"
+  }
+}
