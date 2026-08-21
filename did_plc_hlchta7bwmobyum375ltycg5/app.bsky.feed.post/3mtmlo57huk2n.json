@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1787343805143621,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mtmlod2lck2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mtmlo57huk2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-21T20:23:18.451Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicsq7lmps6z4xckcuhh7yapqvprwp5mdylzrjcbwllbwgurtn4nti",
+          "uri": "at://did:plc:ofz6imzqld3xiopjalwjrh2y/app.bsky.feed.post/3mtmgayetek26"
+        },
+        "root": {
+          "cid": "bafyreih7h35t56dy664vozcl3ogddbokbxawkfzxbbmsafdl67mkroeydm",
+          "uri": "at://did:plc:dwnwdo54dhsjy5usot4t6o27/app.bsky.feed.post/3mtmep575hc2t"
+        }
+      },
+      "text": "Yeah.  This is why I don't love PowerShell being lumped in with the rest of Microsoft.\n\nPowerShell was kinda like the Linux-flavored-but-better resistance within Microsoft.\n\nIt was a long road to it being everywhere."
+    },
+    "cid": "bafyreihxyeshfn2qavcfyvmiiiuy6yos4jlddqiyojrw22vq7zixzyv7cy"
+  }
+}
