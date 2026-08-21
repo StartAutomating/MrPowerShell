@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1787344341162316,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mtmm6bjhe623",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mtmm63pgts2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-21T20:32:13.748Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih7h35t56dy664vozcl3ogddbokbxawkfzxbbmsafdl67mkroeydm",
+          "uri": "at://did:plc:dwnwdo54dhsjy5usot4t6o27/app.bsky.feed.post/3mtmep575hc2t"
+        },
+        "root": {
+          "cid": "bafyreih7h35t56dy664vozcl3ogddbokbxawkfzxbbmsafdl67mkroeydm",
+          "uri": "at://did:plc:dwnwdo54dhsjy5usot4t6o27/app.bsky.feed.post/3mtmep575hc2t"
+        }
+      },
+      "text": "Now comes the truly fun part:\n\nRealizing all of the objects that are out there that PowerShell can talk to and generate.\n\n[xml] or JSON?  No Problem.\nCSV/TSV:  Easy.\nRest?  Gimme a break.\n\nEverything is an object.\n\nAnd PowerShell _loves_ objects."
+    },
+    "cid": "bafyreihuefq5w3mpobqtwqhm6wt2cqlawlfgi74gwfiw7auunknu326wbq"
+  }
+}
