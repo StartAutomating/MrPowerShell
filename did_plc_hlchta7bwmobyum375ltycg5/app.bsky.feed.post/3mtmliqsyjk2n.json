@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1787343624039499,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mtmliwp4bk2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mtmliqsyjk2n",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-21T20:20:17.686Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigmvjveddckdbkpxnovcmblctp46lo4to2jt43xyqwbglwtltmala",
+          "uri": "at://did:plc:e6ntzm7g6mpsym5s42rrmwie/app.bsky.feed.post/3mtmf67fe2k2x"
+        },
+        "root": {
+          "cid": "bafyreih7h35t56dy664vozcl3ogddbokbxawkfzxbbmsafdl67mkroeydm",
+          "uri": "at://did:plc:dwnwdo54dhsjy5usot4t6o27/app.bsky.feed.post/3mtmep575hc2t"
+        }
+      },
+      "text": "Yep, that's the painful gotcha, even after all these years.\n\nLuckily, lots of apps can export to json these days.  And we can still parse the rest of them into something like usable output.\n\nNow if only something else had a decent object pipeline... 🤔"
+    },
+    "cid": "bafyreifhnuz5ehwgkks55idsj3mdyuuvsmwthqjheyhrzvn4o6w2x4k5qu"
+  }
+}
