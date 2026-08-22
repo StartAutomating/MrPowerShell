@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1787357416189288,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mtmydxudgs2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mtmydrfir222",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-22T00:10:09.164Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihbmnfs3wasimcihougdif7v5dqfssl7kd6fmppogs4s72fibvbma",
+          "uri": "at://did:plc:76n5af4lu74itlshkbvbynyo/app.bsky.feed.post/3mtjkbq4lok2y"
+        },
+        "root": {
+          "cid": "bafyreid7kezhekw6qu753edx3ycms6v37jxjpncp3o24zo5px57fdaqide",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mtetbi4axs24"
+        }
+      },
+      "text": "Sorry, the group of people doing Show and Tell opted for no recording / streaming.\n\nHopefully see you next time!"
+    },
+    "cid": "bafyreie5rfrfw5z3n2acaw4mxy6qxwoenf3xdtmd2vyjqo7pardcqbcvju"
+  }
+}
