@@ -1,0 +1,82 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1787434399249410,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mtp5quiolo2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mtp5qt4ovk25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-22T20:52:15.367Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 18,
+            "byteStart": 14
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Html"
+            }
+          ],
+          "index": {
+            "byteEnd": 24,
+            "byteStart": 19
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 25
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DotNet"
+            }
+          ],
+          "index": {
+            "byteEnd": 40,
+            "byteStart": 33
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 52,
+            "byteStart": 41
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just a little #CSS #Html #WebDev #DotNet #PowerShell FYI:\n\nA CSS class name can be a type name\n\nYou just have to escape the rule:\n\n~~~css\nSystem\\.Numerics\\.Vector { font-size: 2rem } \n~~~\n\n~~~html\n<span class='System.Numerics.Vector'>X:1 Y:1</span>\n~~~\n\n🤯😎"
+    },
+    "cid": "bafyreidhg3edtzbhpmsza3wzkjcspzloelsoydlpaeu2lwy34cirrkfmjq"
+  }
+}
