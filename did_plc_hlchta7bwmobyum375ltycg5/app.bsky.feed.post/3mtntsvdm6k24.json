@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1787386907177590,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mtntsuidxx2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mtntsvdm6k24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-22T08:21:47.639Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibihm64tuynsnbgdb7fywkod7zvsg42pqyhe6ghcifowqlpu7ry5u",
+          "uri": "at://did:plc:2xzjzuyrgz6dmjy2xdhlawgl/app.bsky.feed.post/3mtmr55pixc2r"
+        },
+        "root": {
+          "cid": "bafyreihhufglrkduof2t2owe44qoo5iv6k3osboe3wl5u6e2ysu7j7emca",
+          "uri": "at://did:plc:2xzjzuyrgz6dmjy2xdhlawgl/app.bsky.feed.post/3mtmr4ngi422r"
+        }
+      },
+      "text": "A vague techy term people use to describe the way stuff happens.\n\nA manual workflow is someone doing this by hand.\n\nAn automated workflow is some machine doing it for you.\n\nManual workflows cost you time.\n\nAutomated workflows cost computers time."
+    },
+    "cid": "bafyreiewopfpmxcmm55dwf2iubohmpvhht3lxt3deaikhwrq6x7rsuthny"
+  }
+}
