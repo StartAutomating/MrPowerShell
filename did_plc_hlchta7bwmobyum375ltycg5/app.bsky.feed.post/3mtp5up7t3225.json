@@ -1,0 +1,82 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1787434518975055,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mtp5uqhvvr2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mtp5up7t3225",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-22T20:54:25.492Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 19,
+            "byteStart": 15
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Html"
+            }
+          ],
+          "index": {
+            "byteEnd": 25,
+            "byteStart": 20
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "WebDev"
+            }
+          ],
+          "index": {
+            "byteEnd": 33,
+            "byteStart": 26
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "DotNet"
+            }
+          ],
+          "index": {
+            "byteEnd": 41,
+            "byteStart": 34
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 53,
+            "byteStart": 42
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Another little #CSS #Html #WebDev #DotNet #PowerShell FYI\n\nA CSS matrix() is the same thing as [Numerics.Matrix3x2]\n\nA CSS matrix3d() is the same thing as a [Numerics.Matrix4x4]\n\nAll CSS transforms boil down to one of these two classes."
+    },
+    "cid": "bafyreiau4ewgey2jeuzrabhc5jzhjykew653yca5usshh3dbr7btynpr4a"
+  }
+}
