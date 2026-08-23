@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1787465993704158,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mtq5ht3vxr23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mtq5htiv2k2h",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-23T06:19:53.511Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "YouTube video by Extra History",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreier5tlmlboxxuqxtjmslfdg6dfp5k7nmbjnefozktbavioeomrn3y"
+            },
+            "mimeType": "image/jpeg",
+            "size": 104574
+          },
+          "title": "Nixon's War | Kent State Shootings 1 | U.S. History",
+          "uri": "https://youtu.be/hLRzMV18-fw?is=D0IZxj2h8sBDF22x"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://youtu.be/hLRzMV18-fw?is=D0IZxj2h8sBDF22x"
+            }
+          ],
+          "index": {
+            "byteEnd": 136,
+            "byteStart": 112
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Any other Kent Staters feel just a tad weird about Extra History doing a series on May 4th?  ( In August 🤷)\n\nyoutu.be/hLRzMV18-fw?...\n\nKinda weird to see an animated version of a place you used to live in.\n\nVery curious if anyone working on this has been to Kent ( looks like it )"
+    },
+    "cid": "bafyreigocq6a3yojr6okare2xbgvv4opz27qsj6nz7y6mwtrv32oajltye"
+  }
+}
