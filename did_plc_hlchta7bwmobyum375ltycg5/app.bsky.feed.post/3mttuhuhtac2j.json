@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1787596169181883,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mttuhtpjdl2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mttuhuhtac2j",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-24T17:49:29.803Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigbijv2rghkuzksoebnpdxyhioyqrvfviuuinjhpffvbqwboxadjm",
+          "uri": "at://did:plc:chf2cynf5w7js55n42x3mx5x/app.bsky.feed.post/3mttsvqqqcc24"
+        },
+        "root": {
+          "cid": "bafyreigbijv2rghkuzksoebnpdxyhioyqrvfviuuinjhpffvbqwboxadjm",
+          "uri": "at://did:plc:chf2cynf5w7js55n42x3mx5x/app.bsky.feed.post/3mttsvqqqcc24"
+        }
+      },
+      "text": "Thirtieth times the charm?"
+    },
+    "cid": "bafyreibgfwb7ior6gyl577rucvbc2dwtb6knrtlmargjsufuxn3jvbx3eq"
+  }
+}
