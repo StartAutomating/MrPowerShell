@@ -1,0 +1,122 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1787690487256360,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mtwokauf5a2r",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mtwok7gczs22",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-25T20:41:25.163Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Matrix Transforms with PowerShell. Contribute to PoshWeb/Matrix development by creating an account on GitHub.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicxjq4bz3nf7wcp24vuxdhlcew3fgfkkmodtiqfm57apydt3yo6p4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 134389
+          },
+          "title": "GitHub - PoshWeb/Matrix: Matrix Transforms with PowerShell",
+          "uri": "https://github.com/PoshWeb/Matrix/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PoshWeb/Matrix/"
+            }
+          ],
+          "index": {
+            "byteEnd": 56,
+            "byteStart": 30
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 145,
+            "byteStart": 134
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "CSS"
+            }
+          ],
+          "index": {
+            "byteEnd": 175,
+            "byteStart": 171
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "html"
+            }
+          ],
+          "index": {
+            "byteEnd": 235,
+            "byteStart": 230
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "svg"
+            }
+          ],
+          "index": {
+            "byteEnd": 241,
+            "byteStart": 237
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "css"
+            }
+          ],
+          "index": {
+            "byteEnd": 247,
+            "byteStart": 243
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "mathml"
+            }
+          ],
+          "index": {
+            "byteEnd": 260,
+            "byteStart": 253
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "New PowerShell Module Alert:\n\ngithub.com/PoshWeb/Matr...\n\nThis helps us master matrix transforms in PowerShell.\n\nTransform vectors in #PowerShell the same way we would in #CSS\n\nThe website includes tons of examples of Matrices in #html, #svg, #css, and #mathml."
+    },
+    "cid": "bafyreig3r4z7mclkn7ucy5uf45ykmw6ewtbzl7qqxoriuebmr5no7ynf5a"
+  }
+}
