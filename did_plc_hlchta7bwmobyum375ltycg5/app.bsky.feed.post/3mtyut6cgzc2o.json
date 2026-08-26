@@ -1,0 +1,36 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1787765948055943,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mtyut4z4wv2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mtyut6cgzc2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-26T17:39:07.899Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Reading Tim Curry obits and wondering if anyone writing them has seen this imminently quotable gem.\n\nAnyone else have like half this movie memorized ?",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreib3wlzi5kogzv4wduplitgfm7e454sl7oyxbq25iazkw2ki2bydby"
+            },
+            "mimeType": "image/jpeg",
+            "size": 47689
+          },
+          "title": "Tim Curry as Wadsworth in Clue The Movie",
+          "uri": "https://static.klipy.com/ii/8ce8357c78ea940b9c2015daf05ce1a5/8b/dc/rprNjSWa.gif?hh=498&ww=498&mp4=qKOM4GUle0rjMJlgVaDJ&webm=NfU3cNo81681qnA0D7"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "text": "Long week.\n\nLost Dolly Parton one day.\n\nAnd Tim Curry the next.\n\nAnd somehow none of the obituaries I've read so far mentioned Clue."
+    },
+    "cid": "bafyreiff5n45gnkrnw5dbmjg7sprohfiga6t4wonfrdiommgnp5uftrefu"
+  }
+}
