@@ -1,0 +1,99 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1787893880067279,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mu4lxt6w2t2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mu4lxu6qfs23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-28T05:11:20.345Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "YouTube video by Jessie Gender",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreicl45643cd32ft3h5zeqe3i3a44epwe64svebloeltskmowhwyhim"
+            },
+            "mimeType": "image/jpeg",
+            "size": 92764
+          },
+          "title": "Babylon 5 is the Anti-Fascist Show We Need",
+          "uri": "https://youtu.be/pmQmhVDdZiw?si=twC6y4J13dWYF3Br"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:cpwg5fkxgedy7ocka5smtxvb"
+            }
+          ],
+          "index": {
+            "byteEnd": 54,
+            "byteStart": 29
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://youtu.be/pmQmhVDdZiw?si=twC6y4J13dWYF3Br"
+            }
+          ],
+          "index": {
+            "byteEnd": 81,
+            "byteStart": 57
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://m.youtube.com/@Babylon5"
+            }
+          ],
+          "index": {
+            "byteEnd": 192,
+            "byteStart": 169
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "SciFi"
+            }
+          ],
+          "index": {
+            "byteEnd": 238,
+            "byteStart": 232
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Bablyon5"
+            }
+          ],
+          "index": {
+            "byteEnd": 248,
+            "byteStart": 239
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Great Babylon 5 breakdown by @jessiegender.bsky.social \n\nyoutu.be/pmQmhVDdZiw?...\n\nFYI to all: Babylon 5 is being re-released to YouTube.  Holds up really well so far:\n\nm.youtube.com/@Babylon5\n\n\"New\" episodes every couple of days.\n\n#SciFi #Bablyon5"
+    },
+    "cid": "bafyreihxbae73vdisrxqc2jlnpwn5xdogqrrg3yyxs6btg7uqxndnyttha"
+  }
+}
