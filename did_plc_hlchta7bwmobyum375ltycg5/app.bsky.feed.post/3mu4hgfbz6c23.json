@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1787889010717448,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mu4hgpyelo23",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mu4hgfbz6c23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-28T03:49:59.333Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaapkysairerp5phdhauv656yrpkgrfsme5rloi5trjqdsqswfytu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mu4h274znc23"
+        },
+        "root": {
+          "cid": "bafyreigwmerdkrr3hu2heljg3q6w3urdngobtqucdzsihm6anpt3gswmb4",
+          "uri": "at://did:plc:omvocffs2w5xrzfs2gm4f7rp/app.bsky.feed.post/3mu43ac6owk2q"
+        }
+      },
+      "text": "Microsoft is full of smart people trying to do the right thing, working on projects they are often very passionate about.\n\nIt's very diverse and very human.\n\nAs someone who helped make PowerShell, it's tough when people \"lump together\", as if we were borg.\n\nIt's all individuals and small tribes."
+    },
+    "cid": "bafyreibhiqyqgrqsoibqtqgv3sfcgsocoxl7kopcx4246olknby72q7cuy"
+  }
+}
