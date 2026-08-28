@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1787888361913485,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mu4gtfaosi2k",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mu4gtggr5s23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-28T03:39:22.997Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigwmerdkrr3hu2heljg3q6w3urdngobtqucdzsihm6anpt3gswmb4",
+          "uri": "at://did:plc:omvocffs2w5xrzfs2gm4f7rp/app.bsky.feed.post/3mu43ac6owk2q"
+        },
+        "root": {
+          "cid": "bafyreigwmerdkrr3hu2heljg3q6w3urdngobtqucdzsihm6anpt3gswmb4",
+          "uri": "at://did:plc:omvocffs2w5xrzfs2gm4f7rp/app.bsky.feed.post/3mu43ac6owk2q"
+        }
+      },
+      "text": "I would flip the order and give a bit more credit.\n\nA few more projects of note.\n\nDotNet\nTypeScript\nVSCode\nWindows Terminal\nAzure\n\nMicrosoft makes a lot of software.  Some of it is revolutionary.\n\nSome is not.\n\nTo quote Bruce Payette:\n\nMicrosoft is not a country.  It is a nation of city states."
+    },
+    "cid": "bafyreieom2s6mww4x2wpa5wkl6j6jjldotkexjomdcjo7mzvomblcznnci"
+  }
+}
