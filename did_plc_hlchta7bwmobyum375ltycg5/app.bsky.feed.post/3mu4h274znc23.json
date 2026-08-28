@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1787888589099964,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mu4h25vwtw2l",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mu4h274znc23",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-28T03:43:10.226Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieom2s6mww4x2wpa5wkl6j6jjldotkexjomdcjo7mzvomblcznnci",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mu4gtggr5s23"
+        },
+        "root": {
+          "cid": "bafyreigwmerdkrr3hu2heljg3q6w3urdngobtqucdzsihm6anpt3gswmb4",
+          "uri": "at://did:plc:omvocffs2w5xrzfs2gm4f7rp/app.bsky.feed.post/3mu43ac6owk2q"
+        }
+      },
+      "text": "There's more I could add..\n\nSQL Server is top notch.\n\nWSL is pretty awesome, too.\n\nLots of little parts of the OS are amazing and undersung ( like the event log and task scheduler ).\n\nOpen Packages are also pretty cool.\n\nI could go on, but there's a better point to get to...."
+    },
+    "cid": "bafyreiaapkysairerp5phdhauv656yrpkgrfsme5rloi5trjqdsqswfytu"
+  }
+}
