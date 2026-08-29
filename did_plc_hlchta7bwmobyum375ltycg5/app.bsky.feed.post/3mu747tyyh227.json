@@ -1,0 +1,99 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1787980051070781,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mu747vwe5s25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mu747tyyh227",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-29T05:07:27.94Z",
+      "embed": {
+        "$type": "app.bsky.embed.video",
+        "alt": "const bpm = 128\nconst phase = 0\nsetcpm(bpm/4)\n\n// const sequence = \"<[c2 c3]*4 [bb1 bb2]*4 [f2 f3]*4 [eb2 eb3]*4>\"\nconst sequence = \"<[c2 c3]*4 [bb1 bb2]*4 [f2 f3]*4 [eb2 eb3]*4 [c3 c4]*4 [bb2 bb3]*4 [f3 f4]*4 [eb3 eb4]*4>\"\n\n$g1: note(sequence).sound(\"sine square sawtooth\").gain(1).phaser(phase).color(\"red\")._scope()\n$g2: note(sequence).rev().jux(rev).sound(\"sine square sawtooth\").phaser(phase).color(\"blue\")._scope()\n\n$g3: note(sequence).sound(\"sine square sawtooth\").jux(rev).phaser(phase).color(\"green\")._scope()\n                                                                                                                                     \n$g4: note(sequence).ribbon(0, 8).sound(\"sine square sawtooth\").jux(rev).phaser(phase).color(\"yellow\")._scope()",
+        "aspectRatio": {
+          "height": 1080,
+          "width": 1920
+        },
+        "presentation": "default",
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreicrx6nk2cswuttbjbp23iwsr5rax36pcsyzfo5qn4vsvlwv5t7z4m"
+          },
+          "mimeType": "video/mp4",
+          "size": 16425553
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "strudel"
+            }
+          ],
+          "index": {
+            "byteEnd": 13,
+            "byteStart": 5
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 87,
+            "byteStart": 76
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "obs"
+            }
+          ],
+          "index": {
+            "byteEnd": 109,
+            "byteStart": 105
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/obs-powershell"
+            }
+          ],
+          "index": {
+            "byteEnd": 189,
+            "byteStart": 163
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://strudel.cc/#CmNvbnN0IGJwbSA9IDEyOApjb25zdCBwaGFzZSA9IDAKc2V0Y3BtKGJwbS80KQoKLy8gY29uc3Qgc2VxdWVuY2UgPSAiPFtjMiBjM10qNCBbYmIxIGJiMl0qNCBbZjIgZjNdKjQgW2ViMiBlYjNdKjQ%2BIgpjb25zdCBzZXF1ZW5jZSA9ICI8W2MyIGMzXSo0IFtiYjEgYmIyXSo0IFtmMiBmM10qNCBbZWIyIGViM10qNCBbYzMgYzRdKjQgW2JiMiBiYjNdKjQgW2YzIGY0XSo0IFtlYjMgZWI0XSo0PiIKCiRnMTogbm90ZShzZXF1ZW5jZSkuc291bmQoInNpbmUgc3F1YXJlIHNhd3Rvb3RoIikuZ2FpbigxKS5waGFzZXIocGhhc2UpLmNvbG9yKCJyZWQiKS5fc2NvcGUoKQokZzI6IG5vdGUoc2VxdWVuY2UpLnJldigpLmp1eChyZXYpLnNvdW5kKCJzaW5lIHNxdWFyZSBzYXd0b290aCIpLnBoYXNlcihwaGFzZSkuY29sb3IoImJsdWUiKS5fc2NvcGUoKQoKJGczOiBub3RlKHNlcXVlbmNlKS5zb3VuZCgic2luZSBzcXVhcmUgc2F3dG9vdGgiKS5qdXgocmV2KS5waGFzZXIocGhhc2UpLmNvbG9yKCJncmVlbiIpLl9zY29wZSgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKJGc0OiBub3RlKHNlcXVlbmNlKS5yaWJib24oMCwgOCkuc291bmQoInNpbmUgc3F1YXJlIHNhd3Rvb3RoIikuanV4KHJldikucGhhc2VyKHBoYXNlKS5jb2xvcigieWVsbG93IikuX3Njb3BlKCk%3D"
+            }
+          ],
+          "index": {
+            "byteEnd": 258,
+            "byteStart": 232
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Some #strudel for you\n\nJust wanted to record a soundtrack for some vids.\n\nA #PowerShell one liner starts #obs recording, waits a minute, then closes.  Courtesy of github.com/StartAutomat...\n\nStrudel in alt text\n\nStrudel REPL link:\n\nstrudel.cc#CmNvbnN0IGJw..."
+    },
+    "cid": "bafyreiglzdne73m46ezf336owhg7qupmb757t2ynicxqrlsktlxkxztoxa"
+  }
+}
