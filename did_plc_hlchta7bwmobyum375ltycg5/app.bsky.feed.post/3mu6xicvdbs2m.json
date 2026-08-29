@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1787974965637961,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mu6xiexfg323",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mu6xicvdbs2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-29T03:42:43.276Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidmfc2sise6rbwxcelt2ynx3ir4beh6pwrwwzkkab6l2irypaufey",
+          "uri": "at://did:plc:dikivgvdeoiirdmwggu27qyr/app.bsky.feed.post/3mu6x2wh7nk2p"
+        },
+        "root": {
+          "cid": "bafyreicuropn5oi6xmpy3udvzg4tenngo5j5lcqweex6bh62onzj4tb74a",
+          "uri": "at://did:plc:dikivgvdeoiirdmwggu27qyr/app.bsky.feed.post/3mu5qjzdtle2g"
+        }
+      },
+      "text": "I am a consultant.\n\nI'm often asked to help \"upskill\" normie admins, or help them climb up technical mountains they otherwise could not.\n\nIt's all about helping enable them.\n\nIT people being afraid of terminals is older than PowerShell.\n\nJust much rarer now."
+    },
+    "cid": "bafyreidmusthpoavu5oncc5qsm36lgu3ittu5su3mj7kixhzu2ev62tzye"
+  }
+}
