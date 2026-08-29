@@ -1,0 +1,51 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1787975555799987,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mu6xzxrdng2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mu6xzuz2pc2m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-29T03:52:32.697Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreicaot2eilpcpzr4ggp5v3rqbxwqavi2ez5fvd3ibb5iqctuia5pje",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.generator/PowerShell"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/did:plc:hlchta7bwmobyum375ltycg5/feed/PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 160,
+            "byteStart": 136
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiazi2boltifidlrxit57vnny55vockgtkb5mc2kziuxb7opm6k4mu",
+          "uri": "at://did:plc:dikivgvdeoiirdmwggu27qyr/app.bsky.feed.post/3mu6xqlhahk2p"
+        },
+        "root": {
+          "cid": "bafyreicuropn5oi6xmpy3udvzg4tenngo5j5lcqweex6bh62onzj4tb74a",
+          "uri": "at://did:plc:dikivgvdeoiirdmwggu27qyr/app.bsky.feed.post/3mu5qjzdtle2g"
+        }
+      },
+      "text": "Replying 🙂\n\nIMO, discouraging PowerShell usage within IT is not particularly helpful to the world writ large.\n\nBlueSky has feeds.  \n\nbsky.app/profile/did:...\n\nWhen people dunk on PowerShell, we tend to see it."
+    },
+    "cid": "bafyreigxguu5muaybelnimpnmifa6bg42jpa53mbnjglxjhbwquo7lwifm"
+  }
+}
