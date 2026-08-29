@@ -1,0 +1,75 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788034754169606,
+  "kind": "commit",
+  "commit": {
+    "rev": "3muap67fwk62f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3muap67hbxs2i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-29T20:19:13.664Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "YouTube video by Franchesca Ramsey",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidika66rj5d56lpbqyh6hyzf6zv5g267uyn4lqxhepolfonh2tdpe"
+            },
+            "mimeType": "image/jpeg",
+            "size": 64757
+          },
+          "title": "The Ultimate \"Leopards Ate My Face\" Rendition!",
+          "uri": "https://youtu.be/8QGy9D_c1pY?si=9Gzi_PV_IwXnQ-FM"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://youtu.be/8QGy9D_c1pY?si=9Gzi_PV_IwXnQ-FM"
+            }
+          ],
+          "index": {
+            "byteEnd": 134,
+            "byteStart": 110
+          }
+        },
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:xlmrukq2v2ylprs6lvlkuxvs"
+            }
+          ],
+          "index": {
+            "byteEnd": 166,
+            "byteStart": 142
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.theguardian.com/us-news/2026/aug/29/milo-yiannopoulos-deported-us-to-uk"
+            }
+          ],
+          "index": {
+            "byteEnd": 233,
+            "byteStart": 198
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Every time the Leopard Face Eating party eats another one of its own, this wonderful ditty plays in my head:\n\nyoutu.be/8QGy9D_c1pY?...\nThanks @chescaleigh.bsky.social for this modern anthem!\n\nRe: \n\nwww.theguardian.com/us-news/2026..."
+    },
+    "cid": "bafyreifi76mihbezgixrd24grveo3gadry6fh4lw4owo36kld3l5xbhwzu"
+  }
+}
