@@ -1,0 +1,56 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1787976976016335,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mu6zec55rx2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mu6ze7yfq22m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-29T04:16:13.496Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://matrix.poshweb.org/matrix/svg/"
+            }
+          ],
+          "index": {
+            "byteEnd": 227,
+            "byteStart": 197
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://matrix.poshweb.org/matrix/css/compatible/"
+            }
+          ],
+          "index": {
+            "byteEnd": 263,
+            "byteStart": 229
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiagmp5mnnswdh7djt6usib6ffr6hizgeazrl2d7r3uwbbd6le7lsm",
+          "uri": "at://did:plc:fc7xy5cgi5556d7uhwtebaj2/app.bsky.feed.post/3mu6yywcneu24"
+        },
+        "root": {
+          "cid": "bafyreicyldelzr7x3fj7ex2qgekh7qibt4mcj3jcjlplufl562dwkjwk5u",
+          "uri": "at://did:plc:fc7xy5cgi5556d7uhwtebaj2/app.bsky.feed.post/3mu6ulufyue24"
+        }
+      },
+      "text": "Awesomesauce!\n\nPowerShell + CSS is a really potent combo btw.\n\nBeen geeking out on this myself a lot this month, when I realized CSS matrix/matrix3d had a DotNet equivalent.\n\nSome of the results:\n\nmatrix.poshweb.org/matrix/svg/\n\nmatrix.poshweb.org/matrix/css/c..."
+    },
+    "cid": "bafyreibdjbv6xb4nnz3z7cxntgvrjthaxzta4o2nfobgm7ex3d3jnfzvay"
+  }
+}
