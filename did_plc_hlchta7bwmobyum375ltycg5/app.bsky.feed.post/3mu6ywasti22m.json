@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1787976507063412,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mu6ywcyjsm2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mu6ywasti22m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-29T04:08:24.601Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigpsj3mynlepuk64bzyvpto6cysjhdgd3q4atu3ys4gmfpqbaco3e",
+          "uri": "at://did:plc:o27o7ntm5kmjjx65hmsuwukb/app.bsky.feed.post/3mu6mnfmo4c23"
+        },
+        "root": {
+          "cid": "bafyreigksyvzhk6q2c7safcnj6vckkfr3wrkzzc2xprlc2f76bzv4kvbty",
+          "uri": "at://did:plc:o27o7ntm5kmjjx65hmsuwukb/app.bsky.feed.post/3mu6m63ospc23"
+        }
+      },
+      "text": "PowerShell on Linux can be fun AF once you've written a few scripts that parse various text file formats into objects.\n\nDo it right once, and no more AWKwardness.\n\nPowerShell + jq and PowerShell + fq are pretty potent combos.\n\nPlus, PowerShell's _way_ faster on Linux."
+    },
+    "cid": "bafyreifvkr7vfxvfaajcik62ud45ni2y6xc7ptnm3idl2cj33fdpsj2elm"
+  }
+}
