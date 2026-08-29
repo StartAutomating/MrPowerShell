@@ -65,8 +65,8 @@ ${ghStats.dev} |
                 $_.Node.SetAttribute("class", "foreground-fill foreground-stroke")
             }
 
-${ghStats.dev}.svg.circle |
-    ? Class -eq 'ring-progress' | 
+${ghStats.dev}.svg |
+    ? Class -match '^ring' | 
         % {
             $_.Class += ' foreground-stroke'
         }
