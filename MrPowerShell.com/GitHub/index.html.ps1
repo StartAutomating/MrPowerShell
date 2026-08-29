@@ -55,7 +55,15 @@ $postsAboutRepos =
 
 
 ${ghStats.dev} = Invoke-RestMethod https://ghstats.dev/api/card?username=$GitHubUserName
-${ghStats.dev}.svg.SetAttribute("class", "foreground-fill foreground-stroke")
+
+${ghStats.dev} | 
+    Select-Xml //* | 
+        Where-Object {
+            $_.Node.LocalName -eq 'svg'
+        } |
+            ForEach-Object {
+                $_.Node.SetAttribute("class", "foreground-fill foreground-stroke")
+            }
 ${ghStats.dev}.OuterXml
 
 
