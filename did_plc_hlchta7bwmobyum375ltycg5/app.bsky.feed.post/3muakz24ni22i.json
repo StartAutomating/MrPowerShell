@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788030286607000,
+  "kind": "commit",
+  "commit": {
+    "rev": "3muakz2pszf24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3muakz24ni22i",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-29T19:04:45.33Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Ex-Breitbart editor has vocally supported immediate deportations for anyone who can’t prove US residency",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreift3rk6djzzdhfacjp234ddqoaqckkxm4kxgu4udl6bepue3totkq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 191397
+          },
+          "title": "Far-right media provocateur Milo Yiannopoulos deported by ICE from US to UK",
+          "uri": "https://www.theguardian.com/us-news/2026/aug/29/milo-yiannopoulos-deported-us-to-uk"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.theguardian.com/us-news/2026/aug/29/milo-yiannopoulos-deported-us-to-uk"
+            }
+          ],
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 34
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Today, in \"Leopards Ate My Face\"\n\nwww.theguardian.com/us-news/2026..."
+    },
+    "cid": "bafyreibt5wqbp7d2x5laxoqvvfy566gwlkertxlpqvzsvrbgomzsfxc6bu"
+  }
+}
