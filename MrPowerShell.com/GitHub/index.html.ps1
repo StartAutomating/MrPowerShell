@@ -64,8 +64,14 @@ ${ghStats.dev} |
             ForEach-Object {
                 $_.Node.SetAttribute("class", "foreground-fill foreground-stroke")
             }
-${ghStats.dev}.OuterXml
 
+${ghStats.dev}.svg.circle |
+    ? Class -eq 'ring-progress' | 
+        % {
+            $_.Class += ' foreground-stroke'
+        }
+
+${ghStats.dev}.OuterXml
 
 $markdown = @(
 
