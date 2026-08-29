@@ -53,6 +53,12 @@ $postsAboutRepos =
         }
     }
 
+
+${ghStats.dev} = Invoke-RestMethod https://ghstats.dev/api/card?username=$GitHubUserName
+${ghStats.dev}.svg.SetAttribute("class", "foreground-fill foreground-stroke")
+${ghStats.dev}.OuterXml
+
+
 $markdown = @(
 
 "# My GitHub Repositories"
