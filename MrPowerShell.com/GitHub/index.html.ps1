@@ -123,11 +123,14 @@ foreach ($key in $script:CachedRepoList.Keys) {
 
 "<style>"
 ".stats-grid { display: grid; place-items: center; }"
+".center-text { text-align: center; }"
 "</style>"
 
 "<section class='stats-grid'>"
 $gitHubStats.OuterXml
 "</section>"
+
+"<h3 class='center-text'>Repos</h3>"
 
 "<style>"
 ".github-repos { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5em; margin: 2.5em}"
