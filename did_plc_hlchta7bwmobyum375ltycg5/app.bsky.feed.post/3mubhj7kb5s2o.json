@@ -1,0 +1,111 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788060896110925,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mubhjc75ve2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mubhj7kb5s2o",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-30T03:34:52.667Z",
+      "embed": {
+        "$type": "app.bsky.embed.video",
+        "alt": "Roxxcart 2050 theme from Loki Season 1\n\nNow at least 20% more epic",
+        "aspectRatio": {
+          "height": 400,
+          "width": 400
+        },
+        "presentation": "default",
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreic56evyd4bfnu2vxnjmr546kwsvtwqaqyaf7z3ph3z763dralb3di"
+          },
+          "mimeType": "video/mp4",
+          "size": 3675069
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Remix"
+            }
+          ],
+          "index": {
+            "byteEnd": 45,
+            "byteStart": 39
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Music"
+            }
+          ],
+          "index": {
+            "byteEnd": 52,
+            "byteStart": 46
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 69,
+            "byteStart": 58
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ffmpeg😎"
+            }
+          ],
+          "index": {
+            "byteEnd": 83,
+            "byteStart": 72
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/RoughDraft"
+            }
+          ],
+          "index": {
+            "byteEnd": 178,
+            "byteStart": 152
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Loki"
+            }
+          ],
+          "index": {
+            "byteEnd": 185,
+            "byteStart": 180
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "About an hour ago I figured out how to #Remix #Music with #PowerShell & #ffmpeg😎\n\nSample + Filter.\n\nRinse & Repeat.\n\nGot a module for that already:\n\ngithub.com/StartAutomat...\n\n#Loki Roxxcart 2050 Epic Sample Video\n\n😎😎"
+    },
+    "cid": "bafyreihvpw423xjmbpunsuni2utbwtduavjit7ixrvsu6uisxxdnjck7ra"
+  }
+}
