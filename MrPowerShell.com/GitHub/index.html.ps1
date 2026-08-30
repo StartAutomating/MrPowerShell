@@ -71,7 +71,12 @@ ${ghStats.dev} |
 ) |
     ? Class -match 'ring' | 
         % {
-            $_.Class += ' foreground-stroke'
+            $_.Class += if ($_.LocalName -eq 'text') {
+                ' foreground-fill'
+            } else {
+                ' foreground-stroke'
+            }
+            
         }
 
 ${ghStats.dev}.OuterXml
