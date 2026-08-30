@@ -1,0 +1,46 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788045460198997,
+  "kind": "commit",
+  "commit": {
+    "rev": "3muaz5bl4sf2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3muaz56t2p22m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-08-29T23:17:36.868Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Frank Drebin sees how Script Kiddies are using AI and not caring about OpSec",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreib44rcredqz3yzcepmiuvryxtzktqnz22rmjerqj2ce5srustg4oq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 38913
+          },
+          "title": "Naked Gun: Frank Drebin's Classic Facepalm",
+          "uri": "https://static.klipy.com/ii/c3a19a0b747a76e98651f2b9a3cca5ff/cb/d9/4ndTy7JC.gif?hh=232&ww=350&mp4=Pfm3RxnNrb7oJGan&webm=JxgvYRPHQrttBf4CvQ"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidjxxi3mvi76qq5vie7idcpcs5ggnerrltkg62dmsamu7djejqnzi",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3muaybtccks2f"
+        },
+        "root": {
+          "cid": "bafyreiaifv5e2pmxjde5kybvkr7mgwgbl23hlsztqf7lmw6rdikliut4sm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3muaqloni522i"
+        }
+      },
+      "text": "Yeah.\n\nThat's an incredibly dumb way to end up in jail."
+    },
+    "cid": "bafyreiag6xqx4zq5jcg2nqsj3sepopeaefvcchnrhgi67jukg7lliychoi"
+  }
+}
