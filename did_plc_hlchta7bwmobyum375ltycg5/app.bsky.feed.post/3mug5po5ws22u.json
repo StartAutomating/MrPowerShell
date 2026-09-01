@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788222176902107,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mug5ptpsog25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mug5po5ws22u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-01T00:22:50.593Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "Had lyrics, dropped down songs from my collection, handled ~50,000 files without blinking.\n\nAnd because it was built as a Win8 app, nobody ever saw it :-(\n\nTheir marketplace at the time showed \"New Apps\" only if they had more than 10,000 downloads 🤦.\n\nAnd nobody cared about Windows 8 apps, like at all.\n\nGreat product.\n\nHorrible targeting decision on my part and bad timing, too.",
+            "aspectRatio": {
+              "height": 768,
+              "width": 1366
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiatpxsvhpfqjdnrocd7beeptisjzpoq6566yi72zvgjp266fodqf4"
+              },
+              "mimeType": "image/jpeg",
+              "size": 323634
+            }
+          }
+        ]
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib43ay5porwczhaqoftdqzigkrevbcrl5oafxncg3llarmzrdxv2a",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mug56d7l7k2j"
+        },
+        "root": {
+          "cid": "bafyreid7i2tzzpbkwemhbrpwye5y5mgaw6qphkk5uvzxc64d2xphsbw6x4",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mueum23n5s24"
+        }
+      },
+      "text": "Lol yeah, me too!\n\nDo not get me started on Win8.\n\nSad part for me is that I spent 4 months on an awesome music player... and released it as a Win8 app.\n\nI'm so glad Team \"New Start Menu is Awful\" won and Windows 10 went back."
+    },
+    "cid": "bafyreicnpb7mye7h4m35ubwlbrldvh2hiutba5sivpgkye3odlx4tncrba"
+  }
+}
