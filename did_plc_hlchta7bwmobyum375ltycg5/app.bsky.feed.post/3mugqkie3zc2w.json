@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788242397761907,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mugqkhrheh2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mugqkie3zc2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-01T05:59:57.825Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "YouTube video by Dave's Garage",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiglpl2fakaq54xp3xtkke4nbhm5y6466fyw4mkgj4burwhqekvsty"
+            },
+            "mimeType": "image/jpeg",
+            "size": 50555
+          },
+          "title": "Reliable Isn’t Always Better: TCP vs UDP",
+          "uri": "https://youtu.be/DSA4VFdqELg?is=Uz8yN8zE8bu-JBcv"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://youtu.be/DSA4VFdqELg?is=Uz8yN8zE8bu-JBcv"
+            }
+          ],
+          "index": {
+            "byteEnd": 102,
+            "byteStart": 78
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Excellent breakdown on TCP vs UDP vs Quic by David Plummer on Dave's Garage:\n\nyoutu.be/DSA4VFdqELg?..."
+    },
+    "cid": "bafyreid7afg7tvoupkgvetq2iyufcj3ufragh6i5apozqpx4vmvrljrgq4"
+  }
+}
