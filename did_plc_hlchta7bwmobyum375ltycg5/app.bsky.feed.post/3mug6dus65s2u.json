@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788222852017601,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mug6dxvugd2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mug6dus65s2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-01T00:34:08.636Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihik5qs5q7ohu2opdkp2vzv2ozubnorny24fc5i23lqkhyuroqycu",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mug52ihjx22j"
+        },
+        "root": {
+          "cid": "bafyreid7i2tzzpbkwemhbrpwye5y5mgaw6qphkk5uvzxc64d2xphsbw6x4",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mueum23n5s24"
+        }
+      },
+      "text": "Hilarious side-note here:\n\nWas flipping back and forth between this thread and writing an abstract for a talk about how to guardrail AI.\n\nAI safety mechanisms should be more standardized and commonplace.\n\nIt's the unsecure malicious AI we're all most afraid of.\n\nLet's bolt it down."
+    },
+    "cid": "bafyreic7mpb52stqfqfsktedjhkysoaklvf5frpmmw4pwurq4ivkv6hnti"
+  }
+}
