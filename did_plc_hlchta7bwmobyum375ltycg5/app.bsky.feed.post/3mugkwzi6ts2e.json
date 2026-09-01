@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788236380066131,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mugkx53sqw2b",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mugkwzi6ts2e",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-01T04:19:35.988Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif5rzwb7myf5hbgnk72w42bewldqh2stxga3myemtlpr5w62znnuq",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mugkeazdts2g"
+        },
+        "root": {
+          "cid": "bafyreihymvinnl3kuuks5jkxapxnzmnuv6pm2wtg5cjntyoiqnbdkizqxu",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mufuraoaus2x"
+        }
+      },
+      "text": "This is now the perfect time to mention:\n\nYou can \"spread\" types\n\n~~~PowerShell\n[Collections.Generic.Dictionary[\n    string,\n    [Collections.Generic.Dictionary[\n        string,\n        object[]   \n    ]]\n]]::new(\n    [StringComparer]::OrdinalIgnoreCase\n)\n~~~\n\nMuch cleaner."
+    },
+    "cid": "bafyreiacocoaoa776g45sciphikprod7xd5tgb75hlkey3an6ddr5vfmkq"
+  }
+}
