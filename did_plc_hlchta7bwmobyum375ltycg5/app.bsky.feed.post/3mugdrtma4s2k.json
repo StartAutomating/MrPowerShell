@@ -1,0 +1,35 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788228692040841,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mugdrzctl22e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mugdrtma4s2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-01T02:11:25.864Z",
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:7d7hkphd43rwukszjzxya3yh"
+            }
+          ],
+          "index": {
+            "byteEnd": 21,
+            "byteStart": 5
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "🤔 @jtp.bsky.social it just occurred to me that the benefit of some \"on the box\" llm on Linux could actually be pretty huge.\n\nSo much knowledge is buried in Man pages, and having a little local open model trained on it would probably help adoption.\n\n🤷 Now I've said it.  How do you think?"
+    },
+    "cid": "bafyreiepof44yqzgzbcp2o3r3ljb2niro5cvujnlz6t7kkkbjhht7o5tqy"
+  }
+}
