@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788232762746623,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mughldil7e25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mughla5rhs2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-01T03:19:19.108Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihymvinnl3kuuks5jkxapxnzmnuv6pm2wtg5cjntyoiqnbdkizqxu",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mufuraoaus2x"
+        },
+        "root": {
+          "cid": "bafyreihymvinnl3kuuks5jkxapxnzmnuv6pm2wtg5cjntyoiqnbdkizqxu",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mufuraoaus2x"
+        }
+      },
+      "text": "I agree in some corner cases but wouldn't hold my breath.\n\nIn the common case there are easy enough ways around (you've identified one of them)\n\nWhich scenarios are you talking about?  What _exactly_ are you hoping to see?"
+    },
+    "cid": "bafyreifiiiixihaebok4v75sen2vpqjhlajrfdoe56sisea6ygem5rxrwi"
+  }
+}
