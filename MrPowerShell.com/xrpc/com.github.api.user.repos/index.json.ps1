@@ -22,17 +22,20 @@ if (-not $script:Cache) {
 
 
 $page = 1
-$reposUrl = "https://api.github.com/$UserName/repos?per_page=100&page=$page"
+$reposUrl = "https://api.github.com/users/$UserName/repos?per_page=100&page=$page"
+
+$repoPages = @($reposUrl)
 
 if (-not $script:Cache[$reposUrl]) {
     $script:Cache[$reposUrl] = @(Invoke-RestMethod -Uri $reposUrl)
         
     while ($script:Cache[$reposUrl].Count -eq 100) {
         $page++
-        $reposUrl = "https://api.github.com/$UserName/repos?per_page=100&page=$page"
+        $reposUrl = "https://api.github.com/users/$UserName/repos?per_page=100&page=$page"
         $script:Cache[$reposUrl] = @(Invoke-RestMethod -Uri $reposUrl)
+        $repoPages += $reposUrl        
     }    
 }
 
-$script:Cache[$reposUrl] |
+$script:Cache[$repoPages] |
     Add-Member NoteProperty '$type' 'com.github.api.user.repo' -Force -PassThru
