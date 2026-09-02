@@ -29,6 +29,7 @@ if (-not $site.PagesByUrl) {
 $pagesByUrl = $site.PagesByUrl
 
 :nextFile foreach ($file in $allFiles) {
+    try {    
     if ($Site -and $Site.Exclude) {
         $included = $false
         :exclude do {
@@ -422,6 +423,10 @@ $pagesByUrl = $site.PagesByUrl
     #endregion Output
 
     Pop-Location
+    } catch {
+        Write-Warning "Error Building $file"         
+        throw $_
+    }
 }
 
 Write-Progress -Id $progressId -Completed -Status "Building Pages" "$($file.Name) " 
