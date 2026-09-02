@@ -1,0 +1,111 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788309734340372,
+  "kind": "commit",
+  "commit": {
+    "rev": "3muipbaskjd2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3muipb4mw522c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-02T00:42:09.276Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Remixing Music with RoughDraft and FFMpeg",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigftyt3zzrhmrwre57li2hwjsvf2uebijankdkgc7e72va2vvs6qm"
+            },
+            "mimeType": "image/jpeg",
+            "size": 372094
+          },
+          "title": "Remix Music with PowerShell - PowerShell Pocket Blog",
+          "uri": "https://pckt.blog/b/posh/remix-music-with-powershell-re80uz7"
+        }
+      },
+      "facets": [
+        {
+          "$type": "app.bsky.richtext.facet",
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#mention",
+              "did": "did:plc:revjuqmkvrw6fnkxppqtszpv"
+            }
+          ],
+          "index": {
+            "byteEnd": 32,
+            "byteStart": 22
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Remix"
+            }
+          ],
+          "index": {
+            "byteEnd": 68,
+            "byteStart": 62
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 83,
+            "byteStart": 72
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ffmpeg"
+            }
+          ],
+          "index": {
+            "byteEnd": 96,
+            "byteStart": 89
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://pckt.blog/b/posh/remix-music-with-powershell-re80uz7"
+            }
+          ],
+          "index": {
+            "byteEnd": 124,
+            "byteStart": 99
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.reddit.com/r/PowerShell/comments/1w4ucqf/remixing_music_with_roughdraft_and_powershell/"
+            }
+          ],
+          "index": {
+            "byteEnd": 170,
+            "byteStart": 140
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Just finished a quick @pckt.blog / Reddit post about making a #Remix in #PowerShell with #ffmpeg:\n\npckt.blog/b/posh/remix...\n\nReddit Post:\n\nwww.reddit.com/r/PowerShell..."
+    },
+    "cid": "bafyreiahapd7gu6plaepbhexegyxiqnblairhwe42qzdgjuhjvxhwce64u"
+  }
+}

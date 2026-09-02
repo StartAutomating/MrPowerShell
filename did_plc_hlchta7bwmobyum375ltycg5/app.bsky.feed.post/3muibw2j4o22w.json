@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788295398360097,
+  "kind": "commit",
+  "commit": {
+    "rev": "3muibvzgzkr2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3muibw2j4o22w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-01T20:43:19.313Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid2pqto6z4j73cipoanboozumrkru73fwrx5on7hvetztxy3qebxu",
+          "uri": "at://did:plc:vcf3pyoq4apuusqs2kgxinr2/app.bsky.feed.post/3muh3hpmcvs2t"
+        },
+        "root": {
+          "cid": "bafyreibfssd4gmiqn4gqu4pfj7ertwhvjxzi6ar5gwgu7cmv6ulxrxn5ea",
+          "uri": "at://did:plc:vcf3pyoq4apuusqs2kgxinr2/app.bsky.feed.post/3muh3hplqe22t"
+        }
+      },
+      "text": "💯🙏 being more understandable was one of the major goals of PowerShell.\n\nMight I suggest starting to use logical aliases or wrapper functions around especially inscrutable Linux commands?\n\nIt can make a world of difference."
+    },
+    "cid": "bafyreig4q3ctqlklt3kfe5kih7nvyhwzek4ausks4zqkhxksazcuifcm4q"
+  }
+}

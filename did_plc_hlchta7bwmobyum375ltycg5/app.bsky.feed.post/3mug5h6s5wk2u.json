@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788221891499409,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mug5hdt72e2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mug5h6s5wk2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-01T00:18:06.043Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihik5qs5q7ohu2opdkp2vzv2ozubnorny24fc5i23lqkhyuroqycu",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mug52ihjx22j"
+        },
+        "root": {
+          "cid": "bafyreid7i2tzzpbkwemhbrpwye5y5mgaw6qphkk5uvzxc64d2xphsbw6x4",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mueum23n5s24"
+        }
+      },
+      "text": "Yeah, and that sort of research is probably part of why this sort of button showed up.\n\nIt's just people arguing with people.\n\nThis button is a side the team \"let's not everywhere\" is gaining ground.\n\nI 🤞hope there to be many more.\n\n🫡will continue to advocate where I can."
+    },
+    "cid": "bafyreie5n7jr2efae244jbpzhausokiyk7kdebkb5lttobjjszw246icxq"
+  }
+}

@@ -54,32 +54,48 @@ $postsAboutRepos =
     }
 
 
-${ghStats.dev} = Invoke-RestMethod https://ghstats.dev/api/card?username=$GitHubUserName
+$gitHubStats = Invoke-RestMethod https://ghstats.dev/api/card?username=$GitHubUserName
 
-${ghStats.dev} | 
+$gitHubStats | 
     Select-Xml //* | 
-        Where-Object {
-            $_.Node.LocalName -eq 'svg'
-        } |
-            ForEach-Object {
-                $_.Node.SetAttribute("class", "foreground-fill foreground-stroke")
+        ForEach-Object {
+            $node =$_.Node
+            switch ($node.LocalName) {
+                circle {
+                    if ($node.Class) {
+                        $node.Class = "foreground-stroke $($node.Class)"
+                    } else {
+                        $node.SetAttribute("class", "foreground-stroke")    
+                    }
+                }
+                text {
+                    if ($node.Class) {
+                        $node.Class = "foreground-fill $($node.Class)"
+                    } else {
+                        $node.SetAttribute("class", "foreground-fill")    
+                    }
+                }
+                path {
+                    if ($node.Class) {
+                        $node.Class = "foreground-fill foreground-stroke $($node.Class)"
+                    } else {
+                        $node.SetAttribute("class", "foreground-fill foreground-stroke")    
+                    }
+                }
+                svg {
+                    $node.SetAttribute("class", "foreground-fill foreground-stroke")
+                }
+                style {
+                    $node.InnerText = $node.InnerText -replace 'fill:.+?;'
+                }
             }
-
-@(
-    ${ghStats.dev}.svg.circle
-    ${ghStats.dev}.svg.text
-) |
-    ? Class -match 'ring' | 
-        % {
-            $_.Class += if ($_.LocalName -eq 'text') {
-                ' foreground-fill'
-            } else {
-                ' foreground-stroke'
-            }
-            
         }
 
-${ghStats.dev}.OuterXml
+$gitHubStats.svg.Class += " github-stats"
+
+"<style>"
+".github-stats { text-align: center}"
+"</style>"
 
 $markdown = @(
 
@@ -104,11 +120,25 @@ foreach ($key in $script:CachedRepoList.Keys) {
 ) -join [Environment]::NewLine
 
 (ConvertFrom-Markdown -InputObject $markdown).Html
+
+"<style>"
+".stats-grid { display: grid; place-items: center; }"
+".center-text { text-align: center; }"
+"</style>"
+
+"<section class='stats-grid'>"
+$gitHubStats.OuterXml
+"</section>"
+
+"<h3 class='center-text'>Repos</h3>"
+
 "<style>"
 ".github-repos { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5em; margin: 2.5em}"
 ".github-repo-sorter { font-size: 1.5em; text-align: center;}"
 ".repo-thumbnail { max-width: 100%; height: auto; }"
 "</style>"
+
+
 
 "<div class='github-repo-sorter'>"
 "Sort by:"

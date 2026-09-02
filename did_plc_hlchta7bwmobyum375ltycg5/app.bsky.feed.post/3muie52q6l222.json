@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788297787362490,
+  "kind": "commit",
+  "commit": {
+    "rev": "3muie56y6xz2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3muie52q6l222",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-01T21:23:01.908Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Prolific Programmer and Polymath.  Ex-MSFT, Ex-PowerShell Team.  Helped build PowerShell and have taken it to new frontiers for the past 20 years.\n\n...",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreic56isspatpm3zkrnpiksxbn6346tyumagnsdvcuktvmpaqvytufq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 17050
+          },
+          "title": "James Brundage's Speaker Profile",
+          "uri": "https://sessionize.com/james-brundage/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://sessionize.com/james-brundage/"
+            }
+          ],
+          "index": {
+            "byteEnd": 289,
+            "byteStart": 259
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihbg6zyvqz6rjex7abhvn54kwdghizn3egqixcu5t7bcjbfy6nhpa",
+          "uri": "at://did:plc:76n5af4lu74itlshkbvbynyo/app.bsky.feed.post/3muhc36ox3s2i"
+        },
+        "root": {
+          "cid": "bafyreibbm7wpi4vy7s6dyqv2x323buyhixpfkvrrtkvo72epxdopbvltca",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mugj7upnqs2e"
+        }
+      },
+      "text": "I try not to spoil too much.\n\nEach year's submissions carry forward the messages and discoveries of the previous year.\n\nThis year has been about tearing down walls between PowerShell and Web Dev, so, lots of that.\n\nMade all my sessions public on my profile:\n\nsessionize.com/james-brunda..."
+    },
+    "cid": "bafyreicroaxhdgm35xe2j642va4qwyuf7omc6a5zgtt3cexcmfbl5ukt64"
+  }
+}
