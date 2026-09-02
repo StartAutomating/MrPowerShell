@@ -37,5 +37,9 @@ if (-not $script:Cache[$reposUrl]) {
     }    
 }
 
-$script:Cache[$repoPages] |
-    Add-Member NoteProperty '$type' 'com.github.api.user.repo' -Force -PassThru
+foreach ($repoUrl in $repoPages) {
+    $script:Cache[$repoUrl] |
+        Add-Member NoteProperty '$type' 'com.github.api.user.repo' -Force -PassThru
+}
+
+
