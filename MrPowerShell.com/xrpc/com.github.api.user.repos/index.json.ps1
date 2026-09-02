@@ -5,9 +5,9 @@
     Gets the repos for a user
 #>
 param(
-# The GitHub organization.
+# The GitHub user name.
 # This should default to the repository owner.
-[string]$Organization = $(
+[string]$UserName = $(
     if ($env:GITHUB_REPOSITORY_OWNER) {
         $env:GITHUB_REPOSITORY_OWNER
     } else {
