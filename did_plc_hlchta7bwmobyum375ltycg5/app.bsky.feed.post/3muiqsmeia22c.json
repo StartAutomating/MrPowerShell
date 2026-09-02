@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788311394349362,
+  "kind": "commit",
+  "commit": {
+    "rev": "3muiqsqdep22a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3muiqsmeia22c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-02T01:09:49.945Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidqm2wiqqjhagiyqtuovakmjcen7wbz4ppnpirppsi247j6lohbvm",
+          "uri": "at://did:plc:wtsercul64odhwht7z5g54et/app.bsky.feed.post/3muipfjy5cc2c"
+        },
+        "root": {
+          "cid": "bafyreibl4tvcunpaai4vz6ot43bui3wytg6bgwpbk2ykqlorogfe44oavq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3muijac4wdk2c"
+        }
+      },
+      "text": "Yeah the first couple of days were event log dives.  Consistently nothing, which is its own clue. Chased a couple of ghosts that way for a bit, didn't find anything worthwhile.\n\nVarious environmental factors made me go back to the \"unlucky dust mite\" hyposthesis."
+    },
+    "cid": "bafyreigprj64jlpd66gbwbzo5zfxr27lvxvyg5fq5bvb6wxzv5ve3tnvme"
+  }
+}
