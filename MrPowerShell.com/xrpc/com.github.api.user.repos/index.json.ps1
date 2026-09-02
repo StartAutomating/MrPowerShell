@@ -21,8 +21,8 @@ if (-not $script:Cache) {
 }
 
 
-$page = 1
-$reposUrl = "https://api.github.com/users/$UserName/repos?per_page=100&page=$page"
+$pageNumber = 1
+$reposUrl = "https://api.github.com/users/$UserName/repos?per_page=100&page=$pageNumber"
 
 $repoPages = @($reposUrl)
 
@@ -30,10 +30,10 @@ if (-not $script:Cache[$reposUrl]) {
     $script:Cache[$reposUrl] = @(Invoke-RestMethod -Uri $reposUrl)
         
     while ($script:Cache[$reposUrl].Count -eq 100) {
-        $page++
-        $reposUrl = "https://api.github.com/users/$UserName/repos?per_page=100&page=$page"
+        $pageNumber++
+        $reposUrl = "https://api.github.com/users/$UserName/repos?per_page=100&page=$pageNumber"
         $script:Cache[$reposUrl] = @(Invoke-RestMethod -Uri $reposUrl)
-        $repoPages += $reposUrl        
+        $repoPages += $reposUrl
     }    
 }
 
