@@ -29,7 +29,7 @@ $starsUrls = @($starredUrl)
 if (-not $script:Cache[$starredUrl]) {
     $script:Cache[$starredUrl] = @(Invoke-RestMethod -Uri $starredUrl)
         
-    while ($script:Cache[$starsUrl].Count -eq 100) {
+    while ($script:Cache[$starredUrl].Count -eq 100) {
         $pageNumber++
         $starredUrl = "https://api.github.com/users/$UserName/starred?per_page=100&page=$pageNumber"
         $script:Cache[$starredUrl] = @(Invoke-RestMethod -Uri $starredUrl)
