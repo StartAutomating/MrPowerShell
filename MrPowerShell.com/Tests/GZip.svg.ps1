@@ -11,6 +11,8 @@ $svg = @'
 </svg>
 '@
 
+$svg
+
 [IO.File]::WriteAllBytes(
     "$psScriptRoot/GZip.svgz",
     (Compress-Zippy -Text $svg -Algorithm GZip -AsByteStream)
