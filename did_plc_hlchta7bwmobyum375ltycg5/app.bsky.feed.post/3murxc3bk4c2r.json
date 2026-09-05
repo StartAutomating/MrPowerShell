@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788627589214395,
+  "kind": "commit",
+  "commit": {
+    "rev": "3murxc3b2l62z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3murxc3bk4c2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-05T16:59:48.983Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiexbylja76yvl3jdbm63psoqksnu4nibwljc42vbbjrbk2or3isxq",
+          "uri": "at://did:plc:pticgtirt7xvgnuzvzfncie3/app.bsky.feed.post/3muqsyhv5522v"
+        },
+        "root": {
+          "cid": "bafyreifxxbwwul7gwcddjhi7bm7bqkslnoadsitlfswzgoif6u7qeux7qi",
+          "uri": "at://did:plc:vunjb77r7vp5sswd7qbo5o6o/app.bsky.feed.post/3mupezkfhvs2g"
+        }
+      },
+      "text": "This isn't BigTech.  It's hackers.\n\nA number of the campaigns have been linked to North Korean hackers.\n\nSo 🤷 rein in North Korean hackers.\n\n( Good luck with that, industry has been trying for decades )"
+    },
+    "cid": "bafyreicrg6h5kau3jy35yscuwyiuhypggr7rholora73lixaodl6lf2y2u"
+  }
+}
