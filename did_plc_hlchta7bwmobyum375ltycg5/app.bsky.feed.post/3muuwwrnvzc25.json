@@ -1,0 +1,34 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788730295401294,
+  "kind": "commit",
+  "commit": {
+    "rev": "3muuwwx47gr24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3muuwwrnvzc25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-06T21:31:29.026Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 17,
+            "byteStart": 6
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Handy #PowerShell one-liner of the day:\n\nAlphabetize whatever is on the clipboard:\n\n~~~PowerShell\n@(@(Get-Clipboard) -split '(?>\\r\\n|\\n)' | Sort-Object) -join [Environment]::NewLine | Set-Clipboard\n~~~"
+    },
+    "cid": "bafyreibwh7fydbywbnpygadgryy7xazywrttdxjvvb4velizx4ldj6ds5i"
+  }
+}
