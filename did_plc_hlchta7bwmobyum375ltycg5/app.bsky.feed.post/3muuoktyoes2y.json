@@ -1,0 +1,52 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788721298865753,
+  "kind": "commit",
+  "commit": {
+    "rev": "3muuoktpl732e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3muuoktyoes2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-06T19:01:38.886Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Matrix in HTML.",
+          "title": "html",
+          "uri": "https://matrix.poshweb.org/matrix/html/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://matrix.poshweb.org/matrix/html/"
+            }
+          ],
+          "index": {
+            "byteEnd": 230,
+            "byteStart": 199
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifsfmyjjcye75k25publzq7evmv5htes7vyov2ircyfz6diy4f2ky",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3muuodyri2c2w"
+        },
+        "root": {
+          "cid": "bafyreiaoak2xo3nqdwz6umwvk6sshb74ypf7mjwcsvpbshjzylivmki3ia",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3musc577z3c2l"
+        }
+      },
+      "text": "Lol yeah most people run for the hills when you mention matrix math.  the website has plenty of examples.\n\nIncluding a few that will prove pretty helpful.\n\nCould be more mobile friendly though 😕\n\nmatrix.poshweb.org/matrix/html/\n\nThe news flash is : figured out how make perceived depth a one liner."
+    },
+    "cid": "bafyreiczi2h2y6hqn7nnxviu5zmb54wwtevpo2hinrb4dl3jteyughpilm"
+  }
+}
