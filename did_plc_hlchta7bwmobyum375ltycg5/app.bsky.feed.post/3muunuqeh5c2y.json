@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788720557904059,
+  "kind": "commit",
+  "commit": {
+    "rev": "3muunuqesvm24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3muunuqeh5c2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-06T18:49:16.881Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigdr3z3icqbkjf66l5phbddwuinfizrmwf3blmirsxmfbqsrdhm7q",
+          "uri": "at://did:plc:r6jnolgs7ktcqfrnyskdl727/app.bsky.feed.post/3muu6eqyzmc23"
+        },
+        "root": {
+          "cid": "bafyreigdr3z3icqbkjf66l5phbddwuinfizrmwf3blmirsxmfbqsrdhm7q",
+          "uri": "at://did:plc:r6jnolgs7ktcqfrnyskdl727/app.bsky.feed.post/3muu6eqyzmc23"
+        }
+      },
+      "text": "Nifty joke, but the differences wouldn't actually fit into a post.\n\nShortest version is:\n\nCommand prompt has a very limited scripting language from the 80s.\n\nPowerShell has about every bell and whistle you can imagine ( and some you cannot )"
+    },
+    "cid": "bafyreiddcohdzsy3xmamhjvl6ddxfjkgy34rxfrdw3v5tyszbqf2m4iryy"
+  }
+}
