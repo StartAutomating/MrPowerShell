@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788892799279963,
+  "kind": "commit",
+  "commit": {
+    "rev": "3muzobxgxdu2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3muzobrk7ok2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-08T18:39:53.019Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibo25hcnvkl3zgb52orbianxnyjakrk4kimve6f65ok27t6rc2v44",
+          "uri": "at://did:plc:uloc6bgqlunyjpqh2odxrqar/app.bsky.feed.post/3muznyebft22c"
+        },
+        "root": {
+          "cid": "bafyreid7jc5bujtni6cveyux247v6vvjdk3tvmlzuagzsaxu5jp2rcxzoe",
+          "uri": "at://did:plc:jbeaa5kdaladzwq3r7f5xgwe/app.bsky.feed.post/3muyu6eefec2q"
+        }
+      },
+      "text": "Nifty link!  It's definitely missing a few though.\n\nOne of the real powers of PowerShell is that lambdas and named functions are interchangable.\n\n~~~PowerShell\n\n${ƛ} = {\"hello from a lamba\"}\n\n& ${ƛ} \n\n${function:hello} = ${ƛ}\n\nhello\n\n~~~\n\nWhole different beast than bash."
+    },
+    "cid": "bafyreifqupadeajy5vvh3bqwlvesbfybmutmf3jhxm6c2aa3qmxglk4fp4"
+  }
+}
