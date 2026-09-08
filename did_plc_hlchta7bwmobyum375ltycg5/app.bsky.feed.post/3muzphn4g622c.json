@@ -1,0 +1,62 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788894070886471,
+  "kind": "commit",
+  "commit": {
+    "rev": "3muzphtz7b32g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3muzphn4g622c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-08T19:01:03.44Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Did you ever want to browse thru PowerShell providers?\n\nWhy not make a small web app to do just that?\n\nIn this month's meeting, we'll be building a Provider Explorer Web Ap",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifandxrlvwmpttpnl7x7ebp54e7ntuf2iagi6i4ei5uqdtsqkdvdq"
+            },
+            "mimeType": "image/jpeg",
+            "size": 61788
+          },
+          "title": "Building a Provider Explorer, Wed, Sep 9, 2026, 6:00 PM   | Meetup",
+          "uri": "https://www.meetup.com/pacific-powershell-user-group/events/316472385/?utm_medium=referral&utm_campaign=announce_event&utm_source=link&utm_version=v2&member_id=194790023"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 15,
+            "byteStart": 4
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.meetup.com/pacific-powershell-user-group/events/316472385/?utm_medium=referral&utm_campaign=announce_event&utm_source=link&utm_version=v2&member_id=194790023"
+            }
+          ],
+          "index": {
+            "byteEnd": 215,
+            "byteStart": 185
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Hey #PowerShell people, want to build a provider explorer?\n\nTomorrow night @ 6:00 PM Pacific Time the Pacific PowerShell User Group will be building a Provider Explorer in PowerShell:\n\nwww.meetup.com/pacific-powe...\n\nWe'll start from scratch and make a cross-platform web app to explore providers."
+    },
+    "cid": "bafyreib2ikshlf7g3ww52bifp2ucufmkvwgj2lfn23nlquzmgq7jz7fcna"
+  }
+}
