@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788892602888229,
+  "kind": "commit",
+  "commit": {
+    "rev": "3muzo442wll2r",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3muzo3voufk2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-08T18:36:36.039Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreid7kbsr7ajezaq52ic4eywpzg6baptwbjdqqkiqevqng67u6if32i",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3muznypthmk2c"
+        },
+        "root": {
+          "cid": "bafyreid7jc5bujtni6cveyux247v6vvjdk3tvmlzuagzsaxu5jp2rcxzoe",
+          "uri": "at://did:plc:jbeaa5kdaladzwq3r7f5xgwe/app.bsky.feed.post/3muyu6eefec2q"
+        }
+      },
+      "text": "Some numerical perspective here:\n\nI've been coding since the 80s and know about a hundred programming languages.\n\nBruce knows a hundred more I've never even heard of.\n\nTruly one of the greats."
+    },
+    "cid": "bafyreiahglfdbqgvkvlw7zmxaj24oreopt555qw2e6po63fp5v6i547jqe"
+  }
+}
