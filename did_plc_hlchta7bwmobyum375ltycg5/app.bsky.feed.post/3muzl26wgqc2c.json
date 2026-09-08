@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788889325278092,
+  "kind": "commit",
+  "commit": {
+    "rev": "3muzl2eptqs2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3muzl26wgqc2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-08T17:41:57.39Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibrqlbb56f4b3hhncsgot5dvkxyfw73d5cczmxxk6r4j4zibpuex4",
+          "uri": "at://did:plc:uloc6bgqlunyjpqh2odxrqar/app.bsky.feed.post/3muyvfsifes2g"
+        },
+        "root": {
+          "cid": "bafyreid7jc5bujtni6cveyux247v6vvjdk3tvmlzuagzsaxu5jp2rcxzoe",
+          "uri": "at://did:plc:jbeaa5kdaladzwq3r7f5xgwe/app.bsky.feed.post/3muyu6eefec2q"
+        }
+      },
+      "text": "Yeah, Bash can get ugly, fast, and is somewhat logically stuck in the 70s.  It predates C++.\n\nLots of commands were optimized for keystroke count, not comprehension.\n\nPowerShell is a whole other beast though."
+    },
+    "cid": "bafyreigaymbcic2tv4c4vvnlk26bmw6e3nqf2ng4hbhaizs7srhrewpk3i"
+  }
+}
