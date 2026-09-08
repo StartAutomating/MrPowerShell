@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788893393374243,
+  "kind": "commit",
+  "commit": {
+    "rev": "3muzotnnmbh24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3muzotgqjfk2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-08T18:49:45.671Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Play Doom entirely from DNS records. (PowerShell 7+) - resumex/doom-over-dns",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreihs3ci5yz4p7wqdk3ust6zgr6n5ziqiplntlr5ydrx4yq67zrvdhu"
+            },
+            "mimeType": "image/jpeg",
+            "size": 158152
+          },
+          "title": "GitHub - resumex/doom-over-dns: Play Doom entirely from DNS records. (PowerShell 7+)",
+          "uri": "https://github.com/resumex/doom-over-dns"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/resumex/doom-over-dns"
+            }
+          ],
+          "index": {
+            "byteEnd": 86,
+            "byteStart": 60
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidj24hjjj7nfzexcykm3ue34ubkbuwozr4lllexnyra557qtbhhze",
+          "uri": "at://did:plc:uloc6bgqlunyjpqh2odxrqar/app.bsky.feed.post/3muzoiegupk2t"
+        },
+        "root": {
+          "cid": "bafyreid7jc5bujtni6cveyux247v6vvjdk3tvmlzuagzsaxu5jp2rcxzoe",
+          "uri": "at://did:plc:jbeaa5kdaladzwq3r7f5xgwe/app.bsky.feed.post/3muyu6eefec2q"
+        }
+      },
+      "text": "Even wilder:  Someone wrote Doom atop DNS with PowerShell:\n\ngithub.com/resumex/doom..."
+    },
+    "cid": "bafyreib6zwijtnm3un6fvgz5hancv6jtrr5crfljmhcznnmyslbnnnkzre"
+  }
+}
