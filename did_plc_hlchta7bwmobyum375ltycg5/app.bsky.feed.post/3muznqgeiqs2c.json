@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1788892218503327,
+  "kind": "commit",
+  "commit": {
+    "rev": "3muznqn4ao72n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3muznqgeiqs2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-08T18:30:10.872Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidpx24gcf24vlxgq6dz5n5y3v4ajnzqambds6lhwwcermbcpt3zma"
+            },
+            "mimeType": "image/jpeg",
+            "size": 86034
+          },
+          "title": "Future Shock - Wikipedia",
+          "uri": "https://en.wikipedia.org/wiki/Future_Shock"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://en.wikipedia.org/wiki/Future_Shock"
+            }
+          ],
+          "index": {
+            "byteEnd": 91,
+            "byteStart": 59
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieyl7jmb7ciafsuz2sceietx4qrhkiieyibmk2m7bo6pl5jryqfvq",
+          "uri": "at://did:plc:ragtjsm2j2vknwkz3zp4oxrd/app.bsky.feed.post/3muxf4dflmc23"
+        },
+        "root": {
+          "cid": "bafyreiariwx4cgggao3vof5xcmye4xhcfjr7y25sqpr5x4yd6f2efopd5q",
+          "uri": "at://did:plc:ragtjsm2j2vknwkz3zp4oxrd/app.bsky.feed.post/3muwrqpfz7k2x"
+        }
+      },
+      "text": "Ironically we've all been Future Shocked since the 70s...\n\nen.wikipedia.org/wiki/Future_...\n\nI suspect many of us have not read the book... it's been gathering dust on my shelf since the 90s."
+    },
+    "cid": "bafyreifxkepbadzyxynmntwnd6yk75vuguu2wp2ohxodimzfrgh5bkgai4"
+  }
+}
