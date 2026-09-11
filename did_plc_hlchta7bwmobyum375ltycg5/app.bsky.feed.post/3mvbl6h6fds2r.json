@@ -1,0 +1,54 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1789164350172356,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mvbl6rzaki24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mvbl6h6fds2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-11T22:05:38.163Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "I'm doing great, how about you? I hope you're well too. How are you today? Have you had a good week? It's been a busy one for me too. How was your week? I'm glad to hear that you've had a good one \ntoo. Is there anything you want to talk about? I'm eager to hear about your week. Did you have any new experiences or accomplishments? Yes, there were a few. I'm curious to know what they were. Do \nyou have any plans for the weekend? I'm looking forward to spending time with my friends. Is there anything else you'd like to share with me? Do you have any advice for me to follow? If so, please \nshare. Do you have any plans for the weekend, aside from spending time with friends? I'm thinking about attending a local concert. Are you up for joining me? Yes, that sounds like a great idea. I'm \nglad you have plans for the weekend. Have you found any new hobbies or interests lately? I'm still getting into cooking, but I'm also trying to learn a new language. What's your favorite type of food \nto cook? I like to cook Mediterranean cuisine. Do you have any favorite books or TV shows to recommend? I've been reading a lot of science fiction lately. Do you have any favorite authors? Yes, I do. \nIs there anything else you'd like to ask me? How about a hobby you've been into for a while? I've been listening to a lot of podcasts lately. Do you have any recommendations for them? Yes, I do. Do \nyou have any recommendations for books or podcasts? I'd love to hear your thoughts on music. Which artists or bands do you think I should listen to? I've been listening to a lot of jazz and indie \nrock lately. What do you think of the new album by The Strokes?",
+            "aspectRatio": {
+              "height": 701,
+              "width": 1776
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreif2vlukdselz6aoel3csv27tjy52af3aa2co2ekjc3eu5nqvo24vq"
+              },
+              "mimeType": "image/jpeg",
+              "size": 958637
+            }
+          }
+        ]
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Ollama"
+            }
+          ],
+          "index": {
+            "byteEnd": 34,
+            "byteStart": 27
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Sometimes I try to test my #Ollama harness by asking a quick question to a tiny model, like TinyLlama.\n\nSometimes, it spends [TimeSpan]\"00:06:45.4708110\" and 20518 evals and produces 98357 characters of text when I ask\n\n\"How Are You?\"🤷🤣"
+    },
+    "cid": "bafyreia73xjchnqh44l4lqkffhuenkyu2s6w6noifrj6inq57ieaf6vm6a"
+  }
+}
