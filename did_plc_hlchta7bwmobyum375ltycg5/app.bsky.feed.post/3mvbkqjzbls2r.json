@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1789163879659798,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mvbkqrpr4j2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mvbkqjzbls2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-11T21:57:51.38Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibxtjayrpbigvzbxdpqt56d4dwgnic3lawh74cs5gu2wmfei7n3fi",
+          "uri": "at://did:plc:brptsa5vnwnzgnujaauvt5x3/app.bsky.feed.post/3mvbkdcq2dc2s"
+        },
+        "root": {
+          "cid": "bafyreihpraxunjmt5yt4imskzmqc2eta3snvg5fokubq7bipsvdtuhesby",
+          "uri": "at://did:plc:uv76n3a4zrgxzo45cgpemkve/app.bsky.feed.post/3mv5ogwx3c22b"
+        }
+      },
+      "text": "Ah.\n\nSo, Optional Isolation?\n\nAKA \"agent gave me code to run, run it in a sandbox / sprite / container / etc\"\n\nThe oldie in me cannot call these sprites though.  That term has been camped since the early 80s."
+    },
+    "cid": "bafyreicp6so4jafyy6ttatu5psxglzcolvelz6e3x7o3mkt4q4q377v36u"
+  }
+}
