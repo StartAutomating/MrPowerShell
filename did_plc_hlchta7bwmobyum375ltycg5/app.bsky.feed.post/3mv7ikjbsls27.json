@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1789092809778204,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mv7ikqapes24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mv7ikjbsls27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-11T02:13:22.324Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibzf65s7yggdbtlfzr6cqqdvfiq72yebfeiqtis2ir74bi7xi4rnq",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mv7fvzz47c27"
+        },
+        "root": {
+          "cid": "bafyreib3tbk4uapdrlf3eea34is27zrkntif2urv4dbbf32rifzgzj4avq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mv76r3gn6227"
+        }
+      },
+      "text": "It took about 2-3 minutes per thing I wanted to port (which is roughly a minute better than typing by hand was going).\n\nSo, ~12 minutes total.  Plus it tested the other tooling."
+    },
+    "cid": "bafyreignhreejbuaotbgj27qw77ei57rezorgphvsxmy4uapmaewcqmz6e"
+  }
+}
