@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1789092936360854,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mv7ioinhu32e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mv7ioaigxc27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-11T02:15:27.322Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Explore this post and more from the PowerShell community",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiezrkucwnmgqmzqxeuwz2icfpgkdbk7sjfpqd6jn2jb5igw56vuay"
+            },
+            "mimeType": "image/jpeg",
+            "size": 174467
+          },
+          "title": "From the PowerShell community on Reddit: Matrix Transforms in PowerShell",
+          "uri": "https://www.reddit.com/r/PowerShell/comments/1vydspu/matrix_transforms_in_powershell/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.reddit.com/r/PowerShell/comments/1vydspu/matrix_transforms_in_powershell/"
+            }
+          ],
+          "index": {
+            "byteEnd": 254,
+            "byteStart": 224
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigzcbyouvq7y2tmtvioaj2ew7fvkuc5r3rws2r75uuxpx4u7y6cbu",
+          "uri": "at://did:plc:z7wbqa5v5hrzinzprtwj7psx/app.bsky.feed.post/3mv7hg3jt2k2z"
+        },
+        "root": {
+          "cid": "bafyreib3tbk4uapdrlf3eea34is27zrkntif2urv4dbbf32rifzgzj4avq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mv76r3gn6227"
+        }
+      },
+      "text": "🤷 My best guess is pettiness.\n\nLiteral response before they deleted the post was;\n\n\"all good dude they can just read your post instead of seeing it in action... i dont know why i bothered\"\n\n(They had referenced this post www.reddit.com/r/PowerShell... )"
+    },
+    "cid": "bafyreifrstuwjsufrsfy2rvybf3nwoyriokv4uvt2b25ahkdfg7lkwmvle"
+  }
+}
