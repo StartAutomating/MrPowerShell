@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1789235033530494,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mvdmzdeyyn24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mvdmz2wj3k2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-12T17:43:44.511Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaelheqwy6xklbbipkmoowy4cwimu62aol7gxrvdallfonloy4b4i",
+          "uri": "at://did:plc:h36cb5didkr3bxjbszrzumjs/app.bsky.feed.post/3mvdmkcxtwk2d"
+        },
+        "root": {
+          "cid": "bafyreic2chctgiqqgoimljerwfzeiz5a3comizw6gb4qrhamvfrpydiu2a",
+          "uri": "at://did:plc:h36cb5didkr3bxjbszrzumjs/app.bsky.feed.post/3mvbpbbgvoc2w"
+        }
+      },
+      "text": "Thanks for the doclink!\n\nGlad you're already aware.  \n\nI'm constantly surprised by how many people think PowerShell is Windows Only."
+    },
+    "cid": "bafyreic3kyveeq2k6dekrixq4koxujok24zfkdnvhd3tytukalm3daan24"
+  }
+}
