@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1789235393546075,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mvdne2e2yz2e",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mvdndrzk6s2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-12T17:49:44.272Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaelheqwy6xklbbipkmoowy4cwimu62aol7gxrvdallfonloy4b4i",
+          "uri": "at://did:plc:h36cb5didkr3bxjbszrzumjs/app.bsky.feed.post/3mvdmkcxtwk2d"
+        },
+        "root": {
+          "cid": "bafyreic2chctgiqqgoimljerwfzeiz5a3comizw6gb4qrhamvfrpydiu2a",
+          "uri": "at://did:plc:h36cb5didkr3bxjbszrzumjs/app.bsky.feed.post/3mvbpbbgvoc2w"
+        }
+      },
+      "text": "BTW / clicked over to your profile and noticed you've also been doing some interesting things with Static Site generation.  \n\nBimbo looks cool! (though I'm more of a Thembo myself)\n\nI've been doing SSG with PowerShell for a bit.\n\nIf you ever want to collab or want inspiration, LMK."
+    },
+    "cid": "bafyreifhfv5jopfyzaohmr2edxwf7gsrhunzkdxuhvidhhmqfvw5gnaifi"
+  }
+}
