@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1789233278329566,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mvdlez74wo2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mvdlez5bj22r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-12T17:14:37.805Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihwiffb725oivz2ssgea4pofug2upvzb52d6v6haby2n574545mlm",
+          "uri": "at://did:plc:54kh56oq3apqakeseblz4ruq/app.bsky.feed.post/3mvd3i2wo3l2v"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreian4tk7hs4bcsu4pxbhgk5z5i5johrgknlhqxvrkvkqai4f4dzwma",
+          "uri": "at://did:plc:54kh56oq3apqakeseblz4ruq/app.bsky.feed.post/3mvcqxd7nr22b"
+        }
+      },
+      "text": "See other reply.\n\nBecause .Net core -ne .NET for windows.\n\nThe vast majority of scripts work unchanged since about v2-3.\n\nIt's only when you've got an incompatible .Net class that you get into trouble."
+    },
+    "cid": "bafyreiaolr7jjure67wsdl7if4rkxilqyw2hkmekwwv3palsajv4npemci"
+  }
+}
