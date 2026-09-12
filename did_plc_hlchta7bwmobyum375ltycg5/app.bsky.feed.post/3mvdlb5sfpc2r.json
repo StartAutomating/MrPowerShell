@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1789233148809745,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mvdlb5zgch24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mvdlb5sfpc2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-12T17:12:28.473Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreian4tk7hs4bcsu4pxbhgk5z5i5johrgknlhqxvrkvkqai4f4dzwma",
+          "uri": "at://did:plc:54kh56oq3apqakeseblz4ruq/app.bsky.feed.post/3mvcqxd7nr22b"
+        },
+        "root": {
+          "cid": "bafyreian4tk7hs4bcsu4pxbhgk5z5i5johrgknlhqxvrkvkqai4f4dzwma",
+          "uri": "at://did:plc:54kh56oq3apqakeseblz4ruq/app.bsky.feed.post/3mvcqxd7nr22b"
+        }
+      },
+      "text": "Short answer: \n\nBecause .NET Core is cross platform, and the original .NET framework is not.\n\nThere's really only one major divide:\n\n5.1 or less : Windows PowerShell ( no .net core )\n6+: PowerShell Core ( cross platform )\n\nRemarkably consistent language beyond that."
+    },
+    "cid": "bafyreia3ezn4xkf46zrysnlheghykgflis5s3uhm7wsfuzfwygbnmwjehe"
+  }
+}
