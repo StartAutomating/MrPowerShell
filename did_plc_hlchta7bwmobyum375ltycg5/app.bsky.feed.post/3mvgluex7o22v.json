@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1789336884563486,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mvgluq53sd2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mvgluex7o22v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-13T22:01:12.721Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreic26caqyptcvi5rb3nsez3h2vgv435lpppmm5mkzxjizjvhihvgaa",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mvglf7lc6k2o"
+        },
+        "root": {
+          "cid": "bafyreifzmg66zg3lsrtn3yc3y2c62ka7uyof5ynih55o6vhnzxv6sspowa",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mvgl6s3bks2v"
+        }
+      },
+      "text": "I'll get to the bottom of the bug first...\n\nConsidering it's a bug in generated audio, adding filters that might suppress it might give me a false sense of confidence that it's working.\n\nSo 🤷 cursed to hear various multiples of 440Hz until I get it right."
+    },
+    "cid": "bafyreibl323s6ei3aqm5juzghlze36k565afmpwhpdrqluh7eakavnwuqm"
+  }
+}
