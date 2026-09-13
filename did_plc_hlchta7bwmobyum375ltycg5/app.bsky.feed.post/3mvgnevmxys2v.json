@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1789338509680385,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mvgnf5yafg2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mvgnevmxys2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-13T22:28:20.824Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigtysx64djmtihkf6vdqgdgdbwxcykrjcdwplxbfbt2nyg2ukefqu",
+          "uri": "at://did:plc:swwbcm2sgfccm2pylrr2ku4z/app.bsky.feed.post/3mvglwuovxk2o"
+        },
+        "root": {
+          "cid": "bafyreifzmg66zg3lsrtn3yc3y2c62ka7uyof5ynih55o6vhnzxv6sspowa",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mvgl6s3bks2v"
+        }
+      },
+      "text": "Got this about 20 minutes ago.\n\nThe key was understanding doubling of cycle frequency, which presented itself as A5 or A6 instead of A4.\n\nWell within hearing range, and useful data.\n\nAll done now though, and now I understand it enough to avoid the bug."
+    },
+    "cid": "bafyreicquini7xcongltvg5tlawatusqhzlnl7q4t4c6c4trm3jaeiz5i4"
+  }
+}
