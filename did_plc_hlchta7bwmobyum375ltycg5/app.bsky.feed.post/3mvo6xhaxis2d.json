@@ -1,0 +1,78 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1789597900013115,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mvo6xkpxbb2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mvo6xhaxis2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-16T22:31:35.063Z",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+          {
+            "alt": "For comparison I rock 32 cores @ 4.10ghz and normally see this script running in 2 seconds.",
+            "aspectRatio": {
+              "height": 121,
+              "width": 698
+            },
+            "image": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigsheub73mxyqtmzhnranh7utrcbxty2cnqw4n3ochp7yf7v2daeq"
+              },
+              "mimeType": "image/jpeg",
+              "size": 47855
+            }
+          }
+        ]
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Music"
+            }
+          ],
+          "index": {
+            "byteEnd": 54,
+            "byteStart": 48
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 71,
+            "byteStart": 60
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "GitHubAction"
+            }
+          ],
+          "index": {
+            "byteEnd": 90,
+            "byteStart": 77
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "It's the little things\n\nLike being able to make #Music with #PowerShell in a #GitHubAction, at 5x realtime.\n\nGitHub workflow runners are quicker than you'd think.\n\nAnd Making Music in a GitHub Workflow is beautifully batty."
+    },
+    "cid": "bafyreiaj27gbcusfn2onozuovx2z46pkwkwe32cy4uou3sz2q25ivrhfcy"
+  }
+}
