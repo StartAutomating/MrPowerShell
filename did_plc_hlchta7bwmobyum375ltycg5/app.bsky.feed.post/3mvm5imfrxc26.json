@@ -1,0 +1,99 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1789527609166806,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mvm5iotoih2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mvm5imfrxc26",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-16T03:00:03.93Z",
+      "embed": {
+        "$type": "app.bsky.embed.video",
+        "alt": "The code to generate the wave\n\n~~~PowerShell\nwav @(\n    'note'\n    ('\n        e5 ++ b4 c5 -- d5 ++ c5 b4 --\n        a4 ++ a4 c5 -- e5 ++ d5 c5 --\n        b4 ++ ~ c5 -- d5 e5 c5 a4 a4 ~\n        ++ ~ d5 ~ f5 -- a5 ++ g5 f5 --\n        e5 ++ ~ c5 -- e5 ++ d5 c5 --\n        b4 ++ b4 c5 -- d5 e5 c5 a4 a4 ~\n    ' * 4)\n    '<sine> <square> <triangle> <saw>'    \n)\n~~~\n\nThe visualizer is at https://mrpowershell.com/HTML/AudioVisualizer",
+        "aspectRatio": {
+          "height": 1080,
+          "width": 1920
+        },
+        "presentation": "default",
+        "video": {
+          "$type": "blob",
+          "ref": {
+            "$link": "bafkreifqctdhw4ddff6sfvth7hp33kivi6nzaquel6uxwwm3peij5uwuqy"
+          },
+          "mimeType": "video/mp4",
+          "size": 23689936
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "music"
+            }
+          ],
+          "index": {
+            "byteEnd": 30,
+            "byteStart": 24
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "PowerShell"
+            }
+          ],
+          "index": {
+            "byteEnd": 47,
+            "byteStart": 36
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "MIDI"
+            }
+          ],
+          "index": {
+            "byteEnd": 268,
+            "byteStart": 263
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RetroGaming"
+            }
+          ],
+          "index": {
+            "byteEnd": 299,
+            "byteStart": 287
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Tetris"
+            }
+          ],
+          "index": {
+            "byteEnd": 307,
+            "byteStart": 300
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Figured out how to make #music with #PowerShell\n\nJust make .wav files 😎\n\nBeen a fun few days.\n\nMade a synth over a weekend.\n\nGot sine/saw/triangle/square waves working.\n\nDidn't expect them to be so beautiful.  🩵\n\nCode in alt (12 lines!)\n\nBTW, also supports #MIDI & DECPS 🤷😏\n\n#RetroGaming #Tetris"
+    },
+    "cid": "bafyreigo2d7yhibkw2ynxvhavbvhdo2ujcbkyv7baxyutp3xdxo6kxrpki"
+  }
+}
