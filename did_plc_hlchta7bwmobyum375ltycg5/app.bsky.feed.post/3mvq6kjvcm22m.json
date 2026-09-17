@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1789666180225367,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mvq6kitz3j2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mvq6kjvcm22m",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-17T17:29:41.094Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig7ldlopd5a3kkifabohmcvz6ji6uede2odlp2jeny6nueftzjuqe",
+          "uri": "at://did:plc:jbo7qrercdzuw54kivk4hujy/app.bsky.feed.post/3mvq3cwjvsc2y"
+        },
+        "root": {
+          "cid": "bafyreiaqfxintdosh5y4ernqva74hzlc7nlqu4wetmawao6ddmx62mqgum",
+          "uri": "at://did:plc:gwd5r7dbg3zv6dhv75hboa3f/app.bsky.feed.post/3mvpxf73yq22o"
+        }
+      },
+      "text": "🤔 have you run Get-Help?\n\nThere *is* documentation on damn near every command and parameter in PowerShell.  You just ask PowerShell for help and you get it.\n\nGet-Command -Syntax also helps.\n\nThe behavior you're describing matches more Linux commands than PowerShell commands."
+    },
+    "cid": "bafyreie6twkwg564em7ocicndjqayz3krplalw2nz743ahlybdfjdojbza"
+  }
+}
