@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1789759986255629,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mvsvw2iyvp2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mvsvw2dssk2y",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-18T19:33:02.985Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiem33lnifj44uqx3qxmnatoigny6je6nudu6i4eyems2mhlqvnwpu",
+          "uri": "at://did:plc:wnrzldyi7jzktskojtdzthws/app.bsky.feed.post/3mvrqxa66q22a"
+        },
+        "root": {
+          "cid": "bafyreiem33lnifj44uqx3qxmnatoigny6je6nudu6i4eyems2mhlqvnwpu",
+          "uri": "at://did:plc:wnrzldyi7jzktskojtdzthws/app.bsky.feed.post/3mvrqxa66q22a"
+        }
+      },
+      "text": "This is probably Codex not knowing the right switch to flip.\n\nIf they are launching stuff they Task Scheduler, they can control task priority.  IIRC it defaults to Below Normal.\n\nOtherwise they can always change the priority on any process with PowerShell.\n\n🤷 You'd hope a codex would know this."
+    },
+    "cid": "bafyreidyfmvf4lsv3q7mmfqvtrlwihhdrhqungjujtr2tted6qx3lo2qza"
+  }
+}
