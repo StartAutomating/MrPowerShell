@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1789931637665435,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mvxvrqs2bm2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mvxvrqcz322p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-20T19:13:56.946Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiedd5z3vatufqneroklxddgo4frlu5lwjbfjjzfusculs5hgmf3ea",
+          "uri": "at://did:plc:mxzuau6m53jtdsbqe6f4laov/app.bsky.feed.post/3mvuuej5hvk2g"
+        },
+        "root": {
+          "cid": "bafyreifmhdwud52lg7rnw5ofbpyvl7oyj75evswczp2yxukubh44k3arr4",
+          "uri": "at://did:plc:mxzuau6m53jtdsbqe6f4laov/app.bsky.feed.post/3mvuuauxq4s2g"
+        }
+      },
+      "text": "I mostly agree with you but thought you should know:\n\nWMIC and PowerShell had the same initial PM.\n\nSo it's not so much \"inherited the estate\" as \"broadened the scope and building a better castle\""
+    },
+    "cid": "bafyreid2w5a4poswmw6z275tyijpnexcrsjxojo3hovx7vbthtktifck2e"
+  }
+}
