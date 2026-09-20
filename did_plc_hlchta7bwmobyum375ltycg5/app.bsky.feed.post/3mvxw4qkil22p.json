@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1789932005581868,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mvxw4pr2cy24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mvxw4qkil22p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-20T19:20:06.293Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicjqz2wxtgrpfe2kv6thfk6etau4wk4abrk4vdfvurn7wvjjbsyii",
+          "uri": "at://did:plc:mxzuau6m53jtdsbqe6f4laov/app.bsky.feed.post/3mvxvveznuc2g"
+        },
+        "root": {
+          "cid": "bafyreifmhdwud52lg7rnw5ofbpyvl7oyj75evswczp2yxukubh44k3arr4",
+          "uri": "at://did:plc:mxzuau6m53jtdsbqe6f4laov/app.bsky.feed.post/3mvuuauxq4s2g"
+        }
+      },
+      "text": "Yeah.  The lineage goes back further as well, it just splits in multiple directions before that\n\nWMIC built its syntax atop of WMI, which was already pretty logically oriented into classes.  WMIC just chopped off the Win32_ for shorter typing.\n\nCool tool, but still hard to orchestrate."
+    },
+    "cid": "bafyreigjqaqie3d5becel6e4xvp6jzubqanr2facjn5ydy4ydgj2o7rq54"
+  }
+}
