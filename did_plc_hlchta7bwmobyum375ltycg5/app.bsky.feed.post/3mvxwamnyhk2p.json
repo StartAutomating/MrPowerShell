@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1789932135974519,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mvxwalgvjg24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mvxwamnyhk2p",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-20T19:22:16.431Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigjqaqie3d5becel6e4xvp6jzubqanr2facjn5ydy4ydgj2o7rq54",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mvxw4qkil22p"
+        },
+        "root": {
+          "cid": "bafyreifmhdwud52lg7rnw5ofbpyvl7oyj75evswczp2yxukubh44k3arr4",
+          "uri": "at://did:plc:mxzuau6m53jtdsbqe6f4laov/app.bsky.feed.post/3mvuuauxq4s2g"
+        }
+      },
+      "text": "What WMIC and WMI were missing was good interactive exploration / orchestration of objects.\n\nWMIC got closer than raw WMI.\n\nPowerShell quantum leaped that and made it easy to explore / orchestrate *any* object."
+    },
+    "cid": "bafyreig775jz24rqfwqz3e2ai7njkao5ffw2zeljjhg5lybmzrer4s45au"
+  }
+}
