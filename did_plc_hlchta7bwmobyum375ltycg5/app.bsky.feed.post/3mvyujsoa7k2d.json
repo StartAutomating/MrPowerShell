@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1789964655780226,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mvyujrexvy2g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mvyujsoa7k2d",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-21T04:24:16.968Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigsdbcvgj4reaedaxkavumdsdhjdu2jwoggnaglebnubtyeylctly",
+          "uri": "at://did:plc:fbafgsz32pnijuaxmoy36eg4/app.bsky.feed.post/3mvybujowr22t"
+        },
+        "root": {
+          "cid": "bafyreigsdbcvgj4reaedaxkavumdsdhjdu2jwoggnaglebnubtyeylctly",
+          "uri": "at://did:plc:fbafgsz32pnijuaxmoy36eg4/app.bsky.feed.post/3mvybujowr22t"
+        }
+      },
+      "text": "This is exactly why I love building stuff in PowerShell most people don't think is possible.\n\nThis week it's direct audio manipulation.  Who knows what next week will be?\n\nShell languages *are* real programming languages."
+    },
+    "cid": "bafyreibgf6d3eqe3m5wk6of53lkratgiomhywuiq7tpyqd6xpoaree5kiq"
+  }
+}
