@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1790196276474476,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mw7mam3xck2j",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mw7makfz2225",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-23T20:44:34.56Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib7psrpj4pgd3p4wqy2dq7reukx5yswv3qp7rn3usnsmfpewcy6ga",
+          "uri": "at://did:plc:re4hy2aynaii3jfcgl2s5gmp/app.bsky.feed.post/3mw7gykniuc2l"
+        },
+        "root": {
+          "cid": "bafyreib7psrpj4pgd3p4wqy2dq7reukx5yswv3qp7rn3usnsmfpewcy6ga",
+          "uri": "at://did:plc:re4hy2aynaii3jfcgl2s5gmp/app.bsky.feed.post/3mw7gykniuc2l"
+        }
+      },
+      "text": "Nifty!\n\nIf you want extra bonus points, please add an HTML script property to each object, containing <img src='XKCDUrl'></img>\n\nThat way this module will be easy to embed into pages."
+    },
+    "cid": "bafyreiebpnec2apodjgt4g2trkukvfue7ax7r623hstwzojoewzipyvx5u"
+  }
+}
