@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1790359910266579,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mweenbgqar2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mweencxakc25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-25T18:11:51.698Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifawj2ejfohpscsoldu7mjytoe555f5ecivgp22e3sgc2n7ilmqqe",
+          "uri": "at://did:plc:kcu5gsklhhensnm6vhu6lhq5/app.bsky.feed.post/3mwbqb6cm4227"
+        },
+        "root": {
+          "cid": "bafyreifawj2ejfohpscsoldu7mjytoe555f5ecivgp22e3sgc2n7ilmqqe",
+          "uri": "at://did:plc:kcu5gsklhhensnm6vhu6lhq5/app.bsky.feed.post/3mwbqb6cm4227"
+        }
+      },
+      "text": "Having spent the past two weeks building musical instruments in PowerShell, I can confirm that code is art."
+    },
+    "cid": "bafyreicxglgzkthelgqrqwxcqhiils5pn4umufkgwcnc7rsbfvcjtybt4a"
+  }
+}
