@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1790361343644291,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mwefxyeygz2x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mwefy2k2pc25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-25T18:35:45.722Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiayko37khabaf6knsafpz55yskn5xvcv4im4mn4wentpb4uqlhugm",
+          "uri": "at://did:plc:aggjfmpgd7lolnuc5llx5wyv/app.bsky.feed.post/3mwbwyhrrfc25"
+        },
+        "root": {
+          "cid": "bafyreifawj2ejfohpscsoldu7mjytoe555f5ecivgp22e3sgc2n7ilmqqe",
+          "uri": "at://did:plc:kcu5gsklhhensnm6vhu6lhq5/app.bsky.feed.post/3mwbqb6cm4227"
+        }
+      },
+      "text": "I suppose you could think of languages as paint.\n\nBut the choice of how to use those languages is the art.\n\nThat's what programming is.\n\nCan you paint or program in ways that feel neither terribly creative or artistic?  Sure.\n\nCan you paint or program a Sistine  Chapel?  Also sure."
+    },
+    "cid": "bafyreih2om6m2xtqdbb3tiik4g4q6rqfzxm2wc3ymjo5upsctpuse5enkq"
+  }
+}
