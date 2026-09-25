@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1790360260566235,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mweexpjjwf22",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mweexqyj6s25",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-25T18:17:41.967Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreia7ncxiynpioe6a4hj2ccmuyajsnwhsdfxdaoen6jix7ndbzswemy",
+          "uri": "at://did:plc:ka5v4damjyefvd6s3s3seh7m/app.bsky.feed.post/3mwbqyzqspc26"
+        },
+        "root": {
+          "cid": "bafyreifawj2ejfohpscsoldu7mjytoe555f5ecivgp22e3sgc2n7ilmqqe",
+          "uri": "at://did:plc:kcu5gsklhhensnm6vhu6lhq5/app.bsky.feed.post/3mwbqb6cm4227"
+        }
+      },
+      "text": "Don't wanna be too \"old person grumbles\", but I feel like you're right."
+    },
+    "cid": "bafyreictljh4y3a5rl7kchjs3gy5zcoy77t6yvtdfkww5lhea4k55ibdse"
+  }
+}
