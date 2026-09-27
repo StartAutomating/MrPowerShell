@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1790535193763874,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mwjhv4onpu2x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mwjhv4zcnk2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-27T18:53:13.824Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibdzq6kqw7lfl26onaf6nsnc5geuzredcqmsn5k5amvmddboggfri",
+          "uri": "at://did:plc:klzeeq3e7ardmn7ia6r5naql/app.bsky.feed.post/3mwj55klrlk2b"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreialejrvswibpec2zni75qjfzfmdftzrds2ku54hfyutxpdz5bq6oy",
+          "uri": "at://did:plc:g4r2vgccvprkdji7ypd324nn/app.bsky.feed.post/3mwiuafilzk2g"
+        }
+      },
+      "text": "Don't know, but I do know PowerShell is cross platform and runs on Linux *without* a Proton layer."
+    },
+    "cid": "bafyreiausx2jcf52in7s3epkih3qwq7eawh7pe6b7yvzeip6l63kyqffba"
+  }
+}
