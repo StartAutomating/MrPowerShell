@@ -1,0 +1,44 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1790536476998222,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mwjj3cvnpl2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mwjj3d7xo22b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-27T19:14:35.408Z",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$HTML"
+            }
+          ],
+          "index": {
+            "byteEnd": 94,
+            "byteStart": 89
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibgyankhhkxy2xz7hn4ju6bvxqlzjv6t6wkak57o6cagz45fcsjn4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mwjivrinjk2b"
+        },
+        "root": {
+          "cid": "bafyreid653ml5l235vfeod4rn7afy4pns7jjz4on3ds3xklwxzx7pjgo7u",
+          "uri": "at://did:plc:7orupv2alwsda6l7nkxhcz2x/app.bsky.feed.post/3mwj4oegy7c2r"
+        }
+      },
+      "text": "Re the regex, I get a lot of luck out of simple brutish patterns like:\n\n[Regex]::Matches($html, \"<table.+?/table>\", \"IgnoreCase\")\n\nThis will find all of the top level tables in a page.\n\n80% of the time, this will cleanly cast -as [xml].\n\nThen you just dot into the rows / columns."
+    },
+    "cid": "bafyreibqw64fznvbiznfa46vmuti5zfqro2hamahnmxobypghspzodetaa"
+  }
+}
