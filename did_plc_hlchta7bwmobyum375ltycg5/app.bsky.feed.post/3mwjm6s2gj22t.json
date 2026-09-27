@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1790539838645803,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mwjm6spzhs2c",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mwjm6s2gj22t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-27T20:10:12.845Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieycgmliaaltgtunqufeqibngxtitrn6mnt67i76omnnq2nhf4zhu",
+          "uri": "at://did:plc:g4r2vgccvprkdji7ypd324nn/app.bsky.feed.post/3mwjkkum6722g"
+        },
+        "root": {
+          "$type": "com.atproto.repo.strongRef",
+          "cid": "bafyreialejrvswibpec2zni75qjfzfmdftzrds2ku54hfyutxpdz5bq6oy",
+          "uri": "at://did:plc:g4r2vgccvprkdji7ypd324nn/app.bsky.feed.post/3mwiuafilzk2g"
+        }
+      },
+      "text": "Always happy to hear that!\n\nCross platform PowerShell is especially potent."
+    },
+    "cid": "bafyreiehf556lcxvoa4ldqc6iwtmxmwy3aolilywfoxvxlpadv6zx72pye"
+  }
+}
