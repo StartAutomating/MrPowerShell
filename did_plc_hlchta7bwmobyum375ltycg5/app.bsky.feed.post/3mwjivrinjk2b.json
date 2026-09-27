@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1790536288899232,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mwjivr5j5w2p",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mwjivrinjk2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-27T19:11:29.047Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidfbbfovvcnqpty5skpmybuenyavstk3mhbb3h44kheahwtbyzr3m",
+          "uri": "at://did:plc:7orupv2alwsda6l7nkxhcz2x/app.bsky.feed.post/3mwj6upjokk2f"
+        },
+        "root": {
+          "cid": "bafyreid653ml5l235vfeod4rn7afy4pns7jjz4on3ds3xklwxzx7pjgo7u",
+          "uri": "at://did:plc:7orupv2alwsda6l7nkxhcz2x/app.bsky.feed.post/3mwj4oegy7c2r"
+        }
+      },
+      "text": "IMO the \"Intro to PowerShell\" article is overly verbose, slightly inaccurate, and unrelated to the task at hand.\n\nLong story made short: use Invoke-RestMethod for json/xml/text, and Invoke-WebRequest for link crawling and media downloads.\n\nCast to xml where possible.  Use some regex to isolate tags."
+    },
+    "cid": "bafyreibgyankhhkxy2xz7hn4ju6bvxqlzjv6t6wkak57o6cagz45fcsjn4"
+  }
+}
