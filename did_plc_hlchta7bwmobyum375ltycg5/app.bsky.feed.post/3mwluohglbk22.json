@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1790617646562589,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mwluofv6kr22",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mwluohglbk22",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-28T17:47:27.989Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigfn4bgf5qgkps7r2qw7vckd3fhqtscz55c6jrkqwvtqqmzhahtt4",
+          "uri": "at://did:plc:76n5af4lu74itlshkbvbynyo/app.bsky.feed.post/3mwl6ssje7c2h"
+        },
+        "root": {
+          "cid": "bafyreid653ml5l235vfeod4rn7afy4pns7jjz4on3ds3xklwxzx7pjgo7u",
+          "uri": "at://did:plc:7orupv2alwsda6l7nkxhcz2x/app.bsky.feed.post/3mwj4oegy7c2r"
+        }
+      },
+      "text": "One does not try to parse html only with regex.\n\nOne uses regex to whittle down and isolate parts of html into something you can more easily match.\n\nThe trick I showed earlier does that.  Find me all root elements of this type.  Then cast to xml."
+    },
+    "cid": "bafyreiabsruydumrwq7sk3pubazx4grx5ijzus44bthcnq72aekmelcug4"
+  }
+}
