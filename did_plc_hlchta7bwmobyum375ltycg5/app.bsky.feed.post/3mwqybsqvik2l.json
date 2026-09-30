@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1790793318268393,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mwqybthgwv2r",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mwqybsqvik2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-30T18:35:17.31Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigwcegnzhecox3nmuxihepvf22kwtktbmibqxbc73sbxojxmgdaya",
+          "uri": "at://did:plc:kzbsudfo4a6j2ysljteheuhi/app.bsky.feed.post/3mwql3odldc25"
+        },
+        "root": {
+          "cid": "bafyreieynurxq7mekxq6e47rf6mx6z3rk6xocafso2tdlr34ibyq64ilga",
+          "uri": "at://did:plc:kzbsudfo4a6j2ysljteheuhi/app.bsky.feed.post/3mwqkhahaa225"
+        }
+      },
+      "text": "🤔 now if only you could realize that only one of these supports rich objects.\n\nSeriously... The PowerShell object pipeline is overpowered and I would love to see rich weather data access in it.\n\nRather than just download your files, why not figure out how to decode them in PowerShell?"
+    },
+    "cid": "bafyreidfjdals6nd56i4bgu7ki4hizwktjhnpsswx53gkzu5y2bbjg57am"
+  }
+}
