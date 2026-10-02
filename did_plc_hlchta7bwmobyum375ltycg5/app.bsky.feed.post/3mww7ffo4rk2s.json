@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1790972755286987,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mww7fhvdcd2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mww7ffo4rk2s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-02T20:25:52.695Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihw5xlszdyruhycjmnia46n7qmo57gav62rugzhjeozspsily5xbq",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mww7bthofc2s"
+        },
+        "root": {
+          "cid": "bafyreidysrohgcx2f5ru3uiws4semdinyrna7eifsg7q4hcmwtvzjyeup4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mwu7on7wvs2t"
+        }
+      },
+      "text": "Btw, note the \"when\"😔.\n\nA few months of this stuff intermittently happening has been very frustrating.  \n\nMy best guess for the freezes is what I call the \"unlucky dust mite hypothesis\", where some dust mite happens to wander over a graphics card pin, triggering its death and an interrupt."
+    },
+    "cid": "bafyreigjvzfivzpsgdrotym3rmx3tm63avjnjqbwukjsp6cimohj2zlacm"
+  }
+}
