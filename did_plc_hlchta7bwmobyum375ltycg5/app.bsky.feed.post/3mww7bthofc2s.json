@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1790972635423762,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mww7bvmwfs25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mww7bthofc2s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-02T20:23:52.946Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib7hc4pzdab3awsk5oauxh7l6nmlftw2x3bm63o6stigtipbq5n7e",
+          "uri": "at://did:plc:sxckdvxjucixtfvdqdfgf7by/app.bsky.feed.post/3mww66eh3m22y"
+        },
+        "root": {
+          "cid": "bafyreidysrohgcx2f5ru3uiws4semdinyrna7eifsg7q4hcmwtvzjyeup4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mwu7on7wvs2t"
+        }
+      },
+      "text": "Sounds like a plausible culprit for the CPU Bios warning.\n\nI haven't rewired all the RGB yet, and my brain had triaged \"3-pin does not go into 4-bin\"\n\nSadly I think all of this is unrelated to the freezing, as it intermittently persists.\n\nWill go back into surgery when it next freezes."
+    },
+    "cid": "bafyreihw5xlszdyruhycjmnia46n7qmo57gav62rugzhjeozspsily5xbq"
+  }
+}
