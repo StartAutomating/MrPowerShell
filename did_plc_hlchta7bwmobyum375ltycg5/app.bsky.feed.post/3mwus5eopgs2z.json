@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1790924167851691,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mwus5h4qdo2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mwus5eopgs2z",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-02T06:56:04.848Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicgcwqc2psxcgetuncqx2jpnplczdmu6cxjdxjai4vdlpaovdydzm",
+          "uri": "at://did:plc:sxckdvxjucixtfvdqdfgf7by/app.bsky.feed.post/3mwudlkcpj22e"
+        },
+        "root": {
+          "cid": "bafyreidysrohgcx2f5ru3uiws4semdinyrna7eifsg7q4hcmwtvzjyeup4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mwu7on7wvs2t"
+        }
+      },
+      "text": "Mayhaps.\n\nI was able to switch around a couple of wires and get things past post.\n\nStill tells me the CPU fan has a problem, but the box has cooled down enough to type this."
+    },
+    "cid": "bafyreihgnkofzcajjzzy7dxi5afdamxsm64qrl6h6iwlcykqbumxgmctty"
+  }
+}
