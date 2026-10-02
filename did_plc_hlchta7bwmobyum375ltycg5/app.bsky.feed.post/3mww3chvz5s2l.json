@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1790968358802311,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mww3ch6cll25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mww3chvz5s2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-02T19:12:39.419Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidqhlbbe4zcd45ni4sndm2ickyz5rfqe6cp5dxdm6ijvbg2mbtfpm",
+          "uri": "at://did:plc:44jzoazrip6yp7o63jgvhjll/app.bsky.feed.post/3mww34m5tgs2k"
+        },
+        "root": {
+          "cid": "bafyreighoaze5b2ujh2x6kuqv6ooa3auzyk2ibmg4ma23vxjtb6newiokm",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mww2ci4ymk2s"
+        }
+      },
+      "text": "Honestly the movie vaguely works just as a long soundtrack / music video.\n\nJust don't pay attention to the dialog.\n\nOr Jared Leto's face."
+    },
+    "cid": "bafyreiex4dpq3ln3le3avwkdjyduod5lw5udy3ecenqlo6fwweeubrtfci"
+  }
+}
