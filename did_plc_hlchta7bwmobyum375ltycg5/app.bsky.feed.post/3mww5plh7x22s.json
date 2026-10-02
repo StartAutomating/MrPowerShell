@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1790970949074278,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mww5pneyqg2x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mww5plh7x22s",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-02T19:55:46.821Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifl63bshrmjzzl7faeih2foeini2zkrqxdz652kumquk3nyywpirq",
+          "uri": "at://did:plc:sxckdvxjucixtfvdqdfgf7by/app.bsky.feed.post/3mww446npic2f"
+        },
+        "root": {
+          "cid": "bafyreidysrohgcx2f5ru3uiws4semdinyrna7eifsg7q4hcmwtvzjyeup4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mwu7on7wvs2t"
+        }
+      },
+      "text": "🤷 if I knew which, I'm sure I wouldn't have to ask.\n\nThe tach cable is _probably_ one of the mystery wires.\n\nForgive the stupid question, but where the hell is that one supposed to go?"
+    },
+    "cid": "bafyreidpwkmzquvvlssuk7ip5qidw2gkb3i53hnwmb2gqqkhzvbaknk3wq"
+  }
+}
