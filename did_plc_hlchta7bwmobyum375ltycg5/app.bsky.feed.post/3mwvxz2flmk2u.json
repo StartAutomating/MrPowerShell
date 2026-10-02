@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1790964821088378,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mwvxyzcsil2j",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mwvxz2flmk2u",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-02T18:13:42.035Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicia5tvhp7vmy32mbgiw2px6isvushjjdswl7wfjpzqj4sbkqs3gq",
+          "uri": "at://did:plc:sxckdvxjucixtfvdqdfgf7by/app.bsky.feed.post/3mwvie6nerc2l"
+        },
+        "root": {
+          "cid": "bafyreidysrohgcx2f5ru3uiws4semdinyrna7eifsg7q4hcmwtvzjyeup4",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mwu7on7wvs2t"
+        }
+      },
+      "text": "The X factor was plugging in a SATA power cable for the AIO.  CPU fan error persists in post though, as do freezes.\n\nCurrently cpu fan + CPU fan 2 are also plugged into leads from the processor / cooler.\n\nIf you want to join the mystery, you're welcome to. Lmk if a photo would help."
+    },
+    "cid": "bafyreie6uz4yzxthwn6oubyewkdsbgnyk3dnqaxjj3c65ktfwmufgfbaiy"
+  }
+}
