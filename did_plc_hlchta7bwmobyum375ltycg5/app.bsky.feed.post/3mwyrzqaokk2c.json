@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791061485196681,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mwyrzth4xd2r",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mwyrzqaokk2c",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-03T21:04:41.707Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih2volskjkq7fwrxm6ph3c273esc3zfg7slgm3ycp4yxj33dwpwtq",
+          "uri": "at://did:plc:kzbsudfo4a6j2ysljteheuhi/app.bsky.feed.post/3mwykxvw6s22j"
+        },
+        "root": {
+          "cid": "bafyreih2volskjkq7fwrxm6ph3c273esc3zfg7slgm3ycp4yxj33dwpwtq",
+          "uri": "at://did:plc:kzbsudfo4a6j2ysljteheuhi/app.bsky.feed.post/3mwykxvw6s22j"
+        }
+      },
+      "text": "It's even more important when you consider that PowerShell runs on MacOS and Linux, too.\n\nLearn PowerShell and you can automate things cross platform."
+    },
+    "cid": "bafyreibt5fjfbgizeo2xjbpmku73bacbwu3mpu6meheroxogvfvnnky4yi"
+  }
+}
