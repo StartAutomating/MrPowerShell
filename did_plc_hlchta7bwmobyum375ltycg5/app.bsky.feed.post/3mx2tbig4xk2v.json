@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791131535650987,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mx2tbiahwp2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mx2tbig4xk2v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-04T16:32:15.145Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "A patchwork of privacy laws, teen social media bans, and \"digital sovereignty\" pushes means the Internet you see depends entirely on where you're standing.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifjmrh2raeddlmlhj76bje4bqlou4trqbofpq2earwcvjnzalc6o4"
+            },
+            "mimeType": "image/jpeg",
+            "size": 451740
+          },
+          "title": "Every Country Has Its Own Internet Now",
+          "uri": "https://www.politico.com/news/magazine/2026/10/04/the-web-of-walls-01086201"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.politico.com/news/magazine/2026/10/04/the-web-of-walls-01086201"
+            }
+          ],
+          "index": {
+            "byteEnd": 143,
+            "byteStart": 111
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Politico ( of all places ) shows how balkanized the Internet has become, without ever once saying the phrase.\n\nwww.politico.com/news/magazin..."
+    },
+    "cid": "bafyreiatmjtcfcvlpficqkg7j3yyclur2jfbqmexskriuiypqgmmo3haca"
+  }
+}
