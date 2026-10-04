@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791134873111137,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mx2wexjmkb2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mx2wezgm222v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-04T17:27:54.881Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihkd673dgcugxqadvrijbhmy65pr7vrk5voqhxidvdfyy2qd76bym",
+          "uri": "at://did:plc:kzbsudfo4a6j2ysljteheuhi/app.bsky.feed.post/3mx2v4lnk2k2n"
+        },
+        "root": {
+          "cid": "bafyreih2volskjkq7fwrxm6ph3c273esc3zfg7slgm3ycp4yxj33dwpwtq",
+          "uri": "at://did:plc:kzbsudfo4a6j2ysljteheuhi/app.bsky.feed.post/3mwykxvw6s22j"
+        }
+      },
+      "text": "If you really want some tasty 🍿...\n\nPoint me to some of the meteorological data sources you all use, and I'll see how long it takes to put that raw data into the object pipeline.\n\nBeing able to treat stormfronts as objects sounds pretty fun to me, and it can't possibly be worse than waves."
+    },
+    "cid": "bafyreiclz2ltengajlx2s4nsgz5fzfj26q6u245tkovv7t7bulii3i3fde"
+  }
+}
