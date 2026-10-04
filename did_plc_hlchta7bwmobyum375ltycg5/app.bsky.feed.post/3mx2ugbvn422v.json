@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791132768123178,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mx2ug7zr3z2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mx2ugbvn422v",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-04T16:52:49.832Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigv34uyvu5unf75ifjktsts2isv3llice7e5xvjf7hk2jqrfjzjx4",
+          "uri": "at://did:plc:yrskuz7ogzxwhelc2qjzg77r/app.bsky.feed.post/3mwyrp2a6wc2o"
+        },
+        "root": {
+          "cid": "bafyreih2volskjkq7fwrxm6ph3c273esc3zfg7slgm3ycp4yxj33dwpwtq",
+          "uri": "at://did:plc:kzbsudfo4a6j2ysljteheuhi/app.bsky.feed.post/3mwykxvw6s22j"
+        }
+      },
+      "text": "The irony of this statement is thick.\n\nFor one, PowerShell can run any command ( on Windows or Unix ).\n\nFor another, much bigger point:\n\nPowerShell is inherently faster and more capable than Bash.\n\nBash doesn't have threading or background jobs.\n\nLike comparing apples and apricots."
+    },
+    "cid": "bafyreia7f3cmfhw4ibbcrxlod52fkw3cua7cdyidl6xiaw4erinye63dpq"
+  }
+}
