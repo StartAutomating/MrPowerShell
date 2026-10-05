@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791228455392234,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mx5njwltn22o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mx5njtn5mk27",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-05T19:27:32.114Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiem6qer7mefe4jtcfwlu4olicj774o3jj3tc6aikvveippotgaa4e",
+          "uri": "at://did:plc:yrskuz7ogzxwhelc2qjzg77r/app.bsky.feed.post/3mx3phc3lts2w"
+        },
+        "root": {
+          "cid": "bafyreih2volskjkq7fwrxm6ph3c273esc3zfg7slgm3ycp4yxj33dwpwtq",
+          "uri": "at://did:plc:kzbsudfo4a6j2ysljteheuhi/app.bsky.feed.post/3mwykxvw6s22j"
+        }
+      },
+      "text": "Two notes here:\n\n1. Seems like you're saying PowerShell does not have native access to a Unix Shell.  It does.  Am I reading that wrong?\n\n2. Because PowerShell has types and .NET math classes to work with, it's inherently more flexible and faster for most math/data than Bash.\n\nMake sense now?"
+    },
+    "cid": "bafyreignd2zj3olvcpyv6q3o2gks53iludr64zb4ke3ujjk2ndxmnnpz2y"
+  }
+}
