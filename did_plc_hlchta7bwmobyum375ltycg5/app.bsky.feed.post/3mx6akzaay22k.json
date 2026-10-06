@@ -1,0 +1,52 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791248896077476,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mx6al4762525",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mx6akzaay22k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-06T01:08:12.633Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "",
+          "title": "\n        PowerShell Gallery\n        | Home\n    ",
+          "uri": "https://powershellgallery.com/"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://powershellgallery.com/"
+            }
+          ],
+          "index": {
+            "byteEnd": 77,
+            "byteStart": 56
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicp4srxhqr3mwfgmloywlcqugkku7rsaiksgp5u6fzkdtby5ormgq",
+          "uri": "at://did:plc:kzbsudfo4a6j2ysljteheuhi/app.bsky.feed.post/3mx64bxejzk2h"
+        },
+        "root": {
+          "cid": "bafyreih2volskjkq7fwrxm6ph3c273esc3zfg7slgm3ycp4yxj33dwpwtq",
+          "uri": "at://did:plc:kzbsudfo4a6j2ysljteheuhi/app.bsky.feed.post/3mwykxvw6s22j"
+        }
+      },
+      "text": "Also, the thing you're after is the PowerShell Gallery\n\npowershellgallery.com"
+    },
+    "cid": "bafyreiadqngko2s7anqbphqof2v3e4bqy7gf2j77fok6dndpeumljyryj4"
+  }
+}
