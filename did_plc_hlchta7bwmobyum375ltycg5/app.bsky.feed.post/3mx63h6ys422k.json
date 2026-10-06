@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791243399833340,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mx63hce62e2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mx63h6ys422k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-05T23:36:35.752Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiefyardlxw4myuavzywk3ob2x2kc3iwziotltvz3njtuhn4arxypu",
+          "uri": "at://did:plc:kzbsudfo4a6j2ysljteheuhi/app.bsky.feed.post/3mx5xewzci227"
+        },
+        "root": {
+          "cid": "bafyreih2volskjkq7fwrxm6ph3c273esc3zfg7slgm3ycp4yxj33dwpwtq",
+          "uri": "at://did:plc:kzbsudfo4a6j2ysljteheuhi/app.bsky.feed.post/3mwykxvw6s22j"
+        }
+      },
+      "text": "Lol I try not to pick favorites, but I helped build PowerShell.\n\nAside from that honestly I'm much more fond of JavaScript than C#.\n\nLike most people who have worked on languages, I know a bunch of them (~80-100), and have many opinions."
+    },
+    "cid": "bafyreigrpkq5jas2rbqv4oxordtdq2oe3afnsur2cfnxwfaghcbptgmylm"
+  }
+}
