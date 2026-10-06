@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791248838472356,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mx6ajfbqod2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mx6ajcf6uk2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-06T01:07:15.123Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicp4srxhqr3mwfgmloywlcqugkku7rsaiksgp5u6fzkdtby5ormgq",
+          "uri": "at://did:plc:kzbsudfo4a6j2ysljteheuhi/app.bsky.feed.post/3mx64bxejzk2h"
+        },
+        "root": {
+          "cid": "bafyreih2volskjkq7fwrxm6ph3c273esc3zfg7slgm3ycp4yxj33dwpwtq",
+          "uri": "at://did:plc:kzbsudfo4a6j2ysljteheuhi/app.bsky.feed.post/3mwykxvw6s22j"
+        }
+      },
+      "text": "That one should be easy.\n\nAka, this \"just works\"\n\n~~~PowerShell\n$openMeteo = irm \"https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current=temperature_2m,wind_speed_10m&hourly=temperature_2m,relative_humidity_2m,wind_speed_10m\"\n~~~"
+    },
+    "cid": "bafyreiarsro2yoe2a2zr3k3jx5343tx54rqet25uylgkwncxivlj6ycn3m"
+  }
+}
