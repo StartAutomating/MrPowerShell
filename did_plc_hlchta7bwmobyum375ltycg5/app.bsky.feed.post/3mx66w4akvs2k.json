@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791247120793496,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mx66w7adft24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mx66w4akvs2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-06T00:38:37.404Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreif3us7zkfztg2mvduqcetndymq4plakbif75t6j2lbav3nadlgque",
+          "uri": "at://did:plc:kzbsudfo4a6j2ysljteheuhi/app.bsky.feed.post/3mx64vkiitc27"
+        },
+        "root": {
+          "cid": "bafyreih2volskjkq7fwrxm6ph3c273esc3zfg7slgm3ycp4yxj33dwpwtq",
+          "uri": "at://did:plc:kzbsudfo4a6j2ysljteheuhi/app.bsky.feed.post/3mwykxvw6s22j"
+        }
+      },
+      "text": "PowerShell / .NET _is_ an equivalent to pandas.  \n\nVarious people have also made various ports of pandas, but the bigger thing to understand is that these have built-in classes in .NET.\n\nxarray in PowerShell:  just make arrays of arrays\npandas/numpy in PowerShell:  just use PowerShell or linq"
+    },
+    "cid": "bafyreigfytng4g3srt6uevfd7lagy2t3jd2oet6ntacspn4efz2xivmin4"
+  }
+}
