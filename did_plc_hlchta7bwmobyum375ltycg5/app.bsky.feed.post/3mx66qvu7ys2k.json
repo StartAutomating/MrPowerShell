@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791246946315068,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mx66qyuhwd2x",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mx66qvu7ys2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-06T00:35:42.936Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie2yc7jbqqkmiaxdc2emenflfkda6u5kukthuekq7jwp6bh6f3iem",
+          "uri": "at://did:plc:kzbsudfo4a6j2ysljteheuhi/app.bsky.feed.post/3mx64siadkc27"
+        },
+        "root": {
+          "cid": "bafyreih2volskjkq7fwrxm6ph3c273esc3zfg7slgm3ycp4yxj33dwpwtq",
+          "uri": "at://did:plc:kzbsudfo4a6j2ysljteheuhi/app.bsky.feed.post/3mwykxvw6s22j"
+        }
+      },
+      "text": "Language utility is a function of feature applicability\n\nSo yes.\n\nIf it's easy to do in PowerShell, and people understand it, it helps the language.\n\nMake it easy in PowerShell and it's easy for everyone forevermore.\n\nRelated: this is why I'm so into the language."
+    },
+    "cid": "bafyreid76gaafhsgo22dal3ie5ggng6nrxvxuojmfmdksxbwbfalzvppnm"
+  }
+}
