@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791244726069344,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mx64oth4lh2r",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mx64oqir722k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-05T23:58:42.725Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigmark2v6u3qgxuwzxdzcnqsuy7olzsu4tidmgvrun7kkemaxkuya",
+          "uri": "at://did:plc:kzbsudfo4a6j2ysljteheuhi/app.bsky.feed.post/3mx647bkxms2h"
+        },
+        "root": {
+          "cid": "bafyreih2volskjkq7fwrxm6ph3c273esc3zfg7slgm3ycp4yxj33dwpwtq",
+          "uri": "at://did:plc:kzbsudfo4a6j2ysljteheuhi/app.bsky.feed.post/3mwykxvw6s22j"
+        }
+      },
+      "text": "That's what I've been trying to explain:\n\nPowerShell is built on .NET, which means it has everything in System.Numerics.\n\nFast Vectors, Transform Matrixes, and enumeration is already \"in the box\"\n\nPowerShell _does_ have these things.\n\nPeople just don't generally know it."
+    },
+    "cid": "bafyreifltxorix3nrjnjkmxc5l6ippwwdyt3l3dnr4sfikmbzcukdloswe"
+  }
+}
