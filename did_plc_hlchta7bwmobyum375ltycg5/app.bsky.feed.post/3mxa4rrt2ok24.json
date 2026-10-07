@@ -1,0 +1,50 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791316020518490,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxa4rvsvwc2q",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxa4rrt2ok24",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-06T19:05:44.25Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects. - StartAutomating/ugit",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreidz7bvcjacli3yeygf7b7oydgff7c3jpq3mwjxvw3jnr7hj3zok74"
+            },
+            "mimeType": "image/jpeg",
+            "size": 57168
+          },
+          "title": "GitHub - StartAutomating/ugit: Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects.",
+          "uri": "https://github.com/StartAutomating/ugit"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/ugit"
+            }
+          ],
+          "index": {
+            "byteEnd": 255,
+            "byteStart": 229
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "Some days I get to write cool commit messages, like:\n\ngit commit -type feat -Title 'Wave.Sound' -Fix 62, 64, 65 -Footer 'Improving Polyphonic Capabilities'\n\n(Convention commit support and additional parameters are part of ugit - github.com/StartAutomat... )"
+    },
+    "cid": "bafyreiakradhd5yelf2uu5rok7ldakatdsvm3fpgt44noleisepeaqb4ra"
+  }
+}
