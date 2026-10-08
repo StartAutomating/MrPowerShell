@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791442112783102,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxdujfzwoy25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxdujfods223",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-08T06:48:32.085Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigxlmdyltrt3vs32375oolijcszzzng726lgqogxlp2ggfwwxv25m",
+          "uri": "at://did:plc:dwbttiny5zpwnm64gyvbrt4h/app.bsky.feed.post/3mxdtnileh227"
+        },
+        "root": {
+          "cid": "bafyreig4pntnjirdu24vc4vzogma5sqq4k6d4xghwo7mbkx66ktrgrw3ue",
+          "uri": "at://did:plc:ef7xwrwm7btq7qmbe4o67k4y/app.bsky.feed.post/3mxdlpihwsk2e"
+        }
+      },
+      "text": "Happy to try anytime.\n\nGiving you just a small taste of the coolness, PowerShell can:\n\nCall anything in any language.\nBe strongly or weakly typed.\nDirectly work with JSON / XML / CSV etc as objects.\nExtend types and formats.\nPut it all together in an object pipeline."
+    },
+    "cid": "bafyreidwop226fkdn3r5ketyfghmyzewyncybdpomex2bj5qwmwlmcc7ey"
+  }
+}
