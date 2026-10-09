@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791566309292512,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxhi6rab6y25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxhi6qy5422b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-09T17:18:28.904Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreictredczulv6bjab3ejkfvm4m2eko2pefefkwcyecrw4e5bjsdpyi",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mxh7jhvzl22a"
+        },
+        "root": {
+          "cid": "bafyreig5kyost5p5zsluerliiirjmkp4e5jhsfg5ahqocpxgztkz4nwn2y",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mxgrkzjsos23"
+        }
+      },
+      "text": "Not to pull any sort of rank here, but tech savvy is definitely real.\n\nIt's the ability to independently realize what you can do *without* search or AI.  Just by connecting the dots.\n\nLike realizing what a .wav file is and figuring out how to make sound."
+    },
+    "cid": "bafyreidbzjtigstrcj5ikljz3usdqvmdc6l63bmecyvmdgqgv32ughruqu"
+  }
+}
