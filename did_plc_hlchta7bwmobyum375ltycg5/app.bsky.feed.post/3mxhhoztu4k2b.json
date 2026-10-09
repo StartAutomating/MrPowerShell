@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791565781774943,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxhhp24diy2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxhhoztu4k2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-09T17:09:41.331Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidzk57sedz6w7gk36ldg2ovsokp7277lognmutsbthurjoditywgy",
+          "uri": "at://did:plc:wol5yhmxlhek3phffsmvzfbr/app.bsky.feed.post/3mxgrwq3jns2m"
+        },
+        "root": {
+          "cid": "bafyreig5kyost5p5zsluerliiirjmkp4e5jhsfg5ahqocpxgztkz4nwn2y",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mxgrkzjsos23"
+        }
+      },
+      "text": "Look I'm with you on the first half of this... But the second half is wonk.\n\nYou would be amazed by how many of those computing geniuses  are MSFT or ex MSFT.\n\nOr how much innovation ms has brought to Linux or MacOS.\n\nWindows be like \"Simpsons did it first\" jokes."
+    },
+    "cid": "bafyreideqube7iaybj7ntb4kbuleemfawj6pb6g742ixn3lylvaftahhhu"
+  }
+}
