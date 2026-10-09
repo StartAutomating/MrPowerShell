@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791567034666948,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxhiuexboo2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxhiueqlcs2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-09T17:30:34.272Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreife3uvllwcy2n4llr4fc2wg6ggtpmjfxq66arho36fnvpwwgexzhq",
+          "uri": "at://did:plc:hbbobhr7r6vsenhx224ulfj7/app.bsky.feed.post/3mxhd2vsfi22i"
+        },
+        "root": {
+          "cid": "bafyreigo6476vj73eig24spm7g57mddnlben7khclrqkuca4dnn6m44yn4",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mxgjckrodk2u"
+        }
+      },
+      "text": "Mostly with you but have to burst at least one bubble.\n\nBruce Payette ( the original PowerShell language dev ) is a VI power user.\n\nVI isn't my cup of tea, but some people know how to rock it so well they can produce multiple programming languages."
+    },
+    "cid": "bafyreihqtornohnsabes2ktlsyubfg5t5i7xcoek5h457wwgks7bercnja"
+  }
+}
