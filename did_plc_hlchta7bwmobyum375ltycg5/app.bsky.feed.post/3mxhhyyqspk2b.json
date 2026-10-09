@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791566115895083,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxhhyynuzi2r",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxhhyyqspk2b",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-09T17:15:15.725Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreig5kyost5p5zsluerliiirjmkp4e5jhsfg5ahqocpxgztkz4nwn2y",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mxgrkzjsos23"
+        },
+        "root": {
+          "cid": "bafyreig5kyost5p5zsluerliiirjmkp4e5jhsfg5ahqocpxgztkz4nwn2y",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mxgrkzjsos23"
+        }
+      },
+      "text": "Not sure if I can agree with this one.\n\nLike I want people to be curious and explore.\n\nTry multiple operating systems and different ways with an open mind.\n\nPeople might learn things.\n\nMight be good for 'em.\n\nGod knows cross-pollination has been great for computing ecosystems.\n\nInnovation flowers 💐"
+    },
+    "cid": "bafyreielvobzu2nwcxnwo4zqt3yxii7sg2c4qtke6ll33ltxqtqhffkfwu"
+  }
+}
