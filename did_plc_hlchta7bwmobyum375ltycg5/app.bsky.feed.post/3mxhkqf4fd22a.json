@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791569052376755,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxhkqj7npu25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxhkqf4fd22a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-09T18:04:07.924Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibjnudmvmdu53daw63fsi6tpnqrp3bgfs54kinn6ioeil5cmgsley",
+          "uri": "at://did:plc:hbbobhr7r6vsenhx224ulfj7/app.bsky.feed.post/3mxhj5c4jxs2i"
+        },
+        "root": {
+          "cid": "bafyreigo6476vj73eig24spm7g57mddnlben7khclrqkuca4dnn6m44yn4",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mxgjckrodk2u"
+        }
+      },
+      "text": "Yeah, I'm also not a VI user.\n\nCurrently prefer VSCode, but literally did 3/4d of PowerShell/C# dev work during the Windows 7 ship cycle in notepad.  Will take edit over VI any day.\n\nI'd personally prefer each distro had PowerShell on it, and then we'd be able to make cross-platform/distro UI."
+    },
+    "cid": "bafyreicfmmraaxx4whk3jb5uwuqdurkgedseljqgdeyyxalfeb6rvbly5e"
+  }
+}
