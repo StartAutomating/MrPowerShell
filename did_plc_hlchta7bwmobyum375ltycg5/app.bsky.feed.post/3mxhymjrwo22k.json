@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791583955299597,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxhymnoydp2n",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxhymjrwo22k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-09T22:12:30.993Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreictxsqd3lwkmwd6okauak37nzarcex6aipj34m4pxs3dvq3o43yaq",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mxhwdylkhk2a"
+        },
+        "root": {
+          "cid": "bafyreig5kyost5p5zsluerliiirjmkp4e5jhsfg5ahqocpxgztkz4nwn2y",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mxgrkzjsos23"
+        }
+      },
+      "text": "Yeah, I see that.\n\nIf you want more people using Linux, telling Windows users to stay away seems counterproductive.\n\nThat's why I always prefer the universal superterminal.\n\nBasically gotta shoot myself in the foot to not be cross-platform these days."
+    },
+    "cid": "bafyreiffuhfszc2yfvxjrfego5zmph6j2ppum46szgn73pltrvphrw4ymi"
+  }
+}
