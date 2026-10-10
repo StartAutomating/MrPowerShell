@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791582799702360,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxhxk7ls2f2r",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxhxk3i7us2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-09T21:53:15.144Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib66l2f2jsniqncyr5aabto4mrpl3565zpfrks7ihrij7pj7tu3om",
+          "uri": "at://did:plc:wol5yhmxlhek3phffsmvzfbr/app.bsky.feed.post/3mxhtkjw6fc2c"
+        },
+        "root": {
+          "cid": "bafyreig5kyost5p5zsluerliiirjmkp4e5jhsfg5ahqocpxgztkz4nwn2y",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mxgrkzjsos23"
+        }
+      },
+      "text": "It's cool.\n\nI just know too many awesome devs from both backgrounds to player hate.\n\nThey both can (and should) learn from each other.\n\nsee, related: \n\nEverything is not a file.\n\nEverything is a handle/pointer."
+    },
+    "cid": "bafyreifhnzzzj476di5y7mm7xpul333kbt65zkhisfyy7xak3eu5gaw4dm"
+  }
+}
