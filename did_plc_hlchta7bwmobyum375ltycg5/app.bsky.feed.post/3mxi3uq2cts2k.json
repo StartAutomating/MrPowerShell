@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791587451466370,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxi3utulsw25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxi3uq2cts2k",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-09T23:10:47.22Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiaqnjblqul3uwk2tpox26ezvdb2oz5a6rikfb5fz3s6zjpyyoxcee",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mxhytjx7lk2a"
+        },
+        "root": {
+          "cid": "bafyreig5kyost5p5zsluerliiirjmkp4e5jhsfg5ahqocpxgztkz4nwn2y",
+          "uri": "at://did:plc:7d7hkphd43rwukszjzxya3yh/app.bsky.feed.post/3mxgrkzjsos23"
+        }
+      },
+      "text": "🤷 That behavior is so \"early aughts\" for me.\n\nConsidering how many ways WSL is used, and how MacOS is a fancy Debian skin, I feel like the whole idea of being platform specific should go the way of the dodos.\n\nNow back to making waves for all platforms."
+    },
+    "cid": "bafyreidcalscwmpojqlg26wx55ufbsac7cgjh7zfime7m3ioevhqtj75pe"
+  }
+}
