@@ -52,7 +52,7 @@ $lexiconsById = [Ordered]@{}
 $lexiconFiles |
     ForEach-Object {
         $json = Get-Content -Path $_.FullName -Raw 
-        $jsonObject = ConvertFrom-Json -InputObject $json
+        $jsonObject = ConvertFrom-Json -InputObject $json -AsHashtable
         if (-not $jsonObject.id) { return }
         
         $json > "$($jsonObject.id).json"
@@ -83,20 +83,24 @@ $lexiconHierarchy = [Ordered]@{}
 
 foreach ($lexicon in $AllLexicons) {
     $currentLexicon = $lexiconHierarchy
-    foreach ($nameSegment in $lexicon.id.Split('.')) {
-        if (-not $currentLexicon[$nameSegment]) {
-            $currentLexicon[$nameSegment] = [Ordered]@{}
+    try {
+        foreach ($nameSegment in $lexicon.id.Split('.')) {
+            
+            if (-not $currentLexicon.$nameSegment) {
+                $currentLexicon.$nameSegment = [Ordered]@{}
+            }        
+            $lexiconParent = $currentLexicon
+            $currentLexicon = $currentLexicon[$nameSegment]
         }
-        $lexiconParent = $currentLexicon
-        $currentLexicon = $currentLexicon[$nameSegment]
+        $lastNameSegment = $nameSegment
+        
+        $lexiconParent[$lastNameSegment] = $lexicon.defs
+    }    
+    catch {
+        Write-Warning "Error processing $($lexicon.id): $_"
     }
-    $lastNameSegment = $nameSegment
-    $lexiconParent[$lastNameSegment] = $lexicon.defs
 }
 #endregion Build Lexicon Hierarchy
-
-
-
 
 $AllLexicons |    
     ForEach-Object -Begin {
@@ -117,6 +121,6 @@ $AllLexicons |
 
 ConvertTo-Json -Depth 10 $AllLexicons > .\All.json
 ConvertTo-Json -Depth 10 $lexiconHierarchy > .\Hierarchy.json
-($lexiconsById | ConvertTo-Json -Depth 10) > .\ById.json
+($lexiconsById | ConvertTo-Json -Depth 30) > .\ById.json
 
 Pop-Location
