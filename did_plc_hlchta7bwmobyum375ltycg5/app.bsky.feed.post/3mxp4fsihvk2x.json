@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791828538936790,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxp4fspzf32r",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxp4fsihvk2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-12T18:08:58.375Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih4q2h7fq2pergugvsiot7chfbmd2c6kwjamdtwhvd5q56e7acgam",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxorfxynns2y"
+        },
+        "root": {
+          "cid": "bafyreigeomceixjwzcpzha2wdhtmzxwu3rueggbavvqdq7ulptynv7r3we",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxnoe46y722r"
+        }
+      },
+      "text": "Should eventually get there ( probably not v 0.1 but maybe by Xmas )\n\nWhen you say comp, you mean compare, right ?\n\nAre you doing this mathematically first?"
+    },
+    "cid": "bafyreid7n4acnniwbxq7yyakiij7qbtd26dsnybjx6fpn5clfljhtigwle"
+  }
+}
