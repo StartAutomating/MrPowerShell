@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791828218879335,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxp44bdnlh2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxp44b6dek2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-12T18:03:38.226Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreieaq35gxhjchs6exuqp4z55jofizn2vermkuwmwpziagnntaj2tba",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxorfxmrrk2y"
+        },
+        "root": {
+          "cid": "bafyreigeomceixjwzcpzha2wdhtmzxwu3rueggbavvqdq7ulptynv7r3we",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxnoe46y722r"
+        }
+      },
+      "text": "A major goal of the effort so far has been keeping the code chunks clear and fairly concise, with lots of docs.\n\nBasically trying to write this tool clearly enough that we can all look at it as a reference example for the next several decades."
+    },
+    "cid": "bafyreiheiro3p2wbgv3emz5mr5pn2pvgzpaadvqkdq7gcxz3tdbhypkvsy"
+  }
+}
