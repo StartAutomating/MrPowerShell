@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791830669484910,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxp6f7ey7q2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxp6f74x2c2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-12T18:44:25.557Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidtf2ejzaaeqig3exhimszs3syat2d5hbc5tnxc2zajg5b6mauwsm",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxp6byscxk2b"
+        },
+        "root": {
+          "cid": "bafyreigeomceixjwzcpzha2wdhtmzxwu3rueggbavvqdq7ulptynv7r3we",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxnoe46y722r"
+        }
+      },
+      "text": "Probably in practice, that's up to how .net encodes floats by default.\n\nIt might help ( or hurt ) to know one of my older / nerdier sayings:\n\nThere are lies, damn lies, and floating points."
+    },
+    "cid": "bafyreideqe35zljpvphqwqhrvp3quwrx3sj2bcriwsp6crgiddlsxpl64m"
+  }
+}
