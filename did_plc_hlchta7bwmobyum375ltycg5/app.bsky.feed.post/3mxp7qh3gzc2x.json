@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791832116793775,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxp7qgvnmu2o",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxp7qh3gzc2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-12T19:08:36.738Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigdssxtinytkghoopm3yc3yh27h3725a6qqdnnwjjq2ifupipdeh4",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxp7i3qwus2b"
+        },
+        "root": {
+          "cid": "bafyreigeomceixjwzcpzha2wdhtmzxwu3rueggbavvqdq7ulptynv7r3we",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxnoe46y722r"
+        }
+      },
+      "text": "Btw, Wave basically has similar syntax to Turtle.\n\nAnd they both support emoji.\n\nAka:\n\nWave note cafe play\n\nOr\n\n🌊 Note cafe play"
+    },
+    "cid": "bafyreig3foo5c3f77d7cjhvenwfe5mai32q6c55oyivn2o4ykjkd2vkhsa"
+  }
+}
