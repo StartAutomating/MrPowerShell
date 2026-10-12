@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791831672302003,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxp7cocvnv2a",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxp7cnxj2k2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-12T19:00:54.187Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreicj5kmzqk7gjl2lpeh3n33tkzw6iqrdftirmaooz2vjfhoqglemg4",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxp7arqc5s2b"
+        },
+        "root": {
+          "cid": "bafyreigeomceixjwzcpzha2wdhtmzxwu3rueggbavvqdq7ulptynv7r3we",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxnoe46y722r"
+        }
+      },
+      "text": "Thank you!\n\nWhich one ?\n\n( I'm proud of most of my projects, but I believe there's a lot of variation in their apparent beauty and their computational beauty )"
+    },
+    "cid": "bafyreib44dxm24sngod7krmmnw4ls7x7cbo5pzdfwus2yawhthfbquxux4"
+  }
+}
