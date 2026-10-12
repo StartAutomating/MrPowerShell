@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791828718490115,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxp4l5xwjz25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxp4l5jlkc2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-12T18:11:57.718Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreih4sqecj5mstrqcwq4mb4cvik4ky5ym6eif23w4bvy4xbd5z2ar6y",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxp4i2vcl22b"
+        },
+        "root": {
+          "cid": "bafyreigeomceixjwzcpzha2wdhtmzxwu3rueggbavvqdq7ulptynv7r3we",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxnoe46y722r"
+        }
+      },
+      "text": "Got it.  And with dynamic range compression we are basically talking about a fancier ADSR that picks its window size automatically from peaks and troughs, right ?"
+    },
+    "cid": "bafyreiaiwsjdxxsumajkkba35b3tfi3gvjuqmxnq46k6lo3fgpdwxurrni"
+  }
+}
