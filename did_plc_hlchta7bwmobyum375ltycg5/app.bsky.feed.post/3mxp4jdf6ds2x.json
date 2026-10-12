@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791828656928411,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxp4jdchpg2r",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxp4jdf6ds2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-12T18:10:56.756Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie7ja3pjh67cfq2oqpu4a7dlqsgziifrw3oraxx2ll5blkdbfsbc4",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxp4ehpq3s2b"
+        },
+        "root": {
+          "cid": "bafyreigeomceixjwzcpzha2wdhtmzxwu3rueggbavvqdq7ulptynv7r3we",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxnoe46y722r"
+        }
+      },
+      "text": "How sure are you that 1 fixed point is 0db?\n\n( Seems to comport with some of what I've read, but I'm learning more audio than I ever intended to as I go )"
+    },
+    "cid": "bafyreifr7ubio6nozddixxdtdhlvhmtbqaafasod6q4sa5xwccxzhb5z24"
+  }
+}
