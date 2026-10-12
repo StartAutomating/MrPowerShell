@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791827919570911,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxp3tdyffk2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxp3tdpiw22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-12T17:58:38.897Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihktsycze5xjncqq57iv6clpb3dvvyu7cdxkuslko27d3n7lrkzpq",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxoqxotqns2y"
+        },
+        "root": {
+          "cid": "bafyreigeomceixjwzcpzha2wdhtmzxwu3rueggbavvqdq7ulptynv7r3we",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxnoe46y722r"
+        }
+      },
+      "text": "Standard mastering chain ends up being a byproduct of the object pipeline in PowerShell.\n\nBasically as you get each step right it's easy to apply to any input.\n\nBuilding a \"gentle\" compressor might be a slight challenge, but you can already make any function an envelope."
+    },
+    "cid": "bafyreidmotvdvfpc3pr7ztx3fkpxmfxxgoibx5o5n53yiwhs6b4zbfihuq"
+  }
+}
