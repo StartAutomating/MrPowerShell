@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791828906955316,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxp4qphsfj25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxp4qpm2522x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-12T18:15:04.444Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiby57ueemrqyzxlajqzg7nbyqk5gwth7um5c26qv5tlzrhbv3a6qm",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxp4mj4rzs2b"
+        },
+        "root": {
+          "cid": "bafyreigeomceixjwzcpzha2wdhtmzxwu3rueggbavvqdq7ulptynv7r3we",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxnoe46y722r"
+        }
+      },
+      "text": "Got it ( I think ).\n\nSounds like some \"data over time\" visualization  / direct data access would be helpful.\n\nAka take a sample every N milliseconds, get an annotated sonogram."
+    },
+    "cid": "bafyreihqh2xjbg5hl4yg3iz3jeo3lvhdcivh3vzohryveydalzgxjkrj3m"
+  }
+}
