@@ -1,0 +1,60 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791830946628777,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxp6nhshnh2m",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxp6nhlevk2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-12T18:49:02.854Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Turtle Graphics in PowerShell.  Draw any image with turtles in a powershell.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreiduyrtu7aebnhvojrtb5jrfnazqbhk4h75pfyzlkg53mv3myzhcju"
+            },
+            "mimeType": "image/jpeg",
+            "size": 4412
+          },
+          "title": "Get-Turtle",
+          "uri": "https://psturtle.com/Commands/Get-Turtle"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://psturtle.com/Commands/Get-Turtle"
+            }
+          ],
+          "index": {
+            "byteEnd": 198,
+            "byteStart": 170
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreib6v7fggto2sfx25z6afblxzbzlwuqghh43kxxa5li2zmyryw2dru",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxp6gojr522b"
+        },
+        "root": {
+          "cid": "bafyreigeomceixjwzcpzha2wdhtmzxwu3rueggbavvqdq7ulptynv7r3we",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxnoe46y722r"
+        }
+      },
+      "text": "Yeah.  Floats are one of those cases where 2+2 is not always 4.\n\nReally figured this out when I was making Turtle graphics in PowerShell\n\nCue insanely cool demo page...\n\npsturtle.com/Commands/Get..."
+    },
+    "cid": "bafyreibgu4olghnp3pqtoczqbzlc4iovxdifyakffbd5tf4bgxl4koxuma"
+  }
+}
