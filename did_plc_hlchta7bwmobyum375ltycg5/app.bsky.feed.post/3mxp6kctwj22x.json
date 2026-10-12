@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791830837312093,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxp6kcngsi2r",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxp6kctwj22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-12T18:47:17.229Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreideqe35zljpvphqwqhrvp3quwrx3sj2bcriwsp6crgiddlsxpl64m",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mxp6f74x2c2x"
+        },
+        "root": {
+          "cid": "bafyreigeomceixjwzcpzha2wdhtmzxwu3rueggbavvqdq7ulptynv7r3we",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxnoe46y722r"
+        }
+      },
+      "text": "Tl;dr, the decimal point floats in a float.\n\nHence the name of the type.\n\nA double has two floats inside of it, which basically eliminate the lies of floating point because a near zero is now a sqrt or near zero.\n\n( This may or may not make sense if floats haven't cursed you for years )"
+    },
+    "cid": "bafyreih4iugdhk6od73ukwwuzkbohv7lmslirzhii2jyphyrln3hocim5q"
+  }
+}
