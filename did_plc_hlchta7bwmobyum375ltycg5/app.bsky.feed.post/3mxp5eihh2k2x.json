@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791829569778526,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxp5eirgpl2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxp5eihh2k2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-12T18:26:08.043Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreie52iunbse7nqg6b2vch7zq6fiphaatxqtbw7iuptniqbnecp3hx4",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxp53z6uqc2b"
+        },
+        "root": {
+          "cid": "bafyreigeomceixjwzcpzha2wdhtmzxwu3rueggbavvqdq7ulptynv7r3we",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxnoe46y722r"
+        }
+      },
+      "text": "That confirms it.\n\nFixed points audio *has* to normalize to 1.\n\nI've become a big fan of floating point audio as a side effect of this.\n\nThe default for the project is to encode as [float] and do the math in [double].\n\nThe extra precision during production makes things sound nicer."
+    },
+    "cid": "bafyreigumdsio7xil7lggjqv3dk4drtdfxujweqxaklprizhaq73g4rkpa"
+  }
+}
