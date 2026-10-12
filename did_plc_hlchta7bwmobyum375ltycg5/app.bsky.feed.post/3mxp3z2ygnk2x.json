@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791828112346014,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxp3z3c5vm25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxp3z2ygnk2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-12T18:01:51.079Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreifjyr6hbskubgpe3gqyit6ths2qnabs7prasiqkz4if6jtpwzsm6i",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxoqxpab2c2y"
+        },
+        "root": {
+          "cid": "bafyreigeomceixjwzcpzha2wdhtmzxwu3rueggbavvqdq7ulptynv7r3we",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxnoe46y722r"
+        }
+      },
+      "text": "Variable normalization is a good ask.  Lemme noodle on that one.\n\nMost of my reference frame for volume is the format capability, which is technically 1 to -1 for fixed point audio and huge to -huge for floating point.\n\nStill trying to figure out how to make that decibel friendly."
+    },
+    "cid": "bafyreie7yyp6u2ewt4mfbfckdr7yrqkjcq7sa7m3kzypululkbnyf5npjy"
+  }
+}
