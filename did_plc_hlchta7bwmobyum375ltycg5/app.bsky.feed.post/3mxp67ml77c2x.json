@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791830478894216,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxp67mqr7m2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxp67ml77c2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-12T18:41:18.33Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidt455ctuqkqtrmvq4ur5ts63bnox7kxtyunrxxccmeroqewfrf5e",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mxp64ftnzs2x"
+        },
+        "root": {
+          "cid": "bafyreigeomceixjwzcpzha2wdhtmzxwu3rueggbavvqdq7ulptynv7r3we",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxnoe46y722r"
+        }
+      },
+      "text": "There's an example for envelope that proves this pretty well by comparing and contrasting a polyphony in the envelope ( using double[]) or in the file ( using [float[]])."
+    },
+    "cid": "bafyreicazlm7qvyiksjdxwbttvluuhgoczmvnmzq5ozgbe7r32oulkr6p4"
+  }
+}
