@@ -1,0 +1,51 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791829235003052,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxp52kfyzg24",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxp52km4n22x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-12T18:20:34.748Z",
+      "embed": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+          "cid": "bafyreihvpw423xjmbpunsuni2utbwtduavjit7ixrvsu6uisxxdnjck7ra",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3mubhj7kb5s2o"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://bsky.app/profile/mrpowershell.com/post/3mubhj7kb5s2o"
+            }
+          ],
+          "index": {
+            "byteEnd": 190,
+            "byteStart": 166
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreialtpydeltzuzwoiibag422wp3turdgttyh2ozlbjuqdzxm3njcm4",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxp4uqg2gk2b"
+        },
+        "root": {
+          "cid": "bafyreigeomceixjwzcpzha2wdhtmzxwu3rueggbavvqdq7ulptynv7r3we",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxnoe46y722r"
+        }
+      },
+      "text": "Lol that one is a pretty recent addition.  Happy to support all of the ffmpeg filters.\n\nWrote that one around the same time I realized I already had tools to remix.\n\nbsky.app/profile/mrpo..."
+    },
+    "cid": "bafyreid6md3c5jt5urlsek7ejr4ihftbfdfeqnmsreyw3qaz6k2467jmte"
+  }
+}
