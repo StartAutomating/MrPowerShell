@@ -1,0 +1,30 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1791830370578924,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mxp64fmyvd25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mxp64ftnzs2x",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-12T18:39:30.603Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigoxxhznikngnn5sqzryixfvhjkuwk4nz2kftmfafb3p6fokrx24e",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxp5s7e7oc2b"
+        },
+        "root": {
+          "cid": "bafyreigeomceixjwzcpzha2wdhtmzxwu3rueggbavvqdq7ulptynv7r3we",
+          "uri": "at://did:plc:wyceperrwoan32pv5qzvy63z/app.bsky.feed.post/3mxnoe46y722r"
+        }
+      },
+      "text": "Yeah there's not clipping on export.\n\nBut there *is* rounding.  Basically a float stores data in 4 bytes and a double stores data in 8 bytes, so when you store a double in a float you lose precision.\n\nTrying to basically wait to the last second to encode because of this."
+    },
+    "cid": "bafyreidt455ctuqkqtrmvq4ur5ts63bnox7kxtyunrxxccmeroqewfrf5e"
+  }
+}
