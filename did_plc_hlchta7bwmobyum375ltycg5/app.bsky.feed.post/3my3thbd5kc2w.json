@@ -1,0 +1,47 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1792265608364252,
+  "cursor": 27096602155,
+  "kind": "commit",
+  "commit": {
+    "rev": "3my3thilpdx2f",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3my3thbd5kc2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-17T19:33:20.406Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: Community Fans Secret Handshake.\n\n(until Piece Hawthrone buys it with an Indecent Proposal)",
+          "thumb": {
+            "$type": "blob",
+            "mimeType": "image/jpeg",
+            "ref": {
+              "$link": "bafkreiepkbkp2gx6m6aul6faklu7qsyyvmnhiy6rlngdhssasoqwbp2voe"
+            },
+            "size": 65448
+          },
+          "title": "Community: Troy and Abed's Reaction",
+          "uri": "https://static.klipy.com/ii/c3a19a0b747a76e98651f2b9a3cca5ff/e2/22/XIZni8PH.gif?hh=250&ww=408&mp4=7674E5f8foagR&webm=Q7MJkvZZhDlWGB"
+        }
+      },
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiavaku3ngvrbscdhfmstvv6yqvrntdvnz7f4v3a7m4qhjlfhbrcle",
+          "uri": "at://did:plc:sxuc67664pq3mwjzfntnm2oy/app.bsky.feed.post/3my3rg37vlc2e"
+        },
+        "root": {
+          "cid": "bafyreidsdkdwwmla5wgwubx7atzijbyfnacwumpxbsgwfezphsj7p7fjem",
+          "uri": "at://did:plc:sxuc67664pq3mwjzfntnm2oy/app.bsky.feed.post/3mxzwau5rz22e"
+        }
+      },
+      "text": "Interesting.  Didn't know VLC worked over SSH.\n\nI'm currently working my way thru direct audio generation with PowerShell.  \n\nPixel Buffers are next.  Whenever I get there I suspect we want improve the video quality.\n\nUntil then, nice choice of shows!"
+    },
+    "cid": "bafyreibfvg5o6qqgjc73c4myx2hv4tcu5gpbcyht5p3od6d62ht6aladpm"
+  }
+}
