@@ -1,0 +1,73 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1792708521666645,
+  "cursor": 26327424153,
+  "kind": "commit",
+  "commit": {
+    "rev": "3myipxdka6e2z",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3myipwrwoek2t",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-22T22:35:02.77Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Alt: The More You Know in PowerShell, the more you can do.",
+          "thumb": {
+            "$type": "blob",
+            "mimeType": "image/jpeg",
+            "ref": {
+              "$link": "bafkreiaqbodgzptkt6hyxet4mmr6njwrebsnn2elxkhzdd6zxwikxcpmoy"
+            },
+            "size": 2979
+          },
+          "title": "Now You Know The More You Know PSA",
+          "uri": "https://static.klipy.com/ii/935d7ab9d8c6202580a668421940ec81/79/54/6cUqOweO.gif?hh=374&ww=498&mp4=SqJiU9Dl&webm=kfkV3X6zcvWDL"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$FALSE"
+            }
+          ],
+          "index": {
+            "byteEnd": 153,
+            "byteStart": 147
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "$OBJ"
+            }
+          ],
+          "index": {
+            "byteEnd": 296,
+            "byteStart": 292
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreigqznkez2gs3z67ptni3yb3o6ab2su5ypgze5azpbjw7mnqvvoi6q",
+          "uri": "at://did:plc:6hakn4o42hz5mffdlofynjiy/app.bsky.feed.post/3myihhhwzwc2p"
+        },
+        "root": {
+          "cid": "bafyreigqznkez2gs3z67ptni3yb3o6ab2su5ypgze5azpbjw7mnqvvoi6q",
+          "uri": "at://did:plc:6hakn4o42hz5mffdlofynjiy/app.bsky.feed.post/3myihhhwzwc2p"
+        }
+      },
+      "text": "Yep, and -Confirm:$false says \"I don't want to confirm at all\"\n\nThe crazy part is -WhatIf is basically saying:\n\n\"Anytime I .ShouldProcess\", return $false and write whatever was asked to the terminal.\n\n🤔 wished it returned objs for years, then figured out:\n\nif ($WhatIfPreference) { return $obj }"
+    },
+    "cid": "bafyreib4mkz6rnr5mo27dej4bvctztltyezlig6bczfi6kye3ewacq6l3a"
+  }
+}
