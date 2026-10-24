@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1792870021148997,
+  "cursor": 27342447626,
+  "kind": "commit",
+  "commit": {
+    "rev": "3myngefr6c72g",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3myngefsmqk2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-24T19:27:01.09Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibt4ysibx63jo4tqh3meunf45agoxoqkkb753huuliabufpzhd3vu",
+          "uri": "at://did:plc:hlchta7bwmobyum375ltycg5/app.bsky.feed.post/3myngai3tas2r"
+        },
+        "root": {
+          "cid": "bafyreiag5grh7od7mhwnvfehzpjeqp3y4kdt36qf56sedy2ptz2u5tyioa",
+          "uri": "at://did:plc:vih52wbw6xldmkcpjlizjcsw/app.bsky.feed.post/3myi7tquj3k2o"
+        }
+      },
+      "text": "To clarify the feat and the difference:\n\nWave is direct .wav synthesis and manipulation.  Basically allows anyone to make waves in an interpreted language with zero dependencies.\n\nFfmpeg is great for converting between formats, but raw .wav is still king of audio capabilities."
+    },
+    "cid": "bafyreifpktg4wrtyepkut3zipf66tii3z7l3tosfno7xnsfrzzhas4hq4i"
+  }
+}
