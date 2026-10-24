@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1792870339145089,
+  "cursor": 27342587439,
+  "kind": "commit",
+  "commit": {
+    "rev": "3myngnuwuow27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3myngnveqck2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-24T19:32:19.403Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihfftmu6o4vem2gmtxds6sm7hak252gdpuzxzt7zejkgprvvanpmq",
+          "uri": "at://did:plc:vih52wbw6xldmkcpjlizjcsw/app.bsky.feed.post/3myngj6oonc2m"
+        },
+        "root": {
+          "cid": "bafyreiag5grh7od7mhwnvfehzpjeqp3y4kdt36qf56sedy2ptz2u5tyioa",
+          "uri": "at://did:plc:vih52wbw6xldmkcpjlizjcsw/app.bsky.feed.post/3myi7tquj3k2o"
+        }
+      },
+      "text": "Yeah I get it.\n\nAnd / also, I feel like there can be a simple and clear line between the site / backend being closed and the supporting tooling ecosystem being open.\n\nMy main goal with Wave is making it easy and free for everyone.\n\nWe cannot all afford keyboards and DAWs."
+    },
+    "cid": "bafyreicbcgxpoez733owjqcpulohs5gpgzfq6tcmpzzx53ccuc6s2ni72q"
+  }
+}
