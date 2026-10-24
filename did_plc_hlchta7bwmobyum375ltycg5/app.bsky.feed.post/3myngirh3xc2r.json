@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1792870167641932,
+  "cursor": 27342510786,
+  "kind": "commit",
+  "commit": {
+    "rev": "3myngirgg7n27",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3myngirh3xc2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-24T19:29:27.513Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreibsxcnolwvcs4ttxsseltbo5davenxjpnkriighowije67tjadkf4",
+          "uri": "at://did:plc:vih52wbw6xldmkcpjlizjcsw/app.bsky.feed.post/3mynga6dtu22m"
+        },
+        "root": {
+          "cid": "bafyreiag5grh7od7mhwnvfehzpjeqp3y4kdt36qf56sedy2ptz2u5tyioa",
+          "uri": "at://did:plc:vih52wbw6xldmkcpjlizjcsw/app.bsky.feed.post/3myi7tquj3k2o"
+        }
+      },
+      "text": "Shucks.\n\nI may still be willing to contribute if you'll take the input, but it will take some offline discussions.\n\nFor about the past month I've been making raw wave files in PowerShell.\n\nSo basically been making an open- source Moog."
+    },
+    "cid": "bafyreifjbx2gvhsnjms36nvqvsknfgcgdaiskri3fazw77if6mbyockmkm"
+  }
+}
