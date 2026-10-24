@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1792869888942841,
+  "cursor": 27342388803,
+  "kind": "commit",
+  "commit": {
+    "rev": "3myngahopth2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3myngai3tas2r",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-24T19:24:49.272Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreial3dfwxvjb244iofntltspnvdv7ybg4m35pbxvkcnecorvsml5a4",
+          "uri": "at://did:plc:vih52wbw6xldmkcpjlizjcsw/app.bsky.feed.post/3myng3sujok2m"
+        },
+        "root": {
+          "cid": "bafyreiag5grh7od7mhwnvfehzpjeqp3y4kdt36qf56sedy2ptz2u5tyioa",
+          "uri": "at://did:plc:vih52wbw6xldmkcpjlizjcsw/app.bsky.feed.post/3myi7tquj3k2o"
+        }
+      },
+      "text": "Cool.  The FLAC default will make things slightly trickier to integrate with, but only slightly.\n\nGod bless ffmpeg."
+    },
+    "cid": "bafyreibt4ysibx63jo4tqh3meunf45agoxoqkkb753huuliabufpzhd3vu"
+  }
+}
