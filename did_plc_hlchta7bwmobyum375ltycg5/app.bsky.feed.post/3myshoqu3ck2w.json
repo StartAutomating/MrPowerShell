@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1793043240074845,
+  "cursor": 27417922594,
+  "kind": "commit",
+  "commit": {
+    "rev": "3myshopytsg2h",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3myshoqu3ck2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-26T19:34:00.65Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreidkvk5yjhh7fqtyjnxf3fcn2fehtst63mq7p5ltfoysk3u7oc2qme",
+          "uri": "at://did:plc:phpkua3gmiduqtazzzw6tyem/app.bsky.feed.post/3myseyuqltc2o"
+        },
+        "root": {
+          "cid": "bafyreiafcpgcjm4tsfrvqvyhsxa7wsmzzoa2rkiyg3zr4dlbtx2pg2ja7e",
+          "uri": "at://did:plc:g4thyzzt756bp2tbg2tyusov/app.bsky.feed.post/3myr5pu642k2i"
+        }
+      },
+      "text": "Yeah.  That involves more GUI than you need to stop a process.\n\nAnd GUIs can freeze / lock.\n\nTerminals can, too, but generally have a harder time doing so.\n\nStop-Process is an \"impolite\" exit.  Same as kill."
+    },
+    "cid": "bafyreihq7cveb2bo3c4mla35cr5y3eapancjfvqpudajudb2ni4m35ihru"
+  }
+}
