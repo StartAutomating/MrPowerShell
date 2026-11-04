@@ -1,0 +1,112 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1793820469196056,
+  "cursor": 27759532143,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mzj3jwsiry2d",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mzj3jwfoik2w",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-11-04T19:27:47.777Z",
+      "embed": {
+        "$type": "app.bsky.embed.video",
+        "alt": "#requires -Module Wave, RoughDraft\n\n<#\n.SYNOPSIS\n    Ode to Joy\n.DESCRIPTION\n    Beethoven's Ode to Joy, from Symphony #9\n.LINK\n    https://en.wikipedia.org/wiki/Symphony_No._9_(Beethoven)\n#>\n\n# Score\n\n$ode = @(\n\n    \"E E F G\"\n    \"G F E D\"\n    \"C C D E\"\n    \"E@1.5 D:2 D:2 ~\"\n\n    \"E E F G\"\n    \"G F E D\"\n    \"C C D E\"\n    \"D@1.5 C:2 C:2 ~\"\n\n    \"D D E C\"\n\n    \"D E:2 F:2 E C\"\n\n    \"D E:2 F:2 E D\"\n\n    \"C D G@2\"\n\n    \"E E F G\"\n    \"G F E D\"\n    \"C C D E\"\n\n    \"D C:2 C:2\"\n)\n\n# Make waves\n\n$odeToJoy = wave volume 0.2026 chords 1, 2, 0.5, 0.25 weights (1,1,1,1)  note $ode\n\n# Visuals\n\n$odeToJoy | \n    wave save ./OdeToJoy.wav |\n    Convert-Media -OutputPath ./OdeToJoy.mp3 |\n    Edit-Media -ShowWaveForm -OutputPath ./OdeToJoy.mp4",
+        "aspectRatio": {
+          "height": 240,
+          "width": 600
+        },
+        "presentation": "default",
+        "video": {
+          "$type": "blob",
+          "mimeType": "video/mp4",
+          "ref": {
+            "$link": "bafkreibxoepifhngvmdu5r3p7fuuyyj3ffozh26j4fewblmjwatdleh4oa"
+          },
+          "size": 2620629
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "OdeToJoy"
+            }
+          ],
+          "index": {
+            "byteEnd": 65,
+            "byteStart": 56
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Wave"
+            }
+          ],
+          "index": {
+            "byteEnd": 71,
+            "byteStart": 66
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "RoughDraft"
+            }
+          ],
+          "index": {
+            "byteEnd": 83,
+            "byteStart": 72
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "Music"
+            }
+          ],
+          "index": {
+            "byteEnd": 90,
+            "byteStart": 84
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/PoshWeb/Wave"
+            }
+          ],
+          "index": {
+            "byteEnd": 136,
+            "byteStart": 113
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://github.com/StartAutomating/RoughDraft"
+            }
+          ],
+          "index": {
+            "byteEnd": 202,
+            "byteStart": 176
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "PowerShell reacts to the 2026 midterm election results\n\n#OdeToJoy #Wave #RoughDraft #Music\n\nWaves made with Wave github.com/PoshWeb/Wave\n\nVisuals made with RoughDraft / ffmpeg github.com/StartAutomat...\n\nSource code in alt text"
+    },
+    "cid": "bafyreib5twhi7zuoxms55nedggiye74wcum4ox755pbr3esnznuowlizgm"
+  }
+}
