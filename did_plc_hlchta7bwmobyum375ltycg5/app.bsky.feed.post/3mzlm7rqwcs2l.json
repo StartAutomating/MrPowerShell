@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1793907101164034,
+  "cursor": 26854923053,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mzlm7sg3yn2u",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mzlm7rqwcs2l",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-11-05T19:31:40.44Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreihq6bkn4u72n7scq7bid22apmnstdk6jnsewyvqtjhnh6i54okqwa",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3mzllwiwbbs2l"
+        },
+        "root": {
+          "cid": "bafyreiazasajj6uduqtb2oqbete3bubqwmhuvbh6p5k32yzlwkgui33gpm",
+          "uri": "at://did:plc:y2blbftk3kpgpf6z5fgxfmw4/app.bsky.feed.post/3mzljgemrgs2x"
+        }
+      },
+      "text": "Thanks!\n\nI personally would love to see more little modules in this space, since I constantly see people struggling with ffmpeg for these things.\n\nAnd, as powerful as RoughDraft is, it's way more than is needed for most scenarios.\n\nIsolated little modules seem like the ticket."
+    },
+    "cid": "bafyreigutar6avk2yf3r26xnqaxvp7kucnpcinsr3y5k3wogpd4duq6aty"
+  }
+}
