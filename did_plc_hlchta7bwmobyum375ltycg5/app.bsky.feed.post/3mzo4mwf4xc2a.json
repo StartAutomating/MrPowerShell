@@ -1,0 +1,31 @@
+{
+  "did": "did:plc:hlchta7bwmobyum375ltycg5",
+  "time_us": 1793993440678557,
+  "cursor": 27842034052,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mzo4mw4zvi25",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mzo4mwf4xc2a",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-11-06T19:30:40.857Z",
+      "langs": [
+        "en"
+      ],
+      "reply": {
+        "parent": {
+          "cid": "bafyreiausjlpfy7gvosfekm3r6swbejxolaldotn366ehznuhrakvh5xnq",
+          "uri": "at://did:plc:clie37yk74fqfoc67rrhvdsj/app.bsky.feed.post/3mzngi7s43s2l"
+        },
+        "root": {
+          "cid": "bafyreiausjlpfy7gvosfekm3r6swbejxolaldotn366ehznuhrakvh5xnq",
+          "uri": "at://did:plc:clie37yk74fqfoc67rrhvdsj/app.bsky.feed.post/3mzngi7s43s2l"
+        }
+      },
+      "text": "They are the easier alternative to their older siblings:\n\n-contains and -notcontains\n\nThese operators can be annoying because they put the list on the left.\n\n1,2,3 -contains 1\n\nOr \n\n1 -in 1,2,3"
+    },
+    "cid": "bafyreiagy6irrsgliniiehxxsprmglq225feo2fcsbe6hy2scultgyktki"
+  }
+}
