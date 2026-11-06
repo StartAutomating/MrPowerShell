@@ -502,6 +502,9 @@ $options = [Ordered]@{
     place-items: center;
 }
 .panInput {width: 100%; }
+fieldset { 
+    background-color:color-mix(in srgb, var(--background) 66.6%, transparent);
+}
 </style>
 
 <fieldset class='pan-and-gain'>    
@@ -605,11 +608,13 @@ $(
         <section class='left-scopes'>
         $(
             'Show Left Scope' | . checkbox checked
+            'Curve Left Scope'| . checkbox checked
             'Fill Left Scope' | . checkbox  
             $(if ($site.includes.SelectColor) {
                 . $site.Includes.SelectColor -id SelectLeftColor -Selected 'brightGreen'
-            })
+            })            
             'Show Left Radial' | . checkbox checked
+            'Curve Left Radial'| . checkbox checked
             'Fill Left Radial' | . checkbox            
             'Left Radial Frequency' | 
                 slider "min='1' max='8' value='2'"
@@ -620,9 +625,11 @@ $(
         <section class='mono-scopes'>
         $(
             'Show Mono Scope' | . checkbox checked
+            'Curve Mono Scope'| . checkbox checked
             'Fill Mono Scope' | . checkbox
             $(if ($site.includes.SelectColor) { . $site.Includes.SelectColor -Selected 'cyan' })
             'Show Radial Scope' | . checkbox checked
+            'Curve Radial Scope'| . checkbox checked
             'Fill Radial Scope' | . checkbox
             'Radial Frequency' | 
                 slider "min='1' max='8' value='2'"
@@ -633,11 +640,13 @@ $(
         <section class='right-scopes'>
         $(
             'Show Right Scope' | . checkbox checked
+            'Curve Right Scope'| . checkbox checked
             'Fill Right Scope' | . checkbox
             $(if ($site.includes.SelectColor) {
                 . $site.includes.SelectColor -id SelectRightColor -Selected 'brightRed'
             })            
             'Show Right Radial' | . checkbox checked
+            'Curve Right Radial'| . checkbox checked
             'Fill Right Radial' | . checkbox
             'Right Radial Frequency' | 
                 slider "min='1' max='8' value='2'"
@@ -1400,7 +1409,7 @@ async function ShowVisualizer() {
         }
         else if (document.getElementById('showCustomColor')?.checked) {
             // If we wanted to use a custom color, change values accordingly
-            foregroundColor = document.getElementById('customColor').value            
+            foregroundColor = document.getElementById('customColor').value
             if (turtlePath) {                
                 turtlePath.style.setProperty('--foreground', foregroundColor)
             }
@@ -1478,37 +1487,45 @@ async function ShowVisualizer() {
                 // we have to start the line at the first point
                 // every other point is a line segment.
                 if (i === 0) { scopePath.push(``M `${x} `${y}``)
-                } else { scopePath.push(``L `${x} `${y}``) }
+                } else { scopePath.push(``T `${x} `${y}``) }
                 // Increment our x and continue to the next point
                 x += sliceWidth;
             }
 
             // Congratulations, we now have a path of our first ossiloscope!            
-            const scopePath2D = new Path2D(scopePath.join(' '))
+            let scopePath2D = new Path2D(scopePath.join(' '))
             // just set the color
             if (channelNames[scopeIndex] == "mono") {
-                visualsCanvas2d.strokeStyle = foregroundColor
+                visualsCanvas2d.strokeStyle = ``color-mix(in srgb, `${foregroundColor} 66.6%, transparent)``
                 visualsCanvas2d.fillStyle = foregroundColor
-                if (style.getPropertyValue('--show-mono-scope') <= 0 ) continue nextScope                
+                if (style.getPropertyValue('--show-mono-scope') <= 0 ) continue nextScope
+                if (style.getPropertyValue('--curve-mono-scope') <= 0 ) {
+                    scopePath2D = new Path2D(scopePath.join(' ').replaceAll("T", "L"));
+                }
                 if (style.getPropertyValue('--fill-mono-scope') > 0) {
                     visualsCanvas2d.fill(scopePath2D)
                 }
                 visualsCanvas2d.stroke(scopePath2D)
             }
             if (channelNames[scopeIndex] == "right") {
-                visualsCanvas2d.strokeStyle = rightColor
+                visualsCanvas2d.strokeStyle = ``color-mix(in srgb, `${rightColor} 66.6%, transparent)``
                 visualsCanvas2d.fillStyle = rightColor
                 if (style.getPropertyValue('--show-right-scope') <= 0 ) continue nextScope
-                
+                if (style.getPropertyValue('--curve-right-scope') <= 0 ) {
+                    scopePath2D = new Path2D(scopePath.join(' ').replaceAll("T", "L"));
+                }
                 if (style.getPropertyValue('--fill-right-scope') > 0) {
                     visualsCanvas2d.fill(scopePath2D)
                 }
                 visualsCanvas2d.stroke(scopePath2D)
             }
             if (channelNames[scopeIndex] == "left") {
-                visualsCanvas2d.strokeStyle = leftColor
+                visualsCanvas2d.strokeStyle = ``color-mix(in srgb, `${leftColor} 66.6%, transparent)``
                 visualsCanvas2d.fillStyle = leftColor
                 if (style.getPropertyValue('--show-left-scope') <= 0 ) continue nextScope
+                if (style.getPropertyValue('--curve-left-scope') <= 0 ) {
+                    scopePath2D = new Path2D(scopePath.join(' ').replaceAll("T", "L"));
+                }
                 if (style.getPropertyValue('--fill-left-scope') > 0) {
                     visualsCanvas2d.fill(scopePath2D)
                 }
@@ -1559,36 +1576,44 @@ async function ShowVisualizer() {
                 if (angle === 0) {
                     scopePath.push(``M `${x} `${y}``)
                 } else {
-                    scopePath.push(``L `${x} `${y}``)
+                    scopePath.push(``T `${x} `${y}``)
                 }
             }
                                     
             // Congratulations, we now have a radial ossiloscope!
-            const scopePath2D = new Path2D(scopePath.join(' '))
+            let scopePath2D = new Path2D(scopePath.join(' '))
             // just set the color
             if (channelNames[scopeIndex] == "mono") {
-
-                visualsCanvas2d.strokeStyle = foregroundColor
+                visualsCanvas2d.strokeStyle = ``color-mix(in srgb, `${foregroundColor} 66.6%, transparent)``
                 visualsCanvas2d.fillStyle = foregroundColor
                 if (style.getPropertyValue('--show-radial-scope') <= 0) continue nextScope
+                if (style.getPropertyValue('--curve-mono-scope') <= 0 ) {
+                    scopePath2D = new Path2D(scopePath.join(' ').replaceAll("T", "L"));
+                }
                 if (style.getPropertyValue('--fill-radial-scope') > 0) {                    
                     visualsCanvas2d.fill(scopePath2D, 'evenodd')
                 }
                 visualsCanvas2d.stroke(scopePath2D)
             }
             else if (channelNames[scopeIndex] == "right") {
-                visualsCanvas2d.strokeStyle = rightColor
+                visualsCanvas2d.strokeStyle = ``color-mix(in srgb, `${rightColor} 66.6%, transparent)``
                 visualsCanvas2d.fillStyle = rightColor
                 if (style.getPropertyValue('--show-right-radial') <= 0) continue nextScope
+                if (style.getPropertyValue('--curve-right-radial') <= 0 ) {
+                    scopePath2D = new Path2D(scopePath.join(' ').replaceAll("T", "L"));
+                }
                 if (style.getPropertyValue('--fill-right-radial') > 0) {                
                     visualsCanvas2d.fill(scopePath2D, 'evenodd')                
                 }
                 visualsCanvas2d.stroke(scopePath2D)
             }
-            else if (channelNames[scopeIndex] == "left") {
-                visualsCanvas2d.strokeStyle = leftColor
+            else if (channelNames[scopeIndex] == "left") {                
+                visualsCanvas2d.strokeStyle = ``color-mix(in srgb, `${leftColor} 66.6%, transparent)``
                 visualsCanvas2d.fillStyle = leftColor
                 if (style.getPropertyValue('--show-left-radial') <= 0) continue nextScope
+                if (style.getPropertyValue('--curve-left-radial') <= 0 ) {
+                    scopePath2D = new Path2D(scopePath.join(' ').replaceAll("T", "L"));
+                }
                 if (style.getPropertyValue('--fill-left-radial') > 0) {
                     visualsCanvas2d.fill(scopePath2D, 'evenodd')
                 }
@@ -1642,7 +1667,7 @@ async function ShowVisualizer() {
     draw();
 }
 for (const input of [...document.body.querySelectorAll('input')]) {
-    console.log('Found Input' + input.id)
+    console.log('Found Input:' + input.id)
     input.addEventListener('change', (e) => {
         console.log('Input changed' + e.target.id)
         if (e.target.id && e.target.value) {
